@@ -313,7 +313,9 @@ export async function renderPage(url) {
   if (opened.code !== 0) throw new Error(`open failed: ${(opened.err || opened.out).trim().split("\n")[0] || `exit ${opened.code}`}`);
   const waited = await axi(["wait", String(RENDER_WAIT_MS)], RENDER_WAIT_MS + 30_000);
   if (waited.code !== 0) console.error(`warn: ${AXI} wait failed for ${url}: ${(waited.err || waited.out).trim().split("\n")[0]}`);
-  const ev = await axi(["eval", `(${browseScript.toString()})()`], 60_000);
+  // `--full`: without it the CLI truncates a result bigger than ~8 kB mid-JSON (animista's link list)
+  const ev = await axi(["eval", `(${browseScript.toString()})()`, "--full"], 60_000);
+  if (/Result was truncated/i.test(ev.out)) throw new Error("eval output was truncated by chrome-devtools-axi");
   const parsed = parseEvalResult(ev.out);
   if (!parsed) throw new Error(`eval returned no parsable result (exit ${ev.code})`);
   return { url, fetched_at: new Date().toISOString(), links: parsed.links || [], anchors: parsed.anchors || [] };
