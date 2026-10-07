@@ -110,9 +110,11 @@
       "ui-aceternity-com",
       "eldoraui-site",
       "hover-dev",
-      "uselayouts-com"
+      "uselayouts-com",
+      "github-com-karanchandekar-animated-component-library"
     ],
-    "note": "animated kits"
+    "note": "animated kits",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "21st.dev react components",
@@ -273,9 +275,14 @@
       "uibeats-com",
       "uibeats-com/shimmer-button",
       "ds-interlace-tools",
-      "ds-interlace-tools/shimmer-button"
+      "ds-interlace-tools/shimmer-button",
+      "uiable-com/button-animated",
+      "www-vengenceui-com/animated-button",
+      "eldoraui-site/animated-shiny-button",
+      "microinteractionsui-com/animated-buttons"
     ],
-    "note": "component: animated button"
+    "note": "component: animated button",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "animation library",
@@ -401,9 +408,14 @@
     "expect_any": [
       "animatedbuttons-colorion-co",
       "text-effects-colorion-co",
-      "toggles-colorion-co"
+      "toggles-colorion-co",
+      "21st-dev/llaxmi-tilt-card",
+      "21st-dev/codehagen-display-cards",
+      "uselayouts-com",
+      "microinteractionsui-com"
     ],
-    "note": "color / effects"
+    "note": "color / effects",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "design rules for agents",
@@ -449,9 +461,15 @@
       "kinetics-colorion-co",
       "transitions-dev",
       "orbs-jakubantalik-com",
-      "text-effects-colorion-co"
+      "text-effects-colorion-co",
+      "github-com-chrisabdo-motionvariants",
+      "github-com-motiondivision-motion",
+      "motion-dev",
+      "tailark-com/motion-primitives-animated-group",
+      "sv-animations-vercel-app/motion-grid"
     ],
-    "note": "Turkish — motion"
+    "note": "Turkish — motion",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "ikon",
@@ -459,9 +477,15 @@
       "hugeicons-com",
       "github-com-lucide-icons-lucide",
       "iconify-design",
-      "3dicons-co"
+      "3dicons-co",
+      "github-com-react-icons-react-icons",
+      "ionic-io-ionicons",
+      "thenounproject-com",
+      "svgator-com-blog-ui-animation-mobile-apps-android-ios/animated-icon-pack-communication",
+      "svgator-com-blog-ui-animation-mobile-apps-android-ios/animated-icons-communication-pack-coral"
     ],
-    "note": "Turkish — icons"
+    "note": "Turkish — icons",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "renk paleti",
@@ -470,9 +494,11 @@
       "colorhunt-co",
       "colorion-co",
       "mycolor-space",
-      "colormind-io"
+      "colormind-io",
+      "colorbox-io"
     ],
-    "note": "Turkish — color"
+    "note": "Turkish — color",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "bölüm galerisi",
@@ -491,26 +517,38 @@
       "github-com-itsjavi-glasscn-ui",
       "markodenic-com-tools-glassmorphism-css-generator",
       "github-com-rdev-liquid-glass-react",
-      "github-com-dashersw-liquid-glass-js"
+      "github-com-dashersw-liquid-glass-js",
+      "21st-dev/kedhareswer-glass-cards",
+      "kokonutui-com/liquid-glass-card",
+      "21st-dev/jahed-glass-testimonial-swiper",
+      "svgator-com-blog-ui-animation-mobile-apps-android-ios/animated-glass-card-slide-in-and-out-effects"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "real app screens for mobile onboarding flows",
     "expect_any": [
       "mobbin-com",
       "pageflows-com",
-      "mobbin-design"
+      "mobbin-design",
+      "screensdesign-com",
+      "appllama-io"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "bouncy spring animations for buttons",
     "expect_any": [
       "kinetics-colorion-co",
-      "fluid-functionalism-vercel-app"
+      "fluid-functionalism-vercel-app",
+      "shadcn-io/flip-button",
+      "beui-dev/button",
+      "beui-dev-components-motion-button"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "free vector illustrations for a website",
@@ -530,9 +568,12 @@
       "mockuuups-studio",
       "mocku-co",
       "hano-so",
-      "smartmockups-com"
+      "smartmockups-com",
+      "shadcn-io/iphone-15-pro",
+      "21st-dev/solaceui-phone-mockups-1"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "admin panel template with charts",
@@ -541,9 +582,15 @@
       "ui-watermelon-sh",
       "shadcnuikit-com-dashboard-crm",
       "shadcnadmin-com-nextjs-ecommerce-dashboard",
-      "evilcharts-com"
+      "evilcharts-com",
+      "boardui-com/home-dashboard",
+      "7ovr-com/dashboard",
+      "shadcnexamples-com/website-analytics-admin-dashboard",
+      "boardui-com",
+      "github-com-yaminncco-deska-dashboard-template"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "typewriter and glitch text animations",
@@ -560,9 +607,12 @@
       "cssloaders-colorion-co",
       "loading-ui-com",
       "dotmatrix-zzzzshawn-cloud",
-      "sv-matrix-vercel-app"
+      "sv-matrix-vercel-app",
+      "ui-kitze-io/full-page-spinner",
+      "21st-dev/ruixen-ui-loading-circle"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "what to show when a list has no items",
@@ -576,9 +626,13 @@
     "expect_any": [
       "pricingpages-design",
       "github-com-aymanch-03-shadcn-pricing-page",
-      "shipixen-com-shadcn-pricing-page"
+      "shipixen-com-shadcn-pricing-page",
+      "21st-dev/lavikatiyar-pricing",
+      "21st-dev/uniquesonu-interactive-pricing-component",
+      "21st-dev/ruixen-ui-ruixen-pricing-04"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "stop my ai generated ui from looking generic",
@@ -588,9 +642,15 @@
       "github-com-nutlope-hallmark",
       "skills-sh-nutlope-hallmark",
       "skills-sh-pbakaus-impeccable",
-      "uirules-com"
+      "uirules-com",
+      "github-com-leonxlnx-taste-skill",
+      "github-com-mickeyalton33-web-designer-plugin",
+      "github-com-miqdadbadjuber-anti-slop",
+      "tasteskill-dev",
+      "github-com-carmahhawwari-ui-design-brain"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
   },
   {
     "q": "smooth scrolling library",
