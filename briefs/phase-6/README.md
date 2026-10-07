@@ -40,7 +40,10 @@ the same domain. The numbers above are per domain.
 
 1. The project is in git (`main` → github.com/caisergan/design-tools-mcp, **public**). Give each agent its own
    branch or worktree, and review its diff before merging. `harvest/` is gitignored; never commit it.
-2. Agents never need the 21st.dev API key. Do not put it in any brief, file or environment they can see.
+2. `catalog/corpus/`, `catalog/items/` and `catalog/search-index.json` are gitignored, so a new worktree has none of
+   them. Symlink each worktree's `catalog/corpus` to the main checkout's (shared; briefs write different files), and
+   copy `catalog/items/` + `search-index.json` into a worktree that runs `bun tools/index.mjs`.
+3. Agents never need the 21st.dev API key. Do not put it in any brief, file or environment they can see.
 
 ## Shared rules (repeated inside each brief)
 

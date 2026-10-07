@@ -10,26 +10,32 @@ and turn them into items marked `gated` (installing the code needs the user's ow
 Runtime: `bun`, plain ESM, no npm dependencies. Helpers: `tools/lib.mjs` (`FILE`, `loadJSON`, `saveJSON`, `slug`),
 `tools/tag.mjs` (`tagItem`, `loadTagOverrides`). Read `tools/items.mjs` first; your adapter follows its style.
 
-## The endpoint (verified 2026-10-07)
+## The source (verified 2026-10-07)
 - Sitemap: `https://21st.dev/sitemap.xml` (a single urlset, ~12,400 URLs). Component pages match
-  `^/@([^/]+)/components/([^/]+)/?$`.
-- `GET https://21st.dev/r/<author>/<name>` without auth returns **403** `application/json`:
-  ```json
-  {"error":"Authentication required","reason":"authentication_required",
-   "component":{"name":"mac-book-neo-hero","title":"MacBook Neo Hero","description":"Scroll-driven image-sequence hero …",
-                "author":"jean.duthil13","url":"/@jean.duthil13/components/mac-book-neo-hero"}}
+  `^/@([^/]+)/components/([^/]+)/?$` (~7,400).
+- **`/r/` and `/api/` are disallowed in robots.txt — never request them.** Component pages themselves are allowed
+  (`Allow: /`, `Content-Signal: ai-input=yes`).
+- A component page's raw HTML (server-rendered) already carries what we need, e.g.
+  `GET https://21st.dev/@jean.duthil13/components/mac-book-neo-hero`:
+  ```html
+  <title>MacBook Neo Hero | Community Components | 21st</title>
+  <meta name="description" content="Scroll-driven image-sequence hero with floating glass step cards. …">
   ```
-  That `component` object is all you keep.
+  Keep only: title (strip the trailing ` | … | 21st` suffix), description (decode HTML entities), plus author and
+  name from the URL.
 
 ## What to build — new `tools/api-21st.mjs`
 1. `bun tools/api-21st.mjs --fetch [--limit=N] [--refresh]`
-   - First read `https://21st.dev/robots.txt`. If `/r/` is disallowed for `*`, **stop and report**; do not continue.
+   - First read `https://21st.dev/robots.txt`. If the component pages (`/@…/components/…`) are disallowed for `*`,
+     **stop and report**; do not continue. Never request `/r/` or `/api/` paths.
    - Component list: `catalog/corpus/sites/21st.dev/sitemap.json` if it exists (`.urls[].loc`), else download
      `sitemap.xml` yourself.
-   - For each component, GET `/r/<author>/<name>`. Keep `name, title, description, author, url` from the 403 body
-     (or from a 200 registry JSON, if one comes back — but **never store `files` / source code**).
+   - For each component, GET its page and parse it with an exported pure function
+     `parsePage(html) → { title, description } | null` (regex over `<title>` and `<meta name="description">`, fall back
+     to `og:title` / `og:description`). **Never store the HTML or any source code** — only the parsed fields.
    - Store in `catalog/corpus/sites/21st.dev/components.json`:
-     `{ "fetched_at": "...", "items": { "<author>/<name>": { "title", "description", "status", "fetched_at" } } }`.
+     `{ "fetched_at": "...", "items": { "<author>/<name>": { "title", "description", "status", "fetched_at" } } }`
+     (`status` = HTTP status; keep failed ones with their status so the run doesn't retry them unless `--refresh`).
      Save every 200 components so a stopped run resumes; skip keys already present unless `--refresh`.
    - **Politeness:** one request at a time, ≤ 2 requests/s, UA
      `Mozilla/5.0 (compatible; design-tools-catalog/1.0; +local)`, **no auth headers, no API key**. Honour
@@ -51,13 +57,14 @@ Runtime: `bun`, plain ESM, no npm dependencies. Helpers: `tools/lib.mjs` (`FILE`
    ```
    Skip ids already in `taken`. Return `[]` for any other domain.
    **Do not wire it into `tools/items.mjs`** — the coordinator does that.
-4. **New `tools/api-21st.test.mjs`** (no network): 403-body parsing, a 200 body with `files` stores no code, id/slug,
+4. **New `tools/api-21st.test.mjs`** (no network): `parsePage` on a fixture HTML (title suffix stripped, entities
+   decoded, og fallback, a page with neither → null), id/slug,
    tagging from title not description, category tagging, dedupe.
 
 ## Do not
 - Edit `tools/items.mjs`, `tools/mcp.mjs`, `tools/search.mjs`, `catalog/catalog.json`.
 - Use or ask for any 21st.dev API key or login.
-- Store component source code.
+- Store component source code or page HTML. Request `/r/` or `/api/` paths.
 - Run `bun tools/build.mjs`. Read `catalog/catalog.json` or `catalog/corpus/` whole.
 
 ## Done when
