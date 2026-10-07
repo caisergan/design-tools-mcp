@@ -1,0 +1,11 @@
+{
+  "match": [
+    "/components/{name}",
+    "/components/{element}/{*}",
+    "/patterns/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /components/{name} (37 children, 62% element-tagged); /components/{element}/{*} (30 children, 100% element-tagged); /patterns/{name} (30 children, 10% element-tagged)"
+}

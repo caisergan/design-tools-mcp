@@ -1,0 +1,11 @@
+{
+  "match": [
+    "/docs/animations/{name}",
+    "/brutal/components/{name}",
+    "/sections/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /docs/animations/{name} (104 children, 48% element-tagged); /brutal/components/{name} (35 children, 89% element-tagged); /sections/{name} (34 children, 47% element-tagged)"
+}

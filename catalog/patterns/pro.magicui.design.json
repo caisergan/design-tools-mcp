@@ -1,0 +1,9 @@
+{
+  "match": [
+    "/docs/sections/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /docs/sections/{name} (12 children, 100% element-tagged)"
+}

@@ -1,0 +1,8 @@
+{
+  "match": "/sites/{name}",
+  "element": "footer",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "One page per footer example, named after the site: /sites/<company> (695; e.g. /sites/108-supply = 'Footer | 108 Supply', 200 OK checked 2026-10-07). /types/<industry> (81) and /styles/<style> (36) are industry/style filters, not taxonomy variants, and /browse ships no links in its HTML (JS-rendered), so there is no variants_from."
+}

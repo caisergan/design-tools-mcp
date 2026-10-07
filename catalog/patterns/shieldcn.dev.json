@@ -1,0 +1,10 @@
+{
+  "match": [
+    "/docs/{element}/{*}",
+    "/docs/badges/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /docs/{element}/{*} (54 children, 100% element-tagged); /docs/badges/{name} (53 children, 0% element-tagged)"
+}

@@ -1,0 +1,16 @@
+{
+  "match": [
+    "/get-started/web/components/content-blocks/{element}/{*}",
+    "/get-started/web/components/backgrounds-visuals/{element}/{*}",
+    "/get-started/web/components/special-elements/{element}/{*}",
+    "/get-started/web/components/backgrounds-visuals/backgrounds/{name}",
+    "/get-started/web/components/ui-components/forms/{name}",
+    "/get-started/web/components/content-blocks/testimonials/{name}",
+    "/get-started/web/components/animations-motion/scroll-reveals/{name}",
+    "/get-started/web/components/media/light-boxes/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /get-started/web/components/content-blocks/{element}/{*} (72 children, 100% element-tagged); /get-started/web/components/backgrounds-visuals/{element}/{*} (29 children, 100% element-tagged); /get-started/web/components/special-elements/{element}/{*} (28 children, 100% element-tagged); /get-started/web/components/backgrounds-visuals/backgrounds/{name} (23 children, 100% element-tagged); /get-started/web/components/ui-components/forms/{name} (23 children, 100% element-tagged); /get-started/web/components/content-blocks/testimonials/{name} (20 children, 45% element-tagged); /get-started/web/components/animations-motion/scroll-reveals/{name} (14 children, 36% element-tagged); /get-started/web/components/media/light-boxes/{name} (13 children, 100% element-tagged)"
+}

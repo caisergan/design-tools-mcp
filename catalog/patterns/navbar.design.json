@@ -1,0 +1,8 @@
+{
+  "match": "/navbars/{name}",
+  "element": "navbar",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "One page per navbar example: /navbars/<company> (29 of the 30 /navbars URLs — /navbars is the index; e.g. /navbars/stripe-dot-dev = 'Stripe dot dev navbar … sticky navigation example', 200 OK checked 2026-10-07). No variants_from: the /type/<kind> pages render their per-kind list client-side — their HTML holds only the same six 'latest navbars' links on every kind page (checked by diffing v-dropdown / v-static / v-mega-menu / v-mobile), which would tag those six with all seven kinds. /style/<style> pages are styles, not variants."
+}

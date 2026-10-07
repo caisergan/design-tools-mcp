@@ -1,0 +1,9 @@
+{
+  "match": [
+    "/sections/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /sections/{name} (679 children, 82% element-tagged); /tag/{name} (31 children, 3% element-tagged); /section-type/{name} (21 children, 57% element-tagged); /category/{name} (11 children, 45% element-tagged); removed after review (listing/taxonomy pages, not items): /tag/{name}, /section-type/{name}, /category/{name}"
+}

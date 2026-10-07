@@ -1,0 +1,14 @@
+{
+  "match": [
+    "/block/{name}",
+    "/animated-components/{name}",
+    "/components/{name}",
+    "/animated-components/category/{name}",
+    "/blocks/{name}",
+    "/dashboard/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /block/{name} (189 children, 67% element-tagged); /animated-components/{name} (131 children, 62% element-tagged); /components/{name} (30 children, 97% element-tagged); /animated-components/category/{name} (26 children, 65% element-tagged); /blocks/{name} (22 children, 59% element-tagged); /dashboard/{name} (12 children, 100% element-tagged)"
+}

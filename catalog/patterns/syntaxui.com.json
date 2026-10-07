@@ -1,0 +1,11 @@
+{
+  "match": [
+    "/components/{element}/{*}",
+    "/components/button/{name}",
+    "/components/loaders/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /components/{element}/{*} (34 children, 100% element-tagged); /components/button/{name} (15 children, 100% element-tagged); /components/loaders/{name} (14 children, 0% element-tagged)"
+}

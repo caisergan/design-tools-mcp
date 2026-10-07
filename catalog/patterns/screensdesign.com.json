@@ -1,0 +1,9 @@
+{
+  "match": [
+    "/explore/ui-elements/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /explore/ui-elements/{name} (93 children, 72% element-tagged)"
+}

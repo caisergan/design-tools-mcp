@@ -1,0 +1,7 @@
+{
+  "match": ["/components/{element}", "/components/{name}"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "One docs page per daisyUI component: /components/<name>/ (68; e.g. /components/navbar/, /components/aura/ = 'Tailwind Aura Component – daisyUI'). The first template captures the element when the component name is a taxonomy id or alias (navbar, button, card …), the second keeps the rest (aura, join, kbd, mockup-browser …) as items tagged from their name; both slug the same path segment, so ids stay stable. /docs/install/* and /blog/* are not components."
+}

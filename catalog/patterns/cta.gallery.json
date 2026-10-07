@@ -1,0 +1,11 @@
+{
+  "match": "/cta/{name}",
+  "element": "cta",
+  "granularity": "example",
+  "access": "page",
+  "variants_from": {
+    "with-form": "/categories/form"
+  },
+  "status": "hand",
+  "note": "One page per CTA example: /cta/<company> (507; e.g. /cta/get-ripe = 'Get-ripe | Call-to-Action Design Inspiration'). /categories/<kind> lists the examples of one kind (8 kinds); only 'form' names a cta variant (with-form), the rest are content kinds (button, download, navigation, pricing, newsletter, modal-pop-up, call-to-buy) with no taxonomy variant. /industry/ (25) and /mode/ (light, dark) are filters, not variants."
+}

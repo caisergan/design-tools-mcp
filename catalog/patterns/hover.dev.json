@@ -1,0 +1,7 @@
+{
+  "match": "/components/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "One page per component category: /components/<kind> (30; e.g. /components/navigation = 'Animated Navigation Components for React and TailwindCSS', 200 OK checked 2026-10-07). The sitemap has no per-component URLs, so a category page is the finest item; elements come from tagItem on the name (navigation → navbar, buttons → button, heros → hero, notifications → toast, toggles → switch …)."
+}

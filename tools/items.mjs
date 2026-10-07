@@ -11,6 +11,7 @@ import { readdirSync, existsSync, readFileSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { FILE, OUT, loadJSON, saveJSON, slug } from "./lib.mjs";
 import { tagItem, loadTagOverrides, SKIP_TYPE } from "./tag.mjs";
+import { loadFilters, loadPattern, loadSitemap, sitemapScan } from "./sitemap-items.mjs";
 
 export const ITEMS_DIR = join(OUT, "items");
 const SITES = join(FILE.corpus, "sites");
@@ -124,6 +125,7 @@ function registryItems(domain, parent, ov) {
 const COMPONENT_SEGMENT = /^(components?|blocks?|ui|sections?|elements|primitives|effects|animations?|backgrounds|text-animations|widgets|patterns|charts|buttons|cards|inputs|layouts?|navigation|overlays?|feedback|forms?|data-display)$/i;
 const SKIP_SEGMENT = /^(blog|posts?|news|changelog|releases?|careers|jobs|legal|privacy|terms|pricing|about|contact|press|showcase|customers|stories|compare|vs|alternatives|glossary|api|reference|llms|guides?|tutorials?|articles|help|support|faq|getting-started|installation|introduction|migration|cli|mcp|theming|themes?)$/i;
 const LOCALE = /^(cn|zh|zh-cn|zh-hans|zh-hant|zh-tw|ja|jp|ko|kr|fr|de|es|pt|pt-br|ru|it|id|tr|vi|th|pl|nl|ar|hi|uk|he|sv|da|fi|no|nb|cs|hu|ro|el|bg|fa|ms)$/i;
+export { COMPONENT_SEGMENT, SKIP_SEGMENT, LOCALE };
 // Only design entries get docs-page items: a Stripe API reference or a support centre also has "elements" and "contact" pages.
 const UI_CATEGORIES = new Set(["components", "sections", "inspiration", "templates", "motion", "color-effects", "layout", "registries"]);
 const LINK = /^\s*[-*]\s*\[([^\]]+)\]\(([^)\s]+)\)(?:\s*[:—–-]\s*(.*))?$/gm;
@@ -202,10 +204,14 @@ function llmsItems(domain, parent, ov, taken) {
 
 // ---------------------------------------------------------------- build
 
+/** Per-entry stats of the last buildItems() run: entry id → { domain, scan, auto }. */
+export const sitemapStats = new Map();
+
 /** entries = catalog.json items → Map(entry id → items[]) */
 export function buildItems(entries, { overrides = loadTagOverrides() } = {}) {
   const parents = parentsByDomain(entries);
   const byEntry = new Map();
+  sitemapStats.clear();
   const itemFixes = loadJSON(FILE.overrides, {})?.item_fixes || {};
   if (!existsSync(SITES)) return byEntry;
   for (const domain of readdirSync(SITES).sort()) {
@@ -214,7 +220,17 @@ export function buildItems(entries, { overrides = loadTagOverrides() } = {}) {
     const reg = existsSync(join(SITES, domain, "registry.json")) ? registryItems(domain, parent, overrides) : [];
     const taken = new Map(reg.map((i) => [i.id, i]));
     const docs = llmsItems(domain, parent, overrides, taken);
-    const all = [...reg, ...docs];
+    const maps = [];
+    const pattern = loadPattern(domain, { strict: false }); // adapter 3: catalog/patterns/<domain>.json
+    if (pattern && !pattern.skip) {
+      const filters = loadFilters(domain, pattern);
+      for (const e of filters.empty)
+        console.error(`warn: ${domain}: filter page ${e.kind} "${e.key}" yielded 0 matching links (JS-rendered, or not fetched)`);
+      const scan = sitemapScan(domain, parent, { overrides, taken, pattern, sitemap: loadSitemap(domain), filters });
+      maps.push(...scan.items);
+      sitemapStats.set(parent.id, { domain, scan, auto: pattern.status === "auto" });
+    }
+    const all = [...reg, ...docs, ...maps];
     for (const i of all) if (itemFixes[i.id]) Object.assign(i, itemFixes[i.id]);
     if (all.length) byEntry.set(parent.id, all);
   }
@@ -236,11 +252,22 @@ export function loadItems() {
 function report(byEntry, previous) {
   const all = [...byEntry.values()].flat();
   const n = (f) => all.filter(f).length;
-  console.log(`items ${all.length} in ${byEntry.size} entries · registry ${n((i) => i.from === "registry")} · llms ${n((i) => i.from === "llms")}`);
+  console.log(`items ${all.length} in ${byEntry.size} entries · registry ${n((i) => i.from === "registry")} · llms ${n((i) => i.from === "llms")} · sitemap ${n((i) => i.from === "sitemap")} (auto ${n((i) => i.auto)})`);
   console.log(`access: code ${n((i) => i.access === "code")} · gated ${n((i) => i.access === "gated")} · page ${n((i) => i.access === "page")} · with an element ${n((i) => i.elements.length)}`);
   console.log(`stack-merged ${n((i) => i.stacks?.length > 1)} · with demos attached ${n((i) => i.examples?.length)} · registry items with a docs url ${n((i) => i.from === "registry" && i.url)}`);
+  const siteRows = [...sitemapStats.entries()]
+    .map(([id, s]) => ({ id, ...s, items: (byEntry.get(id) || []).filter((i) => i.from === "sitemap") }))
+    .sort((a, b) => b.items.length - a.items.length);
+  if (siteRows.length) {
+    console.log(`sitemap sites ${siteRows.length}:`);
+    for (const s of siteRows.slice(0, 80))
+      console.log(
+        `  ${s.domain} ${s.items.length} items · ${s.scan.matched}/${s.scan.candidates} urls matched · ${s.items.filter((i) => i.elements.length).length} with an element · ${s.items.reduce((t, i) => t + Object.values(i.variants).flat().length, 0)} variant tags · ${s.auto ? "auto" : "hand"}`,
+      );
+    if (siteRows.length > 80) console.log(`  … ${siteRows.length - 80} more sites with sitemap items`);
+  }
   const nav = all.filter((i) => i.elements.includes("navbar"));
-  console.log(`navbar: ${nav.length} items · ${new Set(nav.filter((i) => i.from === "registry").map((i) => i.parent)).size} registries · ${nav.filter((i) => i.from === "llms").length} docs pages`);
+  console.log(`navbar: ${nav.length} items · ${new Set(nav.filter((i) => i.from === "registry").map((i) => i.parent)).size} registries · ${nav.filter((i) => i.from === "llms").length} docs pages · ${nav.filter((i) => i.from === "sitemap").length} sitemap pages`);
   if (previous.size) {
     const changes = [];
     for (const id of new Set([...previous.keys(), ...byEntry.keys()])) {

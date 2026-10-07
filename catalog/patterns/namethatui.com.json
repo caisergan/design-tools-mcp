@@ -1,0 +1,10 @@
+{
+  "match": [
+    "/web/{name}",
+    "/macos/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /web/{name} (49 children, 71% element-tagged); /macos/{name} (32 children, 47% element-tagged)"
+}
