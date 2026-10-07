@@ -1,0 +1,32 @@
+{
+  "match": "/{author}/{name}",
+  "exclude": [
+    "/assets/{*}",
+    "/fonts/{*}",
+    "/profile/{*}",
+    "/blog/{*}",
+    "/elements/{*}",
+    "/design/{*}",
+    "/challenges/{*}",
+    "/guidelines/{*}",
+    "/feedback/{*}",
+    "/bug/{*}"
+  ],
+  "elements_from": {
+    "button": "/buttons",
+    "card": "/cards",
+    "checkbox": "/checkboxes",
+    "switch": "/switches",
+    "loader": "/loaders",
+    "input": "/inputs",
+    "form": "/forms",
+    "background": "/patterns",
+    "radio": "/radio-buttons",
+    "tooltip": "/tooltips"
+  },
+  "paginate": { "param": "page", "max": 80 },
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Open-source element library: one page per element, /<author>/<slug> (e.g. /adamgiebl/soft-gecko-85). The slug names nothing — 'Purple Rattlesnake 49' — so the element comes from the category page that listed it: /buttons, /cards, /checkboxes, /switches, /loaders, /inputs, /forms, /patterns (background) and /tooltips; /radio-buttons is the 'radio' alias of checkbox. There is no sitemap (/sitemap.xml 404s), so the ten category pages are the url source (elements_from) and each one is server-paginated at /<category>?page=N with 34-35 elements per page: --fetch-filters walks it up to 80 pages and stops at the first page that adds no new link. Bun fetch gets 403 on every request, so the pages come through Scrapling (catalog/scrapling-hosts.json, mode http). /assets/*, /fonts/*, /profile/* and the other two-segment navigation paths are not items. Names carry the author (Adamgiebl Soft Gecko 85); the element is the elements_from tag."
+}

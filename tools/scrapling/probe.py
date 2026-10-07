@@ -15,9 +15,24 @@ from urllib import robotparser
 
 from scrapling.fetchers import Fetcher, DynamicSession, StealthySession
 
-CHALLENGE = re.compile(rb"Just a moment\.\.\.|cf-chl-|challenge-platform|Attention Required|cf-turnstile|captcha-delivery|px-captcha|Access denied", re.I)
+# A wall, not a real page: the challenge `<title>`, or a 403/503 that carries a challenge marker. The marker
+# alone is not enough — real Cloudflare-fronted pages embed the `/cdn-cgi/challenge-platform/scripts/jsd/main.js`
+# beacon and i18n strings like "Access Denied" (brief 09's false positive on ui8.net and colorkit.co).
+CHALLENGE_TITLE = re.compile(rb"<title[^>]*>\s*(?:just a moment|attention required)[^<]*</title>", re.I)
+CHALLENGE_MARK = re.compile(
+    rb"cf-chl-|challenge-platform|cf-turnstile|captcha-delivery|px-captcha|just a moment|checking your browser"
+    rb"|verify (?:you are|that you are) human|enable javascript and cookies|access denied|attention required",
+    re.I,
+)
 GAP = 1.0
 last_hit, robots = {}, {}
+
+
+def is_challenge(body: bytes, status: int) -> bool:
+    head = body[:200_000]
+    if CHALLENGE_TITLE.search(head):
+        return True
+    return status in (403, 503) and bool(CHALLENGE_MARK.search(head))
 
 
 def pace(host):
@@ -62,7 +77,7 @@ def summarise(url, mode, page, ms, cache):
     rec = {
         "url": url, "mode": mode, "status": page.status, "final_url": final, "ms": ms, "bytes": len(body),
         "title": (page.css("title::text").get() or "").strip()[:120],
-        "challenge": bool(CHALLENGE.search(body[:200000])),
+        "challenge": is_challenge(body, page.status),
         "xml_locs": body.count(b"<loc>"),
         "links": len(set(hrefs)), "own_links": len(own),
         "own_prefixes": dict(prefixes.most_common(12)),

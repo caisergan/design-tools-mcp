@@ -1,0 +1,22 @@
+{
+  "uiverse.io": {
+    "mode": "http",
+    "enabled": true,
+    "note": "open-source element library; Bun fetch gets 403"
+  },
+  "land-book.com": {
+    "mode": "http",
+    "enabled": false,
+    "note": "commercial gallery behind Cloudflare; owner decision"
+  },
+  "ui8.net": {
+    "mode": "http",
+    "enabled": false,
+    "note": "commercial asset marketplace behind Cloudflare; owner decision"
+  },
+  "saasframe.io": {
+    "mode": "stealth",
+    "enabled": false,
+    "note": "commercial example gallery behind Cloudflare; owner decision (stealth solves the challenge)"
+  }
+}

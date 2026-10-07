@@ -9,6 +9,7 @@ import { gunzipSync } from "node:zlib";
 import { readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { FILE, ROOT, loadJSON, saveJSON, pool } from "./lib.mjs";
+import { scraplingClient } from "./scrapling-backend.mjs";
 
 export const DOMAIN_LIST = join(ROOT, "briefs", "phase-6", "sites", "all-sitemap-domains.txt");
 export const UA = "Mozilla/5.0 (compatible; design-tools-catalog/1.0; +local)";
@@ -81,12 +82,19 @@ export function parseSitemap(text) {
   return { kind: "invalid", entries: [] };
 }
 
-/** A Cloudflare "Just a moment" / soft challenge page served with status 200. */
-export const isChallenge = (text) =>
+const CHALLENGE_TITLE = /<title[^>]*>\s*(?:just a moment|attention required)[^<]*<\/title>/i;
+const CHALLENGE_MARK =
+  /cf-chl-|challenge-platform|cf-turnstile|captcha-delivery|px-captcha|just a moment|checking your browser|verify (?:you are|that you are) human|enable javascript and cookies|access denied|attention required/i;
+
+/**
+ * A Cloudflare "Just a moment" / soft challenge page: the challenge `<title>`, or a 403/503 that carries a
+ * challenge marker. The marker alone is not a wall — real Cloudflare-fronted pages embed the
+ * `/cdn-cgi/challenge-platform/scripts/jsd/main.js` beacon and i18n strings like "Access Denied" (the false
+ * positive brief 09 found on ui8.net and colorkit.co), so a 200 with a marker is content.
+ */
+export const isChallenge = (text, status = 0) =>
   typeof text === "string" &&
-  /just a moment|cf-chl|cf-browser-verification|attention required|checking your browser|verify (?:you are|that you are) human|enable javascript and cookies/i.test(
-    text.slice(0, 20_000),
-  );
+  (CHALLENGE_TITLE.test(text.slice(0, 20_000)) || ([403, 503].includes(status) && CHALLENGE_MARK.test(text.slice(0, 20_000))));
 
 /** `.xml.gz` bodies (and any gzip body the server did not label) → plain bytes. */
 export function maybeGunzip(buf) {
@@ -115,7 +123,22 @@ function hostState(host) {
   return s;
 }
 
-async function rawGet(url) {
+/**
+ * One sitemap-ish response: the opt-in Scrapling backend when the host is enabled (brief 11), plain `fetch`
+ * otherwise. Same result shape either way — `{url, status, bytes, text}` / `{tooLarge}` / `{error}`.
+ */
+export async function rawGet(url, via = scraplingClient) {
+  try {
+    const scraped = await via?.get(url);
+    if (scraped) {
+      if (scraped.error) return { url, status: 0, error: scraped.error };
+      const buf = scraped.body || Buffer.alloc(0);
+      if (scraped.too_large || buf.length > MAX_BYTES) return { url, status: scraped.status, tooLarge: true };
+      return { url, status: scraped.status, bytes: buf.length, text: maybeGunzip(buf).toString("utf8") };
+    }
+  } catch (e) {
+    console.error(`warn: scrapling ${url}: ${e?.message || e} — falling back to fetch`);
+  }
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT);
   try {
@@ -149,7 +172,7 @@ function request(url) {
     if (gap > 0) await sleep(gap);
     s.last = Date.now();
     const r = await rawGet(url);
-    if ([403, 429, 503].includes(r.status) || (r.status === 200 && isChallenge(r.text))) {
+    if ([403, 429, 503].includes(r.status) || isChallenge(r.text, r.status)) {
       s.bad += 1;
       if (s.bad >= MAX_BAD) {
         s.blocked = true;
@@ -320,7 +343,7 @@ async function collectDomain(domain, { probeUrls = [], refresh = false, progress
       return;
     }
     const parsed = parseSitemap(r.text);
-    const challenge = r.status === 200 && isChallenge(r.text);
+    const challenge = isChallenge(r.text, r.status);
     const kind = challenge ? "invalid" : parsed.kind;
     attempts.push({ url, status: r.status, kind: challenge ? "challenge" : parsed.kind });
     sources.push({ url, status: r.status, kind, count: parsed.entries.length });
@@ -337,7 +360,7 @@ async function collectDomain(domain, { probeUrls = [], refresh = false, progress
   for (const url of [...candidates]) await ingest(url, 1);
 
   const robots = await request(`https://${domain}/robots.txt`);
-  if (robots.status === 200 && robots.text && !isChallenge(robots.text)) {
+  if (robots.status === 200 && robots.text && !isChallenge(robots.text, robots.status)) {
     for (const line of robots.text.split(/\r?\n/)) {
       const m = /^\s*sitemap\s*:\s*(\S+)/i.exec(line);
       if (m) add(m[1]);
@@ -446,6 +469,7 @@ export async function runSitemaps({ only, refresh = false, log = console.log, pr
   const fresh = { ok, empty, blocked, failed };
   const report = { generated_at: new Date().toISOString(), ...(only?.length ? mergeReport(loadJSON(FILE.sitemapsReport), fresh) : fresh) };
   saveJSON(FILE.sitemapsReport, report);
+  await scraplingClient.close();
 
   const reasons = {};
   for (const b of blocked) reasons[b.reason] = (reasons[b.reason] || 0) + 1;
