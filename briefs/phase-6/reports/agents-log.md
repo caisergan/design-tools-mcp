@@ -37,3 +37,5 @@ patterns; frameplate and sleek.design were skipped).
 | t09a | 09 Scrapling probe, set A (31 walled/dead) | `phase6/scrapling-a` @ b3f5048 | 4 truly walled (uiverse, land-book, ui8, saasframe) + 5 reachable by curl; 16 dead | 2026-10-07 | 2026-10-07 |
 | t09b | 09 Scrapling probe, set B (18 small) | `phase6/scrapling-b` @ 42c81e6 | 4 redirect-target sites (no Scrapling needed), 14 unchanged | 2026-10-07 | 2026-10-07 |
 | f10 | 10 redirects + revived sites | `phase6/redirects` @ 1b66a21 | 7 patterns (+7,624 items after dropping 120 uuid-named mobbin screens), raivcoo skip (uuid names) | 2026-10-07 | 2026-10-07 |
+| r12-105 | 12 design sitemap sites rows 105–130 | `phase6/design-105` @ e479d69 | 6 patterns (+3,442: grainient 1,481, gradientora 1,066, youworkforthem 823 …), 20 skips | 2026-10-07 | 2026-10-07 |
+| r12-53 | 12 design sitemap sites rows 53–78 | `phase6/design-53` @ 2ad4722 | 8 patterns (+2,770: uidesigndaily 1,505, webpo 788, icon.museum 247 …), 18 skips | 2026-10-07 | 2026-10-07 |
