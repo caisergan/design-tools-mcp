@@ -1,0 +1,4 @@
+{
+  "skip": "example and section galleries are query-only — /?site=<name> (400 landing-page examples) and /sections?category=<name> (15 Figma-section galleries) — so path templates cannot address them; /category/* (36) and /type/* (20) are listings, and the /sections page links out to external Figma/UiBlockify pages",
+  "status": "hand"
+}

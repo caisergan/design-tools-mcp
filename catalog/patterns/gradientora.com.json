@@ -1,0 +1,8 @@
+{
+  "match": ["/backgrounds/{name}", "/animated-gradients/{name}"],
+  "element": "background",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Premium background/gradient library: one page per background asset — /backgrounds/<slug> (1,027; e.g. /backgrounds/3d-fluid-iridescent-b--01 = '3D Fluid Iridescent (B)-01 | – Premium 8K Background | Gradientora', 200 checked 2026-10-07) plus /animated-gradients/<slug> (39; e.g. /animated-gradients/animated-gradient-01 = 'Animated Gradient-01 | Premium 4K Motion Background'). Every page is one background, so the element is fixed. /collections/<name> (48) and /categories/* are listings of these assets, /pricing and /account are marketing."
+}

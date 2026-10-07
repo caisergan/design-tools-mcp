@@ -1,0 +1,8 @@
+{
+  "match": "/collections/{name}",
+  "element": "background",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Curated gradient collections: one page per collection — /collections/<name> (31; e.g. /collections/iridescent-dreams = 'Iridescent Dreams Collection | Gradients.fm — Colorful and energetic gradient combinations with 7 gradient wallpapers and abstract backgrounds. Curated by Gradients.fm.', 200 checked 2026-10-07). Each collection page is the resource (its wallpapers are shown in-page and have no URLs of their own), so granularity page. Element background — every collection is gradient wallpapers/abstract backgrounds. Not matched: /collections (index), /freebies, /pricing, /contact."
+}

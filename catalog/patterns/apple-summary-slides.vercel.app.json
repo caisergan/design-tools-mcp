@@ -1,0 +1,7 @@
+{
+  "match": ["/events/{name}", "/products/{name}"],
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Archive of Apple's 'bento' event summary slides: one page per event or product showing that set as images (34 URLs; e.g. /events/wwdc-2026 = 'A collection of the \"bento\" summary slides created by Apple for WWDC 2026' with 28 images, and /products/iphone — 200 checked 2026-10-07). The queue category (color-effects) is wrong: this is slide-design inspiration, hence granularity example. No taxonomy element — a slide set names no UI element."
+}
