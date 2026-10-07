@@ -1,0 +1,7 @@
+{
+  "match": ["/{element}/{name}", "/dashboards/{name}", "/auth/{name}", "/onboarding/{name}", "/bonus/{name}"],
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "VibePrompt, a Tailwind section/component prompt library. Most URLs are /<kind>/<kind>-<name>/ (e.g. /hero/hero-centered-headline/ = 'Centered headline — Tailwind hero section prompt', /nav/nav-nav-with-mega-dropdown/): the first segment is the UI element itself, so the first template captures it ({element} covers hero, pricing, features, testimonials, faq, footer, stats, cta, contact, nav → navbar; the name then also yields variants, e.g. mega-menu). The four kinds whose prefix is not a taxonomy id get an explicit template and take their element from tagItem on the name: /dashboards/* (dashboards-… → dashboard), /bonus/* (bonus-toast-notification → toast, bonus-command-palette → command-palette, bonus-empty-state → empty-state …), /auth/* and /onboarding/* (whole-screen flows, mostly without a taxonomy element). /blog/blog-<layout>/ (19) are article-layout prompts, not UI sections, and are left out; the /<kind>/ index pages are one segment deep and do not match."
+}

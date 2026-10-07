@@ -1,0 +1,7 @@
+{
+  "match": "/components/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "One page per copy-paste React component: /components/<name> (207; e.g. /components/3d-button = 'Tactile 3D — Free React Component'). Elements come from tagItem on the name (most names end in the element: -button, -card, -accordion …; 119/207 = 57%). /components/category/<kind> (30, e.g. 'Buttons React Components — Copy & Paste UI') are category listings, not components; they are a deeper path so they never match, and /components itself is not matched either. The 10 category pages that do name an element (buttons, calender, docks, dropdowns, forms, inputs, loaders, otp, pricing, table) were measured as elements_from but not kept: a filter-page element replaces the name-derived ones for the same item (checkbox-field-input would become input instead of checkbox+input), and coverage only moved 119 → 125 items."
+}

@@ -1,0 +1,7 @@
+{
+  "match": "/transitions/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Transitions.dev, a copy-paste CSS transition library for AI agents. One page per transition: /transitions/<name>/ (43; e.g. /transitions/card-resize/ = 'Card resize — CSS transition | Transitions.dev', /transitions/toast-open-close/, /transitions/3d-tilt/). Every page is a transition demo + code, so the element only exists when the name names one (toast-open-close → toast, tab-sliding → tabs …) via tagItem; the rest (card-resize, confetti-burst, number-pop-in …) are animations with no taxonomy element. The root /transitions/ index and the standalone .html pages (library.html, pro.html, skill.html, detail.html) are not transition pages and do not match."
+}

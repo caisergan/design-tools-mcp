@@ -1,0 +1,7 @@
+{
+  "match": "/particles/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Svelte QBlocks, a Svelte copy-paste component library: one page per component, /particles/<name> (10: accordion, alert-dialog, avatars, banner, button, input, input-group, input-otp, menu, table; e.g. /particles/accordion = 'Accordion Blocks | Svelte QBlocks'). Elements come from tagItem on the name (avatars → avatar, input-otp → otp-input, input-group → input …); only 'menu' has no taxonomy element. /particles itself is a listing page and does not match. 10 items, 9 with an element."
+}
