@@ -6,7 +6,7 @@ import { FILE, loadJSON } from "./lib.mjs";
 import { TAXONOMY, elementsIn, variantsIn, tok as tokAscii } from "./tag.mjs";
 
 export const INDEX_FILE = FILE.catalog.replace(/catalog\.json$/, "search-index.json");
-export const INDEX_SCHEMA = 3; // 3: item records carry `auto`, prior() reads it
+export const INDEX_SCHEMA = 4; // 3: item records carry `auto`, prior() reads it · 4: packed on disk (packIndex / unpackIndex)
 
 // ---------------------------------------------------------------- tokens
 
@@ -163,12 +163,109 @@ export function buildIndex(entries, items) {
   };
 }
 
+// ---------------------------------------------------------------- on-disk form
+// The file keeps the 25 MB budget: item records are grouped by parent (the id loses its "<parent>/" prefix,
+// urls their shared origin, and fields equal to the group's most common value are left out), keys are short,
+// and each posting list is one string of base-36 numbers with delta-coded doc ids. unpackIndex() rebuilds
+// exactly what buildIndex() returned, so search never sees the difference.
+const PACK_KEYS = [["id", "i"], ["name", "n"], ["access", "a"], ["granularity", "g"], ["from", "f"], ["auto", "au"], ["slug", "s"], ["url", "u"], ["type", "t"], ["install_url", "iu"], ["stacks", "st"], ["examples", "ex"], ["local", "l"], ["description", "d"], ["elements", "e"], ["variants", "v"], ["names", "ns"]];
+const LONG_KEY = Object.fromEntries(PACK_KEYS.map(([k, short]) => [short, k]));
+const GROUP_DEFAULTS = ["access", "granularity", "from", "type"];
+const mostCommon = (vals) => {
+  const n = new Map();
+  for (const v of vals) if (v !== undefined) n.set(v, (n.get(v) || 0) + 1);
+  return [...n].sort((a, b) => b[1] - a[1])[0]?.[0];
+};
+const originOf = (url) => /^https?:\/\/[^/]+/.exec(url || "")?.[0] || null;
+
+export function packIndex(idx) {
+  const groups = [];
+  for (const r of idx.items) {
+    const g = groups.at(-1);
+    if (g && g.parent === r.parent) g.items.push(r);
+    else groups.push({ parent: r.parent, items: [r] });
+  }
+  const items = groups.map(({ parent, items }) => {
+    const origin = mostCommon(items.map((r) => originOf(r.url)));
+    const defaults = Object.fromEntries(GROUP_DEFAULTS.map((k) => [k, mostCommon(items.map((r) => r[k]))]).filter(([, v]) => v !== undefined));
+    const recs = items.map((r) => {
+      const o = {};
+      for (const [k, short] of PACK_KEYS) {
+        let v = r[k];
+        if (v === undefined) continue;
+        if (k === "id") v = v.slice(parent.length + 1);
+        else if (k === "slug" && r.id === `${parent}/${v}`) v = 1; // same as the id's suffix
+        else if (k === "url" && origin && v.startsWith(origin + "/")) v = v.slice(origin.length);
+        else if (k in defaults && defaults[k] === v) continue;
+        o[short] = v;
+      }
+      for (const k of Object.keys(defaults)) if (r[k] === undefined) o["-" + k] = 1; // a default the record does not have
+      return o;
+    });
+    return [parent, origin, defaults, recs];
+  });
+  const postings = {};
+  for (const [t, p] of Object.entries(idx.postings)) {
+    const out = [];
+    for (let k = 0, last = 0; k < p.length; k += 3) {
+      out.push((p[k] - last).toString(36), p[k + 1].toString(36), p[k + 2].toString(36));
+      last = p[k];
+    }
+    postings[t] = out.join(",");
+  }
+  return { ...idx, packed: 1, items, postings };
+}
+
+export function unpackIndex(idx) {
+  if (!idx?.packed) return idx;
+  const items = [];
+  for (const [parent, origin, defaults, recs] of idx.items) {
+    const dkeys = Object.keys(defaults);
+    for (const o of recs) {
+      const r = { id: `${parent}/${o.i}`, parent };
+      for (const short in o) {
+        const k = LONG_KEY[short];
+        if (!k || k === "id") continue;
+        let v = o[short];
+        if (k === "url" && origin && v.startsWith("/")) v = origin + v;
+        else if (k === "slug" && v === 1) v = o.i;
+        r[k] = v;
+      }
+      for (const k of dkeys) if (r[k] === undefined && !o["-" + k]) r[k] = defaults[k];
+      items.push(r);
+    }
+  }
+  // Posting lists are decoded on first use: a query touches a few dozen of the ~24k terms, so startup
+  // stays as fast as with the unpacked file. P[t] and Object.keys(P) are all createSearch() needs.
+  const raw = idx.postings;
+  const decoded = new Map();
+  const decode = (str) => {
+    const nums = str.split(",").map((x) => parseInt(x, 36));
+    for (let k = 0, last = 0; k < nums.length; k += 3) last = nums[k] += last;
+    return nums;
+  };
+  const postings = new Proxy(raw, {
+    get(target, t) {
+      if (typeof t !== "string" || !Object.hasOwn(target, t)) return undefined;
+      let p = decoded.get(t);
+      if (!p) decoded.set(t, (p = decode(target[t])));
+      return p;
+    },
+    getOwnPropertyDescriptor(target, t) {
+      const d = Reflect.getOwnPropertyDescriptor(target, t);
+      return d && { ...d, value: this.get(target, t) };
+    },
+  });
+  const { packed, ...rest } = idx;
+  return { ...rest, items, postings };
+}
+
 /** The prebuilt index when it is newer than catalog.json, else null (the caller builds one in memory). */
 export function loadIndex() {
   if (!existsSync(INDEX_FILE)) return null;
   if (statSync(INDEX_FILE).mtimeMs < statSync(FILE.catalog).mtimeMs) return null;
   const idx = loadJSON(INDEX_FILE);
-  return idx?.schema === INDEX_SCHEMA ? idx : null;
+  return idx?.schema === INDEX_SCHEMA ? unpackIndex(idx) : null;
 }
 
 // ---------------------------------------------------------------- query

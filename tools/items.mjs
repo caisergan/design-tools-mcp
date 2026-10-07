@@ -12,6 +12,7 @@ import { join } from "node:path";
 import { FILE, OUT, loadJSON, saveJSON, slug } from "./lib.mjs";
 import { tagItem, loadTagOverrides, SKIP_TYPE } from "./tag.mjs";
 import { loadFilters, loadPattern, loadSitemap, sitemapScan } from "./sitemap-items.mjs";
+import { apiItems } from "./api-21st.mjs";
 
 export const ITEMS_DIR = join(OUT, "items");
 const SITES = join(FILE.corpus, "sites");
@@ -230,7 +231,8 @@ export function buildItems(entries, { overrides = loadTagOverrides() } = {}) {
       maps.push(...scan.items);
       sitemapStats.set(parent.id, { domain, scan, auto: pattern.status === "auto" });
     }
-    const all = [...reg, ...docs, ...maps];
+    const api = apiItems(domain, parent, { overrides, taken }); // adapter 5: 21st.dev component pages (gated)
+    const all = [...reg, ...docs, ...maps, ...api];
     for (const i of all) if (itemFixes[i.id]) Object.assign(i, itemFixes[i.id]);
     if (all.length) byEntry.set(parent.id, all);
   }
@@ -252,7 +254,7 @@ export function loadItems() {
 function report(byEntry, previous) {
   const all = [...byEntry.values()].flat();
   const n = (f) => all.filter(f).length;
-  console.log(`items ${all.length} in ${byEntry.size} entries · registry ${n((i) => i.from === "registry")} · llms ${n((i) => i.from === "llms")} · sitemap ${n((i) => i.from === "sitemap")} (auto ${n((i) => i.auto)})`);
+  console.log(`items ${all.length} in ${byEntry.size} entries · registry ${n((i) => i.from === "registry")} · llms ${n((i) => i.from === "llms")} · sitemap ${n((i) => i.from === "sitemap")} (auto ${n((i) => i.auto)}) · api ${n((i) => i.from === "api")}`);
   console.log(`access: code ${n((i) => i.access === "code")} · gated ${n((i) => i.access === "gated")} · page ${n((i) => i.access === "page")} · with an element ${n((i) => i.elements.length)}`);
   console.log(`stack-merged ${n((i) => i.stacks?.length > 1)} · with demos attached ${n((i) => i.examples?.length)} · registry items with a docs url ${n((i) => i.from === "registry" && i.url)}`);
   const siteRows = [...sitemapStats.entries()]

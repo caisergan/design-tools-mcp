@@ -68,3 +68,21 @@ test("pinned navbars are items tagged navbar", () => {
   const nav = new Set(items.filter((i) => i.elements.includes("navbar")).map((i) => i.id));
   for (const id of ["ui-aceternity-com/floating-navbar", "shadcn-io/navbar-mega-menu-featured", "tailark-com/navigation-menu"]) expect(nav.has(id)).toBe(true);
 });
+
+test("the packed on-disk index unpacks to exactly what buildIndex returned", async () => {
+  const { buildIndex, packIndex, unpackIndex, INDEX_SCHEMA } = await import("./search.mjs");
+  const entries = [{ id: "a-com", domain: "a.com", name: "A", desc: "", categories: ["components"], labels: [] }, { id: "b-io", domain: "b.io", name: "B", desc: "", categories: ["sections"], labels: [] }];
+  const items = [
+    { id: "a-com/navbar", parent: "a-com", name: "Navbar", slug: "navbar", access: "code", granularity: "variant", from: "registry", type: "registry:ui", install_url: "https://a.com/r/navbar.json", elements: ["navbar"], variants: { navbar: ["mega-menu"] }, description: "A navbar." },
+    { id: "a-com/hero", parent: "a-com", name: "Hero", slug: "hero-x", access: "code", granularity: "variant", from: "registry", elements: ["hero"], variants: {} },
+    { id: "a-com/docs-page", parent: "a-com", name: "Docs", access: "page", granularity: "page", from: "llms", url: "https://a.com/docs/page", elements: [] },
+    { id: "b-io/stripe", parent: "b-io", name: "Stripe — Hero", access: "page", granularity: "example", from: "sitemap", url: "https://www.b.io/hero/stripe", elements: ["hero"], variants: {}, auto: true },
+    { id: "b-io/other", parent: "b-io", name: "Other", access: "page", granularity: "example", from: "sitemap", url: "https://elsewhere.dev/x", elements: [], variants: {} },
+  ];
+  const idx = buildIndex(entries, items);
+  const packed = JSON.parse(JSON.stringify(packIndex(idx)));
+  expect(packed.packed).toBe(1);
+  expect(packed.schema).toBe(INDEX_SCHEMA);
+  expect(unpackIndex(packed)).toEqual(idx);
+  expect(unpackIndex(idx)).toBe(idx); // an unpacked (in-memory) index passes through
+});

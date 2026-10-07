@@ -5,7 +5,7 @@
 import { writeFileSync, statSync } from "node:fs";
 import { FILE, loadJSON } from "./lib.mjs";
 import { buildItems, writeItems, ITEMS_DIR } from "./items.mjs";
-import { buildIndex, INDEX_FILE } from "./search.mjs";
+import { buildIndex, packIndex, INDEX_FILE } from "./search.mjs";
 
 export function writeIndex(entries = loadJSON(FILE.catalog)?.items) {
   if (!entries) throw new Error("catalog.json missing — run: bun tools/build.mjs");
@@ -16,7 +16,7 @@ export function writeIndex(entries = loadJSON(FILE.catalog)?.items) {
   console.log(`items ${items.length} in ${byEntry.size} entries -> ${ITEMS_DIR} (${((performance.now() - t) / 1000).toFixed(1)}s)`);
   t = performance.now();
   const index = buildIndex(entries, items);
-  writeFileSync(INDEX_FILE, JSON.stringify(index));
+  writeFileSync(INDEX_FILE, JSON.stringify(packIndex(index)));
   const mb = (statSync(INDEX_FILE).size / 1e6).toFixed(1);
   console.log(`search-index.json ${mb} MB · ${index.docs} docs · ${Object.keys(index.postings).length} terms (${((performance.now() - t) / 1000).toFixed(1)}s)`);
 }
