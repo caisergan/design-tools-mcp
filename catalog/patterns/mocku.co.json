@@ -1,0 +1,8 @@
+{
+  "source_domain": "mocku.com",
+  "match": ["/mockups/{name}"],
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Mocku mockup generator (mocku.co 301s to mocku.com). One page per mockup generator: /mockups/backpack ('Backpack Mockup Generator - Free Online | Mocku'), /mockups/macbook-pro, /mockups/t-shirt, /mockups/business-card … 117 roots in the sitemap. Only the roots are items: the 1673 generated variants /mockups/<name>/<variant-slug> (backpack/botanical-stone-19 …) are noise and stay unmatched, as does /styles/<name> (177 backdrop style pages). Mockups are device/apparel/packaging generators, not UI components, so only a few names tag to a taxonomy element by accident."
+}

@@ -1,0 +1,8 @@
+{
+  "source_domain": "www.relume.ai",
+  "match": ["/components/{name}"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Relume Webflow Library, moved from library.relume.io to relume.ai. One page per component/section: /components/application-shell-1 ('Application Shell 1 | Webflow Library'), /components/navbar-1, /components/footer-1 … 1757 English pages in one flat sitemap (7023 locs). The React mirror /react-components/<name> (1524, ~1510 identical slugs), the Japanese copy /ja/* (3435) and the category indexes /categories/<name> + /react-categories/<name> (50+50) stay unmatched — matching a second route would only collapse onto the same ids."
+}

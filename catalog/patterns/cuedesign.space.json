@@ -1,4 +1,8 @@
 {
-  "skip": "paid component library behind a client-rendered SPA — the sitemap, llms.txt and llms-full.txt hold only marketing/legal URLs (/pricing, /billing, /legal/*), no component URLs",
-  "status": "hand"
+  "source_domain": "kit.cuedesign.space",
+  "match": ["/components/{name}"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Cue Kit, the open-source component catalog of Cue, on the kit subdomain. 54 /components/<slug> pages in kit.cuedesign.space/sitemap.xml (55 locs), e.g. /components/outline-inspector-panel ('Outline Inspector Panel — Cue Kit'). The paid cuedesign.space SPA exposes no component urls at all (its own sitemap is 9 marketing/legal locs) and only links the kit in the rendered DOM; the kit was found by a rendered fetch."
 }

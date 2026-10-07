@@ -1,0 +1,8 @@
+{
+  "match": ["/components/{name}"],
+  "urls_from": ["/", "/category", "/collection"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Free Figma component library. No usable sitemap (/sitemap.xml returns the SPA shell, 0 locs); the item urls come from the home page (80 /components/ links), /category (565) and /collection (34). One /components/<name> page is a per-tag/per-element gallery ('Figma Button Components | Figcomponents'), e.g. /components/button, /components/accordion, /components/table. Names are a mix of taxonomy elements and tag noise (apple, adyen, american-express); only the matched /components/<name> links become items, /collection/<name> stays out."
+}
