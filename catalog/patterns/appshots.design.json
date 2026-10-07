@@ -1,0 +1,6 @@
+{
+  "match": "/apps/{name}",
+  "granularity": "example",
+  "status": "hand",
+  "note": "Appshots (\"Real world UX design inspirations\"): one page per app (/apps/1password/) with its mobile screens; the 110 UX-flow pages share one path (/flows?id=…&slug=…), so they cannot be separate items. The site is a client-rendered Nuxt SPA: pages answer plain curl with an empty shell, so titles were not verifiable — facts come from the sitemap, its /category taxonomy and the site's own copy"
+}

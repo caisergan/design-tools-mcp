@@ -1,0 +1,35 @@
+{
+  "match": ["/components/{name}", "/popups/{name}"],
+  "exclude": [
+    "/components/bento-grid",
+    "/components/brands",
+    "/components/call-to-action",
+    "/components/faq",
+    "/components/features",
+    "/components/footer",
+    "/components/hero",
+    "/components/how-it-works",
+    "/components/navigation",
+    "/components/pricing",
+    "/components/resources",
+    "/components/stats",
+    "/components/team",
+    "/components/testimonials"
+  ],
+  "elements_from": {
+    "bento-grid": "/components/bento-grid",
+    "logo-cloud": "/components/brands",
+    "cta": "/components/call-to-action",
+    "faq": "/components/faq",
+    "features": "/components/features",
+    "footer": "/components/footer",
+    "hero": "/components/hero",
+    "pricing": "/components/pricing",
+    "stats": "/components/stats",
+    "team": "/components/team",
+    "testimonials": "/components/testimonials"
+  },
+  "granularity": "example",
+  "status": "hand",
+  "note": "a-fresh hand-picked website/UI gallery: /components/<site-or-site+element> is one showcased web component (\"a-fresh | Joinwrap web component\") and /popups/<brand> one popup example (\"Oio Lab Discount Popup Example\"); the 13 element-named /components/<element> pages are element listings — excluded as items, used via elements_from. /websites/<x>, /pages/<x> and /emails/<x> mix category listings (\"The Best SaaS Website Examples\", \"Abandoned Cart Email Marketing Examples\") with leaf showcase pages at the same depth, and the root namespace holds ~1k user/spam slugs, so they are left out"
+}

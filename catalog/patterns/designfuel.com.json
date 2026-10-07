@@ -1,0 +1,24 @@
+{
+  "match": "/inspiration/websites/{*}/{name}",
+  "elements_from": {
+    "cta": "/inspiration/sections/call-to-action",
+    "carousel": "/inspiration/sections/carousel",
+    "faq": "/inspiration/sections/faqs",
+    "features": "/inspiration/sections/features",
+    "footer": "/inspiration/sections/footer",
+    "form": "/inspiration/sections/forms",
+    "hero": "/inspiration/sections/hero",
+    "logo-cloud": "/inspiration/sections/logos",
+    "navbar": "/inspiration/sections/navbar",
+    "pricing": "/inspiration/sections/pricing",
+    "stats": "/inspiration/sections/statistics",
+    "table": "/inspiration/sections/tables",
+    "tabs": "/inspiration/sections/tabbed-content",
+    "team": "/inspiration/sections/team",
+    "testimonials": "/inspiration/sections/testimonials",
+    "timeline": "/inspiration/sections/timeline"
+  },
+  "granularity": "example",
+  "status": "hand",
+  "note": "DesignFuel inspiration gallery: /inspiration/websites/<category>/<site> is one showcased site (\"Wope | DesignFuel\"); /inspiration/websites/<category> (11) are category listings and /inspiration/sections/<type> (29) are section-type listings of the showcased sites — used as elements_from where the type is a taxonomy element"
+}

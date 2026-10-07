@@ -1,0 +1,6 @@
+{
+  "match": "/inspiration/{name}",
+  "granularity": "example",
+  "status": "hand",
+  "note": "web-design inspiration gallery: one page per showcased site (/inspiration/099-supply/ = \"099 Supply | Admire The Web\"); /inspiration/tag/<tag> (1062 tags) are tag listings, /articles/* and /category/* are articles and categories"
+}
