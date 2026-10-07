@@ -13,12 +13,13 @@ export const UA = "Mozilla/5.0 (compatible; design-tools-catalog/1.0; +local)";
 
 export const MAX_URLS = 50_000; // per domain
 export const MAX_DEPTH = 3; // root sitemap = 1
-const MAX_SOURCES = 100; // safety valve: one pathological index must not stall a worker
+const MAX_SOURCES = 1000; // safety valve: a pathological index must not stall a worker forever
 const MAX_BYTES = 64e6; // one sitemap response
 const TIMEOUT = 20_000;
 const HOST_INTERVAL = 500; // ms between two request starts on one host → 2 req/s
 const HOSTS_AT_ONCE = 12; // domains in flight
 const MAX_BAD = 3; // 403 / 429 / 503 / challenge responses before a host is dropped
+const DOMAIN_BUDGET = 300_000; // 5 min per domain: one slow host must not hold the whole run
 const FRESH_MS = 7 * 24 * 3600 * 1000; // resume: skip a sitemap.json younger than this
 
 // ------------------------------------------------------------------ parsing
@@ -185,6 +186,16 @@ export function sitemapsByDomain(probe) {
 
 export const sitemapPath = (domain) => join(FILE.corpus, "sites", domain, "sitemap.json");
 
+/** Hostname with `www.` dropped for absolute http(s) URLs, null for anything else. */
+function hostOf(loc) {
+  try {
+    const u = new URL(String(loc));
+    return u.protocol === "http:" || u.protocol === "https:" ? u.hostname.replace(/^www\./, "").toLowerCase() : null;
+  } catch {
+    return null;
+  }
+}
+
 /**
  * Keep the URLs whose host is `domain` or `www.domain` (deduped by loc, first wins), cap at
  * `cap`, and count everything else as foreign — including locs that are not absolute http(s).
@@ -196,24 +207,21 @@ export function keepInDomain(entries, domain, cap = MAX_URLS) {
   let foreign = 0;
   let truncated = false;
   for (const e of entries) {
-    let host = null;
-    try {
-      const u = new URL(String(e?.loc));
-      if (u.protocol === "http:" || u.protocol === "https:") host = u.hostname.replace(/^www\./, "").toLowerCase();
-    } catch {
-      /* counted as foreign below */
-    }
-    if (host !== want) {
+    const raw = String(e?.loc ?? "");
+    if (hostOf(raw) !== want) {
       foreign += 1;
       continue;
     }
-    if (seen.has(e.loc)) continue;
+    // Some sitemaps carry `https:/host/path` (one slash): the host is right but the string is not a
+    // usable absolute URL, so store the parsed form. Well-formed locs stay byte-identical.
+    const loc = /^https?:\/\//i.test(raw) ? raw : new URL(raw).href;
+    if (seen.has(loc)) continue;
     if (urls.length >= cap) {
       truncated = true;
       continue;
     }
-    seen.add(e.loc);
-    urls.push(e.lastmod ? { loc: e.loc, lastmod: e.lastmod } : { loc: e.loc });
+    seen.add(loc);
+    urls.push(e.lastmod ? { loc, lastmod: e.lastmod } : { loc });
   }
   return { urls, foreign, truncated };
 }
@@ -249,14 +257,17 @@ async function collectDomain(domain, { probeUrls = [], refresh = false, progress
   const attempts = [];
   const entries = [];
   const fetched = new Set();
-  let capped = false;
+  const seenIn = new Set(); // in-domain locs seen so far — lets us stop once the url cap is reached
+  const want = domain.replace(/^www\./, "").toLowerCase();
+  const deadline = Date.now() + DOMAIN_BUDGET;
+  let stop = "";
 
   async function ingest(url, depth) {
     if (fetched.has(url)) return;
-    if (sources.length >= MAX_SOURCES) {
-      capped = true;
-      return;
-    }
+    if (sources.length >= MAX_SOURCES) stop = "source cap";
+    else if (seenIn.size >= MAX_URLS) stop = "url cap";
+    else if (Date.now() > deadline) stop = "time budget";
+    if (stop) return;
     fetched.add(url);
     const r = await request(url);
     if (r.blocked) {
@@ -280,6 +291,7 @@ async function collectDomain(domain, { probeUrls = [], refresh = false, progress
       for (const child of parsed.entries.slice(0, MAX_SOURCES)) await ingest(child.loc, depth + 1);
     } else if (parsed.kind === "urlset") {
       entries.push(...parsed.entries);
+      for (const e of parsed.entries) if (hostOf(e.loc) === want) seenIn.add(e.loc);
     }
   }
 
@@ -295,8 +307,8 @@ async function collectDomain(domain, { probeUrls = [], refresh = false, progress
   for (const url of candidates) await ingest(url, 1);
 
   const { urls, foreign, truncated } = keepInDomain(entries, domain);
-  const wasTruncated = truncated || capped;
-  if (wasTruncated) progress(`  ${domain}: truncated at ${urls.length} urls (${capped ? "source cap" : "url cap"})`);
+  const wasTruncated = truncated || !!stop;
+  if (wasTruncated) progress(`  ${domain}: truncated at ${urls.length} urls (${stop || "url cap"})`);
 
   if (urls.length) {
     saveJSON(dest, {
@@ -395,7 +407,7 @@ export async function runSitemaps({ only, refresh = false, log = console.log, pr
   saveJSON(FILE.sitemapsReport, report);
 
   const reasons = {};
-  for (const b of report.blocked) reasons[b.reason] = (reasons[b.reason] || 0) + 1;
+  for (const b of blocked) reasons[b.reason] = (reasons[b.reason] || 0) + 1;
   log(
     `sitemaps: ${targets.length} tried · ok ${ok.length}${skipped ? ` (${skipped} resumed)` : ""} · empty ${empty.length} · failed ${failed.length} · blocked ${blocked.length}` +
       `${Object.keys(reasons).length ? ` (${Object.entries(reasons).map(([r, n]) => `${r}:${n}`).join(" ")})` : ""} · ${total.toLocaleString("en-US")} URLs · ${((Date.now() - t0) / 1000).toFixed(0)}s`,

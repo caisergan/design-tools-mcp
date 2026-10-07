@@ -103,6 +103,12 @@ test("a domain given with www. matches its bare host too", () => {
   expect(keepInDomain([u("https://x.dev/a")], "www.x.dev").urls).toEqual([{ loc: "https://x.dev/a" }]);
 });
 
+test("single-slash locs are normalised to a usable absolute url", () => {
+  const r = keepInDomain([u("https:/x.dev/a"), u("https://x.dev/b"), u("http:/www.x.dev/c")], "x.dev");
+  expect(r.urls).toEqual([{ loc: "https://x.dev/a" }, { loc: "https://x.dev/b" }, { loc: "http://www.x.dev/c" }]);
+  expect(r.foreign).toBe(0);
+});
+
 test("duplicate locs collapse", () => {
   expect(keepInDomain([u("https://x.dev/a"), u("https://x.dev/a", "2026-02-02")], "x.dev").urls).toEqual([{ loc: "https://x.dev/a" }]);
 });
