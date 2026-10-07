@@ -29,3 +29,10 @@ All 05 batches merged: `catalog/patterns/` holds 274 files (44 hand · 60 auto �
 Follow-ups noted in review: dycomps.oimmi.com was skipped because its sitemap locs have no host (a real block library,
 worth a urls_from look); whole-site template shops are inconsistent (themefisher, uideck, wrappixel, bootstrapmade got
 patterns; frameplate and sleek.design were skipped).
+
+## Brief 09–12 (2026-10-07, evening)
+
+| agent | brief | branch @ tip | outcome | merged | closed |
+| --- | --- | --- | --- | --- | --- |
+| t09a | 09 Scrapling probe, set A (31 walled/dead) | `phase6/scrapling-a` @ b3f5048 | 4 truly walled (uiverse, land-book, ui8, saasframe) + 5 reachable by curl; 16 dead | 2026-10-07 | 2026-10-07 |
+| t09b | 09 Scrapling probe, set B (18 small) | `phase6/scrapling-b` @ 42c81e6 | 4 redirect-target sites (no Scrapling needed), 14 unchanged | 2026-10-07 | 2026-10-07 |
