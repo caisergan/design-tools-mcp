@@ -18,6 +18,7 @@ export const FILE = {
   sources: join(OUT, "sources"),
   overrides: join(OUT, "overrides.json"),
   taxonomy: join(OUT, "taxonomy.json"),
+  sitemapsReport: join(OUT, "sitemaps-report.json"),
 };
 
 // ---------------------------------------------------------------- sources

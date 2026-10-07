@@ -1,10 +1,11 @@
 #!/usr/bin/env bun
 // Bulk-download every machine-readable payload found by probe.mjs into catalog/corpus/.
-// Usage: bun tools/fetch.mjs [--llms] [--repos] [--registries] [--items=40] [--max-mb=3]
+// Usage: bun tools/fetch.mjs [--llms] [--repos] [--registries] [--sitemaps] [--items=40] [--max-mb=3]
 import { mkdirSync, writeFileSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { FILE, saveText, loadJSON, pool, slug, repoParts, resolveItemBase } from "./lib.mjs";
 import { loadItems } from "./build.mjs";
+import { runSitemaps } from "./sitemaps.mjs";
 
 const CONCURRENCY = Number(process.env.FETCH_CONCURRENCY || 12);
 const MAX_MB = Number((process.argv.find((a) => a.startsWith("--max-mb=")) || "").split("=")[1] || 3);
@@ -13,8 +14,9 @@ const UA = "Mozilla/5.0 (compatible; design-tools-catalog/1.0; +local)";
 const flag = (name) => process.argv.includes(`--${name}`);
 const flagVal = (name) => (process.argv.find((a) => a.startsWith(`--${name}=`)) || "").split("=")[1];
 const only = flagVal("only")?.split(",").map((s) => s.trim()).filter(Boolean);
-const anyMode = flag("llms") || flag("repos") || flag("registries");
-const want = (m) => !anyMode || flag(m);
+const anyMode = flag("llms") || flag("repos") || flag("registries") || flag("sitemaps");
+// No mode flag: the original three. `--sitemaps` (alone or with others) adds the domain sitemap run.
+const want = (m) => (anyMode ? flag(m) : m !== "sitemaps");
 
 async function download(url, dest, { maxBytes = MAX_MB * 1e6 } = {}) {
   const ctrl = new AbortController();
@@ -51,6 +53,7 @@ function record(item, kind, path, bytes, note = "") {
 }
 
 function inferKind(r) {
+  if (/sitemap\.json$/.test(r)) return "sitemap";
   if (r.startsWith("repos/")) return /SKILL\.md$/.test(r) ? "skill" : "repo";
   if (/llms-full\.txt$/.test(r)) return "llms-full";
   if (/llms\.txt$/.test(r)) return "llms";
@@ -199,6 +202,7 @@ if (import.meta.main) {
     console.error("probe.json missing — run: bun tools/probe.mjs");
     process.exit(1);
   }
+  if (want("sitemaps")) await runSitemaps({ only, refresh: flag("refresh") });
   const items = loadItems();
   const targets = items.filter(
     (i) => i.probe && Object.keys(i.probe).length > 0 && (!only || only.includes(i.domain) || only.includes(i.url)),
