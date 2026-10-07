@@ -1,6 +1,5 @@
 {
   "match": [
-    "/browse/tag/{name}",
     "/browse/{element}/{*}",
     "/sections/{element}/{*}",
     "/sections/footers/{name}",
@@ -12,5 +11,5 @@
   "granularity": "page",
   "access": "page",
   "status": "auto",
-  "note": "guesser: /browse/tag/{name} (1479 children, 8% element-tagged); /browse/{element}/{*} (1479 children, 100% element-tagged); /sections/{element}/{*} (84 children, 100% element-tagged); /sections/footers/{name} (42 children, 100% element-tagged); /three-js/{name} (33 children, 15% element-tagged); /backgrounds/{name} (30 children, 13% element-tagged); /hero/{name} (28 children, 7% element-tagged); /buttons/rectangle-buttons/{name} (24 children, 54% element-tagged)"
+  "note": "guesser: /browse/tag/{name} (1479 children, 8% element-tagged); /browse/{element}/{*} (1479 children, 100% element-tagged); /sections/{element}/{*} (84 children, 100% element-tagged); /sections/footers/{name} (42 children, 100% element-tagged); /three-js/{name} (33 children, 15% element-tagged); /backgrounds/{name} (30 children, 13% element-tagged); /hero/{name} (28 children, 7% element-tagged); /buttons/rectangle-buttons/{name} (24 children, 54% element-tagged); removed after review (listing/taxonomy pages, not items): /browse/tag/{name}"
 }

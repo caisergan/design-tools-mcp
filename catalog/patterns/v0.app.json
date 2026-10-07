@@ -1,9 +1,4 @@
 {
-  "match": [
-    "/chat/{name}"
-  ],
-  "granularity": "page",
-  "access": "page",
-  "status": "auto",
-  "note": "guesser: /chat/{name} (20000 children, 13% element-tagged)"
+  "skip": "v0 chat session pages (/chat/<id>) are user-generated chats, not UI examples",
+  "status": "hand"
 }

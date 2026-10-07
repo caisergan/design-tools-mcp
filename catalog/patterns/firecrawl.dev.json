@@ -1,9 +1,4 @@
 {
-  "match": [
-    "/use-cases/{name}"
-  ],
-  "granularity": "page",
-  "access": "page",
-  "status": "auto",
-  "note": "guesser: /use-cases/{name} (19 children, 32% element-tagged)"
+  "skip": "use-case marketing pages, not UI examples",
+  "status": "hand"
 }

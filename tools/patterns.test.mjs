@@ -260,6 +260,31 @@ test("guesser: two-segment galleries become {element}/{n} or {name}/{n}", () => 
   expect(other.some((r) => r.template === "/blocks/{element}/{n}")).toBe(false);
 });
 
+test("guesser: tag / category / collection listing prefixes are never high", () => {
+  const elements = ["navbar", "hero", "footer", "cta", "pricing", "features", "faq", "testimonials", "modal", "toast", "drawer", "tabs"];
+  for (const dir of ["tag", "tags", "category", "categories", "cat", "collection", "collections", "topic", "topics"]) {
+    const rows = suggest(sitemapOf(elements.map((e) => `/${dir}/${e}`)), { domain: "x.dev", overrides: ov });
+    const row = rows.find((r) => r.template === `/${dir}/{name}`);
+    expect(row.elemPct).toBe(100); // every child is an element name — the old rule would call this high
+    expect(row.high).toBe(false);
+    expect(row.why).toMatch(/listing, not items/);
+  }
+  // …but a component segment that merely contains the word still passes
+  const ok = suggest(sitemapOf(elements.map((e) => `/components/${e}`)), { domain: "x.dev", overrides: ov });
+  expect(ok.find((r) => r.template === "/components/{name}").high).toBe(true);
+});
+
+test("guesser: a region locale segment is never high, on top of LOCALE", () => {
+  const rows = suggest(sitemapOf(paths(12, (i) => `/en-us/components/thing-${i}`)), { domain: "x.dev", overrides: ov });
+  const row = rows.find((r) => r.template === "/en-us/components/{name}");
+  expect(row.high).toBe(false);
+  expect(row.why).toMatch(/meta segment "en-us"/);
+  const kr = suggest(sitemapOf(paths(12, (i) => `/ko-kr/figjam/${i}`)), { domain: "x.dev", overrides: ov });
+  expect(kr.every((r) => !r.high)).toBe(true);
+  const de = suggest(sitemapOf(paths(12, (i) => `/de/components/thing-${i}`)), { domain: "x.dev", overrides: ov }); // plain LOCALE still applies
+  expect(de.every((r) => !r.high)).toBe(true);
+});
+
 test("domain lists are read from column 2", () => {
   expect(parseDomainList("entry_id\tdomain\tcurated\nfoo\tx.dev\t\nbar\t\t\n")).toEqual(["x.dev"]);
 });

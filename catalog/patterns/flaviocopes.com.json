@@ -1,12 +1,4 @@
 {
-  "match": [
-    "/courses/terminal/{name}",
-    "/courses/forms/{name}",
-    "/courses/native-web-interfaces/{name}",
-    "/courses/swiftui/{name}"
-  ],
-  "granularity": "page",
-  "access": "page",
-  "status": "auto",
-  "note": "guesser: /courses/terminal/{name} (64 children, 94% element-tagged); /courses/forms/{name} (31 children, 39% element-tagged); /courses/native-web-interfaces/{name} (20 children, 35% element-tagged); /courses/swiftui/{name} (20 children, 50% element-tagged)"
+  "skip": "course lesson pages, not UI examples",
+  "status": "hand"
 }

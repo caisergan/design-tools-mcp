@@ -1,9 +1,4 @@
 {
-  "match": [
-    "/tag/{name}"
-  ],
-  "granularity": "page",
-  "access": "page",
-  "status": "auto",
-  "note": "guesser: /tag/{name} (1119 children, 7% element-tagged)"
+  "skip": "blog tag pages, not UI examples",
+  "status": "hand"
 }

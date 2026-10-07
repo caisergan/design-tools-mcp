@@ -13,6 +13,10 @@ import { PATTERNS_DIR, elementIndex, filterFile, filterJobs, hrefs, humanise, lo
 
 const UA = "Mozilla/5.0 (compatible; design-tools-catalog/1.0; +local)";
 
+/** Listing/taxonomy pages are not items; a region locale segment (ko-kr, en-us) is a locale copy. */
+const LISTING_SEGMENT = /^(tags?|categories|category|cat|collections?|topics?)$/i;
+const REGION = /^[a-z]{2}-[a-z]{2}$/i;
+
 // ---------------------------------------------------------------- guesser
 
 const tagElements = (domain, child, overrides, taxonomy) =>
@@ -64,8 +68,9 @@ export function suggest(sitemap, { domain, taxonomy = TAXONOMY, overrides = load
     const allElements = names.every((c) => bySlug.has(slug(c)));
     const template = g.mode === "A" ? `/${g.dir}/{name}` : `/${g.dir}/{${allElements ? "element" : "name"}}/${g.mode === "N" ? "{n}" : "{*}"}`;
     const literals = template.split("/").filter((s) => s && !/^\{[^}]*\}$/.test(s));
-    const meta = literals.find((s) => LOCALE.test(s) || SKIP_SEGMENT.test(s));
+    const meta = literals.find((s) => LOCALE.test(s) || REGION.test(s) || SKIP_SEGMENT.test(s));
     const last = literals[literals.length - 1];
+    const listing = !!last && LISTING_SEGMENT.test(last);
     let tagged = 0;
     for (const name of names) if (tagElements(domain, name, overrides, taxonomy).length) tagged++;
     const elemPct = Math.round((100 * tagged) / names.length);
@@ -73,10 +78,11 @@ export function suggest(sitemap, { domain, taxonomy = TAXONOMY, overrides = load
     let why;
     if (meta) why = `meta segment "${meta}"`;
     else if (!literals.length) why = "no literal prefix segment";
+    else if (listing) why = `prefix "${last}" is a tag/category/collection listing, not items`;
     else if (componentLike) why = `prefix "${last}" is a component segment or an element`;
     else if (elemPct >= 30) why = `${elemPct}% of children tag to an element`;
     else why = `prefix "${last}" is neither component-like nor element-tagged (${elemPct}%)`;
-    const high = !meta && literals.length > 0 && (componentLike || elemPct >= 30);
+    const high = !meta && !listing && literals.length > 0 && (componentLike || elemPct >= 30);
     rows.push({
       template,
       prefix: template.replace(/\/?\{[^}]*\}.*$/, ""),

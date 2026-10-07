@@ -1,9 +1,4 @@
 {
-  "match": [
-    "/product/{name}"
-  ],
-  "granularity": "page",
-  "access": "page",
-  "status": "auto",
-  "note": "guesser: /product/{name} (253 children, 32% element-tagged)"
+  "skip": "Twitch stream overlays, not UI examples",
+  "status": "hand"
 }
