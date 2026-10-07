@@ -1,0 +1,6 @@
+{
+  "match": ["/blocks/{element}/{name}", "/blocks/newsletter/{name}"],
+  "granularity": "example",
+  "status": "hand",
+  "note": "UI Layouts Pro: gallery of page blocks — /blocks/<element>/<name> (hero 19, pricing 6; the element is captured from the path) plus /blocks/newsletter/<name> (7; 'newsletter' is not in the element taxonomy, hence the literal template). /blocks/<element> (12) are the listing pages of each kind and are not items."
+}

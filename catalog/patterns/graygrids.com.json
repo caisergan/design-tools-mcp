@@ -1,0 +1,6 @@
+{
+  "match": ["/templates/{name}", "/components/bootstrap/{name}"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "GrayGrids: free/premium website templates (one page per template — /templates/<name>) plus a Bootstrap component library with one section page per kind — /components/bootstrap/<name> (features, pricing-tables, navbars, footers …). /templates/tag/<name> and /templates/category/<name> are tag listings (not matched); /blog, /docs, /checkout are the site's own pages."
+}

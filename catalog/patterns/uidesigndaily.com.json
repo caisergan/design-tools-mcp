@@ -1,0 +1,7 @@
+{
+  "match": "/posts/{name}",
+  "granularity": "example",
+  "urls_from": ["/"],
+  "status": "hand",
+  "note": "UI Design Daily: one page per free UI design — /posts/<name> (e.g. /posts/figma-billing-page-payment-day-1585, a Figma/Sketch/XD design). The site's own sitemap lists only 21 marketing/auth URLs, so the /posts/ links are taken from the paginated homepage (Webflow ?e326175c_page=N, cut off at the tool's 20-page limit)."
+}

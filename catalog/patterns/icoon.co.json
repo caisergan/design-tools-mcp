@@ -1,0 +1,6 @@
+{
+  "match": "/collection/{name}",
+  "granularity": "page",
+  "status": "hand",
+  "note": "Icoon: pack pages of AI-generated icons, illustrations and 3D assets — /collection/<name> (30, e.g. /collection/doodle-character-illustrations). The 1498 /asset/<name> pages are single near-identical assets (like glyph pages), so they are not matched; /mockups, /freebies, /icons are category listings."
+}
