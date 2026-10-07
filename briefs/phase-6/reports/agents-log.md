@@ -39,3 +39,7 @@ patterns; frameplate and sleek.design were skipped).
 | f10 | 10 redirects + revived sites | `phase6/redirects` @ 1b66a21 | 7 patterns (+7,624 items after dropping 120 uuid-named mobbin screens), raivcoo skip (uuid names) | 2026-10-07 | 2026-10-07 |
 | r12-105 | 12 design sitemap sites rows 105–130 | `phase6/design-105` @ e479d69 | 6 patterns (+3,442: grainient 1,481, gradientora 1,066, youworkforthem 823 …), 20 skips | 2026-10-07 | 2026-10-07 |
 | r12-53 | 12 design sitemap sites rows 53–78 | `phase6/design-53` @ 2ad4722 | 8 patterns (+2,770: uidesigndaily 1,505, webpo 788, icon.museum 247 …), 18 skips | 2026-10-07 | 2026-10-07 |
+| r12-27 | 12 design sitemap sites rows 27–52 | `phase6/design-27` @ 5653acd | 13 patterns (+7,237), 13 skips | 2026-10-07 | 2026-10-07 |
+| r12-79 | 12 design sitemap sites rows 79–104 | `phase6/design-79` | 9 patterns (+6,462: fonts.google.com 2,219, typewolf 1,139 …) | 2026-10-07 | 2026-10-07 |
+| r12-1 | 12 design sitemap sites rows 1–26 | `phase6/design-1` @ 7addd1b | 14 patterns (+11,178: admiretheweb 2,982, bestwebsite.gallery 2,641 …), 12 skips | 2026-10-07 | 2026-10-07 |
+| r12-131 | 12 design sitemap sites rows 131–154 | `phase6/design-131` @ 92f643b | 9 patterns (+1,543: getdesign.md 633, designmd.ai 400, m3.material.io 248 …), 15 skips | 2026-10-07 | 2026-10-07 |
