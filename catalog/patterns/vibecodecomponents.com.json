@@ -1,4 +1,20 @@
 {
-  "skip": "domain serves a JS shell with no links; robots/sitemap point at vibecomponents.com (other domain)",
-  "status": "hand"
+  "anchors_from": [
+    "/",
+    "/content-components",
+    "/micro-interactions",
+    "/form-components",
+    "/navigation-components",
+    "/hero-components",
+    "/cta-components",
+    "/storytelling-components",
+    "/css-animations",
+    "/ui-polish",
+    "/text-effects"
+  ],
+  "anchors_exclude": ["#interactive", "#nav-menu"],
+  "render": true,
+  "granularity": "variant",
+  "status": "hand",
+  "note": "VCI Components: client-rendered category pages (the raw HTML is a JS shell and the domain has no sitemap) — every component is a <section id=…> with its own heading on one of the category pages, so anchors_from + render collects them (caches filters/rendered-anchors-{1..12}.json). /auth, /favorites and /premium are app pages, not matched."
 }

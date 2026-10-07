@@ -1,0 +1,6 @@
+{
+  "match": ["/blocks/{author}/{element}", "/pages/{author}/{*}/{name}", "/pages/{author}/{*}/{name}/{*}"],
+  "granularity": "example",
+  "status": "hand",
+  "note": "Tailark (formerly nsui.irung.me, which 301s here — that entry is a skip). /blocks/<theme>/<kind> is a block example (kind = the element: hero-section, call-to-action, faqs, footer …); /pages/<theme>/<variant>/<kind>[/<n>] is a full page template (landing, blog, pricing …), so those items carry no element. Its shadcn registry (corpus/sites/tailark.com/registry.json, 469 components) is mapped by the registry adapter."
+}

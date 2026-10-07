@@ -1,4 +1,23 @@
 {
-  "skip": "client-rendered SPA: sitemap lists only / and no page server-renders links; the bundle's UI routes (/buttons, /cards, /checkbox, /dropdown, /forms …) have no URL source",
-  "status": "hand"
+  "match": [
+    "/buttons",
+    "/boxshadows",
+    "/cards",
+    "/checkbox",
+    "/dropdown",
+    "/dropdowns",
+    "/forms",
+    "/hamburger",
+    "/inputfields",
+    "/loadingspinners",
+    "/masonry",
+    "/radio",
+    "/texts",
+    "/toggle"
+  ],
+  "render": true,
+  "urls_from": ["/"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "Client-rendered SPA: the sitemap lists only / and no page server-renders links, so the homepage route list comes from a rendered DOM fetch (render: true, cache corpus/sites/cssnippets.shefali.dev/filters/rendered-urls-1.json). One page per element (a page lists every snippet of that element); the marketing, generator and blog routes are not matched. Element tags come from the route name (buttons → button, radio → checkbox …); 'texts', 'hamburger', 'masonry', 'boxshadows', 'inputfields' and 'loadingspinners' carry no taxonomy element."
 }

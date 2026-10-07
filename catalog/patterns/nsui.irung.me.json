@@ -1,4 +1,4 @@
 {
-  "skip": "no sitemap and the host 301s to tailark.com, whose block/pages indexes are client-rendered (0 links in HTML), so urls_from cannot resolve the /blocks/<theme>/<kind> pages",
+  "skip": "covered by tailark.com — the domain 301s to tailark.com, whose own catalog entry (tailark-com) carries the pattern",
   "status": "hand"
 }

@@ -1,4 +1,6 @@
 {
-  "skip": "template-block library, but its sitemap.xml locs carry no host (https://templates/c-blocks/...) so brief 01 saved no sitemap.json, and no page server-renders links (/templates, /pages, /hooks ship 2-4 anchors); needs a closer look",
-  "status": "hand"
+  "match": "/templates/{*}/{element}/{name}",
+  "granularity": "example",
+  "status": "hand",
+  "note": "DY Comps template-block gallery: /templates/<collection>/{s-blocks,c-blocks,twblocks,others}/<kind>/<example>. The sitemap's locs carry no host (https://templates/…) and are repaired against the domain by tools/sitemaps.mjs; the kind segment names the element, the leaf is the example (hero1, cta3 …)."
 }

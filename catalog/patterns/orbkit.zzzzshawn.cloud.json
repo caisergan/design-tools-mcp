@@ -1,4 +1,4 @@
 {
-  "skip": "React shader library: the 33 shaders are query params on one page (/playground?orb=shdr-01 …), which collapse to a single item, and the sitemap has no per-shader or per-component URLs",
+  "skip": "React shader library: the 33 shaders are query params on one page (/playground?orb=shdr-01 …) that collapse onto a single path, and the playground has no per-shader sections or links",
   "status": "hand"
 }

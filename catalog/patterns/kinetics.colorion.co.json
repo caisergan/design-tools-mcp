@@ -1,4 +1,4 @@
 {
-  "skip": "Single-page demo ('Kinetics — Spring-physics motion for web interfaces'): the corpus sitemap has exactly one URL (/) and the homepage only links its own stylesheets (/css/hero.css, /css/gallery.css, /css/effects-a|b|c.css) — the gallery of effects is inline on that page, so there are no per-example URLs to collect.",
+  "skip": "single-page demo ('Kinetics — Spring-physics motion for web interfaces'): one sitemap URL (/), the effects are inline demo cards without ids or headings, and a rendered fetch (2026-10-07) finds only the library/physics/about sections — no per-effect urls",
   "status": "hand"
 }

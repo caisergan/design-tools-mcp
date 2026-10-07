@@ -1,4 +1,8 @@
 {
-  "skip": "single-page SPA; no sitemap, no in-page links to per-example URLs",
-  "status": "hand"
+  "anchors_from": ["/"],
+  "render": true,
+  "granularity": "variant",
+  "element": "button",
+  "status": "hand",
+  "note": "Single-page SPA with ~145 button specimens: every specimen is a <section id=…> of the root page (gallery, fill-load, like-burst, hold-confirm …) and the raw HTML is an empty shell, so the sections come from a rendered DOM fetch (render: true → filters/rendered-anchors-1.json). One item per specimen, all buttons."
 }

@@ -1,4 +1,15 @@
 {
-  "skip": "CSS animation playground; /play/{category} pages are interactive animation demos, not component pages",
-  "status": "hand"
+  "match": [
+    "/play/basic/{*}/{name}",
+    "/play/entrances/{*}/{name}",
+    "/play/exits/{*}/{name}",
+    "/play/text/{*}/{name}",
+    "/play/attention/{*}/{name}",
+    "/play/background/{*}/{name}"
+  ],
+  "render": true,
+  "urls_from": ["/play/basic", "/play/entrances", "/play/exits", "/play/text", "/play/attention", "/play/background"],
+  "granularity": "example",
+  "status": "hand",
+  "note": "On-demand CSS animation library. Every demo is a page /play/<category>/<animation>/<direction> (basic/scale-up/scale-up-center, text/blur-in/blur-in-expand …), but the category pages are client-rendered: the sitemap lists only /play and the six categories and every category page serves the same SPA shell, so urls_from + render caches the links of the six category pages (filters/rendered-urls-{1..6}.json). One item per animation direction; the animation overview pages /play/<category>/<animation> are listings of their own directions, so they are not matched."
 }

@@ -1,4 +1,4 @@
 {
-  "skip": "Notion page — the served HTML is a JS-only shell with no links and there is no sitemap, so nothing can be mapped",
+  "skip": "Notion page ('UIUX Components'): the served HTML is a JS-only shell and a rendered fetch (2026-10-07) finds no own-domain links and no in-page sections, so nothing can be mapped",
   "status": "hand"
 }
