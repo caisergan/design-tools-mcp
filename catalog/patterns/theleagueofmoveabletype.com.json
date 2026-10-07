@@ -1,0 +1,7 @@
+{
+  "match": "/{name}",
+  "exclude": ["/newsletter", "/manifesto", "/team"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "The League of Moveable Type (open-source type foundry): each root-level slug is one font family page ('Chunk | The League of Moveable Type', 18 families: Raleway, League Gothic, Orbitron …). /newsletter and /manifesto are site pages and /team/<member> are profiles."
+}

@@ -1,0 +1,6 @@
+{
+  "match": ["/specimen/{name}", "/noto/specimen/{name}", "/knowledge/{*}/{name}"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "Google Fonts: item = one font family page (/specimen/Abel, plus the 212 /noto/specimen families) or one typography guideline article (/knowledge/<topic>/<slug> — glossary, using type, history, accessibility … 269 pages). /knowledge/<topic> section roots, /icons, /selection and the FAQ/about pages are not items."
+}
