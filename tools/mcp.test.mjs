@@ -388,17 +388,19 @@ test("list_pages opens one site's gallery examples, within 2.5 KB", async () => 
 });
 
 test("list_pages falls back to the raw sitemap URLs when the site has no pattern", async () => {
-  // builtbydesigners.com: 150 sitemap URLs, no catalog/patterns/builtbydesigners.com.json, no items
-  const text = textOf(await callTool("list_pages", { ref: "builtbydesigners.com", query: "biscuit" }));
+  // letterboxx.app: 42 sitemap URLs, no catalog/patterns/letterboxx.app.json, no items. the earlier fixture
+  // (builtbydesigners.com) got a pattern in briefs 12/05, so the fallback needs a site that stays unmapped:
+  // a newsletter-reader app, not a UI library
+  const text = textOf(await callTool("list_pages", { ref: "letterboxx.app", query: "gmail" }));
   expect(text).toContain("raw sitemap URLs — this site has no pattern yet");
   expect(bulletsOf(text)).toEqual([
-    "- https://builtbydesigners.com/projects/biscuit/",
-    "- https://builtbydesigners.com/projects/biscuit-camera/",
+    "- https://letterboxx.app/gmail-newsletter-reader",
+    "- https://letterboxx.app/guide/import-newsletters-from-gmail",
   ]);
   // without a query or element it lists the path prefixes, not a wall of URLs
-  const bare = textOf(await callTool("list_pages", { ref: "builtbydesigners.com" }));
+  const bare = textOf(await callTool("list_pages", { ref: "letterboxx.app" }));
   expect(bare).toContain("raw sitemap URLs — this site has no pattern yet");
-  expect(bare).toContain("prefixes: /projects");
+  expect(bare).toContain("prefixes: /press 7");
   expect(bare).not.toContain("https://");
 });
 

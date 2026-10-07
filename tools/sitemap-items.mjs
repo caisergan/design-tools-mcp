@@ -310,11 +310,12 @@ function finalizeNames(items) {
 /**
  * Sitemap URLs (+ urls_from links, or the variants_from/elements_from links of a site without a sitemap) +
  * pattern → items. `taken` is the id → item map of the entry (registry and llms items win); items made here
- * are added to it. Pure: pass `sitemap`, `pattern` and `filters` in.
+ * are added to it, and a registry item with no url of its own takes the page's url. Pure: pass `sitemap`,
+ * `pattern` and `filters` in.
  */
 export function sitemapScan(domain, parent, { overrides = { assetDomains: new Set(), components: {} }, taken = new Map(), pattern, sitemap = null, filters = null, taxonomy = TAXONOMY } = {}) {
   const out = [];
-  if (!pattern || pattern.skip || parent?.id === undefined) return { items: out, candidates: 0, matched: 0, skipped: 0, unmapped: 0, anchors: 0 };
+  if (!pattern || pattern.skip || parent?.id === undefined) return { items: out, candidates: 0, matched: 0, skipped: 0, unmapped: 0, anchors: 0, urls_attached: 0 };
   const compiled = compilePattern(pattern, { taxonomy });
   const fixed = pattern.element ? resolveElement(pattern.element, compiled) : null;
 
@@ -359,6 +360,7 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
   let matched = 0;
   let skipped = 0;
   let unmapped = 0;
+  let urls_attached = 0;
 
   /** Variant tags of one item: filter-page membership first, then the taxonomy tags of its name. */
   const variantsFor = (els, tagged, key) => {
@@ -400,7 +402,15 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
     const idBase = parts.join("-");
     const id = `${parent.id}/${slug(idBase)}`;
     if (taken.has(id)) {
-      // registry and llms items win, and two pages whose segment slugs the same are one item
+      // registry and llms items win, and two pages whose segment slugs the same are one item. A registry
+      // item with no url of its own takes this page's url (the llms adapter's rule): the page is the
+      // component's docs page even though the item itself stays the registry item.
+      const it = taken.get(id);
+      if (it.from === "registry" && !it.url) {
+        it.url = url;
+        urls_attached++;
+        takenUrls.add(key);
+      }
       skipped++;
       continue;
     }
@@ -499,7 +509,7 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
     anchorUrls.add(url);
   }
   finalizeNames(out);
-  return { items: out, candidates: candidates.length, matched, skipped, unmapped, anchors };
+  return { items: out, candidates: candidates.length, matched, skipped, unmapped, anchors, urls_attached };
 }
 
 export const sitemapItems = (domain, parent, opts) => sitemapScan(domain, parent, opts).items;

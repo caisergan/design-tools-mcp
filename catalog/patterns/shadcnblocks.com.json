@@ -1,0 +1,6 @@
+{
+  "match": ["/block/{name}", "/component/{author}/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "note": "shadcnblocks.com (www.shadcnblocks.com) — paid shadcn/tailwind block library. /block/<slug> (2,028 pages) is one section, /component/<category>/<slug> (2,104 pages) one component variant. Both slug schemes are exactly the registry's own item names — corpus/sites/shadcnblocks.com/registry.json (4,171 items, gated) names a block '<slug>' and a component '<category>-<slug>' — so all 4,132 matched pages attach their url to the registry item instead of making an item (0 new items). The component template reads {author} for the category segment: it is the only placeholder that keeps the '<category>-<name>' id order the registry uses. /components/<slug> index pages (107), /blocks/<category>[/<sub>] listings (321), /page/* (49), /template|templates|theme|pages/*, /changelog/*, /docs/*, /blog/* and /auth/* stay unmatched — docs and listings, none with a registry twin. robots.txt disallows /r/, /api/, /preview/ and /explorer/*; the pattern matches none of them."
+}

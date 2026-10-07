@@ -261,12 +261,16 @@ function report(byEntry, previous) {
     .map(([id, s]) => ({ id, ...s, items: (byEntry.get(id) || []).filter((i) => i.from === "sitemap") }))
     .sort((a, b) => b.items.length - a.items.length);
   if (siteRows.length) {
+    // top sites by item count, plus any site below the cut that attached urls to registry items: a site
+    // whose pages all belong to registry items makes no sitemap items and would never be shown otherwise
+    const shown = siteRows.slice(0, 80);
+    for (const s of siteRows.slice(80)) if (s.scan.urls_attached) shown.push(s);
     console.log(`sitemap sites ${siteRows.length}:`);
-    for (const s of siteRows.slice(0, 80))
+    for (const s of shown)
       console.log(
-        `  ${s.domain} ${s.items.length} items · ${s.scan.matched}/${s.scan.candidates} urls matched · ${s.items.filter((i) => i.elements.length).length} with an element · ${s.items.reduce((t, i) => t + Object.values(i.variants).flat().length, 0)} variant tags · ${s.auto ? "auto" : "hand"}`,
+        `  ${s.domain} ${s.items.length} items · ${s.scan.matched}/${s.scan.candidates} urls matched · ${s.scan.urls_attached} urls attached · ${s.items.filter((i) => i.elements.length).length} with an element · ${s.items.reduce((t, i) => t + Object.values(i.variants).flat().length, 0)} variant tags · ${s.auto ? "auto" : "hand"}`,
       );
-    if (siteRows.length > 80) console.log(`  … ${siteRows.length - 80} more sites with sitemap items`);
+    if (shown.length < siteRows.length) console.log(`  … ${siteRows.length - shown.length} more sites with sitemap items`);
   }
   const nav = all.filter((i) => i.elements.includes("navbar"));
   console.log(`navbar: ${nav.length} items · ${new Set(nav.filter((i) => i.from === "registry").map((i) => i.parent)).size} registries · ${nav.filter((i) => i.from === "llms").length} docs pages · ${nav.filter((i) => i.from === "sitemap").length} sitemap pages`);

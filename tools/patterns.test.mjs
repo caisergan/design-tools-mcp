@@ -104,6 +104,44 @@ test("dedupe: registry and llms items win by id and by url", () => {
   expect(taken.has("ng/fresh")).toBe(true); // our items join `taken` for the next adapter
 });
 
+test("a taken registry item with no url takes the page url; other taken items are untouched", () => {
+  const pattern = { match: "/navbar/{name}", element: "navbar", status: "hand" };
+  const taken = new Map();
+  taken.set("ng/stripe", { id: "ng/stripe", from: "registry", name: "Stripe", access: "gated", granularity: "variant" });
+  taken.set("ng/kept", { id: "ng/kept", from: "registry", name: "Kept", url: "https://docs.dev/kept" });
+  taken.set("ng/docs", { id: "ng/docs", from: "llms", name: "Docs", access: "page" });
+  const r = scan("navbar.gallery", "ng", {
+    pattern,
+    taken,
+    sitemap: {
+      urls: [
+        S("https://navbar.gallery/navbar/stripe"),
+        S("https://navbar.gallery/navbar/kept"),
+        S("https://navbar.gallery/navbar/docs"),
+        S("https://navbar.gallery/navbar/fresh"),
+      ],
+    },
+  });
+  expect(r.items.map((i) => i.id)).toEqual(["ng/fresh"]); // attached pages stay registry items, not sitemap items
+  expect(taken.get("ng/stripe")).toMatchObject({
+    url: "https://navbar.gallery/navbar/stripe",
+    name: "Stripe", // name, element and access of the registry item never change
+    access: "gated",
+  });
+  expect(taken.get("ng/kept").url).toBe("https://docs.dev/kept"); // an item that already has a url keeps it
+  expect(taken.get("ng/docs").url).toBeUndefined(); // a taken non-registry item is untouched
+  expect(r.urls_attached).toBe(1);
+  expect(r.skipped).toBe(3);
+  // the attached page is consumed: the same page (www copy) cannot attach a second url
+  const again = scan("navbar.gallery", "ng", {
+    pattern,
+    taken,
+    sitemap: { urls: [S("https://www.navbar.gallery/navbar/stripe")] },
+  });
+  expect(again.urls_attached).toBe(0);
+  expect(again.skipped).toBe(1);
+});
+
 test("ids and names come from the whole captured segment, never from sitemap order", () => {
   const pattern = { match: "/sections/{name}-{element}-{n}", granularity: "example", status: "hand" };
   const urls = [
