@@ -47,3 +47,4 @@ patterns; frameplate and sleek.design were skipped).
 | w11 | 11 Scrapling opt-in backend + paginate + uiverse.io | `phase6/scrapling-backend` @ 3e2857c | uiverse.io 6,013 items (100 % element); hosts file with land-book/ui8/saasframe disabled; challenge-rule fix; 173 tests pass on main | 2026-10-07 | 2026-10-07 |
 
 Still running: none. Briefs 09–13 merged and closed.
+| u14 | 14 registry page urls (shadcnblocks) | `phase6/registry-urls` @ c524b95 | sitemap pages fill url-less registry items; shadcnblocks 4,132 urls attached (registry items with a url 1,097 → 5,229); survey: 15,253 more fillable, shadcn.io 7,843 next | 2026-10-07 | 2026-10-07 |
