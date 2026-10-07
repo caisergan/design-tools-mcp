@@ -1,0 +1,7 @@
+{
+  "match": "/font/{*}/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Font marketplace: one page per font family/product — /font/T<n>/<family> (823 URLs; e.g. /font/T17519/neonbox = 'Neonbox Font - YouWorkForThem', 200 checked 2026-10-07). The {*} holds the T-number and only groups/ids the item; the name is the family. Not matched: /fonts/<style-category> (132 category listings), /collection/<name> (1,534 curated listicles), /designer/<name> (1,860 foundry profiles), and the /graphics, /photos, /videos, /extras category listings. No taxonomy element — a font family names no UI element."
+}

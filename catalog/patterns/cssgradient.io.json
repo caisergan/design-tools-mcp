@@ -1,0 +1,7 @@
+{
+  "match": ["/swatches", "/shades-of-red", "/shades-of-green", "/shades-of-pink", "/shades-of-purple", "/shades-of-blue", "/shades-of-yellow"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "CSS Gradient reference pages: /swatches = 'CSS Gradient Swatches' — a curated in-page list of gradients (200 checked 2026-10-07) and the 6 /shades-of-<colour> pages (red, green, pink, purple, blue, yellow — each shows 100+ named shades of one colour, e.g. 'Shades of Red' with 103). Literal templates because the useful word ('shades of') sits in fixed segments while the swatch/shade cards have no URLs or anchors of their own. Not matched: /gradient-backgrounds is a curated listicle of other gradient sites, /color-shades is the index of the shades pages, /blog/* are posts, /privacy-policy. No taxonomy element — colour shades and swatches name no UI element."
+}

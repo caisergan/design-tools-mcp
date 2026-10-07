@@ -1,0 +1,8 @@
+{
+  "match": ["/backgrounds/{name}", "/animated-gradientes/{name}"],
+  "element": "background",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Gradient / AI-generated background library: one page per background — /backgrounds/<slug> (1,391; e.g. /backgrounds/ecliptic---16 = 'Ecliptic - 16 - Unlimited Gradients and AI-Generated Backgrounds', 200 checked 2026-10-07) plus /animated-gradientes/<slug> (90 — note the typo'd path 'gradientes'; e.g. /animated-gradientes/animated-gradient---90). Every page is one background, so the element is fixed. /all-backgrounds, /collections/<name> (64) and the root marketing pages (pricing, sign-in, faq) are listings/marketing."
+}
