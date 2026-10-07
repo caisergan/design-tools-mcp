@@ -1,0 +1,6 @@
+{
+  "match": "/fonts/{name}",
+  "granularity": "page",
+  "status": "hand",
+  "note": "Font Squirrel: /fonts/<family> is one font family page (1370, e.g. /fonts/raleway). /fonts/list/{foundry,tag,classification}/… are foundry profiles and tag/classification listings and are not items."
+}

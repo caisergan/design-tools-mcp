@@ -1,0 +1,7 @@
+{
+  "match": ["/fonts/{name}", "/fonts/google/{name}", "/fonts/variable/{name}", "/fonts/fontshare/{name}"],
+  "exclude": ["/fonts/alternatives"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "Fontpair (font-pairing browser, client-rendered pages): item = one font page — the 119 /fonts/<family> classics plus the /fonts/{google,variable,fontshare}/<family> catalogues (896 + 186 + 66, no slug overlap with the root family). /fonts/alternatives is a listing and the /inspiration/<uuid> pairing examples have generated names, so both are skipped."
+}
