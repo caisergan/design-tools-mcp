@@ -1,0 +1,31 @@
+{
+  "match": "/patterns/{n}-{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "urls_from": [
+    "/ui-patterns/animations-transitions",
+    "/ui-patterns/carrousel-galleries",
+    "/ui-patterns/dropdown-menus",
+    "/ui-patterns/footers",
+    "/ui-patterns/form-fields",
+    "/ui-patterns/images-illustrations",
+    "/ui-patterns/links-buttons",
+    "/ui-patterns/modals-dialogs",
+    "/ui-patterns/navbars-toolbars",
+    "/ui-patterns/side-sheets-drawers",
+    "/ui-patterns/status-bars-chips",
+    "/ui-patterns/tabs-pagination",
+    "/ux-patterns/accessibility-personalization",
+    "/ux-patterns/awareness-status",
+    "/ux-patterns/call-to-action",
+    "/ux-patterns/landing-pages",
+    "/ux-patterns/mail-newsletters",
+    "/ux-patterns/onboarding",
+    "/ux-patterns/search-navigation",
+    "/ux-patterns/success-page",
+    "/ux-patterns/terms-conditions",
+    "/ux-patterns/user-feedback"
+  ],
+  "note": "PATTTTERNS is a Notion-backed catalogue of real-world UI patterns: one page per example at /patterns/<n>-<slug> (e.g. /patterns/149-security-top-banner-youtube-studio, /patterns/293-collapsable-sidebar-menu-google-gmail, 200 OK checked 2026-10-07), 347 in the site's own sitemap.xml. The host in this corpus (patttterns.net) has no sitemap.json and 301s to patttterns.com; /patterns itself is client-rendered (0 links in its HTML), but the 22 /ui-patterns/<kind> and /ux-patterns/<kind> category pages do render their example links, so they are the urls_from sources (~261 example URLs). /ui-patterns and /ux-patterns are not matched themselves, so they stay out of the item list."
+}

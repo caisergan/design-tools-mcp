@@ -1,0 +1,8 @@
+{
+  "match": "/gallery/{name}",
+  "element": "background",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Background/texture studio: one page per generated background — /gallery/<name> (50 in the sitemap; e.g. /gallery/violets = 'Violets, a frosted glass floral background', 200 OK checked 2026-10-07). All items are backgrounds, so the element is fixed. /gallery?category=gradient and /gallery?tag=Halftone are query filters of the same page: the matcher ignores queries, so they cannot be variants_from and the /gallery index itself has no child segment and stays out."
+}
