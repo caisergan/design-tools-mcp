@@ -1,0 +1,8 @@
+{
+  "source_domain": "beste.dev",
+  "match": ["/block/{name}", "/piece/{name}", "/component/{name}"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Beste UI, a shadcn/tailwind block library. ui.beste.co 301s to beste.dev; the sitemap there is a sitemapindex whose children sitemap-blocks/-pieces/-components.xml list the items. /block/<slug> 2236 full page sections ('Mobile App Hero with Phone Mockup shadcn/tailwind block'), /piece/<slug> 1325 media/effect pieces ('Card Flip - Beste UI Piece'), /component/<slug> 293 styled primitives ('Inspector Action - Beste UI Component'). The plural category index pages (/blocks/<category>, /pieces/<category>, /components/<category>, 134 locs) stay unmatched. Element comes from the name (hero53 → hero). 173 slugs exist on both /block/ and /piece/ (legal4, travel2, chat27 …) and share an id, so 3854 matched urls become 3681 items."
+}

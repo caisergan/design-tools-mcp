@@ -1,4 +1,4 @@
 {
-  "skip": "domain expired: HTTPS does not connect and the parked HTTP page says \"Your domain is expired\"",
+  "skip": "media items are /media/<uuid> and nothing gives a readable name: the sitemap (2780 locs) carries no <video:title>/<image:title>/<news:title> and the pattern engine names sitemap items from URL captures only, so all 2773 items would be uuids. Would need a tool change: keep per-loc titles (or fetch the page <title>) and use them as item names.",
   "status": "hand"
 }

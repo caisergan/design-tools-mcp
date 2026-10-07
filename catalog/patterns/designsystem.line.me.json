@@ -1,0 +1,9 @@
+{
+  "match": ["/LDSG/components/{*}/{name}"],
+  "render": true,
+  "urls_from": ["/LDSG/components"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "LINE Design System. /LDSG/components is a client-rendered shell (plain fetch is 200 with 0 links), so the index page is fetched with headless Chrome (render: true, session catalog-render). The rendered DOM holds 78 links, 69 of them leaf links /LDSG/components/<category>/<name>-en — but only 35 distinct component pages (buttons 3, contents 5, indicators 4, inputs 9, navigations 7, overlays 6, systems 1); the rest are duplicates of those 35 with and without a trailing slash, plus nav/category links. The 09 report's '70 component pages' counted those leaf links, not pages: a manual re-render with an 8 s wait (vs the tool's 3 s) still shows the same 35 unique pages. Examples: /LDSG/components/buttons/action-button-en, /LDSG/components/contents/avatar-en. The leaves are SPA routes too, but only the url matters for an item. robots.txt allows everything and names no sitemap."
+}
