@@ -6,7 +6,7 @@ import { FILE, loadJSON } from "./lib.mjs";
 import { TAXONOMY, elementsIn, variantsIn, tok as tokAscii } from "./tag.mjs";
 
 export const INDEX_FILE = FILE.catalog.replace(/catalog\.json$/, "search-index.json");
-export const INDEX_SCHEMA = 2;
+export const INDEX_SCHEMA = 3; // 3: item records carry `auto`, prior() reads it
 
 // ---------------------------------------------------------------- tokens
 
