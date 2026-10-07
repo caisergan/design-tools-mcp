@@ -1,0 +1,7 @@
+{
+  "match": "/post/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Craft by mx kaske: one page per hand-built component recipe — /post/<name> (9 in the sitemap; e.g. /post/data-table = 'Data Table', /post/fancy-multi-select, /post/feedback-popover, /post/activity-calendar; several ship as shadcn registry components: metric-card, action-card, form-card, section, empty-state). Pages carry a live preview plus the component source. /post/server-action-experimental-hook is a hook, and /post/google-autocomplete a combobox, so not every page maps to a taxonomy element. The homepage lists the same nine links, so no urls_from is needed."
+}

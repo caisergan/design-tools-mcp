@@ -1,0 +1,8 @@
+{
+  "match": "/{element}",
+  "granularity": "page",
+  "access": "page",
+  "urls_from": ["/"],
+  "status": "hand",
+  "note": "Next.js component library by Bridger Tower, now served from components.work: one page per component kind — /hero (6 variants), /header (navbar, 2), /footer (5), /cta (4), /faq (2), /pricing (4), /feature (9) — each page renders every variant of that kind inline, variants have no URLs of their own (source links go to GitHub). No sitemap.json: sitemap.xml lists 9 components.work URLs, so brief 01's host check dropped it; the homepage server-renders links to the seven kind pages and is the URL source (checked 2026-10-07, /hero /header /footer /cta /faq /pricing /feature all 200 after the components.work redirect). /posts is 404 and /start is not linked."
+}
