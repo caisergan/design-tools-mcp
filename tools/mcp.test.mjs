@@ -388,14 +388,26 @@ test("list_pages opens one site's gallery examples, within 2.5 KB", async () => 
 });
 
 test("list_pages falls back to the raw sitemap URLs when the site has no pattern", async () => {
-  const text = textOf(await callTool("list_pages", { ref: "sv-particles.vercel.app", query: "accordion" }));
+  // builtbydesigners.com: 150 sitemap URLs, no catalog/patterns/builtbydesigners.com.json, no items
+  const text = textOf(await callTool("list_pages", { ref: "builtbydesigners.com", query: "biscuit" }));
   expect(text).toContain("raw sitemap URLs — this site has no pattern yet");
-  expect(bulletsOf(text)).toEqual(["- https://sv-particles.vercel.app/particles/accordion"]);
+  expect(bulletsOf(text)).toEqual([
+    "- https://builtbydesigners.com/projects/biscuit/",
+    "- https://builtbydesigners.com/projects/biscuit-camera/",
+  ]);
   // without a query or element it lists the path prefixes, not a wall of URLs
-  const bare = textOf(await callTool("list_pages", { ref: "sv-particles.vercel.app" }));
+  const bare = textOf(await callTool("list_pages", { ref: "builtbydesigners.com" }));
   expect(bare).toContain("raw sitemap URLs — this site has no pattern yet");
-  expect(bare).toContain("prefixes: /particles");
+  expect(bare).toContain("prefixes: /projects");
   expect(bare).not.toContain("https://");
+});
+
+test("a skipped site answers with the skip reason instead of its sitemap URLs", async () => {
+  // catalog/patterns/aereference.com.json is `{"skip": "After Effects tips, not UI examples"}`, 249 URLs
+  const result = await callTool("list_pages", { ref: "aereference.com" });
+  expect(result.isError).toBe(true);
+  expect(textOf(result)).toMatch(/^aereference\.com has no component or example pages: After Effects tips, not UI examples — open https:\/\/aereference\.com/);
+  expect(textOf(result)).not.toContain("raw sitemap URLs");
 });
 
 test("list_pages says so when a site has neither pages nor a sitemap", async () => {

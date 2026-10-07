@@ -18,6 +18,7 @@ import {
 import { flags } from "./build.mjs";
 import { TAXONOMY } from "./tag.mjs";
 import { loadItems } from "./items.mjs";
+import { patternFile } from "./sitemap-items.mjs";
 import { buildIndex, createSearch, loadIndex } from "./search.mjs";
 
 const catalog = loadJSON(FILE.catalog);
@@ -40,10 +41,11 @@ const ELEMENTS = new Map(TAXONOMY.elements.map((e) => [e.id, e]));
 const INDEX = loadIndex() || buildIndex(ITEMS, loadItems());
 const S = createSearch(ITEMS, INDEX);
 const byItemId = new Map(S.items.map((i) => [i.id, i]));
-// Items are read as pages (gallery examples, docs pages) or as code. A gallery example is never a
-// docs page, whatever its access: search_resources shows it under "Gallery examples".
-const itemBucket = (i) => (i.granularity === "example" ? "example" : i.access);
-const itemGroup = (i) => (i.granularity === "example" ? "gallery" : i.access === "page" ? "docs" : "code");
+// Items are read as pages (gallery examples, docs pages) or as code. A gallery example is a page:
+// a code example (shadcn.io's demo blocks) is a component with a demo, so it stays in "Components".
+const isExamplePage = (i) => i.granularity === "example" && i.access === "page";
+const itemBucket = (i) => (isExamplePage(i) ? "example" : i.access);
+const itemGroup = (i) => (isExamplePage(i) ? "gallery" : i.access === "page" ? "docs" : "code");
 const itemCount = new Map();
 for (const i of S.items) {
   const c = itemCount.get(i.parent) || { code: 0, gated: 0, example: 0, page: 0 };
@@ -401,6 +403,10 @@ function toolListPages({ ref, query = "", element = "", variant = "", limit = 20
     if (ranked.length > from + page.length) next.push(`more: offset=${from + page.length}`);
     return [`# ${host} · ${ranked.length} pages${kinds}`, ...lines, `→ ${next.join(" · ")}`].join("\n");
   }
+  // A skip file (catalog/patterns/<domain>.json) is a human verdict that this site has no UI pages:
+  // say why instead of dumping its sitemap.
+  const skip = loadJSON(patternFile(it.domain))?.skip;
+  if (skip) throw new ToolError(`${host} has no component or example pages: ${skip} — open ${it.url}`);
   const urls = sitemapUrls(it);
   if (!urls.length) throw new ToolError(`${it.name} has no mapped pages yet (no items, no sitemap.json in the corpus) — open ${it.url} in a browser instead.`);
   const head = [`# ${host} · ${urls.length} raw sitemap URLs — this site has no pattern yet`];
