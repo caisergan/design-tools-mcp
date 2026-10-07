@@ -20,8 +20,9 @@ removed, then `herdr worktree remove --workspace <id>` ends the agent and delete
 | l04 | 04 list_pages + gallery examples | `phase6/list-pages` @ cee2721 | list_pages tool, Gallery examples group, pages:N, auto ×0.92; one fix round (gallery = page examples, skip answers, fallback test site) | 2026-10-07 | 2026-10-07 |
 | g07 | 07 get_content sections | `phase6/get-content` @ f2b96f8 | query/section/outline; 2.3–8.4 KB answers instead of ~80 KB; one fix round (heading bonus, code 0.3×, word forms, alias groups, CJK penalty) | 2026-10-07 | 2026-10-07 |
 | s08 | 08 small component sites | `phase6/small-sites` @ 0920c14 | 9 skipped sites mapped (~1,785 items: anchors, render, host repair, tailark); two fix rounds on item names (positional rule, 0 repeated names, 0 id changes) | 2026-10-07 | 2026-10-07 |
+| a03 | 03 21st.dev metadata | `phase6/api-21st` @ 4021874 | 7,394 components (title + description) from allowed component pages, 251 category pages; fetch crashed once on an uncaught timeout, fixed with tests | 2026-10-07 | 2026-10-07 |
 
-Still running: a03 (03 21st.dev, restarted after an uncaught timeout crashed the fetch at 1,404 components).
+Still running: none. All Phase 6 agents are merged and closed; step 06 (wire the 21st.dev adapter, index size, eval) is the coordinator's.
 
 All 05 batches merged: `catalog/patterns/` holds 274 files (44 hand · 60 auto · 170 skip).
 
