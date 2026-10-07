@@ -43,6 +43,7 @@ One file per domain so several reviewers can edit in parallel without conflicts.
   "exclude": ["/navbar/{name}/amp"],        // optional templates to drop
   "variants_from": { "mega-menu": "/mega-menu", "dropdown": "/dropdown" },   // filter page per variant id
   "elements_from": { "footer": "/category/footers" },                         // filter page per element id
+  "urls_from": ["/"],                       // optional: pages whose links are URL sources too (sites without a sitemap)
   "status": "hand",                         // hand = checked against real pages · auto = written by the guesser
   "note": "why, quirks"
 }
@@ -64,6 +65,10 @@ For every `variants_from` / `elements_from` URL: download the HTML once to
 `?page=2` style pagination only if the page links to it plainly, max 20 pages. The build reads the cached files
 offline: collect `href`s, resolve them, keep those that match the site's `match`, and tag those items with the
 variant / element. If a filter page yields 0 matching links (JS-rendered), print a warning — don't fail.
+
+`urls_from` pages are downloaded the same way (`filters/urls-<n>.html`). Their links that match `match` are added to
+the sitemap URLs (or are the only URLs when the site has no `sitemap.json`). Example: supahero.io has no sitemap
+(robots.txt and sitemap.xml are 404), but its homepage HTML links 573 `/hero/<name>` pages (checked 2026-10-07).
 
 ## 3. Adapter 3 — new `tools/sitemap-items.mjs`
 Export `sitemapItems(domain, parent, { overrides, taken, pattern, sitemap, filters })` (pure; loaders separate so
@@ -98,11 +103,12 @@ tests can pass objects in). Then wire it into `buildItems` in `tools/items.mjs` 
 navbar.gallery, navbar.design, sectionmaster.com, footer.design, supahero.io, cta.gallery, daisyui.com, hover.dev.
 For each: run `--suggest`, look at a few real pages with `curl` (status + `<title>`, not whole pages into your
 context), write `catalog/patterns/<domain>.json` with `status: "hand"` and a `note`. For navbar.gallery, find its
-kind filter pages (`/mega-menu`, `/browse` …), add `variants_from`, run `--fetch-filters`. If a site has no sitemap
-file, record `skip` with the reason.
+kind filter pages (`/mega-menu`, `/browse` …), add `variants_from`, run `--fetch-filters`. For supahero.io use
+`"urls_from": ["/"]` with `"match": "/hero/{name}", "element": "hero", "granularity": "example"`. If a site has
+no sitemap and no page that links its examples, record `skip` with the reason.
 
 ## Tests — new `tools/patterns.test.mjs` (no network)
-Template compile/match (navbar.gallery; sectionmaster's navattic case; daisyui `/components/{element}/`; `{author}`),
+`urls_from` links from a fixture HTML with no sitemap; template compile/match (navbar.gallery; sectionmaster's navattic case; daisyui `/components/{element}/`; `{author}`),
 exclude, variant validation, dedupe against `taken`, filter-page tagging from a fixture HTML, guesser confidence on a
 fixture sitemap (a `/components/*` site → high; a blog-only site → low).
 

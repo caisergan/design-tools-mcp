@@ -454,7 +454,7 @@
 - **zepa-ui** — zepa is a growing collection of curated UI components, hero sections, and motion systems for Reac… · https://zepa.design `unreadable:no-endpoint`
 - **zoom-charts** — Zoomable Charts with shadcn/ui. · https://github.com/shelwinsunga/zoom-chart-demo `repo`
 
-## Section galleries & blocks · `sections` (7)
+## Section galleries & blocks · `sections` (8)
 
 - **Navbar Gallery** — Navigation Design Inspiration · https://navbar.gallery `llms.txt`
 - **CTA.gallery** — The Best Call-to-Action Inspiration for Designers · https://cta.gallery `unreadable:no-endpoint`
@@ -463,6 +463,7 @@
 - **Supahero** — Website hero section library · https://supahero.io `unreadable:no-endpoint`
 - **404s** — A Curated Gallery of Creative Error Page Designs · https://404s.design `llms.txt`
 - **Unsection** — Section-First Website Design Inspiration / Unsection · https://unsection.com `unreadable:no-endpoint`
+- **sectionmaster** — Website Section Design Inspiration · https://sectionmaster.com `llms.txt`
 
 ## Inspiration & galleries · `inspiration` (118)
 
@@ -854,7 +855,7 @@
 - **react-icons/react-icons** — svg react icons of popular icon packs · https://github.com/react-icons/react-icons `repo`
 - **stash-ui/icons** — A gorgeous set of 24x24 icons. Designed by the @getpingback team. · https://github.com/stash-ui/icons `repo unreadable:repo-gone`
 
-## Color & effects · `color-effects` (47)
+## Color & effects · `color-effects` (46)
 
 - **Coolors** — The super fast color palettes generator! · https://coolors.co `unreadable:no-endpoint`
 - **Kling AI** — Next-Gen AI Video & Image Generator · https://klingai.com `llms.txt`
@@ -888,7 +889,6 @@
 - **Happy Hues** — Curated colors in context. · https://happyhues.co `unreadable:no-endpoint`
 - **Paletton** — The Color Scheme Designer · https://paletton.com `unreadable:no-endpoint`
 - **scrnshts.club** — App Store Screenshots / ScreensDesign · https://scrnshts.club `unreadable:no-endpoint`
-- **sectionmaster** — Website Section Design Inspiration · https://sectionmaster.com `llms.txt`
 - **Supa Palette** — The ultimate color palette generator for Figma! · https://supa-palette.com `unreadable:no-endpoint`
 - **Three.js Components, Templates & Interactive Shaders (ThreeUI)** — ThreeUI · https://threeui.com/browse `unreadable:no-endpoint`
 - **10000+Themes for shadcn/ui** — 10000+ Themes for shadcn/ui. · https://ui.jln.dev `unreadable:no-endpoint`

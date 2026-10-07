@@ -19,6 +19,7 @@ Pattern file format:
   "exclude": ["/components/{element}/api"],  // optional
   "variants_from": { "mega-menu": "/mega-menu" },        // optional: a filter page listing every example of a kind
   "elements_from": { "footer": "/category/footers" },    // optional: same, for multi-element galleries
+  "urls_from": ["/"],                        // optional: pages whose links are URL sources (for sites without a sitemap)
   "status": "hand",
   "note": "what the site is, what one page is, quirks"
 }
@@ -42,7 +43,10 @@ variant ids: `jq -c '.elements[] | {id, variants: [.variants[]?.id]}' catalog/ta
 5. Write `catalog/patterns/<domain>.json` with `status: "hand"` (replace an `auto` file if one exists).
 6. `bun tools/patterns.mjs --check <domain>` — the item count, % with an element and samples must look right.
    Fix and re-check until they do.
-7. No `sitemap.json` for the site, or it's blocked → write a `skip` file with the reason.
+7. No `sitemap.json` for the site: check whether its homepage or an index page links the examples directly
+   (`curl … | grep -o 'href="/[^"]*"' | sed -E 's|href="(/[^/"]*).*|\1|' | sort | uniq -c | sort -nr | head`).
+   If it does, use `urls_from` and `--fetch-filters`. If not, or the site is blocked, write a `skip` file with the
+   reason.
 
 ## Do not
 - Edit anything outside `catalog/patterns/<domain>.json` for domains in your batch (plus filter-page downloads that

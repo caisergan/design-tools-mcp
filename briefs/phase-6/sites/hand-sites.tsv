@@ -33,5 +33,5 @@ ui-skills-com	ui-skills.com	curated	components,design-rules
 vibeprompts-dev	vibeprompts.dev	curated	components,dev-ai-tools	unreadable
 daisyui-com	daisyui.com		components	
 navbar-design	navbar.design		sections	unreadable
-sectionmaster-com	sectionmaster.com		color-effects (miscategorised: it is a section gallery)	
-supahero-io	supahero.io	curated	sections,components	unreadable (probe found no sitemap; try robots.txt)
+sectionmaster-com	sectionmaster.com		sections	
+supahero-io	supahero.io	curated	sections,components	no sitemap (robots.txt and sitemap.xml 404); homepage links 573 /hero/<name> pages: use urls_from
