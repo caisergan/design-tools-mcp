@@ -1,0 +1,6 @@
+{
+  "match": ["/branding/{name}", "/agency/{name}", "/typography/{name}", "/sites/{name}"],
+  "granularity": "example",
+  "status": "hand",
+  "note": "Daily Branding inspiration gallery: /branding/<project> (58), /agency/<agency> (52), /typography/<typeface> (42) and /sites/<site> (20) are one showcased example each (\"How&How\", \"Gio Font\", \"Heva\"); /blog/<slug> and /creator/<name> are posts and profiles"
+}

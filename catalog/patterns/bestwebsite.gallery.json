@@ -1,0 +1,6 @@
+{
+  "match": "/sites/sotd/{n}/{n}/{n}/{name}",
+  "granularity": "example",
+  "status": "hand",
+  "note": "Best Website Gallery (David Hellmann, 2642 handpicked sites since 2008): one page per showcased site, dated archive (/sites/sotd/2011/07/04/method-and-craft); /sites/<facet>/<value> (creator, framework, service, country, style, cms, color; 296) are facet listings, /links/<slug> and /links/<Y>/<M>/<D>/<slug> (2784) are link-blog posts"
+}
