@@ -1,0 +1,14 @@
+{
+  "match": "/hero-gallery/{name}",
+  "element": "hero",
+  "granularity": "example",
+  "access": "page",
+  "variants_from": {
+    "centered": "/tags/centered-hero",
+    "split": "/tags/split-grid",
+    "video": "/tags/video-element",
+    "social-proof": "/tags/social-proof-element"
+  },
+  "status": "hand",
+  "note": "One page per hero example: /hero-gallery/<company> (115 in the sitemap; e.g. /hero-gallery/algolia = 'Algolia Hero Section — DevTools, AI Tools, … | Hero Gallery', 200 checked 2026-10-07). /tags/<tag> are filter pages (127; e.g. /tags/saas = 'SaaS Hero Sections | Hero Gallery') that link the matching heroes with relative hrefs (../hero-gallery/<name>); only four tags name a hero variant (centered-hero, split-grid, video-element, social-proof-element), the rest are industry/style/CTA/page-kind tags with no taxonomy variant. Site is Framer-hosted; /about, /submit, /sponsor are not examples."
+}

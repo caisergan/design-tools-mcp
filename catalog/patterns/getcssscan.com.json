@@ -1,0 +1,12 @@
+{
+  "match": [
+    "/css-{element}-examples",
+    "/css-radios-examples",
+    "/css-box-shadow-examples",
+    "/css-shapes"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "CSS Scan (a CSS-inspector extension) is a product site, but it keeps four free example galleries: /css-checkboxes-examples ('65 Beautiful CSS checkboxes examples'), /css-radios-examples, /css-box-shadow-examples and /css-shapes (all 200 checked 2026-10-07). Each is one page curating many styled examples of a single UI control. {element} captures checkbox for checkboxes; the tagger adds checkbox for /css-radios-examples (alias 'radio'); box-shadow and shapes name no taxonomy element. The rest of the sitemap is the home page, /blog/* posts and /blog/tag/* listings — excluded."
+}
