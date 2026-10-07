@@ -1,0 +1,6 @@
+{
+  "match": ["/design-styles/{name}", "/ai-agents/{name}", "/design-md/{name}", "/examples/{name}"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "Refero Styles — design-style and design-system reference guides. Items are the 51 named pages: /design-styles/<style> (11 curated style guides, e.g. 'Clean SaaS Design Examples'), /ai-agents/<name> (23 AI-agent design prompt/checklist pages, e.g. cursor-design-prompts, agentic-ui-quality-checklist), /design-md/<name> (13 DESIGN.md docs: specification, template, comparisons) and /examples/<name> (4, e.g. pricing-page-design). The 1342-page family /style/<uuid> ('Grafana Labs design system', name only in the h1) is left out on purpose: the slug is a UUID, so item names would be UUIDs — a name source (page title/h1) is the tool change that would unlock them."
+}

@@ -1,0 +1,6 @@
+{
+  "match": "/tailwind-colors/{name}",
+  "granularity": "example",
+  "status": "hand",
+  "note": "uicolors.app — Tailwind CSS colour tool. One page per Tailwind palette family: /tailwind-colors/red, /orange, …, /neutral (21; a page shows every shade 50–950 of that family with click-to-copy OKLCH/HEX/HSL). The rest of the sitemap (/generate, /color-palette-generator, /my-palettes, /api, legal) is the tool itself, not items. Plain curl 200-checked 2026-10-07 (one transient Cloudflare challenge, then clean)."
+}

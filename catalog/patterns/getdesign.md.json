@@ -1,0 +1,6 @@
+{
+  "match": ["/design-md/{name}", "/{name}/design-md", "/landing-page-templates/{name}"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "getdesign.md — design systems for AI coding. One page per design system: /design-md/<slug> = '<X>-style design system' (566; 200-checked aerotime, duck-school, syllabus, eraser, kindsight) and /<brand>/design-md = 'Design System Analysis: <brand>' (76; 200-checked /claude/design-md, /zapier/design-md; /design-md/claude is a 404, so the schemes mostly do not overlap — 15 brands have both URLs, e.g. /design-md/cursor and /cursor/design-md, and the scanner dedupes those into one item). /landing-page-templates/<name> (6) are template pages ('SaaS Landing Page Template for AI Coding Tools') — the index itself is not an item. Not items: /<brand> brand listings, /collections/*, /integrations/*, /blog/*, root pages."
+}

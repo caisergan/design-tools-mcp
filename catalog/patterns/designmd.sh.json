@@ -1,0 +1,13 @@
+{
+  "match": [
+    "/{author}/{*}",
+    "/{author}/{*}/{name}",
+    "/{author}/{*}/design-md/{name}",
+    "/{author}/{*}/designs/{name}",
+    "/{author}/{*}/design-mds/{name}",
+    "/{author}/{*}/{*}/designs/{name}"
+  ],
+  "granularity": "page",
+  "status": "hand",
+  "note": "designmd.sh — public DESIGN.md registry. One page per DESIGN.md spec (e.g. /voltagent/awesome-design-md/design-md/vercel = 'Vercel-Inspired DESIGN.md' with the spec text and token/spec checks; /cola-runner/awesome-tui-design/designs/btop; /supernovae-st/nika-design-skill/nika-design; /masa-sumimoto/dreamcore-design-md). The route scheme varies by repo (design-md/, designs/, design-mds/, nested agents/designs/), so six templates; names carry the author ('Voltagent Vercel'). 48 of 53 sitemap URLs are design pages; /, /about, /privacy, /saved, /terms are not."
+}

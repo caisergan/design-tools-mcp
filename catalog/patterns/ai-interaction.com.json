@@ -1,0 +1,6 @@
+{
+  "match": "/atlas/task/{name}",
+  "granularity": "page",
+  "status": "hand",
+  "note": "AI Interaction Atlas — open-source AI UX reference. One page per AI interaction task (64: /atlas/task/task_detect, task_extract, task_estimate, task_explain, task_forecast …), each documenting that task with patterns and examples. The /atlas/{ai,human,system,data,constraints,touchpoints,reference} sections and /atlas/layer/layer_* pages are atlas navigation, and /, /privacy, /terms are site pages — none are items. Vite SPA (client-rendered): plain curl only sees the shell, but the task data ships in the app's task chunks (ai_tasks/human_tasks/system_tasks) and the sitemap lists every task page."
+}
