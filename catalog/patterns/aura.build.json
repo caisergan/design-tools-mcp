@@ -1,0 +1,7 @@
+{
+  "match": "/s/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Aura is an AI website builder; /s/<name> is one generated template / landing page with a server-rendered title (1000; e.g. /s/dayward = 'Dayward: Cinematic 3D Lamp Collection Landing Page', /s/umbra-agency-template = 'Umbra — Dark-Mode Agency Website Template'). The same 1000 templates are also served at /share/<name> and /templates/<name> (identical name sets and titles; only /s/ is matched so the catalog gets each template once). Excluded sections: /component/<id> (1000, opaque hex ids, client-rendered, no title), /asset/<id> (923), /design-systems/<name> (725, no server-rendered title; names like mindful-moments-dashboard), /skills/<uuid>/<name> (prompt skills), /learn/<name> (tutorials), /browse/* and the single-segment marketing pages. Names are brand/template names ('dayward', 'umbra-agency-template'), so few items tag to an element (4%)."
+}

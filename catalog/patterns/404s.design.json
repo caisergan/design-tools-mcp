@@ -1,0 +1,8 @@
+{
+  "match": "/sites/{name}",
+  "element": "404",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "404s is a curated gallery of creative error pages ('404s — A Curated Gallery of Creative Error Page Designs'): one page per site's 404 screen — /sites/<site> (247; e.g. /sites/accordion = 'Accordion' the site, /sites/21st-europe). Every /sites/ URL is a 404 design, so the element is fixed rather than guessed from the name. /, /about, /submit and /legal are the gallery's own pages and are not matched."
+}
