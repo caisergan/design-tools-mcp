@@ -9,7 +9,7 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { saveJSON, saveText, loadJSON, FILE, slug } from "./lib.mjs";
 import { TAXONOMY, tagItem, loadTagOverrides } from "./tag.mjs";
 import { COMPONENT_SEGMENT, LOCALE, SKIP_SEGMENT, buildItems, parentsByDomain } from "./items.mjs";
-import { PATTERNS_DIR, elementIndex, filterFile, filterJobs, hrefs, humanise, loadFilters, loadPattern, loadSitemap, pathSegments, patternFile, sitemapScan } from "./sitemap-items.mjs";
+import { PATTERNS_DIR, elementIndex, filterFile, filterJobs, hrefs, humanise, loadFilters, loadPattern, loadSitemap, pathSegments, patternFile, renderFile, sitemapScan, sourceDomainOf } from "./sitemap-items.mjs";
 
 const UA = "Mozilla/5.0 (compatible; design-tools-catalog/1.0; +local)";
 
@@ -25,7 +25,8 @@ const tagElements = (domain, child, overrides, taxonomy) =>
 /**
  * Group sitemap URLs by path prefix, the last segment being `{name}`; for deeper paths the last two segments are
  * tried too (`…/{name}/{n}` when the leaf is a number, `…/{element}/{n}` when the middle segment is an element).
- * Returns the groups with ≥ 10 children, most children first. Writes nothing.
+ * Returns the groups with ≥ minChildren children, plus (small sites) 3–9 children under a component-like prefix,
+ * most children first. Writes nothing.
  */
 export function suggest(sitemap, { domain, taxonomy = TAXONOMY, overrides = loadTagOverrides(), minChildren = 10 } = {}) {
   const { bySlug } = elementIndex(taxonomy);
@@ -63,7 +64,6 @@ export function suggest(sitemap, { domain, taxonomy = TAXONOMY, overrides = load
   const rows = [];
   for (const g of groups.values()) {
     const entries = [...g.entries.entries()]; // [url, name]
-    if (entries.length < minChildren) continue;
     const names = [...new Set(entries.map(([, name]) => name))];
     const allElements = names.every((c) => bySlug.has(slug(c)));
     const template = g.mode === "A" ? `/${g.dir}/{name}` : `/${g.dir}/{${allElements ? "element" : "name"}}/${g.mode === "N" ? "{n}" : "{*}"}`;
@@ -71,18 +71,22 @@ export function suggest(sitemap, { domain, taxonomy = TAXONOMY, overrides = load
     const meta = literals.find((s) => LOCALE.test(s) || REGION.test(s) || SKIP_SEGMENT.test(s));
     const last = literals[literals.length - 1];
     const listing = !!last && LISTING_SEGMENT.test(last);
+    const componentLike = !!last && (COMPONENT_SEGMENT.test(last) || bySlug.has(slug(last)));
+    // small sites: a 3–9-child prefix is still a candidate when the prefix itself is component-like
+    const small = entries.length < minChildren;
+    if (small && !(entries.length >= 3 && componentLike)) continue;
     let tagged = 0;
     for (const name of names) if (tagElements(domain, name, overrides, taxonomy).length) tagged++;
     const elemPct = Math.round((100 * tagged) / names.length);
-    const componentLike = !!last && (COMPONENT_SEGMENT.test(last) || bySlug.has(slug(last)));
     let why;
     if (meta) why = `meta segment "${meta}"`;
     else if (!literals.length) why = "no literal prefix segment";
     else if (listing) why = `prefix "${last}" is a tag/category/collection listing, not items`;
+    else if (small && elemPct < 60) why = `only ${entries.length} children and ${elemPct}% of them tag to an element`;
     else if (componentLike) why = `prefix "${last}" is a component segment or an element`;
     else if (elemPct >= 30) why = `${elemPct}% of children tag to an element`;
     else why = `prefix "${last}" is neither component-like nor element-tagged (${elemPct}%)`;
-    const high = !meta && !listing && literals.length > 0 && (componentLike || elemPct >= 30);
+    const high = !meta && !listing && literals.length > 0 && (small ? elemPct >= 60 : componentLike || elemPct >= 30);
     rows.push({
       template,
       prefix: template.replace(/\/?\{[^}]*\}.*$/, ""),
@@ -103,12 +107,12 @@ function cmdSuggest(domain) {
     process.exit(1);
   }
   const rows = suggest(sitemap, { domain });
-  console.log(`${domain}: ${sitemap.urls.length} sitemap URLs${sitemap.truncated ? " (truncated)" : ""} · ${rows.length} groups with ≥ 10 children`);
+  console.log(`${domain}: ${sitemap.urls.length} sitemap URLs${sitemap.truncated ? " (truncated)" : ""} · ${rows.length} candidate prefix groups`);
   for (const r of rows)
     console.log(
       `${r.high ? "HIGH" : "low "} ${r.template} · ${r.children} children · ${r.elemPct}% element-tagged · ${r.why}\n     ${r.samples.join("\n     ")}`,
     );
-  if (!rows.length) console.log("  (no group of 10+ children)");
+  if (!rows.length) console.log("  (no prefix with 10+ children, and none of 3–9 under a component prefix)");
 }
 
 // ---------------------------------------------------------------- --auto
@@ -146,7 +150,7 @@ function cmdAuto(file) {
     if (!high.length) {
       queued.push({
         domain,
-        reason: rows.length ? `no high-confidence prefix (${rows.length} candidates)` : "no path prefix with ≥ 10 children",
+        reason: rows.length ? `no high-confidence prefix (${rows.length} candidates)` : "no prefix with 10+ children, and none of 3–9 under a component prefix",
         top_prefixes: rows.slice(0, 3).map((r) => ({ template: r.template, children: r.children, elem_pct: r.elemPct })),
       });
       continue;
@@ -198,6 +202,7 @@ function cmdCheck(domain) {
   }
   const sitemap = loadSitemap(domain);
   const filters = loadFilters(domain, pattern, { quiet: false });
+  const src = sourceDomainOf(domain, pattern);
   for (const e of filters.empty) console.error(`warn: ${domain}: filter page ${e.kind} "${e.key}" yielded 0 matching links (JS-rendered, or not fetched yet)`);
   const scan = sitemapScan(domain, parent, { pattern, sitemap, filters, taken: new Map() });
   const built = buildItems(entries).get(parent.id) || [];
@@ -207,15 +212,120 @@ function cmdCheck(domain) {
   for (const i of items) for (const [el, vs] of Object.entries(i.variants || {})) for (const v of vs) variants[`${el}:${v}`] = (variants[`${el}:${v}`] || 0) + 1;
   const vlist = Object.entries(variants).sort((a, b) => b[1] - a[1]);
   console.log(
-    `${domain}: pattern ${pattern.status} · match ${JSON.stringify(pattern.match)}${pattern.element ? ` · element ${pattern.element}` : ""} · granularity ${pattern.granularity || "page"}`,
+    `${domain}${src === domain ? "" : ` → source ${src}`}: pattern ${pattern.status}${pattern.render ? " · render" : ""}${pattern.source_domain ? ` · source_domain ${pattern.source_domain}` : ""} · match ${JSON.stringify(pattern.match)}${pattern.element ? ` · element ${pattern.element}` : ""} · granularity ${pattern.granularity || "page"}`,
   );
   console.log(
-    `${sitemap ? `${sitemap.urls.length} sitemap URLs` : "no sitemap"}${filters.urls.length ? ` + ${filters.urls.length} urls_from links` : ""} → ${scan.candidates} candidates · ${scan.matched} matched · ${items.length} items (${scan.skipped} skipped as duplicates) · ${withEl} with an element (${items.length ? Math.round((100 * withEl) / items.length) : 0}%)`,
+    `${sitemap ? `${sitemap.urls.length} sitemap URLs` : "no sitemap"}${filters.urls.length ? ` + ${filters.urls.length} urls_from links` : ""}${filters.anchors.length ? ` + ${filters.anchors.length} anchors_from sections` : ""} → ${scan.candidates} candidates · ${scan.matched} matched · ${items.length} items (${scan.skipped} skipped as duplicates) · ${withEl} with an element (${items.length ? Math.round((100 * withEl) / items.length) : 0}%)`,
   );
   console.log(`elements: ${[...new Set(items.flatMap((i) => i.elements))].sort().join(", ") || "— none —"}`);
   console.log(`variants: ${vlist.length ? vlist.map(([k, n]) => `${k} ${n}`).join(" · ") : "— none —"}`);
   for (const i of items.slice(0, 8)) console.log(`  ${i.id}  ${i.name}  [${i.elements.join(",")}] ${JSON.stringify(i.variants)}  ${i.url}`);
 }
+
+// ---------------------------------------------------------------- render (headless Chrome)
+
+const RENDER_SESSION = "catalog-render";
+const RENDER_WAIT_MS = 3000; // the CLI's `wait`: client-rendered pages need a beat after `open`
+const RENDER_PACE = 1000; // ms between rendered pages of one host
+const AXI = "chrome-devtools-axi";
+
+/** Runs inside the page (via the CLI's `eval`): absolute links + in-page sections. Mirrors `extractAnchors`. */
+function browseScript() {
+  const junk = (id) => {
+    if (!id || id.length > 80) return true;
+    if (/^(top|main|content|nav|footer|header|root|__next|app)$/i.test(id)) return true;
+    if (/^(?:radix-|headlessui-|react-|mui-|base-ui-|reka-|aria-|:r)/i.test(id)) return true;
+    const core = id.replace(/[^a-z0-9]/gi, "");
+    if (!/[a-z]/i.test(core)) return true;
+    if ((core.match(/\d/g) || []).length / core.length > 0.5) return true;
+    return /^[0-9a-f]{12,}$/i.test(core);
+  };
+  const text = (el) => (el.textContent || "").replace(/\s+/g, " ").trim().slice(0, 120);
+  const links = [];
+  for (const a of document.querySelectorAll("a[href]")) {
+    const href = a.href;
+    if (/^https?:/i.test(href) && href.indexOf("#") < 0 && links.indexOf(href) < 0) links.push(href);
+  }
+  const anchors = [];
+  const seen = {};
+  const add = (id, name) => {
+    if (!id || seen[id] || junk(id)) return;
+    seen[id] = true;
+    anchors.push({ id, text: name || "" });
+  };
+  for (const el of document.querySelectorAll("[id]")) {
+    const tag = el.tagName.toLowerCase();
+    let heading = null;
+    if (/^h[1-4]$/.test(tag)) heading = el;
+    else if (tag === "section" || tag === "article" || tag === "div") heading = el.querySelector("h1,h2,h3,h4");
+    if (heading) add(el.id, text(heading));
+  }
+  for (const a of document.querySelectorAll('a[href^="#"]')) {
+    let id = (a.getAttribute("href") || "").slice(1);
+    try {
+      id = decodeURIComponent(id);
+    } catch (e) {
+      /* keep the raw id */
+    }
+    if (!id) continue;
+    if (seen[id]) {
+      for (const row of anchors)
+        if (row.id === id && !row.text) {
+          row.text = text(a);
+          break;
+        }
+      continue;
+    }
+    add(id, text(a));
+  }
+  return JSON.stringify({ links, anchors });
+}
+
+async function axi(args, timeout = 90_000) {
+  const env = { ...process.env, CHROME_DEVTOOLS_AXI_SESSION: RENDER_SESSION };
+  const proc = Bun.spawn([AXI, ...args], { env, stdout: "pipe", stderr: "pipe", timeout, killSignal: "SIGKILL" });
+  const [out, err] = await Promise.all([new Response(proc.stdout).text(), new Response(proc.stderr).text()]);
+  return { code: await proc.exited, out, err };
+}
+
+/** `eval` prints `result: "<JSON string>"` — the value is JSON-encoded once or twice more by the CLI. */
+export function parseEvalResult(out) {
+  const line = String(out || "")
+    .split("\n")
+    .find((l) => l.trimStart().startsWith("result:"));
+  if (!line) return null;
+  let value = line.slice(line.indexOf("result:") + "result:".length).trim();
+  for (let i = 0; i < 5; i++) {
+    try {
+      value = JSON.parse(value);
+    } catch {
+      return null;
+    }
+    if (value && typeof value === "object") return value;
+    if (typeof value !== "string") return null;
+  }
+  return null;
+}
+
+/** One page through headless Chrome → the cache object; throws when the CLI or the page fails. */
+export async function renderPage(url) {
+  const opened = await axi(["open", url]);
+  if (opened.code !== 0) throw new Error(`open failed: ${(opened.err || opened.out).trim().split("\n")[0] || `exit ${opened.code}`}`);
+  const waited = await axi(["wait", String(RENDER_WAIT_MS)], RENDER_WAIT_MS + 30_000);
+  if (waited.code !== 0) console.error(`warn: ${AXI} wait failed for ${url}: ${(waited.err || waited.out).trim().split("\n")[0]}`);
+  const ev = await axi(["eval", `(${browseScript.toString()})()`], 60_000);
+  const parsed = parseEvalResult(ev.out);
+  if (!parsed) throw new Error(`eval returned no parsable result (exit ${ev.code})`);
+  return { url, fetched_at: new Date().toISOString(), links: parsed.links || [], anchors: parsed.anchors || [] };
+}
+
+const stopRenderer = async () => {
+  try {
+    await axi(["stop"], 20_000);
+  } catch {
+    /* no session to stop */
+  }
+};
 
 // ---------------------------------------------------------------- --fetch-filters
 
@@ -259,15 +369,49 @@ async function cmdFetchFilters({ only, refresh }) {
     process.exit(1);
   }
   let fetched = 0;
+  let rendered = 0;
   let cached = 0;
   let failed = 0;
+  let usedRender = false;
+  let axiBroken = "";
   for (const domain of domains) {
     const pattern = loadPattern(domain, { strict: false });
     if (!pattern || pattern.skip) continue;
-    for (const job of filterJobs(domain, pattern)) {
+    const src = pattern.source_domain || domain; // a redirecting domain downloads into the target's folder
+    for (const job of filterJobs(src, pattern)) {
+      if (pattern.render) {
+        // rendered pages: the DOM result is the cache, one page per job (no pagination, no HTML)
+        const file = renderFile(src, job.kind, job.key);
+        if (existsSync(file) && !refresh) {
+          cached++;
+          continue;
+        }
+        if (axiBroken) {
+          failed++;
+          continue;
+        }
+        try {
+          const data = await renderPage(job.url);
+          saveJSON(file, data);
+          rendered++;
+          usedRender = true;
+          console.log(
+            `${domain} render ${job.kind}:${job.key} → ${file.replace(/^.*catalog\/corpus\//, "corpus/")} (${data.links.length} links, ${data.anchors.length} anchors)`,
+          );
+        } catch (e) {
+          const msg = String(e?.message || e);
+          if (/ENOENT|not found|spawn/i.test(msg)) axiBroken = msg;
+          console.error(`warn: ${domain} render ${job.kind} "${job.key}": ${msg} — page skipped`);
+          failed++;
+          await sleep(RENDER_PACE);
+          continue;
+        }
+        await sleep(RENDER_PACE);
+        continue;
+      }
       let next = job.url;
       for (let page = 1; page <= 20 && next; page++) {
-        const file = filterFile(domain, job.kind, job.key, page);
+        const file = filterFile(src, job.kind, job.key, page);
         let html;
         if (existsSync(file) && !refresh) {
           html = readFileSync(file, "utf8");
@@ -291,11 +435,16 @@ async function cmdFetchFilters({ only, refresh }) {
             break;
           }
         }
-        next = nextPageUrl(html, next, page + 1);
+        // anchors_from pages are one page each: no pagination
+        next = job.kind === "anchors" ? null : nextPageUrl(html, next, page + 1);
       }
     }
   }
-  console.log(`--fetch-filters: ${fetched} pages downloaded · ${cached} pages already cached · ${failed} failed`);
+  if (usedRender) await stopRenderer();
+  if (axiBroken) console.error(`warn: chrome-devtools-axi is not runnable (${axiBroken}) — rendered pages were skipped`);
+  console.log(
+    `--fetch-filters: ${fetched} pages downloaded · ${rendered} rendered · ${cached} pages already cached · ${failed} failed`,
+  );
 }
 
 // ---------------------------------------------------------------- cli

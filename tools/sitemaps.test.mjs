@@ -76,8 +76,8 @@ test("gzip bodies are decompressed before parsing", () => {
 
 const u = (loc, lastmod) => (lastmod ? { loc, lastmod } : { loc });
 
-test("only the domain and its www host survive", () => {
-  const { urls, foreign, truncated } = keepInDomain(
+test("only the domain and its www host survive; host-less locs are repaired", () => {
+  const { urls, foreign, truncated, repaired } = keepInDomain(
     [
       u("https://x.dev/a"),
       u("https://www.x.dev/b", "2026-01-01"),
@@ -94,9 +94,34 @@ test("only the domain and its www host survive", () => {
     { loc: "https://x.dev/a" },
     { loc: "https://www.x.dev/b", lastmod: "2026-01-01" },
     { loc: "https://x.dev:8443/f" },
+    { loc: "https://x.dev/relative" },
   ]);
-  expect(foreign).toBe(5);
+  expect(foreign).toBe(4);
   expect(truncated).toBe(false);
+  expect(repaired).toBe(1);
+});
+
+test("a loc with no real host is resolved against the domain, keeping the bogus label", () => {
+  const r = keepInDomain(
+    [
+      u("https://templates/c-blocks/about/about1"), // dycomps: the sitemap says "templates" where the host should be
+      u("/c-blocks/x"),
+      u("c-blocks/y"),
+      u("https:/templates/c-blocks/z"), // one slash
+      u("https://other.com/z"),
+      u("https://templates.evil.com/z"), // a real host stays foreign
+    ],
+    "dycomps.oimmi.com",
+  );
+  expect(r.urls.map((e) => e.loc)).toEqual([
+    "https://dycomps.oimmi.com/templates/c-blocks/about/about1",
+    "https://dycomps.oimmi.com/c-blocks/x",
+    "https://dycomps.oimmi.com/c-blocks/y",
+    "https://dycomps.oimmi.com/templates/c-blocks/z",
+  ]);
+  expect(r.foreign).toBe(2);
+  expect(r.repaired).toBe(4);
+  expect(r.truncated).toBe(false);
 });
 
 test("a domain given with www. matches its bare host too", () => {

@@ -1,6 +1,8 @@
 #!/usr/bin/env bun
 // Phase 6 / brief 01 — download the full sitemap of every catalog domain into
 // catalog/corpus/sites/<domain>/sitemap.json, following <sitemapindex> children (depth ≤ 3).
+// Host-less locs (`https://templates/c-blocks/x`, `/c-blocks/x`) are repaired against the domain
+// and counted as `host_repaired` (brief 08).
 //   bun tools/sitemaps.mjs [--only=a.com,b.com] [--refresh]
 // `bun tools/fetch.mjs --sitemaps` runs the same code (this module owns the logic).
 import { gunzipSync } from "node:zlib";
@@ -197,8 +199,26 @@ function hostOf(loc) {
 }
 
 /**
+ * A loc with no real host (`https://templates/c-blocks/x`, `/c-blocks/x`, `c-blocks/x`) as a path relative to the
+ * domain being fetched — the bogus label stays, so `https://templates/c-blocks/x` repairs to
+ * `https://<domain>/templates/c-blocks/x` (the form dycomps.oimmi.com serves). null when the loc is not repairable.
+ */
+function hostlessPath(raw) {
+  const s = String(raw ?? "").trim();
+  if (!s) return null;
+  const m = /^[a-z][a-z0-9+.-]*:(?:\/\/?)?([^/?#]*)([\s\S]*)$/i.exec(s);
+  if (m) {
+    if (!m[1] || m[1].includes(".")) return null; // no host at all, or a real one
+    return `${m[1]}${m[2]}`;
+  }
+  if (s.startsWith("//")) return null; // protocol-relative: `new URL` already knows what to do
+  return s.replace(/^\/+/, "");
+}
+
+/**
  * Keep the URLs whose host is `domain` or `www.domain` (deduped by loc, first wins), cap at
  * `cap`, and count everything else as foreign — including locs that are not absolute http(s).
+ * Host-less locs are repaired against `domain` first and counted as `repaired`.
  */
 export function keepInDomain(entries, domain, cap = MAX_URLS) {
   const want = String(domain).replace(/^www\./, "").toLowerCase();
@@ -206,24 +226,43 @@ export function keepInDomain(entries, domain, cap = MAX_URLS) {
   const seen = new Set();
   let foreign = 0;
   let truncated = false;
+  let repaired = 0;
   for (const e of entries) {
     const raw = String(e?.loc ?? "");
+    let loc = raw;
+    let fixed = false;
     if (hostOf(raw) !== want) {
-      foreign += 1;
-      continue;
+      const rel = hostlessPath(raw);
+      if (rel == null) {
+        foreign += 1;
+        continue;
+      }
+      try {
+        const u = new URL(rel, `https://${want}/`);
+        if (hostOf(u.href) !== want) {
+          foreign += 1;
+          continue;
+        }
+        loc = u.href;
+        fixed = true;
+      } catch {
+        foreign += 1;
+        continue;
+      }
     }
     // Some sitemaps carry `https:/host/path` (one slash): the host is right but the string is not a
     // usable absolute URL, so store the parsed form. Well-formed locs stay byte-identical.
-    const loc = /^https?:\/\//i.test(raw) ? raw : new URL(raw).href;
+    if (!/^https?:\/\//i.test(loc)) loc = new URL(loc).href;
     if (seen.has(loc)) continue;
     if (urls.length >= cap) {
       truncated = true;
       continue;
     }
     seen.add(loc);
+    if (fixed) repaired += 1;
     urls.push(e.lastmod ? { loc, lastmod: e.lastmod } : { loc });
   }
-  return { urls, foreign, truncated };
+  return { urls, foreign, truncated, repaired };
 }
 
 function isFresh(prev, dest) {
@@ -306,9 +345,10 @@ async function collectDomain(domain, { probeUrls = [], refresh = false, progress
   }
   for (const url of candidates) await ingest(url, 1);
 
-  const { urls, foreign, truncated } = keepInDomain(entries, domain);
+  const { urls, foreign, truncated, repaired } = keepInDomain(entries, domain);
   const wasTruncated = truncated || !!stop;
   if (wasTruncated) progress(`  ${domain}: truncated at ${urls.length} urls (${stop || "url cap"})`);
+  if (repaired) progress(`  ${domain}: repaired ${repaired} host-less locs`);
 
   if (urls.length) {
     saveJSON(dest, {
@@ -316,10 +356,11 @@ async function collectDomain(domain, { probeUrls = [], refresh = false, progress
       fetched_at: new Date().toISOString(),
       truncated: wasTruncated,
       foreign_dropped: foreign,
+      host_repaired: repaired,
       sources,
       urls,
     });
-    return { domain, status: "ok", count: urls.length, foreign, truncated: wasTruncated };
+    return { domain, status: "ok", count: urls.length, foreign, truncated: wasTruncated, repaired };
   }
 
   const stopped = attempts.find((a) => a.kind === "blocked");
