@@ -1,0 +1,9 @@
+{
+  "match": "/hero/{name}",
+  "element": "hero",
+  "granularity": "example",
+  "access": "page",
+  "urls_from": ["/"],
+  "status": "hand",
+  "note": "No sitemap: robots.txt and sitemap.xml are 404 (checked 2026-10-07), so the homepage in filters/urls-1.html is the URL source — it links 573 /hero/<name> example pages (https://supahero.io/ = 'Supahero - Website hero section library')."
+}

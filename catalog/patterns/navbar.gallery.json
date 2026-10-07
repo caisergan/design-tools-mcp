@@ -1,0 +1,20 @@
+{
+  "match": "/navbar/{name}",
+  "element": "navbar",
+  "granularity": "example",
+  "access": "page",
+  "variants_from": {
+    "announcement-bar": "/type/announcement",
+    "breadcrumbs": "/type/breadcrumbs",
+    "dropdown": "/type/dropdowns",
+    "full-screen": "/type/full-screen",
+    "mega-menu": "/type/mega-menu",
+    "progress": "/type/progress-bar",
+    "with-search": "/type/search-bar",
+    "sidebar": "/type/side-bar",
+    "static": "/type/static",
+    "tabs": "/type/tabs"
+  },
+  "status": "hand",
+  "note": "One page per navbar example: /navbar/<company> (496 in the sitemap; e.g. /navbar/aave). /type/<kind> are the kind filter pages, one per navbar variant (checked 2026-10-07: /type/mega-menu = '75+ Best Examples of Mega Menu Navigation Designs'); /style/<style> and /blog/ are not navbar examples. Sitemap URLs carry www."
+}
