@@ -115,11 +115,12 @@ test("initialize reports the server identity and tool capability", async () => {
   expect(result.capabilities.tools).toBeDefined();
 });
 
-test("tools/list exposes the 6 tools with a name, description and inputSchema", async () => {
+test("tools/list exposes the 7 tools with a name, description and inputSchema", async () => {
   const { result } = await server.rpc("tools/list", {});
   expect(result.tools.map((t) => t.name)).toEqual([
     "search_resources",
     "search_components",
+    "list_pages",
     "get_resource",
     "list_components",
     "get_content",
@@ -265,7 +266,7 @@ test("search results carry ids an agent can pass back", async () => {
 
 test("tools carry titles and read-only annotations", async () => {
   const { result } = await server.rpc("tools/list", {});
-  const local = ["search_resources", "search_components", "get_resource"];
+  const local = ["search_resources", "search_components", "list_pages", "get_resource"];
   for (const tool of result.tools) {
     expect(tool.title?.length).toBeGreaterThan(0);
     expect(tool.annotations.readOnlyHint).toBe(true);
@@ -281,9 +282,10 @@ const idsOf = (text) => bulletsOf(text).map((l) => /· id:(\S+)/.exec(l)?.[1]);
 test("navbar: counts and kinds, components and the gallery, within 3 KB", async () => {
   const text = textOf(await callTool("search_resources", { query: "navbar" }));
   expect(Buffer.byteLength(text)).toBeLessThanOrEqual(3_000);
-  expect(text).toMatch(/^# navbar · \d+ components \(\d+ registries; \d+ need a licence\) · \d+ docs pages/);
+  expect(text).toMatch(/^# navbar · \d+ components \(\d+ registries; \d+ need a licence\) · \d+ gallery examples · \d+ docs pages/);
   expect(text).toMatch(/\nkinds: .*mega-menu \d+/);
   expect(text).toContain("## Components");
+  expect(text).toContain("## Gallery examples");
   expect(text).toContain("id:navbar-gallery");
   const top5 = idsOf(text).slice(0, 5);
   for (const id of ["cta-gallery", "footer-design", "bentogrids-com"]) expect(top5).not.toContain(id);
@@ -365,4 +367,65 @@ test("searches stay fast", async () => {
   }
   times.sort((a, b) => a - b);
   expect(times[times.length - 1]).toBeLessThan(100); // includes the stdio round trip; search itself is < 15 ms
+});
+
+// ------------------------------------------------------------------ phase 6: list_pages + gallery examples
+
+test("list_pages opens one site's gallery examples, within 2.5 KB", async () => {
+  const text = textOf(await callTool("list_pages", { ref: "navbar-gallery", element: "navbar", variant: "mega-menu" }));
+  expect(Buffer.byteLength(text)).toBeLessThanOrEqual(2_500);
+  expect(text).toMatch(/^# navbar\.gallery · \d+ pages · kinds: mega-menu \d+/);
+  const lines = bulletsOf(text);
+  expect(lines).toHaveLength(20); // default limit
+  expect(lines.every((l) => /^- .+ · https:\/\/www\.navbar\.gallery\/navbar\/\S+ · \S/.test(l))).toBe(true);
+  expect(lines.every((l) => !l.includes("id:"))).toBe(true); // a page's url is its handle, not an id
+  expect(text).toContain("more: offset=20");
+  // a bad variant lists the valid ids for the element instead of returning nothing
+  const bad = await callTool("list_pages", { ref: "navbar-gallery", element: "navbar", variant: "huge" });
+  expect(bad.isError).toBe(true);
+  expect(textOf(bad)).toContain('unknown variant "huge" for navbar');
+  expect(textOf(bad)).toContain("mega-menu");
+});
+
+test("list_pages falls back to the raw sitemap URLs when the site has no pattern", async () => {
+  // builtbydesigners.com: 150 sitemap URLs, no catalog/patterns/builtbydesigners.com.json, no items
+  const text = textOf(await callTool("list_pages", { ref: "builtbydesigners.com", query: "biscuit" }));
+  expect(text).toContain("raw sitemap URLs — this site has no pattern yet");
+  expect(bulletsOf(text)).toEqual([
+    "- https://builtbydesigners.com/projects/biscuit/",
+    "- https://builtbydesigners.com/projects/biscuit-camera/",
+  ]);
+  // without a query or element it lists the path prefixes, not a wall of URLs
+  const bare = textOf(await callTool("list_pages", { ref: "builtbydesigners.com" }));
+  expect(bare).toContain("raw sitemap URLs — this site has no pattern yet");
+  expect(bare).toContain("prefixes: /projects");
+  expect(bare).not.toContain("https://");
+});
+
+test("a skipped site answers with the skip reason instead of its sitemap URLs", async () => {
+  // catalog/patterns/aereference.com.json is `{"skip": "After Effects tips, not UI examples"}`, 249 URLs
+  const result = await callTool("list_pages", { ref: "aereference.com" });
+  expect(result.isError).toBe(true);
+  expect(textOf(result)).toMatch(/^aereference\.com has no component or example pages: After Effects tips, not UI examples — open https:\/\/aereference\.com/);
+  expect(textOf(result)).not.toContain("raw sitemap URLs");
+});
+
+test("list_pages says so when a site has neither pages nor a sitemap", async () => {
+  const result = await callTool("list_pages", { ref: "anthropics/skills" });
+  expect(result.isError).toBe(true);
+  expect(textOf(result)).toContain("has no mapped pages yet");
+  expect(textOf(result)).toContain("https://github.com/anthropics/skills");
+});
+
+test("an entry with mapped pages says pages:N instead of unreadable:<reason>", async () => {
+  const nav = textOf(await callTool("search_resources", { query: "navbar design" }));
+  const line = nav.split("\n").find((l) => l.includes("id:navbar-design"));
+  expect(line).toContain("`pages:29`"); // 29 mapped pages, even though the site has no llms.txt
+  expect(line).not.toContain("unreadable");
+  expect(nav.split("\n").find((l) => l.includes("id:navbar-gallery"))).toContain("`llms.txt pages:496`");
+  const sup = textOf(await callTool("search_resources", { query: "supahero" }));
+  expect(sup).toContain("`pages:573`");
+  expect(sup).not.toContain("unreadable");
+  // the reachability problem is still reported where it gates a fetch
+  expect(textOf(await callTool("get_resource", { ref: "navbar-design" }))).toContain("reachable: NO");
 });

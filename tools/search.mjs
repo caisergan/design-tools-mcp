@@ -6,7 +6,7 @@ import { FILE, loadJSON } from "./lib.mjs";
 import { TAXONOMY, elementsIn, variantsIn, tok as tokAscii } from "./tag.mjs";
 
 export const INDEX_FILE = FILE.catalog.replace(/catalog\.json$/, "search-index.json");
-export const INDEX_SCHEMA = 2;
+export const INDEX_SCHEMA = 3; // 3: item records carry `auto`, prior() reads it
 
 // ---------------------------------------------------------------- tokens
 
@@ -95,6 +95,7 @@ function itemFields(i, parent) {
 const clipText = (s, n) => (s && s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s || "");
 function itemRecord(i) {
   const r = { id: i.id, parent: i.parent, name: i.name, access: i.access, granularity: i.granularity, from: i.from };
+  if (i.auto) r.auto = true;
   for (const k of ["slug", "url", "type", "install_url", "stacks", "examples", "local"]) if (i[k] !== undefined) r[k] = i[k];
   if (i.description) r.description = clipText(i.description, 200);
   if (i.elements?.length) r.elements = i.elements;
@@ -320,10 +321,13 @@ export function createSearch(entries, index) {
   const fieldNames = (mask) => FIELDS.filter((_, i) => mask & (1 << i));
 
   // Prior: small, capped. Readable entries and items with code first; no popularity.
+  // Items an auto pattern wrote (`auto: true`, tools/sitemap-items.mjs) are one of hundreds of
+  // look-alikes on the same site: they rank just below curated and hand-mapped items.
+  const AUTO_ITEM = 0.92;
   function prior(d) {
     if (isItem(d)) {
       const i = itemOf(d);
-      return (i.access === "code" ? 1.06 : i.access === "gated" ? 0.94 : 1) * (i.local ? 1.04 : 1);
+      return (i.access === "code" ? 1.06 : i.access === "gated" ? 0.94 : 1) * (i.local ? 1.04 : 1) * (i.auto ? AUTO_ITEM : 1);
     }
     const e = entries[d];
     if (e.reach && e.reach.ok === false) return 0.85;
