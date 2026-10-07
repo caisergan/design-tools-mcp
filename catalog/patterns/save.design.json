@@ -1,0 +1,7 @@
+{
+  "match": "/website/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "save.design ('The website inspo library'): one /website/<domain-slug> page per saved website (1093; e.g. /website/eladiodieste-com = 'eladiodieste.com — Tech Stack & Design | save.design', 200 OK checked 2026-10-07). /analyze/<domain-slug> (777) repeats the same sites as tech-stack reports (204 slugs duplicated), /fonts/<family> (258) are 'websites using this font' listings, /folder, /category, /industry, /tech and /creator are the site's own filters."
+}

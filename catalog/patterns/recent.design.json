@@ -1,0 +1,7 @@
+{
+  "match": "/i/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Recent.design: one /i/<slug> page per design shot/microinteraction (1114; e.g. /i/maajesu-vibe-selector-microinteraction, 200 OK checked 2026-10-07; client-rendered, so the HTML title is just 'Recent'). /jobs and /sponsor are the site's own pages. Elements come from the slug via tagItem."
+}

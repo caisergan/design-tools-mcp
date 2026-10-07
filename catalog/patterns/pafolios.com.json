@@ -1,0 +1,13 @@
+{
+  "match": "/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "exclude": [
+    "/about",
+    "/submit",
+    "/staff-picks",
+    "/case-studies"
+  ],
+  "note": "Pafolios portfolio gallery: one root-level page per designer portfolio (831 of the 835 single-segment URLs; e.g. /christopher-koziol = 'Christopher Koziol - UX & Product Designer Portfolio Inspiration', 200 OK checked 2026-10-07). Excluded are the gallery's own pages: /about, /submit, /staff-picks ('150 best portfolio examples') and /case-studies. /types/<role> (15) are role filters and do not match the one-segment template."
+}

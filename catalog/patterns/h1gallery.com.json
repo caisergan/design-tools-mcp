@@ -1,0 +1,7 @@
+{
+  "match": "/h1/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "H1 Gallery, 'A collection of the best marketing headlines on the internet' (home meta checked 2026-10-07). One /h1/<slug> page per site's headline screenshot (236; e.g. /h1/samepage = 'H—241 : Samepage', 200 OK). No taxonomy element: the pages are marketing headlines, not UI components. /about is the site's own page."
+}

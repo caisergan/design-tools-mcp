@@ -1,0 +1,8 @@
+{
+  "match": "/sites/{name}",
+  "element": "cta",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Gridddy, a Framer gallery of pre-footer CTA designs ('A curated gallery to browse and get inspired by the best pre-footer CTA design practices across the web', home meta checked 2026-10-07). One /sites/<name> page per example (42; e.g. /sites/charter, 200 OK, its HTML contains 'pre-footer'/'CTA'). /about is the site's own page, not an example."
+}

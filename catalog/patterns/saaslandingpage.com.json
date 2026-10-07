@@ -1,0 +1,23 @@
+{
+  "match": [
+    "/{name}",
+    "/templates/{name}"
+  ],
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "exclude": [
+    "/about-us",
+    "/contact-us",
+    "/pricing",
+    "/blog",
+    "/faq",
+    "/privacy",
+    "/testimonials",
+    "/features",
+    "/templates",
+    "/fonts",
+    "/tags"
+  ],
+  "note": "SaaS Landing Page: one root-level page per showcased SaaS page (846; e.g. /boldare-boards = 'Boldare Boards page - SaaS Landing Page', /zapier-pricing, /affinity-about-us; 200 OK checked 2026-10-07) plus one /templates/<name> page per template (93; e.g. /templates/lemon = 'Lemon template - SaaS Landing Page'). The excluded root slugs are the site's own collection pages ('64 Best Pricing Page Examples', '51 Best About Us Page Examples', …) and /tags; /font/<family> (401) are 'examples using this font' usage listings, /articles/<slug> are blog posts."
+}
