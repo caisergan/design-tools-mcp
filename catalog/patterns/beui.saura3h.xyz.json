@@ -1,0 +1,14 @@
+{
+  "match": [
+    "/components/motion/{name}",
+    "/components/blocks/{name}",
+    "/components/agents/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "urls_from": [
+    "/components"
+  ],
+  "note": "beUI — animated React/Next.js components. beui.saura3h.xyz 301-redirects to beui.dev and has no sitemap.json, but its /components index links 95 component pages under /components/{motion,blocks,agents}/<slug>; all 51 motion pages were 200-checked 2026-10-07. The three section index URLs (/components/motion etc.) are listings and do not match the leaf templates."
+}

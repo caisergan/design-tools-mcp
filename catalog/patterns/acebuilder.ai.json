@@ -1,0 +1,7 @@
+{
+  "match": "/showcase/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Acebuilder, an AI landing-page builder. /showcase/<slug> is one built-in demo page (e.g. /showcase/one-click-template-importer = 'One-Click Template Importer | Showcase | Acebuilder', title checked 2026-10-07); 7 in the sitemap. /templates, /pages, /blocks are marketing/listing pages, not items."
+}
