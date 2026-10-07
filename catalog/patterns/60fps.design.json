@@ -1,0 +1,8 @@
+{
+  "match": ["/shots/{name}", "/appsites/{name}"],
+  "exclude": ["/shots/filter"],
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "60fps is a UI/UX animation inspiration gallery ('UI/UX animation inspiration for mobile & web apps'); one page per animation: /shots/<name> (2086; e.g. /shots/cred-swipe-to-pay-interaction = 'CRED Swipe to Pay Interaction - 60fps UI/UX animation') and /appsites/<name> (87; animation examples from app marketing sites, e.g. /appsites/wabi-hero-intro-asset-swap-animation). Elements come from the descriptive slugs (about half tag to one: tabs, loader, marquee, card …). /shots/filter/<tag> (108 tags) are tag listings that render their examples client-side (no links in the HTML), so they cannot feed elements_from/variants_from; /apps/<name> (489, per-app galleries, e.g. /apps/1password) and /glossary/<name> (85) are pages/glossary, not animation examples, and /apps/category is a listing. A few sitemap URLs are stale and 404 (e.g. /shots/badge)."
+}

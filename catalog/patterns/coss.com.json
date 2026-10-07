@@ -1,0 +1,7 @@
+{
+  "match": ["/ui/docs/components/{element}", "/ui/docs/components/{name}", "/origin/{element}", "/origin/{name}"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Two component libraries on one domain, one page per component: coss ui docs at /ui/docs/components/<name> (55; e.g. /ui/docs/components/accordion = 'Accordion - coss ui') and coss origin components at /origin/<name> (32; e.g. /origin/accordion = 'Accordion components built with React and Tailwind CSS - coss.com origin'). In both pairs the {element} template captures the element when the slug is a taxonomy id/alias (accordion, button, badge, navbar, stepper …) and the {name} template keeps the rest (field, kbd, scroll-area, preview-card, toggle-group, easings, image-cropper …) as items tagged from their name; both slug the same segment, so ids stay stable (same approach as daisyui.com). 18 component names exist in both libraries (accordion, alert, avatar, badge, breadcrumb, button, checkbox, dialog, input, pagination, popover, select, slider, switch, table, tabs, textarea, tooltip); an item id is parent + slug of the last segment, so those two URLs become one item and the first URL of the sitemap (/origin/<name>) is kept — 69 items from 87 matched URLs. The root product pages (/calendar, /email, /sms, /payments, /auth …) and other /ui/docs/* pages are not component pages."
+}

@@ -1,0 +1,7 @@
+{
+  "match": ["/components/{element}", "/components/{name}"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "AICSS is a component library for AI-agent interfaces ('UI components for AI agents'); one docs page per component: /components/<name> (18; e.g. /components/thinking-state, /components/ai-agent-input, /components/data-table). The first template captures the element when the slug is a taxonomy id/alias (data-table → table); the rest (thinking-state, reasoning-effort, approval-card, orbs, audio-waves …) keep the slug as the item name and are tagged from it. /pricing, /license, /terms and /privacy are not components."
+}
