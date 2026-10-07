@@ -9,7 +9,8 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { saveJSON, saveText, loadJSON, FILE, slug } from "./lib.mjs";
 import { TAXONOMY, tagItem, loadTagOverrides } from "./tag.mjs";
 import { COMPONENT_SEGMENT, LOCALE, SKIP_SEGMENT, buildItems, parentsByDomain } from "./items.mjs";
-import { PATTERNS_DIR, elementIndex, filterFile, filterJobs, hrefs, humanise, loadFilters, loadPattern, loadSitemap, pathSegments, patternFile, renderFile, sitemapScan, sourceDomainOf } from "./sitemap-items.mjs";
+import { PATTERNS_DIR, compilePattern, elementIndex, filterFile, filterJobs, hrefs, humanise, loadFilters, loadPattern, loadSitemap, matchingLinks, pathSegments, patternFile, renderFile, sitemapScan, sourceDomainOf } from "./sitemap-items.mjs";
+import { scraplingClient } from "./scrapling-backend.mjs";
 
 const UA = "Mozilla/5.0 (compatible; design-tools-catalog/1.0; +local)";
 
@@ -334,7 +335,26 @@ const stopRenderer = async () => {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const PACE = 500; // ms between requests → ≤ 2 req/s per host
 
-async function get(url) {
+/**
+ * One filter page: the opt-in Scrapling backend when the host is enabled (brief 11), plain `fetch` otherwise.
+ * Same result shape either way — `{ok, status, type, body}` (plus `error` for a backend refusal such as robots).
+ */
+export async function get(url, via = scraplingClient) {
+  try {
+    const scraped = await via?.get(url);
+    if (scraped) {
+      const ok = !scraped.error && scraped.status >= 200 && scraped.status < 300;
+      return {
+        ok,
+        status: scraped.status,
+        type: scraped.content_type || "",
+        body: scraped.body ? scraped.body.toString("utf8") : "",
+        ...(scraped.error ? { error: scraped.error } : {}),
+      };
+    }
+  } catch (e) {
+    console.error(`warn: scrapling ${url}: ${e?.message || e} — falling back to fetch`);
+  }
   const res = await fetch(url, { redirect: "follow", headers: { "user-agent": UA, accept: "text/html,application/xhtml+xml" }, signal: AbortSignal.timeout(20_000) });
   const body = res.ok ? await res.text() : "";
   return { ok: res.ok, status: res.status, type: res.headers.get("content-type") || "", body };
@@ -356,6 +376,80 @@ export function nextPageUrl(html, base, n) {
     if ([...u.searchParams].some(([k, v]) => /(^|_)page$/i.test(k) && v === want)) return u.toString();
   }
   return null;
+}
+
+/** Page `n` of a `paginate` job: the same path at `?<param>=<n>`, merged into any query the path already has. */
+export function pageUrl(base, param, page) {
+  if (page <= 1) return base;
+  const u = new URL(base);
+  u.searchParams.set(param, String(page));
+  return u.toString();
+}
+
+/**
+ * One filter job → its cached pages, in `filters/<prefix>-<key>.html`, `.2`, `.3` … A `paginate` pattern walks
+ * `<path>?<param>=2,3,…` up to `max` pages and stops at the first page that adds **no new** link matching the
+ * pattern (an out-of-range page repeats the last one or comes back empty); without it, the page's own
+ * "next page" link decides, ≤ 20 pages. `deps` are the seams tests replace (`get`, `exists`, `readFile`, `save`, `pace`).
+ */
+export async function fetchFilterJob(job, { domain, src, pattern, compiled = compilePattern(pattern), refresh = false, deps = {} } = {}) {
+  const {
+    get: getPage = get,
+    exists = existsSync,
+    readFile = (p) => readFileSync(p, "utf8"),
+    save = saveText,
+    pace = () => sleep(PACE),
+    log = console.log,
+    warn = console.error,
+  } = deps;
+  const out = { fetched: 0, cached: 0, failed: 0, pages: 0, stop: "" };
+  const paginate = job.kind === "anchors" ? null : pattern.paginate || null;
+  const max = paginate ? paginate.max : 20;
+  const seen = new Set(); // paginate: every matching link the job has produced so far
+  let next = job.url;
+  for (let page = 1; page <= max && next; page++) {
+    const url = next;
+    const file = filterFile(src, job.kind, job.key, page);
+    let html;
+    if (exists(file) && !refresh) {
+      html = readFile(file);
+      out.cached++;
+    } else {
+      await pace();
+      try {
+        const res = await getPage(url);
+        if (!res.ok) {
+          warn(`warn: ${domain} ${job.kind} "${job.key}" page ${page}: HTTP ${res.status}${res.error ? ` (${res.error})` : ""} — ${url}`);
+          out.failed++;
+          break;
+        }
+        html = res.body;
+        save(file, html);
+        out.fetched++;
+        log(`${domain} ${job.kind}:${job.key} page ${page} → ${file.replace(/^.*catalog\/corpus\//, "corpus/")} (${(html.length / 1024).toFixed(0)} kB)`);
+      } catch (e) {
+        warn(`warn: ${domain} ${job.kind} "${job.key}" page ${page}: ${e.message}`);
+        out.failed++;
+        break;
+      }
+    }
+    out.pages = page;
+    if (job.kind === "anchors") {
+      next = null;
+    } else if (paginate) {
+      const links = matchingLinks(html, url, src, compiled);
+      const added = [...links].filter((u) => !seen.has(u)).length;
+      for (const u of links) seen.add(u);
+      if (page > 1 && !added) {
+        out.stop = "no-new-links";
+        break;
+      }
+      next = pageUrl(job.url, paginate.param, page + 1);
+    } else {
+      next = nextPageUrl(html, url, page + 1);
+    }
+  }
+  return out;
 }
 
 async function cmdFetchFilters({ only, refresh }) {
@@ -380,7 +474,8 @@ async function cmdFetchFilters({ only, refresh }) {
     const pattern = loadPattern(domain, { strict: false });
     if (!pattern || pattern.skip) continue;
     const src = pattern.source_domain || domain; // a redirecting domain downloads into the target's folder
-    for (const job of filterJobs(src, pattern)) {
+    const compiled = compilePattern(pattern);
+    for (const job of filterJobs(src, pattern, compiled)) {
       if (pattern.render) {
         // rendered pages: the DOM result is the cache, one page per job (no pagination, no HTML)
         const file = renderFile(src, job.kind, job.key);
@@ -411,38 +506,14 @@ async function cmdFetchFilters({ only, refresh }) {
         await sleep(RENDER_PACE);
         continue;
       }
-      let next = job.url;
-      for (let page = 1; page <= 20 && next; page++) {
-        const file = filterFile(src, job.kind, job.key, page);
-        let html;
-        if (existsSync(file) && !refresh) {
-          html = readFileSync(file, "utf8");
-          cached++;
-        } else {
-          await sleep(PACE);
-          try {
-            const res = await get(next);
-            if (!res.ok) {
-              console.error(`warn: ${domain} ${job.kind} "${job.key}" page ${page}: HTTP ${res.status} — ${next}`);
-              failed++;
-              break;
-            }
-            html = res.body;
-            saveText(file, html);
-            fetched++;
-            console.log(`${domain} ${job.kind}:${job.key} page ${page} → ${file.replace(/^.*catalog\/corpus\//, "corpus/")} (${(html.length / 1024).toFixed(0)} kB)`);
-          } catch (e) {
-            console.error(`warn: ${domain} ${job.kind} "${job.key}" page ${page}: ${e.message}`);
-            failed++;
-            break;
-          }
-        }
-        // anchors_from pages are one page each: no pagination
-        next = job.kind === "anchors" ? null : nextPageUrl(html, next, page + 1);
-      }
+      const r = await fetchFilterJob(job, { domain, src, pattern, compiled, refresh });
+      fetched += r.fetched;
+      cached += r.cached;
+      failed += r.failed;
     }
   }
   if (usedRender) await stopRenderer();
+  await scraplingClient.close();
   if (axiBroken) console.error(`warn: chrome-devtools-axi is not runnable (${axiBroken}) — rendered pages were skipped`);
   console.log(
     `--fetch-filters: ${fetched} pages downloaded · ${rendered} rendered · ${cached} pages already cached · ${failed} failed`,

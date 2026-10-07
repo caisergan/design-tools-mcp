@@ -2,8 +2,8 @@
 // Pattern layer (MCP-PLAN 6.2): template matching, the sitemap adapter, filter pages and the guesser. No network:
 // sitemaps, HTML and `taken` maps are passed in.
 import { test, expect } from "bun:test";
-import { compilePattern, extractAnchors, hrefs, humanise, loadFilters, loadSitemap, matchUrl, sitemapItems, sitemapScan, validatePattern } from "./sitemap-items.mjs";
-import { nextPageUrl, parseDomainList, parseEvalResult, suggest } from "./patterns.mjs";
+import { compilePattern, extractAnchors, filterFile, filterJobs, hrefs, humanise, loadFilters, loadSitemap, matchUrl, sitemapItems, sitemapScan, validatePattern } from "./sitemap-items.mjs";
+import { fetchFilterJob, nextPageUrl, pageUrl, parseDomainList, parseEvalResult, suggest } from "./patterns.mjs";
 
 const ov = { assetDomains: new Set(), components: {} };
 const S = (loc, lastmod) => ({ loc, ...(lastmod ? { lastmod } : {}) });
@@ -285,6 +285,131 @@ test("pagination is followed only when the page links to it plainly", () => {
   // Webflow's hashed pagination param (navbar.gallery's filter pages)
   expect(nextPageUrl(`<a href="?9edfe7e5_page=2" aria-label="Next Page">n</a>`, "https://navbar.gallery/type/mega-menu", 2)).toBe("https://navbar.gallery/type/mega-menu?9edfe7e5_page=2");
   expect(nextPageUrl(`<a href="?9edfe7e5_page=2">n</a>`, "https://navbar.gallery/type/mega-menu?9edfe7e5_page=1", 2)).toBe("https://navbar.gallery/type/mega-menu?9edfe7e5_page=2");
+});
+
+// ---------------------------------------------------------------- paginate (brief 11)
+
+const paginatePattern = {
+  match: "/{author}/{name}",
+  elements_from: { button: "/buttons" },
+  paginate: { param: "page", max: 80 },
+  status: "hand",
+};
+
+/** fetchFilterJob against in-memory pages: no filesystem, no network. */
+function fakePages(pages, { todo = null } = {}) {
+  const asked = [];
+  const saved = new Map();
+  const queue = todo || [...Object.keys(pages)].map(Number);
+  return {
+    asked,
+    saved,
+    deps: {
+      exists: (f) => saved.has(f),
+      readFile: (f) => saved.get(f),
+      save: (f, html) => saved.set(f, html),
+      pace: async () => {},
+      get: async (url) => {
+        asked.push(url);
+        const n = queue.shift();
+        if (typeof n === "string") return { ok: false, status: Number(n), body: "" };
+        return { ok: true, status: 200, body: pages[n] };
+      },
+      log: () => {},
+      warn: () => {},
+    },
+  };
+}
+
+test("paginate: page urls merge the query string, cache files keep the page suffix", () => {
+  expect(pageUrl("https://x.dev/buttons", "page", 1)).toBe("https://x.dev/buttons");
+  expect(pageUrl("https://x.dev/buttons", "page", 2)).toBe("https://x.dev/buttons?page=2");
+  expect(pageUrl("https://x.dev/buttons?sort=new", "page", 3)).toBe("https://x.dev/buttons?sort=new&page=3");
+  expect(filterFile("uiverse.io", "element", "button", 1).endsWith("filters/e-button.html")).toBe(true);
+  expect(filterFile("uiverse.io", "element", "button", 2).endsWith("filters/e-button.2.html")).toBe(true);
+});
+
+test("paginate: walks ?page=N, stops on the first page with no new link, keeps the job's element", async () => {
+  const pages = {
+    1: `<a href="/ann/one-a">1</a><a href="/ann/two-a">2</a>`,
+    2: `<a href="/ann/three-a">3</a><a href="/ann/two-a">2</a>`,
+    3: `<a href="/ann/one-a">1</a><a href="/ann/two-a">2</a>`, // nothing new: the listing is over
+    4: `<a href="/ann/four-a">4</a>`,
+  };
+  const { asked, saved, deps } = fakePages(pages);
+  const job = filterJobs("x.dev", paginatePattern)[0];
+  const r = await fetchFilterJob(job, { domain: "x.dev", src: "x.dev", pattern: paginatePattern, deps });
+  expect(asked).toEqual(["https://x.dev/buttons", "https://x.dev/buttons?page=2", "https://x.dev/buttons?page=3"]);
+  expect(r).toMatchObject({ fetched: 3, cached: 0, failed: 0, pages: 3, stop: "no-new-links" });
+  expect([...saved.keys()].map((f) => f.replace(/^.*filters\//, ""))).toEqual(["e-button.html", "e-button.2.html", "e-button.3.html"]);
+
+  // the loader reads every cached page and the items carry the job's element
+  const pattern = { ...paginatePattern, match: "/ann/{name}", granularity: "example" };
+  const filters = loadFilters("x.dev", pattern, { exists: (f) => saved.has(f), readFile: (f) => saved.get(f) });
+  expect(filters.elements.button).toEqual(["https://x.dev/ann/one-a", "https://x.dev/ann/three-a", "https://x.dev/ann/two-a"]);
+  const scan = sitemapScan("x.dev", { id: "x" }, { overrides: ov, taken: new Map(), pattern, filters });
+  expect(scan.items.map((i) => [i.id, i.name, i.elements, i.granularity])).toEqual([
+    ["x/one-a", "One A", ["button"], "example"],
+    ["x/three-a", "Three A", ["button"], "example"],
+    ["x/two-a", "Two A", ["button"], "example"],
+  ]);
+});
+
+test("paginate: the cached pages are resumed, not refetched, and max still caps the walk", async () => {
+  const pages = { 1: `<a href="/ann/one-a">1</a>`, 2: `<a href="/ann/two-a">2</a>`, 3: `<a href="/ann/three-a">3</a>` };
+  const { asked, saved, deps } = fakePages(pages);
+  const job = filterJobs("x.dev", paginatePattern)[0];
+  const pattern = { ...paginatePattern, paginate: { param: "page", max: 3 } };
+  await fetchFilterJob(job, { domain: "x.dev", src: "x.dev", pattern, deps });
+  expect(asked).toHaveLength(3);
+  const again = fakePages(pages);
+  const r2 = await fetchFilterJob(job, { domain: "x.dev", src: "x.dev", pattern, deps: { ...again.deps, exists: (f) => saved.has(f), readFile: (f) => saved.get(f) } });
+  expect(again.asked).toEqual([]); // everything already cached
+  expect(r2).toMatchObject({ fetched: 0, cached: 3, pages: 3 });
+  expect(r2.stop).toBe(""); // max reached, not a stop page
+});
+
+test("paginate: an HTTP failure is reported and ends that job only", async () => {
+  const pages = { 1: `<a href="/ann/one-a">1</a>` };
+  const { saved, deps } = fakePages(pages, { todo: [1, "404"] });
+  const job = filterJobs("x.dev", paginatePattern)[0];
+  const r = await fetchFilterJob(job, { domain: "x.dev", src: "x.dev", pattern: paginatePattern, deps });
+  expect(r).toMatchObject({ fetched: 1, failed: 1, pages: 1 });
+  expect([...saved.keys()].map((f) => f.replace(/^.*filters\//, ""))).toEqual(["e-button.html"]);
+});
+
+test("two elements_from categories that map to one element both tag it", () => {
+  const pattern = { match: "/{author}/{name}", elements_from: { checkbox: "/checkboxes", radio: "/radio-buttons" }, status: "hand" };
+  const jobs = filterJobs("x.dev", pattern);
+  expect(jobs.map((j) => [j.kind, j.key, j.url])).toEqual([
+    ["element", "checkbox", "https://x.dev/checkboxes"],
+    ["element", "radio", "https://x.dev/radio-buttons"],
+  ]);
+  const files = { "e-checkbox.html": `<a href="/a/one-1">1</a>`, "e-radio.html": `<a href="/a/two-2">2</a>` };
+  const readFile = (f) => files[Object.keys(files).find((k) => f.endsWith(k))];
+  const filters = loadFilters("x.dev", pattern, { exists: (f) => Object.keys(files).some((k) => f.endsWith(k)), readFile });
+  expect(filters.elements).toEqual({ checkbox: ["https://x.dev/a/one-1"], radio: ["https://x.dev/a/two-2"] });
+  const scan = sitemapScan("x.dev", { id: "x" }, { overrides: ov, taken: new Map(), pattern, filters });
+  expect(scan.items.map((i) => [i.id, i.elements])).toEqual([
+    ["x/a-one-1", ["checkbox"]],
+    ["x/a-two-2", ["checkbox"]], // 'radio' is a checkbox alias: the element is checkbox
+  ]);
+});
+
+test("paginate is validated", () => {
+  const base = { match: "/a/{name}", status: "hand" };
+  expect(() => validatePattern({ ...base, paginate: { param: "page", max: 1 } }, "a.com")).not.toThrow();
+  expect(() => validatePattern({ ...base, paginate: { param: "p", max: 500 } }, "a.com")).not.toThrow();
+  expect(() => validatePattern({ ...base, paginate: { param: "page", max: 0 } }, "a.com")).toThrow(/paginate\.max/);
+  expect(() => validatePattern({ ...base, paginate: { param: "page", max: 501 } }, "a.com")).toThrow(/paginate\.max/);
+  expect(() => validatePattern({ ...base, paginate: { param: "page", max: 2.5 } }, "a.com")).toThrow(/paginate\.max/);
+  expect(() => validatePattern({ ...base, paginate: { param: "page" } }, "a.com")).toThrow(/paginate\.max/);
+  expect(() => validatePattern({ ...base, paginate: { param: "", max: 10 } }, "a.com")).toThrow(/paginate\.param/);
+  expect(() => validatePattern({ ...base, paginate: { max: 10 } }, "a.com")).toThrow(/paginate\.param/);
+  expect(() => validatePattern({ ...base, paginate: { param: "page", max: 10, per: 1 } }, "a.com")).toThrow(/unknown key/);
+  expect(() => validatePattern({ ...base, paginate: "page" }, "a.com")).toThrow(/"paginate"/);
+  expect(() => validatePattern({ ...base, paginate: [1] }, "a.com")).toThrow(/"paginate"/);
+  expect(() => validatePattern({ ...base, paginate: null }, "a.com")).toThrow(/"paginate"/);
 });
 
 test("hrefs resolves, decodes and skips non-links", () => {

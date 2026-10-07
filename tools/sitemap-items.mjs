@@ -221,6 +221,14 @@ export function validatePattern(pattern, domain = "?") {
     for (const p of pattern.urls_from) if (typeof p !== "string" || !p.startsWith("/")) fail(`urls_from entry must be a "/"-path: ${JSON.stringify(p)}`);
   }
 
+  if (pattern.paginate !== undefined) {
+    const p = pattern.paginate;
+    if (!p || typeof p !== "object" || Array.isArray(p)) fail('"paginate" must be {param: string, max: 1-500}');
+    for (const k of Object.keys(p)) if (k !== "param" && k !== "max") fail(`paginate has an unknown key ${JSON.stringify(k)} (only param and max)`);
+    if (typeof p.param !== "string" || !/^[A-Za-z0-9._-]{1,40}$/.test(p.param)) fail(`paginate.param must be a query parameter name: ${JSON.stringify(p.param)}`);
+    if (!Number.isInteger(p.max) || p.max < 1 || p.max > 500) fail(`paginate.max must be an integer 1-500: ${JSON.stringify(p.max)}`);
+  }
+
   // variant ids must belong to the pattern's element, or to an element the `{element}` capture can yield
   const owners = pattern.element ? [resolveElement(pattern.element, { bySlug })] : [...byId.keys()];
   for (const [vid] of Object.entries(pattern.variants_from || {})) {
@@ -300,8 +308,9 @@ function finalizeNames(items) {
 }
 
 /**
- * Sitemap URLs (+ urls_from links) + pattern → items. `taken` is the id → item map of the entry (registry and
- * llms items win); items made here are added to it. Pure: pass `sitemap`, `pattern` and `filters` in.
+ * Sitemap URLs (+ urls_from links, or the variants_from/elements_from links of a site without a sitemap) +
+ * pattern → items. `taken` is the id → item map of the entry (registry and llms items win); items made here
+ * are added to it. Pure: pass `sitemap`, `pattern` and `filters` in.
  */
 export function sitemapScan(domain, parent, { overrides = { assetDomains: new Set(), components: {} }, taken = new Map(), pattern, sitemap = null, filters = null, taxonomy = TAXONOMY } = {}) {
   const out = [];
@@ -309,7 +318,8 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
   const compiled = compilePattern(pattern, { taxonomy });
   const fixed = pattern.element ? resolveElement(pattern.element, compiled) : null;
 
-  // candidate URLs: the sitemap first, then the urls_from pages (sites without a sitemap)
+  // candidate URLs: the sitemap first, then the urls_from pages — and, on a site without a sitemap, the
+  // variants_from/elements_from links too: those filter pages are the only place such items are listed.
   const candidates = [];
   const seenUrl = new Set();
   const push = (raw) => {
@@ -327,9 +337,18 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
   const filterElementKeys = new Map();
   for (const [eid, list] of Object.entries(fe)) {
     const id = resolveElement(eid, compiled) || eid;
-    filterElementKeys.set(id, new Set([...(list || [])].map(urlKeyOf).filter(Boolean)));
+    const keys = filterElementKeys.get(id) || new Set(); // two jobs can feed one element (checkbox + radio)
+    for (const u of list || []) {
+      const k = urlKeyOf(u);
+      if (k) keys.add(k);
+    }
+    filterElementKeys.set(id, keys);
   }
   for (const u of filters?.urls || []) push(u);
+  if (!sitemap?.urls?.length) {
+    for (const list of Object.values(fv)) for (const u of list || []) push(u);
+    for (const list of Object.values(fe)) for (const u of list || []) push(u);
+  }
 
   const takenUrls = new Set();
   for (const it of taken.values()) {
@@ -545,6 +564,21 @@ export function hrefs(html, base) {
 
 const hostOf = (u) => new URL(u).hostname.replace(/^www\./, "");
 
+/**
+ * The links of one filter page that belong to this pattern: same host as the source site, matching the
+ * template, tracking params stripped, deduped. The pagination stop rule and `loadFilters` both read this.
+ */
+export function matchingLinks(html, base, host, compiled) {
+  const want = String(host).replace(/^www\./, "");
+  const links = new Set();
+  for (const href of hrefs(html, base)) {
+    if (hostOf(href) !== want || !matchUrl(href, compiled)) continue;
+    const n = normalizeUrl(href);
+    if (n) links.add(n);
+  }
+  return links;
+}
+
 const KIND_PREFIX = (kind) => (kind === "urls" ? "urls" : kind === "element" ? "e" : kind === "anchors" ? "anchors" : "v");
 
 export const filterFile = (domain, kind, key, page = 1) =>
@@ -554,12 +588,16 @@ export const filterFile = (domain, kind, key, page = 1) =>
 export const renderFile = (domain, kind, key, page = 1) =>
   join(filtersDir(domain), `rendered-${KIND_PREFIX(kind)}-${slug(key)}${page > 1 ? `.${page}` : ""}.json`);
 
-/** One job per filter page of the pattern: variants_from, elements_from, urls_from and anchors_from. */
+/**
+ * One job per filter page of the pattern: variants_from, elements_from, urls_from and anchors_from.
+ * An elements_from key is the item-facing element; the job keeps its own (slugged) key so two categories that
+ * map to one element (`/checkboxes` + `/radio-buttons` → `checkbox`) get separate cache files.
+ */
 export function filterJobs(domain, pattern, compiled = compilePattern(pattern)) {
   const src = pattern?.source_domain || domain;
   const jobs = [];
   for (const [vid, path] of Object.entries(pattern.variants_from || {})) jobs.push({ kind: "variant", key: vid, path, url: `https://${src}${path}` });
-  for (const [eid, path] of Object.entries(pattern.elements_from || {})) jobs.push({ kind: "element", key: resolveElement(eid, compiled) || eid, path, url: `https://${src}${path}` });
+  for (const [eid, path] of Object.entries(pattern.elements_from || {})) jobs.push({ kind: "element", key: slug(eid), path, url: `https://${src}${path}` });
   (pattern.urls_from || []).forEach((path, i) => jobs.push({ kind: "urls", key: String(i + 1), path, url: `https://${src}${path}` }));
   (pattern.anchors_from || []).forEach((path, i) => jobs.push({ kind: "anchors", key: String(i + 1), path, url: `https://${src}${path}` }));
   return jobs;
@@ -651,6 +689,8 @@ export function loadFilters(domain, pattern, { taxonomy = TAXONOMY, quiet = true
   const srcHost = src.replace(/^www\./, "");
   const excluded = new Set((pattern.anchors_exclude || []).map((x) => String(x).replace(/^#/, "")));
   const out = { variants: {}, elements: {}, urls: [], anchors: [], empty: [] };
+  // every cached page of a job, not just the first: `paginate` patterns can keep up to `max` pages
+  const pageCap = Math.max(20, Number(pattern.paginate?.max) || 0);
   for (const job of filterJobs(src, pattern, compiled)) {
     const links = new Set();
     const anchors = [];
@@ -671,7 +711,7 @@ export function loadFilters(domain, pattern, { taxonomy = TAXONOMY, quiet = true
       if (job.kind === "anchors")
         for (const a of data?.anchors || []) if (a?.id && !isJunkAnchorId(a.id)) anchors.push({ url: job.url, id: String(a.id), text: String(a.text || "") });
     } else {
-      for (let page = 1; page <= (job.kind === "anchors" ? 1 : 20); page++) {
+      for (let page = 1; page <= (job.kind === "anchors" ? 1 : pageCap); page++) {
         const f = filterFile(src, job.kind, job.key, page);
         if (!exists(f)) break;
         let html;
@@ -683,11 +723,7 @@ export function loadFilters(domain, pattern, { taxonomy = TAXONOMY, quiet = true
         if (job.kind === "anchors") {
           for (const a of extractAnchors(html)) anchors.push({ url: job.url, id: a.id, text: a.text });
         } else {
-          for (const href of hrefs(html, job.url)) {
-            if (hostOf(href) !== srcHost || !matchUrl(href, compiled)) continue;
-            const n = normalizeUrl(href);
-            if (n) links.add(n);
-          }
+          for (const link of matchingLinks(html, job.url, srcHost, compiled)) links.add(link);
         }
       }
     }
@@ -706,7 +742,7 @@ export function loadFilters(domain, pattern, { taxonomy = TAXONOMY, quiet = true
       if (!quiet) console.error(`warn: ${domain}: filter page ${job.kind} "${job.key}" yielded 0 matching links (JS-rendered, or not fetched yet)`);
     }
     if (job.kind === "variant") out.variants[job.key] = [...links].sort();
-    else if (job.kind === "element") out.elements[job.key] = [...links].sort();
+    else if (job.kind === "element") out.elements[job.key] = [...new Set([...(out.elements[job.key] || []), ...links])].sort(); // two jobs can feed one element
     else out.urls.push(...[...links].sort());
   }
   return out;

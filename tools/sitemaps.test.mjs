@@ -2,7 +2,7 @@
 // Pure (offline) tests for the sitemap downloader: parsing, gzip, host filtering, cap.
 import { test, expect } from "bun:test";
 import { gzipSync } from "node:zlib";
-import { parseSitemap, decodeXml, maybeGunzip, isChallenge, keepInDomain, sitemapsByDomain } from "./sitemaps.mjs";
+import { parseSitemap, decodeXml, maybeGunzip, isChallenge, keepInDomain, rawGet, sitemapsByDomain } from "./sitemaps.mjs";
 
 const URLSET = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -59,8 +59,66 @@ test("html, challenge pages and junk are invalid", () => {
   expect(parseSitemap(challenge)).toEqual({ kind: "invalid", entries: [] });
   expect(parseSitemap(`<!DOCTYPE html><html><body><h1>404 Not Found</h1></body></html>`)).toEqual({ kind: "invalid", entries: [] });
   expect(parseSitemap("")).toEqual({ kind: "invalid", entries: [] });
-  expect(isChallenge(challenge)).toBe(true);
+  expect(isChallenge(challenge, 200)).toBe(true);
   expect(isChallenge(URLSET)).toBe(false);
+});
+
+test("isChallenge: the title is the wall, a marker on a real page is not (brief 09's false positive)", () => {
+  const real = `<!DOCTYPE html><html><head><title>UI8 — Design Resources</title>
+    <script src="/cdn-cgi/challenge-platform/scripts/jsd/main.js"></script></head>
+    <body><h1>Design assets</h1><p>Access Denied is what our error page says.</p></body></html>`;
+  expect(isChallenge(real, 200)).toBe(false); // the beacon and the i18n string are content on a 200
+  expect(isChallenge(real, 403)).toBe(true); // the same body as a wall: blocked either way
+  expect(isChallenge(`<html><head><title>Attention Required! | Cloudflare</title></head><body>cf-error</body></html>`, 503)).toBe(true);
+  expect(isChallenge(`<html><head><title>Just a moment...</title></head><body></body></html>`, 200)).toBe(true);
+  expect(isChallenge(`<html><body><p>cf-chl-opt</p></body></html>`, 200)).toBe(false);
+  expect(isChallenge(undefined, 0)).toBe(false);
+});
+
+// ------------------------------------------------------------------ network seam
+
+test("rawGet: an enabled host is answered by Scrapling, the rest by fetch", async () => {
+  const BODY = "<urlset><url><loc>https://x.dev/a</loc></url></urlset>";
+  const asked = [];
+  const via = {
+    get: async (url) => {
+      asked.push(url);
+      if (url.includes("blocked")) return { status: 0, error: "robots" };
+      return { status: 200, body: Buffer.from(BODY), content_type: "application/xml" };
+    },
+  };
+  const r = await rawGet("https://uiverse.io/sitemap.xml", via);
+  expect(r).toEqual({ url: "https://uiverse.io/sitemap.xml", status: 200, bytes: Buffer.byteLength(BODY), text: BODY });
+  expect(asked).toEqual(["https://uiverse.io/sitemap.xml"]);
+  expect(await rawGet("https://uiverse.io/blocked", via)).toEqual({ url: "https://uiverse.io/blocked", status: 0, error: "robots" });
+  expect(await rawGet("https://uiverse.io/big", { get: async () => ({ status: 200, too_large: true, body: Buffer.alloc(0) }) })).toEqual({
+    url: "https://uiverse.io/big",
+    status: 200,
+    tooLarge: true,
+  });
+
+  // `null` (host not enabled, backend down) and a throwing client both go back to plain fetch
+  const real = globalThis.fetch;
+  const fetched = [];
+  globalThis.fetch = async (url) => {
+    fetched.push(String(url));
+    return new Response(URLSET, { status: 200, headers: { "content-type": "text/xml" } });
+  };
+  try {
+    const byFetch = await rawGet("https://x.dev/sitemap.xml", { get: async () => null });
+    expect(fetched).toEqual(["https://x.dev/sitemap.xml"]);
+    expect(byFetch.status).toBe(200);
+    expect(byFetch.text).toContain("<urlset");
+    const broken = await rawGet("https://uiverse.io/sitemap.xml", {
+      get: async () => {
+        throw new Error("boom");
+      },
+    });
+    expect(broken.status).toBe(200); // warn, then fetch — never crash the run
+    expect(fetched.length).toBe(2);
+  } finally {
+    globalThis.fetch = real;
+  }
 });
 
 test("gzip bodies are decompressed before parsing", () => {
