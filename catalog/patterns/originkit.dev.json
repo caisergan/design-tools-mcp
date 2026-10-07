@@ -1,0 +1,7 @@
+{
+  "match": ["/components/{name}", "/components/{name}/{n}", "/sections/{name}"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Originkit, an animated WebGL/React component + section library. /components/<name> (546; e.g. /components/cursor-ring-field = 'Cursor Ring Field — WebGL Pointer Ring Background') is one component page; /components/<name>/<n> (47; e.g. /components/ribbon-glow/02) is a numbered variant of that component; /sections/<name> (58; e.g. /sections/hero-05 = 'Hero 05 Section — Next.js Hero Block') is one section block whose element comes from tagItem on the name (hero-05 → hero, footer-02 → footer, pricing-02 → pricing). Component names are mostly effects/backgrounds with no taxonomy element, so their element coverage is low by nature; /category/<kind> (11) and /docs/<name> (12) are listings/docs, not components, and do not match."
+}

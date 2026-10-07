@@ -1,0 +1,8 @@
+{
+  "match": "/effects/{name}",
+  "element": "text-effect",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "One page per pure-CSS text effect: /effects/<name>/ (99; e.g. /effects/typewriter-effect/ = 'Typewriter Text Effect — Pure CSS, Free Code', /effects/glitch-text-effect/). Every page is a text effect, so the element is fixed. The eight root pages (/css-glitch-text-effects/ …) are kind listings that link the effects, not effects themselves; they are one segment deep so they never match."
+}
