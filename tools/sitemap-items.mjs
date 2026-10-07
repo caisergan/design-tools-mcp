@@ -322,9 +322,9 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
       skipped++;
       continue;
     }
-    // id and name come from the whole captured segment: /sections/{name}-{element}-{n} on
-    // "rig-ai-hero-1" is id "<parent>/rig-ai-hero-1" and name "Rig Ai Hero 1" — never a bare "Rig Ai",
-    // and never dependent on sitemap order.
+    // id: every capture of the template in capture order, the whole captured segment first —
+    // /sections/{name}-{element}-{n} on "rig-ai-hero-1" is id "<parent>/rig-ai-hero-1", never dependent
+    // on sitemap order. The id is the item's identity, so it never changes with the display name.
     const cElement = captureOf(m, "element") ?? null;
     const cAuthor = captureOf(m, "author") ?? null;
     const nameSeg = captureOf(m, "name")?.seg ?? captureOf(m, "element")?.seg ?? captureOf(m, "star")?.seg ?? m.segs.length - 1;
@@ -341,6 +341,19 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
       continue;
     }
 
+    // name: the {author} prefix + the {name} capture (with the {element}/{n} text of its own path segment,
+    // e.g. /sections/{name}-{element}-{n} → "navattic-com-hero-1"). {*} captures and {element} captures from
+    // other segments are id-only: the path already says them, and repeating them reads
+    // "Contact2 C Blocks Contact" instead of "Contact2 — Contact".
+    const nameParts = [];
+    if (cAuthor) nameParts.push(cAuthor.raw);
+    const segCaps = m.captures.filter((c) => c.seg === nameSeg);
+    const named = segCaps.filter((c) => c.kind === "name" || c.kind === "element" || c.kind === "n");
+    if (named.length) nameParts.push(...named.map((c) => c.raw));
+    else if (!segCaps.some((c) => c.kind === "author" || c.kind === "star")) nameParts.push(base);
+    if (!nameParts.length) nameParts.push(base);
+    const nameBase = nameParts.join("-");
+
     const els = new Set();
     if (fixed) els.add(fixed);
     if (cElement) els.add(cElement.id);
@@ -351,11 +364,12 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
 
     const variants = variantsFor(els, tagged, key);
 
-    const label = fixed ? elementLabel(fixed, taxonomy) : null;
+    // fixed element → its label; an {element} captured in a segment of its own → the label of that element
+    const label = fixed ? elementLabel(fixed, taxonomy) : cElement && cElement.seg !== nameSeg ? elementLabel(cElement.id, taxonomy) : null;
     const item = {
       id,
       parent: parent.id,
-      name: humanise(idBase) + (label ? ` — ${label}` : ""),
+      name: humanise(nameBase) + (label ? ` — ${label}` : ""),
       url,
       elements: [...els].sort(),
       variants,

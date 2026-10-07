@@ -154,6 +154,36 @@ test("auto patterns mark their items", () => {
   expect(hand.items[0].auto).toBeUndefined();
 });
 
+test("the display name drops cross-segment captures but the id keeps them", () => {
+  // a {*} segment qualifies the id only — the path already says it
+  const animista = scan("animista.net", "a", {
+    pattern: { match: "/play/text/{*}/{name}", granularity: "example", status: "hand" },
+    sitemap: { urls: [S("https://animista.net/play/text/bounce-in/bounce-in-fwd")] },
+  });
+  expect(animista.items.map((i) => [i.id, i.name])).toEqual([["a/bounce-in-fwd-bounce-in", "Bounce In Fwd"]]);
+
+  // an {element} in a segment of its own becomes the label instead of a repeated word
+  const dy = scan("dycomps.oimmi.com", "d", {
+    pattern: { match: "/templates/{*}/{element}/{name}", status: "hand" },
+    sitemap: { urls: [S("https://dycomps.oimmi.com/templates/c-blocks/contact/contact2")] },
+  });
+  expect(dy.items.map((i) => [i.id, i.name, i.elements])).toEqual([["d/contact2-c-blocks-contact", "Contact2 — Contact", ["contact"]]]);
+
+  // {author} prefixes the name, the rest of the path stays id-only
+  const ta = scan("tailark.com", "t", {
+    pattern: { match: "/pages/{author}/{*}/{name}/{*}", status: "hand" },
+    sitemap: { urls: [S("https://tailark.com/pages/quartz/grid-1/customer-story/one")] },
+  });
+  expect(ta.items.map((i) => [i.id, i.name])).toEqual([["t/quartz-customer-story-grid-1-one", "Quartz Customer Story"]]);
+
+  // captures of the name's own segment all stay in the name
+  const sm = scan("sectionmaster.com", "sm", {
+    pattern: { match: "/sections/{name}-{element}-{n}", status: "hand" },
+    sitemap: { urls: [S("https://sectionmaster.com/sections/navattic-com-hero-1")] },
+  });
+  expect(sm.items.map((i) => [i.id, i.name])).toEqual([["sm/navattic-com-hero-1", "Navattic Com Hero 1"]]);
+});
+
 test("skip and missing parents yield nothing", () => {
   expect(sitemapItems("x.dev", { id: "x" }, { pattern: { skip: "blog only", status: "hand" }, sitemap: { urls: [S("https://x.dev/a-b")] } })).toEqual([]);
   expect(sitemapItems("x.dev", undefined, { pattern: { match: "/a/{name}", status: "hand" }, sitemap: { urls: [S("https://x.dev/a/b")] } })).toEqual([]);
