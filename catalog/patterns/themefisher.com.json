@@ -1,0 +1,7 @@
+{
+  "match": "/products/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "One page per website template: /products/<name> (202; e.g. /products/adrian-bootstrap = 'Adrian - Bootstrap Business Template'). Each page embeds the template's live demo in an iframe (e.g. /products/adrian-bootstrap → adrian-bootstrap.vercel.app), like colorlib.com /wp/template/{name}, kept as a page. No slug carries an element word, so items stay untagged. The same template ships per stack (adrian-bootstrap, adrian-hugo, andromeda-astro …) so several items share a base name. /categories/<name> (9) are listings, /bundles/ (5) and /blog/, /authors/ are not templates."
+}

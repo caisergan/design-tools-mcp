@@ -1,0 +1,14 @@
+{
+  "match": [
+    "/docs/ui/{name}",
+    "/docs/inputs/{name}",
+    "/docs/visualizations/{name}"
+  ],
+  "urls_from": [
+    "/docs/getting-started/installation"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "One docs page per Tremor component (copy-paste Tailwind charts/dashboards, docs moved to tremor.so after the Vercel acquisition). /docs/ui/<name> (accordion, badge, button, callout, card, dialog, divider, drawer, popover, tab-navigation, table, tabs, toast, tooltip; 14), /docs/inputs/<name> (calendar, checkbox, date-picker, date-range-picker, dropdown-menu, input, label, radio-card-group, radio-group, select, select-native, slider, switch, textarea; 14), /docs/visualizations/<name> (area-chart, bar-chart, barlist, category-bar, donut-chart, line-chart, progress-bar, progress-circle, spark-chart, tracker; 10). The stored sitemap holds only the homepage (crawled before the relaunch), so the docs sidebar on /docs/getting-started/installation is the URL source. /docs/getting-started/* (install steps), /docs/utilities/* (cx, chartUtils, focusRing …), /charts, /changelog, /contributors and blocks.tremor.so (other domain) are not component pages."
+}

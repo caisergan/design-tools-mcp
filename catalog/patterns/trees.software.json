@@ -1,0 +1,7 @@
+{
+  "match": "/trees-dev/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Trees (by The Pierre Computer Co.) is one React/vanilla file-tree component; /trees-dev/<name> are its live demo pages (react, responsiveness, density, search, git-status, item-customization, drag-and-drop; 7 — /trees-dev itself is the demo index). No taxonomy element fits a file tree, so the items stay untagged. /docs is the single docs overview page."
+}
