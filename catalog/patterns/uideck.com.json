@@ -1,0 +1,7 @@
+{
+  "match": "/templates/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "One page per free HTML template: /templates/<name> (98; e.g. /templates/wedding-day = 'Wedding Day - Free HTML Wedding Website Template', /templates/xtreme-tailwind = 'Xtreme - Tailwind CSS Software Landing Page Template'). Each page previews the whole template (sections + live preview link), like colorlib.com /wp/template/{name}. /blog/ (48) and the ~3 root marketing pages are not templates."
+}

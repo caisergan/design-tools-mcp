@@ -1,0 +1,7 @@
+{
+  "match": "/post/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "AnimateReactNative: one /post/<slug> page per animation recipe with a live demo and code (e.g. /post/shimmer-text = 'React Native Animations - Shimmer Text', 200 OK checked 2026-10-07); 142 in the sitemap. Elements come from the slug via tagItem (58% tagged). /animations is a client-rendered result list (no <a href> to /post/* in the HTML), so no urls_from."
+}

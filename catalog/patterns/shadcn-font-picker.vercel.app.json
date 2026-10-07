@@ -1,0 +1,4 @@
+{
+  "skip": "one-component demo served entirely at the domain root (#try/#setup anchors only, every sub-path 404s); a pattern template needs at least one path segment, so nothing can be mapped",
+  "status": "hand"
+}

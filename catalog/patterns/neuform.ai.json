@@ -1,0 +1,7 @@
+{
+  "match": ["/skill/{element}", "/skill/{name}"],
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Neuform is an AI HTML landing-page builder ('AI HTML Landing Page Builder and Remix Templates'); /skill/<name> is one prompt skill = a reusable UI recipe with style guidance and public examples (71; e.g. /skill/css-border-gradient = 'Border Gradients Prompt Skill', /skill/masked-reveal, /skill/marquee-loop, /skill/webgl-3d-object). Skills are named after the effect/design system they produce, not after a taxonomy element, so the {element} template rarely fires and most items are tagged from their slug. /templates, /skills, /learn, /pricing, /faq, /community/* and /affiliates are index/marketing pages; the skill pages render client-side."
+}

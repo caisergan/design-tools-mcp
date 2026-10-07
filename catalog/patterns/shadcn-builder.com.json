@@ -1,0 +1,24 @@
+{
+  "match": [
+    "/template/business/{name}",
+    "/template/car-rental/{name}",
+    "/template/e-commerce/{name}",
+    "/template/education/{name}",
+    "/template/event/{name}",
+    "/template/feedback/{name}",
+    "/template/healthcare/{name}",
+    "/template/membership/{name}",
+    "/template/newsletter/{name}",
+    "/template/notifications/{name}",
+    "/template/real-estate/{name}",
+    "/template/service/{name}",
+    "/template/technical/{name}",
+    "/template/travel/{name}",
+    "/template/user-account/{name}"
+  ],
+  "element": "form",
+  "granularity": "example",
+  "urls_from": ["/template/business/job_application"],
+  "status": "hand",
+  "note": "shadcn/ui drag-and-drop form builder; one page per prebuilt form template, /template/<category>/<form> (102 templates in 15 categories: business Job Application …, travel Hotel Booking …). Every template page carries the full category→template nav, so /template/business/job_application is the URL source (the site's own sitemap only lists the 6 marketing pages). Three slugs repeat across categories (insurance_claim, newsletter_signup, vendor_application), so each keeps one item; the other two drop as duplicate ids. /components, /builder, /faq, /about are app/marketing pages, not templates."
+}

@@ -1,0 +1,6 @@
+{
+  "match": "/v1/{name}",
+  "granularity": "variant",
+  "status": "hand",
+  "note": "Skiper UI, a library of uncommon animated shadcn/ui components; /v1/<skiperN> is one component's preview page (v1/skiper1 'Anime js scrollbar', v1/skiper55 'Parallax Image', …). The URLs are numbered (skiper1…skiper106) and the real names/motion kinds live only in the page titles, so items get no element tag. /preview/<skiperN> is in the sitemap but 404s; /components (the gallery index) is client-rendered and links nothing statically; /docs/* and /pricing are not components."
+}

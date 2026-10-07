@@ -1,0 +1,19 @@
+{
+  "match": [
+    "/default",
+    "/light",
+    "/infinite",
+    "/auto",
+    "/builder",
+    "/drizzle",
+    "/docs/{name}"
+  ],
+  "element": "table",
+  "granularity": "page",
+  "access": "page",
+  "urls_from": [
+    "/"
+  ],
+  "status": "hand",
+  "note": "logs.run is a demo of the openstatus 'Data Table with Filters' component (shadcn/ui + TanStack Table): the whole host 302s to data-table.openstatus.dev, and the demo/config pages keep the logs.run URL (https://logs.run/default → 200, 2026-10-07). No sitemap; urls_from \"/\" is the only index — its relative links give the six table configs (/default, /light, /infinite, /auto, /builder, /drizzle = demo variants of the one table component) plus nine /docs/<name> pages of the same library. Everything is the table element; the demo pages are why granularity is page rather than example."
+}

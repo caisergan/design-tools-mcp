@@ -1,0 +1,8 @@
+{
+  "match": ["/components/{name}", "/blocks/{name}"],
+  "exclude": ["/components/base", "/components/feedback", "/components/forms", "/components/data-display", "/components/navigation", "/components/graph"],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Shadcn Admin, the shadcn/ui component reference used by the Shadcn Admin dashboard templates. /components/<name> (53 after excluding the 6 category pages; e.g. /components/button, /components/sonner-toast) is one component page; /blocks/<name> (10; e.g. /blocks/ecommerce = 'Ecommerce Blocks', /blocks/card = 'Card Blocks') is one full-page block demo per kind, element from tagItem on the name (card, stats, table, form, dialog, chat …). /components/base, /components/feedback, /components/forms, /components/data-display, /components/navigation and /components/graph are category landing pages ('Shadcn UI Navigation Components: Menus, Breadcrumbs, Pagination'), excluded so they are not mistaken for the navigation-menu component. The block pages /blocks/card, /blocks/table and /blocks/dialog have the same last segment as a component page, so their ids collide and the component page (first in sitemap order) wins: 63 URLs match, 60 items."
+}

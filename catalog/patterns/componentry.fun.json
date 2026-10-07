@@ -1,0 +1,8 @@
+{
+  "match": "/docs/components/{name}",
+  "granularity": "page",
+  "access": "page",
+  "urls_from": ["/docs"],
+  "status": "hand",
+  "note": "One docs page per animated React component: /docs/components/<name> (53; e.g. /docs/components/matrix-rain = 'Matrix Rain', /docs/components/liquid-chrome). No sitemap.json: componentry.fun/sitemap.xml lists componentry.dev URLs (same site, canonical host), so brief 01 saved nothing — the /docs index page server-renders all 53 /docs/components/<name> links and is the URL source (checked 2026-10-07). Names are effect-ish (grain-gradient, hero-geometric, pixel-canvas), so elements come mostly from tagItem on the name. /collections/<name> (4) are curated lists and /blocks is 'Coming Soon' — not items."
+}

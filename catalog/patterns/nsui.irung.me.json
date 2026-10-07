@@ -1,0 +1,4 @@
+{
+  "skip": "no sitemap and the host 301s to tailark.com, whose block/pages indexes are client-rendered (0 links in HTML), so urls_from cannot resolve the /blocks/<theme>/<kind> pages",
+  "status": "hand"
+}

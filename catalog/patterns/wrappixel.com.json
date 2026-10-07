@@ -1,0 +1,7 @@
+{
+  "match": "/templates/{name}",
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "One page per admin dashboard / website template: /templates/<name> (60; e.g. /templates/spike-angular-admin-template = 'Spike Angular Admin Template - WrapPixel', /templates/awake-agency-framer-template). Each page is the template's preview page for one stack (astro, bootstrap, framer, nextjs …) with a preview video/screenshots; item ids hang off the domain's only catalog entry (wrappixel-com-animated-ui-component-libraries). /blog/ (62), /blog/category/ (17) and the ~31 root marketing/framework pages are not templates."
+}
