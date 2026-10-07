@@ -1,0 +1,7 @@
+{
+  "match": "/templates/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Scrolltide: one /templates/<name> page per free section/page template (24; e.g. /templates/orchid = 'Orchid — Elegant hero section template for project management software', 200 OK checked 2026-10-07). /components, /sections, /ui and /shaders are index pages, /academy/<slug> (11) are tutorials, /pricing, /faq, /privacy, /terms are the site's own."
+}

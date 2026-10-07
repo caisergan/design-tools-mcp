@@ -1,0 +1,7 @@
+{
+  "match": "/og-images/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "OGimage.gallery: one /og-images/<site>-<tag> page per social-share card (844; e.g. /og-images/1password-future = 'OGimage.gallery | 1Password Future OG Image from Jan 25, 2022', 200 OK checked 2026-10-07). /category/<kind> are filters; /site/{name} (9) and /libary/{name} (8, misspelled legacy prefix) are not matched; /whats-an-og-image is the site's own explainer. Sitemap URLs carry www."
+}

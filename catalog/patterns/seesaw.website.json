@@ -1,0 +1,7 @@
+{
+  "match": "/websites/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "SEESAW website gallery: one /websites/<slug> page per showcased website (868; e.g. /websites/10x-designers = '10x Designers — SEESAW', 200 OK checked 2026-10-07). /font/<family> (630) are font-usage pages ('Barlow Font ✦ Design Inspiration', listing the sites using the font) and /category/<tag> (263) are tag listings; neither is matched."
+}

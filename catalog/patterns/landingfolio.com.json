@@ -1,0 +1,10 @@
+{
+  "match": [
+    "/library/{name}",
+    "/components/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "Landingfolio component library. /library/<kind> = 'Production-ready <Kind> components, free and paid, ready to drop into your project' (89 kinds; e.g. /library/alert, 200 OK checked 2026-10-07). /components/<kind> = 'Browse real <Kind> components, curated by Landingfolio from the sites in our inspiration gallery' (39 kinds; e.g. /components/pricing). 16 kinds (pricing, footer, hero, header, faq, …) exist under both prefixes and collapse to one item each by the id rule. Elements come from the kind slug via tagItem (alert, pricing, footer …). /inspiration/<element>/<industry> (204) are filtered galleries, /learn/tips/post and /blog/post are articles, /templates/<kind> and /store/templates/<hex> are store pages."
+}

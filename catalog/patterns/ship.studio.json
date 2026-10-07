@@ -1,0 +1,7 @@
+{
+  "match": "/templates/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Ship Studio template gallery: one /templates/<slug> page per template (29; e.g. /templates/loam-headless-shopify-storefront-nextjs-16-tailwind-jtfaiq = 'Loam - Headless Shopify Storefront (Next.js 16 + Tailwind) - Ship Studio Template', 200 OK checked 2026-10-07). /login and /signup are the site's own pages."
+}

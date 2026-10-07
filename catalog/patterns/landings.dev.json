@@ -1,0 +1,7 @@
+{
+  "match": "/post/{name}",
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Landings landing-page gallery: one /post/<slug> page per showcased landing page (385; e.g. /post/gusto = 'Gusto Landing Page Design | Landings', 200 OK checked 2026-10-07). Despite the /post prefix these are showcase pages, not blog posts. /tailwind/<class> is the site's Tailwind CSS reference, /blog and /advertise are the site's own pages."
+}

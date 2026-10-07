@@ -1,0 +1,10 @@
+{
+  "match": [
+    "/rebrand/{name}",
+    "/bento/{name}"
+  ],
+  "granularity": "example",
+  "access": "page",
+  "status": "hand",
+  "note": "Rebrand Gallery, 'Best Rebrands & Brand Identity Inspiration' (home title checked 2026-10-07). One page per brand identity: /rebrand/<brand> case pages (215; e.g. /rebrand/renault = 'Renault Rebrand 2021: Logo & Identity', 200 OK) and /bento/<brand> identity pages (537; e.g. /bento/okan = 'Okan Brand Identity by Pang brands — Rebrand'). 26 brands appear under both prefixes (752 URLs) and collapse to one item each by the id rule. /styles, /feels, /industries, /typefaces are facet pages; /rebrand-pro, /bentos, /shots are the site's own."
+}
