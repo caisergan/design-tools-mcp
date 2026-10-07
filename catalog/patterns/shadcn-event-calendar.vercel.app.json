@@ -1,0 +1,8 @@
+{
+  "match": ["/demo", "/docs"],
+  "element": "calendar",
+  "granularity": "page",
+  "urls_from": ["/"],
+  "status": "hand",
+  "note": "One-component site: a shadcn/ui event calendar (month/week/day views with drag-and-drop events). /demo is the live example, /docs is its install/usage page — both link from / (the only URL source; the site has a sitemap but it is not served). Nothing else exists on the host."
+}
