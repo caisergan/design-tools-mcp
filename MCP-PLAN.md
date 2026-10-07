@@ -813,6 +813,27 @@ Built by cheaper agents from the briefs in `briefs/phase-6/` (reports in `briefs
 
 ---
 
+### 6.9 Results (2026-10-07, evening) — briefs 09–13: walled sites, redirects, 154 design sites, Scrapling backend
+- **Scrapling test (09):** Bun `fetch`/curl get 403 only on uiverse.io, land-book.com, ui8.net, saasframe.io; Scrapling's
+  `http` mode (Chrome TLS impersonation) reaches the first three, `stealth` the fourth. The other "unlocked" sites were
+  redirects to another domain (dropped by the in-domain sitemap filter) or hosts dead in September and back now.
+- **Real browser (13):** the user's own browser is not better: Cloudflare Turnstile shows it an interactive checkbox on
+  saasframe/colorkit (Scrapling stealth passes saasframe); same reach elsewhere; savee shows 30 saves/board.
+- **Scrapling backend (11):** opt-in per host in `catalog/scrapling-hosts.json` (`tools/scrapling-backend.mjs`,
+  `tools/scrapling/fetch.py`, venv `~/.venvs/scrapling`), falls back to `fetch`. Enabled: uiverse.io only.
+  **land-book.com, ui8.net, saasframe.io are listed but disabled** (commercial galleries behind a bot wall; owner
+  decision, ~26k items). New pattern option `paginate` for index pages; challenge detection no longer flags the
+  Cloudflare JSD beacon.
+- **Patterns:** brief 10 (redirect targets beste.dev, relume.ai, mobbin.com, mocku.com, kit.cuedesign.space;
+  figcomponents; LINE DS) +7,624 · brief 12 (154 design sites with a sitemap, 6 batches: 59 patterns, 95 skips)
+  +32,632 · uiverse.io +6,013.
+- **Build:** items 68,494 → **114,763** (sitemap 27,476 → 73,745; with an element 58,302). `search-index.json`
+  20.8 → **26.7 MB** (≈130 B per added item) — 1.7 MB over the 25 MB target.
+- **Eval:** recall@5 0.983 (unchanged, same miss: empty-state query) · MRR 0.724 → 0.720.
+- **Open:** index budget; uuid-named pages (raivcoo 2,773, mobbin screens) need per-url titles; umanmade.com host
+  alias; `buildItems` should visit every domain with a pattern (mocku.co needed an empty corpus folder); enabling the
+  three disabled hosts.
+
 ## Phase 7 — Housekeeping
 
 - Hot reload: watch `catalog.json` / `search-index.json` mtime, reload without restarting the server.
