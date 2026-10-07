@@ -154,8 +154,8 @@ test("auto patterns mark their items", () => {
   expect(hand.items[0].auto).toBeUndefined();
 });
 
-test("the display name drops cross-segment captures but the id keeps them", () => {
-  // a {*} segment qualifies the id only — the path already says it
+test("the display name keeps the {name} capture, position decides the rest", () => {
+  // a {*} before the name segment only groups the page — the path already says it
   const animista = scan("animista.net", "a", {
     pattern: { match: "/play/text/{*}/{name}", granularity: "example", status: "hand" },
     sitemap: { urls: [S("https://animista.net/play/text/bounce-in/bounce-in-fwd")] },
@@ -169,12 +169,29 @@ test("the display name drops cross-segment captures but the id keeps them", () =
   });
   expect(dy.items.map((i) => [i.id, i.name, i.elements])).toEqual([["d/contact2-c-blocks-contact", "Contact2 — Contact", ["contact"]]]);
 
-  // {author} prefixes the name, the rest of the path stays id-only
+  // {author} prefixes the name; a {*} after the name — or on the leaf — qualifies it
   const ta = scan("tailark.com", "t", {
-    pattern: { match: "/pages/{author}/{*}/{name}/{*}", status: "hand" },
-    sitemap: { urls: [S("https://tailark.com/pages/quartz/grid-1/customer-story/one")] },
+    pattern: { match: ["/pages/{author}/{*}/{name}", "/pages/{author}/{*}/{name}/{*}"], status: "hand" },
+    sitemap: {
+      urls: [S("https://tailark.com/pages/quartz/dark/landing"), S("https://tailark.com/pages/quartz/grid-1/customer-story/one")],
+    },
   });
-  expect(ta.items.map((i) => [i.id, i.name])).toEqual([["t/quartz-customer-story-grid-1-one", "Quartz Customer Story"]]);
+  expect(ta.items.map((i) => [i.id, i.name])).toEqual([
+    ["t/quartz-landing-dark", "Quartz Landing"],
+    ["t/quartz-customer-story-grid-1-one", "Quartz Customer Story One"],
+  ]);
+
+  // a {*} / {n} after the name segment stays visible: it is what tells two items of one element apart
+  const gov = scan("design-system.service.gov.uk", "g", {
+    pattern: { match: "/components/{element}/{*}", status: "hand" },
+    sitemap: { urls: [S("https://design-system.service.gov.uk/components/accordion/history")] },
+  });
+  expect(gov.items.map((i) => [i.id, i.name, i.elements])).toEqual([["g/accordion-history", "Accordion History", ["accordion"]]]);
+  const kit = scan("originkit.dev", "k", {
+    pattern: { match: "/components/{name}/{n}", status: "hand" },
+    sitemap: { urls: [S("https://www.originkit.dev/components/accretion-disc/02")] },
+  });
+  expect(kit.items.map((i) => [i.id, i.name])).toEqual([["k/accretion-disc-02", "Accretion Disc 02"]]);
 
   // captures of the name's own segment all stay in the name
   const sm = scan("sectionmaster.com", "sm", {
@@ -182,6 +199,28 @@ test("the display name drops cross-segment captures but the id keeps them", () =
     sitemap: { urls: [S("https://sectionmaster.com/sections/navattic-com-hero-1")] },
   });
   expect(sm.items.map((i) => [i.id, i.name])).toEqual([["sm/navattic-com-hero-1", "Navattic Com Hero 1"]]);
+});
+
+test("a display name repeated inside one site gets its grouping segment appended", () => {
+  const pattern = { match: "/templates/{*}/{element}/{name}", status: "hand" };
+  const two = scan("dycomps.oimmi.com", "d", {
+    pattern,
+    sitemap: { urls: [S("https://dycomps.oimmi.com/templates/c-blocks/contact/contact2"), S("https://dycomps.oimmi.com/templates/s-blocks/contact/contact2")] },
+  });
+  expect(two.items.map((i) => [i.id, i.name])).toEqual([
+    ["d/contact2-c-blocks-contact", "Contact2 C Blocks — Contact"],
+    ["d/contact2-s-blocks-contact", "Contact2 S Blocks — Contact"],
+  ]);
+  // a name that stays unique is left alone, and no temporary field survives the scan
+  const one = scan("dycomps.oimmi.com", "d", { pattern, sitemap: { urls: [S("https://dycomps.oimmi.com/templates/c-blocks/contact/contact2")] } });
+  expect(one.items[0].name).toBe("Contact2 — Contact");
+  expect(Object.keys(one.items[0]).filter((k) => k.startsWith("__"))).toEqual([]);
+
+  // anchors: two sections carrying the same heading are separated by their anchor id
+  const filters = { anchors: [{ url: "https://x.dev/", id: "gallery", text: "Pixel load" }, { url: "https://x.dev/", id: "pixel-load", text: "Pixel load" }] };
+  const a = scan("x.dev", "x", { pattern: { anchors_from: ["/"], element: "button", status: "hand" }, filters });
+  expect(a.items.map((i) => i.name)).toEqual(["Pixel Load Gallery — Button", "Pixel Load — Button"]);
+  expect(new Set(a.items.map((i) => i.name)).size).toBe(2);
 });
 
 test("skip and missing parents yield nothing", () => {

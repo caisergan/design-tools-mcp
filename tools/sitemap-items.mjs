@@ -254,6 +254,51 @@ const urlKeyOf = (raw) => {
   }
 };
 
+const NAME_WORDS = /[-_.%\s]+/;
+const words = (s) =>
+  String(s ?? "")
+    .split(NAME_WORDS)
+    .filter(Boolean)
+    .map((w) => w.toLowerCase());
+
+/**
+ * Two items of one site sharing a display name are ambiguous (two collections of the same block, two variants
+ * of the same page, a heading used twice). The positional name rule keeps the grouping segments out of the
+ * name, so a repeated name gets them appended — `Contact2 — Contact` → `Contact2 C Blocks — Contact`,
+ * `Quartz Landing` → `Quartz Landing Dark` — skipping words the name already carries, and a counter if that
+ * still collides. Ids never change; the temporary fields are removed afterwards.
+ */
+function finalizeNames(items) {
+  const groups = new Map();
+  for (const it of items) {
+    const g = groups.get(it.name);
+    if (g) g.push(it);
+    else groups.set(it.name, [it]);
+  }
+  if ([...groups.values()].some((g) => g.length > 1)) {
+    const taken = new Set(groups.keys());
+    for (const [name, group] of groups) {
+      if (group.length < 2) continue;
+      taken.delete(name);
+      for (const it of group) {
+        const label = it.__label ? ` — ${it.__label}` : "";
+        const have = new Set(words(it.__core));
+        const extra = words(it.__hint).filter((w) => !have.has(w));
+        const base = humanise(extra.length ? `${it.__core}-${extra.join("-")}` : it.__core);
+        let repaired = base + label;
+        for (let n = 2; taken.has(repaired); n++) repaired = `${base} ${n}${label}`;
+        taken.add(repaired);
+        it.name = repaired;
+      }
+    }
+  }
+  for (const it of items) {
+    delete it.__core;
+    delete it.__hint;
+    delete it.__label;
+  }
+}
+
 /**
  * Sitemap URLs (+ urls_from links) + pattern → items. `taken` is the id → item map of the entry (registry and
  * llms items win); items made here are added to it. Pure: pass `sitemap`, `pattern` and `filters` in.
@@ -342,15 +387,19 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
     }
 
     // name: the {author} prefix + the {name} capture (with the {element}/{n} text of its own path segment,
-    // e.g. /sections/{name}-{element}-{n} → "navattic-com-hero-1"). {*} captures and {element} captures from
-    // other segments are id-only: the path already says them, and repeating them reads
-    // "Contact2 C Blocks Contact" instead of "Contact2 — Contact".
-    const nameParts = [];
-    if (cAuthor) nameParts.push(cAuthor.raw);
+    // e.g. /sections/{name}-{element}-{n} → "navattic-com-hero-1"). Position decides what the other captures
+    // do: a {*} / {n} before the name segment only groups the page (/play/text/bounce-in/bounce-in-fwd →
+    // "Bounce In Fwd", /templates/c-blocks/contact/contact2 → "Contact2 — Contact"), one after it — or a {*}
+    // on the leaf itself — qualifies the item and is appended (/components/accordion/history →
+    // "Accordion History", /components/accretion-disc/03 → "Accretion Disc 03").
+    const leaf = m.segs.length - 1;
     const segCaps = m.captures.filter((c) => c.seg === nameSeg);
     const named = segCaps.filter((c) => c.kind === "name" || c.kind === "element" || c.kind === "n");
+    const nameParts = [];
+    if (cAuthor) nameParts.push(cAuthor.raw);
     if (named.length) nameParts.push(...named.map((c) => c.raw));
-    else if (!segCaps.some((c) => c.kind === "author" || c.kind === "star")) nameParts.push(base);
+    else if (!(segCaps.length && segCaps.every((c) => c.kind === "author")) && !(nameSeg === leaf && segCaps.some((c) => c.kind === "star"))) nameParts.push(base);
+    for (const c of m.captures) if (c.seg > nameSeg && (c.kind === "star" || c.kind === "n")) nameParts.push(c.raw);
     if (!nameParts.length) nameParts.push(base);
     const nameBase = nameParts.join("-");
 
@@ -366,10 +415,16 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
 
     // fixed element → its label; an {element} captured in a segment of its own → the label of that element
     const label = fixed ? elementLabel(fixed, taxonomy) : cElement && cElement.seg !== nameSeg ? elementLabel(cElement.id, taxonomy) : null;
+    // grouping captures (a {*}/{n} before the name segment) stay out of the name, but they are what tells
+    // two items of one site apart — `finalizeNames` appends them when a name would repeat.
+    const grouping = m.captures.filter((c) => (c.kind === "star" || c.kind === "n") && c.seg < nameSeg).map((c) => c.raw);
     const item = {
       id,
       parent: parent.id,
       name: humanise(nameBase) + (label ? ` — ${label}` : ""),
+      __core: nameBase,
+      __hint: (grouping.length ? grouping : [idBase]).join("-"),
+      __label: label || "",
       url,
       elements: [...els].sort(),
       variants,
@@ -404,10 +459,14 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
     if (!els.size) for (const e of tagged.elements) els.add(e);
     if (!els.size) unmapped++;
     const label = fixed ? elementLabel(fixed, taxonomy) : null;
+    const core = a.text?.trim() || humanise(a.id);
     const item = {
       id,
       parent: parent.id,
-      name: (a.text?.trim() || humanise(a.id)) + (label ? ` — ${label}` : ""),
+      name: core + (label ? ` — ${label}` : ""),
+      __core: core,
+      __hint: a.id, // a heading can name two sections (simply-buttons' "Pixel load"): the id separates them
+      __label: label || "",
       url,
       elements: [...els].sort(),
       variants: variantsFor(els, tagged, urlKeyOf(a.url)),
@@ -420,6 +479,7 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
     taken.set(id, item);
     anchorUrls.add(url);
   }
+  finalizeNames(out);
   return { items: out, candidates: candidates.length, matched, skipped, unmapped, anchors };
 }
 
