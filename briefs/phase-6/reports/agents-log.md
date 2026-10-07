@@ -18,7 +18,7 @@ removed, then `herdr worktree remove --workspace <id>` ends the agent and delete
 | r052 | 05 review queue 29–56 | `phase6/review-r2` @ 4f5f3b5 | 4 patterns, 24 skips | 2026-10-07 | 2026-10-07 |
 | r053 | 05 review queue 57–84 | `phase6/review-r3` @ 9a89143 | 3 patterns, 25 skips | 2026-10-07 | 2026-10-07 |
 
-Still running: a03 (03 21st.dev, restarted after an uncaught timeout crashed the fetch at 1,404 components) and l04 (04
+Still running: s08 (08 small component sites, `phase6/small-sites`, started 2026-10-07), a03 (03 21st.dev, restarted after an uncaught timeout crashed the fetch at 1,404 components) and l04 (04
 list_pages).
 
 All 05 batches merged: `catalog/patterns/` holds 274 files (44 hand · 60 auto · 170 skip).
