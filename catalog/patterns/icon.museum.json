@@ -1,0 +1,6 @@
+{
+  "match": "/apps/{name}",
+  "granularity": "example",
+  "status": "hand",
+  "note": "Icon Museum: one exhibit per app's icon — /apps/<name> (e.g. /apps/not-boring-camera: 'View icon variants, color palettes, and designer details'). Icon pages do not tag to UI elements, so items have no element. /wall, /about and /press are the museum's own pages."
+}

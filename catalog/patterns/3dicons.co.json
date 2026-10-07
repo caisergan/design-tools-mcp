@@ -1,0 +1,6 @@
+{
+  "match": "/collection/{name}",
+  "granularity": "page",
+  "status": "hand",
+  "note": "3dicons: the four pack pages of a free 3D icon library — /collection/<name> (halloween, social, christmas, v1). The 211 /icons/<name> pages are single hash-slugged icons (near-identical) and are not matched; /explore, /showcase, /figma are the site's own pages."
+}

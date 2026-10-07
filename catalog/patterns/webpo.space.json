@@ -1,0 +1,12 @@
+{
+  "match": [
+    "/template/{name}",
+    "/best-og-image-inspiration/{name}",
+    "/best-app-gallery/{name}",
+    "/best-app-icon-inspiration/{name}",
+    "/best-logo-design-inspiration/{name}"
+  ],
+  "granularity": "example",
+  "status": "hand",
+  "note": "Webpo: showcase pages of other brands' designs — /template/<name> (website templates, 511), /best-og-image-inspiration/<name> (OG images, 109), /best-app-gallery/<name> (App Store screenshots, 86), /best-app-icon-inspiration/<name> (app icons, 53), /best-logo-design-inspiration/<name> (logos, 40). /blog/<name> posts and /free-tools/<name> tool pages are not matched."
+}
