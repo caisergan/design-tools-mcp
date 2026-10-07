@@ -1,0 +1,7 @@
+{
+  "match": "/docs/{name}",
+  "exclude": ["/docs/docs", "/docs/changelog", "/docs/text-dots"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "Indie UI — component/blocks library docs. One page per component with a live example ('Simple Cards', 'Reusable header component', 'Bento Grid with 4 cells', 'Input', …). Excluded: /docs/changelog (not a component) and /docs/docs + /docs/text-dots (404, 200-checked 2026-10-07). /form-builder is the catalog page entry itself and is not a docs item."
+}

@@ -1,0 +1,7 @@
+{
+  "match": "/{author}/{name}",
+  "urls_from": ["/explore"],
+  "granularity": "page",
+  "status": "hand",
+  "note": "DESIGN.md registry — user-uploaded design-system specs for AI coding. One page per design system: /<user>/<slug> = '<Name> by @<user> | DESIGN.md' (200-checked /yiujc/flip7-card-game, /Akagi201/longcipher-design, /chef/chatbubble; 3 sitemap URLs — /, /explore, /about — are not items). /explore server-renders ~20 links per page and paginates ?page=N to ~21 pages; its links are mined with urls_from (fetch-filters fetches at most 20 pages, so ≈400 of ~420 items)."
+}

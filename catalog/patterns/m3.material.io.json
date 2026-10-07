@@ -1,0 +1,13 @@
+{
+  "match": [
+    "/components/{name}/{*}",
+    "/foundations/{name}",
+    "/foundations/{name}/{*}",
+    "/foundations/{name}/{*}/{*}",
+    "/styles/{name}/{*}",
+    "/styles/{name}/{*}/{*}"
+  ],
+  "granularity": "page",
+  "status": "hand",
+  "note": "Material Design 3 — the canonical design-guideline docs. One item per guideline page: /components/<component>/{overview,guidelines,specs,accessibility} (36 components × 4 = 144; the component segment tags to a taxonomy element, e.g. buttons→button, app-bars→navbar, navigation-rail→sidebar, text-fields→input, snackbar→toast), /foundations/<section>[/<group>]/<page> (67: layout, content design, interaction, design tokens, XR …) and /styles/<section>[/<group>]/<page> (37: colour roles, typography, motion, elevation …). Not items: /blog/* (112), /develop/* (implementation docs) and the root section indexes (/, /components, /foundations, /styles, /material-is-compose-first). All pages server-render; 200-checked /components/buttons/overview, /components/dialogs/specs, /styles/color/roles, /foundations/layout/grids-spacing/spacing, /foundations/customization 2026-10-07."
+}
