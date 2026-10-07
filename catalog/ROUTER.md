@@ -1,0 +1,1353 @@
+# Design resources — agent router
+
+> Machine-first index of UI/design resources. Don't crawl these sites with a browser — use the flag on each entry. Flags: `registry:N` → `npx shadcn@latest add <site>/r/<name>.json` (N items, real source) · `llms.txt` / `llms-full` → `curl <site>/llms.txt` · `repo` → `git clone` (read `SKILL.md` then `README.md`) · `skill` → the repo ships an agent skill · `mcp` → connect the MCP server instead of scraping. Full URLs and probe details: `catalog.json`.
+
+## Where to look first
+
+| Need | Go to |
+| --- | --- |
+| Drop-in React/Tailwind components with source | reactbits.dev, magicui.design, ui.aceternity.com, kokonutui.com, reui.io, beui.dev, canvasui.dev |
+| A navbar / hero / footer / CTA to copy | navbar.gallery, supahero.io, footer.design, cta.gallery, 404s.design |
+| Whole-page references for a SaaS/AI landing | saaspo.com, land-book.com, landing.love, saaslandingpage.com, a1.gallery |
+| Design rules that stop generic AI output | Nutlope/hallmark, obra/superpowers, styles.refero.design, pbakaus/impeccable, uirules.com, ui-skills.com |
+| Motion, transitions, micro-interactions | transitions.dev, 60fps.design, motion-primitives.com, kinetics.colorion.co, microkit.co, amicro.vercel.app |
+| Fonts / icons / color | fontshare.com, uncut.wtf, lucide-icons/lucide, hugeicons.com, ui.gradients.com |
+
+## Local prefetch
+
+`catalog/corpus/` holds what was already downloaded — check `catalog/corpus/MANIFEST.md` (one line per file) before pulling anything from the network. `corpus/sites/<domain>/` = llms.txt, registry items, extracted component source; `corpus/repos/<owner>__<repo>/` = README.md / SKILL.md.
+
+> 1391 more entries came from X posts but were shared only once, so they are kept out of this file. They are in `catalog.json` and show up in the MCP `search_resources` tool.
+
+## Components & UI kits · `components` (432)
+
+- **The Component Gallery** — The Component Gallery · https://component.gallery `unreadable:no-endpoint`
+- **60fps** — UI/UX animation inspiration for mobile & web apps · https://60fps.design `llms.txt`
+- **21st** — React Components, Templates & Themes — 12,000+ Crafted UI / 21st / 21st · https://21st.dev `llms.txt skill`
+- **React Bits** — Animated UI Components For React · https://reactbits.dev `registry:684 llms.txt`
+- **Aceternity UI** — React & Tailwind CSS Component Library · https://ui.aceternity.com `registry:278 llms-full`
+- **DesignMD** — Generate DESIGN.md Files with AI · https://designmd.me `llms.txt`
+- **beUI** — Animated Components for React and Next.js · beUI · https://beui.dev `registry:120 llms.txt`
+- **beUI Pro** — Premium motion components for React · https://pro.beui.dev `llms-full`
+- **shadcn/ui** — The Foundation for your Design System · https://ui.shadcn.com `registry:63 llms.txt`
+- **Beautiful UI** — Crafted primitives for AI-native interfaces · https://beautifului.dev `registry:27`
+- **Magic UI** — React components for landing pages with tailwindcss + framer motion. · https://magicui.design `registry:250 llms-full`
+- **Originkit** — Free Animated component library for modern websites · https://originkit.dev `unreadable:no-endpoint`
+- **Transitions.dev** — UI transitions for AI agents · https://transitions.dev `unreadable:no-endpoint`
+- **GetLayers AI** — An AI-native library of templates. · https://getlayers.ai `llms.txt`
+- **Canvas UI** — Creative Canvas, WebGL and WebGPU Component Library · https://canvasui.dev `registry:420 llms.txt`
+- **pro.reactbits.dev** — The complete React library for crafting memorable UI · https://pro.reactbits.dev `llms.txt`
+- **Kinetics** — Spring-physics motion for web interfaces · https://kinetics.colorion.co `unreadable:no-endpoint`
+- **Amicro** — Premium React Micro-transitions & Interaction Components · https://amicro.vercel.app `registry:6`
+- **Motion-Primitives** — UI kit to make beautiful, animated interfaces, faster. · https://motion-primitives.com `unreadable:no-endpoint`
+- **Rare UI** — Rare Animated React Components · https://rareui.com `registry:21 llms.txt`
+- **shadcn-ui/ui** — Composable, accessible components with thoughtful defaults. Build your own component library with… · https://github.com/shadcn-ui/ui `repo`
+- **shortcuts.design** — Every shortcut for designers, centralized and searchable · https://shortcuts.design `unreadable:no-endpoint`
+- **UI Skills for Design Engineers** — UI Skills · https://ui-skills.com `llms.txt`
+- **A new, modern UI component library built on top of Base UI (coss ui)** — coss ui · https://coss.com/ui `unreadable:no-endpoint`
+- **AICSS** — AICSS · UI components for AI agents · https://aicss.dev `llms.txt`
+- **DavidHDev/react-bits** — An open source collection of animated, interactive & fully customizable React components for buil… · https://github.com/DavidHDev/react-bits `repo`
+- **VibePrompt** — UI Prompt Library & Tailwind CSS Snippets · https://vibeprompts.dev `unreadable:no-endpoint`
+- **Hover.dev** — Animated UI Components and Templates for React and TailwindCSS / Hover.dev · https://hover.dev `unreadable:no-endpoint`
+- **shadcn-studio** — Open Source Registry of Shadcn components and blocks. · https://shadcnstudio.com `llms.txt`
+- **Uiverse** — The Largest Library of Open-Source UI elements · https://uiverse.io `unreadable:no-endpoint`
+- **8bitcn/ui** — A set of retro-designed, accessible components and a code distribution platform. Open Source. Ope… · https://www.8bitcn.com `registry:121`
+- **Fancy Components** — Fancy Components · https://fancycomponents.dev `registry:158 llms.txt`
+- **flowbite.com** — ▪️ UI components · https://flowbite.com `unreadable:no-endpoint`
+- **Frameblox** — Ultimate Framer UI kit; design system & components library · https://frameblox.com `unreadable:no-endpoint`
+- **htmlrev.com** — HTML CSS Website Templates & Themes on HTMLrev · https://htmlrev.com `unreadable:no-endpoint`
+- **Liquid metal** — Animated metal shader effect · https://metal.jakubantalik.com `unreadable:no-endpoint`
+- **Selected** — Framer Templates Ranking & Marketplace Directory · https://selected.site `unreadable:no-endpoint`
+- **shadcn-blocks-com** — Premium shadcn/ui registry with 1429 blocks, 1189 component variants, 14 templates, Figma kit, th… · https://www.shadcnblocks.com `registry:4171 (some gated) unreadable:gated`
+- **Subscribe (ramofai.com)** — Get your FREE Guide · https://ramofai.com/subscribe `unreadable:no-endpoint`
+- **Beautiful UI** — Crafted primitives for AI-native interfaces · https://beautiful-ui-five.vercel.app `registry:27`
+- **Bencho** — UI interactive blocks · https://bencho.dev `unreadable:no-endpoint`
+- **bootstrapmade.com** — Bootstrap experts. · https://bootstrapmade.com `unreadable:no-endpoint`
+- **ColorKit** — Color Palettes, Gradients, Inspiration, and Color Tools · https://colorkit.co `unreadable:bot-walled`
+- **Colorlib** — WordPress Themes & Website Templates - Colorlib · https://colorlib.com `llms.txt`
+- **daisyUI** — Tailwind CSS Component Library · https://daisyui.com `llms.txt`
+- **Excalidraw** — Collaborative whiteboarding made easy · https://excalidraw.com `unreadable:no-endpoint`
+- **free-css.com** — old but gold templates. · https://free-css.com `unreadable:dead`
+- **Headless UI** — Headless UI · https://headlessui.com `unreadable:no-endpoint`
+- **Layers** — Explore / Layers · https://layers.to `unreadable:no-endpoint`
+- **NameThatUI** — What Is This UI Element Called? · https://namethatui.com `llms-full`
+- **number-flow** — React component for number transitions and formatting. · https://number-flow.barvian.me `unreadable:no-endpoint`
+- **skiper-ui** — Stand out from others with this crazzy ui library built with shad-cn cli · https://skiper-ui.com `unreadable:no-endpoint`
+- **sona-ui.vercel.app** — Sona UI has moved from to · https://sona-ui.vercel.app `unreadable:no-endpoint`
+- **WebInspoo** — SaaS Website Design Inspiration & Landing Page Examples / WebInspoo · https://webinspoo.com `llms-full`
+- **Acebuilder** — AI Landing Page Builder Powered by Aceternity UI · https://acebuilder.ai `llms.txt`
+- **Agentation** — Agentation · https://agentation.com `unreadable:no-endpoint`
+- **AI Elements** — AI Elements · https://elements.ai-sdk.dev `llms.txt`
+- **AlignUI Design System** — Design and development perfectly aligned · https://pro.alignui.com `unreadable:no-endpoint`
+- **anelkabag/bag-ui** — BagUI is an open-source shadcn/ui registry with production-ready components, blocks, templates, a… · https://github.com/anelkabag/bag-ui `registry:38 repo`
+- **Animated illustrations (beUI Pro)** — Animated illustrations · beUI Pro · https://pro.beui.dev/illustrations `llms-full`
+- **Astryx Design System** — Astryx Design System · https://astryx.atmeta.com `llms.txt`
+- **Base UI** — Unstyled UI components for accessible design systems · Base UI · https://base-ui.com `llms-full`
+- **bradtraversy/design-resources-for-developers** — Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libr… · https://github.com/bradtraversy/design-resources-for-developers `repo unreadable:repo-gone`
+- **componentful.com** · https://componentful.com `unreadable:no-endpoint`
+- **cult-ui** — Curated set of animated shadcn-style React components. · https://www.cult-ui.com `unreadable:no-endpoint`
+- **designsystems.surf** — Design System Resources & Tools · https://designsystems.surf `unreadable:no-endpoint`
+- **Free Shadcn UI Components (reui.io)** — ReUI · https://reui.io/components `registry:1728 (some gated) llms-full`
+- **HTML5 UP** — HTML5 UP · https://html5up.net `unreadable:no-endpoint`
+- **Icons (Its Hover)** — Its Hover · https://itshover.com/icons `registry:263`
+- **iOS interaction library for AI agents (60fps MCP)** — 60fps MCP · https://60fps.design/mcp `llms.txt mcp`
+- **magicuidesign/magicui** — UI Library for Design Engineers. Animated components and effects you can copy and paste into your… · https://github.com/magicuidesign/magicui `registry:210 repo`
+- **Mcp (21st.dev)** — install mcp · https://21st.dev/api/mcp `llms.txt skill mcp`
+- **Noiced** — Noiced · https://noiced.com `unreadable:no-endpoint`
+- **ObsidianUI** — React & Tailwind CSS Components Library · https://obsidianui.dev `registry:103 llms-full`
+- **PatternPad** — Create beautiful patterns for presentations, social media or branding. · https://patternpad.com `unreadable:no-endpoint`
+- **PATTTTERNS** — PATTTTERNS · https://patttterns.net `unreadable:no-endpoint`
+- **ScreensDesign** — App Design Library & AI Screen Generator · https://screensdesign.com `llms.txt`
+- **Start Bootstrap** — Start Bootstrap · https://startbootstrap.com `unreadable:no-endpoint`
+- **ui-layouts** — UI Layouts isn’t just a library. It’s a complete toolkit with components, effects, design tools,… · https://www.ui-layouts.com `registry:327 llms-full`
+- **ui.spectrumhq.in** — Spectrum UI — Animated React Components & Blocks · https://ui.spectrumhq.in `registry:315 llms-full`
+- **Watermelon** — Design Infrastructure for Modern Startups · https://watermelon.sh `unreadable:no-endpoint`
+- **261,740 free hand-drawn SVG icons (Koboyo Icons)** — 261,740 free hand-drawn SVG icons · https://koboyo.com/icons `unreadable:no-endpoint`
+- **500 (raphaelsalaja.com)** — Internal Server Error · https://raphaelsalaja.com/library/12-principles-of-animation `unreadable:no-endpoint`
+- **AI Agent Components (beUI)** — Animated React AI Interfaces · beUI · https://beui.dev/components/agents `registry:124 llms.txt`
+- **AnimateIcons** — 542+ Free Animated React Icons · https://animateicons.in `registry:542`
+- **basecn.dev** — shadcn/ui components powered by Base UI · https://basecn.dev `registry:56 llms.txt`
+- **beUI** — Animated Components for React and Next.js · beUI · https://beui.saura3h.xyz `registry:124 llms.txt`
+- **Componentry** — Beautiful Animated UI Components for React · https://componentry.dev `registry:55 llms.txt`
+- **Components (designsystem.line.me)** — Mobile design UI components Line design system is an excellent collection of UI components for mo… · https://designsystem.line.me/LDSG/components `unreadable:bot-walled`
+- **contentcore.xyz** — 3D mockups · https://contentcore.xyz `unreadable:no-endpoint`
+- **CSS Design Awards** — Website Awards - Best Web Design Inspiration - CSS Awards · https://cssdesignawards.com `unreadable:no-endpoint`
+- **CSSnippets** — Collection of Easy-to-Use UI Components · https://cssnippets.shefali.dev `unreadable:no-endpoint`
+- **dembrandt/dembrandt** — Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & m… · https://github.com/dembrandt/dembrandt `repo`
+- **DesignSystems.one** — Free Design System Tools & Resources · https://designsystems.one `registry:4 llms-full`
+- **DialKit** — Tune interfaces in real time · https://dialkit.dev `unreadable:no-endpoint`
+- **Discover community-made UI components (21st)** — 21st · https://21st.dev/community/components `llms.txt skill`
+- **eldora-ui** — free and open-source animated components built with React, Typescript, Tailwind CSS, and Framer M… · https://eldoraui.site `registry:115 llms-full`
+- **Emil design eng (ui-skills.com)** — emil-design-eng Skill - emilkowalski / UI Skills · https://ui-skills.com/skills/emilkowalski/emil-design-eng `llms.txt`
+- **Evil Charts** — Animated React Chart Components for shadcn/ui · https://evilcharts.com `registry:279 llms-full skill`
+- **figcomponents.com** — Figma Components · https://figcomponents.com `unreadable:dead`
+- **Free React & Next.js Components (Aceternity UI)** — Aceternity UI · https://ui.aceternity.com/components `registry:282 llms-full`
+- **HeroUI v3 (Previously NextUI)** — Beautiful by default, customizable by design. · https://heroui.com `llms-full`
+- **Hyperiux (21st)** — 46 React Components, Preview & Copy / 21st · https://21st.dev/@hyperiux `llms.txt skill`
+- **HyperUI** — Free Tailwind CSS Components / HyperUI · https://hyperui.dev `unreadable:no-endpoint`
+- **Index (React Bits)** — React Bits · https://reactbits.dev/get-started/index `registry:820 llms.txt`
+- **Jitter** — Jitter · A fast and simple motion design tool on the web · https://jitter.video `unreadable:no-endpoint`
+- **Kibo UI** — Kibo UI · https://kibo-ui.com `registry:41`
+- **KokonutUI** — Free Open Source UI Components for React and Tailwind CSS · https://kokonutui.com `registry:51 llms-full`
+- **Mantine** — Mantine · https://mantine.dev `llms-full`
+- **mapcn** — Beautiful maps made simple · https://mapcn.dev `registry:9 llms.txt`
+- **MengTo/threeui** — Open-source ThreeUI Community catalog with live interactive components and complete Community sou… · https://github.com/MengTo/threeui `repo`
+- **MicroKit UI** — Copy-paste React & CSS microinteractions · https://microkit.co `registry:47 llms.txt`
+- **moumen-soliman/lab** — A small lab of the components we build every day, rethought for better feel. Copy the source if t… · https://github.com/moumen-soliman/lab `repo`
+- **moumen-soliman/uitripled** — Production-ready UI blocks, components, and full pages available in shadcn/ui and Base UI, powere… · https://github.com/moumen-soliman/uitripled `repo`
+- **New Project (ui.shadcn.com)** — New Project · https://ui.shadcn.com/create `registry:63 llms.txt`
+- **opensourceui.in** — Free React UI Library & Next.js Components (Copy-Paste) · https://opensourceui.in `llms.txt`
+- **OpenTUI** — OpenTUI · https://opentui.com `unreadable:no-endpoint`
+- **origin-ui** — Beautiful UI components with Tailwind CSS and Next.js. · https://originui.com `unreadable:no-endpoint`
+- **Pagy** — Free website builder · https://pagy.co `unreadable:no-endpoint`
+- **Preline UI** — Free Tailwind CSS UI Components Library / Preline UI · https://preline.co `unreadable:no-endpoint`
+- **Questionnaire (ui.shadcn.com)** — Questionnaire · https://ui.shadcn.com/docs/components/base/questionnaire `registry:63 llms.txt`
+- **Radix UI** — Radix UI · https://radix-ui.com `unreadable:no-endpoint`
+- **Rare Animated React Components (Rare UI)** — Rare Animated React Components · https://rareui.com/components `registry:22 llms.txt`
+- **React Flow** — Node-Based UIs in React - React Flow · https://reactflow.dev `llms-full`
+- **React Hook Form** — performant, flexible and extensible form library / React Hook Form · https://react-hook-form.com `unreadable:no-endpoint`
+- **Registry Directory (ui.shadcn.com)** — Registry Directory · https://ui.shadcn.com/docs/directory `registry:63 llms.txt`
+- **revone.app** — revenue tracker app · https://revone.app `unreadable:no-endpoint`
+- **Roadmap (React Bits Pro roadmap)** — React Bits Pro roadmap · https://pro.reactbits.dev/roadmap `llms.txt`
+- **scroll-fade (ui.shadcn.com)** — shadcn/ui · https://ui.shadcn.com/docs/utils/scroll-fade `registry:63 llms.txt`
+- **Shadcn UI Kit** — Admin Dashboards, UI Blocks, Components & Website Templates · https://shadcnuikit.com `registry:936`
+- **shadcn-labs/pdfcn** — Beautiful pdf components, built on Takumi and Forme. 100% Free, Zero config, one command setup. · https://github.com/shadcn-labs/pdfcn `repo`
+- **shadcn-space** — Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. · https://github.com/shadcnspace/shadcnspace `registry:424 repo`
+- **shadcnblocks/shadcn-ui-blocks** — Hundreds of extra shadcn ui blocks & components. · https://github.com/shadcnblocks/shadcn-ui-blocks `repo`
+- **shadcnspace.com** — Shadcn UI Blocks, Templates, and Components / Free and Pro · https://shadcnspace.com `registry:893 llms.txt`
+- **ShapeFactory** — Simple tools to enrich creativity · https://shapefactory.co `unreadable:no-endpoint`
+- **sv-animations.vercel.app** — Svelte Animations Components · https://sv-animations.vercel.app `registry:67`
+- **tailwindcomponents.com** — Tailwind CSS Components - 600+ Free Examples and Templates · https://tailwindcomponents.com `unreadable:no-endpoint`
+- **Themefisher** — 200+ Website Templates Built with Modern Stacks / Themefisher · https://themefisher.com `llms-full`
+- **ThreeUI** — Three.js Components, Templates & Interactive Shaders / ThreeUI · https://threeui.com `unreadable:no-endpoint`
+- **Toast (Base UI)** — Toast · Base UI · https://base-ui.com/react/components/toast `llms-full`
+- **Toolfolio** — All the Tools You Need in One Place · https://toolfolio.com `unreadable:no-endpoint`
+- **UIdeck** — Free HTML Landing Page Templates and UI Kits / UIdeck · https://uideck.com `unreadable:no-endpoint`
+- **untitledui.com** — UI Kit · https://untitledui.com
+- **VantaUI** — UI Library Built From Real Products · https://vantaui.com `unreadable:no-endpoint`
+- **Watermelon UI** — Premium React Components, Dashboards & Blocks · https://ui.watermelon.sh `registry:778 llms.txt`
+- **Wensity UI** — Premium Components, Blocks and Templates for React and Next.js · https://ui.wensity.com `registry:92 llms-full`
+- **.NET (ShadUI)** — Avalonia port of shadcn/ui. Based on SukiUI · https://github.com/accntech/shad-ui `repo`
+- **12 principles of animation (ui-skills.com)** — 12-principles-of-animation Skill - raphaelsalaja / UI Skills · https://ui-skills.com/skills/raphaelsalaja/12-principles-of-animation `llms.txt`
+- **21st.dev-agent-elements** — Open-source registry of agent UI primitives — chat shell, tool-call cards (Bash, Edit, Search, To… · https://agent-elements.21st.dev `registry:25 llms-full`
+- **8starlabs-ui** — A set of beautifully designed components designed for developers who want niche, high-utility UI… · https://ui.8starlabs.com `registry:76 llms-full`
+- **adapttable** — Data table for shadcn/ui in one import — URL-synced state, declarative filters with chips, column… · https://github.com/orwa-mahmoud/adapttable `repo`
+- **agentcn** — Production-ready agents, made simple. Ready to use, customizable AI agent recipes. Built on Eve a… · https://agentcn.vercel.app `registry:76 llms-full`
+- **agents-ui** — Agents UI is LiveKit’s open source component library built with React and shadcn for designing vo… · https://livekit.io/ui `llms.txt`
+- **Angular (spartan)** — Angular port of shadcn/ui. · https://github.com/goetzrobin/spartan `repo`
+- **animated-header** — Vercel-like animated header. · https://github.com/mehrdadrafiee/animated-header `repo`
+- **animated-tabs** — Vercel-like animated tabs. · https://github.com/mehrdadrafiee/animated-tabs `repo`
+- **approvals-ui** — Approval workflow components for React Flow: quorum gates, amount thresholds, a policy lint (segr… · https://approvals-ui.vercel.app `registry:6`
+- **arikchakma/maily.to** — Notion-like powerful email editor. · https://github.com/arikchakma/maily.to `repo unreadable:repo-gone`
+- **assistant-ui** — React Components for AI Chat. · https://github.com/Yonom/assistant-ui `repo`
+- **async-select** — Async Select component built with shadcn/ui with debounce search. · https://async.rdsx.dev `unreadable:no-endpoint`
+- **audio/ui** — A set of accessible and composable Audio UI components. Built on top of shadcn/ui, it's designed… · https://github.com/ouestlabs/audio-ui `repo`
+- **auto-form** — A React component that automatically creates a shadcn/ui form based on a zod schema. · https://github.com/vantezzen/auto-form `registry:16 repo`
+- **autocomplete-select-shadcn-ui** — Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. · https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui `llms.txt`
+- **Basecoat** — Vanilla HTML, CSS and JS port of shadcn/ui. · https://basecoatui.com `llms-full`
+- **big-calendar** — A modern, feature-rich calendar application with multiple viewing options built using Next.js, Ty… · https://github.com/lramos33/big-calendar `registry:1 repo`
+- **billingsdk** — Modern, type-safe billing and subscription management components for React, built with TypeScript… · https://dodopayments.com `llms-full`
+- **billui** — Open source billing components for React built with Shadcn. Pricing cards, payment methods, invoi… · https://github.com/commet-labs/billui `repo`
+- **Blazor (simple/ui)** — Razor component library for Blazor, inspired by shadcn/ui. · https://sysinfocus.github.io/shadcn-inspired `unreadable:no-endpoint`
+- **bundui** — A collection of reusable animated components built with Tailwind CSS and Framer Motion. · https://bundui.io `registry:217`
+- **buouui** — A UI component library and template suite based on shadcn/ui with stunning landing pages, templat… · https://buouui.com `unreadable:no-endpoint`
+- **calendar** — React/shadcn full calendar like Google Calendar · https://github.com/charlietlamb/calendar `repo`
+- **calendar-cn** — A beautifully crafted calendar component built with shadcn/ui and Tailwind CSS, inspired by Notio… · https://github.com/vmnog/calendarcn `repo`
+- **calendar-schedular** — A multi-purpose calendar component built on top of date-fn and shadcn-ui · https://github.com/gluer-space/calendar `registry:1 repo`
+- **capture-photo** — Browser-based React component for camera functionalities in web applications. · https://github.com/UretzkyZvi/capture-photo `repo`
+- **carouselcn** — Copy-paste carousel components and examples for your react apps · https://github.com/mnove/carouselcn `registry:2 repo`
+- **cascader-shadcn** — A cascading dropdown menu component for selecting hierarchical data like locations, categories, o… · https://github.com/Ademking/cascader-shadcn `registry:1 repo`
+- **chanhdai-components** — A collection of reusable components. Trusted registry for shadcn/ui. · https://chanhdai.com/components `registry:67 llms-full`
+- **clerk-elements** — Composable components for building custom UIs on top of Clerk's APIs. · https://clerk.com/docs/elements/examples/shadcn-ui `registry:12 llms-full skill`
+- **clerk-shadcn-theme** — Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. · https://github.com/stormynight9/clerk-shadcn-theme `repo`
+- **commerce-ui** — Components, blocks and examples to build e-commerce storefronts and apps. · https://github.com/stackzero-labs/ui `repo`
+- **componentry** — Beautiful Animated UI Components for React Effortlessly add polished, production-ready interactio… · https://github.com/harshjdhv/componentry `repo`
+- **confirm-dialog** — A confirm dialog component built with shadcn/ui. · https://github.com/Aslam97/react-confirm-dialog `repo`
+- **country-state-dropdown** — Component built with Nextjs, Tailwindcss, shadcn/ui & Zustand. · https://github.com/Jayprecode/country-state-dropdown `repo`
+- **creatorem/ui** — Missing awesome shadcn components (like Tour, Stepper, QRCode Motion Dialog -> to imitate native… · https://github.com/creatorem/ui `repo`
+- **credenza** — Ready-made responsive modal component for shadcn/ui. · https://github.com/redpangilinan/credenza `registry:1 repo`
+- **crypto-charts** — Crypto charts made for shadcn/ui using PythNetwork. · https://github.com/jstnw10/crypto-charts `repo`
+- **custom-admin-dashboard** — A minimal, open-source ecommerce admin dashboard template built with shadcn/ui and Next.js. Inclu… · https://github.com/S5SAJID/custom-ecom `repo`
+- **data-command** — Component for building dynamic command palettes with API-powered data. · https://shadcn.davidsling.in/components/data-command `unreadable:no-endpoint`
+- **date-range-picker-for-shadcn** — Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. · https://github.com/johnpolacek/date-range-picker-for-shadcn `repo`
+- **date-time-picker-shadcn** — Datetime Picker for shadNext Project. · https://shadcn-datetime-picker.vercel.app `unreadable:no-endpoint`
+- **date-time-range-picker-shadcn** — Fully featured date-time range picker with multi-month views, timezone support, preset ranges, an… · https://date-time-range-picker.vercel.app `registry:5`
+- **datetime-picker** — Datetime picker with timezone support, min/max dates, and month/year selection. · https://shadcn-datetime-picker-xi.vercel.app `registry:3`
+- **dice-ui** — Accessible shadcn/ui components built with React, TypeScript, and Tailwind CSS. Copy-paste ready,… · https://github.com/sadmann7/diceui `repo`
+- **diffs** — @pierre/diffs is an open source diff and code rendering library. It's built on Shiki for syntax h… · https://diffs.com `llms-full`
+- **dnd-dashboard** — Dashboard with drop-to-swap layouts using Next.js, shadcn/ui, and swapy. · https://github.com/olliethedev/dnd-dashboard `repo`
+- **dotmatrix** — 55+ free and open-source loaders, built with React, TypeScript, Tailwind CSS, and shadcn. Install… · https://dotmatrix.zzzzshawn.cloud `registry:91`
+- **downshift-shadcn-combobox** — Combobox/autocomplete component built with shadcn/ui and Downshift. · https://github.com/TheOmer77/downshift-shadcn-combobox `registry:1 repo`
+- **drag-to-resize-sidebar** — Extended shadcn/ui sidebar component with persisted state drag-to-resize functionality. · https://github.com/lumpinif/drag-to-resize-sidebar `repo`
+- **drop-drawer** — A dropdown menu on desktop and a drawer on mobile devices. · https://github.com/jiaweing/DropDrawer `registry:1 repo`
+- **dy-comps** — shacn/ui & Framer Motion React components — flexible, responsive & easy to drop into any project. · https://dycomps.oimmi.com `unreadable:no-endpoint`
+- **emblor** — Customizable, accessible tag input component with shadcn/ui. · https://github.com/JaleelB/emblor `repo`
+- **enhanced-button** — Enhanced version of the default shadcn-button component. · https://github.com/jakobhoeg/enhanced-button `repo`
+- **envin** — Framework-agnostic, type-safe tool to validate and preview your environment variables - powered b… · https://envin.turbostarter.dev `unreadable:no-endpoint`
+- **eo-n/ui** — Enhanced UI components built on shadcn’s robust foundation, integrated with Base UI and Tailwind… · https://github.com/aeonzz/eo-n `repo`
+- **ephraimduncan/blocks** — A set of clean, modern building blocks to copy and paste into your apps. Works with all React fra… · https://github.com/ephraimduncan/blocks `repo`
+- **extend-ui** — Reusable components built on shadcn/ui for web applications. · https://www.extend-ui.com `unreadable:no-endpoint`
+- **fancy-area** — Textarea with @mention support inspired by GitHub's PR comment section. · https://craft.mxkaske.dev/post/fancy-area `unreadable:no-endpoint`
+- **fancy-box** — GitHub PR label selector-inspired Combobox with radix-ui components. · https://craft.mxkaske.dev/post/fancy-box `unreadable:no-endpoint`
+- **fancy-multi-select** — Multi Select Component inspired by campsite.design and cal.com. · https://craft.mxkaske.dev/post/fancy-multi-select `unreadable:no-endpoint`
+- **fancy-switch** — Fancy switch component built with shadcn/ui. · https://github.com/Aslam97/react-fancy-switch `repo`
+- **file-uploader** — File uploader with shadcn/ui and react-dropzone. · https://github.com/sadmann7/file-uploader `repo`
+- **file-vault** — File upload component for React. · https://github.com/ManishBisht777/file-vault `repo`
+- **Fixing accessibility (ui-skills.com)** — fixing-accessibility Skill - ibelick / UI Skills · https://ui-skills.com/skills/ibelick/fixing-accessibility `llms.txt`
+- **flightcn** — flightcn is a flight route visualization component set built for the mapcn ecosystem · https://flightcn.yencheng.dev `registry:13`
+- **floating-dragable-card** — Dragable and resizable card using shadcn/ui elements. · https://github.com/nishansanjuka/react-drag-card `repo`
+- **fluid-functionalism** — Refined shadcn/ui-compatible components with spring physics, proximity hover, and font weight tra… · https://fluid-functionalism.vercel.app `registry:70`
+- **Flutter (Forui)** — Forui is a Flutter UI library heavily inspired by shadcn/ui · https://forui.dev `unreadable:no-endpoint`
+- **Flutter (shadcn_ui)** — Flutter port of shadcn/ui. · https://github.com/nank1ro/shadcn-ui `repo`
+- **framecn** — Beautiful videos, made simple. Ready to use, customizable video components for React. · https://github.com/shadcn-labs/framecn `registry:101 repo`
+- **Franken UI** — HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste… · https://www.franken-ui.dev `unreadable:no-endpoint`
+- **fusion-ui** — Library combining shadcn/ui and MagicUI. · https://github.com/nyxb-ui/ui `repo`
+- **glasscn-ui** — shadcn/ui component library with glassmorphism variants, and many additional components. · https://github.com/itsjavi/glasscn-ui `repo`
+- **glitchcn-ui** — A terminal-styled cyberpunk component library for Next.js with scanline effects, glowing borders,… · https://glitchcn-ui.vercel.app `unreadable:no-endpoint`
+- **gluestack-ui** — React & React Native Components with Tailwind CSS. · https://gluestack.io `llms-full`
+- **Go (shadcn-templ)** — Go and templ port of shadcn/ui. · https://github.com/axadrn/shadcn-templ `registry:83 repo`
+- **goey-toast** — Morphing toast notifications for React. Organic blob animations, promise tracking, and full custo… · https://goey-toast.vercel.app `registry:1`
+- **guarahooks** — A free, open-source collection of reusable React hooks you can copy and paste into your apps. · https://github.com/h3rmel/guarahooks `repo`
+- **heroicons-animated** — An open-source collection of 316 beautifully animated heroicons for your projects. · https://heroicons-animated.vercel.app `registry:316 llms.txt`
+- **hexta-ui** — Build stunning websites effortlessly. Modern, responsive, and customizable UI components for Next… · https://hextaui.com `registry:139 llms.txt`
+- **ibelick/background-snippet** — Ready to use collection of modern background snippets. · https://github.com/ibelick/background-snippets `repo`
+- **image-crop-field** — Image crop field with shadcn/ui. This component is a wrapper around the react-easy-crop component. · https://github.com/JsCodeDevlopment/upload-crop-image `repo`
+- **image-upload-shadcn** — Image upload component. · https://github.com/kushagrasarathe/image-upload-shadcn `repo`
+- **indie-ui** — UI components with variants. · https://github.com/Ali-Hussein-dev/indie-ui `repo`
+- **inspira-ui** — UI components for animated interfaces in Vue/NuxtJS. · https://inspira-ui.com `llms.txt`
+- **jalco-ui** — Polished, composable React components distributed via a shadcn-compatible registry. Install with… · https://ui.justinlevine.me `llms.txt`
+- **jolyui** — JolyUI is a modern React component library built with TypeScript, Tailwind CSS and Motion. It off… · https://github.com/Johuniq/jolyui `repo`
+- **junwen-k/ui-x** — Additional beautifully designed components that you can copy and paste into your apps. Accessible… · https://ui-x.junwen-k.dev `llms-full`
+- **kalyx** — Headless React DatePicker family — single / range / time / date+time / month / year / week picker… · https://github.com/jiji-hoon96/kalyx `repo`
+- **kanban-board** — A production‑ready Kanban board built on shadcn/ui with React & Tailwind CSS: zero dependencies,… · https://shadcn-kanban-board.com `registry:3`
+- **kibo-ui** — Kibo UI is designed to be a more comprehensive library of components that can be used to build mo… · https://www.kibo-ui.com/overview `registry:41`
+- **Kotlin (shadcn-kotlin)** — Kotlin port of shadcn/ui. · https://github.com/dead8309/shadcn-kotlin `repo`
+- **ktui** — Open-source collection of customizable UI components for Tailwind CSS and vanilla JavaScript · https://github.com/keenthemes/ktui `repo`
+- **launch-ui** — Landing page components with React, Shadcn/ui and Tailwind. · https://www.launchuicomponents.com `registry:24`
+- **lingua-time** — Smart datetime picker with natural language input. · https://github.com/nainglinnkhant/lingua-time `registry:1 repo`
+- **linked-chart** — Chart component linked with data-table. · https://github.com/ardasisbot/linked-chart `repo`
+- **loading-ui** — Curated, copy-friendly spinners, loaders, and loading-state animations for the web—free and open… · https://loading-ui.com `registry:50 llms-full`
+- **localmode** — Local-first AI UI registry with 107 copy-owned primitives and 36 composed blocks (chat, RAG, Whis… · https://localmode.ai `registry:147 llms-full`
+- **longbridge/gpui-kit** — Rust GUI components for building fantastic cross-platform desktop application by using GPUI. · https://github.com/longbridge/gpui-kit `repo`
+- **lukacho-ui** — Next Generation UI Components. · https://ui.lukacho.com/components `unreadable:no-endpoint`
+- **Make interfaces feel better (ui-skills.com)** — make-interfaces-feel-better Skill - jakubkrehel / UI Skills · https://ui-skills.com/skills/jakubkrehel/make-interfaces-feel-better `llms.txt`
+- **manfromexistence-ui** — Components to build beautiful designs. · https://github.com/manfromexistence/ui `repo`
+- **manifest-ui** — Components for ChatGPT Apps and MCP Apps. · https://ui.manifest.build `registry:32`
+- **marmo-ui** — React components for Applications combined with MCP Server · https://github.com/mahmoudilyan/marmoui `repo`
+- **matsu-theme** — Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki · https://matsu-theme.vercel.app `unreadable:no-endpoint`
+- **mindmapcn** — Beautiful mind maps, works seamlessly with shadcn/ui. · https://github.com/SSShooter/mindmapcn `registry:1 repo`
+- **minimal-tiptap** — Minimal WYSIWYG editor with shadcn/ui and tiptap. · https://github.com/Aslam97/shadcn-minimal-tiptap `repo`
+- **mixcnui** — Collection of animated components for Nextjs. · https://github.com/taqui-786/mixcnui `repo`
+- **MkDocs (mkdocs-shadcn)** — MkDocs port of shadcn/ui. · https://github.com/asiffer/mkdocs-shadcn `repo`
+- **modal-control-query** — A hook to control shadcn modal components using query params · https://shadcn.davidsling.in/hooks/use-modal-control-query `unreadable:no-endpoint`
+- **motiq** — Accessible, state-driven animated React components and workflow blocks for shadcn/ui, installed a… · https://github.com/RMahammad/motiq `registry:100 repo`
+- **mrdoge-ui** — Open-source components for sports apps · https://github.com/mrdogeco/docs `registry:26 repo`
+- **multi-selection** — Managing multi-selection functionality with highlighter. · https://github.com/sherifawad/multi-selection-with-add-remove `repo unreadable:repo-gone`
+- **mvpblocks** — Copy-paste beautiful, responsive components without worrying about styling or animations. Build f… · https://blocks.mvp-subha.me `llms-full`
+- **mynaui** — TailwindCSS and shadcn/ui UI Kit for Figma and React. · https://mynaui.com `registry:346`
+- **neobrutalism-components** — Neobrutalism-styled Tailwind React and shadcn/ui components. · https://github.com/ekmas/neobrutalism-components `registry:111 repo`
+- **next-stepper** — Dynamic multi-step form with Next.js and zustand. · https://github.com/ebulku/next-stepper `repo`
+- **nextjs-components** — Next.js components with TypeScript and shadcn/ui. · https://components.bridger.to `unreadable:no-endpoint`
+- **nextjs-dnd** — Sortable Drag and Drop with Next.js and dnd-kit. · https://github.com/sujjeee/nextjs-dnd `repo`
+- **nextjs-link-pagination** — Pagination using Nextjs Links and search params. · https://shadcn-next-link-pagination.vercel.app `unreadable:no-endpoint`
+- **nextjs-multi-image-upload** — Compact, responsive file uploader with shadcn/ui, React Hook Form, and cloud support (S3/R2). · https://github.com/jacksonkasi0/nextjs-multi-image-upload `repo`
+- **nexus-ui** — Open-source component library of composable, copy-paste primitives for building AI interfaces (ch… · https://nexus-ui.dev `registry:15 llms-full skill`
+- **niko-table** — Composable data table for shadcn/ui built on TanStack Table. Multi-column sort, AND/OR filters, v… · https://niko-table.com `registry:34 llms.txt`
+- **novel** — Notion-style WYSIWYG editor with AI-powered autocompletion. · https://github.com/steven-tey/novel `repo`
+- **obra-shadcn-ui** — This file replicates all 51 shadcn/ui v4 components in a composable way as a reusable Figma libra… · https://www.figma.com/community/file/1514746685758799870/obra-shadcn-ui `unreadable:no-endpoint`
+- **ogimagecn** — Beautiful OG images, made simple. Ready to use, customizable Open Graph image components for React. · https://github.com/shadcn-labs/ogimagecn `registry:22 repo`
+- **otf-ui** — 215+ cross-platform components for Next.js (Radix + Tailwind v4) and Expo (Tamagui) with one shar… · https://otf-kit.dev/components `llms.txt`
+- **password-input** — shadcn/ui custom password input. · https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398 `llms-full`
+- **payload-components** — MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects. · https://www.payload-components.xyz `registry:82 llms-full`
+- **payment-gateways** — Integration of payment gateways with Next.js 14. · https://github.com/PremPrakashCodes/payment-gateways `repo`
+- **pdfx** — shadcn/ui-style PDF component library for React. Copy-paste components built on @react-pdf/render… · https://github.com/akii09/pdfx `repo`
+- **Phoenix LiveView (salad_ui)** — Phoenix LiveView port of shadcn/ui. · https://github.com/bluzky/salad_ui `repo`
+- **phone-input-shadcn-ui** — Custom phone number component with shadcn/ui. · https://www.armand-salle.fr/post/phone-input-shadcn-ui `llms.txt`
+- **pittaya-ui** — A fully open-source UI library for React, powered by TypeScript and Tailwind CSS. Fast, composabl… · https://github.com/pittaya-ui/ui-kit `repo`
+- **planner** — Adaptable scheduling component for React. · https://github.com/UretzkyZvi/planner `repo`
+- **plate** — AI-powered rich-text editor. · https://github.com/udecode/plate `repo`
+- **plate-select-editor** — Rich multi-select editor. · https://platejs.org/docs/multi-select `registry:324 llms-full`
+- **pqoqubbw** — Open-source animated icons collection. · https://icons.pqoqubbw.dev `registry:467 llms-full`
+- **pricing-page-shadcn** — Customizable pricing page with Next.js 14. · https://github.com/m4nute/pricing-page-shadcn `repo`
+- **progress-button** — Extended button component with progress UX. · https://github.com/tomredman/ProgressButton `repo`
+- **re-ui** — Open-source collection of UI components and animated effects built with React, Typescript, Tailwi… · https://reui.io `registry:1728 (some gated) llms-full`
+- **React Aria (jolly-ui)** — shadcn/ui compatible react aria components. · https://github.com/jolbol1/jolly-ui `repo`
+- **React Native (nativecn-ui)** — React Native port of shadcn/ui. · https://github.com/Mobilecn-UI/nativecn-ui `repo`
+- **React Native (react-native-reusables)** — React Native port of shadcn/ui (recommended). · https://github.com/mrzachnugent/react-native-reusables `repo`
+- **React Native (tetra-ui)** — Delightful components for a clean, accessible and modern component library for React Native. · https://github.com/Liamandrew/tetra-ui `repo`
+- **React Vibe** — Animated, Motion-First UI Components for React · https://reactvibe.com `unreadable:no-endpoint`
+- **react-dnd-kit-tailwind-shadcn-ui** — Accessible kanban board with dnd-kit. · https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui `repo`
+- **react-highlight-popover** — Headless component for text selection popovers. · https://react-highlight-popover.omsimos.com `unreadable:no-endpoint`
+- **react-pdf-flipbook-viewer** — PDF flipbook viewer with zoom and fullscreen. · https://github.com/mohitkumawat310/react-pdf-flipbook-viewer `repo`
+- **react-select** — React-select library with shadcn styling. · https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4 `llms-full`
+- **react-wheel-picker** — iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. · https://react-wheel-picker.chanhdai.com `unreadable:no-endpoint`
+- **recursive-dnd-kanban-board** — Recursive drag and drop kanban board. · https://github.com/mehrdadrafiee/recursive-dnd-kanban-board `repo`
+- **remocn.dev** — Make a product demo video with your AI agent · https://remocn.dev `registry:313 llms-full`
+- **retro-ui** — An open source component library, inspred by neo brutalism design system · https://retroui.dev `registry:54 llms.txt`
+- **rivelle-ui** — Rivelle is an open-source UI library for React and Next.js with editable components, interactive… · https://github.com/w3cproject/rivelle-ui `registry:83 repo`
+- **roadmap-ui** — Components for interactive roadmaps. · https://github.com/haydenbleasel/roadmap-ui `repo`
+- **Ruby (shadcn-rails)** — Ruby port of shadcn/ui. · https://github.com/aviflombaum/shadcn-rails `repo`
+- **Rust (ouroboros-ui)** — Native Rust/egui port of the shadcn/ui design language. Token-first, with governance tests that f… · https://github.com/Type-zero-labs/ouroboros-ui `repo`
+- **scificn-ui** — A retro sci-fi UI design system inspired by classic starship consoles and alien computer terminal… · https://github.com/baxy5/scificn-ui `repo`
+- **search-address** — Interactive address search using OpenStreetMap. · https://github.com/UretzkyZvi/search-address `repo`
+- **shadboard** — An admin dashboard template built with Next.js 15, React 19, Tailwind CSS v4, and Shadcn/UI compo… · https://github.com/Qualiora/shadboard `repo`
+- **Shadcn (ui-skills.com)** — shadcn Skill - shadcn-ui / UI Skills · https://ui-skills.com/skills/shadcn-ui/shadcn `llms.txt`
+- **shadcn-address-autocomplete** — Address autocomplete with Google Places API. · https://github.com/NiazMorshed2007/shadcn-address-autocomplete `repo`
+- **shadcn-admin** — Admin Dashboard UI with shadcn/ui and Vite. · https://github.com/satnaing/shadcn-admin `repo`
+- **shadcn-admin-kit** — Powerful open-source shadcn components to build beautiful internal tools, admin panels, and dashb… · https://github.com/marmelab/shadcn-admin-kit `registry:3 repo`
+- **shadcn-blocks** — Official pre-made customizable components. · https://ui.shadcn.com/blocks `registry:63 llms.txt`
+- **shadcn-builder** — Create beautiful, responsive forms with the easy-to-use form builder and generate React code usin… · https://www.shadcn-builder.com `unreadable:no-endpoint`
+- **shadcn-cal** — Cal.com monthly calendar replica with shadcn/ui. · https://shadcn-cal-com.vercel.app/?date=2024-04-29 `unreadable:no-endpoint`
+- **shadcn-calendar-component** — Calendar date picker component. · https://github.com/sersavan/shadcn-calendar-component `repo`
+- **shadcn-calendar-heatmap** — Modern calendar heatmap alternative. · https://shadcn-calendar-heatmap.vercel.app `llms.txt`
+- **shadcn-carousel-testimonials** — Carousel Testimonials component. · https://github.com/johanguse/shadcn-carousel-testimonials `repo`
+- **shadcn-chat** — Customizable chat component. · https://github.com/jakobhoeg/shadcn-chat `repo`
+- **shadcn-chatbot-kit** — Customizable chatbot components. · https://shadcn-chatbot-kit.vercel.app `registry:11`
+- **shadcn-color-picker** — Color picker with react-color. · https://shadcn-color-picker.vercel.app `unreadable:no-endpoint`
+- **shadcn-cookie-consent** — Customizable cookie consent component. · https://github.com/r2hu1/shadcn-cookie-consent `registry:1 repo`
+- **shadcn-country-dropdown** — ISO 3166 country selector dropdown. · https://shadcn-country-dropdown.vercel.app `unreadable:no-endpoint`
+- **shadcn-data-table-advanced-col-opions** — DataTable with column resizing. · https://github.com/danielagg/shadcn-data-table-advanced-col-opions `repo`
+- **shadcn-date-picker** — Advanced date picker with various features. · https://date-picker.luca-felix.com `registry:1`
+- **shadcn-drag-and-drop-sort** — Drag-and-drop sortable list of pills of different widths using dnd-kit. · https://github.com/crystaltai/shadcn-drag-and-drop `repo`
+- **shadcn-drag-table** — Drag-and-drop table component. · https://github.com/zenoncao/shadcn-drag-table `repo`
+- **shadcn-dropzone** — File upload component using React-Dropzone, built with accessibility in mind. · https://github.com/janglad/shadcn-dropzone `repo`
+- **shadcn-editor** — Lexical editor with shadcn theme. · https://github.com/htmujahid/shadcn-editor `registry:1 repo`
+- **shadcn-event-calendar** — A beautiful and flexible event calendar component inspired by Google Calendar and Notion, built w… · https://shadcn-event-calendar.vercel.app `unreadable:no-endpoint`
+- **shadcn-examples** — Dozens of advanced shadcn/ui examples. Easily integrate sample applications and components into y… · https://shadcnexamples.com `registry:70`
+- **shadcn-extends** — Collection of shadcn/ui components. · https://github.com/lucioew28/extends `repo`
+- **shadcn-extension** — Open-source component collection. · https://github.com/BelkacemYerfa/shadcn-extension `repo`
+- **shadcn-fintech** — Premium fintech dashboard with 10 pages — drag-and-drop layout, 3D credit cards, live investment… · https://github.com/abderrahimghazali/shadcn-fintech `repo`
+- **shadcn-font-picker** — Font picker using shadcn/ui components and google font API. · https://shadcn-font-picker.vercel.app `unreadable:no-endpoint`
+- **shadcn-full-calendar** — A feature-rich calendar application built with React, TypeScript, and ShadCN UI components. This… · https://github.com/yassir-jeraidi/full-calendar `registry:6 repo`
+- **shadcn-google-maps** — Google Places address autocomplete for shadcn/ui using AutocompleteSuggestion (Places API New), w… · https://shadcn-google-maps.vercel.app `registry:1 llms.txt`
+- **shadcn-iconpicker** — React/shadcn simple icon picker using lucide icons. · https://icon-picker.alan-courtois.fr `unreadable:no-endpoint`
+- **shadcn-image-cropper** — Image cropper with react-image-crop. · https://github.com/sujjeee/shadcn-image-cropper `repo`
+- **shadcn-io** — Advanced Shadcn/UI components. · https://shadcn.io `registry:7999`
+- **shadcn-linear-combobox** — Linear-style task priority combobox. · https://github.com/damianricobelli/shadcn-linear-combobox `repo`
+- **shadcn-location-picker** — Simple google maps location picker. · https://github.com/brielov/shadcn-location-picker `repo`
+- **shadcn-map** — A map component built for shadcn/ui using Leaflet and React Leaflet. · https://shadcn-map.vercel.app `registry:32`
+- **shadcn-multi-select-component** — Multi-select component. · https://github.com/sersavan/shadcn-multi-select-component `repo`
+- **shadcn-number-scrubber** — Draggable numeric input component. · https://github.com/camwebby/shadcn-react-number-scrubber `repo`
+- **shadcn-packaged** — This is an npm package that exports all shadcn/ui components without the need for a CLI, designed… · https://github.com/anuoua/shadcn-packaged `repo`
+- **shadcn-phone-input** — Phone input with country validation. · https://github.com/omeralpi/shadcn-phone-input `repo`
+- **shadcn-phone-input-2** — Phone input with libphonenumber-js. · https://github.com/damianricobelli/shadcn-phone-input `repo`
+- **shadcn-pricing-page** — Responsive pricing component with toggles. · https://github.com/aymanch-03/shadcn-pricing-page `repo`
+- **shadcn-spinner** — Spinner component. · https://github.com/allipiopereira/shadcn-spinner `repo`
+- **shadcn-stacked-progress-bar** — A composable stacked progress bar for shadcn/ui to display multiple statuses in one track, with o… · https://github.com/JoachimBrasier/shadcn-stacked-progress-bar `registry:1 repo`
+- **shadcn-stepper** — Complete stepper component. · https://github.com/damianricobelli/stepperize `repo`
+- **shadcn-store** — A growing collection of shadcn/ui components, blocks, and templates for building modern web apps… · https://shadcnstore.com `registry:274 llms.txt`
+- **shadcn-storybook-registry** — Registry of stories for the shadcn components. Quickly get the atomic level components documented… · https://registry.lloydrichards.dev `unreadable:no-endpoint`
+- **shadcn-table-maker** — Tool for creating dynamic tables. · https://shadcn-table-maker.vercel.app `unreadable:no-endpoint`
+- **shadcn-table-v2** — Table with server-side features. · https://github.com/sadmann7/shadcn-table `registry:13 repo`
+- **shadcn-tanstack-form** — Seamless shadcn TanStack Form component set. Fully featured with validation support and type-safety. · https://shadcn-tanstack-form.felipestanzani.com `registry:1`
+- **shadcn-timeline** — Customizable timeline component. · https://github.com/timDeHof/shadcn-timeline `repo`
+- **shadcn-tiptap** — Custom Tiptap editor extensions. · https://github.com/NiazMorshed2007/shadcn-tiptap `repo`
+- **shadcn-tree-view** — Hierarchical data component. · https://github.com/mrlightful/shadcn-tree-view `repo`
+- **shadcn-ui-blocks** — Collection of responsive UI blocks. · https://shadcn-ui-blocks.vercel.app `registry:4002 (some gated) llms-full`
+- **shadcn-ui-components** — Every component recreated in Figma. · https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components `unreadable:no-endpoint`
+- **shadcn-ui-expansions** — Additional useful components. · https://github.com/hsuanyi-chou/shadcn-ui-expansions `repo`
+- **shadcn-ui-sidebar** — Retractable responsive sidebar. · https://github.com/salimi-my/shadcn-ui-sidebar `repo`
+- **shadcn-ui-storybook (fellipeutaka)** — All shadcn/ui components registered in the storybook by fellipeutaka. · https://fellipeutaka-ui.vercel.app/?path=/docs/components-accordion--docs `unreadable:no-endpoint`
+- **shadcn-ui-storybook (JheanAntunes)** — All shadcn/ui components registered in the storybook by JheanAntunes. · https://65711ecf32bae758b457ae34-uryqbzvojc.chromatic.com `unreadable:gated`
+- **shadcn-ui-templates** — Free & Premium templates collection. · https://shadcnui-templates.com `unreadable:dead`
+- **shadcncraft** — Ship faster with a production-ready shadcn/ui design system. Get a fully matched Figma UI kit, Re… · https://shadcncraft.com/components?filter=free `registry:268 llms-full`
+- **shadcndashboard** — Build admin panel faster with the open source complete shadcn dashboard kit · https://github.com/shadcndashboard/shadcndashboard `repo`
+- **shadcnship** — Production-ready shadcn/ui component registry for building modern SaaS applications with Next.js,… · https://github.com/arnaudvolp/shadcnship `registry:69 repo`
+- **shieldcn** — Shields.io alternative that renders GitHub badges as shadcn/ui Button components via Satori. Supp… · https://shieldcn.dev `llms-full`
+- **shuip** — Provides ready-to-use, business-focused components that help you ship faster. · https://shuip.plvo.dev/docs `registry:53`
+- **siddz-ui** — A curated collection of modern, reusable React components. Built with performance and accessibili… · https://siddz.com/components `unreadable:no-endpoint`
+- **simple-ai** — Components and blocks to easily build AI apps · https://simple-ai.dev `registry:77`
+- **simple-image-uploader** — Image uploader with dnd, validation and previews · https://simple-image-uploader-bice.vercel.app `unreadable:no-endpoint`
+- **simplekit** — Wallet and account component for Wagmi. · https://github.com/vaunblu/SimpleKit `repo`
+- **snapcn** — Video components that look like software, for Remotion. AI answer streams, terminal sessions, dev… · https://snapcn.dev `registry:59 llms-full`
+- **solanauth** — Solana wallet authentication modal. · https://solanauth.vercel.app `unreadable:no-endpoint`
+- **Solid (shadcn-solid)** — Solid port of shadcn/ui. · https://github.com/hngngn/shadcn-solid `repo`
+- **sortable** — Sortable component with dnd-kit. · https://github.com/sadmann7/sortable `repo`
+- **spectrum-ui** — Collection using Aceternity UI Magic UI. · https://github.com/arihantcodes/spectrum-ui `registry:290 repo`
+- **stateful-button** — A shadcn/ui button component that provides clear visual feedback with full accessibility support… · https://github.com/nanyx95/Stateful-Button-React `registry:1 repo`
+- **stocks** — Stock Picker with Next.js charts. · https://github.com/aryanvichare/stocks `repo`
+- **styleseed** — Design engine with 48 shadcn-style components and swappable brand skins. · https://github.com/bitjaru/styleseed `repo`
+- **supabase-shadcn-database-example** — supabase + shadcn/ui datatable · https://github.com/thisisfel1x/supabase-shadcn-database-example `repo`
+- **supercharged-shadcn-components** — Type-safe form components collection. · https://github.com/slickwit/supercharged-shadcn-components `repo`
+- **sv-agentation.com** — Svelte Agentation · https://sv-agentation.com `llms.txt`
+- **sv-blocks.vercel.app** — Svelte Shadcn Blocks - 150+ UI & Marketing Blocks · https://sv-blocks.vercel.app `registry:98`
+- **sv-efferd.pages.dev** — Svelte Efferd Blocks / Marketing Blocks for Shadcn-Svelte · https://sv-efferd.pages.dev `unreadable:dead`
+- **sv-matrix.vercel.app** — Svelte Dot Matrix Loaders - Free & Open-Source / Loaders · https://sv-matrix.vercel.app `registry:73`
+- **sv-particles.vercel.app** — Svelte QBlocks - Svelte Shadcn Blocks and Components · https://sv-particles.vercel.app `unreadable:no-endpoint`
+- **sv-table.vercel.app** — Svelte Datatables Examples / Svelte Datatables Examples · https://sv-table.vercel.app `registry:17`
+- **Svelte (shadcn-svelte)** — Svelte port of shadcn/ui. · https://github.com/huntabyte/shadcn-svelte `repo`
+- **svelte-image-uploader** — Svelte image uploader with dnd, validation and previews. · https://svelte-image-uploader.vercel.app `unreadable:no-endpoint`
+- **Swift (swiftcn-ui)** — Swift port of shadcn/ui. · https://github.com/Mobilecn-UI/swiftcn-ui `repo`
+- **tanstack-ui-table** — Customizable table with @tanstack/table and shadcn/ui · https://github.com/drefahl/tanstack-ui-table `repo`
+- **termcn** — Beautiful terminal UIs, made simple. Ready to use, customizable terminal UI components for React. · https://termcn.vercel.app `registry:344 llms-full`
+- **teul** — An opinionated grid system for React and Tailwind · https://teul.joohyun.dev `unreadable:no-endpoint`
+- **the-gridcn** — Tron inspired shadcn/ui theme · https://thegridcn.com `registry:144`
+- **time-picker** — Simple TimePicker component. · https://github.com/openstatusHQ/time-picker `repo`
+- **tnks-data-table** — Advanced data table component built with shadcn/ui and TanStack Table featuring server-side opera… · https://github.com/jacksonkasi1/tnks-data-table `registry:2 repo`
+- **tool-ui** — Beautiful, ready-to-use UI components for AI tool calls and MCP UI. · https://www.tool-ui.com `registry:27`
+- **Toolcraft** — Build your own design apps with AI. · https://toolcraft.sh `unreadable:no-endpoint`
+- **Torph** — Torph • Dependency-Free Text Morphing · https://torph.lochie.me `unreadable:no-endpoint`
+- **tour** — A component for building onboarding tours. Designed to integrate with shadcn/ui. · https://onboarding-tour.vercel.app `registry:1`
+- **trable-craft** — Drizzle ORM-powered table engine that auto-generates tables from your schema. Built on TanStack T… · https://github.com/jacksonkasi1/TableCraft `repo`
+- **trees** — @pierre/trees is an open source file tree rendering library. It's built for performance and flexi… · https://trees.software `llms-full`
+- **tremor** — Components for charts and dashboards. · https://github.com/tremorlabs/tremor `repo`
+- **trophy-ui** — Open-source gamification UI components for streaks, achievements, leaderboards, points, and more.… · https://ui.trophy.so `registry:18`
+- **twblocks** — Website blocks based on shadcn & Radix. · https://github.com/tommyjepsen/twblocks `repo`
+- **tweet-to-code** — Twitter design recreations as code. · https://tweet-to-code.vercel.app `unreadable:no-endpoint`
+- **UI by Halaska** — a UI kit for AI products · https://ui.halaska.com `llms.txt`
+- **ui-beats** — Animated React Components collection. · https://uibeats.com `registry:55 llms-full`
+- **ui-flexnative** — A collection of customizable UI blocks with interactive live previews · https://ui.flexnative.com `registry:450`
+- **ui-nference-sh** — a shadcn registry of react ui components for building ai-powered applications, chatbots, and ai a… · https://ui.inference.sh `registry:14`
+- **ui.sh** — ui.sh · https://ui.sh `unreadable:no-endpoint`
+- **uiable** — UIAble is a free, open-source UI system that extends shadcn/ui with a vivid design system, reusab… · https://github.com/codedthemes/uiable `registry:? repo`
+- **UIAble** — Component Library · https://uiable.com `registry:829`
+- **uixmat-onborda** — Product tour for Next.js applications. · https://github.com/uixmat/onborda `repo`
+- **uselayouts** — Free premium animated React components and micro-interactions built with Framer Motion and Tailwi… · https://uselayouts.com `registry:26`
+- **user-tour-kit** — MIT-licensed headless onboarding suite — tours, hints, checklists, microsurveys, and announcement… · https://github.com/domidex01/tour-kit `repo`
+- **vaul** — Drawer component for React. · https://vaul.emilkowal.ski `unreadable:no-endpoint`
+- **vengence-ui** — A modern, animated UI component library designed to help developers build beautiful landing pages… · https://www.vengenceui.com `registry:132`
+- **Vue (shadcn-vue)** — Vue port of shadcn/ui. · https://github.com/radix-vue/shadcn-vue `repo`
+- **vyoma-ui** — Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. · https://vyomaui.design `unreadable:no-endpoint`
+- **w3-kit** — A comprehensive library of accessible React components for building high-quality Web3 application… · https://github.com/w3-kit/ui `registry:29 repo`
+- **warcraftcn** — A set of components inspired by classic Warcraft III RTS UI aesthetics · https://www.warcraftcn.com `registry:16 llms-full`
+- **wds registry** — A collection of components that you can use to build your own component library. · https://wds-shadcn-registry.netlify.app `registry:10`
+- **zepa-ui** — zepa is a growing collection of curated UI components, hero sections, and motion systems for Reac… · https://zepa.design `unreadable:no-endpoint`
+- **zoom-charts** — Zoomable Charts with shadcn/ui. · https://github.com/shelwinsunga/zoom-chart-demo `repo`
+
+## Section galleries & blocks · `sections` (7)
+
+- **Navbar Gallery** — Navigation Design Inspiration · https://navbar.gallery `llms.txt`
+- **CTA.gallery** — The Best Call-to-Action Inspiration for Designers · https://cta.gallery `unreadable:no-endpoint`
+- **BentoGrids** — Bento Grids · https://bentogrids.com `unreadable:no-endpoint`
+- **Footer** — The only footer gallery on earth. · https://footer.design `llms.txt`
+- **Supahero** — Website hero section library · https://supahero.io `unreadable:no-endpoint`
+- **404s** — A Curated Gallery of Creative Error Page Designs · https://404s.design `llms.txt`
+- **Unsection** — Section-First Website Design Inspiration / Unsection · https://unsection.com `unreadable:no-endpoint`
+
+## Inspiration & galleries · `inspiration` (118)
+
+- **Rebrand** — A curated gallery of rebrands and visual identities · https://rebrand.gallery `unreadable:no-endpoint`
+- **Curated** — Web design inspiration from real, live websites — Curated · https://curated.design `unreadable:no-endpoint`
+- **saaspo.com** — Best SaaS Website Designs · https://saaspo.com `unreadable:no-endpoint`
+- **Mobbin** — UI & UX design inspiration for mobile & web apps · https://mobbin.com `llms-full`
+- **landing.love** — Best Landing Page Design Inspiration · https://landing.love `llms.txt`
+- **Recent** — Design Inspiration · https://recent.design `unreadable:no-endpoint`
+- **designspells.com** — Magical micro-interactions & delightful details · https://designspells.com `unreadable:no-endpoint`
+- **Scrolltide** — Cinematic website prompts & templates · https://scrolltide.co `unreadable:no-endpoint`
+- **One Page Love** — One Page Website Inspiration and Templates · https://onepagelove.com `llms.txt`
+- **godly** — Astronomically good web design inspiration. Only the best of the best. · https://godly.website `unreadable:no-endpoint`
+- **Landbook** — website design inspiration gallery · https://land-book.com
+- **Inspora** — Inspora · https://inspora.design `unreadable:no-endpoint`
+- **CollectUI** — Daily Design Inspiration · https://collectui.com `unreadable:no-endpoint`
+- **Dark Themed Web Design Inspiration** — Dark Themed Web Design Inspiration · https://dark.design `unreadable:no-endpoint`
+- **posts.design** — Social post design inspiration — posts.design · https://posts.design `llms.txt`
+- **Awwwards** — Website Awards - Best Web Design Trends · https://awwwards.com `llms.txt`
+- **abtest.design** — Curated collection of A/B test results from best-in-class apps · https://abtest.design `unreadable:no-endpoint`
+- **UI Design Daily** — Open Source UI Resources · https://uidesigndaily.com `unreadable:no-endpoint`
+- **uxsnaps.com** — Breakdowns · https://uxsnaps.com `unreadable:no-endpoint`
+- **Cosmos** — Cosmos · https://cosmos.so `llms.txt`
+- **Visual Journal** — Branding, Editorial and Graphic Design · https://visualjournal.it `unreadable:no-endpoint`
+- **loadmo.re** — Mobile Web Design Archive by Kim Boutin · https://loadmo.re `unreadable:no-endpoint`
+- **pageflows.com** — Dashboard Inspiration · https://pageflows.com `unreadable:no-endpoint`
+- **SaaSFrame** — UX & UI Design Examples Library for SaaS Websites and Interfaces · https://saasframe.io `unreadable:no-endpoint`
+- **siteinspire.com** — Inspirations: , , , , , , , , calltoinspiration, supahero, Awward, Pinterest · https://siteinspire.com `llms-full`
+- **Minimal Gallery** — Website Design Inspiration · https://minimal.gallery `unreadable:no-endpoint`
+- **Abduzeedo Design Inspiration** — Abduzeedo Design Inspiration · https://abduzeedo.com `unreadable:no-endpoint`
+- **Are.na** — Are.na is a platform for connecting ideas and building knowledge. · https://are.na `llms-full`
+- **Curations Supply** — Curated Directory of Curations Supplied by Experts · https://curations.supply `unreadable:no-endpoint`
+- **Deck.gallery** — Beautifully designed decks, curated · https://deck.gallery `llms.txt`
+- **lapa.ninja** — Static Sites - , · https://lapa.ninja `unreadable:no-endpoint`
+- **Logosystem** — Logo Inspiration — 1,300+ Logos & Animated Logos / Logosystem · https://logosystem.co `llms.txt`
+- **OGimage.gallery** — The finest hand-picked OG Images ✨ · https://ogimage.gallery `unreadable:no-endpoint`
+- **Pinterest** — Pinterest · https://pinterest.com `unreadable:no-endpoint`
+- **Great UI** — Craft Premium React Interfaces with Absolute Speed · https://great-ui.com `registry:49`
+- **prettyfolio.com** — Result Toto Macau 2026: Data Macau Pools - Pengeluaran Macau Hari Ini - Angka Keluaran Live Draw… · https://prettyfolio.com `unreadable:no-endpoint`
+- **bpando.org** — BP&O - Branding, Packaging and Opinion · https://bpando.org `llms.txt`
+- **brandarchive.xyz** · https://brandarchive.xyz `unreadable:no-endpoint`
+- **dribbble.com** — 🔹Dribbble UI Space · https://dribbble.com `unreadable:no-endpoint`
+- **Mindsparkle Mag** — Homepage - Mindsparkle Mag / Design Inspiration · https://mindsparklemag.com `unreadable:no-endpoint`
+- **OG Image Gallery (One Page Love)** — One Page Love · https://onepagelove.com/og `llms.txt`
+- **SaaS Landing Page** — The Best Landing Page Examples For Design Inspiration - SaaS Landing Page · https://saaslandingpage.com `unreadable:no-endpoint`
+- **SEESAW ✦ Design Inspiration** — SEESAW ✦ Design Inspiration · https://seesaw.website `unreadable:no-endpoint`
+- **The Brand Identity** — Home of the Greatest in Graphic & Brand Design · https://the-brandidentity.com `unreadable:no-endpoint`
+- **World Brand Design Society** — World Brand Design Society · https://worldbranddesign.com `unreadable:no-endpoint`
+- **brandguidelines.net** — The Brand Styleguide Document Showcase · https://brandguidelines.net `unreadable:no-endpoint`
+- **Gridddy** — Gridddy · https://gridddy.framer.website `unreadable:no-endpoint`
+- **a1.gallery** — Website design inspiration gallery · A1 · https://a1.gallery `llms.txt`
+- **a-fresh** — The Best Website Examples / a-fresh · https://a-fresh.website `unreadable:no-endpoint`
+- **APPSHOT.GALLERY** — App Store Screenshot Inspiration for ASO & Mobile UI · https://appshot.gallery `unreadable:no-endpoint`
+- **Best Designs on X.com** — Best Designs on X.com · https://bestdesignsonx.com `unreadable:no-endpoint`
+- **OGFolio** — Curated Library of Open Graph Images · https://ogfolio.com `unreadable:no-endpoint`
+- **Best Landing Page Inspiration Library** — Best Landing Page Inspiration Library · https://landing.gallery `llms.txt`
+- **Free Faces** — Free Faces · https://freefaces.gallery `unreadable:no-endpoint`
+- **h1gallery.com** — Headlines · https://h1gallery.com `unreadable:no-endpoint`
+- **Landingfolio** — The Best Landing Page Design Inspiration, Templates and More / Landingfolio · https://landingfolio.com `unreadable:no-endpoint`
+- **Sleek** — Design Apps in Minutes · https://sleek.design `llms-full`
+- **Admire The Web** — The very best in web design inspiration · https://admiretheweb.com `unreadable:no-endpoint`
+- **Components (Components)** — Components · https://component.gallery/components `unreadable:no-endpoint`
+- **lookup.design** — ui examples · https://lookup.design `unreadable:no-endpoint`
+- **behance.net** — Creative portfolios and inspiration · https://behance.net `unreadable:no-endpoint`
+- **iOS App Icon Inspiration (Recent)** — Recent · https://recent.design/app-icons `unreadable:no-endpoint`
+- **Pure** — Landing Page Design Inspiration · https://purelanding.page `unreadable:no-endpoint`
+- **red-website-design.co.uk** — How to Design Landing Pages That Capture Attention and Earn Trust · https://red-website-design.co.uk/how-to-design-landing-pages-that-capture-attention-and-earn-trust `unreadable:no-endpoint`
+- **Savee** — Savee · https://savee.com `llms.txt`
+- **The Design MCP Server for AI Agents (Mobbin MCP)** — The Design MCP Server for AI Agents · https://mobbin.com/mcp `llms-full mcp`
+- **Umanmade** — Umanmade · https://umanmade.com `unreadable:no-endpoint`
+- **Varchive** — Varchive · https://varchive.ai `unreadable:no-endpoint`
+- **Webpo** — Website Design Inspiration — 442 Curated Real Sites / Webpo · https://webpo.space `unreadable:no-endpoint`
+- **websitevice.com** — Website Examples for Design Inspiration on Websitevice · https://websitevice.com `unreadable:no-endpoint`
+- **Annual Report Archive** — Annual Report Archive · https://annualreport.gallery `llms.txt`
+- **appshots.design** — Ios/Android/ Web App Inspiration · https://appshots.design `unreadable:no-endpoint`
+- **Best Website Gallery** — by @davidhellmann · https://bestwebsite.gallery `unreadable:no-endpoint`
+- **Brand New (underconsideration.com)** — Brand New · https://underconsideration.com/brandnew `unreadable:no-endpoint`
+- **CallToInspiration** — Small details for very exacting ideas! · https://calltoinspiration.com `unreadable:no-endpoint`
+- **Chamjo** — The ultimate UX inspiration hub for local apps and competitors · https://chamjo.design `unreadable:no-endpoint`
+- **Design Patterns (refactoring.guru)** — Design Patterns · https://refactoring.guru/design-patterns `unreadable:no-endpoint`
+- **designbookmark.com** — DesignBookmark, All-in-one design resources for designers · https://designbookmark.com `llms.txt`
+- **Designspiration** — Design Inspiration / Inspirational Art, Photography & Typography Images · https://designspiration.com `unreadable:no-endpoint`
+- **Fable 5.1 100 HTML Files (miaai-lab.github.io)** — Fable 5.1 · 100 HTML Files · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files `unreadable:no-endpoint`
+- **gallereee.com** — Best Inspirational Portfolio Websites. Handpicked for Creatives. · https://gallereee.com `llms.txt`
+- **Landings** — Landing Page Examples · https://landings.dev `unreadable:no-endpoint`
+- **Mobbin** — UI & UX design inspiration for mobile & web apps · https://mobbin.design `llms-full`
+- **Really Good Emails** — Really Good Emails · https://reallygoodemails.com `llms.txt`
+- **Refactoring and Design Patterns** — Refactoring and Design Patterns · https://refactoring.guru `unreadable:no-endpoint`
+- **Save.design** — Organize your design inspiration · https://save.design `unreadable:no-endpoint`
+- **Ship Studio** — Build it, ship it, host it without leaving the app · https://ship.studio `unreadable:no-endpoint`
+- **Skills de emilkowalski (skillsagentes.com)** — Skills de emilkowalski · https://skillsagentes.com/creators/emilkowalski `llms-full`
+- **Sponsor (Sponsor Recent)** — Sponsor Recent · https://recent.design/sponsor `unreadable:no-endpoint`
+- **008 minimal luxury watch (miaai-lab.github.io)** — Halden — Meridian 38 · Automatic · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/008-minimal-luxury-watch.html `unreadable:no-endpoint`
+- **016 fluid smoke touch (miaai-lab.github.io)** — Ether — Fluid Smoke Canvas · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/016-fluid-smoke-touch.html `unreadable:no-endpoint`
+- **020 glitch art portrait (miaai-lab.github.io)** — Signal Loss — Generative Glitch Portrait · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/020-glitch-art-portrait.html `unreadable:no-endpoint`
+- **027 lava lamp css (miaai-lab.github.io)** — Groovy Glow — Three CSS Lava Lamps · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/027-lava-lamp-css.html `unreadable:no-endpoint`
+- **029 space warp tunnel (miaai-lab.github.io)** — Jumpgate — Hyperspace Warp Tunnel · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/029-space-warp-tunnel.html `unreadable:no-endpoint`
+- **032 synth wave visualizer (miaai-lab.github.io)** — NEON//OSC — Playable Synth · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/032-synth-wave-visualizer.html `unreadable:no-endpoint`
+- **033 double pendulum lab (miaai-lab.github.io)** — Double Pendulum Laboratory — Chaos Instrument No. 7 · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/033-double-pendulum-lab.html `unreadable:no-endpoint`
+- **037 northern lights canvas (miaai-lab.github.io)** — Northern Lights — Lake Inari, 68.9° N · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/037-northern-lights-canvas.html `unreadable:no-endpoint`
+- **039 pixel art studio (miaai-lab.github.io)** — Pixel Art Studio — Sprite Editor · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/039-pixel-art-studio.html `unreadable:no-endpoint`
+- **041 spiral galaxy particles (miaai-lab.github.io)** — NGC 7741 — Spiral Galaxy Particle Observatory · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/041-spiral-galaxy-particles.html `unreadable:no-endpoint`
+- **044 honeycomb hex nav (miaai-lab.github.io)** — Apiary Studio — Honeycomb Navigation · https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/044-honeycomb-hex-nav.html `unreadable:no-endpoint`
+- **andrewsam.xyz** — A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resu… · https://www.andrewsam.xyz `unreadable:no-endpoint`
+- **anishshobithps.com** — Personal portfolio of a software developer, grid-styled design . · https://anishshobithps.com `llms.txt`
+- **birobirobiro.dev** — A personal developer portfolio. · https://birobirobiro.dev `unreadable:no-endpoint`
+- **bucharitesh.in** — A minimal portfolio with awesome craft's registry. · https://bucharitesh.in `registry:26 llms-full`
+- **Built by Designers** — No Explanation Needed · https://builtbydesigners.com `unreadable:no-endpoint`
+- **chanhdai.com** — A minimal portfolio, component registry, and blog. · https://chanhdai.com `registry:67 llms-full`
+- **Colle (awwwards.com)** · https://awwwards.com/awwwards/colle `llms.txt`
+- **devfolios** — Find best portfolio inspiration from all over the internet · https://devfolios-one.vercel.app `unreadable:no-endpoint`
+- **Latest Web Design Inspiration (DesignFuel)** — DesignFuel · https://designfuel.com/websites `unreadable:no-endpoint`
+- **list.swajp.me** — It has never been easier to find the right projects or designs by inspiring successful people. · https://list.swajp.me `unreadable:no-endpoint`
+- **Logobook** — Discover the worlds finest logos, symbols and trademarks · https://logobook.com `unreadable:no-endpoint`
+- **nathans-ai** — An AI Chatbot acting as a portfolio, built with shadcn/ui components. · https://chat.brodin.dev `unreadable:no-endpoint`
+- **openlibrary.org** — Welcome to Open Library / Open Library · https://openlibrary.org `unreadable:no-endpoint`
+- **raindrop.io** — All-in-one bookmark manager · https://raindrop.io `unreadable:no-endpoint`
+- **shubhporwal.me** — An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React. · https://www.shubhporwal.me `unreadable:no-endpoint`
+- **suraj-xd/design-portfolio** — A clean, modern designer portfolio blending minimal aesthetics with functional UI and built-in em… · https://github.com/suraj-xd/design-portfolio `repo`
+- **swajp.me** — A visually appealing portfolio and resource hub. · https://swajp.me `unreadable:no-endpoint`
+- **windows-11-clone** — A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion, feat… · https://win11.oimmi.com `unreadable:no-endpoint`
+
+## Templates & boilerplates · `templates` (83)
+
+- **_cn** — Plug-and-play shadcn/ui registry template, powered by TanStack Start · https://github.com/jakejarvis/_cn `repo`
+- **202505 match my style (youropinion.is)** — Free survey platform which supports importing your exisitng shadcn/ui theme · https://youropinion.is/news/202505-match-my-style `llms.txt`
+- **a11y-starter-kit** — Free WCAG 2.1 AA starter kit with accessible components, custom a11y hooks, and dark mode. Built… · https://github.com/thefrontkit/a11y-starter-kit-code `repo`
+- **agentic-react-nextjs-shadcn** — Agent-testable SaaS starter built with Next.js 16, shadcn/ui, and Tailwind CSS. Includes accessib… · https://github.com/iscale-llc/agentic-react-nextjs-shadcn `repo`
+- **anonypost** — Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack. · https://github.com/avalynndev/anonypost `repo`
+- **astro-erudite** — An opinionated, unstyled static blogging template—built with Astro, Tailwind, and shadcn/ui. · https://github.com/jktrn/astro-erudite `repo`
+- **atomic-crm** — Open-source React CRM built on top of Supabase[Demo site](https://marmelab.com/atomic-crm-demo) · https://marmelab.com/atomic-crm-demo `unreadable:no-endpoint`
+- **auditzap** — AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then… · https://auditzap.io `llms.txt`
+- **autoflow** — An open source GraphRAG (Knowledge Graph) built on top of TiDB Vector, LlamaIndex, and DSPy.[Demo… · https://tidb.ai `unreadable:no-endpoint`
+- **browser-extension-starter-plasmo-shadcn-trpc** — Browser extension starter kit featuring Plasmo, React, Shadcn, and tRPC. · https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc `repo`
+- **chadnext** — Quick Starter Template includes Next.js 14 App Router, shadcn/ui, LuciaAuth, Prisma, Server Actio… · https://github.com/moinulmoin/chadnext `repo`
+- **chatdeck-shadcn-saas-landing-template** — Free Shadcn UI SaaS landing page template built with Next.js and Tailwind CSS. · https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template `repo`
+- **citeme** — AI-powered academic citation generator. Searches 11+ databases and formats in 40+ styles (APA, AB… · https://citeme.app `llms-full`
+- **cloudflare-saas-stack** — An opinionated, batteries-included starter kit for quickly building and deploying SaaS products o… · https://github.com/Dhravya/cloudflare-saas-stack `repo`
+- **create-next-shadcn-kit** — CLI to scaffold a production-ready Next.js app with shadcn/ui, Tailwind CSS, optional state manag… · https://github.com/NikunjSonigara/create-next-shadcn-kit `repo`
+- **create-react-shadcn-kit** — CLI to scaffold a production-ready React (Vite) app with shadcn/ui, Tailwind CSS v4, optional Red… · https://github.com/NikunjSonigara/create-react-shadcn-kit `repo`
+- **create-tauri-core** — A project template for creating a Tauri app with Vite, React, and Tailwind CSS. · https://github.com/mrlightful/create-tauri-core `repo`
+- **create-tauri-ui** — Create modern Tauri desktop apps with shadcn/ui, desktop-first defaults, and optional batteries. · https://github.com/agmmnn/tauri-ui `repo`
+- **Crm (shadcnuikit.com)** — CRM Admin Dashboard Template for Shadcn UI · https://shadcnuikit.com/dashboard/crm `registry:936`
+- **design-system-template** — Turborepo + TailwindCSS + Storybook + shadcn/ui. · https://github.com/arevalolance/design-system-template `repo`
+- **deska-dashboard-template** — A dashboard template built with Nuxt, Tailwind and Shadcn. · https://github.com/yaminncco/deska-dashboard-template `repo`
+- **devstarter** — Devstarter is a bold, one-page developer portfolio template with a distinctive cyberpunk aestheti… · https://github.com/zippystarter/template-devstarter `repo`
+- **easy-ui** — 50+ High Quality Open Source Website Templates built using NextJS + shadcn/ui + Tailwind CSS + Fr… · https://github.com/DarkInventor/easy-ui `repo`
+- **ecommerce-kit** — Next.js starter kit with the tools you need to quickly launch your e-commerce site. · https://ecommercekit.dev `unreadable:no-endpoint`
+- **electron-shadcn** — Electron app template with shadcn/ui and a bunch of other libs and tools ready to use. · https://github.com/LuanRoger/electron-shadcn `repo`
+- **forjnot** — Modern project starter kit: a full-stack template with Next.js and NestJS in a scalable Turborepo… · https://github.com/aman-sharma-dev/forjnot `repo`
+- **full-stack-monorepo-starter** — Full stack monorepo template built using shadcn/ui + Fastify + graphql + vitejs + Docker and more. · https://github.com/mnove/monorepo-starter-graphql `repo`
+- **fumadocs-starter** — A fully-fledged Fumadocs starter template with built-in plugins, AI features, and everything you… · https://github.com/techwithanirudh/fumadocs-starter `repo`
+- **grade-calculator** — A grade calculator/dashboard for students, aiming to provide a better overview of academic perfor… · https://grades.nstr.dev `unreadable:no-endpoint`
+- **horizon-ai-nextjs-shadcn-boilerplate** — Premium AI NextJS & shadcn/ui Boilerplate + Stripe + Supabase + OAuth. · https://horizon-ui.com/boilerplate-shadcn `unreadable:no-endpoint`
+- **infinitunes** — A simple music player web app built using Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM, and more. · https://github.com/rajput-hemant/infinitunes `repo`
+- **kairo-ui** — Free landing page templates for Next.js 16. · https://www.kairoui.online `llms.txt`
+- **kd** — Ad-free Kdrama streaming app. Built with Next.js, Drizzle ORM, NeonDB, and shadcn/ui. · https://github.com/gneiru/kd `repo`
+- **kirimase** — A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, a… · https://kirimase.dev `unreadable:no-endpoint`
+- **login-auth** — A login authentication web app built with Vite + React, Tailwind CSS, and Shadcn UI. It uses Fire… · https://shadcn-login-auth.vercel.app `unreadable:no-endpoint`
+- **magicui-startup-templates** — Magic UI Startup template built using shadcn/ui + TailwindCSS + Framer Motion. · https://magicui.design/docs/templates/startup `registry:250 llms-full`
+- **memergez** — Quickly generate memes by entering text or an avatar URL, with support for many meme commands. · https://github.com/avalynndev/memergez `repo`
+- **multiboard** — Minimal Kanban platform. Built with Better-Auth, Next.js, ZenStack, Prisma, and shadcn/ui. · https://github.com/olliethedev/multiboard `repo`
+- **next-js-boilerplate** — Quickly set up a Next.js project with TypeScript, NextAuth.js, PostgreSQL (Prisma), Sentry, Tailw… · https://next-js-boilerplate-sage-nine.vercel.app `unreadable:no-endpoint`
+- **next-js-views-template** — An open-source collection of reusable view components like Calendar, Table, etc., built with Next… · https://next-js-views-template.vercel.app `unreadable:no-endpoint`
+- **next-shadcn-admin-dashboard** — Modern Admin Dashboard Template built with Shadcn UI and Next.js 15 · https://github.com/arhamkhnz/next-shadcn-admin-dashboard `repo`
+- **next-shadcn-dashboard-starter** — Admin Dashboard Starter with Nextjs 14 and shadcn/ui. · https://github.com/Kiranism/next-shadcn-dashboard-starter `repo`
+- **next-starter** — A Next.js starter template packed with features like TypeScript, TailwindCSS, Next-auth, Eslint,… · https://github.com/Skolaczk/next-starter `repo`
+- **next-wp** — Headless Wordpress Starter built with the NextJS App Router and React Server Components. · https://github.com/9d8dev/next-wp `repo`
+- **Nextjs ecommerce dashboard (shadcnadmin.com)** — Next.js Ecommerce Dashboard Template - Shadcn Admin · https://shadcnadmin.com/nextjs-ecommerce-dashboard `unreadable:no-endpoint`
+- **nextjs-mdx-blog** — Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS. · https://github.com/ChangoMan/nextjs-mdx-blog `repo`
+- **nextMotion** — Webdev portfolio template with Nodemailer integrated for easy contact form setup. Uses shadcn/ui… · https://github.com/yoyocharlie/nextMotion `repo`
+- **onyx** — Full stack, batteries-included MVP Template with NextJS 14, Supabase SSR Auth & Postgres DB with… · https://github.com/rmourey26/onyx `repo`
+- **openhive** — Open-source, self-hosted Slack alternative with channels, DMs, threads, reactions, file uploads,… · https://github.com/arseneHuot/openhive `repo`
+- **openui-shadcn-chat** — Full-stack generative UI chatbot template using OpenUI Lang with shadcn/ui component library, SSE… · https://github.com/thesysdev/openui/tree/main/examples/shadcn-chat `llms-full`
+- **pdfmavericks** — 40+ free browser-based PDF tools (compress, merge, split, sign, watermark, redact, OCR, convert)… · https://pdfmavericks.com `llms.txt`
+- **plotwist** — Easy management and reviews of your movies, series, and animes using Next.js, Tailwind CSS, Supab… · https://plotwist.app/en-US `unreadable:no-endpoint`
+- **react-starter-kit** — An opinionated, full-stack boilerplate for building modern web apps on the edge. Features Bun, Re… · https://github.com/kriasoft/react-starter-kit `repo`
+- **react-vite-starter** — React starter powered with Vite + Redux Toolkit + RTKQuery + React Router + shadcn UI and many more. · https://github.com/tejachundru/react-vite-starter `repo`
+- **s5arc-ecommerce-platform** — S5ARC is an open-source, multi-tenant e-commerce SaaS platform designed to help non-technical fou… · https://github.com/S5SAJID/next-dashcommerce `repo`
+- **saas-blocks-kit** — 10 production-ready SaaS landing page sections built with Next.js 15, shadcn/ui, Tailwind CSS v4… · https://github.com/SekmenAhmet/saas-blocks-kit `repo`
+- **shadcn-admin-template** — A admin dashboard template for Next.js, React, Vite and Vue.js, built with Tailwind CSS. · https://shadcnadmin.com `unreadable:no-endpoint`
+- **shadcn-dashboard-landing-template** — Accelerate your development with a sleek, open-source admin dashboard and landing page built on V… · https://github.com/shadcnstore/shadcn-dashboard-landing-template `repo`
+- **shadcn-landing-page** — Landing page template using shadcn/ui, React, TypeScript, and Tailwind CSS. · https://github.com/leoMirandaa/shadcn-landing-page `repo`
+- **shadcn-landing-page (Vue)** — Project conversion[shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-pag… · https://github.com/leoMirandaa/shadcn-vue-landing-page `repo`
+- **shadcn-next-workflows** — Interactive workflow builder using React Flows, Next.js, and Shadcn/ui. Create, connect, and vali… · https://github.com/nobruf/shadcn-next-workflows `repo`
+- **shadcn-nextjs-dashboard** — Admin Dashboard UI built with Shadcn and NextJS. Free and Open-source. · https://github.com/NaveenDA/shadcn-nextjs-dashboard `repo`
+- **shadcn-nextjs-free-boilerplate** — Free & Open-source NextJS Boilerplate + ChatGPT API Dashboard Template. · https://github.com/horizon-ui/shadcn-nextjs-boilerplate `repo`
+- **shadcn-portfolio** — A portfolio template, which uses shadcn-ui and Next.JS. · https://github.com/techwithanirudh/shadcn-portfolio `repo`
+- **shadcn-registry-template** — Template repository for building a custom component registry for shadcn/ui. · https://github.com/vantezzen/shadcn-registry-template `repo`
+- **shadcn-saas-landing** — A full-fledged SaaS Landing template built using Next.JS, shadcn/ui, and fumadocs. · https://github.com/techwithanirudh/shadcn-saas-landing `repo`
+- **shadcn-ui-dashboard** — Multipurpose and powerful admin dashboard template compatible with shadcn/ui. · https://shadcnuidashboard.com `unreadable:no-endpoint`
+- **startercn** — A shadcn/ui registry template with built-in landing page, docs, AI agent ready, and baked-in web… · https://github.com/shadcn-labs/startercn `registry:1 repo`
+- **startx** — Production-ready Turborepo starter featuring Next.js, React Router, shadcn/ui, Tailwind CSS v4, T… · https://github.com/avinashid/startx `repo`
+- **supa-next-shad-auth** — A fully responsive, fully type-safe, secure server actions, user-friendly customizable UI with be… · https://github.com/Sahil-Sharma-23/supa-next-shad-auth `repo`
+- **sveltekit-shadcn-starter-kit** — Production ready open-source generic app template featuring database abstraction (Drizzle & Postg… · https://ssv5.templates.guylahav.com `unreadable:no-endpoint`
+- **t3-app-template** — Admin template for T3 Stack and shadcn/ui. · https://github.com/gaofubin/t3-app-template `repo`
+- **tailwind-admin** — Open Source Shadcn Dashboard Template Built On React and Tailwind CSS · https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template `repo`
+- **taxonomy** — An open-source application built using the new router, server components, and everything new in N… · https://github.com/shadcn/taxonomy `repo`
+- **template-next** — A clean Next.js template with TypeScript, TailwindCSS, Shadcn/ui, and Prettier. · https://template-next-official.vercel.app `unreadable:no-endpoint`
+- **turborepo-launchpad** — A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalab… · https://github.com/JadRizk/turborepo-launchpad `repo`
+- **turborepo-nextjs-wxt-shadcn-boilerplate** — Turborepo boilerplate featuring web and web-extension apps with shadcn/ui for shared ui component… · https://github.com/Aniket-508/turborepo-nextjs-wxt-shadcn-boilerplate `repo`
+- **turborepo-shadcn-ui-tailwindcss** — Turborepo starter with shadcn/ui & TailwindCSS pre-configured for shared UI components. · https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss `repo`
+- **veritas-kanban** — Self-hosted Kanban board with AI agent integration, time tracking, and 1,255 tests. Built with Re… · https://github.com/BradGroux/veritas-kanban `repo`
+- **waitly** — A simple and useful waitlist Next.js and Shadcn UI template. · https://shadcnuikit.com/template/waitly-free-waitlist-template `registry:936`
+- **wordpress-plugin-boilerplate** — WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScrip… · https://github.com/prappo/wordpress-plugin-boilerplate `repo`
+- **xeramail** — Temporary email address service built with Next.js and shadcn/ui, offering fast inbox access, mod… · https://xeramail.com `unreadable:no-endpoint`
+- **xquik** — All-in-one X automation platform with 40+ tools, REST API, MCP server, and HMAC webhooks. Built w… · https://xquik.com `llms-full`
+
+## Motion & animation · `motion` (54)
+
+- **Jiro** — The Design Prompt Library to Vibe Code Better Websites · https://jiro.build `unreadable:no-endpoint`
+- **MotionSites AI** — Official Premium AI Website Prompts · https://motionsites.ai `llms.txt`
+- **Thinking orbs moved to a new home** — Thinking orbs moved to a new home · https://orbs.jakubantalik.com `unreadable:no-endpoint`
+- **OpenShaders** — Shaders belong on the web · https://openshaders.com `unreadable:no-endpoint`
+- **Anime.js** — JavaScript Animation Engine · https://animejs.com `unreadable:no-endpoint`
+- **ColorHub.app** — Find the perfect color palette for your next project · https://colorhub.app `unreadable:no-endpoint`
+- **Liquid Gooey moved to a new home** — Liquid Gooey moved to a new home · https://gooey.jakubantalik.com `unreadable:no-endpoint`
+- **lottiefiles.com** — Free Lottie animations · https://lottiefiles.com `llms.txt`
+- **Motion (prev Framer Motion)** — JavaScript & React animation library · https://motion.dev `llms.txt`
+- **10 Mobile Apps Animation Examples to Fire Up Your Creativity (svgator.com)** — 10 Mobile Apps Animation Examples to Fire Up Your Creativity · https://svgator.com/blog/ui-animation-mobile-apps-android-ios `unreadable:no-endpoint`
+- **Border beam moved to a new home** — Border beam moved to a new home · https://beam.jakubantalik.com `unreadable:no-endpoint`
+- **ColorFlow** — Advanced Mesh Gradient Generator & Editor · https://colorflow.ls.graphics `unreadable:no-endpoint`
+- **CSS Text Effects** — 90 pure-CSS text animations, free to copy · https://text-effects.colorion.co `unreadable:no-endpoint`
+- **Icon Creator** — Forma — Icon Creator · https://iconcreator.dev `unreadable:no-endpoint`
+- **Iconly Pro** — 40,000+ Flat,Animation,3D Icons · https://iconly.pro `unreadable:no-endpoint`
+- **smooth-ui** — Highly customizable, production-ready UI blocks for building beautiful websites and apps that loo… · https://smoothui.dev `registry:178 llms-full`
+- **The ones who didn't wait (OpenShaders)** — OpenShaders · https://openshaders.com/explore `unreadable:no-endpoint`
+- **animos** — Motion templates for design showcases · https://animos.app `unreadable:no-endpoint`
+- **Annnimate by Good Fella** — GSAP motion for React and Vue · https://annnimate.com `llms-full`
+- **bloub, avatar SVG animé** — bloub, avatar SVG animé · https://bloub.vercel.app `unreadable:no-endpoint`
+- **Lineicons** — Free Line Icons for Designers and Developers - Lineicons · https://lineicons.com `unreadable:no-endpoint`
+- **MicroInteractions UI** — MicroInteractions UI · https://microinteractionsui.com `unreadable:no-endpoint`
+- **Mono charts (Amicro)** — Premium React Micro-transitions & Interaction Components · https://amicro.vercel.app/mono-charts `registry:169`
+- **Pryzm** — Backgrounds nobody else has, in seconds · https://pryzm.design `unreadable:no-endpoint`
+- **Ramps** — Ramps · Color ramps and semantic tokens your agent can read · https://ramps.studio `llms.txt`
+- **Shader Gradient** — Shader Gradient · https://shadergradient.co `unreadable:no-endpoint`
+- **The Internet Designs** — UI Inspiration from X & Pinterest · https://theinternetdesigns.com `unreadable:no-endpoint`
+- **UI Garage Website** — UI Garage Website · https://uigarage.net `unreadable:no-endpoint`
+- **zoxilsi studio** — zoxilsi studio · https://studio.zoxilsi.cc `unreadable:no-endpoint`
+- **Animista** — On-Demand CSS Animations Library · https://animista.net `unreadable:no-endpoint`
+- **before** — curated directory of ASO images · https://before.click `unreadable:no-endpoint`
+- **Dareful** — Royalty Free 4k & HD Stock Video Footage Clips · https://dareful.com `unreadable:no-endpoint`
+- **Design On X Inspiration Gallery** — Northlight - Design On X Inspiration Gallery · https://design-on-x.com `unreadable:no-endpoint`
+- **Hano** — 3D Device Mockup & Animation Studio · https://hano.so `llms.txt`
+- **Liquid Orb Editor (lersent001.github.io)** — Liquid Orb Editor · https://lersent001.github.io/orb `unreadable:no-endpoint`
+- **Paper Shaders** — Ultra-fast zero-dependency shaders · https://shaders.paper.design `llms-full`
+- **Plane** — AI-native project management / Plane · https://plane.so `llms.txt`
+- **Privacy-First Invoice Generator** — Privacy-First Invoice Generator · https://invoicegenerator.io `unreadable:no-endpoint`
+- **Raylight** — Build beautiful product videos in minutes · https://raylight.app `unreadable:no-endpoint`
+- **Simply Buttons** — interactive button specimens · https://simply-buttons.vercel.app `unreadable:no-endpoint`
+- **Storyboards (60fps.design)** — Explore detailed breakdowns of animations and interactions on 60fps · https://60fps.design/storyboards `llms.txt`
+- **TheMicro** — TheMicro · https://the-micro.vercel.app `unreadable:no-endpoint`
+- **Uiinspoo** — Daily Curated UI Design Inspiration · https://uiinspoo.com `llms-full`
+- **usemotion.com** — The AI Powered SuperApp for Work / Motion · https://usemotion.com `llms-full`
+- **userinterface.wiki** — A living manual for better interfaces. Learn design principles, motion, typography, and more. · https://userinterface.wiki `unreadable:no-endpoint`
+- **You Don't Need Animations (emilkowal.ski)** — You Don't Need Animations · https://emilkowal.ski/ui/you-dont-need-animations `unreadable:no-endpoint`
+- **animata** — Hand-crafted ✍️ interaction animations and effects from around the internet 🛜 to copy and paste… · https://animata.design `llms-full`
+- **animate-ui** — A fully animated, open-source React component distribution. Browse a list of animated primitives,… · https://animate-ui.com `registry:580`
+- **Archify (tt-a1i.github.io)** — Technical Diagrams from Plain English · https://tt-a1i.github.io/archify `unreadable:no-endpoint`
+- **motionvariants** — Beautiful Framer Motion Animations. · https://github.com/chrisabdo/motionvariants `repo`
+- **oil-oil/oil-motion** — 设计并实现随滚动、拖动、指针或状态变化响应的网页动画，覆盖素材、时间轴和运行时。 · https://github.com/oil-oil/oil-motion `skill repo`
+- **openclaude** — open-source coding agent CLI for any model · https://openclaude.gitlawb.com `unreadable:no-endpoint`
+- **Prompt Motion** — gallery of motion graphics made with Claude Opus 5.5, each shown next to the prompt or skill that… · https://prompt-motion.com
+- **tailwindcss-motion** — A new simple syntax animation library. Batteries included. Infinitely configurable. · https://rombo.co/tailwind `unreadable:no-endpoint`
+
+## Design rules for AI · `design-rules` (58)
+
+- **Refero Styles** — DESIGN.md Examples for AI Agents / Refero Styles · https://styles.refero.design `unreadable:no-endpoint`
+- **designmd.supply** — Design Resources · https://designmd.supply `unreadable:no-endpoint`
+- **The Agent Skills Directory** — The Agent Skills Directory · https://skills.sh `registry:50 unreadable:no-endpoint`
+- **Aura** — AI Website Builder · https://aura.build `llms.txt`
+- **typeui.sh** — extract straight from a live site · https://typeui.sh `unreadable:no-endpoint`
+- **Refero** — UI/UX Design Inspiration for Your Next Project · https://refero.design `llms.txt`
+- **Neuform** — AI HTML Landing Page Builder and Remix Templates / Neuform · https://neuform.ai `unreadable:no-endpoint`
+- **OpenDesign** — Best Open Source Claude Design Alternative · https://open-design.ai `llms.txt`
+- **DESIGNMD** — DESIGNMD · https://design-md.hyperbrowser.ai `unreadable:no-endpoint`
+- **Design.md Store** — AI-Ready Design System Files · https://designmd-store.com `llms.txt`
+- **shadcn-ui/lint** — An agent-first linter for Tailwind design systems. Write design system rules that agents can verify. · https://github.com/shadcn-ui/lint `repo`
+- **DESIGN.md** — Design Systems for AI Coding · https://designmd.ai `unreadable:no-endpoint`
+- **Material Design** — Material Design · https://m3.material.io `unreadable:no-endpoint`
+- **blader/humanizer (Agent skills)** — Agent skills · https://skills.sh/blader/humanizer `unreadable:no-endpoint`
+- **claude-skills.free** — Claude Skill Library · https://claude-skills.free `unreadable:no-endpoint`
+- **Design System Checklist** — Design System Checklist · https://designsystemchecklist.com `unreadable:no-endpoint`
+- **Free DESIGN.md generator for AI coding agents (Sokosumi)** — Sokosumi · https://sokosumi.com/tools/design-md `llms.txt`
+- **getdesign.md** — DESIGN.md collection for AI coding agents · https://getdesign.md `unreadable:no-endpoint`
+- **hardikpandya/stop-slop (Agent skills)** — Agent skills · https://skills.sh/hardikpandya/stop-slop `registry:50 unreadable:no-endpoint`
+- **MengTo/Skills** — Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents · https://github.com/MengTo/Skills `repo`
+- **AI Interaction Atlas** — Open Source AI UX Reference · https://ai-interaction.com `unreadable:no-endpoint`
+- **ayghri/i-have-adhd (Agent skills)** — Agent skills · https://skills.sh/ayghri/i-have-adhd `registry:50 unreadable:no-endpoint`
+- **cathrynlavery/diagram-design** — 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + · https://github.com/cathrynlavery/diagram-design `repo`
+- **cathrynlavery/diagram-design (Agent skills)** — Agent skills · https://skills.sh/cathrynlavery/diagram-design `unreadable:no-endpoint`
+- **charlie947/answer-first (Agent skills)** — Agent skills · https://skills.sh/charlie947/answer-first `unreadable:no-endpoint`
+- **charlie947/voiceprint (Agent skills)** — Agent skills · https://skills.sh/charlie947/voiceprint `unreadable:no-endpoint`
+- **Design Systems Repo** — Design Systems Repo · https://designsystemsrepo.com `unreadable:no-endpoint`
+- **egonex-ai/understand-anything (Agent skills)** — Agent skills · https://skills.sh/Egonex-AI/Understand-Anything `unreadable:no-endpoint`
+- **Get DESIGN.md (Weekend Tools)** — Weekend Tools · https://weekend.company/get-design-md `unreadable:no-endpoint`
+- **google-labs-code/design.md** — A format specification for describing a visual identity to coding agents. DESIGN.md gives agents… · https://github.com/google-labs-code/design.md `repo`
+- **google-labs-code/design.md (Agent skills)** — Agent skills · https://skills.sh/google-labs-code/design.md `unreadable:no-endpoint`
+- **leonxlnx/taste-skill (Agent skills)** — Agent skills · https://skills.sh/Leonxlnx/taste-skill `unreadable:no-endpoint`
+- **nextlevelbuilder/ui-ux-pro-max-skill (Agent skills)** — Agent skills · https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill `unreadable:no-endpoint`
+- **Niblet Designer UI** — UI references for AI coding agents · https://niblet.com `llms.txt`
+- **nutlope/hallmark (Agent skills)** — Agent skills · https://skills.sh/Nutlope/hallmark `unreadable:no-endpoint`
+- **pbakaus/impeccable (Agent skills)** — Agent skills · https://skills.sh/pbakaus/impeccable `registry:50 unreadable:no-endpoint`
+- **stateofaidesign.com** — AI in Design Report 2026 · https://stateofaidesign.com `unreadable:no-endpoint`
+- **The Shape of AI** — UX Patterns for Artificial Intelligence Design · https://shapeof.ai `unreadable:no-endpoint`
+- **tt-a1i/archify (Agent skills)** — Agent skills · https://skills.sh/tt-a1i/archify `unreadable:no-endpoint`
+- **vercel-react-best-practices (vercel-labs/agent-skills)** — vercel-labs/agent-skills · https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices `unreadable:no-endpoint`
+- **zarazhangrui/frontend-slides (Agent skills)** — Agent skills · https://skills.sh/zarazhangrui/frontend-slides `unreadable:no-endpoint`
+- **bergside/design-md-chrome** — Chrome extension to extract styles from any website and generate DESIGN.md files and design skill… · https://github.com/bergside/design-md-chrome `repo`
+- **design.md** — changed how I design with AI.( You can also use Claude ) Most AI UI still looks generic. Not beca… · https://design.md `unreadable:dead`
+- **emil-design-eng (emilkowalski/skills)** — emilkowalski/skills · https://skills.sh/emilkowalski/skills/emil-design-eng `unreadable:no-endpoint`
+- **emilkowalski/skills** — Skills for Designers and Engineers. · https://github.com/emilkowalski/skills `repo`
+- **frontend-design (anthropics/skills)** — anthropics/skills · https://skills.sh/anthropics/skills/frontend-design `registry:50 unreadable:no-endpoint`
+- **html2pptx.app** — HTMLからPowerPointへ変換 / PPTX API・MCP / html2pptx.app · https://html2pptx.app `llms-full skill`
+- **nextlevelbuilder/ui-ux-pro-max-skill** — An AI skill that provides design intelligence for building professional UI/UX ac… · https://github.com/nextlevelbuilder/ui-ux-pro-max-skill `repo`
+- **supabase-postgres-best-practices (supabase/agent-skills)** — supabase/agent-skills · https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices `registry:50 unreadable:no-endpoint`
+- **VoltAgent/awesome-claude-design** — Awesome Claude Design: 68 ready-to-use design system inspirations in DESIGN.md format. Drop one i… · https://github.com/VoltAgent/awesome-claude-design `repo`
+- **VoltAgent/awesome-design-md** — A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your proj… · https://github.com/VoltAgent/awesome-design-md `repo`
+- **web-design-guidelines (vercel-labs/agent-skills)** — vercel-labs/agent-skills · https://skills.sh/vercel-labs/agent-skills/web-design-guidelines `registry:50 unreadable:no-endpoint`
+- **elayadesign/ai-design-skills** — elayadesign/ai-design-skills · https://github.com/elayadesign/ai-design-skills `repo`
+- **Leonxlnx/taste-skill** — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop · https://github.com/Leonxlnx/taste-skill `repo`
+- **miqdadbadjuber/anti-slop** — Rules for an AI coding agent to filter out generic AI-generated UI designs, · https://github.com/miqdadbadjuber/anti-slop `repo`
+- **Nutlope/hallmark** — Anti-AI-slop design skill for Claude Code, Cursor, and Codex. · https://github.com/Nutlope/hallmark `repo`
+- **s0xDk/refactoring-ui-skill** — A Claude Code skill that applies the concrete design rules from the book · https://github.com/s0xDk/refactoring-ui-skill `skill repo`
+- **uirules.com** — Brand Guidelines for AI Tools · https://uirules.com `llms.txt`
+
+## Fonts & typography · `fonts` (24)
+
+- **fonts.google.com** — Miles de tipografías gratuitas para cualquier proyecto · https://fonts.google.com `unreadable:no-endpoint`
+- **fontshare.com** — ✦ -> for premium typography · https://fontshare.com `unreadable:no-endpoint`
+- **uncut.wtf** — Welcome to UNCUT.wtf · https://uncut.wtf `unreadable:no-endpoint`
+- **Fontpair** — Free Google Font Combinations & Generator · https://fontpair.co `unreadable:no-endpoint`
+- **Fontjoy** — Generate font pairings in one click · https://fontjoy.com `unreadable:no-endpoint`
+- **Font Squirrel** — Free Fonts! Legit Free & Quality / Font Squirrel · https://fontsquirrel.com `unreadable:no-endpoint`
+- **Fonts In Use** — Fonts In Use · https://fontsinuse.com `unreadable:no-endpoint`
+- **Logggos** — Well-Designed Logos for Your Inspiration · https://logggos.club `unreadable:no-endpoint`
+- **Material Symbols and Icons (Google Fonts)** — Google Fonts · https://fonts.google.com/icons `unreadable:no-endpoint`
+- **Typescale** — Create stunning typography, generate CSS, and find inspiration. · https://type-scale.com `unreadable:no-endpoint`
+- **Typewolf** — What’s Trending in Type · Typewolf · https://typewolf.com `unreadable:no-endpoint`
+- **whatfontis.com** — Font Finder by WhatFontIs 🔎 Identify fonts by image · https://whatfontis.com `unreadable:no-endpoint`
+- **Manrope (Google Fonts)** — Google Fonts · https://fonts.google.com/specimen/Manrope `unreadable:no-endpoint`
+- **bestfreefonts.com** — Curated Fonts for Designers · https://bestfreefonts.com `unreadable:no-endpoint`
+- **collletttivo.it** — Collletttivo · Collletttivo · https://collletttivo.it `unreadable:no-endpoint`
+- **fontain.org** — fontain = a font-collection (and a font-collection-system) · https://fontain.org `unreadable:no-endpoint`
+- **indestructibletype.com** · https://indestructibletype.com `unreadable:no-endpoint`
+- **open-foundry.com** — Curated Fonts for Free · https://open-foundry.com `unreadable:no-endpoint`
+- **supafonts.com** — Library of fonts & font generators · https://supafonts.com `unreadable:no-endpoint`
+- **theleagueofmoveabletype.com** — The League of Moveable Type · https://theleagueofmoveabletype.com `unreadable:no-endpoint`
+- **tunera.xyz** · https://tunera.xyz `unreadable:dead`
+- **Typehug** — Typehug · Keep words together · https://typehug.aliszu.com `unreadable:no-endpoint`
+- **usemodify.com** — Home - Use & Modify · https://usemodify.com `unreadable:no-endpoint`
+- **velvetyne.fr** — Home - Velvetyne · https://velvetyne.fr `unreadable:no-endpoint`
+
+## Icons · `icons` (35)
+
+- **Hugeicons** — 60,000+ Free & Pro Icons for Designers & Developers · https://hugeicons.com `unreadable:no-endpoint`
+- **flaticon.com** — 10M+ free icons · https://flaticon.com `unreadable:no-endpoint`
+- **morphicons** — SVG icon morphing library for React, Vue & Svelte · https://morphicons.com `llms-full`
+- **Lucide Icons** — Lucide Icons · https://lucide.dev `llms-full`
+- **icoon.co** — Icon and design assets · https://icoon.co `unreadable:no-endpoint`
+- **Isocons** — Isocons · https://isocons.app `unreadable:no-endpoint`
+- **Nucleo** — The Ultimate Icon Bundle · https://nucleoapp.com `unreadable:no-endpoint`
+- **Iconsax** — Iconsax · https://iconsax.io `unreadable:no-endpoint`
+- **Heroicons** — Heroicons · https://heroicons.com `unreadable:no-endpoint`
+- **Icons8** — Icons, Illustrations and 3D for Designers and AI Agents · https://icons8.com `unreadable:no-endpoint`
+- **Remix Icon** — Open source icon library · https://remixicon.com `unreadable:no-endpoint`
+- **lucide-animated** — lucide-animated · https://lucide-animated.com `registry:467 llms-full`
+- **mingcute.com** — MingCute Icon _ Carefully Designed Icon Library · https://mingcute.com `unreadable:no-endpoint`
+- **Phosphor Icons** — Phosphor Icons · https://phosphoricons.com `unreadable:no-endpoint`
+- **Richard9394/MingCute** — Carefully designed icons for modern interfaces. MingCute is a simple, elegant open-source icon li… · https://github.com/Richard9394/MingCute `repo`
+- **3dicons.co** — Beautifully Crafted Open Source & Free Premium 3D Icons · https://3dicons.co `unreadable:no-endpoint`
+- **Book of Shapes** — Book of Shapes · https://bookofshapes.com `unreadable:no-endpoint`
+- **Iconify Design** — All popular icon sets, one framework. · https://iconify.design `unreadable:no-endpoint`
+- **Iconly Pro** — The Last Icon Pack Solution You Will Need · https://web.iconly.pro `unreadable:no-endpoint`
+- **Iconoir** — Free Icons · https://iconoir.com `unreadable:no-endpoint`
+- **Icons (moving icons)** — moving icons · https://movingicons.dev/icons `registry:555`
+- **Mocku** — Mockup Generator / Device, Book, Magazine, Apparel & Packaging Mockups · https://mocku.co `unreadable:no-endpoint`
+- **Rune Icons** — open-source icons in five styles · https://runeicons.com `llms.txt`
+- **Tablericons** — Free SVG Icons · https://tablericons.com `unreadable:no-endpoint`
+- **Bootstrap Icons** — Bootstrap Icons · https://icons.getbootstrap.com `unreadable:no-endpoint`
+- **designeng.tools** — Design Engineering Resources, Tools & Inspiration · https://designeng.tools `unreadable:no-endpoint`
+- **Feather** — Simply beautiful open source icons · https://feathericons.com `unreadable:no-endpoint`
+- **lucide-icons/lucide** — Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feat… · https://github.com/lucide-icons/lucide `repo`
+- **Reicon** — Open-Source Icon Library for Designers & Developers · https://reicon.dev `llms-full`
+- **Slim icons** — Free and open source icon library · https://slimicons.com `unreadable:no-endpoint`
+- **Vorssaint** — The modular Swiss Army knife for macOS · https://vorssaint.com `llms.txt`
+- **coreui/coreui-icons** — CoreUI Free Icons - Premium designed free icon set with marks in SVG, Webfont and raster formats · https://github.com/coreui/coreui-icons `repo`
+- **familyjs/famicons** — Premium hand-crafted icons built by Family, for Family apps and web apps everywhere · https://github.com/familyjs/famicons `repo unreadable:repo-gone`
+- **react-icons/react-icons** — svg react icons of popular icon packs · https://github.com/react-icons/react-icons `repo`
+- **stash-ui/icons** — A gorgeous set of 24x24 icons. Designed by the @getpingback team. · https://github.com/stash-ui/icons `repo unreadable:repo-gone`
+
+## Color & effects · `color-effects` (47)
+
+- **Coolors** — The super fast color palettes generator! · https://coolors.co `unreadable:no-endpoint`
+- **Kling AI** — Next-Gen AI Video & Image Generator · https://klingai.com `llms.txt`
+- **grainient.supply** — Unlimited Gradients, Animated Gradients and AI-Generated Backgrounds · https://grainient.supply `unreadable:no-endpoint`
+- **Color Hunt** — Color Palettes for Designers and Artists · https://colorhunt.co `unreadable:no-endpoint`
+- **animatedbuttons.colorion.co** — CSS Button Library — 99 pure-CSS hover effects, free to copy · https://animatedbuttons.colorion.co `unreadable:no-endpoint`
+- **Realtime Colors** — Realtime Colors · https://realtimecolors.com `unreadable:no-endpoint`
+- **UiLand** — Discover the Best Mobile and Web Design Inspiration / UiLand · https://uiland.design
+- **Backgrounds Supply** — Jaw-Dropping Backgrounds for Your Projects · https://backgrounds.supply `llms.txt`
+- **colorion** — Curated Color Palettes · https://colorion.co `unreadable:no-endpoint`
+- **CSS Gradient** — Generator, Maker, and Background · https://cssgradient.io `unreadable:no-endpoint`
+- **Logoinspo** — Logo Inspiration — 1,200+ Curated Logos / Logoinspo · https://logoinspo.com `llms.txt`
+- **mycolor.space** — ColorSpace - Color Palettes Generator and Color Gradient Tool · https://mycolor.space `unreadable:no-endpoint`
+- **99 pure-CSS loaders, free to copy** — CSS Loader Library — 99 pure-CSS loaders, free to copy · https://cssloaders.colorion.co `unreadable:no-endpoint`
+- **Blobmaker** — Make organic SVG shapes for your next design · https://blobmaker.app `unreadable:dead`
+- **Color Generator (Kigen)** — Kigen · https://kigen.design/color `unreadable:no-endpoint`
+- **GRADIENTOOL** — GRADIENTOOL · https://gradientool.com `unreadable:no-endpoint`
+- **Haikei** — Generate unique SVG design assets / Haikei · https://haikei.app `unreadable:no-endpoint`
+- **Khroma** — The AI color tool for designers · https://khroma.co `unreadable:no-endpoint`
+- **tweakcn** — powerful theme editor for shadcn/ui components, offering beautifully designed themes and seamless… · https://tweakcn.com `registry:36`
+- **uicolors.app** — Tailwind CSS Colors - All colors + Custom color generator · https://uicolors.app `unreadable:no-endpoint`
+- **404.colorion.co** — A library of ready-to-copy 404 page animations built with pure CSS. Click any animation to grab i… · https://404.colorion.co `unreadable:no-endpoint`
+- **Awesome CSS3 Background Gradients** — Awesome CSS3 Background Gradients · https://gradients.colorion.co `unreadable:no-endpoint`
+- **Color Picker Tool** — WebFX · https://colorpicker.com `unreadable:no-endpoint`
+- **colorhexa.com** — 🎯ColorHexa · https://colorhexa.com `unreadable:bot-walled`
+- **Colormind** — the AI powered color palette generator · https://colormind.io `unreadable:no-endpoint`
+- **CSS Cursors** — 39 custom cursor effects, free to copy · https://csscursors.colorion.co `unreadable:no-endpoint`
+- **Freebies (Grainient)** — Freebies · https://grainient.supply/freebies `unreadable:no-endpoint`
+- **Frontend Mentor** — Front-end coding challenges using a real-life workflow / Frontend Mentor · https://frontendmentor.io `unreadable:no-endpoint`
+- **grabient.com** · https://grabient.com `llms.txt`
+- **Happy Hues** — Curated colors in context. · https://happyhues.co `unreadable:no-endpoint`
+- **Paletton** — The Color Scheme Designer · https://paletton.com `unreadable:no-endpoint`
+- **scrnshts.club** — App Store Screenshots / ScreensDesign · https://scrnshts.club `unreadable:no-endpoint`
+- **sectionmaster** — Website Section Design Inspiration · https://sectionmaster.com `llms.txt`
+- **Supa Palette** — The ultimate color palette generator for Figma! · https://supa-palette.com `unreadable:no-endpoint`
+- **Three.js Components, Templates & Interactive Shaders (ThreeUI)** — ThreeUI · https://threeui.com/browse `unreadable:no-endpoint`
+- **10000+Themes for shadcn/ui** — 10000+ Themes for shadcn/ui. · https://ui.jln.dev `unreadable:no-endpoint`
+- **dizzy** — Bootstrap a new Next or Vite project with shadcn/ui. Customize font, icons, colors, spacing, radi… · https://dizzy.systems `unreadable:no-endpoint`
+- **ewgenius/ui** — Create custom themes for shadcn/ui effortlessly using vibrant palettes from Radix Colors. · https://ui.ewgenius.me/shadcn-radix-colors `unreadable:no-endpoint`
+- **gradient-picker** — Fancy Gradient Picker built with shadcn/ui, Radix UI, and Tailwind CSS. · https://github.com/Illyism/gradient-picker `repo`
+- **navnote/rangeen** — Tool that helps you to create a colour palette for your website. · https://github.com/navnote/rangeen `repo`
+- **ray.so** — Create beautiful images of your code · https://ray.so `unreadable:no-endpoint`
+- **shadcn theme editor** — Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and… · https://github.com/programming-with-ia/shadcn-theme-editor `repo`
+- **shadcn-ui-customizer** — POC - shadcn/ui themes with color pickers. · https://github.com/Railly/shadcn-ui-customizer `repo`
+- **shadesigner.com** — A shadcn/ui Palette Generator & Theme Designer with a beautiful interface. · https://shadesigner.com `unreadable:no-endpoint`
+- **smui** — Nord-inspired terminal theme for shadcn/ui with monospace typography, zero border radius, and fro… · https://smui.statico.io `registry:1`
+- **ui.gradients.com** · https://ui.gradients.com `unreadable:dead`
+- **zippy starter's shadcn/ui theme generator** — Easily create custom themes from a single colour that you can copy and paste into your apps. · https://zippystarter.com/tools/shadcn-ui-theme-generator `registry:77`
+
+## Layout, grid & bento · `layout` (1)
+
+- **UI Layouts Pro** — Premium React + Tailwind Blocks & Templates · https://pro.ui-layouts.com `unreadable:no-endpoint`
+
+## Stock images, illustrations & mockups · `media` (11)
+
+- **unsplash.com** — Fotos profesionales gratis sin derechos de autor · https://unsplash.com `unreadable:gated`
+- **pexels.com** — free videos & photos · https://pexels.com `unreadable:no-endpoint`
+- **unDraw** — Open source illustrations for any idea · https://undraw.co `unreadable:no-endpoint`
+- **Photoroom** — Remove Background and Create Product Pictures / Photoroom · https://photoroom.com `llms.txt`
+- **Blush** — Illustrations for everyone · https://blush.design `unreadable:no-endpoint`
+- **Humaaans** — Mix-&-Match illustration library · https://humaaans.com `unreadable:no-endpoint`
+- **Lummi** — Free AI Stock Images, Illustrations & 3D · https://lummi.ai `llms.txt`
+- **Mockuuups** — Free Mockup Generator — 5,200+ Mockups / Mockuuups · https://mockuuups.studio `unreadable:no-endpoint`
+- **Craftwork** — UX/UI kits, illustrations, mockups, fonts and more · https://craftwork.design `unreadable:no-endpoint`
+- **Storyset** — Customize, animate and download illustration for free · https://storyset.com `unreadable:no-endpoint`
+- **Unblast** — Unblast · https://unblast.com `unreadable:no-endpoint`
+
+## Design tools & plugins · `design-tools` (68)
+
+- **Canva** — Canva · https://canva.com `unreadable:no-endpoint`
+- **figmify.ai** — Deployment Paused · https://figmify.ai `unreadable:no-endpoint`
+- **v0** — Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generatio… · https://v0.dev `unreadable:no-endpoint`
+- **Figma** — The collaborative canvas for design, code, and AI · https://figma.com `unreadable:no-endpoint`
+- **Framer** — AI design agent · https://framer.com `llms.txt`
+- **Community (figma.com)** — Explore, install and use thousands of templates, plugins, and widgets published to the Figma Comm… · https://figma.com/community `unreadable:no-endpoint`
+- **Chatbuddy (Free Website Template for Framer)** — Free Website Template for Framer · https://framer.com/marketplace/templates/chatbuddy `llms.txt`
+- **Guide reduce bundle size (Framer)** — AI web design tool for responsive websites · https://framer.com/api/motion/guide-reduce-bundle-size `llms.txt`
+- **RealEstate icon (Vector Set for Framer)** — Vector Set for Framer · https://framer.com/marketplace/vectors/realestate-icon `llms.txt`
+- **shoogle** — A shadcn search engine · https://shoogle.dev `registry:0 unreadable:no-endpoint`
+- **5devs** — A website to get fake Brazilian data for testing purposes. · https://www.5devs.com.br `unreadable:no-endpoint`
+- **bento-hub** — BentoHub is an application where you can create a bento grid for your GitHub profile readme. · https://github.com/amittam104/BentoHub `repo`
+- **chat-with-youtube** — A chrome extension is designed to give you the ability to efficiently summarize videos, easily se… · https://chat-with-youtube.vercel.app `unreadable:no-endpoint`
+- **cheatsheet** — A comprehensive, interactive reference for shadcn/ui components with live previews, code examples… · https://shadcnstore.com/cheatsheet `registry:274 llms.txt`
+- **country-data-in-charts** — Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population… · https://globe-graph.vercel.app `unreadable:no-endpoint`
+- **cut-it** — Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled wit… · https://github.com/mehrabmp/cut-it `repo`
+- **cv-forge** — Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. · https://cvforge.app `unreadable:no-endpoint`
+- **designgui** — A Chrome Browser Extension for managing colors in CSS Variables. · https://www.designgui.io `unreadable:no-endpoint`
+- **dialectcn** — A living catalog of shadcn presets — brand-inspired, community-submitted, and occasionally random… · https://dialectcn.xyz `unreadable:no-endpoint`
+- **focus-brew** — A free productivity toolkit that combines essential tools to help you stay focused, organized, an… · https://focusbrew.vercel.app `unreadable:no-endpoint`
+- **form-builder** — UI-based codegen tool to easily create beautiful and type-safe @shadcn/ui forms. · https://github.com/AlandSleman/FormBuilder `repo`
+- **form-builder-fast** — Shadcn Form Builder - Build forms in minutes for free. · https://ui.indie-starter.dev/form-builder `unreadable:no-endpoint`
+- **graphitup** — Create free downloadable Shadcn-themed chart images. Supports PNG, JPEG, WEBP, and even WEBM vide… · https://graphitup.com/tools `llms.txt`
+- **hook-again** — A collection of shadcn/ui installable React Hooks. · https://github.com/ilyichv/hookagain `repo`
+- **Img2m3** — A developer tool that automates the process of creating cohesive, accessible design systems. It b… · https://img2m3.vercel.app/studio `unreadable:no-endpoint`
+- **imgsrc** — Generate beautiful Open Graph images with zero effort. · https://imgsrc.io `unreadable:no-endpoint`
+- **imprompt** — A Chrome extension that enhances prompts on AI websites directly, making your AI prompts more eff… · https://github.com/avalynndev/imprompt `repo`
+- **invoify** — An invoice generator app built using Next.js, TypeScript, and shadcn/ui. · https://github.com/aliabb01/invoify `repo`
+- **jobsync** — JobSync is a job seekers' assistant to manage job search efficiently. · https://github.com/Gsync/jobsync `repo`
+- **keygen** — KeyGen is a client-side utility suite that generates secure passwords, API keys, and framework-sp… · https://keygen-omega.vercel.app `unreadable:no-endpoint`
+- **keyzen** — a clean, browser-based typing speed test built for practice and fun. It is open source and free t… · https://keyzen.theshiva.xyz `unreadable:no-endpoint`
+- **memfree** — Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks,… · https://github.com/memfreeme/memfree `repo`
+- **memi** — Agent design CI for shadcn/ui and Tailwind: focused Agent Skills, UI audits, token extraction, co… · https://github.com/sarveshsea/memi `repo`
+- **mix-cn** — Fully functional dj console app built using shadcn · https://github.com/melromyeah/MixCN `repo`
+- **open-ui** — The Open Standard for Generative UI · https://www.openui.com `llms-full`
+- **opensearch-ai** — SearchGPT/Perplexity clone but personalized for you. · https://github.com/supermemoryai/opensearch-ai `repo`
+- **pagegen.ai** — An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screensh… · https://pagegen.ai `unreadable:no-endpoint`
+- **pastecode** — Pastebin alternative built with TypeScript, Next.js, Drizzle, shadcn/ui, and RSC. · https://github.com/Quorin/PasteCode.app `repo`
+- **pictera** — Generate Open Graph images without design skills. · https://pictera.co `unreadable:no-endpoint`
+- **proxmox-helper-scripts** — A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled wi… · https://github.com/BramSuurdje/proxmox-helper-scripts `repo`
+- **quack-db** — Open-source in-browser DuckDB SQL editor. · https://github.com/mattf96s/QuackDB `repo`
+- **raycast-shadcn** — Raycast extension to Browse shadcn/ui documentation, components, and examples. · https://www.raycast.com/luisFilipePT/shadcn-ui `unreadable:no-endpoint`
+- **shadcn-easy-install** — Install all shadcn components easily. One-click to install all selected components. · https://shadcn-easy-install.vercel.app `unreadable:no-endpoint`
+- **shadcn-hooks** — A comprehensive React Hooks Collection built with Shadcn. · https://shadcn-hooks.com `registry:58 llms-full`
+- **shadcn-hsl-preview** — shadcn HSL Preview extension for Visual Studio Code. · https://marketplace.visualstudio.com/items?itemName=dexxiez.shadcn-color-preview `unreadable:no-endpoint`
+- **shadcn-play** — A playground for building and previewing shadcn/ui components with a live editor. · https://github.com/ephraimduncan/shadcn-play `repo`
+- **shadcn-pricing-page-generator** — The easiest way to get a React pricing page with shadcn/ui, Radix UI, and/or Tailwind CSS. · https://shipixen.com/shadcn-pricing-page `llms.txt`
+- **shadcn-theme-editor** — Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and… · https://shadcnthemeeditor.vercel.app `unreadable:no-endpoint`
+- **shadcn-ui** — Add components from shadcn/ui directly from VS Code. · https://marketplace.visualstudio.com/items?itemName=SuhelMakkad.shadcn-ui `unreadable:no-endpoint`
+- **shadcn-zod-form** — CLI tool to generate shadcn/ui forms from Zod schemas. · https://github.com/ilyichv/shadcn-zod-form `repo`
+- **shadcn/ui Components Manager** — A plugin for Jetbrain products. It allows you to manage your shadcn/ui components across Svelte,… · https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager `unreadable:no-endpoint`
+- **shadcnpreset** — Find the perfect shadcn preset in seconds. Open source and Free. · https://shadcnpreset.com `unreadable:no-endpoint`
+- **shadscan** — Deterministic UI audits for shadcn apps, built for your terminal, your CI, and your AI agent. Sco… · https://shadscan.com `unreadable:no-endpoint`
+- **sharable-form-builder** — A sharable form builder for creating forms and sharing your form link, based on shadcn/ui and Nex… · https://github.com/ayoubben18/sharable-form-builder `repo`
+- **slidytabs** — A tool that adds a sliding indicator animation to shadcn `<Tabs />` without changing how you use… · https://slidytabs.dev `unreadable:no-endpoint`
+- **someday** — Free to host and open-source Cal.com/Calendly alternative built on Google Apps Script for Gmail u… · https://github.com/rbbydotdev/someday `repo`
+- **sweep** — Sweep is a modern, open-source gradient generator built for designers and developers. Create beau… · https://github.com/Johuniq/sweep `repo`
+- **tancn** — Build powerful forms and tables with ease using TanStack technologies · https://tancn.dev `unreadable:no-endpoint`
+- **tinte** — An opinionated VS Code Theme Generator 🎨. · https://tinte.railly.dev `unreadable:no-endpoint`
+- **translate-app** — Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI SDK/OpenAI, and Zod. · https://github.com/developaul/translate-app `repo`
+- **typelabs** — MonkeyType-inspired typing test app built with React, shadcn, and Zustand at its core. · https://github.com/imsandeshpandey/typelabs `repo`
+- **ui-builder** — A React component editor that provides a no-code, visual way to create UIs, fully compatible with… · https://github.com/olliethedev/ui-builder `repo`
+- **ui-fonts** — Test and preview fonts in real-time for all your design needs. Choose the perfect typeface with e… · https://www.uifonts.app `unreadable:no-endpoint`
+- **vercel-status-tracker** — Track the status of all of your projects deployed via Vercel. Built with shadcn/ui and TailwindCSS. · https://vercel-status-tracker.vercel.app `unreadable:no-endpoint`
+- **vscode-shadcn-svelte** — VS Code extension for shadcn/ui components in Svelte projects. · https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-svelte&ssr=false `unreadable:no-endpoint`
+- **vscode-shadcn-ui-snippets** — Easily import and use shadcn-ui components with ease using snippets within VSCode. Just type cn o… · https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets `unreadable:no-endpoint`
+- **vscode-shadcn-vue** — Extension for integrating shadcn/ui components into Vue.js projects. · https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue `unreadable:no-endpoint`
+- **wallhaven-desktop** — Wallhaven Wallpaper software desktop. Create a Wallhaven API-based client, a true wallpaper softw… · https://github.com/ErKeLost/wallhaven-desktop `repo`
+
+## Reading & learning · `learning` (55)
+
+- **UI Playbook** — UI Playbook · https://uiplaybook.dev `unreadable:no-endpoint`
+- **Design Patterns Catalogue** — IF · https://catalogue.projectsbyif.com `unreadable:no-endpoint`
+- **Claude Design (ruben.substack.com)** — Claude Design. · https://ruben.substack.com/p/claude-design `unreadable:no-endpoint`
+- **Claude Skills (ruben.substack.com)** — Claude Skills. · https://ruben.substack.com/p/claude-skills `unreadable:no-endpoint`
+- **being good at ai is (stupidly) simple (ruben.substack.com)** — being good at ai is (stupidly) simple · https://ruben.substack.com/p/s `unreadable:no-endpoint`
+- **Claude cowork (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/claude-cowork `unreadable:no-endpoint`
+- **Claude for dummies (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/claude-for-dummies `unreadable:no-endpoint`
+- **Claude for teams (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/claude-for-teams `unreadable:no-endpoint`
+- **How to stop hitting claude usage (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/how-to-stop-hitting-claude-usage `unreadable:no-endpoint`
+- **Claude connectors (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/claude-connectors `unreadable:no-endpoint`
+- **I can be you (ruben.substack.com)** — Claude to sound like you: … · https://ruben.substack.com/p/youre-just-a-text-file `unreadable:no-endpoint`
+- **Prompting is the worst way to use Claude (ruben.substack.com)** — Stop Prompting Claude: … · https://ruben.substack.com/p/stop-prompting-claude `unreadable:no-endpoint`
+- **Prompt 4.7 (ruben.substack.com)** — Prompt 4.7 · https://ruben.substack.com/p/prompt-47 `unreadable:no-endpoint`
+- **Vibecoding (ruben.substack.com)** — Vibecode with Claude Code : … · https://ruben.substack.com/p/the-claude-code-bible `unreadable:no-endpoint`
+- **How to make perfect spreadsheets (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/how-to-make-perfect-spreadsheets `unreadable:no-endpoint`
+- **How to use your personal ai at work (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/how-to-use-your-personal-ai-at-work `unreadable:no-endpoint`
+- **It's not [X], it's [Y (ruben.substack.com)** — Stop writing like AI: … · https://ruben.substack.com/p/its-not-x-its-y `unreadable:no-endpoint`
+- **Certified (ruben.substack.com)** — Claude Certificates: … · https://ruben.substack.com/p/im-claude-certified `unreadable:no-endpoint`
+- **Can you detect AI (ruben.substack.com)** — Can you detect AI? · https://ruben.substack.com/p/how-to-bypass-ai-detectors `unreadable:no-endpoint`
+- **DesEngs** — Resources for Design Engineers · https://desengs.com `unreadable:no-endpoint`
+- **Claude linkedin (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/claude-linkedin `unreadable:no-endpoint`
+- **27 Claude tips after 1,800 hours (ruben.substack.com)** — 27 Claude tips after 1,800 hours. · https://ruben.substack.com/p/1800-hours-of-claude `unreadable:no-endpoint`
+- **Infographics (ruben.substack.com)** — Infographics. · https://ruben.substack.com/p/infographics `unreadable:no-endpoint`
+- **Claude (ruben.substack.com)** — Claude. · https://ruben.substack.com/p/claude `unreadable:no-endpoint`
+- **Claude Code (ruben.substack.com)** — Claude Code. · https://ruben.substack.com/p/claude-code `unreadable:no-endpoint`
+- **karanpratapsingh/system-design** — Learn how to design systems at scale and prepare for system design interviews · https://github.com/karanpratapsingh/system-design `repo`
+- **My mother & Claude (ruben.substack.com)** — My mother & Claude. · https://ruben.substack.com/p/my-mother-and-claude `unreadable:no-endpoint`
+- **Prompt Engineering 101 (ruben.substack.com)** — Prompt Engineering 101. · https://ruben.substack.com/p/how-to-ask-ai-once `unreadable:no-endpoint`
+- **Slides (ruben.substack.com)** — Slides. · https://ruben.substack.com/p/powerpoint `unreadable:no-endpoint`
+- **Sorry, Claude (ruben.substack.com)** — Sorry, Claude. · https://ruben.substack.com/p/sorry-claude `unreadable:no-endpoint`
+- **Switch (ruben.substack.com)** — Switch. · https://ruben.substack.com/p/how-to-switch-ai `unreadable:no-endpoint`
+- **1,000,000 (ruben.substack.com)** — 1,000,000. · https://ruben.substack.com/p/1000000 `unreadable:no-endpoint`
+- **Ai couldnt do excel (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/ai-couldnt-do-excel `unreadable:no-endpoint`
+- **Banana (ruben.substack.com)** — 🍌 Banana. · https://ruben.substack.com/p/banana-2-3bd `unreadable:no-endpoint`
+- **chiphuyen/machine-learning-systems-design** — A booklet on machine learning systems design with exercises. NOT the repo for the book "Designing… · https://github.com/chiphuyen/machine-learning-systems-design `repo`
+- **Claude compu (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/claude-compu `unreadable:no-endpoint`
+- **Cowork (ruben.substack.com)** — Cowork. · https://ruben.substack.com/p/claude-cowork-20 `unreadable:no-endpoint`
+- **Fable 5 (ruben.substack.com)** — Fable 5. · https://ruben.substack.com/p/dont-use-claude-fable-5 `unreadable:no-endpoint`
+- **How to better use ai before prompting (Ruben Hassid)** — How to AI / Ruben Hassid / Substack · https://ruben.substack.com/p/how-to-better-use-ai-before-prompting `unreadable:no-endpoint`
+- **How to deslop Claude in 2 words (ruben.substack.com)** — How to deslop Claude in 2 words. · https://ruben.substack.com/p/how-to-deslop-claude-in-2-words `unreadable:no-endpoint`
+- **I am just a text file (ruben.substack.com)** — Claude to sound like you: … · https://ruben.substack.com/p/i-am-just-a-text-file `unreadable:no-endpoint`
+- **I was wrong about Claude (ruben.substack.com)** — I was wrong about Claude. · https://ruben.substack.com/p/learn-80-of-claude-cowork-in-20-minutes `unreadable:no-endpoint`
+- **leetcode.com** — LeetCode · https://leetcode.com `unreadable:no-endpoint`
+- **Magic (ruben.substack.com)** — 🪄 Magic. · https://ruben.substack.com/p/magic `unreadable:no-endpoint`
+- **Privacy (ruben.substack.com)** — Privacy. · https://ruben.substack.com/p/privacy `unreadable:no-endpoint`
+- **Search (ruben.substack.com)** — Search. · https://ruben.substack.com/p/grok-420 `unreadable:no-endpoint`
+- **The new Claude charts (ruben.substack.com)** — The new Claude charts. · https://ruben.substack.com/p/claude-charts `unreadable:no-endpoint`
+- **Workaholic (ruben.substack.com)** — Workaholic. · https://ruben.substack.com/p/ai-holic `unreadable:no-endpoint`
+- **Claude Cowork + Project (ruben.substack.com)** — Claude Cowork + Project. · https://ruben.substack.com/p/claude-cowork-project `unreadable:no-endpoint`
+- **DBMS Tutorial (GeeksforGeeks)** — GeeksforGeeks · https://geeksforgeeks.org/dbms `unreadable:no-endpoint`
+- **developer.mozilla.org** — MDN Web Docs · https://developer.mozilla.org `unreadable:no-endpoint`
+- **Discuss (leetcode.com)** · https://leetcode.com/discuss `unreadable:no-endpoint`
+- **Interfaces › Design Engineering Magazine** — Interfaces › Design Engineering Magazine · https://interfaces.dev `unreadable:no-endpoint`
+- **sarwarbeing-ai/Agentic_Design_Patterns** — sarwarbeing-ai/Agentic_Design_Patterns · https://github.com/sarwarbeing-ai/Agentic_Design_Patterns `repo unreadable:repo-gone`
+- **You need to stop overthinking cowork (Ruben Hassid)** — How to set up Cowork · https://ruben.substack.com/p/you-need-to-stop-overthinking-cowork `unreadable:no-endpoint`
+
+## shadcn registries · `registries` (13)
+
+- **tailark** — Shadcn blocks for building modern marketing websites · https://tailark.com `registry:469`
+- **1st-Pouf** — An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components,… · https://1st-pouf.worksonmy.dev `registry:71 llms.txt`
+- **7ovr** — Free, production-ready blocks built on Base UI for marketing and application UIs. Copy, paste, an… · https://7ovr.com `registry:248 llms.txt`
+- **atelier-ui** — A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interacti… · https://github.com/whatisjery/atelier-ui `repo`
+- **dominik-ui** — Opinionated components and tools for building modern websites and AI interfaces. · https://dominikkoch.dev/ui `registry:4 llms.txt`
+- **efferd** — ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. · http://efferd.com `registry:231`
+- **interlace-ui** — Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility pri… · https://ds.interlace.tools `registry:146 llms.txt`
+- **more-shadcn** — A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. · https://more-shadcn.noair.fun `registry:43`
+- **neobrutalism-vue** — A vue-based registry of neobrutalism-styled Tailwind components. · https://github.com/michaelsieminski/neobrutalism-vue `registry:38 repo`
+- **rbadillap/registry.directory** — A curated directory to discover, preview, and copy shadcn/ui registries. · https://github.com/rbadillap/registry.directory `repo`
+- **sora-ui** — Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the… · https://ui.soralabs.io.vn `registry:133 llms-full`
+- **undraw-cn** — Beautiful, customizable React components for unDraw illustrations. · https://undraw-cn.vaatun.com `registry:1362`
+- **wa-ui** — A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles… · https://ui.meta-cloud-api.site `registry:29`
+
+## Dev & AI tools · `dev-ai-tools` (282)
+
+- **perplexity.ai** — smart search engine · https://perplexity.ai `unreadable:no-endpoint`
+- **replit.com** — AI App and Website Builder · https://replit.com `llms-full`
+- **chatgpt.com** — ask any question · https://chatgpt.com `unreadable:no-endpoint`
+- **hemingwayapp.com** — Hemingway Editor · https://hemingwayapp.com `unreadable:no-endpoint`
+- **Grammarly** — Free AI Writing Assistance · https://grammarly.com `unreadable:no-endpoint`
+- **Internet Archive** — Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine · https://archive.org `unreadable:no-endpoint`
+- **DeepL AI Platform** — Translation, Voice & API · https://deepl.com `unreadable:no-endpoint`
+- **iLovePDF** — Online PDF tools for PDF lovers · https://ilovepdf.com `unreadable:no-endpoint`
+- **namecheap.com** — buy cheap domains · https://namecheap.com `unreadable:bot-walled`
+- **Notion** — The AI workspace that works for you. / Notion · https://notion.so `llms.txt`
+- **remove.bg** — Remove Background from Image for Free – remove.bg · https://removebg.com `unreadable:no-endpoint`
+- **Smallpdf** — A Free Solution to all your PDF Problems · https://smallpdf.com `unreadable:no-endpoint`
+- **TinyPNG** — Compress AVIF, WebP, PNG and JPEG images · https://tinypng.com `unreadable:no-endpoint`
+- **trello.com** — Capture, organize, and tackle your to-dos from anywhere · https://trello.com `unreadable:no-endpoint`
+- **Wolfram/Alpha** — Computational Intelligence · https://wolframalpha.com `unreadable:no-endpoint`
+- **Carbon** — Create and share beautiful images of your source code · https://carbon.now.sh `unreadable:no-endpoint`
+- **regex101** — build, test, and debug regex · https://regex101.com `llms.txt`
+- **explainshell.com** — match command-line arguments to their help text · https://explainshell.com `unreadable:no-endpoint`
+- **fast.com** — Internet Speed Test / Fast.com · https://fast.com `unreadable:no-endpoint`
+- **GitHub** — GitHub · Change is constant. GitHub keeps you ahead. · https://github.com `llms-full`
+- **Screely** — แทงบอลออนไลน์ ศูนย์รวมข้อมูลแทงบอล เว็บแทงบอล ปี 2026 / Screely · https://screely.com `unreadable:no-endpoint`
+- **Squoosh** — Squoosh · https://squoosh.app `unreadable:no-endpoint`
+- **Have I Been Pwned** — Check if your email address has been exposed in a data breach · https://haveibeenpwned.com `unreadable:no-endpoint`
+- **JustPaste.it** — paste text and share with your friends · https://justpaste.it `unreadable:no-endpoint`
+- **10 Minute Mail** — Free Anonymous Temporary email · https://10minutemail.com `unreadable:no-endpoint`
+- **downdetector.com** — check if site is down · https://downdetector.com `unreadable:no-endpoint`
+- **VirusTotal** — VirusTotal · https://virustotal.com `unreadable:no-endpoint`
+- **Similarsites.com** — Easily Explore alternative websites · https://similarsites.com `unreadable:no-endpoint`
+- **Freelance Services Marketplace for Businesses (Fiverr)** — Freelance Services Marketplace for Businesses · https://fiverr.com/s/3AG46Qr `llms.txt`
+- **Remove Background from Image for Free** — remove.bg · https://remove.bg `unreadable:no-endpoint`
+- **Midjourney** — Midjourney · https://midjourney.com `unreadable:bot-walled`
+- **Sevalla** — Ship Production Apps Without Infrastructure · https://sevalla.com `unreadable:no-endpoint`
+- **Macapp Supply** — Beautifully designed macOS apps, curated · https://macapp.supply `llms.txt`
+- **garrytan/gstack** — Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Ma… · https://github.com/garrytan/gstack `skill repo`
+- **Krea** — Krea · https://krea.ai `llms.txt`
+- **leonardo.ai** — generate images for free · https://leonardo.ai `unreadable:no-endpoint`
+- **lovable.dev** — turn ideas into working apps · https://lovable.dev `llms.txt`
+- **shots.so** — Create Amazing Mockups · https://shots.so `unreadable:no-endpoint`
+- **ashishps1/awesome-system-design-resources** — Learn System Design concepts and prepare for interviews using free resources. · https://github.com/ashishps1/awesome-system-design-resources `repo`
+- **Cursor** — AI Coding Agent for Building Ambitious Software / Cursor · https://cursor.com `llms.txt`
+- **donnemartin/system-design-primer** — Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flas… · https://github.com/donnemartin/system-design-primer `repo`
+- **gamma.app** — AI presentations in seconds · https://gamma.app `llms.txt`
+- **heygen.com** — Free AI Video Generator: Create Stunning Videos with AI · https://heygen.com `llms-full`
+- **LinkedIn** — Log In or Sign Up · https://linkedin.com `unreadable:no-endpoint`
+- **Synthesia** — #1 AI Video Platform for Business · https://synthesia.io `llms.txt`
+- **b.ai** — BAI · https://b.ai `unreadable:no-endpoint`
+- **beautiful.ai** — AI Presentation Software for Teams · https://beautiful.ai `unreadable:no-endpoint`
+- **Castmagic** — 10x Audio Content With AI · https://castmagic.io `llms-full`
+- **Consensus** — AI for Research · https://consensus.app `llms-full`
+- **Descript** — Try Free · https://descript.com `llms.txt`
+- **ElevenLabs** — Free AI Voice Generator & Voice Agents Platform / ElevenLabs · https://elevenlabs.io `llms.txt`
+- **Fireflies.ai** — #1 AI Teammate for Meetings, Email, Chat & CRM · https://fireflies.ai `llms-full`
+- **Fliki** — Turn Any Idea Into Video With 2,000+ AI Voices · https://fliki.ai `llms.txt`
+- **ideogram.ai** — generates text in images perfectly · https://ideogram.ai `llms.txt`
+- **invideo Editor** — Create videos without limits · https://invideo.io `llms.txt`
+- **magnific.ai** — upscale any image with AI · https://magnific.ai `unreadable:no-endpoint`
+- **Meshy** — AI 3D Model Generator: Create 3D from Text & Images / Meshy · https://meshy.ai `llms.txt`
+- **Napkin AI** — Turn Text into AI Diagrams and Visuals · https://napkin.ai `llms.txt`
+- **obra/superpowers** — An agentic skills framework & software development methodology that works. · https://github.com/obra/superpowers `repo`
+- **Pika** — Pika · https://pika.art
+- **Runway** — Building Real-World Intelligence · https://runwayml.com `llms.txt`
+- **scispace.com** — understand any research paper · https://scispace.com `llms-full`
+- **Suno** — AI Music Generator · https://suno.com `llms.txt`
+- **tl;dv** — AI Meeting Notetaker for Zoom, Google Meet & Teams · https://tldv.io `llms.txt`
+- **TraceDR** — Track your Domain Rating - TraceDR · https://tracedr.com `unreadable:no-endpoint`
+- **Viggle** — Turn your imagination into 3D motion · https://viggle.ai `llms-full`
+- **Vizcom** — Turn Sketches into Full-Fidelity 3D Renders, Instantly · https://vizcom.ai `unreadable:no-endpoint`
+- **Bolt AI builder** — Websites, apps & prototypes · https://bolt.new `unreadable:no-endpoint`
+- **Claude 101** — Free guides to master Claude · https://claude101.com `unreadable:no-endpoint`
+- **claude.ai** — Writing, analysis & complex tasks · https://claude.ai `unreadable:no-endpoint`
+- **coreyhaines31/marketingskills** — Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engi… · https://github.com/coreyhaines31/marketingskills `repo`
+- **Human Interface Guidelines (Apple Developer Documentation)** — Apple Developer Documentation · https://developer.apple.com/design/human-interface-guidelines `unreadable:no-endpoint`
+- **langgenius/dify** — Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative… · https://github.com/langgenius/dify `repo`
+- **mvanhorn/last30days-skill** — AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the… · https://github.com/mvanhorn/last30days-skill `repo`
+- **Photopea** — Online Photo Editor · https://photopea.com `unreadable:no-endpoint`
+- **Runey** — Invoices, Projects & Clients in One Place · https://runey.app `llms.txt`
+- **ai goodies** — ai goodies ✨ · https://aigoodies.beehiiv.com `unreadable:no-endpoint`
+- **ByteByteGoHq/system-design-101** — Explain complex systems using visuals and simple terms. Help you prepare for system design interv… · https://github.com/ByteByteGoHq/system-design-101 `repo`
+- **CoolDock** — Smart Second Dock with Live Widgets for Mac · https://dock.cool
+- **Design (claude.ai)** — @alexcloudstar I need to test kimi as well, but what I have been hearing is that GPT 5.6 Sol is t… · https://claude.ai/design `unreadable:no-endpoint`
+- **devopness/devopness** — AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud and any stack, one MCP. Determin… · https://github.com/devopness/devopness `repo`
+- **explee.com** — AutoGTM — Your 24/7 Outreach Agent · https://explee.com `unreadable:no-endpoint`
+- **How to AI** — Ruben Hassid / Substack · https://how-to-ai.guide `unreadable:no-endpoint`
+- **NoteGPT** — Fast & Free. · https://notegpt.io `llms.txt`
+- **novuhq/novu** — The open-source communication infrastructure for agents and products · https://github.com/novuhq/novu `repo`
+- **onorca.dev** — Orca — The agent development environment · https://onorca.dev `unreadable:no-endpoint`
+- **openreplay/openreplay** — Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues a… · https://github.com/openreplay/openreplay `repo`
+- **OpusClip** — #1 AI video clipping and editing tool · https://opus.pro `llms.txt`
+- **papermark/papermark** — Papermark is the open-source DocSend alternative and secure data rooms with built-in analytics an… · https://github.com/papermark/papermark `repo`
+- **smartmockups.com** — Canva · https://smartmockups.com `unreadable:no-endpoint`
+- **supaste.com** — Clipboard History Manager for Mac · https://supaste.com `unreadable:no-endpoint`
+- **swiped** — The Best Content in the Design Space · https://swiped.design `llms.txt`
+- **VibeIndex Directory** — Tools for Vibe Coding · https://vibeindex.dev `unreadable:no-endpoint`
+- **4xbsoSD (Red Hat Hardened Images)** — Red Hat Hardened Images · https://red.ht/4xbsoSD `unreadable:no-endpoint`
+- **API Finder** — Discover Public APIs · https://apifinder.io `unreadable:no-endpoint`
+- **binhnguyennus/awesome-scalability** — The Patterns of Scalable, Reliable, and Performant Large-Scale Systems · https://github.com/binhnguyennus/awesome-scalability `repo`
+- **bytebytego.com** — System Design · Coding · Behavioral · Machine Learning Interviews · https://bytebytego.com `unreadable:no-endpoint`
+- **CapSoftware/cap** — Open source Loom alternative. Beautiful, shareable screen recordings. · https://github.com/CapSoftware/cap `repo`
+- **Chart.js** — Chart.js · https://chartjs.org `unreadable:no-endpoint`
+- **checkcheckzz/system-design-interview** — System design interview for IT companies · https://github.com/checkcheckzz/system-design-interview `repo`
+- **claude-co.work** — Cowork. · https://claude-co.work `unreadable:no-endpoint`
+- **claudecode.free** — Vibecoding. · https://claudecode.free `unreadable:no-endpoint`
+- **CleanShot X for Mac** — CleanShot X for Mac · https://cleanshot.com `unreadable:no-endpoint`
+- **Coding Interview Prep, Courses, Versus Mode (NeetCode)** — Coding Interview Prep, Courses, Versus Mode · https://neetcode.io/roadmap `unreadable:no-endpoint`
+- **Design (vercel.com)** — design.md 공개했네요! Vercel 에서.. 캬... 🔖 · https://vercel.com/design.md `llms.txt`
+- **Google Skills** — Google Skills · https://skills.google `unreadable:no-endpoint`
+- **How our agents build on-brand pages with design.md (vercel.com)** — How our agents build on-brand pages with design.md · https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md `llms.txt`
+- **how-claude.team** — Claude for teams. · https://how-claude.team `unreadable:no-endpoint`
+- **how-to-gamma.ai** — Slides. · https://how-to-gamma.ai `unreadable:no-endpoint`
+- **Inspiration (arc.net)** — Inspiration · https://arc.net/folder/C3495F55-830C-4028-9984-8E5081A989F1 `unreadable:no-endpoint`
+- **InterviewReady/system-design-resources** — These are the best resources for System Design on the Internet · https://github.com/InterviewReady/system-design-resources `repo`
+- **javabuddy/best-system-design-resources** — A collection of best resources to learn System Design, Software architecture, and prepare for Sys… · https://github.com/javabuddy/best-system-design-resources `repo`
+- **Libraries.dev** — High-crafted UI libraries for AI agents · https://libraries.dev `unreadable:no-endpoint`
+- **MAGIC UI (BOOM Library)** — Fantasy & RPG UI Sound Effects / BOOM Library · https://boomlibrary.com/sound-effects/magic-ui `unreadable:no-endpoint`
+- **mattpocock/skills** — Skills for Real Engineers. Straight from my .agents directory. · https://github.com/mattpocock/skills `repo`
+- **pbakaus/impeccable** — The design language that makes your AI harness better at design. · https://github.com/pbakaus/impeccable `repo`
+- **petergyang/no-ai-slop** — Removes 20+ patterns of AI slop from any piece of writing. · https://github.com/petergyang/no-ai-slop `repo`
+- **pump.fun** — 🤖 AI Signal (SOL) $Carbonoid CA: AyZVfF9zszHtjKM65eTMqVtk2F7QcvRtNQpUq821pump Carbonoid, ticker… · https://pump.fun `unreadable:no-endpoint`
+- **Toolfolio** — All the Tools You Need in One Place · https://toolfolio.io `unreadable:no-endpoint`
+- **vercel-labs/agent-skills** — Vercel's official collection of agent skills · https://github.com/vercel-labs/agent-skills `repo`
+- **vercel-labs/skills** — The open agent skills tool - npx skills · https://github.com/vercel-labs/skills `repo`
+- **Adarsh Goldar (Quick Discovery Call)** — Quick Discovery Call / Adarsh Goldar / Cal.com · https://cal.com/adarsh-goldar/secret `llms.txt`
+- **addyosmani/agent-skills** — Production-grade engineering skills for AI coding agents. · https://github.com/addyosmani/agent-skills `repo`
+- **agentmemory** — persistent memory for AI coding agents · https://agent-memory.dev `unreadable:no-endpoint`
+- **AlexsJones/llmfit** — Hundreds of models & providers. One command to find what runs on your hardware. · https://github.com/AlexsJones/llmfit `repo`
+- **Amazon's global career site** — Amazon's global career site · https://amazon.jobs `unreadable:no-endpoint`
+- **au.marketscreener.com** — Reuters via MarketScreener · https://au.marketscreener.com/news/eu-is-set-to-propose-ban-on-social-media-and-ai-chatbots-for-under-15s-ce785bdcde8ffe22 `unreadable:no-endpoint`
+- **ayghri/i-have-adhd** — A skill to stop your coding agent from burying the answer. ADHD-friendly output. · https://github.com/ayghri/i-have-adhd `repo`
+- **bilawalsidhu/gods-eye-view** — A spy satellite simulator in your browser, except the data is real. Live open source spati… · https://github.com/bilawalsidhu/gods-eye-view `repo`
+- **blader/humanizer** — Agent skill that removes signs of AI-generated writing from text · https://github.com/blader/humanizer `skill repo`
+- **Cal.com** — Scheduling Software for Online Bookings · https://cal.com `llms.txt`
+- **Carney Calls for Global Tech Body to Boost AI Guardrails (2) (news.bloomberglaw.com)** — Carney Calls for Global Tech Body to Boost AI Guardrails (2) · https://news.bloomberglaw.com/antitrust/carney-calls-for-global-tech-body-to-boost-ai-guardrails-1 `unreadable:no-endpoint`
+- **Chat (chat.b.ai)** — BAI · https://chat.b.ai/chat `unreadable:no-endpoint`
+- **CI (github.com)** — Add ubuntu-cuda builds to release.yml by ORippler · Pull Request #28186 · ggml-org/llama.cpp · https://github.com/ggml-org/llama.cpp/pull/28186 `llms-full`
+- **diegosouzapw/OmniRoute** — Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models … · https://github.com/diegosouzapw/OmniRoute `repo`
+- **directoryfinder.com** — Best Directories to Submit Your Startup or Business (2026) · https://directoryfinder.com `unreadable:bot-walled`
+- **Don (philotheephilix.github.io)** — Don · https://philotheephilix.github.io/reactbits.dev-skill `unreadable:no-endpoint`
+- **EXCLUSIVE (EU-Startups)** — EXCLUSIVE: Switzerland's Aeon acquires Aware Health as total Seed funding surpasses €12 million /… · https://eu-startups.com/2026/09/exclusive-switzerlands-aeon-acquires-aware-health-as-total-seed-funding-passes-e12-million `unreadable:no-endpoint`
+- **facebook/react** — The library for web and native user interfaces. · https://github.com/facebook/react `repo`
+- **feat(core) (github.com)** — cap web_search calls per session by qqqys · Pull Request #11852 · QwenLM/qwen-code · https://github.com/QwenLM/qwen-code/pull/11852 `llms-full`
+- **financialcontent.com** — Orion Expands Anthropic Collaboration as Launch Partner for Claude for Financial Advisors / Finan… · https://financialcontent.com/article/bizwire-2026-9-14-orion-expands-anthropic-collaboration-as-launch-partner-for-claude-for-financial-advisors `unreadable:no-endpoint`
+- **Find US Jobs, Internships, Jobs Near Me (LinkedIn Job Search)** — Find US Jobs, Internships, Jobs Near Me · https://linkedin.com/jobs `unreadable:no-endpoint`
+- **fix(cli) (github.com)** — reap running monitors when the process dies on an uncaught exception by yiliang114 · Pull Request… · https://github.com/QwenLM/qwen-code/pull/11742 `llms-full`
+- **fix(core) (github.com)** — accept Claude Code tool names in tool hook matchers by qqqys · Pull Request #11826 · QwenLM/qwen-… · https://github.com/QwenLM/qwen-code/pull/11826 `llms-full`
+- **fix(core) (github.com)** — keep escaped whitespace at pipe-list entry edges by qqqys · Pull Request #11860 · QwenLM/qwen-code · https://github.com/QwenLM/qwen-code/pull/11860 `llms-full`
+- **fix(core) (github.com)** — let bash expand project directory variables in command hooks by qqqys · Pull Request #11864 · Qwe… · https://github.com/QwenLM/qwen-code/pull/11864 `llms-full`
+- **fix(cua) (github.com)** — preserve Linux observations and REPL diagnostics by DragonnZhang · Pull Request #11829 · QwenLM/q… · https://github.com/QwenLM/qwen-code/pull/11829 `llms-full`
+- **fix(cua) (github.com)** — make Linux input delivery adaptive by LaZzyMan · Pull Request #11876 · QwenLM/qwen-code · https://github.com/QwenLM/qwen-code/pull/11876 `llms-full`
+- **fix(dws) (github.com)** — align group and direct chat access controls by qqqys · Pull Request #11836 · QwenLM/qwen-code · https://github.com/QwenLM/qwen-code/pull/11836 `llms-full`
+- **fix(goal) (github.com)** — keep a full-claim checkpoint replay from spending a stall, and tidy batching follow-ups by qqqys… · https://github.com/QwenLM/qwen-code/pull/11796 `llms-full`
+- **fix(skills) (github.com)** — re-apply a Skill's side effects when a session is resumed by TianYuan1024 · Pull Request #11280 ·… · https://github.com/QwenLM/qwen-code/pull/11280 `llms-full`
+- **Free audit (seo-stuff.com)** · https://seo-stuff.com/free-audit `llms.txt`
+- **freestylefly/awesome-gpt-image-2** — Prompt as Code / GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示… · https://github.com/freestylefly/awesome-gpt-image-2 `repo`
+- **gemini.google.com** — Research, analysis & AI assistance · https://gemini.google.com `unreadable:no-endpoint`
+- **Gold plan package (seo-stuff.com)** — SEO, GEO & AIO Done-For-You Service: Gold Plan / SEO Stuff · https://seo-stuff.com/gold-plan-package `llms.txt`
+- **Granola** — The AI Notepad for back-to-back meetings · https://granola.so `llms.txt`
+- **GwvqIm4 (kickresu.me)** — ATS Resume Checker — Simulate the ATS Scan · https://kickresu.me/GwvqIm4 `unreadable:no-endpoint`
+- **heygen-com/hyperframes** — Write HTML. Render video. Built for agents. · https://github.com/heygen-com/hyperframes `repo`
+- **HIP (github.com)** — fattn-mma: use fp32 accumulation on MFMA devices by IMbackK · Pull Request #28576 · ggml-org/llam… · https://github.com/ggml-org/llama.cpp/pull/28576 `llms-full`
+- **HKUDS/OpenSpace** — "OpenSpace: The Skill Management Layer for AI Agents" -- https://open-space.cloud/ · https://github.com/HKUDS/OpenSpace `repo`
+- **how-to-claude.ai** — Claude. · https://how-to-claude.ai `unreadable:no-endpoint`
+- **kingbootoshi/cartographer** — Claude Code plugin that maps and documents codebases of any size using parallel AI subagents · https://github.com/kingbootoshi/cartographer `repo`
+- **llama (github.com)** — add Maple 20B-A1B ternary MoE architecture (CPU) by AlexGabbia · Pull Request #27000 · ggml-org/l… · https://github.com/ggml-org/llama.cpp/pull/27000 `llms-full`
+- **magnific.com** — PNG assets · https://magnific.com `unreadable:no-endpoint`
+- **Mixo** — AI Website Builder for Small Business · https://mixo.io `llms.txt`
+- **models (github.com)** — fix mimo2 swa pattern load by CISC · Pull Request #28865 · ggml-org/llama.cpp · https://github.com/ggml-org/llama.cpp/pull/28865 `llms-full`
+- **nashsu/llm_wiki** — LLM Wiki is a cross-platform desktop application that turns your documents into an organized, int… · https://github.com/nashsu/llm_wiki `repo`
+- **Netlify** — Push your ideas to the web / Netlify · https://netlify.com `llms.txt`
+- **notebooklm.google.com** — turns docs into podcasts · https://notebooklm.google.com `unreadable:no-endpoint`
+- **Pieces** — The AI memory layer for modern work · https://pieces.app `llms.txt`
+- **plugins/pstack/skills/unslop at main (github.com)** — plugins/pstack/skills/unslop at main · cursor/plugins · https://github.com/cursor/plugins/tree/main/pstack/skills/unslop `llms-full`
+- **predaaaasaaaaaaa/mult-agents-football-match-analyzer** — predaaaasaaaaaaa/mult-agents-football-match-analyzer · https://github.com/predaaaasaaaaaaa/mult-agents-football-match-analyzer `repo`
+- **Premium content bundle service (seo-stuff.com)** · https://seo-stuff.com/premium-content-bundle-service `llms.txt`
+- **Release b10964 (github.com)** — Release b10964 · ggml-org/llama.cpp · https://github.com/ggml-org/llama.cpp/releases/tag/b10964 `llms-full`
+- **Release b10969 (github.com)** — Release b10969 · ggml-org/llama.cpp · https://github.com/ggml-org/llama.cpp/releases/tag/b10969 `llms-full`
+- **Release b10970 (github.com)** — Release b10970 · ggml-org/llama.cpp · https://github.com/ggml-org/llama.cpp/releases/tag/b10970 `llms-full`
+- **Release cua-driver-rs v0.20.8 (github.com)** — Release cua-driver-rs v0.20.8 · QwenLM/qwen-code · https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.8 `llms-full`
+- **Release Release v0.23.4 (github.com)** — Release Release v0.23.4 · QwenLM/qwen-code · https://github.com/QwenLM/qwen-code/releases/tag/v0.23.4 `llms-full`
+- **Release Release v0.23.4-nightly.20260914.f024b37689 (github.com)** — Release Release v0.23.4-nightly.20260914.f024b37689 · QwenLM/qwen-code · https://github.com/QwenLM/qwen-code/releases/tag/v0.23.4-nightly.20260914.f024b37689 `llms-full`
+- **Release v2.1.271 (github.com)** — Release v2.1.271 · anthropics/claude-code · https://github.com/anthropics/claude-code/releases/tag/v2.1.271 `llms-full`
+- **Resources (Apple Design Resources)** — Apple Design Resources · https://developer.apple.com/design/resources `unreadable:no-endpoint`
+- **screen.movie** — Screen Recorder & Video Editor for macOS · https://screen.movie `unreadable:no-endpoint`
+- **seo-stuff.com** — AI SEO, GEO & AIO Tools · https://seo-stuff.com `llms.txt`
+- **Superset** — Orchestrate any coding agent · https://superset.sh `llms-full`
+- **systemdesign42/system-design-academy** — If you want to become good at AI engineering & system design, join this newsletter 👇 · https://github.com/systemdesign42/system-design-academy `repo`
+- **Taste Skill** — The Anti-Slop Frontend Framework · https://tasteskill.dev `llms.txt`
+- **That One Couple** — brand, web and product · https://thatonecouple.com `llms-full`
+- **The Design Prompt Library to Vibe Code Better Websites (Jiro)** — The Design Prompt Library to Vibe Code Better Websites · https://jiro.build/g/fIc0Mokm4g `unreadable:no-endpoint`
+- **thedotmack/claude-mem** — Persistent Context Across Sessions for Every Agent – Captures everything your agent does during… · https://github.com/thedotmack/claude-mem `repo`
+- **THU-MAIC/OpenMAIC** — Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just … · https://github.com/THU-MAIC/OpenMAIC `repo`
+- **VaporaProcessStudio (wieslawsoltes.github.io)** — Process Studio · https://wieslawsoltes.github.io/VaporaProcessStudio `unreadable:no-endpoint`
+- **whatsapp.com** — WhatsApp Channel · https://whatsapp.com/channel/0029Vb `unreadable:no-endpoint`
+- **Wispr Flow** — Effortless Voice Dictation · https://wisprflow.ai `llms-full`
+- **wsau.com** — EU is set to propose ban on social media and AI chatbots for under-15s · https://wsau.com/2026/09/14/eu-is-set-to-propose-ban-on-social-media-and-ai-chatbots-for-under-15s `unreadable:bot-walled`
+- **AgriciDaniel/claude-seo** — Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-… · https://github.com/AgriciDaniel/claude-seo `repo`
+- **alirezarezvani/claude-skills** — 380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ s… · https://github.com/alirezarezvani/claude-skills `repo`
+- **alternativeto.net** · https://alternativeto.net `unreadable:no-endpoint`
+- **anthropics/skills** — Public repository for Agent Skills · https://github.com/anthropics/skills `repo`
+- **apify.com** — The largest marketplace of trusted tools for AI · https://apify.com `llms.txt`
+- **archive.ph** · https://archive.ph `unreadable:dead`
+- **Bot (x.ai)** · https://x.ai/bot `unreadable:no-endpoint`
+- **brandmymac.com** — Let your brand travel · https://brandmymac.com `unreadable:no-endpoint`
+- **Browser Use** — Browser Use · https://browser-use.com `llms-full`
+- **calesthio/OpenMontage** — World's first open-source, agentic video production system. 12 production pipelines, 100+ tools… · https://github.com/calesthio/OpenMontage `repo`
+- **charlie947/social-media-skills** — charlie947/social-media-skills · https://github.com/charlie947/social-media-skills `repo`
+- **Cleanup.pictures** — Remove objects, people, text and defects from any picture for free · https://cleanup.pictures `unreadable:no-endpoint`
+- **code.minimax.io** — MiniMax Agent: Minimize Effort, Maximize Intelligence · https://code.minimax.io `unreadable:no-endpoint`
+- **code3-dev/ProxyCloud** — Proxy Cloud is an open-source VPN that’s fast, unlimited, secure, and completely free. · https://github.com/code3-dev/ProxyCloud `repo`
+- **codebeautify.org** — to Beautify, Validate, Minify, JSON, XML, JavaScript, CSS, HTML, Excel and more · https://codebeautify.org `unreadable:no-endpoint`
+- **Codex (openai.com)** · https://openai.com/codex `unreadable:no-endpoint`
+- **coffitivity.com** — Coffitivity · https://coffitivity.com `unreadable:no-endpoint`
+- **ComposioHQ/awesome-claude-skills** — A curated list of awesome Claude Skills, resources, and tools for customizing Claude… · https://github.com/ComposioHQ/awesome-claude-skills `repo`
+- **connectedpapers.com** — Find and explore academic papers · https://connectedpapers.com `unreadable:no-endpoint`
+- **crm-ui-table.vercel.app** — CRM App - Customer List & Drawer · https://crm-ui-table.vercel.app `unreadable:no-endpoint`
+- **Darkhn M3.2 36B Animus V12.0 Heretic Uncensored (huggingface.co)** — Silicone-Moss/Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored · Hugging Face · https://huggingface.co/Silicone-Moss/Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored `unreadable:no-endpoint`
+- **design.johnson7543.com** — Interactive tools and experiments · https://design.johnson7543.com `unreadable:no-endpoint`
+- **design.johnson7543.com** — Interactive tools and experiments · https://design.johnson7543.com/qr `unreadable:no-endpoint`
+- **diabrowser.com** — A browser you won't dread opening · https://diabrowser.com `unreadable:no-endpoint`
+- **displaybuddy.app** — Control External Monitor Brightness on Mac & Windows / DisplayBuddy · https://displaybuddy.app `unreadable:no-endpoint`
+- **doaj.org** · https://doaj.org `unreadable:no-endpoint`
+- **elicit.org** — AI for scientific research · https://elicit.org `unreadable:no-endpoint`
+- **everynoise.com** — Every Noise at Once · https://everynoise.com `unreadable:no-endpoint`
+- **file.io** — Sharing files with file.io is convenient, anonymous and secure. Just upload files and share the l… · https://file.io `unreadable:no-endpoint`
+- **Forma (wieslawsoltes.github.io)** — A little more possible. · https://wieslawsoltes.github.io/Forma `unreadable:no-endpoint`
+- **github/github-mcp-server** — GitHub's official MCP Server · https://github.com/github/github-mcp-server `repo`
+- **glaze.app** — Build and Share Mac Apps with AI · https://glaze.app `unreadable:no-endpoint`
+- **GLM 5.3 100 HTML Files (miaai-lab.github.io)** — Hall of One Hundred — GLM-5.3 · https://miaai-lab.github.io/GLM-5.3-100-HTML-Files `unreadable:no-endpoint`
+- **gpui-kit.com** — GPUI Kit · https://gpui-kit.com `llms-full`
+- **gutenberg.org** — Free eBooks / Project Gutenberg · https://gutenberg.org `unreadable:no-endpoint`
+- **Higgsfield AI** — AI-native creative suite · https://higgsfield.ai `llms-full`
+- **Image generation (developers.openai.com)** — OpenAI API · https://developers.openai.com/api/docs/guides/image-generation `llms-full`
+- **isreadyforlaunch.com** — Website Launch Readiness SEO Checker · https://isreadyforlaunch.com `unreadable:no-endpoint`
+- **johnson7543/design** — johnson7543/design · https://github.com/johnson7543/design `repo`
+- **jsonformatter.org** — Best JSON Formatter and JSON Validator: Online JSON Formatter · https://jsonformatter.org `unreadable:no-endpoint`
+- **justwatch.com** — The Streaming Guide · https://justwatch.com `unreadable:no-endpoint`
+- **kacperkapusciak/goldie** — ✨ agentic app store previews and screenshots · https://github.com/kacperkapusciak/goldie `repo`
+- **kitty (sw.kovidgoyal.net)** — kitty · https://sw.kovidgoyal.net/kitty `unreadable:no-endpoint`
+- **letterboxx.app** — Newsletter Reader for Mac · https://letterboxx.app `llms.txt`
+- **maccess.io** — Control Your Mac from iPhone · https://maccess.io `llms.txt`
+- **manychat.com** · https://manychat.com `unreadable:bot-walled`
+- **mem0ai/mem0** — The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context th… · https://github.com/mem0ai/mem0 `repo`
+- **microsoft/markitdown** — Python tool for converting files and office documents to Markdown. · https://github.com/microsoft/markitdown `repo`
+- **microsoft/playwright-mcp** — Playwright MCP server · https://github.com/microsoft/playwright-mcp `repo`
+- **mimestream.com** — A native macOS email client for Gmail · https://mimestream.com `unreadable:no-endpoint`
+- **msitarzewski/agency-agents** — A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas… · https://github.com/msitarzewski/agency-agents `repo`
+- **multica-ai/andrej-karpathy-skills** — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpat… · https://github.com/multica-ai/andrej-karpathy-skills `repo`
+- **musicforprogramming.net** · https://musicforprogramming.net `unreadable:no-endpoint`
+- **mynoise.net** — Custom Soundscapes for Focus, Relaxation & Sleep / myNoise ® · https://mynoise.net `unreadable:no-endpoint`
+- **Nutrient** — Deterministic document platform / PDF SDK and document APIs · https://nutrient.io `llms-full`
+- **on.design** — Design, together — again · https://on.design `unreadable:no-endpoint`
+- **openculture.com** — The best free cultural & educational media on the web - Open Culture · https://openculture.com `unreadable:no-endpoint`
+- **OpenCut-app/OpenCut** — The open-source CapCut alternative · https://github.com/OpenCut-app/OpenCut `repo`
+- **openstax.org** — OpenStax · https://openstax.org `unreadable:no-endpoint`
+- **OpenUsage** — AI Limits Tracker for Cursor, Claude Code, Codex and more · https://openusage.ai `unreadable:no-endpoint`
+- **osolmaz/pi-workflows** — Workflow engine, JSON control-flow tool, and live terminal viewer for the pi co · https://github.com/osolmaz/pi-workflows `repo`
+- **Overview (developers.notion.com)** — Notion MCP - Notion Docs · https://developers.notion.com/guides/mcp/overview `llms-full skill mcp`
+- **Panniantong/Agent-Reach** — Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, G… · https://github.com/Panniantong/Agent-Reach `repo`
+- **pdfcn.dev** — Beautiful PDFs, made simple · https://pdfcn.dev `registry:79 llms-full`
+- **phind.com** · https://phind.com `unreadable:no-endpoint`
+- **pokecut.vercel.app** — Dashboard · https://pokecut.vercel.app `unreadable:no-endpoint`
+- **ponytail** — the lazy senior dev for your AI agent · https://ponytail.dev `unreadable:no-endpoint`
+- **Premium backlink bundle service (seo-stuff.com)** · https://seo-stuff.com/premium-backlink-bundle-service `llms.txt`
+- **privnote.com** · https://privnote.com `unreadable:no-endpoint`
+- **radio.garden** — Explore live radio by rotating the globe · https://radio.garden `unreadable:dead`
+- **RhuanCruz/swiftui-logo-draw** — RhuanCruz/swiftui-logo-draw · https://github.com/RhuanCruz/swiftui-logo-draw `repo`
+- **s1dashu/ip-as-logo-skill** — A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorph · https://github.com/s1dashu/ip-as-logo-skill `skill repo`
+- **scandinavian-design.vercel.app** — before and after · https://scandinavian-design.vercel.app `unreadable:no-endpoint`
+- **Screenshot to Code** — Screenshot to Code · https://screenshottocode.com `unreadable:no-endpoint`
+- **semanticscholar.org** — AI-Powered Research Tool · https://semanticscholar.org `unreadable:no-endpoint`
+- **Skills wait what (aihero.dev)** — The /wait-what Skill · https://aihero.dev/skills-wait-what `llms.txt`
+- **summarize.tech** · https://summarize.tech `unreadable:dead`
+- **temp-mail.org** · https://temp-mail.org `unreadable:bot-walled`
+- **tineye.com** — TinEye Reverse Image Search · https://tineye.com `unreadable:no-endpoint`
+- **tmog.org** — Why is my Computer Slow? TMOG Knows Why! · https://tmog.org `unreadable:no-endpoint`
+- **tooey.design** — Tooey · https://tooey.design `unreadable:no-endpoint`
+- **tryframeos.com** — FrameOS — iPhone & Android App Demo Recorder for Mac · https://tryframeos.com `unreadable:no-endpoint`
+- **tunefind.com** · https://tunefind.com `unreadable:no-endpoint`
+- **unpaywall.org** — Unpaywall · https://unpaywall.org `unreadable:no-endpoint`
+- **unscreen.com** · https://unscreen.com `unreadable:no-endpoint`
+- **vehla.app** — the AI command center for macOS · https://vehla.app `llms.txt`
+- **wshobson/agents** — Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot… · https://github.com/wshobson/agents `repo`
+- **yohanan.design** — Ian O — Design Engineer · https://yohanan.design `unreadable:no-endpoint`

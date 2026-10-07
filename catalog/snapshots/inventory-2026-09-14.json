@@ -1,0 +1,6014 @@
+{
+  "schema": "design-tools/inventory@1",
+  "generated_at": "2026-09-14T23:41:07.131Z",
+  "purpose": "Component kütüphanemizin kaynak defteri: her site için ne olduğu, ücretli mi, kendi MCP'si var mı, ne kadarını çektiğimiz ve çekemediğimiz kısmın HTTP gerekçesi. Yeni hasat turlarında önce bunu oku, sonra next_actions'ı uygula.",
+  "scope": {
+    "categories": [
+      "Birden fazla postta tekrar eden siteler",
+      "Renk & efekt",
+      "İkon",
+      "Font & tipografi",
+      "Motion & animasyon",
+      "Bölüm galerileri (navbar / hero / footer / CTA)"
+    ],
+    "site_count": 70,
+    "source_files": [
+      "ui-design-kaynak-linkleri.md",
+      "catalog/extra-sources.json (awesome-shadcn-ui)"
+    ],
+    "probe": {
+      "generated_at": "2026-09-14T22:53:13.831Z",
+      "sampled_items_per_registry": 12,
+      "live_probe": true
+    }
+  },
+  "legend": {
+    "type": [
+      "registry",
+      "repo",
+      "icon-repo",
+      "icon-set",
+      "font-foundry",
+      "motion-library",
+      "section-gallery",
+      "gallery",
+      "gallery-no-sitemap",
+      "color-tool",
+      "docs-site"
+    ],
+    "harvest.status": {
+      "full": "erişilebilen her şey yerelde",
+      "partial": "bir kısmı indi, kalanı barriers[] içinde gerekçeli",
+      "none": "hiç inmedi",
+      "not_applicable": "kaynak kod içermiyor (görsel galeri / araç)"
+    },
+    "harvest.barriers[].code": {
+      "http_401": "lisans/kimlik gerekiyor",
+      "http_403": "engelli",
+      "http_404": "indekste var, uçta yok",
+      "http_429": "hız sınırı",
+      "timeout": "zaman aşımı (tekrar denenebilir)",
+      "network_error": "ağ hatası (tekrar denenebilir)",
+      "200_not_cached": "çekilebilir, item limitine takıldı",
+      "image_only": "içerik görüntü, kod değil",
+      "partial_repo": "README indi, repo klonlanmadı",
+      "no_item_endpoint": "item JSON public değil"
+    },
+    "pricing.model": [
+      "free",
+      "freemium",
+      "paid",
+      "unknown"
+    ],
+    "pricing.confidence": [
+      "high (ölçüm)",
+      "medium (metin kanıtı)",
+      "low (varsayım)"
+    ]
+  },
+  "totals": {
+    "sites": 70,
+    "by_type": {
+      "gallery": 6,
+      "docs-site": 9,
+      "section-gallery": 7,
+      "registry": 7,
+      "gallery-no-sitemap": 11,
+      "repo": 7,
+      "motion-library": 7,
+      "font-foundry": 13,
+      "icon-set": 1,
+      "color-tool": 2
+    },
+    "by_harvest_status": {
+      "not_applicable": 43,
+      "full": 22,
+      "partial": 3,
+      "none": 2
+    },
+    "with_registry": 7,
+    "with_mcp": 4,
+    "with_llms_txt": 18,
+    "component_src_total": 740,
+    "items_listed_total": 956,
+    "items_missing_total": 341
+  },
+  "sites": [
+    {
+      "id": "styles.refero.design",
+      "name": "styles.refero.design",
+      "url": "https://styles.refero.design",
+      "domain": "styles.refero.design",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "DESIGN.md & AI'ya tasarım talimatı",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 6,
+      "what_it_is": "DESIGN.md Examples for AI Agents / Refero Styles",
+      "type": "gallery",
+      "harvest_model": "görsel galeri; sitemap'tan sayfa listesi + screenshot",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://styles.refero.design/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://styles.refero.design",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 51,
+            "sample": "https://styles.refero.design",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 51 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "60fps.design",
+      "name": "60fps.design",
+      "url": "https://60fps.design",
+      "domain": "60fps.design",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit"
+      ],
+      "mentions": 5,
+      "what_it_is": "60fps - UI/UX animation inspiration for mobile & web apps",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://60fps.design/llms.txt",
+          "bytes": 8192,
+          "links": 16,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [
+          {
+            "url": "https://60fps.design/mcp",
+            "evidence": "llms.txt: - [MCP](https://60fps.design/mcp): the MCP server for AI tools and coding agents, a separate subscription."
+          }
+        ],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://60fps.design/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "key-required",
+            "detail": "The server is gated on a 60fps license key",
+            "source": "llms.txt",
+            "confidence": "medium"
+          },
+          {
+            "signal": "pricing-page",
+            "detail": "$29",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/60fps.design"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle",
+        "kendi MCP'si var → omp'ye bağla: https://60fps.design/mcp"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=true"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "cta.gallery",
+      "name": "cta.gallery",
+      "url": "https://cta.gallery",
+      "domain": "cta.gallery",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "mentions": 5,
+      "what_it_is": "CTA.gallery / The Best Call-to-Action Inspiration for Designers",
+      "type": "section-gallery",
+      "harvest_model": "görsel galeri; her öğe bir ekran görüntüsü + link",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://cta.gallery/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://cta.gallery",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 538,
+            "sample": "https://cta.gallery",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 538 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "recent.design",
+      "name": "recent.design",
+      "url": "https://recent.design",
+      "domain": "recent.design",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "İlham & galeri (web sitesi örnekleri)"
+      ],
+      "mentions": 5,
+      "what_it_is": "Recent — Design Inspiration",
+      "type": "gallery",
+      "harvest_model": "görsel galeri; sitemap'tan sayfa listesi + screenshot",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://recent.design/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://recent.design",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 1049,
+            "sample": "https://recent.design",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 1049 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "beautiful-ui-five.vercel.app",
+      "name": "beautiful-ui-five.vercel.app",
+      "url": "https://beautiful-ui-five.vercel.app",
+      "domain": "beautiful-ui-five.vercel.app",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 4,
+      "what_it_is": "Beautiful UI — Crafted primitives for AI-native interfaces",
+      "type": "registry",
+      "harvest_model": "shadcn registry → item JSON taşır, kaynak kod doğrudan iner",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": {
+          "url": "https://beautiful-ui-five.vercel.app/r/registry.json",
+          "items_listed": 27,
+          "first_item_status": 200,
+          "local_index": true
+        },
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://beautiful-ui-five.vercel.app",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 57,
+        "component_src": 29,
+        "items_listed": 27,
+        "items_fetched": 27,
+        "items_missing": 0,
+        "dirs": [
+          "corpus/sites/beautiful-ui-five.vercel.app"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "indeks isimleri ile item uçları tutarsız olabilir (404)",
+        "sağlayıcı shadcn registry şemasını güncellerse resolver şablonları değişir",
+        "boşluk varsa item adı eşlemesi değişmiş olabilir; probe.json tazelenmeli"
+      ],
+      "next_actions": [
+        "şimdilik yapılacak yok"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "registry.json item adları listesi (yeni item'ları diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=true mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "57 dosya, 29 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "component.gallery",
+      "name": "component.gallery",
+      "url": "https://component.gallery",
+      "domain": "component.gallery",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit"
+      ],
+      "mentions": 4,
+      "what_it_is": "The Component Gallery",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://component.gallery",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://component.gallery",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "mobbin.com",
+      "name": "mobbin.com",
+      "url": "https://mobbin.com",
+      "domain": "mobbin.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "İlham & galeri (web sitesi örnekleri)"
+      ],
+      "mentions": 4,
+      "what_it_is": "Mobbin — UI & UX design inspiration for mobile & web apps",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://mobbin.com/llms.txt",
+          "bytes": 2600,
+          "links": 9,
+          "in_corpus": true
+        },
+        "llms_full": {
+          "url": "https://mobbin.com/llms-full.txt",
+          "bytes": 4094
+        },
+        "registry": null,
+        "mcp": [
+          {
+            "url": "https://mobbin.com/mcp.md",
+            "evidence": "llms.txt: - [Mobbin MCP](https://mobbin.com/mcp.md): Agent tools, authentication, setup, rate limits, usage guidance, and examples"
+          }
+        ],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://mobbin.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "pricing-page",
+            "detail": "Pricing and plan access](https://mobbin.com/pricing.md): Current prices, billing terms,",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 2,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/mobbin.com"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle",
+        "kendi MCP'si var → omp'ye bağla: https://mobbin.com/mcp.md"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=true"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "2 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "navbar.gallery",
+      "name": "navbar.gallery",
+      "url": "https://navbar.gallery",
+      "domain": "navbar.gallery",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "mentions": 4,
+      "what_it_is": "Navbar Gallery – Navigation Design Inspiration",
+      "type": "section-gallery",
+      "harvest_model": "görsel galeri; her öğe bir ekran görüntüsü + link",
+      "access": {
+        "llms_txt": {
+          "url": "https://navbar.gallery/llms.txt",
+          "bytes": 6904,
+          "links": 37,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://navbar.gallery/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://navbar.gallery",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/navbar.gallery"
+        ],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 642,
+            "sample": "https://navbar.gallery",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 642 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "transitions.dev",
+      "name": "transitions.dev",
+      "url": "https://transitions.dev",
+      "domain": "transitions.dev",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 4,
+      "what_it_is": "Transitions.dev: UI transitions for AI agents",
+      "type": "gallery",
+      "harvest_model": "görsel galeri; sitemap'tan sayfa listesi + screenshot",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://transitions.dev/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "live-pricing-page",
+            "detail": "https://transitions.dev/pro → plan fiyatı: $ 9 /mo",
+            "source": "https://transitions.dev/pro",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "https://transitions.dev/pro → ücretsiz plan ifadesi var",
+            "source": "https://transitions.dev/pro",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 49,
+            "sample": "https://transitions.dev",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 49 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "beautifului.dev",
+      "name": "beautifului.dev",
+      "url": "https://beautifului.dev",
+      "domain": "beautifului.dev",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 3,
+      "what_it_is": "Beautiful UI — Crafted primitives for AI-native interfaces",
+      "type": "registry",
+      "harvest_model": "shadcn registry → item JSON taşır, kaynak kod doğrudan iner",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": {
+          "url": "https://beautifului.dev/r/registry.json",
+          "items_listed": 27,
+          "first_item_status": 200,
+          "local_index": true
+        },
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://beautifului.dev",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 57,
+        "component_src": 29,
+        "items_listed": 27,
+        "items_fetched": 27,
+        "items_missing": 0,
+        "dirs": [
+          "corpus/sites/beautifului.dev"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "indeks isimleri ile item uçları tutarsız olabilir (404)",
+        "sağlayıcı shadcn registry şemasını güncellerse resolver şablonları değişir",
+        "boşluk varsa item adı eşlemesi değişmiş olabilir; probe.json tazelenmeli"
+      ],
+      "next_actions": [
+        "şimdilik yapılacak yok"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "registry.json item adları listesi (yeni item'ları diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=true mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "57 dosya, 29 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "collectui.com",
+      "name": "collectui.com",
+      "url": "https://collectui.com",
+      "domain": "collectui.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "İlham & galeri (web sitesi örnekleri)",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 3,
+      "what_it_is": "CollectUI - Daily Design Inspiration",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://collectui.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://collectui.com",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "cathrynlavery/diagram-design",
+      "name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "domain": "github.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "GitHub repoları (postlarda paylaşılan)",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 3,
+      "what_it_is": "GitHub - cathrynlavery/diagram-design: 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML +",
+      "type": "repo",
+      "harvest_model": "git/raw → README + SKILL.md iner; tam repo için clone gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": {
+          "clone": "git clone https://github.com/cathrynlavery/diagram-design.git",
+          "local": true
+        }
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "repo-license",
+            "detail": "MIT lisanslı repo",
+            "source": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/LICENSE",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/repos/cathrynlavery__diagram-design"
+        ],
+        "barriers": [
+          {
+            "code": "partial_repo",
+            "count": null,
+            "sample": "https://github.com/cathrynlavery/diagram-design",
+            "why": "sadece README/SKILL indi; tam repo clone edilmedi"
+          }
+        ]
+      },
+      "risks": [
+        "yalnızca README/SKILL indi; repo geçmişi ve paket içeriği yok"
+      ],
+      "next_actions": [
+        "tam klon + npm paket içeriğini corpus'a al (ikon/komponent setinin tamamı için)"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "commit hash (güncelleme takibi)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ],
+      "license": "MIT"
+    },
+    {
+      "id": "inspora.design",
+      "name": "inspora.design",
+      "url": "https://inspora.design",
+      "domain": "inspora.design",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "İlham & galeri (web sitesi örnekleri)",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 3,
+      "what_it_is": "Inspora",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://inspora.design",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://inspora.design",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "orbs.jakubantalik.com",
+      "name": "orbs.jakubantalik.com",
+      "url": "https://orbs.jakubantalik.com",
+      "domain": "orbs.jakubantalik.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Motion & animasyon"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Motion & animasyon"
+      ],
+      "mentions": 3,
+      "what_it_is": "Thinking orbs moved to a new home",
+      "type": "motion-library",
+      "harvest_model": "kod örnekleri sayfada; registry yoksa HTML'den çıkarım gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://orbs.jakubantalik.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "rareui.com",
+      "name": "rareui.com",
+      "url": "https://rareui.com",
+      "domain": "rareui.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 3,
+      "what_it_is": "Rare UI — Rare Animated React Components",
+      "type": "registry",
+      "harvest_model": "shadcn registry → item JSON taşır, kaynak kod doğrudan iner",
+      "access": {
+        "llms_txt": {
+          "url": "https://rareui.com/llms.txt",
+          "bytes": 7822,
+          "links": 0,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": {
+          "url": "https://rareui.com/r/registry.json",
+          "items_listed": 21,
+          "first_item_status": 200,
+          "local_index": true
+        },
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://rareui.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "free-signal",
+            "detail": "vored UI built with Tailwind CSS and Motion (Framer Motion). Every component is free",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 44,
+        "component_src": 21,
+        "items_listed": 21,
+        "items_fetched": 21,
+        "items_missing": 0,
+        "dirs": [
+          "corpus/sites/rareui.com"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "indeks isimleri ile item uçları tutarsız olabilir (404)",
+        "sağlayıcı shadcn registry şemasını güncellerse resolver şablonları değişir",
+        "boşluk varsa item adı eşlemesi değişmiş olabilir; probe.json tazelenmeli"
+      ],
+      "next_actions": [
+        "şimdilik yapılacak yok"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "registry.json item adları listesi (yeni item'ları diff'lemek için)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=true mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "44 dosya, 21 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "supahero.io",
+      "name": "supahero.io",
+      "url": "https://supahero.io",
+      "domain": "supahero.io",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "mentions": 3,
+      "what_it_is": "Supahero - Website hero section library",
+      "type": "section-gallery",
+      "harvest_model": "görsel galeri; her öğe bir ekran görüntüsü + link",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://supahero.io",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://supahero.io",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "ui.shadcn.com",
+      "name": "ui.shadcn.com",
+      "url": "https://ui.shadcn.com",
+      "domain": "ui.shadcn.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit"
+      ],
+      "mentions": 3,
+      "what_it_is": "shadcn/ui - The Foundation for your Design System",
+      "type": "registry",
+      "harvest_model": "shadcn registry → item JSON taşır, kaynak kod doğrudan iner",
+      "access": {
+        "llms_txt": {
+          "url": "https://ui.shadcn.com/llms.txt",
+          "bytes": 8190,
+          "links": 75,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": {
+          "url": "https://ui.shadcn.com/r/index.json",
+          "items_listed": 63,
+          "first_item_status": 404,
+          "local_index": true
+        },
+        "mcp": [
+          {
+            "url": "https://ui.shadcn.com/docs/mcp",
+            "evidence": "llms.txt: - [MCP Server](https://ui.shadcn.com/docs/mcp): Model Context Protocol server for AI integrations. Allows AI assistants "
+          }
+        ],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://ui.shadcn.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "free-signal",
+            "detail": "Open Source",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "partial",
+        "files_local": 82,
+        "component_src": 40,
+        "items_listed": 63,
+        "items_fetched": 40,
+        "items_missing": 23,
+        "dirs": [
+          "corpus/sites/ui.shadcn.com"
+        ],
+        "barriers": [
+          {
+            "code": "200_not_cached",
+            "count": 21,
+            "sample": "https://ui.shadcn.com/r/styles/new-york-v4/pagination.json",
+            "why": "aslında çekilebilir, sadece item limitine takıldı"
+          },
+          {
+            "code": "http_404",
+            "count": 2,
+            "sample": "https://ui.shadcn.com/r/styles/new-york-v4/questionnaire.json",
+            "why": "bu isimde item yok (indeks ile item uçları tutarsız)"
+          }
+        ]
+      },
+      "risks": [
+        "indeks isimleri ile item uçları tutarsız olabilir (404)",
+        "sağlayıcı shadcn registry şemasını güncellerse resolver şablonları değişir",
+        "boşluk varsa item adı eşlemesi değişmiş olabilir; probe.json tazelenmeli"
+      ],
+      "next_actions": [
+        "kalan 23 item limit yüzünden inmedi: bun tools/fetch.mjs --registries --items=2000 --only=ui.shadcn.com",
+        "kendi MCP'si var → omp'ye bağla: https://ui.shadcn.com/docs/mcp"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "registry.json item adları listesi (yeni item'ları diff'lemek için)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=true mcp=true"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "82 dosya, 40 komponent kaynağı"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "gap",
+          "note": "23 item eksik: 200_not_cached, http_404"
+        }
+      ]
+    },
+    {
+      "id": "404s.design",
+      "name": "404s.design",
+      "url": "https://404s.design",
+      "domain": "404s.design",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "mentions": 2,
+      "what_it_is": "404s — A Curated Gallery of Creative Error Page Designs",
+      "type": "section-gallery",
+      "harvest_model": "görsel galeri; her öğe bir ekran görüntüsü + link",
+      "access": {
+        "llms_txt": {
+          "url": "https://404s.design/llms.txt",
+          "bytes": 2491,
+          "links": 0,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://404s.design/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://404s.design",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/404s.design"
+        ],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 246,
+            "sample": "https://404s.design",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 246 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "aura.build",
+      "name": "aura.build",
+      "url": "https://aura.build",
+      "domain": "aura.build",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "DESIGN.md & AI'ya tasarım talimatı"
+      ],
+      "mentions": 2,
+      "what_it_is": "Aura – AI Website Builder",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://aura.build/llms.txt",
+          "bytes": 2027,
+          "links": 0,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://aura.build/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "pricing-page",
+            "detail": "Pricing: https://aura.build/pricing",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/aura.build"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "bencho.dev",
+      "name": "bencho.dev",
+      "url": "https://bencho.dev",
+      "domain": "bencho.dev",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 2,
+      "what_it_is": "Bencho - UI interactive blocks",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://bencho.dev",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://bencho.dev",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "beui.dev",
+      "name": "beui.dev",
+      "url": "https://beui.dev",
+      "domain": "beui.dev",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit",
+        "shadcn ecosystem · Registries"
+      ],
+      "mentions": 2,
+      "what_it_is": "Animated Components for React and Next.js · beUI",
+      "type": "registry",
+      "harvest_model": "shadcn registry → item JSON taşır, kaynak kod doğrudan iner",
+      "access": {
+        "llms_txt": {
+          "url": "https://beui.dev/llms.txt",
+          "bytes": 8186,
+          "links": 44,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": {
+          "url": "https://beui.dev/r/registry.json",
+          "items_listed": 120,
+          "first_item_status": 200,
+          "local_index": true
+        },
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://beui.dev/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://beui.dev",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "partial",
+        "files_local": 203,
+        "component_src": 161,
+        "items_listed": 120,
+        "items_fetched": 40,
+        "items_missing": 80,
+        "dirs": [
+          "corpus/sites/beui.dev"
+        ],
+        "barriers": [
+          {
+            "code": "200_not_cached",
+            "count": 80,
+            "sample": "https://beui.dev/r/number-ticker.json",
+            "why": "aslında çekilebilir, sadece item limitine takıldı"
+          }
+        ]
+      },
+      "risks": [
+        "indeks isimleri ile item uçları tutarsız olabilir (404)",
+        "sağlayıcı shadcn registry şemasını güncellerse resolver şablonları değişir",
+        "boşluk varsa item adı eşlemesi değişmiş olabilir; probe.json tazelenmeli"
+      ],
+      "next_actions": [
+        "kalan 80 item limit yüzünden inmedi: bun tools/fetch.mjs --registries --items=2000 --only=beui.dev"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "registry.json item adları listesi (yeni item'ları diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=true mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "203 dosya, 161 komponent kaynağı"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "gap",
+          "note": "80 item eksik: 200_not_cached"
+        }
+      ]
+    },
+    {
+      "id": "canvasui.dev",
+      "name": "canvasui.dev",
+      "url": "https://canvasui.dev",
+      "domain": "canvasui.dev",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit"
+      ],
+      "mentions": 2,
+      "what_it_is": "Canvas UI: Creative Canvas, WebGL and WebGPU Component Library",
+      "type": "registry",
+      "harvest_model": "shadcn registry → item JSON taşır, kaynak kod doğrudan iner",
+      "access": {
+        "llms_txt": {
+          "url": "https://canvasui.dev/llms.txt",
+          "bytes": 5737,
+          "links": 31,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": {
+          "url": "https://canvasui.dev/r/registry.json",
+          "items_listed": 420,
+          "first_item_status": 200,
+          "local_index": true
+        },
+        "mcp": [
+          {
+            "url": "https://canvasui.dev/docs/mcp",
+            "evidence": "llms.txt: - [MCP Server](https://canvasui.dev/docs/mcp): Use the registry with the shadcn MCP server so AI assistants can browse a"
+          }
+        ],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://canvasui.dev/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "free-signal",
+            "detail": "open source",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 842,
+        "component_src": 420,
+        "items_listed": 420,
+        "items_fetched": 420,
+        "items_missing": 0,
+        "dirs": [
+          "corpus/sites/canvasui.dev"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "indeks isimleri ile item uçları tutarsız olabilir (404)",
+        "sağlayıcı shadcn registry şemasını güncellerse resolver şablonları değişir",
+        "boşluk varsa item adı eşlemesi değişmiş olabilir; probe.json tazelenmeli"
+      ],
+      "next_actions": [
+        "kendi MCP'si var → omp'ye bağla: https://canvasui.dev/docs/mcp"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "registry.json item adları listesi (yeni item'ları diff'lemek için)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=true mcp=true"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "842 dosya, 420 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "design-md.hyperbrowser.ai",
+      "name": "design-md.hyperbrowser.ai",
+      "url": "https://design-md.hyperbrowser.ai",
+      "domain": "design-md.hyperbrowser.ai",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "DESIGN.md & AI'ya tasarım talimatı"
+      ],
+      "mentions": 2,
+      "what_it_is": "DESIGNMD",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://design-md.hyperbrowser.ai",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://design-md.hyperbrowser.ai",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "designmd.me",
+      "name": "designmd.me",
+      "url": "https://designmd.me",
+      "domain": "designmd.me",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit"
+      ],
+      "mentions": 2,
+      "what_it_is": "DesignMD — Generate DESIGN.md Files with AI",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://designmd.me/llms.txt",
+          "bytes": 5793,
+          "links": 19,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://designmd.me/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "pricing-page",
+            "detail": "$5",
+            "source": "llms.txt",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "s. Credits do not expire. Reading Discover and comparing two Discover sites are free",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/designmd.me"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "designmd.supply",
+      "name": "designmd.supply",
+      "url": "https://designmd.supply",
+      "domain": "designmd.supply",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "DESIGN.md & AI'ya tasarım talimatı"
+      ],
+      "mentions": 2,
+      "what_it_is": "",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://designmd.supply",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://designmd.supply",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "footer.design",
+      "name": "footer.design",
+      "url": "https://footer.design",
+      "domain": "footer.design",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "mentions": 2,
+      "what_it_is": "Footer — The only footer gallery on earth.",
+      "type": "section-gallery",
+      "harvest_model": "görsel galeri; her öğe bir ekran görüntüsü + link",
+      "access": {
+        "llms_txt": {
+          "url": "https://footer.design/llms.txt",
+          "bytes": 1413,
+          "links": 10,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://footer.design/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://footer.design",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/footer.design"
+        ],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 817,
+            "sample": "https://footer.design",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 817 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "obra/superpowers",
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "domain": "github.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "GitHub repoları (postlarda paylaşılan)"
+      ],
+      "mentions": 2,
+      "what_it_is": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works.",
+      "type": "repo",
+      "harvest_model": "git/raw → README + SKILL.md iner; tam repo için clone gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": {
+          "clone": "git clone https://github.com/obra/superpowers.git",
+          "local": true
+        }
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "repo-license",
+            "detail": "MIT lisanslı repo",
+            "source": "https://github.com/obra/superpowers/blob/HEAD/LICENSE",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/repos/obra__superpowers"
+        ],
+        "barriers": [
+          {
+            "code": "partial_repo",
+            "count": null,
+            "sample": "https://github.com/obra/superpowers",
+            "why": "sadece README/SKILL indi; tam repo clone edilmedi"
+          }
+        ]
+      },
+      "risks": [
+        "yalnızca README/SKILL indi; repo geçmişi ve paket içeriği yok"
+      ],
+      "next_actions": [
+        "tam klon + npm paket içeriğini corpus'a al (ikon/komponent setinin tamamı için)"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "commit hash (güncelleme takibi)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ],
+      "license": "MIT"
+    },
+    {
+      "id": "kinetics.colorion.co",
+      "name": "kinetics.colorion.co",
+      "url": "https://kinetics.colorion.co",
+      "domain": "kinetics.colorion.co",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 2,
+      "what_it_is": "Kinetics — Spring-physics motion for web interfaces",
+      "type": "gallery",
+      "harvest_model": "görsel galeri; sitemap'tan sayfa listesi + screenshot",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://kinetics.colorion.co/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://kinetics.colorion.co",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 1,
+            "sample": "https://kinetics.colorion.co",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 1 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "loadmo.re",
+      "name": "loadmo.re",
+      "url": "https://loadmo.re",
+      "domain": "loadmo.re",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "İlham & galeri (web sitesi örnekleri)"
+      ],
+      "mentions": 2,
+      "what_it_is": "loadmo.re — Mobile Web Design Archive by Kim Boutin",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://loadmo.re",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://loadmo.re",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "miaai-lab.github.io",
+      "name": "miaai-lab.github.io",
+      "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files",
+      "domain": "miaai-lab.github.io",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "İlham & galeri (web sitesi örnekleri)"
+      ],
+      "mentions": 2,
+      "what_it_is": "Fable 5.1 · 100 HTML Files",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "neuform.ai",
+      "name": "neuform.ai",
+      "url": "https://neuform.ai",
+      "domain": "neuform.ai",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "DESIGN.md & AI'ya tasarım talimatı"
+      ],
+      "mentions": 2,
+      "what_it_is": "AI HTML Landing Page Builder and Remix Templates / Neuform",
+      "type": "gallery",
+      "harvest_model": "görsel galeri; sitemap'tan sayfa listesi + screenshot",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://neuform.ai/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://neuform.ai",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 83,
+            "sample": "https://neuform.ai",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 83 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "open-design.ai",
+      "name": "open-design.ai",
+      "url": "https://open-design.ai",
+      "domain": "open-design.ai",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "DESIGN.md & AI'ya tasarım talimatı"
+      ],
+      "mentions": 2,
+      "what_it_is": "OpenDesign — Best Open Source Claude Design Alternative",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://open-design.ai/llms.txt",
+          "bytes": 4906,
+          "links": 0,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://open-design.ai/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "pricing-page",
+            "detail": "pricing.md and https://open-design.ai/pricing/.",
+            "source": "llms.txt",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "open-source",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/open-design.ai"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "opensourceui.in",
+      "name": "opensourceui.in",
+      "url": "https://opensourceui.in",
+      "domain": "opensourceui.in",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 2,
+      "what_it_is": "Opensource UI — Free React UI Library & Next.js Components (Copy-Paste)",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://opensourceui.in/llms.txt",
+          "bytes": 4563,
+          "links": 0,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://opensourceui.in/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "pricing-page",
+            "detail": "Pricing, Profile, Resources, Socials, Table, Text, Travel, Underlines, Users, Wallet, W",
+            "source": "llms.txt",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "> Opensource UI (https://opensourceui.in) is a free",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/opensourceui.in"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "originkit.dev",
+      "name": "originkit.dev",
+      "url": "https://originkit.dev",
+      "domain": "originkit.dev",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit"
+      ],
+      "mentions": 2,
+      "what_it_is": "Originkit — Free Animated component library for modern websites",
+      "type": "gallery",
+      "harvest_model": "görsel galeri; sitemap'tan sayfa listesi + screenshot",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://originkit.dev/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "live-pricing-page",
+            "detail": "https://originkit.dev/pricing → plan fiyatı: $ 0 / year",
+            "source": "https://originkit.dev/pricing",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "https://originkit.dev/pricing → ücretsiz plan ifadesi var",
+            "source": "https://originkit.dev/pricing",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": 531,
+            "sample": "https://originkit.dev",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "screenshot pipeline: 531 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "posts.design",
+      "name": "posts.design",
+      "url": "https://posts.design",
+      "domain": "posts.design",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "İlham & galeri (web sitesi örnekleri)"
+      ],
+      "mentions": 2,
+      "what_it_is": "Social post design inspiration — posts.design",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://posts.design/llms.txt",
+          "bytes": 2667,
+          "links": 9,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://posts.design/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://posts.design",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/posts.design"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "saaspo.com",
+      "name": "saaspo.com",
+      "url": "https://saaspo.com",
+      "domain": "saaspo.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "İlham & galeri (web sitesi örnekleri)"
+      ],
+      "mentions": 2,
+      "what_it_is": "",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://saaspo.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://saaspo.com",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "seo-stuff.com",
+      "name": "seo-stuff.com",
+      "url": "https://seo-stuff.com/free-audit",
+      "domain": "seo-stuff.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Dev / AI araçları (tasarım dışı ama postlarda geçiyor)"
+      ],
+      "mentions": 2,
+      "what_it_is": "",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://seo-stuff.com/llms.txt",
+          "bytes": 6801,
+          "links": 12,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://seo-stuff.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "pricing-page",
+            "detail": "pricing.",
+            "source": "llms.txt",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "- https://www.seo-stuff.com/free-keyword-generator: Free",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/seo-stuff.com"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "typeui.sh",
+      "name": "typeui.sh",
+      "url": "https://typeui.sh",
+      "domain": "typeui.sh",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "DESIGN.md & AI'ya tasarım talimatı"
+      ],
+      "mentions": 2,
+      "what_it_is": "",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://typeui.sh",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://typeui.sh",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "ui-skills.com",
+      "name": "ui-skills.com",
+      "url": "https://ui-skills.com/skills/emilkowalski/emil-design-eng",
+      "domain": "ui-skills.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit"
+      ],
+      "mentions": 2,
+      "what_it_is": "emil-design-eng Skill - emilkowalski / UI Skills",
+      "type": "docs-site",
+      "harvest_model": "llms.txt ile metin; kod ancak ilgili sayfalardan",
+      "access": {
+        "llms_txt": {
+          "url": "https://ui-skills.com/llms.txt",
+          "bytes": 8192,
+          "links": 0,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://ui-skills.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "pricing-page",
+            "detail": "Pricing Page (mengto/pricing-page)",
+            "source": "llms.txt",
+            "confidence": "medium"
+          },
+          {
+            "signal": "upsell",
+            "detail": "upgrade",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/ui-skills.com"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "ui.aceternity.com",
+      "name": "ui.aceternity.com",
+      "url": "https://ui.aceternity.com",
+      "domain": "ui.aceternity.com",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "UI komponent & kit",
+        "shadcn ecosystem · Libs and Components"
+      ],
+      "mentions": 2,
+      "what_it_is": "Aceternity UI — React & Tailwind CSS Component Library",
+      "type": "registry",
+      "harvest_model": "shadcn registry → item JSON taşır, kaynak kod doğrudan iner",
+      "access": {
+        "llms_txt": {
+          "url": "https://ui.aceternity.com/llms.txt",
+          "bytes": 8190,
+          "links": 48,
+          "in_corpus": true
+        },
+        "llms_full": {
+          "url": "https://ui.aceternity.com/llms-full.txt",
+          "bytes": 4084
+        },
+        "registry": {
+          "url": "https://ui.aceternity.com/registry.json",
+          "items_listed": 278,
+          "first_item_status": 404,
+          "local_index": true
+        },
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://ui.aceternity.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "gated",
+            "detail": "139 item HTTP 401 döndü (https://ui.aceternity.com/registry/cta-centered-masonry-gallery.json)",
+            "source": "ölçüm",
+            "confidence": "high"
+          },
+          {
+            "signal": "pricing-page",
+            "detail": "pricing, licensing, comparisons and the complete catalogue — read this to answer questi",
+            "source": "llms.txt",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "- [Hero Sections](https://ui.aceternity.com/components/hero-sections-free",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "high"
+      },
+      "harvest": {
+        "status": "partial",
+        "files_local": 83,
+        "component_src": 40,
+        "items_listed": 278,
+        "items_fetched": 40,
+        "items_missing": 238,
+        "dirs": [
+          "corpus/sites/ui.aceternity.com"
+        ],
+        "barriers": [
+          {
+            "code": "200_not_cached",
+            "count": 99,
+            "sample": "https://ui.aceternity.com/registry/layout-grid.json",
+            "why": "aslında çekilebilir, sadece item limitine takıldı"
+          },
+          {
+            "code": "http_401",
+            "count": 139,
+            "sample": "https://ui.aceternity.com/registry/cta-centered-masonry-gallery.json",
+            "why": "lisans anahtarı gerekiyor (ücretli içerik)"
+          }
+        ]
+      },
+      "risks": [
+        "indeks isimleri ile item uçları tutarsız olabilir (404)",
+        "sağlayıcı shadcn registry şemasını güncellerse resolver şablonları değişir",
+        "lisans anahtarı gerektiren kısım anonim istekte 401/403 döner",
+        "boşluk varsa item adı eşlemesi değişmiş olabilir; probe.json tazelenmeli"
+      ],
+      "next_actions": [
+        "ücretli kısım için lisans anahtarı al; fetch'e Authorization başlığı eklenmeli (henüz yok)",
+        "kalan 238 item limit yüzünden inmedi: bun tools/fetch.mjs --registries --items=2000 --only=ui.aceternity.com"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "registry.json item adları listesi (yeni item'ları diff'lemek için)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=true mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "83 dosya, 40 komponent kaynağı"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "gap",
+          "note": "238 item eksik: 200_not_cached, http_401"
+        }
+      ]
+    },
+    {
+      "id": "uncut.wtf",
+      "name": "uncut.wtf",
+      "url": "https://uncut.wtf",
+      "domain": "uncut.wtf",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Font & tipografi"
+      ],
+      "mentions": 2,
+      "what_it_is": "Welcome to UNCUT.wtf",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://uncut.wtf/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://uncut.wtf",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "wieslawsoltes.github.io",
+      "name": "wieslawsoltes.github.io",
+      "url": "https://wieslawsoltes.github.io/VaporaProcessStudio",
+      "domain": "wieslawsoltes.github.io",
+      "categories": [
+        "Birden fazla postta tekrar eden siteler"
+      ],
+      "all_categories": [
+        "Birden fazla postta tekrar eden siteler",
+        "Tek site paylaşan postlar"
+      ],
+      "mentions": 2,
+      "what_it_is": "Vapora — Process Studio",
+      "type": "gallery-no-sitemap",
+      "harvest_model": "görsel galeri, sitemap yok; keşif manuel/pagination",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://wieslawsoltes.github.io/VaporaProcessStudio",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://wieslawsoltes.github.io/VaporaProcessStudio",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "bentogrids.com",
+      "name": "bentogrids.com",
+      "url": "https://bentogrids.com",
+      "domain": "bentogrids.com",
+      "categories": [
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "all_categories": [
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "mentions": 1,
+      "what_it_is": "Bento Grids",
+      "type": "section-gallery",
+      "harvest_model": "görsel galeri; her öğe bir ekran görüntüsü + link",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://bentogrids.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://bentogrids.com",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "unsection.com",
+      "name": "unsection.com",
+      "url": "https://unsection.com",
+      "domain": "unsection.com",
+      "categories": [
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "all_categories": [
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ],
+      "mentions": 1,
+      "what_it_is": "",
+      "type": "section-gallery",
+      "harvest_model": "görsel galeri; her öğe bir ekran görüntüsü + link",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://unsection.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "image_only",
+            "count": null,
+            "sample": "https://unsection.com",
+            "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir"
+          }
+        ]
+      },
+      "risks": [
+        "Cloudflare / 429 engeli çıkabilir; nazik hız ve başlıklar gerekir",
+        "JS-shell ise ham HTML işe yaramaz, headless render şart",
+        "görseller başka sitelerin/fotoğrafçıların; yayınlanamaz, kişisel indeks olarak tutulmalı",
+        "selector bakımı: Framer/Next deploy'larında markup değişir"
+      ],
+      "next_actions": [
+        "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "beam.jakubantalik.com",
+      "name": "beam.jakubantalik.com",
+      "url": "https://beam.jakubantalik.com",
+      "domain": "beam.jakubantalik.com",
+      "categories": [
+        "Motion & animasyon"
+      ],
+      "all_categories": [
+        "Motion & animasyon"
+      ],
+      "mentions": 1,
+      "what_it_is": "Border beam moved to a new home",
+      "type": "motion-library",
+      "harvest_model": "kod örnekleri sayfada; registry yoksa HTML'den çıkarım gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://beam.jakubantalik.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "emilkowal.ski",
+      "name": "emilkowal.ski",
+      "url": "https://emilkowal.ski/ui/you-dont-need-animations",
+      "domain": "emilkowal.ski",
+      "categories": [
+        "Motion & animasyon"
+      ],
+      "all_categories": [
+        "Motion & animasyon"
+      ],
+      "mentions": 1,
+      "what_it_is": "You Don't Need Animations",
+      "type": "motion-library",
+      "harvest_model": "kod örnekleri sayfada; registry yoksa HTML'den çıkarım gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://emilkowal.ski/ui/you-dont-need-animations",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "gooey.jakubantalik.com",
+      "name": "gooey.jakubantalik.com",
+      "url": "https://gooey.jakubantalik.com",
+      "domain": "gooey.jakubantalik.com",
+      "categories": [
+        "Motion & animasyon"
+      ],
+      "all_categories": [
+        "Motion & animasyon"
+      ],
+      "mentions": 1,
+      "what_it_is": "Liquid Gooey moved to a new home",
+      "type": "motion-library",
+      "harvest_model": "kod örnekleri sayfada; registry yoksa HTML'den çıkarım gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://gooey.jakubantalik.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "motionsites.ai",
+      "name": "motionsites.ai",
+      "url": "https://motionsites.ai",
+      "domain": "motionsites.ai",
+      "categories": [
+        "Motion & animasyon"
+      ],
+      "all_categories": [
+        "Motion & animasyon"
+      ],
+      "mentions": 1,
+      "what_it_is": "MotionSites AI — Official Premium AI Website Prompts",
+      "type": "motion-library",
+      "harvest_model": "kod örnekleri sayfada; registry yoksa HTML'den çıkarım gerekir",
+      "access": {
+        "llms_txt": {
+          "url": "https://motionsites.ai/llms.txt",
+          "bytes": 1099,
+          "links": 8,
+          "in_corpus": true
+        },
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://motionsites.ai/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "pricing-page",
+            "detail": "Pricing](/unlimited): Plans and lifetime access options for unlimited prompt usage.",
+            "source": "llms.txt",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/sites/motionsites.ai"
+        ],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "llms.txt anlık görüntüsü (sağlayıcı değişimini yakalamak için)",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=true registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ]
+    },
+    {
+      "id": "text-effects.colorion.co",
+      "name": "text-effects.colorion.co",
+      "url": "https://text-effects.colorion.co",
+      "domain": "text-effects.colorion.co",
+      "categories": [
+        "Motion & animasyon"
+      ],
+      "all_categories": [
+        "Motion & animasyon"
+      ],
+      "mentions": 1,
+      "what_it_is": "CSS Text Effects — 90 pure-CSS text animations, free to copy",
+      "type": "motion-library",
+      "harvest_model": "kod örnekleri sayfada; registry yoksa HTML'den çıkarım gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://text-effects.colorion.co/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://text-effects.colorion.co",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "tt-a1i.github.io",
+      "name": "tt-a1i.github.io",
+      "url": "https://tt-a1i.github.io/archify",
+      "domain": "tt-a1i.github.io",
+      "categories": [
+        "Motion & animasyon"
+      ],
+      "all_categories": [
+        "Motion & animasyon"
+      ],
+      "mentions": 1,
+      "what_it_is": "Archify — Technical Diagrams from Plain English",
+      "type": "motion-library",
+      "harvest_model": "kod örnekleri sayfada; registry yoksa HTML'den çıkarım gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://tt-a1i.github.io/archify",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "kod örnekleri sayfa içinde gömülü; sayfa yapısı değişirse çıkarım kırılır"
+      ],
+      "next_actions": [
+        "llms.txt bağlantılarını takip edip örnek sayfalarını corpus'a ekle"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "bestfreefonts.com",
+      "name": "bestfreefonts.com",
+      "url": "https://bestfreefonts.com",
+      "domain": "bestfreefonts.com",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "Best Free Fonts – Curated Fonts for Designers",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://bestfreefonts.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://bestfreefonts.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "collletttivo.it",
+      "name": "collletttivo.it",
+      "url": "https://collletttivo.it",
+      "domain": "collletttivo.it",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "Collletttivo · Collletttivo",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://collletttivo.it/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://collletttivo.it",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "fontain.org",
+      "name": "fontain.org",
+      "url": "https://fontain.org",
+      "domain": "fontain.org",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "fontain = a font-collection (and a font-collection-system)",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://fontain.org",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "fontshare.com",
+      "name": "fontshare.com",
+      "url": "https://fontshare.com",
+      "domain": "fontshare.com",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "Fontshare is a free fonts service from the Indian Type Foundry (ITF), making quality fonts accessible to all.",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://fontshare.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "indestructibletype.com",
+      "name": "indestructibletype.com",
+      "url": "https://indestructibletype.com",
+      "domain": "indestructibletype.com",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://indestructibletype.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "open-foundry.com",
+      "name": "open-foundry.com",
+      "url": "https://open-foundry.com",
+      "domain": "open-foundry.com",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "Open Foundry / Curated Fonts for Free",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://open-foundry.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "supafonts.com",
+      "name": "supafonts.com",
+      "url": "https://supafonts.com",
+      "domain": "supafonts.com",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "Supa Fonts - Library of fonts & font generators",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://supafonts.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "theleagueofmoveabletype.com",
+      "name": "theleagueofmoveabletype.com",
+      "url": "https://theleagueofmoveabletype.com",
+      "domain": "theleagueofmoveabletype.com",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "The League of Moveable Type / The League of Moveable Type",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://theleagueofmoveabletype.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://theleagueofmoveabletype.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "tunera.xyz",
+      "name": "tunera.xyz",
+      "url": "https://tunera.xyz",
+      "domain": "tunera.xyz",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://tunera.xyz",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "typehug.aliszu.com",
+      "name": "typehug.aliszu.com",
+      "url": "https://typehug.aliszu.com",
+      "domain": "typehug.aliszu.com",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "Typehug · Keep words together",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://typehug.aliszu.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "usemodify.com",
+      "name": "usemodify.com",
+      "url": "https://usemodify.com",
+      "domain": "usemodify.com",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "Home - Use & Modify",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://usemodify.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "velvetyne.fr",
+      "name": "velvetyne.fr",
+      "url": "https://velvetyne.fr",
+      "domain": "velvetyne.fr",
+      "categories": [
+        "Font & tipografi"
+      ],
+      "all_categories": [
+        "Font & tipografi"
+      ],
+      "mentions": 1,
+      "what_it_is": "Home - Velvetyne",
+      "type": "font-foundry",
+      "harvest_model": "font dosyaları lisanslı; indirme şartları foundry'ye göre",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://velvetyne.fr",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "font dosyaları telifli; indirme çoğu foundry'de yasak/şartlı",
+        "OFL lisanslı olanlar serbest, diğerleri yalnızca referans"
+      ],
+      "next_actions": [
+        "font adı + lisans + indirme linkini envanterde tut; dosya indirme"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "coreui/coreui-icons",
+      "name": "coreui/coreui-icons",
+      "url": "https://github.com/coreui/coreui-icons",
+      "domain": "github.com",
+      "categories": [
+        "İkon"
+      ],
+      "all_categories": [
+        "İkon"
+      ],
+      "mentions": 1,
+      "what_it_is": "GitHub - coreui/coreui-icons: CoreUI Free Icons - Premium designed free icon set with marks in SVG, Webfont and raster formats",
+      "type": "repo",
+      "harvest_model": "git/raw → README + SKILL.md iner; tam repo için clone gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": {
+          "clone": "git clone https://github.com/coreui/coreui-icons.git",
+          "local": true
+        }
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "repo-license",
+            "detail": "MIT lisanslı repo",
+            "source": "https://github.com/coreui/coreui-icons/blob/HEAD/LICENSE",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/repos/coreui__coreui-icons"
+        ],
+        "barriers": [
+          {
+            "code": "partial_repo",
+            "count": null,
+            "sample": "https://github.com/coreui/coreui-icons",
+            "why": "sadece README/SKILL indi; tam repo clone edilmedi"
+          }
+        ]
+      },
+      "risks": [
+        "yalnızca README/SKILL indi; repo geçmişi ve paket içeriği yok"
+      ],
+      "next_actions": [
+        "tam klon + npm paket içeriğini corpus'a al (ikon/komponent setinin tamamı için)"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "commit hash (güncelleme takibi)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ],
+      "license": "MIT"
+    },
+    {
+      "id": "familyjs/famicons",
+      "name": "familyjs/famicons",
+      "url": "https://github.com/familyjs/famicons",
+      "domain": "github.com",
+      "categories": [
+        "İkon"
+      ],
+      "all_categories": [
+        "İkon"
+      ],
+      "mentions": 1,
+      "what_it_is": "GitHub - familyjs/famicons: Premium hand-crafted icons built by Family, for Family apps and web apps everywhere",
+      "type": "repo",
+      "harvest_model": "git/raw → README + SKILL.md iner; tam repo için clone gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": {
+          "clone": "git clone https://github.com/familyjs/famicons.git",
+          "local": false
+        }
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "repo-license",
+            "detail": "MIT lisanslı repo",
+            "source": "https://github.com/familyjs/famicons/blob/HEAD/LICENSE",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "none",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "partial_repo",
+            "count": null,
+            "sample": "https://github.com/familyjs/famicons",
+            "why": "sadece README/SKILL indi; tam repo clone edilmedi"
+          }
+        ]
+      },
+      "risks": [
+        "yalnızca README/SKILL indi; repo geçmişi ve paket içeriği yok"
+      ],
+      "next_actions": [
+        "tam klon + npm paket içeriğini corpus'a al (ikon/komponent setinin tamamı için)"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "commit hash (güncelleme takibi)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ],
+      "license": "MIT"
+    },
+    {
+      "id": "lucide-icons/lucide",
+      "name": "lucide-icons/lucide",
+      "url": "https://github.com/lucide-icons/lucide",
+      "domain": "github.com",
+      "categories": [
+        "İkon"
+      ],
+      "all_categories": [
+        "İkon"
+      ],
+      "mentions": 1,
+      "what_it_is": "GitHub - lucide-icons/lucide: Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feat…",
+      "type": "repo",
+      "harvest_model": "git/raw → README + SKILL.md iner; tam repo için clone gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": {
+          "clone": "git clone https://github.com/lucide-icons/lucide.git",
+          "local": true
+        }
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "repo-license",
+            "detail": "MIT lisanslı repo",
+            "source": "https://github.com/lucide-icons/lucide/blob/HEAD/LICENSE",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/repos/lucide-icons__lucide"
+        ],
+        "barriers": [
+          {
+            "code": "partial_repo",
+            "count": null,
+            "sample": "https://github.com/lucide-icons/lucide",
+            "why": "sadece README/SKILL indi; tam repo clone edilmedi"
+          }
+        ]
+      },
+      "risks": [
+        "yalnızca README/SKILL indi; repo geçmişi ve paket içeriği yok"
+      ],
+      "next_actions": [
+        "tam klon + npm paket içeriğini corpus'a al (ikon/komponent setinin tamamı için)"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "commit hash (güncelleme takibi)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ],
+      "license": "MIT"
+    },
+    {
+      "id": "react-icons/react-icons",
+      "name": "react-icons/react-icons",
+      "url": "https://github.com/react-icons/react-icons",
+      "domain": "github.com",
+      "categories": [
+        "İkon"
+      ],
+      "all_categories": [
+        "İkon"
+      ],
+      "mentions": 1,
+      "what_it_is": "GitHub - react-icons/react-icons: svg react icons of popular icon packs",
+      "type": "repo",
+      "harvest_model": "git/raw → README + SKILL.md iner; tam repo için clone gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": {
+          "clone": "git clone https://github.com/react-icons/react-icons.git",
+          "local": true
+        }
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "repo-license",
+            "detail": "MIT lisanslı repo",
+            "source": "https://github.com/react-icons/react-icons/blob/HEAD/LICENSE",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "full",
+        "files_local": 1,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [
+          "corpus/repos/react-icons__react-icons"
+        ],
+        "barriers": [
+          {
+            "code": "partial_repo",
+            "count": null,
+            "sample": "https://github.com/react-icons/react-icons",
+            "why": "sadece README/SKILL indi; tam repo clone edilmedi"
+          }
+        ]
+      },
+      "risks": [
+        "yalnızca README/SKILL indi; repo geçmişi ve paket içeriği yok"
+      ],
+      "next_actions": [
+        "tam klon + npm paket içeriğini corpus'a al (ikon/komponent setinin tamamı için)"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "commit hash (güncelleme takibi)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        },
+        {
+          "at": "2026-09-14",
+          "event": "harvest",
+          "note": "1 dosya, 0 komponent kaynağı"
+        }
+      ],
+      "license": "MIT"
+    },
+    {
+      "id": "stash-ui/icons",
+      "name": "stash-ui/icons",
+      "url": "https://github.com/stash-ui/icons",
+      "domain": "github.com",
+      "categories": [
+        "İkon"
+      ],
+      "all_categories": [
+        "İkon"
+      ],
+      "mentions": 1,
+      "what_it_is": "GitHub - stash-ui/icons: A gorgeous set of 24x24 icons. Designed by the @getpingback team.",
+      "type": "repo",
+      "harvest_model": "git/raw → README + SKILL.md iner; tam repo için clone gerekir",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": {
+          "clone": "git clone https://github.com/stash-ui/icons.git",
+          "local": false
+        }
+      },
+      "pricing": {
+        "model": "free",
+        "evidence": [
+          {
+            "signal": "repo-license",
+            "detail": "MIT lisanslı repo",
+            "source": "https://github.com/stash-ui/icons/blob/HEAD/LICENSE",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "none",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": [
+          {
+            "code": "partial_repo",
+            "count": null,
+            "sample": "https://github.com/stash-ui/icons",
+            "why": "sadece README/SKILL indi; tam repo clone edilmedi"
+          }
+        ]
+      },
+      "risks": [
+        "yalnızca README/SKILL indi; repo geçmişi ve paket içeriği yok"
+      ],
+      "next_actions": [
+        "tam klon + npm paket içeriğini corpus'a al (ikon/komponent setinin tamamı için)"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "commit hash (güncelleme takibi)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ],
+      "license": "MIT"
+    },
+    {
+      "id": "hugeicons.com",
+      "name": "hugeicons.com",
+      "url": "https://hugeicons.com",
+      "domain": "hugeicons.com",
+      "categories": [
+        "İkon"
+      ],
+      "all_categories": [
+        "İkon"
+      ],
+      "mentions": 1,
+      "what_it_is": "Hugeicons - 60,000+ Free & Pro Icons for Designers & Developers",
+      "type": "icon-set",
+      "harvest_model": "site üzerinden arama/indirme; toplu indirme yok",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://hugeicons.com/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "live-pricing-page",
+            "detail": "https://hugeicons.com/pricing → plan fiyatı: $ 99 /year",
+            "source": "https://hugeicons.com/pricing",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "https://hugeicons.com/pricing → ücretsiz plan ifadesi var",
+            "source": "https://hugeicons.com/pricing",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [
+        "toplu indirme ucu yok; arama/indirme manuel veya lisanslı"
+      ],
+      "next_actions": [
+        "pack sağlıyorsa npm paketini dene"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "ray.so",
+      "name": "ray.so",
+      "url": "https://ray.so",
+      "domain": "ray.so",
+      "categories": [
+        "Renk & efekt"
+      ],
+      "all_categories": [
+        "Renk & efekt"
+      ],
+      "mentions": 1,
+      "what_it_is": "Create beautiful images of your code",
+      "type": "color-tool",
+      "harvest_model": "üreteç/araç; çıktı kullanıcı üretimi (gradient vb.)",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": {
+          "url": "https://ray.so/sitemap.xml"
+        },
+        "repo": null
+      },
+      "pricing": {
+        "model": "freemium",
+        "evidence": [
+          {
+            "signal": "live-pricing-page",
+            "detail": "https://ray.so/pro → plan fiyatı: $ 8 /mo",
+            "source": "https://ray.so/pro",
+            "confidence": "medium"
+          },
+          {
+            "signal": "free-signal",
+            "detail": "https://ray.so/pro → ücretsiz plan ifadesi var",
+            "source": "https://ray.so/pro",
+            "confidence": "medium"
+          }
+        ],
+        "confidence": "medium"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [],
+      "next_actions": [
+        "şimdilik yapılacak yok"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "sitemap anlık görüntüsü (yeni öğeleri diff'lemek için)",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    },
+    {
+      "id": "ui.gradients.com",
+      "name": "ui.gradients.com",
+      "url": "https://ui.gradients.com",
+      "domain": "ui.gradients.com",
+      "categories": [
+        "Renk & efekt"
+      ],
+      "all_categories": [
+        "Renk & efekt"
+      ],
+      "mentions": 1,
+      "what_it_is": "",
+      "type": "color-tool",
+      "harvest_model": "üreteç/araç; çıktı kullanıcı üretimi (gradient vb.)",
+      "access": {
+        "llms_txt": null,
+        "llms_full": null,
+        "registry": null,
+        "mcp": [],
+        "skill_index": null,
+        "sitemap": null,
+        "repo": null
+      },
+      "pricing": {
+        "model": "unknown",
+        "evidence": [
+          {
+            "signal": "no-pricing-page",
+            "detail": "site üzerinde fiyat sayfası/ifadesi bulunamadı",
+            "source": "https://ui.gradients.com",
+            "confidence": "low"
+          }
+        ],
+        "confidence": "low"
+      },
+      "harvest": {
+        "status": "not_applicable",
+        "files_local": 0,
+        "component_src": 0,
+        "items_listed": null,
+        "items_fetched": null,
+        "items_missing": null,
+        "dirs": [],
+        "barriers": []
+      },
+      "risks": [],
+      "next_actions": [
+        "şimdilik yapılacak yok"
+      ],
+      "keep": [
+        "kaynak URL + ilk görülme tarihi + kaynak postlar",
+        "lisans/plan notu (satın alma kararı)"
+      ],
+      "log": [
+        {
+          "at": "2026-09-14",
+          "event": "probe",
+          "note": "llms=false registry=false mcp=false"
+        }
+      ]
+    }
+  ],
+  "unharvestable": [
+    {
+      "site": "recent.design",
+      "url": "https://recent.design",
+      "type": "gallery",
+      "code": "image_only",
+      "count": 1049,
+      "sample": "https://recent.design",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 1049 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "footer.design",
+      "url": "https://footer.design",
+      "type": "section-gallery",
+      "code": "image_only",
+      "count": 817,
+      "sample": "https://footer.design",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 817 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "navbar.gallery",
+      "url": "https://navbar.gallery",
+      "type": "section-gallery",
+      "code": "image_only",
+      "count": 642,
+      "sample": "https://navbar.gallery",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 642 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "cta.gallery",
+      "url": "https://cta.gallery",
+      "type": "section-gallery",
+      "code": "image_only",
+      "count": 538,
+      "sample": "https://cta.gallery",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 538 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "originkit.dev",
+      "url": "https://originkit.dev",
+      "type": "gallery",
+      "code": "image_only",
+      "count": 531,
+      "sample": "https://originkit.dev",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 531 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "404s.design",
+      "url": "https://404s.design",
+      "type": "section-gallery",
+      "code": "image_only",
+      "count": 246,
+      "sample": "https://404s.design",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 246 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "ui.aceternity.com",
+      "url": "https://ui.aceternity.com",
+      "type": "registry",
+      "code": "http_401",
+      "count": 139,
+      "sample": "https://ui.aceternity.com/registry/cta-centered-masonry-gallery.json",
+      "why": "lisans anahtarı gerekiyor (ücretli içerik)",
+      "fix": "ücretli kısım için lisans anahtarı al; fetch'e Authorization başlığı eklenmeli (henüz yok)"
+    },
+    {
+      "site": "neuform.ai",
+      "url": "https://neuform.ai",
+      "type": "gallery",
+      "code": "image_only",
+      "count": 83,
+      "sample": "https://neuform.ai",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 83 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "styles.refero.design",
+      "url": "https://styles.refero.design",
+      "type": "gallery",
+      "code": "image_only",
+      "count": 51,
+      "sample": "https://styles.refero.design",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 51 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "transitions.dev",
+      "url": "https://transitions.dev",
+      "type": "gallery",
+      "code": "image_only",
+      "count": 49,
+      "sample": "https://transitions.dev",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 49 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "ui.shadcn.com",
+      "url": "https://ui.shadcn.com",
+      "type": "registry",
+      "code": "http_404",
+      "count": 2,
+      "sample": "https://ui.shadcn.com/r/styles/new-york-v4/questionnaire.json",
+      "why": "bu isimde item yok (indeks ile item uçları tutarsız)",
+      "fix": "kalan 23 item limit yüzünden inmedi: bun tools/fetch.mjs --registries --items=2000 --only=ui.shadcn.com"
+    },
+    {
+      "site": "kinetics.colorion.co",
+      "url": "https://kinetics.colorion.co",
+      "type": "gallery",
+      "code": "image_only",
+      "count": 1,
+      "sample": "https://kinetics.colorion.co",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "screenshot pipeline: 1 sayfa × (tam sayfa + kart görseli), sonra vision ile etiketleme"
+    },
+    {
+      "site": "component.gallery",
+      "url": "https://component.gallery",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://component.gallery",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "collectui.com",
+      "url": "https://collectui.com",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://collectui.com",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "inspora.design",
+      "url": "https://inspora.design",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://inspora.design",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "supahero.io",
+      "url": "https://supahero.io",
+      "type": "section-gallery",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://supahero.io",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "bencho.dev",
+      "url": "https://bencho.dev",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://bencho.dev",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "design-md.hyperbrowser.ai",
+      "url": "https://design-md.hyperbrowser.ai",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://design-md.hyperbrowser.ai",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "designmd.supply",
+      "url": "https://designmd.supply",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://designmd.supply",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "loadmo.re",
+      "url": "https://loadmo.re",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://loadmo.re",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "miaai-lab.github.io",
+      "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "saaspo.com",
+      "url": "https://saaspo.com",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://saaspo.com",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "typeui.sh",
+      "url": "https://typeui.sh",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://typeui.sh",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "wieslawsoltes.github.io",
+      "url": "https://wieslawsoltes.github.io/VaporaProcessStudio",
+      "type": "gallery-no-sitemap",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://wieslawsoltes.github.io/VaporaProcessStudio",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "bentogrids.com",
+      "url": "https://bentogrids.com",
+      "type": "section-gallery",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://bentogrids.com",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    },
+    {
+      "site": "unsection.com",
+      "url": "https://unsection.com",
+      "type": "section-gallery",
+      "code": "image_only",
+      "count": null,
+      "sample": "https://unsection.com",
+      "why": "içerik ekran görüntüsü; kod yok — browser/vision gerekir",
+      "fix": "sitemap yok: sayfalama/keşif yazılmalı, yoksa manuel liste"
+    }
+  ],
+  "harvest_index": {
+    "60fps.design": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/60fps.design",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "beautiful-ui-five.vercel.app": {
+      "kind": "registry",
+      "dir": "corpus/sites/beautiful-ui-five.vercel.app",
+      "files": 57,
+      "component_src": 29,
+      "items": 27,
+      "llms": false
+    },
+    "mobbin.com": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/mobbin.com",
+      "files": 2,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "navbar.gallery": {
+      "kind": "section-gallery",
+      "dir": "corpus/sites/navbar.gallery",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "beautifului.dev": {
+      "kind": "registry",
+      "dir": "corpus/sites/beautifului.dev",
+      "files": 57,
+      "component_src": 29,
+      "items": 27,
+      "llms": false
+    },
+    "cathrynlavery/diagram-design": {
+      "kind": "repo",
+      "dir": "corpus/repos/cathrynlavery__diagram-design",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": false
+    },
+    "rareui.com": {
+      "kind": "registry",
+      "dir": "corpus/sites/rareui.com",
+      "files": 44,
+      "component_src": 21,
+      "items": 21,
+      "llms": true
+    },
+    "ui.shadcn.com": {
+      "kind": "registry",
+      "dir": "corpus/sites/ui.shadcn.com",
+      "files": 82,
+      "component_src": 40,
+      "items": 40,
+      "llms": true
+    },
+    "404s.design": {
+      "kind": "section-gallery",
+      "dir": "corpus/sites/404s.design",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "aura.build": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/aura.build",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "beui.dev": {
+      "kind": "registry",
+      "dir": "corpus/sites/beui.dev",
+      "files": 203,
+      "component_src": 161,
+      "items": 40,
+      "llms": true
+    },
+    "canvasui.dev": {
+      "kind": "registry",
+      "dir": "corpus/sites/canvasui.dev",
+      "files": 842,
+      "component_src": 420,
+      "items": 420,
+      "llms": true
+    },
+    "designmd.me": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/designmd.me",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "footer.design": {
+      "kind": "section-gallery",
+      "dir": "corpus/sites/footer.design",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "obra/superpowers": {
+      "kind": "repo",
+      "dir": "corpus/repos/obra__superpowers",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": false
+    },
+    "open-design.ai": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/open-design.ai",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "opensourceui.in": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/opensourceui.in",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "posts.design": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/posts.design",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "seo-stuff.com": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/seo-stuff.com",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "ui-skills.com": {
+      "kind": "docs-site",
+      "dir": "corpus/sites/ui-skills.com",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "ui.aceternity.com": {
+      "kind": "registry",
+      "dir": "corpus/sites/ui.aceternity.com",
+      "files": 83,
+      "component_src": 40,
+      "items": 40,
+      "llms": true
+    },
+    "motionsites.ai": {
+      "kind": "motion-library",
+      "dir": "corpus/sites/motionsites.ai",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": true
+    },
+    "coreui/coreui-icons": {
+      "kind": "repo",
+      "dir": "corpus/repos/coreui__coreui-icons",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": false
+    },
+    "lucide-icons/lucide": {
+      "kind": "repo",
+      "dir": "corpus/repos/lucide-icons__lucide",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": false
+    },
+    "react-icons/react-icons": {
+      "kind": "repo",
+      "dir": "corpus/repos/react-icons__react-icons",
+      "files": 1,
+      "component_src": 0,
+      "items": null,
+      "llms": false
+    }
+  }
+}

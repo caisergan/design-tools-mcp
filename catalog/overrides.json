@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "note": "Hand fixes applied last by tools/build.mjs; they survive rebuilds and metadata re-runs. Allowed fields: name, desc, about, categories (category ids from taxonomy.json). Example: \"hover-dev\": { \"name\": \"Hover.dev\" }. Read by tools/tag.mjs only: items.<id>.type (icon-set | asset-library: the entry's registry items get no elements, until Phase 2B records carry the type) and components[\"<domain>/<item name>\"] = { elements, variants } (replaces the computed tags of one registry item).",
+  "items": {
+    "icons-pqoqubbw-dev": {
+      "type": "icon-set"
+    },
+    "heroicons-animated-vercel-app": {
+      "type": "icon-set"
+    },
+    "undraw-cn-vaatun-com": {
+      "type": "asset-library"
+    },
+    "github-com-denissergeevitch-agents-best-practices": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-garrytan-gstack": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-msitarzewski-agency-agents": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-secondsky-claude-skills": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-mnfst-manifest": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-citrolabs-ego-lite-blob-main-skills-ego-browser-skill-md": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-karanpratapsingh-system-design": {
+      "categories": [
+        "learning"
+      ]
+    },
+    "github-com-404oops-vampir": {
+      "categories": [
+        "components"
+      ]
+    },
+    "github-com-kolbicz-sbtweaker": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-michaelshimeles-skills": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-userinner-skills": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-tonhowtf-omniget": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "github-com-kaitomuraoka-swiftui-component-gallery": {
+      "categories": [
+        "components"
+      ]
+    },
+    "github-com-tryosschat-openchat-issues-523": {
+      "categories": [
+        "dev-ai-tools"
+      ]
+    },
+    "prompt-motion-com": {
+      "name": "Prompt Motion"
+    }
+  },
+  "components": {
+    "shadcn.io/faq-sticky-nav": {
+      "elements": [
+        "faq"
+      ]
+    },
+    "shadcnblocks.com/integration13": {
+      "elements": [
+        "dock"
+      ]
+    },
+    "shadcn.io/features-dock-magnifier-hover-bar": {
+      "elements": [
+        "features",
+        "dock"
+      ]
+    }
+  }
+}

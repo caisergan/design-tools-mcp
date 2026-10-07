@@ -1,0 +1,3291 @@
+{
+  "schema_version": 1,
+  "status": "draft 2026-10-07 (step 2.3, stage 1, revised after review) — not wired into the build yet; tagger: tools/tag.mjs",
+  "matching": {
+    "tokens": "lowercase; split on non-alphanumerics, camelCase and letter/digit boundaries (PillNav → pill nav, menu3 → menu 3, 3d → 3 d); aliases are tokenised the same way",
+    "glued_words": "some registries glue words (mynaui: appheaders1, dropdownmenu3); the common glued spellings are listed as aliases rather than split by a dictionary",
+    "stemming": "an alias token matches a text token or its singular (navbars → navbar, heroes → hero, faqs → faq, boxes → box); plural aliases ('logos') match only the plural",
+    "whole_tokens": "aliases match whole token sequences only: 'nav' matches floating-nav, never canvas",
+    "longest_match": "an alias span inside a longer alias span of another element is dropped ('pricing table' → pricing, not table; 'hero header' → hero, not navbar); identical spans tag every element that lists them ('sidebar nav' → sidebar + navbar)",
+    "exclude": "per element: an alias match inside one of the element's exclude phrases is dropped ('faq-keyboard-nav' → no navbar)",
+    "with_tail": "in a name or title, element aliases after the first 'with' are features, not the item's element ('card-with-header' → card, 'footer-with-nav' → footer); variants still match there",
+    "weak_aliases": "an element's weak aliases ('header' for navbar) count only in the slug/name, only when no other element matches in that name, and never when the name or title contains one of the element's exclude phrases ('header-1' titled 'Page header with tabs' → no navbar; 'chat-header' → chat)",
+    "asset_gate": "icons and illustrations are not UI elements: items named icon-* / icons-* and items of registries whose entry type is icon-set or asset-library get no element (before Phase 2B the entry type comes from overrides.json items.<id>.type)",
+    "type_gate": "registry items of type registry:hook | lib | style | theme | font | file never get an element",
+    "fields": "elements from slug/name + title; variants from name + title and only on items that already carry the element; the description is a search field, never a tag source",
+    "variant_aliases": "variants are read only on items that already carry the element, so a single word is fine when it names the variant inside that element ('columns' on a footer); words that there mostly mean something else are left out ('store' on an ecommerce navbar, 'grid' on a hero, 'panel' on a split CTA)",
+    "overrides": "overrides.json components[\"<domain>/<item name>\"] = { elements, variants } replaces the computed tags of one item; use it for one-off misses, not for patterns",
+    "standalone_variants": "a variant marked standalone (all its aliases) or with standalone_aliases (only those) also tags its element on its own ('mega menu' → navbar + mega-menu, 'dock' → navbar + dock); variants that are also kinds of their own (sidebar, menubar, tabs, breadcrumbs) are not standalone, so 'sidebar-nav' is a sidebar and 'menubar' is not a navbar"
+  },
+  "categorize": {
+    "rule": "an entry's categories are the ids whose from_labels hold one of its source labels, in source order, at most 2. drop_labels are report sections, not categories. An entry left without a category (repo_label alone, or only drop_labels) is matched on its name, description, title and labels: design-rules when a design_rules_words phrase occurs together with a design_words token (an agent skill about SEO is not a design rule), else the first two other categories whose aliases occur (ignoring text_ignore_aliases, too generic outside design apps: cline is an 'IDE extension'), else default. overrides.json items.<id>.categories (ids) win over all of this.",
+    "drop_labels": [
+      "Birden fazla postta tekrar eden siteler",
+      "Tek site paylaşan postlar",
+      "Diğer"
+    ],
+    "repo_label": "GitHub repoları (postlarda paylaşılan)",
+    "design_rules_words": [
+      "skill",
+      "skills",
+      "rules",
+      "guidelines",
+      "design md",
+      "prompt",
+      "prompts",
+      "agent",
+      "agents",
+      "claude code",
+      "cursor rules"
+    ],
+    "design_words": [
+      "design",
+      "designer",
+      "designs",
+      "ui",
+      "ux",
+      "frontend",
+      "front end",
+      "taste",
+      "slop",
+      "typography",
+      "visual",
+      "tailwind",
+      "css",
+      "landing page",
+      "brand",
+      "aesthetic"
+    ],
+    "text_ignore_aliases": [
+      "plugin",
+      "extension"
+    ],
+    "default": "dev-ai-tools"
+  },
+  "categories": [
+    {
+      "id": "components",
+      "label": "Components & UI kits",
+      "definition": "Libraries and kits of reusable UI components (buttons, dialogs, forms …), incl. framework ports and design systems.",
+      "aliases": [
+        "component library",
+        "components",
+        "ui kit",
+        "ui library",
+        "design system",
+        "component kit"
+      ],
+      "from_labels": [
+        "UI komponent & kit",
+        "shadcn ecosystem · Libs and Components",
+        "shadcn ecosystem · Ports",
+        "shadcn ecosystem · Design System"
+      ]
+    },
+    {
+      "id": "sections",
+      "label": "Section galleries & blocks",
+      "definition": "Galleries and kits of page sections: navbar, hero, footer, CTA, pricing, testimonials …",
+      "aliases": [
+        "section gallery",
+        "sections",
+        "blocks",
+        "landing page sections",
+        "section examples"
+      ],
+      "from_labels": [
+        "Bölüm galerileri (navbar / hero / footer / CTA)"
+      ]
+    },
+    {
+      "id": "inspiration",
+      "label": "Inspiration & galleries",
+      "definition": "Curated showcases of whole websites, apps and portfolios to browse for ideas.",
+      "aliases": [
+        "inspiration",
+        "gallery",
+        "showcase",
+        "website examples",
+        "portfolios",
+        "moodboard"
+      ],
+      "from_labels": [
+        "İlham & galeri (web sitesi örnekleri)",
+        "shadcn ecosystem · Websites and Portfolios"
+      ]
+    },
+    {
+      "id": "templates",
+      "label": "Templates & boilerplates",
+      "definition": "Complete starter sites, app templates, boilerplates and platforms you build on.",
+      "aliases": [
+        "template",
+        "boilerplate",
+        "starter",
+        "starter kit",
+        "website template",
+        "saas template"
+      ],
+      "from_labels": [
+        "shadcn ecosystem · Boilerplates / Templates",
+        "shadcn ecosystem · Platforms"
+      ]
+    },
+    {
+      "id": "motion",
+      "label": "Motion & animation",
+      "definition": "Animation libraries, animated components and motion references.",
+      "aliases": [
+        "animation",
+        "animated",
+        "motion",
+        "transitions",
+        "micro interactions"
+      ],
+      "from_labels": [
+        "Motion & animasyon",
+        "shadcn ecosystem · Animations"
+      ]
+    },
+    {
+      "id": "design-rules",
+      "label": "Design rules for AI",
+      "definition": "Written design guidance an agent or person follows: DESIGN.md files, agent skills, style and UI rules.",
+      "aliases": [
+        "design.md",
+        "design rules",
+        "design guidelines",
+        "agent skill",
+        "ui rules",
+        "style guide"
+      ],
+      "from_labels": [
+        "DESIGN.md & AI'ya tasarım talimatı"
+      ]
+    },
+    {
+      "id": "fonts",
+      "label": "Fonts & typography",
+      "definition": "Typefaces, font foundries and typography tools.",
+      "aliases": [
+        "font",
+        "typeface",
+        "typography",
+        "type foundry",
+        "variable font"
+      ],
+      "from_labels": [
+        "Font & tipografi"
+      ]
+    },
+    {
+      "id": "icons",
+      "label": "Icons",
+      "definition": "Icon sets, icon packs and icon tools.",
+      "aliases": [
+        "icon",
+        "icon set",
+        "icon pack",
+        "svg icons",
+        "icon library"
+      ],
+      "from_labels": [
+        "İkon"
+      ]
+    },
+    {
+      "id": "color-effects",
+      "label": "Color & effects",
+      "definition": "Color palettes, gradients, shadows, theme generators and visual effects.",
+      "aliases": [
+        "color",
+        "palette",
+        "gradient",
+        "shadow",
+        "theme generator",
+        "color picker",
+        "visual effects"
+      ],
+      "from_labels": [
+        "Renk & efekt",
+        "shadcn ecosystem · Colors and Customizations"
+      ]
+    },
+    {
+      "id": "layout",
+      "label": "Layout, grid & bento",
+      "definition": "Grid, bento and layout systems and references.",
+      "aliases": [
+        "layout",
+        "grid",
+        "bento",
+        "bento grid",
+        "spacing"
+      ],
+      "from_labels": [
+        "Layout, grid & bento"
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Stock images, illustrations & mockups",
+      "definition": "Stock photos, illustrations, mockups, 3D and other visual assets.",
+      "aliases": [
+        "stock photos",
+        "illustration",
+        "mockup",
+        "images",
+        "3d assets",
+        "assets"
+      ],
+      "from_labels": [
+        "Stok görsel, illüstrasyon & mockup"
+      ]
+    },
+    {
+      "id": "design-tools",
+      "label": "Design tools & plugins",
+      "definition": "Design apps and their plugins or extensions (Figma etc.), and tools that help produce UI.",
+      "aliases": [
+        "design tool",
+        "figma",
+        "figma plugin",
+        "plugin",
+        "extension",
+        "browser extension"
+      ],
+      "from_labels": [
+        "Tasarım araçları (Figma vb.)",
+        "shadcn ecosystem · Tools",
+        "shadcn ecosystem · Plugins and Extensions"
+      ]
+    },
+    {
+      "id": "learning",
+      "label": "Reading & learning",
+      "definition": "Articles, courses, books and guides about design.",
+      "aliases": [
+        "article",
+        "course",
+        "tutorial",
+        "guide",
+        "book",
+        "reading"
+      ],
+      "from_labels": [
+        "Okuma & öğrenme kaynakları"
+      ]
+    },
+    {
+      "id": "registries",
+      "label": "shadcn registries",
+      "definition": "Sites that serve installable component code in the shadcn registry format.",
+      "aliases": [
+        "registry",
+        "shadcn registry",
+        "shadcn add",
+        "component registry"
+      ],
+      "from_labels": [
+        "shadcn ecosystem · Registries"
+      ]
+    },
+    {
+      "id": "dev-ai-tools",
+      "label": "Dev & AI tools",
+      "definition": "Developer, AI and general tools that are not design resources themselves.",
+      "aliases": [
+        "developer tool",
+        "ai tool",
+        "cli",
+        "mac app",
+        "productivity",
+        "dev tools"
+      ],
+      "from_labels": [
+        "Dev / AI araçları (tasarım dışı ama postlarda geçiyor)",
+        "Mac & creator uygulamaları",
+        "Genel web araçları"
+      ]
+    }
+  ],
+  "types": [
+    {
+      "id": "component-library",
+      "label": "Component library",
+      "definition": "A set of reusable components you install or copy (npm package or copy-paste).",
+      "aliases": [
+        "component library",
+        "ui library",
+        "ui kit",
+        "components"
+      ]
+    },
+    {
+      "id": "block-library",
+      "label": "Block library",
+      "definition": "Ready-made page sections / blocks (hero, pricing, footer …) to copy into a page.",
+      "aliases": [
+        "blocks",
+        "block library",
+        "sections",
+        "section kit"
+      ]
+    },
+    {
+      "id": "template",
+      "label": "Template",
+      "definition": "A complete site or app starter: boilerplate, theme, landing page template.",
+      "aliases": [
+        "template",
+        "boilerplate",
+        "starter",
+        "starter kit",
+        "theme"
+      ]
+    },
+    {
+      "id": "design-system",
+      "label": "Design system",
+      "definition": "A company's documented system of tokens, components and guidelines.",
+      "aliases": [
+        "design system",
+        "design language",
+        "design tokens"
+      ]
+    },
+    {
+      "id": "registry",
+      "label": "Registry",
+      "definition": "A shadcn-format registry that serves installable component code.",
+      "aliases": [
+        "registry",
+        "shadcn registry"
+      ]
+    },
+    {
+      "id": "gallery",
+      "label": "Gallery",
+      "definition": "A curated collection of screenshots or links to real designs, browsable by filter.",
+      "aliases": [
+        "gallery",
+        "showcase",
+        "inspiration",
+        "collection"
+      ]
+    },
+    {
+      "id": "generator",
+      "label": "Generator",
+      "definition": "A tool that produces an asset from settings: gradients, palettes, shadows, patterns, SVGs.",
+      "aliases": [
+        "generator",
+        "maker",
+        "builder"
+      ]
+    },
+    {
+      "id": "tool",
+      "label": "Tool",
+      "definition": "A web app or utility used while designing or building (not a generator or plugin).",
+      "aliases": [
+        "tool",
+        "utility",
+        "web app"
+      ]
+    },
+    {
+      "id": "plugin",
+      "label": "Plugin",
+      "definition": "An extension for another app: Figma plugin, browser extension, editor extension.",
+      "aliases": [
+        "plugin",
+        "extension",
+        "figma plugin",
+        "browser extension"
+      ]
+    },
+    {
+      "id": "font-foundry",
+      "label": "Font foundry",
+      "definition": "A source of typefaces: foundry, font library or font marketplace.",
+      "aliases": [
+        "font foundry",
+        "foundry",
+        "fonts",
+        "typefaces"
+      ]
+    },
+    {
+      "id": "icon-set",
+      "label": "Icon set",
+      "definition": "A set or library of icons.",
+      "aliases": [
+        "icon set",
+        "icon pack",
+        "icons",
+        "icon library"
+      ]
+    },
+    {
+      "id": "asset-library",
+      "label": "Asset library",
+      "definition": "Stock photos, illustrations, mockups, 3D models, textures or other visual assets.",
+      "aliases": [
+        "assets",
+        "stock photos",
+        "illustrations",
+        "mockups",
+        "3d models"
+      ]
+    },
+    {
+      "id": "agent-skill",
+      "label": "Agent skill",
+      "definition": "A SKILL.md or prompt package that teaches an AI agent how to design or build UI.",
+      "aliases": [
+        "agent skill",
+        "skill",
+        "claude skill",
+        "prompt pack"
+      ]
+    },
+    {
+      "id": "design-rules",
+      "label": "Design rules",
+      "definition": "A written rule set for UI: DESIGN.md, style guide, design principles.",
+      "aliases": [
+        "design.md",
+        "design rules",
+        "style guide",
+        "guidelines"
+      ]
+    },
+    {
+      "id": "article",
+      "label": "Article",
+      "definition": "A single blog post, essay or write-up.",
+      "aliases": [
+        "article",
+        "blog post",
+        "essay",
+        "write-up"
+      ]
+    },
+    {
+      "id": "course",
+      "label": "Course",
+      "definition": "A structured course, tutorial series or book.",
+      "aliases": [
+        "course",
+        "tutorial",
+        "lessons",
+        "book"
+      ]
+    },
+    {
+      "id": "directory",
+      "label": "Directory",
+      "definition": "A list of links to other resources (awesome list, tool directory).",
+      "aliases": [
+        "directory",
+        "awesome list",
+        "list of resources",
+        "link collection"
+      ]
+    },
+    {
+      "id": "app",
+      "label": "App",
+      "definition": "A standalone desktop or mobile application.",
+      "aliases": [
+        "app",
+        "mac app",
+        "desktop app",
+        "mobile app"
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "id": "navbar",
+      "group": "sections",
+      "label": "Navbar",
+      "definition": "The main navigation of a site or app: a bar across the top, a bottom tab bar on mobile, or a dock; holds links, menus, logo and actions. A vertical side panel on its own is `sidebar`; an app menu bar (File, Edit …) is not a navbar.",
+      "aliases": [
+        "navbar",
+        "nav bar",
+        "nav",
+        "navigation bar",
+        "navigation menu",
+        "top navigation",
+        "top nav",
+        "topbar",
+        "top bar",
+        "header",
+        "site header",
+        "app header",
+        "main header",
+        "header menu",
+        "header nav",
+        "header navigation",
+        "main nav",
+        "main navigation",
+        "primary nav",
+        "primary navigation",
+        "app bar",
+        "appbar",
+        "appheader",
+        "navigation header"
+      ],
+      "weak_aliases": [
+        "header"
+      ],
+      "exclude": [
+        "keyboard nav",
+        "keyboard navigation",
+        "calendar nav",
+        "calendar navigation",
+        "gantt nav",
+        "cascader nav",
+        "tree nav",
+        "vim navigation",
+        "stepper nav",
+        "banner top bar",
+        "header checkbox",
+        "page header",
+        "section header",
+        "card header",
+        "table header",
+        "column header",
+        "chat header",
+        "sidebar header",
+        "list header",
+        "node header",
+        "item header",
+        "message header",
+        "snippet header",
+        "component header",
+        "post header",
+        "cv header",
+        "profile header",
+        "summary header",
+        "board header",
+        "dashboard header",
+        "dialog header",
+        "modal header",
+        "sheet header",
+        "drawer header",
+        "accordion header",
+        "group header",
+        "gradient header",
+        "table sticky header",
+        "list sticky header",
+        "sidebar sticky header",
+        "pager header"
+      ],
+      "variants": [
+        {
+          "id": "dropdown",
+          "label": "Dropdown",
+          "definition": "Top-level links open small dropdown menus.",
+          "aliases": [
+            "dropdown",
+            "dropdowns",
+            "dropdown menu",
+            "submenu",
+            "multi level",
+            "nested"
+          ]
+        },
+        {
+          "id": "mega-menu",
+          "label": "Mega menu",
+          "definition": "Wide panels with grouped links, images or featured content.",
+          "aliases": [
+            "mega menu",
+            "megamenu",
+            "mega"
+          ],
+          "standalone_aliases": [
+            "mega menu",
+            "megamenu"
+          ]
+        },
+        {
+          "id": "sidebar",
+          "label": "Sidebar navigation",
+          "definition": "Navigation in a vertical side bar instead of (or next to) the top bar.",
+          "aliases": [
+            "sidebar nav",
+            "sidebar navigation",
+            "side nav",
+            "side navigation",
+            "side bar",
+            "sidebar",
+            "vertical nav"
+          ]
+        },
+        {
+          "id": "full-screen",
+          "label": "Full-screen menu",
+          "definition": "The menu opens as a full-screen overlay.",
+          "aliases": [
+            "full screen",
+            "fullscreen",
+            "full screen menu",
+            "overlay menu",
+            "fullscreen menu"
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "Mobile / bottom nav",
+          "definition": "Mobile navigation: hamburger menu, bottom tab bar, slide-in mobile menu.",
+          "aliases": [
+            "mobile",
+            "mobile nav",
+            "mobile navigation",
+            "mobile menu",
+            "bottom nav",
+            "bottom navigation",
+            "bottom bar",
+            "tab bar",
+            "hamburger",
+            "hamburger menu"
+          ],
+          "standalone_aliases": [
+            "mobile nav",
+            "mobile navigation",
+            "mobile menu",
+            "bottom nav",
+            "bottom navigation",
+            "hamburger menu"
+          ]
+        },
+        {
+          "id": "sticky",
+          "label": "Sticky",
+          "definition": "Stays fixed at the top while the page scrolls (often shrinking or blurring).",
+          "aliases": [
+            "sticky",
+            "fixed",
+            "scroll aware",
+            "shrink on scroll",
+            "hide on scroll"
+          ]
+        },
+        {
+          "id": "floating",
+          "label": "Floating",
+          "definition": "Detached from the page edge: a floating, often rounded bar.",
+          "aliases": [
+            "floating",
+            "detached"
+          ]
+        },
+        {
+          "id": "pill",
+          "label": "Pill",
+          "definition": "Links in a pill-shaped container or with pill highlights.",
+          "aliases": [
+            "pill",
+            "pills",
+            "capsule"
+          ]
+        },
+        {
+          "id": "dock",
+          "label": "Dock",
+          "definition": "macOS-style dock of icons that magnify on hover.",
+          "aliases": [
+            "dock",
+            "mac os dock",
+            "macos dock",
+            "app dock",
+            "floating dock",
+            "menu dock",
+            "glass dock"
+          ],
+          "standalone": true
+        },
+        {
+          "id": "with-search",
+          "label": "With search",
+          "definition": "Contains a search field, search overlay or command hint.",
+          "aliases": [
+            "search",
+            "search bar",
+            "search overlay",
+            "command hint",
+            "command"
+          ]
+        },
+        {
+          "id": "with-cart",
+          "label": "E-commerce / with cart",
+          "definition": "Store navbar with cart, wishlist, account or category links.",
+          "aliases": [
+            "cart",
+            "mini cart",
+            "wishlist",
+            "shopping cart",
+            "shopping bag"
+          ]
+        },
+        {
+          "id": "announcement-bar",
+          "label": "Announcement bar",
+          "definition": "A thin promo or announcement strip above the navbar.",
+          "aliases": [
+            "announcement",
+            "announcement bar",
+            "utility bar",
+            "promo bar",
+            "banner"
+          ]
+        },
+        {
+          "id": "tabs",
+          "label": "Tabs",
+          "definition": "Navigation shown as tabs or a segmented control.",
+          "aliases": [
+            "tabs",
+            "tab",
+            "segmented control",
+            "tabs underline"
+          ]
+        },
+        {
+          "id": "breadcrumbs",
+          "label": "With breadcrumbs",
+          "definition": "Shows a breadcrumb trail in or under the bar.",
+          "aliases": [
+            "breadcrumb",
+            "breadcrumbs"
+          ]
+        },
+        {
+          "id": "progress",
+          "label": "Scroll progress",
+          "definition": "Shows reading or scroll progress as a bar.",
+          "aliases": [
+            "progress",
+            "progress bar",
+            "scroll progress",
+            "scroll spy"
+          ]
+        },
+        {
+          "id": "static",
+          "label": "Static",
+          "definition": "A plain bar that scrolls away with the page (navbar.gallery type).",
+          "aliases": [
+            "static",
+            "non sticky",
+            "not sticky"
+          ]
+        },
+        {
+          "id": "centered",
+          "label": "Centered",
+          "definition": "Logo or links centred in the bar.",
+          "aliases": [
+            "centered",
+            "centred",
+            "centered links",
+            "centered logo",
+            "logo center",
+            "center logo"
+          ]
+        },
+        {
+          "id": "split",
+          "label": "Split",
+          "definition": "Links split on both sides of a centred logo.",
+          "aliases": [
+            "split",
+            "split logo",
+            "split layout"
+          ]
+        },
+        {
+          "id": "stacked",
+          "label": "Stacked / double",
+          "definition": "Two rows: a top bar plus a category or link bar.",
+          "aliases": [
+            "stacked",
+            "double",
+            "double deck",
+            "two row",
+            "category bar"
+          ]
+        },
+        {
+          "id": "transparent",
+          "label": "Transparent",
+          "definition": "Transparent over the hero, turning solid on scroll.",
+          "aliases": [
+            "transparent",
+            "transparent hero",
+            "change color on scroll"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "group": "sections",
+      "label": "Hero",
+      "definition": "The first, above-the-fold section of a page: headline, subline, primary actions, visual.",
+      "aliases": [
+        "hero",
+        "hero section",
+        "hero header",
+        "hero banner",
+        "jumbotron",
+        "above the fold",
+        "landing hero",
+        "splash"
+      ],
+      "variants": [
+        {
+          "id": "centered",
+          "label": "Centered",
+          "definition": "Centred headline and actions.",
+          "aliases": [
+            "centered",
+            "centred",
+            "center aligned"
+          ]
+        },
+        {
+          "id": "split",
+          "label": "Split",
+          "definition": "Text on one side, visual on the other.",
+          "aliases": [
+            "split",
+            "two column",
+            "left aligned",
+            "image right",
+            "image left"
+          ]
+        },
+        {
+          "id": "with-form",
+          "label": "With form",
+          "definition": "Contains a signup, email capture or search form.",
+          "aliases": [
+            "form",
+            "signup",
+            "sign up",
+            "email",
+            "waitlist",
+            "newsletter",
+            "search",
+            "input"
+          ]
+        },
+        {
+          "id": "video",
+          "label": "Video",
+          "definition": "Background or embedded video.",
+          "aliases": [
+            "video",
+            "video background",
+            "player"
+          ]
+        },
+        {
+          "id": "with-image",
+          "label": "With image / mockup",
+          "definition": "Product screenshot, device mockup or image showcase.",
+          "aliases": [
+            "image",
+            "mockup",
+            "screenshot",
+            "showcase",
+            "product",
+            "app preview",
+            "preview",
+            "device"
+          ]
+        },
+        {
+          "id": "with-stats",
+          "label": "With stats",
+          "definition": "Shows metrics, counters or stats.",
+          "aliases": [
+            "stats",
+            "stat",
+            "metrics",
+            "metric",
+            "counter",
+            "numbers"
+          ]
+        },
+        {
+          "id": "social-proof",
+          "label": "Social proof",
+          "definition": "Logos, avatars, ratings or a testimonial under the headline.",
+          "aliases": [
+            "logos",
+            "logo cloud",
+            "testimonial",
+            "social proof",
+            "avatars",
+            "rating",
+            "trusted by"
+          ]
+        },
+        {
+          "id": "carousel",
+          "label": "Carousel",
+          "definition": "Rotating slides or a slider of visuals.",
+          "aliases": [
+            "carousel",
+            "slider",
+            "slideshow",
+            "slides"
+          ]
+        },
+        {
+          "id": "with-code",
+          "label": "With code",
+          "definition": "Shows a code snippet or terminal (developer products).",
+          "aliases": [
+            "code",
+            "terminal",
+            "snippet",
+            "cli"
+          ]
+        },
+        {
+          "id": "animated-background",
+          "label": "Animated background",
+          "definition": "Gradient, grid, particles, shader or 3D behind the headline.",
+          "aliases": [
+            "background",
+            "animated background",
+            "gradient background",
+            "animated gradient",
+            "mesh gradient",
+            "gradient mesh",
+            "gradient orbs",
+            "particles",
+            "shader",
+            "dither",
+            "aurora",
+            "beams"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "group": "sections",
+      "label": "Footer",
+      "definition": "The bottom section of a page: links, legal, social, newsletter.",
+      "aliases": [
+        "footer",
+        "site footer",
+        "page footer"
+      ],
+      "exclude": [
+        "card footer",
+        "table footer",
+        "dialog footer",
+        "modal footer",
+        "sheet footer",
+        "drawer footer",
+        "sidebar footer",
+        "post footer",
+        "message footer",
+        "header footer",
+        "sticky footer",
+        "footer totals",
+        "footer menu open"
+      ],
+      "variants": [
+        {
+          "id": "simple",
+          "label": "Simple",
+          "definition": "One row: logo, a few links, copyright.",
+          "aliases": [
+            "simple",
+            "minimal",
+            "basic",
+            "small",
+            "compact",
+            "inline"
+          ]
+        },
+        {
+          "id": "multi-column",
+          "label": "Multi-column",
+          "definition": "Several link columns, sitemap-style.",
+          "aliases": [
+            "columns",
+            "column",
+            "multi column",
+            "sitemap",
+            "links",
+            "mega",
+            "four column",
+            "three column",
+            "detailed"
+          ]
+        },
+        {
+          "id": "newsletter",
+          "label": "Newsletter",
+          "definition": "Includes an email signup.",
+          "aliases": [
+            "newsletter",
+            "subscribe",
+            "email",
+            "signup"
+          ]
+        },
+        {
+          "id": "social",
+          "label": "Social links",
+          "definition": "Social icons or profiles are a main element.",
+          "aliases": [
+            "social",
+            "social links",
+            "social icons"
+          ]
+        },
+        {
+          "id": "centered",
+          "label": "Centered",
+          "definition": "Centred logo and links.",
+          "aliases": [
+            "centered",
+            "centred",
+            "center"
+          ]
+        },
+        {
+          "id": "with-cta",
+          "label": "With CTA",
+          "definition": "A call-to-action band built into the footer.",
+          "aliases": [
+            "cta",
+            "call to action",
+            "contact"
+          ]
+        },
+        {
+          "id": "big-text",
+          "label": "Big text",
+          "definition": "Oversized wordmark or headline as the visual.",
+          "aliases": [
+            "big",
+            "large",
+            "huge",
+            "big text",
+            "wordmark"
+          ]
+        },
+        {
+          "id": "with-locale",
+          "label": "Language / locale",
+          "definition": "Has a language, region or theme selector.",
+          "aliases": [
+            "language",
+            "locale",
+            "language selector",
+            "region"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "group": "sections",
+      "label": "CTA",
+      "definition": "A call-to-action section or banner that asks the visitor to act (sign up, book, buy).",
+      "aliases": [
+        "cta",
+        "call to action",
+        "call to actions",
+        "cta section",
+        "cta banner",
+        "ctas"
+      ],
+      "variants": [
+        {
+          "id": "centered",
+          "label": "Centered",
+          "definition": "Centred text and buttons.",
+          "aliases": [
+            "centered",
+            "centred",
+            "center"
+          ]
+        },
+        {
+          "id": "split",
+          "label": "Split",
+          "definition": "Text on one side, visual or form on the other.",
+          "aliases": [
+            "split",
+            "two column",
+            "left",
+            "right"
+          ]
+        },
+        {
+          "id": "banner",
+          "label": "Banner / band",
+          "definition": "A full-width band or strip.",
+          "aliases": [
+            "banner",
+            "band",
+            "strip",
+            "full width"
+          ]
+        },
+        {
+          "id": "card",
+          "label": "Card / panel",
+          "definition": "Contained in a card or panel.",
+          "aliases": [
+            "card",
+            "box",
+            "boxed"
+          ]
+        },
+        {
+          "id": "inset",
+          "label": "Inset",
+          "definition": "Inset block with rounded background.",
+          "aliases": [
+            "inset"
+          ]
+        },
+        {
+          "id": "with-form",
+          "label": "With form",
+          "definition": "Email capture or signup form.",
+          "aliases": [
+            "email",
+            "capture",
+            "newsletter",
+            "form",
+            "signup",
+            "waitlist"
+          ]
+        },
+        {
+          "id": "with-image",
+          "label": "With image / video",
+          "definition": "Includes an image, mockup or video.",
+          "aliases": [
+            "image",
+            "video",
+            "mockup",
+            "visual",
+            "screenshot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "group": "sections",
+      "label": "Pricing",
+      "definition": "A pricing section or table: plans, tiers, prices, plan comparison.",
+      "aliases": [
+        "pricing",
+        "pricing table",
+        "pricing card",
+        "pricing cards",
+        "pricing plan",
+        "pricing plans",
+        "pricing section",
+        "price table",
+        "pricing tier",
+        "pricing tiers",
+        "subscription plans",
+        "plan comparison"
+      ],
+      "variants": [
+        {
+          "id": "cards",
+          "label": "Plan cards",
+          "definition": "One card per plan, side by side.",
+          "aliases": [
+            "card",
+            "cards",
+            "tiers",
+            "tier",
+            "three",
+            "two",
+            "columns"
+          ]
+        },
+        {
+          "id": "comparison-table",
+          "label": "Comparison table",
+          "definition": "Feature-by-plan comparison table.",
+          "aliases": [
+            "comparison",
+            "table",
+            "matrix",
+            "compare",
+            "vs"
+          ]
+        },
+        {
+          "id": "billing-toggle",
+          "label": "Billing toggle",
+          "definition": "Monthly / yearly switch.",
+          "aliases": [
+            "toggle",
+            "monthly",
+            "yearly",
+            "annual",
+            "switch",
+            "billing toggle"
+          ]
+        },
+        {
+          "id": "single-plan",
+          "label": "Single plan",
+          "definition": "One plan or one price.",
+          "aliases": [
+            "single",
+            "one plan",
+            "simple"
+          ]
+        },
+        {
+          "id": "usage-based",
+          "label": "Usage-based / calculator",
+          "definition": "A slider or calculator for usage, seats or credits.",
+          "aliases": [
+            "usage",
+            "calculator",
+            "slider",
+            "seat",
+            "seats",
+            "credit",
+            "credits",
+            "per seat",
+            "cost"
+          ]
+        },
+        {
+          "id": "with-faq",
+          "label": "With FAQ",
+          "definition": "Pricing followed by FAQ.",
+          "aliases": [
+            "faq",
+            "faqs",
+            "questions"
+          ]
+        },
+        {
+          "id": "enterprise",
+          "label": "Enterprise / custom",
+          "definition": "Highlights an enterprise or contact-sales tier.",
+          "aliases": [
+            "enterprise",
+            "custom",
+            "contact sales"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "group": "sections",
+      "label": "Features",
+      "definition": "A section presenting a product's features or benefits.",
+      "aliases": [
+        "feature",
+        "features",
+        "features section",
+        "feature section",
+        "feature grid",
+        "feature list",
+        "feature cards",
+        "benefits",
+        "capabilities"
+      ],
+      "exclude": [
+        "feature flag",
+        "feature flags",
+        "feature request",
+        "feature requests",
+        "feature toggle",
+        "feature toggles",
+        "feature voting"
+      ],
+      "variants": [
+        {
+          "id": "grid",
+          "label": "Grid",
+          "definition": "Features in a grid of icons or tiles.",
+          "aliases": [
+            "grid",
+            "three column",
+            "columns",
+            "icon grid"
+          ]
+        },
+        {
+          "id": "cards",
+          "label": "Cards",
+          "definition": "One card per feature.",
+          "aliases": [
+            "card",
+            "cards"
+          ]
+        },
+        {
+          "id": "bento",
+          "label": "Bento",
+          "definition": "Bento-box tiles of different sizes.",
+          "aliases": [
+            "bento",
+            "bento grid",
+            "bento box"
+          ]
+        },
+        {
+          "id": "alternating",
+          "label": "Alternating / split",
+          "definition": "Text and image rows alternating sides.",
+          "aliases": [
+            "alternating",
+            "zigzag",
+            "rows",
+            "side by side"
+          ]
+        },
+        {
+          "id": "tabs",
+          "label": "Tabs",
+          "definition": "Features switched by tabs.",
+          "aliases": [
+            "tabs",
+            "tab",
+            "tabbed"
+          ]
+        },
+        {
+          "id": "accordion",
+          "label": "Accordion",
+          "definition": "Expandable features with a changing visual.",
+          "aliases": [
+            "accordion",
+            "expandable",
+            "collapsible"
+          ]
+        },
+        {
+          "id": "carousel",
+          "label": "Carousel",
+          "definition": "Features in a slider.",
+          "aliases": [
+            "carousel",
+            "slider",
+            "slides"
+          ]
+        },
+        {
+          "id": "list",
+          "label": "List / checklist",
+          "definition": "A list or checklist of features.",
+          "aliases": [
+            "list",
+            "checklist",
+            "numbered",
+            "bullets"
+          ]
+        },
+        {
+          "id": "comparison",
+          "label": "Comparison",
+          "definition": "Before / after or vs-competitor comparison.",
+          "aliases": [
+            "comparison",
+            "before after",
+            "vs",
+            "compare"
+          ]
+        },
+        {
+          "id": "steps",
+          "label": "Steps / timeline",
+          "definition": "How-it-works steps or a timeline.",
+          "aliases": [
+            "steps",
+            "step",
+            "timeline",
+            "how it works",
+            "process"
+          ]
+        },
+        {
+          "id": "sticky-scroll",
+          "label": "Sticky scroll",
+          "definition": "Sticky visual that changes while text scrolls.",
+          "aliases": [
+            "sticky",
+            "sticky scroll",
+            "scrollytelling"
+          ]
+        },
+        {
+          "id": "with-image",
+          "label": "With image / mockup",
+          "definition": "Large product screenshot or mockup.",
+          "aliases": [
+            "image",
+            "mockup",
+            "screenshot",
+            "showcase",
+            "preview",
+            "video"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "group": "sections",
+      "label": "Testimonials",
+      "definition": "Customer quotes, reviews and social proof.",
+      "aliases": [
+        "testimonial",
+        "testimonials",
+        "customer review",
+        "customer reviews",
+        "customer quote",
+        "client review",
+        "wall of love",
+        "social proof",
+        "reviews section"
+      ],
+      "variants": [
+        {
+          "id": "grid",
+          "label": "Grid",
+          "definition": "Quotes in a grid.",
+          "aliases": [
+            "grid",
+            "columns",
+            "three",
+            "masonry"
+          ]
+        },
+        {
+          "id": "cards",
+          "label": "Cards",
+          "definition": "One card per quote.",
+          "aliases": [
+            "card",
+            "cards"
+          ]
+        },
+        {
+          "id": "carousel",
+          "label": "Carousel",
+          "definition": "Quotes in a slider.",
+          "aliases": [
+            "carousel",
+            "slider",
+            "slides"
+          ]
+        },
+        {
+          "id": "marquee",
+          "label": "Marquee / wall",
+          "definition": "Scrolling marquee or masonry wall of quotes.",
+          "aliases": [
+            "marquee",
+            "infinite",
+            "infinite scroll",
+            "horizontal scroll",
+            "side scroll"
+          ]
+        },
+        {
+          "id": "single",
+          "label": "Single / featured",
+          "definition": "One large featured quote.",
+          "aliases": [
+            "single",
+            "featured",
+            "spotlight",
+            "pull quote",
+            "large"
+          ]
+        },
+        {
+          "id": "with-rating",
+          "label": "With rating",
+          "definition": "Star ratings or review scores.",
+          "aliases": [
+            "rating",
+            "ratings",
+            "stars",
+            "star",
+            "score"
+          ]
+        },
+        {
+          "id": "video",
+          "label": "Video",
+          "definition": "Video testimonials.",
+          "aliases": [
+            "video"
+          ]
+        },
+        {
+          "id": "with-logos",
+          "label": "With logos / stats",
+          "definition": "Company logos or metrics beside the quotes.",
+          "aliases": [
+            "logo",
+            "logos",
+            "stats",
+            "metric",
+            "metrics",
+            "case study"
+          ]
+        },
+        {
+          "id": "social-posts",
+          "label": "Social posts",
+          "definition": "Quotes shown as tweets or social posts.",
+          "aliases": [
+            "tweet",
+            "tweets",
+            "twitter",
+            "social",
+            "x post"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "group": "sections",
+      "label": "FAQ",
+      "definition": "Frequently asked questions with answers.",
+      "aliases": [
+        "faq",
+        "faqs",
+        "frequently asked questions",
+        "questions and answers"
+      ],
+      "variants": [
+        {
+          "id": "accordion",
+          "label": "Accordion",
+          "definition": "Questions expand to show answers.",
+          "aliases": [
+            "accordion",
+            "collapsible",
+            "expandable",
+            "toggle"
+          ]
+        },
+        {
+          "id": "two-column",
+          "label": "Two-column",
+          "definition": "Questions in two columns, or heading beside list.",
+          "aliases": [
+            "two column",
+            "two",
+            "columns",
+            "column",
+            "col",
+            "split"
+          ]
+        },
+        {
+          "id": "tabbed",
+          "label": "Tabbed / grouped",
+          "definition": "Questions grouped by category or tabs.",
+          "aliases": [
+            "tabbed",
+            "tabs",
+            "grouped"
+          ]
+        },
+        {
+          "id": "with-contact",
+          "label": "With contact",
+          "definition": "Ends with a contact or support prompt.",
+          "aliases": [
+            "contact",
+            "support",
+            "help",
+            "cta"
+          ]
+        },
+        {
+          "id": "with-search",
+          "label": "With search",
+          "definition": "Questions can be searched.",
+          "aliases": [
+            "search"
+          ]
+        },
+        {
+          "id": "cards",
+          "label": "Cards / grid",
+          "definition": "Questions as cards in a grid.",
+          "aliases": [
+            "card",
+            "cards",
+            "grid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logo-cloud",
+      "group": "sections",
+      "label": "Logo cloud",
+      "definition": "A row or grid of customer, partner or brand logos.",
+      "aliases": [
+        "logo cloud",
+        "logos",
+        "logo wall",
+        "logo grid",
+        "logo marquee",
+        "logo carousel",
+        "logo strip",
+        "client logos",
+        "brand logos",
+        "partner logos",
+        "trusted by"
+      ]
+    },
+    {
+      "id": "bento-grid",
+      "group": "sections",
+      "label": "Bento grid",
+      "definition": "A grid of tiles of different sizes, bento-box style.",
+      "aliases": [
+        "bento",
+        "bento grid",
+        "bento box",
+        "bento layout"
+      ]
+    },
+    {
+      "id": "404",
+      "group": "sections",
+      "label": "404 / error page",
+      "definition": "A not-found or error page.",
+      "aliases": [
+        "404",
+        "not found",
+        "page not found",
+        "error page",
+        "500"
+      ]
+    },
+    {
+      "id": "empty-state",
+      "group": "sections",
+      "label": "Empty state",
+      "definition": "What a view shows when there is no data yet.",
+      "aliases": [
+        "empty state",
+        "emptystate",
+        "empty",
+        "no results",
+        "no data",
+        "zero state",
+        "blank state",
+        "no items",
+        "nothing found",
+        "no content"
+      ]
+    },
+    {
+      "id": "sidebar",
+      "group": "sections",
+      "label": "Sidebar",
+      "definition": "A vertical side panel with navigation or tools, usually in apps and docs.",
+      "aliases": [
+        "sidebar",
+        "side bar",
+        "side panel",
+        "side nav",
+        "sidebar nav",
+        "sidebar navigation",
+        "side navigation",
+        "app sidebar",
+        "nav rail",
+        "navigation rail"
+      ],
+      "variants": [
+        {
+          "id": "collapsible",
+          "label": "Collapsible",
+          "definition": "Collapses to icons or hides.",
+          "aliases": [
+            "collapsible",
+            "collapse",
+            "expandable"
+          ]
+        },
+        {
+          "id": "icon-rail",
+          "label": "Icon rail / mini",
+          "definition": "A narrow bar of icons.",
+          "aliases": [
+            "icon",
+            "icons",
+            "icon only",
+            "mini",
+            "rail",
+            "compact"
+          ]
+        },
+        {
+          "id": "nested",
+          "label": "Nested / tree",
+          "definition": "Multi-level groups or a tree.",
+          "aliases": [
+            "nested",
+            "tree",
+            "submenu",
+            "sub",
+            "multi level",
+            "group",
+            "groups"
+          ]
+        },
+        {
+          "id": "inset",
+          "label": "Inset / floating",
+          "definition": "Floating or inset panel style.",
+          "aliases": [
+            "inset",
+            "floating",
+            "variant"
+          ]
+        },
+        {
+          "id": "with-search",
+          "label": "With search",
+          "definition": "Has a search field.",
+          "aliases": [
+            "search"
+          ]
+        },
+        {
+          "id": "filters",
+          "label": "Filters",
+          "definition": "A filter sidebar (e-commerce, data views).",
+          "aliases": [
+            "filter",
+            "filters",
+            "faceted"
+          ]
+        },
+        {
+          "id": "dual",
+          "label": "Dual / secondary",
+          "definition": "Two panels: icon rail plus a secondary list.",
+          "aliases": [
+            "dual",
+            "double",
+            "two"
+          ]
+        },
+        {
+          "id": "with-user",
+          "label": "With user / workspace",
+          "definition": "Account, team or workspace switcher.",
+          "aliases": [
+            "user",
+            "workspace",
+            "team switcher",
+            "switcher",
+            "account"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dashboard",
+      "group": "sections",
+      "label": "Dashboard",
+      "definition": "An app or admin overview screen with stats, charts and tables.",
+      "aliases": [
+        "dashboard",
+        "admin panel",
+        "admin dashboard",
+        "analytics dashboard",
+        "backoffice"
+      ]
+    },
+    {
+      "id": "stats",
+      "group": "sections",
+      "label": "Stats / KPIs",
+      "definition": "Numbers that sum something up: a stats section, KPI tiles, metric cards.",
+      "aliases": [
+        "stats",
+        "stat",
+        "statistics",
+        "kpi",
+        "kpis",
+        "metrics",
+        "key metrics",
+        "metric card",
+        "metric cards",
+        "metric tile",
+        "metric tiles",
+        "stat card",
+        "stat cards"
+      ]
+    },
+    {
+      "id": "team",
+      "group": "sections",
+      "label": "Team",
+      "definition": "The people behind a product or org: team section, member grid, member list.",
+      "aliases": [
+        "team",
+        "team section",
+        "team members",
+        "team member",
+        "our team",
+        "meet the team"
+      ],
+      "exclude": [
+        "team switcher",
+        "team plan",
+        "team plans",
+        "team tier",
+        "team tiers",
+        "team pricing",
+        "team size",
+        "team seats"
+      ]
+    },
+    {
+      "id": "contact",
+      "group": "sections",
+      "label": "Contact",
+      "definition": "A section or page for getting in touch: contact form, details, map, support channels.",
+      "aliases": [
+        "contact",
+        "contact us",
+        "contact section",
+        "contact page",
+        "get in touch",
+        "contact info",
+        "contact details"
+      ],
+      "exclude": [
+        "contacts",
+        "contact sales",
+        "contact list",
+        "contact picker"
+      ]
+    },
+    {
+      "id": "changelog",
+      "group": "sections",
+      "label": "Changelog",
+      "definition": "Release notes in date order: what changed, when, often with tags and media.",
+      "aliases": [
+        "changelog",
+        "change log",
+        "changelogs",
+        "release notes",
+        "whats new",
+        "what s new"
+      ]
+    },
+    {
+      "id": "banner",
+      "group": "sections",
+      "label": "Banner",
+      "definition": "A full-width strip with a message: announcement, promo, cookie consent, system status.",
+      "aliases": [
+        "banner",
+        "banners",
+        "announcement banner",
+        "announcement bar",
+        "promo bar",
+        "promo banner",
+        "cookie banner",
+        "cookie consent",
+        "consent banner",
+        "system banner",
+        "site banner",
+        "top banner"
+      ]
+    },
+    {
+      "id": "tabs",
+      "group": "navigation",
+      "label": "Tabs",
+      "definition": "Switch between views in place.",
+      "aliases": [
+        "tab",
+        "tabs",
+        "tab list",
+        "segmented control",
+        "tabbed"
+      ]
+    },
+    {
+      "id": "breadcrumbs",
+      "group": "navigation",
+      "label": "Breadcrumbs",
+      "definition": "A trail showing where the page sits in the hierarchy.",
+      "aliases": [
+        "breadcrumb",
+        "breadcrumbs",
+        "breadcrumb nav",
+        "breadcrumb navigation"
+      ]
+    },
+    {
+      "id": "pagination",
+      "group": "navigation",
+      "label": "Pagination",
+      "definition": "Controls to move between pages of results.",
+      "aliases": [
+        "pagination",
+        "pager",
+        "page navigation",
+        "pagination navigation"
+      ]
+    },
+    {
+      "id": "command-palette",
+      "group": "navigation",
+      "label": "Command palette",
+      "definition": "A keyboard-driven search-and-run menu (⌘K).",
+      "aliases": [
+        "command palette",
+        "command menu",
+        "command",
+        "cmdk",
+        "command bar",
+        "kbar",
+        "spotlight search",
+        "cmd k"
+      ]
+    },
+    {
+      "id": "dock",
+      "group": "navigation",
+      "label": "Dock",
+      "definition": "A macOS-style row of app icons that magnify on hover.",
+      "aliases": [
+        "dock",
+        "mac os dock",
+        "macos dock",
+        "app dock",
+        "floating dock",
+        "menu dock",
+        "glass dock"
+      ]
+    },
+    {
+      "id": "menubar",
+      "group": "navigation",
+      "label": "Menubar",
+      "definition": "A desktop-app menu bar (File, Edit, View …) whose items open dropdown menus; not a site navbar.",
+      "aliases": [
+        "menubar",
+        "menu bar",
+        "menubars",
+        "application menubar",
+        "app menubar"
+      ]
+    },
+    {
+      "id": "stepper",
+      "group": "navigation",
+      "label": "Stepper",
+      "definition": "Shows progress through numbered steps of a flow.",
+      "aliases": [
+        "stepper",
+        "step indicator",
+        "wizard",
+        "multi step",
+        "multistep",
+        "progress steps"
+      ]
+    },
+    {
+      "id": "modal",
+      "group": "overlays",
+      "label": "Modal / dialog",
+      "definition": "A dialog that opens above the page and blocks it.",
+      "aliases": [
+        "modal",
+        "dialog",
+        "alert dialog",
+        "confirm dialog",
+        "lightbox",
+        "popup"
+      ]
+    },
+    {
+      "id": "drawer",
+      "group": "overlays",
+      "label": "Drawer / sheet",
+      "definition": "A panel that slides in from an edge.",
+      "aliases": [
+        "drawer",
+        "sheet",
+        "bottom sheet",
+        "side sheet",
+        "slide over",
+        "off canvas",
+        "offcanvas"
+      ]
+    },
+    {
+      "id": "popover",
+      "group": "overlays",
+      "label": "Popover",
+      "definition": "A small floating panel anchored to a trigger.",
+      "aliases": [
+        "popover",
+        "hover card",
+        "popconfirm"
+      ]
+    },
+    {
+      "id": "tooltip",
+      "group": "overlays",
+      "label": "Tooltip",
+      "definition": "A short label shown on hover or focus.",
+      "aliases": [
+        "tooltip",
+        "tool tip"
+      ]
+    },
+    {
+      "id": "dropdown",
+      "group": "overlays",
+      "label": "Dropdown menu",
+      "definition": "A menu of actions opened from a button or right click.",
+      "aliases": [
+        "dropdown",
+        "dropdown menu",
+        "context menu",
+        "action menu",
+        "actions menu",
+        "user menu",
+        "popup menu",
+        "overflow menu",
+        "kebab menu",
+        "menu button",
+        "submenu",
+        "contextmenu",
+        "dropdownmenu"
+      ]
+    },
+    {
+      "id": "toast",
+      "group": "overlays",
+      "label": "Toast / notification",
+      "definition": "A brief, non-blocking message that appears and goes away.",
+      "aliases": [
+        "toast",
+        "toaster",
+        "notification",
+        "notifications",
+        "sonner",
+        "snackbar"
+      ],
+      "exclude": [
+        "notification bell",
+        "notification center",
+        "notification settings",
+        "notification preferences"
+      ]
+    },
+    {
+      "id": "alert",
+      "group": "overlays",
+      "label": "Alert / callout",
+      "definition": "An inline message box for info, success, warning or error. A dialog that asks for confirmation is `modal`.",
+      "aliases": [
+        "alert",
+        "alerts",
+        "callout",
+        "callouts",
+        "inline alert",
+        "alert banner",
+        "notice",
+        "admonition"
+      ]
+    },
+    {
+      "id": "button",
+      "group": "inputs",
+      "label": "Button",
+      "definition": "A clickable control that triggers an action.",
+      "aliases": [
+        "button",
+        "btn",
+        "icon button",
+        "button group",
+        "buttongroup",
+        "fab",
+        "floating action button",
+        "cta button"
+      ]
+    },
+    {
+      "id": "input",
+      "group": "inputs",
+      "label": "Text input",
+      "definition": "A field for typing text: text, search, number, password, textarea.",
+      "aliases": [
+        "input",
+        "text field",
+        "textfield",
+        "text input",
+        "textarea",
+        "text area",
+        "input field",
+        "search input",
+        "password input",
+        "number input",
+        "tag input",
+        "phone input"
+      ]
+    },
+    {
+      "id": "select",
+      "group": "inputs",
+      "label": "Select / combobox",
+      "definition": "Pick one or more options from a list.",
+      "aliases": [
+        "select",
+        "combobox",
+        "combo box",
+        "multi select",
+        "multiselect",
+        "autocomplete",
+        "listbox"
+      ]
+    },
+    {
+      "id": "checkbox",
+      "group": "inputs",
+      "label": "Checkbox / radio",
+      "definition": "Check boxes and radio choices.",
+      "aliases": [
+        "checkbox",
+        "check box",
+        "checkboxes",
+        "radio",
+        "radio group",
+        "radio button"
+      ]
+    },
+    {
+      "id": "switch",
+      "group": "inputs",
+      "label": "Switch / toggle",
+      "definition": "An on/off control.",
+      "aliases": [
+        "switch",
+        "toggle",
+        "toggle switch"
+      ],
+      "exclude": [
+        "sidebar toggle",
+        "menu toggle",
+        "feature toggle",
+        "theme switcher",
+        "workspace switcher",
+        "language switcher",
+        "team switcher",
+        "app switcher",
+        "account switcher",
+        "section switcher"
+      ]
+    },
+    {
+      "id": "slider",
+      "group": "inputs",
+      "label": "Range slider",
+      "definition": "Pick a value or range by dragging a handle.",
+      "aliases": [
+        "slider",
+        "range slider",
+        "range input",
+        "range"
+      ]
+    },
+    {
+      "id": "date-picker",
+      "group": "inputs",
+      "label": "Date picker",
+      "definition": "Pick a date, range or time.",
+      "aliases": [
+        "date picker",
+        "datepicker",
+        "date range picker",
+        "date range",
+        "time picker",
+        "datetime picker",
+        "date input",
+        "date time picker"
+      ]
+    },
+    {
+      "id": "file-upload",
+      "group": "inputs",
+      "label": "File upload",
+      "definition": "Pick or drop files to upload.",
+      "aliases": [
+        "file upload",
+        "upload",
+        "uploader",
+        "dropzone",
+        "file input",
+        "file drop",
+        "file picker"
+      ]
+    },
+    {
+      "id": "form",
+      "group": "inputs",
+      "label": "Form",
+      "definition": "A group of fields submitted together: contact, login, signup, checkout.",
+      "aliases": [
+        "form",
+        "contact form",
+        "login",
+        "log in",
+        "signin",
+        "sign in",
+        "signup",
+        "sign up",
+        "register",
+        "auth form",
+        "login form",
+        "signup form"
+      ]
+    },
+    {
+      "id": "otp-input",
+      "group": "inputs",
+      "label": "OTP input",
+      "definition": "A row of boxes for a one-time code.",
+      "aliases": [
+        "otp",
+        "input otp",
+        "otp input",
+        "one time password",
+        "inputotp",
+        "pin input",
+        "verification code",
+        "pin code"
+      ]
+    },
+    {
+      "id": "table",
+      "group": "data",
+      "label": "Table / data grid",
+      "definition": "Rows and columns of data, often sortable and filterable.",
+      "aliases": [
+        "table",
+        "data table",
+        "datatable",
+        "data grid",
+        "datagrid",
+        "grid table"
+      ]
+    },
+    {
+      "id": "chart",
+      "group": "data",
+      "label": "Chart",
+      "definition": "A graphical view of data.",
+      "aliases": [
+        "chart",
+        "charts",
+        "graph",
+        "bar chart",
+        "line chart",
+        "pie chart",
+        "area chart",
+        "donut chart",
+        "radar chart",
+        "sparkline",
+        "heatmap",
+        "heat map"
+      ]
+    },
+    {
+      "id": "card",
+      "group": "data",
+      "label": "Card",
+      "definition": "A contained block summarising one thing.",
+      "aliases": [
+        "card",
+        "cards",
+        "profile card",
+        "product card"
+      ]
+    },
+    {
+      "id": "list",
+      "group": "data",
+      "label": "List",
+      "definition": "A vertical list of items.",
+      "aliases": [
+        "list",
+        "list view",
+        "item list",
+        "lists"
+      ]
+    },
+    {
+      "id": "avatar",
+      "group": "data",
+      "label": "Avatar",
+      "definition": "A user picture or initials, alone or in a group.",
+      "aliases": [
+        "avatar",
+        "avatars",
+        "avatar group",
+        "avatargroup",
+        "profile picture",
+        "user avatar"
+      ]
+    },
+    {
+      "id": "badge",
+      "group": "data",
+      "label": "Badge / tag",
+      "definition": "A small label for status, count or category.",
+      "aliases": [
+        "badge",
+        "badges",
+        "chip",
+        "chips",
+        "tag"
+      ]
+    },
+    {
+      "id": "calendar",
+      "group": "data",
+      "label": "Calendar",
+      "definition": "A month, week or day view of dates and events.",
+      "aliases": [
+        "calendar",
+        "event calendar",
+        "scheduler",
+        "agenda",
+        "month view",
+        "week view"
+      ]
+    },
+    {
+      "id": "kanban",
+      "group": "data",
+      "label": "Kanban",
+      "definition": "A board of columns with draggable cards.",
+      "aliases": [
+        "kanban",
+        "kanban board",
+        "task board"
+      ]
+    },
+    {
+      "id": "accordion",
+      "group": "data",
+      "label": "Accordion",
+      "definition": "Stacked headers that expand to show their content (disclosure, collapsible sections).",
+      "aliases": [
+        "accordion",
+        "accordions",
+        "disclosure",
+        "collapsible section",
+        "collapsible sections",
+        "expansion panel",
+        "expandable section",
+        "expandable sections"
+      ]
+    },
+    {
+      "id": "timeline",
+      "group": "data",
+      "label": "Timeline",
+      "definition": "Events in order along a line: history, activity, roadmap, order tracking, gantt.",
+      "aliases": [
+        "timeline",
+        "timelines",
+        "activity timeline",
+        "gantt",
+        "gantt chart",
+        "roadmap"
+      ]
+    },
+    {
+      "id": "progress",
+      "group": "data",
+      "label": "Progress",
+      "definition": "Shows how far along something is: progress bar, ring or meter.",
+      "aliases": [
+        "progress",
+        "progress bar",
+        "progress bars",
+        "progressbar",
+        "progress circle",
+        "circular progress",
+        "progress ring",
+        "progress indicator",
+        "meter",
+        "gauge"
+      ]
+    },
+    {
+      "id": "map",
+      "group": "data",
+      "label": "Map",
+      "definition": "A geographic map: markers, routes, regions, dotted world maps.",
+      "aliases": [
+        "map",
+        "maps",
+        "world map",
+        "dotted map",
+        "location map",
+        "mapbox",
+        "leaflet"
+      ],
+      "exclude": [
+        "mind map",
+        "site map",
+        "heat map",
+        "key map",
+        "source map"
+      ]
+    },
+    {
+      "id": "carousel",
+      "group": "media-effects",
+      "label": "Carousel",
+      "definition": "Slides of content you swipe or step through.",
+      "aliases": [
+        "carousel",
+        "slideshow",
+        "image slider",
+        "content slider",
+        "card slider",
+        "slider carousel",
+        "testimonial slider",
+        "logo slider",
+        "gallery slider",
+        "swiper",
+        "embla"
+      ]
+    },
+    {
+      "id": "marquee",
+      "group": "media-effects",
+      "label": "Marquee",
+      "definition": "Content that scrolls continuously across the screen.",
+      "aliases": [
+        "marquee",
+        "ticker",
+        "infinite marquee",
+        "scrolling text",
+        "logo marquee",
+        "infinite slider"
+      ]
+    },
+    {
+      "id": "globe",
+      "group": "media-effects",
+      "label": "Globe",
+      "definition": "An interactive or animated 3D globe.",
+      "aliases": [
+        "globe",
+        "earth",
+        "3d globe",
+        "cobe"
+      ]
+    },
+    {
+      "id": "background",
+      "group": "media-effects",
+      "label": "Background",
+      "definition": "A decorative or animated page background: gradient, grid, dots, particles, beams.",
+      "aliases": [
+        "background",
+        "backgrounds",
+        "bg",
+        "dot pattern",
+        "grid pattern",
+        "aurora",
+        "particles",
+        "starfield",
+        "meteors",
+        "beams",
+        "noise texture",
+        "wavy background"
+      ]
+    },
+    {
+      "id": "text-effect",
+      "group": "media-effects",
+      "label": "Text effect",
+      "definition": "Animated or styled text: typewriter, reveal, gradient, shimmer, scramble.",
+      "aliases": [
+        "text effect",
+        "text animation",
+        "animated text",
+        "typewriter",
+        "typing",
+        "text reveal",
+        "gradient text",
+        "shimmer text",
+        "text shimmer",
+        "shiny text",
+        "split text",
+        "word rotate",
+        "text scramble",
+        "scramble",
+        "flip words",
+        "blur text",
+        "decrypted text",
+        "number ticker",
+        "dock text"
+      ]
+    },
+    {
+      "id": "cursor",
+      "group": "media-effects",
+      "label": "Cursor",
+      "definition": "A custom mouse cursor or cursor-following effect.",
+      "aliases": [
+        "cursor",
+        "custom cursor",
+        "pointer",
+        "cursor follower",
+        "smooth cursor",
+        "mouse trail",
+        "cursor trail"
+      ],
+      "exclude": [
+        "terminal cursor",
+        "text cursor",
+        "theme cursor"
+      ]
+    },
+    {
+      "id": "loader",
+      "group": "media-effects",
+      "label": "Loader",
+      "definition": "Shows that something is loading: spinner, skeleton, progress.",
+      "aliases": [
+        "loader",
+        "loaders",
+        "loading",
+        "spinner",
+        "preloader",
+        "skeleton"
+      ]
+    },
+    {
+      "id": "scroll-effect",
+      "group": "media-effects",
+      "label": "Scroll effect",
+      "definition": "Animation driven by scrolling: parallax, reveal, sticky, progress.",
+      "aliases": [
+        "scroll animation",
+        "scroll effect",
+        "parallax",
+        "scroll reveal",
+        "scroll progress",
+        "sticky scroll",
+        "scroll triggered",
+        "scroll velocity",
+        "smooth scroll",
+        "horizontal scroll",
+        "scrollytelling"
+      ]
+    },
+    {
+      "id": "3d",
+      "group": "media-effects",
+      "label": "3D",
+      "definition": "3D scenes and effects: WebGL, three.js, 3D cards, shaders.",
+      "aliases": [
+        "3d",
+        "three js",
+        "threejs",
+        "webgl",
+        "r3f",
+        "react three fiber",
+        "spline",
+        "shader",
+        "shaders"
+      ]
+    },
+    {
+      "id": "chat",
+      "group": "chat-ai",
+      "label": "Chat",
+      "definition": "A conversation UI: message list, bubbles, chatbot window.",
+      "aliases": [
+        "chat",
+        "chatbot",
+        "chat bubble",
+        "conversation",
+        "messages",
+        "messaging",
+        "message thread",
+        "live chat"
+      ]
+    },
+    {
+      "id": "prompt-input",
+      "group": "chat-ai",
+      "label": "Prompt input",
+      "definition": "The box where a user types a prompt to an AI.",
+      "aliases": [
+        "prompt input",
+        "prompt box",
+        "prompt bar",
+        "chat input",
+        "ai input",
+        "composer",
+        "message input",
+        "prompt textarea"
+      ]
+    },
+    {
+      "id": "ai-agent-ui",
+      "group": "chat-ai",
+      "label": "AI agent UI",
+      "definition": "Pieces of an AI agent interface: tool calls, reasoning, sources, model picker.",
+      "aliases": [
+        "ai agent",
+        "agent",
+        "tool call",
+        "tool calling",
+        "reasoning",
+        "chain of thought",
+        "model selector",
+        "ai response",
+        "thinking"
+      ],
+      "exclude": [
+        "real estate agent",
+        "estate agent",
+        "user agent",
+        "travel agent",
+        "insurance agent",
+        "support agent"
+      ]
+    }
+  ],
+  "synonyms": [
+    {
+      "id": "dark-mode",
+      "label": "Dark mode",
+      "definition": "Light/dark theme and the control that switches it.",
+      "aliases": [
+        "dark mode",
+        "theme toggle",
+        "theme switcher",
+        "light mode",
+        "color scheme",
+        "dark theme"
+      ]
+    },
+    {
+      "id": "glassmorphism",
+      "label": "Glassmorphism",
+      "definition": "Translucent frosted-glass surfaces.",
+      "aliases": [
+        "glassmorphism",
+        "frosted glass",
+        "glass",
+        "backdrop blur",
+        "liquid glass"
+      ]
+    },
+    {
+      "id": "neumorphism",
+      "label": "Neumorphism",
+      "definition": "Soft extruded surfaces with inner and outer shadows.",
+      "aliases": [
+        "neumorphism",
+        "soft ui",
+        "neomorphism"
+      ]
+    },
+    {
+      "id": "brutalism",
+      "label": "Brutalism",
+      "definition": "Raw, bold, high-contrast style with hard borders.",
+      "aliases": [
+        "brutalism",
+        "brutalist",
+        "neo brutalism",
+        "neobrutalism"
+      ]
+    },
+    {
+      "id": "spring",
+      "label": "Spring physics",
+      "definition": "Motion driven by spring physics instead of fixed easing.",
+      "aliases": [
+        "spring",
+        "physics animation",
+        "spring animation",
+        "bouncy"
+      ]
+    },
+    {
+      "id": "micro-interaction",
+      "label": "Micro-interaction",
+      "definition": "Small feedback animations on hover, press or state change.",
+      "aliases": [
+        "micro interaction",
+        "micro interactions",
+        "hover effect",
+        "hover animation"
+      ]
+    },
+    {
+      "id": "shimmer",
+      "label": "Shimmer",
+      "definition": "A moving highlight that sweeps across text or a surface.",
+      "aliases": [
+        "shimmer",
+        "shine",
+        "sheen",
+        "glint",
+        "shiny"
+      ]
+    },
+    {
+      "id": "pricing-plans",
+      "label": "Plans / billing",
+      "definition": "Query words that mean a pricing section (too ambiguous to tag items with).",
+      "aliases": [
+        "plans",
+        "billing",
+        "subscription",
+        "tiers",
+        "price"
+      ]
+    },
+    {
+      "id": "carousel-slider",
+      "label": "Slider (carousel)",
+      "definition": "'slider' in a query can mean a carousel as well as a range slider.",
+      "aliases": [
+        "slider",
+        "image slider",
+        "slideshow"
+      ]
+    },
+    {
+      "id": "toggle-switch",
+      "label": "Toggle ↔ switch",
+      "definition": "Toggle and switch name the same on/off control.",
+      "aliases": [
+        "toggle",
+        "switch",
+        "on off"
+      ]
+    },
+    {
+      "id": "modal-dialog",
+      "label": "Modal ↔ dialog",
+      "definition": "Modal, dialog and popup name the same overlay.",
+      "aliases": [
+        "modal",
+        "dialog",
+        "popup"
+      ]
+    },
+    {
+      "id": "landing-page",
+      "label": "Landing page",
+      "definition": "A marketing page made of sections.",
+      "aliases": [
+        "landing page",
+        "landing",
+        "homepage",
+        "marketing site",
+        "marketing page"
+      ]
+    },
+    {
+      "id": "responsive",
+      "label": "Responsive",
+      "definition": "Adapts to mobile and desktop screens.",
+      "aliases": [
+        "responsive",
+        "mobile friendly",
+        "adaptive"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "label": "Accessibility",
+      "definition": "Usable with keyboard, screen readers and assistive tech.",
+      "aliases": [
+        "accessibility",
+        "a11y",
+        "accessible",
+        "aria"
+      ]
+    },
+    {
+      "id": "shadcn",
+      "label": "shadcn/ui",
+      "definition": "The shadcn/ui component system and the Radix primitives it builds on.",
+      "aliases": [
+        "shadcn",
+        "shadcn ui",
+        "radix",
+        "radix ui"
+      ]
+    }
+  ],
+  "aliases_tr": [
+    {
+      "id": "motion",
+      "target": "categories",
+      "label": "Motion & animation",
+      "definition": "Turkish search words for the motion category.",
+      "aliases": [
+        "animasyon",
+        "animasyonlar",
+        "animasyonlu",
+        "hareket"
+      ]
+    },
+    {
+      "id": "icons",
+      "target": "categories",
+      "label": "Icons",
+      "definition": "Turkish search words for the icons category.",
+      "aliases": [
+        "ikon",
+        "ikonlar",
+        "simge",
+        "simgeler"
+      ]
+    },
+    {
+      "id": "color-effects",
+      "target": "categories",
+      "label": "Color & effects",
+      "definition": "Turkish search words for the color & effects category.",
+      "aliases": [
+        "renk",
+        "renkler",
+        "palet",
+        "gölge",
+        "efekt",
+        "gradyan"
+      ]
+    },
+    {
+      "id": "fonts",
+      "target": "categories",
+      "label": "Fonts & typography",
+      "definition": "Turkish search words for the fonts category.",
+      "aliases": [
+        "yazı tipi",
+        "yazı tipleri",
+        "tipografi",
+        "font"
+      ]
+    },
+    {
+      "id": "components",
+      "target": "categories",
+      "label": "Components & UI kits",
+      "definition": "Turkish search words for the components category.",
+      "aliases": [
+        "bileşen",
+        "bileşenler",
+        "komponent",
+        "komponentler"
+      ]
+    },
+    {
+      "id": "sections",
+      "target": "categories",
+      "label": "Section galleries & blocks",
+      "definition": "Turkish search words for the sections category.",
+      "aliases": [
+        "bölüm",
+        "bölümler",
+        "bölüm galerisi"
+      ]
+    },
+    {
+      "id": "inspiration",
+      "target": "categories",
+      "label": "Inspiration & galleries",
+      "definition": "Turkish search words for the inspiration category.",
+      "aliases": [
+        "ilham",
+        "galeri",
+        "örnek siteler"
+      ]
+    },
+    {
+      "id": "templates",
+      "target": "categories",
+      "label": "Templates & boilerplates",
+      "definition": "Turkish search words for the templates category.",
+      "aliases": [
+        "şablon",
+        "şablonlar",
+        "tema",
+        "hazır site"
+      ]
+    },
+    {
+      "id": "layout",
+      "target": "categories",
+      "label": "Layout, grid & bento",
+      "definition": "Turkish search words for the layout category.",
+      "aliases": [
+        "düzen",
+        "yerleşim",
+        "ızgara"
+      ]
+    },
+    {
+      "id": "media",
+      "target": "categories",
+      "label": "Stock images, illustrations & mockups",
+      "definition": "Turkish search words for the media category.",
+      "aliases": [
+        "görsel",
+        "görseller",
+        "stok fotoğraf",
+        "illüstrasyon",
+        "maket"
+      ]
+    },
+    {
+      "id": "design-tools",
+      "target": "categories",
+      "label": "Design tools & plugins",
+      "definition": "Turkish search words for the design tools category.",
+      "aliases": [
+        "tasarım aracı",
+        "tasarım araçları",
+        "eklenti",
+        "eklentiler"
+      ]
+    },
+    {
+      "id": "learning",
+      "target": "categories",
+      "label": "Reading & learning",
+      "definition": "Turkish search words for the learning category.",
+      "aliases": [
+        "okuma",
+        "öğrenme",
+        "makale",
+        "kurs",
+        "ders"
+      ]
+    },
+    {
+      "id": "dev-ai-tools",
+      "target": "categories",
+      "label": "Dev & AI tools",
+      "definition": "Turkish search words for the dev & AI tools category.",
+      "aliases": [
+        "geliştirici araçları",
+        "yapay zeka",
+        "yapay zekâ araçları"
+      ]
+    },
+    {
+      "id": "navbar",
+      "target": "elements",
+      "label": "Navbar",
+      "definition": "Turkish search words for the navbar element.",
+      "aliases": [
+        "menü",
+        "üst menü",
+        "gezinme çubuğu",
+        "navigasyon"
+      ]
+    },
+    {
+      "id": "footer",
+      "target": "elements",
+      "label": "Footer",
+      "definition": "Turkish search words for the footer element.",
+      "aliases": [
+        "alt bilgi",
+        "alt kısım",
+        "sayfa altı"
+      ]
+    },
+    {
+      "id": "pricing",
+      "target": "elements",
+      "label": "Pricing",
+      "definition": "Turkish search words for the pricing element.",
+      "aliases": [
+        "fiyatlandırma",
+        "fiyat tablosu",
+        "fiyatlar"
+      ]
+    },
+    {
+      "id": "testimonials",
+      "target": "elements",
+      "label": "Testimonials",
+      "definition": "Turkish search words for the testimonials element.",
+      "aliases": [
+        "müşteri yorumları",
+        "referanslar",
+        "yorumlar"
+      ]
+    },
+    {
+      "id": "faq",
+      "target": "elements",
+      "label": "FAQ",
+      "definition": "Turkish search words for the FAQ element.",
+      "aliases": [
+        "sss",
+        "sıkça sorulan sorular"
+      ]
+    },
+    {
+      "id": "sidebar",
+      "target": "elements",
+      "label": "Sidebar",
+      "definition": "Turkish search words for the sidebar element.",
+      "aliases": [
+        "yan menü",
+        "kenar çubuğu"
+      ]
+    },
+    {
+      "id": "button",
+      "target": "elements",
+      "label": "Button",
+      "definition": "Turkish search words for the button element.",
+      "aliases": [
+        "buton",
+        "düğme"
+      ]
+    },
+    {
+      "id": "modal",
+      "target": "elements",
+      "label": "Modal / dialog",
+      "definition": "Turkish search words for the modal element.",
+      "aliases": [
+        "açılır pencere",
+        "diyalog"
+      ]
+    },
+    {
+      "id": "dropdown",
+      "target": "elements",
+      "label": "Dropdown menu",
+      "definition": "Turkish search words for the dropdown element.",
+      "aliases": [
+        "açılır menü"
+      ]
+    },
+    {
+      "id": "toast",
+      "target": "elements",
+      "label": "Toast / notification",
+      "definition": "Turkish search words for the toast element.",
+      "aliases": [
+        "bildirim",
+        "bildirimler"
+      ]
+    },
+    {
+      "id": "tabs",
+      "target": "elements",
+      "label": "Tabs",
+      "definition": "Turkish search words for the tabs element.",
+      "aliases": [
+        "sekme",
+        "sekmeler"
+      ]
+    },
+    {
+      "id": "table",
+      "target": "elements",
+      "label": "Table / data grid",
+      "definition": "Turkish search words for the table element.",
+      "aliases": [
+        "tablo"
+      ]
+    },
+    {
+      "id": "chart",
+      "target": "elements",
+      "label": "Chart",
+      "definition": "Turkish search words for the chart element.",
+      "aliases": [
+        "grafik",
+        "grafikler"
+      ]
+    },
+    {
+      "id": "card",
+      "target": "elements",
+      "label": "Card",
+      "definition": "Turkish search words for the card element.",
+      "aliases": [
+        "kart",
+        "kartlar"
+      ]
+    },
+    {
+      "id": "carousel",
+      "target": "elements",
+      "label": "Carousel",
+      "definition": "Turkish search words for the carousel element.",
+      "aliases": [
+        "kaydırıcı",
+        "slayt"
+      ]
+    },
+    {
+      "id": "background",
+      "target": "elements",
+      "label": "Background",
+      "definition": "Turkish search words for the background element.",
+      "aliases": [
+        "arka plan",
+        "arkaplan"
+      ]
+    },
+    {
+      "id": "cursor",
+      "target": "elements",
+      "label": "Cursor",
+      "definition": "Turkish search words for the cursor element.",
+      "aliases": [
+        "imleç"
+      ]
+    },
+    {
+      "id": "loader",
+      "target": "elements",
+      "label": "Loader",
+      "definition": "Turkish search words for the loader element.",
+      "aliases": [
+        "yükleniyor",
+        "yükleme animasyonu"
+      ]
+    },
+    {
+      "id": "calendar",
+      "target": "elements",
+      "label": "Calendar",
+      "definition": "Turkish search words for the calendar element.",
+      "aliases": [
+        "takvim"
+      ]
+    },
+    {
+      "id": "date-picker",
+      "target": "elements",
+      "label": "Date picker",
+      "definition": "Turkish search words for the date picker element.",
+      "aliases": [
+        "tarih seçici"
+      ]
+    },
+    {
+      "id": "form",
+      "target": "elements",
+      "label": "Form",
+      "definition": "Turkish search words for the form element.",
+      "aliases": [
+        "form",
+        "giriş formu",
+        "iletişim formu",
+        "kayıt formu"
+      ]
+    },
+    {
+      "id": "file-upload",
+      "target": "elements",
+      "label": "File upload",
+      "definition": "Turkish search words for the file upload element.",
+      "aliases": [
+        "dosya yükleme"
+      ]
+    },
+    {
+      "id": "checkbox",
+      "target": "elements",
+      "label": "Checkbox / radio",
+      "definition": "Turkish search words for the checkbox element.",
+      "aliases": [
+        "onay kutusu"
+      ]
+    },
+    {
+      "id": "chat",
+      "target": "elements",
+      "label": "Chat",
+      "definition": "Turkish search words for the chat element.",
+      "aliases": [
+        "sohbet",
+        "mesajlaşma"
+      ]
+    },
+    {
+      "id": "3d",
+      "target": "elements",
+      "label": "3D",
+      "definition": "Turkish search words for the 3D element.",
+      "aliases": [
+        "3b",
+        "üç boyutlu"
+      ]
+    },
+    {
+      "id": "text-effect",
+      "target": "elements",
+      "label": "Text effect",
+      "definition": "Turkish search words for the text effect element.",
+      "aliases": [
+        "yazı efekti",
+        "metin animasyonu"
+      ]
+    }
+  ]
+}

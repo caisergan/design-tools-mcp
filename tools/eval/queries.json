@@ -1,0 +1,647 @@
+[
+  {
+    "q": "navbar gallery",
+    "expect_any": [
+      "navbar-gallery"
+    ],
+    "note": "Navbar Gallery — section gallery"
+  },
+  {
+    "q": "navbar inspiration",
+    "expect_any": [
+      "navbar-gallery",
+      "unsection-com"
+    ],
+    "note": "section galleries"
+  },
+  {
+    "q": "hero section library",
+    "expect_any": [
+      "supahero-io",
+      "unsection-com",
+      "ui-flexnative-com/hero-01",
+      "zepa-design"
+    ],
+    "note": "hero galleries + hero blocks"
+  },
+  {
+    "q": "hero section react",
+    "expect_any": [
+      "supahero-io",
+      "ui-flexnative-com",
+      "ui-flexnative-com/hero-01",
+      "tailark-com",
+      "tailark-com/hero-section-8",
+      "bundui-io",
+      "bundui-io/hero-sections-01",
+      "shadcnstore-com",
+      "shadcnstore-com/storefront-hero-1",
+      "ui-aceternity-com",
+      "zepa-design"
+    ],
+    "note": "hero blocks (phase 3 done-when query)"
+  },
+  {
+    "q": "footer gallery",
+    "expect_any": [
+      "footer-design"
+    ],
+    "note": "Footer — the only footer gallery"
+  },
+  {
+    "q": "cta inspiration",
+    "expect_any": [
+      "cta-gallery"
+    ],
+    "note": "CTA.gallery"
+  },
+  {
+    "q": "404 page inspiration",
+    "expect_any": [
+      "404s-design"
+    ],
+    "note": "404s.design"
+  },
+  {
+    "q": "bento grid gallery",
+    "expect_any": [
+      "bentogrids-com",
+      "60fps-design-motion"
+    ],
+    "note": "Bento Grids + 60fps bento gallery page"
+  },
+  {
+    "q": "landing page inspiration",
+    "expect_any": [
+      "landing-love",
+      "landings-dev",
+      "saaslandingpage-com"
+    ],
+    "note": "landing page galleries"
+  },
+  {
+    "q": "shadcn component library",
+    "expect_any": [
+      "ui-shadcn-com",
+      "ui-aceternity-com",
+      "21st-dev",
+      "shadcn-io"
+    ],
+    "note": "component kits"
+  },
+  {
+    "q": "aceternity ui components",
+    "expect_any": [
+      "ui-aceternity-com"
+    ],
+    "note": "specific kit"
+  },
+  {
+    "q": "magic ui components",
+    "expect_any": [
+      "magicui-design"
+    ],
+    "note": "specific kit"
+  },
+  {
+    "q": "animated react component library",
+    "expect_any": [
+      "magicui-design",
+      "ui-aceternity-com",
+      "eldoraui-site",
+      "hover-dev",
+      "uselayouts-com"
+    ],
+    "note": "animated kits"
+  },
+  {
+    "q": "21st.dev react components",
+    "expect_any": [
+      "21st-dev"
+    ],
+    "note": "specific kit"
+  },
+  {
+    "q": "copy paste tailwind components",
+    "expect_any": [
+      "ui-aceternity-com",
+      "magicui-design",
+      "kokonutui-com",
+      "github-com-sadmann7-diceui",
+      "tremor-so"
+    ],
+    "note": "kits whose source is copy-paste"
+  },
+  {
+    "q": "marquee",
+    "expect_any": [
+      "magicui-design",
+      "magicui-design/marquee",
+      "kibo-ui-com",
+      "kibo-ui-com/marquee",
+      "beui-dev",
+      "beui-dev/marquee",
+      "remocn-dev",
+      "remocn-dev/infinite-marquee"
+    ],
+    "note": "component: marquee — component ids land in phase 3"
+  },
+  {
+    "q": "shimmer text",
+    "expect_any": [
+      "kokonutui-com",
+      "kokonutui-com/shimmer-text",
+      "beui-dev",
+      "beui-dev/text-shimmer",
+      "loading-ui-com",
+      "loading-ui-com/text-shimmer",
+      "tailark-com",
+      "tailark-com/motion-primitives-text-shimmer",
+      "chanhdai-com",
+      "chanhdai-com/shimmering-text"
+    ],
+    "note": "component: shimmer text"
+  },
+  {
+    "q": "pricing table",
+    "expect_any": [
+      "pricingpages-design",
+      "smoothui-dev",
+      "smoothui-dev/pricing-1",
+      "eldoraui-site",
+      "eldoraui-site/pricing-01",
+      "hextaui-com",
+      "hextaui-com/billing-pricing-table",
+      "shadcnexamples-com",
+      "shadcnexamples-com/column-pricing-table"
+    ],
+    "note": "component: pricing table"
+  },
+  {
+    "q": "dark mode toggle",
+    "expect_any": [
+      "toggles-colorion-co",
+      "kibo-ui-com",
+      "kibo-ui-com/theme-switcher",
+      "beui-dev",
+      "beui-dev/theme-toggle",
+      "chanhdai-com",
+      "chanhdai-com/theme-switcher",
+      "animate-ui-com",
+      "animate-ui-com/primitives-effects-theme-toggler",
+      "www-8bitcn-com",
+      "8bitcn-com/theme-selector",
+      "magicui-design/animated-theme-toggler"
+    ],
+    "note": "component: theme toggle"
+  },
+  {
+    "q": "date picker",
+    "expect_any": [
+      "date-picker-luca-felix-com",
+      "uiable-com",
+      "uiable-com/date-picker-basic",
+      "bundui-io",
+      "bundui-io/date-picker",
+      "www-8bitcn-com",
+      "8bitcn-com/date-picker",
+      "github-com-sersavan-shadcn-calendar-component",
+      "github-com-johnpolacek-date-range-picker-for-shadcn",
+      "shadcn-datetime-picker-vercel-app",
+      "date-time-range-picker-vercel-app",
+      "shadcn-datetime-picker-xi-vercel-app"
+    ],
+    "note": "component: date picker"
+  },
+  {
+    "q": "toast notification",
+    "expect_any": [
+      "goey-toast-vercel-app",
+      "remocn-dev",
+      "remocn-dev/toast",
+      "www-8bitcn-com",
+      "8bitcn-com/toast",
+      "thegridcn-com",
+      "thegridcn-com/toast",
+      "ds-interlace-tools",
+      "ds-interlace-tools/toast",
+      "nexus-ui-dev",
+      "nexus-ui-dev/toaster"
+    ],
+    "note": "component: toast"
+  },
+  {
+    "q": "sidebar",
+    "expect_any": [
+      "ui-shadcn-com",
+      "ui-shadcn-com/sidebar",
+      "beui-dev",
+      "beui-dev/animated-sidebar",
+      "ui-aceternity-com",
+      "ui-aceternity-com/sidebar",
+      "www-8bitcn-com",
+      "8bitcn-com/sidebar",
+      "shadcn-io",
+      "shadcn-io/sidebar",
+      "fluid-functionalism-vercel-app",
+      "fluid-functionalism-vercel-app/sidebar"
+    ],
+    "note": "component: sidebar"
+  },
+  {
+    "q": "globe",
+    "expect_any": [
+      "magicui-design",
+      "magicui-design/globe",
+      "ui-aceternity-com",
+      "ui-aceternity-com/3d-globe",
+      "www-ui-layouts-com",
+      "ui-layouts-com/globe",
+      "eldoraui-site",
+      "eldoraui-site/cobe-globe",
+      "github-com-shuding-cobe",
+      "globe-graph-vercel-app"
+    ],
+    "note": "component: globe"
+  },
+  {
+    "q": "animated button",
+    "expect_any": [
+      "animatedbuttons-colorion-co",
+      "magicui-design",
+      "magicui-design/shimmer-button",
+      "uibeats-com",
+      "uibeats-com/shimmer-button",
+      "ds-interlace-tools",
+      "ds-interlace-tools/shimmer-button"
+    ],
+    "note": "component: animated button"
+  },
+  {
+    "q": "animation library",
+    "expect_any": [
+      "60fps-design",
+      "transitions-dev",
+      "kinetics-colorion-co",
+      "annnimate-com",
+      "amicro-vercel-app",
+      "motion-dev",
+      "animista-net",
+      "animate-style"
+    ],
+    "note": "motion"
+  },
+  {
+    "q": "framer motion components",
+    "expect_any": [
+      "magicui-design",
+      "eldoraui-site",
+      "dycomps-oimmi-com",
+      "uselayouts-com",
+      "github-com-chrisabdo-motionvariants"
+    ],
+    "note": "motion"
+  },
+  {
+    "q": "gsap animation",
+    "expect_any": [
+      "gsap-com",
+      "annnimate-com",
+      "github-com-greensock-gsap",
+      "ui-soralabs-io-vn"
+    ],
+    "note": "motion"
+  },
+  {
+    "q": "micro interactions",
+    "expect_any": [
+      "amicro-vercel-app",
+      "kinetics-colorion-co",
+      "uselayouts-com",
+      "hover-dev"
+    ],
+    "note": "motion"
+  },
+  {
+    "q": "webgl threejs website inspiration",
+    "expect_any": [
+      "mesh3d-gallery",
+      "canvasui-dev",
+      "github-com-whatisjery-atelier-ui"
+    ],
+    "note": "motion / 3d"
+  },
+  {
+    "q": "font pairing",
+    "expect_any": [
+      "fontjoy-com",
+      "fontshare-com",
+      "typeui-sh",
+      "fontain-org"
+    ],
+    "note": "fonts"
+  },
+  {
+    "q": "free fonts",
+    "expect_any": [
+      "uncut-wtf",
+      "freefaces-gallery",
+      "bestfreefonts-com",
+      "fontshare-com",
+      "collletttivo-it"
+    ],
+    "note": "fonts"
+  },
+  {
+    "q": "icon library",
+    "expect_any": [
+      "hugeicons-com",
+      "github-com-lucide-icons-lucide",
+      "iconify-design",
+      "github-com-react-icons-react-icons",
+      "remixicon-com",
+      "mingcute-com",
+      "reicon-dev"
+    ],
+    "note": "icons"
+  },
+  {
+    "q": "3d icons",
+    "expect_any": [
+      "3dicons-co",
+      "icons8-com",
+      "iconly-pro"
+    ],
+    "note": "icons"
+  },
+  {
+    "q": "color palette generator",
+    "expect_any": [
+      "coolors-co",
+      "colorhunt-co",
+      "mycolor-space",
+      "colormind-io",
+      "colorion-co"
+    ],
+    "note": "color"
+  },
+  {
+    "q": "gradient generator",
+    "expect_any": [
+      "cssgradient-io",
+      "mycolor-space",
+      "grainient-supply",
+      "ui-gradients-com",
+      "colorflow-ls-graphics"
+    ],
+    "note": "gradients"
+  },
+  {
+    "q": "css hover effects",
+    "expect_any": [
+      "animatedbuttons-colorion-co",
+      "text-effects-colorion-co",
+      "toggles-colorion-co"
+    ],
+    "note": "color / effects"
+  },
+  {
+    "q": "design rules for agents",
+    "expect_any": [
+      "styles-refero-design",
+      "designmd-me",
+      "design-md-hyperbrowser-ai",
+      "designmd-supply",
+      "open-design-ai",
+      "typeui-sh",
+      "skills-sh",
+      "github-com-shadcn-ui-lint",
+      "github-com-bergside-awesome-design-skills"
+    ],
+    "note": "design rules"
+  },
+  {
+    "q": "DESIGN.md examples",
+    "expect_any": [
+      "styles-refero-design",
+      "designmd-me",
+      "design-md-hyperbrowser-ai",
+      "designmd-supply"
+    ],
+    "note": "design rules"
+  },
+  {
+    "q": "agent skills for design",
+    "expect_any": [
+      "skills-sh",
+      "github-com-anthropics-skills",
+      "github-com-vercel-labs-skills",
+      "typeui-sh",
+      "github-com-mengto-skills",
+      "github-com-bergside-awesome-design-skills"
+    ],
+    "note": "skills"
+  },
+  {
+    "q": "animasyon",
+    "expect_any": [
+      "60fps-design",
+      "kinetics-colorion-co",
+      "transitions-dev",
+      "orbs-jakubantalik-com",
+      "text-effects-colorion-co"
+    ],
+    "note": "Turkish — motion"
+  },
+  {
+    "q": "ikon",
+    "expect_any": [
+      "hugeicons-com",
+      "github-com-lucide-icons-lucide",
+      "iconify-design",
+      "3dicons-co"
+    ],
+    "note": "Turkish — icons"
+  },
+  {
+    "q": "renk paleti",
+    "expect_any": [
+      "coolors-co",
+      "colorhunt-co",
+      "colorion-co",
+      "mycolor-space",
+      "colormind-io"
+    ],
+    "note": "Turkish — color"
+  },
+  {
+    "q": "bölüm galerisi",
+    "expect_any": [
+      "navbar-gallery",
+      "footer-design",
+      "cta-gallery",
+      "404s-design",
+      "supahero-io"
+    ],
+    "note": "Turkish — section galleries"
+  },
+  {
+    "q": "frosted glass card effect",
+    "expect_any": [
+      "github-com-itsjavi-glasscn-ui",
+      "markodenic-com-tools-glassmorphism-css-generator",
+      "github-com-rdev-liquid-glass-react",
+      "github-com-dashersw-liquid-glass-js"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "real app screens for mobile onboarding flows",
+    "expect_any": [
+      "mobbin-com",
+      "pageflows-com",
+      "mobbin-design"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "bouncy spring animations for buttons",
+    "expect_any": [
+      "kinetics-colorion-co",
+      "fluid-functionalism-vercel-app"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "free vector illustrations for a website",
+    "expect_any": [
+      "undraw-co",
+      "blush-design",
+      "humaaans-com",
+      "icons8-com",
+      "craftwork-design"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "put my app screenshot inside an iphone frame",
+    "expect_any": [
+      "shots-so",
+      "mockuuups-studio",
+      "mocku-co",
+      "hano-so",
+      "smartmockups-com"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "admin panel template with charts",
+    "expect_any": [
+      "shadcnuikit-com",
+      "ui-watermelon-sh",
+      "shadcnuikit-com-dashboard-crm",
+      "shadcnadmin-com-nextjs-ecommerce-dashboard",
+      "evilcharts-com"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "typewriter and glitch text animations",
+    "expect_any": [
+      "text-effects-colorion-co",
+      "ui-soralabs-io-vn",
+      "reactbits-dev"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "spinner while data loads",
+    "expect_any": [
+      "cssloaders-colorion-co",
+      "loading-ui-com",
+      "dotmatrix-zzzzshawn-cloud",
+      "sv-matrix-vercel-app"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "what to show when a list has no items",
+    "expect_any": [
+      "emptystat-es"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "how saas companies present their plans and prices",
+    "expect_any": [
+      "pricingpages-design",
+      "github-com-aymanch-03-shadcn-pricing-page",
+      "shipixen-com-shadcn-pricing-page"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "stop my ai generated ui from looking generic",
+    "expect_any": [
+      "github-com-pbakaus-impeccable",
+      "github-com-petergyang-no-ai-slop",
+      "github-com-nutlope-hallmark",
+      "skills-sh-nutlope-hallmark",
+      "skills-sh-pbakaus-impeccable",
+      "uirules-com"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "smooth scrolling library",
+    "expect_any": [
+      "github-com-darkroomengineering-lenis"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "prebuilt marketing website sections for shadcn",
+    "expect_any": [
+      "www-shadcnblocks-com",
+      "tailark-com",
+      "shadcnstudio-com",
+      "smoothui-dev",
+      "bencho-dev"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "brand mark ideas for a new startup",
+    "expect_any": [
+      "logosystem-co",
+      "logoinspo-com",
+      "logggos-club",
+      "logobook-com"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "grainy gradient backgrounds",
+    "expect_any": [
+      "grainient-supply",
+      "github-com-johuniq-sweep"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "newsletter email design examples",
+    "expect_any": [
+      "reallygoodemails-com"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "animated charts for react",
+    "expect_any": [
+      "evilcharts-com",
+      "amicro-vercel-app-mono-charts",
+      "chartjs-org"
+    ],
+    "note": "descriptive (phase 1): describes the need without naming the resource"
+  }
+]
