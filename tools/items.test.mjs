@@ -86,3 +86,17 @@ test("the packed on-disk index unpacks to exactly what buildIndex returned", asy
   expect(unpackIndex(packed)).toEqual(idx);
   expect(unpackIndex(idx)).toBe(idx); // an unpacked (in-memory) index passes through
 });
+
+test("an element's typed words count only on docs tagged with it (\"no items\" ≠ every list item)", async () => {
+  const { buildIndex, createSearch } = await import("./search.mjs");
+  const entries = [{ id: "a-com", domain: "a.com", name: "A", desc: "", categories: ["components"], labels: [] }];
+  const items = [
+    { id: "a-com/list-item", parent: "a-com", name: "List Item", access: "code", granularity: "variant", from: "registry", elements: ["list"], variants: {} },
+    { id: "a-com/list-empty", parent: "a-com", name: "List Empty", access: "code", granularity: "variant", from: "registry", elements: ["empty-state", "list"], variants: {} },
+  ];
+  const s = createSearch(entries, buildIndex(entries, items));
+  const { ranked } = s.rank("what to show when a list has no items");
+  expect(s.itemOf(ranked[0].d).id).toBe("a-com/list-empty");
+  const listItem = ranked.find((r) => s.isItem(r.d) && s.itemOf(r.d).id === "a-com/list-item");
+  expect(listItem.matched.map(([w]) => w)).toEqual(["list"]);
+});

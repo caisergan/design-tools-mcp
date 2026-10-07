@@ -800,7 +800,12 @@ Built by cheaper agents from the briefs in `briefs/phase-6/` (reports in `briefs
   recall@5 0.983 · MRR 0.724 · named 1.000 · descriptive 0.941. Read the widened numbers as "a judged-correct
   result is in the top 5", pooled from this ranker's own output; the pre-widening numbers are the comparable ones.
   Remaining miss: "what to show when a list has no items" — the query parses to `empty-state` + `list`, and list
-  components outrank every empty-state item. **Decision on embeddings:** not needed now (descriptive ≥ 0.6 after
+  components outrank every empty-state item. Fixed after 6.8: "no items" typed only "item" ("no" is a stopword),
+  and an element concept's typed words scored on untagged docs, so every "List Item" took the empty-state credit.
+  When the query dropped a stopword from the element's phrase, its words now count only on docs carrying the tag
+  (`gated` alt in `tools/search.mjs`; gating every element cost "3d icons" icoon.co and "navbar gallery" a hit).
+  The top 5 are now empty-state components; no other query's top 5 changed. The eval still counts it a miss: `expect_any` is just
+  `emptystat-es`, and the new hits were not judged. **Decision on embeddings:** not needed now (descriptive ≥ 0.6 after
   judging); revisit if new descriptive queries fail.
 - **Open:** 6.2 repo trees, 6.4 headless for bot-walled galleries, 6.5–6.7; the 94 inspiration-only galleries have
   no patterns; whole-site template shops are mapped inconsistently (themefisher/uideck/wrappixel/bootstrapmade vs

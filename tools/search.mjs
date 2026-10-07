@@ -357,8 +357,11 @@ export function createSearch(entries, index) {
       els.push(h.el);
       const word = take(at[h.span[0]], at[h.span[1] - 1]);
       const typed = split(word).filter((w) => !STOP.has(w)).map(stemWord);
-      // the tag and the typed words add up: "Navbar Gallery" (tag + name) ranks above a tagged "awwwards-nav"
-      concepts.push({ word, kind: "element", el: h.el, alts: [{ terms: [elTerm(h.el), ...typed], weight: 1 }] });
+      // the tag and the typed words add up: "Navbar Gallery" (tag + name) ranks above a tagged "awwwards-nav".
+      // When a stopword was dropped the words no longer mean the phrase, so they count only on a tagged doc (`gated`):
+      // "no items" (empty-state) types just "item", which every "List Item" has.
+      const gated = typed.length < split(word).length;
+      concepts.push({ word, kind: "element", el: h.el, alts: [{ terms: [elTerm(h.el), ...typed], weight: 1, gated }] });
     }
     for (const el of els)
       for (const v of variantsIn(text, el)) {
@@ -477,7 +480,7 @@ export function createSearch(entries, index) {
               mask |= v[1];
             }
           }
-          if (words.every((m) => m.has(d)))
+          if ((!alt.gated || s) && words.every((m) => m.has(d)))
             for (const m of words) {
               const v = m.get(d);
               s += v[0];
