@@ -490,3 +490,44 @@ test("a small llms.txt still comes back whole, and a query on it is not an outli
   expect(q).toContain('<untrusted-content source="corpus/llms.txt">');
   expect(q).toMatch(/matching sections|no section matches/);
 });
+
+// ------------------------------------------------------------------ phase 6 review: a query must name the section
+
+// Real docs, real queries. Every expectation was fixed by grepping the headings first:
+//   grep -n '^#\{1,3\} .*sheet'        catalog/corpus/sites/gpui-kit.com/llms-full.txt            -> "# Sheet"
+//   grep -n '^#\{1,3\} .*static deploy' catalog/corpus/sites/replit.com/llms-full.txt             -> "# Static Deployments"
+//   grep -n '^#\{1,3\} .*toast'        catalog/corpus/sites/gluestack.io/llms-full.txt            -> "# Toast"
+//   grep -n '^#\{1,3\} .*drag'         catalog/corpus/sites/platejs.org/llms-full.txt             -> "# Drag & Drop"
+//   grep -n '^#\{1,3\} .*hero'         catalog/corpus/sites/shadcn-ui-blocks.vercel.app/llms-full.txt -> "### Heroes / Hero Sections"
+//   grep -n '^#\{1,3\} .*rate limit'   catalog/corpus/sites/developers.notion.com/llms-full.txt   -> "## Rate limits"
+const firstSection = (text) => /^§\d+ (.+)$/m.exec(text)?.[1] ?? "";
+
+test("gpui-kit 'drawer' opens a Sheet section, not the code that calls .id(\"drawer\")", async () => {
+  const text = textOf(await callTool("get_content", { ref: "gpui-kit.com", query: "drawer" }));
+  expect(firstSection(text)).toMatch(/sheet/i);
+});
+
+test("replit 'deploy a static site' opens Static Deployments", async () => {
+  const text = textOf(await callTool("get_content", { ref: "replit.com", query: "deploy a static site" }));
+  expect(firstSection(text)).toMatch(/static deployments/i);
+});
+
+test("gluestack 'toast' opens the Toast section", async () => {
+  const text = textOf(await callTool("get_content", { ref: "gluestack.io", query: "toast" }));
+  expect(firstSection(text)).toMatch(/^Toast\b/);
+});
+
+test("platejs 'drag and drop' opens Drag & Drop", async () => {
+  const text = textOf(await callTool("get_content", { ref: "platejs.org", query: "drag and drop" }));
+  expect(firstSection(text)).toMatch(/^Drag & Drop/);
+});
+
+test("shadcn-ui-blocks 'hero' opens a hero section", async () => {
+  const text = textOf(await callTool("get_content", { ref: "shadcn-ui-blocks.vercel.app", query: "hero" }));
+  expect(firstSection(text)).toMatch(/hero/i);
+});
+
+test("notion 'rate limits' opens Rate limits", async () => {
+  const text = textOf(await callTool("get_content", { ref: "developers.notion.com", query: "rate limits" }));
+  expect(firstSection(text)).toMatch(/rate limits/i);
+});

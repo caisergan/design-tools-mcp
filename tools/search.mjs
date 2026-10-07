@@ -11,7 +11,8 @@ export const INDEX_SCHEMA = 3; // 3: item records carry `auto`, prior() reads it
 // ---------------------------------------------------------------- tokens
 
 // Unicode letters stay together (Turkish queries), camelCase and letter/digit boundaries split.
-const split = (s) =>
+// Exported for tools/sections.mjs, which tokenises with the same boundaries.
+export const split = (s) =>
   String(s || "")
     .replace(/(\p{Ll})(\p{Lu})/gu, "$1 $2")
     .replace(/(\p{L})(\d)/gu, "$1 $2")

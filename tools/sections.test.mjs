@@ -2,7 +2,7 @@
 // tools/sections.mjs: boundaries, heading trails, sources, chunking, and BM25 section ranking.
 // Pure functions, inline fixtures, no network — only the taxonomy comes from the catalog.
 import { test, expect } from "bun:test";
-import { splitSections, sectionStats, rankSections, bestWindow, expandTag } from "./sections.mjs";
+import { splitSections, sectionStats, rankSections, bestWindow, expandTag, tagTokens } from "./sections.mjs";
 import { tokens } from "./search.mjs";
 
 const line = (tag, i) => `${tag} line ${i}: enough words to keep this paragraph a section of its own.`;
@@ -133,20 +133,44 @@ test("rankSections puts the Drawer section first for a drawer concept", () => {
   expect(total).toBeGreaterThan(0);
   expect(secs[hits[0].n - 1].path).toBe("Components › Drawer");
   expect(hits.map((h) => secs[h.n - 1].path)).not.toContain("Footer");
-  expect(hits[0].score).toBeGreaterThan(hits[hits.length - 1].score);
+  expect(hits.map((h) => h.score)).toEqual(hits.map((h) => h.score).sort((a, b) => b - a));
   expect(hits.every((h) => h.score > 0)).toBe(true);
 });
 
 test("an element tag finds a section through taxonomy aliases (dialog → Modal)", () => {
   const secs = splitSections(DRAWER_DOC);
-  expect(expandTag("el:modal")).toContain("dialog");
+  expect(tagTokens("el:modal")).toContain("dialog");
   const { hits, total } = rankSections(DRAWER_DOC, secs, [concept(["el:modal", "dialog"], "element")], {});
   expect(total).toBe(1);
   expect(secs[hits[0].n - 1].path).toBe("Components › Modal");
-  // va: and cat: tags expand through the variant / category, not just the id
-  expect(expandTag("va:navbar/mega-menu")).toContain("mega");
-  expect(expandTag("va:navbar/mega-menu")).toContain("menu");
-  expect(expandTag("cat:icons").length).toBeGreaterThan(2);
+  // an alias is a token group: "alert dialog" means both words, "side sheet" does not mean "side"
+  expect(expandTag("el:modal")).toContainEqual(["alert", "dialog"]);
+  expect(expandTag("el:drawer")).toContainEqual(["side", "sheet"]);
+  expect(tagTokens("va:navbar/mega-menu")).toContain("mega");
+  expect(tagTokens("va:navbar/mega-menu")).toContain("menu");
+  expect(tagTokens("cat:icons").length).toBeGreaterThan(2);
+});
+
+test("a generic alias word does not match on its own (drawer → Sheet, not Sidebar)", () => {
+  const text = [
+    page("# Components", "intro"),
+    page("## Sheet", "sheet"),
+    page("## Sidebar", "side panel right side of the window side by side"),
+  ].join("\n");
+  const secs = splitSections(text);
+  const { hits, total } = rankSections(text, secs, [DRAWER_CONCEPT], {});
+  expect(total).toBe(1);
+  expect(secs[hits[0].n - 1].path).toBe("Components › Sheet");
+});
+
+test("a concept only the heading trail carries still names the section, weakly", () => {
+  const secs = splitSections(DRAWER_DOC);
+  const { hits, total } = rankSections(DRAWER_DOC, secs, [DRAWER_CONCEPT], { limit: 10 });
+  expect(total).toBe(2);
+  const props = hits.find((h) => secs[h.n - 1].path === "Components › Drawer › Props");
+  expect(props).toBeDefined();
+  expect(hits[0].n).toBeLessThan(props.n); // the trail hit ranks below the real one
+  expect(secs[props.n - 1].chars).toBeGreaterThan(200);
 });
 
 test("sections that score 0 are never returned", () => {

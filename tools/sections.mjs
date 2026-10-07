@@ -11,9 +11,8 @@
 // heading never interrupts (sunglasses.dev is 2.3 MB of flat pages under two `#` lines), fixed
 // ~3 KB chunks cut at blank lines.
 import { TAXONOMY } from "./tag.mjs";
-import { tokens, stemWord } from "./search.mjs";
+import { tokens, stemWord, split } from "./search.mjs";
 
-const TITLE_W = 3; // a title word counts three times its share of a body word
 const K1 = 1.2;
 const B = 0.75;
 const MIN_SECTION = 200; // a shorter section is merged into the next one
@@ -23,10 +22,22 @@ const CHUNK = 3_000; // fixed chunk length when a text has no headings at all
 const CHUNK_FLOOR = 1_200; // …but never cut a chunk under this, even without a blank line
 const CHUNK_CLIP = 80; // title = the chunk's first non-empty line, clipped to this
 const META_SCAN = 600; // a section's own `Source:` / `URL:` line must sit in its first chars
+const FENCE_W = 0.3; // a word inside a fenced code block is an identifier, not the topic
+const PREFIX_W = 0.8; // "deploy" also reaches "deployment" at this weight
+const PREFIX_MIN = 4; // …for query words of this many characters or more
+const OWN_HEAD_W = 2; // a concept the section's own heading carries
+const PARENT_HEAD_W = 1; // a concept only a heading above it carries
+const ALL_MATCH_BONUS = 1.25; // every concept matched (the same idea as tools/search.mjs)
+const NON_LATIN_MAX = 0.3; // a section this much CJK/non-Latin is a translation of the page
+const NON_LATIN_PENALTY = 0.5; // …and ranks below the original when the query is ASCII
 const META_RE = /^\s*(?:Source|URL):\s*(\S.*?)\s*$/;
 const FENCE_RE = /^\s{0,3}(`{3,}|~{3,})/;
+const CLOSE_FENCE_RE = /^\s{0,3}(`{3,}|~{3,})\s*$/;
 const HEADING_RE = /^(#{1,3})[ \t]+(\S.*?)[ \t]*#*[ \t]*$/;
 const ANCHOR_RE = /\s*\[#[\w.-]+\]\s*$/; // "## Install Hooks [#install-hooks]" → "Install Hooks"
+const LETTER_RE = /\p{L}/u;
+const LATIN_RE = /\p{Script=Latin}/u;
+const NON_ASCII_RE = /[^\x00-\x7F]/;
 
 /** Lines with their start offsets, so a boundary can be sliced back out of the text. */
 function linesOf(text) {
@@ -42,6 +53,31 @@ function linesOf(text) {
 }
 
 const headingTitle = (raw) => raw.replace(ANCHOR_RE, "").trim();
+
+/** Toggles the fenced-code-block state on one line: null outside, { ch, len, at } inside. */
+function fenceStep(fence, lineText, at) {
+  if (fence) {
+    const close = CLOSE_FENCE_RE.exec(lineText);
+    return close && close[1][0] === fence.ch && close[1].length >= fence.len ? null : fence;
+  }
+  const open = FENCE_RE.exec(lineText);
+  return open ? { ch: open[1][0], len: open[1].length, at } : null;
+}
+
+/** The fenced-code-block ranges of a text slice — the same fence rules splitSections applies. */
+function fenceRanges(text) {
+  const out = [];
+  let fence = null;
+  let at = 0;
+  for (const line of text.split("\n")) {
+    const inside = fence;
+    fence = fenceStep(fence, line, at);
+    if (inside && !fence) out.push([inside.at, at + line.length]); // the closer ends the block
+    at += line.length + 1;
+  }
+  if (fence) out.push([fence.at, text.length]);
+  return out;
+}
 
 /** The URL a `Source:` / `URL:` line carries (`Source: [url](url)` included), else null. */
 function metaUrl(line) {
@@ -131,14 +167,13 @@ export function splitSections(text) {
   const metas = []; // { start, url } — every `Source:` / `URL:` line, so a section can take one
   let fence = null; // { ch, len } while inside ``` or ~~~
   lines.forEach((line, i) => {
-    const close = /^\s{0,3}(`{3,}|~{3,})\s*$/.exec(line.text);
+    const step = fenceStep(fence, line.text, line.start);
     if (fence) {
-      if (close && close[1][0] === fence.ch && close[1].length >= fence.len) fence = null;
+      fence = step; // a line inside a fence, its closer included
       return;
     }
-    const open = FENCE_RE.exec(line.text);
-    if (open) {
-      fence = { ch: open[1][0], len: open[1].length };
+    if (step) {
+      fence = step; // the line that opens one
       return;
     }
     const url = metaUrl(line.text);
@@ -228,17 +263,67 @@ export function splitSections(text) {
   }));
 }
 
+/** Every token of `text` with its offset — search.mjs's split()+stemWord, camelCase boundaries included. */
+function tokenizeSpans(text) {
+  const out = [];
+  const re = /[\p{L}\p{N}]+/gu;
+  for (let m; (m = re.exec(text)); ) {
+    const lower = m[0].toLocaleLowerCase("en");
+    let at = 0;
+    for (const piece of split(m[0])) {
+      const i = lower.indexOf(piece, at);
+      const rel = i < 0 ? at : i;
+      out.push({ term: stemWord(piece), at: m.index + rel });
+      at = rel + piece.length;
+    }
+  }
+  return out;
+}
+
+/** Tokens of a section's own heading and of the heading trail above it. */
+function headTokens(s) {
+  const own = new Set(tokens(s.title));
+  const parents = new Set();
+  if (s.path.length > s.title.length && s.path.endsWith(s.title))
+    for (const t of tokens(s.path.slice(0, s.path.length - s.title.length))) parents.add(t);
+  for (const t of own) parents.delete(t);
+  return { own, parents };
+}
+
+/** Share of a section's letters that are not Latin script: gpui-kit ships a zh copy of every page. */
+function nonLatinRatio(text) {
+  if (!NON_ASCII_RE.test(text)) return 0;
+  let letters = 0;
+  let foreign = 0;
+  for (const ch of text) {
+    if (!LETTER_RE.test(ch)) continue;
+    letters++;
+    if (!LATIN_RE.test(ch)) foreign++;
+  }
+  return letters ? foreign / letters : 0;
+}
+
 /**
- * BM25 term stats over the sections: postings[term] = flat [section index, weighted tf, …], where a
- * title word counts TITLE_W and a body word 1. Built once per document and cached by the server.
+ * BM25 term stats over the sections: postings[term] = flat [section index, weighted tf, …]. Built once
+ * per document and cached by the server. Only the body counts here — the headings are scored
+ * separately (rankSections' title bonus) — and a word inside a fenced code block counts FENCE_W.
  */
 export function sectionStats(text, sections) {
   const postings = new Map();
+  const parentTerms = new Map(); // term → sections whose heading trail above carries it
   const lens = [];
+  const heads = [];
+  const nonLatin = [];
   sections.forEach((s, i) => {
+    const body = text.slice(s.start, s.end);
+    const fences = fenceRanges(body);
     const tf = new Map();
-    for (const t of tokens(s.path)) tf.set(t, (tf.get(t) || 0) + TITLE_W);
-    for (const t of tokens(text.slice(s.start, s.end))) tf.set(t, (tf.get(t) || 0) + 1);
+    let fi = 0;
+    for (const { term, at } of tokenizeSpans(body)) {
+      while (fi < fences.length && fences[fi][1] <= at) fi++;
+      const inFence = fi < fences.length && fences[fi][0] <= at;
+      tf.set(term, (tf.get(term) || 0) + (inFence ? FENCE_W : 1));
+    }
     let len = 0;
     for (const [t, n] of tf) {
       let p = postings.get(t);
@@ -247,48 +332,60 @@ export function sectionStats(text, sections) {
       len += n;
     }
     lens.push(len);
+    const head = headTokens(s);
+    heads.push(head);
+    for (const t of head.parents) {
+      let p = parentTerms.get(t);
+      if (!p) parentTerms.set(t, (p = []));
+      p.push(i);
+    }
+    nonLatin.push(nonLatinRatio(body));
   });
   const avg = Math.max(1, lens.reduce((a, b) => a + b, 0) / Math.max(1, lens.length));
-  return { N: sections.length, lens, avg, postings };
+  return { N: sections.length, lens, avg, postings, parentTerms, vocab: [...postings.keys()], heads, nonLatin };
 }
 
-// el:modal → "modal dialog alert confirm lightbox popup": the tag is what the taxonomy knows, the
-// words are what a heading says. Sections never carry `el:`/`va:`/`cat:` terms, so they are always
-// expanded; a tag scores as its best matching expansion (an OR), like a concept scores as its best alt.
+// el:modal → "modal", "dialog", "alert dialog", "confirm dialog", "lightbox", "popup": the tag is
+// what the taxonomy knows, the words are what a heading says. Sections never carry `el:`/`va:`/`cat:`
+// terms, so they are always expanded — and each alias is kept as a token *group*: "side sheet" means
+// side **and** sheet, or the generic "side" would match every Sidebar on the page. A tag then scores
+// as its best matching group, like a concept scores as its best alt.
 const ELEMENTS = new Map(TAXONOMY.elements.map((e) => [e.id, e]));
 const CATEGORIES = new Map(TAXONOMY.categories.map((c) => [c.id, c]));
 const TAG_CACHE = new Map();
+const LABEL_SPLIT = /[/|·,&]+/; // "Drawer / sheet" lists two alternatives, it is not a phrase
+
 export function expandTag(term) {
   if (TAG_CACHE.has(term)) return TAG_CACHE.get(term);
-  const words = new Set();
-  const add = (s) => {
-    for (const t of tokens(s)) words.add(t);
+  const groups = [];
+  const seen = new Set();
+  const push = (s) => {
+    const toks = tokens(s);
+    if (!toks.length) return;
+    const key = toks.join(" ");
+    if (seen.has(key)) return;
+    seen.add(key);
+    groups.push(toks);
   };
-  if (term.startsWith("el:")) {
-    const e = ELEMENTS.get(term.slice(3));
-    if (e) {
-      add(e.id);
-      add(e.label);
-      for (const a of e.aliases || []) add(a);
-    }
-  } else if (term.startsWith("va:")) {
+  let source = null;
+  if (term.startsWith("el:")) source = ELEMENTS.get(term.slice(3));
+  else if (term.startsWith("va:")) {
     const [el, id] = term.slice(3).split("/");
-    const v = ELEMENTS.get(el)?.variants?.find((x) => x.id === id);
-    if (v) {
-      add(v.id);
-      add(v.label);
-      for (const a of v.aliases || []) add(a);
-    }
-  } else if (term.startsWith("cat:")) {
-    const c = CATEGORIES.get(term.slice(4));
-    if (c) {
-      add(c.id);
-      add(c.label);
-      for (const a of c.aliases || []) add(a);
-    }
+    source = ELEMENTS.get(el)?.variants?.find((x) => x.id === id);
+  } else if (term.startsWith("cat:")) source = CATEGORIES.get(term.slice(4));
+  if (source) {
+    push(source.id);
+    for (const part of String(source.label || "").split(LABEL_SPLIT)) push(part);
+    for (const a of source.aliases || []) push(a);
   }
-  const out = [...words];
-  TAG_CACHE.set(term, out);
+  TAG_CACHE.set(term, groups);
+  return groups;
+}
+
+/** Every token the tag's aliases can match (the union of its groups). */
+export function tagTokens(term) {
+  const out = [];
+  for (const g of expandTag(term)) for (const t of g) if (!out.includes(t)) out.push(t);
   return out;
 }
 
@@ -298,17 +395,25 @@ function conceptWords(concepts) {
   for (const c of concepts)
     for (const alt of c.alts || [])
       for (const t of alt.terms) {
-        const list = t.includes(":") ? expandTag(t) : [t];
+        const list = t.includes(":") ? tagTokens(t) : [t];
         for (const w of list) if (!words.has(w)) words.set(w, alt.weight ?? 1);
       }
   return words;
 }
 
 /**
- * BM25 over the sections: each concept scores as its best alternative × weight, the concepts add up,
- * and a section that matched every concept gets ×1.25 (same idea as tools/search.mjs). Ties go to the
- * earlier section. Sections that score 0 are not returned; `total` counts every match and `hits`
- * pages through them.
+ * BM25 over the sections, on top of three corrections that plain BM25 gets wrong on real docs:
+ *
+ *  - the headings are scored separately, not folded into tf (where more words just saturate): a
+ *    concept the section's own heading carries adds idf × 2, one only a heading above it adds idf × 1;
+ *  - a query word of 4+ characters also reaches its longer forms (deploy → deployment) at 0.8×;
+ *  - a section that is mostly CJK/non-Latin is a translation of the page: × 0.5 for an ASCII query.
+ *
+ * Each concept scores as its best alternative × weight — and a word the alternative's tag already
+ * covers is dropped (el:drawer + drawer is one concept: drawer, sheet, slide over …), so a "Sheet"
+ * section and a "Drawer" section score the same on it. The concepts add up, a section that matched
+ * every one of them gets ×1.25 (same idea as tools/search.mjs), ties go to the earlier section, and
+ * sections that score 0 are not returned.
  */
 export function rankSections(text, sections, concepts, { limit = 4, offset = 0, stats } = {}) {
   const st = stats || sectionStats(text, sections);
@@ -332,25 +437,107 @@ export function rankSections(text, sections, concepts, { limit = 4, offset = 0, 
     return m;
   };
 
+  // A word's longer forms ("deployment" for "deploy"), cached per query term: section → [score, token].
+  const forms = new Map();
+  const formsOf = (t) => {
+    let list = forms.get(t);
+    if (list) return list;
+    list = [];
+    if (t.length >= PREFIX_MIN) for (const v of st.vocab) if (v.length > t.length && v.startsWith(t)) list.push(v);
+    forms.set(t, list);
+    return list;
+  };
+  const wordDocs = new Map();
+  const wordOf = (t) => {
+    let m = wordDocs.get(t);
+    if (m) return m;
+    wordDocs.set(t, (m = new Map()));
+    for (const [i, score] of docsOf(t)) m.set(i, [score, t]);
+    for (const v of formsOf(t))
+      for (const [i, score] of docsOf(v)) {
+        const cur = m.get(i);
+        if (!cur || score * PREFIX_W > cur[0]) m.set(i, [score * PREFIX_W, v]);
+      }
+    return m;
+  };
+  const headBonus = (via, i) => {
+    const { own, parents } = st.heads[i];
+    let bonus = 0;
+    let parent = 0;
+    for (const t of via) {
+      if (own.has(t)) bonus = Math.max(bonus, idf(t) * OWN_HEAD_W);
+      else if (parents.has(t)) parent = Math.max(parent, idf(t) * PARENT_HEAD_W);
+    }
+    return bonus || parent;
+  };
+  const asciiQuery = concepts.every((c) => (c.alts || []).every((a) => a.terms.every((t) => !NON_ASCII_RE.test(t))));
+
   const scores = new Map();
   const matched = new Map();
   for (const c of concepts) {
     const best = new Map();
     for (const alt of c.alts || []) {
-      const words = [...new Set(alt.terms.filter((t) => !t.includes(":")))];
-      const tags = [...new Set(alt.terms.filter((t) => t.includes(":")))]
-        .map((t) => expandTag(t).map(docsOf))
-        .filter((x) => x.length);
-      for (const i of new Set([...words.map(docsOf), ...tags.flat()].flatMap((m) => [...m.keys()]))) {
+      const tags = [...new Set(alt.terms.filter((t) => t.includes(":")))];
+      const covered = new Set(tags.flatMap(tagTokens));
+      const words = [...new Set(alt.terms.filter((t) => !t.includes(":")))].filter((t) => !covered.has(t));
+      const parts = words.map((t) => [t, wordOf(t)]);
+      const tagParts = tags.map((t) => expandTag(t).map((group) => group.map((x) => [x, docsOf(x)]))).filter((x) => x.length);
+      const candidates = new Set([...parts.flatMap(([, m]) => [...m.keys()]), ...tagParts.flatMap((set) => set.flatMap((group) => group.flatMap(([, m]) => [...m.keys()])))]);
+      for (const i of candidates) {
         let s = 0;
-        if (words.every((t) => docsOf(t).has(i))) for (const t of words) s += docsOf(t).get(i);
-        for (const tag of tags) {
-          let m = 0;
-          for (const d of tag) m = Math.max(m, d.get(i) || 0);
-          s += m;
+        const via = new Set();
+        if (parts.every(([, m]) => m.has(i)))
+          for (const [, m] of parts) {
+            const [score, token] = m.get(i);
+            s += score;
+            via.add(token);
+          }
+        for (const set of tagParts) {
+          let hit = 0;
+          let group = null;
+          for (const g of set) {
+            let sum = 0;
+            let top = 0;
+            let token = null;
+            for (const [x, m] of g) {
+              const score = m.get(i) || 0;
+              if (!score) {
+                sum = 0; // every word of an alias group has to be there ("side sheet", not "side")
+                break;
+              }
+              sum += score;
+              if (score > top) {
+                top = score;
+                token = x;
+              }
+            }
+            if (sum > hit) {
+              hit = sum;
+              group = { g, token };
+            }
+          }
+          if (hit) {
+            s += hit;
+            via.add(group.token);
+            for (const [x] of group.g) via.add(x);
+          }
         }
         if (s <= 0) continue;
-        s *= alt.weight ?? 1;
+        s = (s + headBonus(via, i)) * (alt.weight ?? 1);
+        const cur = best.get(i);
+        if (cur === undefined || s > cur) best.set(i, s);
+      }
+      // A concept the heading trail above carries, but the section's own text never repeats, still
+      // names the section — that is the whole point of "Drawer › Props": score it idf × 1.
+      const trail = new Map();
+      for (const t of [...words, ...tags.flatMap(tagTokens)]) {
+        const score = idf(t) * PARENT_HEAD_W;
+        for (const i of st.parentTerms.get(t) || []) {
+          if (best.has(i) || score <= (trail.get(i) || 0)) continue;
+          trail.set(i, score);
+        }
+      }
+      for (const [i, s] of trail) {
         const cur = best.get(i);
         if (cur === undefined || s > cur) best.set(i, s);
       }
@@ -362,7 +549,11 @@ export function rankSections(text, sections, concepts, { limit = 4, offset = 0, 
   }
   const n = concepts.length;
   const ranked = [];
-  for (const [i, s] of scores) ranked.push({ i, score: s * (matched.get(i) === n && n > 1 ? 1.25 : 1) });
+  for (const [i, s] of scores) {
+    let score = s * (matched.get(i) === n && n > 1 ? ALL_MATCH_BONUS : 1);
+    if (asciiQuery && st.nonLatin[i] > NON_LATIN_MAX) score *= NON_LATIN_PENALTY;
+    ranked.push({ i, score });
+  }
   ranked.sort((a, b) => b.score - a.score || a.i - b.i);
   const from = Math.max(0, Number(offset) || 0);
   return { hits: ranked.slice(from, from + Math.max(0, Number(limit) || 0)).map((r) => ({ n: sections[r.i].n, score: r.score })), total: ranked.length };
@@ -379,8 +570,15 @@ export function bestWindow(text, section, concepts, { size = 2_500 } = {}) {
   const body = text.slice(section.start, section.end);
   for (let m; (m = re.exec(body)); ) {
     const raw = m[0].toLocaleLowerCase("en");
-    const w = words.get(raw) ?? words.get(stemWord(raw));
-    // camelCase inside a word ("DrawerProps") is rare in prose: the stem of the whole word is enough
+    const stem = stemWord(raw);
+    let w = words.get(raw) ?? words.get(stem);
+    // a window should also open on "deployment" when the query said "deploy"
+    if (w === undefined)
+      for (const [t, weight] of words)
+        if (t.length >= PREFIX_MIN && stem.length > t.length && stem.startsWith(t)) {
+          w = weight * PREFIX_W;
+          break;
+        }
     if (w !== undefined) hits.push({ at: section.start + m.index, weight: w });
   }
   if (!hits.length) return { from: section.start, to: Math.min(section.end, section.start + size) };
