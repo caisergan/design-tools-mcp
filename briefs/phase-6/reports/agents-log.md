@@ -14,6 +14,15 @@ removed, then `herdr worktree remove --workspace <id>` ends the agent and delete
 | r054 | 05 review queue 85–112 | `phase6/review-r4` @ 404430a | 3 patterns, 25 skips | 2026-10-07 | 2026-10-07 |
 | r055 | 05 review queue 113–140 | `phase6/review-r5` @ 4f77864 | 3 patterns, 25 skips | 2026-10-07 | 2026-10-07 |
 | h05a | 05 hand sites (14) | `phase6/review-hand-a` @ 7cb9db7 | 6 patterns, 8 skips | 2026-10-07 | 2026-10-07 |
+| h05b | 05 hand sites (14) | `phase6/review-hand-b` @ a80ffcb | 8 patterns, 6 skips | 2026-10-07 | 2026-10-07 |
+| r052 | 05 review queue 29–56 | `phase6/review-r2` @ 4f5f3b5 | 4 patterns, 24 skips | 2026-10-07 | 2026-10-07 |
+| r053 | 05 review queue 57–84 | `phase6/review-r3` @ 9a89143 | 3 patterns, 25 skips | 2026-10-07 | 2026-10-07 |
 
-Still running: a03 (03 21st.dev, restarted after an uncaught timeout crashed the fetch at 1,404 components), l04 (04
-list_pages), h05b, r052, r053.
+Still running: a03 (03 21st.dev, restarted after an uncaught timeout crashed the fetch at 1,404 components) and l04 (04
+list_pages).
+
+All 05 batches merged: `catalog/patterns/` holds 274 files (44 hand · 60 auto · 170 skip).
+
+Follow-ups noted in review: dycomps.oimmi.com was skipped because its sitemap locs have no host (a real block library,
+worth a urls_from look); whole-site template shops are inconsistent (themefisher, uideck, wrappixel, bootstrapmade got
+patterns; frameplate and sleek.design were skipped).
