@@ -9,12 +9,13 @@ const ov = { assetDomains: new Set(), components: {} };
 const S = (loc, lastmod) => ({ loc, ...(lastmod ? { lastmod } : {}) });
 const scan = (domain, id, opts) => sitemapScan(domain, { id }, { overrides: ov, taken: new Map(), ...opts });
 const match = (pattern, url) => matchUrl(url, compilePattern(pattern, { taxonomy: undefined }));
+const caps = (m) => (m ? m.captures.map(({ kind, raw, id }) => ({ kind, raw, ...(id ? { id } : {}) })) : null);
 
 // ---------------------------------------------------------------- templates
 
 test("navbar.gallery: /navbar/{name}, a fixed element and a trailing slash/query ignored", () => {
   const pattern = { match: "/navbar/{name}", element: "navbar", granularity: "example", status: "hand" };
-  expect(match(pattern, "https://navbar.gallery/navbar/stripe/")?.captures).toEqual([{ kind: "name", raw: "stripe" }]);
+  expect(caps(match(pattern, "https://navbar.gallery/navbar/stripe/"))).toEqual([{ kind: "name", raw: "stripe" }]);
   expect(match(pattern, "https://navbar.gallery/navbar/stripe?utm_source=x")?.captures[0].raw).toBe("stripe");
   expect(match(pattern, "https://navbar.gallery/navbar/a/b")).toBeNull(); // one template segment ↔ one path segment
   expect(match(pattern, "https://navbar.gallery/browse/stripe")).toBeNull();
@@ -23,7 +24,7 @@ test("navbar.gallery: /navbar/{name}, a fixed element and a trailing slash/query
 test("sectionmaster: {element} never reads an element out of a company name", () => {
   const c = compilePattern({ match: "/sections/{name}-{element}-{n}", status: "hand" });
   const m = matchUrl("https://sectionmaster.com/sections/navattic-com-hero-1", c);
-  expect(m.captures).toEqual([
+  expect(caps(m)).toEqual([
     { kind: "name", raw: "navattic-com" },
     { kind: "element", raw: "hero", id: "hero" },
     { kind: "n", raw: "1" },
@@ -33,12 +34,13 @@ test("sectionmaster: {element} never reads an element out of a company name", ()
     sitemap: { urls: [S("https://sectionmaster.com/sections/navattic-com-hero-1")] },
   });
   expect(r.items[0].elements).toEqual(["hero"]);
-  expect(r.items[0].name).toBe("Navattic Com");
+  expect(r.items[0].id).toBe("sm/navattic-com-hero-1");
+  expect(r.items[0].name).toBe("Navattic Com Hero 1");
 });
 
 test("daisyui: /components/{element}/ matches ids and aliases, and slugs the element segment", () => {
   const pattern = { match: "/components/{element}", status: "hand" };
-  expect(match(pattern, "https://daisyui.com/components/navbar/")?.captures).toEqual([{ kind: "element", raw: "navbar", id: "navbar" }]);
+  expect(caps(match(pattern, "https://daisyui.com/components/navbar/"))).toEqual([{ kind: "element", raw: "navbar", id: "navbar" }]);
   expect(match(pattern, "https://daisyui.com/components/button-group/")?.captures[0].id).toBe("button");
   expect(match(pattern, "https://daisyui.com/components/not-a-thing/")).toBeNull();
   const r = scan("daisyui.com", "daisy", { pattern, sitemap: { urls: [S("https://daisyui.com/components/button-group/")] } });
@@ -102,13 +104,30 @@ test("dedupe: registry and llms items win by id and by url", () => {
   expect(taken.has("ng/fresh")).toBe(true); // our items join `taken` for the next adapter
 });
 
-test("distinct pages that slug to the same id keep both items", () => {
+test("ids and names come from the whole captured segment, never from sitemap order", () => {
+  const pattern = { match: "/sections/{name}-{element}-{n}", granularity: "example", status: "hand" };
+  const urls = [
+    "https://sectionmaster.com/sections/rig-ai-hero-1",
+    "https://sectionmaster.com/sections/rig-ai-hero-2",
+    "https://sectionmaster.com/sections/wist-chat-hero-1",
+  ];
+  const a = scan("sectionmaster.com", "sm", { pattern, sitemap: { urls: urls.map((u) => S(u)) } });
+  expect(a.items.map((i) => [i.id, i.name, i.elements])).toEqual([
+    ["sm/rig-ai-hero-1", "Rig Ai Hero 1", ["hero"]],
+    ["sm/rig-ai-hero-2", "Rig Ai Hero 2", ["hero"]],
+    ["sm/wist-chat-hero-1", "Wist Chat Hero 1", ["hero"]], // chat is the company, not a second element
+  ]);
+  const b = scan("sectionmaster.com", "sm", { pattern, sitemap: { urls: [...urls].reverse().map((u) => S(u)) } });
+  expect(b.items.map((i) => [i.id, i.name]).sort()).toEqual(a.items.map((i) => [i.id, i.name]).sort());
+});
+
+test("the same page listed twice becomes one item", () => {
   const pattern = { match: "/sections/{name}-{element}-{n}", status: "hand" };
-  const r = scan("sectionmaster.com", "sm", {
+  const r = scan("sm.dev", "sm", {
     pattern,
-    sitemap: { urls: [S("https://sectionmaster.com/sections/acme-hero-1"), S("https://sectionmaster.com/sections/acme-hero-2")] },
+    sitemap: { urls: [S("https://sm.dev/sections/acme-cta-1"), S("https://sm.dev/sections/acme-cta-1/"), S("https://sm.dev/sections/acme-cta-2")] },
   });
-  expect(r.items.map((i) => i.id)).toEqual(["sm/acme", "sm/acme-hero-2"]);
+  expect(r.items.map((i) => i.id)).toEqual(["sm/acme-cta-1", "sm/acme-cta-2"]);
 });
 
 test("www and non-www are the same page for dedupe and filter tagging", () => {

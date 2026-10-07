@@ -1,7 +1,7 @@
 {
-  "match": "/sections/{name}",
+  "match": "/sections/{name}-{element}-{n}",
   "granularity": "example",
   "access": "page",
   "status": "hand",
-  "note": "One page per section example: /sections/<company>-<kind>-<n> (669; e.g. /sections/rig-ai-hero-1 = 'Hero section from rig.ai'). No fixed element: tagItem reads the kind out of the slug (69% of children tag), so a company name can never inject an element by itself. The stricter /sections/{name}-{element}-{n} form was rejected: it would drop the ~31% of pages whose kind is not a taxonomy element (about, other, portfolio, contacts…) and it collides every section of one company onto one id. /inspiration/<element> (11) are kind pages that list examples — not examples themselves."
+  "note": "One page per section example: /sections/<company>-<kind>-<n> (e.g. /sections/rig-ai-hero-1 = 'Hero section from rig.ai'). The element comes from its own position in the template, so a company slug can never inject a second element (wist-chat-hero-1 is hero only). Id and name are the whole captured segment: sectionmaster-com/rig-ai-hero-1 / 'Rig Ai Hero 1', independent of sitemap order. Sections whose kind is not a taxonomy element (about, other, portfolio, contacts …) do not match and are dropped; /inspiration/<element> (11) are kind pages that list examples, not examples themselves."
 }

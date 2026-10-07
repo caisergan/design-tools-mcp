@@ -132,8 +132,8 @@ function matchSegments(tmpl, segs) {
       if (k.kind === "element") {
         const id = k.bySlug.get(String(raw).toLowerCase());
         if (!id) return null;
-        captures.push({ kind: "element", raw, id });
-      } else captures.push({ kind: k.kind, raw });
+        captures.push({ kind: "element", raw, id, seg: i });
+      } else captures.push({ kind: k.kind, raw, seg: i });
     }
   }
   return captures;
@@ -282,7 +282,6 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
   let matched = 0;
   let skipped = 0;
   let unmapped = 0;
-  const addedByScan = new Set();
   for (const url of candidates) {
     const m = matchUrl(url, compiled);
     if (!m) continue;
@@ -292,30 +291,23 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
       skipped++;
       continue;
     }
-    const cName = captureOf(m, "name")?.raw ?? null;
-    const cAuthor = captureOf(m, "author")?.raw ?? null;
+    // id and name come from the whole captured segment: /sections/{name}-{element}-{n} on
+    // "rig-ai-hero-1" is id "<parent>/rig-ai-hero-1" and name "Rig Ai Hero 1" — never a bare "Rig Ai",
+    // and never dependent on sitemap order.
     const cElement = captureOf(m, "element") ?? null;
-    const cStar = captureOf(m, "star")?.raw ?? null;
-    const base = cName ?? cElement?.raw ?? cStar ?? m.segs[m.segs.length - 1];
-    const idBase = cAuthor ? `${cAuthor}-${base}` : base;
-    let id = `${parent.id}/${slug(idBase)}`;
-    const owner = taken.get(id);
-    if (owner) {
-      // registry and llms items win; a page this scan already made keeps the id, a distinct one is disambiguated
-      if (!addedByScan.has(id)) {
-        skipped++;
-        continue;
-      }
-      const extra = [cElement?.raw, captureOf(m, "n")?.raw, cStar].filter(Boolean).join("-");
-      if (!extra) {
-        skipped++;
-        continue;
-      }
-      id = `${parent.id}/${slug(`${idBase}-${extra}`)}`;
-      if (taken.has(id)) {
-        skipped++;
-        continue;
-      }
+    const cAuthor = captureOf(m, "author") ?? null;
+    const nameSeg = captureOf(m, "name")?.seg ?? captureOf(m, "element")?.seg ?? captureOf(m, "star")?.seg ?? m.segs.length - 1;
+    const base = m.segs[nameSeg];
+    const parts = [];
+    if (cAuthor && cAuthor.seg !== nameSeg) parts.push(cAuthor.raw);
+    parts.push(base);
+    for (const c of m.captures) if (c.seg !== nameSeg && c.kind !== "name" && c.kind !== "author") parts.push(c.raw);
+    const idBase = parts.join("-");
+    const id = `${parent.id}/${slug(idBase)}`;
+    if (taken.has(id)) {
+      // registry and llms items win, and two pages whose segment slugs the same are one item
+      skipped++;
+      continue;
     }
 
     const els = new Set();
@@ -355,7 +347,6 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
     out.push(item);
     taken.set(id, item);
     takenUrls.add(key);
-    addedByScan.add(id);
   }
   return { items: out, candidates: candidates.length, matched, skipped, unmapped };
 }
