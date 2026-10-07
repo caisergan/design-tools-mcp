@@ -1,0 +1,14 @@
+{
+  "match": [
+    "/docs/editor",
+    "/docs/editor/toolbar",
+    "/docs/editor/link",
+    "/docs/block-editor",
+    "/docs/static-renderer",
+    "/docs/extensions/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "hand",
+  "note": "editorcn: Tiptap rich-text editor components shipped through the shadcn registry, one docs page per component with a live preview — 'Toolbar Editor' /docs/editor, 'Toolbar Controls' /docs/editor/toolbar, 'Link Extension' /docs/editor/link, 'BlockEditor' /docs/block-editor, 'Static Renderer' /docs/static-renderer, 'Table' /docs/extensions/table, 'Image Placeholder' /docs/extensions/image-placeholder (all 200 checked 2026-10-07). The rest of the 27 sitemap URLs are docs (getting-started, styling, customization, ownership, mcp, registry, changelog/**) or docs sub-pages of those components (serialization-format) — not items. Only /docs/extensions/table maps to a taxonomy element (table); the extension docs live under /docs/extensions/<name>."
+}
