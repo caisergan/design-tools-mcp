@@ -38,9 +38,8 @@ the same domain. The numbers above are per domain.
 
 ## Before handing out
 
-1. **Put the project under git** (`git init && git add -A && git commit -m baseline`). There is no version control
-   today, and reviewing five agents' work without diffs is guesswork. Each agent then works on its own branch or
-   worktree.
+1. The project is in git (`main` → github.com/caisergan/design-tools-mcp, **public**). Give each agent its own
+   branch or worktree, and review its diff before merging. `harvest/` is gitignored; never commit it.
 2. Agents never need the 21st.dev API key. Do not put it in any brief, file or environment they can see.
 
 ## Shared rules (repeated inside each brief)
