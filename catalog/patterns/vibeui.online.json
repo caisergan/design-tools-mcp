@@ -1,4 +1,25 @@
 {
-  "skip": "one-page prompt collection; the 'sections' are in-page #anchors, no per-example URLs",
-  "status": "hand"
+  "anchors_from": ["/"],
+  "anchors_exclude": [
+    "#all",
+    "#heading-all",
+    "#heading-auth",
+    "#heading-pricing",
+    "#heading-features",
+    "#heading-hero",
+    "#heading-cta",
+    "#heading-stats",
+    "#heading-nav",
+    "#heading-testimonials",
+    "#heading-footer",
+    "#heading-faq",
+    "#heading-dashboards",
+    "#heading-onboarding",
+    "#heading-blog",
+    "#heading-contact",
+    "#heading-bonus"
+  ],
+  "granularity": "example",
+  "status": "hand",
+  "note": "One-page collection of 92 free UI prompts: every element category is a <section id=…> of the homepage (auth, hero, pricing …) and the sitemap already lists those urls as #anchors. The `heading-<id>` sections are the section headings themselves and are excluded, so one item per category section."
 }

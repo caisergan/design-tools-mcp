@@ -2,8 +2,8 @@
 // Pattern layer (MCP-PLAN 6.2): template matching, the sitemap adapter, filter pages and the guesser. No network:
 // sitemaps, HTML and `taken` maps are passed in.
 import { test, expect } from "bun:test";
-import { compilePattern, hrefs, humanise, loadFilters, matchUrl, sitemapItems, sitemapScan, validatePattern } from "./sitemap-items.mjs";
-import { nextPageUrl, parseDomainList, suggest } from "./patterns.mjs";
+import { compilePattern, extractAnchors, hrefs, humanise, loadFilters, loadSitemap, matchUrl, sitemapItems, sitemapScan, validatePattern } from "./sitemap-items.mjs";
+import { nextPageUrl, parseDomainList, parseEvalResult, suggest } from "./patterns.mjs";
 
 const ov = { assetDomains: new Set(), components: {} };
 const S = (loc, lastmod) => ({ loc, ...(lastmod ? { lastmod } : {}) });
@@ -154,6 +154,75 @@ test("auto patterns mark their items", () => {
   expect(hand.items[0].auto).toBeUndefined();
 });
 
+test("the display name keeps the {name} capture, position decides the rest", () => {
+  // a {*} before the name segment only groups the page — the path already says it
+  const animista = scan("animista.net", "a", {
+    pattern: { match: "/play/text/{*}/{name}", granularity: "example", status: "hand" },
+    sitemap: { urls: [S("https://animista.net/play/text/bounce-in/bounce-in-fwd")] },
+  });
+  expect(animista.items.map((i) => [i.id, i.name])).toEqual([["a/bounce-in-fwd-bounce-in", "Bounce In Fwd"]]);
+
+  // an {element} in a segment of its own becomes the label instead of a repeated word
+  const dy = scan("dycomps.oimmi.com", "d", {
+    pattern: { match: "/templates/{*}/{element}/{name}", status: "hand" },
+    sitemap: { urls: [S("https://dycomps.oimmi.com/templates/c-blocks/contact/contact2")] },
+  });
+  expect(dy.items.map((i) => [i.id, i.name, i.elements])).toEqual([["d/contact2-c-blocks-contact", "Contact2 — Contact", ["contact"]]]);
+
+  // {author} prefixes the name; a {*} after the name — or on the leaf — qualifies it
+  const ta = scan("tailark.com", "t", {
+    pattern: { match: ["/pages/{author}/{*}/{name}", "/pages/{author}/{*}/{name}/{*}"], status: "hand" },
+    sitemap: {
+      urls: [S("https://tailark.com/pages/quartz/dark/landing"), S("https://tailark.com/pages/quartz/grid-1/customer-story/one")],
+    },
+  });
+  expect(ta.items.map((i) => [i.id, i.name])).toEqual([
+    ["t/quartz-landing-dark", "Quartz Landing"],
+    ["t/quartz-customer-story-grid-1-one", "Quartz Customer Story One"],
+  ]);
+
+  // a {*} / {n} after the name segment stays visible: it is what tells two items of one element apart
+  const gov = scan("design-system.service.gov.uk", "g", {
+    pattern: { match: "/components/{element}/{*}", status: "hand" },
+    sitemap: { urls: [S("https://design-system.service.gov.uk/components/accordion/history")] },
+  });
+  expect(gov.items.map((i) => [i.id, i.name, i.elements])).toEqual([["g/accordion-history", "Accordion History", ["accordion"]]]);
+  const kit = scan("originkit.dev", "k", {
+    pattern: { match: "/components/{name}/{n}", status: "hand" },
+    sitemap: { urls: [S("https://www.originkit.dev/components/accretion-disc/02")] },
+  });
+  expect(kit.items.map((i) => [i.id, i.name])).toEqual([["k/accretion-disc-02", "Accretion Disc 02"]]);
+
+  // captures of the name's own segment all stay in the name
+  const sm = scan("sectionmaster.com", "sm", {
+    pattern: { match: "/sections/{name}-{element}-{n}", status: "hand" },
+    sitemap: { urls: [S("https://sectionmaster.com/sections/navattic-com-hero-1")] },
+  });
+  expect(sm.items.map((i) => [i.id, i.name])).toEqual([["sm/navattic-com-hero-1", "Navattic Com Hero 1"]]);
+});
+
+test("a display name repeated inside one site gets its grouping segment appended", () => {
+  const pattern = { match: "/templates/{*}/{element}/{name}", status: "hand" };
+  const two = scan("dycomps.oimmi.com", "d", {
+    pattern,
+    sitemap: { urls: [S("https://dycomps.oimmi.com/templates/c-blocks/contact/contact2"), S("https://dycomps.oimmi.com/templates/s-blocks/contact/contact2")] },
+  });
+  expect(two.items.map((i) => [i.id, i.name])).toEqual([
+    ["d/contact2-c-blocks-contact", "Contact2 C Blocks — Contact"],
+    ["d/contact2-s-blocks-contact", "Contact2 S Blocks — Contact"],
+  ]);
+  // a name that stays unique is left alone, and no temporary field survives the scan
+  const one = scan("dycomps.oimmi.com", "d", { pattern, sitemap: { urls: [S("https://dycomps.oimmi.com/templates/c-blocks/contact/contact2")] } });
+  expect(one.items[0].name).toBe("Contact2 — Contact");
+  expect(Object.keys(one.items[0]).filter((k) => k.startsWith("__"))).toEqual([]);
+
+  // anchors: two sections carrying the same heading are separated by their anchor id
+  const filters = { anchors: [{ url: "https://x.dev/", id: "gallery", text: "Pixel load" }, { url: "https://x.dev/", id: "pixel-load", text: "Pixel load" }] };
+  const a = scan("x.dev", "x", { pattern: { anchors_from: ["/"], element: "button", status: "hand" }, filters });
+  expect(a.items.map((i) => i.name)).toEqual(["Pixel Load Gallery — Button", "Pixel Load — Button"]);
+  expect(new Set(a.items.map((i) => i.name)).size).toBe(2);
+});
+
 test("skip and missing parents yield nothing", () => {
   expect(sitemapItems("x.dev", { id: "x" }, { pattern: { skip: "blog only", status: "hand" }, sitemap: { urls: [S("https://x.dev/a-b")] } })).toEqual([]);
   expect(sitemapItems("x.dev", undefined, { pattern: { match: "/a/{name}", status: "hand" }, sitemap: { urls: [S("https://x.dev/a/b")] } })).toEqual([]);
@@ -222,6 +291,118 @@ test("hrefs resolves, decodes and skips non-links", () => {
   expect(hrefs(`<a class=x href='/a?b=1&amp;c=2'>1</a><a HREF="mailto:a@b.c">m</a><a href="#x">h</a>`, "https://x.dev/root/")).toEqual(["https://x.dev/a?b=1&c=2"]);
 });
 
+// ---------------------------------------------------------------- anchors_from (one-page libraries)
+
+const ANCHOR_HTML = `<html><body>
+<div id="root"><h1>Library</h1></div>
+<section id="pulse-loader"><h2>Pulse Loader</h2><p>…</p></section>
+<section id="wave-loader"><div><h3>Wave Loader</h3></div></section>
+<h2 id="top">Top</h2>
+<div id="radix-tab-1"><h3>Radix Tab</h3></div>
+<div id="section-123456789012"><h3>Hash</h3></div>
+<a href="#bounce-loader">Bounce loader</a>
+<a href="#footer">go</a>
+<a href="#pulse-loader">Pulse again</a>
+<a href="/other">elsewhere</a>
+</body></html>`;
+
+test("extractAnchors: id'd headings and sections, same-page links, junk ids dropped", () => {
+  expect(extractAnchors(ANCHOR_HTML)).toEqual([
+    { id: "pulse-loader", text: "Pulse Loader" },
+    { id: "wave-loader", text: "Wave Loader" },
+    { id: "bounce-loader", text: "Bounce loader" },
+  ]);
+  expect(extractAnchors(`<section><h2>no id</h2></section><div id="x-1"><span>no heading</span></div>`)).toEqual([]);
+});
+
+test("anchors_from: one item per section, the url keeps its #hash, dedupe by id and full url", () => {
+  const pattern = { anchors_from: ["/"], granularity: "variant", element: "loader", status: "hand" };
+  const filters = loadFilters("circleloaders.dev", pattern, { exists: (p) => p.endsWith("anchors-1.html"), readFile: () => ANCHOR_HTML });
+  expect(filters.anchors.map((a) => a.id)).toEqual(["pulse-loader", "wave-loader", "bounce-loader"]);
+  const r = scan("circleloaders.dev", "cl", { pattern, filters });
+  expect(r.items.map((i) => [i.id, i.url, i.elements, i.granularity])).toEqual([
+    ["cl/pulse-loader", "https://circleloaders.dev/#pulse-loader", ["loader"], "variant"],
+    ["cl/wave-loader", "https://circleloaders.dev/#wave-loader", ["loader"], "variant"],
+    ["cl/bounce-loader", "https://circleloaders.dev/#bounce-loader", ["loader"], "variant"],
+  ]);
+  expect(r.anchors).toBe(3);
+  // an item a registry/llms pass already made — by id, and by the full url including the hash — stays theirs
+  const taken = new Map([["cl/wave-loader", { id: "cl/wave-loader", url: "https://circleloaders.dev/#wave-loader" }]]);
+  const r2 = scan("circleloaders.dev", "cl", { pattern, filters, taken });
+  expect(r2.items.map((i) => i.id)).toEqual(["cl/pulse-loader", "cl/bounce-loader"]);
+  expect(r2.skipped).toBe(1);
+});
+
+test("anchors_exclude drops sections by id", () => {
+  const pattern = { anchors_from: ["/"], element: "loader", anchors_exclude: ["#wave-loader", "bounce-loader"], status: "hand" };
+  const filters = loadFilters("x.dev", pattern, { exists: (p) => p.endsWith("anchors-1.html"), readFile: () => ANCHOR_HTML });
+  expect(filters.anchors.map((a) => a.id)).toEqual(["pulse-loader"]);
+});
+
+test("a pattern may be anchors_from only, and the new options are validated", () => {
+  expect(() => validatePattern({ anchors_from: ["/"], element: "loader", granularity: "variant", status: "hand" }, "a.com")).not.toThrow();
+  expect(() => validatePattern({ anchors_from: [], status: "hand" }, "a.com")).toThrow(/anchors_from/);
+  expect(() => validatePattern({ match: "/a/{name}", anchors_exclude: "x", status: "hand" }, "a.com")).toThrow(/anchors_exclude/);
+  expect(() => validatePattern({ match: "/a/{name}", render: "yes", status: "hand" }, "a.com")).toThrow(/render/);
+  expect(() => validatePattern({ match: "/a/{name}", source_domain: "https://x.dev", status: "hand" }, "a.com")).toThrow(/source_domain/);
+  expect(() => validatePattern({ status: "hand" }, "a.com")).toThrow(/"match" must be/);
+});
+
+// ---------------------------------------------------------------- rendered caches and source_domain
+
+test("render: the cached DOM result feeds urls_from and anchors_from like HTML does", () => {
+  const pattern = { match: "/components/{name}", render: true, urls_from: ["/"], anchors_from: ["/"], status: "hand" };
+  const urls = {
+    url: "https://x.dev/",
+    fetched_at: "2026-10-07T00:00:00.000Z",
+    links: ["https://x.dev/components/acme", "https://x.dev/pricing", "https://other.dev/components/nope"],
+    anchors: [{ id: "pulse", text: "Pulse" }],
+  };
+  const anchors = { url: "https://x.dev/", fetched_at: "2026-10-07T00:00:00.000Z", links: [], anchors: [{ id: "pulse", text: "Pulse" }, { id: "radix-tab-1", text: "Tab" }] };
+  const filters = loadFilters("x.dev", pattern, {
+    exists: (p) => /rendered-(urls|anchors)-1\.json$/.test(p),
+    readFile: (p) => JSON.stringify(p.includes("rendered-anchors") ? anchors : urls),
+  });
+  expect(filters.urls).toEqual(["https://x.dev/components/acme"]);
+  expect(filters.anchors).toEqual([{ url: "https://x.dev/", id: "pulse", text: "Pulse" }]);
+  const r = scan("x.dev", "x", { pattern, filters });
+  expect(r.items.map((i) => [i.id, i.url])).toEqual([
+    ["x/acme", "https://x.dev/components/acme"],
+    ["x/pulse", "https://x.dev/#pulse"],
+  ]);
+});
+
+test("source_domain reads the target's sitemap and filter caches; items point at the real domain", () => {
+  const pattern = { match: "/components/{name}", source_domain: "real.dev", urls_from: ["/"], status: "hand" };
+  const sitemap = loadSitemap("redirect.dev", {
+    pattern,
+    exists: (p) => p.endsWith("sites/real.dev/sitemap.json"),
+    readFile: () => ({ urls: [S("https://real.dev/components/navbar-mega")] }),
+  });
+  expect(sitemap.urls).toHaveLength(1);
+  const filters = loadFilters("redirect.dev", pattern, {
+    exists: (p) => p.endsWith("sites/real.dev/filters/urls-1.html"),
+    readFile: () => `<a href="/components/footer-x">f</a><a href="https://redirect.dev/components/nope">n</a>`,
+  });
+  expect(filters.urls).toEqual(["https://real.dev/components/footer-x"]);
+  const r = scan("redirect.dev", "rd", { pattern, sitemap, filters });
+  expect(r.items.map((i) => [i.id, i.url])).toEqual([
+    ["rd/navbar-mega", "https://real.dev/components/navbar-mega"],
+    ["rd/footer-x", "https://real.dev/components/footer-x"],
+  ]);
+  expect(loadSitemap("redirect.dev", { pattern, exists: () => false })).toBeNull();
+});
+
+test("parseEvalResult reads the CLI's JSON-encoded eval line", () => {
+  const payload = { links: ["https://x.dev/a"], anchors: [{ id: "pulse", text: "Pulse" }] };
+  expect(parseEvalResult(`result: ${JSON.stringify(payload)}\nhelp[1]: snapshot`)).toEqual(payload); // one encoding
+  expect(parseEvalResult(`result: ${JSON.stringify(JSON.stringify(payload))}`)).toEqual(payload); // two
+  expect(parseEvalResult(`result: ${JSON.stringify(JSON.stringify(JSON.stringify(payload)))}`)).toEqual(payload); // the CLI's three
+  expect(parseEvalResult("help[1]: nothing")).toBeNull();
+  expect(parseEvalResult(`result: "not json"`)).toBeNull();
+});
+
+
 // ---------------------------------------------------------------- guesser
 
 const sitemapOf = (paths) => ({ urls: paths.map((p) => S(`https://x.dev${p}`)) });
@@ -245,7 +426,10 @@ test("guesser: a blog-only site is low confidence", () => {
 });
 
 test("guesser: few children or no element naming stays low; numeric leaves are not names", () => {
-  expect(suggest(sitemapOf(paths(4, (i) => `/components/thing-${i}`)), { domain: "x.dev", overrides: ov })).toEqual([]);
+  const tiny = suggest(sitemapOf(paths(4, (i) => `/components/thing-${i}`)), { domain: "x.dev", overrides: ov });
+  expect(tiny).toHaveLength(1); // a 3–9-child component prefix is still a candidate…
+  expect(tiny[0]).toMatchObject({ template: "/components/{name}", children: 4, high: false, elemPct: 0 });
+  expect(tiny[0].why).toMatch(/only 4 children/);
   const rand = suggest(sitemapOf(paths(12, (i) => `/misc/item-${i}`)), { domain: "x.dev", overrides: ov });
   expect(rand.every((r) => !r.high)).toBe(true);
   const numeric = suggest(sitemapOf(paths(12, (i) => `/misc/thing/${i}`)), { domain: "x.dev", overrides: ov });

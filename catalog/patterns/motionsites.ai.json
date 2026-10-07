@@ -1,4 +1,4 @@
 {
-  "skip": "Framer one-pager shop for a paid prompt pack ('MotionSites AI — Official Premium AI Website Prompts'): the 16 sitemap URLs are marketing/category pages only (/sections, /backgrounds, /gradients, /apps, /academy, /unlimited, /affiliates …), all with the same <title>, and the client-rendered pages expose no links to individual sections/examples (checked /sections and /apps: only font/asset self-links), so there are no per-example URLs to collect.",
+  "skip": "Framer one-pager shop for a paid prompt pack: the 16 sitemap urls are marketing/category pages only, and a rendered fetch of /sections (2026-10-07) shows category pages linking nothing but the marketing nav — no per-example urls",
   "status": "hand"
 }

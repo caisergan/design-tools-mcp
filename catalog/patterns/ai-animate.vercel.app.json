@@ -1,4 +1,4 @@
 {
-  "skip": "npm package landing + /docs for an animated-components lib; component demos are client-rendered, no per-component URLs",
+  "skip": "npm package landing site: only / and /docs/introduction render any own links (checked with a rendered fetch 2026-10-07); the component docs live on ai-animate.in, not on this host, and llms.txt lists the components as prose without urls",
   "status": "hand"
 }

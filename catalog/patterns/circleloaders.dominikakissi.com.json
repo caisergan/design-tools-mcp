@@ -1,4 +1,8 @@
 {
-  "skip": "one-page loader gallery; the 25 sitemap URLs differ only by #anchor (hrefs with # are dropped)",
-  "status": "hand"
+  "anchors_from": ["/"],
+  "anchors_exclude": ["#set-heading"],
+  "granularity": "variant",
+  "element": "loader",
+  "status": "hand",
+  "note": "One-page gallery of 24 circular CSS loaders; every loader is a <section id=…> of the homepage with its own heading (the sitemap's 25 urls differ only by #anchor). Items are the `#anchor` sections; set-heading is the page heading, not a loader."
 }

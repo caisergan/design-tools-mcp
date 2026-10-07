@@ -1,4 +1,7 @@
 {
-  "skip": "single-page shadcn avatar registry: 7 URLs, /components is one docs page with #anchors only",
-  "status": "hand"
+  "anchors_from": ["/components"],
+  "granularity": "example",
+  "element": "avatar",
+  "status": "hand",
+  "note": "Single-component registry (blobatar avatar). /components documents five usage examples as <section id=…> with headings (presence-avatar, agent-list, user-table, password-field, group-chat); the other pages are docs, editor and marketing, so the sections are the only mappable examples."
 }

@@ -1,4 +1,4 @@
 {
-  "skip": "unreachable (network error/timeout on every request, incl. sitemap); no sitemap",
+  "skip": "sveltekit-shadcn starter-kit demo app: reachable now (200) but /sitemap.xml still fails (000) and its routes are app pages (/user, /settings, /policies/*, /health, /example), not per-component pages",
   "status": "hand"
 }

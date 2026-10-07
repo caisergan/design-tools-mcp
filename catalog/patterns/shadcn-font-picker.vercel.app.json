@@ -1,4 +1,4 @@
 {
-  "skip": "one-component demo served entirely at the domain root (#try/#setup anchors only, every sub-path 404s); a pattern template needs at least one path segment, so nothing can be mapped",
+  "skip": "one-component demo served at the domain root: the only in-page sections are its own docs anchors (#try, #setup, #variants, #try-it-out) and the component (a font picker) has no taxonomy element, so there are no per-component pages to map",
   "status": "hand"
 }
