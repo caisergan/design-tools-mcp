@@ -44,3 +44,6 @@ patterns; frameplate and sleek.design were skipped).
 | r12-1 | 12 design sitemap sites rows 1–26 | `phase6/design-1` @ 7addd1b | 14 patterns (+11,178: admiretheweb 2,982, bestwebsite.gallery 2,641 …), 12 skips | 2026-10-07 | 2026-10-07 |
 | r12-131 | 12 design sitemap sites rows 131–154 | `phase6/design-131` @ 92f643b | 9 patterns (+1,543: getdesign.md 633, designmd.ai 400, m3.material.io 248 …), 15 skips | 2026-10-07 | 2026-10-07 |
 | b13 | 13 real-browser test (Claude Code, Opus 5.5 medium, user's Search browser) | `phase6/real-browser` @ 58510d0 | real browser no better than Scrapling: Turnstile checkbox on saasframe/colorkit; same reach on land-book/ui8/uiverse/mobbin; savee 30 saves/board; shadcnblocks 286 hero blocks found | 2026-10-07 | 2026-10-07 |
+| w11 | 11 Scrapling opt-in backend + paginate + uiverse.io | `phase6/scrapling-backend` @ 3e2857c | uiverse.io 6,013 items (100 % element); hosts file with land-book/ui8/saasframe disabled; challenge-rule fix; 173 tests pass on main | 2026-10-07 | 2026-10-07 |
+
+Still running: none. Briefs 09–13 merged and closed.
