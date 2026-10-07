@@ -1,0 +1,10 @@
+{
+  "match": [
+    "/recipes/{name}",
+    "/courses/ship-an-app-with-remix/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /recipes/{name} (25 children, 44% element-tagged); /courses/ship-an-app-with-remix/{name} (19 children, 32% element-tagged)"
+}

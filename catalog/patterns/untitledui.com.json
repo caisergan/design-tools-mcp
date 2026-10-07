@@ -1,0 +1,16 @@
+{
+  "match": [
+    "/components/{name}",
+    "/react/components/{name}",
+    "/react/marketing/header-sections/{name}",
+    "/react/marketing/features-sections/{name}",
+    "/react/marketing/hero-header-sections/{name}",
+    "/react/marketing/footers/{name}",
+    "/react/marketing/contact-sections/{name}",
+    "/react/marketing/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /components/{name} (112 children, 65% element-tagged); /react/components/{name} (79 children, 71% element-tagged); /react/marketing/header-sections/{name} (74 children, 100% element-tagged); /react/marketing/features-sections/{name} (46 children, 100% element-tagged); /react/marketing/hero-header-sections/{name} (44 children, 100% element-tagged); /react/marketing/footers/{name} (40 children, 100% element-tagged); /react/marketing/contact-sections/{name} (36 children, 100% element-tagged); /react/marketing/{name} (34 children, 65% element-tagged)"
+}

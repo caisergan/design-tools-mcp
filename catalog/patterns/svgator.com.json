@@ -1,0 +1,13 @@
+{
+  "match": [
+    "/animation-templates/ui-elements/{name}",
+    "/animation-templates/ad-design/{name}",
+    "/animation-templates/assets/{name}",
+    "/animation-templates/{element}/{*}",
+    "/animation-templates/logos/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /animation-templates/ui-elements/{name} (85 children, 69% element-tagged); /animation-templates/ad-design/{name} (32 children, 53% element-tagged); /animation-templates/assets/{name} (29 children, 66% element-tagged); /animation-templates/{element}/{*} (15 children, 100% element-tagged); /animation-templates/logos/{name} (10 children, 30% element-tagged)"
+}

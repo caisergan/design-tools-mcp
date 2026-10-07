@@ -1,0 +1,14 @@
+{
+  "match": [
+    "/core/{name}",
+    "/charts/{name}",
+    "/dates/{name}",
+    "/form/{name}",
+    "/schedule/{name}",
+    "/x/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /core/{name} (122 children, 56% element-tagged); /charts/{name} (23 children, 91% element-tagged); /dates/{name} (16 children, 69% element-tagged); /form/{name} (16 children, 25% element-tagged); /schedule/{name} (14 children, 43% element-tagged); /x/{name} (10 children, 50% element-tagged)"
+}

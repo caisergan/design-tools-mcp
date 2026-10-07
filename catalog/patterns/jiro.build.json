@@ -1,0 +1,16 @@
+{
+  "match": [
+    "/components/{element}/{*}",
+    "/components/features/{name}",
+    "/components/header/{name}",
+    "/components/testimonial/{name}",
+    "/components/footer/{name}",
+    "/components/stats-metrics/{name}",
+    "/components/background/{name}",
+    "/components/calls-to-action/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /components/{element}/{*} (876 children, 100% element-tagged); /components/features/{name} (236 children, 57% element-tagged); /components/header/{name} (197 children, 98% element-tagged); /components/testimonial/{name} (114 children, 100% element-tagged); /components/footer/{name} (106 children, 100% element-tagged); /components/stats-metrics/{name} (45 children, 76% element-tagged); /components/background/{name} (29 children, 97% element-tagged); /components/calls-to-action/{name} (28 children, 100% element-tagged)"
+}

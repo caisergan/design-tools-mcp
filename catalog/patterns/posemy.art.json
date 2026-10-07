@@ -1,0 +1,16 @@
+{
+  "match": [
+    "/anime-hero-poses/{name}/{n}",
+    "/anime-leaning-poses/{name}/{n}",
+    "/anime-thinking-poses/{name}/{n}",
+    "/background-drawing-reference/{name}/{n}",
+    "/conversation-poses/{name}/{n}",
+    "/hero-poses/{name}/{n}",
+    "/human-skeleton-drawing-reference/{name}/{n}",
+    "/human-skull-references/{name}/{n}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /anime-hero-poses/{name}/{n} (10 children, 70% element-tagged); /anime-leaning-poses/{name}/{n} (10 children, 30% element-tagged); /anime-thinking-poses/{name}/{n} (10 children, 100% element-tagged); /background-drawing-reference/{name}/{n} (10 children, 100% element-tagged); /conversation-poses/{name}/{n} (10 children, 100% element-tagged); /hero-poses/{name}/{n} (10 children, 80% element-tagged); /human-skeleton-drawing-reference/{name}/{n} (10 children, 100% element-tagged); /human-skull-references/{name}/{n} (10 children, 100% element-tagged)"
+}

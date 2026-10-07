@@ -1,0 +1,9 @@
+{
+  "match": [
+    "/tips/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /tips/{name} (20 children, 30% element-tagged)"
+}

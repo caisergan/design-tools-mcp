@@ -1,0 +1,10 @@
+{
+  "match": [
+    "/prompts/{name}",
+    "/sections/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /prompts/{name} (1331 children, 43% element-tagged); /sections/{name} (31 children, 71% element-tagged)"
+}

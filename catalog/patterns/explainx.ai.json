@@ -1,0 +1,11 @@
+{
+  "match": [
+    "/skills/tag/{name}",
+    "/skills/{element}/{*}",
+    "/skills/neolabhq/context-engineering-kit/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /skills/tag/{name} (1339 children, 4% element-tagged); /skills/{element}/{*} (1339 children, 100% element-tagged); /skills/neolabhq/context-engineering-kit/{name} (19 children, 53% element-tagged)"
+}

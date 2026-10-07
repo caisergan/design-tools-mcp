@@ -1,0 +1,9 @@
+{
+  "match": [
+    "/ko-kr/figjam/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /ko-kr/figjam/{name} (10 children, 30% element-tagged)"
+}

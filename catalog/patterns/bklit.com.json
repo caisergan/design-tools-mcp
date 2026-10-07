@@ -1,0 +1,11 @@
+{
+  "match": [
+    "/charts/{name}",
+    "/docs/components/{name}",
+    "/docs/utility/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /charts/{name} (17 children, 94% element-tagged); /docs/components/{name} (17 children, 94% element-tagged); /docs/utility/{name} (10 children, 30% element-tagged)"
+}

@@ -1,0 +1,9 @@
+{
+  "match": [
+    "/animations/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /animations/{name} (103 children, 79% element-tagged)"
+}

@@ -1,0 +1,11 @@
+{
+  "match": [
+    "/tools/{name}",
+    "/shaders/{name}",
+    "/collections/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /tools/{name} (231 children, 42% element-tagged); /shaders/{name} (32 children, 19% element-tagged); /collections/{name} (21 children, 38% element-tagged)"
+}

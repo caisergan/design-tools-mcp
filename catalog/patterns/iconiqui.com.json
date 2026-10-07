@@ -1,0 +1,11 @@
+{
+  "match": [
+    "/display-and-content/{name}",
+    "/blocks/{name}",
+    "/inputs-and-forms/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /display-and-content/{name} (19 children, 74% element-tagged); /blocks/{name} (14 children, 71% element-tagged); /inputs-and-forms/{name} (14 children, 86% element-tagged)"
+}

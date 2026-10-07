@@ -1,0 +1,16 @@
+{
+  "match": [
+    "/blocks/marketing/{name}",
+    "/blocks/data-display/{name}",
+    "/blocks/forms/{name}",
+    "/blocks/navigation-layout/{name}",
+    "/blocks/ecommerce/{name}",
+    "/blocks/ui-components/{name}",
+    "/blocks/{name}",
+    "/blocks/communication/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /blocks/marketing/{name} (29 children, 72% element-tagged); /blocks/data-display/{name} (27 children, 81% element-tagged); /blocks/forms/{name} (25 children, 72% element-tagged); /blocks/navigation-layout/{name} (20 children, 80% element-tagged); /blocks/ecommerce/{name} (19 children, 53% element-tagged); /blocks/ui-components/{name} (18 children, 67% element-tagged); /blocks/{name} (17 children, 24% element-tagged); /blocks/communication/{name} (16 children, 50% element-tagged)"
+}

@@ -1,0 +1,10 @@
+{
+  "match": [
+    "/wp/template/{name}",
+    "/wp/cat/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /wp/template/{name} (1886 children, 31% element-tagged); /wp/cat/{name} (96 children, 34% element-tagged)"
+}

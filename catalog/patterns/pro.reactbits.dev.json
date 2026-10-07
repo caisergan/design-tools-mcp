@@ -1,0 +1,16 @@
+{
+  "match": [
+    "/docs/components/{name}",
+    "/docs/blocks/{element}/{*}",
+    "/docs/app-ui/{element}/{*}",
+    "/docs/blocks/bento/{name}",
+    "/docs/app-ui/{name}",
+    "/docs/blocks/hero-section/{name}",
+    "/docs/blocks/{name}",
+    "/docs/blocks/stats/{name}"
+  ],
+  "granularity": "page",
+  "access": "page",
+  "status": "auto",
+  "note": "guesser: /docs/components/{name} (230 children, 19% element-tagged); /docs/blocks/{element}/{*} (197 children, 100% element-tagged); /docs/app-ui/{element}/{*} (109 children, 100% element-tagged); /docs/blocks/bento/{name} (42 children, 100% element-tagged); /docs/app-ui/{name} (38 children, 55% element-tagged); /docs/blocks/hero-section/{name} (34 children, 100% element-tagged); /docs/blocks/{name} (21 children, 48% element-tagged); /docs/blocks/stats/{name} (18 children, 100% element-tagged)"
+}
