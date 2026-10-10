@@ -837,6 +837,24 @@ Built by cheaper agents from the briefs in `briefs/phase-6/` (reports in `briefs
   alias; `buildItems` should visit every domain with a pattern (mocku.co needed an empty corpus folder); enabling the
   three disabled hosts.
 
+### 6.10 Results (2026-10-10) — briefs 14–15: page urls for registry items
+- **Engine:** a sitemap page whose id equals a url-less registry item's id gives that item its url (brief 14). New
+  pattern option `attach_only`: matched pages only fill registry urls and never make items (the registry already
+  holds every component; the rest are listings or second names). `--check` builds one domain (70 s → 0.25 s) and
+  prints `registry items · urls attached · still without`.
+- **Patterns:** shadcnblocks (14) + 31 registries (15a: shadcn.io 7,841, reui.io 1,647, shadcncraft 260; 15b: 28 sites,
+  1,335). All `attach_only`, 0 new items. Registry items with a url **1,097 → 16,312** of 30,378.
+- **Checked here:** across the 31 domains every attached url's last path segment is in its item id (11,209 urls,
+  0 outliers); 15 random urls all 200 with the right title (plus 99 spot checks by the agents; ui-layouts has 6 dead
+  sitemap urls, excluded).
+- **Build:** items 114,763 (unchanged) · `search-index.json` 26.9 → **27.3 MB** (budget 40 MB, decision 10) ·
+  `loadIndex()` 209 ms. **Eval** unchanged: recall@5 0.983 · MRR 0.720.
+- **Open:** 14,066 registry items still without a url. Biggest: uiable.com 770, ui.flexnative.com 418, 7ovr.com 244,
+  ui-layouts.com 279, bundui.io 149, remocn.dev 108 — their pages are missing from the sitemap (numbered variants,
+  per-doc examples); 40 registry entries have no sitemap at all. A per-registry `url_template` (registry name →
+  page url, verified with a few requests) would cover sites whose page slug is the registry name.
+  `search_components` hit lines don't print the url of code items (only `get_resource` does); add it in Phase 4.
+
 ## Phase 7 — Housekeeping
 
 - Hot reload: watch `catalog.json` / `search-index.json` mtime, reload without restarting the server.

@@ -50,4 +50,7 @@ Still running: none. Briefs 09–13 merged and closed.
 | u14 | 14 registry page urls (shadcnblocks) | `phase6/registry-urls` @ c524b95 | sitemap pages fill url-less registry items; shadcnblocks 4,132 urls attached (registry items with a url 1,097 → 5,229); survey: 15,253 more fillable, shadcn.io 7,843 next | 2026-10-07 | 2026-10-07 |
 
 2026-10-10: brief 15 (registry page urls for the other registries, `attach_only`) launched.
-Still running: u15a (`phase6/registry-urls-a`: shadcn.io, reui.io, shadcncraft.com) and u15b (`phase6/registry-urls-b`: 28 smaller registries).
+| u15a | 15 registry urls: shadcn.io, reui.io, shadcncraft.com | `phase6/registry-urls-a` @ 9fc1ce8 | 9,748 urls attached (shadcn.io 7,841 · reui 1,647 · shadcncraft 260), 0 new items | 2026-10-10 | 2026-10-10 |
+| u15b | 15 registry urls: 28 smaller registries | `phase6/registry-urls-b` @ 18c1af3 | 1,335 urls attached, 0 new items; ui-layouts 6 dead sitemap urls excluded | 2026-10-10 | 2026-10-10 |
+
+Still running: none. Brief 15 merged and closed (MCP-PLAN 6.10).
