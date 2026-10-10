@@ -1,0 +1,5 @@
+{
+  "templates": ["https://more-shadcn.noair.fun/docs/components/{name}"],
+  "status": "hand",
+  "note": "More Shadcn: one docs page per component, /docs/components/<name>, and all 43 registry:ui names are exactly the page slugs (audio, audio-wave, autocomplete, banner, big-calendar, wheel-picker, verify-human, … — the /docs/components listing links every one; 5 spot-checked 200 with matching titles). No soft-404: /docs/components/zz-design-tools-probe-404 → 404."
+}

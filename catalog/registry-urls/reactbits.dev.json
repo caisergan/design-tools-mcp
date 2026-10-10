@@ -1,0 +1,4 @@
+{
+  "skip": "the 133 url-less items are the multi-word components. Their registry id is the slug of the PascalCase stack name (AnimatedContent-TS-TW and friends → id 'animatedcontent'), while the site slugs its pages kebab-case (/animations/animated-content, /text-animations/split-text, /components/…). A {name} template can never produce the page slug — a JS regex rewrite cannot re-kebab-case an already-slugified name — and the sitemap pages' ids ('animated-content') can never equal the item ids ('animatedcontent'), so neither the template route nor a pattern can attach a url. The 38 single-word components (crosshair, strands, magnet, …) already got theirs from llms.txt.",
+  "status": "hand"
+}

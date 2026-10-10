@@ -1,0 +1,4 @@
+{
+  "skip": "the site was rebuilt: the entry (and ui-layouts.com) now redirects to www.ui-layouts.com, where the 279 url-less registry names are old v1 component slugs (btn-bg-shine, btn-animated-gradient, button-active, hero-digital-success, feature-flow, …) that no longer have pages — /components/<name> and /docs/components/<name> all 404 (checked btn-bg-shine, btn-animated-gradient, aurora-text, button-active). The 94-url sitemap and the 45 already-linked items are v2 names (accordion, liquid-glass, scroll-text, …), which the hand pattern already uses; none of the v1 names appears in any page, so no template can produce a url for them.",
+  "status": "hand"
+}

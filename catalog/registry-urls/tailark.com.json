@@ -1,0 +1,7 @@
+{
+  "templates": ["https://tailark.com/blocks/quartz/{name}"],
+  "rewrite": [["-\\d+$", ""]],
+  "types": ["registry:block"],
+  "status": "hand",
+  "note": "Tailark's shadcn registry is exactly the free subset of the Quartz kit (258 blocks, verified against the kit data on /blocks/quartz/<kind>: registry blocks minus the page's 410 blocks is empty, and the registry's block kinds are the page's 28 kinds). /blocks/quartz/<kind> is a variant-group page: it carries the whole kind's variant list (hero-section-1..20, …) and renders the Quartz blocks, so hero-section-8 → /blocks/quartz/hero-section is where a person sees it; the dedicated /view/<name> preview is robots-disallowed. The rewrite drops the variant number (bento-3 → bento, expandable-features-22 → expandable-features, …). types is registry:block only on purpose: the registry's 131 motion-primitives-*/document-* components and 78 core-* ui icons have no page. CAVEAT (engine, 2026-10-10): every tailark slug page answers 200 and echoes the requested slug into its <title> (\"zz-design-tools-probe-404 Blocks - Tailark\", same for /blocks/<kind> without the kit), so the engine's soft-404 probe verdict is \"blind\" and it drops every candidate of this template — `registry-urls.mjs --check tailark.com` reports 0/10, misses 10, soft-404 hits 10. By hand the five kind pages are real (200 html, the kind's payload in the page); they can only attach if the coordinator gives the guard a carve-out for pages the site's own sitemap lists. Until then this config yields 0 links (no wrong ones)."
+}

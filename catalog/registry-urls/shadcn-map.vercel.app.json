@@ -1,0 +1,13 @@
+{
+  "templates": ["https://shadcn-map.vercel.app/docs/examples/{name}"],
+  "rewrite": [
+    ["^map-with-", ""],
+    ["^custom-tiles$", "custom-tile"],
+    ["^markers$", "marker"],
+    ["^custom-markers$", "custom-marker"],
+    ["^popups-and-tooltips$", "popup-and-tooltip"],
+    ["^(styled-shapes|circle|circle-marker|polyline|polygon|rectangle)$", "shapes"]
+  ],
+  "status": "hand",
+  "note": "shadcn-map's 31 registry:example items are named map-with-<example>, while the site's example pages shorten the slug: /docs/examples/<short>. The rewrite strips the map-with- prefix and maps the near-misses the site decided differently — custom-tiles → custom-tile, markers → marker, custom-markers → custom-marker, popups-and-tooltips → popup-and-tooltip, and the five shape examples (circle, circle-marker, polyline, polygon, rectangle, styled-shapes) to the one /docs/examples/shapes group page. That reaches 19 of 31 example items (map-with-custom-tiles, markers, marker-cluster-group, custom-markers, circle, circle-marker, polyline, polygon, rectangle, styled-shapes, popups-and-tooltips, zoom-control, layers-control, locate-control, custom-control-position, draw-control, search-control, custom-control-container, fullscreen-control); the rest (basic-map, *-control-callbacks, tile/layer/feature-groups-control, search-control-* variants, custom-marker-cluster-group) have no page and stay url-less. No soft-404: /docs/examples/zz-design-tools-probe-404 → 404."
+}

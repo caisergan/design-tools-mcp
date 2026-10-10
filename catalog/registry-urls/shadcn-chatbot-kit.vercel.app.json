@@ -1,0 +1,5 @@
+{
+  "templates": ["https://shadcn-chatbot-kit.vercel.app/docs/components/{name}"],
+  "status": "hand",
+  "note": "shadcn-chatbot-kit: the 11 registry:ui items are documented one per page at /docs/components/<name>, and 4 of them were spot-checked 200 with matching titles (chat, message-input, typing-indicator, file-preview). Expected 10 of 11 — interrupt-prompt 404s, its docs live in the chat page's props sections. No soft-404: /docs/components/zz-design-tools-probe-404 → 404."
+}

@@ -1,0 +1,8 @@
+{
+  "match": ["/catalog/{name}", "/ui/radix/{name}", "/motion/{name}"],
+  "granularity": "page",
+  "attach_only": true,
+  "source_domain": "ui.soralabs.studio",
+  "status": "hand",
+  "note": "Sora UI moved: ui.soralabs.io.vn 301s to ui.soralabs.studio, whose sitemap (fetched with tools/sitemaps.mjs --only=ui.soralabs.studio, 103 urls) lists one page per component. /catalog/<name> are the older catalogue components (cursor-trail-reveal, infinite-scrolling-images, scroll-chapters, scroll-gallery, sticky-scroll-cards, text-reveal-box, tilt-slide-transition), /motion/<name> the motion components (accordion, cursor-bubble, dia-text-reveal, …), /ui/radix/<name> the primitive set (accordion, alert-dialog, …, files path registry/primitives/…). One page per name, so attach_only: /motion/slot and any page without a registry twin makes no item. 37 of the 92 url-less items attach from the sitemap; the base-* items are covered by catalog/registry-urls/ui.soralabs.io.vn.json (/ui/base/<stripped name>). Unmatched: demo-*, the four icons-* items (the animated icons share one /icons gallery page) and border-trail. /motion and /ui/base soft-404 (200 + generic title) — the pages that exist were verified individually (accordion, magnetic-cards, text-reveal-box, catalog/cursor-trail-reveal …)."
+}

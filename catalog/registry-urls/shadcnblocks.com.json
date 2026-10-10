@@ -1,0 +1,5 @@
+{
+  "templates": ["https://www.shadcnblocks.com/components/{name}"],
+  "status": "hand",
+  "note": "the 39 remaining url-less items are component families (avatar-group, emoji-picker, theme-toggle, …), not single variants — their variant pages (/component/<category>/<slug>, already attached by the hand pattern, ids <category>-<slug> like avatar-group-avatar-group-animated-1) never spelled the family id. The family hub /components/<name> is the family's page (variant group page: \"Shadcn Avatar Group Components - Shadcnblocks.com\", renders the variant grid); 12 of the 39 have one (avatar-group, border-button, emoji-picker, form-star-rating, github-stars, login-button, logo, price, rating, scrollable-tabslist, social-button, theme-toggle — 5 spot-checked 200), the other 27 (async-button, aurora-button, background, background-beams, button-link, copy-button, …) 404 there (async-button checked) and have no page of their own. No soft-404: /components/zz-design-tools-probe-404 → 404."
+}

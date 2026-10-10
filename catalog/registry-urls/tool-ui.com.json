@@ -1,0 +1,5 @@
+{
+  "templates": ["https://www.assistant-ui.com/elements/{name}"],
+  "status": "hand",
+  "note": "tool-ui.com now redirects into assistant-ui.com/elements, which documents the Tool UI blocks as \"Elements\". 10 of the 27 items have an element page with the same slug (approval-card, chart, code-diff, data-table, geo-map, image, image-gallery, link-preview, option-list, question-flow — all 5 spot-checked 200 with matching titles); the other 17 (audio, citation, code-block, terminal, video, weather-widget, x-post, instagram-post, linkedin-post, message-draft, order-summary, parameter-slider, plan, preferences-panel, progress-tracker, stats-display, item-carousel) 404 on the new site (audio, code-block, terminal, weather-widget checked) — those blocks were not carried over under the same slug. No soft-404: /elements/zz-design-tools-probe-404 → 404."
+}
