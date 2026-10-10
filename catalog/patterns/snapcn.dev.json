@@ -1,0 +1,15 @@
+{
+  "match": [
+    "/docs/text/{name}",
+    "/docs/scenes/{name}",
+    "/docs/ai-input/{name}",
+    "/docs/screens/{name}",
+    "/docs/logos/{name}",
+    "/docs/social/{name}",
+    "/docs/captions/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "snapcn.dev — animated text/scene/screen registry. One template per docs section (text, scenes, ai-input, screens, logos, social, captions); each page slug is the registry item name (punch-lines, agent-steps, karaoke-captions, …). 48 of 52 items attach; caret, input, pulsing-border and snap-cn-ui have no page in the sitemap. robots.txt allows / (only /api/ disallowed)."
+}

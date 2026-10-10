@@ -1,0 +1,15 @@
+{
+  "match": [
+    "/docs/cards/{name}",
+    "/docs/buttons/{name}",
+    "/docs/texts/{name}",
+    "/docs/navigation/{name}",
+    "/docs/ai/{name}",
+    "/docs/backgrounds/{name}",
+    "/docs/inputs/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "kokonutui.com — component registry. One template per docs section (cards, buttons, texts, navigation, ai, backgrounds, inputs); each /docs/<section>/<name> page carries the registry item name (apple-activity-card, dynamic-text, ai-prompt, …). 9 of the 14 url-less items attach; the hooks and utils items (use-auto-resize-textarea, use-click-outside, utils, …) have no page in the sitemap, and the rest of the registry already carries llms docs urls. robots.txt allows / (only /api/ and /_next/ disallowed)."
+}

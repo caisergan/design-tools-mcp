@@ -1,0 +1,7 @@
+{
+  "match": ["/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "shadcnexamples.com — shadcn example gallery: every example (dashboard, email template, app screen, form, …) is a top-level /<name> page and the page slug IS the registry item name, so each matched page fills that item's url and makes no item. 68 of 70 items attach; email-templates and search-results have no page under their name (there is /web-search-results). The remaining top-level pages (/playground, /code-playground, /search-result-map-view, …) match no registry name. robots.txt allows /."
+}

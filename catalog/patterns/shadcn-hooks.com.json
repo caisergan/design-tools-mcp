@@ -1,0 +1,7 @@
+{
+  "match": ["/docs/hooks/{name}", "/docs/lib/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "shadcn-hooks.com — react hook + lib registry. /docs/hooks/<name> (55 pages: use-boolean, use-battery, use-active-element, …) and /docs/lib/<name> (3: create-context, create-effect-with-target, is-browser) are the docs pages; the slug is the item name, so all 57 url-less items attach. robots.txt allows /."
+}

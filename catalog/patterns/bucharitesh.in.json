@@ -1,0 +1,7 @@
+{
+  "match": ["/craft/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "bucharitesh.in — craft/experiment component registry. /craft/<name> (9 pages: text-highlight, metallic-button, game-of-life, book, pixel-icon, …) is one component's page and the slug is the item name; 9 of the 17 url-less items attach, the other 8 are demo items (metallic-button-demo, game-of-life-demo-2, …) with no page of their own. robots.txt allows / (only /api/, /_next/, /public/, /admin disallowed)."
+}

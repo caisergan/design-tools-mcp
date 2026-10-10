@@ -1,0 +1,7 @@
+{
+  "match": ["/components/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "uiable.com — shadcn UI example registry. /components/<name> (59 pages: accordion, alert, alert-dialog, …) is a docs page whose slug is the registry item name; 59 of the 829 items attach. The sitemap has only 116 urls in total, so the 770 variant items (accordion-basic, accordion-borders, alert-action, …) have no page of their own in it. robots.txt allows / (disallowed /auth/*, /admin/*, /assets/svg/* and any ?query url are not matched)."
+}

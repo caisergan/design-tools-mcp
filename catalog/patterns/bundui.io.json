@@ -1,0 +1,17 @@
+{
+  "match": [
+    "/components/{name}",
+    "/motion/components/{name}",
+    "/motion/backgrounds/{name}",
+    "/motion/animations/{name}",
+    "/motion/text-effects/{name}",
+    "/blocks/marketing/{name}",
+    "/blocks/ecommerce/{name}",
+    "/blocks/dashboard-ui/{name}",
+    "/blocks/real-estate/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "bundui.io — component + motion/block registry. One template per section whose pages carry the registry item name: /components/<name> (alert-dialog, calendar, chart, …), /motion/components|backgrounds|animations|text-effects/<name>, /blocks/marketing|ecommerce|dashboard-ui|real-estate/<name>. 68 of 217 items attach; the remaining 149 are per-doc example items (accordion-default, accordion-with-plus-icon, alert-with-icon, …) that have no page of their own in the 112-url sitemap. robots.txt allows /."
+}

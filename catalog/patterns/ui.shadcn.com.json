@@ -1,0 +1,12 @@
+{
+  "match": [
+    "/docs/components/radix/{name}",
+    "/docs/components/base/{name}",
+    "/docs/components/aria/{name}",
+    "/docs/react/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "ui.shadcn.com — the shadcn/ui docs site with three framework mirrors (radix, base, aria) plus /docs/react for the AI components. Each /docs/components/<framework>/<name> page documents one registry component and the slug is the item name. 6 of the 7 url-less items attach: the aria-only attachment, bubble, marker and message pages, and the react-only message-scroller and questionnaire. The sitemap also has /blocks/<category> and /charts/<name> pages, but those are category listings, not the components themselves, so they are not in match. robots.txt allows /."
+}

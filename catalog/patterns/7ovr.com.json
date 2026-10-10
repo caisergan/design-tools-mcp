@@ -1,0 +1,7 @@
+{
+  "match": ["/templates/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "7ovr.com — template + block registry. /templates/<name> is one template page and the slug is the item name (saas-landing, startup, saas-landing-2, dashboard); 4 of 248 items attach. /blocks/<category> pages are listings of numbered block items (about-1, activity-1, ai-chat-1, …) and /templates/<name>/preview|content (disallowed by robots.txt) are left out. robots.txt allows / (only /api/, /preview/ and /templates/*/preview|content disallowed)."
+}
