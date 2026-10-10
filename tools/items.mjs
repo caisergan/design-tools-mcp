@@ -43,6 +43,31 @@ const DEMO = /(^|[-_])demos?([-_]|$)/i;
 export const isDemo = (raw) => raw.type === "registry:example" || DEMO.test(raw.name);
 const demoBase = (name) => name.replace(/(^|[-_])demos?(?=[-_]|$)/i, "").replace(/^[-_]+|[-_]+$/g, "");
 
+/** Cache of tools/registry-access.mjs: which items of a gated registry install freely. */
+export const registryAccessFile = (domain) => join(SITES, domain, "registry-access.json");
+
+/**
+ * Access and install url of one registry name. A registry the probe saw gated keeps `gated` unless
+ * registry-access.json verified that name's JSON as free (then `code`, installed from the registry's own base).
+ */
+export function registryAccess(reg, name, checked = null) {
+  const gated = reg?.item_status === 401 || reg?.item_status === 403;
+  const free = gated && checked?.[name] === "code";
+  const base = (reg?.item_status === 200 || free) && reg?.url ? reg.url.replace(/\/[^/]+\.json$/, "") : null;
+  return { access: gated && !free ? "gated" : "code", install_url: base ? `${base}/${name}.json` : null };
+}
+
+function loadAccessChecks(domain) {
+  const file = registryAccessFile(domain);
+  if (!existsSync(file)) return null;
+  try {
+    return loadJSON(file)?.results || null;
+  } catch (e) {
+    console.error(`warn: ${file}: ${e.message} — access checks ignored`);
+    return null;
+  }
+}
+
 function registryItems(domain, parent, ov) {
   const file = join(SITES, domain, "registry.json");
   let data;
@@ -53,8 +78,7 @@ function registryItems(domain, parent, ov) {
   }
   const list = (Array.isArray(data) ? data : data?.items || []).filter((r) => r?.name);
   const reg = registryOf(parent) || {};
-  const gated = reg.item_status === 401 || reg.item_status === 403;
-  const base = reg.item_status === 200 && reg.url ? reg.url.replace(/\/[^/]+\.json$/, "") : null;
+  const checked = reg.item_status === 401 || reg.item_status === 403 ? loadAccessChecks(domain) : null;
   const out = new Map(); // id -> item
   const demos = [];
   for (const raw of list) {
@@ -74,6 +98,7 @@ function registryItems(domain, parent, ov) {
     }
     const t = tagItem({ reg: domain, name, title: raw.title || "", description: raw.description || "", type: raw.type || "" }, { overrides: ov });
     const local = existsSync(join(SITES, domain, "items", `${slug(raw.name)}.json`));
+    const { access, install_url } = registryAccess(reg, raw.name, checked);
     out.set(id, {
       id,
       parent: parent.id,
@@ -83,11 +108,11 @@ function registryItems(domain, parent, ov) {
       ...(raw.description ? { description: String(raw.description).replace(/\s+/g, " ").trim() } : {}),
       elements: t.elements,
       variants: t.variants,
-      access: gated ? "gated" : "code",
+      access,
       granularity: "variant",
       ...(stack ? { stacks: [stack] } : {}),
       ...(raw.type ? { type: raw.type } : {}),
-      ...(base ? { install_url: `${base}/${raw.name}.json` } : {}),
+      ...(install_url ? { install_url } : {}),
       ...(local ? { local: true } : {}),
       from: "registry",
     });
@@ -101,6 +126,7 @@ function registryItems(domain, parent, ov) {
       const id = `${parent.id}/${slug(raw.name)}`;
       if (out.has(id)) continue;
       const t = tagItem({ reg: domain, name: demoBase(raw.name) || raw.name, title: raw.title || "", type: "" }, { overrides: ov });
+      const { access, install_url } = registryAccess(reg, raw.name, checked);
       out.set(id, {
         id,
         parent: parent.id,
@@ -109,10 +135,10 @@ function registryItems(domain, parent, ov) {
         ...(raw.description ? { description: String(raw.description).replace(/\s+/g, " ").trim() } : {}),
         elements: t.elements,
         variants: t.variants,
-        access: gated ? "gated" : "code",
+        access,
         granularity: "example",
         ...(raw.type ? { type: raw.type } : {}),
-        ...(base ? { install_url: `${base}/${raw.name}.json` } : {}),
+        ...(install_url ? { install_url } : {}),
         from: "registry",
       });
     }

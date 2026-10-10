@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 // Item layer (MCP-PLAN 3.1–3.4): the pure rules, then checks over the generated catalog/items/.
 import { test, expect } from "bun:test";
-import { stackOf, baseName, isDemo, llmsLinks, docsPage, loadItems, htmlTwin } from "./items.mjs";
+import { stackOf, baseName, isDemo, llmsLinks, docsPage, loadItems, htmlTwin, registryAccess } from "./items.mjs";
 import { SKIP_TYPE } from "./tag.mjs";
 
 const ov = { assetDomains: new Set(), components: {} };
@@ -54,6 +54,18 @@ test("a markdown llms link becomes its html twin when the sitemap lists it", () 
   expect(htmlTwin("https://chanhdai.com/components/other.md", keys)).toBe("https://chanhdai.com/components/other.md"); // not in the sitemap
   expect(htmlTwin("https://chanhdai.com/components/haptic", keys)).toBe("https://chanhdai.com/components/haptic"); // already a page
   expect(htmlTwin("https://chanhdai.com/components/haptic.md", null)).toBe("https://chanhdai.com/components/haptic.md");
+});
+
+test("a gated registry keeps gated items gated and opens the ones verified free", () => {
+  const gated = { url: "https://reui.io/r/agent-activity-1.json", item_status: 401 };
+  const checked = { "c-button-7": "code", "agent-activity-1": "gated" };
+  expect(registryAccess(gated, "c-button-7", checked)).toEqual({ access: "code", install_url: "https://reui.io/r/c-button-7.json" });
+  expect(registryAccess(gated, "agent-activity-1", checked)).toEqual({ access: "gated", install_url: null });
+  expect(registryAccess(gated, "never-checked", checked)).toEqual({ access: "gated", install_url: null });
+  expect(registryAccess(gated, "c-button-7", null)).toEqual({ access: "gated", install_url: null });
+  const open = { url: "https://magicui.design/r/registry.json", item_status: 200 };
+  expect(registryAccess(open, "marquee")).toEqual({ access: "code", install_url: "https://magicui.design/r/marquee.json" });
+  expect(registryAccess({}, "x")).toEqual({ access: "code", install_url: null }); // no probe: code, no url (as before)
 });
 
 test("catalog/items exists", () => {
