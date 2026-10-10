@@ -1,0 +1,21 @@
+{
+  "match": [
+    "/blocks/{name}",
+    "/view/{author}/{name}",
+    "/examples/{name}",
+    "/ui/{name}",
+    "/components/{name}",
+    "/text/{name}",
+    "/background/{name}",
+    "/shaders/{name}",
+    "/charts/{name}",
+    "/ai/{name}",
+    "/button/{name}",
+    "/hooks/{name}",
+    "/theme/{name}"
+  ],
+  "attach_only": true,
+  "granularity": "variant",
+  "status": "hand",
+  "note": "shadcn.io — shadcn-compatible registry (7,999 items, 7,847 unique names: blocks, ui, components, hooks, themes, shaders, charts…), every item already in the registry with no url. The site's page slug IS the registry name, so each matched page fills a url instead of making an item (attach_only; 0 new items). Shapes, each a real page of one registry item: /blocks/<name> (6,157 block previews, name == registry name); /view/<category>/<name> (6,156 live-preview twins of the same blocks — title '<block> — Live Preview'; {author} carries the category segment so the id is '<category>-<name>', the registry's own name — a fixed/other placeholder would reverse it. Every one of these ids is already taken by its /blocks page, which the sitemap lists first (sitemap-docs before sitemap-view), and a taken registry item is never rewired, so the view template attaches 0 today and is kept as the fallback shape); /examples/<name> (1,104 component examples, 1,103 of them a registry item, e.g. 'a-bar-chart'); /ui/<name> (83 ui docs), /components/<name> (59), /text/<name> (100), /background/<name> (100), /shaders/<name> (57), /charts/<name> (53 chart blocks), /ai/<name> (51), /button/<name> (35), /hooks/<name> (34, e.g. 'use-boolean'), /theme/<name> (59, registry:style items, e.g. 'vercel'). Template order is match order only — for two pages of one id the first sitemap URL wins, and once a registry item has a url it is never overwritten. Excluded on purpose: /icons/* and /icon/* (~34k icon pages, not registry items), /template*, /awesome/*, /tools/*, /design/* (survey pages), /docs/* (the sub-sitemap named sitemap-docs.xml carries these block/example/tool pages, not /docs paths; the file has none), /mcp/<name> (52 MCP-client setup pages — 'cursor', 'warp', 'vs-code' collide with registry names but are editor docs, not components; the real pages /components/cursor, /background/warp, /theme/vs-code win anyway), /view/search and other non-registry listings. robots.txt allows all of these (disallows only /api/, /dashboard/, /admin/, /onboarding/, /sign-in, /sign-up — no template matches them)."
+}
