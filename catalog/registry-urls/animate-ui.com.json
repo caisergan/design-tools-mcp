@@ -1,0 +1,10 @@
+{
+  "templates": ["https://animate-ui.com/docs/{name}"],
+  "rewrite": [
+    ["^demo-", ""],
+    ["^(components|primitives)-([a-z]+)-(.+)$", "$1/$2/$3"]
+  ],
+  "exclude": ["^icons-"],
+  "status": "hand",
+  "note": "One docs page per component: components-<group>-<name> → /docs/components/<group>/<name>, primitives-<group>-<name> → /docs/primitives/<group>/<name> (groups are one word: animate, backgrounds, base, buttons, community, headless, radix, effects, texts). A leftover demo-* item (its component had no registry item to attach to) is tried as that component. The ~260 icons-* items have no page of their own (only the /docs/icons gallery; /docs/icons/<name> is a 404): excluded. Variant demos such as demo-components-base-menu-checkbox map to a path that does not exist and stay url-less. Unknown names answer a real 404 (checked 2026-10-10); no robots.txt, no sitemap."
+}

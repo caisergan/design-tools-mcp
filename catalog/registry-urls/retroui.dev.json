@@ -1,0 +1,5 @@
+{
+  "templates": ["https://neobrutalism.com/docs/components/{name}"],
+  "status": "hand",
+  "note": "retroui.dev redirects to neobrutalism.com (the registry calls itself \"neobrutalism\", homepage neobrutalism.com); its component docs are /docs/components/<registry name>, the template points there directly. Unknown names answer a real 404 with title \"404: This page could not be found.\" (checked 2026-10-10). robots.txt disallows only /preview/, /api/, /llm/ and account pages."
+}
