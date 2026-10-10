@@ -62,3 +62,6 @@ Still running: none. Brief 15 merged and closed (MCP-PLAN 6.10).
 | u16d | 16 batch d (18 sites) | `phase6/registry-tpl-d` @ 9160fa5 | 16 configs + 2 patterns; expected 2,449 (icons.pqoqubbw → lucide-animated 467) | 2026-10-10 | 2026-10-10 |
 
 Still running: none. Brief 16 merged and closed; full `--verify --all` run by the coordinator.
+
+2026-10-10: brief 17 (Phase 4 tool surface, `briefs/phase-4/17-tool-surface.md`) launched.
+Still running: u17 (`phase4/tool-surface`, Claude Code Opus 5.5 high).
