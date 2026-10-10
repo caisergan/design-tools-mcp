@@ -1,0 +1,7 @@
+{
+  "match": ["/docs/components/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "uselayouts.com — component registry. /docs/components/<name> (24 pages: 3d-book, animated-collection, bento-card, …) is one component's docs page and the slug is the item name. 24 of 26 items attach; list-item and status-button have no page in the sitemap. robots.txt allows /."
+}

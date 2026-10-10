@@ -1,0 +1,19 @@
+{
+  "match": [
+    "/blocks/events/{name}",
+    "/blocks/social/{name}",
+    "/blocks/blogging/{name}",
+    "/blocks/form/{name}",
+    "/blocks/payment/{name}",
+    "/blocks/selection/{name}",
+    "/blocks/list/{name}",
+    "/blocks/messaging/{name}",
+    "/blocks/miscellaneous/{name}",
+    "/blocks/status/{name}",
+    "/blocks/map/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "ui.manifest.build — chat/message block registry. One template per block group (events, social, blogging, form, payment, selection, list, messaging, miscellaneous, status, map); each /blocks/<group>/<name> page carries the registry item name (event-card, post-list, tag-select, …). 30 of 32 items attach; event-shared and manifest-types have no page. robots.txt allows /."
+}

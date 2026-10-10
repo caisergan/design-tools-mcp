@@ -1,0 +1,24 @@
+{
+  "match": [
+    "/docs/components/{name}",
+    "/docs/blocks/advanced/{name}",
+    "/docs/blocks/authentication/{name}",
+    "/docs/blocks/charts/{name}",
+    "/docs/blocks/cta/{name}",
+    "/docs/blocks/dashboard/{name}",
+    "/docs/blocks/faq/{name}",
+    "/docs/blocks/features/{name}",
+    "/docs/blocks/game/{name}",
+    "/docs/blocks/gaming/{name}",
+    "/docs/blocks/hero/{name}",
+    "/docs/blocks/layout/{name}",
+    "/docs/blocks/pricing/{name}",
+    "/docs/blocks/social-proof/{name}",
+    "/docs/blocks/team/{name}",
+    "/docs/blocks/timeline/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "8bitcn.com — 8-bit themed shadcn registry. /docs/components/<name> (57 pages) is one component's docs page; /docs/blocks/<category>/<name> (62 pages over the 15 categories listed) is one block and the slug is the registry item name (audio-settings, login-form-with-image, hero1, …). The <category> pages themselves (/docs/blocks/calendar, /docs/blocks/advanced, …) are listings and the top-level tool pages (/character-sheet, /profile-creator) are not components, so neither shape is in match. 119 of 121 items get a url; profile-card and login-form-2 have no page under their name (player-profile-card and login-form exist instead). robots: no rules."
+}

@@ -1,0 +1,7 @@
+{
+  "match": ["/docs/components/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "payload-components.xyz (www.payload-components.xyz) — Payload CMS component registry. Each of the 82 registry items (author-card, hero-split, feature-bento, call-to-action-boxed, …) has a /docs/components/<name> page and the slug is the item name, so every matched page fills a url and makes no item. /templates/*, /roadmap/*, /about/*, /brand-guide are docs/marketing pages and match nothing. robots: no rules."
+}

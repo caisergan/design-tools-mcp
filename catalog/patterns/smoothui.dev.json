@@ -1,0 +1,7 @@
+{
+  "match": ["/docs/components/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "smoothui.dev — animated shadcn component/blocks registry. /docs/components/<name> (129 pages) is one registry item's docs page and the slug is the item name (agent-avatar, animated-tabs, blur-out-up, …), so it only fills the item's url. The 49 block items (cta-1…cta-3, faq-1…faq-4, header-1…header-6, footer-1…, pricing-1…, stats-1…, team-1…, testimonials-1…) have no page in the sitemap — only the 11 /docs/blocks/<category> listings exist, which are not that component — so they stay without a url. robots.txt allows /; /blocks/preview/ (disallowed) is not matched."
+}

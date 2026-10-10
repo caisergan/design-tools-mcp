@@ -1,0 +1,7 @@
+{
+  "match": ["/docs/components/{author}/{name}", "/docs/blocks/{author}/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "pdfcn.dev (www.pdfcn.dev) — React-PDF component registry with two namespaces, takumi/ and forme/. A registry name is '<namespace>/<name>' and surfaces as id '<namespace>-<name>', which is exactly what a page /docs/components/<namespace>/<name> (48) or /docs/blocks/<namespace>/<name> (20) produces, so 68 of 79 items take that page's url. The 11 left without a url are the two utils items and the 9 theme-* items, whose only pages are /docs/themes/<name> — the slug lacks the theme- prefix the registry uses, so it cannot attach. robots: no rules."
+}

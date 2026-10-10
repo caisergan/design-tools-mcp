@@ -1,0 +1,21 @@
+{
+  "match": [
+    "/docs/component/{name}",
+    "/docs/background/{name}",
+    "/docs/text/{name}",
+    "/docs/animation/{name}",
+    "/docs/button/{name}",
+    "/docs/card/{name}",
+    "/docs/block/{name}",
+    "/playground/component/{name}",
+    "/playground/background/{name}",
+    "/playground/text/{name}",
+    "/playground/animation/{name}",
+    "/playground/button/{name}",
+    "/playground/card/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "uibeats.com — animated component registry. Each component has a docs page /docs/<group>/<name> and a /playground/<group>/<name> copy with the same slug; the docs urls come first in the sitemap, and both families are listed so a component missing from one still attaches through the other. Groups: component, background, text, animation, button, card, block. All 10 url-less items attach; the rest of the 55 items already carry an llms docs url. robots.txt allows /."
+}

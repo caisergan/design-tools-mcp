@@ -1,0 +1,7 @@
+{
+  "match": ["/docs/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "agent-elements.21st.dev — agent-UI component registry (21st.dev). /docs/<name> is one component's docs page and the slug is the registry item name (agent-chat, message-list, tool-group, plan-tool, mcp-tool, …); 20 of 21 items attach, error-message has no page. robots.txt allows / (only /api/ disallowed)."
+}

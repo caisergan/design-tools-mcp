@@ -1,0 +1,17 @@
+{
+  "match": [
+    "/blocks/hero/{name}",
+    "/blocks/content/{name}",
+    "/blocks/carousel/{name}",
+    "/blocks/feature/{name}",
+    "/blocks/bento-grids/{name}",
+    "/blocks/cta/{name}",
+    "/blocks/logos/{name}",
+    "/blocks/scroll/{name}",
+    "/blocks/testimonials/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "ui.flexnative.com — React Native block registry. One template per numbered block group: /blocks/hero|content|carousel|feature|bento-grids|cta|logos|scroll|testimonials/<name>, each page carrying the registry item name (hero-01, content-02, carousel-03, …). Only 32 of 450 items attach: the sitemap has just 88 urls, so the other numbered variants (accordion-01, alert-01, …) have no pages. robots.txt allows /."
+}

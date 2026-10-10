@@ -1,0 +1,7 @@
+{
+  "match": ["/components/{name}", "/blocks/marketing/{name}", "/blocks/application/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "chanhdai.com — component + block registry. /components/<name> (37 pages: swipe-actions, logos-flip, carbon-ads, …), /blocks/marketing/<name> and /blocks/application/<name> each carry a registry item name. 12 of the 30 url-less items attach (the marketing/application blocks hero-01…social-proof-01, login-01, not-found-01); the others (apple-hello-effect-*, theme-toggle-effect-*, style) have no page in the sitemap. robots: no rules."
+}

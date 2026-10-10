@@ -1,0 +1,7 @@
+{
+  "match": ["/c/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "ds.interlace.tools — the Interlace design system (ds.interlace.tools + @interlace/ui). Every one of the 146 registry items (theme, a11y-starter, accordion, use-theme, …) has a /c/<name> page whose slug is exactly the registry item name, so each matched page fills that item's missing url and makes no item of its own (attach_only). The other 14 sitemap urls (/getting-started, /concepts/overview, /concepts/color-theming, …) are docs and match nothing. robots.txt allows / (only /api/ and /_next/ disallowed)."
+}

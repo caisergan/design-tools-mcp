@@ -1,0 +1,7 @@
+{
+  "match": ["/templates/{name}", "/components/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "zippystarter.com (zippystarter.com/tools/shadcn-ui-theme-generator) — shadcn theme/template starter. /templates/<name> (focus, nimble, devstarter) and /components/<name> (avatars, …) carry a registry item name; 3 of the 77 url-less items attach. The registry is mostly theme tokens and fonts (amber, blue, emerald, font-anton, …) and the 57-url sitemap has no page for them. robots: no rules."
+}

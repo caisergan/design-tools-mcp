@@ -1,0 +1,15 @@
+{
+  "match": ["/components/{name}", "/blocks/{name}"],
+  "exclude": [
+    "/components/default-marquee",
+    "/components/verticle-marquee",
+    "/components/liquid-button",
+    "/components/scroll-text-marquee-unidirectional",
+    "/components/scroll-text-marquee-bidirectional",
+    "/components/unsplash-grid"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "ui-layouts.com — animation/UI component registry. /components/<name> and /blocks/<name> are one component per page (liquid-glass, drag-items, code-tabs, mac-genie, …). 49 pages match an item name; 9 of them fill a still url-less item. Six sitemap urls (default-marquee, verticle-marquee, liquid-button, scroll-text-marquee-unidirectional, scroll-text-marquee-bidirectional, unsplash-grid) are 404 on the site (ui-layouts.com redirects to www, where they do not exist) and are excluded so no dead link enters the index; that leaves 282 url-less items, most with no page in the 94-url sitemap and many already covered by llms docs urls. robots: no rules."
+}

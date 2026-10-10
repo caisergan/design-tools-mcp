@@ -1,0 +1,22 @@
+{
+  "match": [
+    "/docs/typography/{name}",
+    "/docs/transitions/{name}",
+    "/docs/effects/{name}",
+    "/docs/ai/{name}",
+    "/docs/templates/{name}",
+    "/docs/social/{name}",
+    "/docs/layout/{name}",
+    "/docs/ui-blocks/{name}",
+    "/docs/compositions/{name}",
+    "/docs/ui/components/{name}",
+    "/docs/shaders/components/{name}",
+    "/docs/filters/components/{name}",
+    "/docs/ui/blocks/{name}",
+    "/showcases/{name}"
+  ],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "remocn.dev — animation registry (typography, transitions, shaders, filters, ui components/blocks, showcases). One template per docs section whose pages carry a registry item name (blur-out-up, ascii-dissolve, shader-caustics, accordion, …): /docs/<section>/<name> for typography, transitions, effects, ai, templates, social, layout, ui-blocks, compositions; /docs/<group>/<section>/<name> for ui/components, shaders/components, filters/components, ui/blocks; /showcases/<name> for the two showcase items (remocn-ui, signup-flow). 104 of the 212 url-less items attach; the rest (icon-* items, brush, scene-motion, canvas-presentation, command-menu-item, …) have no page in the sitemap. robots allows / (only /api/ disallowed)."
+}

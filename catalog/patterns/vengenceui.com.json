@@ -1,0 +1,7 @@
+{
+  "match": ["/components/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "vengenceui.com (www.vengenceui.com) — animated component registry. /components/<name> is one component's page and the slug is the registry item name (candy-button, pop-button, animated-number, …): 65 of 132 items attach. The other 67 are mostly base shadcn names (accordion, alert, avatar, badge, breadcrumb, …) whose pages use different slugs (faq-accordion, masked-avatars, …), so no url can be attached to them. robots: no rules."
+}

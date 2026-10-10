@@ -1,0 +1,7 @@
+{
+  "match": ["/components/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "microkit.co — micro-interaction/button registry. All 47 items (cursor-edge-glow-button, cursor-follow-share-button, focus-input, …) have a /components/<name> page whose slug is the item name, so every matched page fills a url and makes no item. robots.txt allows /."
+}

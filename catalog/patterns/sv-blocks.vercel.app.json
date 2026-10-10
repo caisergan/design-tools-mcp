@@ -1,0 +1,7 @@
+{
+  "match": ["/preview/{author}/{name}", "/preview/mist/{author}/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "sv-blocks.vercel.app — section registry (hero, feature, cta, faq, content, logo, icon sections with variants one…ten). Both /preview/<group>/<variant> and /preview/mist/<group>/<variant> name the item '<group>-<variant>' (hero + one = hero-one); the two templates produce the same id, so whichever page comes first in sitemap order fills the url. 75 of 98 items attach; the other 23 (hero-header, hero-header-seven/eight/nine, card-decorator, feature-card, integration-cards, logo-collection, logo-gemini, …) have no preview page in the sitemap. robots.txt allows /."
+}

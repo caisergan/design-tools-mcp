@@ -1,0 +1,7 @@
+{
+  "match": ["/docs/components/{name}", "/llm/components/{name}"],
+  "granularity": "variant",
+  "status": "hand",
+  "attach_only": true,
+  "note": "ui.8starlabs.com — component registry with a docs page /docs/components/<name> and an llm mirror /llm/components/<name> (same slugs, so both templates produce one id and the first page in sitemap order — the docs one — fills the url). 15 of the 62 url-less items attach (button, flip-clock, heatmap, json-viewer, …); the others are demo items (button-demo, flip-clock-size-demo, …) attached to their component as examples and have no page of their own. robots.txt allows / (only /api/ and /_next/ disallowed)."
+}
