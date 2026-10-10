@@ -55,5 +55,10 @@ Still running: none. Briefs 09–13 merged and closed.
 
 Still running: none. Brief 15 merged and closed (MCP-PLAN 6.10).
 
-2026-10-10: brief 16 (registry url templates) launched.
-Still running: u16a (`phase6/registry-tpl-a`, Claude Code Opus 5.5 high at the user's request — first started as omp, stopped before any commit: engine `tools/registry-urls.mjs` + pilots animate-ui/kibo-ui/retroui), u16b/u16c/u16d (`phase6/registry-tpl-b|c|d`: 19/18/18 sites, routes A sitemap · B template · C skip).
+2026-10-10: brief 16 (registry url templates).
+| u16a | 16 engine `tools/registry-urls.mjs` + pilots (Claude Code Opus 5.5 high; first started as omp, stopped before any commit) | `phase6/registry-tpl-a` @ f71cb8d | engine, build fill, 204 tests; pilots +248 urls; follow-up: html-first Accept, sitemap carve-out for blind/soft templates | 2026-10-10 | 2026-10-10 |
+| u16b | 16 batch b (19 sites) | `phase6/registry-tpl-b` @ 0323627 | 15 templates, 4 skips; expected 6,138 (shadcn-ui-blocks → .com 3,903) | 2026-10-10 | 2026-10-10 |
+| u16c | 16 batch c (18 sites) | `phase6/registry-tpl-c` @ 7acbfd4 | 18 configs + soralabs pattern; expected ~825 (+258 tailark after the carve-out); found the two engine gaps | 2026-10-10 | 2026-10-10 |
+| u16d | 16 batch d (18 sites) | `phase6/registry-tpl-d` @ 9160fa5 | 16 configs + 2 patterns; expected 2,449 (icons.pqoqubbw → lucide-animated 467) | 2026-10-10 | 2026-10-10 |
+
+Still running: none. Brief 16 merged and closed; full `--verify --all` run by the coordinator.
