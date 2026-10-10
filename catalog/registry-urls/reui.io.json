@@ -1,0 +1,33 @@
+{
+  "templates": [
+    "https://reui.io/docs/components/base/{name}"
+  ],
+  "rewrite": [
+    [
+      "^cascader-[a-z0-9]+$",
+      "cascader"
+    ],
+    [
+      "^data-grid-[a-z0-9-]+$",
+      "data-grid"
+    ],
+    [
+      "^event-calendar-[a-z0-9-]+$",
+      "event-calendar"
+    ],
+    [
+      "^filters-[a-z0-9-]+$",
+      "filters"
+    ],
+    [
+      "^gantt-[a-z0-9-]+$",
+      "gantt"
+    ],
+    [
+      "^code-block-highlight$",
+      "code-block"
+    ]
+  ],
+  "status": "hand",
+  "note": "Companion to catalog/patterns/reui.io.json. The 55 url-less items are sub-parts of five big components (cascader, data-grid, event-calendar, filters, gantt) plus code-block-highlight; they have no page of their own, and the page that documents a component and its parts is its API reference /docs/components/base/<group> (the same page the parent item already points at, e.g. event-calendar -> /docs/components/base/event-calendar; /components/<group> is the showcase page and does not show every part). The rewrite maps each part onto its group and the template fills the group page. All 55 are expected to fill. The site soft-404s: the probe name answers 200 with <title> \"ReUI\", while every real candidate's <title> names the component (e.g. \"Shadcn Cascader (Base UI) - ReUI\"), so the engine's title guard lets the real hits through. Names outside the rewrite are misses."
+}

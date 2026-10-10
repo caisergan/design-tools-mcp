@@ -1,0 +1,6 @@
+{
+  "templates": ["https://sv-blocks.vercel.app/preview/testimonial/{name}"],
+  "rewrite": [["^testimonial-(one|two|three|four|five|six)$", "$1"]],
+  "status": "hand",
+  "note": "Companion to catalog/patterns/sv-blocks.vercel.app.json, which attaches 75 items through the sitemap. The six testimonial variants exist as /preview/testimonial/<variant> pages that the sitemap does not list; the rewrite drops the testimonial- prefix and the template fills the page (title \"Testimonial One Preview - Svelte Marketing Blocks\"). The remaining 17 url-less items (hero-header*, card-decorator, feature-card, integration-cards, logo-collection/gemini/google-palm/magic-ui/media-wiki/replit/vscodium, marquee, progressive-blur, svgs) are pieces of blocks or ui components with no preview page and stay url-less; they are expected misses."
+}

@@ -1,0 +1,16 @@
+{
+  "templates": ["https://clerk.com/{name}"],
+  "rewrite": [
+    ["^nextjs-quickstart-sign-in-or-up$", "docs/nextjs/getting-started/quickstart"],
+    ["^nextjs-quickstart$", "docs/nextjs/getting-started/quickstart"],
+    ["^nextjs-clerk-provider$", "docs/nextjs/reference/components/clerk-provider"],
+    ["^nextjs-middleware$", "docs/reference/nextjs/clerk-middleware"],
+    ["^nextjs-waitlist-page$", "docs/nextjs/reference/components/authentication/waitlist"],
+    ["^nextjs-sign-in-page$", "docs/guides/customizing-clerk/elements/examples/sign-in"],
+    ["^nextjs-sign-up-page$", "docs/guides/customizing-clerk/elements/examples/sign-up"],
+    ["^nextjs-(theme-provider|header|layout-with-header)$", "docs/guides/customizing-clerk/elements/examples/shadcn-ui"]
+  ],
+  "types": ["registry:ui", "registry:component", "registry:block", "registry:example", "registry:page", "registry:file"],
+  "status": "hand",
+  "note": "The entry clerk-com-docs-elements-examples-shadcn-ui is Clerk's shadcn/ui + Elements example set; each item is an example file shown on one Clerk docs page. The rewrite maps items to the page that shows them, always with the current (post-redirect) path so the hit does not redirect: clerk-provider -> /docs/nextjs/reference/components/clerk-provider, middleware -> /docs/reference/nextjs/clerk-middleware, quickstart and quickstart-sign-in-or-up -> /docs/nextjs/getting-started/quickstart, waitlist-page -> /docs/nextjs/reference/components/authentication/waitlist, sign-in-page / sign-up-page -> the Elements example pages, theme-provider / header / layout-with-header -> /docs/guides/customizing-clerk/elements/examples/shadcn-ui (the example these three files belong to; the page is marked Deprecated). 10 of 12 items fill (this config also lists registry:page and registry:file so the page/file items are tried). nextjs-aio-multistep-onboarding and nextjs-custom-flows-multistep-onboarding stay url-less: no Clerk docs page shows them (the onboarding guide does not mention the multistep example)."
+}

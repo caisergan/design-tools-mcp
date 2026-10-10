@@ -1,0 +1,4 @@
+{
+  "skip": "All 139 ui components are shown as one index list on /components (\"50+ modules loaded\": Activity Feed, Agent Avatar, Alert, ... ) with no per-component link or anchor, and /components/<name> 404s (checked hud, data-stream, accordion; /docs/components/<name> 404s too). The sitemap's only component URL is /components itself; /docs/install and /docs/api are prose/API pages and /templates/*, /game are separate. A single gallery/listing page is not a page per component, so nothing is fillable.",
+  "status": "hand"
+}

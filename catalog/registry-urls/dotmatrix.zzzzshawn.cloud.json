@@ -1,0 +1,4 @@
+{
+  "skip": "The 91 dot-matrix loaders have no page of their own. The site's only per-loader view is https://dotmatrix.zzzzshawn.cloud/playground?loader=<name> (the home grid links it that way); a made-up loader name answers 200 with the identical <title> \"Playground · Dot Matrix\", so template candidates there would be soft-404s. Its sitemap lists only the home page, /showcase is a prose/gallery page, and there is no /<name> or /loaders/<name> path (404).",
+  "status": "hand"
+}

@@ -1,0 +1,5 @@
+{
+  "templates": ["https://www.eldoraui.site/view/{name}"],
+  "status": "hand",
+  "note": "Every url-less item (16 blocks: header-01/02, logo-cloud-01..04, testimonal-01..03, features-01, cta-01..03, pricing-01/02, footer-01; 20 examples: *-demo-2..5 of browser, cobe-globe, grid, clerk-otp, integrations, svg-ripple-effect, fade-text, novatrix-background, hacker-background, logo-timeline, dock-text, holographic-card) has its own preview page /view/<name>: the site's own blocks page links /view/cta-02, /view/logo-cloud-01, /view/testimonal-02 and every name checked answers 200 with the name as <title>. The domain redirects to www.eldoraui.site, so the template uses www (no redirect on the hit). A made-up name 404s. All 36 are expected to fill; the 39 items already carrying /docs/components/* urls are untouched."
+}
