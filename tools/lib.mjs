@@ -2,6 +2,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve, sep } from "node:path";
+import { isIP } from "node:net";
 
 export const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
 export const OUT = join(ROOT, "catalog");
@@ -138,6 +139,89 @@ export function safeJoin(dir, rel) {
   const root = resolve(dir);
   const full = resolve(root, rel);
   return full.startsWith(root + sep) ? full : null;
+}
+
+// ---------------------------------------------------------------- fetching a url an agent names (SSRF guard)
+
+const INTERNAL_SUFFIX = /(^|\.)(localhost|localdomain|local|internal|intranet|lan|home|corp|home\.arpa|arpa)$/;
+
+/** A public DNS name: no IP literal, no localhost, no single-label or internal-only name. */
+export function isPublicHostname(host) {
+  const h = String(host || "").toLowerCase().replace(/^\[|\]$/g, "").replace(/\.$/, "");
+  if (!h || isIP(h) || !h.includes(".")) return false;
+  // numeric hosts some resolvers still read as an address (0x7f.1, 2130706433, 127.1)
+  if (/^[\d.]+$/.test(h) || /^0x[0-9a-f]+(\.|$)/i.test(h)) return false;
+  return !INTERNAL_SUFFIX.test(h);
+}
+
+/** Loopback, private, link-local, CGNAT, multicast or reserved: an address a fetch for an agent never goes to. */
+export function isPrivateAddress(ip) {
+  const a = String(ip || "").toLowerCase();
+  if (isIP(a) === 4) {
+    const [x, y] = a.split(".").map(Number);
+    return (
+      x === 0 || x === 10 || x === 127 || x >= 224 ||
+      (x === 100 && y >= 64 && y <= 127) ||
+      (x === 169 && y === 254) ||
+      (x === 172 && y >= 16 && y <= 31) ||
+      (x === 192 && (y === 168 || (y === 0 && a.startsWith("192.0.0.")))) ||
+      (x === 198 && (y === 18 || y === 19))
+    );
+  }
+  if (isIP(a) === 6) {
+    const mapped = /^::ffff:(\d+\.\d+\.\d+\.\d+)$/.exec(a);
+    if (mapped) return isPrivateAddress(mapped[1]);
+    return a === "::" || a === "::1" || /^f[cd]/.test(a) || /^fe[89ab]/.test(a) || /^ff/.test(a) || a.startsWith("::ffff:");
+  }
+  return true; // not an address at all: refuse
+}
+
+/** The form a listed url is compared in: no hash, no trailing slash. */
+export function listedKey(url) {
+  try {
+    const u = new URL(url);
+    u.hash = "";
+    return u.href.replace(/\/$/, "");
+  } catch {
+    return null;
+  }
+}
+
+/** Every absolute url an llms.txt names, plus its root-relative markdown links resolved against `origin`. */
+export function llmsUrls(text, origin) {
+  const out = new Set();
+  for (const m of String(text || "").matchAll(/https?:\/\/[^\s)<>\]"'`]+/g)) out.add(listedKey(m[0].replace(/[.,;:]+$/, "")));
+  for (const m of String(text || "").matchAll(/\]\((\/[^\s)]*)\)/g)) out.add(listedKey(new URL(m[1], origin).href));
+  out.delete(null);
+  return out;
+}
+
+/**
+ * May the server fetch `url` for an entry whose own url is `origin`? Only https on the default port, a public host
+ * name, and either the entry's own site (with or without www.) or a url its llms.txt lists (`listed`, from
+ * llmsUrls). Returns null when allowed, else why not. Redirect targets go through the same check.
+ */
+export function followProblem(url, { origin, listed = new Set() } = {}) {
+  let u;
+  try {
+    u = new URL(url);
+  } catch {
+    return `"${String(url).slice(0, 100)}" is not a url`;
+  }
+  if (u.protocol !== "https:") return `${u.protocol.replace(/:$/, "")} is not allowed, https only`;
+  if (u.username || u.password) return "a url with credentials is not allowed";
+  if (u.port && u.port !== "443") return `port ${u.port} is not allowed`;
+  if (!isPublicHostname(u.hostname)) return `${u.hostname} is not a public host name`;
+  const site = (h) => h.toLowerCase().replace(/^www\./, "");
+  let own = null;
+  try {
+    own = new URL(origin);
+  } catch {
+    /* no own site: only listed urls */
+  }
+  if (own && site(u.hostname) === site(own.hostname)) return null;
+  if (listed.has(listedKey(u.href))) return null;
+  return `${u.host} is not the entry's site${own ? ` (${own.host})` : ""} and the url is not listed in its llms.txt`;
 }
 
 export const loadJSON = (p, fallback = null) =>

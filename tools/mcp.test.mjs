@@ -1,18 +1,23 @@
 #!/usr/bin/env bun
 // Phase 0 harness for tools/mcp.mjs: one server process for the whole file, driven over stdio.
 // `bun test tools/mcp.test.mjs` — no network, only resources that exist in catalog/corpus/.
+// The server negotiates 2025-06-18, so every successful tool answer below is checked against its outputSchema;
+// a second server negotiates 2025-03-26 for the older protocol.
 import { test, expect, beforeAll, afterAll } from "bun:test";
 import { spawn, spawnSync } from "node:child_process";
 import { createReadStream, createWriteStream, mkdtempSync, openSync, rmSync } from "node:fs";
 import { createInterface } from "node:readline";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { ROOT } from "./lib.mjs";
+import { ROOT, followProblem, isPublicHostname, isPrivateAddress, llmsUrls } from "./lib.mjs";
 
 const SERVER = join(ROOT, "tools", "mcp.mjs");
 const TIMEOUT = 30_000;
 
 let server;
+let legacy;
+let OUTPUT; // tool name -> outputSchema, from tools/list
+const validated = new Set();
 
 /** Server with piped stdio — the normal case. */
 function withPipes() {
@@ -94,19 +99,57 @@ function startServer() {
 
 beforeAll(async () => {
   server = startServer();
-  await server.rpc("ping", {});
+  legacy = startServer();
+  await server.rpc("initialize", { protocolVersion: "2025-06-18", capabilities: {}, clientInfo: { name: "bun-test", version: "1.0.0" } });
+  await legacy.rpc("initialize", { protocolVersion: "2025-03-26", capabilities: {}, clientInfo: { name: "bun-test", version: "1.0.0" } });
+  OUTPUT = Object.fromEntries((await server.rpc("tools/list", {})).result.tools.map((t) => [t.name, t.outputSchema]));
 });
 
-afterAll(() => server?.stop());
+afterAll(() => {
+  server?.stop();
+  legacy?.stop();
+});
 
-const callTool = async (name, args) => (await server.rpc("tools/call", { name, arguments: args })).result;
-const textOf = (result) => result.content.map((c) => c.text || "").join("\n");
+/**
+ * The JSON Schema subset tools/schemas.mjs uses: type (a list allows null), enum, required, properties, items and
+ * `$ref` into the schema's own `$defs`. Stricter than JSON Schema in one way: a field the schema does not declare
+ * is a problem too, so structuredContent cannot drift away from its schema.
+ */
+function schemaProblems(schema, value, root = schema, path = "$") {
+  if (schema.$ref) return schemaProblems(root.$defs[schema.$ref.replace("#/$defs/", "")], value, root, path);
+  const t = value === null ? "null" : Array.isArray(value) ? "array" : Number.isInteger(value) ? "integer" : typeof value;
+  const types = [].concat(schema.type || []);
+  if (types.length && !types.some((x) => x === t || (x === "number" && t === "integer"))) return [`${path}: ${t}, expected ${types.join(" | ")}`];
+  if (schema.enum && !schema.enum.includes(value)) return [`${path}: ${JSON.stringify(value)} is not one of ${JSON.stringify(schema.enum)}`];
+  const out = [];
+  if (t === "object" && schema.properties) {
+    for (const k of schema.required || []) if (!Object.hasOwn(value, k)) out.push(`${path}.${k}: missing`);
+    for (const k of Object.keys(value)) {
+      if (!Object.hasOwn(schema.properties, k)) out.push(`${path}.${k}: not declared`);
+      else out.push(...schemaProblems(schema.properties[k], value[k], root, `${path}.${k}`));
+    }
+  }
+  if (t === "array" && schema.items) value.forEach((v, i) => out.push(...schemaProblems(schema.items, v, root, `${path}[${i}]`)));
+  return out;
+}
+
+const callTool = async (name, args) => {
+  const { result } = await server.rpc("tools/call", { name, arguments: args });
+  if (result.isError) expect(result.structuredContent).toBeUndefined(); // errors stay text
+  else {
+    expect(result.structuredContent).toBeDefined();
+    expect(schemaProblems(OUTPUT[name], result.structuredContent)).toEqual([]);
+    validated.add(name);
+  }
+  return result;
+};
+const textOf = (result) => result.content.filter((c) => c.type === "text").map((c) => c.text).join("\n");
 const bulletsOf = (text) => text.split("\n").filter((l) => l.startsWith("- "));
 
 // ------------------------------------------------------------------ current behaviour
 
 test("initialize reports the server identity and tool capability", async () => {
-  const { result } = await server.rpc("initialize", {
+  const { result } = await legacy.rpc("initialize", {
     protocolVersion: "2024-11-05",
     capabilities: {},
     clientInfo: { name: "bun-test", version: "1.0.0" },
@@ -115,7 +158,7 @@ test("initialize reports the server identity and tool capability", async () => {
   expect(result.capabilities.tools).toBeDefined();
 });
 
-test("tools/list exposes the 7 tools with a name, description and inputSchema", async () => {
+test("tools/list exposes the 8 tools with a name, description, inputSchema and outputSchema", async () => {
   const { result } = await server.rpc("tools/list", {});
   expect(result.tools.map((t) => t.name)).toEqual([
     "search_resources",
@@ -125,12 +168,15 @@ test("tools/list exposes the 7 tools with a name, description and inputSchema", 
     "list_components",
     "get_content",
     "get_component",
+    "get_install_command",
   ]);
   for (const tool of result.tools) {
     expect(typeof tool.description).toBe("string");
     expect(tool.description.length).toBeGreaterThan(0);
     expect(tool.inputSchema.type).toBe("object");
     expect(tool.inputSchema.properties).toBeDefined();
+    expect(tool.outputSchema.type).toBe("object");
+    expect(tool.outputSchema.required.length).toBeGreaterThan(0);
   }
 });
 
@@ -232,10 +278,11 @@ test("category and kind filter on taxonomy ids; Turkish category words still mat
 });
 
 test("initialize negotiates a supported protocolVersion and sends instructions", async () => {
-  const unknown = (await server.rpc("initialize", { protocolVersion: "1999-01-01" })).result;
+  const unknown = (await legacy.rpc("initialize", { protocolVersion: "1999-01-01" })).result;
   expect(unknown.protocolVersion).toBe("2025-06-18");
   expect(unknown.instructions).toContain("search_resources");
-  const older = (await server.rpc("initialize", { protocolVersion: "2025-03-26" })).result;
+  for (const tool of ["get_install_command", "include_examples", "follow_url"]) expect(unknown.instructions).toContain(tool);
+  const older = (await legacy.rpc("initialize", { protocolVersion: "2025-03-26" })).result;
   expect(older.protocolVersion).toBe("2025-03-26");
 });
 
@@ -272,7 +319,13 @@ test("tools carry titles and read-only annotations", async () => {
     expect(tool.annotations.readOnlyHint).toBe(true);
     expect(tool.annotations.openWorldHint).toBe(!local.includes(tool.name));
   }
-  expect(JSON.stringify(result).length).toBeLessThan(8_000); // token budget: tools/list ≤ 8 KB
+  // token budget: what a model sees of tools/list (names, descriptions, input schemas) ≤ 8 KB. The output
+  // schemas are for the client's validator, not the model's context: they have a budget of their own.
+  const visible = result.tools.map(({ outputSchema, ...rest }) => rest);
+  expect(JSON.stringify({ tools: visible }).length).toBeLessThan(8_000);
+  expect(JSON.stringify(result.tools.map((t) => t.outputSchema)).length).toBeLessThan(13_000);
+  const old = (await legacy.rpc("tools/list", {})).result;
+  expect(JSON.stringify(old).length).toBeLessThan(8_000);
 });
 
 // ------------------------------------------------------------------ phase 3: item layer + ranked search
@@ -540,4 +593,264 @@ test("shadcn-ui-blocks 'hero' opens a hero section", async () => {
 test("notion 'rate limits' opens Rate limits", async () => {
   const text = textOf(await callTool("get_content", { ref: "developers.notion.com", query: "rate limits" }));
   expect(firstSection(text)).toMatch(/rate limits/i);
+});
+
+// ------------------------------------------------------------------ phase 4: structured output, install command, paging
+
+const sourceBodies = (text) => [...text.matchAll(/<untrusted-content source="[^"]*">\n([\s\S]*?)\n<\/untrusted-content>/g)].map((m) => m[1]);
+const links = (result) => result.content.filter((c) => c.type === "resource_link");
+
+test("a 2025-03-26 session gets the same text, with no outputSchema, structuredContent or resource_link", async () => {
+  const tools = (await legacy.rpc("tools/list", {})).result.tools;
+  expect(tools.length).toBe(8);
+  expect(tools.every((t) => t.outputSchema === undefined)).toBe(true);
+  for (const [name, args] of [
+    ["search_resources", { query: "navbar" }],
+    ["get_resource", { ref: "magicui.design" }],
+    ["get_component", { ref: "magicui-design/marquee" }],
+    ["get_install_command", { items: ["magicui-design/marquee"] }],
+  ]) {
+    const old = (await legacy.rpc("tools/call", { name, arguments: args })).result;
+    expect(old.structuredContent).toBeUndefined();
+    expect(old.content.map((c) => c.type)).toEqual(["text"]);
+    expect(textOf(old)).toBe(textOf(await callTool(name, args)));
+  }
+});
+
+test("search answers stay compact: same text, facts in structuredContent", async () => {
+  const r = await callTool("search_resources", { query: "navbar" });
+  expect(r.content.map((c) => c.type)).toEqual(["text"]); // no resource_link per search hit
+  expect(Buffer.byteLength(textOf(r))).toBeLessThanOrEqual(3_000);
+  const sc = r.structuredContent;
+  expect(sc.focus.element).toBe("navbar");
+  expect(sc.focus.kinds.find((k) => k.kind === "mega-menu").count).toBeGreaterThan(0);
+  const ids = idsOf(textOf(r));
+  expect([...sc.resources, ...sc.components, ...sc.gallery, ...sc.docs].map((h) => h.id).sort()).toEqual([...ids].sort());
+  expect(sc.next_offset).toBe(10);
+  const comp = (await callTool("search_components", { element: "navbar", variant: "mega-menu", limit: 5 })).structuredContent;
+  expect(comp.hits).toHaveLength(5);
+  expect(comp.hits.every((h) => h.kinds.includes("mega-menu"))).toBe(true);
+  expect(comp.next_offset).toBe(5);
+  const none = await callTool("search_components", { query: "zzqxvqq" });
+  expect(none.structuredContent.total).toBe(0);
+  expect(none.structuredContent.next_offset).toBeNull();
+});
+
+test("list_pages and get_resource answer with structuredContent and the primary url as a resource_link", async () => {
+  const pages = (await callTool("list_pages", { ref: "navbar-gallery", element: "navbar", limit: 3 })).structuredContent;
+  expect(pages.source).toBe("items");
+  expect(pages.pages).toHaveLength(3);
+  expect(pages.pages.every((p) => p.url.startsWith("https://www.navbar.gallery/navbar/") && p.id === null)).toBe(true);
+  expect(pages.next_offset).toBe(3);
+  const raw = (await callTool("list_pages", { ref: "letterboxx.app" })).structuredContent;
+  expect(raw.source).toBe("sitemap");
+  expect(raw.prefixes[0]).toEqual({ prefix: "/press", count: 7 });
+  const res = await callTool("get_resource", { ref: "magicui.design" });
+  expect(res.structuredContent.resource.id).toBe("magicui-design");
+  expect(res.structuredContent.resource.registry.url).toBe("https://magicui.design/r/registry.json");
+  expect(res.structuredContent.component).toBeNull();
+  expect(links(res)).toEqual([{ type: "resource_link", uri: "https://magicui.design", name: "Magic UI" }]);
+  const item = await callTool("get_resource", { ref: "magicui-design/marquee" });
+  expect(item.structuredContent.component.install_command).toBe("npx shadcn@latest add https://magicui.design/r/marquee.json");
+  expect(links(item)[0].uri).toBe("https://magicui.design/docs/components/marquee");
+});
+
+test("get_install_command: 3 Magic UI items give one runnable command", async () => {
+  const r = await callTool("get_install_command", { items: ["magicui-design/marquee", "magicui-design/shimmer-button", "magicui-design/animated-beam"] });
+  const cmd = "npx shadcn@latest add https://magicui.design/r/marquee.json https://magicui.design/r/shimmer-button.json https://magicui.design/r/animated-beam.json";
+  expect(textOf(r).split("\n")[1]).toBe(cmd);
+  const sc = r.structuredContent;
+  expect(sc.command).toBe(cmd);
+  expect(sc.items.every((i) => i.from === "corpus")).toBe(true); // no network: the corpus has the item JSON
+  expect(sc.dependencies).toContain("motion"); // animated-beam
+  expect(sc.skipped).toEqual([]);
+  expect(links(r).map((l) => l.uri)).toEqual(sc.urls);
+});
+
+test("get_install_command groups registries, takes {ref, name}, and speaks every package manager", async () => {
+  const items = ["magicui-design/marquee", "animate-ui-com/components-radix-sidebar", { ref: "magicui.design", name: "dock" }, "magicui-design/marquee"];
+  const r = await callTool("get_install_command", { items });
+  const sc = r.structuredContent;
+  expect(sc.urls).toEqual([
+    "https://magicui.design/r/marquee.json",
+    "https://animate-ui.com/r/components-radix-sidebar.json",
+    "https://magicui.design/r/dock.json",
+  ]); // one command, duplicates once
+  expect(textOf(r)).toContain("- Magic UI: marquee, dock\n- animate-ui: components-radix-sidebar");
+  expect(sc.registryDependencies).toContain("@animate-ui/lib-get-strict-context");
+  const forms = { npx: "npx shadcn@latest add ", pnpm: "pnpm dlx shadcn@latest add ", bunx: "bunx --bun shadcn@latest add ", yarn: "yarn dlx shadcn@latest add " };
+  for (const [pm, prefix] of Object.entries(forms)) {
+    const one = (await callTool("get_install_command", { items: ["magicui-design/marquee"], package_manager: pm })).structuredContent;
+    expect(one.command).toBe(`${prefix}https://magicui.design/r/marquee.json`);
+    expect(one.package_manager).toBe(pm);
+  }
+});
+
+test("get_install_command reports page, gated and unknown items instead of installing them", async () => {
+  const r = await callTool("get_install_command", { items: ["magicui-design/marquee", "navbar-gallery/1x", "www-shadcnblocks-com/hero231", "magicui-design/marqee", { ref: "no-such-registry-xyz", name: "button" }] });
+  const sc = r.structuredContent;
+  expect(sc.urls).toEqual(["https://magicui.design/r/marquee.json"]);
+  const why = Object.fromEntries(sc.skipped.map((s) => [s.input, s]));
+  expect(why["navbar-gallery/1x"]).toMatchObject({ reason: "page", url: "https://www.navbar.gallery/navbar/1x" });
+  expect(why["www-shadcnblocks-com/hero231"]).toMatchObject({ reason: "gated", url: "https://www.shadcnblocks.com/block/hero231" });
+  expect(why["magicui-design/marqee"].reason).toBe("unknown");
+  expect(why["magicui-design/marqee"].closest[0]).toBe("magicui-design/marquee");
+  expect(why["no-such-registry-xyz/button"].reason).toBe("unknown");
+  expect(textOf(r)).toContain("not included (4):");
+  const none = await callTool("get_install_command", { items: ["navbar-gallery/1x"] });
+  expect(none.structuredContent.command).toBeNull();
+  expect(textOf(none)).toContain("nothing to install");
+});
+
+test("get_install_command takes at most 25 items and checks each one", async () => {
+  const many = await callTool("get_install_command", { items: Array.from({ length: 26 }, () => "magicui-design/marquee") });
+  expect(many.isError).toBe(true);
+  expect(textOf(many)).toContain('"items" takes at most 25 entries (got 26)');
+  for (const [items, message] of [
+    [[], '"items" needs at least 1 entry'],
+    [[5], '"items[0]" must be a string or an object'],
+    [[{ ref: "magicui.design" }], '"items[0].name" is required'],
+    [[{ ref: "magicui.design", name: "dock", stack: "x" }], 'unknown field "items[0].stack"'],
+  ]) {
+    const bad = await callTool("get_install_command", { items });
+    expect(bad.isError).toBe(true);
+    expect(textOf(bad)).toContain(message);
+  }
+  const pm = await callTool("get_install_command", { items: ["magicui-design/marquee"], package_manager: "npm" });
+  expect(textOf(pm)).toContain('"package_manager" must be one of: npx, pnpm, bunx, yarn');
+});
+
+test("list_components filters by query and type and pages with next_offset", async () => {
+  const r = await callTool("list_components", { ref: "magicui.design", query: "marquee" });
+  const lines = bulletsOf(textOf(r));
+  expect(lines.length).toBeGreaterThan(2);
+  expect(lines.every((l) => /marquee/i.test(l))).toBe(true);
+  expect(r.structuredContent.matches).toBe(lines.length);
+  expect(r.structuredContent.total).toBe(250);
+  const demos = (await callTool("list_components", { ref: "magicui.design", query: "marquee", type: "example" })).structuredContent;
+  expect(demos.filters.type).toBe("registry:example");
+  expect(demos.components.every((c) => c.type === "registry:example")).toBe(true);
+  expect((await callTool("list_components", { ref: "magicui.design", query: "marquee", type: "registry:example" })).structuredContent.matches).toBe(demos.matches);
+  const first = await callTool("list_components", { ref: "magicui.design", limit: 5 });
+  expect(first.structuredContent.next_offset).toBe(5);
+  expect(textOf(first)).toContain("→ more: offset=5");
+  const second = await callTool("list_components", { ref: "magicui.design", limit: 5, offset: 5 });
+  expect(bulletsOf(textOf(second))).toHaveLength(5);
+  expect(second.structuredContent.components[0].name).not.toBe(first.structuredContent.components[0].name);
+  expect(textOf(second)).toContain("showing 6–10");
+  // page urls stay on each line
+  expect(textOf(r)).toContain("https://magicui.design/docs/components/marquee");
+  const none = await callTool("list_components", { ref: "magicui.design", query: "zzqxv" });
+  expect(none.structuredContent.matches).toBe(0);
+  expect(textOf(none)).toContain("none of its 250 components match");
+});
+
+test("get_component states type, deps and install, and pages a big source with offset", async () => {
+  // corpus/sites/animate-ui.com/src/components-radix-sidebar is ~25k chars
+  const ref = "animate-ui-com/components-radix-sidebar";
+  const first = await callTool("get_component", { ref });
+  const a = first.structuredContent;
+  expect(a.chars).toBeGreaterThan(20_000);
+  expect(a.next_offset).toBe(20_000);
+  expect(textOf(first)).toContain("type: registry:ui");
+  expect(textOf(first)).toContain("dependencies: ");
+  expect(textOf(first)).toContain("install: npx shadcn@latest add https://animate-ui.com/r/components-radix-sidebar.json");
+  expect(textOf(first)).toContain(`more: offset=20000 (${a.chars - 20_000} chars left)`);
+  expect(links(first)).toEqual([{ type: "resource_link", uri: "https://animate-ui.com/r/components-radix-sidebar.json", name: "components-radix-sidebar", mimeType: "application/json" }]);
+  const rest = await callTool("get_component", { ref, offset: a.next_offset });
+  expect(rest.structuredContent.next_offset).toBeNull();
+  expect(sourceBodies(textOf(first))[0].length + sourceBodies(textOf(rest))[0].length).toBe(a.chars);
+  const small = (await callTool("get_component", { ref, max_chars: 1000 })).structuredContent;
+  expect(small.next_offset).toBe(1000);
+  const bad = await callTool("get_component", { ref, max_chars: 50_000 });
+  expect(textOf(bad)).toContain('"max_chars" must be ≤ 40000');
+});
+
+test("include_examples adds the demos as their own clipped blocks, the answer within 40k chars", async () => {
+  // animated-beam: ~5k of source, its demo ~27k → the demo is clipped to max_chars
+  const beam = await callTool("get_component", { ref: "magicui-design/animated-beam", include_examples: true });
+  expect(textOf(beam)).toContain("## example: animated-beam-demo");
+  const ex = beam.structuredContent.examples[0];
+  expect(ex.name).toBe("animated-beam-demo");
+  expect(ex.shown).toBe(20_000);
+  expect(ex.chars).toBeGreaterThan(ex.shown);
+  expect(textOf(beam)).toContain(`…(${ex.chars - ex.shown} more chars: get_component(ref: "magicui-design", name: "animated-beam-demo"))`);
+  expect(sourceBodies(textOf(beam))).toHaveLength(2);
+  // the sidebar's whole 25k source plus its 16k demo would pass 40k: the demo gets what is left
+  const side = await callTool("get_component", { ref: "animate-ui-com/components-radix-sidebar", include_examples: true, max_chars: 40_000 });
+  expect(textOf(side).length).toBeLessThanOrEqual(40_000);
+  expect(side.structuredContent.next_offset).toBeNull();
+  const demo = side.structuredContent.examples[0];
+  expect(demo.shown).toBeLessThan(demo.chars);
+  // without the flag, no examples
+  expect((await callTool("get_component", { ref: "magicui-design/animated-beam" })).structuredContent.examples).toEqual([]);
+});
+
+test("get_content answers carry their mode, sections and next_offset", async () => {
+  const outline = (await callTool("get_content", { ref: BIG })).structuredContent;
+  expect(outline).toMatchObject({ ref: "gpui-kit-com", mode: "outline", source: "corpus/llms-full.txt", next_offset: null });
+  expect(outline.sections).toBeGreaterThan(3_000);
+  const q = await callTool("get_content", { ref: BIG, query: "installation" });
+  expect(Buffer.byteLength(textOf(q))).toBeLessThanOrEqual(12_000);
+  expect(q.structuredContent.mode).toBe("query");
+  expect(q.structuredContent.hits.length).toBeGreaterThan(0);
+  expect(q.structuredContent.next_offset).toBe(q.structuredContent.hits.length);
+  for (const h of q.structuredContent.hits) expect(textOf(q)).toContain(`§${h.n} `);
+  const sec = (await callTool("get_content", { ref: BIG, section: q.structuredContent.hits[0].n })).structuredContent;
+  expect(sec.mode).toBe("section");
+  expect(sec.hits[0].n).toBe(q.structuredContent.hits[0].n);
+  expect((await callTool("get_content", { ref: "navbar.gallery" })).structuredContent.mode).toBe("whole");
+});
+
+test("follow_url: the SSRF rules", () => {
+  const rule = { origin: "https://magicui.design", listed: llmsUrls("- [Docs](https://docs.example.com/guide.md)\n- [Local](/docs/x.md)", "https://magicui.design") };
+  // allowed: the entry's own site (www or not) and urls its llms.txt lists
+  expect(followProblem("https://magicui.design/docs/components/marquee", rule)).toBeNull();
+  expect(followProblem("https://www.magicui.design/llms.txt", rule)).toBeNull();
+  expect(followProblem("https://docs.example.com/guide.md", rule)).toBeNull();
+  expect(followProblem("https://docs.example.com/guide.md#intro", rule)).toBeNull();
+  expect(rule.listed.has("https://magicui.design/docs/x.md")).toBe(true);
+  // refused
+  expect(followProblem("https://docs.example.com/other.md", rule)).toContain("not listed in its llms.txt");
+  expect(followProblem("https://evil.example.org/", rule)).toContain("not the entry's site");
+  expect(followProblem("http://magicui.design/llms.txt", rule)).toContain("https only");
+  expect(followProblem("file:///etc/passwd", rule)).toContain("https only");
+  for (const url of ["https://127.0.0.1/", "https://[::1]/", "https://10.0.0.8/x", "https://169.254.169.254/latest/meta-data", "https://2130706433/", "https://0x7f.1/"])
+    expect(followProblem(url, { ...rule, listed: new Set([url]) })).toContain("is not a public host name");
+  for (const url of ["https://localhost/", "https://api.localhost/", "https://intranet/", "https://printer.local/", "https://db.internal/"])
+    expect(followProblem(url, { ...rule, listed: new Set([url]) })).toContain("is not a public host name");
+  expect(followProblem("https://magicui.design:8443/", rule)).toContain("port 8443");
+  expect(followProblem("https://user:pw@magicui.design/", rule)).toContain("credentials");
+  expect(followProblem("not a url", rule)).toContain("is not a url");
+  // a redirect is checked by the same rule: on-site → off-site is refused, on-site → listed is fine
+  const hop = (from, location) => followProblem(new URL(location, from).href, rule);
+  expect(hop("https://magicui.design/docs/a", "/docs/b")).toBeNull();
+  expect(hop("https://magicui.design/docs/a", "https://docs.example.com/guide.md")).toBeNull();
+  expect(hop("https://magicui.design/docs/a", "https://attacker.example.net/")).toContain("not the entry's site");
+  expect(hop("https://magicui.design/docs/a", "http://magicui.design/docs/b")).toContain("https only");
+  expect(hop("https://magicui.design/docs/a", "https://127.0.0.1/admin")).toContain("not a public host name");
+  // the resolved address is checked too
+  for (const ip of ["10.1.2.3", "172.16.0.1", "192.168.1.1", "127.0.0.1", "169.254.169.254", "100.64.0.1", "0.0.0.0", "::1", "fc00::1", "fe80::1", "::ffff:127.0.0.1"])
+    expect(isPrivateAddress(ip)).toBe(true);
+  for (const ip of ["8.8.8.8", "76.76.21.21", "2606:4700::1111"]) expect(isPrivateAddress(ip)).toBe(false);
+  expect(isPublicHostname("magicui.design")).toBe(true);
+});
+
+test("get_content refuses a follow_url that breaks the rules before any fetch", async () => {
+  for (const [url, message] of [
+    ["http://magicui.design/llms.txt", "https only"],
+    ["https://evil.example.org/x.md", "not the entry's site"],
+    ["https://127.0.0.1/", "not a public host name"],
+  ]) {
+    const r = await callTool("get_content", { ref: "magicui.design", follow_url: url });
+    expect(r.isError).toBe(true);
+    expect(textOf(r)).toContain(`follow_url refused: `);
+    expect(textOf(r)).toContain(message);
+  }
+  const both = await callTool("get_content", { ref: "magicui.design", follow_url: "https://magicui.design/llms.txt", file: "llms.txt" });
+  expect(textOf(both)).toContain("pass file or follow_url, not both");
+});
+
+test("every tool's successful answer validated against its outputSchema", () => {
+  expect([...validated].sort()).toEqual(Object.keys(OUTPUT).sort());
 });
