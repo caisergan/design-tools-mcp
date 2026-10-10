@@ -56,4 +56,4 @@ Still running: none. Briefs 09–13 merged and closed.
 Still running: none. Brief 15 merged and closed (MCP-PLAN 6.10).
 
 2026-10-10: brief 16 (registry url templates) launched.
-Still running: u16a (`phase6/registry-tpl-a`: engine `tools/registry-urls.mjs` + pilots animate-ui/kibo-ui/retroui), u16b/u16c/u16d (`phase6/registry-tpl-b|c|d`: 19/18/18 sites, routes A sitemap · B template · C skip).
+Still running: u16a (`phase6/registry-tpl-a`, Claude Code Opus 5.5 high at the user's request — first started as omp, stopped before any commit: engine `tools/registry-urls.mjs` + pilots animate-ui/kibo-ui/retroui), u16b/u16c/u16d (`phase6/registry-tpl-b|c|d`: 19/18/18 sites, routes A sitemap · B template · C skip).
