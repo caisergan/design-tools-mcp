@@ -164,7 +164,7 @@ export function buildIndex(entries, items) {
 }
 
 // ---------------------------------------------------------------- on-disk form
-// The file keeps the 25 MB budget: item records are grouped by parent (the id loses its "<parent>/" prefix,
+// The file keeps the 40 MB budget (MCP-PLAN decision 10): item records are grouped by parent (the id loses its "<parent>/" prefix,
 // urls their shared origin, and fields equal to the group's most common value are left out), keys are short,
 // and each posting list is one string of base-36 numbers with delta-coded doc ids. unpackIndex() rebuilds
 // exactly what buildIndex() returned, so search never sees the difference.

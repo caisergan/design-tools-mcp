@@ -76,6 +76,9 @@ navbar in < 1.5k tokens and 2 calls, vs 5–8k tokens of registry-by-registry gu
 9. **Search never returns a full list.** Counts + kinds + a few hits per group, then filters to narrow
    (Phase 3.7), so an agent reaches the right component in < 1.5k tokens.
 
+10. **Index budget 40 MB (2026-10-10, raised from 25 MB; the owner left the number to the coordinator).**
+   Measured at 26.9 MB: `loadIndex()` 200 ms, 200 MB RSS, both growing about linearly → ~300 ms and ~300 MB at
+   40 MB. Past 40 MB, or if `loadIndex()` passes 500 ms, store item descriptions lazily before adding more.
 ---
 
 ## Phase 0 — Test harness and baseline eval (do first)
@@ -550,7 +553,7 @@ Documents:
 Tokeniser: lowercase, split on non-alphanumerics and camelCase/kebab (`line-shadow-text`),
 light English stemming (plural `s/es`, `-ing`, `-ed`), Turkish aliases from 2.3.
 Store postings + doc lengths for BM25 (k1 = 1.2, b = 0.75). Size: registry items alone are 6.6 MB of
-name/title/description/type; target `search-index.json` < 25 MB with compact arrays (item descriptions load lazily
+name/title/description/type; target `search-index.json` < 25 MB (40 MB since 2026-10-10, decision 10) with compact arrays (item descriptions load lazily
 if it is larger).
 
 ### 3.6 Query side — in `tools/mcp.mjs` (or `tools/search.mjs`)
@@ -828,7 +831,7 @@ Built by cheaper agents from the briefs in `briefs/phase-6/` (reports in `briefs
   figcomponents; LINE DS) +7,624 · brief 12 (154 design sites with a sitemap, 6 batches: 59 patterns, 95 skips)
   +32,632 · uiverse.io +6,013.
 - **Build:** items 68,494 → **114,763** (sitemap 27,476 → 73,745; with an element 58,302). `search-index.json`
-  20.8 → **26.7 MB** (≈130 B per added item) — 1.7 MB over the 25 MB target.
+  20.8 → **26.7 MB** (≈130 B per added item) — 1.7 MB over the 25 MB target (raised to 40 MB on 2026-10-10, decision 10).
 - **Eval:** recall@5 0.983 (unchanged, same miss: empty-state query) · MRR 0.724 → 0.720.
 - **Open:** index budget; uuid-named pages (raivcoo 2,773, mobbin screens) need per-url titles; umanmade.com host
   alias; `buildItems` should visit every domain with a pattern (mocku.co needed an empty corpus folder); enabling the
@@ -925,7 +928,7 @@ Add a test that fails if any budget is exceeded.
 ## Risks
 
 - **Index size:** 30k registry items plus sitemap / 21st.dev items (~50k+) could push `search-index.json` past
-  25 MB → store compact arrays; if still too big, index item name/title only and fetch descriptions lazily.
+  the budget (25 MB, 40 MB since decision 10) → store compact arrays; if still too big, index item name/title only and fetch descriptions lazily.
 - **Sites change their URL structure** → a `patterns.json` line stops matching and the site's items drop to 0;
   the build's items-per-site report shows it, and the fix is one line.
 - **Bot walls and rate limits** (uiverse.io, land-book.com are Cloudflare-walled) → ≤ 2 requests/s per host,
