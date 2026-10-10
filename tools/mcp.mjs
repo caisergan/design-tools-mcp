@@ -235,6 +235,8 @@ function itemLine(i, r) {
     `id:${i.id}`,
     i.access === "page" ? i.url : i.access === "gated" ? "code needs a licence" : "code",
   ];
+  // every item with a page shows it: a component is opened as often as it is installed
+  if (i.url && i.access !== "page") bits.push(i.url);
   if (kinds.length) bits.push(`kinds: ${kinds.slice(0, 3).join(", ")}`);
   if (i.stacks?.length > 1) bits.push(`stacks: ${i.stacks.join(", ")}`);
   if (r.also) bits.push(`also in: ${r.also.slice(0, 3).map((id) => id.split("/")[0]).join(", ")}${r.also.length > 3 ? ` +${r.also.length - 3}` : ""}`);
@@ -326,8 +328,8 @@ function toolSearchComponents({ query = "", element = "", variant = "", registry
     const bits = [`- ${i.name} (${hostOf(i.parent)})${i.description ? ` — ${clipText(i.description, 60)}` : ""}`, `id:${i.id}`, i.access];
     if (tags) bits.push(tags);
     if (i.stacks?.length > 1) bits.push(`stacks: ${i.stacks.join(", ")}`);
-    // an example is a page you can open, whatever its access: show the url when it has one
-    if (i.url && (i.access === "page" || i.access === "gated" || i.granularity === "example")) bits.push(i.url);
+    // every item with a page shows it, code items too: the page is where a person sees the component
+    if (i.url) bits.push(i.url);
     return bits.join(" · ") + matchedText(r.matched);
   });
   const next = [`get_component("<id>") returns code for code items · page items: open the url or get_content`];
@@ -434,6 +436,11 @@ function toolListPages({ ref, query = "", element = "", variant = "", limit = 20
   return [...head, ...page.map((u) => `- ${u}`), `→ ${next.join(" · ")}`].join("\n");
 }
 
+/** The item of one registry component: entry id + registry name (a stack build's name included) → item. */
+const byRegistryName = new Map();
+for (const i of S.items) for (const n of i.names || [i.slug || i.id.slice(i.parent.length + 1)]) byRegistryName.set(`${i.parent}/${n}`, i);
+const registryItem = (entryId, name) => byRegistryName.get(`${entryId}/${name}`) || byItemId.get(`${entryId}/${slug(name)}`) || null;
+
 /** An item id (`<entry id>/<slug>`) → { item, entry }, else null. */
 function resolveComponent(ref) {
   const i = byItemId.get(normRef(ref));
@@ -538,7 +545,10 @@ async function toolListComponents({ ref, limit = 60 } = {}) {
   const capped = list.slice(0, Math.min(Number(limit) || 60, 300));
   return [
     `${it.name} — ${list.length} components (showing ${capped.length}, ${from}); install with \`npx shadcn@latest add ${reg.url.replace(/\/[^/]+\.json$/, "")}/<name>.json\``,
-    ...capped.map((c) => `- ${c.name}${c.title || c.description ? ` — ${c.title || c.description}` : ""}`),
+    ...capped.map((c) => {
+      const url = registryItem(it.id, c.name)?.url;
+      return `- ${c.name}${c.title || c.description ? ` — ${c.title || c.description}` : ""}${url ? ` · ${url}` : ""}`;
+    }),
   ].join("\n");
 }
 
@@ -762,6 +772,8 @@ async function toolGetComponent({ ref, name, stack } = {}) {
     key = want;
   }
   if (!key) throw new ToolError("Pass a component id from search_components (e.g. \"ui-aceternity-com/floating-navbar\"), or ref + name from list_components.");
+  const pageUrl = comp?.item.url || registryItem(it.id, key)?.url || null;
+  const pageLine = pageUrl ? `page: ${pageUrl}` : "";
   const dir = corpusDir(it);
   const localSrc = dir ? join(dir, "src", slug(key)) : null;
   if (localSrc && existsSync(localSrc)) {
@@ -774,7 +786,7 @@ async function toolGetComponent({ ref, name, stack } = {}) {
     };
     walk(localSrc);
     const body = files.map((f) => `// ${f.slice(localSrc.length + 1)}\n${readFileSync(f, "utf8")}`).join("\n\n");
-    return `# ${it.name}/${key} (local copy)\n\n${untrusted(`corpus/src/${slug(key)}`, clip(body))}`;
+    return [`# ${it.name}/${key} (local copy)`, ...(pageLine ? [pageLine] : []), "", untrusted(`corpus/src/${slug(key)}`, clip(body))].join("\n");
   }
   const base = reg.url.replace(/\/[^/]+\.json$/, "");
   const res = await fetch(`${base}/${encodeURIComponent(key)}.json`, {
@@ -790,10 +802,10 @@ async function toolGetComponent({ ref, name, stack } = {}) {
     const body = res && !res.ok ? await res.text().catch(() => "") : "";
     const isJson = /json/i.test(contentType) || /^\s*[{[]/.test(body);
     if (res?.status === 401 || res?.status === 403 || (isJson && isGatedResponse(res?.status, body)))
-      return `${it.name}: source requires a licence key or login (HTTP ${res?.status ?? "?"}).`;
+      return `${it.name}: source requires a licence key or login (HTTP ${res?.status ?? "?"}).${pageUrl ? ` See it at ${pageUrl}` : ""}`;
     const found = await resolveItemBase(reg.url, key, { ua: UA });
-    if (found?.gated) return `${it.name}: source requires a licence key or login (HTTP ${found.gated}).`;
-    if (!found?.data) return `${it.name}/${key}: the registry lists ${reg.items ?? "?"} items but does not serve item JSON publicly (tried ${itemBaseCandidates(reg.url).length} layouts). Read the docs page or the local copy instead.`;
+    if (found?.gated) return `${it.name}: source requires a licence key or login (HTTP ${found.gated}).${pageUrl ? ` See it at ${pageUrl}` : ""}`;
+    if (!found?.data) return `${it.name}/${key}: the registry lists ${reg.items ?? "?"} items but does not serve item JSON publicly (tried ${itemBaseCandidates(reg.url).length} layouts). ${pageUrl ? `Open ${pageUrl}` : "Read the docs page or the local copy"} instead.`;
     def = found.data;
     source = `${found.base}/${encodeURIComponent(key)}.json`;
   }
@@ -813,6 +825,7 @@ async function toolGetComponent({ ref, name, stack } = {}) {
   return [
     `# ${it.name}/${def.name || key}${def.type ? ` (${def.type})` : ""}`,
     deps.length ? `deps: ${deps.join(", ")}` : "",
+    ...(pageLine ? [pageLine] : []),
     "",
     payload ? untrusted(source, clip(payload)) : "(no inline source in this item — open the docs page)",
   ].join("\n");

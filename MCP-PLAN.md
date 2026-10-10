@@ -853,7 +853,16 @@ Built by cheaper agents from the briefs in `briefs/phase-6/` (reports in `briefs
   ui-layouts.com 279, bundui.io 149, remocn.dev 108 — their pages are missing from the sitemap (numbered variants,
   per-doc examples); 40 registry entries have no sitemap at all. A per-registry `url_template` (registry name →
   page url, verified with a few requests) would cover sites whose page slug is the registry name.
-  `search_components` hit lines don't print the url of code items (only `get_resource` does); add it in Phase 4.
+- **Urls in tool output (fixed 2026-10-10):** `search_components` printed the url only for page/gated/example items
+  and `search_resources` never for code or gated items ("code needs a licence"), so the 15k urls of 14–15 were not
+  visible in search. Every hit line now shows the item's url; `get_component` adds `page: <url>` (and the url on
+  licence/401 answers); `list_components` adds each component's page.
+- **Markdown urls (fixed 2026-10-10):** 1,162 items (313 registry, 849 llms pages) linked a raw `.md` file from
+  llms.txt. `htmlTwin` (`tools/items.mjs`) swaps it for the html page when the site's sitemap lists it (without the
+  extension, a `/raw[/en]` or `/markdown` prefix, or under `/docs`) → 305 left (termcn 120, inspira-ui 114, base-ui
+  36 have no sitemap; ogimagecn/obsidianui serve md-only paths). `sitemapScan` now checks the registry id before
+  the url-taken rule, so an llms page under another id (pdfcn `/takumi/alert` as `alert`) no longer keeps a
+  registry item's page. Registry items with a url stay 16,312; items 114,763; eval unchanged.
 
 ## Phase 7 — Housekeeping
 

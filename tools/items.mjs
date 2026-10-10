@@ -166,6 +166,36 @@ export function docsPage(link, domain, { ov }) {
   return null;
 }
 
+const pageKey = (u) => {
+  try {
+    const x = new URL(u);
+    return x.hostname.replace(/^www\./, "") + x.pathname.replace(/\/+$/, "");
+  } catch {
+    return null;
+  }
+};
+
+/**
+ * An llms.txt link to a raw markdown file (`/components/haptic.md`, `/raw/docs/…/x.md`, `/markdown/docs/x.md`) is
+ * what an agent reads, not the page a person opens. When the site's own sitemap lists the html twin — the path
+ * without the extension, without a /raw[/en] or /markdown prefix, or under /docs — that page is the url.
+ * `sitemapKeys` = Map(pageKey → sitemap loc). Anything else keeps the link as it is.
+ */
+export function htmlTwin(url, sitemapKeys) {
+  if (!sitemapKeys?.size || !/\.mdx?$/i.test(new URL(url).pathname)) return url;
+  const x = new URL(url);
+  const host = x.hostname.replace(/^www\./, "");
+  const path = x.pathname.replace(/\.mdx?$/i, "").replace(/\/+$/, "");
+  const paths = [path];
+  for (const pre of ["/raw/en", "/raw", "/markdown", "/md"])
+    if (path.startsWith(`${pre}/`)) paths.push(path.slice(pre.length), `/docs${path.slice(pre.length)}`);
+  for (const p of paths) {
+    const loc = sitemapKeys.get(host + p);
+    if (loc) return loc;
+  }
+  return url;
+}
+
 const cleanTitle = (t) => t.replace(/\s*\(\d+\)\s*$/, "").replace(/\s+/g, " ").trim();
 
 function llmsItems(domain, parent, ov, taken) {
@@ -173,9 +203,16 @@ function llmsItems(domain, parent, ov, taken) {
   if (!existsSync(file)) return [];
   if (!parent.categories.some((c) => UI_CATEGORIES.has(c)) && !registryOf(parent)) return [];
   const out = [];
+  let keys; // pageKey → loc of the site's sitemap, read only when a markdown link shows up
+  const pageUrl = (u) => {
+    if (!/\.mdx?$/i.test(new URL(u).pathname)) return u;
+    keys ??= new Map((loadSitemap(domain)?.urls || []).map((x) => x?.loc ?? x?.url ?? x).filter((l) => typeof l === "string").map((l) => [pageKey(l), l]));
+    return htmlTwin(u, keys);
+  };
   for (const link of llmsLinks(readFileSync(file, "utf8"), domain)) {
     const page = docsPage(link, domain, { ov });
     if (!page) continue;
+    link.url = pageUrl(link.url);
     const id = `${parent.id}/${slug(page.slug)}`;
     const reg = taken.get(id);
     if (reg) {

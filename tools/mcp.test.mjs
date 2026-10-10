@@ -311,6 +311,14 @@ test("search_components pages through every registry with a navbar", async () =>
   expect(regs).toBeGreaterThanOrEqual(35);
 });
 
+test("code and gated components show their page url in search hits", async () => {
+  const comp = textOf(await callTool("search_components", { query: "hero231", registry: "shadcnblocks.com", limit: 1 }));
+  expect(comp).toContain("id:www-shadcnblocks-com/hero231 · gated");
+  expect(comp).toContain("https://www.shadcnblocks.com/block/hero231");
+  const code = textOf(await callTool("search_components", { query: "hero eight", registry: "sv-blocks.vercel.app", limit: 1 }));
+  expect(code).toMatch(/id:sv-blocks-vercel-app\/hero-eight · code .*https:\/\/sv-blocks\.vercel\.app\/preview\/hero\/eight/);
+});
+
 test("variant filter narrows to that kind", async () => {
   const text = textOf(await callTool("search_components", { element: "navbar", variant: "mega-menu", limit: 10 }));
   expect(bulletsOf(text)).toHaveLength(10);

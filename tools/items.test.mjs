@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 // Item layer (MCP-PLAN 3.1–3.4): the pure rules, then checks over the generated catalog/items/.
 import { test, expect } from "bun:test";
-import { stackOf, baseName, isDemo, llmsLinks, docsPage, loadItems } from "./items.mjs";
+import { stackOf, baseName, isDemo, llmsLinks, docsPage, loadItems, htmlTwin } from "./items.mjs";
 import { SKIP_TYPE } from "./tag.mjs";
 
 const ov = { assetDomains: new Set(), components: {} };
@@ -41,6 +41,20 @@ test("only component docs pages become items", () => {
 // ------------------------------------------------------------------ generated data (bun tools/index.mjs)
 
 const items = loadItems();
+
+test("a markdown llms link becomes its html twin when the sitemap lists it", () => {
+  const keys = new Map([
+    ["chanhdai.com/components/haptic", "https://chanhdai.com/components/haptic"],
+    ["nxui.geoql.in/docs/animations/fade", "https://nxui.geoql.in/docs/animations/fade"],
+    ["obsidianui.dev/docs/marquee", "https://www.obsidianui.dev/docs/marquee"],
+  ]);
+  expect(htmlTwin("https://chanhdai.com/components/haptic.md", keys)).toBe("https://chanhdai.com/components/haptic");
+  expect(htmlTwin("https://nxui.geoql.in/raw/docs/animations/fade.md", keys)).toBe("https://nxui.geoql.in/docs/animations/fade");
+  expect(htmlTwin("https://www.obsidianui.dev/markdown/docs/marquee.md", keys)).toBe("https://www.obsidianui.dev/docs/marquee");
+  expect(htmlTwin("https://chanhdai.com/components/other.md", keys)).toBe("https://chanhdai.com/components/other.md"); // not in the sitemap
+  expect(htmlTwin("https://chanhdai.com/components/haptic", keys)).toBe("https://chanhdai.com/components/haptic"); // already a page
+  expect(htmlTwin("https://chanhdai.com/components/haptic.md", null)).toBe("https://chanhdai.com/components/haptic.md");
+});
 
 test("catalog/items exists", () => {
   expect(items.length).toBeGreaterThan(20_000);

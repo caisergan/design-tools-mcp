@@ -142,6 +142,16 @@ test("a taken registry item with no url takes the page url; other taken items ar
   expect(again.skipped).toBe(1);
 });
 
+test("a registry item takes its page even when an llms docs page under another id already links it", () => {
+  const pattern = { match: "/docs/components/{author}/{name}", status: "hand", attach_only: true };
+  const taken = new Map();
+  taken.set("pd/takumi-alert", { id: "pd/takumi-alert", from: "registry", name: "Alert" });
+  taken.set("pd/alert", { id: "pd/alert", from: "llms", name: "Alert", url: "https://pdfcn.dev/docs/components/takumi/alert" });
+  const r = scan("pdfcn.dev", "pd", { pattern, taken, sitemap: { urls: [S("https://pdfcn.dev/docs/components/takumi/alert")] } });
+  expect(r.urls_attached).toBe(1);
+  expect(taken.get("pd/takumi-alert").url).toBe("https://pdfcn.dev/docs/components/takumi/alert");
+});
+
 test("attach_only: pages fill registry urls and make no items", () => {
   const pattern = { match: "/navbar/{name}", element: "navbar", status: "hand", attach_only: true };
   const taken = new Map();

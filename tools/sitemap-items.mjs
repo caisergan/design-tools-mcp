@@ -385,7 +385,7 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
     if (!m) continue;
     matched++;
     const key = urlKeyOf(url);
-    if (!key || takenUrls.has(key)) {
+    if (!key) {
       skipped++;
       continue;
     }
@@ -412,6 +412,12 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
         urls_attached++;
         takenUrls.add(key);
       }
+      skipped++;
+      continue;
+    }
+    // a page another item already links to makes no new item. The registry check above comes first: an llms
+    // docs page under another id (pdfcn's /takumi/alert as "alert") must not keep the url from its registry twin.
+    if (takenUrls.has(key)) {
       skipped++;
       continue;
     }
