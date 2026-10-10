@@ -208,14 +208,15 @@ function llmsItems(domain, parent, ov, taken) {
 /** Per-entry stats of the last buildItems() run: entry id → { domain, scan, auto }. */
 export const sitemapStats = new Map();
 
-/** entries = catalog.json items → Map(entry id → items[]) */
-export function buildItems(entries, { overrides = loadTagOverrides() } = {}) {
+/** entries = catalog.json items → Map(entry id → items[]); `only` limits the build to one corpus folder */
+export function buildItems(entries, { overrides = loadTagOverrides(), only = null } = {}) {
   const parents = parentsByDomain(entries);
   const byEntry = new Map();
   sitemapStats.clear();
   const itemFixes = loadJSON(FILE.overrides, {})?.item_fixes || {};
   if (!existsSync(SITES)) return byEntry;
   for (const domain of readdirSync(SITES).sort()) {
+    if (only && domain !== only) continue; // --check: one corpus folder
     const parent = parents.get(domain);
     if (!parent) continue;
     const reg = existsSync(join(SITES, domain, "registry.json")) ? registryItems(domain, parent, overrides) : [];

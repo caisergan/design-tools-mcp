@@ -197,6 +197,7 @@ export function validatePattern(pattern, domain = "?") {
     for (const x of pattern.anchors_exclude) if (typeof x !== "string" || !x.trim()) fail(`anchors_exclude entry must be a non-empty string: ${JSON.stringify(x)}`);
   }
   if (pattern.render !== undefined && typeof pattern.render !== "boolean") fail('"render" must be true or false');
+  if (pattern.attach_only !== undefined && typeof pattern.attach_only !== "boolean") fail('"attach_only" must be true or false');
   if (pattern.source_domain !== undefined && (typeof pattern.source_domain !== "string" || !/^[a-z0-9.-]+$/i.test(pattern.source_domain)))
     fail(`source_domain must be a bare domain: ${JSON.stringify(pattern.source_domain)}`);
   if (pattern.exclude !== undefined) {
@@ -414,6 +415,12 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
       skipped++;
       continue;
     }
+    // attach_only: the site's registry already has every component, so a page without a registry twin is a
+    // listing or another name for one of them — it fills nothing and makes no item.
+    if (pattern.attach_only) {
+      skipped++;
+      continue;
+    }
 
     // name: the {author} prefix + the {name} capture (with the {element}/{n} text of its own path segment,
     // e.g. /sections/{name}-{element}-{n} → "navattic-com-hero-1"). Position decides what the other captures
@@ -469,7 +476,7 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
 
   // anchors_from: one item per in-page section of a one-page library. The url keeps its `#hash`, so these
   // are deduped by full url rather than through normalizeUrl (which drops the hash).
-  const anchorRows = filters?.anchors || [];
+  const anchorRows = pattern.attach_only ? [] : filters?.anchors || [];
   const anchorUrls = new Set([...taken.values()].map((i) => i?.url).filter(Boolean));
   let anchors = 0;
   for (const a of anchorRows) {

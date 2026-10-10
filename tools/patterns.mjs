@@ -8,7 +8,7 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { saveJSON, saveText, loadJSON, FILE, slug } from "./lib.mjs";
 import { TAXONOMY, tagItem, loadTagOverrides } from "./tag.mjs";
-import { COMPONENT_SEGMENT, LOCALE, SKIP_SEGMENT, buildItems, parentsByDomain } from "./items.mjs";
+import { COMPONENT_SEGMENT, LOCALE, SKIP_SEGMENT, buildItems, parentsByDomain, sitemapStats } from "./items.mjs";
 import { PATTERNS_DIR, compilePattern, elementIndex, filterFile, filterJobs, hrefs, humanise, loadFilters, loadPattern, loadSitemap, matchingLinks, pathSegments, patternFile, renderFile, sitemapScan, sourceDomainOf } from "./sitemap-items.mjs";
 import { scraplingClient } from "./scrapling-backend.mjs";
 
@@ -206,7 +206,7 @@ function cmdCheck(domain) {
   const src = sourceDomainOf(domain, pattern);
   for (const e of filters.empty) console.error(`warn: ${domain}: filter page ${e.kind} "${e.key}" yielded 0 matching links (JS-rendered, or not fetched yet)`);
   const scan = sitemapScan(domain, parent, { pattern, sitemap, filters, taken: new Map() });
-  const built = buildItems(entries).get(parent.id) || [];
+  const built = buildItems(entries, { only: domain }).get(parent.id) || [];
   const items = built.filter((i) => i.from === "sitemap");
   const withEl = items.filter((i) => i.elements.length).length;
   const variants = {};
@@ -218,6 +218,11 @@ function cmdCheck(domain) {
   console.log(
     `${sitemap ? `${sitemap.urls.length} sitemap URLs` : "no sitemap"}${filters.urls.length ? ` + ${filters.urls.length} urls_from links` : ""}${filters.anchors.length ? ` + ${filters.anchors.length} anchors_from sections` : ""} → ${scan.candidates} candidates · ${scan.matched} matched · ${items.length} items (${scan.skipped} skipped as duplicates) · ${withEl} with an element (${items.length ? Math.round((100 * withEl) / items.length) : 0}%)`,
   );
+  const reg = built.filter((i) => i.from === "registry");
+  if (reg.length || pattern.attach_only)
+    console.log(
+      `registry items: ${reg.length} · ${sitemapStats.get(parent.id)?.scan.urls_attached || 0} urls attached by this pattern · ${reg.filter((i) => i.url).length} with a url · ${reg.filter((i) => !i.url).length} still without${pattern.attach_only ? " · attach_only" : ""}`,
+    );
   console.log(`elements: ${[...new Set(items.flatMap((i) => i.elements))].sort().join(", ") || "— none —"}`);
   console.log(`variants: ${vlist.length ? vlist.map(([k, n]) => `${k} ${n}`).join(" · ") : "— none —"}`);
   for (const i of items.slice(0, 8)) console.log(`  ${i.id}  ${i.name}  [${i.elements.join(",")}] ${JSON.stringify(i.variants)}  ${i.url}`);

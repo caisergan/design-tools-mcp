@@ -142,6 +142,24 @@ test("a taken registry item with no url takes the page url; other taken items ar
   expect(again.skipped).toBe(1);
 });
 
+test("attach_only: pages fill registry urls and make no items", () => {
+  const pattern = { match: "/navbar/{name}", element: "navbar", status: "hand", attach_only: true };
+  const taken = new Map();
+  taken.set("ng/stripe", { id: "ng/stripe", from: "registry", name: "Stripe" });
+  const r = scan("navbar.gallery", "ng", {
+    pattern,
+    taken,
+    sitemap: { urls: [S("https://navbar.gallery/navbar/stripe"), S("https://navbar.gallery/navbar/fresh")] },
+    filters: { variants: {}, elements: {}, urls: [], anchors: [{ url: "https://navbar.gallery/", id: "hero", text: "Hero" }] },
+  });
+  expect(r.items).toEqual([]);
+  expect(taken.get("ng/stripe").url).toBe("https://navbar.gallery/navbar/stripe");
+  expect(r.urls_attached).toBe(1);
+  expect(r.skipped).toBe(2);
+  expect(r.anchors).toBe(0);
+  expect(() => validatePattern({ match: "/x/{name}", attach_only: "yes", status: "hand" }, "a.com")).toThrow(/attach_only/);
+});
+
 test("ids and names come from the whole captured segment, never from sitemap order", () => {
   const pattern = { match: "/sections/{name}-{element}-{n}", granularity: "example", status: "hand" };
   const urls = [
