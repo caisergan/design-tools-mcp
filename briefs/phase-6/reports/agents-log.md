@@ -48,3 +48,6 @@ patterns; frameplate and sleek.design were skipped).
 
 Still running: none. Briefs 09–13 merged and closed.
 | u14 | 14 registry page urls (shadcnblocks) | `phase6/registry-urls` @ c524b95 | sitemap pages fill url-less registry items; shadcnblocks 4,132 urls attached (registry items with a url 1,097 → 5,229); survey: 15,253 more fillable, shadcn.io 7,843 next | 2026-10-07 | 2026-10-07 |
+
+2026-10-10: brief 15 (registry page urls for the other registries, `attach_only`) launched.
+Still running: u15a (`phase6/registry-urls-a`: shadcn.io, reui.io, shadcncraft.com) and u15b (`phase6/registry-urls-b`: 28 smaller registries).
