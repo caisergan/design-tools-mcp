@@ -1,0 +1,4 @@
+{
+  "skip": "the 243 url-less registry:block items (hero-1, header-1, about-1, …) appear only in the /blocks/<category> listings, which link each numbered variant to /preview/<name>. robots.txt disallows /preview/ and /templates/*/preview|content for every user agent, so those pages can neither be fetched nor used, and there is no other per-block page. The 5 /templates/<name> pages are already attached by the hand pattern.",
+  "status": "hand"
+}

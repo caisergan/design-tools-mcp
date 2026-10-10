@@ -1,0 +1,4 @@
+{
+  "skip": "registry-only Next app (\"unDraw Illustrations Registry\"): the app has just / and /about, the home page renders the illustrations in one client-side grid, and each illustration is served as /r/<name>.json — there is no per-illustration page (/illustrations/3d-modeling, /illustration/3d-modeling and /3d-modeling all 404; the app source at github.com/vaatun/undraw-cn has no such route). A home-page or grid link is not a component page, so nothing can be attached.",
+  "status": "hand"
+}

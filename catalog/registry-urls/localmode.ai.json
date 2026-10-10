@@ -1,0 +1,6 @@
+{
+  "templates": ["https://localmode.ai/docs/{name}", "https://localmode.ai/blocks/{name}"],
+  "rewrite": [["^ui/blocks/", ""], ["^ui/", ""]],
+  "status": "hand",
+  "note": "LocalMode UI registry: every name carries the site's own path (ui/audio/voice-orb, ui/blocks/agents/data-extractor). Rule 1 turns ui/blocks/<cat>/<name> into <cat>/<name> for the block pages, rule 2 drops the ui/ prefix for the docs pages: voice-orb → /docs/audio/voice-orb, data-extractor → /blocks/agents/data-extractor (both checked 200 with the component's title). The sitemap lists all but one of the target names (143 url-less items, 142 have a page; ui/blocks/devtools-drawer is missing from the sitemap but the live check may still find it). robots.txt allows the catalog user agent everything except /r/ (the Disallow: / blocks are for GPTBot & friends)."
+}

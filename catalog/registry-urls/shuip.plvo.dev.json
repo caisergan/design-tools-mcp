@@ -1,0 +1,6 @@
+{
+  "templates": ["https://shuip.plvo.dev/components/{name}", "https://shuip.plvo.dev/blocks/{name}"],
+  "rewrite": [["^rhf-", "react-hook-form/"], ["^tsf-", "tanstack-form/"]],
+  "status": "hand",
+  "note": "shuip has three page shapes: /components/<name> for the plain components (confirmation-dialog, copy-button, hover-reveal, search-input, side-dialog, submit-button, theme-button), /components/react-hook-form/<field> for the rhf-* items and /components/tanstack-form/<field> for the tsf-* ones (the two rewrites embed the dirs: rhf-address-field → react-hook-form/address-field, tsf-form-context → tanstack-form/form-context), and /blocks/<name> for the 6 registry:block items (calendar, data-board, data-table, kanban, responsive-dialog, title-section). That reaches 47 of the 48 target items; only the ui 'time' item has no page. The 4 registry:item items (shuip-overview/…) and the registry:lib are not target types. No soft-404: /components/zz-design-tools-probe-404 and /blocks/… 404."
+}

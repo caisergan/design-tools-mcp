@@ -1,0 +1,10 @@
+{
+  "templates": [
+    "https://sv-matrix.vercel.app/components/hex/{name}",
+    "https://sv-matrix.vercel.app/components/triangles/{name}",
+    "https://sv-matrix.vercel.app/components/circles/{name}",
+    "https://sv-matrix.vercel.app/components/squares/{name}"
+  ],
+  "status": "hand",
+  "note": "Svelte dot-matrix loaders: one page per loader, under a shape dir that repeats/pluralises the name prefix (/components/hex/hex-1, /components/triangles/triangle-1, /components/circles/circle-1, /components/squares/square-1). The 70 pages (hex-1..10, triangle-1..20, circle-1..20, square-1..20) are the 70 loader items; the shared bases dot-matrix, hex-base and triangle-base stay url-less (/components/hex/hex-base checked 404). No soft-404: /components/<group>/zz-design-tools-probe-404 → 404."
+}

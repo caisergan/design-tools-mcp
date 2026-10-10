@@ -1,0 +1,8 @@
+{
+  "templates": [
+    "https://www.launchuicomponents.com/docs/sections/{name}",
+    "https://www.launchuicomponents.com/docs/components/{name}"
+  ],
+  "status": "hand",
+  "note": "Launch UI: the site documents each section block at /docs/sections/<name>, and all 16 registry:block names are exactly those slugs (navbar, hero, items, logos, bento-grid, feature, tabs, social-proof, testimonials, faq, cta, carousel, stats, pricing, footer, gallery — 2 spot-checked 200 with the block's title). The 8 registry:ui items are mostly internals: 'badge' has /docs/components/badge (200), the rest (launchui, pro, button, card, screenshot, mockup, glow) have no page at either path — the engine checks and leaves them url-less. No soft-404: /docs/sections/zz-design-tools-probe-404 and /docs/components/zz-design-tools-probe-404 → 404."
+}

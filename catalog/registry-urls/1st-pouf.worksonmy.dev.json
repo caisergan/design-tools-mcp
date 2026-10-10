@@ -1,0 +1,8 @@
+{
+  "templates": [
+    "https://1st-pouf.worksonmy.dev/blocks/{name}",
+    "https://1st-pouf.worksonmy.dev/examples/{name}"
+  ],
+  "status": "hand",
+  "note": "1st-Pouf Svelte app-block kit: the 28 registry:block items each have one page, split over two families — 14 under /blocks/<name> (blog, calendar, contact, feed, game, login, music, onboarding, pricing, profile, quiz, testimonials, todo, weather) and 14 under /examples/<name> (chat, crm, dashboard, editorial, inbox, inventory, kanban, landing, settings, storefront, support, course, event, booking). The 40 registry:ui primitives (alert-bell, aspect-ratio, avatar, …) have no page of their own (/components/button 404s; the /components listing links only the blocks), so they stay url-less. /blocks/zz-design-tools-probe-404 and /examples/zz-design-tools-probe-404 → 404, no soft-404."
+}

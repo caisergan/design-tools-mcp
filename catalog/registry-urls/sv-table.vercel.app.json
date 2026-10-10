@@ -1,0 +1,5 @@
+{
+  "templates": ["https://sv-table.vercel.app/components/{name}"],
+  "status": "hand",
+  "note": "sv-table (Svelte data-table examples): one page per exported component at /components/<name> — the /components listing links them, and 5 were spot-checked 200 (row-checkbox, filters, data-table-export \"CSV Export\", debounce-input, page-size-selector). All 16 registry:component items are expected to attach (the 17th target item, the registry:block 'filters', is one of the verified pages). No soft-404: /components/zz-design-tools-probe-404 → 404."
+}

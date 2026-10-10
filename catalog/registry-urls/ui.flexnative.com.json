@@ -1,0 +1,13 @@
+{
+  "templates": [
+    "https://ui.flexnative.com/blocks/{name}",
+    "https://ui.flexnative.com/patterns/{name}",
+    "https://ui.flexnative.com/intents/{name}"
+  ],
+  "rewrite": [
+    ["^(bento-grids|carousel|content|cta|feature|hero|logos|scroll|testimonials)-(\\d+)$", "$1/$1-$2"],
+    ["^([a-z-]+)-\\d+$", "$1"]
+  ],
+  "status": "hand",
+  "note": "React Native block kit with three page families. The 9 block groups have one page per numbered block: /blocks/<group>/<name> (hero-01 → /blocks/hero/hero-01; rule 1 embeds the group dir because the page path repeats it) — the hand pattern already attaches the 32 pages the corpus sitemap lists, the template catches the rest (hero-05..14, content-01/03/08/10/12, feature-04.., …). The other groups are one variant-group page per component: /patterns/<group> (accordion-01..16 → /patterns/accordion; avatar, badge, banner, breadcrumb, button, card, checkbox, collapsible, command, dialog, dropdown, empty, input, item, pagination, popover, select, skeleton, switch, table, tabs, tooltip — the page renders every numbered variant incl. the item) and /intents/<group> (settings-1 → /intents/settings; sign-in, two-factor-setup, select-a-plan, payment, manage-subscription, share-access, comment-thread, notifications, delete-account, verify-identity, reset-password, live-presence). Rule 2 strips the number for all of those; it cannot touch the rule-1 results because [a-z-] excludes the embedded slash. No soft-404 (blocks /patterns /intents probes 404); bare shared items (cta, dynamic-icon, rhf-*/tsf-* form variants, spot/scene/dashboard sketches, presets) match no page and stay url-less."
+}

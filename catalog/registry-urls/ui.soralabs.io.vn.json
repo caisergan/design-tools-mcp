@@ -1,0 +1,6 @@
+{
+  "templates": ["https://ui.soralabs.studio/ui/base/{name}"],
+  "rewrite": [["^base-", ""]],
+  "status": "hand",
+  "note": "the entry moved to ui.soralabs.studio (see the pattern catalog/patterns/ui.soralabs.io.vn.json, which attaches the catalog/motion/radix pages from the new domain's sitemap). This config covers the 8 products whose registry name is base-<component> but whose page drops the prefix: base-accordion → /ui/base/accordion (files path registry/ui/base/accordion). CAVEAT (engine, 2026-10-10): the site is Mintlify and content-negotiates on Accept — with the engine's `accept: text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.5` every /ui/base/<name> (and /motion/<name>) answers 200 **text/markdown**, which `judge()` treats as a miss (`not html`); a plain `accept: text/html` or `*/*` gets the html page (\"Accordion · Base UI - Sora UI\"). `registry-urls.mjs --check ui.soralabs.io.vn` therefore reports 0/10 for this domain until the engine drops `text/plain` from its Accept or reads the markdown twin. Unknown base names 404 (probe /ui/base/zz-design-tools-probe-404 → 404), so no wrong link is possible either way."
+}
