@@ -1,0 +1,49 @@
+{
+  "templates": [
+    "https://smoothui.dev/docs/{name}"
+  ],
+  "rewrite": [
+    [
+      "^cta-\\d+$",
+      "blocks/cta"
+    ],
+    [
+      "^faq-\\d+$",
+      "blocks/faqs"
+    ],
+    [
+      "^features-\\d+$",
+      "blocks/features"
+    ],
+    [
+      "^footer-\\d+$",
+      "blocks/footer"
+    ],
+    [
+      "^header-\\d+$",
+      "blocks/hero"
+    ],
+    [
+      "^logo-cloud-\\d+$",
+      "blocks/logo-clouds"
+    ],
+    [
+      "^pricing-\\d+$",
+      "blocks/pricing"
+    ],
+    [
+      "^stats-\\d+$",
+      "blocks/stats"
+    ],
+    [
+      "^team-\\d+$",
+      "blocks/team-sections"
+    ],
+    [
+      "^testimonials-\\d+$",
+      "blocks/testimonial"
+    ]
+  ],
+  "status": "hand",
+  "note": "smoothui.dev — component/blocks registry. The 34 url-less blocks are variants shown on their category page /docs/blocks/<category> (cta-1/2/3 → /docs/blocks/cta, faq-N → /docs/blocks/faqs, header-N → /docs/blocks/hero (the 'Header N' blocks live on the Hero Blocks page), team-N → /docs/blocks/team-sections, testimonials-N → /docs/blocks/testimonial, …; each page carries its blocks — checked cta (cta-1/2/3), hero (header-1..6), team-sections (team-1/2), faqs (faq-1), testimonial (testimonials-2), pricing (pricing-3)), so the rules map '<kind>-<n>' to that category page — a group page, the block has no page of its own. The per-block previews (/blocks/preview/<name>) are disallowed in robots.txt, so they are not used. 6 items stay url-less: cli, shared, ai-core, ai-input, basic-accordion and chat-template have no page (/docs/components/<name> 404s). robots.txt allows / (disallows /api/, /og/, /blocks/preview/)."
+}

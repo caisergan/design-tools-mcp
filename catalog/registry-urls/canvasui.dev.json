@@ -1,0 +1,13 @@
+{
+  "templates": [
+    "https://canvasui.dev/docs/components/{name}"
+  ],
+  "rewrite": [
+    [
+      "-(react|vue|svelte|solid|preact|vanilla)(-webgpu)?$",
+      ""
+    ]
+  ],
+  "status": "hand",
+  "note": "canvasui.dev — WebGL/WebGPU component registry. Every registry item is one component in one framework flavour: slug ascii-object-react, ascii-object-vue-webgpu, … (35 components × 12 = 420 items). The docs page of a component is /docs/components/<base> and it demos all of its framework variants (checked on ascii-object: react/vue/svelte/solid/preact/vanilla + WebGPU tabs), so the single rewrite drops the framework suffix and every item points at its component's page: 420 of 420 url-less items fill. robots.txt allows / (no Disallow). A made-up name 404s (no soft-404)."
+}

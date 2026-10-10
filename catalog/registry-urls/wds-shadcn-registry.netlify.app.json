@@ -1,0 +1,13 @@
+{
+  "templates": [
+    "https://wds-shadcn-registry.netlify.app/components/{name}/"
+  ],
+  "rewrite": [
+    [
+      "-experimental$",
+      ""
+    ]
+  ],
+  "status": "hand",
+  "note": "wds-shadcn-registry.netlify.app — WDS Shadcn Registry. One page per component: /components/<name>/ (action-button, loading-swap, multi-select, number-input, password-input; all 4+1 spot-checked 200 with the component's title). The 5 '-experimental' registry items are variants shown on the same page (checked: /components/loading-swap/ carries loading-swap-experimental), so the rule strips that suffix and all 10 url-less items fill. robots.txt allows /; a made-up name 404s ('404 | WDS Shadcn Registry')."
+}

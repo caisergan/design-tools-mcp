@@ -1,0 +1,7 @@
+{
+  "templates": [
+    "https://www.heroicons-animated.com/icons/{name}"
+  ],
+  "status": "hand",
+  "note": "heroicons-animated.vercel.app 301s to www.heroicons-animated.com (same site). Every registry item is one animated icon (316); its page is /icons/<name> with the icon name as slug (academic-cap → 'AcademicCap Icon - Animated Icon for React | heroicons-animated'). All 316 url-less items fill; no rewrite needed. robots.txt allows /. Soft-404: a made-up name answers 200 with title 'Icon Not Found | heroicons-animated' (the home gallery's per-icon card links there), so the engine's soft-404 title guard is what keeps a miss from attaching."
+}

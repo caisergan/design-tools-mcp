@@ -1,0 +1,7 @@
+{
+  "templates": [
+    "https://flightcn.yencheng.dev/docs/{name}"
+  ],
+  "status": "hand",
+  "note": "flightcn.yencheng.dev — flight visualization components. The ui items flight and satellite have docs pages /docs/flight and /docs/satellite (spot-checked 200). The 11 block items (Flight Route Picker, Departures Board, …) have no page: /blocks/<name> 404s and the whole /blocks page is a single gallery that shows each block as an anchored section (id=\"departures-board\", …) — a listing, not a page per component, and the brief allows only a component's own group page, so they stay url-less. robots.txt allows /. Unknown /docs paths 404."
+}

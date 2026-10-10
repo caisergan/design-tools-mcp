@@ -1,0 +1,29 @@
+{
+  "templates": [
+    "https://www.fluidfunctionalism.com/docs/{name}"
+  ],
+  "rewrite": [
+    [
+      "-base$",
+      ""
+    ],
+    [
+      "^scroll-area$",
+      "scrollbars"
+    ],
+    [
+      "^queued-stack$",
+      "input-message"
+    ],
+    [
+      "^(sidebar-workspace-header|sidebar-user-footer|sidebar-app)$",
+      "sidebar"
+    ],
+    [
+      "^dialog-sidebar$",
+      "dialog"
+    ]
+  ],
+  "status": "hand",
+  "note": "fluid-functionalism.vercel.app — its own sitemap points at the canonical www.fluidfunctionalism.com (pages live there; /docs/<name>). Each registry item's own `docs` field names its page, so: plain items use /docs/<name> as-is; the Base UI flavors ('Accordion (Base UI)', slug *-base) are documented on the same page as the Radix one (the page has a 'Built on Radix UI or Base UI … Switch in the right panel' toggle) → '-base' is stripped; scroll-area/-base live on /docs/scrollbars; queued-stack on /docs/input-message; the sidebar blocks (sidebar-workspace-header, sidebar-user-footer, sidebar-app) on /docs/sidebar; dialog-sidebar on /docs/dialog. Fills 48 of the 53 items; mobile-drawer(-base), file-thumbnail and sidebar-search-field/sidebar-inset-topbar have no page (their `docs` is just the home page), so they stay url-less. robots.txt disallows only named AI bots for * (our UA is allowed, no rule for *). Pages carry a generic <title> 'Fluid Functionalism' but a real <h1> (Accordion, Scrollbars, …); unknown /docs paths 404, so the soft-404 guard stays off."
+}

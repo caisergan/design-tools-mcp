@@ -1,0 +1,4 @@
+{
+  "skip": "the 33 url-less items are the data-table library's internals (data-table-pagination, data-table-faceted-filter, data-table-column-dnd, data-table-core, …). The site documents the library only as whole pages (/data-grid/overview/<topic>/, /data-grid/api/, /niko-table/overview/<topic>/ and /examples/<example>/); the components overview page is a listing (no per-component section, no item names), and /data-grid/components/<name>/ + /niko-table/components/<name>/ 404. So no page per registry item.",
+  "status": "hand"
+}

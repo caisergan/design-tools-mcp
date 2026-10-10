@@ -1,0 +1,7 @@
+{
+  "templates": [
+    "https://platejs.org/docs/components/{name}"
+  ],
+  "status": "hand",
+  "note": "platejs.org — the Plate rich-text editor's registry. Its docs page /docs/components/<slug> exists for the 44 editor UI components (ai-menu, fixed-toolbar, ghost-text, …; listed on /docs/components and 5 spot-checked), so those take the slug as-is. The other 92 url-less typed items are registry bundles with no page of their own: 76 kits (align-kit, basic-blocks-base-kit, copilot-kit, …), 12 demos (controlled-demo, collaboration-demo, …) and 4 editor blocks (editor-ai, editor-select, editor-basic, slate-to-html) — /docs/components/<their name> 404s (checked align-kit, controlled-demo, editor-ai). robots.txt has only content-signal comments, no Disallow rules. A made-up name 404s (title 'Plate')."
+}

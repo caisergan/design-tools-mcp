@@ -1,0 +1,4 @@
+{
+  "skip": "ui.meta-cloud-api.site ('WA UI') is a single-page showcase: the home page demos the chat components inline (chat-bubble, message-input, …), and there is no page per component — /docs, /components/<name> and /docs/components/<name> all answer with a 200 '404: This page could not be found.' shell (the registry has no docs field either). A link to the home page/showcase is not allowed, so the 29 items stay url-less.",
+  "status": "hand"
+}

@@ -1,0 +1,4 @@
+{
+  "skip": "the 67 url-less items are the base shadcn components of the registry (accordion, alert, avatar, badge, tooltip, …); the site's own /components/<name> pages use its original demo names (faq-accordion, masked-avatars, animated-tooltip, …), and the base names have no page: /components/<base> answers 200 with the site's generic title (soft-404) and nothing else. The 65 items with real pages already carry their url from the pattern.",
+  "status": "hand"
+}

@@ -1,0 +1,17 @@
+{
+  "templates": [
+    "https://magicui.design/{name}"
+  ],
+  "rewrite": [
+    [
+      "^(bento-demo|bento-demo-vertical)$",
+      "docs/components/bento-grid"
+    ],
+    [
+      "^(android|animated-beam|animated-circular-progress-bar|animated-gradient-text|animated-grid-pattern|animated-list|animated-shiny-text|animated-theme-toggler|aurora-text|avatar-circles|backlight|blur-fade|border-beam|code-comparison|comic-text|confetti|cool-mode|dia-text-reveal|dock|dot-pattern|dotted-map|file-tree|flickering-grid|floating-3d-particles|glare-hover|globe|glyph-matrix|grid-pattern|hero-video-dialog|hexagon-pattern|highlighter|hyper-text|icon-cloud|interactive-grid-pattern|interactive-hover-button|iphone|kinetic-text|lens|light-rays|line-shadow-text|magic-card|marquee|meteors|morphing-text|neon-gradient-card|noise-texture|number-ticker|orbiting-circles|particles|pixel-image|pointer|progressive-blur|pulsating-button|rainbow-button|retro-grid|ripple|ripple-button|safari|scroll-based-velocity|scroll-progress|shimmer-button|shine-border|shiny-button|smooth-cursor|sparkles-text|spinning-text|striped-pattern|terminal|text-3d-flip|text-animate|text-reveal|tweet-card|typing-animation|video-text|warp-background|word-rotate)(-.+)?$",
+      "docs/components/$1"
+    ]
+  ],
+  "status": "hand",
+  "note": "magicui.design — Magic UI's registry. The 96 url-less typed items are all examples of a component (magic-card-demo-2, striped-pattern-dashed, marquee-3d, text-animate-…, noise-texture-demo-2, …; slug is null, the id suffix is the name). Each component's docs page /docs/components/<component> shows its examples (checked: bento-grid carries bento-demo/-demo-vertical, magic-card etc.), so the rewrite strips the example suffix — one rule, longest page name first, over the 77 /docs/components pages of the sitemap — and fills docs/components/<page> into the url. bento-demo(-vertical) has no page prefix of its own and is shown on /docs/components/bento-grid (explicit rule). All 96 items fill. robots.txt: / and /docs allowed (only /api/, /_next/, /public/ disallowed)."
+}
