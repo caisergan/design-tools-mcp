@@ -1,0 +1,5 @@
+{
+  "templates": ["https://www.kibo-ui.com/components/{name}"],
+  "status": "hand",
+  "note": "One page per component at /components/<registry name> (all 40 names are linked from /components). The bare /components listing redirects to /components/avatar-stack, so a redirect must never count as a hit. Unknown names answer a real 404 (checked 2026-10-10); no robots.txt, no sitemap."
+}

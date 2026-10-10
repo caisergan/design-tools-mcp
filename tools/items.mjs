@@ -3,6 +3,8 @@
 // Adapters 1–2 only read what is already on disk (no network, no LLM):
 //   1 registry — catalog/corpus/sites/<domain>/registry.json   → access code | gated
 //   2 llms.txt — link lines of catalog/corpus/sites/<domain>/llms.txt that point at component pages → access page
+// After the sitemap (3) and api (5) adapters, a registry item still without a url takes the page url that
+// tools/registry-urls.mjs verified for it (catalog/corpus/sites/<domain>/registry-urls.json).
 // Tags come from tools/tag.mjs (taxonomy aliases). Output: catalog/items/<entry-id>.json (generated, never edit).
 //
 //   bun tools/items.mjs            build + write catalog/items/, print items per entry and the change since last build
@@ -240,16 +242,53 @@ function llmsItems(domain, parent, ov, taken) {
   return out;
 }
 
+// ---------------------------------------------------------------- registry url templates (brief 16)
+
+/** Cache of tools/registry-urls.mjs: verified page urls of registry items no sitemap lists. */
+export const registryUrlsFile = (domain) => join(SITES, domain, "registry-urls.json");
+
+/** `results` (item id → url | null) of one domain's cache, or null; a broken file warns and counts as none. */
+export function loadTemplateUrls(domain, { file = registryUrlsFile(domain), warn = console.error } = {}) {
+  if (!existsSync(file)) return null;
+  try {
+    const results = JSON.parse(readFileSync(file, "utf8"))?.results;
+    if (!results || typeof results !== "object" || Array.isArray(results)) throw new Error("no results object");
+    return results;
+  } catch (e) {
+    warn(`warn: ${file.replace(/^.*catalog\/corpus\//, "corpus/")}: ${e.message} — template urls ignored`);
+    return null;
+  }
+}
+
+/** A url-less registry item takes `results[item.id]` when it is an http(s) url; nothing else changes. Returns the count. */
+export function applyTemplateUrls(items, results) {
+  if (!results) return 0;
+  let n = 0;
+  for (const i of items) {
+    const url = results[i.id];
+    if (i.from !== "registry" || i.url || typeof url !== "string" || !/^https?:\/\//.test(url)) continue;
+    i.url = url;
+    n++;
+  }
+  return n;
+}
+
 // ---------------------------------------------------------------- build
 
 /** Per-entry stats of the last buildItems() run: entry id → { domain, scan, auto }. */
 export const sitemapStats = new Map();
+/** Per-entry count of urls the last buildItems() run took from registry-urls.json: entry id → { domain, filled }. */
+export const templateStats = new Map();
 
-/** entries = catalog.json items → Map(entry id → items[]); `only` limits the build to one corpus folder */
-export function buildItems(entries, { overrides = loadTagOverrides(), only = null } = {}) {
+/**
+ * entries = catalog.json items → Map(entry id → items[]); `only` limits the build to one corpus folder;
+ * `templateUrls: false` leaves the registry-urls.json cache out (tools/registry-urls.mjs decides what to check).
+ */
+export function buildItems(entries, { overrides = loadTagOverrides(), only = null, templateUrls = true } = {}) {
   const parents = parentsByDomain(entries);
   const byEntry = new Map();
   sitemapStats.clear();
+  templateStats.clear();
   const itemFixes = loadJSON(FILE.overrides, {})?.item_fixes || {};
   if (!existsSync(SITES)) return byEntry;
   for (const domain of readdirSync(SITES).sort()) {
@@ -270,6 +309,8 @@ export function buildItems(entries, { overrides = loadTagOverrides(), only = nul
       sitemapStats.set(parent.id, { domain, scan, auto: pattern.status === "auto" });
     }
     const api = apiItems(domain, parent, { overrides, taken }); // adapter 5: 21st.dev component pages (gated)
+    const filled = templateUrls ? applyTemplateUrls(reg, loadTemplateUrls(domain)) : 0;
+    if (filled) templateStats.set(parent.id, { domain, filled });
     const all = [...reg, ...docs, ...maps, ...api];
     for (const i of all) if (itemFixes[i.id]) Object.assign(i, itemFixes[i.id]);
     if (all.length) byEntry.set(parent.id, all);
@@ -309,6 +350,11 @@ function report(byEntry, previous) {
         `  ${s.domain} ${s.items.length} items · ${s.scan.matched}/${s.scan.candidates} urls matched · ${s.scan.urls_attached} urls attached · ${s.items.filter((i) => i.elements.length).length} with an element · ${s.items.reduce((t, i) => t + Object.values(i.variants).flat().length, 0)} variant tags · ${s.auto ? "auto" : "hand"}`,
       );
     if (shown.length < siteRows.length) console.log(`  … ${siteRows.length - shown.length} more sites with sitemap items`);
+  }
+  const tplRows = [...templateStats.values()].sort((a, b) => b.filled - a.filled || (a.domain < b.domain ? -1 : 1));
+  if (tplRows.length) {
+    console.log(`registry url templates ${tplRows.length} sites · ${tplRows.reduce((t, s) => t + s.filled, 0)} urls from templates:`);
+    for (const s of tplRows) console.log(`  ${s.domain} ${s.filled} urls from templates`);
   }
   const nav = all.filter((i) => i.elements.includes("navbar"));
   console.log(`navbar: ${nav.length} items · ${new Set(nav.filter((i) => i.from === "registry").map((i) => i.parent)).size} registries · ${nav.filter((i) => i.from === "llms").length} docs pages · ${nav.filter((i) => i.from === "sitemap").length} sitemap pages`);
