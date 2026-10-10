@@ -6,7 +6,11 @@ import { mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import {
+  ACCEPT,
   PROBE_NAME,
+  createSitemapIndex,
+  getPage,
+  sitemapKey,
   candidates,
   configHash,
   createFetcher,
@@ -227,7 +231,7 @@ test("verifyItems: first passing template wins, group pages are fetched once, re
     "e/icons-arrow": null,
   });
   expect(Object.hasOwn(results, "e/slow")).toBe(false);
-  expect(stats).toEqual({ tried: 5, found: 3, misses: 1, excluded: 1, unfinished: 1, soft404: 0 });
+  expect(stats).toEqual({ tried: 5, found: 3, misses: 1, excluded: 1, unfinished: 1, soft404: 0, sitemap_listed: 0 });
   expect(f.asked.filter((u) => u === "https://x.dev/docs/accordion")).toHaveLength(1);
   expect(f.asked.filter((u) => u.endsWith(PROBE_NAME))).toEqual([`https://x.dev/docs/${PROBE_NAME}`, `https://x.dev/blocks/${PROBE_NAME}`]); // one probe per template directory
   expect(f.asked.some((u) => u.includes("icons-arrow"))).toBe(false);
@@ -324,4 +328,71 @@ test("createFetcher: a scope counts only its own requests (robots included) and 
   expect([a.requests(), b.requests(), f.requests()]).toEqual([3, 2, 5]);
   expect(a.stopped()).toEqual(["a.dev: 3× 403 in a row"]);
   expect(b.stopped()).toEqual([]);
+});
+
+// ---------------------------------------------------------------- follow-up: Accept header, sitemap carve-out
+
+test("the Accept header asks for html first and never lists text/plain (Mintlify answers markdown to it)", async () => {
+  expect(ACCEPT).not.toMatch(/text\/plain/);
+  expect(ACCEPT.startsWith("text/html")).toBe(true);
+  const real = globalThis.fetch;
+  let sent = null;
+  globalThis.fetch = async (url, init) => {
+    sent = init.headers;
+    return new Response("<title>Accordion</title>", { status: 200, headers: { "content-type": "text/html" } });
+  };
+  try {
+    const r = await getPage("https://ui.example.dev/ui/base/accordion", null);
+    expect(r.title).toBe("Accordion");
+  } finally {
+    globalThis.fetch = real;
+  }
+  expect(sent.accept).toBe(ACCEPT);
+});
+
+test("carve-out: a sitemap-listed candidate passes a blind or soft probe, every other rule still applies", () => {
+  const blind = { state: "blind", why: "soft-404 echoes the requested name in its <title>" };
+  const soft = { state: "soft", title: "X Kit" };
+  const c = "https://tailark.com/blocks/quartz/hero-section";
+  const ok = html(200, c, "hero section Quartz Blocks - Tailark");
+  expect(judge(ok, { candidate: c, probe: blind, name: "hero-section-8" }).verdict).toBe("miss");
+  expect(judge(ok, { candidate: c, probe: blind, name: "hero-section-8", listed: true })).toEqual({ verdict: "pass", why: "ok (sitemap-listed)" });
+  expect(judge(html(200, c, "X Kit"), { candidate: c, probe: soft, listed: true }).why).toBe("ok (sitemap-listed)");
+  expect(judge(ok, { candidate: c, probe: null, listed: true }).why).toBe("ok"); // nothing to lift: a plain pass
+  // still misses when listed: status, type, path, host, not-found title
+  expect(judge(html(404, c), { candidate: c, probe: blind, listed: true }).verdict).toBe("miss");
+  expect(judge({ ...ok, type: "text/markdown" }, { candidate: c, probe: blind, listed: true }).verdict).toBe("miss");
+  expect(judge(html(200, "https://tailark.com/blocks/quartz", "Quartz"), { candidate: c, probe: blind, listed: true }).verdict).toBe("miss");
+  expect(judge(html(200, "https://tailark.com/", "Tailark"), { candidate: c, probe: blind, listed: true }).verdict).toBe("miss");
+  expect(judge(html(200, c, "Page not found - Tailark"), { candidate: c, probe: blind, listed: true }).verdict).toBe("miss");
+  expect(judge(html(503, c), { candidate: c, probe: blind, listed: true }).verdict).toBe("retry");
+});
+
+test("the sitemap index reads the entry's folder and the candidate host's, www and trailing slash normalised", () => {
+  const maps = {
+    "tailark.com": { urls: [{ loc: "https://www.tailark.com/blocks/quartz/bento/" }, "https://tailark.com/blocks/quartz/hero-section"] },
+    "ui.soralabs.studio": { urls: [{ loc: "https://ui.soralabs.studio/ui/base/accordion" }] },
+  };
+  const read = [];
+  const listed = createSitemapIndex("tailark.com", { readSitemap: (f) => (read.push(f), maps[f] || null) });
+  expect(listed("https://tailark.com/blocks/quartz/bento")).toBe(true);
+  expect(listed("https://www.tailark.com/blocks/quartz/hero-section/")).toBe(true);
+  expect(listed("https://tailark.com/blocks/quartz/ghost")).toBe(false);
+  expect(listed("https://tailark.com/blocks/quartz/bento?x=1")).toBe(false); // the query is part of the page
+  expect(listed("https://ui.soralabs.studio/ui/base/accordion")).toBe(true); // the candidate host's own folder
+  expect(listed("https://elsewhere.dev/blocks/quartz/bento")).toBe(false); // the entry's sitemap names tailark pages only
+  expect(read.filter((f) => f === "tailark.com")).toHaveLength(1); // each folder read once
+  expect(sitemapKey("https://WWW.Tailark.com/blocks/a%20b/")).toBe("tailark.com/blocks/a b");
+});
+
+test("verifyItems: a blind template attaches only its sitemap-listed pages, counted as the carve-out", async () => {
+  const probe = `https://t.dev/blocks/${PROBE_NAME}`;
+  const echo = (n) => html(200, `https://t.dev/blocks/${n}`, `${n.replace(/-/g, " ")} Blocks - T`);
+  const f = fakeFetcher({ [probe]: echo(PROBE_NAME), "https://t.dev/blocks/hero": echo("hero"), "https://t.dev/blocks/ghost": echo("ghost") });
+  const c = cfg({ templates: ["https://t.dev/blocks/{name}"], rewrite: [["-\\d+$", ""]] });
+  const listed = (u) => u === "https://t.dev/blocks/hero";
+  const { results, stats } = await verifyItems([{ id: "e/hero-1" }, { id: "e/hero-2" }, { id: "e/ghost-1" }], c, { fetcher: f, listed });
+  expect(results).toEqual({ "e/hero-1": "https://t.dev/blocks/hero", "e/hero-2": "https://t.dev/blocks/hero", "e/ghost-1": null });
+  expect(stats.sitemap_listed).toBe(2);
+  expect(stats.soft404).toBe(1);
 });

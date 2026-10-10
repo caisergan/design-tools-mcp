@@ -18,13 +18,16 @@
 // A candidate passes only when it answers 200 html at the path the template produced (same host up to `www.`,
 // a trailing slash aside), its <title> is not the site's soft-404 title, and robots.txt allows it. A wrong link
 // is worse than no link: anything unclear is a miss, and anything that may be transient (timeout, 403/429, 5xx)
-// leaves the item unrecorded so the next run tries it again.
+// leaves the item unrecorded so the next run tries it again. One carve-out: a candidate that a sitemap we hold
+// lists (the entry's corpus folder, or its host's) may pass although its template's probe is blind or soft — a
+// site that answers 200 for every slug still names its real pages in its own sitemap. Every other rule applies.
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { FILE, OUT, loadJSON, pool, saveJSON } from "./lib.mjs";
 import { buildItems, parentsByDomain, registryUrlsFile } from "./items.mjs";
 import { UA, decodeXml } from "./sitemaps.mjs";
+import { sitemapFile } from "./sitemap-items.mjs";
 import { scraplingClient } from "./scrapling-backend.mjs";
 
 export const CONFIG_DIR = join(OUT, "registry-urls");
@@ -36,6 +39,8 @@ const TIMEOUT = 15_000;
 const HOST_INTERVAL = 500; // ms between two request starts on one host → ≤ 2 req/s
 const HOSTS_AT_ONCE = 4; // domains in flight
 const MAX_BAD = 3; // 403 / 429 answers in a row before a host is stopped for the run
+// html first and no text/plain: Mintlify sites content-negotiate and answer text/markdown to a `text/plain` Accept
+export const ACCEPT = "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8";
 const KEYS = new Set(["templates", "rewrite", "types", "exclude", "status", "note", "skip"]);
 const STATUS = new Set(["hand", "auto"]);
 const DOMAIN = /^[a-z0-9][a-z0-9.-]*$/i;
@@ -209,9 +214,11 @@ export function probeState(res, url) {
 
 /**
  * The pass/miss decision for one candidate. `res` = { status, type, finalUrl, title, error? }; `probe` = the
- * probeState of the candidate's template (or null when none was taken). → { verdict: "pass"|"miss"|"retry", why }.
+ * probeState of the candidate's template (or null when none was taken); `listed` = a sitemap we hold lists the
+ * candidate, which lifts only the blind/soft probe rules. → { verdict: "pass"|"miss"|"retry", why }; a pass that
+ * needed the carve-out says `why: "ok (sitemap-listed)"`.
  */
-export function judge(res, { candidate, probe = null, name = "" }) {
+export function judge(res, { candidate, probe = null, name = "", listed = false }) {
   if (res.error === "robots") return { verdict: "miss", why: "robots" };
   if (RETRY_STATUS.has(res.status) || res.status >= 500) return { verdict: "retry", why: res.error || `http ${res.status}` };
   if (res.status !== 200) return { verdict: "miss", why: `http ${res.status}` };
@@ -226,10 +233,10 @@ export function judge(res, { candidate, probe = null, name = "" }) {
   if (hostOf(final) !== hostOf(want)) return { verdict: "miss", why: `moved to ${final.hostname}` };
   if (pathOf(final) === "/") return { verdict: "miss", why: "redirect to the site root" };
   if (pathOf(final) !== pathOf(want)) return { verdict: "miss", why: `redirect to ${final.pathname}` };
-  if (probe?.state === "blind") return { verdict: "miss", why: `soft-404: ${probe.why}` };
-  if (probe?.state === "soft" && res.title === probe.title) return { verdict: "miss", why: "soft-404: probe title" };
   if (NOT_FOUND_TITLE.test(res.title || "") && !NOT_FOUND_NAME.test(name)) return { verdict: "miss", why: `not-found title "${res.title}"` };
-  return { verdict: "pass", why: "ok" };
+  const guarded = probe?.state === "blind" || (probe?.state === "soft" && res.title === probe.title);
+  if (guarded && !listed) return { verdict: "miss", why: probe.state === "blind" ? `soft-404: ${probe.why}` : "soft-404: probe title" };
+  return { verdict: "pass", why: guarded ? "ok (sitemap-listed)" : "ok" };
 }
 
 // ---------------------------------------------------------------- robots.txt (pure)
@@ -279,6 +286,54 @@ export function robotsAllows(rules, path) {
   return best ? best.allow : true;
 }
 
+// ---------------------------------------------------------------- sitemap carve-out
+
+/** www-less host + decoded path without a trailing slash + query: how a candidate and a sitemap loc are compared. */
+export function sitemapKey(url) {
+  let u;
+  try {
+    u = new URL(url);
+  } catch {
+    return null;
+  }
+  return `${hostOf(u)}${pathOf(u)}${u.search}`;
+}
+
+/**
+ * `listed(url)` → true when the sitemap of the entry's corpus folder, or of the corpus folder of the url's host
+ * (as is, or without/with `www.`), lists it. Sitemaps are read once each; `readSitemap(folder)` is the seam.
+ */
+export function createSitemapIndex(domain, { readSitemap = readSitemapFile } = {}) {
+  const folders = new Map(); // folder → Set(key)
+  const keysOf = (folder) => {
+    if (!folders.has(folder)) {
+      const urls = readSitemap(folder)?.urls || [];
+      folders.set(folder, new Set(urls.map((x) => (typeof x === "string" ? x : x?.loc ?? x?.url)).filter((l) => typeof l === "string").map(sitemapKey).filter(Boolean)));
+    }
+    return folders.get(folder);
+  };
+  return (url) => {
+    const key = sitemapKey(url);
+    if (!key) return false;
+    const host = new URL(url).hostname.toLowerCase();
+    const bare = host.replace(/^www\./, "");
+    return [...new Set([domain, host, bare, `www.${bare}`])].some((f) => keysOf(f).has(key));
+  };
+}
+
+function readSitemapFile(folder) {
+  if (!DOMAIN.test(folder)) return null;
+  const f = sitemapFile(folder);
+  if (!existsSync(f)) return null;
+  try {
+    const j = loadJSON(f);
+    return j && Array.isArray(j.urls) ? j : null;
+  } catch (e) {
+    console.error(`warn: ${f}: ${e.message} — no sitemap carve-out from it`);
+    return null;
+  }
+}
+
 // ---------------------------------------------------------------- resume (pure)
 
 /**
@@ -311,7 +366,7 @@ export async function getPage(url, via = scraplingClient) {
   try {
     const res = await fetch(url, {
       redirect: "follow",
-      headers: { "user-agent": UA, accept: "text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.5" },
+      headers: { "user-agent": UA, accept: ACCEPT },
       signal: AbortSignal.timeout(TIMEOUT),
     });
     const type = res.headers.get("content-type") || "";
@@ -396,8 +451,8 @@ export function createFetcher({ get = getPage, wait = sleep, now = Date.now, int
  * retry-class answer (or a stopped host) leaves the item out so the next run checks it. Pages and probes are
  * fetched once per run even when several items share them (group pages). Mutates and returns `results`.
  */
-export async function verifyItems(todo, cfg, { fetcher, results = {}, log = () => {}, progress = () => {} } = {}) {
-  const stats = { tried: 0, found: 0, misses: 0, excluded: 0, unfinished: 0, soft404: 0 };
+export async function verifyItems(todo, cfg, { fetcher, results = {}, listed = () => false, log = () => {}, progress = () => {} } = {}) {
+  const stats = { tried: 0, found: 0, misses: 0, excluded: 0, unfinished: 0, soft404: 0, sitemap_listed: 0 };
   const pages = new Map(); // url → Promise<res> (without the body)
   const probes = new Map(); // probe url → Promise<probeState>
   const page = (url) => {
@@ -445,10 +500,11 @@ export async function verifyItems(todo, cfg, { fetcher, results = {}, log = () =
         break;
       }
       const res = await page(candidate);
-      const v = judge(res, { candidate, probe, name });
+      const v = judge(res, { candidate, probe, name, listed: listed(candidate) });
       log(`  ${item.id}: ${candidate} — ${v.verdict} (${v.why})${res.title ? ` "${res.title}"` : ""}`);
       if (v.why.startsWith("soft-404")) stats.soft404++;
       if (v.verdict === "pass") {
+        if (v.why === "ok (sitemap-listed)") stats.sitemap_listed++;
         outcome = candidate;
         break;
       }
@@ -499,7 +555,7 @@ async function verifyDomain(domain, entries, { force, fetcher: shared }) {
   const fetcher = shared.scope();
   console.error(`${domain}: checking ${plan.todo.length} of ${targets.length} url-less items${plan.fresh ? "" : " (resume)"}`);
   const progress = (n, s) => console.error(`  ${domain}: ${n}/${plan.todo.length} · ${s.found} found · ${s.misses} misses · ${s.unfinished} unfinished`);
-  const { results, stats } = await verifyItems(plan.todo, cfg, { fetcher, results: plan.results, progress });
+  const { results, stats } = await verifyItems(plan.todo, cfg, { fetcher, results: plan.results, listed: createSitemapIndex(domain), progress });
   const keep = new Set(registry.map((i) => i.id)); // ids that left the registry drop out
   const kept = Object.fromEntries(Object.entries(results).filter(([id]) => keep.has(id)).sort(([a], [b]) => (a < b ? -1 : 1)));
   const urls = Object.values(kept).filter((u) => typeof u === "string").length;
@@ -537,7 +593,7 @@ async function cmdVerify(domains, { force }) {
     else if (r.skip) console.log(`${r.domain}: skip — ${r.skip}`);
     else
       console.log(
-        `${r.domain}: ${r.targets} url-less items · checked ${r.todo}${r.fresh ? " (fresh)" : " (resume)"} · tried ${r.tried} · urls found ${r.found} · misses ${r.misses} · excluded ${r.excluded} · soft-404 hits ${r.soft404} · unfinished ${r.unfinished} · stopped hosts ${r.stopped_hosts.length ? r.stopped_hosts.join("; ") : "none"} · requests ${r.requests} · ${r.seconds}s · cache now ${r.urls} urls`,
+        `${r.domain}: ${r.targets} url-less items · checked ${r.todo}${r.fresh ? " (fresh)" : " (resume)"} · tried ${r.tried} · urls found ${r.found} · misses ${r.misses} · excluded ${r.excluded} · soft-404 hits ${r.soft404} · sitemap carve-out ${r.sitemap_listed} · unfinished ${r.unfinished} · stopped hosts ${r.stopped_hosts.length ? r.stopped_hosts.join("; ") : "none"} · requests ${r.requests} · ${r.seconds}s · cache now ${r.urls} urls`,
       );
   }
   const stopped = fetcher.stopped();
@@ -584,9 +640,9 @@ async function cmdCheck(domain) {
   const pick = targets.filter((i) => candidates(registryName(i), cfg).length).sort(() => Math.random() - 0.5).slice(0, 10);
   console.log(`live check of ${pick.length} random items (nothing written):`);
   const fetcher = createFetcher();
-  const { stats } = await verifyItems(pick, cfg, { fetcher, log: (l) => console.log(l) });
+  const { stats } = await verifyItems(pick, cfg, { fetcher, listed: createSitemapIndex(domain), log: (l) => console.log(l) });
   await scraplingClient.close();
-  console.log(`found ${stats.found}/${pick.length} · misses ${stats.misses} · soft-404 hits ${stats.soft404} · unfinished ${stats.unfinished} · requests ${fetcher.requests()}${fetcher.stopped().length ? ` · stopped: ${fetcher.stopped().join("; ")}` : ""}`);
+  console.log(`found ${stats.found}/${pick.length} · misses ${stats.misses} · soft-404 hits ${stats.soft404} · sitemap carve-out ${stats.sitemap_listed} · unfinished ${stats.unfinished} · requests ${fetcher.requests()}${fetcher.stopped().length ? ` · stopped: ${fetcher.stopped().join("; ")}` : ""}`);
 }
 
 // ---------------------------------------------------------------- cli
