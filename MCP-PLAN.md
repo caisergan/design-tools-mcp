@@ -864,6 +864,32 @@ Built by cheaper agents from the briefs in `briefs/phase-6/` (reports in `briefs
   the url-taken rule, so an llms page under another id (pdfcn `/takumi/alert` as `alert`) no longer keeps a
   registry item's page. Registry items with a url stay 16,312; items 114,763; eval unchanged.
 
+### 6.11 Results (2026-10-10) — brief 16: verified url templates for registries without sitemap pages
+- **Engine** (`tools/registry-urls.mjs`, written by Claude Code Opus 5.5 high at the owner's request): per-domain config
+  `catalog/registry-urls/<domain>.json` (`templates`, `rewrite`, `types`, `exclude`, or `skip`); `--verify` fetches
+  each candidate (catalog UA, ≤ 2 req/s per host, robots.txt, html-first Accept) and keeps it only on 200 html at
+  exactly the produced path, no redirect elsewhere, no 404/not-found title, and — when the site answers 200 for a
+  made-up name — a title different from that soft-404 page or a url the site's own sitemap lists. Cache
+  `corpus/sites/<domain>/registry-urls.json` (resumable; transient errors stay unrecorded); `buildItems` fills url-less
+  registry items from it after the sitemap adapter. `--check` validates and samples 10 live.
+- **Configs:** 56 domains (3 pilots + batches 16b–d by omp agents): 43 templates, 13 skips (no page per item:
+  undraw-cn, thegridcn, dotmatrix, niko-table, single-page showcases; ui-layouts v1 names gone; 7ovr previews
+  robots-disallowed; reactbits ids are slugged PascalCase). Moved sites found on the way: shadcn-ui-blocks → .com,
+  icons.pqoqubbw → lucide-animated.com (pattern + source_domain), retroui → neobrutalism.com, termcn → .dev,
+  ui.soralabs → .studio, tool-ui → assistant-ui.com/elements. Variants link to their group page where that is where
+  they are shown (accordion-default → /components/accordion); each config's note says so.
+- **Verify run:** 6,885 requests, no host stopped; **9,415 urls** verified (shadcn-ui-blocks 3,903, shadcnuikit 931,
+  uiable 742, canvasui 420, flexnative 370, mynaui 346, heroicons-animated 316, shadcnstore 269, tailark 258 via the
+  sitemap carve-out …). 30 random urls re-fetched here: all 200 with the right title.
+- **Build:** registry items with a url **16,312 → 26,227** of 30,378 (page types 26,058 / 29,618); items 114,763;
+  index 27.7 MB; eval unchanged (recall@5 0.983 · MRR 0.720).
+- **Found while measuring:** reverting `catalog/catalog.json` after a build (`git checkout`) made it newer than
+  `search-index.json`, so `loadIndex()` returned null and the server rebuilt the index in memory on every start.
+  After a build, keep the index newer (`touch catalog/search-index.json`), or commit catalog.json as built.
+- **Open:** ~3.6k page-type registry items still url-less (mostly skip sites: undraw 1,362, ui-layouts 279, 7ovr
+  243, thegridcn 139, reactbits 133 — reactbits would need a kebab-case mapping from its sitemap); re-run
+  `--all` monthly (only new or changed items are fetched).
+
 ## Phase 7 — Housekeeping
 
 - Hot reload: watch `catalog.json` / `search-index.json` mtime, reload without restarting the server.
