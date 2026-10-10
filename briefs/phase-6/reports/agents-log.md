@@ -64,4 +64,6 @@ Still running: none. Brief 15 merged and closed (MCP-PLAN 6.10).
 Still running: none. Brief 16 merged and closed; full `--verify --all` run by the coordinator.
 
 2026-10-10: brief 17 (Phase 4 tool surface, `briefs/phase-4/17-tool-surface.md`) launched.
-Still running: u17 (`phase4/tool-surface`, Claude Code Opus 5.5 high).
+| u17 | 17 Phase 4 tool surface (Claude Code Opus 5.5 high) | `phase4/tool-surface` @ f5cb64f | schemas + structuredContent, get_install_command, get_component paging/examples, list_components filters, follow_url; 222 tests | 2026-10-10 | 2026-10-10 |
+
+Still running: none.

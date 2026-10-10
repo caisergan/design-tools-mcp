@@ -659,7 +659,7 @@ index in ~75 ms (prebuilt) and rebuilds it in memory when the file is missing or
 
 ---
 
-## Phase 4 — Tool surface: structured output, paging, install  **[#10 #12 #14]**  ~1 day
+## Phase 4 — Tool surface: structured output, paging, install  **[#10 #12 #14]**  ~1 day — **done 2026-10-10** (results in 4.6)
 
 ### 4.1 Structured output  **[#10]**
 Every tool declares `outputSchema` and returns `structuredContent` plus a short text rendering
@@ -695,6 +695,24 @@ Add `query`, `type`, `offset` so a 250-item registry can be browsed in pages.
 **Done when:** every tool response validates against its `outputSchema` in tests; `get_content` on
 `magicui.design` returns ≤ 12k chars with `next_offset`; `get_install_command` for 3 Magic UI items
 returns one runnable command.
+
+### 4.6 Results (2026-10-10) — brief 17, Claude Code Opus 5.5 high
+- `tools/schemas.mjs`: ResourceHit, ComponentHit, PageHit, Resource, Component, ComponentSource, ContentAnswer,
+  InstallPlan + one `outputSchema` per tool. A 2025-06-18 session gets `outputSchema`, `structuredContent` and
+  `resource_link` (primary urls only); older versions get byte-identical text. Third-party bodies stay out of
+  `structuredContent` (only in `<untrusted-content>` text). Search texts are byte-identical to before; model-visible
+  tools/list 7.4 → 7.9 KB for 8 tools (+12 KB output schemas, client-side).
+- **new `get_install_command`**: one command (npx/pnpm/bunx/yarn) from corpus definitions, no network when cached;
+  dependencies; page/gated/unknown items reported with their page url or closest ids; ≤ 25 items.
+- `get_component`: `max_chars` (20k default, ≤ 40k) + `offset`/`next_offset`, `include_examples`, type/deps/install
+  always stated. `list_components`: `query`, `type`, `offset`/`limit`. `get_content`: `follow_url` with an SSRF guard
+  (https/443, public host, same site or listed in llms.txt, redirects re-checked, 2 MB, 15 s; DNS rebinding not fully
+  closable without dependencies — noted).
+- 222 tests (every tool answer validated against its schema; also checked outside the suite with ajv and the MCP SDK
+  client); eval unchanged.
+- **Found while reviewing:** registries probed as gated from their first item are mixed free/pro. Samples of 20:
+  reui.io 14 free, shadcn-ui-blocks 6, shadcnblocks 3 → roughly 3k items marked `gated` that install freely. Needs a
+  per-item access check (open).
 
 ---
 
