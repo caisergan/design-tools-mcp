@@ -1,0 +1,13 @@
+{
+  "templates": [
+    "https://efferd.com/blocks/{name}"
+  ],
+  "rewrite": [
+    [
+      "^([a-z-]+)-\\d+$",
+      "$1"
+    ]
+  ],
+  "status": "hand",
+  "note": "One page per block category: /blocks/<category> shows every variant of that category (e.g. /blocks/hero shows hero-1..hero-9; install commands @efferd/hero-N are on it), so the rewrite strips the -N suffix (header-3 -> header, app-shell-11 -> app-shell) and the template fills the category page that shows the variant; anchors are not used. 183 blocks fill; the 43 ui/components (logo, copy-button, text-effect, the *-icon set, formater) have no page of their own (no /components/<name>, /utilities/<name>, and /docs is a single install page = a listing, not allowed) and stay url-less."
+}

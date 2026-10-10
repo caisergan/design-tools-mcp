@@ -1,0 +1,5 @@
+{
+  "templates": ["https://sv-animations.vercel.app/magic/docs/components/{name}"],
+  "status": "hand",
+  "note": "Svelte port of Magic UI; every registry item is a component with its own page under /magic/docs/components/<name> and the registry names equal the page slugs (checked all 67 names against the /magic listing, which links 65 of them; shiny-button, stagger-text and terminal are not in the listing but their pages exist). One page = one animated component with install command. Made-up names 404, so no soft-404. robots.txt allows everything."
+}

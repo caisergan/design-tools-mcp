@@ -1,0 +1,8 @@
+{
+  "match": "/icons/{name}",
+  "granularity": "variant",
+  "source_domain": "lucide-animated.com",
+  "attach_only": true,
+  "status": "hand",
+  "note": "icons.pqoqubbw.dev redirects to lucide-animated.com (checked 2026-10-10); the sitemap of the new domain lists one page per icon, /icons/<name> (467 pages), and the registry names are exactly those slugs. One page is one animated Lucide icon with its install command; attach_only keeps the pages from making new items and only fills the registry urls. tvOS/device names not in the registry create nothing."
+}

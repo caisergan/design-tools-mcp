@@ -1,0 +1,4 @@
+{
+  "skip": "The docs site has pages only for chat-input, tool and worked (/docs/components/<name>); every other name under that path is redirected to /docs/components/chat-input (probe zz-design-tools-probe-404: 302 -> /docs/components/chat-input, 200, title \"simple-ai · Chat input\"), so a template candidate would end on a path the template did not produce and the engine rejects it as a miss. Blocks open through /view/<name>, which robots.txt disallows, and no other per-item path exists. None of the 49 in-scope url-less items is fillable.",
+  "status": "hand"
+}

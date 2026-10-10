@@ -1,0 +1,10 @@
+{
+  "templates": ["https://remocn.dev/docs/ui/components/{name}"],
+  "rewrite": [
+    ["^command-menu-item$", "command-menu"],
+    ["^dropdown-menu-item$", "dropdown-menu"],
+    ["^select-item$", "select"]
+  ],
+  "status": "hand",
+  "note": "Companion to catalog/patterns/remocn.dev.json (which attaches the 104 items that have their own page). Three composed sub-components are not pages of their own but are shown inside their group page: command-menu-item on /docs/ui/components/command-menu, dropdown-menu-item on /docs/ui/components/dropdown-menu, select-item on /docs/ui/components/select; the rewrite maps them onto the group slug. The other 101 url-less items (100 icon-* plus brush) have no page at all (icons live on the single /docs/icons/gallery listing, brush appears only inside other demos) and stay url-less. Names not in the rewrite fill nothing and are expected misses."
+}

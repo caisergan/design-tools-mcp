@@ -1,0 +1,8 @@
+{
+  "match": "/ui/{name}",
+  "granularity": "variant",
+  "source_domain": "inference.sh",
+  "attach_only": true,
+  "status": "hand",
+  "note": "ui.inference.sh redirects to inference.sh/ui (checked 2026-10-10); the sitemap of the new domain lists six block pages /ui/<name> (agent, chat, tools, widgets, task, markdown) that name the registry items exactly, plus /ui/vs-copilotkit and /ui/vs-vercel-ai-sdk listing pages. attach_only fills the six registry urls and makes no items; the other eight registry blocks (pretext-md, virtualize, code-block, youtube-embed, zoomable-image, steps, sidebar-light, table-of-contents) have no page. robots.txt allows /."
+}

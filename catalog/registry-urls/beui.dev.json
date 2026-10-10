@@ -1,0 +1,22 @@
+{
+  "templates": ["https://beui.dev/components/{name}"],
+  "rewrite": [
+    ["^button-(metallic|base|stateful|magnetic)$", "motion/button"],
+    ["^(hold-action-button|slide-action-button)$", "motion/expanding-arrow-button"],
+    ["^select-morph$", "motion/select"],
+    ["^popover-morph$", "motion/popover"],
+    ["^(chromatic-text-reveal|text-(scramble|reveal|shimmer|cascade))$", "motion/text-animation"],
+    ["^(digit-swap|number-ticker|animated-number)$", "motion/number"],
+    ["^action-swap-(cascade|blur|roll)$", "motion/action-swap"],
+    ["^(smooth-scroll|scroll-progress|parallax|scroll-to|scroll-reveal)$", "motion/scroll-animation"],
+    ["^range-slider-(inline|fluid|wave|bubble|ruler)$", "motion/range-slider"],
+    ["^table-(editable|async)$", "motion/table"],
+    ["^(reasoning-text|thinking-shimmer|agent-progress)$", "agents/loading-states"],
+    ["^not-found-(glitch|magnetic|spotlight|stacked|terminal)$", "blocks/not-found"],
+    ["^knockout-wheel$", "blocks/knockout-bracket"],
+    ["^attachment-upload$", "blocks/file-upload"],
+    ["^prediction-market-card$", "blocks/prediction-market"]
+  ],
+  "status": "hand",
+  "note": "The 42 url-less items are named variants but each is documented on its group page under /components/<category>/<group> (e.g. button-metallic..button-magnetic on /components/motion/button, all five not-found-* on /components/blocks/not-found, hold-action-button and slide-action-button on /components/motion/expanding-arrow-button, reasoning-text on /components/agents/loading-states). The rewrite maps every name to its group path and the template fills the page that shows the variant; no anchors. Every target page was fetched once and each carries its item names (counts in the report); all 42 are expected to fill. Prepared names not in the rewrite are misses. robots.txt checked."
+}
