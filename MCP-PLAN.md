@@ -886,9 +886,14 @@ Built by cheaper agents from the briefs in `briefs/phase-6/` (reports in `briefs
 - **Found while measuring:** reverting `catalog/catalog.json` after a build (`git checkout`) made it newer than
   `search-index.json`, so `loadIndex()` returned null and the server rebuilt the index in memory on every start.
   After a build, keep the index newer (`touch catalog/search-index.json`), or commit catalog.json as built.
-- **Open:** ~3.6k page-type registry items still url-less (mostly skip sites: undraw 1,362, ui-layouts 279, 7ovr
-  243, thegridcn 139, reactbits 133 — reactbits would need a kebab-case mapping from its sitemap); re-run
-  `--all` monthly (only new or changed items are fetched).
+- **Follow-ups (same day):** index freshness is now a fingerprint of the catalog entries stored in the index
+  (`catalogFingerprint`), not file times, and `build.mjs` keeps catalog.json byte-identical when nothing changed — so
+  neither a revert nor a fresh clone sends the server into an in-memory rebuild. Pattern option `loose_ids` (letters
+  and digits only, a key two url-less registry items share fills neither, and it also wins over an llms docs-page id)
+  attaches reactbits' 133 multi-word components (`animatedcontent` ↔ `/animations/animated-content`) → registry items
+  with a url **26,360** / 30,378.
+- **Open:** ~3.5k page-type registry items still url-less, nearly all on skip sites with no page per item (undraw
+  1,362, ui-layouts 279, 7ovr 243, thegridcn 139 …); re-run `--all` monthly (only new or changed items are fetched).
 
 ## Phase 7 — Housekeeping
 

@@ -198,6 +198,7 @@ export function validatePattern(pattern, domain = "?") {
   }
   if (pattern.render !== undefined && typeof pattern.render !== "boolean") fail('"render" must be true or false');
   if (pattern.attach_only !== undefined && typeof pattern.attach_only !== "boolean") fail('"attach_only" must be true or false');
+  if (pattern.loose_ids !== undefined && typeof pattern.loose_ids !== "boolean") fail('"loose_ids" must be true or false');
   if (pattern.source_domain !== undefined && (typeof pattern.source_domain !== "string" || !/^[a-z0-9.-]+$/i.test(pattern.source_domain)))
     fail(`source_domain must be a bare domain: ${JSON.stringify(pattern.source_domain)}`);
   if (pattern.exclude !== undefined) {
@@ -363,6 +364,24 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
   let unmapped = 0;
   let urls_attached = 0;
 
+  // loose_ids: a registry that slugs PascalCase names ("AnimatedContent" → animatedcontent) never equals the site's
+  // kebab page slug (animated-content). Compared on letters and digits only, a page fills the url of the one
+  // url-less registry item with that key; a key two items share fills neither.
+  const looseKey = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+  let looseRegistry = null;
+  const looseTwin = (id) => {
+    if (!looseRegistry) {
+      looseRegistry = new Map();
+      for (const it of taken.values()) {
+        if (it?.from !== "registry" || it.url || it.parent !== parent.id) continue;
+        const k = looseKey(it.id.slice(parent.id.length + 1));
+        looseRegistry.set(k, looseRegistry.has(k) ? null : it);
+      }
+    }
+    const it = looseRegistry.get(looseKey(id.slice(parent.id.length + 1)));
+    return it && !it.url ? it : null;
+  };
+
   /** Variant tags of one item: filter-page membership first, then the taxonomy tags of its name. */
   const variantsFor = (els, tagged, key) => {
     const variants = {};
@@ -406,12 +425,23 @@ export function sitemapScan(domain, parent, { overrides = { assetDomains: new Se
       // registry and llms items win, and two pages whose segment slugs the same are one item. A registry
       // item with no url of its own takes this page's url (the llms adapter's rule): the page is the
       // component's docs page even though the item itself stays the registry item.
+      // With loose_ids the id may belong to an llms docs page of the same component (reactbits' "animated-content"
+      // page item next to its registry item "animatedcontent"): the registry twin still takes the url.
       const it = taken.get(id);
-      if (it.from === "registry" && !it.url) {
-        it.url = url;
+      const twin = it.from === "registry" ? (it.url ? null : it) : pattern.loose_ids ? looseTwin(id) : null;
+      if (twin) {
+        twin.url = url;
         urls_attached++;
         takenUrls.add(key);
       }
+      skipped++;
+      continue;
+    }
+    const loose = pattern.loose_ids ? looseTwin(id) : null;
+    if (loose) {
+      loose.url = url;
+      urls_attached++;
+      takenUrls.add(key);
       skipped++;
       continue;
     }

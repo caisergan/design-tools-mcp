@@ -1,0 +1,8 @@
+{
+  "match": ["/animations/{name}", "/backgrounds/{name}", "/components/{name}", "/text-animations/{name}"],
+  "attach_only": true,
+  "loose_ids": true,
+  "granularity": "variant",
+  "status": "hand",
+  "note": "reactbits.dev — animated React components. The registry merges each component's four stack builds (AnimatedContent-JS-CSS … -TS-TW) into one item whose id is the slugged PascalCase name (reactbits-dev/animatedcontent); the site's pages are kebab-case (/animations/animated-content, /text-animations/split-text, /backgrounds/…, /components/…). loose_ids compares letters and digits only, so each page fills its component's url; attach_only keeps the pages from making items. /micro/* (34 micro-interaction pages) has no registry twin and stays out, as do /get-started/*, /pro, /showcase, /sponsors, /favorites. Replaces the template skip in catalog/registry-urls/reactbits.dev.json (coordinator, 2026-10-10)."
+}

@@ -20,6 +20,8 @@ Pattern file format:
   "variants_from": { "mega-menu": "/mega-menu" },        // optional: a filter page listing every example of a kind
   "elements_from": { "footer": "/category/footers" },    // optional: same, for multi-element galleries
   "urls_from": ["/"],                        // optional: pages whose links are URL sources (for sites without a sitemap)
+  "attach_only": true,                       // optional: pages only fill url-less registry items, never make items
+  "loose_ids": true,                         // optional: match registry ids on letters+digits (animatedcontent ↔ animated-content)
   "status": "hand",
   "note": "what the site is, what one page is, quirks"
 }

@@ -152,6 +152,30 @@ test("a registry item takes its page even when an llms docs page under another i
   expect(taken.get("pd/takumi-alert").url).toBe("https://pdfcn.dev/docs/components/takumi/alert");
 });
 
+test("loose_ids: a kebab page fills the url-less registry item whose id differs only in punctuation", () => {
+  const pattern = { match: "/animations/{name}", status: "hand", attach_only: true, loose_ids: true };
+  const taken = new Map();
+  taken.set("rb/animatedcontent", { id: "rb/animatedcontent", parent: "rb", from: "registry", name: "AnimatedContent" });
+  taken.set("rb/split-text", { id: "rb/split-text", parent: "rb", from: "registry", name: "Split" }); // two items share
+  taken.set("rb/splittext", { id: "rb/splittext", parent: "rb", from: "registry", name: "SplitText" }); //   one loose key
+  taken.set("rb/magnet", { id: "rb/magnet", parent: "rb", from: "llms", name: "Magnet" }); // not a registry item
+  taken.set("rb/blobcursor", { id: "rb/blobcursor", parent: "rb", from: "registry", name: "BlobCursor" });
+  taken.set("rb/blob-cursor", { id: "rb/blob-cursor", parent: "rb", from: "llms", name: "Blob Cursor", url: "https://reactbits.dev/llms/blob-cursor.md" }); // its docs page item
+  const r = scan("reactbits.dev", "rb", {
+    pattern,
+    taken,
+    sitemap: { urls: [S("https://reactbits.dev/animations/animated-content"), S("https://reactbits.dev/animations/spl-it-text"), S("https://reactbits.dev/animations/mag-net"), S("https://reactbits.dev/animations/blob-cursor")] },
+  });
+  expect(taken.get("rb/animatedcontent").url).toBe("https://reactbits.dev/animations/animated-content");
+  expect(taken.get("rb/splittext").url).toBeUndefined(); // ambiguous key (split-text, splittext) fills neither
+  expect(taken.get("rb/split-text").url).toBeUndefined();
+  expect(taken.get("rb/magnet").url).toBeUndefined();
+  expect(taken.get("rb/blobcursor").url).toBe("https://reactbits.dev/animations/blob-cursor"); // past its llms page item
+  expect(r.urls_attached).toBe(2);
+  expect(r.items).toEqual([]);
+  expect(() => validatePattern({ match: "/x/{name}", loose_ids: 1, status: "hand" }, "a.com")).toThrow(/loose_ids/);
+});
+
 test("attach_only: pages fill registry urls and make no items", () => {
   const pattern = { match: "/navbar/{name}", element: "navbar", status: "hand", attach_only: true };
   const taken = new Map();
