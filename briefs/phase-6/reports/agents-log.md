@@ -54,3 +54,6 @@ Still running: none. Briefs 09–13 merged and closed.
 | u15b | 15 registry urls: 28 smaller registries | `phase6/registry-urls-b` @ 18c1af3 | 1,335 urls attached, 0 new items; ui-layouts 6 dead sitemap urls excluded | 2026-10-10 | 2026-10-10 |
 
 Still running: none. Brief 15 merged and closed (MCP-PLAN 6.10).
+
+2026-10-10: brief 16 (registry url templates) launched.
+Still running: u16a (`phase6/registry-tpl-a`: engine `tools/registry-urls.mjs` + pilots animate-ui/kibo-ui/retroui), u16b/u16c/u16d (`phase6/registry-tpl-b|c|d`: 19/18/18 sites, routes A sitemap · B template · C skip).
