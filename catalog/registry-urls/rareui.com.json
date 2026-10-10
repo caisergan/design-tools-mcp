@@ -1,0 +1,17 @@
+{
+  "templates": [
+    "https://www.rareui.com/components/{name}"
+  ],
+  "rewrite": [
+    [
+      "-",
+      ""
+    ],
+    [
+      "^scrollprogress$",
+      "scrollprogressindicator"
+    ]
+  ],
+  "status": "hand",
+  "note": "rareui.com 301s to www.rareui.com (same site). One page per component: /components/<name> with the hyphens removed (folder-component → /components/foldercomponent, animated-counter → /components/animatedcounter; the sitemap lists these 22 pages), so the first rewrite drops the hyphens. scroll-progress is shown on /components/scrollprogressindicator (its title is 'Scroll Progress'), an extra rule. Fills 19 of the 20 url-less ui items; family-drawer has no page in the sitemap. robots.txt disallows only named AI bots, no rule for *. A made-up name 404s (generic home title but status 404)."
+}

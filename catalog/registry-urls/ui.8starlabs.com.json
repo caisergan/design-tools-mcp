@@ -1,0 +1,13 @@
+{
+  "templates": [
+    "https://ui.8starlabs.com/docs/components/{name}"
+  ],
+  "rewrite": [
+    [
+      "^(button|flip-clock|heatmap|json-viewer|marquee|open-in-chat|partition-bar|relative-time|shake|status-indicator|status-monitor|system-banner|timeline|transport-badge|video-player)(-.+)?$",
+      "$1"
+    ]
+  ],
+  "status": "hand",
+  "note": "ui.8starlabs.com — component registry. One docs page per component: /docs/components/<name> (15 pages in the sitemap). The 41 url-less example items are the demos of those components ('heatmap-interpolate-demo', 'transport-badge-demo-multi-station', 'video-player-fit-demo', …; slug null, the id suffix is the name) — each is shown on its component's page (checked: heatmap page carries heatmap-interpolate-demo and heatmap-custom-colors-demo), so the rule strips everything after the component name (longest page name first) and all 41 fill. The 6 ui base items (collapsible, dropdown-menu, input, label, separator, tooltip) have no page in the sitemap and stay url-less. robots.txt: Allow / with /api/ and /_next/ disallowed; unknown paths 404 ('404 | 8StarLabs UI')."
+}

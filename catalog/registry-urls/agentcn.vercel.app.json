@@ -1,0 +1,7 @@
+{
+  "templates": [
+    "https://www.agentcn.run/docs/agents/{name}"
+  ],
+  "status": "hand",
+  "note": "agentcn.vercel.app 301s to www.agentcn.run (same site). Every registry item is one agent block with the slug '<framework>/<agent>' (eve/ai-seo-audit, flue/claw, langgraph/deep-search, mastra/weather, …) and its page is /docs/agents/<slug> — the slug fills the url as-is, no rewrite. All 76 url-less blocks fill (the site's sitemap has exactly these 76 pages across the 4 frameworks). robots.txt allows /. Unknown paths 404 ('Page Not Found | agentcn')."
+}

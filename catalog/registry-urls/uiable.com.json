@@ -1,0 +1,22 @@
+{
+  "templates": [
+    "https://uiable.com/components/{name}",
+    "https://uiable.com/blocks/{name}"
+  ],
+  "rewrite": [
+    [
+      "^block-(bento|contact|content|cta|e-commerce|faq|feature|footer|gallery|hero|portfolio|pricing|process|small-hero|statistics|team|testimonial)-(.+)$",
+      "$1"
+    ],
+    [
+      "^block-(component-1|component-2|contact|faq|feature|footer|hero|navbar)$",
+      "landing"
+    ],
+    [
+      "^(message-scroller|navigation-menu|dropdown-menu|native-select|questionnaire|alert-dialog|aspect-ratio|button-group|context-menu|toggle-group|collapsible|date-picker|input-group|radio-group|scroll-area|attachment|breadcrumb|data-table|hover-card|list-group|pagination|typography|accordion|input-otp|resizable|separator|tree-view|calendar|carousel|checkbox|combobox|progress|skeleton|textarea|timeline|command|menubar|message|popover|sidebar|spinner|tooltip|avatar|bubble|button|coupon|cursor|dialog|drawer|marker|select|slider|sonner|switch|toggle|alert|badge|chart|empty|field|input|label|radio|sheet|table|card|item|tabs|kbd)-(.+)$",
+      "$1"
+    ]
+  ],
+  "status": "hand",
+  "note": "uiable.com — shadcn/Base UI registry: 829 items, 59 base component docs already hold /components/<name> urls (pattern attach). The 770 url-less ones are (a) 710 ui *variants* of those components (accordion-basic, alert-border-left-danger, input-otp-…, data-table-…); each component's docs page /components/<name> demos every variant of it (checked: the page carries the registry JSON of its variants), so the first rewrite strips the component prefix — longest-first vocabulary of the 69 /components/<name> pages in the sitemap — and points every variant at its component's page. (b) 60 blocks (block-bento-4, block-hero-2, …) whose pages are the category galleries /blocks/<category> (bento, contact, …, taken from the registry's own `categories`; the 'landing' ones — block-hero, block-navbar, block-contact, block-faq, block-feature, block-footer, block-component-1/2 — live on /blocks/landing), so the block family prefixes rewrite to the category name. This fills 682 ui + 60 block items out of 770; the remaining 28 (changelog-*, component-*/block-list/block-sidebar/search-bar, laid-out widgets like metric-card/profile-card, circular-progress, direction, typewriter) are internals of the blocks with no docs page of their own. robots.txt: no rewrite target is disallowed. Pages are group pages: a variant links to the page where it is shown, not to a page of its own. The site soft-404s: any unknown path (/components/zz-design-tools-probe-404, /blocks/zz-design-tools-probe-404) answers 200 html with the generic title 'UIAble - The Complete Shadcn Design System', so only the engine's soft-404 title guard keeps a miss from attaching; every rewrite target is one of the real pages above. No redirect happens on a miss (final url stays on the requested path)."
+}
