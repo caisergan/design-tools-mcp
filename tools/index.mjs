@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 // catalog.json + corpus → catalog/items/ + catalog/search-index.json (MCP-PLAN 3.5). tools/build.mjs runs it last.
-// The MCP server loads the index at startup and builds one in memory when it is missing or older than catalog.json.
+// The MCP server loads the index at startup and builds one in memory when it is missing or was built from another
+// catalog (search.mjs catalogFingerprint).
 //   bun tools/index.mjs
 import { writeFileSync, statSync } from "node:fs";
 import { FILE, loadJSON } from "./lib.mjs";

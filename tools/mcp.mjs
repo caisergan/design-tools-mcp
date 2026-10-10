@@ -38,8 +38,8 @@ const CATEGORY_WORDS = new Map(
   ]),
 );
 const ELEMENTS = new Map(TAXONOMY.elements.map((e) => [e.id, e]));
-// Prebuilt by tools/index.mjs; built in memory (slower start) when missing or older than catalog.json.
-const INDEX = loadIndex() || buildIndex(ITEMS, loadItems());
+// Prebuilt by tools/index.mjs; built in memory (slower start) when missing or built from another catalog.
+const INDEX = loadIndex(ITEMS) || buildIndex(ITEMS, loadItems());
 const S = createSearch(ITEMS, INDEX);
 const byItemId = new Map(S.items.map((i) => [i.id, i]));
 // Items are read as pages (gallery examples, docs pages) or as code. A gallery example is a page:

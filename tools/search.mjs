@@ -2,10 +2,13 @@
 // buildIndex() turns catalog entries + items into BM25 postings (written by tools/index.mjs to
 // catalog/search-index.json); createSearch() answers queries against it with taxonomy query expansion.
 import { existsSync, statSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { FILE, loadJSON } from "./lib.mjs";
 import { TAXONOMY, elementsIn, variantsIn, tok as tokAscii } from "./tag.mjs";
 
 export const INDEX_FILE = FILE.catalog.replace(/catalog\.json$/, "search-index.json");
+/** Fingerprint of the catalog entries an index was built from: content, not file times (a checkout or clone resets those). */
+export const catalogFingerprint = (entries) => createHash("sha1").update(JSON.stringify(entries)).digest("hex").slice(0, 16);
 export const INDEX_SCHEMA = 4; // 3: item records carry `auto`, prior() reads it · 4: packed on disk (packIndex / unpackIndex)
 
 // ---------------------------------------------------------------- tokens
@@ -154,6 +157,7 @@ export function buildIndex(entries, items) {
   return {
     schema: INDEX_SCHEMA,
     built_at: new Date().toISOString(),
+    catalog: catalogFingerprint(entries),
     entries: entries.length,
     docs: docs.length,
     entry_ids: entries.map((e) => e.id),
@@ -260,12 +264,18 @@ export function unpackIndex(idx) {
   return { ...rest, items, postings };
 }
 
-/** The prebuilt index when it is newer than catalog.json, else null (the caller builds one in memory). */
-export function loadIndex() {
-  if (!existsSync(INDEX_FILE)) return null;
-  if (statSync(INDEX_FILE).mtimeMs < statSync(FILE.catalog).mtimeMs) return null;
-  const idx = loadJSON(INDEX_FILE);
-  return idx?.schema === INDEX_SCHEMA ? unpackIndex(idx) : null;
+/**
+ * The prebuilt index when it was built from these catalog entries, else null (the caller builds one in memory).
+ * An index without a fingerprint (written before it had one) falls back to "newer than catalog.json".
+ */
+export function loadIndex(entries = null, { file = INDEX_FILE, catalogFile = FILE.catalog } = {}) {
+  if (!existsSync(file)) return null;
+  const idx = loadJSON(file);
+  if (idx?.schema !== INDEX_SCHEMA) return null;
+  if (entries && idx.catalog) {
+    if (idx.catalog !== catalogFingerprint(entries)) return null;
+  } else if (statSync(file).mtimeMs < statSync(catalogFile).mtimeMs) return null;
+  return unpackIndex(idx);
 }
 
 // ---------------------------------------------------------------- query

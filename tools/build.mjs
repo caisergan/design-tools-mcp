@@ -367,6 +367,10 @@ export function render(items) {
     },
     items,
   };
+  // Same content as last time → keep its timestamp, so a rebuild leaves catalog.json byte-identical (no diff to revert).
+  const previous = loadJSON(FILE.catalog);
+  if (previous?.generated_at && JSON.stringify({ ...previous, generated_at: "" }) === JSON.stringify({ ...catalog, generated_at: "" }))
+    catalog.generated_at = previous.generated_at;
   saveJSON(FILE.catalog, catalog);
   const shown = rendered(items);
   const hidden = items.length - shown.length;
