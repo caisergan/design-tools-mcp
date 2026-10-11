@@ -396,3 +396,12 @@ test("verifyItems: a blind template attaches only its sitemap-listed pages, coun
   expect(stats.sitemap_listed).toBe(2);
   expect(stats.soft404).toBe(1);
 });
+
+test("robots.txt: a run of wildcards is one wildcard and does not backtrack (coliss.com `Allow: *****************/*.js$`)", () => {
+  const rules = parseRobots("User-agent: *\nDisallow: /wp-content/\nAllow: *****************/*.js$\n");
+  const t = performance.now();
+  expect(robotsAllows(rules, "/articles/build-websites/operation/css/pure-css-liquid-glass-ui-kit.html")).toBe(true);
+  expect(robotsAllows(rules, "/wp-content/cache/all/x/index.html")).toBe(false);
+  expect(robotsAllows(rules, "/wp-content/themes/a/app.js")).toBe(true);
+  expect(performance.now() - t).toBeLessThan(200);
+});

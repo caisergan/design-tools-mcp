@@ -265,10 +265,12 @@ export function parseRobots(text) {
   return rules;
 }
 
+// Runs of `*` are one wildcard: coliss.com's `Allow: *****************/*.js$` as 17 `.*` backtracked for minutes.
 const ruleRegex = (path) =>
   new RegExp(
     "^" +
       path
+        .replace(/\*{2,}/g, "*")
         .replace(/\$$/, "\u0000")
         .replace(/[.+?^${}()|[\]\\]/g, "\\$&")
         .replace(/\*/g, ".*")
