@@ -1,0 +1,146 @@
+{
+  "id": "reactbits-dev",
+  "url": "https://reactbits.dev",
+  "kind": "site",
+  "hints_hash": "ff087ea82ff50dc2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:35:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://reactbits.dev/llms.txt",
+      "title": "React Bits",
+      "status": null
+    },
+    {
+      "url": "https://reactbits.dev",
+      "title": "React Bits — Free Animated React Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.reactbits.dev/get-started/mcp",
+      "title": "React Component Registry MCP Setup | React Bits",
+      "status": 200
+    },
+    {
+      "url": "https://www.reactbits.dev/backgrounds/orb",
+      "title": "Orb — React Background | React Bits",
+      "status": 200
+    },
+    {
+      "url": "https://www.reactbits.dev/pro",
+      "title": "React Bits Pro - Components, Blocks, App UI & Templates",
+      "status": 200
+    },
+    {
+      "url": "https://www.reactbits.dev/components/dock",
+      "title": "Dock — React Component | React Bits",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/DavidHDev/react-bits",
+      "title": "GitHub - DavidHDev/react-bits",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/LICENSE.md",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Bits",
+  "summary": "Open-source library of 170+ animated React components, text animations, backgrounds and micro interactions.",
+  "description": "Copy-paste React components for creative developers: text animations, animations, UI components, animated backgrounds and micro interactions, each shipped in four implementation variants (JavaScript or TypeScript, CSS or Tailwind). Install by copying source or through the jsrepo or shadcn CLI; dependencies such as gsap, motion, three.js or ogl vary per component. An MCP setup and llms.txt make it agent-friendly; the paid React Bits Pro adds 150 components, 280 blocks, 300 app UI screens and Next.js templates.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "card",
+    "cursor",
+    "text-effect",
+    "navbar",
+    "background",
+    "scroll-effect",
+    "slider",
+    "carousel",
+    "hero",
+    "list",
+    "accordion",
+    "bento-grid",
+    "dock",
+    "button",
+    "switch",
+    "loader",
+    "3d"
+  ],
+  "keywords": [
+    "animated component",
+    "react",
+    "text animation",
+    "animated text",
+    "background effect",
+    "animated background",
+    "interactive card",
+    "micro interaction",
+    "cursor effect",
+    "copy paste component",
+    "shadcn",
+    "cli",
+    "gsap",
+    "three.js",
+    "motion",
+    "open source",
+    "free",
+    "landing page",
+    "creative developer",
+    "tailwind",
+    "typescript",
+    "javascript",
+    "mcp server"
+  ],
+  "contains": [
+    "171 free animated components with live demos and source",
+    "groups: text animations, animations, components, backgrounds, micro interactions",
+    "each component ships in four variants: JS or TS, CSS or Tailwind",
+    "installs via shadcn or jsrepo CLI, and a shadcn registry with 684 items",
+    "per-component dependencies such as gsap, motion, three.js, ogl",
+    "MCP registry setup for coding agents",
+    "React Bits Pro: 150 components, 280 blocks, 300 app UI pieces, templates, agent kit"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "javascript",
+    "typescript",
+    "tailwind",
+    "css",
+    "gsap",
+    "framer-motion",
+    "three.js",
+    "ogl"
+  ],
+  "pricing": "freemium",
+  "license": "MIT+Commons-Clause",
+  "related": {
+    "repo": "https://github.com/DavidHDev/react-bits",
+    "docs": "https://reactbits.dev/get-started/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

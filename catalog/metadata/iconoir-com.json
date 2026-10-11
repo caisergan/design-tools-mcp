@@ -1,0 +1,39 @@
+{
+  "id": "iconoir-com",
+  "url": "https://iconoir.com",
+  "kind": "site",
+  "hints_hash": "99a7f192d298380a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://iconoir.com", "title": "Iconoir | Free Icons", "status": 200},
+    {"url": "https://iconoir.com/docs/changelog", "title": "Changelog | Iconoir | Free Icons", "status": 200},
+    {"url": "https://iconoir.com/docs/contributing", "title": "Iconoir | Free Icons", "status": 200},
+    {"url": "https://iconoir.com/docs/introduction", "title": "Iconoir | Free Icons", "status": 200},
+    {"url": "https://iconoir.com/docs/naming-convention", "title": "Iconoir | Free Icons", "status": 200},
+    {"url": "https://raw.githubusercontent.com/iconoir-icons/iconoir/main/README.md", "title": "Iconoir", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Iconoir",
+  "summary": "Open-source icon library of 1,671 SVG icons on a 24px grid, with React, Vue, Flutter, Figma and Framer packages.",
+  "description": "An open-source icon library: 1,671 icons drawn on a 24x24 grid in regular and solid styles. Icons are free to download as SVG or consumed through the iconoir npm package, framework libraries (React, React Native, Vue, SolidJS, Flutter), an icon font/CSS file, Figma community library, Framer integration and a Swift package. No premium tier or sign-up.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon library", "svg icon", "free icon", "open source icon", "react icon", "vue icon", "flutter icon", "figma icon", "framer", "icon font", "npm package", "24px grid", "solid icon", "mit license", "community icon set"],
+  "contains": [
+    "1,671 icons on a 24x24 grid (v7.12.1)",
+    "regular and solid styles, named with a documented convention",
+    "packages: iconoir, iconoir-react, iconoir-react-native, @iconoir/vue, iconoir_flutter, iconoir-solid-js",
+    "also shipped as icon font/CSS, Figma community library, Framer library and Swift package",
+    "free with no premium options or sign-up",
+    "MIT licensed; community contributions via GitHub"
+  ],
+  "formats": ["svg", "npm-package", "font-files", "figma-file"],
+  "stack": ["react", "react-native", "vue", "solidjs", "flutter", "swift"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/iconoir-icons/iconoir", "docs": "https://iconoir.com/docs/introduction", "npm": "iconoir", "figma": null, "parent": null},
+  "confidence": 0.9
+}

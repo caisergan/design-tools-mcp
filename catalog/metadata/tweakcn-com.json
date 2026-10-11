@@ -1,0 +1,89 @@
+{
+  "id": "tweakcn-com",
+  "url": "https://tweakcn.com",
+  "kind": "site",
+  "hints_hash": "df818012a0be4f89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tweakcn.com",
+      "title": "Beautiful themes for shadcn/ui — tweakcn | Theme Editor & Generator",
+      "status": 200
+    },
+    {
+      "url": "https://tweakcn.com/pricing",
+      "title": "Pricing — tweakcn",
+      "status": 200
+    },
+    {
+      "url": "https://tweakcn.com/sitemap.xml",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://tweakcn.com/editor/theme",
+      "title": "tweakcn — Theme Generator for shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jnsahaj/tweakcn/main/README.md",
+      "title": "tweakcn README",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "tweakcn",
+  "summary": "Visual theme editor for shadcn/ui and Tailwind CSS: adjust tokens with live preview, then copy or install the theme.",
+  "description": "A no-code theme editor and generator for shadcn/ui and Tailwind CSS v4. Adjust color tokens (background, foreground, border, input, ring, primary, accent, chart 1-5) with a live preview of dashboard, calendar and form components, then copy the generated CSS variables or install a preset. 36 theme presets are served in shadcn registry format; free plan plus a pro plan.",
+  "type": "generator",
+  "categories": [
+    "color-effects",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "theme editor",
+    "theme generator",
+    "shadcn theme",
+    "tailwind theme",
+    "css variable",
+    "design token",
+    "color palette",
+    "dark mode",
+    "tailwind css",
+    "theme preset",
+    "live preview",
+    "no-code",
+    "design system",
+    "shadcn"
+  ],
+  "contains": [
+    "no-code visual editor for shadcn/ui and Tailwind CSS v4 themes",
+    "edit color tokens with live dashboard, calendar and form previews",
+    "exports theme CSS variables and copy-ready theme code",
+    "36 theme presets in shadcn registry format",
+    "free plan plus a pro plan",
+    "open-source code on GitHub"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/jnsahaj/tweakcn",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

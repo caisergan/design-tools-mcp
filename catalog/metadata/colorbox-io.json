@@ -1,0 +1,41 @@
+{
+  "id": "colorbox-io",
+  "url": "https://colorbox.io",
+  "kind": "site",
+  "hints_hash": "fa4020681365bbbe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:46Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://colorbox.io/llms.txt", "title": "ColorBox", "status": null },
+    { "url": "https://colorbox.io", "title": "ColorBox", "status": 200 },
+    { "url": "https://colorbox.io/ai", "title": "ColorBox AI Guide", "status": 200 },
+    { "url": "https://colorbox.io/oklch-color-palette-generator", "title": "OKLCH Color Palette Generator | ColorBox", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "ColorBox",
+  "summary": "Free browser tool that builds accessible OKLCH/OKLAB color palettes and scales with tunable hue, saturation and lightness curves.",
+  "description": "Generate perceptually uniform color systems in the browser: pick a seed color, tune bezier curves for hue, saturation and luminosity, and watch real-time WCAG 2.1 contrast feedback on every step of the scale. Export to CSS, Tailwind, Figma tokens or JSON; works standalone or as a Figma plugin. Built for Lyft, now free for everyone.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": [
+    "color palette", "palette generator", "oklch", "oklab", "color scale",
+    "color system", "design token", "contrast checker", "wcag", "accessibility",
+    "css export", "tailwind color", "json export", "brand color", "color curve"
+  ],
+  "contains": [
+    "perceptually uniform interpolation in OKLCH/OKLAB",
+    "customizable hue, saturation and luminosity curves",
+    "real-time WCAG 2.1 contrast checking with 3:1 and 4.5:1 markers",
+    "export: CSS, Tailwind, Figma tokens, JSON",
+    "standalone web app or Figma plugin",
+    "free forever, no account needed; built for Lyft"
+  ],
+  "formats": ["app", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

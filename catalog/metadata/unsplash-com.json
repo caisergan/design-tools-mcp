@@ -1,0 +1,15 @@
+{
+  "id": "unsplash-com",
+  "url": "https://unsplash.com",
+  "kind": "site",
+  "hints_hash": "a2525c68e6051033",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:46Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://unsplash.com", "title": null, "status": 401 },
+    { "url": "https://unsplash.com/llms.txt", "title": null, "status": 401 }
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

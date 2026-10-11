@@ -1,0 +1,40 @@
+{
+  "id": "hugeicons-com",
+  "url": "https://hugeicons.com",
+  "kind": "site",
+  "hints_hash": "17acdf8a2c9580ad",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hugeicons.com", "title": "Hugeicons - 60,000+ Free & Pro Icons for Designers & Developers", "status": 200},
+    {"url": "https://hugeicons.com/docs", "title": "Hugeicons Documentation", "status": 200},
+    {"url": "https://hugeicons.com/icons", "title": "Browse 60,000+ Icons – 10 Styles, 59 Categories | Hugeicons", "status": 200},
+    {"url": "https://hugeicons.com/pricing", "title": "Pricing Plans | Hugeicons", "status": 200},
+    {"url": "https://hugeicons.com/faq", "title": "Icon Library Help Center | Hugeicons FAQ", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hugeicons",
+  "summary": "Icon library of 60,000+ icons in 10 styles; 6,000+ free MIT-licensed stroke icons, paid plans add all styles and formats.",
+  "description": "A hand-crafted icon library of 60,000+ icons in 10 styles (stroke, solid, twotone, duotone and bulk in rounded, standard and sharp variants) across 59 categories. Shipped as SVG, icon font, Figma library and plugin, and packages for React, Vue, Angular, Svelte, SolidJS, React Native, Flutter, WordPress and Webflow. The free tier covers 6,000+ stroke-rounded icons; Pro adds the full set, AI-powered search and custom icon upload.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon set", "icon library", "svg icon", "free icon", "stroke icon", "solid icon", "duotone icon", "figma icon", "react icon", "vue icon", "flutter icon", "icon font", "npm package", "design system", "ui icon", "mcp server", "custom icon"],
+  "contains": [
+    "60,350 icons in 10 styles and 59 categories",
+    "6,000+ free stroke-rounded icons under MIT",
+    "pro: 60,000+ icons, AI-powered search, custom icon upload",
+    "pricing: free, Pro $99/year, Pro Plus $1,197 one-time",
+    "formats: SVG, icon font, desktop font, Figma file and plugin, CDN",
+    "packages for React, Vue, Angular, Svelte, SolidJS, React Native, Flutter, WordPress, Webflow",
+    "MCP server and agent skill for coding agents",
+    "used by products from Fiverr, YCombinator, Framer, Webflow and Hyundai"
+  ],
+  "formats": ["svg", "font-files", "npm-package", "figma-file", "api"],
+  "stack": ["react", "react-native", "vue", "angular", "svelte", "solidjs", "flutter"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://hugeicons.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

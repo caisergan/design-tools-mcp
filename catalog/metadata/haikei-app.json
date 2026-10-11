@@ -1,0 +1,40 @@
+{
+  "id": "haikei-app",
+  "url": "https://haikei.app",
+  "kind": "site",
+  "hints_hash": "23fa3ff273925e95",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:46Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://haikei.app", "title": "Generate unique SVG design assets | Haikei", "status": 200 },
+    { "url": "https://haikei.app/pricing", "title": "Pricing | Haikei", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Haikei",
+  "summary": "Web app that generates randomized SVG backgrounds and shapes (waves, blobs, grids, gradients) with SVG and PNG export.",
+  "description": "Free browser tool for creating decorative visuals: pick one of 15 generators (stacked and layered waves, steps, peaks, blobs, symbols, grids, gradients and more), adjust colors and canvas size, then roll the dice for endless variations. Exports SVG and PNG for websites, slide decks, blog covers, wallpapers and social media; no signup or credit card.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": [
+    "svg background", "background generator", "blob generator", "wave generator",
+    "gradient generator", "pattern generator", "shape generator", "generative design",
+    "png export", "svg export", "landing page background", "hero background",
+    "slide background", "blog cover", "wallpaper"
+  ],
+  "contains": [
+    "15 free generators incl. waves, steps, peaks, blobs, symbols, grids and gradients",
+    "export as SVG or PNG with unlimited downloads and 9 basic canvas templates",
+    "dice button randomizes settings for new variations",
+    "free for personal and commercial projects; no credit required",
+    "no signup, no credit card",
+    "pro plan planned with all generators, advanced functions, code export (SVG, JSX) and 40+ canvas templates"
+  ],
+  "formats": ["app", "svg", "png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

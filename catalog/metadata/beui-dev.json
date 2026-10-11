@@ -1,0 +1,171 @@
+{
+  "id": "beui-dev",
+  "url": "https://beui.dev",
+  "kind": "site",
+  "hints_hash": "1af995eb20001a18",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/llms.txt",
+      "title": "beUI",
+      "status": null
+    },
+    {
+      "url": "https://beui.dev",
+      "title": "Animated Components for React and Next.js · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/components/motion",
+      "title": "Animated React Components — Copy-Paste Motion UI · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/components/agents",
+      "title": "AI Agent Components — Animated React AI Interfaces · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/docs/motion-patterns.md",
+      "title": "Motion Guides",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/docs/ai-agents.md",
+      "title": "Agent Guide",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/docs/openui.md",
+      "title": "Use beUI with OpenUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/pro",
+      "title": "beUI Pro — Animated React Blocks & Next.js Templates",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/starc007/ui-components/main/README.md",
+      "title": "beUI - Motion Component Library",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/starc007/ui-components/main/LICENSE",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "beUI",
+  "summary": "Open-source animated React and Next.js components built with Motion and Tailwind CSS, installed by copy-paste or shadcn CLI.",
+  "description": "Free, open-source animated components for React and Next.js built with Motion (Framer Motion) and Tailwind CSS: buttons, tabs, drawers, modals, docks, forms, AI chat pieces and data viz. Copy the TypeScript source or install from the shadcn registry; a hosted MCP server, agent skill and OpenUI guide let coding agents use it. A paid beUI Pro library adds premium components, blocks and full templates.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "button",
+    "text-effect",
+    "scroll-effect",
+    "slider",
+    "ai-agent-ui",
+    "404",
+    "card",
+    "loader",
+    "select",
+    "tabs",
+    "sidebar",
+    "table",
+    "marquee",
+    "switch",
+    "input",
+    "checkbox",
+    "drawer",
+    "tooltip",
+    "popover",
+    "dropdown",
+    "modal",
+    "dock",
+    "command-palette",
+    "accordion",
+    "otp-input",
+    "form",
+    "badge",
+    "breadcrumbs",
+    "date-picker",
+    "chart",
+    "chat",
+    "prompt-input",
+    "stepper",
+    "list",
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "cta",
+    "footer"
+  ],
+  "keywords": [
+    "animated component",
+    "react component",
+    "nextjs",
+    "tailwind css",
+    "framer motion",
+    "motion",
+    "micro interaction",
+    "shadcn",
+    "shadcn registry",
+    "copy paste component",
+    "spring animation",
+    "ai agent ui",
+    "chat component",
+    "command palette",
+    "dock",
+    "modal",
+    "accordion",
+    "text animation",
+    "generative ui",
+    "mcp server",
+    "open source"
+  ],
+  "contains": [
+    "140 free animated components across motion, blocks, agents and charts",
+    "120 shadcn registry items install via the shadcn CLI",
+    "built with Motion and Tailwind CSS 4, React 19",
+    "agent skill, MCP server and registry endpoints for AI agents",
+    "pro: 292 premium components, 205 animated blocks, 41 page blocks, 11 templates",
+    "pro pricing: $109/year or $149 lifetime (winter sale)",
+    "component groups: motion primitives, blocks, AI agents, charts",
+    "motion guides cover timing, easing, springs and reduced motion"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/starc007/ui-components",
+    "docs": "https://beui.dev/docs/motion-patterns",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

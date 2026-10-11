@@ -1,0 +1,93 @@
+{
+  "id": "lottiefiles-com",
+  "url": "https://lottiefiles.com",
+  "kind": "site",
+  "hints_hash": "5634e2bdc23185ff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:46Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://lottiefiles.com/llms.txt",
+      "title": "LottieFiles",
+      "status": null
+    },
+    {
+      "url": "https://lottiefiles.com",
+      "title": "LottieFiles: Download Free lightweight animations for website & apps.",
+      "status": 200
+    },
+    {
+      "url": "https://lottiefiles.com/animations",
+      "title": "Featured Free Lottie Animations - Curated Motion Designs",
+      "status": 200
+    },
+    {
+      "url": "https://lottiefiles.com/pricing",
+      "title": "LottieFiles Plans & Pricing - Individual, Team, Team+ & Enterprise",
+      "status": 200
+    },
+    {
+      "url": "https://lottiefiles.com/categories",
+      "title": "Animation Categories",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "LottieFiles",
+  "summary": "Library of 800,000+ free and premium Lottie animations plus browser tools to create, edit, test and ship motion.",
+  "description": "Motion design platform around the Lottie and dotLottie vector animation formats: search free and premium animations by category and tag, create and edit animations in the browser, add no-code interactivity with state machines and light/dark theming, and implement them with runtimes and players for web, iOS, Android and React Native. Team workspaces add hosting, collaboration and developer handoff.",
+  "type": "asset-library",
+  "categories": [
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "lottie",
+    "lottie animation",
+    "animated icon",
+    "loading animation",
+    "animation library",
+    "motion graphic",
+    "micro interaction",
+    "free animation",
+    "motion design",
+    "animation editor",
+    "vector animation",
+    "svg animation",
+    "json animation",
+    "dotlottie",
+    "interactive animation",
+    "animation hosting"
+  ],
+  "contains": [
+    "800,000+ free and premium ready-to-use animations",
+    "browse by category (business, festive, health, finance, gaming, 404, ...) and tag (loading, success, ui, loop, ...)",
+    "Lottie Creator and Editor run in the browser; AI tools include Motion Copilot and prompt-to-vector",
+    "no-code state machines for clicks, hovers and data inputs, plus light/dark theming",
+    "runtimes and players for web, iOS, Android and React Native; plugins for After Effects, Figma, Webflow and Canva",
+    "hosting, embeds, asset management and team workspaces",
+    "600,000+ premium animations; Individual plan $19.99/mo billed annually",
+    "1,100+ animators available for hire; 16M+ users across 280,000+ companies"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,121 @@
+{
+  "id": "github-com-shadcn-ui-ui",
+  "url": "https://github.com/shadcn-ui/ui",
+  "kind": "repo",
+  "hints_hash": "d6283782ee7e84c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/shadcn-ui/ui/blob/HEAD/README.md",
+      "title": "shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://ui.shadcn.com/docs",
+      "title": "Introduction - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn/ui",
+  "summary": "MIT-licensed React component collection added to projects as copy-paste code or shadcn CLI registry items from the docs site.",
+  "description": "The source repository of shadcn/ui: composable, accessible React components (accordion, dialog, table, sidebar, tooltip ...) that you add to your project as code you own, installed with the shadcn CLI from the docs site. The docs also cover installation, theming, charts, blocks, typeset, the registry format and agent skills.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "form",
+    "input",
+    "otp-input",
+    "menubar",
+    "modal",
+    "navbar",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "loader",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip",
+    "chat"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn ui",
+    "react component",
+    "copy paste",
+    "component registry",
+    "tailwind css",
+    "radix ui",
+    "base ui",
+    "accessible component",
+    "design system",
+    "cli",
+    "typescript",
+    "nextjs",
+    "open source",
+    "headless component",
+    "theming",
+    "data table",
+    "chart"
+  ],
+  "contains": [
+    "60+ documented components from accordion to tooltip and typography",
+    "components are added as source code via the shadcn CLI",
+    "defines the shadcn registry format other registries publish to",
+    "MIT-licensed; works with React, Next.js, Vite, Astro, Laravel",
+    "docs cover installation, theming, CLI, registry, charts and blocks",
+    "125k GitHub stars shown on the docs site"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "base-ui"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcn-ui/ui",
+    "docs": "https://ui.shadcn.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

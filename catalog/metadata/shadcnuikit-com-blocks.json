@@ -1,0 +1,121 @@
+{
+  "id": "shadcnuikit-com-blocks",
+  "url": "https://shadcnuikit.com/blocks",
+  "kind": "page",
+  "hints_hash": "0d292d0d911e70ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T12:40:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcnuikit.com/blocks",
+      "title": "Shadcn Blocks: 550+ Free & Premium UI Blocks",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn UI Blocks",
+  "summary": "Library of 550+ ready-made shadcn/ui blocks and page sections for landing pages, online stores and dashboards.",
+  "description": "A library of production-ready shadcn/ui blocks: complete page sections and app screens built with React and Tailwind CSS, grouped into marketing, ecommerce and dashboard categories. Preview each block live, then copy the code or install it with the shadcn CLI; free blocks plus an All Access plan that unlocks everything.",
+  "type": "block-library",
+  "elements": [
+    "hero",
+    "navbar",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "stats",
+    "team",
+    "contact",
+    "changelog",
+    "empty-state",
+    "sidebar",
+    "dashboard",
+    "table",
+    "chart",
+    "card",
+    "calendar",
+    "kanban",
+    "timeline",
+    "map",
+    "dropdown",
+    "modal",
+    "drawer",
+    "form",
+    "chat",
+    "prompt-input"
+  ],
+  "variants": {
+    "navbar": [
+      "dropdown",
+      "mobile",
+      "with-search"
+    ],
+    "footer": [
+      "newsletter",
+      "social"
+    ],
+    "features": [
+      "steps"
+    ]
+  },
+  "keywords": [
+    "shadcn",
+    "shadcn block",
+    "block library",
+    "page section",
+    "hero section",
+    "pricing table",
+    "navbar",
+    "footer",
+    "testimonials",
+    "dashboard",
+    "admin dashboard",
+    "ecommerce",
+    "checkout",
+    "chart",
+    "data table",
+    "form",
+    "landing page",
+    "tailwind",
+    "react",
+    "copy paste",
+    "shadcn registry"
+  ],
+  "contains": [
+    "550+ blocks across marketing, ecommerce and dashboard groups",
+    "per-category counts (26 hero sections, 20 pricing tables, 15 navbars, 70 charts)",
+    "936 registry items in the shadcn format",
+    "live previews on desktop, tablet and mobile",
+    "copy the code or install with the shadcn CLI",
+    "MCP server and page builder for AI editors",
+    "free blocks plus paid All Access"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "shadcnuikit-com"
+  },
+  "confidence": 0.9
+}

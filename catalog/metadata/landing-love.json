@@ -1,0 +1,105 @@
+{
+  "id": "landing-love",
+  "url": "https://landing.love",
+  "kind": "site",
+  "hints_hash": "08cc67efe31eb038",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:33:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://landing.love/llms.txt",
+      "title": "landing.love",
+      "status": null
+    },
+    {
+      "url": "https://landing.love",
+      "title": "landing.love — Best Landing Page Design Inspiration",
+      "status": 200
+    },
+    {
+      "url": "https://www.landing.love/categories",
+      "title": "Website Design Inspiration by Category — landing.love",
+      "status": 200
+    },
+    {
+      "url": "https://www.landing.love/about",
+      "title": "About — landing.love",
+      "status": 200
+    },
+    {
+      "url": "https://www.landing.love/collection",
+      "title": "Sites by Tech: GSAP, WebGL, Three.js — landing.love",
+      "status": 200
+    },
+    {
+      "url": "https://www.landing.love/categories/ai",
+      "title": "AI Website Design: 55 Best Examples — landing.love",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "landing.love",
+  "summary": "Gallery of 2,150+ landing page and website designs, each captured as a full-page video recording instead of a screenshot.",
+  "description": "Curated showcase of landing pages and websites, recorded as full-page videos that show the scroll and animation a still screenshot cannot. Every entry links to the live site, credits the studio and is filed by category (portfolio, 3D, SaaS, eCommerce …), style, platform and year; 103 sites keep older captures so a redesign can be compared over time.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "motion"
+  ],
+  "elements": [
+    "3d",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "landing page",
+    "website design inspiration",
+    "animation website",
+    "full page video",
+    "website showcase",
+    "3d website",
+    "horizontal scroll",
+    "webgl",
+    "three.js",
+    "gsap",
+    "scroll animation",
+    "portfolio website",
+    "saas landing page",
+    "agency website",
+    "minimal design",
+    "design studio",
+    "website redesign",
+    "website gallery",
+    "design inspiration",
+    "ecommerce website"
+  ],
+  "contains": [
+    "2,150+ landing page designs recorded as full-page videos",
+    "48 category terms, 4 style terms, 3 platform terms, 3 collections, 103 version entries",
+    "103 sites re-recorded after redesigns, with older captures kept",
+    "filters: category, style, platform, collection, year",
+    "12 credited design studios and authors",
+    "tech collections: GSAP 191, WebGL 134, ThreeJS 74 sites",
+    "entries link the live site, studio credit and written notes"
+  ],
+  "formats": [
+    "video",
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

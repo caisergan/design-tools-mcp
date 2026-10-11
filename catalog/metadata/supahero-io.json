@@ -1,0 +1,30 @@
+{
+  "id": "supahero-io",
+  "url": "https://supahero.io",
+  "kind": "site",
+  "hints_hash": "7ef59841b121410b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://supahero.io", "title": "Supahero - Website hero section library", "status": 200},
+    {"url": "https://supahero.io/templates", "title": "Framer Templates - Supahero", "status": 200},
+    {"url": "https://supahero.io/pricing", "title": "Pricing - Supahero", "status": 200},
+    {"url": "https://supahero.io/tools", "title": "Useful Tools - Supahero", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Supahero",
+  "summary": "Library of 573 website hero sections, plus a Framer templates directory and a design tools directory.",
+  "description": "Curated collection of hero sections from live websites, each linked to its original page. Also hosts directories of Framer templates and of useful design, development and marketing tools. Advertising placements are sold on the pricing page; the site states it is now part of screensdesign.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["hero"],
+  "keywords": ["hero section", "hero", "landing page", "above the fold", "website header", "framer template", "design inspiration", "website design", "tools directory", "screenshot"],
+  "contains": ["573 hero section examples from live websites", "Framer template directory", "tools directory for design, development and marketing", "every entry links to the original site", "advertising spots: $79-$279 per 30 days"],
+  "formats": ["screenshots", "links", "templates"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

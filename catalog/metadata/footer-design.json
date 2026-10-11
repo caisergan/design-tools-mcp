@@ -1,0 +1,29 @@
+{
+  "id": "footer-design",
+  "url": "https://footer.design",
+  "kind": "site",
+  "hints_hash": "de5fbe2107670d3e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/llms.txt", "title": "Footer", "status": null},
+    {"url": "https://footer.design", "title": "Footer — The only footer gallery on earth.", "status": 200},
+    {"url": "https://www.footer.design/browse", "title": "Footer | Browse — The only footer gallery on earth.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Footer",
+  "summary": "Gallery of 695 website footer designs, filterable by type and visual style.",
+  "description": "Curated gallery of website footers from live sites, each linked to the original website. Browse by type (industry and site kind) and by style categories such as Typographic, Small Type, Illustrative, Grid, Flat, Animated, Cards, Bright, Dark, Large Type and Bold. Created by NOOON Studio for designers and developers.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["footer"],
+  "keywords": ["footer", "footer design", "website footer", "footer inspiration", "dark mode footer", "animated footer", "grid footer", "typographic footer", "footer gallery", "web design", "landing page", "site footer"],
+  "contains": ["695 footer examples from live websites", "style filters: Typographic, Small Type, Illustrative, Grid, Flat, Animated, Cards, Bright, Dark, Large Type, Bold", "type filters by industry (SaaS, agency, e-commerce, portfolio …)", "every entry links to the original website", "submit-a-footer form", "65 pages of entries"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

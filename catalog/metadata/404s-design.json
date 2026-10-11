@@ -1,0 +1,29 @@
+{
+  "id": "404s-design",
+  "url": "https://404s.design",
+  "kind": "site",
+  "hints_hash": "38a0cf5a202496db",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://404s.design/llms.txt", "title": "llms.txt - AI and LLM Guidelines for 404s.design", "status": null},
+    {"url": "https://404s.design", "title": "404s — A Curated Gallery of Creative Error Page Designs", "status": 200},
+    {"url": "https://www.404s.design/about", "title": "Where joy & errors meet", "status": 200}
+  ],
+  "status": "ok",
+  "name": "404s",
+  "summary": "Gallery of 247 creative 404 error pages from live websites, with style, interaction and industry filters.",
+  "description": "Curated collection of creative error page designs from real websites, each linking to the live 404 page. Entries can be filtered by style (dark, brutalist, glitchy, minimal, typographic …), interaction (animated, custom cursor, game, scroll-driven) and industry. Keyboard shortcuts switch to a grid view or shuffle the gallery.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["404"],
+  "keywords": ["404", "404 page", "error page", "not found page", "error page design", "creative 404", "404 inspiration", "web design", "glitch", "custom cursor", "minimal", "game"],
+  "contains": ["247 error page examples from live websites", "16 style filters incl. 3D, brutalist, glitchy, minimal, retro, typographic", "interaction filters: Animated, Custom Cursor, Game, Hover Effects, Interactive, Scroll-driven", "industry filters: Agency / Studio, E-commerce, Entertainment, Fintech, Media, Non-profit, Portfolio, Tech / SaaS", "keyboard shortcuts: grid [g], surprise me [s]", "every entry links to the live error page"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

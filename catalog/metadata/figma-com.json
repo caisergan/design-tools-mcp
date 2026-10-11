@@ -1,0 +1,44 @@
+{
+  "id": "figma-com",
+  "url": "https://figma.com",
+  "kind": "site",
+  "hints_hash": "ba74188e85221d96",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:46Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://figma.com", "title": "Figma: The collaborative canvas for design, code, and AI", "status": 200 },
+    { "url": "https://www.figma.com/fonts", "title": "Font Finder & Free Font Library | Figma", "status": 200 },
+    { "url": "https://www.figma.com/pricing", "title": "Plans & Pricing | Figma", "status": 200 },
+    { "url": "https://www.figma.com/templates", "title": "Explore 300+ free design and white board templates | Figma", "status": 200 },
+    { "url": "https://www.figma.com/fonts/oi", "title": "Oi Font | Figma", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Figma",
+  "summary": "Collaborative browser-based design canvas for UI, prototyping, whiteboarding, slides and developer handoff, with AI agent features.",
+  "description": "The canvas where design, code and AI come together: Figma Design, Dev Mode, FigJam whiteboards, Slides, Draw, Motion, Sites and AI workflows (Figma agent, Figma Make) share one workspace with real-time collaboration. Includes a free Starter plan, a font library of 1,648 fonts, 300+ team templates and the Figma community with 1,000+ more.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": [
+    "design tool", "ui design", "ux design", "prototyping", "wireframe",
+    "design system", "design handoff", "collaboration", "whiteboard", "presentation",
+    "website design", "mobile app design", "ai design agent", "template", "ui kit",
+    "font library", "dev mode"
+  ],
+  "contains": [
+    "products: Figma Design, Make, Draw, Dev Mode, FigJam, Slides, Motion, Sites, Buzz",
+    "free Starter plan; Professional full seat $16/mo with 3,000 AI credits/mo",
+    "font library with 1,648 fonts across Sans Serif, Serif, Monospace, Script, Slab and Symbols",
+    "300+ free templates from the Figma team; 1,000+ templates on the Figma community",
+    "template categories: UI kits, websites, mobile apps, wireframes, illustrations, portfolios, icons",
+    "AI agent adds motion, documents design systems and implements feedback",
+    "95% of the Fortune 500 uses Figma (March 2025 data)"
+  ],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cta-gallery",
+  "url": "https://cta.gallery",
+  "kind": "site",
+  "hints_hash": "d6fe7b46d3296f87",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cta.gallery", "title": "CTA.gallery | The Best Call-to-Action Inspiration for Designers", "status": 200},
+    {"url": "https://www.cta.gallery/templates", "title": "Free High-Quality Framer Website Templates for Fast Website Building", "status": 200},
+    {"url": "https://www.cta.gallery/about", "title": "About CTA.gallery | The Leading Resource for CTA Design Inspiration", "status": 200},
+    {"url": "https://www.cta.gallery/categories", "title": "CTA Categories | Buttons, Forms, Modals, and More", "status": 200},
+    {"url": "https://www.cta.gallery/categories/form", "title": "Best CTA Designs for Form | Call-to-Action Examples", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CTA.gallery",
+  "summary": "Gallery of 504 real-world call-to-action sections, filterable by category and industry.",
+  "description": "Curated gallery of call-to-action designs from live websites, organised into eight categories: Button, Call-to-Buy, Download, Form, Modal / Pop-up, Navigation, Newsletter and Pricing / Subscription, with industry and mode filters. Includes free Framer templates, CTA writing tips and a submit form.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["cta", "button", "form", "modal", "pricing"],
+  "keywords": ["call to action", "cta", "cta design", "button", "form", "modal", "popup", "newsletter", "pricing", "sign up", "conversion", "landing page", "design inspiration", "framer template", "website section"],
+  "contains": ["504 CTA examples from live websites", "8 categories: Button, Call-to-Buy, Download, Form, Modal / Pop-up, Navigation, Newsletter, Pricing / Subscription", "filter by industry and mode", "free Framer templates by Webestica", "CTA writing tips", "submit-a-CTA form"],
+  "formats": ["screenshots", "links", "templates"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

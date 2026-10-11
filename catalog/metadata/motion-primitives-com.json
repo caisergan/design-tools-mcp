@@ -1,0 +1,128 @@
+{
+  "id": "motion-primitives-com",
+  "url": "https://motion-primitives.com",
+  "kind": "site",
+  "hints_hash": "2d52cf6fb2b0a57f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:37:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://motion-primitives.com",
+      "title": "Motion-Primitives - UI kit to make beautiful, animated interfaces, faster.",
+      "status": 200
+    },
+    {
+      "url": "https://motion-primitives.com/docs",
+      "title": "Motion-Primitives - UI kit to make beautiful, animated interfaces, faster.",
+      "status": 200
+    },
+    {
+      "url": "https://motion-primitives.com/docs/text-effect",
+      "title": "Text Effect - Motion-Primitives",
+      "status": 200
+    },
+    {
+      "url": "https://motion-primitives.com/docs/infinite-slider",
+      "title": "Infinite Slider - Motion-Primitives",
+      "status": 200
+    },
+    {
+      "url": "https://motion-primitives.com/docs/transition-panel",
+      "title": "Transition Panel - Motion-Primitives",
+      "status": 200
+    },
+    {
+      "url": "https://motion-primitives.com/docs/installation",
+      "title": "Installation - Motion-Primitives",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ibelick/motion-primitives/main/README.md",
+      "title": "Motion-Primitives",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Motion-Primitives",
+  "summary": "Open-source React UI kit of 23 copy-paste animated components built with Motion and Tailwind CSS.",
+  "description": "Reusable animated components for React and Next.js: text effects (loop, morph, roll, scramble, shimmer), animated backgrounds, infinite slider, carousel, dock, cursor, dialog, accordion, disclosure, in-view animations, transition panel, number animations, glow effect and image comparison. Each component has docs with examples and a component API; add it with a CLI command or copy the code manually. Open source under the MIT license, currently in beta.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "accordion",
+    "background",
+    "carousel",
+    "cursor",
+    "dock",
+    "marquee",
+    "modal",
+    "scroll-effect",
+    "tabs",
+    "text-effect"
+  ],
+  "keywords": [
+    "animated component",
+    "motion",
+    "framer motion",
+    "react",
+    "nextjs",
+    "tailwind css",
+    "copy paste component",
+    "text animation",
+    "text effect",
+    "shimmer text",
+    "scramble text",
+    "text morph",
+    "animated background",
+    "infinite slider",
+    "carousel",
+    "dock",
+    "dialog",
+    "accordion",
+    "disclosure",
+    "cursor",
+    "image comparison",
+    "open source",
+    "ui kit"
+  ],
+  "contains": [
+    "23 animated components, open source, in beta",
+    "text effects: text effect, loop, morph, roll, scramble, shimmer, shimmer wave",
+    "UI components: accordion, disclosure, carousel, cursor, dialog, dock, transition panel, image comparison",
+    "effects: animated background, animated group, border trail, in view, infinite slider, glow",
+    "numbers: animated number, sliding number",
+    "docs give examples and a component API for each component",
+    "install with a CLI command or copy the code manually",
+    "built with Motion and Tailwind CSS, icons via Lucide"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "lucide"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ibelick/motion-primitives",
+    "docs": "https://motion-primitives.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

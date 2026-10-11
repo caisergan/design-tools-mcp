@@ -1,0 +1,108 @@
+{
+  "id": "transitions-dev",
+  "url": "https://transitions.dev",
+  "kind": "site",
+  "hints_hash": "541a10c4f7ea2b05",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:37:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://transitions.dev",
+      "title": "Transitions.dev: UI transitions for AI agents",
+      "status": 200
+    },
+    {
+      "url": "https://transitions.dev/library.html",
+      "title": "Library - Transitions.dev",
+      "status": 200
+    },
+    {
+      "url": "https://transitions.dev/pro.html",
+      "title": "Transitions Pro: The essential UI transitions for web apps",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Transitions.dev",
+  "summary": "Library of 43+ crafted UI transitions with copy-ready code, plus a motion skill and motion-fixing agent for coding agents.",
+  "description": "Production-ready UI transitions for web apps — card resize, number pop-in, badges, dropdowns, modals, text swaps, tabs, shimmer, skeleton loaders and more — as copy-paste snippets (React, TypeScript, Next.js) or as a skill that installs into coding agents (Claude Code, Cursor, Codex). A Builder remixes components with AI credits, and the Transitions Motion Agent scans a codebase, scores its motion and opens fix pull requests. Free tier; Pro plans unlock the full library and Pro skill.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "loader",
+    "text-effect",
+    "card",
+    "toast",
+    "dropdown",
+    "button",
+    "badge",
+    "modal",
+    "avatar",
+    "input",
+    "tabs",
+    "accordion",
+    "ai-agent-ui"
+  ],
+  "keywords": [
+    "ui transition",
+    "animation",
+    "micro interaction",
+    "motion",
+    "css transition",
+    "copy paste",
+    "code snippet",
+    "agent skill",
+    "claude code",
+    "cursor",
+    "codex",
+    "react",
+    "typescript",
+    "nextjs",
+    "shimmer text",
+    "skeleton loader",
+    "toast",
+    "modal",
+    "dropdown",
+    "tabs",
+    "builder",
+    "motion agent",
+    "accessibility"
+  ],
+  "contains": [
+    "43+ production-ready transitions with copy-ready snippets",
+    "transitions include card resize, number pop-in, notification badge, text swap, menu dropdown, modal open close",
+    "more: confetti burst, panel reveal, icon swap, success check, error shake, input clear, skeleton, shimmer text",
+    "free skill for Claude Code, Cursor and Codex",
+    "free Motion Agent: unlimited scans, a motion score on every pull request, 10 fixes per month",
+    "Builder makes and remixes components with 100 AI credits per month on the free plan",
+    "Pro: full library access, Pro skill and the Motion Agent from $12"
+  ],
+  "formats": [
+    "code",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "nextjs"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://transitions.dev/detail.html?doc=introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

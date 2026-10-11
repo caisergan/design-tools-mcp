@@ -1,0 +1,152 @@
+{
+  "id": "www-shadcnblocks-com",
+  "url": "https://www.shadcnblocks.com",
+  "kind": "site",
+  "hints_hash": "11cabd8467eabb12",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.shadcnblocks.com",
+      "title": "Shadcnblocks shadcn/ui blocks & components",
+      "status": 200
+    },
+    {
+      "url": "https://www.shadcnblocks.com/docs",
+      "title": "Documentation - Shadcnblocks.com",
+      "status": 200
+    },
+    {
+      "url": "https://www.shadcnblocks.com/blocks",
+      "title": "Shadcn Blocks - Extra blocks for Shadcn UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.shadcnblocks.com/pricing",
+      "title": "Pricing - Shadcnblocks.com",
+      "status": 200
+    },
+    {
+      "url": "https://www.shadcnblocks.com/faq",
+      "title": "FAQ - Shadcnblocks.com",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcnblocks",
+  "summary": "Paid shadcn/ui library of 2,150 page blocks and 2,151 components, with templates, themes, Figma and admin kits.",
+  "description": "A premium shadcn/ui registry of page blocks and components built with React and Tailwind. Blocks cover marketing, dashboard, eCommerce and app surfaces (hero, feature, pricing, navbar, footer, data tables, charts ...) and install via the shadcn CLI, copy-paste or the shadcn MCP. Extras: Next.js and Astro templates, 39 themes, a Figma kit, a 219-page admin dashboard, a page builder and an IDE extension.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "components"
+  ],
+  "elements": [
+    "features",
+    "hero",
+    "bento-grid",
+    "button",
+    "card",
+    "form",
+    "list",
+    "select",
+    "chart",
+    "table",
+    "pricing",
+    "modal",
+    "navbar",
+    "footer",
+    "cta",
+    "faq",
+    "testimonials",
+    "logo-cloud",
+    "stats",
+    "dashboard",
+    "sidebar",
+    "accordion",
+    "alert",
+    "badge",
+    "carousel",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "input",
+    "marquee",
+    "pagination",
+    "popover",
+    "progress",
+    "slider",
+    "toast",
+    "loader",
+    "switch",
+    "tabs"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn block",
+    "shadcn ui",
+    "tailwind",
+    "react",
+    "block library",
+    "landing page",
+    "hero section",
+    "pricing section",
+    "navbar",
+    "footer",
+    "dashboard",
+    "admin dashboard",
+    "ecommerce",
+    "figma kit",
+    "template",
+    "theme",
+    "page builder",
+    "vscode extension",
+    "cli",
+    "copy paste",
+    "marketing site",
+    "saas"
+  ],
+  "contains": [
+    "2,150 blocks across marketing, app and eCommerce categories",
+    "2,151 components built on shadcn/ui",
+    "21 Next.js and Astro templates",
+    "39 themes installed as CSS variables",
+    "Figma kit with all shadcn/ui components and 579 block designs",
+    "219-page Next.js admin dashboard kit with six apps",
+    "page builder, IDE extension and shadcn MCP support",
+    "plans: Pro $149, Premium $299, Elite $399 (one-time)"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "templates",
+    "figma-file"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "astro",
+    "tailwind",
+    "radix",
+    "base-ui",
+    "react-aria"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://www.shadcnblocks.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

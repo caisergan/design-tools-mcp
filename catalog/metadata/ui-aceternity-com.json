@@ -1,0 +1,140 @@
+{
+  "id": "ui-aceternity-com",
+  "url": "https://ui.aceternity.com",
+  "kind": "site",
+  "hints_hash": "911297087372c8a4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:35:20Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.aceternity.com/llms.txt",
+      "title": "Aceternity UI Documentation",
+      "status": null
+    },
+    {
+      "url": "https://ui.aceternity.com",
+      "title": "Aceternity UI — React & Tailwind CSS Component Library",
+      "status": 200
+    },
+    {
+      "url": "https://ui.aceternity.com/guides",
+      "title": "Guides | Best React Components & Templates Comparison",
+      "status": 200
+    },
+    {
+      "url": "https://ui.aceternity.com/blocks",
+      "title": "React UI Blocks for Next.js | Aceternity UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.aceternity.com/pricing",
+      "title": "Pricing | Aceternity UI All-Access",
+      "status": 200
+    },
+    {
+      "url": "https://ui.aceternity.com/templates",
+      "title": "Next.js & React Landing Page Templates | Aceternity UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Aceternity UI",
+  "summary": "Library of 112+ animated React components, 170 landing page blocks and 17 Next.js templates built with Tailwind CSS and Motion.",
+  "description": "Copy-paste components and page sections for React and Next.js: navigation, hero sections, cards, background effects, text effects and utility components, plus ready-made blocks (logo clouds, bento grids, CTAs, testimonials, team, empty states, footers) and landing page templates. Free components install from the shadcn registry or by copy-paste; the paid All-Access plan adds 200+ premium blocks and the full template set. Ships JSON API, llms-full.txt and AI-ready prompts for coding agents.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion",
+    "sections"
+  ],
+  "elements": [
+    "background",
+    "card",
+    "features",
+    "hero",
+    "testimonials",
+    "navbar",
+    "text-effect",
+    "3d",
+    "bento-grid",
+    "form",
+    "pricing",
+    "scroll-effect",
+    "logo-cloud",
+    "cta",
+    "team",
+    "empty-state",
+    "footer",
+    "faq",
+    "carousel",
+    "contact"
+  ],
+  "variants": {
+    "cta": [
+      "centered"
+    ]
+  },
+  "keywords": [
+    "animated component",
+    "react component",
+    "tailwind",
+    "framer motion",
+    "nextjs",
+    "landing page",
+    "hero section",
+    "background effect",
+    "text effect",
+    "card",
+    "bento grid",
+    "navbar",
+    "pricing section",
+    "testimonials",
+    "template",
+    "copy paste component",
+    "shadcn registry",
+    "block",
+    "mcp server",
+    "typescript",
+    "3d component",
+    "dark mode"
+  ],
+  "contains": [
+    "112+ UI components, 170 pre-built blocks, 1 custom hook, 17 templates, 23 Pro components",
+    "blocks: heroes, shaders, logo clouds, bento grids, CTA, testimonials, team, empty states, pricing, navbars, footers",
+    "shadcn registry with 278 items",
+    "free components plus All-Access at $199 lifetime or $169 per year",
+    "AI resources: JSON API, llms-full.txt, AI recommendations page, prompts for Lovable, V0, Acebuilder",
+    "Tailwind CSS v4 compatible with TypeScript support"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "templates",
+    "api",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "framer-motion",
+    "tanstack-start"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://ui.aceternity.com/components/install-nextjs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,107 @@
+{
+  "id": "uiverse-io",
+  "url": "https://uiverse.io",
+  "kind": "site",
+  "hints_hash": "5e1a000b37275df2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uiverse.io",
+      "title": "Uiverse | The Largest Library of Open-Source UI elements",
+      "status": 200
+    },
+    {
+      "url": "https://uiverse.io/elements",
+      "title": "4488 UI elements: CSS & Tailwind",
+      "status": 200
+    },
+    {
+      "url": "https://uiverse.io/ui/card-components",
+      "title": "Card Components in CSS & Tailwind | Uiverse",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/uiverse-io/galaxy/main/LICENSE",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Uiverse",
+  "summary": "Community library of 7,000+ free open-source UI elements to copy as HTML/CSS, Tailwind, React or Figma.",
+  "description": "Community-made UI elements — buttons, loaders, cards, checkboxes, toggle switches, inputs, forms and tooltips — with source you copy as HTML/CSS, Tailwind or React, or paste into Figma. Everything is free for personal and commercial use; browse by tag, type or use case, follow creator profiles, take part in challenges and read the blog. The whole library is also published on GitHub as uiverse-io/galaxy.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "button",
+    "loader",
+    "card",
+    "checkbox",
+    "switch",
+    "input",
+    "background",
+    "form",
+    "tooltip"
+  ],
+  "keywords": [
+    "css component",
+    "tailwind component",
+    "html css snippet",
+    "copy paste component",
+    "ui element",
+    "button",
+    "loader",
+    "card",
+    "checkbox",
+    "toggle switch",
+    "radio button",
+    "input",
+    "form",
+    "tooltip",
+    "pattern",
+    "open source",
+    "free",
+    "community",
+    "figma",
+    "react",
+    "ui library",
+    "spinner",
+    "animation"
+  ],
+  "contains": [
+    "7,449 community-made UI elements",
+    "copy as HTML/CSS, Tailwind, React, or paste into Figma",
+    "100% free for personal and commercial use",
+    "384,786 contributors to the community",
+    "categories: buttons, checkboxes, toggle switches, cards, loaders, inputs, radio buttons, forms, patterns, tooltips",
+    "creator profiles, community challenges and a blog",
+    "uiverse-io/galaxy, the library on GitHub"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "html",
+    "css",
+    "tailwind",
+    "react"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/uiverse-io/galaxy",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,134 @@
+{
+  "id": "kokonutui-com",
+  "url": "https://kokonutui.com",
+  "kind": "site",
+  "hints_hash": "2e86d9aa20f39664",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://kokonutui.com/llms.txt",
+      "title": "KokonutUI",
+      "status": null
+    },
+    {
+      "url": "https://kokonutui.com",
+      "title": "KokonutUI - Free Open Source UI Components for React and Tailwind CSS",
+      "status": 200
+    },
+    {
+      "url": "https://kokonutui.com/docs",
+      "title": "Installation | KokonutUI",
+      "status": 200
+    },
+    {
+      "url": "https://kokonutui.com/docs/mcp",
+      "title": "MCP Server | KokonutUI",
+      "status": 200
+    },
+    {
+      "url": "https://kokonutui.com/docs.md",
+      "title": "Installation",
+      "status": 200
+    },
+    {
+      "url": "https://kokonutui.com/docs/mcp.md",
+      "title": "MCP Server",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/LICENSE",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "KokonutUI",
+  "summary": "Free open-source library of 100+ animated React and Tailwind CSS components, installable from a shadcn registry.",
+  "description": "Open-source UI components for React and Next.js built with Tailwind CSS and Motion: backgrounds, cards, navigation, inputs, AI chat pieces, text effects, buttons and micro-interactions. Each component has a live preview and a Markdown source page with its full code and a shadcn CLI install command under the @kokonutui namespace; the collection also works through the shadcn MCP server so coding agents can browse and install it. A paid Kokonut UI Pro offers a further component set.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "background",
+    "card",
+    "carousel",
+    "command-palette",
+    "drawer",
+    "dropdown",
+    "file-upload",
+    "hero",
+    "loader",
+    "navbar",
+    "prompt-input",
+    "tabs",
+    "text-effect",
+    "button"
+  ],
+  "keywords": [
+    "react component",
+    "tailwind css",
+    "nextjs",
+    "motion animation",
+    "animated component",
+    "shadcn registry",
+    "copy paste component",
+    "free component",
+    "open source",
+    "card",
+    "background",
+    "navbar",
+    "drawer",
+    "text animation",
+    "shimmer text",
+    "file upload",
+    "prompt input",
+    "ai chat input",
+    "command palette",
+    "bento grid",
+    "mcp server",
+    "liquid glass",
+    "particle button",
+    "loader"
+  ],
+  "contains": [
+    "100+ free open-source components with live previews",
+    "sections: templates, backgrounds, cards, navigation, inputs, AI, texts, buttons",
+    "installs with the shadcn CLI via the @kokonutui namespace or registry URL",
+    "component pages link Markdown source with install command and full code",
+    "shadcn MCP server support for Claude Code, Cursor, VS Code, Codex",
+    "7 templates: Agenta, Lume, Sonae, AI, Futur, Postly, Startup",
+    "paid Kokonut UI Pro with 100+ additional components"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "shadcn-ui"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/kokonut-labs/kokonutui",
+    "docs": "https://kokonutui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

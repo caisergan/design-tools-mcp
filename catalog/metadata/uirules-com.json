@@ -1,0 +1,103 @@
+{
+  "id": "uirules-com",
+  "url": "https://uirules.com",
+  "kind": "site",
+  "hints_hash": "0a54de15ec50b9fa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uirules.com/llms.txt",
+      "title": "UI Rules",
+      "status": null
+    },
+    {
+      "url": "https://uirules.com",
+      "title": "UI Rules: Brand Guidelines for AI Tools",
+      "status": 200
+    },
+    {
+      "url": "https://uirules.com/docs.md",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://uirules.com/pricing",
+      "title": "Pricing: Starter, Pro, and Team plans – UI Rules",
+      "status": 200
+    },
+    {
+      "url": "https://uirules.com/faqs",
+      "title": "Frequently asked questions – UI Rules",
+      "status": 200
+    },
+    {
+      "url": "https://uirules.com/docs",
+      "title": "Introduction – UI Rules Docs",
+      "status": 200
+    },
+    {
+      "url": "https://uirules.com/terms",
+      "title": "Terms of Service – UI Rules",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI Rules",
+  "summary": "Workspace that stores your brand's design rules and tokens and serves them to AI coding tools over MCP.",
+  "description": "UI Rules is a workspace for brand and design-system guidelines: author rules with Do/Don't/Caution/Info markers, manage style tokens (color, typography, radius, shadow, spacing, sizing) and connect AI tools such as Cursor, Claude Code, v0, Lovable, Codex and Figma Make over MCP so generated UI follows your brand. Brand styles can be imported from Figma variables, CSS themes or shadcn presets.",
+  "type": "tool",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "design system",
+    "brand guideline",
+    "design token",
+    "mcp",
+    "model context protocol",
+    "ai coding tool",
+    "style guide",
+    "ui rule",
+    "design rule",
+    "color token",
+    "typography token",
+    "spacing scale",
+    "shadcn",
+    "figma variable",
+    "brand consistency",
+    "agent"
+  ],
+  "contains": [
+    "free Starter plan; Pro $24/mo with 14-day trial; Team $79/mo",
+    "connects Cursor, Claude Code, v0, Lovable, Codex and Figma Make over MCP",
+    "styles: colors, typography, radius, shadows, sizing, spacing",
+    "rules with Do, Don't, Caution or Info guidance and Required/Recommended/Optional importance",
+    "import tokens from Figma variables, CSS theme or shadcn preset",
+    "Pro bundle: 224 React blocks and 53 React components with guidelines attached"
+  ],
+  "formats": [
+    "api",
+    "docs",
+    "code"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://uirules.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

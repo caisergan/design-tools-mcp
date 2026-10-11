@@ -1,0 +1,168 @@
+{
+  "id": "reui-io",
+  "url": "https://reui.io",
+  "kind": "site",
+  "hints_hash": "821f8ef882007b37",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://reui.io/llms.txt",
+      "title": "ReUI",
+      "status": null
+    },
+    {
+      "url": "https://reui.io",
+      "title": "Free Shadcn UI Components, Blocks, Icons, Templates & MCP - ReUI",
+      "status": 200
+    },
+    {
+      "url": "https://reui.io/docs",
+      "title": "Introduction - ReUI",
+      "status": 200
+    },
+    {
+      "url": "https://reui.io/icons",
+      "title": "Shadcn UI Icons - 667 React & SVG Icons in 4 Styles | ReUI",
+      "status": 200
+    },
+    {
+      "url": "https://reui.io/pricing",
+      "title": "Shadcn Blocks & Icons Pricing - One-Time License - ReUI",
+      "status": 200
+    },
+    {
+      "url": "https://reui.io/blocks",
+      "title": "Shadcn Pro Blocks for React and Tailwind CSS - ReUI",
+      "status": 200
+    },
+    {
+      "url": "https://reui.io/docs/license-setup",
+      "title": "License Setup - ReUI",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/keenthemes/reui/main/README.md",
+      "title": "ReUI | Design-forward shadcn/ui platform with MCP fluency for agents.",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/keenthemes/reui/main/LICENSE.md",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ReUI",
+  "summary": "Shadcn registry with 1,241 free React and Tailwind component examples, 636 pro blocks, 667 icons, 17 templates and an MCP server.",
+  "description": "A shadcn/ui registry: 27 in-house primitives and 1,241 free component examples across 86 categories, plus paid blocks for application, data grid, solutions, eCommerce, marketing and AI surfaces. Also ships 667 icons in 4 styles, full-page templates and a hosted MCP server with an agent skill so coding agents can search and install items directly.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "card",
+    "button",
+    "table",
+    "input",
+    "select",
+    "calendar",
+    "chart",
+    "form",
+    "switch",
+    "timeline",
+    "modal",
+    "stats",
+    "accordion",
+    "badge",
+    "carousel",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "file-upload",
+    "kanban",
+    "navbar",
+    "pagination",
+    "popover",
+    "progress",
+    "sidebar",
+    "loader",
+    "slider",
+    "stepper",
+    "tabs",
+    "toast",
+    "tooltip",
+    "hero",
+    "pricing",
+    "faq",
+    "cta",
+    "dashboard",
+    "chat"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn registry",
+    "react component",
+    "tailwind css",
+    "component library",
+    "block library",
+    "dashboard block",
+    "data grid",
+    "admin dashboard",
+    "ecommerce block",
+    "landing page section",
+    "icon set",
+    "template",
+    "mcp server",
+    "coding agent",
+    "base ui",
+    "radix ui",
+    "copy paste component",
+    "saas ui"
+  ],
+  "contains": [
+    "1,241 free components and examples across 86 categories",
+    "27 in-house primitives (data grid, event calendar, gantt, kanban, filters ...)",
+    "636 pro blocks across 7 groups and 73 categories",
+    "667 icons in outline, solid, duotone and filled styles (2,668 variants)",
+    "17 full-page templates for Next.js, Vite, TanStack Start, Astro and Laravel",
+    "every item installs via the shadcn CLI from the @reui registry",
+    "one-time pricing: free tier, Pro $249, Ultimate $499",
+    "hosted MCP server and agent skill for coding agents"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "templates",
+    "figma-file"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "base-ui",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/keenthemes/reui",
+    "docs": "https://reui.io/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

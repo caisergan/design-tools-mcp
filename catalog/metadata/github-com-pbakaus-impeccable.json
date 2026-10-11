@@ -1,0 +1,29 @@
+{
+  "id": "github-com-pbakaus-impeccable",
+  "url": "https://github.com/pbakaus/impeccable",
+  "kind": "repo",
+  "hints_hash": "52435ae53dd435a8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/pbakaus/impeccable/blob/HEAD/README.md", "title": "Impeccable", "status": null},
+    {"url": "https://raw.githubusercontent.com/pbakaus/impeccable/HEAD/LICENSE", "title": null, "status": 200},
+    {"url": "https://impeccable.style", "title": "Impeccable: The missing design vocabulary for agents", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Impeccable",
+  "summary": "Design guidance for AI coding agents: one skill, 23 commands, live browser iteration and 61 detector rules against AI slop.",
+  "description": "A skill for AI coding agents that adds a shared design vocabulary: /impeccable init records product truth in PRODUCT.md and /impeccable document writes DESIGN.md, while 23 commands (craft, shape, critique, audit, polish, animate, typeset, layout …) shape, review and refine frontend work. A deterministic detector of 61 rules runs without an LLM and is wired into a design hook on UI edits in Claude Code, GitHub Copilot, Codex, Cursor and Grok Build.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["agent skill", "ai coding agent", "design guidance", "design review", "ui audit", "design system", "product md", "design md", "design hook", "frontend design", "accessibility audit", "polish", "critique", "detector rule"],
+  "contains": ["1 skill with 23 commands", "61 deterministic detector rules, no LLM or API key", "install via npx impeccable install or plugin marketplaces", "design hook for Claude Code, Copilot, Codex, Cursor and Grok Build", "Apache-2.0 licensed"],
+  "formats": ["prompts", "cli", "npm-package"],
+  "stack": [],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/pbakaus/impeccable", "docs": "https://impeccable.style", "npm": "impeccable", "figma": null, "parent": null},
+  "confidence": 0.9
+}

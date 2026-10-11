@@ -1,0 +1,117 @@
+{
+  "id": "60fps-design",
+  "url": "https://60fps.design",
+  "kind": "site",
+  "hints_hash": "7fd9eacc459a83ce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://60fps.design/llms.txt",
+      "title": "60fps",
+      "status": null
+    },
+    {
+      "url": "https://60fps.design",
+      "title": "60fps - UI/UX animation inspiration for mobile & web apps",
+      "status": 200
+    },
+    {
+      "url": "https://60fps.design/pro",
+      "title": "60fps PRO: the full library of 2,000+ real iOS interactions",
+      "status": 200
+    },
+    {
+      "url": "https://60fps.design/why",
+      "title": "Why we built 60fps",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "60fps",
+  "summary": "Library of 2,100+ interaction and motion references from real mobile and web apps, with storyboards and an MCP server.",
+  "description": "A curated collection of shot pages, each a short interaction video from a shipped app (Netflix, Revolut, Duolingo, Claude ...) with the app name and tags. Browse by app, gesture, pattern, effect or element; storyboards break sequences down frame by frame and a glossary explains the patterns.",
+  "type": "gallery",
+  "categories": [
+    "motion",
+    "inspiration"
+  ],
+  "elements": [
+    "hero",
+    "drawer",
+    "card",
+    "slider",
+    "3d",
+    "tabs",
+    "button",
+    "loader",
+    "switch",
+    "chat",
+    "chart",
+    "features",
+    "badge",
+    "calendar",
+    "input",
+    "map",
+    "progress",
+    "toast",
+    "tooltip",
+    "carousel",
+    "empty-state",
+    "pricing",
+    "stats"
+  ],
+  "keywords": [
+    "ui animation",
+    "interaction design",
+    "micro interaction",
+    "app animation",
+    "ios interaction",
+    "mobile app design",
+    "motion design",
+    "animation reference",
+    "onboarding flow",
+    "gesture",
+    "transition",
+    "splash screen",
+    "bottom sheet",
+    "loading animation",
+    "app teardown",
+    "frame by frame",
+    "storyboard",
+    "mcp server",
+    "web app animation"
+  ],
+  "contains": [
+    "2,100+ interaction shots from 492 apps",
+    "88 app sites and 83 motion collections",
+    "67 hand-crafted storyboards",
+    "9 out-of-the-box snippets",
+    "filters: gesture, pattern, effect, element, app category",
+    "MCP server for AI tools at $29/month or $75/quarter",
+    "PRO plan $15/month, $150/year or $599 lifetime",
+    "glossary explains gestures, patterns, effects and easings"
+  ],
+  "formats": [
+    "video",
+    "screenshots",
+    "links",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

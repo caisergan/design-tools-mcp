@@ -4,103 +4,27 @@
   "kind": "site",
   "hints_hash": "b6163b0955677dc1",
   "schema_version": 1,
-  "extracted_at": "2026-10-11T11:58:55Z",
-  "extractor": {
-    "agent": "claude-code",
-    "model": "claude-opus-5-5",
-    "prompt": "metadata-v1"
-  },
+  "extracted_at": "2026-10-11T13:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
   "evidence": [
-    {
-      "url": "https://navbar.gallery/llms.txt",
-      "title": "Navbar Gallery",
-      "status": null
-    },
-    {
-      "url": "https://navbar.gallery",
-      "title": "Navbar Gallery – Navigation Design Inspiration",
-      "status": 200
-    },
-    {
-      "url": "https://www.navbar.gallery/browse",
-      "title": "Browse All Categories | Navbar Gallery",
-      "status": 200
-    }
+    {"url": "https://navbar.gallery/llms.txt", "title": "Navbar Gallery", "status": null},
+    {"url": "https://navbar.gallery", "title": "Navbar Gallery – Navigation Design Inspiration", "status": 200},
+    {"url": "https://www.navbar.gallery/browse", "title": "Browse All Categories | Navbar Gallery", "status": 200}
   ],
   "status": "ok",
   "name": "Navbar Gallery",
   "summary": "Gallery of 450+ real-world website navigation bars, tagged by navigation type, visual style and industry.",
-  "description": "Curated screenshots of navbars from live websites; each entry links to the original site and carries navigation-type and style tags. Browse by 8 navigation types, 118 style tags (dark, minimal, animated, brutalist, glassmorphism …) and builder (Framer, Webflow); a blog explains mega menus, sidebars and breadcrumbs.",
+  "description": "Screenshots of navbars from live websites; each entry links to the original site and carries navigation-type and style tags. Covers static, sticky, dropdown, mega menu, sidebar, search bar, announcement bar, full-screen and breadcrumb patterns, with 118 style tags plus collections for Framer and Webflow navbars. Made for designers and developers looking for navigation inspiration.",
   "type": "gallery",
-  "categories": [
-    "sections",
-    "inspiration"
-  ],
-  "elements": [
-    "navbar",
-    "sidebar",
-    "breadcrumbs"
-  ],
-  "variants": {
-    "navbar": [
-      "static",
-      "dropdown",
-      "mega-menu",
-      "sidebar",
-      "with-search",
-      "announcement-bar",
-      "full-screen",
-      "breadcrumbs",
-      "mobile"
-    ]
-  },
-  "keywords": [
-    "navbar",
-    "navigation bar",
-    "navbar inspiration",
-    "navbar design",
-    "navigation design",
-    "website header",
-    "mega menu",
-    "dropdown menu",
-    "flyout menu",
-    "sticky navbar",
-    "sidebar navigation",
-    "search bar",
-    "announcement bar",
-    "full screen menu",
-    "breadcrumb navigation",
-    "mobile navigation",
-    "dark mode navbar",
-    "minimal navbar",
-    "animated navbar",
-    "glassmorphism navbar",
-    "saas navbar",
-    "framer navbar",
-    "webflow navbar",
-    "navbar screenshot"
-  ],
-  "contains": [
-    "450+ navbar screenshots from live websites, each linking to the original site",
-    "8 navigation types: static, dropdown, mega menu, sidebar, search bar, announcement bar, full screen, breadcrumbs",
-    "118 visual style and industry tags",
-    "navbars built with Framer and Webflow",
-    "mobile navigation examples",
-    "blog guides on mega menus, sidebar and breadcrumb navigation"
-  ],
-  "formats": [
-    "screenshots",
-    "links"
-  ],
+  "categories": ["sections", "inspiration"],
+  "elements": ["navbar", "sidebar", "breadcrumbs"],
+  "variants": {"navbar": ["static", "sticky", "dropdown", "mega-menu", "sidebar", "full-screen", "with-search", "announcement-bar", "breadcrumbs", "mobile"]},
+  "keywords": ["navbar", "navigation bar", "mega menu", "dropdown menu", "sticky header", "sidebar navigation", "announcement bar", "full screen menu", "breadcrumb navigation", "search bar", "mobile navigation", "website header", "navigation design", "webflow navbar", "framer navbar", "dark mode navbar", "navbar inspiration", "website navigation"],
+  "contains": ["450+ navbar screenshots from live websites", "filters: navigation type, visual style, industry", "118 visual style tags", "collections for mobile, Webflow and Framer navbars", "every entry links to the original live site", "blog guides on mega menu, sidebar and breadcrumb navigation"],
+  "formats": ["screenshots", "links"],
   "stack": [],
-  "pricing": "unknown",
+  "pricing": "free",
   "license": "unknown",
-  "related": {
-    "repo": null,
-    "docs": null,
-    "npm": null,
-    "figma": null,
-    "parent": null
-  },
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
   "confidence": 0.9
 }

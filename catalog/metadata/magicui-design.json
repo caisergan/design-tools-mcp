@@ -4,11 +4,11 @@
   "kind": "site",
   "hints_hash": "9592616c58f48b5d",
   "schema_version": 1,
-  "extracted_at": "2026-10-11T11:58:55Z",
+  "extracted_at": "2026-10-11T13:30:05Z",
   "extractor": {
-    "agent": "claude-code",
-    "model": "claude-opus-5-5",
-    "prompt": "metadata-v1"
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
   },
   "evidence": [
     {
@@ -27,20 +27,30 @@
       "status": 200
     },
     {
+      "url": "https://magicui.design/showcase",
+      "title": "Magic UI",
+      "status": 200
+    },
+    {
       "url": "https://magicui.design/components",
       "title": "Components | React Components & Templates",
       "status": 200
     },
     {
       "url": "https://magicui.design/docs/mcp",
-      "title": "Magic UI MCP Server",
+      "title": "Magic UI MCP Server | React Components & Templates",
+      "status": 200
+    },
+    {
+      "url": "https://magicui.design/docs/installation",
+      "title": "Installation | React Components & Templates",
       "status": 200
     }
   ],
   "status": "ok",
   "name": "Magic UI",
-  "summary": "Library of 150+ free, open-source animated React components and effects for landing pages, with paid Pro blocks and templates.",
-  "description": "Copy-paste components built with React, TypeScript, Tailwind CSS and Motion, made as a companion to shadcn/ui: text animations, backgrounds and patterns, buttons, device mockups, special effects (beams, borders, confetti, particles) and landing-page pieces such as marquee, bento grid, dock and globe. Installable from its shadcn registry or through its MCP server; Magic UI Pro sells 50+ blocks and templates.",
+  "summary": "150+ free animated React components and effects for landing pages, built with Tailwind CSS and Motion.",
+  "description": "Component library of animated components, text effects, backgrounds and device mocks you copy into an app or install with the shadcn CLI. Documentation covers installation, examples and an MCP server that gives AI-assisted editors access to every component. Free open-source components plus paid Pro blocks and templates.",
   "type": "component-library",
   "categories": [
     "components",
@@ -51,62 +61,47 @@
     "background",
     "button",
     "card",
+    "cursor",
+    "3d",
     "marquee",
     "bento-grid",
     "navbar",
     "dock",
-    "globe",
     "map",
-    "cursor",
-    "3d",
-    "progress",
-    "scroll-effect",
     "hero"
   ],
-  "variants": {
-    "navbar": [
-      "dock"
-    ]
-  },
   "keywords": [
     "animated component",
+    "react component",
+    "tailwind css",
+    "framer motion",
     "text animation",
-    "animated background",
-    "grid pattern",
-    "dot pattern",
+    "background pattern",
+    "shadcn",
+    "landing page",
     "marquee",
-    "bento grid",
     "dock",
     "globe",
-    "shimmer button",
-    "border beam",
-    "confetti",
-    "particle",
-    "device mockup",
-    "number ticker",
-    "typing animation",
-    "theme toggle",
-    "landing page",
+    "bento grid",
     "copy paste component",
-    "shadcn",
-    "react",
     "typescript",
-    "tailwind",
-    "framer motion",
+    "ui library",
     "mcp server",
-    "open source"
+    "free component",
+    "open source component"
   ],
   "contains": [
     "150+ free and open-source animated components and effects",
-    "groups: text animations, backgrounds, buttons, device mocks, special effects, community components",
-    "a shadcn registry (250 items)",
-    "an MCP server that gives AI IDEs the components",
-    "Magic UI Pro: 50+ paid blocks and templates (SaaS, startup, mobile, AI agent, dev tool)",
-    "showcase of sites built with it"
+    "250 shadcn registry items; 176 code items catalogued",
+    "component groups: text animations, backgrounds, buttons, device mocks, special effects",
+    "official MCP server for AI-assisted editors",
+    "paid Magic UI Pro: 50+ blocks and templates",
+    "per-component docs pages with examples"
   ],
   "formats": [
     "code",
     "registry",
+    "cli",
     "docs",
     "templates"
   ],

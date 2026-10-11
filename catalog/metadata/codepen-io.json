@@ -1,0 +1,42 @@
+{
+  "id": "codepen-io",
+  "url": "https://codepen.io",
+  "kind": "site",
+  "hints_hash": "fa0cfff9636d0a20",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:46Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://codepen.io", "title": "CodePen - Online Code Editor For Building & Deploying Websites", "status": 200 },
+    { "url": "https://codepen.io/pricing", "title": "CodePen - PRO Pricing", "status": 200 },
+    { "url": "https://codepen.io/about", "title": "About CodePen", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "CodePen",
+  "summary": "Online code editor and social community for building, sharing and deploying front-end pens and websites.",
+  "description": "Browser-based editor for HTML, CSS and JavaScript with files and folders, compiler blocks for Sass, TypeScript, Tailwind, JSX and ESM, instant preview, version history and real-time collaboration. Public Pens are open source by default and searchable for inspiration, and any Pen can be deployed to a live URL; free tier plus PRO plans from $8/mo.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "online code editor", "front-end playground", "html css javascript", "code sharing",
+    "web development", "live preview", "real-time collaboration", "code deployment",
+    "front-end inspiration", "sass", "typescript", "tailwind", "vue", "web demo", "snippet"
+  ],
+  "contains": [
+    "editor with files and folders, compiler blocks and instant preview",
+    "compiler supports Sass, TypeScript, Tailwind, JSX and ESM modules without setup",
+    "unlimited public Pens, collections and templates; private Pens on PRO",
+    "every save is a version with previews and rollback; realtime and async collaboration",
+    "deploy any Pen to a live URL; custom domains and asset hosting on PRO",
+    "free plan: 3 files per Pen; PRO Starter $8/mo, Developer $12/mo, Super $26/mo",
+    "in-editor diagnostics and CodePen AI",
+    "community Pens are public and open source by default"
+  ],
+  "formats": ["app"],
+  "stack": ["sass", "typescript", "tailwind", "vue"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

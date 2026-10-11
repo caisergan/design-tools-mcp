@@ -1,0 +1,25 @@
+{
+  "id": "ruben-substack-com-p-claude-for-teams",
+  "url": "https://ruben.substack.com/p/claude-for-teams",
+  "kind": "page",
+  "hints_hash": "4b1002e71bcfebc9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T12:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-for-teams", "title": "Claude for teams. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Claude for teams",
+  "summary": "Step-by-step playbook for rolling out Claude across a team in one week, from Projects and prompt templates to company-wide adoption.",
+  "description": "Ruben Hassid's playbook for getting a team to actually use Claude, structured as a five-day plan: set up Projects on Monday, build prompt templates on Tuesday, test for a wow moment on Wednesday, convert one person on Thursday and roll out across the team on Friday. Written for teams that already switched from ChatGPT but never kept AI adoption going.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["claude", "claude project", "ai adoption", "team onboarding", "prompt template", "ai workflow", "ai training", "ai playbook", "productivity", "team tooling"],
+  "contains": ["five-day rollout plan from Projects to team-wide adoption", "covers prompt templates, a test run and converting one champion", "published March 2026 in the How to AI newsletter"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

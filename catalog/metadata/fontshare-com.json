@@ -1,0 +1,33 @@
+{
+  "id": "fontshare-com",
+  "url": "https://fontshare.com",
+  "kind": "site",
+  "hints_hash": "57d2e7305164cbe9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fontshare.com", "title": "Fontshare: Quality Fonts. Free.", "status": 200},
+    {"url": "https://fontshare.com/fonts", "title": "Fontshare: Quality Fonts. Free.", "status": 200},
+    {"url": "https://fontshare.com/faqs", "title": "Fontshare: Quality Fonts. Free.", "status": 200},
+    {"url": "https://fontshare.com/about", "title": "Fontshare: Quality Fonts. Free.", "status": 200},
+    {"url": "https://fontshare.com/licenses", "title": "Fontshare: Quality Fonts. Free.", "status": 200},
+    {"url": "https://fontshare.com/llms.txt", "title": "Fontshare: Quality Fonts. Free.", "status": 200},
+    {"url": "https://api.fontshare.com/v2/fonts", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Fontshare",
+  "summary": "Free fonts service from the Indian Type Foundry (ITF), with a catalogue of 100 typefaces.",
+  "description": "Fontshare is a free fonts service from the Indian Type Foundry (ITF), described as making quality fonts accessible to all. The site renders client-side, so its pages show no readable text; its public API lists the catalogue of 100 typefaces with their OpenType features.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["free font", "typeface", "font catalogue", "font foundry", "font library", "font download", "typography", "font service", "font api"],
+  "contains": ["100 fonts listed by the public API", "free fonts service by the Indian Type Foundry (ITF)", "fonts expose OpenType features such as ligatures, fractions and superiors"],
+  "formats": ["font-files", "api"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

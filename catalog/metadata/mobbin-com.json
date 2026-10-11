@@ -1,0 +1,32 @@
+{
+  "id": "mobbin-com",
+  "url": "https://mobbin.com",
+  "kind": "site",
+  "hints_hash": "59d0aee0e25ade06",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.com/llms.txt", "title": "Mobbin", "status": null},
+    {"url": "https://mobbin.com", "title": "Mobbin — UI & UX design inspiration for mobile & web apps", "status": 200},
+    {"url": "https://mobbin.com/explore", "title": "Explore the best mobile app designs on Mobbin", "status": 200},
+    {"url": "https://mobbin.com/pricing.md", "title": "Mobbin pricing", "status": 200},
+    {"url": "https://mobbin.com/about", "title": "About | Mobbin", "status": 200},
+    {"url": "https://mobbin.com/explore/web", "title": "Explore the best website designs on Mobbin", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mobbin",
+  "summary": "Searchable library of 621,500 screens, flows and sections from real mobile and web apps.",
+  "description": "Design-reference library of screenshots from shipped apps and websites: screens, ordered flows, website sections, animations and UI elements, searchable by platform, product, category and pattern. Free tier with limited browsing; Pro and Team plans add full search, flows and MCP or REST API access for agents and teams. Used by product designers and AI coding agents.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["dashboard", "form", "button", "chat", "carousel", "pricing", "toast", "3d", "banner", "card", "chart", "hero"],
+  "keywords": ["design inspiration", "ui design", "ux research", "app screenshot", "mobile app", "web app", "user flow", "screen", "ui pattern", "design reference", "onboarding", "paywall", "dashboard", "mcp", "ai agent", "product design", "ui element"],
+  "contains": ["621,500 screens, new every week", "browse by apps, sites, screens, flows, animations and UI elements", "free tier; Pro $10-15/month; Team $16-24 per member", "MCP server on Pro, Team and Enterprise; REST API on Team and Enterprise", "Finance+ add-on: 65+ finance apps at $399/month", "search and deep search across products, flows and sections"],
+  "formats": ["screenshots", "links", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

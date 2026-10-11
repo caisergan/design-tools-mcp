@@ -1,0 +1,28 @@
+{
+  "id": "github-com-emilkowalski-skills",
+  "url": "https://github.com/emilkowalski/skills",
+  "kind": "repo",
+  "hints_hash": "b47279e0d202bbed",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/emilkowalski/skills/blob/HEAD/README.md", "title": "Skills For Designers and Engineers", "status": 200},
+    {"url": "https://raw.githubusercontent.com/emilkowalski/skills/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Skills for Designers and Engineers",
+  "summary": "14 agent skills that help coding agents make better UI and animation decisions, from easing curves to design review.",
+  "description": "A set of 14 skills for designers and engineers building user interfaces: emil-design-eng (animation and design advice), animate, animate-expo, review-animations, improve-animations, find-animation-opportunities, animation-vocabulary, apple-design, write-swift, pick-ui-library, prototype, mobile-native, break-ui and ask-sonner. They encode rules for choosing the right easing, duration and properties, auditing motion in a codebase, and stress-testing UI with worst-case data.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "motion"],
+  "elements": [],
+  "keywords": ["agent skill", "ai agent", "animation", "motion design", "easing", "animation curve", "duration", "ui design", "design engineering", "apple design", "react native", "swift", "toast", "prototype", "design review", "mobile web"],
+  "contains": ["14 skills for designers and engineers", "animation, motion and UI design guidance", "based on experience at Vercel and Linear", "MIT licensed"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/emilkowalski/skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,30 @@
+{
+  "id": "uncut-wtf",
+  "url": "https://uncut.wtf",
+  "kind": "site",
+  "hints_hash": "5664f51df26b936f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uncut.wtf", "title": "Welcome to UNCUT.wtf", "status": 200},
+    {"url": "https://uncut.wtf/legal", "title": "Privacy and Terms – UNCUT.wtf, free typeface catalogue", "status": 200},
+    {"url": "https://uncut.wtf/sans-serif/uncut-sans", "title": "Download Uncut Sans – UNCUT.wtf, free typeface catalogue", "status": 200},
+    {"url": "https://uncut.wtf/sans-serif/aspekta", "title": "Download Aspekta – UNCUT.wtf, free typeface catalogue", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UNCUT.wtf",
+  "summary": "Free typeface catalogue of 163 contemporary fonts in sans serif, serif, monospace and display.",
+  "description": "A free typeface catalogue focused on somewhat contemporary type, with 163 fonts grouped as Sans Serif (66), Serif (27), Monospace (23) and Display (47). Each font page lists cuts, variable-font support, classification and license, and the fonts are free to download for commercial and personal projects.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["free font", "typeface", "font catalogue", "typography", "sans serif", "serif", "monospace", "display font", "variable font", "font download", "commercial use", "contemporary type"],
+  "contains": ["163 typefaces: 66 sans serif, 27 serif, 23 monospace, 47 display", "font pages list cuts, variable-font support, classification and license", "free for commercial and personal projects", "SIL Open Font License 1.1 on sampled font pages"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

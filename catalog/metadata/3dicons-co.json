@@ -1,0 +1,40 @@
+{
+  "id": "3dicons-co",
+  "url": "https://3dicons.co",
+  "kind": "site",
+  "hints_hash": "bd54ef8664d77890",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:36:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://3dicons.co", "title": "3dicons - Open Source & Free Premium 3D Icon Library", "status": 200},
+    {"url": "https://3dicons.co/explore", "title": "Explore - 3dicons", "status": 200},
+    {"url": "https://3dicons.co/about", "title": "About - 3dicons", "status": 200},
+    {"url": "https://3dicons.co/collection", "title": "Beautifully Crafted Open Source & Free Premium 3D Icons", "status": 200},
+    {"url": "https://3dicons.co/showcase", "title": "Showcase - 3dicons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "3dicons",
+  "summary": "Library of 1,400+ hand-made 3D icon renders in multiple angles and colors, free under CC0 without attribution.",
+  "description": "A set of hand-made 3D icons modelled in Blender and rendered at different angles and color options by Vijay Verma (@realvjy). Browse and download individual renders or the full V1 pack, use the Figma file and plugin, or edit color and angle online. Collections include V1, Halloween, Social and Christmas; released under CC0, so no attribution is required.",
+  "type": "icon-set",
+  "categories": ["icons", "media"],
+  "elements": [],
+  "keywords": ["3d icon", "3d asset", "icon", "icon set", "open source icon", "free 3d icon", "render", "figma icon", "blender", "png", "no attribution", "cc0", "illustration", "social icon"],
+  "contains": [
+    "1,400+ 3D icon renders by Vijay Verma (@realvjy)",
+    "collections: V1, Halloween, Social, Christmas",
+    "renders in multiple angles and color options",
+    "download as PNG renders, Figma file or plugin",
+    "Blender master files shared for remixing",
+    "edit color and angle online (early access)",
+    "CC0 license, no attribution required",
+    "10m+ downloads"
+  ],
+  "formats": ["png", "figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

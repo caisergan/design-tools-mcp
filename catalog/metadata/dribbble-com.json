@@ -1,0 +1,22 @@
+{
+  "id": "dribbble-com",
+  "url": "https://dribbble.com",
+  "kind": "site",
+  "hints_hash": "68e9b05943810805",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:33:20Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dribbble.com",
+      "title": null,
+      "status": 202
+    }
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

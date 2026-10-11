@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:22:05.659Z",
+  "generated_at": "2026-10-11T13:41:17.363Z",
   "sources": [
     {
       "id": "curated",
@@ -29,21 +29,21 @@
     "llms_txt": 689,
     "skills": 33,
     "by_category": {
-      "design-rules": 131,
-      "components": 799,
-      "motion": 198,
-      "sections": 34,
-      "inspiration": 268,
+      "design-rules": 132,
+      "inspiration": 275,
+      "motion": 204,
+      "sections": 37,
+      "components": 795,
       "color-effects": 103,
-      "registries": 14,
       "dev-ai-tools": 705,
       "fonts": 84,
       "layout": 8,
       "icons": 85,
-      "media": 43,
-      "templates": 89,
+      "media": 44,
+      "templates": 90,
       "learning": 121,
-      "design-tools": 104
+      "registries": 15,
+      "design-tools": 105
     }
   },
   "items": [
@@ -53,9 +53,10 @@
       "url": "https://styles.refero.design",
       "domain": "styles.refero.design",
       "kind": "site",
-      "desc": "DESIGN.md Examples for AI Agents / Refero Styles",
+      "desc": "Library of 2,000+ AI-readable DESIGN.md style records from real product websites, with colors, typography and spacing.",
       "categories": [
-        "design-rules"
+        "design-rules",
+        "inspiration"
       ],
       "mentions": 70,
       "origin": "curated",
@@ -63,7 +64,7 @@
         "curated",
         "x-community"
       ],
-      "about": "Browse a curated DESIGN.md library for AI agents: colors, typography, spacing, components, and design rules from leading product websites.",
+      "about": "Refero Styles (beta) turns real product websites into AI-readable style records: each style has screenshots, color roles, typography, spacing and component notes, plus a DESIGN.md export to use in AI coding tools. Styles are grouped into collections such as dashboards, landing pages, pricing pages, API docs, dark mode and brand-matching prompts, with guides on writing DESIGN.md.",
       "title": "DESIGN.md Examples for AI Agents / Refero Styles",
       "labels": [
         "𝙳𝙴𝚂𝙸𝙶𝙽.𝙼𝙳 files for AI agents",
@@ -74,9 +75,14 @@
       ],
       "note": "AI agent Design .md Files",
       "elements": [
+        "dashboard",
+        "cursor",
+        "pricing",
+        "form",
+        "hero",
         "ai-agent-ui"
       ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {
         "sitemap": {
           "url": "https://styles.refero.design/sitemap.xml",
@@ -90,7 +96,47 @@
         "detail": "home -> 200 | https://styles.refero.design/llms.txt -> 404; https://styles.refero.design/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "variants": {
+        "pricing": [
+          "cards",
+          "comparison-table",
+          "billing-toggle"
+        ]
+      },
+      "keywords": [
+        "design md",
+        "design system",
+        "style reference",
+        "website style",
+        "website screenshot",
+        "color palette",
+        "typography",
+        "spacing",
+        "ui inspiration",
+        "ai agent",
+        "frontend design",
+        "dashboard design",
+        "pricing page design",
+        "landing page design",
+        "api documentation",
+        "dark mode",
+        "design prompt"
+      ],
+      "type": "gallery",
+      "contains": [
+        "2,000+ AI-readable design systems from product websites",
+        "each style: screenshots, colors, typography, spacing, components and a DESIGN.md export",
+        "collections for dashboards, pricing pages, landing pages, API docs, forms and settings",
+        "DESIGN.md guides and templates",
+        "styles captured from sites like Vercel, Linear, Raycast, Notion and Figma"
+      ],
+      "formats": [
+        "docs",
+        "screenshots",
+        "prompts"
+      ],
+      "confidence": 0.85
     },
     {
       "id": "60fps-design",
@@ -98,10 +144,10 @@
       "url": "https://60fps.design",
       "domain": "60fps.design",
       "kind": "site",
-      "desc": "60fps - UI/UX animation inspiration for mobile & web apps",
+      "desc": "Library of 2,100+ interaction and motion references from real mobile and web apps, with storyboards and an MCP server.",
       "categories": [
-        "components",
-        "motion"
+        "motion",
+        "inspiration"
       ],
       "mentions": 81,
       "origin": "curated",
@@ -109,7 +155,7 @@
         "curated",
         "x-community"
       ],
-      "about": "60fps is a curated collection of UI/UX animation and interaction design details from the world’s best iOS, and web apps.",
+      "about": "A curated collection of shot pages, each a short interaction video from a shipped app (Netflix, Revolut, Duolingo, Claude ...) with the app name and tags. Browse by app, gesture, pattern, effect or element; storyboards break sequences down frame by frame and a glossary explains the patterns.",
       "title": "60fps - UI/UX animation inspiration for mobile & web apps",
       "labels": [
         "Motion",
@@ -138,7 +184,73 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "hero",
+        "drawer",
+        "card",
+        "slider",
+        "3d",
+        "tabs",
+        "button",
+        "loader",
+        "switch",
+        "chat",
+        "chart",
+        "features",
+        "badge",
+        "calendar",
+        "input",
+        "map",
+        "progress",
+        "toast",
+        "tooltip",
+        "carousel",
+        "empty-state",
+        "pricing",
+        "stats"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "ui animation",
+        "interaction design",
+        "micro interaction",
+        "app animation",
+        "ios interaction",
+        "mobile app design",
+        "motion design",
+        "animation reference",
+        "onboarding flow",
+        "gesture",
+        "transition",
+        "splash screen",
+        "bottom sheet",
+        "loading animation",
+        "app teardown",
+        "frame by frame",
+        "storyboard",
+        "mcp server",
+        "web app animation"
+      ],
+      "type": "gallery",
+      "contains": [
+        "2,100+ interaction shots from 492 apps",
+        "88 app sites and 83 motion collections",
+        "67 hand-crafted storyboards",
+        "9 out-of-the-box snippets",
+        "filters: gesture, pattern, effect, element, app category",
+        "MCP server for AI tools at $29/month or $75/quarter",
+        "PRO plan $15/month, $150/year or $599 lifetime",
+        "glossary explains gestures, patterns, effects and easings"
+      ],
+      "formats": [
+        "video",
+        "screenshots",
+        "links",
+        "api"
+      ],
+      "pricing": "freemium",
+      "confidence": 0.9
     },
     {
       "id": "cta-gallery",
@@ -146,9 +258,10 @@
       "url": "https://cta.gallery",
       "domain": "cta.gallery",
       "kind": "site",
-      "desc": "CTA.gallery / The Best Call-to-Action Inspiration for Designers",
+      "desc": "Gallery of 504 real-world call-to-action sections, filterable by category and industry.",
       "categories": [
-        "sections"
+        "sections",
+        "inspiration"
       ],
       "mentions": 98,
       "origin": "curated",
@@ -156,7 +269,7 @@
         "curated",
         "x-community"
       ],
-      "about": "Explore CTA.gallery for the web",
+      "about": "Curated gallery of call-to-action designs from live websites, organised into eight categories: Button, Call-to-Buy, Download, Form, Modal / Pop-up, Navigation, Newsletter and Pricing / Subscription, with industry and mode filters. Includes free Framer templates, CTA writing tips and a submit form.",
       "title": "CTA.gallery / The Best Call-to-Action Inspiration for Designers",
       "labels": [
         "CTA Sections",
@@ -166,9 +279,13 @@
       ],
       "note": "call-to-actions that convert",
       "elements": [
-        "cta"
+        "cta",
+        "button",
+        "form",
+        "modal",
+        "pricing"
       ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {
         "sitemap": {
           "url": "https://cta.gallery/sitemap.xml",
@@ -182,7 +299,40 @@
         "detail": "home -> 200 | https://cta.gallery/llms.txt -> 404; https://cta.gallery/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "call to action",
+        "cta",
+        "cta design",
+        "button",
+        "form",
+        "modal",
+        "popup",
+        "newsletter",
+        "pricing",
+        "sign up",
+        "conversion",
+        "landing page",
+        "design inspiration",
+        "framer template",
+        "website section"
+      ],
+      "type": "gallery",
+      "contains": [
+        "504 CTA examples from live websites",
+        "8 categories: Button, Call-to-Buy, Download, Form, Modal / Pop-up, Navigation, Newsletter, Pricing / Subscription",
+        "filter by industry and mode",
+        "free Framer templates by Webestica",
+        "CTA writing tips",
+        "submit-a-CTA form"
+      ],
+      "formats": [
+        "screenshots",
+        "links",
+        "templates"
+      ],
+      "pricing": "free",
+      "confidence": 0.9
     },
     {
       "id": "recent-design",
@@ -314,7 +464,7 @@
       "url": "https://mobbin.com",
       "domain": "mobbin.com",
       "kind": "site",
-      "desc": "Mobbin — UI & UX design inspiration for mobile & web apps",
+      "desc": "Searchable library of 621,500 screens, flows and sections from real mobile and web apps.",
       "categories": [
         "inspiration"
       ],
@@ -324,7 +474,7 @@
         "curated",
         "x-community"
       ],
-      "about": "Save hours of UI & UX research with our library of 400,000+ fully searchable mobile & web app screenshots.",
+      "about": "Design-reference library of screenshots from shipped apps and websites: screens, ordered flows, website sections, animations and UI elements, searchable by platform, product, category and pattern. Free tier with limited browsing; Pro and Team plans add full search, flows and MCP or REST API access for agents and teams. Used by product designers and AI coding agents.",
       "title": "Mobbin — UI & UX design inspiration for mobile & web apps",
       "labels": [
         "Mobile Apps",
@@ -357,7 +507,57 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "dashboard",
+        "form",
+        "button",
+        "chat",
+        "carousel",
+        "pricing",
+        "toast",
+        "3d",
+        "banner",
+        "card",
+        "chart",
+        "hero"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "design inspiration",
+        "ui design",
+        "ux research",
+        "app screenshot",
+        "mobile app",
+        "web app",
+        "user flow",
+        "screen",
+        "ui pattern",
+        "design reference",
+        "onboarding",
+        "paywall",
+        "dashboard",
+        "mcp",
+        "ai agent",
+        "product design",
+        "ui element"
+      ],
+      "type": "gallery",
+      "contains": [
+        "621,500 screens, new every week",
+        "browse by apps, sites, screens, flows, animations and UI elements",
+        "free tier; Pro $10-15/month; Team $16-24 per member",
+        "MCP server on Pro, Team and Enterprise; REST API on Team and Enterprise",
+        "Finance+ add-on: 65+ finance apps at $399/month",
+        "search and deep search across products, flows and sections"
+      ],
+      "formats": [
+        "screenshots",
+        "links",
+        "api"
+      ],
+      "pricing": "freemium",
+      "confidence": 0.9
     },
     {
       "id": "navbar-gallery",
@@ -410,16 +610,17 @@
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
       "metadata": "ok",
-      "about": "Curated screenshots of navbars from live websites; each entry links to the original site and carries navigation-type and style tags. Browse by 8 navigation types, 118 style tags (dark, minimal, animated, brutalist, glassmorphism …) and builder (Framer, Webflow); a blog explains mega menus, sidebars and breadcrumbs.",
+      "about": "Screenshots of navbars from live websites; each entry links to the original site and carries navigation-type and style tags. Covers static, sticky, dropdown, mega menu, sidebar, search bar, announcement bar, full-screen and breadcrumb patterns, with 118 style tags plus collections for Framer and Webflow navbars. Made for designers and developers looking for navigation inspiration.",
       "variants": {
         "navbar": [
           "static",
+          "sticky",
           "dropdown",
           "mega-menu",
           "sidebar",
+          "full-screen",
           "with-search",
           "announcement-bar",
-          "full-screen",
           "breadcrumbs",
           "mobile"
         ]
@@ -427,42 +628,37 @@
       "keywords": [
         "navbar",
         "navigation bar",
-        "navbar inspiration",
-        "navbar design",
-        "navigation design",
-        "website header",
         "mega menu",
         "dropdown menu",
-        "flyout menu",
-        "sticky navbar",
+        "sticky header",
         "sidebar navigation",
-        "search bar",
         "announcement bar",
         "full screen menu",
         "breadcrumb navigation",
+        "search bar",
         "mobile navigation",
-        "dark mode navbar",
-        "minimal navbar",
-        "animated navbar",
-        "glassmorphism navbar",
-        "saas navbar",
-        "framer navbar",
+        "website header",
+        "navigation design",
         "webflow navbar",
-        "navbar screenshot"
+        "framer navbar",
+        "dark mode navbar",
+        "navbar inspiration",
+        "website navigation"
       ],
       "type": "gallery",
       "contains": [
-        "450+ navbar screenshots from live websites, each linking to the original site",
-        "8 navigation types: static, dropdown, mega menu, sidebar, search bar, announcement bar, full screen, breadcrumbs",
-        "118 visual style and industry tags",
-        "navbars built with Framer and Webflow",
-        "mobile navigation examples",
-        "blog guides on mega menus, sidebar and breadcrumb navigation"
+        "450+ navbar screenshots from live websites",
+        "filters: navigation type, visual style, industry",
+        "118 visual style tags",
+        "collections for mobile, Webflow and Framer navbars",
+        "every entry links to the original live site",
+        "blog guides on mega menu, sidebar and breadcrumb navigation"
       ],
       "formats": [
         "screenshots",
         "links"
       ],
+      "pricing": "free",
       "confidence": 0.9
     },
     {
@@ -471,10 +667,10 @@
       "url": "https://transitions.dev",
       "domain": "transitions.dev",
       "kind": "site",
-      "desc": "Transitions.dev: UI transitions for AI agents",
+      "desc": "Library of 43+ crafted UI transitions with copy-ready code, plus a motion skill and motion-fixing agent for coding agents.",
       "categories": [
-        "components",
-        "motion"
+        "motion",
+        "components"
       ],
       "mentions": 20,
       "origin": "curated",
@@ -482,7 +678,7 @@
         "curated",
         "x-community"
       ],
-      "about": "Collection of the most essential UI transitions for web apps. Copy and paste them, or use them with your coding agent via the skill.",
+      "about": "Production-ready UI transitions for web apps — card resize, number pop-in, badges, dropdowns, modals, text swaps, tabs, shimmer, skeleton loaders and more — as copy-paste snippets (React, TypeScript, Next.js) or as a skill that installs into coding agents (Claude Code, Cursor, Codex). A Builder remixes components with AI credits, and the Transitions Motion Agent scans a codebase, scores its motion and opens fix pull requests. Free tier; Pro plans unlock the full library and Pro skill.",
       "title": "Transitions.dev: UI transitions for AI agents",
       "labels": [
         "essential transitions for web apps",
@@ -491,9 +687,21 @@
       ],
       "note": "essential transitions for web apps",
       "elements": [
+        "loader",
+        "text-effect",
+        "card",
+        "toast",
+        "dropdown",
+        "button",
+        "badge",
+        "modal",
+        "avatar",
+        "input",
+        "tabs",
+        "accordion",
         "ai-agent-ui"
       ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {
         "sitemap": {
           "url": "https://transitions.dev/sitemap.xml",
@@ -507,7 +715,57 @@
         "detail": "home -> 200 | https://transitions.dev/llms.txt -> 404; https://transitions.dev/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "ui transition",
+        "animation",
+        "micro interaction",
+        "motion",
+        "css transition",
+        "copy paste",
+        "code snippet",
+        "agent skill",
+        "claude code",
+        "cursor",
+        "codex",
+        "react",
+        "typescript",
+        "nextjs",
+        "shimmer text",
+        "skeleton loader",
+        "toast",
+        "modal",
+        "dropdown",
+        "tabs",
+        "builder",
+        "motion agent",
+        "accessibility"
+      ],
+      "type": "component-library",
+      "contains": [
+        "43+ production-ready transitions with copy-ready snippets",
+        "transitions include card resize, number pop-in, notification badge, text swap, menu dropdown, modal open close",
+        "more: confetti burst, panel reveal, icon swap, success check, error shake, input clear, skeleton, shimmer text",
+        "free skill for Claude Code, Cursor and Codex",
+        "free Motion Agent: unlimited scans, a motion score on every pull request, 10 fixes per month",
+        "Builder makes and remixes components with 100 AI credits per month on the free plan",
+        "Pro: full library access, Pro skill and the Motion Agent from $12"
+      ],
+      "formats": [
+        "code",
+        "docs",
+        "prompts"
+      ],
+      "stack": [
+        "react",
+        "typescript",
+        "nextjs"
+      ],
+      "pricing": "freemium",
+      "related": {
+        "docs": "https://transitions.dev/detail.html?doc=introduction"
+      },
+      "confidence": 0.9
     },
     {
       "id": "beautifului-dev",
@@ -758,10 +1016,10 @@
       "url": "https://supahero.io",
       "domain": "supahero.io",
       "kind": "site",
-      "desc": "Supahero - Website hero section library",
+      "desc": "Library of 573 website hero sections, plus a Framer templates directory and a design tools directory.",
       "categories": [
         "sections",
-        "components"
+        "inspiration"
       ],
       "mentions": 55,
       "origin": "curated",
@@ -769,7 +1027,7 @@
         "curated",
         "x-community"
       ],
-      "about": "A handpicked library of stunning website hero sections designed to captivate and engage.",
+      "about": "Curated collection of hero sections from live websites, each linked to its original page. Also hosts directories of Framer templates and of useful design, development and marketing tools. Advertising placements are sold on the pricing page; the site states it is now part of screensdesign.",
       "title": "Supahero - Website hero section library",
       "labels": [
         "Hero sections",
@@ -782,7 +1040,7 @@
       "elements": [
         "hero"
       ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {},
       "reach": {
         "ok": false,
@@ -790,7 +1048,34 @@
         "detail": "home -> 200 | https://supahero.io/llms.txt -> 404; https://supahero.io/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "hero section",
+        "hero",
+        "landing page",
+        "above the fold",
+        "website header",
+        "framer template",
+        "design inspiration",
+        "website design",
+        "tools directory",
+        "screenshot"
+      ],
+      "type": "gallery",
+      "contains": [
+        "573 hero section examples from live websites",
+        "Framer template directory",
+        "tools directory for design, development and marketing",
+        "every entry links to the original site",
+        "advertising spots: $79-$279 per 30 days"
+      ],
+      "formats": [
+        "screenshots",
+        "links",
+        "templates"
+      ],
+      "pricing": "free",
+      "confidence": 0.85
     },
     {
       "id": "ui-shadcn-com",
@@ -851,9 +1136,10 @@
       "url": "https://404s.design",
       "domain": "404s.design",
       "kind": "site",
-      "desc": "404s — A Curated Gallery of Creative Error Page Designs",
+      "desc": "Gallery of 247 creative 404 error pages from live websites, with style, interaction and industry filters.",
       "categories": [
-        "sections"
+        "sections",
+        "inspiration"
       ],
       "mentions": 51,
       "origin": "curated",
@@ -872,7 +1158,7 @@
       "elements": [
         "404"
       ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {
         "llms": {
           "url": "https://404s.design/llms.txt",
@@ -892,7 +1178,37 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "Curated collection of creative error page designs from real websites, each linking to the live 404 page. Entries can be filtered by style (dark, brutalist, glitchy, minimal, typographic …), interaction (animated, custom cursor, game, scroll-driven) and industry. Keyboard shortcuts switch to a grid view or shuffle the gallery.",
+      "keywords": [
+        "404",
+        "404 page",
+        "error page",
+        "not found page",
+        "error page design",
+        "creative 404",
+        "404 inspiration",
+        "web design",
+        "glitch",
+        "custom cursor",
+        "minimal",
+        "game"
+      ],
+      "type": "gallery",
+      "contains": [
+        "247 error page examples from live websites",
+        "16 style filters incl. 3D, brutalist, glitchy, minimal, retro, typographic",
+        "interaction filters: Animated, Custom Cursor, Game, Hover Effects, Interactive, Scroll-driven",
+        "industry filters: Agency / Studio, E-commerce, Entertainment, Fintech, Media, Non-profit, Portfolio, Tech / SaaS",
+        "keyboard shortcuts: grid [g], surprise me [s]",
+        "every entry links to the live error page"
+      ],
+      "formats": [
+        "screenshots",
+        "links"
+      ],
+      "pricing": "free",
+      "confidence": 0.9
     },
     {
       "id": "aura-build",
@@ -986,10 +1302,10 @@
       "url": "https://beui.dev",
       "domain": "beui.dev",
       "kind": "site",
-      "desc": "Animated Components for React and Next.js · beUI",
+      "desc": "Open-source animated React and Next.js components built with Motion and Tailwind CSS, installed by copy-paste or shadcn CLI.",
       "categories": [
         "components",
-        "registries"
+        "motion"
       ],
       "mentions": 42,
       "origin": "curated",
@@ -998,7 +1314,7 @@
         "awesome-lists",
         "x-community"
       ],
-      "about": "Free, open-source animated components for React and Next.js, built with Motion and Tailwind CSS. Copy the source or install with the shadcn CLI.",
+      "about": "Free, open-source animated components for React and Next.js built with Motion (Framer Motion) and Tailwind CSS: buttons, tabs, drawers, modals, docks, forms, AI chat pieces and data viz. Copy the TypeScript source or install from the shadcn registry; a hosted MCP server, agent skill and OpenUI guide let coding agents use it. A paid beUI Pro library adds premium components, blocks and full templates.",
       "title": "Animated Components for React and Next.js · beUI",
       "labels": [
         "BeUI",
@@ -1042,7 +1358,103 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "button",
+        "text-effect",
+        "scroll-effect",
+        "slider",
+        "ai-agent-ui",
+        "404",
+        "card",
+        "loader",
+        "select",
+        "tabs",
+        "sidebar",
+        "table",
+        "marquee",
+        "switch",
+        "input",
+        "checkbox",
+        "drawer",
+        "tooltip",
+        "popover",
+        "dropdown",
+        "modal",
+        "dock",
+        "command-palette",
+        "accordion",
+        "otp-input",
+        "form",
+        "badge",
+        "breadcrumbs",
+        "date-picker",
+        "chart",
+        "chat",
+        "prompt-input",
+        "stepper",
+        "list",
+        "hero",
+        "features",
+        "pricing",
+        "testimonials",
+        "cta",
+        "footer"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "animated component",
+        "react component",
+        "nextjs",
+        "tailwind css",
+        "framer motion",
+        "motion",
+        "micro interaction",
+        "shadcn",
+        "shadcn registry",
+        "copy paste component",
+        "spring animation",
+        "ai agent ui",
+        "chat component",
+        "command palette",
+        "dock",
+        "modal",
+        "accordion",
+        "text animation",
+        "generative ui",
+        "mcp server",
+        "open source"
+      ],
+      "type": "component-library",
+      "contains": [
+        "140 free animated components across motion, blocks, agents and charts",
+        "120 shadcn registry items install via the shadcn CLI",
+        "built with Motion and Tailwind CSS 4, React 19",
+        "agent skill, MCP server and registry endpoints for AI agents",
+        "pro: 292 premium components, 205 animated blocks, 41 page blocks, 11 templates",
+        "pro pricing: $109/year or $149 lifetime (winter sale)",
+        "component groups: motion primitives, blocks, AI agents, charts",
+        "motion guides cover timing, easing, springs and reduced motion"
+      ],
+      "formats": [
+        "code",
+        "registry",
+        "cli",
+        "docs"
+      ],
+      "stack": [
+        "react",
+        "nextjs",
+        "tailwind",
+        "framer-motion"
+      ],
+      "pricing": "freemium",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/starc007/ui-components",
+        "docs": "https://beui.dev/docs/motion-patterns"
+      },
+      "confidence": 0.9
     },
     {
       "id": "canvasui-dev",
@@ -1212,9 +1624,10 @@
       "url": "https://footer.design",
       "domain": "footer.design",
       "kind": "site",
-      "desc": "Footer — The only footer gallery on earth.",
+      "desc": "Gallery of 695 website footer designs, filterable by type and visual style.",
       "categories": [
-        "sections"
+        "sections",
+        "inspiration"
       ],
       "mentions": 58,
       "origin": "curated",
@@ -1232,10 +1645,9 @@
       ],
       "note": "Websites Footer Designs",
       "elements": [
-        "footer",
-        "globe"
+        "footer"
       ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {
         "llms": {
           "url": "https://footer.design/llms.txt",
@@ -1255,15 +1667,45 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "Curated gallery of website footers from live sites, each linked to the original website. Browse by type (industry and site kind) and by style categories such as Typographic, Small Type, Illustrative, Grid, Flat, Animated, Cards, Bright, Dark, Large Type and Bold. Created by NOOON Studio for designers and developers.",
+      "keywords": [
+        "footer",
+        "footer design",
+        "website footer",
+        "footer inspiration",
+        "dark mode footer",
+        "animated footer",
+        "grid footer",
+        "typographic footer",
+        "footer gallery",
+        "web design",
+        "landing page",
+        "site footer"
+      ],
+      "type": "gallery",
+      "contains": [
+        "695 footer examples from live websites",
+        "style filters: Typographic, Small Type, Illustrative, Grid, Flat, Animated, Cards, Bright, Dark, Large Type, Bold",
+        "type filters by industry (SaaS, agency, e-commerce, portfolio …)",
+        "every entry links to the original website",
+        "submit-a-footer form",
+        "65 pages of entries"
+      ],
+      "formats": [
+        "screenshots",
+        "links"
+      ],
+      "pricing": "free",
+      "confidence": 0.9
     },
     {
       "id": "github-com-obra-superpowers",
-      "name": "obra/superpowers",
+      "name": "Superpowers",
       "url": "https://github.com/obra/superpowers",
       "domain": "github.com",
       "kind": "repo",
-      "desc": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works.",
+      "desc": "Agentic software development methodology: composable skills for brainstorming, planning, TDD, review and subagent execution.",
       "categories": [
         "dev-ai-tools"
       ],
@@ -1273,7 +1715,7 @@
         "curated",
         "x-community"
       ],
-      "about": "An agentic skills framework & software development methodology that works. - obra/superpowers",
+      "about": "Superpowers is a complete software development methodology for coding agents, installed as composable skills that trigger automatically. An agent brainstorms a spec with you, writes a plan, implements tasks through subagents with two-stage review, follows strict red/green TDD, and finishes the branch. Its skills library covers brainstorming, writing-plans, test-driven-development, systematic-debugging, code review and worktrees; it installs into Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot CLI, Grok Build, OpenCode, Kimi Code, Antigravity and others.",
       "title": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works.",
       "labels": [
         "/superpowers（Jesse Vincent / obra）",
@@ -1292,7 +1734,41 @@
         "how": "corpus:README.md",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "agent skill",
+        "ai agent",
+        "coding agent",
+        "software development",
+        "methodology",
+        "test driven development",
+        "tdd",
+        "brainstorming",
+        "implementation plan",
+        "code review",
+        "subagent",
+        "git worktree",
+        "debugging",
+        "prompt package",
+        "developer workflow"
+      ],
+      "type": "agent-skill",
+      "contains": [
+        "14 skills including brainstorming, writing-plans, test-driven-development and subagent-driven-development",
+        "installs via plugin marketplaces for 14 coding agents",
+        "MIT licensed",
+        "commercial support available from Prime Radiant"
+      ],
+      "formats": [
+        "prompts",
+        "code"
+      ],
+      "pricing": "free",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/obra/superpowers"
+      },
+      "confidence": 0.9
     },
     {
       "id": "kinetics-colorion-co",
@@ -1635,7 +2111,7 @@
         "detail": "home -> 200 | https://saaspo.com/llms.txt -> html; https://saaspo.com/llms-full.txt -> html",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "blocked"
     },
     {
       "id": "seo-stuff-com-free-audit",
@@ -1706,11 +2182,11 @@
     },
     {
       "id": "ui-skills-com-skills-emilkowalski-emil-design-eng",
-      "name": "Emil design eng (ui-skills.com)",
+      "name": "emil-design-eng",
       "url": "https://ui-skills.com/skills/emilkowalski/emil-design-eng",
       "domain": "ui-skills.com",
       "kind": "page",
-      "desc": "emil-design-eng Skill - emilkowalski / UI Skills",
+      "desc": "Emil Kowalski's design-engineering skill for AI agents: UI polish, animation decisions, gestures, performance and accessibility.",
       "categories": [
         "components"
       ],
@@ -1738,7 +2214,47 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "A SKILL.md package that teaches an AI coding agent Emil Kowalski's design-engineering approach: an animation decision framework, spring animations, component building principles, CSS transform and clip-path techniques, gesture handling, performance and accessibility rules, and a required review format. Installs with the skills CLI from the emilkowalski/skills repo.",
+      "keywords": [
+        "agent skill",
+        "skill.md",
+        "design skill",
+        "design engineering",
+        "ui polish",
+        "animation",
+        "spring animation",
+        "micro interaction",
+        "gesture",
+        "drag interaction",
+        "css transform",
+        "clip-path",
+        "accessibility",
+        "performance",
+        "design rule",
+        "frontend craft",
+        "ai agent"
+      ],
+      "type": "agent-skill",
+      "contains": [
+        "SKILL.md package installed with npx skills add",
+        "animation decision framework: whether to animate, purpose, easing, duration",
+        "spring animations and interruptible interactions",
+        "component building principles",
+        "CSS transform, clip-path and stagger animation techniques",
+        "gesture, drag, performance and accessibility rules",
+        "required design review format"
+      ],
+      "formats": [
+        "prompts"
+      ],
+      "pricing": "free",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/emilkowalski/skills",
+        "parent": "ui-skills-com"
+      },
+      "confidence": 0.9
     },
     {
       "id": "ui-aceternity-com",
@@ -1746,9 +2262,11 @@
       "url": "https://ui.aceternity.com",
       "domain": "ui.aceternity.com",
       "kind": "site",
-      "desc": "Aceternity UI — React & Tailwind CSS Component Library",
+      "desc": "Library of 112+ animated React components, 170 landing page blocks and 17 Next.js templates built with Tailwind CSS and Motion.",
       "categories": [
-        "components"
+        "components",
+        "motion",
+        "sections"
       ],
       "mentions": 58,
       "origin": "curated",
@@ -1757,7 +2275,7 @@
         "awesome-lists",
         "x-community"
       ],
-      "about": "Aceternity UI is a React component library with 200+ copy-paste components, blocks, and landing page templates built with Tailwind CSS and Motion.",
+      "about": "Copy-paste components and page sections for React and Next.js: navigation, hero sections, cards, background effects, text effects and utility components, plus ready-made blocks (logo clouds, bento grids, CTAs, testimonials, team, empty states, footers) and landing page templates. Free components install from the shadcn registry or by copy-paste; the paid All-Access plan adds 200+ premium blocks and the full template set. Ships JSON API, llms-full.txt and AI-ready prompts for coding agents.",
       "title": "Aceternity UI — React & Tailwind CSS Component Library",
       "labels": [
         "Aceternity UI",
@@ -1797,15 +2315,97 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "background",
+        "card",
+        "features",
+        "hero",
+        "testimonials",
+        "navbar",
+        "text-effect",
+        "3d",
+        "bento-grid",
+        "form",
+        "pricing",
+        "scroll-effect",
+        "logo-cloud",
+        "cta",
+        "team",
+        "empty-state",
+        "footer",
+        "faq",
+        "carousel",
+        "contact"
+      ],
+      "elements_from": "metadata",
+      "variants": {
+        "cta": [
+          "centered"
+        ]
+      },
+      "keywords": [
+        "animated component",
+        "react component",
+        "tailwind",
+        "framer motion",
+        "nextjs",
+        "landing page",
+        "hero section",
+        "background effect",
+        "text effect",
+        "card",
+        "bento grid",
+        "navbar",
+        "pricing section",
+        "testimonials",
+        "template",
+        "copy paste component",
+        "shadcn registry",
+        "block",
+        "mcp server",
+        "typescript",
+        "3d component",
+        "dark mode"
+      ],
+      "type": "component-library",
+      "contains": [
+        "112+ UI components, 170 pre-built blocks, 1 custom hook, 17 templates, 23 Pro components",
+        "blocks: heroes, shaders, logo clouds, bento grids, CTA, testimonials, team, empty states, pricing, navbars, footers",
+        "shadcn registry with 278 items",
+        "free components plus All-Access at $199 lifetime or $169 per year",
+        "AI resources: JSON API, llms-full.txt, AI recommendations page, prompts for Lovable, V0, Acebuilder",
+        "Tailwind CSS v4 compatible with TypeScript support"
+      ],
+      "formats": [
+        "code",
+        "registry",
+        "docs",
+        "templates",
+        "api",
+        "prompts"
+      ],
+      "stack": [
+        "react",
+        "nextjs",
+        "typescript",
+        "tailwind",
+        "framer-motion",
+        "tanstack-start"
+      ],
+      "pricing": "freemium",
+      "related": {
+        "docs": "https://ui.aceternity.com/components/install-nextjs"
+      },
+      "confidence": 0.9
     },
     {
       "id": "uncut-wtf",
-      "name": "uncut.wtf",
+      "name": "UNCUT.wtf",
       "url": "https://uncut.wtf",
       "domain": "uncut.wtf",
       "kind": "site",
-      "desc": "Welcome to UNCUT.wtf",
+      "desc": "Free typeface catalogue of 163 contemporary fonts in sans serif, serif, monospace and display.",
       "categories": [
         "fonts"
       ],
@@ -1835,7 +2435,35 @@
         "detail": "home -> 200 | https://uncut.wtf/llms.txt -> 404; https://uncut.wtf/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "A free typeface catalogue focused on somewhat contemporary type, with 163 fonts grouped as Sans Serif (66), Serif (27), Monospace (23) and Display (47). Each font page lists cuts, variable-font support, classification and license, and the fonts are free to download for commercial and personal projects.",
+      "keywords": [
+        "free font",
+        "typeface",
+        "font catalogue",
+        "typography",
+        "sans serif",
+        "serif",
+        "monospace",
+        "display font",
+        "variable font",
+        "font download",
+        "commercial use",
+        "contemporary type"
+      ],
+      "type": "font-foundry",
+      "contains": [
+        "163 typefaces: 66 sans serif, 27 serif, 23 monospace, 47 display",
+        "font pages list cuts, variable-font support, classification and license",
+        "free for commercial and personal projects",
+        "SIL Open Font License 1.1 on sampled font pages"
+      ],
+      "formats": [
+        "font-files"
+      ],
+      "pricing": "free",
+      "license": "OFL-1.1",
+      "confidence": 0.85
     },
     {
       "id": "wieslawsoltes-github-io-vaporaprocessstudio",
@@ -2183,9 +2811,10 @@
       "url": "https://kokonutui.com",
       "domain": "kokonutui.com",
       "kind": "site",
-      "desc": "KokonutUI - Free Open Source UI Components for React and Tailwind CSS",
+      "desc": "Free open-source library of 100+ animated React and Tailwind CSS components, installable from a shadcn registry.",
       "categories": [
-        "components"
+        "components",
+        "motion"
       ],
       "mentions": 2,
       "origin": "curated",
@@ -2194,7 +2823,7 @@
         "awesome-lists",
         "x-community"
       ],
-      "about": "Collection of 100+ stunning UI components free and open source built with Next.js, React, Tailwind CSS, and Motion.",
+      "about": "Open-source UI components for React and Next.js built with Tailwind CSS and Motion: backgrounds, cards, navigation, inputs, AI chat pieces, text effects, buttons and micro-interactions. Each component has a live preview and a Markdown source page with its full code and a shadcn CLI install command under the @kokonutui namespace; the collection also works through the shadcn MCP server so coding agents can browse and install it. A paid Kokonut UI Pro offers a further component set.",
       "title": "KokonutUI",
       "note": "100+ open-source components built with React",
       "probe": {
@@ -2228,7 +2857,81 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "background",
+        "card",
+        "carousel",
+        "command-palette",
+        "drawer",
+        "dropdown",
+        "file-upload",
+        "hero",
+        "loader",
+        "navbar",
+        "prompt-input",
+        "tabs",
+        "text-effect",
+        "button"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "react component",
+        "tailwind css",
+        "nextjs",
+        "motion animation",
+        "animated component",
+        "shadcn registry",
+        "copy paste component",
+        "free component",
+        "open source",
+        "card",
+        "background",
+        "navbar",
+        "drawer",
+        "text animation",
+        "shimmer text",
+        "file upload",
+        "prompt input",
+        "ai chat input",
+        "command palette",
+        "bento grid",
+        "mcp server",
+        "liquid glass",
+        "particle button",
+        "loader"
+      ],
+      "type": "component-library",
+      "contains": [
+        "100+ free open-source components with live previews",
+        "sections: templates, backgrounds, cards, navigation, inputs, AI, texts, buttons",
+        "installs with the shadcn CLI via the @kokonutui namespace or registry URL",
+        "component pages link Markdown source with install command and full code",
+        "shadcn MCP server support for Claude Code, Cursor, VS Code, Codex",
+        "7 templates: Agenta, Lume, Sonae, AI, Futur, Postly, Startup",
+        "paid Kokonut UI Pro with 100+ additional components"
+      ],
+      "formats": [
+        "code",
+        "registry",
+        "cli",
+        "docs",
+        "templates"
+      ],
+      "stack": [
+        "react",
+        "nextjs",
+        "tailwind",
+        "framer-motion",
+        "shadcn-ui"
+      ],
+      "pricing": "freemium",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/kokonut-labs/kokonutui",
+        "docs": "https://kokonutui.com/docs"
+      },
+      "confidence": 0.9
     },
     {
       "id": "magicui-design",
@@ -2236,7 +2939,7 @@
       "url": "https://magicui.design",
       "domain": "magicui.design",
       "kind": "site",
-      "desc": "Library of 150+ free, open-source animated React components and effects for landing pages, with paid Pro blocks and templates.",
+      "desc": "150+ free animated React components and effects for landing pages, built with Tailwind CSS and Motion.",
       "categories": [
         "components",
         "motion"
@@ -2248,7 +2951,7 @@
         "awesome-lists",
         "x-community"
       ],
-      "about": "Copy-paste components built with React, TypeScript, Tailwind CSS and Motion, made as a companion to shadcn/ui: text animations, backgrounds and patterns, buttons, device mockups, special effects (beams, borders, confetti, particles) and landing-page pieces such as marquee, bento grid, dock and globe. Installable from its shadcn registry or through its MCP server; Magic UI Pro sells 50+ blocks and templates.",
+      "about": "Component library of animated components, text effects, backgrounds and device mocks you copy into an app or install with the shadcn CLI. Documentation covers installation, examples and an MCP server that gives AI-assisted editors access to every component. Free open-source components plus paid Pro blocks and templates.",
       "title": "Magic UI",
       "labels": [
         "Magic UI",
@@ -2308,64 +3011,49 @@
         "background",
         "button",
         "card",
+        "cursor",
+        "3d",
         "marquee",
         "bento-grid",
         "navbar",
         "dock",
-        "globe",
         "map",
-        "cursor",
-        "3d",
-        "progress",
-        "scroll-effect",
         "hero"
       ],
       "elements_from": "metadata",
-      "variants": {
-        "navbar": [
-          "dock"
-        ]
-      },
       "keywords": [
         "animated component",
+        "react component",
+        "tailwind css",
+        "framer motion",
         "text animation",
-        "animated background",
-        "grid pattern",
-        "dot pattern",
+        "background pattern",
+        "shadcn",
+        "landing page",
         "marquee",
-        "bento grid",
         "dock",
         "globe",
-        "shimmer button",
-        "border beam",
-        "confetti",
-        "particle",
-        "device mockup",
-        "number ticker",
-        "typing animation",
-        "theme toggle",
-        "landing page",
+        "bento grid",
         "copy paste component",
-        "shadcn",
-        "react",
         "typescript",
-        "tailwind",
-        "framer motion",
+        "ui library",
         "mcp server",
-        "open source"
+        "free component",
+        "open source component"
       ],
       "type": "component-library",
       "contains": [
         "150+ free and open-source animated components and effects",
-        "groups: text animations, backgrounds, buttons, device mocks, special effects, community components",
-        "a shadcn registry (250 items)",
-        "an MCP server that gives AI IDEs the components",
-        "Magic UI Pro: 50+ paid blocks and templates (SaaS, startup, mobile, AI agent, dev tool)",
-        "showcase of sites built with it"
+        "250 shadcn registry items; 176 code items catalogued",
+        "component groups: text animations, backgrounds, buttons, device mocks, special effects",
+        "official MCP server for AI-assisted editors",
+        "paid Magic UI Pro: 50+ blocks and templates",
+        "per-component docs pages with examples"
       ],
       "formats": [
         "code",
         "registry",
+        "cli",
         "docs",
         "templates"
       ],
@@ -2539,7 +3227,7 @@
       "url": "https://motion-primitives.com",
       "domain": "motion-primitives.com",
       "kind": "site",
-      "desc": "Motion-Primitives - UI kit to make beautiful, animated interfaces, faster.",
+      "desc": "Open-source React UI kit of 23 copy-paste animated components built with Motion and Tailwind CSS.",
       "categories": [
         "components",
         "motion"
@@ -2550,7 +3238,7 @@
         "curated",
         "x-community"
       ],
-      "about": "Motion-Primitives is an open-source UI kit to make beautiful, animated interfaces, faster. Built for React, Next.js, and Tailwind CSS.",
+      "about": "Reusable animated components for React and Next.js: text effects (loop, morph, roll, scramble, shimmer), animated backgrounds, infinite slider, carousel, dock, cursor, dialog, accordion, disclosure, in-view animations, transition panel, number animations, glow effect and image comparison. Each component has docs with examples and a component API; add it with a CLI command or copy the code manually. Open source under the MIT license, currently in beta.",
       "title": "Motion-Primitives - UI kit to make beautiful, animated interfaces, faster.",
       "labels": [
         "reusable motion components for React",
@@ -2567,7 +3255,75 @@
         "detail": "home -> 200 | https://motion-primitives.com/llms.txt -> 404; https://motion-primitives.com/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "accordion",
+        "background",
+        "carousel",
+        "cursor",
+        "dock",
+        "marquee",
+        "modal",
+        "scroll-effect",
+        "tabs",
+        "text-effect"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "animated component",
+        "motion",
+        "framer motion",
+        "react",
+        "nextjs",
+        "tailwind css",
+        "copy paste component",
+        "text animation",
+        "text effect",
+        "shimmer text",
+        "scramble text",
+        "text morph",
+        "animated background",
+        "infinite slider",
+        "carousel",
+        "dock",
+        "dialog",
+        "accordion",
+        "disclosure",
+        "cursor",
+        "image comparison",
+        "open source",
+        "ui kit"
+      ],
+      "type": "component-library",
+      "contains": [
+        "23 animated components, open source, in beta",
+        "text effects: text effect, loop, morph, roll, scramble, shimmer, shimmer wave",
+        "UI components: accordion, disclosure, carousel, cursor, dialog, dock, transition panel, image comparison",
+        "effects: animated background, animated group, border trail, in view, infinite slider, glow",
+        "numbers: animated number, sliding number",
+        "docs give examples and a component API for each component",
+        "install with a CLI command or copy the code manually",
+        "built with Motion and Tailwind CSS, icons via Lucide"
+      ],
+      "formats": [
+        "code",
+        "cli",
+        "docs"
+      ],
+      "stack": [
+        "react",
+        "nextjs",
+        "tailwind",
+        "framer-motion",
+        "lucide"
+      ],
+      "pricing": "free",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/ibelick/motion-primitives",
+        "docs": "https://motion-primitives.com/docs"
+      },
+      "confidence": 0.9
     },
     {
       "id": "reactbits-dev",
@@ -2575,9 +3331,10 @@
       "url": "https://reactbits.dev",
       "domain": "reactbits.dev",
       "kind": "site",
-      "desc": "React Bits - Animated UI Components For React",
+      "desc": "Open-source library of 170+ animated React components, text animations, backgrounds and micro interactions.",
       "categories": [
-        "components"
+        "components",
+        "motion"
       ],
       "mentions": 61,
       "origin": "curated",
@@ -2585,7 +3342,7 @@
         "curated",
         "x-community"
       ],
-      "about": "An open source collection of 200+ high quality, animated, interactive & fully customizable React components and micro interactions for building stunning, memorable user interfaces.",
+      "about": "Copy-paste React components for creative developers: text animations, animations, UI components, animated backgrounds and micro interactions, each shipped in four implementation variants (JavaScript or TypeScript, CSS or Tailwind). Install by copying source or through the jsrepo or shadcn CLI; dependencies such as gsap, motion, three.js or ogl vary per component. An MCP setup and llms.txt make it agent-friendly; the paid React Bits Pro adds 150 components, 280 blocks, 300 app UI screens and Next.js templates.",
       "title": "React Bits",
       "labels": [
         "React Bits",
@@ -2595,12 +3352,25 @@
       ],
       "note": "animation @davidhaz",
       "elements": [
-        "background"
+        "card",
+        "cursor",
+        "text-effect",
+        "navbar",
+        "background",
+        "scroll-effect",
+        "slider",
+        "carousel",
+        "hero",
+        "list",
+        "accordion",
+        "bento-grid",
+        "dock",
+        "button",
+        "switch",
+        "loader",
+        "3d"
       ],
-      "elements_weak": [
-        "background"
-      ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {
         "llms": {
           "url": "https://reactbits.dev/llms.txt",
@@ -2628,7 +3398,68 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "animated component",
+        "react",
+        "text animation",
+        "animated text",
+        "background effect",
+        "animated background",
+        "interactive card",
+        "micro interaction",
+        "cursor effect",
+        "copy paste component",
+        "shadcn",
+        "cli",
+        "gsap",
+        "three.js",
+        "motion",
+        "open source",
+        "free",
+        "landing page",
+        "creative developer",
+        "tailwind",
+        "typescript",
+        "javascript",
+        "mcp server"
+      ],
+      "type": "component-library",
+      "contains": [
+        "171 free animated components with live demos and source",
+        "groups: text animations, animations, components, backgrounds, micro interactions",
+        "each component ships in four variants: JS or TS, CSS or Tailwind",
+        "installs via shadcn or jsrepo CLI, and a shadcn registry with 684 items",
+        "per-component dependencies such as gsap, motion, three.js, ogl",
+        "MCP registry setup for coding agents",
+        "React Bits Pro: 150 components, 280 blocks, 300 app UI pieces, templates, agent kit"
+      ],
+      "formats": [
+        "code",
+        "registry",
+        "cli",
+        "docs",
+        "templates"
+      ],
+      "stack": [
+        "react",
+        "nextjs",
+        "javascript",
+        "typescript",
+        "tailwind",
+        "css",
+        "gsap",
+        "framer-motion",
+        "three.js",
+        "ogl"
+      ],
+      "pricing": "freemium",
+      "license": "MIT+Commons-Clause",
+      "related": {
+        "repo": "https://github.com/DavidHDev/react-bits",
+        "docs": "https://reactbits.dev/get-started/introduction"
+      },
+      "confidence": 0.9
     },
     {
       "id": "reactvibe-com",
@@ -3493,7 +4324,7 @@
       "url": "https://github.com/Nutlope/hallmark",
       "domain": "github.com",
       "kind": "repo",
-      "desc": "Agent design skill that builds, audits and redesigns web pages so they do not look AI-generated.",
+      "desc": "Design skill for Claude Code, Cursor and Codex that builds UI from 21 themes and 57 anti-slop checks.",
       "categories": [
         "design-rules"
       ],
@@ -3503,7 +4334,7 @@
         "curated",
         "x-community"
       ],
-      "about": "A SKILL.md rule-set with references for coding agents: it picks a page macrostructure for the brief, applies one of 21 themes (or a custom palette, type and layout) and runs 57 slop-test gates plus a self-critique before handing back. Four verbs: build (default), audit (punch list, no edits), redesign, and study (extract a design's structure, type pairing and colour, optionally as a portable design.md).",
+      "about": "A SKILL.md rule-set that picks a macrostructure and one of twenty-one themes for each brief, runs fifty-seven slop-test gates plus a pre-emit self-critique, and avoids default LLM output. Four commands: build, audit, redesign and study. Installs into Claude Code, Cursor and Codex by copying files.",
       "title": "GitHub - Nutlope/hallmark: Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "note": "Anti-AI-slop design skill for Claude, Codex",
       "probe": {
@@ -3520,30 +4351,29 @@
       },
       "metadata": "ok",
       "keywords": [
+        "ai slop",
         "design skill",
-        "agent skill",
-        "coding agent skill",
-        "anti ai slop",
+        "claude code",
+        "cursor rule",
+        "codex",
+        "skill md",
+        "landing page",
         "design rule",
-        "ui audit",
-        "redesign",
-        "landing page design",
-        "website theme",
-        "type pairing",
-        "color palette",
-        "self critique",
-        "slop test",
-        "html css page",
-        "cursor rule"
+        "anti pattern",
+        "agent skill",
+        "ui generation",
+        "theme",
+        "macrostructure",
+        "design audit"
       ],
       "type": "agent-skill",
       "contains": [
-        "SKILL.md rule-set with references and worked examples",
-        "21 themes and a custom-theme protocol",
-        "57 slop-test gates and a pre-emit self-critique",
-        "4 verbs: build, audit, redesign, study",
-        "example pages as self-contained HTML + CSS",
-        "install paths for Claude Code, Cursor and Codex"
+        "21 themes",
+        "four verbs: build, audit, redesign, study",
+        "57 slop-test gates plus a pre-emit self-critique",
+        "custom theme branch for off-catalog briefs",
+        "installs into Claude Code, Cursor and Codex",
+        "worked examples in docs/recipes.md and docs/study-examples.md"
       ],
       "formats": [
         "prompts",
@@ -3555,6 +4385,10 @@
       ],
       "pricing": "free",
       "license": "MIT",
+      "related": {
+        "repo": "https://github.com/Nutlope/hallmark",
+        "docs": "https://github.com/Nutlope/hallmark/blob/HEAD/skills/hallmark/SKILL.md"
+      },
       "confidence": 0.9
     },
     {
@@ -4548,13 +5382,13 @@
     },
     {
       "id": "github-com-pbakaus-impeccable",
-      "name": "pbakaus/impeccable",
+      "name": "Impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "domain": "github.com",
       "kind": "repo",
-      "desc": "GitHub - pbakaus/impeccable: The design language that makes your AI harness better at design.",
+      "desc": "Design guidance for AI coding agents: one skill, 23 commands, live browser iteration and 61 detector rules against AI slop.",
       "categories": [
-        "dev-ai-tools"
+        "design-rules"
       ],
       "mentions": 3,
       "origin": "curated",
@@ -4562,7 +5396,7 @@
         "curated",
         "x-community"
       ],
-      "about": "The design language that makes your AI harness better at design. - pbakaus/impeccable",
+      "about": "A skill for AI coding agents that adds a shared design vocabulary: /impeccable init records product truth in PRODUCT.md and /impeccable document writes DESIGN.md, while 23 commands (craft, shape, critique, audit, polish, animate, typeset, layout …) shape, review and refine frontend work. A deterministic detector of 61 rules runs without an LLM and is wired into a design hook on UI edits in Claude Code, GitHub Copilot, Codex, Cursor and Grok Build.",
       "title": "GitHub - pbakaus/impeccable: The design language that makes your AI harness better at design.",
       "labels": [
         "/impeccable（@pbakaus）"
@@ -4580,7 +5414,44 @@
         "how": "corpus:README.md",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "agent skill",
+        "ai coding agent",
+        "design guidance",
+        "design review",
+        "ui audit",
+        "design system",
+        "product md",
+        "design md",
+        "design hook",
+        "frontend design",
+        "accessibility audit",
+        "polish",
+        "critique",
+        "detector rule"
+      ],
+      "type": "agent-skill",
+      "contains": [
+        "1 skill with 23 commands",
+        "61 deterministic detector rules, no LLM or API key",
+        "install via npx impeccable install or plugin marketplaces",
+        "design hook for Claude Code, Copilot, Codex, Cursor and Grok Build",
+        "Apache-2.0 licensed"
+      ],
+      "formats": [
+        "prompts",
+        "cli",
+        "npm-package"
+      ],
+      "pricing": "free",
+      "license": "Apache-2.0",
+      "related": {
+        "repo": "https://github.com/pbakaus/impeccable",
+        "docs": "https://impeccable.style",
+        "npm": "impeccable"
+      },
+      "confidence": 0.9
     },
     {
       "id": "github-com-thedotmack-claude-mem",
@@ -5151,7 +6022,7 @@
         "detail": "home -> 200 | https://freefaces.gallery/llms.txt -> 404; https://freefaces.gallery/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "blocked"
     },
     {
       "id": "land-book-com",
@@ -5185,7 +6056,7 @@
         "how": "llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "blocked"
     },
     {
       "id": "landing-love",
@@ -5193,9 +6064,10 @@
       "url": "https://landing.love",
       "domain": "landing.love",
       "kind": "site",
-      "desc": "landing.love — Best Landing Page Design Inspiration",
+      "desc": "Gallery of 2,150+ landing page and website designs, each captured as a full-page video recording instead of a screenshot.",
       "categories": [
-        "inspiration"
+        "inspiration",
+        "motion"
       ],
       "mentions": 77,
       "origin": "curated",
@@ -5203,7 +6075,7 @@
         "curated",
         "x-community"
       ],
-      "about": "Showcase of the best animation websites. Get inspired by the best website examples with full-page video recordings.",
+      "about": "Curated showcase of landing pages and websites, recorded as full-page videos that show the scroll and animation a still screenshot cannot. Every entry links to the live site, credits the studio and is filed by category (portfolio, 3D, SaaS, eCommerce …), style, platform and year; 103 sites keep older captures so a redesign can be compared over time.",
       "title": "landing.love — Best Landing Page Design Inspiration",
       "labels": [
         "Landing Pages",
@@ -5231,7 +6103,51 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "3d",
+        "scroll-effect"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "landing page",
+        "website design inspiration",
+        "animation website",
+        "full page video",
+        "website showcase",
+        "3d website",
+        "horizontal scroll",
+        "webgl",
+        "three.js",
+        "gsap",
+        "scroll animation",
+        "portfolio website",
+        "saas landing page",
+        "agency website",
+        "minimal design",
+        "design studio",
+        "website redesign",
+        "website gallery",
+        "design inspiration",
+        "ecommerce website"
+      ],
+      "type": "gallery",
+      "contains": [
+        "2,150+ landing page designs recorded as full-page videos",
+        "48 category terms, 4 style terms, 3 platform terms, 3 collections, 103 version entries",
+        "103 sites re-recorded after redesigns, with older captures kept",
+        "filters: category, style, platform, collection, year",
+        "12 credited design studios and authors",
+        "tech collections: GSAP 191, WebGL 134, ThreeJS 74 sites",
+        "entries link the live site, studio credit and written notes"
+      ],
+      "formats": [
+        "video",
+        "screenshots",
+        "links"
+      ],
+      "pricing": "free",
+      "confidence": 0.9
     },
     {
       "id": "landings-dev",
@@ -6259,11 +7175,11 @@
     },
     {
       "id": "fontshare-com",
-      "name": "fontshare.com",
+      "name": "Fontshare",
       "url": "https://fontshare.com",
       "domain": "fontshare.com",
       "kind": "site",
-      "desc": "✦ -> for premium typography",
+      "desc": "Free fonts service from the Indian Type Foundry (ITF), with a catalogue of 100 typefaces.",
       "categories": [
         "fonts"
       ],
@@ -6288,7 +7204,31 @@
         "detail": "home -> 200 | https://fontshare.com/llms.txt -> html; https://fontshare.com/llms-full.txt -> html",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "partial",
+      "about": "Fontshare is a free fonts service from the Indian Type Foundry (ITF), described as making quality fonts accessible to all. The site renders client-side, so its pages show no readable text; its public API lists the catalogue of 100 typefaces with their OpenType features.",
+      "keywords": [
+        "free font",
+        "typeface",
+        "font catalogue",
+        "font foundry",
+        "font library",
+        "font download",
+        "typography",
+        "font service",
+        "font api"
+      ],
+      "type": "font-foundry",
+      "contains": [
+        "100 fonts listed by the public API",
+        "free fonts service by the Indian Type Foundry (ITF)",
+        "fonts expose OpenType features such as ligatures, fractions and superiors"
+      ],
+      "formats": [
+        "font-files",
+        "api"
+      ],
+      "pricing": "free",
+      "confidence": 0.6
     },
     {
       "id": "indestructibletype-com",
@@ -6548,11 +7488,11 @@
     },
     {
       "id": "github-com-lucide-icons-lucide",
-      "name": "lucide-icons/lucide",
+      "name": "Lucide",
       "url": "https://github.com/lucide-icons/lucide",
       "domain": "github.com",
       "kind": "repo",
-      "desc": "GitHub - lucide-icons/lucide: Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feat…",
+      "desc": "Open-source icon library with 1600+ SVG icons, shipped as official packages for React, Vue, Svelte, Angular and more.",
       "categories": [
         "icons"
       ],
@@ -6562,7 +7502,7 @@
         "curated",
         "x-community"
       ],
-      "about": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons. - lucide-icons/lucide",
+      "about": "Lucide is an open-source icon library that provides 1600+ SVG files for digital and non-digital projects, a fork of Feather Icons. Icons ship through official packages (lucide, lucide-react, @lucide/vue, @lucide/svelte, lucide-solid, lucide-preact, lucide-react-native, @lucide/angular, @lucide/astro, lucide-static) plus a Figma plugin. Free for commercial and personal use under the ISC license.",
       "title": "GitHub - lucide-icons/lucide: Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
       "labels": [
         "Lucide"
@@ -6580,7 +7520,53 @@
         "how": "corpus:README.md",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "icon",
+        "icon library",
+        "svg icon",
+        "icon set",
+        "open source icon",
+        "free icon",
+        "ui icon",
+        "react icon",
+        "vue icon",
+        "svelte icon",
+        "angular icon",
+        "figma plugin",
+        "vector icon",
+        "icon toolkit"
+      ],
+      "type": "icon-set",
+      "contains": [
+        "1600+ SVG icons",
+        "official packages for React, Vue, Svelte, Solid, Preact, Angular, Astro and React Native",
+        "Figma plugin",
+        "ISC license, free for commercial and personal use",
+        "24.9k GitHub stars, 1.6k forks"
+      ],
+      "formats": [
+        "svg",
+        "npm-package",
+        "code"
+      ],
+      "stack": [
+        "react",
+        "vue",
+        "svelte",
+        "preact",
+        "angular",
+        "astro",
+        "react-native"
+      ],
+      "pricing": "free",
+      "license": "ISC",
+      "related": {
+        "repo": "https://github.com/lucide-icons/lucide",
+        "docs": "https://lucide.dev",
+        "npm": "lucide"
+      },
+      "confidence": 0.9
     },
     {
       "id": "github-com-react-icons-react-icons",
@@ -6645,7 +7631,7 @@
       "url": "https://hugeicons.com",
       "domain": "hugeicons.com",
       "kind": "site",
-      "desc": "Hugeicons - 60,000+ Free & Pro Icons for Designers & Developers",
+      "desc": "Icon library of 60,000+ icons in 10 styles; 6,000+ free MIT-licensed stroke icons, paid plans add all styles and formats.",
       "categories": [
         "icons"
       ],
@@ -6655,7 +7641,7 @@
         "curated",
         "x-community"
       ],
-      "about": "Explore the world's most complete icon library: 60,000+ icons, 10 unique styles, and 59 categories. Perfect for UI/UX designers, developers, and creators using Figma, React, Flutter, and more.",
+      "about": "A hand-crafted icon library of 60,000+ icons in 10 styles (stroke, solid, twotone, duotone and bulk in rounded, standard and sharp variants) across 59 categories. Shipped as SVG, icon font, Figma library and plugin, and packages for React, Vue, Angular, Svelte, SolidJS, React Native, Flutter, WordPress and Webflow. The free tier covers 6,000+ stroke-rounded icons; Pro adds the full set, AI-powered search and custom icon upload.",
       "title": "Hugeicons - The Beautiful Icon Library",
       "labels": [
         "Icons",
@@ -6678,7 +7664,60 @@
         "detail": "home -> 200 | https://hugeicons.com/llms.txt -> 404; https://hugeicons.com/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "icon",
+        "icon set",
+        "icon library",
+        "svg icon",
+        "free icon",
+        "stroke icon",
+        "solid icon",
+        "duotone icon",
+        "figma icon",
+        "react icon",
+        "vue icon",
+        "flutter icon",
+        "icon font",
+        "npm package",
+        "design system",
+        "ui icon",
+        "mcp server",
+        "custom icon"
+      ],
+      "type": "icon-set",
+      "contains": [
+        "60,350 icons in 10 styles and 59 categories",
+        "6,000+ free stroke-rounded icons under MIT",
+        "pro: 60,000+ icons, AI-powered search, custom icon upload",
+        "pricing: free, Pro $99/year, Pro Plus $1,197 one-time",
+        "formats: SVG, icon font, desktop font, Figma file and plugin, CDN",
+        "packages for React, Vue, Angular, Svelte, SolidJS, React Native, Flutter, WordPress, Webflow",
+        "MCP server and agent skill for coding agents",
+        "used by products from Fiverr, YCombinator, Framer, Webflow and Hyundai"
+      ],
+      "formats": [
+        "svg",
+        "font-files",
+        "npm-package",
+        "figma-file",
+        "api"
+      ],
+      "stack": [
+        "react",
+        "react-native",
+        "vue",
+        "angular",
+        "svelte",
+        "solidjs",
+        "flutter"
+      ],
+      "pricing": "freemium",
+      "license": "MIT",
+      "related": {
+        "docs": "https://hugeicons.com/docs"
+      },
+      "confidence": 0.9
     },
     {
       "id": "ray-so",
@@ -9753,11 +10792,11 @@
     },
     {
       "id": "uirules-com",
-      "name": "uirules.com",
+      "name": "UI Rules",
       "url": "https://uirules.com",
       "domain": "uirules.com",
       "kind": "site",
-      "desc": "UI Rules: Brand Guidelines for AI Tools",
+      "desc": "Workspace that stores your brand's design rules and tokens and serves them to AI coding tools over MCP.",
       "categories": [
         "design-rules"
       ],
@@ -9785,7 +10824,49 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "UI Rules is a workspace for brand and design-system guidelines: author rules with Do/Don't/Caution/Info markers, manage style tokens (color, typography, radius, shadow, spacing, sizing) and connect AI tools such as Cursor, Claude Code, v0, Lovable, Codex and Figma Make over MCP so generated UI follows your brand. Brand styles can be imported from Figma variables, CSS themes or shadcn presets.",
+      "keywords": [
+        "design system",
+        "brand guideline",
+        "design token",
+        "mcp",
+        "model context protocol",
+        "ai coding tool",
+        "style guide",
+        "ui rule",
+        "design rule",
+        "color token",
+        "typography token",
+        "spacing scale",
+        "shadcn",
+        "figma variable",
+        "brand consistency",
+        "agent"
+      ],
+      "type": "tool",
+      "contains": [
+        "free Starter plan; Pro $24/mo with 14-day trial; Team $79/mo",
+        "connects Cursor, Claude Code, v0, Lovable, Codex and Figma Make over MCP",
+        "styles: colors, typography, radius, shadows, sizing, spacing",
+        "rules with Do, Don't, Caution or Info guidance and Required/Recommended/Optional importance",
+        "import tokens from Figma variables, CSS theme or shadcn preset",
+        "Pro bundle: 224 React blocks and 53 React components with guidelines attached"
+      ],
+      "formats": [
+        "api",
+        "docs",
+        "code"
+      ],
+      "stack": [
+        "react"
+      ],
+      "pricing": "freemium",
+      "license": "proprietary",
+      "related": {
+        "docs": "https://uirules.com/docs"
+      },
+      "confidence": 0.9
     },
     {
       "id": "pdfcn-dev",
@@ -15088,13 +16169,14 @@
     },
     {
       "id": "reui-io",
-      "name": "re-ui",
+      "name": "ReUI",
       "url": "https://reui.io",
       "domain": "reui.io",
       "kind": "site",
-      "desc": "Open-source collection of UI components and animated effects built with React, Typescript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui",
+      "desc": "Shadcn registry with 1,241 free React and Tailwind component examples, 636 pro blocks, 667 icons, 17 templates and an MCP server.",
       "categories": [
-        "components"
+        "components",
+        "registries"
       ],
       "mentions": 1,
       "origin": "awesome-lists",
@@ -15102,7 +16184,7 @@
         "awesome-lists",
         "x-community"
       ],
-      "about": "Free Shadcn UI components and pro blocks for React and Tailwind CSS, plus hand-crafted icons, templates and a hosted MCP server for coding agents.",
+      "about": "A shadcn/ui registry: 27 in-house primitives and 1,241 free component examples across 86 categories, plus paid blocks for application, data grid, solutions, eCommerce, marketing and AI surfaces. Also ships 667 icons in 4 styles, full-page templates and a hosted MCP server with an agent skill so coding agents can search and install items directly.",
       "title": "Free Shadcn UI Components, Blocks, Icons, Templates & MCP",
       "labels": [
         "ReUI"
@@ -15139,7 +16221,105 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "card",
+        "button",
+        "table",
+        "input",
+        "select",
+        "calendar",
+        "chart",
+        "form",
+        "switch",
+        "timeline",
+        "modal",
+        "stats",
+        "accordion",
+        "badge",
+        "carousel",
+        "checkbox",
+        "command-palette",
+        "date-picker",
+        "drawer",
+        "dropdown",
+        "empty-state",
+        "file-upload",
+        "kanban",
+        "navbar",
+        "pagination",
+        "popover",
+        "progress",
+        "sidebar",
+        "loader",
+        "slider",
+        "stepper",
+        "tabs",
+        "toast",
+        "tooltip",
+        "hero",
+        "pricing",
+        "faq",
+        "cta",
+        "dashboard",
+        "chat"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "shadcn",
+        "shadcn registry",
+        "react component",
+        "tailwind css",
+        "component library",
+        "block library",
+        "dashboard block",
+        "data grid",
+        "admin dashboard",
+        "ecommerce block",
+        "landing page section",
+        "icon set",
+        "template",
+        "mcp server",
+        "coding agent",
+        "base ui",
+        "radix ui",
+        "copy paste component",
+        "saas ui"
+      ],
+      "type": "registry",
+      "contains": [
+        "1,241 free components and examples across 86 categories",
+        "27 in-house primitives (data grid, event calendar, gantt, kanban, filters ...)",
+        "636 pro blocks across 7 groups and 73 categories",
+        "667 icons in outline, solid, duotone and filled styles (2,668 variants)",
+        "17 full-page templates for Next.js, Vite, TanStack Start, Astro and Laravel",
+        "every item installs via the shadcn CLI from the @reui registry",
+        "one-time pricing: free tier, Pro $249, Ultimate $499",
+        "hosted MCP server and agent skill for coding agents"
+      ],
+      "formats": [
+        "code",
+        "registry",
+        "cli",
+        "docs",
+        "templates",
+        "figma-file"
+      ],
+      "stack": [
+        "react",
+        "nextjs",
+        "tailwind",
+        "radix",
+        "base-ui",
+        "framer-motion"
+      ],
+      "pricing": "freemium",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/keenthemes/reui",
+        "docs": "https://reui.io/docs"
+      },
+      "confidence": 0.9
     },
     {
       "id": "github-com-georgegriff-react-dnd-kit-tailwind-shadcn-ui",
@@ -15697,12 +16877,13 @@
     },
     {
       "id": "www-shadcnblocks-com",
-      "name": "shadcn-blocks-com",
+      "name": "Shadcnblocks",
       "url": "https://www.shadcnblocks.com",
       "domain": "shadcnblocks.com",
       "kind": "site",
-      "desc": "Premium shadcn/ui registry with 1429 blocks, 1189 component variants, 14 templates, Figma kit, themes, and admin dashboard resources.",
+      "desc": "Paid shadcn/ui library of 2,150 page blocks and 2,151 components, with templates, themes, Figma and admin kits.",
       "categories": [
+        "sections",
         "components"
       ],
       "mentions": 5,
@@ -15711,7 +16892,7 @@
         "awesome-lists",
         "x-community"
       ],
-      "about": "Discover hundreds of extra shadcn/ui blocks and Shadcn UI components. Shadcnblocks is a premium component library built with Shadcn UI, React & Tailwind.",
+      "about": "A premium shadcn/ui registry of page blocks and components built with React and Tailwind. Blocks cover marketing, dashboard, eCommerce and app surfaces (hero, feature, pricing, navbar, footer, data tables, charts ...) and install via the shadcn CLI, copy-paste or the shadcn MCP. Extras: Next.js and Astro templates, 39 themes, a Figma kit, a 219-page admin dashboard, a page builder and an IDE extension.",
       "title": "Shadcnblocks shadcn/ui blocks & components",
       "labels": [
         "2104+ shadcn blocks",
@@ -15740,7 +16921,108 @@
         "detail": "home -> 200 | about1.json -> HTTP 401 | https://shadcnblocks.com/llms.txt -> 404; https://shadcnblocks.com/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "features",
+        "hero",
+        "bento-grid",
+        "button",
+        "card",
+        "form",
+        "list",
+        "select",
+        "chart",
+        "table",
+        "pricing",
+        "modal",
+        "navbar",
+        "footer",
+        "cta",
+        "faq",
+        "testimonials",
+        "logo-cloud",
+        "stats",
+        "dashboard",
+        "sidebar",
+        "accordion",
+        "alert",
+        "badge",
+        "carousel",
+        "checkbox",
+        "command-palette",
+        "date-picker",
+        "drawer",
+        "dropdown",
+        "input",
+        "marquee",
+        "pagination",
+        "popover",
+        "progress",
+        "slider",
+        "toast",
+        "loader",
+        "switch",
+        "tabs"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "shadcn",
+        "shadcn block",
+        "shadcn ui",
+        "tailwind",
+        "react",
+        "block library",
+        "landing page",
+        "hero section",
+        "pricing section",
+        "navbar",
+        "footer",
+        "dashboard",
+        "admin dashboard",
+        "ecommerce",
+        "figma kit",
+        "template",
+        "theme",
+        "page builder",
+        "vscode extension",
+        "cli",
+        "copy paste",
+        "marketing site",
+        "saas"
+      ],
+      "type": "block-library",
+      "contains": [
+        "2,150 blocks across marketing, app and eCommerce categories",
+        "2,151 components built on shadcn/ui",
+        "21 Next.js and Astro templates",
+        "39 themes installed as CSS variables",
+        "Figma kit with all shadcn/ui components and 579 block designs",
+        "219-page Next.js admin dashboard kit with six apps",
+        "page builder, IDE extension and shadcn MCP support",
+        "plans: Pro $149, Premium $299, Elite $399 (one-time)"
+      ],
+      "formats": [
+        "code",
+        "registry",
+        "cli",
+        "templates",
+        "figma-file"
+      ],
+      "stack": [
+        "react",
+        "nextjs",
+        "astro",
+        "tailwind",
+        "radix",
+        "base-ui",
+        "react-aria"
+      ],
+      "pricing": "freemium",
+      "license": "proprietary",
+      "related": {
+        "docs": "https://www.shadcnblocks.com/docs"
+      },
+      "confidence": 0.9
     },
     {
       "id": "www-shadcn-builder-com",
@@ -20381,10 +21663,10 @@
       "url": "https://tweakcn.com",
       "domain": "tweakcn.com",
       "kind": "site",
-      "desc": "powerful theme editor for shadcn/ui components, offering beautifully designed themes and seamless Tailwind CSS V4 integration",
+      "desc": "Visual theme editor for shadcn/ui and Tailwind CSS: adjust tokens with live preview, then copy or install the theme.",
       "categories": [
         "color-effects",
-        "components"
+        "design-tools"
       ],
       "mentions": 3,
       "origin": "awesome-lists",
@@ -20392,7 +21674,7 @@
         "awesome-lists",
         "x-community"
       ],
-      "about": "Customize theme for shadcn/ui with tweakcn's interactive editor. Supports Tailwind CSS v4, Shadcn UI, and custom styles. Modify properties, preview changes, and get the code in real time.",
+      "about": "A no-code theme editor and generator for shadcn/ui and Tailwind CSS v4. Adjust color tokens (background, foreground, border, input, ring, primary, accent, chart 1-5) with a live preview of dashboard, calendar and form components, then copy the generated CSS variables or install a preset. 36 theme presets are served in shadcn registry format; free plan plus a pro plan.",
       "title": "Beautiful themes for shadcn/ui — tweakcn / Theme Editor & Generator",
       "labels": [
         "tweakcn"
@@ -20418,7 +21700,41 @@
         "how": "registry inline",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "theme editor",
+        "theme generator",
+        "shadcn theme",
+        "tailwind theme",
+        "css variable",
+        "design token",
+        "color palette",
+        "dark mode",
+        "tailwind css",
+        "theme preset",
+        "live preview",
+        "no-code",
+        "design system",
+        "shadcn"
+      ],
+      "type": "generator",
+      "contains": [
+        "no-code visual editor for shadcn/ui and Tailwind CSS v4 themes",
+        "edit color tokens with live dashboard, calendar and form previews",
+        "exports theme CSS variables and copy-ready theme code",
+        "36 theme presets in shadcn registry format",
+        "free plan plus a pro plan",
+        "open-source code on GitHub"
+      ],
+      "formats": [
+        "code",
+        "registry"
+      ],
+      "pricing": "freemium",
+      "related": {
+        "repo": "https://github.com/jnsahaj/tweakcn"
+      },
+      "confidence": 0.7
     },
     {
       "id": "zippystarter-com-tools-shadcn-ui-theme-generator",
@@ -25955,9 +27271,9 @@
       "url": "https://coolors.co",
       "domain": "coolors.co",
       "kind": "site",
-      "desc": "Coolors - The super fast color palettes generator!",
+      "desc": "Color palette generator with millions of community schemes, image color picker, contrast checker and gradient tools.",
       "title": "Coolors - The super fast color palettes generator!",
-      "about": "Generate or browse beautiful color combinations for your designs.",
+      "about": "Free browser app for creating color palettes: hit the spacebar for instant combinations or browse millions of community schemes by topic, style or color. Extra tools cover image color extraction, WCAG contrast checking, palette visualization on real designs, gradient making, color pickers, Tailwind color previews and AI color suggestions.",
       "categories": [
         "color-effects"
       ],
@@ -25987,7 +27303,46 @@
         "detail": "home -> 200 | https://coolors.co/llms.txt -> html; https://coolors.co/llms-full.txt -> html",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "color palette",
+        "palette generator",
+        "color scheme",
+        "color combination",
+        "hex color",
+        "color picker",
+        "image color picker",
+        "contrast checker",
+        "wcag",
+        "accessibility",
+        "gradient maker",
+        "gradient palette",
+        "tailwind color",
+        "palette visualizer",
+        "css export",
+        "svg export",
+        "color inspiration",
+        "ai color palette"
+      ],
+      "type": "generator",
+      "contains": [
+        "10M+ palettes to explore; spacebar generates new ones",
+        "tools: palette generator, image picker, contrast checker, palette visualizer, color picker, color bot",
+        "exports: URL, PDF, image, CSS, ASE, SVG, code, Tailwind, embed",
+        "free plan: palettes up to 5 colors, 10 saved palettes, 1 project, 1 collection",
+        "Pro plan adds AI palette generation, no ads, palettes up to 10 colors and 3,000 credits/mo",
+        "iOS app, Figma plugin, Chrome and Adobe extensions",
+        "palettes free for commercial and non-commercial use without attribution; resale or redistribution not allowed",
+        "used by 8+ million designers and creatives"
+      ],
+      "formats": [
+        "app",
+        "code",
+        "svg",
+        "png"
+      ],
+      "pricing": "freemium",
+      "confidence": 0.9
     },
     {
       "id": "designspells-com",
@@ -26258,7 +27613,7 @@
         "detail": "home -> 401 | https://unsplash.com/llms.txt -> 401 (login/licence); https://unsplash.com/llms-full.txt -> 401 (login/licence)",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "blocked"
     },
     {
       "id": "replit-com",
@@ -26512,11 +27867,13 @@
       "url": "https://onepagelove.com",
       "domain": "onepagelove.com",
       "kind": "site",
-      "desc": "One Page Love — One Page Website Inspiration and Templates",
+      "desc": "Curated gallery of 9,000+ one page websites, plus 9,300+ page section examples, one page templates and a typeface archive.",
       "title": "One Page Love — One Page Website Inspiration and Templates",
-      "about": "One Page Love is a One Page website design gallery showcasing the best Single Page websites, templates and resources.",
+      "about": "Hand-picked one page website and landing page designs, each with a full-length screenshot, written review and tagged features; browse by genre, platform, tech or typeface. The same site collects page section examples from live websites, 307 one page templates with live demos and download links, the typefaces most used by the sites it curates, and design articles. A documented JSON API serves the same dataset.",
       "categories": [
-        "inspiration"
+        "inspiration",
+        "sections",
+        "templates"
       ],
       "mentions": 31,
       "labels": [
@@ -26549,7 +27906,75 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "hero",
+        "navbar",
+        "footer",
+        "cta",
+        "pricing",
+        "faq",
+        "testimonials",
+        "team",
+        "logo-cloud",
+        "features",
+        "bento-grid",
+        "carousel",
+        "form",
+        "accordion"
+      ],
+      "elements_from": "metadata",
+      "variants": {
+        "faq": [
+          "accordion"
+        ],
+        "testimonials": [
+          "grid"
+        ]
+      },
+      "keywords": [
+        "one page website",
+        "landing page",
+        "single page website",
+        "web design gallery",
+        "website inspiration",
+        "page section",
+        "section example",
+        "one page template",
+        "website template",
+        "webflow template",
+        "framer template",
+        "carrd template",
+        "typeface",
+        "font used in website",
+        "portfolio website",
+        "saas landing page",
+        "website review",
+        "screenshot",
+        "api",
+        "web design inspiration"
+      ],
+      "type": "gallery",
+      "contains": [
+        "9,164 one page websites and 9,303 page section examples, curated since 2008",
+        "307 one page templates with review, long screenshot, live demo and download links",
+        "filters: genre, platform, tech, typeface, dominant color, section type",
+        "typeface archive, e.g. Inter 375, Open Sans 222, Montserrat 181 one pagers",
+        "articles and a biweekly newsletter",
+        "documented JSON API with a free tier over the same 9,000+ entries",
+        "genre categories from portfolio and landing page to restaurant and wedding"
+      ],
+      "formats": [
+        "screenshots",
+        "links",
+        "templates",
+        "api"
+      ],
+      "pricing": "free",
+      "related": {
+        "docs": "https://onepagelove.com/api"
+      },
+      "confidence": 0.9
     },
     {
       "id": "deepl-com",
@@ -27656,7 +29081,7 @@
         "detail": "home -> 200 | https://saasframe.io/llms.txt -> 404; https://saasframe.io/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "blocked"
     },
     {
       "id": "minimal-gallery",
@@ -27748,13 +29173,13 @@
     },
     {
       "id": "ruben-substack-com-p-claude-for-teams",
-      "name": "Claude for teams (Ruben Hassid)",
+      "name": "Claude for teams",
       "url": "https://ruben.substack.com/p/claude-for-teams",
       "domain": "ruben.substack.com",
       "kind": "page",
-      "desc": "How to AI / Ruben Hassid / Substack",
+      "desc": "Step-by-step playbook for rolling out Claude across a team in one week, from Projects and prompt templates to company-wide adoption.",
       "title": "How to AI / Ruben Hassid / Substack",
-      "about": "Stop collecting prompts. Finish something with AI this week. One step-by-step guide per email, with screenshots of my actual screen: where I clicked, what didn't work & what I loved. Click to read How to AI, by Ruben Hassid, a Substack publication with hundreds of thousands of subscribers.",
+      "about": "Ruben Hassid's playbook for getting a team to actually use Claude, structured as a five-day plan: set up Projects on Monday, build prompt templates on Tuesday, test for a wow moment on Wednesday, convert one person on Thursday and roll out across the team on Friday. Written for teams that already switched from ChatGPT but never kept AI adoption going.",
       "categories": [
         "learning"
       ],
@@ -27771,10 +29196,6 @@
       "origins": [
         "x-community"
       ],
-      "elements": [
-        "team"
-      ],
-      "elements_from": "hints",
       "probe": {
         "sitemap": {
           "url": "https://ruben.substack.com/sitemap.xml",
@@ -27788,7 +29209,30 @@
         "detail": "home -> 200 | https://ruben.substack.com/llms.txt -> 404; https://ruben.substack.com/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "claude",
+        "claude project",
+        "ai adoption",
+        "team onboarding",
+        "prompt template",
+        "ai workflow",
+        "ai training",
+        "ai playbook",
+        "productivity",
+        "team tooling"
+      ],
+      "type": "article",
+      "contains": [
+        "five-day rollout plan from Projects to team-wide adoption",
+        "covers prompt templates, a test run and converting one champion",
+        "published March 2026 in the How to AI newsletter"
+      ],
+      "pricing": "free",
+      "related": {
+        "parent": "ruben-substack-com"
+      },
+      "confidence": 0.85
     },
     {
       "id": "ruben-substack-com-p-claude-cowork",
@@ -28175,15 +29619,16 @@
     },
     {
       "id": "github-com-shadcn-ui-ui",
-      "name": "shadcn-ui/ui",
+      "name": "shadcn/ui",
       "url": "https://github.com/shadcn-ui/ui",
       "domain": "github.com",
       "kind": "repo",
-      "desc": "GitHub - shadcn-ui/ui: Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+      "desc": "MIT-licensed React component collection added to projects as copy-paste code or shadcn CLI registry items from the docs site.",
       "title": "GitHub - shadcn-ui/ui: Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
-      "about": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own. - shadcn-ui/ui",
+      "about": "The source repository of shadcn/ui: composable, accessible React components (accordion, dialog, table, sidebar, tooltip ...) that you add to your project as code you own, installed with the shadcn CLI from the docs site. The docs also cover installation, theming, charts, blocks, typeset, the registry format and agent skills.",
       "categories": [
-        "components"
+        "components",
+        "registries"
       ],
       "mentions": 11,
       "labels": [
@@ -28208,7 +29653,93 @@
         "how": "repo:README.md",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "accordion",
+        "alert",
+        "avatar",
+        "badge",
+        "breadcrumbs",
+        "button",
+        "calendar",
+        "card",
+        "carousel",
+        "chart",
+        "checkbox",
+        "command-palette",
+        "date-picker",
+        "drawer",
+        "dropdown",
+        "empty-state",
+        "form",
+        "input",
+        "otp-input",
+        "menubar",
+        "modal",
+        "navbar",
+        "pagination",
+        "popover",
+        "progress",
+        "select",
+        "sidebar",
+        "loader",
+        "slider",
+        "switch",
+        "table",
+        "tabs",
+        "toast",
+        "tooltip",
+        "chat"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "shadcn",
+        "shadcn ui",
+        "react component",
+        "copy paste",
+        "component registry",
+        "tailwind css",
+        "radix ui",
+        "base ui",
+        "accessible component",
+        "design system",
+        "cli",
+        "typescript",
+        "nextjs",
+        "open source",
+        "headless component",
+        "theming",
+        "data table",
+        "chart"
+      ],
+      "type": "component-library",
+      "contains": [
+        "60+ documented components from accordion to tooltip and typography",
+        "components are added as source code via the shadcn CLI",
+        "defines the shadcn registry format other registries publish to",
+        "MIT-licensed; works with React, Next.js, Vite, Astro, Laravel",
+        "docs cover installation, theming, CLI, registry, charts and blocks",
+        "125k GitHub stars shown on the docs site"
+      ],
+      "formats": [
+        "code",
+        "registry",
+        "cli",
+        "docs"
+      ],
+      "stack": [
+        "react",
+        "tailwind",
+        "radix",
+        "base-ui"
+      ],
+      "pricing": "free",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/shadcn-ui/ui",
+        "docs": "https://ui.shadcn.com/docs"
+      },
+      "confidence": 0.85
     },
     {
       "id": "lapa-ninja",
@@ -28973,7 +30504,7 @@
         "detail": "home -> 202 | https://dribbble.com/llms.txt -> 404; https://dribbble.com/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "blocked"
     },
     {
       "id": "ruben-substack-com-p-how-to-make-perfect-spreadsheets",
@@ -30210,9 +31741,9 @@
       "url": "https://uiverse.io",
       "domain": "uiverse.io",
       "kind": "site",
-      "desc": "Uiverse / The Largest Library of Open-Source UI elements",
+      "desc": "Community library of 7,000+ free open-source UI elements to copy as HTML/CSS, Tailwind, React or Figma.",
       "title": "Uiverse / The Largest Library of Open-Source UI elements",
-      "about": "Community-made library of free and customizable UI elements made with CSS or Tailwind. It's all free to copy and use in your projects. Uiverse can save you many hours spent on building & customizing UI components for your next project.",
+      "about": "Community-made UI elements — buttons, loaders, cards, checkboxes, toggle switches, inputs, forms and tooltips — with source you copy as HTML/CSS, Tailwind or React, or paste into Figma. Everything is free for personal and commercial use; browse by tag, type or use case, follow creator profiles, take part in challenges and read the blog. The whole library is also published on GitHub as uiverse-io/galaxy.",
       "categories": [
         "components"
       ],
@@ -30233,7 +31764,69 @@
         "detail": "home -> 200 | https://uiverse.io/llms.txt -> 404; https://uiverse.io/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "button",
+        "loader",
+        "card",
+        "checkbox",
+        "switch",
+        "input",
+        "background",
+        "form",
+        "tooltip"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "css component",
+        "tailwind component",
+        "html css snippet",
+        "copy paste component",
+        "ui element",
+        "button",
+        "loader",
+        "card",
+        "checkbox",
+        "toggle switch",
+        "radio button",
+        "input",
+        "form",
+        "tooltip",
+        "pattern",
+        "open source",
+        "free",
+        "community",
+        "figma",
+        "react",
+        "ui library",
+        "spinner",
+        "animation"
+      ],
+      "type": "component-library",
+      "contains": [
+        "7,449 community-made UI elements",
+        "copy as HTML/CSS, Tailwind, React, or paste into Figma",
+        "100% free for personal and commercial use",
+        "384,786 contributors to the community",
+        "categories: buttons, checkboxes, toggle switches, cards, loaders, inputs, radio buttons, forms, patterns, tooltips",
+        "creator profiles, community challenges and a blog",
+        "uiverse-io/galaxy, the library on GitHub"
+      ],
+      "formats": [
+        "code"
+      ],
+      "stack": [
+        "html",
+        "css",
+        "tailwind",
+        "react"
+      ],
+      "pricing": "free",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/uiverse-io/galaxy"
+      },
+      "confidence": 0.9
     },
     {
       "id": "designmd-ai",
@@ -31042,9 +32635,9 @@
       "url": "https://figma.com",
       "domain": "figma.com",
       "kind": "site",
-      "desc": "Figma: The collaborative canvas for design, code, and AI",
+      "desc": "Collaborative browser-based design canvas for UI, prototyping, whiteboarding, slides and developer handoff, with AI agent features.",
       "title": "Figma: The collaborative canvas for design, code, and AI",
-      "about": "Figma is the canvas where design, code, and AI come together. From first idea to shipped product — go from concept to production with your whole team, in one place.",
+      "about": "The canvas where design, code and AI come together: Figma Design, Dev Mode, FigJam whiteboards, Slides, Draw, Motion, Sites and AI workflows (Figma agent, Figma Make) share one workspace with real-time collaboration. Includes a free Starter plan, a font library of 1,648 fonts, 300+ team templates and the Figma community with 1,000+ more.",
       "categories": [
         "design-tools"
       ],
@@ -31073,7 +32666,42 @@
         "detail": "home -> 200 | https://figma.com/llms.txt -> 404; https://figma.com/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "design tool",
+        "ui design",
+        "ux design",
+        "prototyping",
+        "wireframe",
+        "design system",
+        "design handoff",
+        "collaboration",
+        "whiteboard",
+        "presentation",
+        "website design",
+        "mobile app design",
+        "ai design agent",
+        "template",
+        "ui kit",
+        "font library",
+        "dev mode"
+      ],
+      "type": "tool",
+      "contains": [
+        "products: Figma Design, Make, Draw, Dev Mode, FigJam, Slides, Motion, Sites, Buzz",
+        "free Starter plan; Professional full seat $16/mo with 3,000 AI credits/mo",
+        "font library with 1,648 fonts across Sans Serif, Serif, Monospace, Script, Slab and Symbols",
+        "300+ free templates from the Figma team; 1,000+ templates on the Figma community",
+        "template categories: UI kits, websites, mobile apps, wireframes, illustrations, portfolios, icons",
+        "AI agent adds motion, documents design systems and implements feedback",
+        "95% of the Fortune 500 uses Figma (March 2025 data)"
+      ],
+      "formats": [
+        "app",
+        "templates"
+      ],
+      "pricing": "freemium",
+      "confidence": 0.9
     },
     {
       "id": "b-ai",
@@ -31937,11 +33565,11 @@
     },
     {
       "id": "lottiefiles-com",
-      "name": "lottiefiles.com",
+      "name": "LottieFiles",
       "url": "https://lottiefiles.com",
       "domain": "lottiefiles.com",
       "kind": "site",
-      "desc": "Free Lottie animations",
+      "desc": "Library of 800,000+ free and premium Lottie animations plus browser tools to create, edit, test and ship motion.",
       "categories": [
         "motion"
       ],
@@ -31969,7 +33597,44 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "Motion design platform around the Lottie and dotLottie vector animation formats: search free and premium animations by category and tag, create and edit animations in the browser, add no-code interactivity with state machines and light/dark theming, and implement them with runtimes and players for web, iOS, Android and React Native. Team workspaces add hosting, collaboration and developer handoff.",
+      "keywords": [
+        "lottie",
+        "lottie animation",
+        "animated icon",
+        "loading animation",
+        "animation library",
+        "motion graphic",
+        "micro interaction",
+        "free animation",
+        "motion design",
+        "animation editor",
+        "vector animation",
+        "svg animation",
+        "json animation",
+        "dotlottie",
+        "interactive animation",
+        "animation hosting"
+      ],
+      "type": "asset-library",
+      "contains": [
+        "800,000+ free and premium ready-to-use animations",
+        "browse by category (business, festive, health, finance, gaming, 404, ...) and tag (loading, success, ui, loop, ...)",
+        "Lottie Creator and Editor run in the browser; AI tools include Motion Copilot and prompt-to-vector",
+        "no-code state machines for clicks, hovers and data inputs, plus light/dark theming",
+        "runtimes and players for web, iOS, Android and React Native; plugins for After Effects, Figma, Webflow and Canva",
+        "hosting, embeds, asset management and team workspaces",
+        "600,000+ premium animations; Individual plan $19.99/mo billed annually",
+        "1,100+ animators available for hire; 16M+ users across 280,000+ companies"
+      ],
+      "formats": [
+        "app",
+        "code",
+        "docs"
+      ],
+      "pricing": "freemium",
+      "confidence": 0.9
     },
     {
       "id": "remixicon-com",
@@ -35875,15 +37540,16 @@
     },
     {
       "id": "3dicons-co",
-      "name": "3dicons.co",
+      "name": "3dicons",
       "url": "https://3dicons.co",
       "domain": "3dicons.co",
       "kind": "site",
-      "desc": "Beautifully Crafted Open Source & Free Premium 3D Icons",
+      "desc": "Library of 1,400+ hand-made 3D icon renders in multiple angles and colors, free under CC0 without attribution.",
       "title": "Beautifully Crafted Open Source & Free Premium 3D Icons",
-      "about": "1440+ beautifully crafted open-source 3D icons that you can use completely free and without attribution for personal or commercial project",
+      "about": "A set of hand-made 3D icons modelled in Blender and rendered at different angles and color options by Vijay Verma (@realvjy). Browse and download individual renders or the full V1 pack, use the Figma file and plugin, or edit color and angle online. Collections include V1, Halloween, Social and Christmas; released under CC0, so no attribution is required.",
       "categories": [
-        "icons"
+        "icons",
+        "media"
       ],
       "mentions": 3,
       "labels": [
@@ -35895,10 +37561,6 @@
       "origins": [
         "x-community"
       ],
-      "elements": [
-        "3d"
-      ],
-      "elements_from": "hints",
       "probe": {
         "sitemap": {
           "url": "https://3dicons.co/sitemap.xml",
@@ -35912,7 +37574,41 @@
         "detail": "home -> 200 | https://3dicons.co/llms.txt -> 404; https://3dicons.co/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "3d icon",
+        "3d asset",
+        "icon",
+        "icon set",
+        "open source icon",
+        "free 3d icon",
+        "render",
+        "figma icon",
+        "blender",
+        "png",
+        "no attribution",
+        "cc0",
+        "illustration",
+        "social icon"
+      ],
+      "type": "icon-set",
+      "contains": [
+        "1,400+ 3D icon renders by Vijay Verma (@realvjy)",
+        "collections: V1, Halloween, Social, Christmas",
+        "renders in multiple angles and color options",
+        "download as PNG renders, Figma file or plugin",
+        "Blender master files shared for remixing",
+        "edit color and angle online (early access)",
+        "CC0 license, no attribution required",
+        "10m+ downloads"
+      ],
+      "formats": [
+        "png",
+        "figma-file"
+      ],
+      "pricing": "free",
+      "license": "CC0-1.0",
+      "confidence": 0.9
     },
     {
       "id": "astryx-atmeta-com",
@@ -37984,9 +39680,9 @@
       "url": "https://haikei.app",
       "domain": "haikei.app",
       "kind": "site",
-      "desc": "Generate unique SVG design assets / Haikei",
+      "desc": "Web app that generates randomized SVG backgrounds and shapes (waves, blobs, grids, gradients) with SVG and PNG export.",
       "title": "Generate unique SVG design assets / Haikei",
-      "about": "A web-based design tool to generate unique SVG design assets for websites, social media, blog posts, desktop and mobile wallpapers, posters, and more! Our generators let you discover, customize, randomize, and export generative SVG design assets ready to use with your favorite design tools.",
+      "about": "Free browser tool for creating decorative visuals: pick one of 15 generators (stacked and layered waves, steps, peaks, blobs, symbols, grids, gradients and more), adjust colors and canvas size, then roll the dice for endless variations. Exports SVG and PNG for websites, slide decks, blog covers, wallpapers and social media; no signup or credit card.",
       "categories": [
         "color-effects"
       ],
@@ -38002,10 +39698,7 @@
       "elements": [
         "background"
       ],
-      "elements_weak": [
-        "background"
-      ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {},
       "reach": {
         "ok": false,
@@ -38013,7 +39706,40 @@
         "detail": "home -> 200 | https://haikei.app/llms.txt -> 404; https://haikei.app/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "svg background",
+        "background generator",
+        "blob generator",
+        "wave generator",
+        "gradient generator",
+        "pattern generator",
+        "shape generator",
+        "generative design",
+        "png export",
+        "svg export",
+        "landing page background",
+        "hero background",
+        "slide background",
+        "blog cover",
+        "wallpaper"
+      ],
+      "type": "generator",
+      "contains": [
+        "15 free generators incl. waves, steps, peaks, blobs, symbols, grids and gradients",
+        "export as SVG or PNG with unlimited downloads and 9 basic canvas templates",
+        "dice button randomizes settings for new variations",
+        "free for personal and commercial projects; no credit required",
+        "no signup, no credit card",
+        "pro plan planned with all generators, advanced functions, code export (SVG, JSX) and 40+ canvas templates"
+      ],
+      "formats": [
+        "app",
+        "svg",
+        "png"
+      ],
+      "pricing": "free",
+      "confidence": 0.9
     },
     {
       "id": "khroma-co",
@@ -38241,9 +39967,9 @@
       "url": "https://iconoir.com",
       "domain": "iconoir.com",
       "kind": "site",
-      "desc": "Iconoir / Free Icons",
+      "desc": "Open-source icon library of 1,671 SVG icons on a 24px grid, with React, Vue, Flutter, Figma and Framer packages.",
       "title": "Iconoir / Free Icons",
-      "about": "Iconoir is the biggest open source icon library that provides a massive selection of high-quality icons, available for free download. No premium options or email sign-up required, free for real. Icons available in SVG, Font, React, React Nativ, and Flutter libraries, Figma and Framer.",
+      "about": "An open-source icon library: 1,671 icons drawn on a 24x24 grid in regular and solid styles. Icons are free to download as SVG or consumed through the iconoir npm package, framework libraries (React, React Native, Vue, SolidJS, Flutter), an icon font/CSS file, Figma community library, Framer integration and a Swift package. No premium tier or sign-up.",
       "categories": [
         "icons"
       ],
@@ -38266,7 +39992,56 @@
         "detail": "home -> 200 | https://iconoir.com/llms.txt -> 404; https://iconoir.com/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "icon",
+        "icon library",
+        "svg icon",
+        "free icon",
+        "open source icon",
+        "react icon",
+        "vue icon",
+        "flutter icon",
+        "figma icon",
+        "framer",
+        "icon font",
+        "npm package",
+        "24px grid",
+        "solid icon",
+        "mit license",
+        "community icon set"
+      ],
+      "type": "icon-set",
+      "contains": [
+        "1,671 icons on a 24x24 grid (v7.12.1)",
+        "regular and solid styles, named with a documented convention",
+        "packages: iconoir, iconoir-react, iconoir-react-native, @iconoir/vue, iconoir_flutter, iconoir-solid-js",
+        "also shipped as icon font/CSS, Figma community library, Framer library and Swift package",
+        "free with no premium options or sign-up",
+        "MIT licensed; community contributions via GitHub"
+      ],
+      "formats": [
+        "svg",
+        "npm-package",
+        "font-files",
+        "figma-file"
+      ],
+      "stack": [
+        "react",
+        "react-native",
+        "vue",
+        "solidjs",
+        "flutter",
+        "swift"
+      ],
+      "pricing": "free",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/iconoir-icons/iconoir",
+        "docs": "https://iconoir.com/docs/introduction",
+        "npm": "iconoir"
+      },
+      "confidence": 0.9
     },
     {
       "id": "fonts-google-com-icons",
@@ -40844,15 +42619,16 @@
     },
     {
       "id": "github-com-emilkowalski-skills",
-      "name": "emilkowalski/skills",
+      "name": "Skills for Designers and Engineers",
       "url": "https://github.com/emilkowalski/skills",
       "domain": "github.com",
       "kind": "repo",
-      "desc": "GitHub - emilkowalski/skills: Skills for Designers and Engineers.",
+      "desc": "14 agent skills that help coding agents make better UI and animation decisions, from easing curves to design review.",
       "title": "GitHub - emilkowalski/skills: Skills for Designers and Engineers.",
-      "about": "Skills for Designers and Engineers. Contribute to emilkowalski/skills development by creating an account on GitHub.",
+      "about": "A set of 14 skills for designers and engineers building user interfaces: emil-design-eng (animation and design advice), animate, animate-expo, review-animations, improve-animations, find-animation-opportunities, animation-vocabulary, apple-design, write-swift, pick-ui-library, prototype, mobile-native, break-ui and ask-sonner. They encode rules for choosing the right easing, duration and properties, auditing motion in a codebase, and stress-testing UI with worst-case data.",
       "categories": [
-        "design-rules"
+        "design-rules",
+        "motion"
       ],
       "mentions": 2,
       "labels": [
@@ -40875,7 +42651,41 @@
         "how": "repo:README.md",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "agent skill",
+        "ai agent",
+        "animation",
+        "motion design",
+        "easing",
+        "animation curve",
+        "duration",
+        "ui design",
+        "design engineering",
+        "apple design",
+        "react native",
+        "swift",
+        "toast",
+        "prototype",
+        "design review",
+        "mobile web"
+      ],
+      "type": "agent-skill",
+      "contains": [
+        "14 skills for designers and engineers",
+        "animation, motion and UI design guidance",
+        "based on experience at Vercel and Linear",
+        "MIT licensed"
+      ],
+      "formats": [
+        "prompts"
+      ],
+      "pricing": "free",
+      "license": "MIT",
+      "related": {
+        "repo": "https://github.com/emilkowalski/skills"
+      },
+      "confidence": 0.9
     },
     {
       "id": "github-com-kingbootoshi-cartographer",
@@ -47242,11 +49052,11 @@
     },
     {
       "id": "flowbase-co-blog-top-20-free-fonts-for-ui-designers-2025",
-      "name": "Top 20 Free Fonts for UI Designers 2025 (Flowbase)",
+      "name": "Top 20 Free Fonts for UI Designers 2025",
       "url": "https://flowbase.co/blog/top-20-free-fonts-for-ui-designers-2025",
       "domain": "flowbase.co",
       "kind": "page",
-      "desc": "Top 20 Free Fonts for UI Designers 2025 / Flowbase",
+      "desc": "Curated round-up of 20 free fonts for UI design, each with a short description and a download link.",
       "title": "Top 20 Free Fonts for UI Designers 2025 / Flowbase",
       "categories": [
         "fonts"
@@ -47276,7 +49086,34 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "Flowbase's 2025 round-up of twenty free typefaces for UI designers. Each entry has a short description and a direct download link, covering grotesques, serifs, display faces and monospaced designs for product interfaces, branding and websites.",
+      "keywords": [
+        "free font",
+        "ui font",
+        "sans serif font",
+        "serif font",
+        "display font",
+        "monospace font",
+        "variable font",
+        "web font",
+        "font download",
+        "font list",
+        "typography",
+        "typeface",
+        "ui design"
+      ],
+      "type": "article",
+      "contains": [
+        "20 free fonts, each with a preview and download link",
+        "sans-serif, serif, display, monospaced and variable typefaces",
+        "picks for UI, web, portfolio and branding projects"
+      ],
+      "formats": [
+        "links"
+      ],
+      "pricing": "free",
+      "confidence": 0.9
     },
     {
       "id": "github-com-mathieu2301-tradingview-api",
@@ -52959,11 +54796,11 @@
     },
     {
       "id": "medium-com-styled-components-how-to-build-a-great-component-library-a40d",
-      "name": "How to build a great component library a40d974a412d (medium.com)",
+      "name": "How we built a component library that people actually enjoy using",
       "url": "https://medium.com/styled-components/how-to-build-a-great-component-library-a40d974a412d",
       "domain": "medium.com",
       "kind": "page",
-      "desc": "How do you build a component library that over 60 designers and engineers loves using? 🤔🤔🤔 @chase_mccoy walks us through how his tiny team of 3 did it for @SproutSocial: 😍👏",
+      "desc": "Case study of how Sprout Social built its Seeds React component library: docs, author tooling and the details users see.",
       "categories": [
         "learning"
       ],
@@ -52973,10 +54810,6 @@
       "origins": [
         "x-community"
       ],
-      "elements": [
-        "team"
-      ],
-      "elements_from": "hints",
       "probe": {},
       "reach": {
         "ok": false,
@@ -52984,7 +54817,34 @@
         "detail": "home -> 200 | https://medium.com/llms.txt -> 403 (bot challenge); https://medium.com/llms-full.txt -> 404 (bot challenge)",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "Chase McCoy's walkthrough of Sprout Social's Seeds design system library: separating library development from documentation, empowering component authors, and the consumer-facing touches that made people enjoy using it — interactive code blocks, token tags, a typography playground and system props.",
+      "keywords": [
+        "component library",
+        "design system",
+        "react",
+        "styled component",
+        "documentation",
+        "design engineering",
+        "system prop",
+        "design token",
+        "case study",
+        "frontend",
+        "design operation",
+        "theme"
+      ],
+      "type": "article",
+      "contains": [
+        "walkthrough of Sprout Social's Seeds design system",
+        "separates library development from documentation",
+        "consumer features: interactive code blocks, token tags, typography playground, system props",
+        "12-minute read published June 2019"
+      ],
+      "pricing": "free",
+      "related": {
+        "parent": "medium-com"
+      },
+      "confidence": 0.9
     },
     {
       "id": "ui-spectrumhq-in-blocks-charts",
@@ -60872,13 +62732,13 @@
     },
     {
       "id": "shadcnuikit-com-blocks",
-      "name": "Shadcn Blocks (Shadcnuikit.com)",
+      "name": "Shadcn UI Blocks",
       "url": "https://shadcnuikit.com/blocks",
       "domain": "shadcnuikit.com",
       "kind": "page",
-      "desc": "Shadcn Blocks – Shadcnuikit.com",
+      "desc": "Library of 550+ ready-made shadcn/ui blocks and page sections for landing pages, online stores and dashboards.",
       "title": "Shadcn Blocks – Shadcnuikit.com",
-      "about": "A library of 323 ready-made shadcn/ui blocks and page sections: hero sections, feature grids, pricing tables, testimonials, contact forms, product listings, shopping carts and dashboard widgets. Preview any block live, then copy the code or install it in seconds with the shadcn CLI. Built with shadc",
+      "about": "A library of production-ready shadcn/ui blocks: complete page sections and app screens built with React and Tailwind CSS, grouped into marketing, ecommerce and dashboard categories. Preview each block live, then copy the code or install it with the shadcn CLI; free blocks plus an All Access plan that unlocks everything.",
       "categories": [
         "components"
       ],
@@ -60890,17 +62750,36 @@
       ],
       "elements": [
         "hero",
+        "navbar",
+        "footer",
+        "cta",
         "pricing",
+        "features",
         "testimonials",
-        "dashboard"
+        "faq",
+        "logo-cloud",
+        "stats",
+        "team",
+        "contact",
+        "changelog",
+        "empty-state",
+        "sidebar",
+        "dashboard",
+        "table",
+        "chart",
+        "card",
+        "calendar",
+        "kanban",
+        "timeline",
+        "map",
+        "dropdown",
+        "modal",
+        "drawer",
+        "form",
+        "chat",
+        "prompt-input"
       ],
-      "elements_weak": [
-        "hero",
-        "pricing",
-        "testimonials",
-        "dashboard"
-      ],
-      "elements_from": "hints",
+      "elements_from": "metadata",
       "probe": {
         "registry": {
           "url": "https://shadcnuikit.com/r/registry.json",
@@ -60921,7 +62800,68 @@
         "how": "corpus:src/",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "variants": {
+        "navbar": [
+          "dropdown",
+          "mobile",
+          "with-search"
+        ],
+        "footer": [
+          "newsletter",
+          "social"
+        ],
+        "features": [
+          "steps"
+        ]
+      },
+      "keywords": [
+        "shadcn",
+        "shadcn block",
+        "block library",
+        "page section",
+        "hero section",
+        "pricing table",
+        "navbar",
+        "footer",
+        "testimonials",
+        "dashboard",
+        "admin dashboard",
+        "ecommerce",
+        "checkout",
+        "chart",
+        "data table",
+        "form",
+        "landing page",
+        "tailwind",
+        "react",
+        "copy paste",
+        "shadcn registry"
+      ],
+      "type": "block-library",
+      "contains": [
+        "550+ blocks across marketing, ecommerce and dashboard groups",
+        "per-category counts (26 hero sections, 20 pricing tables, 15 navbars, 70 charts)",
+        "936 registry items in the shadcn format",
+        "live previews on desktop, tablet and mobile",
+        "copy the code or install with the shadcn CLI",
+        "MCP server and page builder for AI editors",
+        "free blocks plus paid All Access"
+      ],
+      "formats": [
+        "code",
+        "registry",
+        "cli"
+      ],
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "pricing": "freemium",
+      "related": {
+        "parent": "shadcnuikit-com"
+      },
+      "confidence": 0.9
     },
     {
       "id": "developer-apple-com-tutorials-data-design-human-interface-guidelines-des",
@@ -69487,15 +71427,16 @@
     },
     {
       "id": "tympanus-net-codrops",
-      "name": "Codrops (tympanus.net)",
+      "name": "Codrops",
       "url": "https://tympanus.net/codrops",
       "domain": "tympanus.net",
       "kind": "page",
-      "desc": "Codrops - Fueling web creativity",
+      "desc": "Web design and frontend publication with tutorials, interactive demos, case studies and showcases of standout websites.",
       "title": "Codrops - Fueling web creativity",
-      "about": "Founded in 2009, Codrops is a destination for web design and development enthusiasts. Our team is dedicated to providing high-quality, innovative content that explores the latest trends and techniques in the field, keeping web professionals up-to-date on the latest developments in the industry.",
+      "about": "A web design and development publication running since 2009. Publishes step-by-step frontend tutorials and creative coding demos built with GSAP, Three.js, WebGL and Astro, alongside case studies, designer and studio spotlights, the Creative Hub demo showcase and the Webzibition exhibition of standout websites.",
       "categories": [
-        "learning"
+        "learning",
+        "inspiration"
       ],
       "mentions": 1,
       "origin": "x-community",
@@ -69509,7 +71450,56 @@
         "detail": "home -> 200 | https://tympanus.net/llms.txt -> 404; https://tympanus.net/llms-full.txt -> 404",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "elements": [
+        "3d",
+        "cursor",
+        "scroll-effect",
+        "text-effect"
+      ],
+      "elements_from": "metadata",
+      "keywords": [
+        "web design",
+        "frontend development",
+        "tutorial",
+        "creative coding",
+        "interaction design",
+        "animation",
+        "gsap",
+        "three.js",
+        "webgl",
+        "astro",
+        "page transition",
+        "case study",
+        "design inspiration",
+        "website showcase",
+        "css",
+        "javascript"
+      ],
+      "type": "course",
+      "contains": [
+        "tutorials and demos on GSAP, Three.js, WebGL, Astro and CSS",
+        "Creative Hub: open-source demos, design experiments and interactive concepts",
+        "Webzibition: handpicked exhibition of 2,000+ standout websites",
+        "case studies plus designer, developer and studio spotlights",
+        "downloadable demo code under the MIT license",
+        "publishing since 2009"
+      ],
+      "formats": [
+        "code",
+        "docs",
+        "links"
+      ],
+      "stack": [
+        "react",
+        "astro",
+        "gsap",
+        "three.js",
+        "css"
+      ],
+      "pricing": "free",
+      "license": "MIT",
+      "confidence": 0.85
     },
     {
       "id": "typescale-com",
@@ -76206,9 +78196,9 @@
       "url": "https://colorbox.io",
       "domain": "colorbox.io",
       "kind": "site",
-      "desc": "ColorBox – Color Palette Generator",
+      "desc": "Free browser tool that builds accessible OKLCH/OKLAB color palettes and scales with tunable hue, saturation and lightness curves.",
       "title": "ColorBox – Color Palette Generator",
-      "about": "Generate accessible color palettes with precision. Design color systems using customizable curves for hue, saturation, and luminosity.",
+      "about": "Generate perceptually uniform color systems in the browser: pick a seed color, tune bezier curves for hue, saturation and luminosity, and watch real-time WCAG 2.1 contrast feedback on every step of the scale. Export to CSS, Tailwind, Figma tokens or JSON; works standalone or as a Figma plugin. Built for Lyft, now free for everyone.",
       "categories": [
         "color-effects"
       ],
@@ -76240,7 +78230,39 @@
         "how": "corpus:llms.txt",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "keywords": [
+        "color palette",
+        "palette generator",
+        "oklch",
+        "oklab",
+        "color scale",
+        "color system",
+        "design token",
+        "contrast checker",
+        "wcag",
+        "accessibility",
+        "css export",
+        "tailwind color",
+        "json export",
+        "brand color",
+        "color curve"
+      ],
+      "type": "generator",
+      "contains": [
+        "perceptually uniform interpolation in OKLCH/OKLAB",
+        "customizable hue, saturation and luminosity curves",
+        "real-time WCAG 2.1 contrast checking with 3:1 and 4.5:1 markers",
+        "export: CSS, Tailwind, Figma tokens, JSON",
+        "standalone web app or Figma plugin",
+        "free forever, no account needed; built for Lyft"
+      ],
+      "formats": [
+        "app",
+        "code"
+      ],
+      "pricing": "free",
+      "confidence": 0.85
     },
     {
       "id": "colors-muz-li",
@@ -84839,13 +86861,13 @@
     },
     {
       "id": "codepen-io",
-      "name": "codepen.io",
+      "name": "CodePen",
       "url": "https://codepen.io",
       "domain": "codepen.io",
       "kind": "site",
-      "desc": "CodePen",
+      "desc": "Online code editor and social community for building, sharing and deploying front-end pens and websites.",
       "categories": [
-        "components"
+        "dev-ai-tools"
       ],
       "mentions": 1,
       "labels": [
@@ -84863,7 +86885,47 @@
         "detail": "home -> 200 | https://codepen.io/llms.txt -> 403 (bot challenge); https://codepen.io/llms-full.txt -> 404 (bot challenge)",
         "checked_at": "2026-09-23T18:48:28.971Z"
       },
-      "metadata": "missing"
+      "metadata": "ok",
+      "about": "Browser-based editor for HTML, CSS and JavaScript with files and folders, compiler blocks for Sass, TypeScript, Tailwind, JSX and ESM, instant preview, version history and real-time collaboration. Public Pens are open source by default and searchable for inspiration, and any Pen can be deployed to a live URL; free tier plus PRO plans from $8/mo.",
+      "keywords": [
+        "online code editor",
+        "front-end playground",
+        "html css javascript",
+        "code sharing",
+        "web development",
+        "live preview",
+        "real-time collaboration",
+        "code deployment",
+        "front-end inspiration",
+        "sass",
+        "typescript",
+        "tailwind",
+        "vue",
+        "web demo",
+        "snippet"
+      ],
+      "type": "tool",
+      "contains": [
+        "editor with files and folders, compiler blocks and instant preview",
+        "compiler supports Sass, TypeScript, Tailwind, JSX and ESM modules without setup",
+        "unlimited public Pens, collections and templates; private Pens on PRO",
+        "every save is a version with previews and rollback; realtime and async collaboration",
+        "deploy any Pen to a live URL; custom domains and asset hosting on PRO",
+        "free plan: 3 files per Pen; PRO Starter $8/mo, Developer $12/mo, Super $26/mo",
+        "in-editor diagnostics and CodePen AI",
+        "community Pens are public and open source by default"
+      ],
+      "formats": [
+        "app"
+      ],
+      "stack": [
+        "sass",
+        "typescript",
+        "tailwind",
+        "vue"
+      ],
+      "pricing": "freemium",
+      "confidence": 0.9
     },
     {
       "id": "codrops-com",

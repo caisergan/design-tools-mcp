@@ -184,7 +184,7 @@ export function normalizeKeywords(list, map = KEYWORD_MAP) {
 const STACK_ALIASES = {
   tailwindcss: "tailwind", "tailwind css": "tailwind", "next.js": "nextjs", next: "nextjs", "vue.js": "vue", vuejs: "vue",
   "react.js": "react", reactjs: "react", "react native": "react-native", threejs: "three.js", three: "three.js",
-  "framer motion": "framer-motion", "svelte kit": "sveltekit", "angular.js": "angular", typescript: "typescript", ts: "typescript",
+  "framer motion": "framer-motion", motion: "framer-motion", "motion/react": "framer-motion", "radix-ui": "radix", "svelte kit": "sveltekit", "angular.js": "angular", typescript: "typescript", ts: "typescript",
   "shadcn/ui": "shadcn", "shadcn ui": "shadcn", "radix ui": "radix", "node.js": "node", nodejs: "node", "html5": "html", css3: "css",
 };
 export function normalizeStack(list) {

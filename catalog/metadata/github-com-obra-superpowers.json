@@ -1,0 +1,27 @@
+{
+  "id": "github-com-obra-superpowers",
+  "url": "https://github.com/obra/superpowers",
+  "kind": "repo",
+  "hints_hash": "65eb69ec2f49e2a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/obra/superpowers/blob/HEAD/README.md", "title": "Superpowers", "status": null}
+  ],
+  "status": "ok",
+  "name": "Superpowers",
+  "summary": "Agentic software development methodology: composable skills for brainstorming, planning, TDD, review and subagent execution.",
+  "description": "Superpowers is a complete software development methodology for coding agents, installed as composable skills that trigger automatically. An agent brainstorms a spec with you, writes a plan, implements tasks through subagents with two-stage review, follows strict red/green TDD, and finishes the branch. Its skills library covers brainstorming, writing-plans, test-driven-development, systematic-debugging, code review and worktrees; it installs into Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot CLI, Grok Build, OpenCode, Kimi Code, Antigravity and others.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "ai agent", "coding agent", "software development", "methodology", "test driven development", "tdd", "brainstorming", "implementation plan", "code review", "subagent", "git worktree", "debugging", "prompt package", "developer workflow"],
+  "contains": ["14 skills including brainstorming, writing-plans, test-driven-development and subagent-driven-development", "installs via plugin marketplaces for 14 coding agents", "MIT licensed", "commercial support available from Prime Radiant"],
+  "formats": ["prompts", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/obra/superpowers", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,57 @@
+{
+  "id": "medium-com-styled-components-how-to-build-a-great-component-library-a40d",
+  "url": "https://medium.com/styled-components/how-to-build-a-great-component-library-a40d974a412d",
+  "kind": "page",
+  "hints_hash": "c8eb3f702cb09df2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T12:40:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://medium.com/styled-components/how-to-build-a-great-component-library-a40d974a412d",
+      "title": "Medium",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "How we built a component library that people actually enjoy using",
+  "summary": "Case study of how Sprout Social built its Seeds React component library: docs, author tooling and the details users see.",
+  "description": "Chase McCoy's walkthrough of Sprout Social's Seeds design system library: separating library development from documentation, empowering component authors, and the consumer-facing touches that made people enjoy using it — interactive code blocks, token tags, a typography playground and system props.",
+  "type": "article",
+  "elements": [],
+  "keywords": [
+    "component library",
+    "design system",
+    "react",
+    "styled component",
+    "documentation",
+    "design engineering",
+    "system prop",
+    "design token",
+    "case study",
+    "frontend",
+    "design operation",
+    "theme"
+  ],
+  "contains": [
+    "walkthrough of Sprout Social's Seeds design system",
+    "separates library development from documentation",
+    "consumer features: interactive code blocks, token tags, typography playground, system props",
+    "12-minute read published June 2019"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "medium-com"
+  },
+  "confidence": 0.9
+}

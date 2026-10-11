@@ -1,0 +1,73 @@
+{
+  "id": "ui-skills-com-skills-emilkowalski-emil-design-eng",
+  "url": "https://ui-skills.com/skills/emilkowalski/emil-design-eng",
+  "kind": "page",
+  "hints_hash": "2b536db6933771ba",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T12:40:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui-skills.com/skills/emilkowalski/emil-design-eng",
+      "title": "emil-design-eng Skill - emilkowalski | UI Skills",
+      "status": null
+    },
+    {
+      "url": "https://github.com/emilkowalski/skills",
+      "title": "GitHub - emilkowalski/skills: Skills for Designers and Engineers. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "emil-design-eng",
+  "summary": "Emil Kowalski's design-engineering skill for AI agents: UI polish, animation decisions, gestures, performance and accessibility.",
+  "description": "A SKILL.md package that teaches an AI coding agent Emil Kowalski's design-engineering approach: an animation decision framework, spring animations, component building principles, CSS transform and clip-path techniques, gesture handling, performance and accessibility rules, and a required review format. Installs with the skills CLI from the emilkowalski/skills repo.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "skill.md",
+    "design skill",
+    "design engineering",
+    "ui polish",
+    "animation",
+    "spring animation",
+    "micro interaction",
+    "gesture",
+    "drag interaction",
+    "css transform",
+    "clip-path",
+    "accessibility",
+    "performance",
+    "design rule",
+    "frontend craft",
+    "ai agent"
+  ],
+  "contains": [
+    "SKILL.md package installed with npx skills add",
+    "animation decision framework: whether to animate, purpose, easing, duration",
+    "spring animations and interruptible interactions",
+    "component building principles",
+    "CSS transform, clip-path and stagger animation techniques",
+    "gesture, drag, performance and accessibility rules",
+    "required design review format"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/emilkowalski/skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-skills-com"
+  },
+  "confidence": 0.9
+}

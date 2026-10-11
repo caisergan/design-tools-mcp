@@ -1,0 +1,30 @@
+{
+  "id": "tympanus-net-codrops",
+  "url": "https://tympanus.net/codrops",
+  "kind": "page",
+  "hints_hash": "bd728e5d032a885d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T12:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tympanus.net/codrops", "title": "Codrops | Fueling web creativity since 2009", "status": null},
+    {"url": "https://tympanus.net/codrops/about", "title": "About | Codrops", "status": 200},
+    {"url": "https://tympanus.net/codrops/hub", "title": "Creative Hub | Codrops", "status": 200},
+    {"url": "https://tympanus.net/codrops/licensing", "title": "License | Codrops", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Codrops",
+  "summary": "Web design and frontend publication with tutorials, interactive demos, case studies and showcases of standout websites.",
+  "description": "A web design and development publication running since 2009. Publishes step-by-step frontend tutorials and creative coding demos built with GSAP, Three.js, WebGL and Astro, alongside case studies, designer and studio spotlights, the Creative Hub demo showcase and the Webzibition exhibition of standout websites.",
+  "type": "course",
+  "categories": ["learning", "inspiration"],
+  "elements": ["3d", "cursor", "scroll-effect", "text-effect"],
+  "keywords": ["web design", "frontend development", "tutorial", "creative coding", "interaction design", "animation", "gsap", "three.js", "webgl", "astro", "page transition", "case study", "design inspiration", "website showcase", "css", "javascript"],
+  "contains": ["tutorials and demos on GSAP, Three.js, WebGL, Astro and CSS", "Creative Hub: open-source demos, design experiments and interactive concepts", "Webzibition: handpicked exhibition of 2,000+ standout websites", "case studies plus designer, developer and studio spotlights", "downloadable demo code under the MIT license", "publishing since 2009"],
+  "formats": ["code", "docs", "links"],
+  "stack": ["react", "astro", "gsap", "three.js", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

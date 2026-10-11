@@ -1,0 +1,28 @@
+{
+  "id": "github-com-lucide-icons-lucide",
+  "url": "https://github.com/lucide-icons/lucide",
+  "kind": "repo",
+  "hints_hash": "99fc882c455ea96a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/lucide-icons/lucide/blob/HEAD/README.md", "title": "Lucide", "status": null},
+    {"url": "https://github.com/lucide-icons/lucide", "title": "GitHub - lucide-icons/lucide: Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lucide",
+  "summary": "Open-source icon library with 1600+ SVG icons, shipped as official packages for React, Vue, Svelte, Angular and more.",
+  "description": "Lucide is an open-source icon library that provides 1600+ SVG files for digital and non-digital projects, a fork of Feather Icons. Icons ship through official packages (lucide, lucide-react, @lucide/vue, @lucide/svelte, lucide-solid, lucide-preact, lucide-react-native, @lucide/angular, @lucide/astro, lucide-static) plus a Figma plugin. Free for commercial and personal use under the ISC license.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon library", "svg icon", "icon set", "open source icon", "free icon", "ui icon", "react icon", "vue icon", "svelte icon", "angular icon", "figma plugin", "vector icon", "icon toolkit"],
+  "contains": ["1600+ SVG icons", "official packages for React, Vue, Svelte, Solid, Preact, Angular, Astro and React Native", "Figma plugin", "ISC license, free for commercial and personal use", "24.9k GitHub stars, 1.6k forks"],
+  "formats": ["svg", "npm-package", "code"],
+  "stack": ["react", "vue", "svelte", "preact", "angular", "astro", "react-native"],
+  "pricing": "free",
+  "license": "ISC",
+  "related": {"repo": "https://github.com/lucide-icons/lucide", "docs": "https://lucide.dev", "npm": "lucide", "figma": null, "parent": null},
+  "confidence": 0.9
+}

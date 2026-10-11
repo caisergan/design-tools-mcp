@@ -36,7 +36,20 @@ Run the 5–6 batches (step 3), then review every pilot record by hand: `bun too
 `tools/prompts/metadata-v2.md` or `catalog/taxonomy.json` if a pattern is wrong, delete the records it produced, and
 re-run them. Note the real tokens per record from omp's usage; it replaces the estimate in the queue.
 
-## 3. One omp session per batch file
+## 3. Run the batches — `tools/metadata-run.mjs` (recommended)
+
+```sh
+bun tools/metadata-run.mjs --parallel 8            # every batch file; headless `omp -p`, deepseek-v4.1-flash, thinking max
+bun tools/metadata-run.mjs --batches 1-6           # some of them; batches whose records already pass the check are skipped
+bun tools/metadata-run.mjs --usage                 # token / cost totals from the logs
+```
+
+Each session may read up to 6 of an entry's own pages with `bun tools/crawl.mjs --page <url>` (robots, pacing and
+the disabled hosts kept) when the digest is thin. Logs: `_batches/<n>.log` (gitignored). Pilot, 2026-10-11: 51
+entries in 6 batches of 9, ~10 min per batch, $0.33 in total (input 0.62M + 13.6M cache reads, output 0.33M).
+
+The manual way, one herdr pane per batch:
+
 
 For each batch `n`, start an agent in a new tab of the run workspace and point it at its file:
 

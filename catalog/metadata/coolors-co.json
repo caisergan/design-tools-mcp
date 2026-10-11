@@ -1,0 +1,44 @@
+{
+  "id": "coolors-co",
+  "url": "https://coolors.co",
+  "kind": "site",
+  "hints_hash": "0c267a0c0724515f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:34:46Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://coolors.co", "title": "Coolors - The super fast color palettes generator!", "status": 200 },
+    { "url": "https://coolors.co/pricing", "title": "Pricing - Coolors", "status": 200 },
+    { "url": "https://coolors.co/license", "title": "License - Coolors", "status": 200 },
+    { "url": "https://coolors.co/fonts", "title": "Fonts - Coolors", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Coolors",
+  "summary": "Color palette generator with millions of community schemes, image color picker, contrast checker and gradient tools.",
+  "description": "Free browser app for creating color palettes: hit the spacebar for instant combinations or browse millions of community schemes by topic, style or color. Extra tools cover image color extraction, WCAG contrast checking, palette visualization on real designs, gradient making, color pickers, Tailwind color previews and AI color suggestions.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": [
+    "color palette", "palette generator", "color scheme", "color combination", "hex color",
+    "color picker", "image color picker", "contrast checker", "wcag", "accessibility",
+    "gradient maker", "gradient palette", "tailwind color", "palette visualizer",
+    "css export", "svg export", "color inspiration", "ai color palette"
+  ],
+  "contains": [
+    "10M+ palettes to explore; spacebar generates new ones",
+    "tools: palette generator, image picker, contrast checker, palette visualizer, color picker, color bot",
+    "exports: URL, PDF, image, CSS, ASE, SVG, code, Tailwind, embed",
+    "free plan: palettes up to 5 colors, 10 saved palettes, 1 project, 1 collection",
+    "Pro plan adds AI palette generation, no ads, palettes up to 10 colors and 3,000 credits/mo",
+    "iOS app, Figma plugin, Chrome and Adobe extensions",
+    "palettes free for commercial and non-commercial use without attribution; resale or redistribution not allowed",
+    "used by 8+ million designers and creatives"
+  ],
+  "formats": ["app", "code", "svg", "png"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

@@ -1,0 +1,127 @@
+{
+  "id": "onepagelove-com",
+  "url": "https://onepagelove.com",
+  "kind": "site",
+  "hints_hash": "e1377aacf93976ac",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:33:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://onepagelove.com/llms.txt",
+      "title": "One Page Love",
+      "status": null
+    },
+    {
+      "url": "https://onepagelove.com",
+      "title": "One Page Love — One Page Website Inspiration and Templates",
+      "status": 200
+    },
+    {
+      "url": "https://onepagelove.com/sections",
+      "title": "Page Section Examples",
+      "status": 200
+    },
+    {
+      "url": "https://onepagelove.com/about",
+      "title": "About One Page Love - One Page Love",
+      "status": 200
+    },
+    {
+      "url": "https://onepagelove.com/templates",
+      "title": "One Page Website Templates",
+      "status": 200
+    },
+    {
+      "url": "https://onepagelove.com/typefaces",
+      "title": "Popular Typefaces",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "One Page Love",
+  "summary": "Curated gallery of 9,000+ one page websites, plus 9,300+ page section examples, one page templates and a typeface archive.",
+  "description": "Hand-picked one page website and landing page designs, each with a full-length screenshot, written review and tagged features; browse by genre, platform, tech or typeface. The same site collects page section examples from live websites, 307 one page templates with live demos and download links, the typefaces most used by the sites it curates, and design articles. A documented JSON API serves the same dataset.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "hero",
+    "navbar",
+    "footer",
+    "cta",
+    "pricing",
+    "faq",
+    "testimonials",
+    "team",
+    "logo-cloud",
+    "features",
+    "bento-grid",
+    "carousel",
+    "form",
+    "accordion"
+  ],
+  "variants": {
+    "faq": [
+      "accordion"
+    ],
+    "testimonials": [
+      "grid"
+    ]
+  },
+  "keywords": [
+    "one page website",
+    "landing page",
+    "single page website",
+    "web design gallery",
+    "website inspiration",
+    "page section",
+    "section example",
+    "one page template",
+    "website template",
+    "webflow template",
+    "framer template",
+    "carrd template",
+    "typeface",
+    "font used in website",
+    "portfolio website",
+    "saas landing page",
+    "website review",
+    "screenshot",
+    "api",
+    "web design inspiration"
+  ],
+  "contains": [
+    "9,164 one page websites and 9,303 page section examples, curated since 2008",
+    "307 one page templates with review, long screenshot, live demo and download links",
+    "filters: genre, platform, tech, typeface, dominant color, section type",
+    "typeface archive, e.g. Inter 375, Open Sans 222, Montserrat 181 one pagers",
+    "articles and a biweekly newsletter",
+    "documented JSON API with a free tier over the same 9,000+ entries",
+    "genre categories from portfolio and landing page to restaurant and wedding"
+  ],
+  "formats": [
+    "screenshots",
+    "links",
+    "templates",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://onepagelove.com/api",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}
