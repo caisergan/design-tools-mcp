@@ -434,6 +434,30 @@ an unknown category/element id.
 **Done when (run, the user):** < 5 % of sites/repos without a record (excluding dead); every record
 validates; eval recall on the descriptive queries rises after rebuilding the Phase 3 index.
 
+
+### 2B.1 Results (2026-10-11) — tooling done, brief 18 (Claude Code Opus 5.5 high, report `briefs/phase-2b/reports/18.md`)
+- **Built:** `catalog/metadata/schema.json` (sites/repos full record, pages light, blocked/dead envelope only),
+  `tools/prompts/metadata-v1.md` (+ taxonomy view at run time: ≈ 3.8k tokens), `tools/crawl.mjs` (digests in
+  `catalog/crawl/<id>.json`, gitignored; corpus first, then the paced robots-respecting fetcher + Scrapling; disabled
+  hosts and redirects onto them never read), `metadata-queue.mjs`, `metadata-batch.mjs` (one batch file per omp
+  session, `<n>.ids` for a `metadata-check --id` watcher), `metadata-check.mjs` (ids checked against taxonomy.json,
+  keywords normalized, `_review.md`), the owner's runbook `catalog/metadata/RUN.md`.
+- **Build merge:** sources → categorize → overrides → hint fallback → records → overrides again (hand fixes win).
+  Without a record: `metadata: "missing"`. Hint fallback moved from index time to the build: 642 → 729 entries with
+  `elements` (`elements_from: "hints"`); the new weak (label/about) elements filter and show but are not ranked —
+  ranked, they cost MRR 0.720 → 0.709.
+- **Search:** a `keywords` field (weight 3); a record's long fields do not lengthen its BM25 doc (otherwise a record
+  made its own entry rank lower). Entries without a record index exactly as before.
+- **Smoke test:** 3 records (navbar-gallery, magicui-design, Nutlope/hallmark) validate and merge; get_resource ≤ 2 KB.
+  Eval: headline 0.983 / 0.720 → 0.731 with the 3 records; 10 new descriptive queries (separate block) 0.800 / 0.542
+  → 0.900 / 0.717.
+- **Pilot crawl (52 entries, `catalog/metadata/pilot.json`):** 43 ok · 2 partial · 6 blocked · 1 dead; digest median
+  2.7k tokens, p90 5.3k. **Full run ≈ 8.2M unique tokens** (plan said 21M). Caveat: an agent loop re-sends its context
+  every turn — billed input ≈ 200M (batches of 10) to 330M (20), mostly cached prefix; reasoning tokens on top. The
+  pilot measures the real figure.
+- **Open, after the pilot review:** record `type` does not yet feed `tag.mjs`'s asset gate (a mis-typed record would
+  untag a whole registry); a partly-run catalog favours entries with records (expected to fade).
+
 ---
 
 ## Phase 3 — Item layer + one ranked search index  **[#5 #6]**  ~2–3 days — **done 2026-10-07** (adapters 1–2; results in 3.8)
@@ -955,10 +979,10 @@ Rows are in the order to do them (reordered 2026-10-07 around the main goal, dec
 | 5 | 3 Item layer (adapters 1–2) + search index ✅ | #5 #6 | 2–3 days | 2.3 |
 | 6 | **6 Deep mapping (adapters 3–6) + previews** | #7 | 2–3 days | 3 |
 | 7 | 4 Tool surface | #10 #12 #14 | 1 day | 3 |
-| 8 | 2B Site metadata — tooling | #7 #8 | 1 day | 2.3 (search works without it) |
+| 8 | 2B Site metadata — tooling ✅ (2B.1) | #7 #8 | 1 day | 2.3 (search works without it) |
 | 9 | 5 Resources + prompts | #13 | ½ day | 4 |
 | 10 | 7 Housekeeping | — | ¼ day | 5 |
-| — | 2B Site metadata — extraction run | — | **the user, separately** (~21M tokens) | 2B tooling |
+| — | 2B Site metadata — extraction run | — | **the user, separately** (≈ 8.2M unique tokens, measured; see 2B.1) | 2B tooling |
 
 Remaining ≈ 6–8 working days. Since row 5 a `navbar` search returns 405 navbar components from 38 registries and
 54 docs pages, grouped by kind; after row 6 it also returns gallery examples, sitemap pages and 21st.dev components.

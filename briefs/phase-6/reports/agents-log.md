@@ -69,4 +69,6 @@ Still running: none. Brief 16 merged and closed; full `--verify --all` run by th
 Still running: none.
 
 2026-10-11: brief 18 (Phase 2B site metadata tooling, `briefs/phase-2b/18-site-metadata-tooling.md`) launched.
-| u18 | 18 Phase 2B tooling: crawl, schema, prompt, queue/batch kit, check, build merge + hint fallback (Claude Code Opus 5.5 high) | `phase2b/metadata-tooling` | running | 2026-10-11 | |
+| u18 | 18 Phase 2B tooling: crawl, schema, prompt, queue/batch kit, check, build merge + hint fallback (Claude Code Opus 5.5 high) | `phase2b/metadata-tooling` @ c141efe | schema, prompt (3.8k tok), crawl + 52-entry pilot, queue/batch kit + RUN.md, check, build merge + hint fallback (642→729), 3 smoke records; 258 tests; full run ≈ 8.2M unique tokens | 2026-10-11 | 2026-10-11 |
+
+Still running: none. Brief 18 merged and closed (MCP-PLAN 2B.1).
