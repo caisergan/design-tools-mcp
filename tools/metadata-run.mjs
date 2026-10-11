@@ -75,9 +75,16 @@ function runBatch(n, { model, thinking, maxTime }) {
     const args = ["-p", "--mode", "json", "--no-session", "--model", model, "--thinking", thinking, "--tools", TOOLS,
       "--approval-mode", "yolo", "--max-time", maxTime, `Read catalog/metadata/_batches/${n}.md and do exactly what it says.`];
     const p = spawn("omp", args, { cwd: ROOT, stdio: ["ignore", "pipe", "pipe"] });
-    p.stdout.pipe(log, { end: false });
+    // streaming deltas (message_update) are most of omp's output and repeat what message_end holds: keep the rest
+    let rest = "";
+    p.stdout.on("data", (chunk) => {
+      const lines = (rest + chunk).split("\n");
+      rest = lines.pop();
+      for (const l of lines) if (!l.startsWith('{"type":"message_update"')) log.write(l + "\n");
+    });
     p.stderr.pipe(log, { end: false });
     p.on("close", (code) => {
+      if (rest && !rest.startsWith('{"type":"message_update"')) log.write(rest + "\n");
       log.end();
       resolve(code);
     });
