@@ -679,7 +679,7 @@ async function toolGetResource({ ref } = {}) {
         ? `reachable: yes — ${it.reach.how} (checked ${(it.reach.checked_at || "").slice(0, 10)})`
         : `reachable: NO — ${it.reach.reason}: ${it.reach.detail || ""} · open ${it.url} in a browser instead`,
     );
-  if (reg) lines.push(`registry index: ${reg.url} (${reg.items ?? "?"} items${p.registry?.item_status === 401 || reg.item_status === 401 ? ", source needs a license key" : ""})`);
+  if (reg) lines.push(`registry index: ${reg.url} (${reg.items ?? "?"} items${p.registry?.item_status === 401 || reg.item_status === 401 ? ", some or all items need a licence key" : ""})`);
   if (p.llms) lines.push(`llms.txt: ${p.llms.url} — "${p.llms.title || ""}" (${p.llms.links} links)`);
   if (p.llms_full) lines.push(`llms-full.txt: ${p.llms_full.url}`);
   if (it.kind === "repo") lines.push(`clone: git clone ${it.url}.git`);
@@ -1407,7 +1407,9 @@ async function installTarget(input) {
     item = registryItem(entry.id, key);
   }
   if (item?.access === "page") return skip("page", { id: item.id, url: item.url || null });
-  if (item?.access === "gated" || registryGated(entry)) return skip("gated", { id: item?.id ?? null, url: item?.url || entry.url });
+  // The item's own access wins: a registry probed gated from its first item can still serve free items
+  // (tools/registry-access.mjs verified them). Without an item, the registry's probe decides.
+  if (item ? item.access === "gated" : registryGated(entry)) return skip("gated", { id: item?.id ?? null, url: item?.url || entry.url });
   const reg = registryOf(entry);
   if (!reg) return skip("no-registry", { id: item?.id ?? null, url: item?.url || entry.url });
   if (!key) {
@@ -1417,7 +1419,7 @@ async function installTarget(input) {
   const local = localDef(entry, key);
   if (!item && !local && localRegistry(entry).length) return skip("unknown", { closest: closestItemIds(`${entry.id}/${key}`) });
   const ok = (url, def, from) => ({ ok: { id: item?.id ?? null, registry: entry.id, registryName: entry.name, name: key, url, type: depsOf(def).type || item?.type || null, from, def } });
-  const base = itemBase(entry);
+  const base = itemBase(entry) || (item?.access === "code" && item.install_url ? item.install_url.replace(/\/[^/]+\.json$/, "") : null);
   if (base) {
     const url = `${base}/${encodeURIComponent(key)}.json`;
     if (local) return ok(url, local.def, "corpus");

@@ -702,6 +702,15 @@ test("get_install_command reports page, gated and unknown items instead of insta
   expect(textOf(none)).toContain("nothing to install");
 });
 
+test("get_install_command installs a free item of a registry the probe saw gated, and skips its pro items", async () => {
+  // reui.io's first registry item answers 401, but tools/registry-access.mjs verified c-button-7 as free
+  const r = await callTool("get_install_command", { items: ["reui-io/c-button-7", "reui-io/agent-activity-1"] });
+  const sc = r.structuredContent;
+  expect(sc.urls).toEqual(["https://reui.io/r/c-button-7.json"]);
+  expect(sc.items[0].from).toBe("corpus"); // registry.json carries the definition: no network
+  expect(sc.skipped.map((s) => [s.input, s.reason])).toEqual([["reui-io/agent-activity-1", "gated"]]);
+});
+
 test("get_install_command takes at most 25 items and checks each one", async () => {
   const many = await callTool("get_install_command", { items: Array.from({ length: 26 }, () => "magicui-design/marquee") });
   expect(many.isError).toBe(true);

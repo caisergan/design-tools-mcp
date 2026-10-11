@@ -710,9 +710,13 @@ returns one runnable command.
   closable without dependencies — noted).
 - 222 tests (every tool answer validated against its schema; also checked outside the suite with ajv and the MCP SDK
   client); eval unchanged.
-- **Found while reviewing:** registries probed as gated from their first item are mixed free/pro. Samples of 20:
-  reui.io 14 free, shadcn-ui-blocks 6, shadcnblocks 3 → roughly 3k items marked `gated` that install freely. Needs a
-  per-item access check (open).
+- **Found while reviewing, fixed 2026-10-11:** registries probed as gated from their first item are mixed free/pro.
+  `tools/registry-access.mjs` checks every item's registry JSON (200 item JSON = free, 401/402/403 = gated, anything
+  else retried; same pacing/robots fetcher as registry-urls) → cache `corpus/sites/<domain>/registry-access.json`;
+  `registryItems` opens verified-free names (`access: code` + install url). reui.io 1,186 free / 542 gated,
+  shadcn-ui-blocks 626 / 3,376 (every `-pro-` name gated); shadcnblocks.com not checked — robots.txt disallows `/r/`,
+  stays gated. 7,792 requests. Gated registry items 9,901 → 8,089. `get_install_command` now lets a known item's own
+  access win over the registry-level probe (it had skipped every item of a gated registry).
 
 ---
 
