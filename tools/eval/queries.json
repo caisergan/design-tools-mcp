@@ -703,5 +703,106 @@
       "chartjs-org"
     ],
     "note": "descriptive (phase 1): describes the need without naming the resource"
+  },
+  {
+    "q": "dark mode landing page gallery",
+    "expect_any": [
+      "dark-design",
+      "darkmodedesign-com"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "free animated icon set for react",
+    "expect_any": [
+      "animateicons-in",
+      "hugeicons-animated-com",
+      "icons-pqoqubbw-dev",
+      "itshover-com"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "screenshots of real website navigation bars",
+    "expect_any": [
+      "navbar-gallery",
+      "navbar-design"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "copy paste animated react components with tailwind and framer motion",
+    "expect_any": [
+      "magicui-design",
+      "reactbits-dev",
+      "ui-aceternity-com",
+      "motion-primitives-com",
+      "kokonutui-com"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "skill that stops coding agents from making generic ai looking ui",
+    "expect_any": [
+      "github-com-nutlope-hallmark",
+      "github-com-pbakaus-impeccable",
+      "github-com-leonxlnx-taste-skill",
+      "github-com-miqdadbadjuber-anti-slop",
+      "ui-skills-com"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "real app screenshots and user flows for ux research",
+    "expect_any": [
+      "mobbin-com",
+      "gummble-com",
+      "uiland-design"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "curated gallery of saas pricing pages",
+    "expect_any": [
+      "pricingpages-design",
+      "saaspo-com"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "visual theme editor for shadcn ui",
+    "expect_any": [
+      "tweakcn-com"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "free fonts you can use in commercial projects",
+    "expect_any": [
+      "fontshare-com",
+      "uncut-wtf",
+      "freefaces-gallery",
+      "fontsquirrel-com"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
+  },
+  {
+    "q": "css gradient background generator",
+    "expect_any": [
+      "cssgradient-io",
+      "webgradients-com",
+      "haikei-app"
+    ],
+    "note": "site description (Phase 2B): what the entry is, not its name",
+    "descriptive": true
   }
 ]

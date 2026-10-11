@@ -15,7 +15,7 @@ export function promptView(t = loadJSON(FILE.taxonomy)) {
     .map(([g, xs]) => `### ${g}\n` + xs.map((e) => `- ${e.id}: ${e.definition}` + (e.variants ? ` Kinds: ${e.variants.map((v) => v.id).join(", ")}.` : "")).join("\n"))
     .join("\n");
   return [
-    "## categories (pick 1–2)", list(t.categories),
+    "## categories (pick 1–3, the primary first)", list(t.categories),
     "## types (pick 1)", list(t.types),
     "## elements (every UI element the resource shows or contains; kinds only when the site names them)", elements,
   ].join("\n\n");

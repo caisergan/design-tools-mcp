@@ -80,6 +80,18 @@ export const Resource = obj({
   mapped: nullable(obj({ code: int, gated: int, gallery: int, docs: int, total: int })),
   labels: strs,
   origins: strs,
+  // Phase 2B: what a metadata record says (metadata: ok | partial | login-required | blocked | dead | missing); null / []
+  // without one, except `elements`, which an entry without a record carries provisionally from its source hints.
+  metadata: str,
+  type: nstr,
+  elements: strs,
+  contains: strs,
+  keywords: strs,
+  formats: strs,
+  stack: strs,
+  pricing: nstr,
+  license: nstr,
+  related: nullable(obj({ repo: nstr, docs: nstr, npm: nstr, figma: nstr, parent: nstr })),
 });
 
 /** get_resource for a component id: tags, url and how to get the code. */

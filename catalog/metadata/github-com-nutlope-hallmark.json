@@ -1,0 +1,72 @@
+{
+  "id": "github-com-nutlope-hallmark",
+  "url": "https://github.com/Nutlope/hallmark",
+  "kind": "repo",
+  "hints_hash": "2b6c8db22f688138",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T11:58:55Z",
+  "extractor": {
+    "agent": "claude-code",
+    "model": "claude-opus-5-5",
+    "prompt": "metadata-v1"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Nutlope/hallmark/blob/HEAD/README.md",
+      "title": "Hallmark",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Hallmark",
+  "summary": "Agent design skill that builds, audits and redesigns web pages so they do not look AI-generated.",
+  "description": "A SKILL.md rule-set with references for coding agents: it picks a page macrostructure for the brief, applies one of 21 themes (or a custom palette, type and layout) and runs 57 slop-test gates plus a self-critique before handing back. Four verbs: build (default), audit (punch list, no edits), redesign, and study (extract a design's structure, type pairing and colour, optionally as a portable design.md).",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "design skill",
+    "agent skill",
+    "coding agent skill",
+    "anti ai slop",
+    "design rule",
+    "ui audit",
+    "redesign",
+    "landing page design",
+    "website theme",
+    "type pairing",
+    "color palette",
+    "self critique",
+    "slop test",
+    "html css page",
+    "cursor rule"
+  ],
+  "contains": [
+    "SKILL.md rule-set with references and worked examples",
+    "21 themes and a custom-theme protocol",
+    "57 slop-test gates and a pre-emit self-critique",
+    "4 verbs: build, audit, redesign, study",
+    "example pages as self-contained HTML + CSS",
+    "install paths for Claude Code, Cursor and Codex"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [
+    "html",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

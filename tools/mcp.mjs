@@ -24,7 +24,7 @@ import { flags } from "./build.mjs";
 import { TAXONOMY } from "./tag.mjs";
 import { loadItems, stackOf } from "./items.mjs";
 import { patternFile } from "./sitemap-items.mjs";
-import { buildIndex, createSearch, loadIndex } from "./search.mjs";
+import { buildIndex, createSearch, loadIndex, hasRecord } from "./search.mjs";
 import { splitSections, sectionStats, rankSections, bestWindow } from "./sections.mjs";
 import { OUTPUT_SCHEMAS } from "./schemas.mjs";
 
@@ -657,6 +657,53 @@ function describeItem({ item: i, entry }) {
   return answer(lines.join("\n"), { resource: null, component }, link ? [link] : []);
 }
 
+// get_resource stays ≤ 2 KB (MCP-PLAN token budget); a metadata record's long fields shrink in these steps until it fits.
+const RESOURCE_MAX = 2_000;
+const RECORD_TIERS = [
+  { about: 360, contains: 5, keywords: 12 },
+  { about: 220, contains: 3, keywords: 12 },
+  { about: 120, contains: 2, keywords: 8 },
+  { about: 0, contains: 0, keywords: 6 },
+];
+const TYPES = new Map(TAXONOMY.types.map((t) => [t.id, t]));
+const RELATED_KEYS = ["repo", "docs", "npm", "figma", "parent"];
+
+/** "repo https://github.com/o/r (id: …)": a related url that is itself a catalog entry names its id. */
+function relatedText(rel) {
+  return RELATED_KEYS.filter((k) => rel?.[k])
+    .map((k) => {
+      const v = rel[k];
+      if (k === "parent") return `parent ${v}`;
+      const entry = k === "repo" || k === "docs" ? byUrl.get(normRef(v)) : null;
+      return `${k} ${v}${entry ? ` (id: ${entry.id})` : ""}`;
+    })
+    .join(" · ");
+}
+
+/** The record lines of get_resource (only for an entry with a Phase 2B record); empty / unknown fields are left out. */
+function recordLines(it, tier) {
+  const lines = [];
+  const type = it.type && TYPES.get(it.type);
+  if (type) lines.push(`type: ${it.type} (${type.label})`);
+  if (tier.about && it.about) lines.push(`about: ${clipText(it.about, tier.about)}`);
+  if (tier.contains && it.contains?.length) lines.push(`contains: ${it.contains.slice(0, tier.contains).map((c) => clipText(c, 100)).join(" · ")}`);
+  if (it.elements?.length) {
+    const kinds = Object.entries(it.variants || {}).map(([el, vs]) => `${el}: ${vs.join(", ")}`);
+    lines.push(`elements: ${it.elements.slice(0, 12).join(", ")}${kinds.length ? ` (kinds — ${kinds.join(" · ")})` : ""}`);
+  }
+  if (it.keywords?.length) lines.push(`keywords: ${it.keywords.slice(0, tier.keywords).join(", ")}`);
+  const facts = [
+    it.formats?.length && `formats: ${it.formats.join(", ")}`,
+    it.stack?.length && `stack: ${it.stack.join(", ")}`,
+    it.pricing && it.pricing !== "unknown" && `pricing: ${it.pricing}`,
+    it.license && it.license !== "unknown" && `license: ${it.license}`,
+  ].filter(Boolean);
+  if (facts.length) lines.push(facts.join(" · "));
+  const rel = relatedText(it.related);
+  if (rel) lines.push(`related: ${rel}`);
+  return lines;
+}
+
 async function toolGetResource({ ref } = {}) {
   const comp = resolveComponent(ref);
   if (comp) return describeItem(comp);
@@ -664,36 +711,45 @@ async function toolGetResource({ ref } = {}) {
   const dir = corpusDir(it);
   const reg = registryOf(it);
   const p = it.probe || {};
-  const lines = [
-    `${it.name} — ${it.desc || it.domain}`,
-    `id: ${it.id}`,
-    ...(it.about && it.about !== it.desc ? [`about: ${it.about}`] : []),
-    `url: ${it.url}`,
-    `domain: ${it.domain} · kind: ${it.kind}`,
-    `categories: ${it.categories.map((id) => `${id} (${CATEGORIES.find((c) => c.id === id)?.label || id})`).join(", ")}`,
-    `capabilities:${flags(it) || " (no machine endpoint — needs a browser)"}`,
-  ];
-  if (it.reach)
-    lines.push(
-      it.reach.ok
-        ? `reachable: yes — ${it.reach.how} (checked ${(it.reach.checked_at || "").slice(0, 10)})`
-        : `reachable: NO — ${it.reach.reason}: ${it.reach.detail || ""} · open ${it.url} in a browser instead`,
-    );
-  if (reg) lines.push(`registry index: ${reg.url} (${reg.items ?? "?"} items${p.registry?.item_status === 401 || reg.item_status === 401 ? ", some or all items need a licence key" : ""})`);
-  if (p.llms) lines.push(`llms.txt: ${p.llms.url} — "${p.llms.title || ""}" (${p.llms.links} links)`);
-  if (p.llms_full) lines.push(`llms-full.txt: ${p.llms_full.url}`);
-  if (it.kind === "repo") lines.push(`clone: git clone ${it.url}.git`);
-  if (dir) lines.push(`local copy: ${dir.replace(FILE.corpus + "/", "corpus/")}`);
+  const rec = hasRecord(it);
+  const render = (tier) => {
+    const lines = [
+      `${it.name} — ${it.desc || it.domain}`,
+      `id: ${it.id}`,
+      ...(rec ? recordLines(it, tier) : it.about && it.about !== it.desc ? [`about: ${it.about}`] : []),
+      `url: ${it.url}`,
+      `domain: ${it.domain} · kind: ${it.kind}`,
+      `categories: ${it.categories.map((id) => `${id} (${CATEGORIES.find((c) => c.id === id)?.label || id})`).join(", ")}`,
+      `capabilities:${flags(it) || " (no machine endpoint — needs a browser)"}`,
+    ];
+    if (it.reach)
+      lines.push(
+        it.reach.ok
+          ? `reachable: yes — ${it.reach.how} (checked ${(it.reach.checked_at || "").slice(0, 10)})`
+          : `reachable: NO — ${it.reach.reason}: ${it.reach.detail || ""} · open ${it.url} in a browser instead`,
+      );
+    if (reg) lines.push(`registry index: ${reg.url} (${reg.items ?? "?"} items${p.registry?.item_status === 401 || reg.item_status === 401 ? ", some or all items need a licence key" : ""})`);
+    if (p.llms) lines.push(`llms.txt: ${p.llms.url} — "${p.llms.title || ""}" (${p.llms.links} links)`);
+    if (p.llms_full) lines.push(`llms-full.txt: ${p.llms_full.url}`);
+    if (it.kind === "repo") lines.push(`clone: git clone ${it.url}.git`);
+    if (dir) lines.push(`local copy: ${dir.replace(FILE.corpus + "/", "corpus/")}`);
+    const n = itemCount.get(it.id);
+    if (n) {
+      lines.push(
+        `mapped: ${[n.code && `${n.code} components with code`, n.gated && `${n.gated} gated components`, n.example && `${n.example} gallery examples`, n.page && `${n.page} docs pages`].filter(Boolean).join(" · ")} → search_components({registry: "${it.id}"})`,
+      );
+      lines.push(`mapped pages: ${itemTotal(it.id)} → list_pages("${it.id}")`);
+    }
+    // X labels are extraction hints once a record says what the entry is
+    if (!rec && it.labels?.length) lines.push(`people call it: ${it.labels.slice(0, 3).map((l) => `"${l}"`).join(" · ")}`);
+    if (it.metadata === "blocked" || it.metadata === "dead") lines.push(`metadata: ${it.metadata} (the extractor could not read the site; the description is the source's)`);
+    lines.push(`from: ${(it.origins || [it.origin]).filter(Boolean).join(", ")}`);
+    lines.push("", "next: list_components for a registry, or read the local copy / llms.txt.");
+    return lines.join("\n");
+  };
+  let text = render(RECORD_TIERS[0]);
+  for (let t = 1; rec && t < RECORD_TIERS.length && byteSize(text) > RESOURCE_MAX; t++) text = render(RECORD_TIERS[t]);
   const n = itemCount.get(it.id);
-  if (n) {
-    lines.push(
-      `mapped: ${[n.code && `${n.code} components with code`, n.gated && `${n.gated} gated components`, n.example && `${n.example} gallery examples`, n.page && `${n.page} docs pages`].filter(Boolean).join(" · ")} → search_components({registry: "${it.id}"})`,
-    );
-    lines.push(`mapped pages: ${itemTotal(it.id)} → list_pages("${it.id}")`);
-  }
-  if (it.labels?.length) lines.push(`people call it: ${it.labels.slice(0, 3).map((l) => `"${l}"`).join(" · ")}`);
-  lines.push(`from: ${(it.origins || [it.origin]).filter(Boolean).join(", ")}`);
-  lines.push("", "next: list_components for a registry, or read the local copy / llms.txt.");
   const resource = {
     id: it.id,
     name: it.name,
@@ -712,10 +768,20 @@ async function toolGetResource({ ref } = {}) {
     clone: it.kind === "repo" ? `git clone ${it.url}.git` : null,
     local_copy: dir ? dir.replace(FILE.corpus + "/", "corpus/") : null,
     mapped: n ? { code: n.code, gated: n.gated, gallery: n.example, docs: n.page, total: itemTotal(it.id) } : null,
-    labels: (it.labels || []).slice(0, 3),
+    labels: rec ? [] : (it.labels || []).slice(0, 3),
     origins: (it.origins || [it.origin]).filter(Boolean),
+    metadata: it.metadata || "missing",
+    type: rec && it.type ? it.type : null,
+    elements: it.elements || [],
+    contains: rec ? it.contains || [] : [],
+    keywords: rec ? (it.keywords || []).slice(0, 12) : [],
+    formats: rec ? it.formats || [] : [],
+    stack: rec ? it.stack || [] : [],
+    pricing: rec && it.pricing && it.pricing !== "unknown" ? it.pricing : null,
+    license: rec && it.license && it.license !== "unknown" ? it.license : null,
+    related: rec && it.related && Object.keys(it.related).length ? Object.fromEntries(RELATED_KEYS.map((k) => [k, it.related[k] || null])) : null,
   };
-  return answer(lines.join("\n"), { resource, component: null }, [pageLink(it.url, it.name)]);
+  return answer(text, { resource, component: null }, [pageLink(it.url, it.name)]);
 }
 
 async function registryList(reg) {

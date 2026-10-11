@@ -10,6 +10,7 @@ import { createInterface } from "node:readline";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { ROOT, followProblem, isPublicHostname, isPrivateAddress, llmsUrls } from "./lib.mjs";
+import { schemaProblems as validateSchema } from "./json-schema.mjs";
 
 const SERVER = join(ROOT, "tools", "mcp.mjs");
 const TIMEOUT = 30_000;
@@ -110,28 +111,9 @@ afterAll(() => {
   legacy?.stop();
 });
 
-/**
- * The JSON Schema subset tools/schemas.mjs uses: type (a list allows null), enum, required, properties, items and
- * `$ref` into the schema's own `$defs`. Stricter than JSON Schema in one way: a field the schema does not declare
- * is a problem too, so structuredContent cannot drift away from its schema.
- */
-function schemaProblems(schema, value, root = schema, path = "$") {
-  if (schema.$ref) return schemaProblems(root.$defs[schema.$ref.replace("#/$defs/", "")], value, root, path);
-  const t = value === null ? "null" : Array.isArray(value) ? "array" : Number.isInteger(value) ? "integer" : typeof value;
-  const types = [].concat(schema.type || []);
-  if (types.length && !types.some((x) => x === t || (x === "number" && t === "integer"))) return [`${path}: ${t}, expected ${types.join(" | ")}`];
-  if (schema.enum && !schema.enum.includes(value)) return [`${path}: ${JSON.stringify(value)} is not one of ${JSON.stringify(schema.enum)}`];
-  const out = [];
-  if (t === "object" && schema.properties) {
-    for (const k of schema.required || []) if (!Object.hasOwn(value, k)) out.push(`${path}.${k}: missing`);
-    for (const k of Object.keys(value)) {
-      if (!Object.hasOwn(schema.properties, k)) out.push(`${path}.${k}: not declared`);
-      else out.push(...schemaProblems(schema.properties[k], value[k], root, `${path}.${k}`));
-    }
-  }
-  if (t === "array" && schema.items) value.forEach((v, i) => out.push(...schemaProblems(schema.items, v, root, `${path}[${i}]`)));
-  return out;
-}
+// The JSON Schema subset tools/schemas.mjs uses (tools/json-schema.mjs). Stricter than JSON Schema in one way
+// (`closed`): a field the schema does not declare is a problem too, so structuredContent cannot drift away from its schema.
+const schemaProblems = (schema, value) => validateSchema(schema, value, { closed: true });
 
 const callTool = async (name, args) => {
   const { result } = await server.rpc("tools/call", { name, arguments: args });
@@ -862,4 +844,44 @@ test("get_content refuses a follow_url that breaks the rules before any fetch", 
 
 test("every tool's successful answer validated against its outputSchema", () => {
   expect([...validated].sort()).toEqual(Object.keys(OUTPUT).sort());
+});
+
+// ------------------------------------------------------------------ phase 2B: metadata records in get_resource
+
+test("get_resource with a metadata record: record fields, no X labels, ≤ 2 KB, valid structuredContent", async () => {
+  for (const ref of ["navbar-gallery", "magicui-design", "github-com-nutlope-hallmark"]) {
+    const r = await callTool("get_resource", { ref }); // callTool checks structuredContent against the outputSchema
+    const text = textOf(r);
+    expect(Buffer.byteLength(text)).toBeLessThanOrEqual(2_000); // MCP-PLAN token budget
+    expect(text).toMatch(/\ntype: [a-z-]+ \(/);
+    expect(text).toMatch(/\nkeywords: /);
+    expect(text).not.toContain("people call it");
+    expect(text).not.toMatch(/: unknown\b/); // unknown / empty fields are left out
+    const res = r.structuredContent.resource;
+    expect(res.metadata).toBe("ok");
+    expect(res.labels).toEqual([]);
+    expect(res.keywords.length).toBeLessThanOrEqual(12);
+  }
+  const nav = textOf(await callTool("get_resource", { ref: "navbar-gallery" }));
+  expect(nav.split("\n")[0]).toBe("Navbar Gallery — Gallery of 450+ real-world website navigation bars, tagged by navigation type, visual style and industry.");
+  expect(nav).toContain("elements: navbar, sidebar, breadcrumbs (kinds — navbar: static, dropdown, mega-menu");
+  expect(nav).toContain("categories: sections (Section galleries & blocks), inspiration (");
+  const magic = (await callTool("get_resource", { ref: "magicui-design" })).structuredContent.resource;
+  expect(magic).toMatchObject({ type: "component-library", pricing: "freemium", license: null, related: { repo: null, docs: "https://magicui.design/docs", npm: null, figma: null, parent: null } });
+  expect(textOf(await callTool("get_resource", { ref: "github-com-nutlope-hallmark" }))).toContain("pricing: free · license: MIT");
+});
+
+test("get_resource without a record keeps its source text: labels, no record lines, metadata missing", async () => {
+  const r = await callTool("get_resource", { ref: "reactbits.dev" });
+  const text = textOf(r);
+  expect(text).toContain('people call it: "React Bits"');
+  for (const line of ["type: ", "keywords: ", "contains: ", "elements: ", "formats: "]) expect(text).not.toContain(`\n${line}`);
+  const res = r.structuredContent.resource;
+  expect(res).toMatchObject({ metadata: "missing", type: null, keywords: [], contains: [], pricing: null, related: null });
+  expect(res.elements).toEqual(["background"]); // provisional, from its labels (catalog.json elements_from: "hints")
+});
+
+test("a record's keywords are searchable: an entry ranks by what its record says", async () => {
+  const text = textOf(await callTool("search_resources", { query: "anti ai slop design skill", limit: 5 }));
+  expect(idsOf(text)[0]).toBe("github-com-nutlope-hallmark");
 });

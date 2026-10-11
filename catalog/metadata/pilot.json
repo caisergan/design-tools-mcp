@@ -1,0 +1,265 @@
+{
+  "note": "Phase 2B pilot (brief 18): ~50 mixed entries for bun tools/crawl.mjs --pilot and the owner's first extraction batches. `kind` is a guess for picking the mix, not a fact; the record decides.",
+  "entries": [
+    {
+      "id": "navbar-gallery",
+      "kind": "gallery",
+      "why": "curated · smoke test"
+    },
+    {
+      "id": "magicui-design",
+      "kind": "component kit + registry",
+      "why": "curated · smoke test"
+    },
+    {
+      "id": "github-com-nutlope-hallmark",
+      "kind": "design-rules repo",
+      "why": "curated · smoke test"
+    },
+    {
+      "id": "saaspo-com",
+      "kind": "gallery",
+      "why": "curated · no llms.txt"
+    },
+    {
+      "id": "mobbin-com",
+      "kind": "gallery",
+      "why": "curated · hard: login wall"
+    },
+    {
+      "id": "footer-design",
+      "kind": "section gallery",
+      "why": "curated"
+    },
+    {
+      "id": "cta-gallery",
+      "kind": "section gallery",
+      "why": "curated · no llms.txt"
+    },
+    {
+      "id": "404s-design",
+      "kind": "section gallery",
+      "why": "curated"
+    },
+    {
+      "id": "supahero-io",
+      "kind": "section gallery",
+      "why": "curated · no llms.txt"
+    },
+    {
+      "id": "landing-love",
+      "kind": "gallery",
+      "why": "curated"
+    },
+    {
+      "id": "onepagelove-com",
+      "kind": "gallery",
+      "why": "x-community"
+    },
+    {
+      "id": "dribbble-com",
+      "kind": "gallery",
+      "why": "x-community · hard: JS-heavy"
+    },
+    {
+      "id": "reactbits-dev",
+      "kind": "component kit",
+      "why": "curated"
+    },
+    {
+      "id": "ui-aceternity-com",
+      "kind": "component kit",
+      "why": "curated"
+    },
+    {
+      "id": "kokonutui-com",
+      "kind": "component kit",
+      "why": "curated"
+    },
+    {
+      "id": "uiverse-io",
+      "kind": "component library",
+      "why": "x-community · hard: Scrapling host (Bun fetch gets 403)"
+    },
+    {
+      "id": "transitions-dev",
+      "kind": "motion components",
+      "why": "curated · no llms.txt"
+    },
+    {
+      "id": "motion-primitives-com",
+      "kind": "motion components",
+      "why": "curated · no llms.txt"
+    },
+    {
+      "id": "60fps-design",
+      "kind": "motion reference",
+      "why": "curated"
+    },
+    {
+      "id": "reui-io",
+      "kind": "registry",
+      "why": "awesome-lists"
+    },
+    {
+      "id": "beui-dev",
+      "kind": "registry",
+      "why": "curated"
+    },
+    {
+      "id": "www-shadcnblocks-com",
+      "kind": "block library",
+      "why": "awesome-lists · hard: gated"
+    },
+    {
+      "id": "github-com-shadcn-ui-ui",
+      "kind": "component library repo",
+      "why": "x-community"
+    },
+    {
+      "id": "tweakcn-com",
+      "kind": "theme generator",
+      "why": "awesome-lists"
+    },
+    {
+      "id": "hugeicons-com",
+      "kind": "icon set",
+      "why": "curated · no llms.txt"
+    },
+    {
+      "id": "3dicons-co",
+      "kind": "icon set",
+      "why": "x-community"
+    },
+    {
+      "id": "iconoir-com",
+      "kind": "icon set",
+      "why": "x-community"
+    },
+    {
+      "id": "github-com-lucide-icons-lucide",
+      "kind": "icon set repo",
+      "why": "curated"
+    },
+    {
+      "id": "fontshare-com",
+      "kind": "font foundry",
+      "why": "curated"
+    },
+    {
+      "id": "uncut-wtf",
+      "kind": "font directory",
+      "why": "curated"
+    },
+    {
+      "id": "freefaces-gallery",
+      "kind": "font gallery",
+      "why": "curated"
+    },
+    {
+      "id": "github-com-pbakaus-impeccable",
+      "kind": "design-rules repo",
+      "why": "curated"
+    },
+    {
+      "id": "github-com-emilkowalski-skills",
+      "kind": "agent skill repo",
+      "why": "x-community"
+    },
+    {
+      "id": "github-com-obra-superpowers",
+      "kind": "agent skill repo (not design)",
+      "why": "curated"
+    },
+    {
+      "id": "styles-refero-design",
+      "kind": "design rules site",
+      "why": "curated · hard: JS-heavy"
+    },
+    {
+      "id": "uirules-com",
+      "kind": "design rules site",
+      "why": "curated"
+    },
+    {
+      "id": "coolors-co",
+      "kind": "color tool",
+      "why": "x-community"
+    },
+    {
+      "id": "haikei-app",
+      "kind": "generator",
+      "why": "x-community"
+    },
+    {
+      "id": "colorbox-io",
+      "kind": "color tool",
+      "why": "x-community"
+    },
+    {
+      "id": "lottiefiles-com",
+      "kind": "asset library",
+      "why": "x-community"
+    },
+    {
+      "id": "figma-com",
+      "kind": "design tool",
+      "why": "x-community · hard: JS-heavy, large"
+    },
+    {
+      "id": "unsplash-com",
+      "kind": "asset library",
+      "why": "x-community · hard: gated"
+    },
+    {
+      "id": "codepen-io",
+      "kind": "tool",
+      "why": "x-community · hard: bot-walled"
+    },
+    {
+      "id": "land-book-com",
+      "kind": "gallery",
+      "why": "curated · hard: Scrapling host disabled (never fetched)"
+    },
+    {
+      "id": "saasframe-io",
+      "kind": "gallery",
+      "why": "x-community · hard: Scrapling host disabled (never fetched)"
+    },
+    {
+      "id": "flowbase-co-blog-top-20-free-fonts-for-ui-designers-2025",
+      "kind": "article (page)",
+      "why": "x-community"
+    },
+    {
+      "id": "ruben-substack-com-p-claude-for-teams",
+      "kind": "article (page)",
+      "why": "x-community · hard: recovered redirect url"
+    },
+    {
+      "id": "tympanus-net-codrops",
+      "kind": "learning (page)",
+      "why": "x-community"
+    },
+    {
+      "id": "medium-com-styled-components-how-to-build-a-great-component-library-a40d",
+      "kind": "article (page)",
+      "why": "x-community · hard: bot-walled"
+    },
+    {
+      "id": "ui-skills-com-skills-emilkowalski-emil-design-eng",
+      "kind": "skill page (page)",
+      "why": "curated"
+    },
+    {
+      "id": "shadcnuikit-com-blocks",
+      "kind": "block library (page)",
+      "why": "x-community"
+    },
+    {
+      "id": "tunera-xyz",
+      "kind": "dead site",
+      "why": "x-community · dead: skipped and listed"
+    }
+  ]
+}

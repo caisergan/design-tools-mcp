@@ -31,7 +31,7 @@
 - **beUI Pro** — Premium motion components for React · https://pro.beui.dev `llms-full`
 - **shadcn/ui** — The Foundation for your Design System · https://ui.shadcn.com `registry:63 llms.txt`
 - **Beautiful UI** — Crafted primitives for AI-native interfaces · https://beautifului.dev `registry:27`
-- **Magic UI** — React components for landing pages with tailwindcss + framer motion. · https://magicui.design `registry:250 llms-full`
+- **Magic UI** — Library of 150+ free, open-source animated React components and effects for landing pages, with p… · https://magicui.design `registry:250 llms-full`
 - **Originkit** — Free Animated component library for modern websites · https://originkit.dev `unreadable:no-endpoint`
 - **Transitions.dev** — UI transitions for AI agents · https://transitions.dev `unreadable:no-endpoint`
 - **GetLayers AI** — An AI-native library of templates. · https://getlayers.ai `llms.txt`
@@ -456,7 +456,7 @@
 
 ## Section galleries & blocks · `sections` (8)
 
-- **Navbar Gallery** — Navigation Design Inspiration · https://navbar.gallery `llms.txt`
+- **Navbar Gallery** — Gallery of 450+ real-world website navigation bars, tagged by navigation type, visual style and i… · https://navbar.gallery `llms.txt`
 - **CTA.gallery** — The Best Call-to-Action Inspiration for Designers · https://cta.gallery `unreadable:no-endpoint`
 - **BentoGrids** — Bento Grids · https://bentogrids.com `unreadable:no-endpoint`
 - **Footer** — The only footer gallery on earth. · https://footer.design `llms.txt`
@@ -784,9 +784,9 @@
 - **VoltAgent/awesome-design-md** — A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your proj… · https://github.com/VoltAgent/awesome-design-md `repo`
 - **web-design-guidelines (vercel-labs/agent-skills)** — vercel-labs/agent-skills · https://skills.sh/vercel-labs/agent-skills/web-design-guidelines `registry:50 unreadable:no-endpoint`
 - **elayadesign/ai-design-skills** — elayadesign/ai-design-skills · https://github.com/elayadesign/ai-design-skills `repo`
+- **Hallmark** — Agent design skill that builds, audits and redesigns web pages so they do not look AI-generated. · https://github.com/Nutlope/hallmark `repo`
 - **Leonxlnx/taste-skill** — Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop · https://github.com/Leonxlnx/taste-skill `repo`
 - **miqdadbadjuber/anti-slop** — Rules for an AI coding agent to filter out generic AI-generated UI designs, · https://github.com/miqdadbadjuber/anti-slop `repo`
-- **Nutlope/hallmark** — Anti-AI-slop design skill for Claude Code, Cursor, and Codex. · https://github.com/Nutlope/hallmark `repo`
 - **s0xDk/refactoring-ui-skill** — A Claude Code skill that applies the concrete design rules from the book · https://github.com/s0xDk/refactoring-ui-skill `skill repo`
 - **uirules.com** — Brand Guidelines for AI Tools · https://uirules.com `llms.txt`
 

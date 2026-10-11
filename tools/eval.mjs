@@ -2,6 +2,8 @@
 // Phase 0 eval: recall@5 and MRR of search_resources over tools/eval/queries.json.
 // A query counts as a hit when one of the top 5 results maps back (by url) to an `expect_any` id.
 // MRR is averaged over all queries — a miss scores 0. Always exits 0.
+// Queries flagged `"descriptive": true` (Phase 2B: a site described by what it is, never by its name) are scored as a
+// separate block; the headline metrics stay on the other queries, so the 2B run has a before/after of its own.
 import { spawn } from "node:child_process";
 import { createInterface } from "node:readline";
 import { readFileSync } from "node:fs";
@@ -69,38 +71,52 @@ const accepts = (expect, id) => {
 
 async function main() {
   const { proc, rpc } = startServer();
-  let found = 0;
-  let reciprocal = 0;
-  const subset = { named: [0, 0], descriptive: [0, 0] }; // [found, total] — the plan's targets are per subset
-  const failures = [];
-  try {
-    for (const { q, expect_any, note = "" } of QUERIES) {
-      const sub = subset[note.startsWith("descriptive") ? "descriptive" : "named"];
+  const headline = QUERIES.filter((x) => !x.descriptive);
+  const sites = QUERIES.filter((x) => x.descriptive);
+  const score = async (queries) => {
+    const out = { found: 0, reciprocal: 0, failures: [], subset: { named: [0, 0], descriptive: [0, 0] } }; // [found, total] — the plan's targets are per subset
+    for (const { q, expect_any, note = "" } of queries) {
+      const sub = out.subset[note.startsWith("descriptive") ? "descriptive" : "named"];
       sub[1]++;
       const { result } = await rpc("tools/call", { name: "search_resources", arguments: { query: q, limit: TOP } });
       const hits = hitsOf((result?.content || []).map((c) => c.text || "").join("\n"));
       const rank = hits.findIndex((h) => h.id && accepts(expect_any, h.id));
-      if (rank < 0) failures.push({ q, hits });
+      if (rank < 0) out.failures.push({ q, hits });
       else {
-        found++;
+        out.found++;
         sub[0]++;
-        reciprocal += 1 / (rank + 1);
+        out.reciprocal += 1 / (rank + 1);
       }
     }
+    return out;
+  };
+  let main;
+  let desc;
+  try {
+    main = await score(headline);
+    desc = await score(sites);
   } finally {
     proc.kill();
   }
-
-  console.log(`search_resources eval — ${QUERIES.length} queries, top ${TOP}, ${ITEMS.length} catalog entries\n`);
-  console.log(`recall@${TOP}: ${(found / QUERIES.length).toFixed(3)} (${found}/${QUERIES.length})`);
-  console.log(`MRR: ${(reciprocal / QUERIES.length).toFixed(3)}`);
-  for (const [k, [f, n]] of Object.entries(subset)) console.log(`  ${k}: ${(f / n).toFixed(3)} (${f}/${n})`);
-  if (failures.length) {
-    console.log(`\nfailures (${failures.length}):`);
+  const failed = (failures) => {
     for (const { q, hits } of failures) {
       const top3 = hits.slice(0, 3).map((h) => h.name || "?").join(" | ") || "(no results)";
       console.log(`- "${q}"\n    ${top3}`);
     }
+  };
+
+  console.log(`search_resources eval — ${headline.length} queries, top ${TOP}, ${ITEMS.length} catalog entries\n`);
+  console.log(`recall@${TOP}: ${(main.found / headline.length).toFixed(3)} (${main.found}/${headline.length})`);
+  console.log(`MRR: ${(main.reciprocal / headline.length).toFixed(3)}`);
+  for (const [k, [f, n]] of Object.entries(main.subset)) console.log(`  ${k}: ${(f / n).toFixed(3)} (${f}/${n})`);
+  if (main.failures.length) {
+    console.log(`\nfailures (${main.failures.length}):`);
+    failed(main.failures);
+  }
+  if (sites.length) {
+    console.log(`\nsite descriptions (Phase 2B, "descriptive": true) — ${sites.length} queries, not in the headline`);
+    console.log(`recall@${TOP}: ${(desc.found / sites.length).toFixed(3)} (${desc.found}/${sites.length}) · MRR: ${(desc.reciprocal / sites.length).toFixed(3)}`);
+    if (desc.failures.length) failed(desc.failures);
   }
 }
 
