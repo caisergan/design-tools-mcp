@@ -51,7 +51,9 @@ per entry; `catalog/crawl/` is **gitignored** — third-party text must never re
   robots.txt, gives up on a host after repeated 403/429) and the Scrapling backend for the hosts
   `catalog/scrapling-hosts.json` enables. **Never** fetch hosts it disables (land-book, ui8, saasframe — an open owner
   decision). No headless Chrome in this brief: mark JS-only / walled pages `status: "blocked"` with the reason, so the
-  run knows. Entries whose `reach` says dead are skipped and listed.
+  run knows. **Dead** = `reach.reason` `dead` or `repo-gone` (43 entries): skipped and listed. `reach.ok: false` alone
+  is not dead — 1,248 of those are `no-endpoint` (no llms.txt; the homepage answers) and must be crawled; `bot-walled`
+  (25) and `gated` (10) are tried once and usually end `blocked`.
 - The digest also carries the entry's source hints (name, desc, about, labels, note, categories, kind, url) in a
   separate `hints` block, and what the catalog already knows (item counts by kind, top item elements, registry/llms
   flags) — the extractor may use those as facts, they are ours.
@@ -64,7 +66,7 @@ per entry; `catalog/crawl/` is **gitignored** — third-party text must never re
 
 ### 3. `tools/metadata-queue.mjs` + the run kit
 - `bun tools/metadata-queue.mjs` → `catalog/metadata/_queue.json`: entries with no record, a record older than 90
-  days, or a changed `hints_hash` (hash of the entry's source hints). Order: curated → readable → rest; dead skipped.
+  days, or a changed `hints_hash` (hash of the entry's source hints). Order: curated → readable (`reach.ok`) → rest; dead (as defined in 2) skipped.
   Prints counts by kind and the token estimate for the queue (from digests where they exist, else the 2B averages).
 - `bun tools/metadata-batch.mjs --size 20 [--from-queue | --ids a,b]` writes `catalog/metadata/_batches/<n>.md`
   (gitignored): the full prompt (prompt + taxonomy view) + the batch's id list + the exact steps an extractor session
