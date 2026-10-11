@@ -24,7 +24,7 @@ const good = (over = {}) => ({
   hints_hash: hintsHash(entry),
   schema_version: 1,
   extracted_at: "2026-10-11T12:00:00Z",
-  extractor: { agent: "omp", model: "deepseek-v4.1-flash", prompt: "metadata-v1" },
+  extractor: { agent: "omp", model: "deepseek-v4.1-flash", prompt: "metadata-v2" },
   evidence: [{ url: "https://kit.test", title: "Kit", status: 200 }],
   status: "ok",
   name: "Kit",

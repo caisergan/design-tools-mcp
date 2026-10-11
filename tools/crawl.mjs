@@ -5,6 +5,8 @@
 //   bun tools/crawl.mjs --queue [--limit n] [--force]   the entries in catalog/metadata/_queue.json (tools/metadata-queue.mjs)
 //   bun tools/crawl.mjs --pilot [--force]               the fixed list catalog/metadata/pilot.json
 //   … [--report]                                        print the size / status table of the digests that exist, fetch nothing
+//   bun tools/crawl.mjs --page <url>                     one page as digest JSON on stdout (the extraction agent's way to
+//                                                        read more of a site: same robots, pacing and disabled-host rules)
 //
 // → catalog/crawl/<id>.json, one file per entry. catalog/crawl/ is gitignored: third-party text never reaches the repo.
 // An entry with a digest is skipped unless --force (resume).
@@ -489,6 +491,28 @@ async function fetchPage(url, fetcher, hosts = new Map()) {
   return { res, page, html: isHtml(res.type) ? body : "" };
 }
 
+/**
+ * One url for the extraction agent → a digest page, or { url, status, error } when it is not read: a disabled host
+ * (before any request), robots, a wall, a non-200 answer. Text capped at LIMITS.pageText.
+ */
+export async function readPage(url, { fetcher, hosts = new Map() }) {
+  let u;
+  try {
+    u = new URL(url);
+  } catch {
+    return { url, status: 0, error: "not a url" };
+  }
+  if (!/^https?:$/.test(u.protocol)) return { url, status: 0, error: "only http(s) urls" };
+  const off = disabledHost(url, hosts);
+  if (off) return { url, status: 0, error: `host disabled in catalog/scrapling-hosts.json (${off}) — do not fetch it another way` };
+  const { res, page, html } = await fetchPage(url, fetcher, hosts);
+  const why = blockReason(res, page, html);
+  if (!page || why) return { url, status: res.status ?? 0, ...(res.finalUrl && res.finalUrl !== url ? { final_url: res.finalUrl } : {}), error: why || res.error || `http ${res.status}` };
+  const out = digestPage(url, "fetch", { ...page, text: cutText(page.text || "", LIMITS.pageText) }, res);
+  out.links = linkPaths(page.links || [], LIMITS.linksHome);
+  return out;
+}
+
 const digestPage = (url, source, page, res) => {
   const out = { url, source };
   if (res) {
@@ -694,6 +718,12 @@ async function main(argv) {
     const i = argv.indexOf(k);
     return i >= 0 ? argv[i + 1] : undefined;
   };
+  if (arg("--page")) {
+    const r = await readPage(arg("--page"), { fetcher: createFetcher(), hosts: loadHosts() });
+    await scraplingClient.close();
+    console.log(JSON.stringify(r, null, 1));
+    return;
+  }
   const force = argv.includes("--force");
   const { loadItems } = await import("./build.mjs");
   const entries = loadItems({ metadata: false });

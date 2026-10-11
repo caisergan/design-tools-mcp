@@ -15,7 +15,7 @@ export const SCHEMA_FILE = join(METADATA_DIR, "schema.json");
 export const recordFile = (id, dir = METADATA_DIR) => join(dir, `${id}.json`);
 export const digestFile = (id, dir = CRAWL_DIR) => join(dir, `${id}.json`);
 export const SCHEMA = loadJSON(SCHEMA_FILE);
-export const PROMPT_ID = "metadata-v1";
+export const PROMPT_ID = "metadata-v2";
 export const STALE_DAYS = 90;
 /** Records whose content the build does not merge: the entry keeps its source values and says so. */
 export const UNREAD_STATUS = new Set(["blocked", "dead"]);

@@ -20,6 +20,7 @@ import {
   disabledHost,
   crawlEntry,
   LIMITS,
+  readPage,
 } from "./crawl.mjs";
 
 const fixture = (name) => readFileSync(join(ROOT, "tools", "fixtures", "crawl", name), "utf8");
@@ -179,4 +180,22 @@ test("a JS-only homepage blocks a site that has nothing else to read; a page ent
   const p = await crawlEntry(entry(`${HOME}/pricing`, "page"), ctx(page.fetcher));
   expect(p.status).toBe("ok");
   expect(page.asked).toEqual([`${HOME}/robots.txt`, `${HOME}/pricing`]);
+});
+
+test("--page (readPage): disabled hosts are refused before any request, robots is respected, a readable page is a digest page", async () => {
+  const hosts = new Map([["walled.test", { mode: "http", enabled: false, note: "owner decision" }]]);
+  const { fetcher, asked } = fakeFetcher({
+    [`${HOME}/robots.txt`]: { type: "text/plain", text: "User-agent: *\nDisallow: /private\n" },
+    [HOME]: { text: fixture("home.html") },
+  });
+  expect((await readPage("https://shop.walled.test/x", { fetcher, hosts })).error).toContain("host disabled");
+  expect((await readPage("ftp://widgetshelf.test", { fetcher, hosts })).error).toBe("only http(s) urls");
+  expect(asked).toEqual([]);
+  expect((await readPage(`${HOME}/private/a`, { fetcher, hosts })).error).toBe("robots.txt disallows it");
+  expect(asked).not.toContain(`${HOME}/private/a`);
+  const p = await readPage(HOME, { fetcher, hosts });
+  expect(p.status).toBe(200);
+  expect(p.source).toBe("fetch");
+  expect(p.text.length).toBeGreaterThan(0);
+  expect(p.error).toBeUndefined();
 });

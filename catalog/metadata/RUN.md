@@ -33,7 +33,7 @@ bun tools/metadata-batch.mjs --ids "$(jq -r '[.entries[].id] | join(",")' catalo
 
 Run the 5–6 batches (step 3), then review every pilot record by hand: `bun tools/metadata-check.mjs`, read
 `_review.md`, `bun tools/build.mjs`, try `get_resource` / `search_resources` on a few. Fix
-`tools/prompts/metadata-v1.md` or `catalog/taxonomy.json` if a pattern is wrong, delete the records it produced, and
+`tools/prompts/metadata-v2.md` or `catalog/taxonomy.json` if a pattern is wrong, delete the records it produced, and
 re-run them. Note the real tokens per record from omp's usage; it replaces the estimate in the queue.
 
 ## 3. One omp session per batch file

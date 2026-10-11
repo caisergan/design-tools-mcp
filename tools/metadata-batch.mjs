@@ -7,7 +7,7 @@
 //   bun tools/metadata-batch.mjs --stats                                 print its size
 //
 // → catalog/metadata/_batches/<n>.md + <n>.ids (gitignored), n = 1, 2, … — the old batch files are replaced, so regenerate only
-// while no session is running. Each file holds the full prompt (tools/prompts/metadata-v1.md with the live
+// while no session is running. Each file holds the full prompt (tools/prompts/metadata-v2.md with the live
 // `bun tools/taxonomy-prompt.mjs` view in place of {{TAXONOMY}}), the batch's ids and the exact steps; it ends with a
 // marker line for the watcher. One file = one omp session: paste it, or point omp at it.
 import { existsSync, readFileSync, readdirSync, rmSync } from "node:fs";
@@ -49,9 +49,11 @@ ${list}
 
 ## Steps, for each id above, in order
 
-1. Read \`catalog/crawl/<id>.json\` (the digest). Read nothing else about the entry: no other file, no web page.
-2. Write \`catalog/metadata/<id>.json\` by the prompt above: one JSON object, nothing else in the file.
-3. Run \`bun tools/metadata-check.mjs --id <id>\`. It prints \`ok <id>\` or the errors; fix the record and run it
+1. Read \`catalog/crawl/<id>.json\` (the digest).
+2. If it is thin or misses what a field needs, read up to 6 of the entry's own pages with
+   \`bun tools/crawl.mjs --page <url>\` ("Reading more of the entry" above). Read no other file.
+3. Write \`catalog/metadata/<id>.json\` by the prompt above: one JSON object, nothing else in the file.
+4. Run \`bun tools/metadata-check.mjs --id <id>\`. It prints \`ok <id>\` or the errors; fix the record and run it
    again until it prints \`ok\`. (It also normalizes the keywords in place — that is expected.)
 
 When every id is done, run \`bun tools/metadata-check.mjs --id ${ids.join(",")}\` once more. Then end your reply with
@@ -59,8 +61,8 @@ this line, alone:
 
 ${marker(n)}
 
-Rules: do not edit any other file, do not run any other command, do not fetch anything from the network, and do not
-commit. If a digest is missing, skip that id and say so before the marker line.
+Rules: do not edit any other file; run only \`bun tools/crawl.mjs --page <url>\` and \`bun tools/metadata-check.mjs\`;
+fetch nothing any other way (\`web_search\` only as the prompt allows); do not commit. If a digest is missing, skip that id and say so before the marker line.
 `;
 }
 
