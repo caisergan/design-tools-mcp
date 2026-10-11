@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "required": ["id", "url", "kind", "schema_version", "extracted_at", "extractor", "hints_hash", "evidence", "status", "confidence"],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 80 },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "maxLength": 80 },
     "url": { "type": "string", "pattern": "^https?://" },
     "kind": { "enum": ["site", "repo", "page"] },
     "schema_version": { "const": 1 },
@@ -69,7 +69,7 @@
         "docs": { "type": ["string", "null"], "pattern": "^https?://" },
         "npm": { "type": ["string", "null"], "pattern": "^(@[a-z0-9._-]+/)?[a-z0-9._-]+$" },
         "figma": { "type": ["string", "null"], "pattern": "^https?://" },
-        "parent": { "type": ["string", "null"], "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+        "parent": { "type": ["string", "null"], "pattern": "^[a-z0-9][a-z0-9-]*$" }
       }
     },
     "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
