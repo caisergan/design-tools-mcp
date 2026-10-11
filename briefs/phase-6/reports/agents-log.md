@@ -67,3 +67,6 @@ Still running: none. Brief 16 merged and closed; full `--verify --all` run by th
 | u17 | 17 Phase 4 tool surface (Claude Code Opus 5.5 high) | `phase4/tool-surface` @ f5cb64f | schemas + structuredContent, get_install_command, get_component paging/examples, list_components filters, follow_url; 222 tests | 2026-10-10 | 2026-10-10 |
 
 Still running: none.
+
+2026-10-11: brief 18 (Phase 2B site metadata tooling, `briefs/phase-2b/18-site-metadata-tooling.md`) launched.
+| u18 | 18 Phase 2B tooling: crawl, schema, prompt, queue/batch kit, check, build merge + hint fallback (Claude Code Opus 5.5 high) | `phase2b/metadata-tooling` | running | 2026-10-11 | |
