@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "catalog/metadata/schema.json",
+  "title": "One Phase 2B metadata record (catalog/metadata/<id>.json)",
+  "description": "What one catalog entry is and contains, written by the extraction agent from catalog/crawl/<id>.json (tools/prompts/metadata-v1.md). Taxonomy ids (type, categories, elements, variants) are checked against catalog/taxonomy.json by tools/metadata-check.mjs, not here. Sites and repos carry a full record; pages a light one (summary, keywords, related.parent and only what their content shows). A blocked or dead record carries only the envelope.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "url", "kind", "schema_version", "extracted_at", "extractor", "hints_hash", "evidence", "status", "confidence"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 80 },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "kind": { "enum": ["site", "repo", "page"] },
+    "schema_version": { "const": 1 },
+    "extracted_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?(Z|[+-]\\d{2}:\\d{2})$" },
+    "extractor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent", "model", "prompt"],
+      "properties": {
+        "agent": { "type": "string", "minLength": 1, "maxLength": 40 },
+        "model": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "prompt": { "type": "string", "pattern": "^metadata-v\\d+$" }
+      }
+    },
+    "hints_hash": { "type": "string", "pattern": "^[0-9a-f]{16}$" },
+    "evidence": {
+      "type": "array",
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string", "pattern": "^https?://" },
+          "title": { "type": ["string", "null"], "maxLength": 200 },
+          "status": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "status": { "enum": ["ok", "partial", "blocked", "dead", "login-required"] },
+    "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "summary": { "type": "string", "minLength": 1, "maxLength": 140 },
+    "description": { "type": "string", "maxLength": 600 },
+    "type": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "categories": { "type": "array", "minItems": 1, "maxItems": 3, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } },
+    "elements": { "type": "array", "maxItems": 40, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } },
+    "variants": {
+      "type": "object",
+      "additionalProperties": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } }
+    },
+    "keywords": { "type": "array", "maxItems": 30, "items": { "type": "string", "minLength": 2, "maxLength": 60 } },
+    "keywords_manual": { "type": "array", "maxItems": 30, "items": { "type": "string", "minLength": 2, "maxLength": 60 } },
+    "contains": { "type": "array", "maxItems": 8, "items": { "type": "string", "minLength": 3, "maxLength": 120 } },
+    "formats": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": ["code", "npm-package", "registry", "cli", "api", "figma-file", "framer-file", "screenshots", "video", "svg", "png", "font-files", "prompts", "docs", "links", "templates", "app"]
+      }
+    },
+    "stack": { "type": "array", "maxItems": 15, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.+#-]*$", "maxLength": 30 } },
+    "pricing": { "enum": ["free", "freemium", "paid", "unknown"] },
+    "license": { "type": "string", "pattern": "^[A-Za-z0-9.+-]+$", "maxLength": 40 },
+    "related": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "repo": { "type": ["string", "null"], "pattern": "^https://github\\.com/[^/]+/[^/]+$" },
+        "docs": { "type": ["string", "null"], "pattern": "^https?://" },
+        "npm": { "type": ["string", "null"], "pattern": "^(@[a-z0-9._-]+/)?[a-z0-9._-]+$" },
+        "figma": { "type": ["string", "null"], "pattern": "^https?://" },
+        "parent": { "type": ["string", "null"], "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+      }
+    },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "enum": ["blocked", "dead"] } } },
+      "else": {
+        "if": { "properties": { "kind": { "const": "page" } } },
+        "then": {
+          "required": ["name", "summary", "keywords", "related"],
+          "properties": { "keywords": { "minItems": 3 }, "related": { "required": ["parent"] } }
+        },
+        "else": {
+          "required": ["name", "summary", "description", "type", "categories", "elements", "keywords", "contains", "formats", "stack", "pricing", "license", "related"],
+          "properties": { "keywords": { "minItems": 5 } }
+        }
+      }
+    }
+  ]
+}

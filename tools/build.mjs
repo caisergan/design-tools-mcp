@@ -3,6 +3,7 @@
 import { FILE, slug, loadJSON, saveJSON, saveText, isGitHubRepo, loadSources, normalizeUrl, urlKey, isAssetUrl } from "./lib.mjs";
 import { categorize, CATEGORY_IDS, MAX_CATEGORIES } from "./categorize.mjs";
 import { TAXONOMY } from "./tag.mjs";
+import { METADATA_DIR, UNREAD_STATUS, hintElements, loadRecord, normalizeKeywords, normalizeRecord, recordIds, recordProblems } from "./metadata.mjs";
 
 // ---------------------------------------------------------------- rendering
 
@@ -220,12 +221,20 @@ function uniqueIds(items) {
  */
 const OVERRIDABLE = ["name", "desc", "about", "categories"];
 export const overrideStats = { applied: 0, unknown: [], badCategories: [] };
-function applyOverrides(items) {
-  const file = loadJSON(FILE.overrides);
+/**
+ * Runs twice: on the source values (counted), and again after the metadata merge on the entries that got a record —
+ * hand fixes beat metadata, and there `type` (icon-set, asset-library) is the entry's type too.
+ */
+function applyOverrides(items, { file = loadJSON(FILE.overrides), afterMetadata = false } = {}) {
   if (!file?.items) return;
   const byId = new Map(items.map((i) => [i.id, i]));
   for (const [id, patch] of Object.entries(file.items)) {
     const it = byId.get(id);
+    if (afterMetadata) {
+      if (it && it.metadata && it.metadata !== "missing" && !UNREAD_STATUS.has(it.metadata))
+        for (const k of [...OVERRIDABLE, "type"]) if (patch[k] !== undefined) it[k] = patch[k];
+      continue;
+    }
     if (!it) {
       overrideStats.unknown.push(id);
       continue;
@@ -237,6 +246,90 @@ function applyOverrides(items) {
     for (const k of OVERRIDABLE) if (patch[k] !== undefined) it[k] = patch[k];
     overrideStats.applied++;
   }
+}
+
+// ---------------------------------------------------------------- metadata (Phase 2B)
+
+/**
+ * Provisional elements from the source hints (tools/metadata.mjs hintElements) until a record replaces them:
+ * `elements` = strong + weak, `elements_weak` = the ones only labels / about / note named (search counts them less).
+ */
+function hintFallback(items) {
+  for (const it of items) {
+    const { strong, weak } = hintElements(it);
+    if (!strong.length && !weak.length) continue;
+    it.elements = [...strong, ...weak];
+    if (weak.length) it.elements_weak = weak;
+    it.elements_from = "hints";
+  }
+}
+
+const isEmpty = (v) => v === undefined || v === null || v === "" || v === "unknown" || (Array.isArray(v) && !v.length) || (typeof v === "object" && !Array.isArray(v) && !Object.keys(v).length);
+
+/**
+ * One valid record onto its entry: metadata wins for name, desc (= summary), about (= description), categories,
+ * elements (+ variants), keywords (+ keywords_manual), contains, type, formats, stack, pricing, license, related.
+ * Only fields the record states count (a page's light record keeps the source categories); empty / unknown values
+ * are dropped from catalog.json, and evidence / extractor / schema_version / extracted_at never reach it (MCP-PLAN
+ * token tiers). A blocked or dead record keeps the source values and says so in `metadata`.
+ */
+export function applyRecord(it, r) {
+  it.metadata = r.status;
+  if (UNREAD_STATUS.has(r.status)) return it;
+  const set = (k, v) => {
+    if (v === undefined) return;
+    if (isEmpty(v)) delete it[k];
+    else it[k] = v;
+  };
+  if (r.name) it.name = r.name;
+  if (r.summary) it.desc = r.summary;
+  set("about", r.description);
+  if (r.categories?.length) it.categories = r.categories;
+  if (r.elements) {
+    delete it.elements_weak;
+    set("elements", r.elements);
+    if (r.elements.length) it.elements_from = "metadata";
+    else delete it.elements_from;
+    set("variants", r.variants || {});
+  }
+  if (r.keywords || r.keywords_manual) set("keywords", [...new Set([...(r.keywords || []), ...normalizeKeywords(r.keywords_manual || [])])]);
+  for (const k of ["type", "contains", "formats", "stack", "pricing", "license"]) set(k, r[k]);
+  if (r.related) set("related", Object.fromEntries(Object.entries(r.related).filter(([, v]) => v)));
+  if (typeof r.confidence === "number") it.confidence = r.confidence;
+  return it;
+}
+
+/** How the last loadItems() call merged catalog/metadata/. */
+export const metadataStats = { records: 0, merged: 0, unread: 0, invalid: [], unknown: [] };
+
+/** catalog/metadata/<id>.json → entries by id; a record that fails tools/metadata-check.mjs is skipped (and named). */
+function mergeMetadata(items, dir = METADATA_DIR) {
+  Object.assign(metadataStats, { records: 0, merged: 0, unread: 0, invalid: [], unknown: [] });
+  const byId = new Map(items.map((i) => [i.id, i]));
+  const ids = new Set(byId.keys());
+  for (const id of recordIds(dir)) {
+    metadataStats.records++;
+    let r;
+    try {
+      r = normalizeRecord(loadRecord(id, dir)); // as metadata-check writes it back
+    } catch (e) {
+      metadataStats.invalid.push(`${id} (${e.message})`);
+      continue;
+    }
+    const it = byId.get(id);
+    if (!it) {
+      metadataStats.unknown.push(id);
+      continue;
+    }
+    const problems = recordProblems(r, { fileId: id, entry: it, ids });
+    if (problems.length) {
+      metadataStats.invalid.push(`${id} (${problems[0]}${problems.length > 1 ? ` +${problems.length - 1}` : ""})`);
+      continue;
+    }
+    applyRecord(it, r);
+    metadataStats[UNREAD_STATUS.has(r.status) ? "unread" : "merged"]++;
+  }
+  for (const it of items) it.metadata ??= "missing";
 }
 
 /** How the last loadItems() call categorised entries: from labels, from their text, or the default. */
@@ -255,7 +348,11 @@ function categorizeAll(items) {
 /** Per-source counts from the last loadItems() call (printed by `bun tools/build.mjs`). */
 export const loadStats = {};
 
-export function loadItems({ clean = false } = {}) {
+/**
+ * Sources → entries (+ probe / reach caches, overrides, hint elements). `metadata: false` stops before the Phase 2B
+ * merge: the source hints that tools/crawl.mjs, metadata-queue.mjs and metadata-check.mjs hash and show the extractor.
+ */
+export function loadItems({ clean = false, metadata = true, metadataDir = METADATA_DIR } = {}) {
   const items = [];
   const byKey = new Map(); // host + path + query
   const byPage = new Map(); // host + path — only consulted by sources with merge_query_variants
@@ -320,6 +417,7 @@ export function loadItems({ clean = false } = {}) {
   nameAll(items);
   categorizeAll(items);
   applyOverrides(items);
+  hintFallback(items);
 
   // Entries with no machine-readable endpoint are dropped for good — catalog/blocklist.json
   // is written by tools/prune.mjs, which tests every item the way the MCP would read it.
@@ -345,6 +443,10 @@ export function loadItems({ clean = false } = {}) {
   if (probe) for (const it of items) if (cached(probe, it)) it.probe = cached(probe, it);
   const reach = loadJSON(FILE.reachability);
   if (reach) for (const it of items) if (cached(reach, it)) it.reach = cached(reach, it);
+  if (metadata) {
+    mergeMetadata(items, metadataDir);
+    applyOverrides(items, { afterMetadata: true });
+  }
   return items;
 }
 
@@ -393,6 +495,10 @@ if (import.meta.main) {
     console.log(`  overrides.json  ${overrideStats.applied} applied${overrideStats.unknown.length ? ` · unknown ids: ${overrideStats.unknown.join(", ")}` : ""}`);
   if (overrideStats.badCategories.length)
     console.log(`  ! overrides.json categories must be 1–${MAX_CATEGORIES} ids from taxonomy.json: ${overrideStats.badCategories.join(", ")}`);
+  const m = metadataStats;
+  console.log(`  metadata  ${m.merged} records merged · ${m.unread} blocked/dead · ${items.filter((i) => i.metadata === "missing").length} entries without a record · hint elements on ${items.filter((i) => i.elements_from === "hints").length}`);
+  if (m.invalid.length) console.log(`  ! metadata records skipped (run bun tools/metadata-check.mjs): ${m.invalid.join(", ")}`);
+  if (m.unknown.length) console.log(`  ! metadata records for ids not in the catalog: ${m.unknown.join(", ")}`);
   console.log(`ROUTER.md llms.txt -> ${FILE.router.replace(/\/ROUTER\.md$/, "")}`);
   // items + search index follow the catalog, or the MCP server rebuilds them in memory on every start
   if (!process.argv.includes("--no-index")) (await import("./index.mjs")).writeIndex(catalog.items);

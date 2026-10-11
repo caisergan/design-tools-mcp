@@ -1,0 +1,129 @@
+{
+  "id": "magicui-design",
+  "url": "https://magicui.design",
+  "kind": "site",
+  "hints_hash": "9592616c58f48b5d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T11:58:55Z",
+  "extractor": {
+    "agent": "claude-code",
+    "model": "claude-opus-5-5",
+    "prompt": "metadata-v1"
+  },
+  "evidence": [
+    {
+      "url": "https://magicui.design/llms.txt",
+      "title": "Magic UI",
+      "status": null
+    },
+    {
+      "url": "https://magicui.design",
+      "title": "Magic UI",
+      "status": 200
+    },
+    {
+      "url": "https://magicui.design/docs",
+      "title": "Introduction | React Components & Templates",
+      "status": 200
+    },
+    {
+      "url": "https://magicui.design/components",
+      "title": "Components | React Components & Templates",
+      "status": 200
+    },
+    {
+      "url": "https://magicui.design/docs/mcp",
+      "title": "Magic UI MCP Server",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Magic UI",
+  "summary": "Library of 150+ free, open-source animated React components and effects for landing pages, with paid Pro blocks and templates.",
+  "description": "Copy-paste components built with React, TypeScript, Tailwind CSS and Motion, made as a companion to shadcn/ui: text animations, backgrounds and patterns, buttons, device mockups, special effects (beams, borders, confetti, particles) and landing-page pieces such as marquee, bento grid, dock and globe. Installable from its shadcn registry or through its MCP server; Magic UI Pro sells 50+ blocks and templates.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "text-effect",
+    "background",
+    "button",
+    "card",
+    "marquee",
+    "bento-grid",
+    "navbar",
+    "dock",
+    "globe",
+    "map",
+    "cursor",
+    "3d",
+    "progress",
+    "scroll-effect",
+    "hero"
+  ],
+  "variants": {
+    "navbar": [
+      "dock"
+    ]
+  },
+  "keywords": [
+    "animated component",
+    "text animation",
+    "animated background",
+    "grid pattern",
+    "dot pattern",
+    "marquee",
+    "bento grid",
+    "dock",
+    "globe",
+    "shimmer button",
+    "border beam",
+    "confetti",
+    "particle",
+    "device mockup",
+    "number ticker",
+    "typing animation",
+    "theme toggle",
+    "landing page",
+    "copy paste component",
+    "shadcn",
+    "react",
+    "typescript",
+    "tailwind",
+    "framer motion",
+    "mcp server",
+    "open source"
+  ],
+  "contains": [
+    "150+ free and open-source animated components and effects",
+    "groups: text animations, backgrounds, buttons, device mocks, special effects, community components",
+    "a shadcn registry (250 items)",
+    "an MCP server that gives AI IDEs the components",
+    "Magic UI Pro: 50+ paid blocks and templates (SaaS, startup, mobile, AI agent, dev tool)",
+    "showcase of sites built with it"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://magicui.design/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

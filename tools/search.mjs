@@ -9,7 +9,7 @@ import { TAXONOMY, elementsIn, variantsIn, tok as tokAscii } from "./tag.mjs";
 export const INDEX_FILE = FILE.catalog.replace(/catalog\.json$/, "search-index.json");
 /** Fingerprint of the catalog entries an index was built from: content, not file times (a checkout or clone resets those). */
 export const catalogFingerprint = (entries) => createHash("sha1").update(JSON.stringify(entries)).digest("hex").slice(0, 16);
-export const INDEX_SCHEMA = 4; // 3: item records carry `auto`, prior() reads it · 4: packed on disk (packIndex / unpackIndex)
+export const INDEX_SCHEMA = 5; // 3: item records carry `auto`, prior() reads it · 4: packed on disk (packIndex / unpackIndex) · 5: keywords field (Phase 2B)
 
 // ---------------------------------------------------------------- tokens
 
@@ -46,8 +46,14 @@ const STOP = new Set(
 // ---------------------------------------------------------------- index
 
 // Field ids and their BM25F weights. `matched` names the field a query word hit.
-export const FIELDS = ["name", "element", "variant", "description", "labels", "about", "category", "domain"];
-const W = { name: 3, element: 3, variant: 2, description: 2, labels: 2, about: 1, category: 1, domain: 1 };
+// Phase 2B record fields: `keywords` holds a record's keywords, stack, formats and pricing; `contains` its content facts
+// (the about field's weight). Entries without a record leave both empty.
+export const FIELDS = ["name", "element", "variant", "description", "labels", "about", "category", "domain", "keywords", "contains"];
+const W = { name: 3, element: 3, variant: 2, description: 2, labels: 2, about: 1, category: 1, domain: 1, keywords: 3, contains: 1 };
+// Fields of a record-backed entry that do not count towards its length: its keywords and content facts are dense lists and
+// its description is written to be complete, not a longer page. Counted, an entry with a record loses to the same entry
+// without one (navbar-gallery 17.7 → 14.3 on "navbar", magicui 35.7 → 30.0 on "magic ui components").
+const UNCOUNTED = new Set(["keywords", "contains", "about"]);
 const ITEM_DESC_WEIGHT = 1; // item descriptions are long and generic: they count less than an entry's one-liner
 
 const K1 = 1.2;
@@ -57,26 +63,38 @@ const elTerm = (id) => `el:${id}`;
 const vaTerm = (el, v) => `va:${el}/${v}`;
 const catTerm = (id) => `cat:${id}`;
 
-/** Entries carry elements too ("Navbar Gallery" → navbar), from their description and name — never from a glued brand name (HeroUI). */
-function entryElements(e) {
-  const nameRe = new RegExp(e.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
-  const text = [e.name.toLowerCase(), (e.desc || "").replace(nameRe, " ")].join(" | ");
-  return [...new Set(elementsIn(text, { field: "title" }).map((h) => h.el))];
-}
+/** An entry whose content comes from a Phase 2B record (tools/build.mjs applyRecord), not from its source hints. */
+export const hasRecord = (e) => e.metadata === "ok" || e.metadata === "partial" || e.metadata === "login-required";
 
+/**
+ * Entry elements are computed by the build (catalog.json `elements`: a record's, or provisional ones from the source
+ * hints — tools/metadata.mjs hintElements). All of them filter (`element`); the weak hint ones (`elements_weak`, named
+ * only in labels / about / note) are not ranked: indexed even at the about field's weight they lift true but
+ * unexpected hits over the eval's answers (brief 18 report). An entry with a record indexes its summary (description
+ * field), description (about), keywords, contains, type and kinds, and no longer its X labels (they were hints for the
+ * extractor); an entry without one indexes exactly its source fields.
+ */
 function entryFields(e) {
   const cats = e.categories.map((id) => TAXONOMY.categories.find((c) => c.id === id)).filter(Boolean);
-  const els = entryElements(e);
+  const els = e.elements || [];
+  const weak = new Set(e.elements_weak || []);
+  const rec = hasRecord(e);
+  const type = rec && e.type ? TAXONOMY.types.find((t) => t.id === e.type) : null;
+  const about = e.about && e.about !== e.desc ? e.about : "";
   return {
     elements: els,
     fields: {
       name: [...tokens(e.name), ...split(e.name).filter((w) => w.length > 2)].concat(e.name.includes(" ") ? [] : [e.name.toLowerCase()]),
-      element: els.map(elTerm),
+      element: els.filter((el) => !weak.has(el)).map(elTerm),
+      variant: rec ? Object.entries(e.variants || {}).flatMap(([el, vs]) => vs.map((v) => vaTerm(el, v))) : [],
       description: tokens(e.desc),
-      labels: tokens((e.labels || []).join(" ")),
-      about: tokens(e.about && e.about !== e.desc ? e.about : ""),
-      category: [...cats.flatMap((c) => tokens(c.label)), ...e.categories.map(catTerm)],
+      labels: rec ? [] : tokens((e.labels || []).join(" ")),
+      about: tokens(about),
+      category: [...cats.flatMap((c) => tokens(c.label)), ...e.categories.map(catTerm), ...(type ? tokens(type.label) : [])],
       domain: tokens(e.domain.replace(/^www\./, "")),
+      // a word in many keyword phrases counts each time ("navbar" in ten phrases: the entry is about navbars), as labels did
+      contains: rec ? tokens((e.contains || []).join(" \n ")) : [],
+      keywords: rec ? tokens([...(e.keywords || []), ...(e.stack || []), ...(e.formats || []), ...(/^free/.test(e.pricing || "") ? [e.pricing] : [])].join(" \n ")) : [],
     },
   };
 }
@@ -120,13 +138,14 @@ export function buildIndex(entries, items) {
   entries.forEach((e) => {
     const { elements, fields } = entryFields(e);
     entryEls.push(elements);
-    docs.push({ kind: 0, fields });
+    docs.push({ kind: 0, fields, rec: hasRecord(e) });
   });
   for (const i of items) docs.push({ kind: 1, fields: itemFields(i, byId.get(i.parent)) });
   const postings = new Map();
   // An item's description does not count towards its length: a documented component should not lose to an undocumented one.
-  const docLen = ({ kind, fields }) =>
-    Object.entries(fields).reduce((n, [f, toks]) => n + (f === "description" && kind === 1 ? 0 : toks.length * W[f]), 0);
+  // Nor do a record-backed entry's keywords, contains and description (UNCOUNTED).
+  const docLen = ({ kind, fields, rec }) =>
+    Object.entries(fields).reduce((n, [f, toks]) => n + ((f === "description" && kind === 1) || (rec && UNCOUNTED.has(f)) ? 0 : toks.length * W[f]), 0);
   const lens = docs.map(docLen);
   const avgLen = [0, 1].map((k) => {
     const l = lens.filter((_, d) => docs[d].kind === k);
