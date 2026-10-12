@@ -1,0 +1,146 @@
+{
+  "id": "shadcnstore-com",
+  "url": "https://shadcnstore.com",
+  "kind": "site",
+  "hints_hash": "dfdb7a61a4d4f242",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcnstore.com/llms.txt",
+      "title": "ShadcnStore",
+      "status": null
+    },
+    {
+      "url": "https://shadcnstore.com",
+      "title": "269 Shadcn UI Blocks & Templates for React | ShadcnStore",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstore.com/docs",
+      "title": "ShadcnStore",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstore.com/blocks",
+      "title": "Shadcn UI Blocks for React & Next.js | ShadcnStore",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstore.com/pricing",
+      "title": "ShadcnStore Pricing — Blocks, Templates & Figma Kit Plans",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstore.com/faq",
+      "title": "ShadcnStore FAQ — Licensing, Billing & Support Questions",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ShadcnStore",
+  "summary": "Marketplace of 269 shadcn/ui blocks across 39 sections, with premium Next.js templates and a Figma kit installable via the shadcn CLI.",
+  "description": "Production-ready shadcn/ui blocks, components and premium templates for React apps. Blocks cover marketing (navbar, hero, features, testimonials, FAQ, pricing, team, footer, CTA, stats, logo cloud, bento grid, contact, banners), e-commerce (storefront hero, product lists, carts, checkout, reviews, order history, filters) and application (app shells, charts, datatables, widgets, auth forms, calendars, error pages). Install with the shadcn CLI from the ShadcnStore registry; every section has at least one free block, and pro unlocks the rest plus the Figma kit.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "features",
+    "testimonials",
+    "faq",
+    "pricing",
+    "team",
+    "footer",
+    "cta",
+    "stats",
+    "logo-cloud",
+    "bento-grid",
+    "contact",
+    "banner",
+    "card",
+    "list",
+    "table",
+    "chart",
+    "calendar",
+    "dashboard",
+    "404",
+    "form"
+  ],
+  "keywords": [
+    "shadcn block",
+    "ui block",
+    "page section",
+    "landing page block",
+    "hero section",
+    "pricing table",
+    "testimonials",
+    "faq section",
+    "navbar",
+    "footer",
+    "cta",
+    "bento grid",
+    "logo cloud",
+    "ecommerce block",
+    "storefront hero",
+    "checkout form",
+    "dashboard block",
+    "data table",
+    "chart",
+    "calendar",
+    "nextjs template",
+    "figma kit",
+    "shadcn registry",
+    "shadcn cli",
+    "react",
+    "tailwind",
+    "dark mode",
+    "free block"
+  ],
+  "contains": [
+    "269 shadcn/ui blocks across 39 sections; 55 free and 214 premium",
+    "274 shadcn registry items; install with npx shadcn@latest add @shadcnstore/...",
+    "marketing groups: navbar 5, hero 14, features 12, testimonials 10, FAQ 5, pricing 8, team 9, footer 7, CTA 13",
+    "more marketing groups: stats 8, logo cloud 5, bento grid 12, contact 6, banner 5, listings 6, waitlist 4",
+    "e-commerce groups: storefront hero 13, product overview 7, carts 5, category filters 5, checkout, reviews",
+    "application groups: app shells, charts, datatables, widgets, auth screens, calendars, error pages",
+    "premium Next.js templates and a Figma kit (pro and above); 10+ new blocks every month",
+    "built with React, Tailwind CSS v4, shadcn/ui on Base UI and lucide-react; works in Next.js, Vite, Remix and Astro"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "cli",
+    "templates",
+    "figma-file",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "base-ui",
+    "lucide-react",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://shadcnstore.com/docs",
+    "npm": null,
+    "figma": "https://shadcnstore.com/figma",
+    "parent": null
+  },
+  "confidence": 0.9
+}

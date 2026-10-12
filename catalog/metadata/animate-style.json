@@ -1,0 +1,30 @@
+{
+  "id": "animate-style",
+  "url": "https://animate.style",
+  "kind": "site",
+  "hints_hash": "be893ccfeea1917f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://animate.style", "title": "Animate.css | A cross-browser library of CSS animations.", "status": null},
+    {"url": "https://animate.style", "title": "Animate.css | A cross-browser library of CSS animations.", "status": 200},
+    {"url": "https://github.com/animate-css/animate.css", "title": "GitHub - animate-css/animate.css: A cross-browser library of CSS animations.", "status": 200},
+    {"url": "https://github.com/animate-css/animate.css/blob/main/LICENSE", "title": "animate.css/LICENSE at main - GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Animate.css",
+  "summary": "CSS library of ready-to-use animation classes: attention seekers, entrances, exits and more.",
+  "description": "A cross-browser CSS animation library applied with classes like animate__animated and animate__fadeInUp. Animations are grouped into attention seekers, back/bouncing/fading/sliding/zooming/rotating entrances and exits, flippers, lightspeed and specials, with docs for installation, delay/speed/repeat utility classes, CSS custom properties, custom builds and accessibility.",
+  "type": "component-library",
+  "categories": ["motion"],
+  "elements": [],
+  "keywords": ["css animation", "animation library", "css library", "entrance animation", "exit animation", "attention seeker", "fade in", "bounce animation", "rotate animation", "keyframe animation", "utility class", "frontend", "npm package"],
+  "contains": ["animation classes grouped into attention seekers, entrances, exits, flippers, lightspeed, specials and more", "install via npm, Yarn or CDN and apply with animate__ utility classes", "delay, speed and repeat classes plus CSS custom properties for duration and delay", "documentation: custom builds, JavaScript usage, best practices, accessibility"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["css", "postcss"],
+  "pricing": "free",
+  "license": "Hippocratic-2.1",
+  "related": {"repo": "https://github.com/animate-css/animate.css", "docs": "https://animate.style", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

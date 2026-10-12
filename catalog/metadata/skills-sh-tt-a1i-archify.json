@@ -1,0 +1,86 @@
+{
+  "id": "skills-sh-tt-a1i-archify",
+  "url": "https://skills.sh/tt-a1i/archify",
+  "kind": "page",
+  "hints_hash": "fc1c2cac434b08b0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/tt-a1i/archify",
+      "title": "tt-a1i/archify — Agent skills",
+      "status": null
+    },
+    {
+      "url": "https://skills.sh/tt-a1i/archify/archify",
+      "title": "archify — tt-a1i/archify",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify",
+      "title": "GitHub - tt-a1i/archify: Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Archify",
+  "summary": "Agent skill that turns ideas, plans or codebases into interactive HTML diagrams: architecture, workflow, sequence, data flow, lifecycle.",
+  "description": "A coding-agent skill for Claude Code, Codex, Cursor and OpenCode. It reads a description or a repository and produces a standalone, explorable HTML diagram with inline SVG and dark/light themes, validating its typed JSON source. Five diagram types plus an Architecture Delta comparison for design and PR review; output exports as PNG and route/reach share cards.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "claude code",
+    "codex",
+    "cursor",
+    "opencode",
+    "architecture diagram",
+    "sequence diagram",
+    "workflow diagram",
+    "flowchart",
+    "data flow diagram",
+    "state diagram",
+    "system design",
+    "diagrams as code",
+    "interactive html",
+    "inline svg",
+    "dark mode",
+    "repo visualization",
+    "documentation"
+  ],
+  "contains": [
+    "five diagram types: architecture, workflow, sequence, data flow, lifecycle",
+    "output: standalone interactive HTML with inline SVG and dark/light themes",
+    "reads a repository to build a source-backed system map",
+    "architecture delta comparison for design and PR review",
+    "exports: PNG clipboard images and route/reach share cards",
+    "works with Cursor, Claude Code, Codex CLI and OpenCode",
+    "free and open source (MIT)"
+  ],
+  "formats": [
+    "prompts",
+    "cli",
+    "code"
+  ],
+  "stack": [
+    "node"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/tt-a1i/archify",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.9
+}

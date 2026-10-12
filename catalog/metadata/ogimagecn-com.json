@@ -1,0 +1,33 @@
+{
+  "id": "ogimagecn-com",
+  "url": "https://ogimagecn.com",
+  "kind": "site",
+  "hints_hash": "e91396f8bd9e42c4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ogimagecn.com/llms.txt", "title": "ogimagecn", "status": null},
+    {"url": "https://ogimagecn.com", "title": "ogimagecn - Beautiful OG images, made simple", "status": null},
+    {"url": "https://www.ogimagecn.com/docs.md", "title": "Introduction", "status": null},
+    {"url": "https://www.ogimagecn.com/docs", "title": "Introduction | ogimagecn", "status": null},
+    {"url": "https://www.ogimagecn.com/docs/mcp.md", "title": "MCP", "status": null},
+    {"url": "https://www.ogimagecn.com/docs/registry.md", "title": "Registry", "status": null},
+    {"url": "https://github.com/shadcn-labs/ogimagecn", "title": "GitHub - shadcn-labs/ogimagecn: Beautiful Open Graph image components, built on Satori", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ogimagecn",
+  "summary": "shadcn registry of copy-paste React components for Open Graph images, built on Satori.",
+  "description": "Copy-paste Open Graph image components for React, built on Satori and distributed through the shadcn CLI. Install a block into an ImageResponse and get a social card; every component is a single self-contained TypeScript file you own, previewable live in the browser. Sets cover brand, content, product and shadcn-registry cards, with a playground customizer, PNG download and a platform scan.",
+  "type": "registry",
+  "categories": ["registries", "components"],
+  "elements": ["stats", "avatar", "badge"],
+  "keywords": ["open graph image", "og image", "social card", "twitter card", "meta image", "satori", "shadcn registry", "react", "next.js", "image response", "copy paste component", "typescript", "png"],
+  "contains": ["22 registry items installed with the shadcn CLI", "blocks for brand, content, product and shadcn-registry cards", "base components: avatar, badge, brand mark, divider, grid lines, waveform", "zero dependencies; each component is a single TypeScript file", "playground customizer with PNG download and a platform scan", "MIT licensed (271 stars)"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "nextjs", "satori", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcn-labs/ogimagecn", "docs": "https://ogimagecn.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,31 @@
+{
+  "id": "blush-design",
+  "url": "https://blush.design",
+  "kind": "site",
+  "hints_hash": "85f2b7a3cd54aba5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "commandcode/deepseek/deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://blush.design", "title": "Blush: Illustrations for everyone", "status": null},
+    {"url": "https://blush.design/collections", "title": "All Collections on Blush", "status": null},
+    {"url": "https://blush.design/plans", "title": "Pricing and Plans | Blush", "status": null},
+    {"url": "https://blush.design/about", "title": "About Blush | Illustrations for everyone", "status": null},
+    {"url": "https://blush.design/license", "title": "License | Blush", "status": null}
+  ],
+  "status": "ok",
+  "name": "Blush",
+  "summary": "Library of customizable illustrations by artists worldwide, free to use in personal and commercial projects.",
+  "description": "Illustration collections made by artists across the globe — characters, scenes, stickers, patterns and avatars (Humaaans, Open Peeps, Transhumans …). Every artwork can be recoloured and re-mixed in the browser, then downloaded as PNG, or SVG on paid plans. Also works through Figma and Sketch plugins.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["illustration", "illustration library", "vector illustration", "character illustration", "doodle", "svg", "png", "figma plugin", "sketch plugin", "free illustration", "commercial use", "design asset", "avatar", "sticker"],
+  "contains": ["illustration collections by artists worldwide", "mix-and-match parts: colours, characters, scenes", "download PNG; SVG with a paid plan", "Figma and Sketch plugins", "free for personal and commercial use, no attribution, no resale or merchandising", "free plan plus paid plans and team plans"],
+  "formats": ["png", "svg"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

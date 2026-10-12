@@ -1,0 +1,27 @@
+{
+  "id": "marketplace-visualstudio-com-items-itemname-veroxyle-shadcn-ui-snippets",
+  "url": "https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets",
+  "kind": "page",
+  "hints_hash": "23a6ef00f1c7483d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets", "title": "shadcn/ui snippets - Visual Studio Marketplace", "status": null}
+  ],
+  "status": "ok",
+  "name": "shadcn/ui snippets",
+  "summary": "Deprecated VS Code snippet extension for importing and using shadcn-ui components in JSX/TSX files.",
+  "description": "Type cn or shadcn in a jsx/tsx file and choose from snippets: cni-[component] adds imports, cnx-[component] adds JSX, cnp-[component] adds page-level components. The listing is marked deprecated in favor of the shadcn/next extension (nrjdalal.shadcn-ui-next); calendar, combobox, data table, date picker and toast were still to be added.",
+  "type": "plugin",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["vscode", "snippet", "shadcn", "jsx", "tsx", "react", "import", "component", "deprecated", "editor extension"],
+  "contains": ["9,049 installs, free", "deprecated in favor of nrjdalal.shadcn-ui-next", "snippets: cn-help, cni-[component], cnx-[component], cnp-[component]", "snippets generated from markdown component files", "calendar, combobox, data table, date picker and toast not yet covered"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

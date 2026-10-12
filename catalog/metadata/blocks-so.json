@@ -1,0 +1,32 @@
+{
+ "id": "blocks-so",
+ "url": "https://blocks.so",
+ "kind": "site",
+ "hints_hash": "2e94b061990db210",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://blocks.so", "title": "Shadcn Blocks - 60+ Free shadcn/ui Components for React", "status": null},
+  {"url": "https://blocks.so/stats", "title": "Shadcn Stats Components - 15 Free Examples | blocks.so", "status": 200},
+  {"url": "https://blocks.so/ai", "title": "Shadcn AI Components Components - 5 Free Examples | blocks.so", "status": 200},
+  {"url": "https://blocks.so/onboarding", "title": "Shadcn Onboarding Components - 7 Free Examples | blocks.so", "status": 200},
+  {"url": "https://blocks.so/stats/stats-01", "title": "Stats with Trending - Free Shadcn Stats Example | blocks.so", "status": 200},
+  {"url": "https://github.com/ephraimduncan/blocks", "title": "GitHub - ephraimduncan/blocks: An open-source library of UI blocks. Built with React, Tailwind and shadcn/ui", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Shadcn Blocks",
+ "summary": "Free copy-paste shadcn/ui blocks for React — from stats and dialogs to AI chat and onboarding.",
+ "description": "60+ free UI blocks built with shadcn/ui, React, Tailwind CSS and Next.js, organized by category: AI chat, AI components, command menu, dashboard, dialogs, file upload, form layout, grid list, login & signup, onboarding, sidebar, stats and tables. Each block can be copied or installed with the shadcn CLI from the blocks registry.",
+ "type": "block-library",
+ "categories": ["components", "registries"],
+ "elements": ["chat", "command-palette", "dashboard", "file-upload", "form", "list", "modal", "prompt-input", "sidebar", "stats", "stepper", "table"],
+ "keywords": ["shadcn", "block", "react", "tailwind", "component", "stats", "dialog", "sidebar", "table", "onboarding", "login", "signup", "ai chat", "command menu", "file upload", "shadcn registry", "copy paste"],
+ "contains": ["60+ blocks across 13 categories", "82 shadcn registry items", "stats: 15 blocks; dialogs: 12; login & signup: 9; onboarding: 7; file upload: 6", "copy-paste code or add via the shadcn CLI", "MIT licensed and open source"],
+ "formats": ["code", "registry", "cli"],
+ "stack": ["react", "tailwind", "nextjs"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/ephraimduncan/blocks", "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

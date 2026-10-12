@@ -1,0 +1,98 @@
+{
+  "id": "github-com-yonom-assistant-ui",
+  "url": "https://github.com/Yonom/assistant-ui",
+  "kind": "repo",
+  "hints_hash": "2832d2d5c3617a88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Yonom/assistant-ui/blob/HEAD/README.md",
+      "title": "assistant-ui README",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Yonom/assistant-ui",
+      "title": "GitHub - assistant-ui/assistant-ui: Typescript/React Library for AI Chat",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/assistant-ui/assistant-ui/HEAD/README.md",
+      "title": "assistant-ui README",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "assistant-ui",
+  "summary": "Open-source TypeScript/React library of composable primitives for building AI chat interfaces.",
+  "description": "Primitives such as Thread, Message, Composer, ThreadList and ActionBar let you assemble a chat UI from parts, or start from a shadcn/ui theme that the CLI copies into your project. Runtimes connect to the Vercel AI SDK, LangGraph/LangChain, AG-UI, A2A and custom backends; streaming, attachments, markdown, code highlighting, voice dictation and accessibility are handled for you. Generative UI renders tool calls as React components with inline human approvals. MIT licensed, with an optional paid Assistant Cloud.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "chat",
+    "prompt-input",
+    "ai-agent-ui"
+  ],
+  "keywords": [
+    "ai chat",
+    "chat ui",
+    "chatbot",
+    "llm",
+    "react",
+    "typescript",
+    "chat component",
+    "message thread",
+    "prompt input",
+    "composer",
+    "generative ui",
+    "tool call",
+    "ai agent ui",
+    "streaming",
+    "vercel ai sdk",
+    "langgraph",
+    "shadcn",
+    "tailwind",
+    "copilot",
+    "human in the loop"
+  ],
+  "contains": [
+    "composable chat primitives: Thread, Message, Composer, ThreadList, ActionBar",
+    "runtime adapters for Vercel AI SDK, LangGraph/LangChain, AG-UI, A2A, Google ADK and custom data streams",
+    "streaming, auto-scroll, retries, attachments, markdown, code highlighting, voice dictation, keyboard shortcuts",
+    "generative UI: tool calls and JSON rendered as React components with inline human approvals",
+    "CLI scaffolds a Next.js app or adds styled components to an existing project",
+    "MIT license; optional Assistant Cloud for thread persistence and analytics",
+    "12.5k GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "radix"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/assistant-ui/assistant-ui",
+    "docs": "https://www.assistant-ui.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

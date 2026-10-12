@@ -1,0 +1,37 @@
+{
+  "id": "shadcn-tanstack-form-felipestanzani-com",
+  "url": "https://shadcn-tanstack-form.felipestanzani.com",
+  "kind": "site",
+  "hints_hash": "7def2ae89b4c65e6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn-tanstack-form.felipestanzani.com", "title": "shadcn/ui + TanStack Form - Type-Safe React Forms", "status": 200},
+    {"url": "https://raw.githubusercontent.com/felipestanzani/shadcn-tanstack-form/master/README.md", "title": "shadcn/ui + TanStack Form", "status": 200},
+    {"url": "https://raw.githubusercontent.com/felipestanzani/shadcn-tanstack-form/master/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn/ui + TanStack Form",
+  "summary": "shadcn/ui form components wired to TanStack Form for type-safe React forms with schema validation and accessible styling.",
+  "description": "A component set that pairs the shadcn/ui Form components with TanStack Form, keeping Field-level type safety and adding schema validation through Zod V4 (the site also lists Valibot and ArkType). It ships type-safe field wrappers, TanStack's form state management, responsive and accessible form layouts, a migration guide to 1.0.0 and a component test suite. Add the shadcn/ui pieces it wraps (field, button, input, label, checkbox, textarea) with the shadcn CLI; distributed as a shadcn registry item from felipestanzani/shadcn-tanstack-form.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["form", "input", "checkbox", "button"],
+  "keywords": ["form", "react form", "tanstack form", "type-safe", "typescript", "form validation", "schema validation", "zod", "valibot", "arktype", "field component", "shadcn", "tailwind", "accessible form", "controlled input"],
+  "contains": [
+    "shadcn/ui Form + TanStack Form integration (v1.0.0)",
+    "type-safe fields with full TypeScript inference",
+    "schema validation with Zod V4; Valibot and ArkType listed on the site",
+    "add wrapped shadcn/ui pieces with the shadcn CLI: field, button, input, label, checkbox, textarea",
+    "1 registry item",
+    "component test suite; accessible, responsive form layouts",
+    "MIT licensed"
+  ],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "tailwind", "shadcn", "tanstack-form", "zod", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/felipestanzani/shadcn-tanstack-form", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

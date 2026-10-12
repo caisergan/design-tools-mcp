@@ -1,0 +1,62 @@
+{
+  "id": "skills-sh-vercel-labs-agent-skills-web-design-guidelines",
+  "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+  "kind": "page",
+  "hints_hash": "6b5ecaff5e994866",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+      "title": "web-design-guidelines — vercel-labs/agent-skills",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Web Interface Guidelines",
+  "summary": "Agent skill that audits UI code against Vercel's Web Interface Guidelines and reports terse file:line findings.",
+  "description": "A SKILL.md package that reviews files for compliance with the Web Interface Guidelines. Before each review it fetches the latest guidelines from a source URL, reads the given files or patterns, checks them against every rule and outputs findings in a terse file:line format, covering design, accessibility and UX best practices.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": [
+    "web design guideline",
+    "interface guideline",
+    "ui review",
+    "design audit",
+    "accessibility audit",
+    "a11y",
+    "ux review",
+    "code review",
+    "frontend review",
+    "agent skill",
+    "web interface"
+  ],
+  "contains": [
+    "audits UI code against the Web Interface Guidelines",
+    "fetches fresh guidelines before each review",
+    "accepts file paths or glob patterns as arguments",
+    "outputs findings in file:line format",
+    "covers design, accessibility and UX rules",
+    "721.3K installs; repo vercel-labs/agent-skills with 32.2K stars"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/vercel-labs/agent-skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.9
+}

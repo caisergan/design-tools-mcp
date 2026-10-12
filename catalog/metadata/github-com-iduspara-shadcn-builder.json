@@ -1,0 +1,38 @@
+{
+  "id": "github-com-iduspara-shadcn-builder",
+  "url": "https://github.com/iduspara/shadcn-builder",
+  "kind": "repo",
+  "hints_hash": "22a7a87b84a75b80",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/iduspara/shadcn-builder/blob/HEAD/README.md", "title": "Shadcn Builder", "status": 200},
+    {"url": "https://github.com/iduspara/shadcn-builder", "title": "GitHub - iduspara/shadcn-builder · GitHub", "status": 200},
+    {"url": "https://shadcn-builder-igor-dusparas-projects.vercel.app", "title": "Shadcn Builder - Create Beautiful Forms", "status": 200},
+    {"url": "https://shadcn-builder-igor-dusparas-projects.vercel.app/components", "title": "Shadcn Builder - Create Beautiful Forms", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Builder",
+  "summary": "No-code form builder for shadcn/ui: drag-and-drop fields, live preview and export of React + Tailwind CSS form code.",
+  "description": "A browser-based no-code form builder for the shadcn/ui component library. Drag 20 form components — text, text area, number, email, password, file upload, telephone, URL, credit card, select, checkbox, radio group, date picker, switch and buttons — into a form, customise with a live preview and export clean typed React + Tailwind CSS code. Over 100 pre-built form templates. Built with React, TypeScript, Tailwind CSS and shadcn/ui.",
+  "type": "tool",
+  "categories": ["design-tools", "dev-ai-tools"],
+  "elements": ["form", "input", "select", "checkbox", "switch", "date-picker", "file-upload", "button"],
+  "keywords": ["form builder", "no-code", "drag and drop", "shadcn", "shadcn ui", "react form", "form", "tailwind css", "code export", "typescript", "live preview", "form template", "ui builder", "developer tool"],
+  "contains": [
+    "20 components (19 form + 1 content) per the components page",
+    "drag-and-drop, live preview, exported React + Tailwind CSS code",
+    "100+ pre-built form templates",
+    "field types: text, textarea, number, email, password, file upload, telephone, URL, credit card",
+    "inputs: select, native select, checkbox, checkbox group, radio group, date picker, switch, submit and reset buttons",
+    "tech stack: React, TypeScript, Tailwind CSS, shadcn/ui",
+    "MIT licensed; 607 GitHub stars, 85 forks"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/iduspara/shadcn-builder", "docs": "https://shadcn-builder-igor-dusparas-projects.vercel.app", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

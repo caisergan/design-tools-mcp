@@ -1,0 +1,77 @@
+{
+  "id": "dialectcn-xyz",
+  "url": "https://dialectcn.xyz",
+  "kind": "site",
+  "hints_hash": "ca0423e7c4278c71",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:49:25Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dialectcn.xyz",
+      "title": "dialectcn — Curated shadcn presets",
+      "status": null
+    },
+    {
+      "url": "https://dialectcn.xyz/feed",
+      "title": "dialectcn — Curated shadcn presets",
+      "status": 200
+    },
+    {
+      "url": "https://dialectcn.xyz/feed/b6sUj34d9",
+      "title": "Verdana — dialectcn · dialectcn",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "dialectcn",
+  "summary": "Feed of shadcn presets — brand-inspired, community-submitted and random — previewed on live UI blocks.",
+  "description": "A catalog of shadcn presets: each preset pairs a color palette with a typography pairing (for example Public Sans with Roboto Slab) and is previewed on a demo interface of shadcn/ui blocks, charts, tables, forms and settings. Browse the feed, submit your own preset, then copy the code to ship the UI.",
+  "type": "gallery",
+  "categories": [
+    "color-effects",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "shadcn",
+    "shadcn preset",
+    "preset",
+    "theme",
+    "color palette",
+    "typography",
+    "font pairing",
+    "css variable",
+    "brand color",
+    "shadcn ui",
+    "feed"
+  ],
+  "contains": [
+    "presets: brand-inspired, community-submitted, randomly generated",
+    "each preset pairs a palette with fonts (e.g. Public Sans · Roboto Slab)",
+    "presets previewed on a demo UI of shadcn blocks, charts, tables and forms",
+    "copy the code to use a preset",
+    "feed with likes and submissions",
+    "82 urls in its sitemap"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "shadcn"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mobirise-com",
+  "url": "https://mobirise.com",
+  "kind": "site",
+  "hints_hash": "80015c903ca3f29b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobirise.com", "title": "Free Website Builder Software with AI", "status": null},
+    {"url": "https://mobirise.com/about", "title": "Mobirise Website Builder - About Us", "status": null}
+  ],
+  "status": "ok",
+  "name": "Mobirise",
+  "summary": "Free desktop website builder with drag-and-drop blocks and AI page generation.",
+  "description": "Downloadable Windows and Mac app that builds websites from pre-made blocks: drag blocks onto a page, edit text and media inline, then publish to Mobirise hosting or a custom domain. Includes AI website generation, Bootstrap themes, forms, galleries, sliders, popup, chat and shop extensions and a code editor.",
+  "type": "app",
+  "categories": ["design-tools", "templates"],
+  "elements": ["navbar", "form", "carousel", "modal"],
+  "keywords": ["website builder", "no-code", "drag and drop", "bootstrap", "ai website generator", "website template", "landing page builder", "desktop app", "wysiwyg", "block based website", "static site builder"],
+  "contains": ["free website builder app for Windows and Mac", "AI website generation from a text prompt", "10,000+ website blocks in free and premium themes", "100+ Bootstrap and AMP themes and extensions", "extensions: forms, popup, chat, shopping cart, code editor", "free for personal and commercial use"],
+  "formats": ["app", "code", "templates"],
+  "stack": ["bootstrap", "electron"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,87 @@
+{
+  "id": "userinterface-wiki",
+  "url": "https://userinterface.wiki",
+  "kind": "site",
+  "hints_hash": "f790c096a17cf3a2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://userinterface.wiki",
+      "title": "userinterface.wiki",
+      "status": null
+    },
+    {
+      "url": "https://www.userinterface.wiki/demo",
+      "title": "Demos — userinterface.wiki",
+      "status": 200
+    },
+    {
+      "url": "https://www.userinterface.wiki/skill",
+      "title": "Skill",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/raphaelsalaja/userinterface-wiki",
+      "title": "GitHub - raphaelsalaja/userinterface-wiki: A Living Manual for Better Interfaces",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "userinterface.wiki",
+  "summary": "Interactive demos of UI, motion and UX principles, plus a 152-rule skill for AI coding agents.",
+  "description": "A living manual for better interfaces. The demos collect interactive examples — the 12 principles of animation, animating container bounds, laws of UX (Doherty, Fitts, Hick, Miller, Postel), morphing icons, sounds on the web, pseudo elements and springs. The rules behind them are also distilled into a 152-rule agent skill that installs into Claude Code, Codex, Cursor and other coding agents.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules",
+    "learning",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "ui pattern",
+    "design principle",
+    "animation principle",
+    "motion design",
+    "interactive demo",
+    "agent skill",
+    "design rule",
+    "laws of ux",
+    "typography",
+    "spring animation",
+    "morphing icon",
+    "sound design",
+    "css",
+    "claude code skill"
+  ],
+  "contains": [
+    "interactive demos: 12 principles of animation, container bounds, laws of UX, morphing icons, sounds on the web, springs",
+    "152 rules packaged as an agent skill",
+    "skill installs into Claude Code, Codex and Cursor",
+    "open-source repository under the MIT license"
+  ],
+  "formats": [
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "mdx"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/raphaelsalaja/userinterface-wiki",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

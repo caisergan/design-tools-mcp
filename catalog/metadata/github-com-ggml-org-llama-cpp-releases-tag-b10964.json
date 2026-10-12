@@ -1,0 +1,57 @@
+{
+  "id": "github-com-ggml-org-llama-cpp-releases-tag-b10964",
+  "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10964",
+  "kind": "page",
+  "hints_hash": "8260be982faf7190",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10964",
+      "title": "Release b10964 · ggml-org/llama.cpp · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Release b10964 · ggml-org/llama.cpp",
+  "summary": "llama.cpp build release b10964: version bump to 0.4.1, 29 prebuilt binaries (macOS, iOS, Linux, Android, Windows, openEuler).",
+  "description": "Automated llama.cpp build release, marked pre-release: commit b29c606 'llama.cpp : bump version to 0.4.1 (#28900)', published 14 Sep 15:28 by github-actions. 29 assets: macOS arm64 (KleidiAI variant disabled), macOS Intel and iOS XCFramework; Linux CPU, Vulkan, ROCm 10.0, OpenVINO, SYCL FP32/FP16 and s390x; Android arm64; Windows CPU, OpenCL Adreno, CUDA 12/13, Vulkan, OpenVINO, SYCL and ROCm 10.0; openEuler 310p/910b; plus the UI.",
+  "keywords": [
+    "llama.cpp",
+    "release",
+    "pre-release",
+    "prebuilt binary",
+    "macos",
+    "ios",
+    "linux",
+    "window",
+    "android",
+    "openeuler",
+    "cuda",
+    "vulkan",
+    "rocm",
+    "openvino",
+    "sycl",
+    "llm inference",
+    "build artifact"
+  ],
+  "contains": [
+    "29 assets",
+    "commit b29c606 'llama.cpp : bump version to 0.4.1 (#28900)', signed by GitHub",
+    "marked pre-release, released 14 Sep 15:28 by github-actions",
+    "macOS/iOS, Linux, Android, Windows and openEuler build matrix plus the UI"
+  ],
+  "related": {
+    "repo": "https://github.com/ggml-org/llama.cpp",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,26 @@
+{
+  "id": "canvasui-dev-docs",
+  "url": "https://canvasui.dev/docs",
+  "kind": "page",
+  "hints_hash": "d8a18910f62f6053",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://canvasui.dev/docs", "title": "Introduction | Canvas UI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Introduction | Canvas UI",
+  "summary": "Docs introduction to Canvas UI, an open source library of canvas effects components with WebGL and WebGPU builds.",
+  "description": "Canvas UI renders real HTML inside a canvas element with GPU effects (WebGL or WebGPU) running over it, so the content underneath stays interactive. Every component ships in six flavors — React, Solid, Preact, Vue, Svelte and vanilla TypeScript — and is distributed through a shadcn registry that drops the source into your project. Effects include fluid simulations, shaders and other visual experiments.",
+  "type": "component-library",
+  "elements": ["background", "text-effect", "3d"],
+  "keywords": ["canvas effect", "webgl component", "webgpu", "shader effect", "fluid simulation", "ascii effect", "glitch effect", "component library", "react component", "vue component", "svelte component", "solid", "preact", "typescript", "html in canvas", "shadcn registry", "browser support"],
+  "contains": ["420 items in its shadcn registry", "components in six flavors: React, Solid, Preact, Vue, Svelte, vanilla TypeScript", "every effect has WebGL and WebGPU builds with the same public API", "effects render over live HTML via the html-in-canvas API", "named effects include Liquid, Asciify, Glyph Rain, Glass, Glitch, Droplets, Cloth, Frost and Laser"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "vue", "svelte", "solid", "preact", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "canvasui-dev"},
+  "confidence": 0.85
+}

@@ -1,0 +1,67 @@
+{
+  "id": "dafont-com",
+  "url": "https://dafont.com",
+  "kind": "site",
+  "hints_hash": "81dbab67dfd7e327",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:19Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dafont.com",
+      "title": "DaFont - Download fonts",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "DaFont",
+  "summary": "Archive of 101,338 freely downloadable fonts, browsable by theme, new, top chart, author or popularity.",
+  "description": "Font archive where each entry shows a preview, a style category (Script > Calligraphy, Fancy > Old School, Fancy > Retro …), the author, download counts and a licence note such as free for personal use, shareware, demo or public domain. Browse recently added fonts, themes, the top chart or authors; downloads are font files, some paired with a donate option. The site notes that the licence shown is only an indication and to check the readme files in the archives.",
+  "type": "font-foundry",
+  "categories": [
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "free font",
+    "font download",
+    "font archive",
+    "display font",
+    "script font",
+    "calligraphy font",
+    "handwriting font",
+    "fancy font",
+    "retro font",
+    "typography",
+    "personal use font",
+    "freeware font",
+    "font author",
+    "top font"
+  ],
+  "contains": [
+    "101,338 fonts listed",
+    "browse by theme, new fonts, authors, top chart",
+    "per-font downloads counts and licence notes",
+    "style categories such as Script > Calligraphy and Fancy > Retro",
+    "install instructions for Windows and macOS",
+    "interface languages: English, French, Spanish, German, Italian, Portuguese"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,34 @@
+{
+  "id": "github-com-alandsleman-formbuilder",
+  "url": "https://github.com/AlandSleman/FormBuilder",
+  "kind": "repo",
+  "hints_hash": "a623abc42121865f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/AlandSleman/FormBuilder/blob/HEAD/README.md", "title": "Form Builder for @shadcn/ui", "status": null},
+    {"url": "https://github.com/KryptXBSA/FormBuilder", "title": "GitHub - KryptXBSA/FormBuilder: UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms", "status": 200},
+    {"url": "https://formbuilder.kryptxbsa.com", "title": "FormBuilder | Build Type-Safe Forms for Next.js, Vue, and Svelte", "status": 200}
+  ],
+  "status": "ok",
+  "name": "FormBuilder",
+  "summary": "Visual drag-and-drop builder that generates type-safe shadcn/ui form code for Next.js, Vue and Svelte.",
+  "description": "UI-based codegen tool for shadcn/ui forms: build a form in the drag-and-drop visual builder and export fully typed form code for Next.js, Vue or Svelte. Field types include heading, text (input, textarea, password), number (input, slider), boolean (checkbox, switch), enum (select, radio, combobox) and date (date picker).",
+  "type": "generator",
+  "categories": ["design-tools"],
+  "elements": ["form", "input", "slider", "checkbox", "switch", "select", "date-picker"],
+  "keywords": ["form builder", "shadcn ui", "form generator", "type-safe form", "next.js", "vue", "svelte", "drag and drop", "code generator", "react hook form", "form validation", "ui tool"],
+  "contains": [
+    "visual builder for shadcn/ui forms; exports code for Next.js, Vue and Svelte",
+    "field types: heading, text, number, boolean, enum, date",
+    "type-safe output with validation",
+    "MIT licensed; runs locally on port 7017 or online"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["react", "nextjs", "vue", "svelte"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/KryptXBSA/FormBuilder", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

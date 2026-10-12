@@ -1,0 +1,27 @@
+{
+ "id": "meerkat-my",
+ "url": "https://meerkat.my",
+ "kind": "site",
+ "hints_hash": "cae302a4225edd51",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://meerkat.my", "title": "MEERKAT — Token Intelligence", "status": 200}
+ ],
+ "status": "ok",
+ "name": "MEERKAT",
+ "summary": "Web terminal that scores tokens and wallets on Robinhood Chain 0-100 from public on-chain evidence.",
+ "description": "MEERKAT turns public on-chain data into transparent 0-100 token and wallet scores with a stated confidence and explains every point through origin, wallet, relationship, fee-flow and lifecycle evidence. A public terminal runs against a local index - 741,643 indexed events shown for one sample token - and the same open-source stack can be run locally with your own database.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["token score", "wallet score", "on-chain evidence", "blockchain analytics", "token analytics", "wallet analytics", "crypto tool", "evidence trail", "fee flow", "relationship map", "token lifecycle", "web terminal"],
+ "contains": ["0-100 token and wallet scores with confidence level", "five evidence views: origin, wallets, relationships, fee flow, lifecycle", "741,643 indexed events and 29 curve participants for one sample token", "public terminal plus a locally runnable open-source stack", "11-item field log with live, building, next and planned statuses"],
+ "formats": ["app", "code"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.8
+}

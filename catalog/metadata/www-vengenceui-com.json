@@ -1,0 +1,142 @@
+{
+  "id": "www-vengenceui-com",
+  "url": "https://www.vengenceui.com",
+  "kind": "site",
+  "hints_hash": "3da4cf6c32043f7c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.vengenceui.com",
+      "title": "Vengeance UI - Animated React Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.vengenceui.com/docs/install-nextjs",
+      "title": "Install Next.js | Vengeance UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.vengenceui.com/templates",
+      "title": "Templates | Vengeance UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.vengenceui.com/about",
+      "title": "Vengeance UI is built for expressive product interfaces | Vengeance UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.vengenceui.com/blocks",
+      "title": "Blocks for pages that need to ship with motion | Vengeance UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.vengenceui.com/components",
+      "title": "Animated React Components | Vengeance UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.vengenceui.com/components/liquid-text",
+      "title": "Liquid Text | Vengeance UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Ashutoshx7/VengeanceUI",
+      "title": "GitHub - Ashutoshx7/VengeanceUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Vengeance UI",
+  "summary": "Animated React component library for landing pages and marketing sites, distributed as shadcn registry items.",
+  "description": "An animated component library for marketing sites and landing pages: buttons, text and motion effects, interactive pieces, layout and cards, tooltips and marquees, loaders, navbars, collections and backgrounds. Components install as shadcn registry items (npx shadcn@latest add @vengeanceui/[component]); the site also ships an 80+ entry block registry for page sections and portfolio/blog templates.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "button",
+    "input",
+    "select",
+    "switch",
+    "tooltip",
+    "card",
+    "accordion",
+    "bento-grid",
+    "avatar",
+    "carousel",
+    "loader",
+    "background",
+    "text-effect",
+    "marquee",
+    "slider",
+    "calendar",
+    "progress",
+    "stats",
+    "3d"
+  ],
+  "keywords": [
+    "animated component",
+    "landing page component",
+    "react",
+    "next.js",
+    "tailwind css",
+    "shadcn registry",
+    "text effect",
+    "flip text",
+    "liquid text",
+    "glitch text",
+    "hover effect",
+    "animated tooltip",
+    "marquee",
+    "loader",
+    "navbar",
+    "carousel",
+    "background effect",
+    "bento grid",
+    "glass dock",
+    "spotlight navbar",
+    "portfolio template",
+    "blog template",
+    "stats counter"
+  ],
+  "contains": [
+    "132 shadcn registry items",
+    "46 components in 9 families: buttons, text, interactive, layout, marquee, loaders, navbar, collections, backgrounds",
+    "block registry: 80+ entries for hero, CTA, features, FAQ and contact sections",
+    "install: npx shadcn@latest add @vengeanceui/[component]",
+    "2 portfolio templates and 1 blog template with live previews",
+    "backed by the Vercel OSS Program"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "links",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Ashutoshx7/VengeanceUI",
+    "docs": "https://www.vengenceui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

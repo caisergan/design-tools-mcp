@@ -1,0 +1,20 @@
+{
+  "id": "zenn-dev-nori-handa-articles-ai-agent-code-review-end-of-human-review",
+  "url": "https://zenn.dev/nori_handa/articles/ai-agent-code-review-end-of-human-review",
+  "kind": "page",
+  "hints_hash": "b39756f7b3f1fc9f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://zenn.dev/nori_handa/articles/ai-agent-code-review-end-of-human-review", "title": "「人がコードを読まない」時代は本当に来るのか？", "status": null}
+  ],
+  "status": "ok",
+  "name": "「人がコードを読まない」時代は本当に来るのか？",
+  "summary": "Essay on whether humans can stop reading AI-written code, using Anthropic's and Stripe's agent-heavy development as evidence.",
+  "description": "Japanese essay on the claim that people no longer need to read the code AI agents write. It walks through Anthropic's and Stripe's agent-driven workflows (Stripe's Minions handling roughly 1,300 PRs a week), the gradations of 'not reading code', harness engineering as the precondition, verifying spec conformance by running the app and writing tests, the situations that still demand human reading (unwritten specs, review evidence as a deliverable, white-box testing), and ends with the argument that what you read changes rather than whether you read.",
+  "type": "article",
+  "keywords": ["code review", "ai agent", "agentic development", "harness engineering", "code reading", "software quality", "test automation", "white-box testing", "claude code", "development process", "ai pair programming", "specification", "japanese", "essay"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

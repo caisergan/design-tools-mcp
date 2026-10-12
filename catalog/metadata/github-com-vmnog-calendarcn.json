@@ -1,0 +1,82 @@
+{
+  "id": "github-com-vmnog-calendarcn",
+  "url": "https://github.com/vmnog/calendarcn",
+  "kind": "repo",
+  "hints_hash": "7dd70f7688c75920",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/vmnog/calendarcn/blob/HEAD/README.md",
+      "title": "CalendarCN",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "CalendarCN",
+  "summary": "Open-source Notion Calendar-inspired calendar component for React with week view, dark mode and multiple calendars.",
+  "description": "A calendar component built with shadcn/ui and Tailwind CSS, inspired by Notion Calendar. It offers a full week view with time slots, all-day and multi-day events, event colors, a current time indicator, a collapsible sidebar with a mini calendar, multiple calendar visibility toggles and keyboard shortcuts. Built with Next.js 16 and React 19; MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "calendar",
+    "sidebar"
+  ],
+  "variants": {
+    "sidebar": [
+      "collapsible"
+    ]
+  },
+  "keywords": [
+    "calendar",
+    "react",
+    "shadcn",
+    "notion calendar",
+    "week view",
+    "event",
+    "scheduling",
+    "dark mode",
+    "all-day event",
+    "mini calendar",
+    "keyboard shortcut",
+    "nextjs",
+    "tailwind",
+    "time slot",
+    "open source"
+  ],
+  "contains": [
+    "week view with time slots and current time indicator",
+    "collapsible sidebar with mini calendar",
+    "multiple calendars with visibility toggles",
+    "event colors and all-day events",
+    "keyboard shortcuts: T, J/K, / and cmd+/",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "date-fns",
+    "lucide"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/vmnog/calendarcn",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

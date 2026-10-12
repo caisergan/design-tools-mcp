@@ -1,0 +1,91 @@
+{
+  "id": "shadcn-country-dropdown-vercel-app",
+  "url": "https://shadcn-country-dropdown.vercel.app",
+  "kind": "site",
+  "hints_hash": "93bb46a8069410aa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-country-dropdown.vercel.app",
+      "title": "A shadcn/ui country dropdown",
+      "status": null
+    },
+    {
+      "url": "https://shadcn-country-dropdown.vercel.app/currency-select",
+      "title": "A currency select for shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-country-dropdown.vercel.app/phone-input",
+      "title": "A phone input for shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-country-dropdown.vercel.app/select-pills",
+      "title": "A shadcn/ui country dropdown",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn/ui Country Dropdown",
+  "summary": "ISO 3166 country dropdown for shadcn/ui, plus currency select, phone input and select pills components.",
+  "description": "A dropdown for selecting a country, built with the shadcn/ui Popover and Command components and the country-data-list and react-circle-flags packages. The site also documents a CurrencySelect (ISO 4217), a PhoneInput built on libphonenumber-js, and SelectPills, an accessible autocomplete multi-select shown as pills. Components install from the country-dropdown npm package or by copying the source.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "select",
+    "input",
+    "badge",
+    "form"
+  ],
+  "keywords": [
+    "country dropdown",
+    "country selector",
+    "iso 3166",
+    "currency select",
+    "iso 4217",
+    "phone input",
+    "select pill",
+    "multi-select",
+    "autocomplete",
+    "shadcn ui",
+    "react",
+    "popover",
+    "command",
+    "form",
+    "libphonenumber"
+  ],
+  "contains": [
+    "CountryDropdown with ISO 3166-1 alpha-2 and alpha-3 country data",
+    "CurrencySelect (ISO 4217), PhoneInput (libphonenumber-js) and SelectPills multi-select",
+    "npm package country-dropdown, or copy the component source",
+    "examples: slim, multiple, form integration, connected country + phone values"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": "country-dropdown",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

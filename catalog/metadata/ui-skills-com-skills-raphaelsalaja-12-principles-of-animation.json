@@ -1,0 +1,31 @@
+{
+  "id": "ui-skills-com-skills-raphaelsalaja-12-principles-of-animation",
+  "url": "https://ui-skills.com/skills/raphaelsalaja/12-principles-of-animation",
+  "kind": "page",
+  "hints_hash": "73a82bb59afabcdb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui-skills.com/skills/raphaelsalaja/12-principles-of-animation", "title": "12-principles-of-animation Skill - raphaelsalaja | UI Skills", "status": 200},
+    {"url": "https://github.com/raphaelsalaja/skill", "title": "GitHub - raphaelsalaja/skill: A skill file based on the articles written on userinterface.wiki. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "12-principles-of-animation",
+  "summary": "Agent skill that reviews web animation code against Disney's 12 animation principles adapted for interfaces.",
+  "description": "A portable SKILL.md package for coding agents: point it at animation code and it checks every motion against Disney's 12 principles adapted for the web, in four rule categories — timing, easing, physics and staging (300ms interaction limits, ease-out entrances, spring overshoot, stagger caps, one focal point). Findings are reported as file:line plus a summary table. The skill is based on articles from userinterface.wiki and installs with the skills CLI from the raphaelsalaja/skill repo.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": ["agent skill", "skill.md", "animation", "animation principle", "web animation", "motion design", "easing", "timing", "spring animation", "stagger", "micro interaction", "motion review", "code review", "frontend", "ai agent", "12 principles of animation"],
+  "contains": [
+    "rule categories: timing, easing, physics, staging",
+    "rules: 300ms limit, ease-out entrance, ease-in exit, spring overshoot, stagger cap, focal point",
+    "outputs findings in file:line format with a summary table",
+    "installs with npx skills add from the raphaelsalaja/skill repo",
+    "references: The Illusion of Life; Apple WWDC23 Animate with Springs"
+  ],
+  "formats": ["prompts"],
+  "stack": [],
+  "related": {"repo": "https://github.com/raphaelsalaja/skill", "docs": null, "npm": null, "figma": null, "parent": "ui-skills-com"},
+  "confidence": 0.85
+}

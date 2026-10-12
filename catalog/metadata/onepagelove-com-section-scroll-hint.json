@@ -1,0 +1,22 @@
+{
+  "id": "onepagelove-com-section-scroll-hint",
+  "url": "https://onepagelove.com/section/scroll-hint",
+  "kind": "page",
+  "hints_hash": "929aa3ecce1bc1c8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/section/scroll-hint", "title": "Scroll Hint Section Examples", "status": null}
+  ],
+  "status": "ok",
+  "name": "Scroll Hint Section Examples",
+  "summary": "Collection of 153 scroll hint section designs from live landing pages, sorted as design references.",
+  "description": "One Page Love's example gallery of scroll hint designs: 153 entries taken from landing pages that shipped on live websites — no concepts, no mock-ups. The page is one of the site's section-level example collections, browsable alongside its other design categories.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "keywords": ["scroll hint", "scroll indicator", "scroll down cue", "landing page section", "section example", "web design reference", "design inspiration", "ui gallery", "real website", "scroll arrow"],
+  "formats": ["screenshots"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

@@ -1,0 +1,33 @@
+{
+  "id": "kaido-sh",
+  "url": "https://kaido.sh",
+  "kind": "site",
+  "hints_hash": "e78e46174c3aa827",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:08:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://kaido.sh", "title": "Kaido", "status": null},
+    {"url": "https://kaido.sh/pricing", "title": "Kaido", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Kaido",
+  "summary": "Investigative intelligence search that queries 15+ breach, social OSINT and network data providers from one place.",
+  "description": "A login-walled search tool that runs a query across 15+ integrated intelligence providers grouped into breach databases (LeakCheck, Snusbase, HIBP, AntiPublic), social OSINT (Discord, TikTok, LinkedIn) and network sources (Shodan, IP tools, infrastructure). The public page is a one-screen landing with the provider list; everything else sits behind the sign-in.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["osint", "investigative intelligence", "breach database", "data leak", "leak search", "background check", "ip lookup", "threat intelligence", "social media lookup", "people search", "email lookup", "cybersecurity", "due diligence"],
+  "contains": [
+    "15+ integrated intelligence providers",
+    "provider groups: breach databases, social OSINT, network and infrastructure",
+    "providers include HIBP, Snusbase, Shodan, LeakCheck, IntelX and SubFinder",
+    "login required; the only public link is /login"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

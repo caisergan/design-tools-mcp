@@ -1,0 +1,39 @@
+{
+  "id": "github-com-olliethedev-ui-builder",
+  "url": "https://github.com/olliethedev/ui-builder",
+  "kind": "repo",
+  "hints_hash": "fd330c57377193d0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/olliethedev/ui-builder/blob/HEAD/README.md", "title": "UI Builder — Visual Editor for Your React App", "status": 200},
+    {"url": "https://github.com/olliethedev/ui-builder", "title": "GitHub - olliethedev/ui-builder: A React component that provides a no-code, visual way to create UIs, compatible with shadcn/ui and custom components. · GitHub", "status": 200},
+    {"url": "https://uibuilder.app", "title": "UI Builder", "status": 200},
+    {"url": "https://www.uibuilder.app/docs/quick-start", "title": "Quick Start - UI Builder", "status": 200},
+    {"url": "https://www.uibuilder.app/docs/shadcn-registry", "title": "Shadcn Registry - UI Builder", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UI Builder",
+  "summary": "Drop-in Figma-style visual editor that lets non-developers compose pages from your React components, saved as JSON.",
+  "description": "A shadcn/ui package that embeds a Figma-style editor in your own product, letting non-developers compose pages, emails, dashboards and white-label views from the React components you already ship. Layouts are saved as plain JSON and rendered with dynamic data through variables; the editor supports custom component registries, drag-and-drop layers, panel configuration, editing restrictions and read-only mode. An optional shadcn registry adds all 54 official components and 124 block templates, plus React Email support for email templates. Docs at uibuilder.app; MIT licensed, part of BTST.",
+  "type": "component-library",
+  "categories": ["design-tools", "components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "dashboard", "date-picker", "drawer", "dropdown", "form", "input", "loader", "modal", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["visual editor", "no-code", "page builder", "shadcn", "react", "tailwind", "drag and drop", "json layout", "component registry", "figma-style", "nextjs", "zustand", "white label", "email builder", "dynamic data"],
+  "contains": [
+    "Figma-style drag-and-drop editor embedded in your React app",
+    "layouts saved as plain JSON and rendered with dynamic data",
+    "component registry for shadcn/ui and your own components",
+    "optional shadcn registry: 54 components and 124 block templates",
+    "React Email support for building email templates",
+    "docs at uibuilder.app; part of BTST",
+    "670 GitHub stars; MIT licensed"
+  ],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "zustand", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/olliethedev/ui-builder", "docs": "https://www.uibuilder.app/docs/quick-start", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

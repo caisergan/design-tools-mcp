@@ -1,0 +1,29 @@
+{
+  "id": "swajp-me",
+  "url": "https://swajp.me",
+  "kind": "site",
+  "hints_hash": "9ce27256be40e29d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://swajp.me", "title": "swajp - A Full Stack Developer", "status": null},
+    {"url": "https://swajp.me/about", "title": "About | swajp - A Full Stack Developer", "status": null},
+    {"url": "https://swajp.me/projects", "title": "Projects | swajp - A Full Stack Developer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "swajp",
+  "summary": "Portfolio of a Czech full stack developer: a project case study, featured projects, about and blog.",
+  "description": "Personal site of Miroslav Stejskal (swajp), a full stack developer based in the Czech Republic. It presents a project study — a complete redesign of uzx-elektro/uzx-security built with Next.js, Tailwind CSS and shadcn/ui from a Figma design — plus featured projects such as an AI resume creator, 'Place of amazing portfolios' and devkoutek.cz, alongside an about page and a blog.",
+  "type": "app",
+  "categories": ["inspiration"],
+  "elements": ["navbar", "hero", "card"],
+  "keywords": ["portfolio", "full stack developer", "personal website", "project showcase", "case study", "nextjs", "react", "tailwind", "shadcn", "blog", "about me", "web developer"],
+  "contains": ["project study: uzx-elektro/uzx-security redesign (Next.js, Tailwind CSS, shadcn/ui, Figma design)", "featured projects incl. an AI resume creator and 'Place of amazing portfolios'", "projects page, about page and blog", "Discord server link; available for work"],
+  "formats": ["app"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

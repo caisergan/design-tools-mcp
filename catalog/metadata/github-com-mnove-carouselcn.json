@@ -1,0 +1,30 @@
+{
+  "id": "github-com-mnove-carouselcn",
+  "url": "https://github.com/mnove/carouselcn",
+  "kind": "repo",
+  "hints_hash": "6659147ec5935cf2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mnove/carouselcn/blob/HEAD/README.md", "title": "carouselcn", "status": null},
+    {"url": "https://github.com/mnove/carouselcn", "title": "GitHub - mnove/carouselcn", "status": 200},
+    {"url": "https://carouselcn.marcellonovelli.com", "title": "carouselcn", "status": 200},
+    {"url": "https://carouselcn.marcellonovelli.com/docs", "title": "Overview | carouselcn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "carouselcn",
+  "summary": "Copy-paste carousel components and examples for React and Tailwind CSS with drag, loop, vertical and autoplay modes.",
+  "description": "A carousel and motion carousel for React and Tailwind CSS, built on the shadcn/ui copy-paste philosophy. Features drag/swipe and keyboard support, looping, vertical orientation, autoplay, custom indicators and composable sub-components, with no animation library required (CSS transitions only). The docs include testimonial, image gallery and autoplay gallery examples.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["carousel"],
+  "keywords": ["carousel", "slider", "react", "tailwind", "shadcn", "copy-paste", "drag", "swipe", "loop", "vertical", "autoplay", "indicator", "accessible", "keyboard navigation", "css transition", "dark mode"],
+  "contains": ["2 components: Carousel and Motion Carousel", "examples: testimonials, image gallery, autoplay gallery", "drag/swipe, loop, vertical and autoplay modes", "no animation library; CSS transitions only", "installs from a shadcn registry (2 items) or by copying the code"],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "tailwind", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mnove/carouselcn", "docs": "https://carouselcn.marcellonovelli.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

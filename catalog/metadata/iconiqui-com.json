@@ -1,0 +1,120 @@
+{
+  "id": "iconiqui-com",
+  "url": "https://iconiqui.com",
+  "kind": "site",
+  "hints_hash": "346db53952e2fbab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://iconiqui.com/llms.txt",
+      "title": "Iconiq UI",
+      "status": null
+    },
+    {
+      "url": "https://iconiqui.com",
+      "title": "Iconiq UI | Design System for Modern Interfaces",
+      "status": null
+    },
+    {
+      "url": "https://iconiqui.com/installation",
+      "title": "Installation | Iconiq UI",
+      "status": null
+    },
+    {
+      "url": "https://iconiqui.com/introduction",
+      "title": "Introduction | Iconiq UI",
+      "status": null
+    },
+    {
+      "url": "https://iconiqui.com/blocks/ai-input",
+      "title": "AI Input React Component | Iconiq UI",
+      "status": null
+    },
+    {
+      "url": "https://iconiqui.com/blocks/banner",
+      "title": "Banner React Component | Iconiq UI",
+      "status": null
+    },
+    {
+      "url": "https://github.com/edwinvakayil/iconiq",
+      "title": "GitHub - edwinvakayil/iconiq: Cut the noise. Ship the calm.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Iconiq UI",
+  "summary": "React component library installed through the shadcn registry, with motion transitions and editable source files.",
+  "description": "A curated React component collection delivered through the shadcn registry: one command copies a component's source into your project. 79 documented components and blocks include AI input, banner, code block, contribution graph, logo carousel, badges, charts, calendars and more, with restrained motion transitions and reduced-motion support. The site also ships an MCP setup guide and a VS Code marketplace extension.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries",
+    "motion"
+  ],
+  "elements": [
+    "badge",
+    "select",
+    "checkbox",
+    "chart",
+    "ai-agent-ui",
+    "calendar",
+    "loader",
+    "switch",
+    "prompt-input",
+    "banner",
+    "form",
+    "logo-cloud"
+  ],
+  "keywords": [
+    "react",
+    "component library",
+    "shadcn registry",
+    "motion",
+    "animated component",
+    "tailwind css",
+    "typescript",
+    "copy paste component",
+    "editable source file",
+    "ai input",
+    "banner",
+    "chart",
+    "calendar",
+    "badge"
+  ],
+  "contains": [
+    "79 components and blocks documented; 120 registry items",
+    "install: npx shadcn@latest add @iconiq/<component>",
+    "dependencies: motion, lucide-react",
+    "blocks: AI input, banner, code block, contribution graph, logo carousel, message",
+    "MCP setup guide and VS Code extension",
+    "MIT licensed (94 stars on GitHub)"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/edwinvakayil/iconiq",
+    "docs": "https://iconiqui.com/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

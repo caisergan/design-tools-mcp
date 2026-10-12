@@ -1,0 +1,29 @@
+{
+  "id": "blog-bytebytego-com",
+  "url": "https://blog.bytebytego.com",
+  "kind": "site",
+  "hints_hash": "783b555c5ed1e4cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://blog.bytebytego.com", "title": "ByteByteGo Newsletter | Alex Xu | Substack", "status": null},
+    {"url": "https://blog.bytebytego.com/about", "title": "About - ByteByteGo Newsletter", "status": null},
+    {"url": "https://blog.bytebytego.com/archive", "title": "Archive - ByteByteGo Newsletter", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ByteByteGo Newsletter",
+  "summary": "System design newsletter by Alex Xu: weekly issues and deep dives explaining complex software systems.",
+  "description": "Substack newsletter from the authors of the System Design Interview book series, read by over 1,000,000 subscribers. Free posts and the full archive cover system design, databases, networking, CI/CD, Kubernetes, API design and AI/LLM engineering; premium members get one issue every Saturday plus an extra deep dive on Wednesdays.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["system design", "software architecture", "newsletter", "engineering blog", "database", "networking", "kubernetes", "ci/cd", "api design", "llm", "ai engineering"],
+  "contains": ["1,000,000+ readers", "one issue every Saturday; extra deep dive on Wednesdays for premium members", "763 URLs in its sitemap (post archive)", "topics: system design, databases, networking, CI/CD, Kubernetes, LLMs", "paid offerings: AI Engineer cohort and an AI evals course"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

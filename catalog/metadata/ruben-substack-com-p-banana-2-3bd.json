@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-banana-2-3bd",
+  "url": "https://ruben.substack.com/p/banana-2-3bd",
+  "kind": "page",
+  "hints_hash": "a21ae9033d8be899",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/banana-2-3bd", "title": "🍌 Banana. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "🍌 Banana.",
+  "summary": "Guide to setting up and prompting Gemini's Nano Banana 2 for photorealistic, consistent AI images.",
+  "description": "Guide to the new Nano Banana 2 image model from Gemini: how to access it, how to prompt it, and why to master it — photorealistic generation for free, character consistency across images, 2K/4K upscaling and readable text inside images.",
+  "type": "article",
+  "keywords": ["nano banana 2", "gemini", "ai image generation", "image prompt", "photorealistic image", "character consistency", "image upscaling", "text in image", "ai poster", "infographic", "prompt guide", "google ai"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.9
+}

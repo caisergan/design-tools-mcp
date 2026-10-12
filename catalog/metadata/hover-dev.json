@@ -1,0 +1,32 @@
+{
+  "id": "hover-dev",
+  "url": "https://hover.dev",
+  "kind": "site",
+  "hints_hash": "af6e71c27dafac2e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hover.dev", "title": "Animated UI Components and Templates for React and TailwindCSS | Hover.dev", "status": 200},
+    {"url": "https://www.hover.dev/components", "title": "Prebuilt animations and interactions for React, Tailwind CSS, Framer Motion and more", "status": 200},
+    {"url": "https://www.hover.dev/templates", "title": "React & TailwindCSS Templates | Hover.dev", "status": 200},
+    {"url": "https://www.hover.dev/pricing", "title": "Pricing | Hover.dev", "status": 200},
+    {"url": "https://www.hover.dev/faq", "title": "Frequently Asked Questions | Hover.dev", "status": 200},
+    {"url": "https://www.hover.dev/license", "title": "Animated UI Components and Templates for React and TailwindCSS | Hover.dev", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hover.dev",
+  "summary": "Animated, copy-paste components and page templates for React and Tailwind CSS, built with Framer Motion.",
+  "description": "A library of animated components and sections for React and Tailwind CSS — navbars, heroes, pricing, forms, testimonials, stats, kanban boards, buttons, cards, carousels, loaders and more — each with a CODE toggle that reveals the source to paste into your project. Three full templates ship as well: Clean Neubrutalism, a Steam-style developer portfolio and The Startup. Free components plus a one-time Hover Pro unlock.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["navbar", "hero", "pricing", "features", "testimonials", "faq", "stats", "tabs", "modal", "dropdown", "toast", "button", "input", "switch", "form", "table", "card", "calendar", "kanban", "accordion", "progress", "carousel", "text-effect", "loader", "3d"],
+  "keywords": ["animated component", "hover effect", "react", "tailwind", "framer motion", "copy paste", "navbar", "hero section", "pricing section", "testimonial section", "faq section", "form section", "kanban board", "button animation", "carousel", "dropdown menu", "loader", "modal", "toggle", "3d section", "template", "landing page", "interaction", "motion"],
+  "contains": ["Sections: 3D, FAQ, features, form, hero, kanban, pricing, sign-in, stats, testimonials", "Components: accordions, buttons, calendars, cards, carousels, dropdown menus, inputs, loaders, modals", "Components: countdown, grids, links, navbars & menus, notifications, progress, tabs, tables, text, toggles", "copy source with the CODE toggle; free and Pro components", "3 templates: Clean Neubrutalism, Steam dev portfolio, The Startup", "Hover Pro $49 one-time unlocks all current and future components", "animations built with Framer Motion, vanilla JS or keyframes"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

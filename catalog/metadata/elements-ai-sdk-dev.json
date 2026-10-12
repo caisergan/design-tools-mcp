@@ -1,0 +1,42 @@
+{
+  "id": "elements-ai-sdk-dev",
+  "url": "https://elements.ai-sdk.dev",
+  "kind": "site",
+  "hints_hash": "babc6eb77ef43654",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://elements.ai-sdk.dev/llms.txt", "title": "Benefits", "status": null },
+    { "url": "https://elements.ai-sdk.dev", "title": "AI Elements", "status": 200 },
+    { "url": "https://elements.ai-sdk.dev/docs", "title": "Introduction", "status": 200 },
+    { "url": "https://elements.ai-sdk.dev/components/attachments", "title": "Attachments", "status": 200 },
+    { "url": "https://elements.ai-sdk.dev/docs/skill", "title": "Skill", "status": 200 },
+    { "url": "https://github.com/vercel/ai-elements", "title": "GitHub - vercel/ai-elements", "status": 200 },
+    { "url": "https://raw.githubusercontent.com/vercel/ai-elements/HEAD/LICENSE", "title": null, "status": 200 }
+  ],
+  "status": "ok",
+  "name": "AI Elements",
+  "summary": "Vercel's shadcn/ui component library for AI-native apps: chat and message parts, tool and reasoning UI, code blocks, voice and workflows.",
+  "description": "Pre-built React components on shadcn/ui for AI applications, shipped as a custom registry: chatbot parts (conversation, message, prompt input, model selector, reasoning, sources, suggestion), code parts (code block, terminal, file tree, stack trace), voice parts (audio player, speech input, transcription) and React Flow workflow parts (canvas, node, edge, toolbar). Install with npx ai-elements@latest add or the shadcn CLI; components land in your project and integrate with the AI SDK's streaming states. An agent skill teaches coding assistants to use them.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["ai-agent-ui", "chat", "prompt-input", "input", "text-effect"],
+  "keywords": ["ai component", "chat ui", "chatbot", "shadcn", "registry", "react", "nextjs", "ai sdk", "prompt input", "message", "reasoning", "tool call", "code block", "voice", "workflow", "react flow", "streaming", "agent skill"],
+  "contains": [
+    "component groups: chatbot, code, voice, workflow, utilities",
+    "chatbot set: conversation, message, prompt input, model selector, reasoning, sources, suggestion",
+    "workflow set built for React Flow canvases: canvas, node, edge, connection, panel, toolbar",
+    "install with npx ai-elements@latest add <component> or the shadcn CLI",
+    "registry at elements.ai-sdk.dev/api/registry/registry.json; files go to components/ai-elements",
+    "typed for the AI SDK: streaming responses, status states, UIMessage",
+    "React 19, Tailwind CSS 4, CSS-variables mode, shadcn/ui theming and dark mode",
+    "agent skill teaches coding assistants; Apache-2.0 licensed by Vercel"
+  ],
+  "formats": ["registry", "cli", "code", "docs", "prompts"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn", "vercel-ai-sdk", "react-flow"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": { "repo": "https://github.com/vercel/ai-elements", "docs": "https://elements.ai-sdk.dev/docs", "npm": "ai-elements", "figma": null, "parent": null },
+  "confidence": 0.9
+}

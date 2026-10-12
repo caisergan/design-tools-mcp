@@ -1,0 +1,78 @@
+{
+  "id": "hugeicons-com-docs-migration-tool",
+  "url": "https://hugeicons.com/docs/migration-tool",
+  "kind": "page",
+  "hints_hash": "016975eeb08b6ac3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://hugeicons.com/docs/migration-tool",
+      "title": "Migration Tool | Hugeicons Documentation",
+      "status": 200
+    },
+    {
+      "url": "https://hugeicons.com/docs/migration-tool/quick-start",
+      "title": "Quick Start with the Migration Tool | Hugeicons Documentation",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Hugeicons Migration Tool",
+  "summary": "CLI that migrates React projects from Font Awesome, Lucide, Heroicons, Feather, Tabler or Phosphor to Hugeicons icons.",
+  "description": "Docs for @hugeicons/migrate, a CLI that rewrites icon usage in React projects from six other icon libraries to Hugeicons. It scans the project, maps old icons to Hugeicons equivalents, transforms imports and components with type handling, and can generate an HTML report; changes are previewable with a dry run and applied only with --write. Requires Node.js 18+ and a React project with TypeScript or JavaScript.",
+  "type": "tool",
+  "elements": [],
+  "keywords": [
+    "icon migration",
+    "migrate icon",
+    "cli",
+    "codemod",
+    "react",
+    "react icon",
+    "icon library",
+    "icon import",
+    "font awesome",
+    "lucide",
+    "heroicon",
+    "feather icon",
+    "tabler icon",
+    "phosphor icon",
+    "hugeicon",
+    "npm package",
+    "dry run",
+    "refactor"
+  ],
+  "contains": [
+    "CLI: @hugeicons/migrate (npm)",
+    "supported sources: Font Awesome, Lucide, Heroicons, Feather, Tabler, Phosphor",
+    "steps: detection, mapping, transformation, type handling",
+    "dry run by default; --write applies, --report writes an HTML report",
+    "--style free or pro (pro needs a Hugeicons license key)",
+    "requires Node.js >= 18 and a React project"
+  ],
+  "formats": [
+    "cli",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "node"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://hugeicons.com/docs/migration-tool",
+    "npm": "@hugeicons/migrate",
+    "figma": null,
+    "parent": "hugeicons-com"
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,31 @@
+{
+ "id": "flutter-dev",
+ "url": "https://flutter.dev",
+ "kind": "site",
+ "hints_hash": "b1951f67b4d0c599",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://flutter.dev", "title": "Flutter - Build apps for any screen", "status": 200},
+  {"url": "https://flutter.dev/showcase", "title": "Showcase", "status": 200},
+  {"url": "https://docs.flutter.dev/ui/widgets", "title": "Widget catalog", "status": 200},
+  {"url": "https://docs.flutter.dev/ui/widgets/material", "title": "Material component widgets", "status": 200},
+  {"url": "https://docs.flutter.dev/reference/widgets", "title": "Flutter widget index", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Flutter",
+ "summary": "Open-source framework for building natively compiled mobile, web, desktop and embedded apps from one Dart codebase.",
+ "description": "Flutter is an open-source, multi-platform UI framework from Google that compiles one Dart codebase to mobile, web, desktop and embedded targets, with hot reload and a widget catalog (Material and Cupertino design packages). The site offers downloads, documentation and release news, plus a showcase of production apps including Google Pay, BMW and eBay.",
+ "type": "component-library",
+ "categories": ["components", "dev-ai-tools"],
+ "elements": [],
+ "keywords": ["flutter", "cross-platform", "mobile app", "ios app", "android app", "web app", "desktop app", "dart", "widget", "hot reload", "material design", "ui framework", "app development", "native app"],
+ "contains": ["single Dart codebase targeting mobile, web, desktop and embedded", "widget catalog with Material and Cupertino design packages", "production app showcase: Google Pay, BMW, eBay, Toyota, SoFi and more", "docs, blog and release news (Flutter 3.47)", "packages on pub.dev and Google integrations"],
+ "formats": ["code", "docs", "video"],
+ "stack": ["dart"],
+ "pricing": "free",
+ "license": "unknown",
+ "related": {"repo": null, "docs": "https://docs.flutter.dev", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

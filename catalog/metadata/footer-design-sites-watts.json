@@ -1,0 +1,25 @@
+{
+  "id": "footer-design-sites-watts",
+  "url": "https://footer.design/sites/watts",
+  "kind": "page",
+  "hints_hash": "171a9a23dc1d7b2b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/watts", "title": "Footer | Watts", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Watts",
+  "summary": "Footer design from the Watts pet food brand, with desktop and mobile screenshots and style tags.",
+  "description": "A footer design entry in the Footr Design gallery. It shows desktop and mobile views of the Watts site footer, with footnotes for styles (flat, fun, bright, monochromatic, bold), type (pets, food & drink), designer (View Source) and date added (August 6, 2026), plus similar footer designs.",
+  "elements": ["footer"],
+  "keywords": ["footer", "footer design", "website footer", "pet food", "food and drink", "bold footer", "bright footer", "desktop footer", "mobile footer", "footer inspiration", "footer gallery"],
+  "contains": ["desktop and mobile footer screenshots", "footnotes: styles, type, designer, date added", "styles: flat, fun, bright, monochromatic, bold", "type: pets, food & drink", "designed by View Source", "link to the live Watts site"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

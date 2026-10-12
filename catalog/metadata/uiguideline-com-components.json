@@ -1,0 +1,89 @@
+{
+  "id": "uiguideline-com-components",
+  "url": "https://uiguideline.com/components",
+  "kind": "page",
+  "hints_hash": "a2b56f7aacd852eb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uiguideline.com/components",
+      "title": "UI Guideline – Decoding the World's Leading Design Systems.",
+      "status": null
+    },
+    {
+      "url": "https://www.uiguideline.com/pricing",
+      "title": "Pricing — Unlock the Full Catalog | UI Guideline",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI Guideline – List of Components",
+  "summary": "Index of a 70+ component handbook built from 20 design systems, with props, anatomy, Figma kits and guides per component.",
+  "description": "The components index of UI Guideline, a handbook that compiles how the top 20 design systems name, define and document UI components — properties, anatomy and best practices. Spec packs ship as PDF, AI context (.md), YAML and JSON; 38 components are open for free and the full catalog of 70+ is a one-time purchase.",
+  "keywords": [
+    "ui component",
+    "design system",
+    "component guide",
+    "component anatomy",
+    "component prop",
+    "figma ui kit",
+    "design system analysis",
+    "component best practice",
+    "ui guideline",
+    "component handbook",
+    "component specification",
+    "interface component"
+  ],
+  "elements": [
+    "input",
+    "alert",
+    "loader",
+    "badge",
+    "checkbox",
+    "select",
+    "button",
+    "switch",
+    "calendar",
+    "modal",
+    "empty-state",
+    "breadcrumbs",
+    "toast",
+    "slider",
+    "table",
+    "pagination",
+    "tooltip",
+    "avatar",
+    "progress",
+    "file-upload",
+    "popover",
+    "date-picker",
+    "stepper",
+    "carousel",
+    "card"
+  ],
+  "contains": [
+    "70+ components in the full catalog",
+    "specs based on 20 design systems and 5 years of research",
+    "Figma UI kits per component",
+    "free to browse 38 components, full catalog $49 one-time"
+  ],
+  "formats": [
+    "docs",
+    "figma-file"
+  ],
+  "pricing": "freemium",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

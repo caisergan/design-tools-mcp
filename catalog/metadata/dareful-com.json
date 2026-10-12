@@ -1,0 +1,85 @@
+{
+  "id": "dareful-com",
+  "url": "https://dareful.com",
+  "kind": "site",
+  "hints_hash": "749993493a5aeb0c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:25:37Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dareful.com",
+      "title": "Royalty Free 4k & HD Stock Video Footage Clips | Dareful",
+      "status": null
+    },
+    {
+      "url": "https://dareful.com/about-dareful-completely-free-4k-stock-video",
+      "title": "About Dareful - Completely Free 4K & HD Stock Video - Dareful",
+      "status": 200
+    },
+    {
+      "url": "https://dareful.com/videos/sunrise",
+      "title": "sunrise - Dareful",
+      "status": 200
+    },
+    {
+      "url": "https://dareful.com/warm-clouds-sunset",
+      "title": "Warm Clouds Sunset Royalty Free Stock Video",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Dareful",
+  "summary": "Library of free 4K and HD stock video clips under a Creative Commons attribution license.",
+  "description": "Hundreds of royalty-free 4K and HD stock video clips, free to download for personal, commercial or educational projects with no account or credit card needed. Clips are browsable by tag (aerial, beach, nature, city, drone, sunset, water, time lapse …) and sortable by popularity or recency; each clip page lists duration, resolution, format and license.",
+  "type": "asset-library",
+  "categories": [
+    "media"
+  ],
+  "elements": [],
+  "keywords": [
+    "stock video",
+    "stock footage",
+    "free video",
+    "4k video",
+    "hd video",
+    "royalty free",
+    "creative common",
+    "aerial footage",
+    "drone footage",
+    "nature video",
+    "city video",
+    "time lapse",
+    "background video",
+    "video clip",
+    "commercial use",
+    "video download"
+  ],
+  "contains": [
+    "hundreds of free 4K & HD clips",
+    "browse by tag: aerial, beach, nature, city, drone, sunset, water, time lapse and more",
+    "sort by popular or recent",
+    "clip pages list duration, resolution, format (MP4) and license",
+    "free for commercial, personal and educational projects, forever",
+    "credit to Dareful requested",
+    "all footage shot by founder Joel Holland"
+  ],
+  "formats": [
+    "video"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-4.0",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

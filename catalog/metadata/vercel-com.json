@@ -1,0 +1,89 @@
+{
+  "id": "vercel-com",
+  "url": "https://vercel.com",
+  "kind": "site",
+  "hints_hash": "0df4daa82901a358",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vercel.com/llms.txt",
+      "title": "Vercel",
+      "status": null
+    },
+    {
+      "url": "https://vercel.com",
+      "title": "Agentic Infrastructure - Vercel",
+      "status": 200
+    },
+    {
+      "url": "https://vercel.com/get-started.md",
+      "title": "Set up Vercel for your AI coding agent",
+      "status": 200
+    },
+    {
+      "url": "https://vercel.com/templates",
+      "title": "Templates - Vercel",
+      "status": 200
+    },
+    {
+      "url": "https://vercel.com/pricing",
+      "title": "Vercel Pricing: Hobby, Pro, and Enterprise plans",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Vercel",
+  "summary": "Cloud platform for building, deploying and scaling web apps and AI workloads, with templates, CLI, API and MCP.",
+  "description": "Vercel deploys web applications, APIs and AI workloads from Git or the CLI, with preview deployments, a global CDN, observability and a REST API. Its agent stack adds AI SDK, AI Gateway for routing across model providers and Sandbox for untrusted code. Includes a template gallery, docs, knowledge base and an agent plugin with skills.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "deploy",
+    "hosting",
+    "cloud platform",
+    "frontend",
+    "nextjs",
+    "react",
+    "serverless",
+    "edge",
+    "ci/cd",
+    "preview deployment",
+    "ai sdk",
+    "ai gateway",
+    "sandbox",
+    "template",
+    "cli",
+    "rest api",
+    "mcp",
+    "agent",
+    "observability"
+  ],
+  "contains": [
+    "Hobby free plan, Pro $20/mo, Enterprise custom",
+    "deploy from a Git repository or the Vercel CLI",
+    "AI SDK, AI Gateway with fallbacks and spend controls, Sandbox for untrusted code",
+    "REST API with OpenAPI description and an OAuth MCP server",
+    "template gallery filtered by use case, framework, CSS and database",
+    "Vercel plugin and skills for coding agents",
+    "docs, knowledge base, academy and changelog"
+  ],
+  "formats": ["api", "cli", "code", "docs", "templates"],
+  "stack": ["nextjs"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://vercel.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

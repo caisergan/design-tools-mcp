@@ -1,0 +1,14 @@
+{
+  "id": "in-pinterest-com",
+  "url": "https://in.pinterest.com",
+  "kind": "site",
+  "hints_hash": "5de3967dd637b8b7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://in.pinterest.com", "title": null, "status": null}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

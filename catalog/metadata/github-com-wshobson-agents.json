@@ -1,0 +1,67 @@
+{
+  "id": "github-com-wshobson-agents",
+  "url": "https://github.com/wshobson/agents",
+  "kind": "repo",
+  "hints_hash": "c3e26cec240d8fdb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/wshobson/agents/blob/HEAD/README.md",
+      "title": "Agentic Plugin Marketplace",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Agentic Plugin Marketplace",
+  "summary": "Marketplace of 94 composable agentic plugins — 202 agents, 183 skills, 105 commands — for Claude Code, Codex, Cursor and more.",
+  "description": "Production-ready agentic workflow building blocks from one Markdown source: 94 composable plugins containing 202 agents, 183 skills, 105 slash commands and 16 multi-agent orchestrators, installable into Claude Code and consumed natively by OpenAI Codex CLI, Cursor, OpenCode, the Antigravity CLI, GitHub Copilot and Pi. Installing a plugin loads only its components into context, and a three-layer plugin-eval framework (static, LLM judge, Monte Carlo) measures plugin and skill quality.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "plugin marketplace",
+    "plugin",
+    "agent",
+    "skill",
+    "slash command",
+    "orchestrator",
+    "claude code",
+    "codex",
+    "cursor",
+    "opencode",
+    "copilot",
+    "workflow",
+    "agentic",
+    "multi-agent"
+  ],
+  "contains": [
+    "94 plugins, 202 agents, 183 skills, 105 commands",
+    "16 multi-agent orchestrators",
+    "one Markdown source shipped to seven harnesses",
+    "tiered model strategy per task tier",
+    "plugin-eval quality framework (static, LLM judge, Monte Carlo)",
+    "external memory (Pensyve) and security (HOL Guard) integrations"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/wshobson/agents",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

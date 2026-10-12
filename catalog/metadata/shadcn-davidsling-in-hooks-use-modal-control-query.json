@@ -1,0 +1,68 @@
+{
+  "id": "shadcn-davidsling-in-hooks-use-modal-control-query",
+  "url": "https://shadcn.davidsling.in/hooks/use-modal-control-query",
+  "kind": "page",
+  "hints_hash": "fbe803b5ae33b8ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn.davidsling.in/hooks/use-modal-control-query",
+      "title": "davidsling shadcn registry",
+      "status": null
+    },
+    {
+      "url": "https://shadcn.davidsling.in/",
+      "title": "davidsling shadcn registry",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn.davidsling.in/r/use-modal-control-query.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "useModalControlQuery",
+  "summary": "Hook that opens and closes shadcn modal components through URL query params.",
+  "description": "A React hook from the slingcn shadcn registry that controls shadcn/ui modal components with query params. Built on nuqs (useQueryState) and distributed as a registry:hook item you add with the shadcn CLI.",
+  "type": "component-library",
+  "elements": [
+    "modal"
+  ],
+  "keywords": [
+    "hook",
+    "react hook",
+    "modal",
+    "dialog",
+    "query param",
+    "url state",
+    "shadcn registry",
+    "nuq",
+    "shadcn ui",
+    "typescript",
+    "nextjs"
+  ],
+  "formats": [
+    "registry",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "nuqs"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-ilyichv-shadcn-zod-form",
+  "url": "https://github.com/ilyichv/shadcn-zod-form",
+  "kind": "repo",
+  "hints_hash": "0551222fd90df7ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ilyichv/shadcn-zod-form/blob/HEAD/README.md", "title": "shadcn-zod-form", "status": 200},
+    {"url": "https://github.com/ilyichv/shadcn-zod-form", "title": "GitHub - arkemis-labs/shadcn-zod-form: CLI tool to convert Zod schemas into shadcn/ui forms. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-zod-form",
+  "summary": "CLI that converts Zod schemas into shadcn/ui forms, mapping each Zod type to the matching form component.",
+  "description": "A command-line tool that generates shadcn/ui forms from Zod schemas: point it at a schema and it maps each Zod type to the appropriate form component, producing ready-to-use form code, with an easy-to-use CLI interface. The README documents features, installation, usage and contributing; the repository now lives under the arkemis-labs organisation (topics: react-hook-form, shadcn, zod).",
+  "type": "generator",
+  "categories": ["design-tools"],
+  "elements": ["form", "input", "select", "checkbox", "switch", "date-picker"],
+  "keywords": ["form generator", "zod", "shadcn", "cli", "react hook form", "schema", "form validation", "react", "code generator", "type-safe form", "form component"],
+  "contains": [
+    "generates shadcn/ui forms from Zod schemas",
+    "maps Zod types to appropriate form components",
+    "easy-to-use CLI interface",
+    "README: features, installation, usage and contributing guide",
+    "MIT licensed; repository moved to arkemis-labs/shadcn-zod-form",
+    "235 GitHub stars"
+  ],
+  "formats": ["cli", "code"],
+  "stack": ["react", "zod", "react-hook-form", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/arkemis-labs/shadcn-zod-form", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

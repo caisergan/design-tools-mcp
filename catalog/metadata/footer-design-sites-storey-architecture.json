@@ -1,0 +1,31 @@
+{
+  "id": "footer-design-sites-storey-architecture",
+  "url": "https://footer.design/sites/storey-architecture",
+  "kind": "page",
+  "hints_hash": "1938fdeb20249e53",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/storey-architecture", "title": "Footer | Storey Architecture", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Storey Architecture",
+  "summary": "Footer.design showcase of the desktop and mobile footers on the Storey Architecture website, designed by Dirty Martini.",
+  "description": "A gallery entry of Footer.design, a curated collection of web footers, showing the footer of the Storey Architecture website — a UK architecture studio specialising in contemporary homes, renovations and interiors. Desktop and mobile footer screenshots are tagged Flat, Unusual Layout, Dark and Monochromatic, with type Architecture, Design, Studio; added 17 Aug 2026.",
+  "elements": ["footer"],
+  "keywords": ["footer", "web footer", "footer design", "site footer", "dark footer", "flat", "monochromatic", "unusual layout", "architecture", "studio", "footer inspiration", "web design"],
+  "contains": [
+    "desktop and mobile screenshots of the Storey Architecture website footer",
+    "styles: Flat, Unusual Layout, Dark, Monochromatic",
+    "type: Architecture, Design, Studio",
+    "designed by Dirty Martini; date added 17 Aug 2026",
+    "part of Footer.design, a curated gallery of web footers"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

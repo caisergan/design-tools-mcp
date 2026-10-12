@@ -1,0 +1,82 @@
+{
+  "id": "designmd-me",
+  "url": "https://designmd.me",
+  "kind": "site",
+  "hints_hash": "24cece3263b8d762",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designmd.me/llms.txt",
+      "title": "DesignMD",
+      "status": null
+    },
+    {
+      "url": "https://designmd.me",
+      "title": "DesignMD — Generate DESIGN.md Files with AI",
+      "status": 200
+    },
+    {
+      "url": "https://designmd.me/pricing",
+      "title": "DesignMD — Generate DESIGN.md Files with AI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "DesignMD",
+  "summary": "Paste a URL and get a DESIGN.md with measured colour roles, type scale, spacing, radii, component styles and breakpoints.",
+  "description": "Generates a plain-text DESIGN.md from any website, measuring tokens in a real browser against the rendered page rather than screenshotting it. Outputs a single-page or multi-page spec, an HTML preview and a Figma token import; a CLI and an agent skill let coding agents generate one for a reference site before writing UI code.",
+  "type": "tool",
+  "categories": [
+    "design-rules",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "design.md",
+    "design token",
+    "design system",
+    "design system extraction",
+    "colour role",
+    "type scale",
+    "spacing scale",
+    "figma import",
+    "figma plugin",
+    "cli",
+    "agent skill",
+    "ai coding agent",
+    "design specification",
+    "component style",
+    "website design system",
+    "npm"
+  ],
+  "contains": [
+    "DESIGN.md from a single page (4 credits) or several pages of one site (8 credits)",
+    "HTML preview 8 credits; Figma token import 12 credits",
+    "tokens measured in a real browser against the rendered page, not inferred from a screenshot",
+    "CLI @crowdlinker/designmdme on npm, packaged also as an agent skill",
+    "Discover: free-to-read DESIGN.md files for well-known sites; Compare: two systems side by side",
+    "credits: 4 free on first visit plus 20 on sign-in; packs $5/50, $15/175, $30/375"
+  ],
+  "formats": [
+    "cli",
+    "figma-file",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://designmd.me/what-is-design-md",
+    "npm": "@crowdlinker/designmdme",
+    "figma": "https://www.figma.com/community/plugin/1664289937696642660/designmd-import-design-tokens",
+    "parent": null
+  },
+  "confidence": 0.9
+}

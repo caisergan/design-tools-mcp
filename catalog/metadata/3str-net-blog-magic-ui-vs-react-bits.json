@@ -1,0 +1,42 @@
+{
+  "id": "3str-net-blog-magic-ui-vs-react-bits",
+  "url": "https://3str.net/blog/magic-ui-vs-react-bits",
+  "kind": "page",
+  "hints_hash": "4939a777070351f3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://3str.net/blog/magic-ui-vs-react-bits",
+      "title": "Magic UI vs React Bits: 5 Checks Before You Choose - Threestudio",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Magic UI vs React Bits: 5 Checks Before You Choose",
+  "summary": "Guide comparing the Magic UI and React Bits animation libraries: five checks on behavior, code ownership, motion and licensing.",
+  "type": "article",
+  "keywords": [
+    "magic ui",
+    "react bit",
+    "animation library",
+    "react component",
+    "motion",
+    "licensing",
+    "reduced motion",
+    "component install"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

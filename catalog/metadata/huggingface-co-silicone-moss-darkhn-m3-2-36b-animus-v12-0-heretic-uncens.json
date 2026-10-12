@@ -1,0 +1,54 @@
+{
+  "id": "huggingface-co-silicone-moss-darkhn-m3-2-36b-animus-v12-0-heretic-uncens",
+  "url": "https://huggingface.co/Silicone-Moss/Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored",
+  "kind": "page",
+  "hints_hash": "b5c1d0de0900dd8d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://huggingface.co/Silicone-Moss/Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored",
+      "title": "Silicone-Moss/Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored · Hugging Face",
+      "status": 200
+    },
+    {
+      "url": "https://huggingface.co/Silicone-Moss/Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored/raw/main/README.md",
+      "title": "Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored",
+  "summary": "Hugging Face model card for an uncensored 36B roleplay/chat finetune — a refusal-suppressed text-generation model.",
+  "description": "Model page for Darkhn-M3.2-36B-Animus-V12.0-Heretic-Uncensored, an uncensored text-generation finetune of Darkhn's M3.2-36B-Animus-V12.0 built with the Heretic optimisation method: a targeted orthogonalisation intervention tuned with Optuna to suppress refusal responses while keeping coherence. Tags: finetune, roleplay, chat, wings-of-fire, nsfw, not-for-all-audiences, uncensored, ablation; Apache-2.0 license.",
+  "keywords": [
+    "language model",
+    "llm",
+    "text generation",
+    "roleplay",
+    "chat model",
+    "uncensored model",
+    "finetune",
+    "safetensor",
+    "apache 2.0",
+    "nsfw",
+    "mistral",
+    "model card",
+    "ablation"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

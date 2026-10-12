@@ -1,0 +1,75 @@
+{
+  "id": "type-scale-com",
+  "url": "https://type-scale.com",
+  "kind": "site",
+  "hints_hash": "d2b65f5c5d0b9b3c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://type-scale.com",
+      "title": "Typescale - Create stunning typography, generate CSS, and find inspiration.",
+      "status": null
+    },
+    {
+      "url": "https://typescale.com/sign-up",
+      "title": "Sign up - Typescale",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Typescale",
+  "summary": "Typography scale generator: set font size, modular scale and responsive options, then copy the CSS.",
+  "description": "Web tool for building visual type scales: pick font size, modular scale ratio, body and heading styles, colours and a minimum width for responsive sizes, and watch the composition update in real time. Boards can be saved, explored, bookmarked and cloned, and the result is copied as CSS with variables and classes. Pro ($3/month yearly, $6/month monthly) adds unlimited boards, responsive scales and more sizes.",
+  "type": "generator",
+  "categories": [
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "type scale",
+    "typography scale",
+    "modular scale",
+    "font size",
+    "css typography",
+    "responsive typography",
+    "font scale generator",
+    "line-height",
+    "letter-spacing",
+    "css variable",
+    "web typography",
+    "typographic scale",
+    "font size calculator",
+    "heading"
+  ],
+  "contains": [
+    "visual type scale board",
+    "settings: font size, modular scale, min-width, body and heading styles",
+    "real-time preview",
+    "responsive scale with min-width breakpoints",
+    "copy CSS with variables and classes",
+    "explore feed of public boards to bookmark and clone",
+    "Pro: $3/month billed yearly, $6/month monthly"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "css"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

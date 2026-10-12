@@ -1,0 +1,38 @@
+{
+  "id": "unity-com",
+  "url": "https://unity.com",
+  "kind": "site",
+  "hints_hash": "5baa0a5abba77256",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://unity.com/llms.txt", "title": "Unity", "status": null},
+    {"url": "https://unity.com", "title": "Unity: Develop, Deploy, and Grow | The World's Leading Game Engine", "status": null},
+    {"url": "https://unity.com/faq", "title": "Unity Technologies FAQs", "status": null}
+  ],
+  "status": "ok",
+  "name": "Unity",
+  "summary": "Real-time 2D/3D game engine and platform to build, deploy and monetize games and interactive apps.",
+  "description": "Unity is a cross-platform game engine: build 2D and 3D games and interactive experiences for mobile, desktop, console, XR and web, with editor tooling, collaboration, live ops, user acquisition and monetization services. The site covers the engine, Unity 6.6 and Unity 7 news, learning resources, certifications and subscription plans.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["navbar", "hero", "features", "pricing", "faq", "testimonials"],
+  "keywords": ["game engine", "game development", "3d engine", "2d game", "cross-platform", "xr", "ar", "vr", "multiplayer", "mobile game", "console game", "monetization", "user acquisition", "real-time 3d", "game design", "game programming", "digital twin", "robotics", "human machine interface"],
+  "contains": [
+    "2D/3D game engine; builds for 25+ platforms (mobile, PC, console, XR, web)",
+    "free Personal plan for individuals and small organizations under $100K revenue/funds raised",
+    "paid Pro and Enterprise subscriptions; a Unity Runtime Fee may apply to Pro/Enterprise",
+    "products and services: engine, multiplayer, live ops, user acquisition, ads, Parsec, Odin, Pixyz",
+    "Unity 6.6 available; Unity 7 announced",
+    "learning: Unity Learn, how-to guides, certifications, student and educator plans",
+    "case studies and showcases: Cult of the Lamb, Hollow Knight: Silksong, Jump Space",
+    "industries beyond games: manufacturing, retail, automotive, robotics, HMI"
+  ],
+  "formats": ["app", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

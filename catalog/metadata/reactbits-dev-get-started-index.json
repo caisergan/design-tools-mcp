@@ -1,0 +1,119 @@
+{
+  "id": "reactbits-dev-get-started-index",
+  "url": "https://reactbits.dev/get-started/index",
+  "kind": "page",
+  "hints_hash": "40afb475840a0c01",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://reactbits.dev/get-started/index",
+      "title": "Browse Free React Components | React Bits",
+      "status": 200
+    },
+    {
+      "url": "https://reactbits.dev/llms.txt",
+      "title": "React Bits",
+      "status": 200
+    },
+    {
+      "url": "https://reactbits.dev/get-started/introduction",
+      "title": "Introduction to React Bits | Free React Components",
+      "status": 200
+    },
+    {
+      "url": "https://reactbits.dev",
+      "title": "React Bits — Free Animated React Components",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/react-bits",
+      "title": "React Bits · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/DavidHDev/react-bits",
+      "title": "GitHub - DavidHDev/react-bits: The largest open-source library of animated, interactive, and customizable React & Next.js components…",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Bits Components",
+  "summary": "Index of React Bits' free animated React components — text effects, backgrounds, cards and micro-interactions — with live demos.",
+  "description": "Browses the free React Bits library grouped into UI Components, Animations, Backgrounds, Text Animations and Micro Interactions, each item with a live demo. Components ship in four variants (JavaScript or TypeScript, with plain CSS or Tailwind) and install by copying the source or through the jsrepo and shadcn CLIs.",
+  "type": "component-library",
+  "elements": [
+    "text-effect",
+    "cursor",
+    "background",
+    "switch",
+    "button",
+    "input",
+    "loader",
+    "list",
+    "carousel",
+    "dock",
+    "navbar",
+    "card",
+    "marquee",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "react component",
+    "animated component",
+    "text animation",
+    "text effect",
+    "typewriter",
+    "text reveal",
+    "cursor effect",
+    "background",
+    "micro interaction",
+    "marquee",
+    "carousel",
+    "dock",
+    "javascript",
+    "typescript",
+    "tailwind",
+    "gsap",
+    "css",
+    "shadcn cli",
+    "free component"
+  ],
+  "contains": [
+    "categorized: UI Components, Animations, Backgrounds, Text Animations, Micro Interactions",
+    "each component in four variants: JS/TS × CSS/Tailwind",
+    "installs via jsrepo or the shadcn CLI from the reactbits.dev registry (820 catalogued registry items)",
+    "everything on the page is free; React Bits Pro is a separate paid library"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "javascript",
+    "css",
+    "tailwind",
+    "gsap",
+    "framer-motion",
+    "three.js",
+    "ogl"
+  ],
+  "pricing": "free",
+  "license": "MIT+Commons-Clause",
+  "related": {
+    "repo": "https://github.com/DavidHDev/react-bits",
+    "docs": "https://reactbits.dev/get-started/installation",
+    "npm": null,
+    "figma": null,
+    "parent": "reactbits-dev"
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,63 @@
+{
+  "id": "github-com-ggml-org-llama-cpp-pull-28186",
+  "url": "https://github.com/ggml-org/llama.cpp/pull/28186",
+  "kind": "page",
+  "hints_hash": "7a6e6ff4da46df10",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/pull/28186",
+      "title": "CI : Add ubuntu-cuda builds to release.yml by ORippler · Pull Request #28186 · ggml-org/llama.cpp · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CI: Add ubuntu-cuda builds to release.yml (#28186)",
+  "summary": "Merged llama.cpp pull request adding ubuntu-cuda build jobs (CUDA 12.8/13.3, x64 and arm64) to the release workflow.",
+  "description": "Pull request #28186 in ggml-org/llama.cpp adding Ubuntu CUDA packages to the release workflow: three jobs (CUDA 12.8/13.3, x64 and arm64) publish the builds, ship dependent libraries and match CI naming with the Windows jobs. NCCL was removed again before merge until its license redistribution is confirmed; cublasLt stays as a transitive dependency. Merged by CISC 14 Sep 2026 with 14 commits.",
+  "type": "article",
+  "keywords": [
+    "ci",
+    "release workflow",
+    "github action",
+    "cuda",
+    "ubuntu",
+    "build",
+    "packaging",
+    "arm64",
+    "x64",
+    "ccache",
+    "nccl",
+    "llama.cpp"
+  ],
+  "contains": [
+    "adds ubuntu-cuda build jobs (12.8/13.3, x64 + arm64) to release.yml",
+    "ships dependent libraries with the Ubuntu packages",
+    "NCCL dropped before merge until its license is confirmed; cublasLt kept as a transitive dependency",
+    "release ccache moved to HF to avoid thrashing the GHA cache",
+    "merged 14 Sep 2026 (commit 391fac1); 14 commits"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "cuda"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/ggml-org/llama.cpp",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.85
+}

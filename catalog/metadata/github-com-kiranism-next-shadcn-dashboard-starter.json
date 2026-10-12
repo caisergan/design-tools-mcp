@@ -1,0 +1,36 @@
+{
+  "id": "github-com-kiranism-next-shadcn-dashboard-starter",
+  "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter",
+  "kind": "repo",
+  "hints_hash": "556678d59ebf4376",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:03:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Kiranism/next-shadcn-dashboard-starter/blob/HEAD/README.md", "title": "Admin Dashboard Template with Next.js & Shadcn UI", "status": null}
+  ],
+  "status": "ok",
+  "name": "next-shadcn-dashboard-starter",
+  "summary": "MIT-licensed Next.js admin dashboard starter with working data tables, forms, Clerk auth, organizations and billing.",
+  "description": "A production-ready admin dashboard template built with Next.js 16, shadcn/ui, Tailwind CSS v4 and TypeScript. Tables search, filter, sort and paginate through TanStack Table with React Query and nuqs; forms validate with TanStack Form and Zod; Clerk provides authentication, multi-tenant organizations, billing and plan gating. A cleanup script strips whichever features you do not need.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "sidebar", "table", "chart", "card", "kanban", "chat", "form", "command-palette", "modal", "drawer", "popover", "tabs", "badge", "pagination", "404"],
+  "keywords": ["admin dashboard", "dashboard template", "next.js", "shadcn ui", "tailwind css", "react", "typescript", "starter template", "saas boilerplate", "data table", "kanban board", "chat ui", "analytics dashboard", "authentication", "multi-tenant", "rbac", "billing", "dark mode", "react query", "command palette"],
+  "contains": [
+    "Next.js 16 admin dashboard starter, MIT licensed",
+    "pages: dashboard overview, product and user tables, kanban, chat, AI chat, notifications, workspaces, billing, profile",
+    "data tables with search, filter, sort and pagination (TanStack Table + React Query + nuqs)",
+    "forms with TanStack Form and Zod plus create/update mutations",
+    "Clerk auth, organizations, billing and plan-based access control",
+    "sidebar layout with six-plus themes and a theme switcher",
+    "cleanup script removes optional features in a minute",
+    "ships AGENTS.md, CLAUDE.md and a Claude Code skill"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "tanstack-query", "zustand", "zod"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Kiranism/next-shadcn-dashboard-starter", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

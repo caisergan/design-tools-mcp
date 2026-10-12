@@ -1,0 +1,32 @@
+{
+  "id": "abtest-design",
+  "url": "https://abtest.design",
+  "kind": "site",
+  "hints_hash": "df27fc57b35a9c98",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://abtest.design", "title": "abtest.design", "status": null},
+    {"url": "https://abtest.design/patterns/misc", "title": "Misc", "status": null},
+    {"url": "https://abtest.design/patterns/referral", "title": "Referral", "status": null},
+    {"url": "https://abtest.design/patterns/onboarding", "title": "Onboarding", "status": null},
+    {"url": "https://abtest.design/patterns/checkout-sales", "title": "Checkout & sales", "status": null},
+    {"url": "https://abtest.design/tests/showing-pricing-options-upfront", "title": "Showing pricing options upfront", "status": 200}
+  ],
+  "status": "ok",
+  "name": "abtest.design",
+  "summary": "Curated collection of 48 A/B test results from consumer apps, each with the winning variant and its measured lift.",
+  "description": "A browsable library of A/B tests run by apps such as VEED, Blinkist, Headspace, Uber and Duolingo. Each test gives the company, the variant that won, the measured result (e.g. +15% trial conversion) and a short explanation; tests are grouped into patterns like paywall & free trial, onboarding, checkout & sales and referral.",
+  "type": "gallery",
+  "categories": ["inspiration", "learning"],
+  "elements": ["pricing", "badge", "card", "cta", "form", "contact", "chat", "features"],
+  "keywords": ["ab test", "a/b testing", "conversion rate", "conversion optimization", "paywall", "free trial", "onboarding", "checkout", "pricing page", "cta", "signup flow", "referral", "user engagement", "monetization", "retention", "ux case study", "growth design", "ux pattern"],
+  "contains": ["48 A/B test case studies from apps like VEED, Blinkist, Headspace and Uber", "grouped into 7 categories: paywall & free trial, onboarding, checkout & sales, engagement, monetization, referral, misc", "each test lists the winning variant, its measured lift and a short write-up"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

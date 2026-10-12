@@ -1,0 +1,54 @@
+{
+  "id": "fonts-google-com-specimen-rajdhani",
+  "url": "https://fonts.google.com/specimen/Rajdhani",
+  "kind": "page",
+  "hints_hash": "521f6eaf973eb415",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/specimen/Rajdhani",
+      "title": "Rajdhani - Google Fonts",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Rajdhani",
+  "summary": "Devanagari and Latin typeface with modularized, squared letterforms and a technical, condensed look; specimen page on Google Fonts.",
+  "description": "Specimen page for Rajdhani on Google Fonts. The typeface supports the Devanagari and Latin writing systems and has modularized, squared letterforms whose condensed appearance reads as technical. The page itself is JavaScript-rendered: only its title and description were readable.",
+  "type": "font-foundry",
+  "categories": [
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "font",
+    "typeface",
+    "devanagari",
+    "latin",
+    "condensed",
+    "squared",
+    "technical",
+    "google font",
+    "specimen",
+    "display font"
+  ],
+  "contains": [],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "fonts-google-com"
+  },
+  "confidence": 0.6
+}

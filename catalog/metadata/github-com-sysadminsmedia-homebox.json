@@ -1,0 +1,30 @@
+{
+  "id": "github-com-sysadminsmedia-homebox",
+  "url": "https://github.com/sysadminsmedia/homebox",
+  "kind": "repo",
+  "hints_hash": "c6c860c0f00440c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/sysadminsmedia/homebox/blob/HEAD/README.md", "title": "Save pepper to local file", "status": 200},
+    {"url": "https://raw.githubusercontent.com/sysadminsmedia/homebox/HEAD/README.md", "title": "Save pepper to local file", "status": 200},
+    {"url": "https://github.com/sysadminsmedia/homebox", "title": "GitHub - sysadminsmedia/homebox: A continuation of HomeBox the inventory and organization system built for the Home User · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/sysadminsmedia/homebox/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "HomeBox",
+  "summary": "Self-hosted home inventory app: items, locations, tags, custom fields, photos, warranties and maintenance tracking.",
+  "description": "An inventory and organization system for the home, written in Go with an embedded web UI and SQLite so it runs as a single small container (under 50 MB idle memory). Items are organized by categories, locations and tags with custom fields; it adds search, image upload, document and warranty storage, purchase price and maintenance schedules, and a responsive interface for desktop, tablet and phone. Docker Compose quick start, hosted demo instances, community translations via Weblate.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["home inventory", "inventory management", "self-hosted", "selfhosted", "organization", "warranty tracking", "maintenance schedule", "item tracking", "custom field", "location", "tag", "search", "image upload", "document storage", "golang", "sqlite", "docker", "homelab", "responsive design", "open source"],
+  "contains": ["items organized by categories, locations and tags, plus custom fields", "image upload and document/warranty tracking per item", "purchase date, price and maintenance schedule tracking", "search across the inventory", "Go backend with SQLite and an embedded web UI; under 50 MB idle memory", "single container with Docker Compose quick start; rootless and hardened images", "hosted demo and nightly demo instances; translations via Weblate", "AGPL-3.0; 7.5k GitHub stars"],
+  "formats": ["app", "code", "docs"],
+  "stack": ["go", "sqlite"],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/sysadminsmedia/homebox", "docs": "https://homebox.software", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

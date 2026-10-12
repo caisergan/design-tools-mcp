@@ -1,0 +1,32 @@
+{
+  "id": "1panel-pro",
+  "url": "https://1panel.pro",
+  "kind": "site",
+  "hints_hash": "5b85db11dc954847",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://1panel.pro/llms.txt", "title": "1Panel", "status": null},
+    {"url": "https://1panel.pro", "title": "1Panel: The Premier Linux Server Management Panel | cPanel Alternative", "status": 200},
+    {"url": "https://1panel.pro/docs/v2", "title": "1Panel Documentation - Open-Source Linux server management panel - 1Panel Docs", "status": 200},
+    {"url": "https://1panel.pro/pro-edition", "title": "1Panel Pro Edition — Free 30-day trial · Subscription from $80/yr · Perpetual $200", "status": 200},
+    {"url": "https://github.com/1Panel-dev/1Panel", "title": "GitHub - 1Panel-dev/1Panel: 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.", "status": 200},
+    {"url": "https://github.com/1Panel-dev/1Panel/blob/HEAD/frontend/package.json", "title": "1Panel/frontend/package.json", "status": 200}
+  ],
+  "status": "ok",
+  "name": "1Panel",
+  "summary": "Open-source Linux server management panel with a one-click app store, Docker, website hosting and AI agent management.",
+  "description": "Web-based control panel for Linux servers: host monitoring, file, database and container management, one-click WordPress/SSL deployment, WAF and backups, and a curated app store (187 apps). Adds AI management for Ollama, agents and MCP servers; OSS edition is free, Pro ($80/yr or $200 perpetual) and Enterprise editions add multi-node management, advanced security and governance.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["server management panel", "linux", "cpanel alternative", "docker", "docker ui", "self-hosted", "app store", "one-click install", "wordpress", "ssl certificate", "backup", "ollama", "ai agent", "mcp", "webmin alternative", "waf", "vps", "open source"],
+  "contains": ["open-source Linux server management panel", "one-click app store with 187 apps", "36K GitHub stars, 2.8M downloads", "AI management: Ollama, AI agents, MCP servers", "plans: OSS free, Pro $80/yr or $200 perpetual, Enterprise separate"],
+  "formats": ["app", "code", "api"],
+  "stack": ["vue", "tailwind", "typescript", "vite"],
+  "pricing": "freemium",
+  "license": "GPL-3.0",
+  "related": {"repo": "https://github.com/1Panel-dev/1Panel", "docs": "https://1panel.pro/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

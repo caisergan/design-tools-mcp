@@ -1,0 +1,35 @@
+{
+  "id": "github-com-vitejs-vite",
+  "url": "https://github.com/vitejs/vite",
+  "kind": "repo",
+  "hints_hash": "ea1f07048fee6334",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/vitejs/vite/blob/HEAD/README.md", "title": "Vite ⚡", "status": null},
+    {"url": "https://github.com/vitejs/vite", "title": "GitHub - vitejs/vite: Next generation frontend tooling. It's fast! · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vite",
+  "summary": "Frontend build tool with an instant dev server, fast HMR and a Rolldown-powered production build.",
+  "description": "Vite is a build tool for modern web projects in two parts: a dev server that serves native ES modules with extremely fast Hot Module Replacement, and a build command that bundles with Rolldown into optimized static assets. It is extensible through a universal plugin API and fully typed JavaScript APIs, and ships alongside create-vite project templates and @vitejs/plugin-legacy for older browsers.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["build tool", "dev server", "hmr", "hot module replacement", "frontend", "bundler", "javascript", "typescript", "plugin api", "rolldown", "static asset", "vite"],
+  "contains": [
+    "instant server start and lightning fast HMR",
+    "production build bundles with Rolldown",
+    "packages: vite, create-vite and @vitejs/plugin-legacy",
+    "universal plugin interface and fully typed APIs",
+    "83.3k stars, 8.8k forks on GitHub",
+    "docs at vite.dev; MIT licensed"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["javascript", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/vitejs/vite", "docs": "https://vite.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

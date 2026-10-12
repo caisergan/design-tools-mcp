@@ -1,0 +1,104 @@
+{
+  "id": "sv-animations-vercel-app",
+  "url": "https://sv-animations.vercel.app",
+  "kind": "site",
+  "hints_hash": "69c57ce3a342fc3d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://sv-animations.vercel.app",
+      "title": "Svelte Animations Components",
+      "status": 200
+    },
+    {
+      "url": "https://sv-animations.vercel.app/magic",
+      "title": "Svelte Magic UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/SikandarJODD/animations",
+      "title": "GitHub - SikandarJODD/animations: Svelte 5 Animations includes Magic UI, Spell UI build using Tailwind CSS & Motion SV · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Svelte Animations",
+  "summary": "Animated Svelte 5 component library: 50+ free, open-source effects ported from Magic UI, Spell UI and Fancy Components.",
+  "description": "Copy-paste animation components and effects for Svelte 5, built with motion-sv and Tailwind CSS and distributed through the shadcn-svelte registry. The set ports Magic UI (57 components), Spell UI (21) and Fancy Components (10): animated backgrounds, text effects, shiny and ripple buttons, card effects, cursors, a globe, icon cloud, marquee, timeline and progress.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion",
+    "registries"
+  ],
+  "elements": [
+    "background",
+    "text-effect",
+    "button",
+    "card",
+    "cursor",
+    "timeline",
+    "progress",
+    "list",
+    "avatar",
+    "map",
+    "marquee",
+    "globe"
+  ],
+  "keywords": [
+    "animated component",
+    "svelte component",
+    "svelte 5",
+    "magic ui",
+    "spell ui",
+    "fancy component",
+    "text animation",
+    "animated background",
+    "text effect",
+    "button animation",
+    "globe",
+    "marquee",
+    "number ticker",
+    "shadcn svelte",
+    "registry",
+    "copy paste",
+    "motion",
+    "free component"
+  ],
+  "contains": [
+    "50+ animated components and effects (67 shadcn registry items measured)",
+    "ports: Magic UI 57, Spell UI 21, Fancy Components 10 (per repo README)",
+    "animated backgrounds, text effects, buttons, cards, cursors, globe, icon cloud, marquee",
+    "built with motion-sv and Tailwind CSS",
+    "copy-paste source plus CLI install from the shadcn-svelte registry",
+    "free and open source, MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "svelte",
+    "tailwind",
+    "motion-sv",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/SikandarJODD/animations",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dotmatrix-zzzzshawn-cloud",
+  "url": "https://dotmatrix.zzzzshawn.cloud",
+  "kind": "site",
+  "hints_hash": "1ac3a2cb93fd9a80",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dotmatrix.zzzzshawn.cloud", "title": "Dot Matrix", "status": 200},
+    {"url": "https://dotmatrix.zzzzshawn.cloud/getting-started/introduction", "title": "Dot Matrix", "status": 200},
+    {"url": "https://dotmatrix.zzzzshawn.cloud/getting-started/usage", "title": "Dot Matrix", "status": 200},
+    {"url": "https://dotmatrix.zzzzshawn.cloud/getting-started/manual", "title": "Dot Matrix", "status": 200},
+    {"url": "https://dotmatrix.zzzzshawn.cloud/showcase", "title": "Showcase · Dot Matrix", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Dot Matrix",
+  "summary": "55+ free dot matrix loaders for React, installed from a shadcn registry and owned as local code.",
+  "description": "A focused React component library of dot matrix loading animations, built with React, TypeScript, Tailwind CSS and shadcn conventions. Loaders install through the @dotmatrix shadcn registry (or by manual copy) into apps that have a components.json, with a playground to preview loader states and a showcase of loaders used in real products.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["loader"],
+  "keywords": ["loader", "loading animation", "loading state", "spinner", "dot matrix", "react loader", "animated loader", "shadcn registry", "tailwind", "typescript", "loading indicator", "button loading state"],
+  "contains": ["55+ dot matrix loaders", "install with npx shadcn@latest add @dotmatrix/<loader>", "custom shadcn registry, scoped as @dotmatrix", "playground and showcase pages", "shared runtime files for manual setup", "React, TypeScript and Tailwind CSS"],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://dotmatrix.zzzzshawn.cloud/getting-started/introduction", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

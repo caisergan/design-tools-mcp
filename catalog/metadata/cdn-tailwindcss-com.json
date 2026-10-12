@@ -1,0 +1,29 @@
+{
+  "id": "cdn-tailwindcss-com",
+  "url": "https://cdn.tailwindcss.com",
+  "kind": "site",
+  "hints_hash": "b4c3a539e51634e7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cdn.tailwindcss.com/llms.txt", "title": null, "status": 200},
+    {"url": "https://cdn.tailwindcss.com", "title": null, "status": 200},
+    {"url": "https://cdn.tailwindcss.com/3.4.17", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tailwind CSS CDN",
+  "summary": "CDN that serves the Tailwind CSS browser script for pinned versions from 3.0.0 through 3.4.17.",
+  "description": "A CDN endpoint for Tailwind CSS: requesting a version path such as /3.4.17 returns that build as a JavaScript file, and the root URL redirects to the newest version. Unknown paths return a console.error that lists every available version, from 3.0.0 through 3.4.17.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["tailwind css", "cdn", "browser script", "utility css", "css framework", "prototype", "frontend", "javascript", "version pinning"],
+  "contains": ["serves Tailwind CSS browser builds by version path", "root redirects to the latest build, 3.4.17", "versions from 3.0.0 through 3.4.17, including 3.0.0 alpha releases", "unknown paths return a console.error listing the available versions"],
+  "formats": ["code"],
+  "stack": ["tailwind"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

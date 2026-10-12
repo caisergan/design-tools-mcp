@@ -1,0 +1,24 @@
+{
+  "id": "blog-streamlinehq-com-tag-icons",
+  "url": "https://blog.streamlinehq.com/tag/icons",
+  "kind": "page",
+  "hints_hash": "15ecca5a1b2586f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://blog.streamlinehq.com/tag/icons", "title": "Icon University - Streamline", "status": null}
+  ],
+  "status": "ok",
+  "name": "Icon University",
+  "summary": "Free article series on icon design from the Streamline team: consistency, hand icons, Figma workflow, coloring and sizing.",
+  "description": "Streamline's icon-design hub: a tag page collecting 16 articles on drawing and shipping icon sets — keeping thousands of icons consistent, designing hands, pairing icons with typefaces, coloring and resizing vectors, and building icon styles in Figma.",
+  "keywords": ["icon design", "icon set", "iconography", "icon tutorial", "figma icon", "vector icon", "line icon", "solid icon", "hand icon", "icon consistency", "icon grid", "resize icon", "design process", "icon library", "design article"],
+  "contains": [
+    "16 icon-design articles listed with one-line summaries",
+    "topics: icon consistency, hand icons, typeface pairing, coloring, vector lines, grids and key shapes",
+    "free; from the team behind Streamline's icon library"
+  ],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

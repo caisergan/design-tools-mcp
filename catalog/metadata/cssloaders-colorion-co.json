@@ -1,0 +1,27 @@
+{
+  "id": "cssloaders-colorion-co",
+  "url": "https://cssloaders.colorion.co",
+  "kind": "site",
+  "hints_hash": "f3b58689642316ab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cssloaders.colorion.co", "title": "CSS Loader Library — 99 pure-CSS loaders, free to copy", "status": null}
+  ],
+  "status": "ok",
+  "name": "CSS Loader Library",
+  "summary": "99 pure-CSS loading spinners you click to copy, each with a ready-made prompt for a coding agent.",
+  "description": "A library of 99 loading spinners built with pure CSS — no JavaScript, no dependencies. Click any loader to copy its self-contained CSS or grab a prompt that has a coding agent recreate it; every snippet paints with a single --ink colour token and respects prefers-reduced-motion. Part of the Colorion CSS tools collection.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["loader"],
+  "keywords": ["css loader", "loading spinner", "loader animation", "css animation", "pure css", "spinner", "loading indicator", "copy paste css", "css snippet", "no javascript", "ai prompt", "mit license", "colorion"],
+  "contains": ["99 pure-CSS loaders", "click a loader to copy its CSS or a coding-agent prompt", "single --ink colour token per snippet", "respects prefers-reduced-motion", "no JavaScript, no dependencies", "MIT licensed"],
+  "formats": ["code", "prompts"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

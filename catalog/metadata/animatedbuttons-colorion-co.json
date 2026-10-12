@@ -1,0 +1,74 @@
+{
+  "id": "animatedbuttons-colorion-co",
+  "url": "https://animatedbuttons.colorion.co",
+  "kind": "site",
+  "hints_hash": "a906257620463a0a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://animatedbuttons.colorion.co",
+      "title": "CSS Button Library — 99 pure-CSS hover effects, free to copy",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "CSS Button Library",
+  "summary": "Library of 99 buttons with pure-CSS hover effects, free to copy as CSS or a coding-agent prompt.",
+  "description": "Ninety-nine self-contained CSS buttons with animated hover effects — fills, lifts, shines, glitches, neon and more. Click any button to copy its CSS or grab a ready-made prompt for a coding agent; every snippet paints from a single colour token and respects prefers-reduced-motion.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "button"
+  ],
+  "keywords": [
+    "css button",
+    "animated button",
+    "hover effect",
+    "button animation",
+    "micro interaction",
+    "copy paste css",
+    "button library",
+    "pure css",
+    "no javascript",
+    "css snippet",
+    "coding agent prompt",
+    "interaction design",
+    "prefers-reduced-motion",
+    "neon button",
+    "glass button"
+  ],
+  "contains": [
+    "99 numbered pure-CSS button hover effects",
+    "no JavaScript, no dependencies",
+    "copy self-contained CSS or a prompt for a coding agent",
+    "single --bink colour token per snippet",
+    "respects prefers-reduced-motion",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "prompts"
+  ],
+  "stack": [
+    "css"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

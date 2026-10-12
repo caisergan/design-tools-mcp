@@ -1,0 +1,29 @@
+{
+  "id": "wieslawsoltes-github-io-forma",
+  "url": "https://wieslawsoltes.github.io/Forma",
+  "kind": "page",
+  "hints_hash": "415ffe7e1be73ada",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://wieslawsoltes.github.io/Forma", "title": "Forma — A little more possible.", "status": 200},
+    {"url": "https://github.com/wieslawsoltes/Forma", "title": "GitHub - wieslawsoltes/Forma", "status": 200},
+    {"url": "https://raw.githubusercontent.com/wieslawsoltes/Forma/HEAD/README.md", "title": "Forma", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Forma",
+  "summary": "Local-first, browser-based vector design editor with a WebGPU canvas: layers, symbols, prototype links and file export.",
+  "description": "A Sketch-style vector design editor written in plain HTML, CSS and JavaScript, with a retained WebGPU rendering path and a Canvas 2D fallback laid out in a three-column workspace. It ships with an editable sample project (136 layers, desktop and mobile frames, symbols, prototype links) and exports Sketch, SVG, PNG, JPEG and WebP; work is saved on the device, with no accounts, API keys or analytics.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["design editor", "vector editor", "webgpu", "canvas", "local-first", "prototype", "svg export", "browser app", "html css javascript", "layer", "offline design", "open source"],
+  "contains": ["browser design editor with WebGPU rendering and Canvas 2D fallback", "three-column workspace: pages, layers and canvas", "sample project with 136 editable layers, frames, symbols and prototype links", "export to Sketch, SVG, PNG, JPEG and WebP", "no accounts, API keys, analytics or CDN assets"],
+  "formats": ["app", "code"],
+  "stack": ["html", "css", "javascript", "webgpu"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/wieslawsoltes/Forma", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

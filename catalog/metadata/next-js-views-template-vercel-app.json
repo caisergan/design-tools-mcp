@@ -1,0 +1,36 @@
+{
+  "id": "next-js-views-template-vercel-app",
+  "url": "https://next-js-views-template.vercel.app",
+  "kind": "site",
+  "hints_hash": "450320b95c3d3647",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://next-js-views-template.vercel.app", "title": "App template", "status": null},
+    {"url": "https://next-js-views-template.vercel.app/examples/table", "title": "App template", "status": null},
+    {"url": "https://next-js-views-template.vercel.app/examples/kanban", "title": "App template", "status": null},
+    {"url": "https://next-js-views-template.vercel.app/examples/calendar", "title": "App template", "status": null}
+  ],
+  "status": "ok",
+  "name": "App template",
+  "summary": "Next.js and shadcn/ui dashboard starter with copyable table, calendar and kanban view examples.",
+  "description": "A small Next.js app template built with shadcn/ui. It ships a dashboard screen with stat cards and a recent-sales table, plus example views: a data table with row selection, a month calendar and a kanban board with To Do / In Progress / Done columns.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "stats", "table", "calendar", "kanban", "card", "checkbox"],
+  "keywords": ["nextjs", "app template", "dashboard template", "shadcn ui", "table view", "calendar view", "kanban board", "starter", "react", "tailwind css", "data table", "copy paste", "admin dashboard"],
+  "contains": [
+    "dashboard screen with stat cards and a recent sales table",
+    "example views: table, calendar, kanban",
+    "data table with row selection (0 of 5 rows selected)",
+    "kanban columns: To Do, In Progress, Done",
+    "version v1.0.0"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "tailwind", "typescript", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

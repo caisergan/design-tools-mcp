@@ -1,0 +1,121 @@
+{
+  "id": "obsidianui-dev",
+  "url": "https://obsidianui.dev",
+  "kind": "site",
+  "hints_hash": "fbca2219c809e33d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://obsidianui.dev/llms.txt",
+      "title": "ObsidianUI",
+      "status": null
+    },
+    {
+      "url": "https://obsidianui.dev",
+      "title": "ObsidianUI - React & Tailwind CSS Components Library",
+      "status": 200
+    },
+    {
+      "url": "https://www.obsidianui.dev/components",
+      "title": "React Components | ObsidianUI",
+      "status": 200
+    },
+    {
+      "url": "https://www.obsidianui.dev/developers",
+      "title": "Developer Resources | ObsidianUI",
+      "status": 200
+    },
+    {
+      "url": "https://www.obsidianui.dev/docs/hover-img",
+      "title": "Hover Image – ObsidianUI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Atharvsinh-codez/ObsidianUI",
+      "title": "GitHub - Atharvsinh-codez/ObsidianUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ObsidianUI",
+  "summary": "Open-source React component library of animated components, blocks and landing page templates built with Motion and Tailwind CSS.",
+  "description": "Copy-paste React component library by Atharv: animated and interactive components (draggable marquee, art gallery, hover image, flip text, scroll effects, cursor effects, canvas and WebGL backgrounds), blocks such as Dashboard Shell, Analytics Dashboard and Status Bars, and landing page templates like Project One. 103 registry items install with npx shadcn@latest add from the public registry, or copy the source manually. Agents get llms.txt and Markdown docs, a read-only HTTP API with an OpenAPI spec, and a local stdio MCP server. MIT licensed.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "cursor",
+    "scroll-effect",
+    "marquee",
+    "button",
+    "carousel",
+    "tabs",
+    "card",
+    "loader",
+    "otp-input",
+    "text-effect",
+    "slider"
+  ],
+  "keywords": [
+    "react component",
+    "tailwind",
+    "motion",
+    "component library",
+    "shadcn registry",
+    "animated component",
+    "scroll animation",
+    "marquee",
+    "cursor effect",
+    "text effect",
+    "loader",
+    "otp input",
+    "nextjs",
+    "open source",
+    "copy paste",
+    "landing page template",
+    "mcp"
+  ],
+  "contains": [
+    "103 registry items, including supporting UI primitives",
+    "components: marquee, art gallery, hover image, flip text, scroll, cursor, loader, OTP input",
+    "blocks: Dashboard Shell, Analytics Dashboard, Status Bars, Split Showcase, v-prism",
+    "installs with npx shadcn@latest add from /r/{name}.json; registry at /r/registry.json",
+    "read-only HTTP API with OpenAPI spec plus Markdown versions of every page",
+    "local stdio MCP server (npm run mcp) and agent instructions for coding agents",
+    "landing page template: Project One (fintech/web3)",
+    "MIT licensed; built by Atharv (@athrix_codes), Vercel hosting sponsor"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "api",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Atharvsinh-codez/ObsidianUI",
+    "docs": "https://www.obsidianui.dev/developers",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,71 @@
+{
+  "id": "studio-zoxilsi-cc",
+  "url": "https://studio.zoxilsi.cc",
+  "kind": "site",
+  "hints_hash": "d8c76ab6f1fdbf79",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:50:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://studio.zoxilsi.cc",
+      "title": "zoxilsi studio",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "zoxilsi studio",
+  "summary": "WebGL mesh-gradient studio: design gradient backdrops and export them as PNG, video or code.",
+  "description": "A GPU-accelerated browser studio for mesh gradients, silky waves, geometric patterns and spotlight backdrops: OKLab blending, 100+ presets, live effects and one-click export to PNG, video and code. The page is a JavaScript app, so only its title, meta description and canvas controls (mesh grid rows/columns, topology, canvas size) were readable.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [
+    "background"
+  ],
+  "keywords": [
+    "mesh gradient",
+    "gradient studio",
+    "gradient generator",
+    "webgl gradient",
+    "oklab blending",
+    "background generator",
+    "animated background",
+    "wave pattern",
+    "spotlight background",
+    "preset",
+    "export png",
+    "export video",
+    "shader"
+  ],
+  "contains": [
+    "mesh gradients, silky waves, geometric patterns, spotlight backdrops",
+    "100+ presets",
+    "OKLab blending and live effects",
+    "canvas controls: mesh grid rows/columns, topology, canvas size",
+    "one-click export to PNG, video and code"
+  ],
+  "formats": [
+    "png",
+    "video",
+    "code"
+  ],
+  "stack": [
+    "webgl"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

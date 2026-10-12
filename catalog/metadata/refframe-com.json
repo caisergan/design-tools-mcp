@@ -1,0 +1,30 @@
+{
+  "id": "refframe-com",
+  "url": "https://refframe.com",
+  "kind": "site",
+  "hints_hash": "c29d45498dff39a8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://refframe.com/llms.txt", "title": "Refframe", "status": null},
+    {"url": "https://refframe.com", "title": "Refframe", "status": 200},
+    {"url": "https://refframe.com/pricing", "title": "Pricing · Refframe", "status": 200},
+    {"url": "https://refframe.com/faq", "title": "FAQ · Refframe", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Refframe",
+  "summary": "Web design inspiration library of real website screens, tagged by element, section, style, industry, effect and color.",
+  "description": "A public catalog of website and interface references you browse by tag, plus personal boards, uploads and sharing for design teams. Filters cover elements (buttons, cards, menus), page sections (hero, pricing, footer), visual style, industry, effects and colors. The site also publishes articles on design systems, handoff and working with AI tools.",
+  "type": "gallery",
+  "categories": ["inspiration", "sections"],
+  "elements": ["navbar", "footer", "hero", "features", "team", "testimonials", "faq", "pricing", "contact", "logo-cloud", "stats", "card", "badge", "button", "input", "pagination", "carousel", "accordion", "tabs", "timeline", "map", "chart", "list", "marquee", "3d"],
+  "keywords": ["web design inspiration", "design reference", "ui reference", "website screenshot", "reference library", "moodboard", "design inspiration gallery", "landing page inspiration", "hero section", "ui pattern", "design board", "web design gallery", "product design research", "visual reference", "design handoff"],
+  "contains": ["public catalog of website and interface references", "filters: element, section, style, industry, effect, color", "3,900+ reference pages listed in the sitemap", "boards for saving and organizing references, with uploads and sharing", "free demo plan; Pro $8/month, Max $10/month", "articles in English and Russian on design systems and handoff"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

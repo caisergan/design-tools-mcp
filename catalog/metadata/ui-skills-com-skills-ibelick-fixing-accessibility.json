@@ -1,0 +1,19 @@
+{
+  "id": "ui-skills-com-skills-ibelick-fixing-accessibility",
+  "url": "https://ui-skills.com/skills/ibelick/fixing-accessibility",
+  "kind": "page",
+  "hints_hash": "d77b60f8fff522f7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui-skills.com/skills/ibelick/fixing-accessibility", "title": "fixing-accessibility Skill - ibelick | UI Skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fixing-accessibility",
+  "summary": "Agent skill that audits and fixes HTML accessibility: accessible names, keyboard access, focus, contrast and form errors.",
+  "type": "agent-skill",
+  "keywords": ["accessibility", "a11y", "wcag", "aria", "accessible name", "keyboard access", "focus management", "dialog", "color contrast", "form error", "screen reader", "agent skill", "ui review"],
+  "related": {"repo": "https://github.com/ibelick/ui-skills", "docs": null, "npm": null, "figma": null, "parent": "ui-skills-com"},
+  "confidence": 0.9
+}

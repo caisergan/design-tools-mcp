@@ -1,0 +1,73 @@
+{
+  "id": "mycolor-space",
+  "url": "https://mycolor.space",
+  "kind": "site",
+  "hints_hash": "db367b3f4e0d7899",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mycolor.space",
+      "title": "ColorSpace - Color Palettes Generator and Color Gradient Tool",
+      "status": null
+    },
+    {
+      "url": "https://mycolor.space/gradient.php",
+      "title": "ColorSpace - CSS Gradient Color Generator",
+      "status": 200
+    },
+    {
+      "url": "https://mycolor.space/info.php",
+      "title": "ColorSpace - Contact",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ColorSpace",
+  "summary": "Enter a color to generate matching palettes, plus CSS gradient generators for two and three colors.",
+  "description": "ColorSpace is a browser tool for building color schemes: type in a color and it proposes palettes of matching hues. Separate pages generate CSS linear-gradients from two or three colors and show the copyable CSS code. It is aimed at designers and developers picking colors for a project.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "color palette",
+    "color palette generator",
+    "color scheme generator",
+    "matching color",
+    "color combination",
+    "gradient generator",
+    "css gradient",
+    "linear gradient",
+    "3 color gradient",
+    "hex color",
+    "color tool",
+    "web design color"
+  ],
+  "contains": [
+    "palette generator: enter one color, get matching palettes",
+    "CSS gradient generator for two colors",
+    "3-color gradient generator",
+    "copyable CSS linear-gradient code"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

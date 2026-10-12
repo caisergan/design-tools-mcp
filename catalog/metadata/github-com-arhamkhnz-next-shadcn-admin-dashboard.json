@@ -1,0 +1,30 @@
+{
+  "id": "github-com-arhamkhnz-next-shadcn-admin-dashboard",
+  "url": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard",
+  "kind": "repo",
+  "hints_hash": "4903e2417328623a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:01Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard/blob/HEAD/README.md", "title": "Next.js Admin Template with TypeScript & Shadcn UI", "status": 200},
+    {"url": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard", "title": "GitHub - arhamkhnz/next-shadcn-admin-dashboard: Modern Admin Dashboard Template built with Shadcn UI and Next.js 16", "status": 200},
+    {"url": "https://raw.githubusercontent.com/arhamkhnz/next-shadcn-admin-dashboard/HEAD/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Studio Admin",
+  "summary": "Next.js admin dashboard template with 20+ screens, theme presets, a collapsible sidebar and auth layouts.",
+  "description": "Admin dashboard template built with Next.js 16, TypeScript, Tailwind CSS v4 and shadcn/ui. Ships prebuilt dashboards (default, CRM, finance, analytics, productivity, e-commerce), file manager, kanban, calendar, invoice, chat, users/roles management and four auth screens, with color presets like Tangerine and Neo Brutalism on a colocation file structure.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "sidebar", "table", "kanban", "calendar", "chat", "form"],
+  "variants": {"sidebar": ["collapsible"]},
+  "keywords": ["admin dashboard", "dashboard template", "next.js", "shadcn ui", "tailwind css", "react", "typescript", "crm dashboard", "analytics dashboard", "kanban board", "calendar", "data table", "authentication", "theme preset", "dark mode", "sidebar", "admin panel"],
+  "contains": ["prebuilt dashboards: default, CRM, finance, analytics, productivity, e-commerce", "20+ screens incl. kanban, calendar, invoices, file manager, chat, users and roles", "four authentication screens", "theme presets: neutral, Tangerine, Neo Brutalism, Soft Pop", "collapsible sidebar and layout controls", "Zod, React Hook Form, Zustand and TanStack Table", "MIT licensed"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "zod", "zustand"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,76 @@
+{
+  "id": "htmllover-gumroad-com-l-kachabazar",
+  "url": "https://htmllover.gumroad.com/l/kachabazar",
+  "kind": "page",
+  "hints_hash": "73541f7a078df7d1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:38:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://htmllover.gumroad.com/l/kachabazar",
+      "title": "KachaBazar — Full Stack Grocery Ecommerce Template (TailwindCSS, React, Next.js, Node.js, MongoDB)",
+      "status": null
+    },
+    {
+      "url": "https://htmllover.gumroad.com/",
+      "title": "HtmlLover",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "KachaBazar — Full Stack Grocery Ecommerce Template",
+  "summary": "Full stack MERN grocery ecommerce template: React/Next.js storefront, admin dashboard and Node.js + MongoDB REST API.",
+  "description": "Gumroad product for a full stack grocery ecommerce template built with React, Next.js and Tailwind CSS, plus an admin dashboard and a Node.js and MongoDB backend with REST API. The creator profile describes it as a production-ready ecommerce starter. The product page is JavaScript-rendered, so price and item-level details were not readable.",
+  "type": "template",
+  "elements": [
+    "dashboard"
+  ],
+  "keywords": [
+    "grocery template",
+    "ecommerce template",
+    "nextjs template",
+    "react template",
+    "mern stack",
+    "admin dashboard",
+    "rest api",
+    "nodejs",
+    "mongodb",
+    "tailwind css",
+    "storefront",
+    "full stack starter",
+    "online store"
+  ],
+  "contains": [
+    "storefront built with React, Next.js and Tailwind CSS",
+    "admin dashboard included",
+    "backend and REST API on Node.js and MongoDB",
+    "creator: HtmlLover, full stack ecommerce template maker; product name KachaBazar",
+    "sold on Gumroad; price and further details not readable (JS-rendered page)"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "node",
+    "mongodb"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

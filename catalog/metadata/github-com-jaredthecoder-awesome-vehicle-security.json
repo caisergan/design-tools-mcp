@@ -1,0 +1,28 @@
+{
+  "id": "github-com-jaredthecoder-awesome-vehicle-security",
+  "url": "https://github.com/jaredthecoder/awesome-vehicle-security",
+  "kind": "repo",
+  "hints_hash": "6e0a7c5dac47c222",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/jaredthecoder/awesome-vehicle-security/HEAD/README.md", "title": "Awesome Vehicle Security", "status": 200},
+    {"url": "https://github.com/jaredthecoder/awesome-vehicle-security", "title": "GitHub - jaredthecoder/awesome-vehicle-security: 🚗 A curated list of resources for learning about vehicle security and car hacking. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Vehicle Security",
+  "summary": "Curated list of vehicle security and car-hacking resources: articles, talks, books, papers, tools and people.",
+  "description": "A community-maintained awesome list about vehicle security, car hacking and CAN/LIN bus tinkering. Sections cover articles, presentations, books, research papers, courses, blogs, conferences, podcasts, hardware, software, applications and libraries by language, plus coordinated disclosure.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["vehicle security", "car hacking", "automotive security", "cybersecurity", "can bus", "lin bus", "ecu", "obd", "penetration testing", "awesome list", "resource list", "hardware hacking", "embedded security", "car"],
+  "contains": ["curated links: articles, presentations, books and research papers", "projects: hardware, software, applications and libraries by language", "sections for conferences, newsletters, podcasts and people to follow", "related awesome lists for CAN bus and LIN bus tooling", "CC0-1.0 licensed; 4.7k GitHub stars"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": "https://github.com/jaredthecoder/awesome-vehicle-security", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

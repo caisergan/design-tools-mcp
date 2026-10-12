@@ -1,0 +1,25 @@
+{
+  "id": "landing-love-authors-basement-studio",
+  "url": "https://landing.love/authors/basement-studio",
+  "kind": "page",
+  "hints_hash": "e37b23a486463d96",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://landing.love/authors/basement-studio", "title": "Basement Studio — landing.love", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Basement Studio",
+  "summary": "Author page on landing.love listing the 6 sites designed by Basement Studio, tagged by style and category.",
+  "description": "A landing.love author page collecting the 6 sites designed by Basement Studio, a studio crafting brands, websites, 3D experiences and products. Each entry links to its landing.love page and carries tags such as 3D website, minimal, eCommerce, fashion and technology.",
+  "elements": [],
+  "keywords": ["landing page", "landing page inspiration", "3d website", "design studio", "web design agency", "portfolio website", "website gallery", "ecommerce website", "minimal website", "site design reference"],
+  "contains": ["6 sites designed by Basement Studio", "tags: 3D website, minimal, eCommerce, fashion, illustration, technology", "studio description: brands, websites, 3D experiences and products", "link to each site's landing.love page"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "landing-love"},
+  "confidence": 0.85
+}

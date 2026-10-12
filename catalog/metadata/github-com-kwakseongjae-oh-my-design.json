@@ -1,0 +1,35 @@
+{
+  "id": "github-com-kwakseongjae-oh-my-design",
+  "url": "https://github.com/kwakseongjae/oh-my-design",
+  "kind": "repo",
+  "hints_hash": "60edf9470db7b092",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:30:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/kwakseongjae/oh-my-design/blob/HEAD/README.md", "title": "Korean output: add --lang ko", "status": null},
+    {"url": "https://raw.githubusercontent.com/kwakseongjae/oh-my-design/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "oh-my-design",
+  "summary": "CLI that installs design skills, DESIGN.md contracts and company references into Claude Code, Codex, Cursor and OpenCode.",
+  "description": "A CLI that installs local design workflows into an existing coding agent: a portable DESIGN.md (declared philosophy, decision ids, tokens bound to those decisions), component contracts with anatomy, state matrices and accessibility, numbered quality gates, and 500+ quality-graded company references. It ships 28 skills, 20 specialist roles and 93 preset contracts; omd book serves the system locally or exports a static HTML file for handoff. Core workflows need no API key, daemon or MCP server.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "dev-ai-tools"],
+  "elements": ["card"],
+  "keywords": ["design system", "design.md", "agent skill", "design token", "component contract", "state matrix", "accessibility", "quality gate", "shadcn", "radix", "claude code", "codex", "cursor", "opencode", "cli", "design reference", "contrast", "design philosophy", "provenance"],
+  "contains": [
+    "28 skills, 20 specialist roles, 93 preset contracts, 500+ quality-graded references",
+    "installs into Claude Code, Codex, OpenCode and Cursor channels",
+    "DESIGN.md Core v2: seven semantic anchors, decision ids (D-xx) bound to tokens",
+    "54 slop gates plus 8 system-fidelity gates; 45 component-craft norms",
+    "omd book renders the system locally or writes a static HTML file",
+    "no API key, daemon or MCP server for core workflows"
+  ],
+  "formats": ["prompts", "cli", "npm-package", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/kwakseongjae/oh-my-design", "docs": "https://oh-my-design.kr/docs/en", "npm": "oh-my-design-cli", "figma": null, "parent": null},
+  "confidence": 0.85
+}

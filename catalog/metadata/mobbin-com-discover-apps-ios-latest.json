@@ -1,0 +1,20 @@
+{
+  "id": "mobbin-com-discover-apps-ios-latest",
+  "url": "https://mobbin.com/discover/apps/ios/latest",
+  "kind": "page",
+  "hints_hash": "ff6c0f4547281de7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.com/discover/apps/ios/latest", "title": "Discover iOS apps | Mobbin", "status": 200},
+    {"url": "https://mobbin.com/llms.txt", "title": "Mobbin", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Discover iOS apps",
+  "summary": "Mobbin browse page for discovering iOS apps and their screens for UI and UX research.",
+  "description": "A Mobbin discovery page listing iOS apps that can be browsed and searched for UI and UX research. Mobbin itself is a searchable design-reference library of real mobile apps, web apps and websites covering screens, multi-step flows and UI patterns.",
+  "keywords": ["ios app", "mobile app", "design reference", "design inspiration", "ui research", "ux research", "app screenshot", "ui pattern", "screen flow", "mobile design", "browse app"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "mobbin-com"},
+  "confidence": 0.6
+}

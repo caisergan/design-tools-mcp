@@ -1,0 +1,35 @@
+{
+  "id": "github-com-google-skills",
+  "url": "https://github.com/google/skills",
+  "kind": "repo",
+  "hints_hash": "d5c1b9ed91ebd867",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/google/skills/blob/HEAD/README.md", "title": "Agent Skills", "status": null}
+  ],
+  "status": "ok",
+  "name": "Agent Skills",
+  "summary": "Agent Skills for Google products and technologies, including Google Cloud, installable into coding agents.",
+  "description": "A repository of SKILL.md skills covering Google Cloud (GKE, BigQuery, Cloud Run, Filestore, networking, IAM, Cloud Storage), Google AI/ML (Gemini API, Agent Platform, Genkit for Go, JS, Python and Dart) and developer, management and advertising tooling, plus bundled plugins with MCP servers for agent harnesses. Skills install with npx per project or globally.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill.md", "google cloud", "gemini", "claude code", "codex", "plugin", "mcp server", "gke", "bigquery", "cloud run", "firebase", "genkit", "ai agent", "npx", "gcloud cli", "google ads", "cloud storage"],
+  "contains": [
+    "skill areas: AI/ML, infrastructure, databases, developer tools, management, security, web hosting, advertising",
+    "Google Cloud coverage: GKE, BigQuery, Cloud Run, Cloud Storage, Filestore, IAM, Cloud Monitoring, SecOps",
+    "AI/ML coverage: Gemini API, Agent Platform, Genkit for Dart, Go, JS and Python",
+    "installs via npx, choosing skills, target agents and installation scope",
+    "bundled plugins (skills + MCP servers) for Claude Code, Codex and Antigravity CLI",
+    "additional skill packs: ADK, Android, Dart, Firestore, Flutter, Google Maps Platform",
+    "Apache 2.0 licensed"
+  ],
+  "formats": ["prompts", "docs", "cli"],
+  "stack": [],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/google/skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,80 @@
+{
+  "id": "github-com-erkelost-wallhaven-desktop",
+  "url": "https://github.com/ErKeLost/wallhaven-desktop",
+  "kind": "repo",
+  "hints_hash": "f89279c13c3d4801",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ErKeLost/wallhaven-desktop/blob/HEAD/README.md",
+      "title": "Wallhaven Desktop (WIP) PR Welcome",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ErKeLost/wallhaven-desktop",
+      "title": "GitHub - ErKeLost/wallhaven-desktop: wallhaven Wallpaper software desktop",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ErKeLost/wallhaven-desktop/HEAD/package.json",
+      "title": "wallhaven-desktop package.json",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Wallhaven Desktop",
+  "summary": "Tauri desktop client for browsing and downloading wallpapers from the Wallhaven service.",
+  "description": "Desktop wallpaper client for the Wallhaven API built with Tauri, React 19, Farm and shadcn/ui. Wallhaven API requests are proxied through a local service (wallhaven.fun) so wallpapers stay reachable from networks that block the site. Work in progress; builds are distributed through GitHub releases.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "wallpaper",
+    "wallpaper app",
+    "wallpaper browser",
+    "wallpaper downloader",
+    "desktop wallpaper",
+    "tauri",
+    "react",
+    "radix ui",
+    "shadcn ui",
+    "macos",
+    "desktop app"
+  ],
+  "contains": [
+    "Tauri desktop client for the Wallhaven wallpaper API",
+    "stack: Farm bundler, React 19, Tauri, shadcn/ui, Radix UI",
+    "Wallhaven API calls proxied through wallhaven.fun so browsing works on restricted networks",
+    "builds distributed via GitHub releases; macOS install note (xattr quarantine fix)",
+    "work in progress, PRs welcome"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tauri",
+    "farm",
+    "radix",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/ErKeLost/wallhaven-desktop",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

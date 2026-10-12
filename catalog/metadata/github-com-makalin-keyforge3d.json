@@ -1,0 +1,36 @@
+{
+  "id": "github-com-makalin-keyforge3d",
+  "url": "https://github.com/makalin/KeyForge3D",
+  "kind": "repo",
+  "hints_hash": "e6133e18b1742b01",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/makalin/KeyForge3D/blob/HEAD/README.md", "title": "KeyForge3D", "status": null}
+  ],
+  "status": "ok",
+  "name": "KeyForge3D",
+  "summary": "Desktop app that extracts a key's shape from a photo, reads its bitting pattern and exports a 3D-printable STL file.",
+  "description": "A Python Tkinter application for replicating physical keys: upload a photo of a key shot on a plain background and it extracts the 2D profile with OpenCV, detects and displays the bitting pattern (e.g. 05624), builds a 3D model with Trimesh and saves it as keymodel.stl for printing. Scaling defaults to 1 pixel = 0.1 mm, with reference-object scaling, key-type identification and a mobile version on the roadmap.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["key replication", "3d printing", "stl", "locksmith", "bitting", "key bitting", "image processing", "opencv", "python", "tkinter", "3d model", "key photo", "trimesh", "cad"],
+  "contains": [
+    "extracts a key's 2D profile from a photo with OpenCV",
+    "detects and displays the bitting pattern (e.g. 05624)",
+    "generates a 3D model and exports keymodel.stl",
+    "Tkinter GUI: upload an image, process and save in one click",
+    "scale default 1 pixel = 0.1 mm; reference-object scaling planned",
+    "Python 3.8+; opencv-python, numpy, trimesh, shapely, pillow",
+    "roadmap: key-type identification, ML bitting, mobile app",
+    "MIT licensed"
+  ],
+  "formats": ["code"],
+  "stack": ["python", "opencv", "numpy", "trimesh", "shapely", "pillow", "tkinter"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/makalin/KeyForge3D", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

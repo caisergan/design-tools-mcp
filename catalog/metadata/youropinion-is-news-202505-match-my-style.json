@@ -1,0 +1,20 @@
+{
+  "id": "youropinion-is-news-202505-match-my-style",
+  "url": "https://youropinion.is/news/202505-match-my-style",
+  "kind": "page",
+  "hints_hash": "85e8e9c79217be23",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://youropinion.is/news/202505-match-my-style", "title": "Two powerful new ways to customize your surveys | YourOpinion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Two powerful new ways to customize your surveys",
+  "summary": "YourOpinion blog post: generate a survey theme from any URL or import an existing shadcn/ui theme.",
+  "description": "Product update announcing two ways to match survey design to a brand: AI generation of a theme from any website URL (fonts, colors, spacing, layout auto-detected) and importing an existing shadcn/ui theme through the survey's colour palette settings.",
+  "type": "article",
+  "keywords": ["survey theme", "shadcn", "theme import", "survey design", "custom theme", "theme generator", "survey platform", "color palette", "product update"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

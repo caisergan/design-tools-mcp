@@ -1,0 +1,29 @@
+{
+  "id": "github-com-mohdamaan1-justforpixel-expressivelab",
+  "url": "https://github.com/mohdamaan1/JustForPixel-ExpressiveLab",
+  "kind": "repo",
+  "hints_hash": "8019a099f569149d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mohdamaan1/JustForPixel-ExpressiveLab/blob/HEAD/README.md", "title": "🚀 JustForPixel ExpressiveLab M3", "status": 200},
+    {"url": "https://github.com/mohdamaan1/JustForPixel-ExpressiveLab", "title": "GitHub - mohdamaan1/JustForPixel-ExpressiveLab", "status": 200}
+  ],
+  "status": "ok",
+  "name": "JustForPixel ExpressiveLab M3",
+  "summary": "Open-source Jetpack Compose library of Material 3 Expressive UI and spring-animated motion components for Android.",
+  "description": "A Kotlin library for Jetpack Compose: elastic push buttons, morphing icon buttons, a centered floating pill navigation bar, wavy and arc sliders, shape-morph loading indicators, an audio equalizer icon and a bouncy squircle card. Installed via JitPack (minSdk 24+); ships an OLED pitch-black theme and Material You dynamic color.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["button", "navbar", "slider", "loader", "card"],
+  "variants": {"navbar": ["floating", "pill", "centered"]},
+  "keywords": ["android", "jetpack compose", "kotlin", "material 3", "material you", "ui component", "motion component", "spring animation", "floating navigation bar", "bottom bar", "slider", "loading indicator", "card", "button", "squircle", "oled dark mode", "open source"],
+  "contains": ["7 Material 3 Expressive components for Jetpack Compose", "install via JitPack; minSdk 24+", "spring animations: elastic push, morphing icon button, wavy and arc sliders, shape-morph loader", "centered floating pill navigation bar with active label expansion", "OLED pitch-black theme and Material You dynamic color", "MIT license with mandatory attribution to Er. Mohd Amaan", "95 stars and 2 forks on GitHub"],
+  "formats": ["code"],
+  "stack": ["kotlin", "jetpack-compose", "android", "material-3"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mohdamaan1/JustForPixel-ExpressiveLab", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

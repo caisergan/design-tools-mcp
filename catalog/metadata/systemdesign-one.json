@@ -1,0 +1,31 @@
+{
+  "id": "systemdesign-one",
+  "url": "https://systemdesign.one",
+  "kind": "site",
+  "hints_hash": "6e021d0f1d8d29da",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://systemdesign.one", "title": "System Design", "status": null},
+    {"url": "https://systemdesign.one/categories", "title": "All Categories - System Design", "status": null},
+    {"url": "https://systemdesign.one/about", "title": "About - System Design", "status": null},
+    {"url": "https://systemdesign.one/categories/deep-dive", "title": "Deep Dive - Category - System Design", "status": null},
+    {"url": "https://systemdesign.one/categories/fundamentals", "title": "Fundamentals - Category - System Design", "status": null}
+  ],
+  "status": "ok",
+  "name": "System Design",
+  "summary": "Illustrated articles and deep dives on system design by Neo Kim, from consistent hashing to Slack architecture breakdowns.",
+  "description": "A system design learning resource and newsletter by Neo Kim, organising illustrated articles into two categories: Fundamentals (consistent hashing, Bloom filters, quotient filters, gossip protocol, service discovery, back-of-the-envelope estimation) and Deep Dive (Slack architecture, distributed counter, real-time presence platform, live comment system, leaderboard, URL shortening, Pastebin). It offers a free system design playbook on newsletter signup, publishes some deep dives for paid subscribers, and states the goal of becoming the best book on system design.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "distributed system", "consistency pattern", "consistent hashing", "bloom filter", "gossip protocol", "service discovery", "back of the envelope", "scalability", "architecture deep dive", "cheat sheet", "software engineering interview", "newsletter"],
+  "contains": ["categories: Fundamentals and Deep Dive", "illustrated articles on distributed systems topics", "architecture deep dives of real products: Slack, leaderboards, live comments, presence", "free system design playbook on newsletter signup", "extra deep dives for paid newsletter subscribers"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tweet-to-code-vercel-app",
+  "url": "https://tweet-to-code.vercel.app",
+  "kind": "site",
+  "hints_hash": "a6e74dbf09260f24",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://github.com/BankkRoll/tweet-to-code", "title": "GitHub - BankkRoll/tweet-to-code: Starting a journey picking designs to turn to code from twitter", "status": 200 }
+  ],
+  "status": "partial",
+  "name": "Tweet to Code",
+  "summary": "shadcn registry of React components recreated from tweet designs, installable with the shadcn CLI.",
+  "description": "A design-to-code registry that turns UI designs posted on X/Twitter into ready-to-use React components, installed with the same CLI flow as shadcn/ui. Components are responsive, support light/dark themes and are attributed to their original designers; the repo is MIT-licensed while the designs remain with their creators. The site itself is bot-walled, so its gallery could not be read.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": [],
+  "keywords": ["shadcn registry", "react component", "registry", "tweet design", "design to code", "copy paste", "tailwind css", "nextjs", "dark mode", "ui recreation", "component"],
+  "contains": ["registry of components recreated from tweet designs", "installs via the shadcn/ui CLI", "light/dark theme support", "designs attributed to original creators", "repo MIT-licensed; 4 stars, 35 commits", "site demo at tweet-to-code.vercel.app"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/BankkRoll/tweet-to-code", "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "github-com-mengto-threeui",
+  "url": "https://github.com/MengTo/threeui",
+  "kind": "repo",
+  "hints_hash": "e7de4fd83b7b1cff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/MengTo/threeui/blob/HEAD/README.md", "title": "ThreeUI Community", "status": 200},
+    {"url": "https://threeui.com", "title": "Three.js Components, Templates & Interactive Shaders | ThreeUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ThreeUI Community",
+  "summary": "Open-source Three.js component catalog for React: 3D components, WebGL backgrounds, hero sections, text animations and templates.",
+  "description": "The login-free Community edition of ThreeUI: 50 parent components across 111 routes, with 141 free variant records and 23 singleton components (164 browse results), plus complete implementation source and required assets. Pieces are copy-ready Three.js components — 3D elements, WebGL backgrounds, buttons, text animation, hero sections and landing-page templates — published as the React package @designcodeio/threeui. Pro components and Pro source stay behind a paid tier.",
+  "type": "component-library",
+  "categories": ["components", "sections"],
+  "elements": ["3d", "hero", "background", "text-effect", "button", "testimonials"],
+  "keywords": ["three.js", "webgl", "3d component", "react", "shader", "background", "hero section", "text animation", "landing page", "template", "component library", "npm package", "interactive component", "motion design"],
+  "contains": ["50 Community parent components; 111 routes; 164 browse results", "141 free variant records + 23 singleton components", "catalog categories: sections, 3D assets, buttons, landing pages, text animation, UI elements, backgrounds, hero", "React package @designcodeio/threeui with shared styles", "Community code MIT; bundled fonts OFL-1.1; bundled Three.js runtime MIT", "no login needed for Community; Pro source via CLI with OAuth after purchase"],
+  "formats": ["npm-package", "code", "templates", "cli", "docs"],
+  "stack": ["react", "three.js", "css"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/MengTo/threeui", "docs": "https://threeui.com", "npm": "@designcodeio/threeui", "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,39 @@
+{
+  "id": "isthereanytool-app",
+  "url": "https://isthereanytool.app",
+  "kind": "site",
+  "hints_hash": "cdb0dbfe29b17ed6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://isthereanytool.app/llms.txt", "title": "isthereanytool.app", "status": null },
+    { "url": "https://isthereanytool.app", "title": "Design, craft & AI tools directory", "status": 200 },
+    { "url": "https://www.isthereanytool.app/guides", "title": "Guides · isthereanytool.app", "status": 200 },
+    { "url": "https://www.isthereanytool.app/category/mac-apps", "title": "Mac Apps · isthereanytool.app", "status": 200 },
+    { "url": "https://www.isthereanytool.app/category/dev-tools", "title": "Dev Tools · isthereanytool.app", "status": 200 },
+    { "url": "https://isthereanytool.app/llms-full.txt", "title": "isthereanytool.app — full catalog", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "isthereanytool.app",
+  "summary": "Curated directory of hidden design, craft and AI tools, browsable by category with best-of and compare guides.",
+  "description": "A discovery directory listing 1,741 tools across 19 categories, from AI image, video, audio and writing to UI kits, design systems, design-to-code, motion and Mac apps. Listings carry pricing, platforms and best-for fields; guides add best-of lists, comparisons, role stacks and a glossary.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["design tool", "ai tool", "tool directory", "design resource", "curated directory", "tool discovery", "ai image tool", "ai video tool", "ui kit", "design system", "motion tool", "mac app", "best of list", "comparison", "glossary", "productivity tool"],
+  "contains": [
+    "1,741 tools across 19 categories (llms.txt; the homepage shows 20 category shelves)",
+    "categories: AI image, video, audio, writing, UI & product, design systems, motion, Mac apps",
+    "guides: best-of lists, comparisons, role stacks and a glossary",
+    "every tool's stored fields (pricing, platforms, filters, confidence) in llms-full.txt",
+    "sitemap of 1,863 URLs incl. /category/, /tool/ and guide pages",
+    "community submissions with a listing moderation policy"
+  ],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hugeicons-com-docs-icons-for-web-quick-start",
+  "url": "https://hugeicons.com/docs/icons-for-web/quick-start",
+  "kind": "page",
+  "hints_hash": "64d2fe851caeebb2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hugeicons.com/docs/icons-for-web/quick-start", "title": "Quick Start with Icon Font | Hugeicons Documentation", "status": null}
+  ],
+  "status": "ok",
+  "name": "Quick Start with Hugeicons Free Icon Font",
+  "summary": "Docs page for the free icon font: 6,000+ stroke-rounded icons installed via CDN in WOFF2, WOFF, TTF, EOT and SVG formats.",
+  "description": "Guide to putting the free icon font on a site: link the CDN stylesheet, use <i> tags with hgi-stroke class names, and choose among five font formats. The page states the free set has 6,000+ icons usable without attribution, and that the Pro tier adds 60,000+ icons in 10 styles.",
+  "keywords": ["icon font", "free icon", "stroke icon", "rounded icon", "svg icon", "icon library", "cdn", "woff2", "web icon", "icon css", "font icon", "icon pack"],
+  "elements": [],
+  "formats": ["font-files", "svg", "docs"],
+  "contains": ["6,000+ free stroke-rounded icons", "formats: WOFF2, WOFF, TTF, EOT, SVG", "CDN install, no attribution required", "Pro tier: 60,000+ icons in 10 styles"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://hugeicons.com/docs", "npm": null, "figma": null, "parent": "hugeicons-com"},
+  "confidence": 0.9
+}

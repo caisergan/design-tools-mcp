@@ -1,0 +1,27 @@
+{
+  "id": "mobbin-com-mcp",
+  "url": "https://mobbin.com/mcp",
+  "kind": "page",
+  "hints_hash": "63dc2fca62030550",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.com/mcp", "title": "Mobbin MCP: The Design MCP Server for AI Agents", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mobbin MCP",
+  "summary": "Design MCP server that lets AI agents search 600,000+ real app screens and UI patterns from shipped products.",
+  "description": "An MCP (Model Context Protocol) server that connects AI coding and design agents to Mobbin's library of 600,000+ real product screens. Agents can search and pull examples — paywalls, onboarding, KYC, checkout and signup flows, 404 pages, bottom sheets — and reason over them while designing. One-click install for Claude Code, Cursor, Codex, ChatGPT, Manus, Grok, Figma and v0; included in Mobbin's paid plans.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "inspiration"],
+  "elements": ["404", "drawer", "form", "pricing"],
+  "keywords": ["mcp server", "model context protocol", "design mcp", "ai agent", "ui pattern", "app screenshot", "user flow", "design reference", "ui inspiration", "mobile app design", "web design pattern", "paywall", "onboarding", "kyc", "checkout flow", "bottom sheet", "404 page", "design research", "screen design", "real product screen"],
+  "contains": ["600,000+ real product screens (621,500+ stated)", "search, reference and reason over screens and flows from an AI agent", "one-click install for Claude Code, Cursor, Codex, ChatGPT, Manus, Grok, Figma and v0; no API key needed", "included in all paid Mobbin plans (Pro & Team)", "unlimited MCP usage during beta", "example outputs: paywall patterns, KYC flows, checkout comparisons, 404 pages, bottom sheets"],
+  "formats": ["api", "screenshots"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "mobbin-com"},
+  "confidence": 0.9
+}

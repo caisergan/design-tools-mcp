@@ -1,0 +1,23 @@
+{
+ "id": "chanhdai-com-components-carbon-ads",
+ "url": "https://chanhdai.com/components/carbon-ads",
+ "kind": "page",
+ "hints_hash": "7611bf18e184a047",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T19:00:41Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://chanhdai.com/components/carbon-ads", "title": "Carbon Ads – Chánh Đại", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Carbon Ads",
+ "summary": "Next.js component that renders a Carbon Ads unit styled to match your shadcn/ui theme.",
+ "description": "Docs page for a shadcn-installable component that displays a Carbon Ads unit in Next.js apps: it refreshes the ad on client-side navigation, matches the shadcn/ui theme in light and dark mode, keeps the slot height while loading and hides itself when an ad blocker stops the script.",
+ "type": "component-library",
+ "elements": [],
+ "keywords": ["carbon ads", "ad unit", "advertisement", "monetization", "sponsor", "nextjs", "react", "shadcn", "theme", "dark mode", "client-side navigation", "ad blocker", "component"],
+ "formats": ["registry"],
+ "stack": ["react", "nextjs"],
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "chanhdai-com"},
+ "confidence": 0.8
+}

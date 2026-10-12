@@ -1,0 +1,31 @@
+{
+  "id": "footer-design-sites-heron-ai",
+  "url": "https://footer.design/sites/heron-ai",
+  "kind": "page",
+  "hints_hash": "eb12615a3c910dfe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/heron-ai", "title": "Footer | Heron AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Heron AI",
+  "summary": "Desktop and mobile footer screenshots from the Heron AI site designed by BearPlus, tagged flat, WebGL, grid and monochromatic.",
+  "description": "One footer entry in the Footer design gallery: the Heron AI website footer shown in desktop and mobile views, with style and type tags, the designer credit, the date added, and links to the live site and similar designs.",
+  "elements": ["footer"],
+  "keywords": ["footer", "footer design", "website footer", "footer inspiration", "ai website", "desktop footer", "mobile footer", "webgl footer", "monochromatic", "flat design", "grid layout", "footer screenshot"],
+  "contains": [
+    "desktop and mobile footer screenshots",
+    "styles: flat, interactive, WebGL, fun, monochromatic, large type, grid, skeuomorphic",
+    "types: architecture, design, AI",
+    "designed by BearPlus; added August 21, 2026",
+    "link to the live Heron AI site"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

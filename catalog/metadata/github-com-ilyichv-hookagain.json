@@ -1,0 +1,35 @@
+{
+  "id": "github-com-ilyichv-hookagain",
+  "url": "https://github.com/ilyichv/hookagain",
+  "kind": "repo",
+  "hints_hash": "9ae47fe2f9fd579f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ilyichv/hookagain/blob/HEAD/README.md", "title": "hookagain", "status": null},
+    {"url": "https://github.com/ilyichv/hookagain", "title": "GitHub - ilyichv/hookagain: A collection of shadcn installable react hooks", "status": 200},
+    {"url": "https://hookagain.vercel.app", "title": "Installation", "status": 200}
+  ],
+  "status": "ok",
+  "name": "hookagain",
+  "summary": "Collection of reusable React hooks installable with the shadcn CLI.",
+  "description": "A collection of reusable React hooks that install like shadcn/ui components: add a hook with the shadcn CLI and use it in your project. The set covers clipboard, debounce, interval, local storage, media query, intersection observer and Phoenix channel/socket utilities.",
+  "type": "registry",
+  "categories": ["registries"],
+  "elements": [],
+  "keywords": ["react hook", "shadcn cli", "copy to clipboard hook", "debounce hook", "local storage hook", "media query hook", "intersection observer hook", "phoenix channel hook", "custom hook", "shadcn registry", "react utility"],
+  "contains": [
+    "9 React hooks, e.g. useCopyToClipboard, useDebouncedValue, useLocalStorage",
+    "also useMediaQuery, useIntersectionObserver, useInterval, usePhoenixChannel, usePhoenixSocket",
+    "installed with the shadcn CLI following the same principles as shadcn/ui",
+    "docs site with a page per hook",
+    "MIT licensed"
+  ],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ilyichv/hookagain", "docs": "https://hookagain.vercel.app", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

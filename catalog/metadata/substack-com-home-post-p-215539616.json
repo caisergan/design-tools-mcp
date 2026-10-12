@@ -1,0 +1,24 @@
+{
+  "id": "substack-com-home-post-p-215539616",
+  "url": "https://substack.com/home/post/p-215539616",
+  "kind": "page",
+  "hints_hash": "3f8015d11e6d087a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://substack.com/home/post/p-215539616", "title": "September 7 - September 13 Round Up: Agentic UX Interfaces, UX Design Eras, Enforcing AI-Generated UI", "status": null},
+    {"url": "https://aiforux.substack.com/p/september-7-september-13-round-up", "title": "September 7 - September 13 Round Up: Agentic UX Interfaces, UX Design Eras, Enforcing AI-Generated UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "September 7 - September 13 Round Up",
+  "summary": "Weekly AI for UX round up of links on agentic interface patterns, design systems for AI-generated UI and AI models for product design.",
+  "description": "A weekly round-up post on the AI for UX Substack by Patrick Neeman (13 September 2026). It links and summarises that week's writing on AI in product design: agentic UX patterns such as planning visibility, tool-use disclosure, memory surfacing and recovery routing; five eras of UX design; enforcing AI-generated UI with a design system; head-to-head model comparisons for design work; AI-ready Figma handoff; and AI text watermarking.",
+  "type": "article",
+  "categories": ["learning"],
+  "keywords": ["ai ux", "agentic ux", "agentic interface", "design system", "ai-generated ui", "figma handoff", "ai model comparison", "product design", "ux design", "ai workflow", "newsletter", "round up"],
+  "contains": ["weekly round up of AI for UX links, 7-13 September 2026", "topics: agentic UX patterns, design systems that enforce AI-generated UI, model comparisons for product design"],
+  "formats": ["links"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

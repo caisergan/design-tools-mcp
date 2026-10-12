@@ -1,0 +1,25 @@
+{
+  "id": "fonts-google-com-specimen-biz-udpgothic",
+  "url": "https://fonts.google.com/specimen/BIZ+UDPGothic",
+  "kind": "page",
+  "hints_hash": "f2842ac4a3d056c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/BIZ+UDPGothic", "title": "BIZ UDPGothic - Google Fonts", "status": null},
+    {"url": "https://github.com/googlefonts/morisawa-biz-ud-gothic", "title": "Morisawa BIZ UDGothic", "status": 200}
+  ],
+  "status": "ok",
+  "name": "BIZ UDPGothic",
+  "summary": "Google Fonts specimen page for BIZ UDPGothic, Morisawa's universal-design Japanese sans serif.",
+  "description": "Specimen page for BIZ UDPGothic, the proportional variant of Morisawa's BIZ UD Gothic family: a universal-design typeface made to stay legible in education and business documents, with simplified kanji forms (no hooks or protruding vertical strokes) and finely adjusted counters. The page shows the family, its weights and its download, and the family's repository states the SIL Open Font License 1.1.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": ["japanese font", "japanese sans serif", "gothic font", "universal design font", "ud font", "cjk font", "google font", "webfont", "morisawa", "legible font", "business document font", "education font", "free font", "font specimen"],
+  "contains": ["specimen and download of BIZ UDPGothic on Google Fonts", "family licensed under the SIL Open Font License 1.1"],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.7
+}

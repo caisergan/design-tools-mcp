@@ -1,0 +1,69 @@
+{
+  "id": "similarsites-com",
+  "url": "https://similarsites.com",
+  "kind": "site",
+  "hints_hash": "a030b40139aad72d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://similarsites.com",
+      "title": "Similarsites.com - Easily Explore alternative websites",
+      "status": 200
+    },
+    {
+      "url": "https://similarsites.com/about",
+      "title": "SimilarSites - A little bit about us and SimilarWeb",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "SimilarSites.com",
+  "summary": "Browser extension and site that find websites similar to the page you are browsing.",
+  "description": "SimilarSites recommends alternative and competing websites from any URL, using 20+ similarity engines over content, keyword density, link structure, tagging and traffic data plus community ratings. Free to use through a browser extension or the website, with related tools such as the SimilarWeb and SimilarTech API.",
+  "type": "plugin",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "similar site",
+    "alternative website",
+    "competitor site",
+    "website discovery",
+    "find similar website",
+    "browser extension",
+    "chrome extension",
+    "site recommendation",
+    "related website",
+    "competitor research"
+  ],
+  "contains": [
+    "finds similar and alternative websites from any URL",
+    "browser extension plus website search",
+    "20+ similarity engines: content, keyword density, tagging, link structure, traffic",
+    "user ratings and reviews",
+    "more than 70K users, free",
+    "part of SimilarGroup; related SimilarWeb tools"
+  ],
+  "formats": [
+    "app",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

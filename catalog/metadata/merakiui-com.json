@@ -1,0 +1,117 @@
+{
+  "id": "merakiui-com",
+  "url": "https://merakiui.com",
+  "kind": "site",
+  "hints_hash": "45ffd41815fdff92",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://merakiui.com",
+      "title": "Meraki UI Tailwind CSS Components",
+      "status": null
+    },
+    {
+      "url": "https://merakiui.com/components",
+      "title": "Meraki UI Components | Free Tailwind CSS Components",
+      "status": null
+    },
+    {
+      "url": "https://merakiui.com/templates",
+      "title": "Meraki UI Tailwind CSS Templates",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Meraki UI",
+  "summary": "Free Tailwind CSS components with RTL support, dark mode and responsive layouts, plus free and paid landing page templates.",
+  "description": "Copy-paste Tailwind CSS components organised into application UI and marketing groups: alerts, avatars, breadcrumbs, buttons, cards, dropdowns, forms, inputs, modals, navbars, sidebars, tables, tabs, tooltips, 404 pages, CTAs, contact, FAQs, features, footers, heroes, pricing and teams. Components are responsive, support right-to-left languages and ship with an elegant dark mode. A templates section adds landing pages and dashboards built with Alpine.js, Laravel Blade and Vue 3.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "404",
+    "alert",
+    "avatar",
+    "banner",
+    "breadcrumbs",
+    "button",
+    "card",
+    "chart",
+    "contact",
+    "cta",
+    "dashboard",
+    "dropdown",
+    "faq",
+    "features",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "loader",
+    "modal",
+    "navbar",
+    "pagination",
+    "pricing",
+    "sidebar",
+    "table",
+    "tabs",
+    "team",
+    "tooltip"
+  ],
+  "keywords": [
+    "tailwind css",
+    "component",
+    "tailwind component",
+    "rtl",
+    "dark mode",
+    "responsive",
+    "free",
+    "application ui",
+    "marketing",
+    "landing page template",
+    "dashboard template",
+    "navbar",
+    "modal",
+    "pricing",
+    "hero",
+    "footer",
+    "copy paste",
+    "alpinejs",
+    "vue",
+    "laravel blade"
+  ],
+  "contains": [
+    "40 component pages under Application UI and Marketing",
+    "category counts: Inputs 13, Heros 11, Avatars 10, Cards 9, Skeleton 8, Pricing 7, Blog 6, Breadcrumbs 5, Forms 4",
+    "RTL language support and dark mode on every component",
+    "9 templates: free Vue 3 landing pages and paid dashboards and landing pages from $16 to $69"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "tailwind",
+    "alpinejs",
+    "vue"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

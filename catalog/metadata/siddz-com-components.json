@@ -1,0 +1,89 @@
+{
+  "id": "siddz-com-components",
+  "url": "https://siddz.com/components",
+  "kind": "page",
+  "hints_hash": "a74977ec67a1395a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://siddz.com/components",
+      "title": "React Components | Siddharth Meena",
+      "status": null
+    },
+    {
+      "url": "https://siddz.com/about",
+      "title": "About Siddharth Meena | Siddharth Meena",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "siddz-ui",
+  "summary": "Ten free copy-paste React components with Tailwind CSS: text effects, command palette, tabs, marquee and more.",
+  "description": "Ten open-source React components, each with a demo and its own docs page: floating toolbar, filter selector, scroll progress, floating tabs, confetti button, scramble text, animated text slider, shiny text, search bar and command palette. Built by Siddharth Meena and styled with Tailwind CSS; more components are announced.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "text-effect",
+    "navbar",
+    "scroll-effect",
+    "input",
+    "tabs",
+    "button",
+    "tooltip",
+    "slider",
+    "background",
+    "marquee",
+    "command-palette"
+  ],
+  "keywords": [
+    "react component",
+    "copy paste",
+    "tailwind css",
+    "open source",
+    "animated component",
+    "text effect",
+    "scramble text",
+    "shiny text",
+    "marquee",
+    "command palette",
+    "floating toolbar",
+    "filter selector",
+    "scroll progress",
+    "floating tab",
+    "confetti",
+    "search bar",
+    "particle",
+    "free"
+  ],
+  "contains": [
+    "10 free open-source React components",
+    "each with a demo and docs page",
+    "copy & paste, styled with Tailwind CSS",
+    "by Siddharth Meena (siddz-ui)"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

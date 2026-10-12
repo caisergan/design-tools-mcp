@@ -1,0 +1,27 @@
+{
+  "id": "fonts-google-com-specimen-aoboshi-one",
+  "url": "https://fonts.google.com/specimen/Aoboshi+One",
+  "kind": "page",
+  "hints_hash": "030ce0befc4cf5a0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/Aoboshi+One", "title": "Aoboshi One - Google Fonts", "status": null},
+    {"url": "https://github.com/matsuba723/Aoboshi", "title": "GitHub - matsuba723/Aoboshi", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Aoboshi One",
+  "summary": "Single-weight serif-style Japanese font inspired by Copperplate Gothic, available on Google Fonts.",
+  "description": "A single-weight serif-style Japanese typeface inspired by Copperplate Gothic, published on Google Fonts. The character set covers half-width alphanumerics, punctuation and Latin letters plus hiragana, katakana and full-width symbols. Sources, TTF builds and the license live in the matsuba723/Aoboshi repository.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": ["japanese font", "serif font", "display font", "google font", "free font", "single weight", "copperplate gothic", "hiragana", "katakana", "latin", "web font", "open font license"],
+  "contains": ["single-weight serif-style Japanese font", "inspired by Copperplate Gothic", "covers half-width alphanumerics, punctuation, Latin, hiragana, katakana and full-width symbols", "source repo with TTF builds, build.py and an OFL license"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": "https://github.com/matsuba723/Aoboshi", "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.85
+}

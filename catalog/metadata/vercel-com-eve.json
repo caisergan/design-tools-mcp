@@ -1,0 +1,26 @@
+{
+  "id": "vercel-com-eve",
+  "url": "https://vercel.com/eve",
+  "kind": "page",
+  "hints_hash": "e1e51b4ff0f4256f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vercel.com/eve", "title": "eve – The Agent Framework - Vercel", "status": 200},
+    {"url": "https://github.com/vercel/eve", "title": "GitHub - vercel/eve: The Open Framework for Building Agents", "status": 200},
+    {"url": "https://eve.dev", "title": "eve – build AI agents that you own", "status": 200},
+    {"url": "https://eve.dev/docs", "title": "Get started with eve: durable AI agents in TypeScript", "status": 200}
+  ],
+  "status": "ok",
+  "name": "eve",
+  "summary": "Vercel's filesystem-first framework for building AI agents from Markdown instructions and TypeScript tools, durable by default.",
+  "description": "An agent is a directory: instructions.md defines its role, tools/ holds TypeScript functions, and skills/, channels/, connections/ and subagents/ extend it. eve compiles the directory, runs it on Vercel primitives (Workflows, Sandbox, AI Gateway) or self-hosted, and scaffolds projects with eve init. Open source under Apache-2.0.",
+  "keywords": ["ai agent", "agent framework", "llm", "markdown", "typescript", "durable execution", "workflow", "sandbox", "mcp", "chat sdk", "react", "nextjs", "self-host", "open source", "vercel", "agent harness", "tool calling", "subagent", "ai sdk"],
+  "formats": ["npm-package", "cli", "code", "docs", "templates"],
+  "stack": ["typescript", "react", "nextjs"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/vercel/eve", "docs": "https://eve.dev/docs", "npm": "eve", "figma": null, "parent": "vercel-com"},
+  "confidence": 0.85
+}

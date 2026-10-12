@@ -1,0 +1,103 @@
+{
+  "id": "microinteractionsui-com",
+  "url": "https://microinteractionsui.com",
+  "kind": "site",
+  "hints_hash": "4e72a6b70e1b9a0e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://microinteractionsui.com",
+      "title": "MicroInteractions UI",
+      "status": null
+    },
+    {
+      "url": "https://www.microinteractionsui.com/animations/animated-tabs",
+      "title": "Animated Tabs - Beautiful UI Components for React",
+      "status": null
+    },
+    {
+      "url": "https://www.microinteractionsui.com/animations/animated-buttons",
+      "title": "Animated Buttons - Beautiful UI Components for React",
+      "status": null
+    },
+    {
+      "url": "https://www.microinteractionsui.com/theme-toggle",
+      "title": "Animated Theme Toggle components built with React, Tailwind CSS and Framer Motion - MicroInteractions UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/mateusmachry/microinteractionsui",
+      "title": "GitHub - mateusmachry/microinteractionsui: A collection of animated UI components built with React, Tailwind CSS, Shadcn, and Motion.",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "MicroInteractions UI",
+  "summary": "Library of animated React components — tabs, button, input, toggle, stepper, navbar — built with shadcn/ui, Tailwind and Motion.",
+  "description": "A small collection of ready-to-use animated UI components for React, built with Tailwind CSS, shadcn/ui and Motion (Framer Motion). Each component page carries a live preview and a CLI command to copy into a project. Pages cover tabs, button, input, theme toggle, stepper and navbar — including animated tabs and animated buttons — and the site links out to related libraries such as coss.com, Magic UI, React Bits, Aceternity UI, Animate UI and 21st.dev.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "button",
+    "tabs",
+    "input",
+    "navbar",
+    "switch",
+    "stepper"
+  ],
+  "keywords": [
+    "animated component",
+    "micro interaction",
+    "react component",
+    "tailwind",
+    "shadcn",
+    "framer motion",
+    "animation",
+    "ui component",
+    "copy paste component",
+    "button",
+    "tabs",
+    "toggle",
+    "stepper",
+    "navbar",
+    "theme toggle",
+    "dark mode"
+  ],
+  "contains": [
+    "10 component pages: tabs, button, input, theme toggle, stepper, navbar and animated/react variants",
+    "built with React, Tailwind CSS, shadcn/ui and Motion",
+    "each component installs by copying its CLI command",
+    "links to coss.com, Magic UI, React Bits, Aceternity UI, Animate UI and 21st.dev",
+    "open source on GitHub (mateusmachry/microinteractionsui)"
+  ],
+  "formats": [
+    "code",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/mateusmachry/microinteractionsui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

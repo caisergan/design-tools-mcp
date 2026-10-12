@@ -1,0 +1,31 @@
+{
+  "id": "finsmes-com",
+  "url": "https://finsmes.com",
+  "kind": "site",
+  "hints_hash": "e19711c47882d2a4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:37:07Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://finsmes.com", "title": "Homepage - FinSMEs", "status": null},
+    {"url": "https://www.finsmes.com/about", "title": "About - FinSMEs", "status": null},
+    {"url": "https://www.finsmes.com/category/uk", "title": "UK Archives - FinSMEs", "status": null},
+    {"url": "https://www.finsmes.com/category/usa", "title": "USA Archives - FinSMEs", "status": null},
+    {"url": "https://www.finsmes.com/category/chile", "title": "Chile Archives - FinSMEs", "status": null}
+  ],
+  "status": "ok",
+  "name": "FinSMEs",
+  "summary": "News site about venture capital, private equity and M&A deals, with country feeds and a paid funding dataset.",
+  "description": "FinSMEs publishes daily funding, private equity and M&A news about startups worldwide, grouped by country (USA, UK, Germany, France, Canada, India, Italy and more). It also sells FinSMEs Intelligence, a subscription dataset of analyst-verified funding rounds, and runs a daily email newsletter; readers are founders, investors, analysts and journalists.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["venture capital", "funding round", "startup funding", "private equity", "m&a deal", "investment news", "series a", "startup news", "vc news", "seed funding", "funding dataset", "press release"],
+  "contains": ["daily funding, private equity and M&A posts", "country feeds: USA, UK, Germany, France, Canada, India, Italy", "50,000 URLs in its sitemap", "FinSMEs Intelligence: 150+ analyst-verified funding rounds a week on subscription", "daily email newsletter", "press release submission"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

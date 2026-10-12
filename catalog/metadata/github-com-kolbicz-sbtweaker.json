@@ -1,0 +1,35 @@
+{
+  "id": "github-com-kolbicz-sbtweaker",
+  "url": "https://github.com/kolbicz/SBTweaker",
+  "kind": "repo",
+  "hints_hash": "225d1507592a4acd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/kolbicz/SBTweaker/blob/HEAD/README.md", "title": "SBTweaker", "status": 200}
+  ],
+  "status": "ok",
+  "name": "SBTweaker",
+  "summary": "Jailbreak tweak package that customises the iOS Home Screen: dock icons, grid, spacing, icon scale, animations and more.",
+  "description": "A collection of SpringBoard tweaks in one package with a settings pane, for rootless and roothide jailbreaks on iOS/iPadOS 15+. Controls dock icon count (1-8), home grid rows and columns (1-10), spacing, icon scale, hide App Library, double-tap to lock, icon layout backup, and animation speed options. Every feature is opt-in and applies live where possible.",
+  "type": "plugin",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["jailbreak", "ios", "ipados", "springboard", "tweak", "dock", "home screen", "grid", "icon", "animation", "rootless", "roothide", "theos"],
+  "contains": [
+    "dock icon count 1-8 with live capacity updates",
+    "home screen grid 1-10 rows and columns, portrait and landscape",
+    "spacing and icon scale options for home screen and dock",
+    "hide App Library, double-tap to lock, lock screen timeout",
+    "animation controls: drag coefficient, wake/sleep, unlock fly-in, fast copy, fast transitions",
+    "Settings > SBTweaker preference pane; all features opt-in",
+    "rootless (iphoneos-arm64) and roothide (iphoneos-arm64e) builds"
+  ],
+  "formats": ["code"],
+  "stack": ["objective-c", "theos"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/kolbicz/SBTweaker", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

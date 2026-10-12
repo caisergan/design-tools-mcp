@@ -1,0 +1,40 @@
+{
+  "id": "undraw-co",
+  "url": "https://undraw.co",
+  "kind": "site",
+  "hints_hash": "f256c5be2e2aae3c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://undraw.co", "title": "unDraw - Open source illustrations for any idea", "status": 200},
+    {"url": "https://undraw.co/license", "title": "License | unDraw", "status": 200},
+    {"url": "https://undraw.co/illustrations", "title": "Illustrations | unDraw", "status": 200},
+    {"url": "https://undraw.co/thankful", "title": "Thankful | unDraw", "status": 200},
+    {"url": "https://plus.undraw.co/", "title": "unDraw Plus", "status": 200}
+  ],
+  "status": "ok",
+  "name": "unDraw",
+  "summary": "Open-source illustration library: browse SVG scenes, set your brand color on the fly and download, free and without attribution.",
+  "description": "A constantly updated collection of open-source illustrations for landing pages, mobile apps and products. Browse or search the artwork, recolor it live to match a brand, and download SVG or PNG for commercial or personal use without attribution. A paid unDraw Plus supporter tier adds animated and bookstyle illustrations and custom-dimension graphics.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["illustration", "open source", "svg", "svg illustration", "free illustration", "png", "recolor", "custom color", "animated illustration", "empty state", "landing page", "app illustration", "vector"],
+  "contains": [
+    "illustration browser with 45 pages of results",
+    "1,853 URLs in the site sitemap",
+    "recolor the artwork on the fly before downloading",
+    "free for commercial and personal use, no attribution required",
+    "license bans ML training, pack redistribution and competing services",
+    "unDraw Plus: one-time payment for one year of supporter access",
+    "Plus extras: animated illustrations, bookstyle illustrations, custom dimensions",
+    "brand logos inside illustrations stay with their trademark owners"
+  ],
+  "formats": ["svg", "png"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

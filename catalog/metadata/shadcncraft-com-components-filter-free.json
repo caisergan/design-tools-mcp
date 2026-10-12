@@ -1,0 +1,86 @@
+{
+  "id": "shadcncraft-com-components-filter-free",
+  "url": "https://shadcncraft.com/components?filter=free",
+  "kind": "page",
+  "hints_hash": "ce4b09201f0c1dd3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:44:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcncraft.com/components?filter=free",
+      "title": "shadcn/ui components library for React and Figma – shadcncraft",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcncraft",
+  "summary": "Component library page of shadcncraft, filtered to the free shadcn/ui components and blocks for React and Figma.",
+  "description": "Production-ready shadcn/ui components that extend the core shadcn system with deeper states, patterns and real-world use cases, plus page blocks, apps and a matching Figma UI kit. This page lists the free components; the full library is Pro.",
+  "type": "registry",
+  "elements": [
+    "card",
+    "table",
+    "features",
+    "testimonials",
+    "list",
+    "hero",
+    "cta",
+    "form",
+    "contact",
+    "banner",
+    "stats",
+    "pricing"
+  ],
+  "keywords": [
+    "shadcn",
+    "component library",
+    "react",
+    "figma",
+    "ui kit",
+    "component",
+    "block",
+    "card",
+    "table",
+    "hero",
+    "pricing",
+    "testimonials",
+    "contact form",
+    "banner",
+    "stats",
+    "theme",
+    "tailwind",
+    "free",
+    "design system"
+  ],
+  "contains": [
+    "268 installable items in the shadcn registry",
+    "extends the core shadcn/ui system with production states and interaction patterns",
+    "matching Figma UI kit and React components",
+    "this page lists the free components; the full library is Pro",
+    "site also ships blocks, apps, agent skills, themes and Storybook"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "figma-file"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

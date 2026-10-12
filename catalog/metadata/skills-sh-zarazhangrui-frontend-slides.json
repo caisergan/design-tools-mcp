@@ -1,0 +1,84 @@
+{
+  "id": "skills-sh-zarazhangrui-frontend-slides",
+  "url": "https://skills.sh/zarazhangrui/frontend-slides",
+  "kind": "page",
+  "hints_hash": "76096f7cd10950fc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/zarazhangrui/frontend-slides",
+      "title": "zarazhangrui/frontend-slides — Agent skills",
+      "status": null
+    },
+    {
+      "url": "https://skills.sh/zarazhangrui/frontend-slides/frontend-slides",
+      "title": "frontend-slides — zarazhangrui/frontend-slides",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/zarazhangrui/frontend-slides",
+      "title": "GitHub - zarazhangrui/frontend-slides: Create beautiful slides on the web using a coding agent's frontend skills · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Frontend Slides",
+  "summary": "Agent skill that builds animation-rich, zero-dependency HTML presentation decks from scratch or from PowerPoint files.",
+  "description": "A coding-agent skill packaged as a Claude Code plugin, also usable by Codex, OpenCode and other agents. It makes single-file HTML presentations with inline CSS and JS — no npm, no build tools — from 12 curated style presets plus 34 optional bold design systems from beautiful-html-templates. It generates visual previews for the user to pick a direction, converts PowerPoint decks while keeping images and notes, and ships PDF export and Vercel deploy scripts.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "claude code plugin",
+    "html presentation",
+    "slide deck",
+    "slide",
+    "powerpoint conversion",
+    "pptx",
+    "presentation template",
+    "zero dependency",
+    "animation",
+    "design preset",
+    "dark theme",
+    "vibe coding",
+    "coding agent"
+  ],
+  "contains": [
+    "single-file HTML decks with inline CSS and JS, no build tools",
+    "12 curated style presets across dark, light and specialty themes",
+    "34 optional bold design systems from beautiful-html-templates",
+    "generates visual style previews instead of asking for preferences",
+    "converts PowerPoint files, extracting text, images and notes",
+    "PDF export and Vercel deploy scripts",
+    "fixed 16:9 1920x1080 stage scaled to the viewport"
+  ],
+  "formats": [
+    "prompts",
+    "templates",
+    "code"
+  ],
+  "stack": [
+    "javascript",
+    "css",
+    "python"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/zarazhangrui/frontend-slides",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.9
+}

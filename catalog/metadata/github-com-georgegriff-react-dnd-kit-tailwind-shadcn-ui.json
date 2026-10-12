@@ -1,0 +1,79 @@
+{
+  "id": "github-com-georgegriff-react-dnd-kit-tailwind-shadcn-ui",
+  "url": "https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui",
+  "kind": "repo",
+  "hints_hash": "51fc35f19620dde3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui/blob/HEAD/README.md",
+      "title": "react-dnd-kit-tailwind-shadcn-ui Example",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui",
+      "title": "GitHub - Georgegriff/react-dnd-kit-tailwind-shadcn-ui: Drag and drop Accessible kanban board implementing using React, @dnd-kit, tailwind and shadcn/ui · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "react-dnd-kit-tailwind-shadcn-ui",
+  "summary": "Example accessible Kanban board built with React, @dnd-kit, Tailwind CSS and shadcn/ui, with drag-and-drop and keyboard support.",
+  "description": "A reference implementation of a drag-and-drop Kanban board that stays usable with a keyboard and assistive technology thanks to @dnd-kit's accessibility features. Columns and cards are styled with Tailwind CSS and built from shadcn/ui primitives; the repo includes a developer guide and a live GitHub Pages demo.",
+  "type": "template",
+  "categories": [
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "kanban",
+    "card"
+  ],
+  "keywords": [
+    "kanban",
+    "kanban board",
+    "drag and drop",
+    "dnd-kit",
+    "react",
+    "shadcn",
+    "tailwind",
+    "accessible",
+    "keyboard navigation",
+    "project management",
+    "example",
+    "drag and drop board"
+  ],
+  "contains": [
+    "drag-and-drop Kanban board example",
+    "accessible interactions with @dnd-kit",
+    "built with React, Tailwind CSS and shadcn/ui",
+    "live demo on GitHub Pages",
+    "developer guide in the repository",
+    "MIT licensed, 820 GitHub stars"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "dnd-kit"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

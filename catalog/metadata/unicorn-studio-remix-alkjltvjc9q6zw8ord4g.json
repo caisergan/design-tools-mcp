@@ -1,0 +1,20 @@
+{
+  "id": "unicorn-studio-remix-alkjltvjc9q6zw8ord4g",
+  "url": "https://unicorn.studio/remix/AlkJLTvJC9q6Zw8oRD4g",
+  "kind": "page",
+  "hints_hash": "6ab3550d10dd676b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://unicorn.studio/remix/AlkJLTvJC9q6Zw8oRD4g", "title": "Beam Full by Meng To | Unicorn Studio", "status": 200},
+    {"url": "https://www.unicorn.studio/llms.txt", "title": "Unicorn Studio", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Beam Full by Meng To",
+  "summary": "Interactive WebGL beam scene by Meng To, published as a remix page in Unicorn Studio.",
+  "elements": ["3d"],
+  "keywords": ["webgl", "webgl scene", "shader", "interactive graphic", "remix", "3d scene", "background effect", "web animation"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

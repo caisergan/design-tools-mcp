@@ -1,0 +1,27 @@
+{
+  "id": "fonts-google-com-specimen-livvic-preview-script-latn",
+  "url": "https://fonts.google.com/specimen/Livvic?preview.script=Latn",
+  "kind": "page",
+  "hints_hash": "28f99a410ac50f47",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/Livvic?preview.script=Latn", "title": "Livvic - Google Fonts", "status": 200},
+    {"url": "https://fonts.google.com/specimen/Livvic/about", "title": "Livvic - Google Fonts", "status": 200},
+    {"url": "https://github.com/Fonthausen/Livvic", "title": "GitHub - Fonthausen/Livvic: Liverpool Victoria Friendly Society Limited custom typeface", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Livvic",
+  "summary": "Specimen page for Livvic, a corporate sans-serif typeface designed by Jacques Le Bailly for UK insurer LV=.",
+  "description": "The Google Fonts page for the Livvic typeface, a custom corporate sans-serif designed by Jacques Le Bailly for LV=, an insurance company in the UK, as part of a brand redesign. The family is released under the SIL Open Font License and its source repository holds the font files.",
+  "type": "font-foundry",
+  "keywords": ["sans serif", "corporate typeface", "brand typeface", "font family", "typeface specimen", "open font license", "free font", "web font", "brand redesign", "corporate identity font", "font download"],
+  "elements": [],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": "https://github.com/Fonthausen/Livvic", "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.8
+}

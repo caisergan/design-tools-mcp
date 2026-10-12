@@ -1,0 +1,27 @@
+{
+  "id": "github-com-creativetimofficial-notus-react",
+  "url": "https://github.com/creativetimofficial/notus-react",
+  "kind": "repo",
+  "hints_hash": "3410eb9bdf10e0fe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/creativetimofficial/notus-react/blob/HEAD/README.md", "title": "Notus React", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Notus React",
+  "summary": "Free Tailwind CSS and React UI kit with 120+ coded elements and a pre-built admin dashboard.",
+  "description": "Open-source UI kit and admin template built with React and Tailwind CSS. Provides 120+ coded CSS elements and 18 dynamic React components (navbars, modals, tabs, dropdowns, alerts, tooltips), plus ready pages for a landing presentation, a profile and an admin dashboard with tables, maps and login/register screens.",
+  "type": "component-library",
+  "categories": ["components", "templates"],
+  "elements": ["navbar", "button", "input", "alert", "modal", "dropdown", "popover", "tooltip", "tabs", "table", "map", "dashboard", "form"],
+  "keywords": ["react ui kit", "tailwind css", "admin dashboard", "admin template", "free ui kit", "react component", "tailwind template", "dashboard template", "landing page template", "open source ui kit", "mit license", "react admin", "presentation page", "login page", "register page", "component library"],
+  "contains": ["120+ coded CSS elements incl. alerts, buttons and inputs", "18 dynamic React components incl. navbars, modals, tabs and dropdowns", "pages: landing presentation, profile, dashboard, settings, tables, maps, login and register", "MIT licensed"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/creativetimofficial/notus-react", "docs": "https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

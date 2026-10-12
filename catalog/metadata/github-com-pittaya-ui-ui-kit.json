@@ -1,0 +1,82 @@
+{
+  "id": "github-com-pittaya-ui-ui-kit",
+  "url": "https://github.com/pittaya-ui/ui-kit",
+  "kind": "repo",
+  "hints_hash": "fe93bb15b33559c2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/pittaya-ui/ui-kit/blob/HEAD/README.md",
+      "title": "Pittaya UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Pittaya UI",
+  "summary": "Open-source React component library built with TypeScript, Tailwind CSS, shadcn/ui and Radix UI.",
+  "description": "A production-oriented React component library on Next.js 15, React 19, Tailwind CSS 4 and Radix UI. Shipped components: Button, Card, Carousel, Tabs, Announcement Badge, Copy Button, Orbit Images and an Installation Section, with more on a public roadmap. The docs system offers live previews, copy-paste snippets, API reference and accessibility notes.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "badge",
+    "button",
+    "card",
+    "carousel",
+    "tabs"
+  ],
+  "keywords": [
+    "react component library",
+    "typescript",
+    "tailwind css",
+    "shadcn ui",
+    "radix ui",
+    "next.js",
+    "accessible component",
+    "copy paste",
+    "component docs",
+    "carousel",
+    "tabs",
+    "badge",
+    "button",
+    "card",
+    "orbit image",
+    "server component"
+  ],
+  "contains": [
+    "components: Button, Card, Carousel, Tabs, Announcement Badge, Copy Button, Orbit Images",
+    "docs with live code preview, copy-paste snippets, API reference, a11y notes",
+    "stack: Next.js 15, React 19, Tailwind CSS 4, Radix UI",
+    "MIT licensed",
+    "more components on a roadmap"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "radix",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/pittaya-ui/ui-kit",
+    "docs": "https://pittaya-ui.vercel.app",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,32 @@
+{
+  "id": "componentry-dev",
+  "url": "https://componentry.dev",
+  "kind": "site",
+  "hints_hash": "b1ff6d7b9bd55386",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://componentry.dev/llms.txt", "title": "Componentry", "status": null},
+    {"url": "https://componentry.dev", "title": "Componentry — Beautiful Animated UI Components for React", "status": 200},
+    {"url": "https://componentry.dev/docs", "title": "Components Documentation | Componentry - UI Component Library", "status": 200},
+    {"url": "https://componentry.dev/collections", "title": "React Animation Collections | Componentry", "status": 200},
+    {"url": "https://componentry.dev/docs/mcp", "title": "Componentry MCP", "status": 200},
+    {"url": "https://raw.githubusercontent.com/harshjdhv/componentry/main/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Componentry",
+  "summary": "Animated React component library with editable source: text animations, scroll effects, hero backgrounds and image effects.",
+  "description": "Componentry is a free, MIT-licensed collection of 53 animated React components and visual effects with copy-paste source code, built by Harsh Jadhav with TypeScript, Tailwind CSS and Framer Motion. Collections group text animations, scroll-driven interactions, animated backgrounds and image effects; components install through a shadcn CLI registry or the Componentry MCP server for Claude Code and Cursor.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["card", "3d", "background", "hero", "text-effect", "cursor", "calendar", "navbar", "dock", "slider", "scroll-effect", "carousel"],
+  "keywords": ["animated component", "react", "framer motion", "tailwind css", "text animation", "scroll animation", "animated background", "webgl", "image effect", "cursor effect", "component library", "copy paste", "shadcn registry", "mcp server", "interactive component", "hero background", "dock", "carousel", "typescript"],
+  "contains": ["53 components in the docs index", "55 shadcn registry items", "collections: text animations, scroll animations, animated backgrounds, image effects", "install via shadcn CLI (@componentry/…) or copy-paste the source", "MCP server for Claude Code, Cursor and other AI editors", "WebGL effects: image ripple, liquid glass carousel, ripple transition, dithered logo", "built with TypeScript, Tailwind CSS and Framer Motion; backed by Vercel OSS Program", "200+ blocks announced as coming soon"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "typescript", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/harshjdhv/componentry", "docs": "https://componentry.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

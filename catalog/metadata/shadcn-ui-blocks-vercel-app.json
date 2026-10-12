@@ -1,0 +1,139 @@
+{
+  "id": "shadcn-ui-blocks-vercel-app",
+  "url": "https://shadcn-ui-blocks.vercel.app",
+  "kind": "site",
+  "hints_hash": "8993ddd48a9bfc68",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-ui-blocks.vercel.app/llms.txt",
+      "title": "Shadcn UI Blocks",
+      "status": null
+    },
+    {
+      "url": "https://shadcn-ui-blocks.vercel.app",
+      "title": "3,900+ Free & Pro Shadcn Blocks | Shadcn UI Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://www.shadcn-ui-blocks.com/docs/getting-started",
+      "title": "Getting started | Shadcn UI Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://www.shadcn-ui-blocks.com/blocks",
+      "title": "All Blocks | Shadcn UI Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://www.shadcn-ui-blocks.com/pricing",
+      "title": "Pricing | Shadcn UI Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://www.shadcn-ui-blocks.com/license",
+      "title": "License | Shadcn UI Blocks",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn UI Blocks",
+  "summary": "Catalog of 3,913 shadcn/ui blocks plus templates, 99 Open Graph image templates, a page Designer and a hosted MCP server.",
+  "description": "A catalog of shadcn/ui blocks in three tiers: premium Modern SaaS (89), standard Marketing, Ecommerce, Application and Portfolio (3,198) and free (626), plus 6,000+ community blocks from 105 public shadcn registries. It adds two Next.js site templates (Keel, Primely), 99 Open Graph image templates (PNG, SVG, source), a drag-and-drop page Designer and a hosted MCP server that lets an assistant search and install blocks; the site now lives at shadcn-ui-blocks.com. Every block is a self-contained shadcn registry item; free blocks install without credentials, premium ones need a Pro or Team key.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "cta",
+    "footer",
+    "changelog",
+    "stats",
+    "chart",
+    "table",
+    "list",
+    "card",
+    "form",
+    "timeline",
+    "banner",
+    "404",
+    "carousel"
+  ],
+  "keywords": [
+    "shadcn block",
+    "ui block",
+    "page section",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "faq section",
+    "navbar",
+    "footer",
+    "cta",
+    "changelog section",
+    "blog section",
+    "application ui",
+    "ecommerce block",
+    "portfolio",
+    "registry",
+    "shadcn cli",
+    "mcp server",
+    "open graph image",
+    "page builder",
+    "designer",
+    "react",
+    "tailwind",
+    "nextjs",
+    "template",
+    "free block"
+  ],
+  "contains": [
+    "3,913 shadcn/ui blocks: 626 free, 3,198 standard, 89 premium",
+    "10 collections: Modern SaaS, Marketing, Ecommerce, Application, Portfolio, Components and more",
+    "4,002 shadcn registry items; install by URL or @shadcn-ui-blocks/ name with the shadcn CLI",
+    "6,000+ community blocks from 105 public shadcn registries",
+    "2 Next.js templates (Keel $99, Primely $79) and 99 Open Graph image templates",
+    "hosted MCP server: search_blocks, get_block, list_collections, get_designer_file",
+    "page Designer with multi-page files, light/dark previews and shared team files",
+    "pricing: free tier, Pro $15/mo, Team $20 per seat/mo"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "cli",
+    "templates",
+    "svg",
+    "png",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "nextjs"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://www.shadcn-ui-blocks.com/docs/getting-started",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

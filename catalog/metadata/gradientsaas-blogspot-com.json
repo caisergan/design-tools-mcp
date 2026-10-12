@@ -1,0 +1,27 @@
+{
+  "id": "gradientsaas-blogspot-com",
+  "url": "https://gradientsaas.blogspot.com",
+  "kind": "site",
+  "hints_hash": "6401ce053aeed457",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gradientsaas.blogspot.com", "title": "Gradient Studio — Free Procedural CSS Gradient Generator | Amit Gajare", "status": null}
+  ],
+  "status": "ok",
+  "name": "Gradient Studio",
+  "summary": "Free procedural CSS gradient generator for editorial backgrounds, exporting CSS, Tailwind or SCSS.",
+  "description": "A single-page generator that produces full-spectrum, duotone and monochrome colour ramps with layered light treatments (mesh glow, aurora waves, film grain, bokeh, caustics and 46+ effects), 19 curated colour families and 0-360 degree angle control. Copy the result as CSS, Tailwind or SCSS with no account; free for personal and commercial use.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["css gradient", "gradient generator", "procedural gradient", "mesh gradient", "aurora", "film grain", "tailwind", "scss", "background", "hero background", "dark mode", "color ramp", "editorial", "landing page"],
+  "contains": ["palette modes: full, duotone, monochrome, triad, split, pastel, dark", "46+ light treatments", "19 curated colour families", "0-360 degree angle control with presets", "exports CSS, Tailwind or SCSS", "keyboard shortcuts, palette lock and history", "free, no account, commercial use allowed"],
+  "formats": ["code", "app"],
+  "stack": ["css", "tailwind", "scss"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

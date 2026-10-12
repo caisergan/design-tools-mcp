@@ -1,0 +1,77 @@
+{
+  "id": "open-props-style",
+  "url": "https://open-props.style",
+  "kind": "site",
+  "hints_hash": "b898c2843f558c19",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:32:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://open-props.style",
+      "title": "Open Props: sub-atomic styles",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Open Props",
+  "summary": "Open-source CSS custom properties: 500+ design tokens for colors, gradients, shadows, sizes, easing and animations.",
+  "description": "A library of sub-atomic design tokens — CSS custom properties for colors (Open Color plus a 16-step dynamic oklch palette), gradients, shadows, aspect ratios, typography, easing, durations, animations, sizes, borders, masks and z-index. Ships as CSS, PostCSS, JSON design tokens, JavaScript or web components from a CDN or npm, with individual prop packs and a CLI for custom bundles.",
+  "type": "design-system",
+  "categories": [
+    "components",
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "css variable",
+    "design token",
+    "css custom property",
+    "color palette",
+    "gradient",
+    "shadow",
+    "easing",
+    "animation",
+    "typography",
+    "size scale",
+    "spacing",
+    "postcss",
+    "npm",
+    "cdn",
+    "theme",
+    "dark mode",
+    "open source"
+  ],
+  "contains": [
+    "500+ props in the 4.0 kB minified bundle",
+    "individual prop packs: colors (228), gradients, shadows, easings, animations, sizes, borders, masks, media, fonts",
+    "flavors: CSS, PostCSS, JSON design tokens, JavaScript, web components",
+    "CDN or npm, plus a CLI for custom bundles",
+    "examples: hero layout, adaptive buttons, cards, pagination, light/dark switch",
+    "MIT, v1.7.23"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "css",
+    "postcss"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": "open-props",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

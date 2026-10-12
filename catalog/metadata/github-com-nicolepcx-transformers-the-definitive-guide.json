@@ -1,0 +1,82 @@
+{
+  "id": "github-com-nicolepcx-transformers-the-definitive-guide",
+  "url": "https://github.com/Nicolepcx/transformers-the-definitive-guide",
+  "kind": "repo",
+  "hints_hash": "8a79e051d4b2a576",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Nicolepcx/transformers-the-definitive-guide/blob/HEAD/README.md",
+      "title": "Transformers - The definitive Guide",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nicolepcx/transformers-the-definitive-guide/HEAD/LICENSE",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Transformers - The definitive Guide",
+  "summary": "Companion Jupyter notebooks for the book Transformers - The Definitive Guide, 12 chapters from attention to deployment.",
+  "description": "The official code repository for the book: one folder per chapter (CH01–CH12) of Jupyter notebooks on attention, time series, vision, image and video generation, audio, reinforcement learning, reasoning and coding, AI agents, optimization and deployment. Each notebook can be opened and run on Google Colab with a GPU and auto-clones the repo to install per-chapter requirements.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "transformer",
+    "jupyter notebook",
+    "deep learning",
+    "machine learning",
+    "llm",
+    "pytorch",
+    "langgraph",
+    "fine-tuning",
+    "lora",
+    "vision transformer",
+    "diffusion model",
+    "time series",
+    "audio model",
+    "reinforcement learning",
+    "ai agent",
+    "book code",
+    "notebook",
+    "gpu"
+  ],
+  "contains": [
+    "12 chapters, one folder per chapter (CH01–CH12)",
+    "notebooks on attention, time series, vision, image/video generation, audio, RL, reasoning, agents, deployment",
+    "notebook models: Chronos, PatchTST, SAM 2, ViT, DiT, PixArt-Σ, LTX, Latte, Tora, Kimi-Audio, Qwen2-Audio, Qwen3",
+    "every notebook can be opened and run on Google Colab (GPU required)",
+    "createenv.sh builds a conda or pipenv environment from requirements.txt",
+    "notebooks auto-clone the repo and install per-chapter requirements",
+    "Apache-2.0 licensed repository"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "python",
+    "jupyter",
+    "pytorch",
+    "langgraph"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/Nicolepcx/transformers-the-definitive-guide",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

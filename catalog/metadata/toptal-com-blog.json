@@ -1,0 +1,20 @@
+{
+  "id": "toptal-com-blog",
+  "url": "https://toptal.com/blog",
+  "kind": "page",
+  "hints_hash": "303d666d73ec3c93",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://toptal.com/blog", "title": "Toptal Blog: Business, Design, and Technology | Toptal®", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Toptal Blog",
+  "summary": "Articles and tutorials on engineering, design, product, marketing and management, written by Toptal network experts.",
+  "description": "The Toptal Blog hub gathers in-depth tutorials, technology updates and industry analysis across eight tracks: Engineering, Design, Management Consulting, Projects, Product, Marketing, Toptal Insights on the future of work, and Executive Guidance. Posts are authored by vetted professionals in the Toptal network, and a weekly email newsletter is offered.",
+  "categories": ["learning"],
+  "keywords": ["design blog", "engineering article", "tutorial", "web development", "ux design", "product management", "agile", "management consulting", "marketing", "future of work", "freelance", "technology"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

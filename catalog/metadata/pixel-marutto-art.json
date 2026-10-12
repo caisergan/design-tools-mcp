@@ -1,0 +1,30 @@
+{
+  "id": "pixel-marutto-art",
+  "url": "https://pixel.marutto.art",
+  "kind": "site",
+  "hints_hash": "ce65300adc671468",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pixel.marutto.art", "title": "marutto pixel — free pixel art materials", "status": null},
+    {"url": "https://pixel.marutto.art/list", "title": "Browse materials — marutto pixel", "status": 200},
+    {"url": "https://pixel.marutto.art/introduce", "title": "Introduce — marutto pixel", "status": 200},
+    {"url": "https://pixel.marutto.art/terms", "title": "Terms of Service — marutto pixel", "status": 200}
+  ],
+  "status": "ok",
+  "name": "marutto pixel",
+  "summary": "Free library of 182 16px pixel art materials with a canvas editor to mix, recolor and export PNG, SVG, GIF or MP4.",
+  "description": "A free pixel art playground: browse 16x16 materials (animals, foods, nature, vegetables, fruits, home, accessories), drag them onto a canvas to flip, scale and recolor, then download the result as transparent PNG at x1, x2, x4 or x8, SVG, a 3D-style image, an animated GIF or an MP4. Public community mixes can be browsed and remixed; commercial use is allowed without credit.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["pixel art", "pixel sprite", "sprite", "game asset", "free asset", "16px", "transparent png", "animated gif", "mp4", "canvas editor", "recolor", "remix", "2d asset", "pixel character", "commercial use"],
+  "contains": ["182 free 16px pixel art materials", "categories: animals, foods, nature, vegetables, fruits, home, accessories", "canvas editor to mix, flip, scale and recolor pieces", "exports: transparent PNG x1/x2/x4/x8, SVG, 3D-style image, animated GIF, MP4", "public gallery of community mixes to remix", "commercial use allowed, no credit required"],
+  "formats": ["png", "svg", "video"],
+  "stack": [],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

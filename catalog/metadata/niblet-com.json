@@ -1,0 +1,38 @@
+{
+  "id": "niblet-com",
+  "url": "https://niblet.com",
+  "kind": "site",
+  "hints_hash": "1afae3ab91c483d8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://niblet.com/llms.txt", "title": "Niblet Designer UI", "status": null},
+    {"url": "https://niblet.pymodel.com/docs", "title": "MCP Server, API & Agent Connect · Niblet Designer UI", "status": 200},
+    {"url": "https://github.com/PyModel/niblet-skill-mcp", "title": "GitHub - PyModel/niblet-skill-mcp", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Niblet Designer UI",
+  "summary": "Hosted UI-reference platform and MCP server that finds real app screens, journeys and UI materials for coding agents.",
+  "description": "Niblet combines a portable design skill with a remote MCP server and a hosted catalogue of real product references: 63,607+ iOS screens across 303 apps, web design packs with palettes, type and components, 473 step-by-step onboarding and purchase journeys, and isolated UI elements. Coding agents search it with find_ui_references, find_ui_materials and get_design_reference, using results as design evidence; the free skill adds gates from inspecting existing components to a rendered-UI review. Catalogue access needs a free account key.",
+  "type": "gallery",
+  "categories": ["inspiration", "dev-ai-tools"],
+  "elements": ["button", "modal", "tabs"],
+  "keywords": ["ui reference", "app screen", "design reference", "mcp server", "coding agent", "ai agent", "agent skill", "user journey", "ui pattern", "design inspiration", "web design pack", "design token", "component reference", "screenshot", "ux research", "real product screen"],
+  "contains": [
+    "63,607+ iOS screens across 303 apps",
+    "web design packs with palettes, type and components",
+    "473 step-by-step onboarding and purchase journeys",
+    "UI elements: isolated sheets, tabs, modals and buttons",
+    "MCP tools: find_ui_references, find_ui_materials, get_design_reference, get_ui_component",
+    "free portable designer-skill (Apache-2.0) with pre-edit and rendered gates",
+    "hosted MCP and REST catalogue; free account key, setup for Claude Code, Codex, Cursor",
+    "service served from niblet.pymodel.com"
+  ],
+  "formats": ["api", "screenshots", "prompts"],
+  "stack": ["node"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/PyModel/niblet-skill-mcp", "docs": "https://niblet.pymodel.com/docs", "npm": "@pymodel/niblet", "figma": null, "parent": null},
+  "confidence": 0.7
+}

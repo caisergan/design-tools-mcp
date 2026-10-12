@@ -1,0 +1,25 @@
+{
+  "id": "forms-gle-h4i6awagn3ybg8mr9",
+  "url": "https://forms.gle/H4i6aWAgN3YbG8MR9",
+  "kind": "page",
+  "hints_hash": "9564fb5d7a4abe0b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://forms.gle/H4i6aWAgN3YbG8MR9", "title": "[参加募集]AI Business Challenge Fes2026 Final[SAJ B Sports]2026年12月14日(月)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "[参加募集]AI Business Challenge Fes2026 Final[SAJ B Sports]2026年12月14日(月)",
+  "summary": "Google Form for applying to the AI Business Challenge Fes2026 Final, an AI competition event on 14 December 2026.",
+  "description": "Registration form for the AI Business Challenge Fes2026 Final hosted by the Software Association of Japan (SAJ). Free to enter and open to students, professionals, individuals and teams; the event runs online and on-site near Tameike-Sanno, Tokyo, and participants present AI development, AI ideas or AI techniques.",
+  "keywords": ["event application form", "ai business challenge", "google form", "ai competition", "ai event", "japan event", "tokyo", "free event", "student competition", "innovation contest", "ai showcase"],
+  "elements": [],
+  "contains": ["application form for the AI Business Challenge Fes2026 Final", "event date 14 December 2026, online and on-site in Tokyo", "free entry, open to students, professionals, individuals and teams"],
+  "formats": [],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

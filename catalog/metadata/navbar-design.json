@@ -1,0 +1,37 @@
+{
+  "id": "navbar-design",
+  "url": "https://navbar.design",
+  "kind": "site",
+  "hints_hash": "f0c325c9064e40ff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:55:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://navbar.design", "title": "Navbar Design – Curated Navbar Gallery & Inspiration", "status": null},
+    {"url": "https://navbar.design/about", "title": "Navbar Design / About", "status": null},
+    {"url": "https://navbar.design/navbars", "title": "All navbar designs: 29 website navigation examples | Navbar Design", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Navbar Design",
+  "summary": "Gallery of 29 hand-picked website navbars with screenshots, filtered by navigation type and visual style.",
+  "description": "A hand-curated directory of standout website navigation bars from across the web. Each navbar is captured as a screenshot and links to the original site; browse by type — dropdown, full screen, mega, mobile, side drawer, static, sticky — or by style such as 3D, animated, grid and illustrated. Featured picks and a submit-a-navbar form are included.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["navbar"],
+  "variants": {"navbar": ["dropdown", "full-screen", "mega-menu", "mobile", "sidebar", "static", "sticky"]},
+  "keywords": ["navbar", "navigation bar", "website header", "mega menu", "dropdown menu", "side drawer", "sticky header", "mobile navigation", "full screen menu", "navbar inspiration", "navigation design", "website navigation"],
+  "contains": [
+    "29 navbars, 9 styles and 7 types",
+    "screenshots linked to each original live website",
+    "types: dropdown, full screen, mega, mobile, side drawer, static, sticky",
+    "styles: 3D, animated, grid, illustrated, loud",
+    "hand-picked by designers; submit form for new navbars",
+    "featured picks such as Stripe dot dev and Anima"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

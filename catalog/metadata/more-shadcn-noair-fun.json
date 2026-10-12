@@ -1,0 +1,33 @@
+{
+  "id": "more-shadcn-noair-fun",
+  "url": "https://more-shadcn.noair.fun",
+  "kind": "site",
+  "hints_hash": "ed10e8fb4fb7e524",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://more-shadcn.noair.fun", "title": "More Shadcn", "status": 200},
+    {"url": "https://more-shadcn.noair.fun/docs", "title": "Introduction – More Shadcn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "More Shadcn",
+  "summary": "43 copy-paste Svelte 5 components extending shadcn-svelte — audio, calendar, dock, stepper and more.",
+  "description": "A collection of extra components for Svelte 5 that extends shadcn-svelte beyond its base registry: stepper, compare slider, collaborative cursor, verify human, dock, color picker, canvas, big calendar and more. Components are installed from the registry — no npm package — and are built with Svelte 5 runes, fully typed, for copy-paste customisation in your own project.",
+  "type": "registry",
+  "categories": ["registries", "components"],
+  "elements": ["input", "button", "select", "banner", "navbar", "card", "calendar", "badge", "slider", "cursor", "dock", "scroll-effect", "stepper"],
+  "keywords": ["svelte component", "svelte 5", "shadcn-svelte", "copy-paste component", "registry", "tailwind css", "stepper", "dock", "calendar", "collaborative cursor", "color picker", "canvas", "typescript"],
+  "contains": [
+    "43 registry items",
+    "components built with Svelte 5 runes ($state, $props, $derived)",
+    "no npm package — install from the shadcn-svelte registry",
+    "extends shadcn-svelte with items like Audio, Big Calendar, Canvas, Dock and Stepper"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["svelte", "typescript", "tailwind", "shadcn-svelte"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://more-shadcn.noair.fun/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

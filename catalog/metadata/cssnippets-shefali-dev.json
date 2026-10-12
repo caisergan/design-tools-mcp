@@ -1,0 +1,30 @@
+{
+  "id": "cssnippets-shefali-dev",
+  "url": "https://cssnippets.shefali.dev",
+  "kind": "site",
+  "hints_hash": "80456252ab5b5030",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:28:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cssnippets.shefali.dev", "title": "CSSnippets | Collection of Easy to Use UI Components", "status": null},
+    {"url": "https://cssnippets.shefali.dev/llms.txt", "title": "CSSnippets | Collection of Easy to Use UI Components", "status": 200},
+    {"url": "https://cssnippets.shefali.dev/components/buttons", "title": "CSSnippets | Collection of Easy to Use UI Components", "status": 200},
+    {"url": "https://cssnippets.shefali.dev/docs", "title": "CSSnippets | Collection of Easy to Use UI Components", "status": 200}
+  ],
+  "status": "partial",
+  "name": "CSSnippets",
+  "summary": "Collection of copy-paste UI snippets in HTML, React, CSS and Tailwind CSS: buttons, cards, forms, toggles and more.",
+  "description": "A library of ready-to-use UI code snippets built with HTML, React, CSS and Tailwind CSS, organised by component category across 14 docs pages — buttons, box-shadows, cards, checkboxes, dropdowns, forms, radio, toggles, input fields, loaders, masonry and text styles. The site is JavaScript-rendered, so only its title, meta description and item names were readable.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["button", "card", "checkbox", "dropdown", "form", "input", "loader", "switch"],
+  "keywords": ["css snippet", "html snippet", "react snippet", "tailwind css", "copy paste ui", "ui component", "button", "box shadow", "card", "checkbox", "dropdown", "form", "input field", "loading spinner", "toggle switch", "radio button", "masonry", "hamburger", "free ui code"],
+  "contains": ["snippets in HTML, React, CSS and Tailwind CSS", "categories: buttons, box-shadows, cards, checkboxes, dropdowns, forms, toggles, input fields, loaders", "14 docs pages"],
+  "formats": ["code"],
+  "stack": ["react", "css", "tailwind"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.55
+}

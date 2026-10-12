@@ -1,0 +1,119 @@
+{
+  "id": "a1-gallery",
+  "url": "https://a1.gallery",
+  "kind": "site",
+  "hints_hash": "679b0212dc1d4b0f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://a1.gallery/llms.txt",
+      "title": "A1 Gallery",
+      "status": null
+    },
+    {
+      "url": "https://a1.gallery",
+      "title": "Website design inspiration gallery · A1",
+      "status": 200
+    },
+    {
+      "url": "https://www.a1.gallery/fonts",
+      "title": "A1 Gallery · Fonts used on modern websites",
+      "status": 200
+    },
+    {
+      "url": "https://www.a1.gallery/pricing",
+      "title": "Pricing · A1",
+      "status": 200
+    },
+    {
+      "url": "https://www.a1.gallery/about",
+      "title": "About A1 Gallery · Curated website design inspiration",
+      "status": 200
+    },
+    {
+      "url": "https://www.a1.gallery/sections",
+      "title": "Website sections · A1 Gallery",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "A1 Gallery",
+  "summary": "Curated gallery of 1,000+ websites, broken down into sections and interior pages, with fonts and templates.",
+  "description": "A1 Gallery is a curated web design inspiration gallery: full-length captures of 1,000+ websites, browsable by type (agency, landing page, portfolio, shop), category, style (big type, dark, minimal, animated, illustration, 3D) and technology (Framer, Webflow, Next.js, Astro). Each site is broken down into page sections (hero, pricing, footer, testimonials, FAQ) and interior pages, and an MCP server serves JSON search, filters and measured design tokens. Free to browse; Pro ($72/year) adds higher MCP limits, analytics, unlimited saves and full-page screenshots.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "stats",
+    "team",
+    "contact",
+    "changelog"
+  ],
+  "keywords": [
+    "web design inspiration",
+    "website gallery",
+    "design gallery",
+    "landing page",
+    "portfolio",
+    "agency website",
+    "shop",
+    "dark mode",
+    "minimal",
+    "animated",
+    "framer",
+    "webflow",
+    "nextjs",
+    "website section",
+    "hero section",
+    "pricing page",
+    "footer",
+    "testimonials",
+    "faq",
+    "font",
+    "mcp server",
+    "design token",
+    "inspiration"
+  ],
+  "contains": [
+    "1,000+ curated websites captured full-length",
+    "browse by type, category, style and technology",
+    "page sections carry measured colour palette, type stack and spacing",
+    "MCP server for JSON search, filtering and per-site detail",
+    "font index: Inter (256 sites), Geist (84), Geist Mono (70)",
+    "free plan plus Pro at $72/year",
+    "templates, designer profiles and OG images sections"
+  ],
+  "formats": [
+    "screenshots",
+    "links",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://www.a1.gallery/mcp.md",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

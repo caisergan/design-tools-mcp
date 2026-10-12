@@ -1,0 +1,28 @@
+{
+  "id": "github-com-arsenehuot-openhive",
+  "url": "https://github.com/arseneHuot/openhive",
+  "kind": "repo",
+  "hints_hash": "997589684a32ffd8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/arseneHuot/openhive/blob/HEAD/README.md", "title": "OpenHive", "status": 200},
+    {"url": "https://github.com/arseneHuot/openhive", "title": "GitHub - arseneHuot/openhive: Open-source Slack alternative you can self-host in minutes.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenHive",
+  "summary": "Self-hosted open-source Slack alternative: channels, DMs, threads, reactions, file sharing and LiveKit calls.",
+  "description": "A real-time team messaging app you self-host in minutes with your own Supabase instance. Public and private channels, DMs and group DMs, threaded replies, emoji reactions, mentions, file attachments, message editing, scheduling and bookmarks; optional video and audio calls via LiveKit with screen sharing; incoming/outgoing webhooks, bots, slash commands, an activity feed and full-text search with Cmd+K navigation. The setup wizard auto-provisions 23+ tables with row-level security; deploys to Vercel. MIT licensed.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "sidebar", "input", "file-upload", "avatar", "badge", "command-palette", "modal", "dropdown", "form"],
+  "keywords": ["slack alternative", "team chat", "messaging", "channel", "direct message", "thread", "emoji reaction", "self-hosted", "supabase", "nextjs", "livekit", "video call", "screen sharing", "webhook", "bot", "real-time", "open source", "postgresql"],
+  "contains": ["public/private channels, DMs and group DMs with presence", "threaded replies, reactions, mentions, edits, scheduling and bookmarks", "video and audio calls via LiveKit with screen sharing and incoming call banner", "incoming/outgoing webhooks, bots and custom slash commands", "activity feed, full-text search and Cmd+K quick navigation", "setup wizard auto-provisions 23+ tables with Supabase RLS", "workspace roles (owner, admin, member) with email invites", "MIT licensed; deploys to Vercel"],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn-ui", "supabase", "postgresql", "zustand", "livekit", "tiptap", "dompurify", "lucide", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/arseneHuot/openhive", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

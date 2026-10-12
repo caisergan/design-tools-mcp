@@ -1,0 +1,37 @@
+{
+  "id": "github-com-tdw46-blender-animated-ui",
+  "url": "https://github.com/tdw46/blender-animated-ui",
+  "kind": "repo",
+  "hints_hash": "cc8aed233fcdaaeb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/tdw46/blender-animated-ui/blob/HEAD/README.md", "title": "Animated Thumbnail Preview Demo", "status": 200},
+    {"url": "https://github.com/tdw46/blender-animated-ui", "title": "GitHub - tdw46/blender-animated-ui: Reusable animated preview thumbnail engine and FFmpeg ingest demo for Blender extensions · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "blender-animated-ui",
+  "summary": "Reusable animated preview thumbnail engine and FFmpeg ingest demo for Blender extensions.",
+  "description": "A reusable example library for adding efficient animated preview thumbnails to Blender extensions. It turns GIFs, APNGs, videos, still images and selected image sequences into timed JPEG/WebP frame caches, then plays those frames in a normal Blender N-panel gallery through bpy.utils.previews, with a shared modal scheduler, a 32 MiB default preview-RAM budget, adaptive pagination, close-safe animated dialogs and copy-in integration profiles (playback only, ingest only or the complete demo).",
+  "type": "tool",
+  "categories": ["motion", "design-tools"],
+  "elements": [],
+  "keywords": ["blender", "blender extension", "blender addon", "animated thumbnail", "thumbnail preview", "preview", "gif", "apng", "webp", "ffmpeg", "python", "n panel", "gallery", "frame cache", "image sequence", "video", "playback", "imageio", "pillow"],
+  "contains": [
+    "turns GIF, APNG, video, stills and image sequences into JPEG/WebP frame caches",
+    "plays frames in a Blender N-panel gallery via bpy.utils.previews",
+    "one guarded modal scheduler; only visible gallery cards animate",
+    "32 MiB default preview-RAM target with adaptive pagination",
+    "integration profiles: playback only, ingest only, complete demo",
+    "bundles imageio-ffmpeg 0.6.0 and Pillow 12.3.0 wheels for offline install",
+    "settings cog: thumbnail sizing, RAM control, 8-60 FPS live ceiling, optimized playback",
+    "installs in Blender 4.2+ via Preferences > Get Extensions from a GitHub Releases ZIP"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "GPL-3.0",
+  "related": {"repo": "https://github.com/tdw46/blender-animated-ui", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

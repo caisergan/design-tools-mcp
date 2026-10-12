@@ -1,0 +1,100 @@
+{
+  "id": "www-figma-com-community-file-1342715840824755935-shadcn-ui-components",
+  "url": "https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components",
+  "kind": "page",
+  "hints_hash": "7c164af9721a2309",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components",
+      "title": "shadcn/ui components with variables & Tailwind classes - Updated September 2026 | Figma",
+      "status": null
+    }
+  ],
+  "status": "partial",
+  "name": "shadcn/ui components with variables & Tailwind classes",
+  "summary": "Figma library of shadcn/ui components built on variables and Tailwind classes, with dark and light mode and Radix colors.",
+  "description": "A Figma recreation of the shadcn/ui components using token-based variables, Tailwind classes and Radix color scales, so themes can be swapped without touching individual components. Dark and light mode are both included, and a companion shadcn create plugin swaps themes, icons, radius and fonts across the whole file.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "form",
+    "input",
+    "loader",
+    "menubar",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "figma",
+    "figma library",
+    "ui kit",
+    "shadcn",
+    "tailwind",
+    "tailwind class",
+    "radix",
+    "design token",
+    "figma variable",
+    "dark mode",
+    "light mode",
+    "theme swap",
+    "figma plugin",
+    "component library"
+  ],
+  "contains": [
+    "Figma library of shadcn/ui components",
+    "token-based variables; swap themes without editing components",
+    "built on Tailwind classes and Radix color scales",
+    "dark and light mode",
+    "companion shadcn create plugin swaps themes, icons, radius, fonts"
+  ],
+  "formats": [
+    "figma-file"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": "https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components",
+    "parent": "figma-com"
+  },
+  "confidence": 0.6
+}

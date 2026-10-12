@@ -1,0 +1,34 @@
+{
+  "id": "anishshobithps-com",
+  "url": "https://anishshobithps.com",
+  "kind": "site",
+  "hints_hash": "a6807cb6264aed94",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://anishshobithps.com/llms.txt", "title": "Anish Shobith P S", "status": null},
+    {"url": "https://anishshobithps.com", "title": "Anish Shobith P S – Software Developer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Anish Shobith P S",
+  "summary": "Portfolio site of a software developer: projects with stack tags, blog, resume and a signable guestbook.",
+  "description": "Personal portfolio of Anish Shobith P S, a software developer working in TypeScript, React and Next.js. Presents eight projects with stack tags, four blog posts, a machine-readable resume, branding and privacy pages, and a guestbook visitors can sign. Ships llms.txt and per-post llms.mdx entry points for agents.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["navbar", "hero", "contact", "footer"],
+  "keywords": ["portfolio", "personal website", "developer portfolio", "portfolio website", "guestbook", "blog", "resume", "project showcase", "nextjs", "react", "typescript", "llms.txt"],
+  "contains": [
+    "8 projects incl. snipshot, Luma, FRAxis and a certificate generator",
+    "4 blog posts",
+    "guestbook visitors can sign",
+    "resume, branding and privacy pages",
+    "llms.txt and per-post llms.mdx entry points for agents"
+  ],
+  "formats": ["links"],
+  "stack": ["nextjs", "react", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

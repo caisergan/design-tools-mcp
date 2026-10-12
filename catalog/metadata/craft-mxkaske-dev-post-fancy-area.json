@@ -1,0 +1,20 @@
+{
+  "id": "craft-mxkaske-dev-post-fancy-area",
+  "url": "https://craft.mxkaske.dev/post/fancy-area",
+  "kind": "page",
+  "hints_hash": "968d575556b0d462",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://craft.mxkaske.dev/post/fancy-area", "title": "Fancy Area", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fancy Area",
+  "summary": "Tutorial and code for a markdown textarea with @mention support and hover cards, like GitHub's PR comment box.",
+  "description": "A write-up of a markdown textarea with @mention support: a combobox opens inside the textarea as you type @, mentions render as hover cards in the preview, and markdown is transformed to React with rehype. Built with shadcn/ui components (Tabs, Command/cmdk, Textarea, HoverCard, Avatar), Tailwind CSS and the typography plugin.",
+  "keywords": ["mention input", "textarea", "markdown", "mention", "combobox", "hover card", "shadcn ui", "react", "tailwind css", "cmdk", "radix", "github style comment", "rich text input"],
+  "elements": ["input", "tabs", "popover", "avatar"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

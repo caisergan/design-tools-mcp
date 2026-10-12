@@ -1,0 +1,37 @@
+{
+  "id": "getrescript-com",
+  "url": "https://getrescript.com",
+  "kind": "site",
+  "hints_hash": "0269f237d551e6e5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://getrescript.com", "title": "Rescript — Edit video like you edit text", "status": null},
+    {"url": "https://github.com/wassgha/rescript", "title": "GitHub - wassgha/rescript: 🎬 Open source, transcript-based video/audio editor that lives in the browser. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Rescript",
+  "summary": "On-device, transcript-based video and audio editor: delete words to cut the footage and export locally.",
+  "description": "An open-source video and audio editor that edits media like text. Whisper transcribes on-device, deleting words cuts the matching footage, filler words and silences are removed in one click, and rewritten lines can be regenerated in the speaker's own voice. Transcription, editing and export run locally with ffmpeg.wasm; desktop apps for macOS, Windows and Linux plus a browser app.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["video editor", "audio editor", "transcript based editing", "text based video editing", "remove filler word", "remove silence", "transcription", "whisper", "speaker diarization", "voice cloning", "regenerate speech", "subtitle", "srt", "offline", "privacy", "open source", "ffmpeg", "podcast editing"],
+  "contains": [
+    "Transcript-based editing: deleting words cuts the matching footage",
+    "One-click removal of filler words and of silences of 0.3s or longer",
+    "On-device Whisper transcription (WebGPU with WASM fallback), or import SRT, VTT or JSON captions",
+    "Regenerate a line in the speaker's voice, cloned on-device from about ten seconds of their audio",
+    "Speaker diarization groups the transcript by speaker",
+    "Export video MP4/WebM up to 4K, audio M4A/MP3/WAV, transcripts and subtitles, plus NLE/DAW timelines",
+    "Desktop apps for macOS, Windows and Linux (Electron) plus a browser app",
+    "Free for noncommercial use under PolyForm Noncommercial 1.0.0; commercial use needs a paid license"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "electron", "zustand", "ffmpeg", "whisper"],
+  "pricing": "freemium",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "related": {"repo": "https://github.com/wassgha/rescript", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

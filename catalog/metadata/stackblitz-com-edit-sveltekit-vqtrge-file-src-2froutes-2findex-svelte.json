@@ -1,0 +1,20 @@
+{
+  "id": "stackblitz-com-edit-sveltekit-vqtrge-file-src-2froutes-2findex-svelte",
+  "url": "https://stackblitz.com/edit/sveltekit-vqtrge?file=src%2Froutes%2Findex.svelte",
+  "kind": "page",
+  "hints_hash": "23ebea620c00a2c3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://stackblitz.com/edit/sveltekit-vqtrge?file=src%2Froutes%2Findex.svelte", "title": "Svelte Cubed — getting started demo (completed) - StackBlitz", "status": null}
+  ],
+  "status": "partial",
+  "name": "Svelte Cubed — getting started demo (completed)",
+  "summary": "StackBlitz project with the completed Svelte Cubed getting-started demo, a SvelteKit app rendering a Three.js scene.",
+  "description": "A Node.js StackBlitz project based on svelte-cubed, three, @sveltejs/kit, @types/three, prettier, prettier-plugin-svelte and svelte. It is the finished version of the demo you build while following the Svelte Cubed getting-started tutorial.",
+  "keywords": ["svelte", "three.js", "sveltekit", "3d", "webgl", "stackblitz", "demo", "example project", "getting started", "typescript", "node.js", "3d scene"],
+  "stack": ["svelte", "sveltekit", "three.js", "typescript"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

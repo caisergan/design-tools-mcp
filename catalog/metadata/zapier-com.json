@@ -1,0 +1,100 @@
+{
+  "id": "zapier-com",
+  "url": "https://zapier.com",
+  "kind": "site",
+  "hints_hash": "6c7b17f4e664dcfc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://zapier.com/llms.txt",
+      "title": "Zapier",
+      "status": null
+    },
+    {
+      "url": "https://zapier.com",
+      "title": "Zapier: Automate AI Workflows, Agents, and Apps",
+      "status": 200
+    },
+    {
+      "url": "https://zapier.com/templates",
+      "title": "Workflow Automation Templates | Zapier",
+      "status": 200
+    },
+    {
+      "url": "https://zapier.com/pricing",
+      "title": "Plans & Pricing | Zapier",
+      "status": 200
+    },
+    {
+      "url": "https://zapier.com/about",
+      "title": "About Zapier",
+      "status": 200
+    },
+    {
+      "url": "https://zapier.com/templates.md",
+      "title": "Workflow Automation Templates",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Zapier",
+  "summary": "No-code automation platform connecting 9,000+ apps to build workflows, AI agents and chatbots.",
+  "description": "Zapier connects thousands of apps and AI tools so teams can run automations and AI-assisted work: workflows (Zaps), AI Agents, chatbots, Tables, Forms and MCP-connected assistants. Documentation, a TypeScript SDK and CLI, and thousands of templates serve developers and non-technical builders alike; free and paid plans scale with usage.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "automation",
+    "workflow automation",
+    "ai agent",
+    "no-code",
+    "app integration",
+    "mcp",
+    "chatbot",
+    "zap",
+    "table",
+    "form",
+    "api",
+    "sdk",
+    "ai orchestration",
+    "workflow template",
+    "integration platform"
+  ],
+  "contains": [
+    "9,000+ app integrations",
+    "workflows (Zaps), AI Agents, chatbots, Tables, Forms and an MCP server",
+    "TypeScript SDK, CLI and open-source repos (github.com/zapier/sdk)",
+    "free plan plus Professional, Team and Enterprise tiers",
+    "template library by use case, app and role",
+    "81 billion tasks automated; 69% of the Fortune 1000 use Zapier"
+  ],
+  "formats": [
+    "app",
+    "docs",
+    "npm-package",
+    "cli",
+    "api",
+    "templates"
+  ],
+  "stack": [
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/zapier/sdk",
+    "docs": "https://docs.zapier.com",
+    "npm": "@zapier/zapier-sdk",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

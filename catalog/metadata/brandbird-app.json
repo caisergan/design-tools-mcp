@@ -1,0 +1,40 @@
+{
+  "id": "brandbird-app",
+  "url": "https://brandbird.app",
+  "kind": "site",
+  "hints_hash": "e9b61619ce5df797",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:08:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://brandbird.app", "title": "BrandBird — Turn Screenshots into Beautiful Social Media Graphics", "status": null},
+    {"url": "https://www.brandbird.app/templates", "title": "Free Social Media Design Templates - BrandBird", "status": null},
+    {"url": "https://www.brandbird.app/pricing", "title": "BrandBird Pricing - Plans & Features", "status": null},
+    {"url": "https://www.brandbird.app/about", "title": "About BrandBird - The Story Behind the Image Editor", "status": null},
+    {"url": "https://www.brandbird.app/templates/66c59d4269bb1b3fa7be9995", "title": "Free Linkedin Banner Linkedin Template - BrandBird", "status": null}
+  ],
+  "status": "ok",
+  "name": "BrandBird",
+  "summary": "Screenshot editor that turns screenshots into social media graphics with backgrounds, 3D effects, mockups and notes.",
+  "description": "Upload any screenshot or image and style it in a few clicks: gradient, pattern or photo backgrounds, 3D perspective tilts, device mockups (iPhone, MacBook, iPad, browser frames), shadows, annotations and watermarks. A free template directory holds hundreds of customizable templates by platform, brand kits keep colours, fonts and logos consistent, and companion tools cover carousels, app-store screenshots and OG images. Built for founders, marketers and creators making posts, landing-page visuals and changelogs.",
+  "type": "tool",
+  "categories": ["design-tools", "media"],
+  "elements": ["background", "3d"],
+  "keywords": ["screenshot editor", "screenshot beautifier", "mockup", "device mockup", "social media graphic", "post graphic", "3d effect", "gradient background", "pattern background", "annotation", "watermark", "brand kit", "template", "og image", "carousel", "browser mockup", "marketing image"],
+  "contains": [
+    "hundreds of free, customizable social media templates across 15+ platforms",
+    "3D effects, drop-shadow presets, annotations (arrows, emojis, labels) and device mockups",
+    "brand kits: watermarks, logos, colour palettes and fonts",
+    "import tweets and web pages directly as screenshots",
+    "companion tools: screenshot beautifier, LinkedIn/Instagram carousel generators, App Store and OG image generators",
+    "Figma plugin, Chrome extension and Mac app",
+    "pricing: Free $0, Pro $15/month, Lifetime $179 one-time, Enterprise on request",
+    "used by 10,000+ creators and teams"
+  ],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

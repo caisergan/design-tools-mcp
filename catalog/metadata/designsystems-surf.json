@@ -1,0 +1,104 @@
+{
+  "id": "designsystems-surf",
+  "url": "https://designsystems.surf",
+  "kind": "site",
+  "hints_hash": "bb0d9ba02e2efc2e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:51:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designsystems.surf",
+      "title": "Design System Resources & Tools",
+      "status": 200
+    },
+    {
+      "url": "https://designsystems.surf/guides",
+      "title": "Design Systems Guide & Foundations",
+      "status": 200
+    },
+    {
+      "url": "https://designsystems.surf/components",
+      "title": "Design Systems Components & Main Parts",
+      "status": 200
+    },
+    {
+      "url": "https://designsystems.surf/pro",
+      "title": "DSS Pro - Resources for Design Systems & Product Design",
+      "status": 200
+    },
+    {
+      "url": "https://designsystems.surf/about",
+      "title": "About",
+      "status": 200
+    },
+    {
+      "url": "https://designsystems.surf/design-systems",
+      "title": "Design Systems Libraries",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Design Systems Surf",
+  "summary": "Database of real design systems and component references, plus guides, articles and paid products.",
+  "description": "A database of best-in-class design systems, organized and sorted by components and directories: entries link each company's system (Apple HIG, Google Material, Microsoft Fluent, Adobe Spectrum, Atlassian and more) and component pages count how many systems ship a given piece (button, tabs, checkbox, switch, text field ...). Guides, articles and AI-ready products cover foundations, tokens and maintenance; Pro membership adds full access.",
+  "type": "directory",
+  "categories": [
+    "components",
+    "learning"
+  ],
+  "elements": [
+    "button",
+    "select",
+    "badge",
+    "input",
+    "list",
+    "navbar",
+    "drawer",
+    "checkbox",
+    "modal",
+    "progress",
+    "tabs",
+    "accordion"
+  ],
+  "keywords": [
+    "design system",
+    "design system database",
+    "design system example",
+    "component reference",
+    "design token",
+    "foundation",
+    "style guide",
+    "ui kit",
+    "design system guide",
+    "component library",
+    "ai-ready design system",
+    "design system maintenance"
+  ],
+  "contains": [
+    "database of design systems organized by components and directories",
+    "component pages: button, tabs, checkbox, switch, text field ...",
+    "foundations guides: color, typography, spacing, elevation, design tokens",
+    "articles and practical guides",
+    "AI-ready products and Pro membership from $8.25"
+  ],
+  "formats": [
+    "links",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

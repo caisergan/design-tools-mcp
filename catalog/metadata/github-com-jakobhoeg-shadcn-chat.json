@@ -1,0 +1,30 @@
+{
+  "id": "github-com-jakobhoeg-shadcn-chat",
+  "url": "https://github.com/jakobhoeg/shadcn-chat",
+  "kind": "repo",
+  "hints_hash": "367c5310006e0f4c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/jakobhoeg/shadcn-chat/blob/HEAD/README.md", "title": "Vercel AI SDK chatbot example", "status": 200},
+    {"url": "https://github.com/jakobhoeg/shadcn-chat", "title": "GitHub - jakobhoeg/shadcn-chat", "status": 200},
+    {"url": "https://shadcn-chat.vercel.app", "title": "Shadcn Chat Component", "status": 200},
+    {"url": "https://github.com/jakobhoeg/shadcn-chat/blob/HEAD/LICENSE", "title": "shadcn-chat/LICENSE · jakobhoeg/shadcn-chat", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-chat",
+  "summary": "Chat components for React and shadcn/ui: chat window, message events, header and toolbar, added with a CLI.",
+  "description": "A package for adding customizable chat components to React apps: a chat window with header, message events (avatar, title, content, timestamp), a sticky message-composition toolbar with addons, and a one-command install that adds a wired-up chat page. The repo includes a Vercel AI SDK chatbot example; the author notes the library is no longer actively maintained.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["chat", "prompt-input", "avatar"],
+  "keywords": ["chat", "chat component", "chat ui", "chat window", "chat message", "chat input", "chatbot", "ai chat", "react", "nextjs", "shadcn ui", "tailwind", "cli", "vercel ai sdk"],
+  "contains": ["chat window components: header, messages, toolbar", "message parts: event, addon, body, title, content, avatar, time", "message toolbar with textarea, addons, buttons (Enter to submit)", "one CLI command installs a wired-up chat page", "Vercel AI SDK chatbot example in the repo", "unmaintained: author points to alternatives"],
+  "formats": ["code", "cli", "npm-package", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn-ui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/jakobhoeg/shadcn-chat", "docs": "https://shadcn-chat.vercel.app", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

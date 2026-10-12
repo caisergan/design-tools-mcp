@@ -1,0 +1,28 @@
+{
+  "id": "agent-memory-dev",
+  "url": "https://agent-memory.dev",
+  "kind": "site",
+  "hints_hash": "45b4994f3c2efcc4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://agent-memory.dev", "title": "agentmemory: persistent memory for AI coding agents", "status": 200},
+    {"url": "https://www.agent-memory.dev/docs", "title": "agentmemory - agentmemory", "status": 200}
+  ],
+  "status": "ok",
+  "name": "agentmemory",
+  "summary": "Local-first persistent memory server for AI coding agents, shared across 25 coding agents.",
+  "description": "agentmemory captures what a coding agent does — prompts, tool calls, results — distills it into durable memory (observations, typed memories with version chains, lessons, crystals and a graph) and recalls it in later sessions. It runs locally at 127.0.0.1 with a REST API, an MCP server, a CLI and a viewer, and wires into Claude Code, Cursor, Codex, GitHub Copilot CLI and other agents.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["persistent memory", "memory server", "coding agent", "mcp server", "local-first", "context window", "session memory", "recall", "knowledge graph", "claude code", "cursor", "codex", "github copilot", "npm package", "cli", "rest api", "transcript import", "context compaction", "open source"],
+  "contains": ["MCP memory server for coding agents with a 54-tool reference", "25 coding agents supported, 21 adapters plus generic MCP wiring", "stores observations, typed memories with version chains, lessons, crystals and a graph", "local-first: binds to 127.0.0.1 with auth, zero external databases", "29.3K GitHub stars, 482K npm installs, 49 contributors", "recall: 95.2% LongMemEval-S recall@5, 14 ms median", "import existing session transcripts from JSONL", "viewer with sessions, memories, lessons, graph and replay"],
+  "formats": ["npm-package", "cli", "api", "docs", "app"],
+  "stack": ["node"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/rohitg00/agentmemory", "docs": "https://www.agent-memory.dev/docs", "npm": "@agentmemory/agentmemory", "figma": null, "parent": null},
+  "confidence": 0.9
+}

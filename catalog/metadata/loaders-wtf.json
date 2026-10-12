@@ -1,0 +1,33 @@
+{
+  "id": "loaders-wtf",
+  "url": "https://loaders.wtf",
+  "kind": "site",
+  "hints_hash": "2c55baa9cf54a79f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:52:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://loaders.wtf", "title": "loaders.wtf", "status": null},
+    {"url": "https://www.loaders.wtf/llms.txt", "title": "loaders.wtf", "status": 200},
+    {"url": "https://www.loaders.wtf/about", "title": "loaders.wtf", "status": 200}
+  ],
+  "status": "partial",
+  "name": "loaders.wtf",
+  "summary": "Browser tool for designing animated grid loaders, with pattern and color controls and export to HTML, CSS, Lottie or GIF.",
+  "description": "A web tool for making animated grid loaders for AI applications and app interfaces. You customize the pattern and colors, then export the animation as HTML, CSS, Lottie or GIF. The tool itself is rendered by JavaScript, so its editor could not be read.",
+  "type": "generator",
+  "categories": ["motion"],
+  "elements": ["loader"],
+  "keywords": ["loader", "loading animation", "spinner", "grid loader", "dot matrix", "css animation", "lottie", "gif", "generator", "ai chat ui", "web tool", "export"],
+  "contains": [
+    "animated grid loaders aimed at AI applications",
+    "customizable patterns and colors",
+    "export to HTML, CSS, Lottie or GIF"
+  ],
+  "formats": ["code", "app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-leonxlnx-taste-skill",
+  "url": "https://github.com/Leonxlnx/taste-skill",
+  "kind": "repo",
+  "hints_hash": "2df099622558285a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Leonxlnx/taste-skill/blob/HEAD/README.md", "title": "Taste Skill", "status": null}
+  ],
+  "status": "ok",
+  "name": "Taste Skill",
+  "summary": "Portable agent skills that upgrade AI-built interfaces: layout, typography, motion and spacing rules plus image-generation skills.",
+  "description": "Portable agent skills that upgrade AI-built interfaces: stronger layout, typography, motion and spacing instead of boilerplate-looking UIs. The default design-taste-frontend skill (v2, experimental) reads the brief, infers a design language and exposes VARIANCE / MOTION / DENSITY dials; other skills cover GPT/Codex variants, image-to-code pipelines, redesign audits, soft, minimalist and brutalist directions, plus output enforcement. Three image-generation skills produce website comps, mobile screens and brand kits. Installs with npx skills add; framework agnostic; MIT.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["agent skill", "skill.md", "design taste", "anti slop", "ai design", "frontend design", "layout", "typography", "spacing", "motion", "gsap", "image generation", "design system", "landing page", "codex", "cursor", "claude code", "ui generation", "brand kit", "web design"],
+  "contains": [
+    "10 code skills plus 3 image-generation skills",
+    "install names include design-taste-frontend, gpt-taste, image-to-code, redesign-existing-projects",
+    "v2 dials: VARIANCE, MOTION, DENSITY",
+    "image skills output website comps, mobile screens and brand kits",
+    "installs with npx skills add from the skills/ folder",
+    "framework agnostic across Codex, Cursor and Claude Code",
+    "MIT licensed; v2 experimental"
+  ],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Leonxlnx/taste-skill", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

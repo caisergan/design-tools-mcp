@@ -1,0 +1,26 @@
+{
+  "id": "ui-shadcn-com-docs-components-base-date-picker",
+  "url": "https://ui.shadcn.com/docs/components/base/date-picker",
+  "kind": "page",
+  "hints_hash": "0af7150b63c7b399",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:43:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.shadcn.com/docs/components/base/date-picker", "title": "Date Picker - shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Date Picker",
+  "summary": "Date picker component composed from Popover and Calendar, with range, input, time and natural-language variants.",
+  "description": "Documentation page for the shadcn/ui Date Picker, built as a composition of the Popover and Calendar components rather than a single root component. It shows usage and variants: basic, range picker, date of birth with a dropdown caption layout, input, time picker and a natural-language picker that parses dates with chrono-node, plus RTL support. Available for Base UI, React Aria and Radix.",
+  "type": "component-library",
+  "elements": ["date-picker", "calendar", "popover", "input"],
+  "keywords": ["date picker", "date range picker", "calendar", "popover", "react", "shadcn", "tailwind", "base ui", "radix", "react aria", "time picker", "natural language date", "date of birth", "rtl", "component"],
+  "contains": ["composition of Popover and Calendar, no separate Date Picker root", "variants: basic, range, date of birth, input, time picker, natural-language, RTL", "natural language date parsing via chrono-node", "installable through the shadcn registry", "available for Base UI, React Aria and Radix"],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "react-day-picker", "chrono-node"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ui-shadcn-com"},
+  "confidence": 0.9
+}

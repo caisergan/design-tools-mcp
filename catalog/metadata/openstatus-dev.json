@@ -1,0 +1,33 @@
+{
+  "id": "openstatus-dev",
+  "url": "https://openstatus.dev",
+  "kind": "site",
+  "hints_hash": "6a067f4bbc295424",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://openstatus.dev/llms.txt", "title": "openstatus", "status": null},
+    {"url": "https://openstatus.dev", "title": "Free & Open Source Uptime Monitoring, Status Page and Incident Response from Slack or AI", "status": 200},
+    {"url": "https://www.openstatus.dev/docs", "title": "openstatus documentation | openstatus", "status": 200},
+    {"url": "https://www.openstatus.dev/pricing", "title": "Pricing — Free Status Page and Uptime Monitoring Plans", "status": 200},
+    {"url": "https://www.openstatus.dev/about", "title": "About openstatus | openstatus", "status": 200},
+    {"url": "https://www.openstatus.dev/guides", "title": "Guides | openstatus", "status": 200},
+    {"url": "https://github.com/openstatusHQ/openstatus", "title": "GitHub - openstatusHQ/openstatus: Open-source status page, incident response and uptime monitoring", "status": 200}
+  ],
+  "status": "ok",
+  "name": "openstatus",
+  "summary": "Open-source status page and uptime monitoring: monitors, pages and alert channels as code, driven by CLI, API, MCP or Slack.",
+  "description": "Openstatus runs synthetic checks on your websites and APIs from 28 regions and surfaces the results on branded status pages with incidents and maintenance windows. Monitors, status pages and notification channels are declared in YAML or Terraform, and a CLI, typed API, MCP server or Slack agent opens and resolves incidents. Available as managed SaaS (free plan, paid from $30/mo) or self-hosted under AGPL-3.0.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["uptime monitoring", "status page", "incident management", "incident response", "monitoring as code", "terraform", "yaml", "mcp server", "slack", "synthetic monitoring", "api monitoring", "alerting", "self-hosted", "observability", "sre", "on-call", "webhook", "status report", "postmortem", "private location", "open source", "uptime"],
+  "contains": ["28-region checks running on Fly.io, Koyeb and Railway; parallel scheduling", "monitors, status pages and notification channels declared in YAML or Terraform", "CLI, typed API, MCP server with OAuth 2.1 and Slack agent for humans and agents", "alerting via Slack, Discord, email, webhook, WhatsApp, SMS, PagerDuty, OpsGenie, Grafana OnCall", "branded status pages with custom domains, themes, maintenance windows and subscriber notifications", "free Hobby plan; Starter $30/mo, Pro $100/mo, Scale $500/mo; 2 months free yearly", "self-hosting with full feature parity; AGPL-3.0, 9k+ GitHub stars", "React status-page widget plus a shadcn registry (26 items)"],
+  "formats": ["app", "api", "cli", "code", "docs", "registry"],
+  "stack": ["nextjs", "hono", "go", "turso", "drizzle", "tinybird", "tailwind", "shadcn"],
+  "pricing": "freemium",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/openstatusHQ/openstatus", "docs": "https://www.openstatus.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

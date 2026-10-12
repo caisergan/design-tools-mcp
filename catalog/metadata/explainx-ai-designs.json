@@ -1,0 +1,19 @@
+{
+  "id": "explainx-ai-designs",
+  "url": "https://explainx.ai/designs",
+  "kind": "page",
+  "hints_hash": "4c1cd5b9e77e7aa8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://explainx.ai/designs", "title": "DESIGN.md registry — browse design system docs | explainx.ai | explainx.ai", "status": null}
+  ],
+  "status": "ok",
+  "name": "DESIGN.md registry",
+  "summary": "Index of 139 community DESIGN.md design systems with YAML design tokens, live token previews and repo links.",
+  "keywords": ["design.md", "design system", "registry", "yaml token", "design token", "agent-readable", "ai agent", "markdown", "token preview", "community", "design doc", "index"],
+  "type": "directory",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

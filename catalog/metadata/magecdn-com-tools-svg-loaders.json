@@ -1,0 +1,27 @@
+{
+  "id": "magecdn-com-tools-svg-loaders",
+  "url": "https://magecdn.com/tools/svg-loaders",
+  "kind": "page",
+  "hints_hash": "269a37dc2f0617a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://magecdn.com/tools/svg-loaders", "title": "Open Source SVG Loading Icons", "status": null}
+  ],
+  "status": "ok",
+  "name": "Open Source SVG Loading Icons",
+  "summary": "Collection of 100+ open source SVG loading spinners, free under the MIT license.",
+  "description": "A page of animated SVG loading icons (spinners, throbbers) curated from a variety of sources, each with its own detail page. All are MIT licensed, so they can be used commercially with no attribution.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": ["loader"],
+  "keywords": ["loading icon", "spinner", "svg loader", "throbber", "loading animation", "animated icon", "open source icon", "free spinner", "mit license icon", "loading indicator"],
+  "contains": ["100+ SVG spinners", "curated from a variety of sources", "MIT licensed, no attribution required", "each spinner has its own detail page"],
+  "formats": ["svg"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

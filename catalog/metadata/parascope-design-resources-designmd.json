@@ -1,0 +1,33 @@
+{
+  "id": "parascope-design-resources-designmd",
+  "url": "https://parascope.design/resources/designmd",
+  "kind": "page",
+  "hints_hash": "d7ad3ce969be96e9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://parascope.design/resources/designmd", "title": "designmd.supply | Parascope", "status": null }
+  ],
+  "status": "ok",
+  "name": "designmd.supply",
+  "summary": "Parascope listing for designmd.supply, a tool that generates a DESIGN.md style guide from any domain.",
+  "description": "Parascope's Japanese-language resource page describes designmd.supply: you enter a domain and get a DESIGN.md style guide you can hand straight to an AI agent. It pulls brand identity, screenshots and real page markup through Context.dev into one document covering colors, logo and site feel, and shows pre-generated guides for Apple, Microsoft, Google, Figma, Anthropic and Linear as output examples. The project is open source.",
+  "type": "generator",
+  "categories": ["design-rules", "design-tools"],
+  "elements": [],
+  "keywords": ["design md", "design.md", "style guide", "design system", "ai agent", "brand identity", "design rule", "generator", "open source"],
+  "contains": [
+    "resource page in the Parascope directory",
+    "describes a generator that turns any domain into a DESIGN.md file",
+    "uses Context.dev for brand identity, screenshots and page markup",
+    "gallery of generated guides for Apple, Microsoft, Google, Figma, Anthropic, Linear",
+    "project is open source"
+  ],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.8
+}

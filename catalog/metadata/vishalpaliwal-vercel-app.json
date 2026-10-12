@@ -1,0 +1,118 @@
+{
+  "id": "vishalpaliwal-vercel-app",
+  "url": "https://vishalpaliwal.vercel.app",
+  "kind": "site",
+  "hints_hash": "fb1b0d722caab66b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vishalpaliwal.vercel.app",
+      "title": "Vishal Paliwal — Product Engineer · iOS, Web, SaaS & AI",
+      "status": null
+    },
+    {
+      "url": "https://vishalpaliwal.vercel.app/skills",
+      "title": "Vishal Paliwal — Product Engineer · iOS, Web, SaaS & AI",
+      "status": null
+    },
+    {
+      "url": "https://vishalpaliwal.vercel.app/animations",
+      "title": "Vishal Paliwal — Product Engineer · iOS, Web, SaaS & AI",
+      "status": null
+    },
+    {
+      "url": "https://vishalpaliwal.vercel.app/skills/appstore-shipkit",
+      "title": "Vishal Paliwal — Product Engineer · iOS, Web, SaaS & AI",
+      "status": null
+    },
+    {
+      "url": "https://vishalpaliwal.vercel.app/skills/swiftui-microinteractions",
+      "title": "Vishal Paliwal — Product Engineer · iOS, Web, SaaS & AI",
+      "status": null
+    },
+    {
+      "url": "https://vishalpaliwal.vercel.app/llms.txt",
+      "title": "Vishal Paliwal — Product Engineer · iOS, Web, SaaS & AI",
+      "status": 200
+    },
+    {
+      "url": "https://vishalpaliwal.vercel.app/sitemap.xml",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://github.com/iAmVishal16/swiftui-microinteractions",
+      "title": "GitHub - iAmVishal16/swiftui-microinteractions: SwiftUI animation and interaction skills for AI coding agents",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/iAmVishal16/swiftui-microinteractions/main/README.md",
+      "title": "swiftui-microinteractions — Try on Device",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Vishal Paliwal",
+  "summary": "Personal site of an iOS and web product engineer: SwiftUI animation examples, AI-agent skills for micro-interactions, and a blog.",
+  "description": "Portfolio and product site of Vishal Paliwal, a product engineer shipping iOS and web apps, SaaS and AI features (13 years). Its free skill for AI coding agents generates complete SwiftUI micro-interactions (spring physics, CoreHaptics, glass morphism) from plain English prompts, built from 84 hand-crafted animation demos; a Pro superset and an App Store ship kit are also offered, alongside an animations gallery, a playground, an audit page and a blog. Section pages render client-side, so only titles, sitemap and linked repo were readable.",
+  "type": "agent-skill",
+  "categories": [
+    "motion",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "swiftui",
+    "micro interaction",
+    "ios",
+    "animation",
+    "ai agent",
+    "skill",
+    "claude code",
+    "cursor",
+    "codex",
+    "swift",
+    "spring animation",
+    "haptic",
+    "app store",
+    "portfolio",
+    "motion design",
+    "prompt",
+    "swiftui animation",
+    "code generation"
+  ],
+  "contains": [
+    "free micro-interaction skill for AI coding agents (117 GitHub stars, 5 forks)",
+    "skill writes complete compilable .swift files from plain English, in create and edit modes",
+    "covers spring physics, CoreHaptics and glass morphism",
+    "built from 'legendary-Animo': 84 hand-crafted SwiftUI animation demos",
+    "Pro version is a licensed, private superset with exclusive patterns",
+    "installs via skills.sh CLI, Claude Code plugin, manual install or any AI agent",
+    "site sitemap lists 168 URLs incl. animations, playground, skills, audit and blog sections"
+  ],
+  "formats": [
+    "prompts",
+    "code",
+    "cli",
+    "links"
+  ],
+  "stack": [
+    "swiftui"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/iAmVishal16/swiftui-microinteractions",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

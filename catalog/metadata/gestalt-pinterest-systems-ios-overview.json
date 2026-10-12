@@ -1,0 +1,89 @@
+{
+  "id": "gestalt-pinterest-systems-ios-overview",
+  "url": "https://gestalt.pinterest.systems/ios/overview",
+  "kind": "page",
+  "hints_hash": "8017d2f989f689c4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://gestalt.pinterest.systems/ios/overview",
+      "title": null,
+      "status": null
+    },
+    {
+      "url": "https://gestalt.pinterest.systems/",
+      "title": "Welcome to Gestalt - Pinterest's Design System",
+      "status": 200
+    },
+    {
+      "url": "https://gestalt.pinterest.systems/v1/ios/overview",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://gestalt.pinterest.systems/v1/web/overview",
+      "title": "Web component overview",
+      "status": 200
+    }
+  ],
+  "status": "login-required",
+  "name": "Gestalt (Pinterest's Design System)",
+  "summary": "Pinterest's design system: foundations and React UI components; the iOS overview page sits behind an Okta login.",
+  "description": "Guidelines on color palettes, typography and iconography plus a library of ready-to-use React components for building Pinterest's product experiences (Accordion, ActivationCard, Avatar, Badge, Banner, Button, Checkbox, Chart and more). The catalogued /ios/overview page redirects to Pinterest's Okta sign-in; the site root and the versioned v1 docs (flagged as legacy, pointing to 'Gestalt 2.0') are public.",
+  "type": "design-system",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "badge",
+    "banner",
+    "button",
+    "checkbox",
+    "chart"
+  ],
+  "keywords": [
+    "design system",
+    "react component library",
+    "ui component",
+    "component guideline",
+    "design token",
+    "foundation",
+    "color palette",
+    "typography",
+    "iconography",
+    "ios component",
+    "documentation",
+    "design principle"
+  ],
+  "contains": [
+    "foundations: color palettes, typography, iconography, design principles",
+    "React components for web: Accordion, Avatar, Badge, Banner, Button, Checkbox, Chart and more",
+    "the /ios/overview page redirects to an Okta sign-in (login required)",
+    "v1 docs are flagged as legacy ('Explore Gestalt 2.0')"
+  ],
+  "formats": [
+    "docs",
+    "code"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://gestalt.pinterest.systems/v1",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

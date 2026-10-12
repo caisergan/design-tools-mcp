@@ -1,0 +1,23 @@
+{
+  "id": "rezocv-com-blog-audit-and-rewrite-linkedin-profile-with-claude-for-chrom",
+  "url": "https://rezocv.com/blog/audit-and-rewrite-linkedin-profile-with-claude-for-chrome",
+  "kind": "page",
+  "hints_hash": "aa62c3077045c158",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://rezocv.com/blog/audit-and-rewrite-linkedin-profile-with-claude-for-chrome", "title": "How to audit and rewrite your LinkedIn profile with Claude for Chrome | RezoCV", "status": null}
+  ],
+  "status": "ok",
+  "name": "How to audit and rewrite your LinkedIn profile with Claude for Chrome",
+  "summary": "Guide to auditing and rewriting a LinkedIn profile with Claude for Chrome, section by section.",
+  "description": "A step-by-step workflow: choose the profile's primary reader, prepare evidence, install the Claude extension for Chrome, then score the profile on clarity, credibility, differentiation and conversion. The rewrite order covers headline, About section, experience bullets and Featured section, with a prompt to run in the side panel and rules for keeping every claim verifiable.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["linkedin profile", "profile audit", "linkedin headline", "about section", "resume", "cv", "claude for chrome", "chrome extension", "prompt", "ai writing", "job search", "career", "positioning", "evidence", "profile rewrite"],
+  "contains": ["workflow: goal, extension setup, diagnosis, rewrite order, review", "scorecard: clarity, credibility, differentiation, conversion (0-10)", "rewrite order: headline, About, experience bullets, Featured section", "prompt to use in the extension's side panel", "published 12 September 2026 by Navid Taheri"],
+  "formats": ["docs"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

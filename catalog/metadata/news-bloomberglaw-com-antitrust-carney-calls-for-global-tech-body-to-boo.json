@@ -1,0 +1,20 @@
+{
+  "id": "news-bloomberglaw-com-antitrust-carney-calls-for-global-tech-body-to-boo",
+  "url": "https://news.bloomberglaw.com/antitrust/carney-calls-for-global-tech-body-to-boost-ai-guardrails-1",
+  "kind": "page",
+  "hints_hash": "529e9fae19bda1b5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:32:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://news.bloomberglaw.com/antitrust/carney-calls-for-global-tech-body-to-boost-ai-guardrails-1", "title": "Carney Calls for Global Tech Body to Boost AI Guardrails (2)", "status": null}
+  ],
+  "status": "partial",
+  "name": "Carney Calls for Global Tech Body to Boost AI Guardrails (2)",
+  "summary": "Bloomberg Law news article: Canada's PM Mark Carney calls for a global \"technology stability\" body to oversee AI safety.",
+  "description": "Antitrust news article published Sept. 14, 2026 by Brian Platt and Christine Dobby. The lede and opening quotes from Prime Minister Mark Carney are readable; the full text requires a Bloomberg Law login.",
+  "type": "article",
+  "keywords": ["ai regulation", "ai safety", "artificial intelligence", "technology policy", "global governance", "antitrust", "news", "canada", "technology stability board", "tech regulation"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

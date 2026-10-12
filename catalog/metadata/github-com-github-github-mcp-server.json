@@ -1,0 +1,83 @@
+{
+  "id": "github-com-github-github-mcp-server",
+  "url": "https://github.com/github/github-mcp-server",
+  "kind": "repo",
+  "hints_hash": "ec299e47a6f20db2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/github/github-mcp-server/blob/HEAD/README.md",
+      "title": "GitHub MCP Server",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/github/github-mcp-server/HEAD/README.md",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/github/github-mcp-server/HEAD/LICENSE",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "GitHub MCP Server",
+  "summary": "GitHub's official MCP server connecting AI agents to repos, issues, pull requests, Actions and code search.",
+  "description": "The GitHub MCP Server connects AI agents, assistants and chatbots to GitHub: repository management, issue and PR automation, Actions and CI insights, code and security analysis, discussions and notifications. Run the GitHub-hosted remote server or a local binary/Docker image, pick toolsets, and authenticate with OAuth or a personal access token; read-only and lockdown modes reduce risk.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "mcp server",
+    "model context protocol",
+    "github",
+    "ai agent",
+    "pull request",
+    "github action",
+    "code search",
+    "ci cd",
+    "docker",
+    "oauth",
+    "copilot",
+    "vs code",
+    "cursor",
+    "claude code",
+    "go",
+    "issue tracker"
+  ],
+  "contains": [
+    "remote server hosted by GitHub plus local Docker and Go builds",
+    "toolsets for repos, issues, PRs, Actions, code scanning, discussions and notifications",
+    "read-only and lockdown modes for safer agent access",
+    "OAuth or personal access token authentication",
+    "install guides for VS Code Copilot, Claude, Codex, Cursor, Windsurf, Zed and more",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "api"
+  ],
+  "stack": [
+    "go"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/github/github-mcp-server",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

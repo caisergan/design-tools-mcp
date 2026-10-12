@@ -1,0 +1,38 @@
+{
+  "id": "github-com-diegosouzapw-omniroute",
+  "url": "https://github.com/diegosouzapw/OmniRoute",
+  "kind": "repo",
+  "hints_hash": "9821fb38c83d7808",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/diegosouzapw/OmniRoute/blob/HEAD/README.md", "title": "OmniRoute — The Free AI Gateway", "status": null},
+    {"url": "https://raw.githubusercontent.com/diegosouzapw/OmniRoute/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/diegosouzapw/OmniRoute", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "OmniRoute",
+  "summary": "MIT AI gateway that routes one endpoint across 359 providers and 1,200+ chat models with quota-aware failover.",
+  "description": "OmniRoute is an OpenAI-compatible gateway that fronts 359 providers and 1,200+ chat models with zero-config auto combos and 19 routing strategies scored on 16 factors. It adds quota-aware fallback, token compression (15-95%), MCP and A2A support, a CLI, an Electron desktop/PWA dashboard and a tray app; the README catalogues ~1.62B third-party free tokens per month.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai gateway", "llm gateway", "ai proxy", "openai compatible", "model routing", "provider", "failover", "free ai", "free tier", "token compression", "mcp", "a2a", "claude code", "codex", "cursor", "cli", "desktop app", "self hosted"],
+  "contains": [
+    "one OpenAI-compatible endpoint over 359 providers and 1,200+ chat models",
+    "~1.62B free tokens/month catalogued from 489 third-party free-tier entries",
+    "zero-config auto combos plus 19 routing strategies and 16-factor scoring",
+    "quota-aware auto-fallback across 3 independent resilience layers",
+    "token compression (RTK + Caveman) saves 15-95% tokens",
+    "CLI, Electron desktop/PWA and tray app; MCP and A2A support",
+    "works with Claude Code, Codex, Cursor, OpenCode, Cline and Copilot",
+    "MIT licensed, built by hundreds of contributors"
+  ],
+  "formats": ["code", "cli", "app"],
+  "stack": ["node", "electron"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/diegosouzapw/OmniRoute", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

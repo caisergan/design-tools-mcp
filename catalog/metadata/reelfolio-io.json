@@ -1,0 +1,99 @@
+{
+  "id": "reelfolio-io",
+  "url": "https://reelfolio.io",
+  "kind": "site",
+  "hints_hash": "25cc273157dda982",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://reelfolio.io/llms.txt",
+      "title": "Reelfolio",
+      "status": null
+    },
+    {
+      "url": "https://reelfolio.io",
+      "title": "Reelfolio — Create Portfolio Showreels in Minutes",
+      "status": 200
+    },
+    {
+      "url": "https://reelfolio.io/docs",
+      "title": "Render API | Reelfolio",
+      "status": 200
+    },
+    {
+      "url": "https://reelfolio.io/docs/llms.txt",
+      "title": "Reelfolio Render API",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Reelfolio",
+  "summary": "Turns screenshots, mockups and clips into animated portfolio showreel videos from 245+ motion templates.",
+  "description": "Web app that renders design work in motion: upload screenshots (PNG, JPG, WebP), Figma/Sketch/Adobe XD/Penpot mockups or short clips, pick a motion template, set colors, timing, background and aspect ratio, and export a 1080p or 4K MP4 in under a minute. Showreel templates tell a story from start to finish; loop templates run seamlessly. A Render API renders videos programmatically from scripts or agents.",
+  "type": "generator",
+  "categories": [
+    "motion"
+  ],
+  "elements": [
+    "marquee",
+    "carousel",
+    "3d",
+    "globe",
+    "scroll-effect",
+    "card",
+    "tabs",
+    "bento-grid",
+    "slider",
+    "hero"
+  ],
+  "keywords": [
+    "showreel",
+    "screenshot to video",
+    "mockup video",
+    "video portfolio",
+    "motion template",
+    "animated mockup",
+    "design showcase",
+    "portfolio video",
+    "render api",
+    "remotion",
+    "mp4",
+    "figma mockup",
+    "social media video"
+  ],
+  "contains": [
+    "245 motion templates: showreels and seamless loops",
+    "input: PNG/JPG/WebP screenshots, Figma/Sketch/XD/Penpot mockups, short clips",
+    "export: 1080p and 4K MP4 in 16:9, 9:16, 1:1 and 4:5",
+    "Render API: POST /api/v1/render on paid plans, scale 480p to 4K",
+    "free tools: section screenshot, image highlighter, image splitter",
+    "pricing: $12 a month or $108 a year",
+    "built on Remotion, cloud rendering on AWS Lambda"
+  ],
+  "formats": [
+    "app",
+    "video",
+    "templates",
+    "api",
+    "docs"
+  ],
+  "stack": [
+    "remotion"
+  ],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://reelfolio.io/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

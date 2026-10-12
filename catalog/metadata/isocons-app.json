@@ -1,0 +1,28 @@
+{
+  "id": "isocons-app",
+  "url": "https://isocons.app",
+  "kind": "site",
+  "hints_hash": "9b12efae08ff0fbe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.isocons.app/", "title": "Isocons", "status": null},
+    {"url": "https://www.isocons.app/robots.txt", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Isocons",
+  "summary": "Icon set of carefully crafted isometric icons.",
+  "description": "An isometric icon set. Beyond the title and meta description the site renders client-side, so the icon count, formats and pricing could not be read.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["isometric icon", "icon set", "icon library", "svg icon", "ui icon", "app icon", "isometric", "icon pack"],
+  "contains": ["isometric icon set"],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.4
+}

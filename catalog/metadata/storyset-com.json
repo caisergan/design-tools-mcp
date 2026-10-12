@@ -1,0 +1,40 @@
+{
+  "id": "storyset-com",
+  "url": "https://storyset.com",
+  "kind": "site",
+  "hints_hash": "06e128e1258d4610",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://storyset.com", "title": "Storyset | Customize, animate and download illustration for free", "status": null},
+    {"url": "https://storyset.com/faqs", "title": "Frequently Asked Questions | Storyset", "status": 200},
+    {"url": "https://storyset.com/terms", "title": "Terms of Use | Storyset", "status": 200},
+    {"url": "https://storyset.com/how-it-works", "title": "Free Illustrations to reinforce a concept and tell your story", "status": 200},
+    {"url": "https://storyset.com/illustration/mobile-marketing/rafiki", "title": "Mobile marketing Customizable Flat Illustrations | Rafiki Style", "status": 200},
+    {"url": "https://storyset.com/for-figma", "title": "Storyset for Figma", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Storyset",
+  "summary": "Free customizable and animated vector illustrations in five styles (Rafiki, Bro, Amico, Pana, Cuate).",
+  "description": "Library of thousands of illustrated concepts grouped by topic (business, education, medical, technology, people, multi-purpose) and by style. An online editor recolours illustrations, swaps backgrounds, toggles layers and applies entrance or looping animations. Illustrations download free for personal and commercial use with attribution, and a Figma plugin adds them to Figma files.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["illustration", "free illustration", "animated illustration", "vector illustration", "svg illustration", "customizable illustration", "flat illustration", "isometric illustration", "illustration pack", "landing page illustration", "figma plugin", "online editor", "illustration library", "free for commercial use"],
+  "contains": [
+    "thousands of illustrated concepts",
+    "5 styles: Rafiki, Bro, Amico, Pana, Cuate",
+    "topic categories: business, education, medical, technology, people, multi-purpose",
+    "online editor: colour, background, layers, animations",
+    "entrance and looping animations with easing and duration",
+    "Figma plugin",
+    "Freepik License: free for personal and commercial use with attribution"
+  ],
+  "formats": ["svg", "png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

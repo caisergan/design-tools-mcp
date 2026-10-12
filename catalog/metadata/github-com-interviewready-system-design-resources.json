@@ -1,0 +1,28 @@
+{
+  "id": "github-com-interviewready-system-design-resources",
+  "url": "https://github.com/InterviewReady/system-design-resources",
+  "kind": "repo",
+  "hints_hash": "c823ef8e1e250965",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/InterviewReady/system-design-resources/blob/HEAD/README.md", "title": "System Design Resources", "status": 200},
+    {"url": "https://github.com/InterviewReady/system-design-resources", "title": "GitHub - InterviewReady/system-design-resources: These are the best resources for System Design on the Internet", "status": 200}
+  ],
+  "status": "ok",
+  "name": "System Design Resources",
+  "summary": "Curated link list of system design articles, papers and engineering blog posts, grouped by topic.",
+  "description": "A reading list for system design: 39 topic sections — video processing, cluster management, service mesh, rate limiting, caching, distributed consensus, API design and more — linking articles, papers, talks and company engineering blog posts. Closes with further resources: books, interview videos and a system design online judge.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "interview preparation", "distributed system", "scalability", "architecture", "caching", "rate limiting", "service mesh", "distributed consensus", "engineering blog", "research paper", "reading list", "backend", "microservice"],
+  "contains": ["39 topic sections, from video processing to testing distributed systems", "links to papers, talks and company engineering blog posts", "18.5k stars, 2.5k forks"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "GPL-3.0-only",
+  "related": {"repo": "https://github.com/InterviewReady/system-design-resources", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

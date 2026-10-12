@@ -1,0 +1,36 @@
+{
+  "id": "github-com-giovannipasq-agentic-rag-for-dummies",
+  "url": "https://github.com/GiovanniPasq/agentic-rag-for-dummies",
+  "kind": "repo",
+  "hints_hash": "43ee0fdce1cfff50",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/GiovanniPasq/agentic-rag-for-dummies/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/GiovanniPasq/agentic-rag-for-dummies", "title": "GitHub - GiovanniPasq/agentic-rag-for-dummies: A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes. · GitHub", "status": 200},
+    {"url": "https://github.com/GiovanniPasq/agentic-rag-for-dummies/blob/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Agentic RAG for Dummies",
+  "summary": "Modular Agentic RAG built with LangGraph: hierarchical indexing, conversation memory and human-in-the-loop query clarification.",
+  "description": "Build an agentic RAG system in minimal Python: hierarchical parent/child indexing, a four-stage query workflow (conversation summary, clarification, multi-agent map-reduce retrieval, answer aggregation), self-correction and context compression. Comes as a step-by-step notebook or a modular project that runs Ollama-first and adapts to OpenAI, Anthropic and Gemini, with Qdrant hybrid search, a Gradio chat UI, Langfuse observability and RAGAS evaluation.",
+  "type": "template",
+  "categories": ["dev-ai-tools", "learning"],
+  "elements": [],
+  "keywords": ["agentic rag", "rag", "langgraph", "langchain", "retrieval augmented generation", "ai agent", "agent orchestration", "conversation memory", "query clarification", "hierarchical indexing", "parent child chunk", "qdrant", "ollama", "gradio", "rag evaluation", "ragas", "langfuse", "python", "notebook tutorial", "docker", "self-correction", "context compression", "multi-agent", "map reduce", "llm"],
+  "contains": [
+    "hierarchical indexing: small child chunks for search, large parent chunks for context",
+    "four-stage query workflow: summary, clarification, multi-agent retrieval, aggregation",
+    "self-correction, context compression and Langfuse observability; RAGAS evaluation notebook",
+    "two paths: notebook tutorial (agentic_rag, evaluation, pdf_to_markdown) or modular project app",
+    "Ollama-first, adaptable to OpenAI, Anthropic and Gemini; Qdrant vector store; Gradio chat UI",
+    "MIT license; 4.2k GitHub stars"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["python", "langgraph", "langchain", "qdrant", "gradio", "ollama", "docker"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/GiovanniPasq/agentic-rag-for-dummies", "docs": "https://github.com/GiovanniPasq/agentic-rag-for-dummies/blob/HEAD/project/README.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

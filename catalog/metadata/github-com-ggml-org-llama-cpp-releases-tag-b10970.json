@@ -1,0 +1,20 @@
+{
+  "id": "github-com-ggml-org-llama-cpp-releases-tag-b10970",
+  "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10970",
+  "kind": "page",
+  "hints_hash": "f05109d9a8964b88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10970", "title": "Release b10970 · ggml-org/llama.cpp · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Release b10970 · ggml-org/llama.cpp",
+  "summary": "llama.cpp build release b10970: contains the HIP fattn-mma fp32 accumulation change (PR #28576); 35 prebuilt assets.",
+  "description": "Automated llama.cpp build release, marked pre-release: commit bfdc321, built from 'HIP: fattn-mma: use fp32 accumulation on MFMA devices (#28576)' — use fp32 accumulators in fattn-mma on CDNA. Published 14 Sep 20:53 by github-actions, 35 assets across macOS/iOS, Linux, Android, Windows and openEuler builds.",
+  "keywords": ["llama.cpp", "release", "pre-release", "hip", "mfma", "fp32 accumulation", "fattn-mma", "cdna", "rocm", "amd gpu", "flash attention", "prebuilt binary", "llm inference", "build artifact"],
+  "contains": ["35 assets", "commit bfdc321, 'HIP: fattn-mma: use fp32 accumulation on MFMA devices (#28576)'", "release note: use fp32 accumulators in fattn-mma on CDNA", "marked pre-release, released 14 Sep 20:53 by github-actions"],
+  "related": {"repo": "https://github.com/ggml-org/llama.cpp", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.8
+}

@@ -1,0 +1,34 @@
+{
+  "id": "leeflets-com",
+  "url": "https://leeflets.com",
+  "kind": "site",
+  "hints_hash": "4be855fb2249dca0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://leeflets.com", "title": "Leeflets – AI-Powered Sales Agents for Influencer Marketing", "status": null},
+    {"url": "https://leeflets.com/pricing", "title": "Leeflets – AI-Powered Sales Agents for Influencer Marketing", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Leeflets",
+  "summary": "AI sales-agent platform for coaches and creators: agents answer DMs and chats and turn followers into leads.",
+  "description": "Leeflets sells teams of AI sales agents (its FAQ brands the product BuzzGrid) that connect to Instagram, LinkTree, YouTube and WhatsApp, push DMs and chats into a universal inbox, and recommend products and handle objections 24/7. Pricing runs from a free plan to Premium at $29.99/mo and PRO at $59.99/mo, aimed at coaches, creators and small business owners.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat"],
+  "keywords": ["ai agent", "sales agent", "influencer marketing", "lead generation", "chatbot", "instagram dm", "whatsapp", "universal inbox", "creator monetization", "ai marketplace", "saas"],
+  "contains": [
+    "AI agent marketplace for coaches and creators",
+    "agents for Instagram, YouTube, WhatsApp and LinkTree",
+    "universal inbox for DMs, chats and messages",
+    "pricing: free plan, Premium $29.99/mo, PRO $59.99/mo",
+    "site says it is loved by 500+ small business owners"
+  ],
+  "formats": ["app"],
+  "stack": ["framer"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

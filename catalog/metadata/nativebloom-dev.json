@@ -1,0 +1,31 @@
+{
+  "id": "nativebloom-dev",
+  "url": "https://nativebloom.dev",
+  "kind": "site",
+  "hints_hash": "8140e2ea7671739e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://nativebloom.dev/llms.txt", "title": "Native Bloom", "status": null},
+    {"url": "https://nativebloom.dev", "title": "Native Bloom | React Native UI Catalog", "status": 200},
+    {"url": "https://nativebloom.dev/blocks", "title": "Native Bloom | React Native UI Blocks", "status": 200},
+    {"url": "https://nativebloom.dev/prompts/block-implementation-workflow", "title": "Implementation workflow", "status": 200},
+    {"url": "https://nativebloom.dev/.well-known/agent-skills/native-bloom-block/SKILL.md", "title": "Native Bloom block", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Native Bloom",
+  "summary": "Catalog of React Native UI blocks with video previews, facet filters and copy-ready prompts for coding agents.",
+  "description": "A handpicked catalog of React Native components, animations and patterns from real builders — npm libraries, open source, paid collections, articles and social. Every block has a short video preview and facet search by component, animation, author, collection or package; Pro adds full block context, copy-ready agent prompts, an on-site assistant and an MCP server for Cursor, Claude Code and Codex.",
+  "type": "gallery",
+  "categories": ["components", "dev-ai-tools"],
+  "elements": ["navbar", "drawer", "input", "3d"],
+  "keywords": ["react native", "ui block", "component catalog", "animation", "bottom sheet", "tab bar", "shader", "skia", "lottie", "text field", "expo", "mcp", "coding agent", "prompt", "video preview", "facet search", "mobile ui", "ui inspiration", "design reference"],
+  "contains": ["handpicked React Native UI blocks from real builders", "every block has a short video preview", "facet search: component, animation, author, collection, package", "copy-ready agent prompts and MCP server on Pro", "free tier: catalog samples, spotlight blocks, 25 MCP calls per day", "blocks sourced from npm libraries, open source, paid kits, articles, videos and social", "Pro $8/mo, Team $12/mo per seat"],
+  "formats": ["video", "links", "prompts", "api"],
+  "stack": ["react-native", "react", "expo", "reanimated"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://nativebloom.dev/prompts/block-implementation-workflow", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

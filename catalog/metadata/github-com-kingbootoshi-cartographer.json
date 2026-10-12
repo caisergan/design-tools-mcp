@@ -1,0 +1,28 @@
+{
+  "id": "github-com-kingbootoshi-cartographer",
+  "url": "https://github.com/kingbootoshi/cartographer",
+  "kind": "repo",
+  "hints_hash": "0c674bd8f0378ea8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/kingbootoshi/cartographer/blob/HEAD/README.md", "title": "Cartographer", "status": 200},
+    {"url": "https://raw.githubusercontent.com/kingbootoshi/cartographer/HEAD/plugins/cartographer/README.md", "title": "Cartographer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cartographer",
+  "summary": "Claude Code plugin and CLI that maps codebases with parallel AI subagents and writes docs/CODEBASEMAP.md.",
+  "description": "Cartographer analyzes a repository — either by indexing it into a local SQLite graph or by orchestrating parallel Sonnet subagents — and produces documentation: docs/CODEBASEMAP.md, a CLAUDE.md summary, bounded agent briefs and removal/completeness audits. The v2 CLI adds index, brief, verify, audit, notes and adoption commands plus an MCP stdio wrapper; update mode re-analyzes only changed modules.",
+  "type": "plugin",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude code plugin", "codebase map", "repo map", "ai subagent", "codebase documentation", "agent context", "cli", "mcp server", "sqlite", "code graph", "source code analysis"],
+  "contains": ["generates docs/CODEBASEMAP.md and updates CLAUDE.md", "indexes a repo into .cartographer/graph.sqlite with incremental file-hash caching", "MCP stdio wrapper exposing index, brief, view, verify, audit and notes tools", "parallel Sonnet subagents (1M token context) split by token budget", "update mode re-analyzes only changed modules", "requires tiktoken (pip install tiktoken)", "MIT licensed"],
+  "formats": ["code", "cli"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/kingbootoshi/cartographer", "docs": "https://github.com/kingbootoshi/cartographer/blob/HEAD/plugins/cartographer/README.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

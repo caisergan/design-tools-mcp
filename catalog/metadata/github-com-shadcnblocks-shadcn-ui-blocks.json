@@ -1,0 +1,34 @@
+{
+  "id": "github-com-shadcnblocks-shadcn-ui-blocks",
+  "url": "https://github.com/shadcnblocks/shadcn-ui-blocks",
+  "kind": "repo",
+  "hints_hash": "223d6b7f96f4d130",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shadcnblocks/shadcn-ui-blocks/blob/HEAD/README.md", "title": "Free Shadcn UI Blocks - Shadcnblocks.com", "status": 200},
+    {"url": "https://shadcnblocks.com/blocks/free", "title": "Free Shadcn UI Blocks - Shadcnblocks.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Free Shadcn UI Blocks",
+  "summary": "Free shadcn/ui marketing blocks for React and Tailwind: the repo ships 55, the site lists 113+, installed with the shadcn CLI.",
+  "description": "An expanded collection of free, ready-to-use blocks built on shadcn/ui for marketing sites. Categories include heroes, CTAs, features, footers, FAQs, changelogs, contact, banners, data tables and chart cards. Copy-paste or install with the official shadcn CLI; built with Tailwind 4 and React.",
+  "type": "block-library",
+  "categories": ["sections", "components"],
+  "elements": ["hero", "cta", "features", "footer", "faq", "changelog", "contact", "banner", "table", "chart"],
+  "keywords": ["shadcn", "shadcn ui", "block", "marketing block", "landing page section", "react", "tailwind", "shadcn cli", "copy paste", "hero", "cta", "footer", "faq", "changelog", "data table", "chart card", "free block"],
+  "contains": [
+    "55 free blocks in the repo; the live site lists 113+ free blocks",
+    "categories: hero, cta, feature, footer, faq, changelog, contact, banner, data table, chart cards",
+    "installable with the official shadcn CLI",
+    "built with Tailwind CSS 4 and React",
+    "part of the larger Shadcnblocks.com library with paid Pro and All Access tiers"
+  ],
+  "formats": ["code", "cli"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/shadcnblocks/shadcn-ui-blocks", "docs": "https://docs.shadcnblocks.com/blocks/shadcn-cli/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

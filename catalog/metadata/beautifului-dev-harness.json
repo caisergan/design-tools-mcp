@@ -1,0 +1,21 @@
+{
+  "id": "beautifului-dev-harness",
+  "url": "https://beautifului.dev/harness",
+  "kind": "page",
+  "hints_hash": "5f87a02b977fb344",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beautifului.dev/harness", "title": "Ice Cream Harness — Beautiful UI", "status": null},
+    {"url": "https://beautifului.dev", "title": "Beautiful UI — Crafted primitives for AI-native interfaces", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Ice Cream Harness",
+  "summary": "Interactive chat demo built from Beautiful UI primitives: ask a question and watch the agent think, stream and answer.",
+  "description": "An interactive chat window assembled from Beautiful UI primitives: ask a question and watch the agent think, stream, and build the answer out of live components. A demo of the component library for AI-native interfaces; the page renders client-side, so only its title and description were readable.",
+  "keywords": ["ai chat", "chat window", "chat ui", "ai agent", "agent thinking", "streaming text", "react component", "shadcn registry", "ai native interface", "chat demo", "agent harness", "ice cream harness"],
+  "elements": ["chat", "prompt-input", "ai-agent-ui"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beautifului-dev"},
+  "confidence": 0.7
+}

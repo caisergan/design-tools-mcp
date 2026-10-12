@@ -1,0 +1,27 @@
+{
+  "id": "github-com-block-buzz",
+  "url": "https://github.com/block/buzz",
+  "kind": "repo",
+  "hints_hash": "dcb6d015df5707af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/block/buzz/blob/HEAD/README.md", "title": "Buzz", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Buzz",
+  "summary": "Self-hostable workspace where humans and AI agents share the same rooms, built on one Nostr relay.",
+  "description": "A self-hostable workspace where people and AI agents build together: channels, threads, DMs, canvases, media, search and an audit log, all kept as signed events in one Nostr relay. Ships a desktop app (Tauri + React), an agent-first buzz-cli with JSON in/out, and YAML workflows; agents are members with their own keys and channel memberships.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat"],
+  "keywords": ["ai agent", "agent workspace", "nostr", "relay", "self-hosted", "team chat", "collaboration", "code review", "workflow automation", "git patch", "desktop app", "rust", "tauri", "open source"],
+  "contains": ["self-hostable Nostr relay workspace where humans and agents share rooms", "channels, threads, DMs, canvases, media, search, audit log", "agents are members with their own keys and memberships, not bots", "desktop app (Tauri + React) for macOS, Linux and Windows", "buzz-cli: JSON in / JSON out, plus an ACP harness for Goose, Codex, Claude Code", "YAML workflows: message, reaction, schedule and webhook triggers", "git events via NIP-34 (patches, repo announcements, status)", "Apache 2.0; built by Block, Inc."],
+  "formats": ["app", "code", "docs"],
+  "stack": ["rust", "react", "tauri"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/block/buzz", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

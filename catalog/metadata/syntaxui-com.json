@@ -1,0 +1,33 @@
+{
+  "id": "syntaxui-com",
+  "url": "https://syntaxui.com",
+  "kind": "site",
+  "hints_hash": "aad31015b85280c4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://syntaxui.com", "title": "SyntaxUI - Free React, Tailwind CSS & Framer UI Components", "status": null},
+    {"url": "https://syntaxui.com/pro", "title": "SyntaxUI Pro - Premium React, Tailwind CSS & Framer UI Components", "status": null},
+    {"url": "https://syntaxui.com/blocks/banner", "title": "Banner - SyntaxUI", "status": null},
+    {"url": "https://syntaxui.com/blocks/footer", "title": "Footer - SyntaxUI", "status": null},
+    {"url": "https://syntaxui.com/blocks/pricing", "title": "Pricing - SyntaxUI", "status": null},
+    {"url": "https://syntaxui.com/animations/skewed-infinite-scroll", "title": "Skewed Infinite Scroll - SyntaxUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "SyntaxUI",
+  "summary": "Free copy-paste React components and blocks built with Tailwind CSS and Framer Motion.",
+  "description": "A library of copy-paste React components — buttons, loaders, inputs, tabs, toggles, accordions, steppers — plus page blocks for features, pricing, testimonials, footer, logo cloud and banner, and animated components and effects built with Framer Motion. Free to use, with premium blocks and templates on SyntaxUI Pro.",
+  "type": "component-library",
+  "categories": ["components", "sections", "motion"],
+  "elements": ["button", "loader", "switch", "input", "tabs", "accordion", "stepper", "marquee", "background", "features", "pricing", "testimonials", "footer", "logo-cloud", "banner"],
+  "variants": {"footer": ["multi-column", "centered", "social"]},
+  "keywords": ["react component", "tailwind component", "framer motion", "free component", "copy paste component", "animated component", "ui block", "nextjs component", "pricing section", "testimonial section", "footer block", "logo cloud", "banner component", "stepper", "accordion component", "toggle switch", "tab component", "animated button", "loader spinner", "shimmer button", "neubrutalism", "infinite scroll", "gradient background", "landing page block"],
+  "contains": ["15 button variants incl. shimmer, neubrutalism and 3D", "14 loaders incl. ripple wave, spinning cube and whirlpool", "5 toggle components", "34 docs pages", "blocks: features, pricing, testimonial, footer, logo cloud, banner", "animations: skewed infinite scroll, hover animations", "effects: background, gradients, image fade, emoji confetti", "free components plus a paid Pro tier with 50+ premium components"],
+  "formats": ["code", "docs", "templates"],
+  "stack": ["react", "tailwind", "framer-motion", "nextjs"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://syntaxui.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

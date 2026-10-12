@@ -1,0 +1,15 @@
+{
+  "id": "usplash-com",
+  "url": "https://usplash.com",
+  "kind": "site",
+  "hints_hash": "76bd7f65df977a1e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://usplash.com/llms.txt", "title": "usplash.com", "status": null},
+    {"url": "https://usplash.com", "title": "", "status": null}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

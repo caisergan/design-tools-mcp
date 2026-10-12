@@ -1,0 +1,128 @@
+{
+  "id": "github-com-goetzrobin-spartan",
+  "url": "https://github.com/goetzrobin/spartan",
+  "kind": "repo",
+  "hints_hash": "53c1f011c45b3bb3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/goetzrobin/spartan/blob/HEAD/README.md",
+      "title": "spartan",
+      "status": 200
+    },
+    {
+      "url": "https://www.spartan.ng/components",
+      "title": "spartan/ui - Components",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "spartan",
+  "summary": "Angular port of shadcn/ui: 55+ accessible headless primitives plus copy-paste styled components, added by CLI.",
+  "description": "spartan/ui brings the shadcn/ui approach to Angular: accessible, un-styled primitives published as @spartan-ng/brain, paired with shadcn-style helm components that the @spartan-ng/cli copies into a workspace so you own the code. Ships 55+ components plus theming, blocks, typography, RTL and Figma docs, an MCP server (@spartan-ng/mcp) and an agent skill for AI assistants. The monorepo also holds spartan/stack, a full-stack example on AnalogJS, Supabase, Drizzle and tRPC. MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "modal",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "chat",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "checkbox",
+    "command-palette",
+    "dropdown",
+    "table",
+    "date-picker",
+    "drawer",
+    "empty-state",
+    "form",
+    "popover",
+    "otp-input",
+    "input",
+    "list",
+    "menubar",
+    "navbar",
+    "pagination",
+    "progress",
+    "select",
+    "sidebar",
+    "loader",
+    "slider",
+    "toast",
+    "switch",
+    "tabs",
+    "tooltip"
+  ],
+  "keywords": [
+    "angular",
+    "shadcn",
+    "component library",
+    "headless",
+    "ui primitive",
+    "accessible",
+    "copy paste",
+    "cli",
+    "nx",
+    "tailwind",
+    "analog",
+    "supabase",
+    "drizzle",
+    "trpc",
+    "mcp server",
+    "block library",
+    "theming",
+    "dark mode",
+    "figma",
+    "open source"
+  ],
+  "contains": [
+    "55+ components for Angular",
+    "headless primitives in @spartan-ng/brain; styled helm components copied by the CLI",
+    "@spartan-ng/cli Nx plugin and Angular schematics add it to any workspace",
+    "@spartan-ng/mcp provides spartan docs to AI assistants; agent skill via npx skills add",
+    "docs cover theming, styles, dark mode, RTL, typography, Figma and blocks",
+    "spartan/stack: AnalogJS, Supabase, Drizzle, tRPC, Tailwind, Nx example app",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "angular",
+    "tailwind",
+    "nx",
+    "analogjs",
+    "trpc",
+    "drizzle",
+    "supabase",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/goetzrobin/spartan",
+    "docs": "https://www.spartan.ng",
+    "npm": "@spartan-ng/brain",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

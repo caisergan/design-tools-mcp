@@ -1,0 +1,29 @@
+{
+  "id": "animos-app",
+  "url": "https://animos.app",
+  "kind": "site",
+  "hints_hash": "9697551df7daf5d1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://animos.app", "title": "animos — Motion templates for design showcases", "status": null},
+    {"url": "https://animos.app/pricing", "title": "animos — Motion templates for design showcases", "status": 200},
+    {"url": "https://animos.app/templates", "title": "animos — Motion templates for design showcases", "status": 200}
+  ],
+  "status": "partial",
+  "name": "animos",
+  "summary": "Ready-made motion templates that turn images or videos into design showcase videos, exported as MP4 or WebM in the browser.",
+  "description": "A browser-based tool for showcasing designs in motion. Pick a ready-made animation template, drop in your images or videos, tweak the settings, and export MP4 or WebM — no installs. The site renders client-side only, so the template catalogue and pricing are not readable without JavaScript.",
+  "type": "tool",
+  "categories": ["motion"],
+  "elements": [],
+  "keywords": ["motion template", "animation template", "design showcase", "showcase video", "video export", "mp4", "webm", "design presentation", "animated mockup", "portfolio animation", "browser app", "motion design"],
+  "contains": ["browser app with ready-made animation templates", "input: your images or videos", "export: MP4 or WebM"],
+  "formats": ["app", "templates", "video"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

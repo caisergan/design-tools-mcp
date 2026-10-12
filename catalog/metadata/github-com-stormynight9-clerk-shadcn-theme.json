@@ -1,0 +1,29 @@
+{
+  "id": "github-com-stormynight9-clerk-shadcn-theme",
+  "url": "https://github.com/stormynight9/clerk-shadcn-theme",
+  "kind": "repo",
+  "hints_hash": "301def20a0a483d7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/stormynight9/clerk-shadcn-theme/blob/HEAD/README.md", "title": "clerk-shadcn-theme", "status": null},
+    {"url": "https://github.com/stormynight9/clerk-shadcn-theme", "title": "GitHub - stormynight9/clerk-shadcn-theme", "status": 200},
+    {"url": "https://raw.githubusercontent.com/stormynight9/clerk-shadcn-theme/HEAD/README.md", "title": "clerk-shadcn-theme", "status": 200}
+  ],
+  "status": "ok",
+  "name": "clerk-shadcn-theme",
+  "summary": "CSS theme that syncs Clerk's prebuilt components with shadcn/ui styles, with an optional dark mode setup.",
+  "description": "A stylesheet you paste into your global CSS so Clerk's prebuilt authentication components match your shadcn/ui theme. The README lists support for SignIn, SignUp, UserButton, UserProfile, OrganizationSwitcher and other Clerk components; set up your theme (dark mode is optional) and the provided styles do the sync. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["form", "avatar"],
+  "keywords": ["clerk", "shadcn", "theme", "css", "dark mode", "sign in", "sign up", "user button", "user profile", "organization switcher", "authentication ui", "styling"],
+  "contains": ["CSS styles for Clerk's prebuilt components", "supports SignIn, SignUp, UserButton, UserProfile and OrganizationSwitcher", "optional dark mode configuration", "copy-paste into your global CSS file", "MIT licensed"],
+  "formats": ["code"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/stormynight9/clerk-shadcn-theme", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

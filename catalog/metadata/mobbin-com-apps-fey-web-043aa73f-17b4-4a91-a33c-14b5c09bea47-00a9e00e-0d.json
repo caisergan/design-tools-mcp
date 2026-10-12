@@ -1,0 +1,19 @@
+{
+  "id": "mobbin-com-apps-fey-web-043aa73f-17b4-4a91-a33c-14b5c09bea47-00a9e00e-0d",
+  "url": "https://mobbin.com/apps/fey-web-043aa73f-17b4-4a91-a33c-14b5c09bea47/00a9e00e-0d44-4873-8059-7558fc7bc406/screens",
+  "kind": "page",
+  "hints_hash": "04d26258ff5dee77",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.com/apps/fey-web-043aa73f-17b4-4a91-a33c-14b5c09bea47/00a9e00e-0d44-4873-8059-7558fc7bc406/screens", "title": "Mobbin", "status": null}
+  ],
+  "status": "partial",
+  "name": "Fey Web",
+  "summary": "Web screens from Fey, an investment app, in Mobbin's searchable app screenshot library.",
+  "keywords": ["investment app", "finance app", "web app", "desktop ui", "app screenshot", "design inspiration", "screenshot library"],
+  "formats": ["screenshots"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "mobbin-com"},
+  "confidence": 0.6
+}

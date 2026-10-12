@@ -1,0 +1,40 @@
+{
+ "id": "reicon-dev",
+ "url": "https://reicon.dev",
+ "kind": "site",
+ "hints_hash": "20db73d4090bd893",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://reicon.dev/llms.txt", "title": "Reicon — Open-Source Icon Library", "status": null},
+  {"url": "https://reicon.dev/llms-full.txt", "title": "Reicon - Complete Reference for AI Agents", "status": 200},
+  {"url": "https://reicon.dev", "title": "Reicon - Open-Source Icon Library for Designers & Developers", "status": 200},
+  {"url": "https://reicon.dev/docs", "title": "Reicon Docs - Get Started", "status": 200},
+  {"url": "https://reicon.dev/icons", "title": "Free Open-Source SVG Icons - Reicon", "status": 200},
+  {"url": "https://reicon.dev/faq", "title": "Reicon FAQ - Reicon", "status": 200},
+  {"url": "https://reicon.dev/license", "title": "Reicon MIT License - Reicon", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Reicon",
+ "summary": "Open-source icon library with 2,700+ handcrafted SVG icons in Outline and Filled weights, free under MIT.",
+ "description": "2,700+ handcrafted icons on a 24×24 grid in Outline and Filled weights, free under MIT. Ships as tree-shakeable packages for React, Vue 3, Svelte, React Native, Flutter and vanilla JS, a CDN web component, a Figma plugin, a VS Code extension and an MCP server that lets AI agents search, view and apply icons.",
+ "type": "icon-set",
+ "categories": ["icons"],
+ "elements": [],
+ "keywords": ["icon", "svg icon", "icon library", "icon pack", "react icon", "vue icon", "svelte icon", "flutter icon", "figma plugin", "vscode extension", "mcp server", "free icon", "open source", "outline icon", "filled icon", "cdn"],
+ "contains": [
+  "2,700+ icons on a 24×24 grid in Outline and Filled weights",
+  "packages: reicon-react, reicon-vue, reicon-svelte, reicon-react-native, reiconflutter, reicon (vanilla)",
+  "CDN web component <re-icon> with size, color, rotate, flip, spin and gradient attributes",
+  "MCP server for AI agents (searchicons, viewicon, applyicon, listcategories; npx reicon-mcp)",
+  "Figma plugin and VS Code extension for browsing and inserting icons",
+  "MIT licensed; tree-shakeable; SSR-compatible"
+ ],
+ "formats": ["code", "npm-package", "svg", "cli", "docs"],
+ "stack": ["react", "vue", "svelte", "react-native", "flutter"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/dqev/reicon", "docs": "https://reicon.dev/docs", "npm": "reicon", "figma": "https://www.figma.com/community/plugin/1652983191908763066", "parent": null},
+ "confidence": 0.9
+}

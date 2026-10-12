@@ -1,0 +1,32 @@
+{
+  "id": "mingcute-com",
+  "url": "https://mingcute.com",
+  "kind": "site",
+  "hints_hash": "27e71ffeae46d3de",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.mingcute.com/", "title": "MingCute Icon _ Carefully Designed Icon Library", "status": null},
+    {"url": "https://github.com/mingcute-design/mingcute-icons", "title": "GitHub - mingcute-design/mingcute-icons: Carefully designed icons for modern interfaces.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/README.md", "title": "Mingcute Icons README", "status": 200},
+    {"url": "https://github.com/mingcute-design/mingcute-docs", "title": "GitHub - mingcute-design/mingcute-docs: Documentation and visual assets for MingCute.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/mingcute-design/mingcute-docs/main/README.md", "title": "MingCute Docs", "status": 200},
+    {"url": "https://raw.githubusercontent.com/mingcute-design/mingcute-docs/main/readme/mingcute/README.md", "title": "MingCute Icon", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MingCute Icon",
+  "summary": "Open-source icon library of 1,663 icons in outline and filled styles, packaged for React, Vue, Svelte and more.",
+  "description": "MingCute provides 1,663 icons drawn on a 24×24 grid in Core Regular and Core Filled styles with a 2px stroke, for 3,326 styled definitions in total. Icons come as standalone SVG, PNG, WOFF2 icon fonts and framework packages — React, Vue, React Native, Svelte, SolidJS, vanilla JavaScript and web components — plus a Figma plugin and a site where you can adjust color and size before downloading.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon set", "icon library", "svg icon", "png icon", "icon font", "react icon", "vue icon", "svelte icon", "react native icon", "web component icon", "outline icon", "filled icon", "figma plugin", "free icon", "open source icon"],
+  "contains": ["1,663 icons, each in Core Regular and Core Filled styles (3,326 definitions)", "icons drawn on a 24×24 grid with 2px stroke", "10 packages: React, Vue, React Native, Svelte, SolidJS, vanilla JS, web components, standalone SVG, WOFF2 icon fonts", "download SVG or PNG from the site after adjusting color and size", "Figma plugin for designers", "Apache-2.0 licensed repository (1.6k stars)"],
+  "formats": ["svg", "png", "font-files", "npm-package", "code"],
+  "stack": ["react", "vue", "react-native", "svelte", "solidjs"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/mingcute-design/mingcute-icons", "docs": null, "npm": "@mingcute/icons", "figma": null, "parent": null},
+  "confidence": 0.85
+}

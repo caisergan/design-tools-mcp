@@ -1,0 +1,29 @@
+{
+  "id": "dailybranding-xyz",
+  "url": "https://dailybranding.xyz",
+  "kind": "site",
+  "hints_hash": "33af7fd99d69630b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dailybranding.xyz", "title": "Daily Branding – Creative Projects And Inspiration", "status": null},
+    {"url": "https://dailybranding.xyz/fonts", "title": "Fonts | Popular Branding Fonts", "status": null},
+    {"url": "https://dailybranding.xyz/about", "title": "About", "status": null}
+  ],
+  "status": "ok",
+  "name": "Daily Branding",
+  "summary": "Branding archive of 172 projects with the agencies and designers behind them, plus websites and fonts.",
+  "description": "Daily Branding collects branding projects from around the world and features the agencies and creators behind them. Sections cover branding projects, featured website designs, typography inspiration and articles, with a directory of agencies and designers to hire and a form to submit work.",
+  "type": "gallery",
+  "categories": ["inspiration", "fonts"],
+  "elements": ["team"],
+  "keywords": ["branding", "brand identity", "branding inspiration", "brand project", "creative agency", "design agency", "designer portfolio", "typography inspiration", "font inspiration", "website design inspiration", "case study", "creative archive"],
+  "contains": ["172 branding project entries", "sections: branding projects, website designs, fonts, articles", "agency and designer directory (hire)", "submit your work form"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

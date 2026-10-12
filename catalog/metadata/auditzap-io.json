@@ -1,0 +1,81 @@
+{
+  "id": "auditzap-io",
+  "url": "https://auditzap.io",
+  "kind": "site",
+  "hints_hash": "f83590fef6667580",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://auditzap.io/llms.txt",
+      "title": "AuditZap",
+      "status": null
+    },
+    {
+      "url": "https://auditzap.io",
+      "title": "Website Audit Tool - SEO & Performance",
+      "status": 200
+    },
+    {
+      "url": "https://auditzap.io/guides",
+      "title": "SEO & Web Performance Guides | AuditZap",
+      "status": 200
+    },
+    {
+      "url": "https://auditzap.io/changelog",
+      "title": "What's new in AuditZap | AuditZap",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AuditZap",
+  "summary": "Website audit tool: 40 SEO, performance and AI-visibility checks with fixes ranked by revenue impact.",
+  "description": "Audits any URL in about two minutes: crawls up to 10 pages free, 100 on Pro and 250 on Agency, and runs 40 checks across Critical, Performance, SEO, Quick Wins and AI Visibility (llms.txt, AI crawler access, citation schema). Failing checks get CMS-aware fix instructions (WordPress, Shopify, Webflow, Next.js, Wix, Ghost, Squarespace), ranked by estimated revenue impact. Free standalone checkers need no signup.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "website audit",
+    "seo audit",
+    "performance audit",
+    "core web vital",
+    "site health",
+    "broken link checker",
+    "meta description",
+    "structured data",
+    "ai visibility",
+    "llms.txt",
+    "answer engine optimization",
+    "monitoring",
+    "audit report"
+  ],
+  "contains": [
+    "40 checks across Critical, Performance, SEO, Quick Wins and AI Visibility",
+    "crawls 10 pages free, 100 on Pro and 250 on Agency",
+    "free plan: 3 audits/month with one AI fix; Pro $29/month, Agency $79/month; $9 one-time report",
+    "CMS-aware AI fix instructions (WordPress, Shopify, Webflow, Next.js, Wix, Ghost, Squarespace)",
+    "revenue-impact ranking, PDF reports, weekly monitoring and an embeddable audit widget",
+    "free standalone tools incl. broken-link, 404, meta description, structured data and llms.txt checkers"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

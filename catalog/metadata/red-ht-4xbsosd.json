@@ -1,0 +1,33 @@
+{
+  "id": "red-ht-4xbsosd",
+  "url": "https://red.ht/4xbsoSD",
+  "kind": "page",
+  "hints_hash": "01c6b05c91ee591e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://red.ht/4xbsoSD", "title": "Red Hat Hardened Images", "status": null},
+    {"url": "https://www.redhat.com/en/products/hardened-images", "title": "Red Hat Hardened Images", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Red Hat Hardened Images",
+  "summary": "Free, vendor-neutral catalog of distroless, micro-sized container images, scanned for security and tested.",
+  "description": "A catalog of trusted, micro-sized container images built with a reduced attack surface and security moved to the start of the build process. The images ship with validated security profiles and an integrated SBOM, get CVE remediation with scanning and testing, and run on any Linux container platform, cloud or bare metal.",
+  "type": "directory",
+  "elements": [],
+  "keywords": ["container image", "distroless", "hardened image", "micro image", "vulnerability scanning", "cve", "sbom", "container security", "image catalog", "supply chain security", "linux container"],
+  "contains": [
+    "free, vendor-neutral image catalog",
+    "distroless, micro-sized images",
+    "validated security profiles",
+    "integrated SBOM",
+    "CVE remediation with scanning and testing"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

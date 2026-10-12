@@ -1,0 +1,74 @@
+{
+  "id": "colors-muz-li",
+  "url": "https://colors.muz.li",
+  "kind": "site",
+  "hints_hash": "6381da967a07ec04",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:19Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://colors.muz.li",
+      "title": "Color Palette Generator - Create Beautiful Color Schemes",
+      "status": null
+    },
+    {
+      "url": "https://colors.muz.li/color-palette-generator/F7F7F7",
+      "title": "Color Palette Generator - Create Beautiful Color Schemes",
+      "status": 200
+    },
+    {
+      "url": "https://colors.muz.li/color-names",
+      "title": "HTML Color Codes and Names",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Muzli Colors",
+  "summary": "Color palette generator with presets and popular palettes, plus live previews of any palette on UI mockups.",
+  "description": "Muzli's color tool: start from a base color or a recommended preset, generate a scheme, and hover suggested combinations to preview them live on a landing page, dashboard, icon, logo, pricing page, illustration or mobile app mockup. Popular palettes are seeded by hex color, and a color names index lists hex codes under named colors. A Muzli browser extension is promoted alongside the tool.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "color palette",
+    "palette generator",
+    "color scheme",
+    "color preset",
+    "popular palette",
+    "color name",
+    "hex color",
+    "ui preview",
+    "landing page color",
+    "dashboard color",
+    "logo color",
+    "brand color",
+    "color inspiration"
+  ],
+  "contains": [
+    "palette generator starting from an initial color or a preset",
+    "live previews on landing page, dashboard, icon, logo, pricing page, illustration and mobile app mockups",
+    "popular color palettes browsable by hex color",
+    "color names index with hex codes"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

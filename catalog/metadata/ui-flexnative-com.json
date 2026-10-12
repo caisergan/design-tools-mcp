@@ -1,0 +1,128 @@
+{
+  "id": "ui-flexnative-com",
+  "url": "https://ui.flexnative.com",
+  "kind": "site",
+  "hints_hash": "f350845c97f21baa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.flexnative.com",
+      "title": "Ship UI. Keep the Taste - Flexnative",
+      "status": 200
+    },
+    {
+      "url": "https://ui.flexnative.com/blocks",
+      "title": "Blocks - Flexnative",
+      "status": 200
+    },
+    {
+      "url": "https://ui.flexnative.com/patterns",
+      "title": "Patterns - Flexnative",
+      "status": 200
+    },
+    {
+      "url": "https://ui.flexnative.com/patterns/card",
+      "title": "Card - Flexnative",
+      "status": 200
+    },
+    {
+      "url": "https://ui.flexnative.com/presets",
+      "title": "Presets - Flexnative",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Flexnative UI",
+  "summary": "450 shadcn/ui blocks, patterns and illustrations with live previews, plus intent-based prompts that pick the pattern for you.",
+  "description": "A registry built on shadcn/ui with three offerings: Blocks (26 page sections — heroes, content, features, CTA, bento, testimonials — in Vellum and Sienna presets), Patterns (450+ compositions such as forms, tables, dialogs, dropdowns, empty states), and Intents (descriptions of a goal like sign-in or payment that return the decision, reasoning and code). Blocks have live editing; copy the code and ship.",
+  "type": "registry",
+  "categories": [
+    "sections",
+    "components"
+  ],
+  "elements": [
+    "form",
+    "button",
+    "modal",
+    "select",
+    "card",
+    "dropdown",
+    "table",
+    "input",
+    "switch",
+    "loader",
+    "command-palette",
+    "avatar",
+    "accordion",
+    "badge",
+    "banner",
+    "breadcrumbs",
+    "checkbox",
+    "empty-state",
+    "pagination",
+    "popover",
+    "tabs",
+    "tooltip",
+    "bento-grid",
+    "hero",
+    "features",
+    "testimonials",
+    "cta",
+    "pricing",
+    "timeline"
+  ],
+  "keywords": [
+    "ui block",
+    "section",
+    "shadcn",
+    "registry",
+    "react",
+    "tailwind css",
+    "pattern",
+    "hero",
+    "pricing",
+    "testimonials",
+    "form",
+    "data table",
+    "button",
+    "avatar",
+    "dropdown",
+    "live preview",
+    "copy paste",
+    "theme preset",
+    "mcp"
+  ],
+  "contains": [
+    "450 registry items across blocks, patterns and illustrations",
+    "26 blocks: hero (14), content, feature, CTA, bento grid, testimonials",
+    "24 patterns: accordion, avatar, button, card, command, dialog, dropdown, empty, forms, input, table, tabs",
+    "presets (Vellum, Sienna) that retune radius, shadow and rhythm via inherited tokens",
+    "intents: goal descriptions that return the decision, reasoning and code"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://ui.flexnative.com/patterns",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.78
+}

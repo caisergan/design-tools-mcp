@@ -1,0 +1,29 @@
+{
+  "id": "aarav-ns-cloudflare-com",
+  "url": "https://aarav.ns.cloudflare.com",
+  "kind": "site",
+  "hints_hash": "1bbccfafd18877a4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aarav.ns.cloudflare.com", "title": "Cloudflare DNS - World's Fastest DNS", "status": 200},
+    {"url": "https://www.cloudflare.com/plans", "title": "Pricing", "status": 200},
+    {"url": "https://www.cloudflare.com/about", "title": "About us | Cloudflare", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cloudflare DNS",
+  "summary": "Cloudflare's authoritative DNS: anycast name servers, DDoS-resilient resolution and a free, fully-featured API.",
+  "description": "Product page for Cloudflare's authoritative DNS, which translates domain names into IP addresses from a global anycast network. It covers raw query performance, DDoS resiliency, API access for infrastructure-as-code, and uses such as automated certificate validation, instant propagation and internal zones. The nameserver hostname in the entry URL redirects here.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["dns", "authoritative dns", "nameserver", "dns api", "anycast", "ddos protection", "propagation", "dns record", "txt record", "cname", "infrastructure as code", "internal dns", "free dns", "latency"],
+  "contains": ["authoritative DNS on a global anycast network", "free tier plus Pro, Business and contract plans", "API for record automation, Terraform and Ansible", "internal DNS zones"],
+  "formats": ["api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

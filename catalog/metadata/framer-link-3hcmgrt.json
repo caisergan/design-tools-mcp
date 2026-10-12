@@ -1,0 +1,69 @@
+{
+  "id": "framer-link-3hcmgrt",
+  "url": "https://framer.link/3HcmgRT",
+  "kind": "page",
+  "hints_hash": "88add8a8b86dd550",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:38:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://framer.link/3HcmgRT",
+      "title": "Variable (Design token for Framer) — Plugin for Framer",
+      "status": null
+    },
+    {
+      "url": "https://www.framer.com/marketplace/plugins/variable-design-token-for-framer/",
+      "title": "Variable (Design token for Framer) — Plugin for Framer",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Variable (Design token for Framer)",
+  "summary": "Framer plugin that creates design tokens on the canvas, binds them to element properties and keeps them in collections with modes.",
+  "description": "Plugin for Framer that manages design tokens without leaving the canvas. Variables come in 11 types with aliases and math, can be scoped, and live in collections with per-mode values such as light/dark or desktop/mobile. Tokens bind to layout, visual style and typography properties, and import/export covers W3C DTCG, Figma Tokens JSON and AI design-system prompts. By Iklil Najma Muqtafa, tagged Styles.",
+  "type": "plugin",
+  "elements": [],
+  "keywords": [
+    "design token",
+    "framer plugin",
+    "design variable",
+    "design system",
+    "token collection",
+    "multi-mode",
+    "dark mode",
+    "theme",
+    "typography token",
+    "spacing token",
+    "w3c dtcg",
+    "figma token",
+    "import",
+    "export",
+    "breakpoint",
+    "canvas"
+  ],
+  "contains": [
+    "11 variable types: color, number, string, boolean, dropdown, typography, spacing, sizing, radius, border width, opacity",
+    "aliases and math such as {spacing/md} * 2; scopes restrict variables to properties",
+    "collections with per-mode values (light/dark, desktop/mobile) and breakpoint auto-switch",
+    "binds tokens to layout, style and typography properties, including master components",
+    "import: W3C DTCG, Figma Tokens, custom JSON; export: JSON, DTCG and AI design-system prompts",
+    "by Iklil Najma Muqtafa, published Sep 22, 2026; license: limited; tag: styles"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

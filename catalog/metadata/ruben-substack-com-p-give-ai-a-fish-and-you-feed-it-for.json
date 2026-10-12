@@ -1,0 +1,20 @@
+{
+ "id": "ruben-substack-com-p-give-ai-a-fish-and-you-feed-it-for",
+ "url": "https://ruben.substack.com/p/give-ai-a-fish-and-you-feed-it-for",
+ "kind": "page",
+ "hints_hash": "52dc6c5ed1eb31f0",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:43:05Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://ruben.substack.com/p/give-ai-a-fish-and-you-feed-it-for", "title": "Give AI a fish, and you feed it for a day.", "status": null}
+ ],
+ "status": "partial",
+ "name": "Give AI a fish, and you feed it for a day.",
+ "summary": "Paid guide to turning repeatable tasks into AI skills on ChatGPT, Claude and Grok, with screen recording and a 3,457-skill library.",
+ "keywords": ["claude skill", "chatgpt skill", "ai skill", "skill library", "prompt", "workflow", "automation", "screen recording", "ai tutorial", "productivity"],
+ "type": "article",
+ "pricing": "paid",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+ "confidence": 0.75
+}

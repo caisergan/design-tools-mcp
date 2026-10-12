@@ -1,0 +1,101 @@
+{
+  "id": "github-com-creatorem-ui",
+  "url": "https://github.com/creatorem/ui",
+  "kind": "repo",
+  "hints_hash": "88dee77c9b98126a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/creatorem/ui/blob/HEAD/README.md",
+      "title": "Creatorem UI Components",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/creatorem/ui",
+      "title": "GitHub - creatorem/ui: A bunch of React components (like Tour, Stepper, ...) built on top of radix primitives and motion. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://creatorem.com/en/ui",
+      "title": "Next.js and mobile expo boilerplates, to ship your next idea in days | Creatorem",
+      "status": 200
+    },
+    {
+      "url": "https://creatorem.com/docs/ui",
+      "title": "Introduction | Creatorem",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Creatorem UI",
+  "summary": "React components that complement shadcn/ui: tour, stepper, quick form, QR code, liquid motion.",
+  "description": "A component collection that complements shadcn/ui with missing pieces: confirm button, number/phone/speech inputs, quick form, QR code, progression, skeleton, stepper and tour, plus motion components such as dialog, glow, liquid glass, liquid slider and liquid switch. Built with Radix primitives, TypeScript and Tailwind; some components are only available in the paid Creatorem SaaS kit.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "button",
+    "input",
+    "form",
+    "progress",
+    "loader",
+    "stepper",
+    "modal",
+    "slider",
+    "switch"
+  ],
+  "keywords": [
+    "react",
+    "component library",
+    "shadcn",
+    "radix",
+    "tour",
+    "stepper",
+    "quick form",
+    "qr code",
+    "liquid glass",
+    "liquid slider",
+    "liquid switch",
+    "skeleton",
+    "glow",
+    "motion",
+    "typescript",
+    "tailwind"
+  ],
+  "contains": [
+    "components: tour, stepper, confirm button, quick form, QR code, number/phone/speech input",
+    "motion: dialog, glow, liquid glass, liquid slider, liquid switch",
+    "layout: ratio preserver, device mockup, skeleton",
+    "utility hooks: copy to clipboard, input drag, delay",
+    "some components only in the paid SaaS kit"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion",
+    "radix"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/creatorem/ui",
+    "docs": "https://creatorem.com/docs/ui",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

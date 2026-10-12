@@ -1,0 +1,30 @@
+{
+  "id": "anthropic-skilljar-com",
+  "url": "https://anthropic.skilljar.com",
+  "kind": "site",
+  "hints_hash": "b8cc84d3b5ee9bd2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://anthropic.skilljar.com/llms.txt", "title": "Anthropic Education", "status": null},
+    {"url": "https://anthropic.skilljar.com", "title": "Anthropic Courses", "status": 200},
+    {"url": "https://anthropic.skilljar.com/claude-code-in-action", "title": "Claude Code in Action", "status": 200},
+    {"url": "https://anthropic.skilljar.com/claude-101", "title": "Claude 101", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Anthropic Academy",
+  "summary": "Anthropic's free course catalog for Claude, Claude Code, the API, MCP and AI fluency.",
+  "description": "Free Anthropic courses covering Claude 101, Claude Code, the Claude API, Model Context Protocol, agent skills and subagents, plus AI fluency tracks for students, educators, nonprofits and businesses. Hosted on Skilljar, each course has a curriculum of lessons, quizzes and a certificate of completion.",
+  "type": "course",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["course", "claude", "claude code", "claude api", "mcp", "agent skill", "subagent", "ai fluency", "free course", "training", "tutorial", "certification", "anthropic academy", "learning"],
+  "contains": ["free registration, e.g. Claude 101 and Claude Code in Action", "courses on the Claude API, MCP, agent skills and subagents", "AI fluency tracks for students, educators, nonprofits, small businesses and builders", "lessons, curricula, quizzes and certificates of completion", "hosted on the Skilljar learning platform", "certification: Claude Certified Architect – Foundations"],
+  "formats": [],
+  "stack": [],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

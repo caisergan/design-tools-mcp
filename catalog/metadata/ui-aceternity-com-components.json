@@ -1,0 +1,130 @@
+{
+  "id": "ui-aceternity-com-components",
+  "url": "https://ui.aceternity.com/components",
+  "kind": "page",
+  "hints_hash": "1d3ccb0953261e21",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.aceternity.com/components",
+      "title": "Free React & Next.js UI Components | Aceternity UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React UI Components",
+  "summary": "Free copy-paste React and Next.js components and blocks: heroes, backgrounds, text effects, cards, navbars and more, shadcn compatible.",
+  "description": "Aceternity UI's free components directory of 200+ copy-paste React and Next.js components and blocks, built with Tailwind CSS and Motion, shadcn compatible, with microinteractions and animations included. Blocks are grouped by section: hero sections (26+), feature sections (24+), backgrounds (11+), testimonials (9+), logo clouds (7+), login and signup (6+), empty states (5+), shaders (4+), sidebars (3+), plus components like cards, navbars, footers, text animations, carousels, loaders, dock, modal and 3D effects. An All-Access plan unlocks all templates, components and blocks.",
+  "type": "component-library",
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "bento-grid",
+    "empty-state",
+    "sidebar",
+    "stats",
+    "team",
+    "contact",
+    "banner",
+    "tabs",
+    "accordion",
+    "dock",
+    "modal",
+    "tooltip",
+    "button",
+    "input",
+    "file-upload",
+    "form",
+    "card",
+    "badge",
+    "timeline",
+    "map",
+    "carousel",
+    "marquee",
+    "globe",
+    "background",
+    "text-effect",
+    "loader",
+    "scroll-effect",
+    "3d"
+  ],
+  "variants": {
+    "navbar": [
+      "floating"
+    ],
+    "faq": [
+      "accordion"
+    ]
+  },
+  "keywords": [
+    "react component",
+    "nextjs",
+    "tailwind css",
+    "copy paste component",
+    "shadcn",
+    "landing page block",
+    "hero section",
+    "background effect",
+    "text animation",
+    "card",
+    "carousel",
+    "navbar",
+    "footer",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "sidebar",
+    "loader",
+    "marquee",
+    "3d effect",
+    "modal",
+    "tooltip",
+    "dock",
+    "animated component",
+    "micro interaction",
+    "free component",
+    "registry"
+  ],
+  "contains": [
+    "200+ free components and blocks, 282 shadcn registry items overall",
+    "blocks by section: heroes 26+, features 24+, backgrounds 11+, testimonials 9+, logo clouds 7+",
+    "microinteractions and animations included; shadcn compatible",
+    "copy the TSX or install from the registry",
+    "All-Access one-time payment unlocks all templates, components and blocks",
+    "trusted by 120,000+ users (site claim)"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-aceternity-com"
+  },
+  "confidence": 0.85
+}

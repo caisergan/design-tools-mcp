@@ -1,0 +1,36 @@
+{
+  "id": "may-ns-cloudflare-com",
+  "url": "https://may.ns.cloudflare.com",
+  "kind": "site",
+  "hints_hash": "e017a0dccd884c89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:08:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://may.ns.cloudflare.com", "title": "Cloudflare DNS - World's Fastest DNS", "status": null},
+    {"url": "https://www.cloudflare.com/plans", "title": "Pricing", "status": null},
+    {"url": "https://www.cloudflare.com/about", "title": "About us | Cloudflare", "status": null}
+  ],
+  "status": "ok",
+  "name": "Cloudflare DNS",
+  "summary": "Authoritative DNS on a global anycast network: free tier, full API, DDoS-resilient query resolution.",
+  "description": "Cloudflare's authoritative DNS service translates domain names into IP addresses from a globally distributed anycast network, with fast propagation and DDoS mitigation at the resolution level. A free plan includes unmetered DDoS protection and a fully-featured API for Terraform and Ansible; paid plans cover businesses and enterprises, and internal DNS adds private zones and split-horizon resolution.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["dns", "authoritative dns", "nameserver", "dns hosting", "anycast network", "ddos protection", "dns api", "infrastructure as code", "terraform", "internal dns", "domain name", "dns propagation", "nameserver delegation"],
+  "contains": [
+    "free plan with fast authoritative DNS and unmetered DDoS protection",
+    "fully-featured API, used with Terraform and Ansible for infrastructure as code",
+    "paid plans: Pro $20/mo, Business $200/mo, Contract custom",
+    "internal DNS: private zones, split-horizon resolution, private name resolution for remote users",
+    "anycast answers from the data center closest to the user",
+    "runs on infrastructure that powers 1 in 5 sites on the Internet"
+  ],
+  "formats": ["api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

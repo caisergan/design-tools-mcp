@@ -1,0 +1,27 @@
+{
+  "id": "gradients-colorion-co",
+  "url": "https://gradients.colorion.co",
+  "kind": "site",
+  "hints_hash": "96ec85d5e959e00b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gradients.colorion.co", "title": "Gradients at Colorion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome CSS3 Background Gradients",
+  "summary": "Hand-curated collection of CSS background gradients with direction control and copy-ready CSS code.",
+  "description": "A free collection of hand-curated background gradients. For every gradient you can change its direction and get the generated CSS code, which is copied directly to the clipboard.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["css gradient", "background gradient", "gradient generator", "css3", "linear gradient", "gradient code", "copy css", "color gradient", "web design", "css background"],
+  "contains": ["hand-curated background gradients", "direction control per gradient", "generated CSS copied to the clipboard", "free to use"],
+  "formats": ["code"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

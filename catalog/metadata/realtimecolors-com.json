@@ -1,0 +1,29 @@
+{
+  "id": "realtimecolors-com",
+  "url": "https://realtimecolors.com",
+  "kind": "site",
+  "hints_hash": "49f1cd187b0f1e80",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://realtimecolors.com", "title": "Realtime Colors", "status": 200},
+    {"url": "https://www.realtimecolors.com/docs/examples", "title": "Examples - Realtime Colors", "status": 200},
+    {"url": "https://www.realtimecolors.com/docs/releases", "title": "Releases - Realtime Colors", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Realtime Colors",
+  "summary": "Apply colors and fonts to a live website preview and export the result as CSS, Tailwind, SCSS and more.",
+  "description": "A browser tool for choosing website colors and fonts: set text, background, primary, secondary and accent colors plus heading and body fonts, and see them applied to a real page template. It includes a contrast checker, randomisation, color scheme modes, type scales and presets for Tailwind, shadcn, Bootstrap, Material UI and other stacks, with exports such as CSS, SCSS, Tailwind config, shades, gradients and QR codes.",
+  "type": "generator",
+  "categories": ["color-effects", "fonts"],
+  "elements": [],
+  "keywords": ["color palette", "color scheme", "contrast checker", "wcag", "accessible contrast", "theme generator", "tailwind", "css variable", "dark mode", "light mode", "type scale", "google font", "color export", "figma plugin", "shadcn", "bootstrap", "material ui", "qr code"],
+  "contains": ["live preview of colors and fonts on a real site template", "contrast checker with red/yellow/green AA-AAA indicators", "color scheme modes: monochromatic, analogous, complementary, split complementary, triadic, tetradic", "type scales from minor second to golden ratio", "exports: CSS, SCSS, Tailwind config, custom code, shades, gradients, QR code, PNG and zip", "export presets: shadcn, DaisyUI, Bootstrap, Material UI, Chakra UI, NextUI, Vuetify, Skeleton UI, Flutter, LESS", "Figma plugin (19K+ users) and VS Code theme editor", "100% free, 300K+ users"],
+  "formats": ["code", "png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-NC-ND-4.0",
+  "related": {"repo": null, "docs": "https://www.realtimecolors.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

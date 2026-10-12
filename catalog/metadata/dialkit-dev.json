@@ -1,0 +1,97 @@
+{
+  "id": "dialkit-dev",
+  "url": "https://dialkit.dev",
+  "kind": "site",
+  "hints_hash": "1a3657f76584f4a6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dialkit.dev",
+      "title": "DialKit — Tune interfaces in real time",
+      "status": 200
+    },
+    {
+      "url": "https://www.dialkit.dev/agent",
+      "title": "DialKit — Agent guide",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/joshpuckett/dialkit",
+      "title": "GitHub - joshpuckett/dialkit: A library to help you dial in interface parameters of any kind",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "DialKit",
+  "summary": "npm library that mounts live controls in a running app to tune motion, layout, color and animation timing.",
+  "description": "A library that adds a control panel to your running interface: sliders, toggles, text, select, color and image controls, spring and easing editors, versions, presets and an animation timeline. Adapters cover React 18+, Solid, Svelte, Vue and plain JavaScript.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "slider",
+    "switch",
+    "input",
+    "select"
+  ],
+  "keywords": [
+    "realtime tuning",
+    "live control",
+    "control panel",
+    "animation timing",
+    "motion",
+    "spring",
+    "easing",
+    "slider",
+    "timeline",
+    "react",
+    "nextjs",
+    "svelte",
+    "vue",
+    "solid",
+    "javascript",
+    "prototype",
+    "npm package",
+    "dev tool"
+  ],
+  "contains": [
+    "controls: slider, toggle, text, select, color, image, XY pad, spring, easing, action and folder",
+    "animation timeline with clips, scrub, resize and playback",
+    "presets, versions and persistence to localStorage",
+    "framework adapters: React 18+, Solid 1.6+, Svelte 5.8+, Vue 3.3+, vanilla JavaScript",
+    "agent prompts and a markdown agent guide",
+    "1.2k GitHub stars, 66 forks"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "solid",
+    "svelte",
+    "vue",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/joshpuckett/dialkit",
+    "docs": null,
+    "npm": "dialkit",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

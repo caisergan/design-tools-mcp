@@ -1,0 +1,29 @@
+{
+  "id": "designmd-me-generate",
+  "url": "https://designmd.me/generate",
+  "kind": "page",
+  "hints_hash": "0d4d7404709de886",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designmd.me/generate", "title": "DesignMD — Generate DESIGN.md Files with AI", "status": 200},
+    {"url": "https://designmd.me", "title": "DesignMD — Generate DESIGN.md Files with AI", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Generate",
+  "summary": "DesignMD's generate flow: paste a website URL and get a structured DESIGN.md, an HTML preview and a one-click Figma import.",
+  "description": "The generator page of DesignMD: it crawls a site's key pages and reads the computed styles, then returns a structured DESIGN.md covering colour roles, typography, spacing, radius, elevation, components and breakpoints, plus a live HTML preview and a one-click Figma import. Aimed at handing AI coding agents the design system of a reference site; 4 credits per spec, no card to start.",
+  "type": "generator",
+  "keywords": ["design.md", "design token", "design system extraction", "website to design system", "design spec", "ai coding agent", "figma import", "html preview", "typography scale", "colour role", "spacing scale", "breakpoint"],
+  "contains": [
+    "paste a URL; the site's key pages and computed styles are read",
+    "structured DESIGN.md covering colours, typography, spacing, radius, elevation, components and breakpoints",
+    "live HTML preview and one-click Figma import",
+    "4 credits per spec; no card to start"
+  ],
+  "formats": ["docs", "figma-file"],
+  "pricing": "freemium",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "designmd-me"},
+  "confidence": 0.7
+}

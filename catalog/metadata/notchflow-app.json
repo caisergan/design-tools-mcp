@@ -1,0 +1,72 @@
+{
+  "id": "notchflow-app",
+  "url": "https://notchflow.app",
+  "kind": "site",
+  "hints_hash": "15275af60b4081ee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://notchflow.app/llms.txt",
+      "title": "NotchFlow",
+      "status": null
+    },
+    {
+      "url": "https://notchflow.app",
+      "title": "NotchFlow — Pomodoro Timer and Focus Music for Mac",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "NotchFlow",
+  "summary": "macOS focus app that turns the Mac notch into a Pomodoro timer with music controls and curated focus music.",
+  "description": "A macOS productivity app that renders a Dynamic Island-style interface around the Mac notch: 25-minute Pomodoro focus intervals, coffee-break reminders, controls for Apple Music and Spotify, and curated focus music. Requires macOS 14 or later on Apple Silicon; Intel Macs are not supported.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "pomodoro timer",
+    "focus timer",
+    "mac app",
+    "notch",
+    "dynamic island",
+    "focus music",
+    "music control",
+    "apple music",
+    "spotify",
+    "productivity app",
+    "study timer",
+    "coffee break",
+    "menubar",
+    "macos app"
+  ],
+  "contains": [
+    "Pomodoro timer with 25-minute focus intervals and breaks",
+    "music controls for Apple Music and Spotify",
+    "curated focus music and coffee-break reminders",
+    "Dynamic Island-style interface built around the Mac notch",
+    "3-day free trial; $20 lifetime or $3/month",
+    "macOS 14+ on Apple Silicon only, under 50 MB RAM"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

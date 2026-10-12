@@ -1,0 +1,84 @@
+{
+  "id": "shadcn-map-vercel-app",
+  "url": "https://shadcn-map.vercel.app",
+  "kind": "site",
+  "hints_hash": "3613d54b99f65d69",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-map.vercel.app",
+      "title": "A Map Component for shadcn/ui - shadcn map",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-map.vercel.app/docs",
+      "title": "Get Started - shadcn map",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-map.vercel.app/docs/examples",
+      "title": "Basic Map - shadcn map",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn map",
+  "summary": "A map component for shadcn/ui built on Leaflet and React Leaflet, with 32 usage examples.",
+  "description": "An interactive map component styled after shadcn/ui. It uses Leaflet with React Leaflet for the map and MapLibre GL to render OpenFreeMap vector tiles, so no API key is needed; the docs cover 32 examples including custom tiles, markers, clusters, shapes, popups and zoom, fullscreen, layers, locate, search and draw controls.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "map"
+  ],
+  "keywords": [
+    "map component",
+    "map",
+    "shadcn",
+    "leaflet",
+    "react leaflet",
+    "maplibre",
+    "vector tile",
+    "openfreemap",
+    "marker",
+    "marker cluster",
+    "map control",
+    "no api key",
+    "react",
+    "interactive map"
+  ],
+  "contains": [
+    "map component following shadcn/ui design patterns",
+    "Leaflet + React Leaflet with MapLibre GL vector tiles",
+    "no API key required (OpenFreeMap tiles)",
+    "32 examples shipped in the registry",
+    "examples: custom tiles, markers, clusters, shapes, popup, zoom, fullscreen, layers, locate, search and draw controls"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "leaflet",
+    "maplibre"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

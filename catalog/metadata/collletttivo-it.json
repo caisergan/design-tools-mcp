@@ -1,0 +1,32 @@
+{
+  "id": "collletttivo-it",
+  "url": "https://collletttivo.it",
+  "kind": "site",
+  "hints_hash": "7fb1dd4bb51cffb3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://collletttivo.it", "title": "Collletttivo · Collletttivo", "status": null},
+    {"url": "https://www.collletttivo.it/typefaces", "title": "Typefaces · Collletttivo", "status": null},
+    {"url": "https://www.collletttivo.it/licensing", "title": "Licensing · Collletttivo", "status": null},
+    {"url": "https://www.collletttivo.it/typefaces/absans", "title": "Absans Family · Collletttivo", "status": null},
+    {"url": "https://www.collletttivo.it/typefaces/borges", "title": "Borges Family · Collletttivo", "status": null},
+    {"url": "https://www.collletttivo.it/", "title": "Collletttivo · Collletttivo", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Collletttivo",
+  "summary": "Open-source type foundry with 16 libre typefaces, free under the SIL Open Font License.",
+  "description": "An open-source type foundry and collective releasing libre typefaces. The catalogue holds 16 families (Apfel Grotezk, Sprat, Halibut, Absans, Borges …), each with weights, some variable, and a glyph set explorer, free under the SIL Open Font License. The site also keeps a journal, resources and studio sections.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["open source font", "free font", "libre font", "type foundry", "typeface", "sans serif", "grotesque", "variable font", "font download", "ofl", "typography", "font family"],
+  "contains": ["16 open-source typefaces", "all typefaces under the SIL Open Font License (OFL)", "family pages with glyph set explorer, weights and variable axes", "donation-supported collective", "journal with type design updates"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

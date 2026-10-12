@@ -1,0 +1,68 @@
+{
+  "id": "github-com-qwenlm-qwen-code-releases-tag-v0-23-4",
+  "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.4",
+  "kind": "page",
+  "hints_hash": "6b87911a70dd8cd6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.4",
+      "title": "Release Release v0.23.4 · QwenLM/qwen-code · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Release v0.23.4",
+  "summary": "Qwen Code v0.23.4 release notes: Web Shell preview panels, agent board, Goal limits, subagent executors, channel and hook breaking changes.",
+  "description": "Release notes for Qwen Code v0.23.4, the terminal AI coding agent, released 14 Sep 2026. Features include Web preview panels with desktop and mobile widths, inline editing and resending of the latest user message, a Continue action for interrupted sessions, Goal limits via model.goalMaxTurns and model.goalMaxActiveMinutes, a Codex subagent executor, agent board, and a configurable web_search budget. Breaking changes: message-prefix filtering removed from channels; command hook timeout read in seconds.",
+  "type": "article",
+  "keywords": [
+    "release",
+    "release note",
+    "changelog",
+    "ai coding agent",
+    "terminal",
+    "cli",
+    "web shell",
+    "agent",
+    "subagent",
+    "web search",
+    "hook",
+    "vscode",
+    "sdk",
+    "goal"
+  ],
+  "contains": [
+    "breaking: removes channel message-prefix filtering; hook timeout read in seconds",
+    "web shell: preview panels, message editing, Continue action, context compression",
+    "goal limits via model.goalMaxTurns and model.goalMaxActiveMinutes",
+    "subagents: Codex executor and native agent builtins; agent board",
+    "web_search budget configurable and extractor fallback bounded (#11692)",
+    "released 14 Sep 2026 by qwen-code-ci-bot"
+  ],
+  "formats": [
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "typescript",
+    "node",
+    "react"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/QwenLM/qwen-code",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.9
+}

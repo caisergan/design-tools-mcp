@@ -1,0 +1,25 @@
+{
+  "id": "pro-beui-dev-illustrations",
+  "url": "https://pro.beui.dev/illustrations",
+  "kind": "page",
+  "hints_hash": "b0b767b417cef8bc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pro.beui.dev/illustrations", "title": "Animated Illustrations · beUI Pro", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Animated Illustrations · beUI Pro",
+  "summary": "30 animated React illustrations for feature cards, product sections, workflows and empty states.",
+  "description": "Small animated visuals made for feature cards, product sections and empty states; install the React source and adapt every detail. Variants cover isometric scenes, app previews, AI and chat, document cards, card stacks, voice notes, search and command, file flow and live presence.",
+  "type": "asset-library",
+  "elements": ["card", "chat", "marquee"],
+  "keywords": ["animated illustration", "illustration", "react illustration", "feature card", "product section", "empty state", "app preview", "isometric", "icon marquee", "chat", "card stack", "motion", "workflow", "ui state"],
+  "contains": ["30 illustrations total", "each illustration installs as editable React source", "sale pricing: $109 yearly or $149 lifetime"],
+  "formats": ["code"],
+  "stack": ["react"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "pro-beui-dev"},
+  "confidence": 0.7
+}

@@ -1,0 +1,29 @@
+{
+  "id": "plotwist-app-en-us",
+  "url": "https://plotwist.app/en-US",
+  "kind": "page",
+  "hints_hash": "a9bdef2d14029d81",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://plotwist.app/en-US", "title": "The perfect place for who watch everything • Plotwist", "status": null},
+    {"url": "https://plotwist.app/en-US/docs", "title": "Plotwist", "status": 200},
+    {"url": "https://github.com/plotwist-app/plotwist", "title": "GitHub - plotwist-app/plotwist: The perfect place for who watch everything", "status": 200},
+    {"url": "https://github.com/plotwist-app/plotwist/blob/main/LICENSE", "title": "plotwist/LICENSE at main · plotwist-app/plotwist", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Plotwist",
+  "summary": "Tracker for movies, series, anime and doramas: watchlist, episode progress, shared lists, stats and recommendations.",
+  "description": "A platform for managing and reviewing movies, series, anime and dramas in one place. Mark titles watched, watching or planned, track episodes season by season, build and share lists, and see detailed statistics on a Pro plan; data comes from TMDB, and an iOS app plus a developer API extend it.",
+  "type": "app",
+  "elements": ["hero", "features", "pricing", "cta"],
+  "keywords": ["movie tracker", "tv show tracker", "anime tracker", "watchlist", "episode tracking", "media review", "list sharing", "statistic", "recommendation", "nextjs", "tailwind", "shadcn", "tmdb", "ios app"],
+  "contains": ["statuses watched, watching and planned; per-episode tracking", "collaborative lists and friend recommendations", "free plan plus Pro: detailed statistics, badges, achievements, early access", "iOS app; data provided by TMDB", "open-source monorepo (440+ stars)"],
+  "formats": ["app", "code"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "typescript"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/plotwist-app/plotwist", "docs": "https://plotwist.app/en-US/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

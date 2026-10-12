@@ -1,0 +1,27 @@
+{
+  "id": "blobatar-dev-components",
+  "url": "https://blobatar.dev/components",
+  "kind": "page",
+  "hints_hash": "4577b93399a5990d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://blobatar.dev/components", "title": "blobatar components — avatar UI for shadcn", "status": 200},
+    {"url": "https://blobatar.dev/llms.txt", "title": "blobatar", "status": 200}
+  ],
+  "status": "ok",
+  "name": "blobatar components",
+  "summary": "Five shadcn registry components built on blobatar: presence avatar, agent list, user table, password field, group chat.",
+  "description": "Five pieces of interface built on the blobatar avatar generator, each one a shadcn registry item: a presence avatar with unread and thinking states, an agent list for agent runners, a user table with a face per row, a password field and a group chat. The generator stays in the package, so what you copy is the composition.",
+  "type": "component-library",
+  "elements": ["avatar", "list", "table", "input", "chat"],
+  "keywords": ["avatar", "presence avatar", "avatar generator", "shadcn", "registry", "agent list", "user table", "password field", "group chat", "react", "ui composition", "online status"],
+  "contains": ["5 components: presence avatar, agent list, user table, password field, group chat", "each one installable as a shadcn registry item with the shadcn CLI", "presence avatar has unread and thinking states with blink/breathing animation"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react"],
+  "pricing": "unknown",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Alain00/blobatar", "docs": null, "npm": "blobatar", "figma": null, "parent": null},
+  "confidence": 0.8
+}

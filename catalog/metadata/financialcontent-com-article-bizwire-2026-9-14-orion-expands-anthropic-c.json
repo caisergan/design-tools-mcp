@@ -1,0 +1,27 @@
+{
+ "id": "financialcontent-com-article-bizwire-2026-9-14-orion-expands-anthropic-c",
+ "url": "https://financialcontent.com/article/bizwire-2026-9-14-orion-expands-anthropic-collaboration-as-launch-partner-for-claude-for-financial-advisors",
+ "kind": "page",
+ "hints_hash": "fea02bb02d574936",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:29:50Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://financialcontent.com/article/bizwire-2026-9-14-orion-expands-anthropic-collaboration-as-launch-partner-for-claude-for-financial-advisors", "title": "Stocks | FinancialContent", "status": null},
+  {"url": "https://www.financialcontent.com/article/bizwire-2026-9-14-orion-expands-anthropic-collaboration-as-launch-partner-for-claude-for-financial-advisors", "title": "Orion Expands Anthropic Collaboration as Launch Partner for Claude for Financial Advisors | FinancialContent", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Orion Expands Anthropic Collaboration as Launch Partner for Claude",
+ "summary": "Business Wire press release: Orion's MCP connector brings Orion Connect portfolio data and Redtail CRM into Claude for advisors.",
+ "description": "Press release published September 14, 2026 (Business Wire, hosted by FinancialContent): at Future Proof Festival Orion expanded its Anthropic collaboration, launching an MCP connector that links Claude to Orion Connect portfolio data and Redtail CRM, so advisors can prepare client meetings, write follow-ups, read their pipeline and summarise reports. The connector respects existing Orion and Redtail permissions, and Orion reported $6.6 trillion in assets under administration.",
+ "type": "article",
+ "elements": [],
+ "keywords": ["press release", "mcp", "mcp connector", "financial advisor", "wealth management", "crm integration", "portfolio management", "meeting prep", "ai assistant", "wealthtech"],
+ "contains": ["published September 14, 2026, 12:02 PM EDT, via Business Wire", "Orion MCP connector available in Claude's connector directory", "builds on a February 2026 Orion and Anthropic collaboration", "four launch tasks: meeting prep, follow-up write-ups, pipeline review, report summarisation"],
+ "formats": ["links"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

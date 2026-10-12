@@ -1,0 +1,66 @@
+{
+  "id": "shadcn-cal-com-vercel-app-date-2024-04-29",
+  "url": "https://shadcn-cal-com.vercel.app/?date=2024-04-29",
+  "kind": "site",
+  "hints_hash": "1f9cad49da5427ec",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-cal-com.vercel.app/?date=2024-04-29",
+      "title": "Shadcn Cal",
+      "status": null
+    }
+  ],
+  "status": "partial",
+  "name": "Shadcn Cal",
+  "summary": "Replica of the Cal.com monthly calendar built with shadcn/ui, Radix Colors and React Aria.",
+  "description": "A copy of the monthly calendar used by Cal.com, rebuilt with shadcn/ui, Radix Colors and React Aria. The page is a live demo with a link to the source on GitHub.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "calendar"
+  ],
+  "keywords": [
+    "calendar",
+    "monthly calendar",
+    "cal.com",
+    "shadcn ui",
+    "radix color",
+    "react aria",
+    "react",
+    "calendar component",
+    "date"
+  ],
+  "contains": [
+    "copy of the Cal.com monthly calendar",
+    "built with shadcn/ui, Radix Colors and React Aria",
+    "live demo page with a GitHub link"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "shadcn",
+    "react-aria",
+    "radix-colors"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.5
+}

@@ -1,0 +1,30 @@
+{
+  "id": "github-com-oneworks-ai-avatar",
+  "url": "https://github.com/oneworks-ai/avatar",
+  "kind": "repo",
+  "hints_hash": "af682d579925dcf1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/oneworks-ai/avatar/blob/HEAD/README.md", "title": "OneWorks Avatar", "status": null},
+    {"url": "https://github.com/oneworks-ai/avatar", "title": "GitHub - oneworks-ai/avatar: OneWorks agent avatar preview and GitHub Pages site · GitHub", "status": 200},
+    {"url": "https://oneworks.cloud/docs/usage/avatar", "title": "Avatar 编辑器与开发者接入 | One Works Docs", "status": 200},
+    {"url": "https://oneworks.cloud/docs/usage/avatar.md", "title": "Avatar 编辑器与开发者接入", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OneWorks Avatar",
+  "summary": "Browser editor that builds, animates and exports geometric 3D avatars as SVG, PNG or GIF, with React/Vue components and an agent skill.",
+  "description": "Browser-based 3D geometric avatar editor: pick a built-in avatar or build one, adjust pose, position, scale, face, materials, lighting, shadows, stroke and animation, then copy SVG or download SVG, PNG or animated GIF at 128, 256 or 512 px. The repository also ships framework packages — @oneworks/avatar core runtime, @oneworks/avatar-react, @oneworks/avatar-vue and @oneworks/avatar-web — plus the oneworks-avatar Agent Skill that drives the real editor and its 3D scene model.",
+  "type": "tool",
+  "categories": ["design-tools", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["3d avatar", "avatar editor", "avatar generator", "geometric avatar", "ai agent avatar", "avatar export", "svg avatar", "animated gif avatar", "react avatar component", "vue avatar component", "web component", "avatar runtime", "agent skill", "browser tool"],
+  "contains": ["browser-based 3D geometric avatar editor at oneworks.cloud/avatar", "exports SVG, PNG and animated GIF at 128, 256 or 512 px, with transparent background option", "customize pose, position, scale, face, materials, lighting, shadows, stroke and animation", "packages: @oneworks/avatar, @oneworks/avatar-react, @oneworks/avatar-vue, @oneworks/avatar-web", "oneworks-avatar Agent Skill drives the real editor's 3D scene model", "MIT licensed repository (252 stars)"],
+  "formats": ["app", "svg", "png", "npm-package", "docs", "prompts"],
+  "stack": ["react", "vue"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/oneworks-ai/avatar", "docs": "https://oneworks.cloud/docs/usage/avatar", "npm": "@oneworks/avatar", "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,33 @@
+{
+  "id": "catalogue-projectsbyif-com",
+  "url": "https://catalogue.projectsbyif.com",
+  "kind": "site",
+  "hints_hash": "c027cac5b51c5dec",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://catalogue.projectsbyif.com", "title": "Design Patterns Catalogue", "status": null},
+    {"url": "https://catalogue.projectsbyif.com/patterns", "title": null, "status": null},
+    {"url": "https://catalogue.projectsbyif.com/categories", "title": null, "status": null},
+    {"url": "https://catalogue.projectsbyif.com/patterns/ai-presence", "title": "AI presence | Patterns Catalogue", "status": null},
+    {"url": "https://catalogue.projectsbyif.com/patterns/marketplace", "title": "Marketplace | Patterns Catalogue", "status": null},
+    {"url": "https://catalogue.projectsbyif.com/patterns/authentication-with-a-magic-link", "title": "Authentication with a magic link | Patterns Catalogue", "status": 200},
+    {"url": "https://catalogue.projectsbyif.com/patterns/show-confidence", "title": "Show confidence | Patterns Catalogue", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Design Patterns Catalogue",
+  "summary": "Catalogue of 67 design patterns for building trusted services, from sign-in and consent to responsible AI.",
+  "description": "IF's catalogue documents patterns for designing services that earn trust. Patterns are grouped into categories such as signing in, giving and removing consent, getting and giving access to data, security checks, and understanding and influencing decisions (AI); each pattern page gives a description, advantages, limitations, examples and related patterns.",
+  "type": "design-rules",
+  "categories": ["design-rules", "learning"],
+  "elements": ["form", "otp-input", "ai-agent-ui"],
+  "keywords": ["design pattern", "pattern library", "pattern catalogue", "trustworthy design", "consent", "authentication", "sign in", "magic link", "multi-factor authentication", "biometric authentication", "privacy", "data sharing", "responsible ai", "ai interface", "service design", "ux guidance", "security check"],
+  "contains": ["67 patterns in 7 categories", "24 patterns for AI systems (show confidence, copilot with an AI, model provenance …)", "sign-in, consent, data access and security patterns", "each pattern: description, advantages, limitations, examples, related patterns", "archived and future pattern flags"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

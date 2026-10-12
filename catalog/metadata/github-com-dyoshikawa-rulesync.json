@@ -1,0 +1,71 @@
+{
+  "id": "github-com-dyoshikawa-rulesync",
+  "url": "https://github.com/dyoshikawa/rulesync",
+  "kind": "repo",
+  "hints_hash": "f6337311379e1ee3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/dyoshikawa/rulesync/blob/HEAD/README.md",
+      "title": "Rulesync",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Rulesync",
+  "summary": "Node.js CLI that generates AI coding tool config files (rules, MCP, commands, skills) from one unified source.",
+  "description": "A Node.js CLI tool that generates configuration files for many AI development tools from unified AI rule files. It supports rules, ignore files, MCP, commands, subagents, skills, hooks and permissions, can import existing per-tool configurations and export them to another tool, and documents deprecations of the tools it targets. Installs from npm, a Homebrew tap or a single binary.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai coding agent",
+    "agent rule",
+    "rule sync",
+    "cli",
+    "configuration generator",
+    "mcp",
+    "agent skill",
+    "subagent",
+    "ignore file",
+    "nodejs",
+    "npm package",
+    "homebrew",
+    "cross tool sync",
+    "developer tool",
+    "hook"
+  ],
+  "contains": [
+    "generates config files from unified rule files for many AI coding tools",
+    "features: rules, ignore, MCP, commands, subagents, skills, hooks, permissions",
+    "imports and exports configuration between tools",
+    "installs via npm, Homebrew tap or single binary",
+    "deprecation notes track targets like Continue, Tabnine and Roo Code"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "npm-package"
+  ],
+  "stack": [
+    "node"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/dyoshikawa/rulesync",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

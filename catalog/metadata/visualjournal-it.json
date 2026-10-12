@@ -1,0 +1,28 @@
+{
+  "id": "visualjournal-it",
+  "url": "https://visualjournal.it",
+  "kind": "site",
+  "hints_hash": "a21f8bc043434b9c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://visualjournal.it", "title": "Visual Journal – Branding, Editorial and Graphic Design", "status": null},
+    {"url": "https://visualjournal.it/ascent", "title": "Ascent – Visual Journal", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Visual Journal",
+  "summary": "Blog curating branding, editorial and graphic design projects from studios around the world.",
+  "description": "A personal blog by art director Alessandro Scarpellini that showcases branding, editorial and graphic design work. Each post presents one project with images and the studio credits; designers and studios can submit case studies for editorial review.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["branding", "visual identity", "editorial design", "graphic design", "brand identity", "packaging", "typography", "art direction", "design inspiration", "case study", "studio", "logo design", "poster design", "print design"],
+  "contains": ["curated branding, editorial and graphic design project posts", "each project credits its studio (e.g. Ascent by George&Harrison)", "case-study submissions accepted from designers and studios"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

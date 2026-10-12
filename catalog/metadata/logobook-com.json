@@ -1,0 +1,31 @@
+{
+  "id": "logobook-com",
+  "url": "https://logobook.com",
+  "kind": "site",
+  "hints_hash": "ce884bbaaa63a7b1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://logobook.com", "title": "Logobook - Discover the worlds finest logos, symbols and trademarks", "status": null},
+    {"url": "https://logobook.com/about-us", "title": "Logobook - Discover the worlds finest logos, symbols and trademarks", "status": null},
+    {"url": "https://logobook.com/shapes", "title": "Shapes - Logobook", "status": 200},
+    {"url": "https://logobook.com/resources", "title": "Resources - Logobook", "status": 200},
+    {"url": "https://logobook.com/letter/a", "title": "A Archives - Logobook", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Logobook",
+  "summary": "Curated showcase of logos, symbols and trademarks, organised by shape, object, nature, letter and industry.",
+  "description": "Logobook is a showcase of logos, symbols and trademarks, all black-and-white vector marks, sorted into letters & numbers, shape, object, nature and business categories with dozens of subcategories (arrows, circles, stars, birds, crowns, banks, sports). Each entry credits the brand and designer where known. Curated by Svizra, an international community of branding designers; logo submissions are currently suspended.",
+  "type": "gallery",
+  "categories": ["inspiration", "icons"],
+  "elements": [],
+  "keywords": ["logo", "logo design", "logo inspiration", "logo gallery", "logo archive", "trademark", "symbol", "brand identity", "branding", "black and white logo", "minimal logo", "geometric logo"],
+  "contains": ["13,716 URLs in the sitemap, mostly individual logo pages", "5 top-level categories: letters & numbers, shape, object, nature, business", "shape subcategories include 3D, arrows, circle, cube, dots, hexagon, stars, waves", "nature subcategories include birds, faces, fire, flowers, mountains, trees", "letter indexes A-Z list logos with their brands and designers", "only black-and-white vector logos; submissions are currently suspended", "curated by Svizra, an international branding designer community"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

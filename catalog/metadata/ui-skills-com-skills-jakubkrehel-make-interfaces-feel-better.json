@@ -1,0 +1,49 @@
+{
+  "id": "ui-skills-com-skills-jakubkrehel-make-interfaces-feel-better",
+  "url": "https://ui-skills.com/skills/jakubkrehel/make-interfaces-feel-better",
+  "kind": "page",
+  "hints_hash": "57fdee357ed4e85c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui-skills.com/skills/jakubkrehel/make-interfaces-feel-better",
+      "title": "make-interfaces-feel-better Skill - jakubkrehel | UI Skills",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "make-interfaces-feel-better",
+  "summary": "Agent skill with design engineering principles for polished interfaces: micro-interactions, motion, typography, shadows.",
+  "type": "agent-skill",
+  "keywords": [
+    "design engineering",
+    "ui polish",
+    "micro interaction",
+    "motion design",
+    "hover state",
+    "box shadow",
+    "border radius",
+    "optical alignment",
+    "tabular number",
+    "text balance",
+    "scale on press",
+    "icon animation",
+    "enter animation",
+    "stagger",
+    "agent skill"
+  ],
+  "related": {
+    "repo": "https://github.com/jakubkrehel/make-interfaces-feel-better",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-skills-com"
+  },
+  "confidence": 0.9
+}

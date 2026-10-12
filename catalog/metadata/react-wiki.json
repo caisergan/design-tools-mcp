@@ -1,0 +1,98 @@
+{
+  "id": "react-wiki",
+  "url": "https://react.wiki",
+  "kind": "site",
+  "hints_hash": "7a2413b0c76e837f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://react.wiki",
+      "title": "react.wiki — Practical React Wiki for Working Developers",
+      "status": 200
+    },
+    {
+      "url": "https://react.wiki/guides",
+      "title": "Guides — react.wiki",
+      "status": 200
+    },
+    {
+      "url": "https://react.wiki/about",
+      "title": "About — react.wiki",
+      "status": 200
+    },
+    {
+      "url": "https://react.wiki/guides/react-vs-next-js-in-2026",
+      "title": "React vs Next.js in 2026: Why This Choice Keeps Splitting Teams in Half — react.wiki",
+      "status": 200
+    },
+    {
+      "url": "https://react.wiki/guides/when-usestate-lies-to-you",
+      "title": "When useState Lies to You (And Why That's By Design) — react.wiki",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "react.wiki",
+  "summary": "Free React wiki and toolbox: guides, curated library write-ups, copy-paste hooks and snippets, interview prep and AI helper tools.",
+  "description": "A practical React reference for developers who ship: deep-dive guides (React internals, hooks, performance, React vs Next.js), hand-picked library profiles (React Aria, visx, Base UI, Floating UI, tldraw), copy-paste snippets and hooks, tech comparisons and interview prep. It also hosts small AI helpers — a hook generator, code explainer, error decoder and code converter. Free, no sign-up.",
+  "type": "directory",
+  "categories": [
+    "learning",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "react",
+    "react guide",
+    "react tutorial",
+    "react library",
+    "react hook",
+    "code snippet",
+    "interview question",
+    "typescript",
+    "nextjs",
+    "react performance",
+    "usestate",
+    "react server component",
+    "hook generator",
+    "code explainer",
+    "error decoder",
+    "ai coding tool",
+    "react internal",
+    "frontend"
+  ],
+  "contains": [
+    "guides and deep dives on React, hooks, performance and TypeScript",
+    "hand-picked React library write-ups (React Aria, visx, Base UI, Floating UI, tldraw)",
+    "copy-paste React snippets and hooks",
+    "AI helpers: hook generator, code explainer, error decoder, code converter",
+    "guides index with tags, tech comparisons and interview prep",
+    "free, no sign-up, updated weekly"
+  ],
+  "formats": [
+    "code",
+    "docs",
+    "links",
+    "app"
+  ],
+  "stack": [
+    "react",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

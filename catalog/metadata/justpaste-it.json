@@ -1,0 +1,28 @@
+{
+  "id": "justpaste-it",
+  "url": "https://justpaste.it",
+  "kind": "site",
+  "hints_hash": "634360cf2f237a9d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://justpaste.it", "title": "JustPaste.it - paste text and share with your friends", "status": null},
+    {"url": "https://justpaste.it/about", "title": "About - JustPaste.it", "status": null}
+  ],
+  "status": "ok",
+  "name": "JustPaste.it",
+  "summary": "Paste text or images and share them as a link, anonymously and without an account.",
+  "description": "Simple publishing tool: paste text from any web page or word processor with formatting and images preserved, add pictures and movies, and share the result as a link. Anonymous by default, ad-free, and used by 10 million people.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["paste text", "share text", "text editor", "anonymous paste", "pastebin", "share image", "publish text online", "no signup", "rich text", "share link", "online notepad"],
+  "contains": ["paste text with formatting and images preserved", "add images and movies", "anonymous by default, no account needed", "no ads and no social media scripts", "used by 10 million people"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,22 @@
+{
+  "id": "shadcnblocks-com-explorer-builder",
+  "url": "https://shadcnblocks.com/explorer/builder",
+  "kind": "page",
+  "hints_hash": "e3083b22872f406d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnblocks.com/explorer/builder", "title": "Shadcn UI Page Builder - Shadcnblocks.com", "status": null},
+    {"url": "https://shadcnblocks.com/explorer/builder", "title": "Shadcn UI Page Builder - Shadcnblocks.com", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Shadcn UI Page Builder",
+  "summary": "Desktop-only drag-and-drop builder that composes full pages from the Shadcnblocks library of shadcn/ui blocks.",
+  "description": "The page builder inside the Shadcnblocks explorer: compose and edit full pages from the shadcn/ui block library by dragging blocks in from the sidebar. The builder interface renders client-side, so only the shell (title, navigation and first-run state) was readable.",
+  "type": "tool",
+  "elements": [],
+  "keywords": ["page builder", "shadcn", "shadcn ui", "ui block", "block library", "drag and drop", "page composer", "tailwind", "react", "ui builder"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "www-shadcnblocks-com"},
+  "confidence": 0.6
+}

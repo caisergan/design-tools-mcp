@@ -1,0 +1,33 @@
+{
+  "id": "beui-dev-components-motion-expandable-control",
+  "url": "https://beui.dev/components/motion/expandable-control",
+  "kind": "page",
+  "hints_hash": "42ee4b4919b75169",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/motion/expandable-control", "title": "Expandable Control · React motion component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Expandable Control",
+  "summary": "Click-to-expand React button and chip controls that reveal a label or trailing action with spring layout continuity.",
+  "description": "Two motion components for React and Next.js: ExpandableButton, an icon button that expands to reveal its label, and ExpandableChip, a chip that expands to reveal a trailing action. Both animate through spring layout continuity and support controlled or uncontrolled expanded state with onExpandedChange. Free and open source; install with the shadcn CLI (@beui/expandable-control) or copy the source; theme tokens are needed once.",
+  "type": "component-library",
+  "elements": ["button", "badge"],
+  "keywords": ["expandable button", "expandable chip", "spring animation", "layout animation", "motion component", "animated component", "icon button", "chip", "react", "nextjs", "shadcn", "tailwind", "copy paste", "micro interaction", "collapsible"],
+  "contains": [
+    "ExpandableButton: icon button that expands to reveal its label",
+    "ExpandableChip: chip that expands to reveal a trailing action",
+    "chip props: actionIcon, actionLabel, onAction, collapseOnAction, disabled, labelClassName, actionClassName",
+    "shared props: expanded, defaultExpanded, onExpandedChange, className",
+    "install: bunx --bun shadcn add @beui/expandable-control",
+    "free, open-source React and Next.js component; updated Aug 22, 2026"
+  ],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.85
+}

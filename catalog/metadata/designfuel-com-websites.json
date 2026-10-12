@@ -1,0 +1,27 @@
+{
+  "id": "designfuel-com-websites",
+  "url": "https://designfuel.com/websites",
+  "kind": "page",
+  "hints_hash": "4fe5ea19025ce050",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designfuel.com/websites", "title": "Latest Web Design Inspiration | DesignFuel", "status": 200},
+    {"url": "https://designfuel.com", "title": "DesignFuel: The best web design inspiration", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Latest Web Design Inspiration | DesignFuel",
+  "summary": "Category page of a web design inspiration library: the latest website examples tagged by industry, with a free account for full access.",
+  "description": "The websites section of DesignFuel's inspiration library, listing recent real-world site examples (The Damai, Calendly, Daylight, Sunday, Noovo) each tagged with an industry such as SaaS, technology or travel. The site says the full library holds 4,500+ websites and sections; only the latest teaser is public, everything else needs a free account.",
+  "type": "gallery",
+  "elements": ["navbar", "hero", "footer", "cta", "pricing", "features", "testimonials", "faq", "logo-cloud", "stats", "team", "timeline", "form", "table", "carousel", "tabs"],
+  "keywords": ["web design inspiration", "website gallery", "website showcase", "landing page inspiration", "saas website", "website example", "ui inspiration", "web design example", "travel website", "construction website", "design library", "website screenshot"],
+  "contains": ["168 website examples captured in the catalog from this page", "elements in sampled items: footer, pricing, testimonials, FAQ, timeline, table, stats, team", "industry tags: SaaS, technology, business, finance, marketing, travel, construction", "the site says its library holds 4,500+ websites and sections", "sign-in needed to see all inspiration; sign-up is free"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

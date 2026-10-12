@@ -1,0 +1,47 @@
+{
+  "id": "21st-dev-community-components",
+  "url": "https://21st.dev/community/components",
+  "kind": "page",
+  "hints_hash": "6d72666062e25c26",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://21st.dev/community/components",
+      "title": "Discover community-made UI components | 21st",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Community UI Components for React & Next.js",
+  "summary": "Directory of thousands of community-published React and Next.js components, blocks, shaders and hooks, browsable by category.",
+  "keywords": [
+    "react",
+    "nextjs",
+    "ui component",
+    "component directory",
+    "community component",
+    "marketing block",
+    "ui block",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "ai chat component",
+    "shader",
+    "animated component",
+    "copy paste"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "21st-dev"
+  },
+  "confidence": 0.85
+}

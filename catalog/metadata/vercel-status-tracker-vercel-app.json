@@ -1,0 +1,28 @@
+{
+  "id": "vercel-status-tracker-vercel-app",
+  "url": "https://vercel-status-tracker.vercel.app",
+  "kind": "site",
+  "hints_hash": "df632ac87d2f81d5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vercel-status-tracker.vercel.app", "title": "Vercel Status Tracker", "status": 200},
+    {"url": "https://github.com/mehrdadrafiee/vercel-status-tracker", "title": "GitHub - mehrdadrafiee/vercel-status-tracker", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Vercel Status Tracker",
+  "summary": "Web dashboard that tracks Vercel deployments with totals, success rate, build times and a deployment table.",
+  "description": "Small app that calls the Vercel API with your token and lists your project deployments in a table next to summary stats: total deployments, success rate, average build time and most active project. Source is on GitHub and configured with environment variables.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["dashboard", "stats", "table"],
+  "keywords": ["vercel", "deployment", "status tracker", "dashboard", "build time", "success rate", "monitoring", "nextjs", "shadcn", "tailwind"],
+  "contains": ["tracks Vercel deployments through the Vercel API", "summary stats: total deployments, success rate, average build time, most active", "deployment table", "configured with environment variables (Vercel token)", "built with Next.js, TailwindCSS and shadcn/ui"],
+  "formats": ["app", "code"],
+  "stack": ["nextjs", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/mehrdadrafiee/vercel-status-tracker", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

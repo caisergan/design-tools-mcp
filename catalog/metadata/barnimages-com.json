@@ -1,0 +1,47 @@
+{
+  "id": "barnimages-com",
+  "url": "https://barnimages.com",
+  "kind": "site",
+  "hints_hash": "4cee594db931773e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:17:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://barnimages.com", "title": "Free High-Resolution Stock Photos & Images · Barnimages", "status": null},
+    {"url": "https://barnimages.com/about", "title": "About Barnimages: Independent Free Stock Photography", "status": null},
+    {"url": "https://barnimages.com/license", "title": "Barnimages License — Free Stock Photo Terms", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Barnimages",
+  "summary": "Free high-resolution stock photo library by two independent photographers, no attribution required.",
+  "description": "A curated collection of free photographs shot by two Hamburg photographers since 2015, free for personal and commercial use without attribution. Photos are hand-picked rather than open-upload, and the site also publishes blog guides on free mockups, newsletter images and stock photo licenses.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": [
+    "stock photo",
+    "free photo",
+    "high resolution image",
+    "royalty free",
+    "commercial use",
+    "no attribution",
+    "photography",
+    "photo download",
+    "background image",
+    "editorial photo",
+    "free asset",
+    "mockup"
+  ],
+  "contains": [
+    "free photos for personal and commercial use, no attribution required",
+    "library run by two photographers since 2015, all images camera-made",
+    "custom license v2.0 (not CC0): no resale, no AI training, no NFTs",
+    "blog guides on free mockups, newsletter images and stock photo sites"
+  ],
+  "formats": ["png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

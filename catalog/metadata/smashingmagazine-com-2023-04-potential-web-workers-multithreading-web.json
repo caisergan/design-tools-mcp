@@ -1,0 +1,20 @@
+{
+  "id": "smashingmagazine-com-2023-04-potential-web-workers-multithreading-web",
+  "url": "https://smashingmagazine.com/2023/04/potential-web-workers-multithreading-web",
+  "kind": "page",
+  "hints_hash": "826a05acd1be26d3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:08:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://smashingmagazine.com/2023/04/potential-web-workers-multithreading-web", "title": "Exploring The Potential Of Web Workers For Multithreading On The Web — Smashing Magazine", "status": null}
+  ],
+  "status": "ok",
+  "name": "Exploring The Potential Of Web Workers For Multithreading On The Web",
+  "summary": "Smashing Magazine article on using Web Workers to run JavaScript off the main thread, with limits and workarounds.",
+  "description": "A 17-minute article by Sarah Oke Okolo (April 21, 2023) on why JavaScript's single thread blocks the UI and how Web Workers execute code in a background thread. It walks through creating a worker, the postMessage messaging API, what workers cannot touch (DOM, localStorage), and strategies for mitigating those limitations in performance-critical apps.",
+  "type": "article",
+  "keywords": ["web worker", "multithreading", "javascript", "main thread", "worker thread", "web performance", "html5", "postmessage", "asynchronous", "ui responsiveness", "front-end performance"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "smashingmagazine-com"},
+  "confidence": 0.9
+}

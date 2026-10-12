@@ -1,0 +1,88 @@
+{
+  "id": "uisfx-com",
+  "url": "https://uisfx.com",
+  "kind": "site",
+  "hints_hash": "8740c5807182dec7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uisfx.com/llms.txt",
+      "title": "UI SFX",
+      "status": null
+    },
+    {
+      "url": "https://uisfx.com",
+      "title": "UI Sound Design: 936 Interface Sound Effects | UI SFX",
+      "status": 200
+    },
+    {
+      "url": "https://uisfx.com/docs/agent-guide.md",
+      "title": "UI SFX agent integration guide",
+      "status": 200
+    },
+    {
+      "url": "https://uisfx.com/llms-full.txt",
+      "title": "UI SFX full context",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI SFX",
+  "summary": "Open-source semantic UI sound system: 78 cues × 12 packs (936 sounds) as a zero-dependency TypeScript runtime, with CC0 audio.",
+  "description": "An npm package and audio library that maps interface events to semantic cues (success, open, processing …) so product code asks for meaning while the chosen sound pack sets the personality. 78 cues across 13 categories in 12 interchangeable packs (936 sounds: 72 one-shots and 6 seamless loops), with an agent integration guide, a copy-ready coding-agent prompt, and JSON cue catalog and asset manifest.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "ui sound",
+    "sound effect",
+    "interface sound",
+    "audio cue",
+    "sound design",
+    "sound pack",
+    "one shot",
+    "seamless loop",
+    "web audio",
+    "typescript",
+    "npm package",
+    "coding agent",
+    "micro interaction",
+    "accessibility",
+    "product feedback"
+  ],
+  "contains": [
+    "78 semantic cues in 13 categories: input, selection, navigation, editing, movement, communication, feedback and more",
+    "12 packs: minimal, soft, glass, arcade, mechanical, organic, dreamy, scifi, rubber, cinematic, studio, zen",
+    "936 sounds: 72 one-shots and 6 seamless loops generated locally from deterministic recipes",
+    "zero-dependency TypeScript + Web Audio runtime (createUISFX, unlock, play, preload, setPack, stopAll, bindUISFX)",
+    "agent integration guide and copy-ready coding-agent prompt; JSON cue catalog and 936-asset manifest",
+    "code MIT, audio CC0-1.0"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/romainsimon/uisfx",
+    "docs": "https://uisfx.com/ui-sound-design",
+    "npm": "uisfx",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,50 @@
+{
+  "id": "visualhunt-com",
+  "url": "https://visualhunt.com",
+  "kind": "site",
+  "hints_hash": "3241411ff1bb94cb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://visualhunt.com", "title": "VisualHunt", "status": null},
+    {"url": "https://visualhunt.com/about", "title": "Cozy Aesthetic Room Ideas for Trendy Bedroom Designs - VisualHunt", "status": null},
+    {"url": "https://visualhunt.com/furniture", "title": "Best Furniture Ideas for 2026 - VisualHunt", "status": 200}
+  ],
+  "status": "ok",
+  "name": "VisualHunt",
+  "summary": "Photo-led home decor and furniture idea site, browsable by room and product category.",
+  "description": "VisualHunt collects interior decorating and home product ideas as photo-led articles written by designers, organised in categories such as furniture, decor & pillows, lighting, rugs, bed & bath, kitchen & tabletop, outdoor, pet and storage & organisation. Idea pages link to similar products and subcategories, and the homepage lists trending ideas.",
+  "type": "gallery",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": [
+    "interior design idea",
+    "home decor",
+    "furniture idea",
+    "room inspiration",
+    "product photo",
+    "visual search",
+    "lighting idea",
+    "rug",
+    "bedroom idea",
+    "kitchen idea",
+    "outdoor furniture",
+    "storage idea",
+    "wall decor"
+  ],
+  "contains": [
+    "photo-led idea articles, e.g. Cozy Aesthetic Room Ideas for Trendy Bedroom Designs",
+    "categories: furniture, decor & pillows, lighting, rugs, bed & bath, kitchen & tabletop, outdoor, pet and more",
+    "subcategories such as bedroom, living room and accent furniture",
+    "trending ideas list on the homepage",
+    "author pages, e.g. designer Lily Wright",
+    "account login and join links"
+  ],
+  "formats": ["png", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

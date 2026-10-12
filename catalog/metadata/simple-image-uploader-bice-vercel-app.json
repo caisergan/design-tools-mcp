@@ -1,0 +1,29 @@
+{
+  "id": "simple-image-uploader-bice-vercel-app",
+  "url": "https://simple-image-uploader-bice.vercel.app",
+  "kind": "site",
+  "hints_hash": "f9853ea5d26f6835",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://simple-image-uploader-bice.vercel.app", "title": "Simple Image Uploader", "status": null },
+    { "url": "https://github.com/Cheveniko/simple-image-uploader", "title": "GitHub - Cheveniko/simple-image-uploader: shadcn inspired image uploader", "status": 200 },
+    { "url": "https://github.com/Cheveniko", "title": "Cheveniko (Nicolás Baquero) · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Simple Image Uploader",
+  "summary": "Copy-paste image uploader form component for React, built on shadcn/ui with zod, react-dropzone and react-hook-form.",
+  "description": "A shadcn/ui-styled image uploader: the picked or dropped image is validated inside a shadcn Form with zod, react-dropzone and react-hook-form, and styled with Tailwind CSS. README caveats: client components only, Node.js 20+ for the File validation; a Svelte version of the same component also exists.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["file-upload", "form", "input"],
+  "keywords": ["image upload", "file upload", "react", "shadcn", "tailwind css", "zod", "react-dropzone", "react-hook-form", "form", "drag and drop", "client component", "nextjs", "copy paste", "uploader"],
+  "contains": ["React image uploader with drag-and-drop", "validated in a shadcn Form with zod and react-hook-form", "Tailwind CSS styling", "36 GitHub stars, 16 commits", "client components only (README caveat)", "Svelte version available"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "zod", "react-dropzone", "react-hook-form"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": "https://github.com/Cheveniko/simple-image-uploader", "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

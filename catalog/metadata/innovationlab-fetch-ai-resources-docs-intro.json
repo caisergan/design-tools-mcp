@@ -1,0 +1,45 @@
+{
+  "id": "innovationlab-fetch-ai-resources-docs-intro",
+  "url": "https://innovationlab.fetch.ai/resources/docs/intro",
+  "kind": "page",
+  "hints_hash": "5533828d80792f66",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://innovationlab.fetch.ai/resources/docs/intro",
+      "title": "Introduction | Innovation Lab Resources",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Introduction — Innovation Lab Resources",
+  "summary": "Fetch.ai developer documentation introduction: uAgents microservices, Agentverse, ASI:One and how AI agents build, connect and transact.",
+  "keywords": [
+    "ai agent",
+    "agent framework",
+    "multi-agent",
+    "agent marketplace",
+    "agent communication",
+    "agent transaction",
+    "mcp integration",
+    "llm",
+    "uagent",
+    "agent documentation",
+    "developer docs",
+    "agent tooling"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

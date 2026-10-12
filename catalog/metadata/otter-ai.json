@@ -1,0 +1,38 @@
+{
+  "id": "otter-ai",
+  "url": "https://otter.ai",
+  "kind": "site",
+  "hints_hash": "3eecaf2b2a737787",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://otter.ai", "title": "Otter Meeting Agent - AI Notetaker, Transcription, Insights", "status": null},
+    {"url": "https://otter.ai/pricing", "title": "Pricing | Otter.ai", "status": null},
+    {"url": "https://otter.ai/features", "title": "Otter's Voice Meeting & Real-time Transcription Features | Otter.ai", "status": null}
+  ],
+  "status": "ok",
+  "name": "Otter.ai",
+  "summary": "AI meeting agent that records, transcribes and summarises meetings into searchable notes, summaries and action items.",
+  "description": "Otter sends an AI notetaker to Zoom, Microsoft Teams and Google Meet, or records bot-free from desktop and mobile, producing live transcripts with speaker labels, summaries, decisions and action items. Otter AI Chat answers questions across your meetings, and integrations push notes to Slack, Salesforce, HubSpot, Notion and Jira.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat"],
+  "keywords": ["ai notetaker", "meeting transcription", "live transcription", "meeting note", "meeting summary", "action item", "speaker identification", "ai chat", "sales call", "interview transcription", "mcp server", "zoom integration"],
+  "contains": [
+    "free plan: 300 monthly transcription minutes and 3 lifetime file imports",
+    "Pro from $16.99/user/month; Business and Enterprise tiers",
+    "live transcription in English, Spanish, French, German, Japanese and Chinese",
+    "automated summaries, action items and insights",
+    "integrations: Zoom, MS Teams, Google Meet, Slack, Salesforce, HubSpot, Notion, Jira, Dropbox, Google Drive",
+    "desktop app for Mac and Windows, iOS and Android apps, Chrome extension",
+    "Otter MCP server for ChatGPT, Claude and other AI chat tools",
+    "Otter API and webhooks on the Enterprise plan"
+  ],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

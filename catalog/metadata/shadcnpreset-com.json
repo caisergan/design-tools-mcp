@@ -1,0 +1,41 @@
+{
+  "id": "shadcnpreset-com",
+  "url": "https://shadcnpreset.com",
+  "kind": "site",
+  "hints_hash": "a9c50337f010459b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnpreset.com", "title": "Find the perfect shadcn preset in seconds", "status": null},
+    {"url": "https://shadcnpreset.com/learn", "title": "Learn | shadcnpreset", "status": 200},
+    {"url": "https://shadcnpreset.com/community", "title": "Community presets | shadcnpreset", "status": 200},
+    {"url": "https://shadcnpreset.com/changelog", "title": "Changelog | shadcnpreset", "status": 200},
+    {"url": "https://github.com/morganfeeney/shadcnpreset", "title": "GitHub - morganfeeney/shadcnpreset: Discover and compare shadcn presets instantly", "status": 200},
+    {"url": "https://raw.githubusercontent.com/morganfeeney/shadcnpreset/HEAD/README.md", "title": "shadcnpreset", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcnpreset",
+  "summary": "AI-powered browser for shadcn presets: describe a vibe, preview presets on real components, build pages and copy code.",
+  "description": "A discovery platform for shadcn presets — short codes describing a whole shadcn/ui setup (style, base, theme, charts, icons, fonts, radius). Describe what you are building and AI surfaces matching presets, each previewed on real components such as dashboards, auth screens and marketing pages; browse and vote on community presets, build a page from 157 shadcncraft Pro blocks restyled by any preset, and use bundled tools: a preset theme CSS generator, a WCAG color contrast checker and an image filter generator. Free and open source.",
+  "type": "tool",
+  "categories": ["design-tools", "color-effects"],
+  "elements": ["hero", "features", "pricing", "testimonials", "faq", "navbar", "sidebar", "footer", "chart", "table", "stats", "dashboard", "form", "chat"],
+  "keywords": ["shadcn", "preset", "shadcn preset", "theme", "theme generator", "color scheme", "css variable", "contrast checker", "tailwind", "component preview", "community", "page builder", "block", "icon", "font", "ai"],
+  "contains": [
+    "AI preset finder: describe a project or vibe to get matching presets",
+    "presets combine style, base, theme, charts, icon set, radius and fonts",
+    "community presets with voting, remixing and shareable preset codes",
+    "page builder with 157 shadcncraft Pro blocks restyled by any preset",
+    "preset pages preview colors, typography, icons, charts and components",
+    "tools: preset theme CSS generator, WCAG contrast checker, image filter generator",
+    "Figma plugin turns a preset code into light and dark variable sets",
+    "~1.5 billion possible preset combinations; free and open source"
+  ],
+  "formats": ["app", "code", "docs"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/morganfeeney/shadcnpreset", "docs": "https://shadcnpreset.com/learn", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

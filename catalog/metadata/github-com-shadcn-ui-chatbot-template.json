@@ -1,0 +1,82 @@
+{
+  "id": "github-com-shadcn-ui-chatbot-template",
+  "url": "https://github.com/shadcn-ui/chatbot-template",
+  "kind": "repo",
+  "hints_hash": "66fcae713bc7f9b4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/shadcn-ui/chatbot-template/blob/HEAD/README.md",
+      "title": "chatbot-template",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-ui/chatbot-template",
+  "summary": "Minimal chatbot template built with Next.js, AI SDK and shadcn/ui: streaming chat, tool calling, web search, human-in-the-loop.",
+  "description": "A minimal chatbot starter built with Next.js, the AI SDK, shadcn/ui, shadcn/react, shadcn/typeset and the Vercel AI Gateway; one-click Vercel deploys authenticate to the gateway via OIDC. Assistant messages are typed parts with streaming states, and each tool gets its own part component (GitHub repo lookup, ask-user questionnaire, provider web search, deduped source drawer).",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "chat",
+    "prompt-input",
+    "ai-agent-ui",
+    "drawer",
+    "loader"
+  ],
+  "keywords": [
+    "chatbot",
+    "chat ui",
+    "ai sdk",
+    "nextjs",
+    "react",
+    "shadcn",
+    "shadcn ui",
+    "vercel ai gateway",
+    "tool calling",
+    "web search",
+    "human-in-the-loop",
+    "streaming",
+    "markdown",
+    "typeset",
+    "message part",
+    "chatbot template",
+    "starter"
+  ],
+  "contains": [
+    "streaming chat with markdown rendering via shadcn/typeset",
+    "tool calling example with one part component per tool",
+    "provider-native web search with deduped citations in a drawer",
+    "human-in-the-loop questionnaire (shadcn questionnaire component)",
+    "one-click deploy; Vercel OIDC auth to AI Gateway",
+    "security notes: public unauthenticated /api/chat route, rate limiting, spend caps"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "ai-sdk",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcn-ui/chatbot-template",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

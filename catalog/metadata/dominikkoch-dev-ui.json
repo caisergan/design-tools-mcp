@@ -1,0 +1,66 @@
+{
+  "id": "dominikkoch-dev-ui",
+  "url": "https://dominikkoch.dev/ui",
+  "kind": "page",
+  "hints_hash": "e8f48ee9feb147a8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dominikkoch.dev/ui",
+      "title": "Introduction by Dominik Koch",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "dominik-ui",
+  "summary": "Personal shadcn registry of opinionated React components for AI apps: tabs, command palette and a loader.",
+  "keywords": [
+    "shadcn registry",
+    "react component",
+    "base ui",
+    "command palette",
+    "tabs",
+    "loader",
+    "ai app",
+    "copy-paste component",
+    "typescript",
+    "tailwind css"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "type": "registry",
+  "elements": [
+    "tabs",
+    "command-palette",
+    "loader"
+  ],
+  "contains": [
+    "4 shadcn-compatible components: Expandable Tabs, Command Tabs, Permission Selector, Braille Loader",
+    "installed with the shadcn CLI from the dominikkoch.dev/r registry",
+    "plain TypeScript + Tailwind files; no runtime dependency"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "base-ui",
+    "framer-motion"
+  ],
+  "confidence": 0.85
+}

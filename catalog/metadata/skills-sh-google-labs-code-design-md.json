@@ -1,0 +1,53 @@
+{
+  "id": "skills-sh-google-labs-code-design-md",
+  "url": "https://skills.sh/google-labs-code/design.md",
+  "kind": "page",
+  "hints_hash": "c8256a761678d4d4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/google-labs-code/design.md", "title": "google-labs-code/design.md — Agent skills", "status": null },
+    { "url": "https://github.com/google-labs-code/design.md", "title": "GitHub - google-labs-code/design.md: A format specification for describing a visual identity to coding agents.", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "DESIGN.md",
+  "summary": "Format spec and CLI for describing a design system to coding agents: YAML tokens plus markdown rationale.",
+  "description": "The skills.sh page for the google-labs-code/design.md repo, which carries four agent skills (typed-service-contracts, tdd-red-green-refactor, ink, agent-dx-cli-scale). The repo itself specifies DESIGN.md: machine-readable YAML design tokens with human-readable markdown rationale, validated by an npm CLI with 11 lint rules (broken token references, WCAG contrast, section order), a diff command for token-level regressions, and export to Tailwind v3/v4 and W3C DTCG tokens.",
+  "type": "design-rules",
+  "keywords": [
+    "design.md",
+    "design token",
+    "design system",
+    "format specification",
+    "yaml token",
+    "cli",
+    "lint",
+    "wcag contrast",
+    "tailwind",
+    "dtcg",
+    "coding agent",
+    "visual identity"
+  ],
+  "contains": [
+    "4 agent skills",
+    "1.6K total installs on skills.sh",
+    "YAML token front matter + markdown rationale",
+    "CLI: lint (11 rules), diff, spec, export",
+    "export to Tailwind v3/v4 and W3C DTCG tokens",
+    "format at alpha",
+    "Apache-2.0 licensed"
+  ],
+  "formats": ["docs", "prompts", "cli", "npm-package"],
+  "stack": [],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/google-labs-code/design.md",
+    "docs": "https://stitch.withgoogle.com/docs/design-md/specification",
+    "npm": "@google/design.md",
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.85
+}

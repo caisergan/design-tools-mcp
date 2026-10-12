@@ -1,0 +1,36 @@
+{
+  "id": "github-com-connorhpbrn-census",
+  "url": "https://github.com/connorhpbrn/census",
+  "kind": "repo",
+  "hints_hash": "fd7a8572381dbbc0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/connorhpbrn/census/blob/HEAD/README.md", "title": "§ Census", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Census",
+  "summary": "Self-hosted Telegram money agent that reads bank spends via open banking and answers questions from a small SQLite ledger.",
+  "description": "A private Telegram money agent for UK/EU open-banking banks. It reads your bank through TrueLayer, keeps a small SQLite ledger, treats repeating charges as subscriptions, and answers spend, save-target and leftover questions in short replies via an OpenRouter model that can call tools. Self-hosted, one process, built to run on Railway with a volume; needs a Telegram bot token, an OpenRouter key, a TrueLayer app and an allowlist of Telegram user ids. Runs locally on Bun 1.4+.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["telegram bot", "money agent", "personal finance", "open banking", "bank transaction", "budget tracking", "sqlite", "self-hosted", "ai agent", "openrouter", "telegram", "expense tracker", "finance automation"],
+  "contains": [
+    "private Telegram bot that reads bank transactions through TrueLayer open banking",
+    "keeps a small SQLite ledger and answers spend questions in short replies",
+    "repeating charges treated as subscriptions; manual cash expenses supported",
+    "allowlist of Telegram user ids is the security model",
+    "self-hosted on Railway with a volume; one replica only",
+    "needs Telegram bot token, OpenRouter key and a TrueLayer console app",
+    "local runs need Bun 1.4+",
+    "MIT licensed"
+  ],
+  "formats": ["code", "app", "docs"],
+  "stack": ["bun", "sqlite"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/connorhpbrn/census", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

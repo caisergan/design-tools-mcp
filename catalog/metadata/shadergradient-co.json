@@ -1,0 +1,37 @@
+{
+  "id": "shadergradient-co",
+  "url": "https://shadergradient.co",
+  "kind": "site",
+  "hints_hash": "b91b31f62997f50f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadergradient.co", "title": "Shader Gradient", "status": null},
+    {"url": "https://shadergradient.co/pricing", "title": "Shader Gradient", "status": null},
+    {"url": "https://github.com/ruucm/shadergradient", "title": "GitHub - ruucm/shadergradient: Create beautiful moving gradients on Framer, Figma and React", "status": 200},
+    {"url": "https://raw.githubusercontent.com/ruucm/shadergradient/main/README.md", "title": "Shader Gradient v2", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shader Gradient",
+  "summary": "Customizable 3D moving shader gradients for React, Vue, Framer and Figma, driven by props or preset URLs.",
+  "description": "Shader Gradient renders animated 3D gradient backgrounds with shaders. v2 ships a lean React renderer (@shadergradient/react) and stateless UI controls (@shadergradient/ui) used by the Framer component and Figma plugin, plus a Vue 3/Nuxt renderer built on TresJS. Settings load from props or a URL copied from the web editor.",
+  "type": "component-library",
+  "categories": ["motion", "design-tools"],
+  "elements": ["background", "3d"],
+  "keywords": ["animated gradient", "shader gradient", "moving gradient", "webgl gradient", "3d gradient", "gradient background", "react component", "vue component", "three.js", "glsl shader", "framer plugin", "figma plugin", "hero background"],
+  "contains": [
+    "React renderer package @shadergradient/react (ShaderGradient, ShaderGradientCanvas)",
+    "@shadergradient/ui stateless control components (ESM bundle, used by the Framer and Figma plugins)",
+    "@shadergradient/vue renderer for Vue 3 / Nuxt on TresJS, with SSR-safe canvas",
+    "Framer component and Figma plugin",
+    "settings driven by props or a URL copied from shadergradient.co/customize",
+    "MIT licensed (ruucm, stone-skipper); 2.8k GitHub stars"
+  ],
+  "formats": ["code", "npm-package", "framer-file", "figma-file"],
+  "stack": ["react", "three.js", "vue"],
+  "pricing": "unknown",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ruucm/shadergradient", "docs": null, "npm": "@shadergradient/react", "figma": null, "parent": null},
+  "confidence": 0.8
+}

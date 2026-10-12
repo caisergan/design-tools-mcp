@@ -1,0 +1,38 @@
+{
+  "id": "designsystems-supply",
+  "url": "https://designsystems.supply",
+  "kind": "site",
+  "hints_hash": "2dc0bb597adf36c1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:55:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designsystems.supply", "title": "Design Systems", "status": null},
+    {"url": "https://designsystems.supply/icons", "title": "Design System Logos & Icons | Design Systems", "status": null},
+    {"url": "https://designsystems.supply/categories", "title": "Design System Categories — Government, Product & Industry | Design Systems", "status": null},
+    {"url": "https://designsystems.supply/category/media", "title": "Media Design Systems | Design Systems", "status": null},
+    {"url": "https://designsystems.supply/category/health", "title": "Health Design Systems | Design Systems", "status": null}
+  ],
+  "status": "ok",
+  "name": "Design Systems",
+  "summary": "Curated directory of 179 design systems with official docs, components, tokens and Figma libraries.",
+  "description": "A curated directory of the world's design systems — GOV.UK, USWDS, Apple HIG, Adobe Spectrum, Fluent 2, SAP Fiori and BBC GEL among them. Each entry links to the system's official docs, components, tokens and Figma libraries; the collection is browsable by category: government, enterprise, CRM & ERP, agentic AI, consumer, transport, health, finance, media and retail.",
+  "type": "directory",
+  "categories": ["components"],
+  "elements": [],
+  "keywords": ["design system", "component library", "design token", "figma library", "style guide", "ui kit", "component documentation", "government design system", "enterprise design system", "design system directory", "healthcare design system", "design system example"],
+  "contains": [
+    "179 design systems, updated daily",
+    "categories: government 45, enterprise 62, CRM & ERP 18, agentic AI 6",
+    "categories: consumer 13, transport 10, health 7, finance 9, media 3, retail",
+    "editor picks: GOV.UK, Apple HIG, Adobe Spectrum, Fluent 2, Base, Airbnb, SAP Fiori, BBC GEL",
+    "each entry points to official docs, components, tokens and Figma libraries",
+    "logo wall showing every system's icon"
+  ],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

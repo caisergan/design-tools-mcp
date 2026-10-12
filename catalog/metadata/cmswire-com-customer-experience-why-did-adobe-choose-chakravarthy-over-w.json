@@ -1,0 +1,22 @@
+{
+  "id": "cmswire-com-customer-experience-why-did-adobe-choose-chakravarthy-over-w",
+  "url": "https://cmswire.com/customer-experience/why-did-adobe-choose-chakravarthy-over-wadhwani-as-ceo",
+  "kind": "page",
+  "hints_hash": "79bcfc07f1e3b011",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.cmswire.com/customer-experience/why-did-adobe-choose-chakravarthy-over-wadhwani-as-ceo/", "title": "Why Adobe Chose Its Moat Over Its Market Share With New CEO", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Why Did Adobe Choose Chakravarthy Over Wadhwani as CEO?",
+  "summary": "CMSWire analysis of Adobe's CEO succession: enterprise CX promoted over Creative Cloud, and what it signals.",
+  "description": "CMSWire editorial by Gregg Johnson (Sep 11, 2026, 5-minute read) arguing that Adobe's board picked its moat over its market share by promoting Anil Chakravarthy, who ran the data and personalization business, over Ashley Wadhwani, who ran Creative Cloud. Sections cover why the two businesses were split, why Creative Cloud faces more competitive pressure than CX orchestration, what the CX Enterprise rebrand signals, the market's negative reaction and what CX leaders should take from it.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["ceo succession", "creative cloud", "customer experience", "cx orchestration", "enterprise software", "design software", "digital experience", "leadership change", "market analysis", "saas", "creative tool"],
+  "formats": ["docs"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

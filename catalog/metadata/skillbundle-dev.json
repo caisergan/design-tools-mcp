@@ -1,0 +1,32 @@
+{
+  "id": "skillbundle-dev",
+  "url": "https://skillbundle.dev",
+  "kind": "site",
+  "hints_hash": "af97f723d6d256b5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skillbundle.dev/llms.txt", "title": "SkillBundle", "status": null},
+    {"url": "https://skillbundle.dev", "title": "Agent Skills Directory for Claude Code, Cursor and Codex", "status": 200},
+    {"url": "https://skillbundle.dev/skills", "title": "Browse agent skills by category | SkillBundle", "status": 200},
+    {"url": "https://skillbundle.dev/pricing", "title": "Pricing - SkillBundle", "status": 200},
+    {"url": "https://skillbundle.dev/skills/ml", "title": "Machine Learning skills for Claude Code and Cursor | SkillBundle", "status": 200},
+    {"url": "https://skillbundle.dev/skills/cicd", "title": "CI/CD & Build Tooling skills for Claude Code and Cursor | SkillBundle", "status": 200}
+  ],
+  "status": "ok",
+  "name": "SkillBundle",
+  "summary": "Directory of AI coding-agent skills from skills.sh and public GitHub repos, with change monitoring for the skills you watch.",
+  "description": "A catalog and watchdog for AI coding-assistant skills: browse and compare skills for Claude Code, Cursor and Codex, keep the ones you use in a bundle, and get alerts when a watched skill changes, breaks or becomes unsafe. Skill pages carry the rendered SKILL.md, install count and rank, security verdicts, install commands and version diffs. Skills are installed from their own repositories with npx skills add; the site itself is a directory and monitoring tool.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill directory", "claude code", "cursor", "codex", "ai coding agent", "skill monitoring", "skills.sh", "skill install count", "skill security audit", "change monitoring", "github repo"],
+  "contains": ["indexes the public skills.sh ecosystem and public GitHub repositories", "skills ranked by all-time installs; top repositories show 3.8M+ installs", "category counts: Backend & APIs 1,737, Frontend 1,462, UI & Design 1,095 skills", "skill pages: rendered SKILL.md, install count and rank, security audit verdicts, version diffs", "free tier watches 25 skills; Pro is $5/month for unlimited watching and repo matching"],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

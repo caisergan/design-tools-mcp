@@ -1,0 +1,36 @@
+{
+  "id": "github-com-zenithfr-web-element-repositories",
+  "url": "https://github.com/ZenithFr/web-element-repositories",
+  "kind": "repo",
+  "hints_hash": "102beb2c04a879fb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ZenithFr/web-element-repositories/blob/HEAD/README.md", "title": "Web Element Repositories", "status": 200},
+    {"url": "https://raw.githubusercontent.com/ZenithFr/web-element-repositories/HEAD/README.md", "title": "Web Element Repositories", "status": 200},
+    {"url": "https://github.com/ZenithFr/web-element-repositories", "title": "GitHub - ZenithFr/web-element-repositories: Curated catalog of 225+ websites for HTML, CSS, JS, and UI components", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Web Element Repositories",
+  "summary": "Curated catalog of 225+ websites for HTML, CSS, JS and UI components, icons, buttons and color tools.",
+  "description": "A link catalog of websites where you can find HTML, CSS and JS building blocks. Sections cover copy-paste component libraries, UI galleries and inspiration, button collections, icon repositories, color and gradient tools, loading spinners and CSS animations, Tailwind-specific libraries, code snippets, layout and grid tools, form components, typography, accessibility, template galleries, niche generators, image and lightbox tools, web component libraries, animation libraries and chart libraries. Each row lists the site with a short description and a pricing note.",
+  "type": "directory",
+  "categories": ["components", "inspiration", "icons"],
+  "elements": ["button", "form", "input", "loader", "chart"],
+  "keywords": ["ui component", "component library", "html css", "web component", "icon set", "button", "css button", "tailwind component", "loading spinner", "color palette", "gradient tool", "ui inspiration", "landing page", "template gallery", "form component", "input", "typography", "accessibility", "code snippet", "layout tool", "awesome list", "web design resource", "copy paste component", "css animation", "chart library", "generator"],
+  "contains": [
+    "225+ websites catalogued as links",
+    "sections: component libraries, UI galleries, buttons, icons, color tools, spinners, Tailwind, snippets",
+    "more sections: layout, form components, typography, accessibility, templates, generators, charts",
+    "each entry tagged 'Fully free', 'Mostly free with few paid' or 'Paid with free'",
+    "top picks marked with a star",
+    "lists shadcn/ui, MUI, Ant Design, Radix, Headless UI, Coolors, Dribbble and more"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/ZenithFr/web-element-repositories", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

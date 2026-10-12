@@ -1,0 +1,27 @@
+{
+  "id": "github-com-ysharma3501-luxtts",
+  "url": "https://github.com/ysharma3501/LuxTTS",
+  "kind": "repo",
+  "hints_hash": "3bfd67ef19c27cb0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/ysharma3501/LuxTTS/HEAD/README.md", "title": "LuxTTS", "status": 200}
+  ],
+  "status": "ok",
+  "name": "LuxTTS",
+  "summary": "Lightweight text-to-speech model for 48kHz voice cloning, reaching 150x realtime in under 1GB of VRAM.",
+  "description": "A ZipVoice-based TTS model and Python code for cloning a voice from a short reference clip and generating 48kHz speech. Runs locally, on Colab or Hugging Face Spaces, on GPU or CPU; community builds add Gradio, ComfyUI and ONNX front-ends.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["text to speech", "tts", "voice cloning", "voice model", "speech synthesis", "ai voice", "48khz audio", "realtime tts", "zipvoice", "python", "comfyui", "gradio", "audio generation", "local model", "gpu"],
+  "contains": ["voice cloning from a 3+ second reference clip", "48kHz speech output (typical TTS models cap at 24kHz)", "150x realtime on one GPU, faster than realtime on CPU", "fits within 1GB of VRAM", "ZipVoice architecture distilled to 4 sampling steps", "community apps: Gradio, ComfyUI, ONNX and hosted demos"],
+  "formats": ["code", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/ysharma3501/LuxTTS", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "github-com-rdev-liquid-glass-react",
+  "url": "https://github.com/rdev/liquid-glass-react",
+  "kind": "repo",
+  "hints_hash": "4ae55d0fcb3c4cc8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/rdev/liquid-glass-react/blob/HEAD/README.md", "title": "Liquid Glass React", "status": 200},
+    {"url": "https://github.com/rdev/liquid-glass-react", "title": "GitHub - rdev/liquid-glass-react: Apple's Liquid Glass effect for React", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Liquid Glass React",
+  "summary": "React component that recreates Apple's Liquid Glass effect with refraction, blur, chromatic aberration and elasticity.",
+  "description": "A React glass component: proper edgy bending and refraction, configurable frost, saturation, chromatic aberration, padding, corner radius and elasticity, with hover and click effects. Wraps arbitrary children (cards, buttons) and supports four refraction modes (standard, polar, prominent, shader); the displacement effect does not render in Safari and Firefox.",
+  "type": "component-library",
+  "categories": ["components", "color-effects"],
+  "elements": ["button", "card"],
+  "keywords": ["liquid glass", "glass effect", "glassmorphism", "react", "refraction", "blur", "frosted glass", "chromatic aberration", "saturation", "shader", "ui effect", "hover effect", "component", "card", "button"],
+  "contains": ["single glass component wrapping arbitrary child elements", "props: displacement, blur, saturation, chromatic aberration, elasticity, corner radius, padding, refraction mode", "refraction modes: standard, polar, prominent, shader", "examples: glass card and glass button", "MIT licensed"],
+  "formats": ["code"],
+  "stack": ["react", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/rdev/liquid-glass-react", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,39 @@
+{
+  "id": "netlify-com",
+  "url": "https://netlify.com",
+  "kind": "site",
+  "hints_hash": "aeab016e986036c4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:23:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://netlify.com/llms.txt", "title": "Netlify", "status": null},
+    {"url": "https://netlify.com", "title": "Push your ideas to the web | Netlify", "status": 200},
+    {"url": "https://www.netlify.com/docs/ai-gateway", "title": "Netlify Documentation | Netlify Docs", "status": 200},
+    {"url": "https://www.netlify.com/pricing.md", "title": "Netlify Pricing", "status": 200},
+    {"url": "https://www.netlify.com/about.md", "title": "About Netlify", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Netlify",
+  "summary": "Composable web platform for building, deploying and scaling sites, apps and AI agents, with previews, edge and CI/CD.",
+  "description": "Hosted platform for shipping web projects: git-based continuous deployment, deploy previews, a global CDN and edge network, serverless and edge functions, managed Postgres and blob storage, and agent infrastructure (Agent Runners and an AI Gateway to OpenAI, Anthropic and Gemini). Projects publish to a production URL with custom domains and SSL; documentation ships as llms.txt and markdown pages for agents.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["hosting", "deploy", "web platform", "static site", "deploy preview", "continuous deployment", "cdn", "edge function", "serverless function", "database", "blob storage", "ai gateway", "coding agent", "ci/cd", "custom domain", "ssl", "web app", "marketing site"],
+  "contains": [
+    "free tier with 300 credits; Personal $9/month; Pro $20/month; Enterprise custom",
+    "deploy from AI prompts, Git, API or drag and drop",
+    "Agent Runners run AI coding agents against your repo",
+    "AI Gateway proxies OpenAI, Anthropic and Gemini without provider API keys",
+    "managed Postgres database and blob storage built in",
+    "deploy previews, firewall traffic rules and global CDN",
+    "documentation published as llms.txt and markdown pages for agents"
+  ],
+  "formats": ["app", "templates", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://docs.netlify.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

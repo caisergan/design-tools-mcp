@@ -1,0 +1,29 @@
+{
+  "id": "aura-vr-game-agency-aura-build",
+  "url": "https://aura-vr-game-agency.aura.build",
+  "kind": "site",
+  "hints_hash": "f7f7004ba83b5d5d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aura-vr-game-agency.aura.build/llms.txt", "title": "Aura VR Game Agency Landing Page Template", "status": null},
+    {"url": "https://aura-vr-game-agency.aura.build", "title": "Aura VR Game Agency Landing Page Template", "status": 200},
+    {"url": "https://aura-vr-game-agency.aura.build/", "title": "Aura VR Game Agency Landing Page Template", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Aura VR Game Agency Landing Page Template",
+  "summary": "Single-page landing template for VR game studios and spatial computing brands, featuring 3D animations.",
+  "description": "A hosted one-page landing template for VR game agencies, game studios and spatial computing brands; its llms.txt describes 3D animations and cinema-grade layouts and lists a single home page. The page body renders client-side, so only the title, description and page list are readable as text.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["vr", "landing page template", "game studio", "spatial computing", "3d animation", "agency website", "website template", "one page template", "immersive"],
+  "contains": ["single home page (1 sitemap url)", "3D animations", "built for game studios and spatial computing brands", "page content renders client-side, no readable page text"],
+  "formats": ["templates"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

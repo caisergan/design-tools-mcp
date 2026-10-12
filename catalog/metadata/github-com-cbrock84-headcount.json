@@ -1,0 +1,29 @@
+{
+  "id": "github-com-cbrock84-headcount",
+  "url": "https://github.com/cbrock84/headcount",
+  "kind": "repo",
+  "hints_hash": "51fbf02ed68dc356",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/cbrock84/headcount/blob/HEAD/README.md", "title": "headcount", "status": null},
+    {"url": "https://github.com/cbrock84/headcount", "title": "GitHub - cbrock84/headcount: An agent organization structured as a company — 15+ departments, 125+ skills, each independently installable", "status": 200},
+    {"url": "https://github.com/cbrock84/headcount/blob/HEAD/LICENSE", "title": "headcount/LICENSE · cbrock84/headcount · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "headcount",
+  "summary": "Agent organization of 16 departments and 172 skills, each installable on its own in Claude Code and ChatGPT.",
+  "description": "An agent organization structured as a company: a chief executive over 16 departments (technology, security, IT operations, product, finance …) with 172 skills in total. Every department is an independently installable plugin, so a project loads only what it needs; skills load themselves when a request matches and are addressed as department:skill.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "claude code", "claude plugin", "chatgpt", "codex", "subagent", "skill package", "agent organization", "prompt", "department", "ai agent", "plugin marketplace"],
+  "contains": ["16 departments, 172 skills", "departments incl. technology (19 skills), security (8, reviewer-class), IT operations (12), product (11)", "each department installs independently as a plugin", "same repo serves Claude Code and ChatGPT/Codex", "skills addressed as department:skill, e.g. security:threat-modeling", "docs: GETTING-STARTED, USE-CASES, SOURCES, AGENTS.md"],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/cbrock84/headcount", "docs": "https://cbrock84.github.io/headcount/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

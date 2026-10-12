@@ -1,0 +1,30 @@
+{
+  "id": "spline-design",
+  "url": "https://spline.design",
+  "kind": "site",
+  "hints_hash": "a9163228c63b5b3f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://spline.design", "title": "Spline - 3D Design tool in the browser with real-time collaboration", "status": null},
+    {"url": "https://spline.design/examples", "title": "Spline - Easily create beautiful 3d models from our example library", "status": null},
+    {"url": "https://spline.design/pricing", "title": "Spline Pricing - Interactive 3D experiences in real-time in the browser", "status": null},
+    {"url": "https://spline.design/terms", "title": "Spline - 3D Design tool in the browser with real-time collaboration", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Spline",
+  "summary": "Browser-based 3D design tool for building real-time interactive 3D scenes and shipping them to web, iOS and Android.",
+  "description": "Free-tier web app for 3D modeling, animation and interactive scenes with real-time collaboration. It has layer-based materials, a material and audio library, timeline animation, physics and particles, an event system with variables, webhooks and APIs, and AI-assisted 3D generation; scenes can be remixed from a community example library and exported to web, iOS and Android. A companion canvas, Hana, covers interactive 2D UI design.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": ["3d"],
+  "keywords": ["3d design", "3d modeling", "3d animation", "3d scene", "interactive 3d", "real time collaboration", "browser design tool", "design tool", "3d website", "3d mockup", "3d icon", "3d logo", "ai 3d generation", "timeline animation", "physics"],
+  "contains": ["free tier plus Hobby $12, Pro $25, Max $60 and Enterprise plans (per seat, annual billing)", "modeling, real-time rendering and layer-based materials", "material and audio library", "timeline animation, physics, particles and game controls", "event system, states, variables, webhooks and APIs", "exports and embeds for web, iOS and Android", "community scenes, templates and example library", "academy video guides and written docs"],
+  "formats": ["app", "templates", "docs", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

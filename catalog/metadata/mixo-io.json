@@ -1,0 +1,29 @@
+{
+  "id": "mixo-io",
+  "url": "https://mixo.io",
+  "kind": "site",
+  "hints_hash": "eebe1085430bafea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mixo.io/llms.txt", "title": "Mixo — AI Website Builder for Small Business", "status": null},
+    {"url": "https://mixo.io", "title": "Mixo | AI Website Builder for Small Business", "status": 200},
+    {"url": "https://www.mixo.io/features", "title": "Mixo Website Builder Features", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mixo",
+  "summary": "AI website builder that generates a multi-page small-business website from a short business description.",
+  "description": "AI website builder for small businesses, service providers and solo operators. Describe your business and goals and Mixo generates a complete, mobile-friendly, multi-page website with content and contact forms in about 10 seconds; you then edit it in the Mixo editor and publish. Sites include contact forms, blog, SEO and managed hosting in 40+ languages. The free plan publishes a one-page site; paid upgrades unlock more pages, custom domains and advanced features.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": ["form"],
+  "keywords": ["ai website builder", "website generator", "landing page", "small business website", "no-code", "prompt to website", "contact form", "blog", "seo", "hosting", "custom domain", "freelancer", "local business", "lead capture"],
+  "contains": ["generates a multi-page website from a 1–2 sentence description in ~10 seconds", "built-in contact forms with enquiry tracking and export", "blog, SEO and GEO/AI search optimisation", "managed hosting, custom domains, GDPR features", "40+ languages; 3M+ websites created (site claim)", "free plan for a one-page site; paid plans for more pages and custom domains"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

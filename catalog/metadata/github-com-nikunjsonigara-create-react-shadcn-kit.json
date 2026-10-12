@@ -1,0 +1,28 @@
+{
+  "id": "github-com-nikunjsonigara-create-react-shadcn-kit",
+  "url": "https://github.com/NikunjSonigara/create-react-shadcn-kit",
+  "kind": "repo",
+  "hints_hash": "38428ff14963de76",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/NikunjSonigara/create-react-shadcn-kit/blob/HEAD/README.md", "title": "create-react-shadcn-kit", "status": null},
+    {"url": "https://github.com/NikunjSonigara/create-react-shadcn-kit", "title": "GitHub - NikunjSonigara/create-react-shadcn-kit: Create a React (Vite) app with shadcn/ui, Tailwind v4, Redux Toolkit, and Husky pre-integrated", "status": 200}
+  ],
+  "status": "ok",
+  "name": "create-react-shadcn-kit",
+  "summary": "CLI that scaffolds a Vite + React app with shadcn/ui, Tailwind v4, optional Redux or Zustand and Husky.",
+  "description": "An interactive CLI that scaffolds a production-ready React (Vite) app in one command: TypeScript or JavaScript, Tailwind CSS v4 via @tailwindcss/vite, @/ path aliases in vite.config and tsconfig, shadcn/ui init with your chosen components, a Redux Toolkit or Zustand store, and optional Husky + lint-staged + Prettier pre-commit hooks. Node.js 22+ required.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["cli", "scaffold", "react", "vite", "shadcn", "tailwind css", "redux", "zustand", "husky", "starter kit", "boilerplate", "typescript", "npm package"],
+  "contains": ["interactive CLI published as create-react-shadcn-kit on npm", "scaffolds Vite + React (TS or JS) with Tailwind CSS v4 and @/ path aliases", "runs shadcn init and pre-installs the components you select", "state: Redux Toolkit (default) or Zustand with a sample store wired in", "optional Husky + lint-staged + Prettier pre-commit hook", "flags: -y, --ts/--js, --npm/--pnpm/--yarn/--bun, --no-husky, --state=", "Node.js 22+; MIT licensed"],
+  "formats": ["cli", "npm-package", "code", "templates"],
+  "stack": ["react", "vite", "typescript", "tailwind", "shadcn", "redux", "zustand"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/NikunjSonigara/create-react-shadcn-kit", "docs": null, "npm": "create-react-shadcn-kit", "figma": null, "parent": null},
+  "confidence": 0.9
+}

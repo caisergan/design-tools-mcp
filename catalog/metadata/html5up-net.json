@@ -1,0 +1,77 @@
+{
+  "id": "html5up-net",
+  "url": "https://html5up.net",
+  "kind": "site",
+  "hints_hash": "caaa8e2ec9635b6c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://html5up.net",
+      "title": "HTML5 UP! Responsive HTML5 and CSS3 Site Templates",
+      "status": null
+    },
+    {
+      "url": "https://html5up.net/license",
+      "title": "The Creative Commons Attribution 3.0 License | HTML5 UP",
+      "status": null
+    },
+    {
+      "url": "https://html5up.net/massively",
+      "title": "Massively | HTML5 UP",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "HTML5 UP",
+  "summary": "Collection of free, responsive HTML5 and CSS3 site templates, each with a live demo and a download.",
+  "description": "Responsive HTML5 and CSS3 site templates made by @ajlkn, each with a live demo and a free download. The templates are licensed under Creative Commons Attribution 3.0 for personal and commercial use, and attribution-free versions of all of them plus 80+ more templates are sold through Pixelarity.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [],
+  "keywords": [
+    "html5 template",
+    "css3 template",
+    "free template",
+    "website template",
+    "responsive template",
+    "html template",
+    "landing page template",
+    "portfolio template",
+    "blog template",
+    "one page template",
+    "site template",
+    "creative common"
+  ],
+  "contains": [
+    "44 free HTML5 + CSS3 site templates",
+    "live demo and free download for each template",
+    "free for personal and commercial use under Creative Commons Attribution 3.0",
+    "attribution-free versions and 80+ more templates via Pixelarity ($19)"
+  ],
+  "formats": [
+    "templates",
+    "code"
+  ],
+  "stack": [
+    "html",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "CC-BY-3.0",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,32 @@
+{
+  "id": "matsu-theme-vercel-app",
+  "url": "https://matsu-theme.vercel.app",
+  "kind": "site",
+  "hints_hash": "893ea7203c999eb5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://matsu-theme.vercel.app", "title": "Matsu-theme for shadcn/ui", "status": null},
+    {"url": "https://matsu-theme.vercel.app/r/matsu-theme.json", "title": null, "status": 200},
+    {"url": "https://matsu-theme.vercel.app/r/matsu-theme-components.json", "title": null, "status": 200},
+    {"url": "https://github.com/mateusz-wierzbicki/matsu-theme", "title": "GitHub - mateusz-wierzbicki/matsu-theme: Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki. This theme is designed to be a modern and clean theme that is easy to use and customize. I…", "status": 200},
+    {"url": "https://github.com/mateusz-wierzbicki/matsu-theme/blob/main/README.md", "title": "matsu-theme/README.md at main · mateusz-wierzbicki/matsu-theme · GitHub", "status": 200},
+    {"url": "https://github.com/mateusz-wierzbicki/matsu-theme/blob/main/LICENSE", "title": "matsu-theme/LICENSE at main · mateusz-wierzbicki/matsu-theme · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Matsu-theme for shadcn/ui",
+  "summary": "Ghibli-inspired theme for shadcn/ui with a watercolor palette, custom fonts and themed component overrides.",
+  "description": "A shadcn/ui theme installed with the shadcn CLI: one registry item adds CSS variables (light and dark Ghibli-inspired palette, Nunito and PT Serif fonts, soft 2px borders, watercolor paper texture) and a second item replaces the default shadcn components with themed versions. Example pages show a login and dashboard built with the theme.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["button"],
+  "keywords": ["shadcn theme", "shadcn ui", "theme", "watercolor", "dark mode", "light mode", "component theme", "registry", "tailwind theme", "custom font", "nextjs", "soft shadow"],
+  "contains": ["installed with npx shadcn add from two registry URLs (theme + components)", "registry:style item: light/dark palette, Nunito and PT Serif fonts, 2px soft shadows", "second item overrides the default shadcn components with themed versions", "watercolor paper texture via the layout.tsx example", "example pages: login, dashboard, test, masked-image", "MIT license, 14 GitHub stars"],
+  "formats": ["registry", "code"],
+  "stack": ["react", "tailwind", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mateusz-wierzbicki/matsu-theme", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

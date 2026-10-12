@@ -1,0 +1,28 @@
+{
+  "id": "github-com-bernaferrari-figmatocode",
+  "url": "https://github.com/bernaferrari/FigmaToCode",
+  "kind": "repo",
+  "hints_hash": "6c117e7074849c30",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/bernaferrari/FigmaToCode/blob/HEAD/README.md", "title": "Figma to Code", "status": 200},
+    {"url": "https://raw.githubusercontent.com/bernaferrari/FigmaToCode/HEAD/LICENSE", "title": "GNU General Public License v3", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Figma to Code",
+  "summary": "Figma plugin that turns a selection into editable HTML, React, Svelte, Tailwind, Flutter or SwiftUI code.",
+  "description": "A deterministic Figma-to-code converter that runs inside Figma's plugin sandbox — no AI model, account, generation credits or design uploads. Select a frame, component or layer and generate readable HTML, React (JSX), Svelte, styled-components, Tailwind, Flutter or SwiftUI output, tune target-specific options like Tailwind token rounding, color variables and image embedding, then copy the code or download a Vite, Next.js, static HTML, Flutter or SwiftUI starter project.",
+  "type": "plugin",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["figma plugin", "figma to code", "design to code", "html", "react", "svelte", "tailwind", "flutter", "swiftui", "code generation", "handoff", "dev mode", "starter template"],
+  "contains": ["outputs HTML, React (JSX), Svelte, styled-components, Tailwind, Flutter and SwiftUI", "runs in Figma Design and as a Dev Mode code generator", "downloadable starters: Vite, Next.js, static HTML, Flutter, SwiftUI", "no AI model, account or design uploads", "free, no generation limits; warnings instead of silent guesses"],
+  "formats": ["code", "templates"],
+  "stack": ["typescript"],
+  "pricing": "free",
+  "license": "GPL-3.0-only",
+  "related": {"repo": "https://github.com/bernaferrari/FigmaToCode", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

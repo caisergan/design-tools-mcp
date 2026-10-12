@@ -1,0 +1,29 @@
+{
+  "id": "github-com-daniel-style-magic-slide",
+  "url": "https://github.com/daniel-style/magic-slide",
+  "kind": "repo",
+  "hints_hash": "35d2639da7847532",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/daniel-style/magic-slide/HEAD/README.md", "title": "Magic Slide", "status": 200},
+    {"url": "https://raw.githubusercontent.com/daniel-style/magic-slide/HEAD/SKILL.md", "title": "Magic Slide", "status": 200},
+    {"url": "https://github.com/daniel-style/magic-slide", "title": "GitHub - daniel-style/magic-slide: A skill that generates polished self-contained HTML presentations with smooth Magic Move-style slide transitions. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Magic Slide",
+  "summary": "Agent skill that builds self-contained HTML presentations with Magic Move transitions, speaker notes and a preview server.",
+  "description": "A toolkit for turning a topic or outline into a single-file HTML deck: FLIP-based Magic Move transitions between slides, a presenter window with hidden speaker notes, QA overview mode and editable modular sources (outline.md, style.css, slide-XX.html). Optional PipeLLM web search and image generation; Python 3 scripts plus a browser.",
+  "type": "agent-skill",
+  "categories": ["motion", "design-rules"],
+  "elements": [],
+  "keywords": ["claude code", "agent skill", "presentation", "slide deck", "html presentation", "magic move", "slide transition", "speaker note", "presenter view", "flip animation", "self contained html", "codex", "python"],
+  "contains": ["generates one self-contained HTML presentation file", "Magic Move transitions via a FLIP-based runtime", "speaker notes with a presenter window", "modular sources: outline.md, style.css and slide-XX.html fragments", "preview server with edit mode and a QA overview capture", "optional PipeLLM web search and image generation (API key)"],
+  "formats": ["prompts", "code", "docs"],
+  "stack": ["python", "html", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/daniel-style/magic-slide", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

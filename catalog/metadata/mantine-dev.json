@@ -1,0 +1,32 @@
+{
+  "id": "mantine-dev",
+  "url": "https://mantine.dev",
+  "kind": "site",
+  "hints_hash": "2d1cc17896224a70",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mantine.dev/llms.txt", "title": "Mantine UI - LLM Documentation", "status": null},
+    {"url": "https://mantine.dev", "title": "Mantine", "status": 200},
+    {"url": "https://mantine.dev/getting-started", "title": "Getting started | Mantine", "status": 200},
+    {"url": "https://mantine.dev/guides/llms", "title": "Mantine with LLMs | Mantine", "status": 200},
+    {"url": "https://raw.githubusercontent.com/mantinedev/mantine/master/README.md", "title": "Mantine", "status": 200},
+    {"url": "https://raw.githubusercontent.com/mantinedev/mantine/master/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mantine",
+  "summary": "React component library with 120+ components and 70+ hooks, plus form, dates and charts packages and an MCP server.",
+  "description": "Mantine is a React components and hooks library with native dark-theme support, built with plain CSS so styles have no runtime overhead. Packages cover core components, 80+ hooks, forms with schema validation, dates, recharts-based charts, notifications, Spotlight (⌘K command palette), Dropzone, Carousel, a Tiptap rich text editor and code highlighting. Docs ship as llms.txt/llms-full.txt, agent skills and an MCP server; templates exist for Next.js, Vite, React Router and TanStack Start.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["chart", "input", "calendar", "select", "date-picker", "slider", "button", "list", "progress", "modal", "popover", "loader", "drawer", "menubar", "avatar", "file-upload", "otp-input", "command-palette", "toast", "carousel", "tabs"],
+  "keywords": ["react component library", "react hook", "ui library", "component", "dark mode", "css", "postcss", "form validation", "date picker", "chart", "combobox", "command palette", "notification", "modal", "drawer", "mcp server", "llm documentation", "open source"],
+  "contains": ["120+ components and 70+ hooks", "packages: core, hooks, form, charts, spotlight, notifications, dropzone, carousel, tiptap, code-highlight", "148 components across all @mantine/* packages per site stats", "MCP server exposing 406 documents (components, hooks, form, theming, guides, FAQ)", "llms.txt and llms-full.txt regenerated with every release; agent skills included", "templates for Next.js (app/pages), Vite, React Router, TanStack Start, Storybook", "native CSS styling with postcss-preset-mantine; dark scheme included", "version 9, semver releases, 200+ published since 2021"],
+  "formats": ["npm-package", "code", "docs", "templates", "figma-file"],
+  "stack": ["react", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mantinedev/mantine", "docs": "https://mantine.dev/getting-started", "npm": "@mantine/core", "figma": null, "parent": null},
+  "confidence": 0.9
+}

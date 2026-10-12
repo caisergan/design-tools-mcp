@@ -1,0 +1,36 @@
+{
+  "id": "github-com-pi-node-solohost",
+  "url": "https://github.com/pi-node/solohost",
+  "kind": "repo",
+  "hints_hash": "42c7e866404ca4c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/pi-node/solohost/blob/HEAD/README.md", "title": "Solohost App Starter Kit", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Solohost App Starter Kit",
+  "summary": "Starter repo an AI coding assistant turns into a SoloHost package: docker-compose.yml and configoptions.yml for an app's Docker image.",
+  "description": "A starter kit for building a valid SoloHost package, the files SoloHost needs to install and run an app on someone's computer. Hand the repo to an AI coding assistant (Claude Code, Cursor): it reads SOLOHOST.md, asks plain-language questions about your published Docker image, produces docker-compose.yml (which image to run) and configoptions.yml (the install settings), and validates both against SoloHost's own validator before you paste them into the site. Ships example packages (Grafana, OpenClaw, Hermes), install-form schema and scripts/validateapi.py.",
+  "type": "template",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["self-hosting", "docker", "docker image", "docker-compose", "app packaging", "publish app", "installer", "install form", "configuration", "yaml", "self-hosted app", "ai coding assistant", "template", "validator", "deployment"],
+  "contains": [
+    "clone-and-hand-off repo for AI coding assistants",
+    "produces docker-compose.yml and configoptions.yml",
+    "works from a published Docker image; the repo holds no app code",
+    "example packages: web-app (Grafana), openclaw (OpenClaw AI), hermes (Hermes Agent)",
+    "scripts/validateapi.py runs SoloHost's real validator (needs Python 3 and internet)",
+    "schema/ documents the install-form field types",
+    "5-step flow: copy repo, open in assistant, build, check, publish by pasting both files",
+    "v0 — the rules cover only what SoloHost enforces today"
+  ],
+  "formats": ["docs", "code", "templates"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/pi-node/solohost", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

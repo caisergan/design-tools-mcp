@@ -1,0 +1,35 @@
+{
+  "id": "ray-so",
+  "url": "https://ray.so",
+  "kind": "site",
+  "hints_hash": "c90674d0e379bb45",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ray.so", "title": "Create beautiful images of your code", "status": 200},
+    {"url": "https://ray.so/snippets", "title": "Snippet Explorer by Raycast", "status": 200},
+    {"url": "https://ray.so/quicklinks", "title": "Quicklink Explorer by Raycast", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Ray",
+  "summary": "Turns code into shareable images with syntax colors, background and light/dark window; also hosts snippet and quicklink explorers.",
+  "description": "Paste code, choose a syntax color theme, hide or show the background and toggle between a dark and light window, then download an image of the snippet. The same site hosts a Snippet Explorer (snippets grouped by category) and a Quicklink Explorer whose entries can be imported into Raycast.",
+  "type": "generator",
+  "categories": ["color-effects", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["code image", "code screenshot", "syntax theme", "code snippet", "snippet image", "share code", "image export", "dark mode", "light mode", "background", "developer tool", "image generator", "social media image", "code to image"],
+  "contains": [
+    "paste code and choose syntax colors, background on/off, dark or light window, padding and font settings",
+    "exports an image of the code to share or download",
+    "Snippet Explorer: 134 snippets in 10 categories (Symbols 47, Coding 16, Arrows 14, Currency 13 …)",
+    "Quicklink Explorer: 136 quicklinks in 10 categories (Development 34, Search 22, Socials 13, Entertainment 12 …)",
+    "snippets and quicklinks import directly into Raycast"
+  ],
+  "formats": ["png"],
+  "stack": ["nextjs", "react"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

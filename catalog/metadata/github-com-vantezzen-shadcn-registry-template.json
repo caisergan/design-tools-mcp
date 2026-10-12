@@ -1,0 +1,98 @@
+{
+  "id": "github-com-vantezzen-shadcn-registry-template",
+  "url": "https://github.com/vantezzen/shadcn-registry-template",
+  "kind": "repo",
+  "hints_hash": "be87e8ca77ac01f2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/vantezzen/shadcn-registry-template/blob/HEAD/README.md",
+      "title": "shadcn-registry-template",
+      "status": null
+    },
+    {
+      "url": "https://github.com/vantezzen/shadcn-registry-template",
+      "title": "GitHub - vantezzen/shadcn-registry-template: Template repository for building a custom component registry for shadcn/ui · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vantezzen/shadcn-registry-template/HEAD/package.json",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vantezzen/shadcn-registry-template/HEAD/LICENSE",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://vantezzen.github.io/shadcn-registry-template/",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-registry-template",
+  "summary": "Clone-and-edit template for building and publishing a custom shadcn/ui component registry, deployed to GitHub Pages.",
+  "description": "A template repository that turns your own components into a custom registry for shadcn/ui 2 and later, so users can install them with npx shadcn add <registry url>. Components go in src/components/ui, the registry is declared in registry.ts using shadcn's own syntax (name, type registry:ui or registry:component, registryDependencies, npm dependencies, tailwind config, cssVars, files), and npm run build generates the registry. A Vite demo page documents the components during development, and deployment to GitHub Pages is automatic.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "registries"
+  ],
+  "elements": [],
+  "keywords": [
+    "shadcn",
+    "shadcn registry",
+    "registry template",
+    "component registry",
+    "shadcn add",
+    "custom registry",
+    "component distribution",
+    "vite",
+    "react",
+    "typescript",
+    "tailwind",
+    "github page",
+    "ui component",
+    "template"
+  ],
+  "contains": [
+    "registry declared in registry.ts with shadcn registry syntax",
+    "types registry:ui and registry:component",
+    "npm run build generates the registry output",
+    "automatic GitHub Pages deployment",
+    "Vite demo page for developing components",
+    "users install components with npx shadcn add",
+    "demo component: cool-text",
+    "42 stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "vite",
+    "typescript",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/vantezzen/shadcn-registry-template",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

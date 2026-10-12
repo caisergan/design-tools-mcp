@@ -1,0 +1,32 @@
+{
+  "id": "v0-dev",
+  "url": "https://v0.dev",
+  "kind": "site",
+  "hints_hash": "3a59ad28fae3ba58",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://v0.dev", "title": "v0 by Vercel - Build Full-Stack Web Apps with AI", "status": null},
+    {"url": "https://v0.app/docs", "title": "What is v0? | v0 Docs", "status": null},
+    {"url": "https://v0.app/templates", "title": "v0 Templates - v0 by Vercel", "status": null},
+    {"url": "https://v0.app/pricing", "title": "v0 by Vercel", "status": null},
+    {"url": "https://v0.app/faq", "title": "FAQs | v0 Docs", "status": null},
+    {"url": "https://v0.app/templates/landing-pages", "title": "Landing Page Templates - Editable & AI-Powered | v0 by Vercel", "status": 200}
+  ],
+  "status": "ok",
+  "name": "v0",
+  "summary": "AI agent that turns prompts, screenshots or Figma files into working web apps and UI components, with deploy and Git sync.",
+  "description": "Prompt-to-app builder: describe an app or attach a screenshot and v0 writes Next.js/React code with a built-in VS Code-style editor, visual design mode and design systems, GitHub sync with automatic pull requests, full previews and one-click deploys to Vercel. A community template gallery covers landing pages, dashboards, components, e-commerce and AI apps.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "design-tools"],
+  "elements": ["dashboard", "hero", "chart", "form", "chat", "ai-agent-ui", "3d", "scroll-effect"],
+  "keywords": ["ai app builder", "ai ui generator", "prompt to ui", "generative ui", "figma to code", "screenshot to code", "react", "nextjs", "typescript", "tailwind", "shadcn", "full-stack", "template", "landing page", "dashboard", "design mode", "deploy", "agent"],
+  "contains": ["generates full-stack apps and UI from text, screenshots or Figma files", "template gallery: apps & games, landing pages, dashboards, components, e-commerce, AI, animations, design systems", "design mode and design systems with shared tokens", "GitHub sync with automatic branches, commits and pull requests", "one-click deploy to Vercel; previews run in Vercel Sandbox", "databases (Snowflake), Shopify, external APIs and MCP integrations", "free plan with a 7 message/day limit; paid Plus, Business and Enterprise plans", "iOS app"],
+  "formats": ["app", "code", "templates", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://v0.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

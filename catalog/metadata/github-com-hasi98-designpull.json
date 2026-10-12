@@ -1,0 +1,34 @@
+{
+  "id": "github-com-hasi98-designpull",
+  "url": "https://github.com/hasi98/designpull",
+  "kind": "repo",
+  "hints_hash": "25f6ef4079a21355",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:30:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/hasi98/designpull/blob/HEAD/README.md", "title": "Designpull", "status": null}
+  ],
+  "status": "ok",
+  "name": "Designpull",
+  "summary": "Chrome extension that generates Google Stitch compatible DESIGN.md files from any website using your own AI vision key.",
+  "description": "An open source Chrome extension: it visits any website, captures a full-page screenshot plus computed CSS tokens, and sends both to your chosen AI provider (Gemini, OpenAI, Claude or Ollama) to write a DESIGN.md. The output follows the Google Stitch DESIGN.md specification and covers colors, typography, spacing, layout, photography style, components, brand voice and site-specific do's and don'ts. No backend, no account; API keys stay in the browser.",
+  "type": "plugin",
+  "categories": ["design-rules", "design-tools"],
+  "elements": [],
+  "keywords": ["chrome extension", "design.md", "design extraction", "design system", "ai vision", "screenshot", "css token", "computed style", "gemini", "openai", "claude", "ollama", "google stitch", "color role", "typography", "spacing", "brand voice", "platform detection", "design analysis"],
+  "contains": [
+    "full-page scroll capture or current-view capture",
+    "12 output sections incl. overview, colors, typography, spacing, elevation, components, brand voice, do's and don'ts",
+    "providers: Gemini, OpenAI, Claude and Ollama (local, free)",
+    "API keys stay in the browser; zero backend, no account",
+    "history keeps the last 20 generated files",
+    "platform detection flags Squarespace, Webflow and Shopify internals"
+  ],
+  "formats": ["code", "prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/hasi98/designpull", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

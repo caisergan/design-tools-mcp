@@ -1,0 +1,31 @@
+{
+  "id": "triangllabs-ai-otis",
+  "url": "https://triangllabs.ai/otis",
+  "kind": "page",
+  "hints_hash": "0305e645353f43c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://triangllabs.ai/otis", "title": "Triangl Labs", "status": null},
+    {"url": "https://triangllabs.ai/otis", "title": "Triangl Labs", "status": 200},
+    {"url": "https://triangllabs.ai/", "title": "Triangl Labs", "status": 200},
+    {"url": "https://github.com/TrianglLabs/otis", "title": "GitHub - TrianglLabs/otis: A personal AI agent to help you think, create, and get things done.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/TrianglLabs/otis/main/README.md", "title": "", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Otis",
+  "summary": "Personal AI agent for research, writing, documents and code that runs open models locally or in the cloud.",
+  "description": "Otis, by Triangl Labs, is a desktop and terminal AI agent. It recommends and runs a local model for your hardware (offline, no account, no telemetry) or connects to hosted models with your own provider key, and shows its work. The /otis landing page is a WebGL scene that returns only metadata to a crawler, so the rest comes from the project's MIT-licensed GitHub repo.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent", "local model", "open model", "llama.cpp", "local ai", "terminal agent", "cli", "desktop app", "macos", "linux", "offline", "research assistant", "webgl"],
+  "contains": ["personal AI agent for research, writing, documents and code", "runs local open models offline, or hosted models with your own key", "downloads for macOS and Linux plus terminal install", "no account, no telemetry", "landing page is a WebGL scene with almost no readable text"],
+  "formats": ["app", "code"],
+  "stack": ["llama.cpp", "opentui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TrianglLabs/otis", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

@@ -1,0 +1,41 @@
+{
+  "id": "axiom-co",
+  "url": "https://axiom.co",
+  "kind": "site",
+  "hints_hash": "ecfe259c4a42007e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://axiom.co/llms.txt", "title": "Axiom", "status": null},
+    {"url": "https://axiom.co", "title": "Axiom - The modern machine data platform", "status": null},
+    {"url": "https://axiom.co/docs", "title": "Axiom Docs", "status": null},
+    {"url": "https://axiom.co/pricing", "title": "Pricing that scales with you, not against you - Axiom", "status": null},
+    {"url": "https://axiom.co/docs/introduction", "title": "What is Axiom? | Axiom Docs", "status": null},
+    {"url": "https://axiom.co/docs/changelog", "title": "Changelog | Axiom Docs", "status": null}
+  ],
+  "status": "ok",
+  "name": "Axiom",
+  "summary": "Machine data platform that ingests, stores and queries logs, metrics, traces and events at petabyte scale.",
+  "description": "Axiom ingests logs, metrics, traces and events at petabyte scale into a fully managed, schema-less event store. Query with APL for logs, events and traces and MPL for metrics; dashboards, monitors and a native MCP server let humans and AI agents run the same queries. Usage-based pricing with a free Personal tier and a $25/month Axiom Cloud platform fee.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["navbar", "hero", "features", "pricing", "faq", "changelog", "sidebar"],
+  "keywords": ["machine data platform", "observability", "log management", "log analytics", "metrics", "trace", "event store", "query language", "apl", "mpl", "monitoring", "alerting", "dashboard", "mcp server", "ai agent", "opentelemetry", "usage-based pricing", "serverless", "petabyte scale", "sdk"],
+  "contains": [
+    "logs, events, traces and metrics in one fully managed event store; APL for logs/events/traces, MPL for metrics",
+    "native MCP server so AI agents query the same data as engineers",
+    "free Personal tier: 500 GB/mo data loading compute, 10 GB-hrs query compute, 25 GB storage, 30-day retention",
+    "Axiom Cloud from $25/month platform fee + usage, with automatic volume discounts",
+    "integrations: OpenTelemetry, Kubernetes, AWS (CloudWatch, Lambda, S3), Vercel and SDKs in 8 languages",
+    "dashboards and monitors share one query surface with alerts",
+    "enterprise add-ons in-console: RBAC $50/month, SSO, directory sync, extended audit logs",
+    "trusted by 30,000+ organizations"
+  ],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://axiom.co/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

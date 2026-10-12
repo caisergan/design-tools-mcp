@@ -1,0 +1,28 @@
+{
+  "id": "roadmap-sh-ux-design",
+  "url": "https://roadmap.sh/ux-design",
+  "kind": "page",
+  "hints_hash": "27f2eb25e1f489aa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://roadmap.sh/ux-design", "title": "UX Design Roadmap: Step by Step guide to learn UX Design in 2026", "status": null},
+    {"url": "https://roadmap.sh/packs", "title": "Lesson Packs - roadmap.sh", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UX Design Roadmap",
+  "summary": "Step-by-step roadmap of topics and skills for becoming a UX designer.",
+  "description": "A roadmap.sh learning path laying out the steps to become a UX designer in 2026, with an AI tutor, a community and a downloadable version of the roadmap.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["ux design", "roadmap", "learning path", "design career", "ux designer", "study guide", "design skill", "beginner guide", "career path", "ux learning"],
+  "contains": ["step-by-step UX design topics", "downloadable version of the roadmap", "AI tutor and community around the roadmap"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

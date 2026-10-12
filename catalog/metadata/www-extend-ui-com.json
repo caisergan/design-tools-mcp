@@ -1,0 +1,109 @@
+{
+  "id": "www-extend-ui-com",
+  "url": "https://www.extend-ui.com",
+  "kind": "site",
+  "hints_hash": "201a4bda1d1e37fb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.extend-ui.com",
+      "title": "Extend UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.extend-ui.com/docs",
+      "title": "Introduction",
+      "status": 200
+    },
+    {
+      "url": "https://www.extend-ui.com/docs/components/button",
+      "title": "Button",
+      "status": 200
+    },
+    {
+      "url": "https://www.extend-ui.com/docs/blocks/file-upload",
+      "title": "File Upload",
+      "status": 200
+    },
+    {
+      "url": "https://www.extend-ui.com/pricing",
+      "title": "Extend UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.extend-ui.com/docs/installation",
+      "title": "Installation",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Extend UI",
+  "summary": "Copy-paste React components built on shadcn/ui, adding extra variants and blocks for landing pages, forms and uploads.",
+  "description": "A component library that extends shadcn/ui with restyled components, more variants and extra elements: Banner, Button (25+ variants), Input (17+ variants), Select (7+), Command (3+) and Date picker (5+ variants), plus blocks such as cards, file upload, alert dialogs and sign-in forms. Components use compound composition and drop into a React or Next.js project set up with shadcn/ui. The library is in alpha.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "banner",
+    "button",
+    "command-palette",
+    "input",
+    "select",
+    "stepper",
+    "date-picker",
+    "card",
+    "file-upload",
+    "form"
+  ],
+  "keywords": [
+    "shadcn ui",
+    "react component",
+    "tailwind css",
+    "next.js",
+    "component library",
+    "button variant",
+    "input",
+    "select",
+    "command menu",
+    "date picker",
+    "file upload",
+    "sign in form",
+    "copy paste",
+    "ui block"
+  ],
+  "contains": [
+    "Button with 25+ variants",
+    "Input with 17+ variants",
+    "Select, Command, Banner and Date picker components with variants",
+    "blocks: cards, file upload, alert dialogs and sign-in forms",
+    "15 docs pages",
+    "also sells custom component and page design services"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://www.extend-ui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

@@ -1,0 +1,24 @@
+{
+  "id": "techsnif-com-story-london-based-jack-jill-which-offers-jack-an-ai-agent-",
+  "url": "https://techsnif.com/story/london-based-jack-jill-which-offers-jack-an-ai-agent-for-job-569118",
+  "kind": "page",
+  "hints_hash": "87cd06529c0d22c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:42:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://techsnif.com/story/london-based-jack-jill-which-offers-jack-an-ai-agent-for-job-569118", "title": "London-based Jack & Jill, which offers Jack, an AI agent for job seekers, and Jill, an agent for companies, raised a $40M Series A, after raising $20M in 2025 | TechSnif", "status": 200}
+  ],
+  "status": "ok",
+  "name": "London-based Jack & Jill raised a $40M Series A",
+  "summary": "News story on Jack & Jill, a London agentic job-finding platform, raising a $40M Series A led by Air Street Capital.",
+  "description": "A TechSnif story reporting that Jack & Jill, a London-based company offering Jack (an AI agent for job seekers) and Jill (an agent for companies), raised a $40 million Series A led by Air Street Capital, after raising $20M in 2025. The page carries the Axios Pro lead source, article tags, a discussion section and related funding stories from the same period.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "keywords": ["ai agent", "job seeker", "job platform", "recruiting", "series a", "fundraising", "venture capital", "startup funding", "london", "tech news"],
+  "contains": ["$40M Series A led by Air Street Capital", "Jack is an AI agent for job seekers, Jill an agent for companies", "previous $20M raise in 2025", "lead source: Axios Pro (Chris Metinko)", "related funding stories and a discussion section"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

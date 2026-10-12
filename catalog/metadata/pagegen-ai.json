@@ -1,0 +1,38 @@
+{
+  "id": "pagegen-ai",
+  "url": "https://pagegen.ai",
+  "kind": "site",
+  "hints_hash": "0d96bb92671debfe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pagegen.ai", "title": "PageGen-AI Page Generator", "status": null},
+    {"url": "https://pagegen.ai/templates", "title": "PageGen Templates for Web Pages", "status": null},
+    {"url": "https://pagegen.ai/pricing", "title": "PageGen Pricing - AI Page Generator", "status": null}
+  ],
+  "status": "ok",
+  "name": "PageGen",
+  "summary": "AI page generator that turns text, screenshots or templates into React, Tailwind and shadcn/ui pages with live preview.",
+  "description": "An AI page generator powered by Claude AI that converts text, screenshots or one of 100+ templates into web pages built with React/Next.js, Tailwind CSS, TypeScript and shadcn/ui components. It offers real-time responsive preview with light and dark mode, AI-powered content search, a VSCode-like code editor, animation support and one-click publishing. Credit packs are sold one-time (30 credits $9, 100 credits $19, 200 credits $29).",
+  "type": "generator",
+  "categories": ["design-tools", "dev-ai-tools"],
+  "elements": ["hero", "features", "pricing", "testimonials", "changelog", "timeline", "form"],
+  "keywords": ["ai page generator", "page generator", "text to page", "screenshot to page", "image to code", "landing page generator", "ai website builder", "react", "next.js", "tailwind css", "shadcn ui", "code export", "template", "dark mode", "responsive", "publish"],
+  "contains": [
+    "text to page, screenshot to page and template to page generation",
+    "100+ AI-powered templates: landing, pricing, blog, changelog, roadmap, login",
+    "exports React/Next.js code with Tailwind CSS, TypeScript and shadcn/ui",
+    "real-time preview across devices, light and dark mode",
+    "AI-powered content search and VSCode-like code editor",
+    "built-in animation support and one-click publishing",
+    "showcase pages, user guide and changelog",
+    "pricing: 30 credits $9, 100 credits $19, 200 credits $29 (one-time)"
+  ],
+  "formats": ["app", "code", "templates", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn", "claude"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://pagegen.ai/user-guide", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

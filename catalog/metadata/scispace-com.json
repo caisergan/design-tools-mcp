@@ -1,0 +1,28 @@
+{
+  "id": "scispace-com",
+  "url": "https://scispace.com",
+  "kind": "site",
+  "hints_hash": "5861aa6f1044a9f5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://scispace.com/llms.txt", "title": "SciSpace - Your AI Research Assistant", "status": null},
+    {"url": "https://scispace.com/pricing", "title": "SciSpace Premium - Unlimited access to AI research tools", "status": 200}
+  ],
+  "status": "partial",
+  "name": "SciSpace",
+  "summary": "AI research assistant for PDF chat, literature search and academic writing.",
+  "description": "SciSpace chats with any PDF for citation-linked answers and runs literature searches over 280M+ papers. It bundles an AI writer, paraphraser, AI detector, citation generator with 2,300+ styles, multi-PDF data extraction, PDF-to-video and academic writing templates. Free tier with limits; Premium and Advanced plans unlock unlimited access.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["research paper", "literature review", "chat with pdf", "citation generator", "academic writing", "paraphrase", "ai detector", "paper search", "research assistant", "systematic review", "thesis", "pdf to video", "data extraction"],
+  "contains": ["chat with PDF: citation-linked answers with paragraph references", "literature search over 280M+ papers", "citation generator with 2,300+ style options", "AI writer, paraphraser, AI detector and AI humanizer", "extract findings and tables from multiple PDFs", "PDF-to-video conversion", "academic writing templates and resources hub", "Free, Premium and Advanced plans"],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

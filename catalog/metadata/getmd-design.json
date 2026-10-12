@@ -1,0 +1,76 @@
+{
+  "id": "getmd-design",
+  "url": "https://getmd.design",
+  "kind": "site",
+  "hints_hash": "c68c19ea7ccfb045",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://getmd.design",
+      "title": "getmd — Design masterclass for your agents",
+      "status": null
+    },
+    {
+      "url": "https://www.getmd.design/library",
+      "title": "Library — Curated DESIGN.md files",
+      "status": null
+    },
+    {
+      "url": "https://www.getmd.design/library/vercel",
+      "title": "Vercel — DESIGN.md",
+      "status": 200
+    },
+    {
+      "url": "https://www.getmd.design/about",
+      "title": null,
+      "status": 404
+    }
+  ],
+  "status": "ok",
+  "name": "getmd",
+  "summary": "Library of 73 DESIGN.md design specs extracted from real product websites, ready to hand to an AI coding agent.",
+  "description": "Browsable library of DESIGN.md files generated from real product websites (Claude, Stripe, Vercel, ElevenLabs, Coinbase …), grouped by industry — AI, fintech, dev tools, productivity and design tools. Each entry pairs a design spec of tokens, typography and component patterns with a live preview of the source site; you download one file, drop it next to your README.md and tell Claude, Cursor or any AI coding tool to use it. Built on Google's DESIGN.md spec.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": [
+    "design.md",
+    "design system",
+    "design spec",
+    "design token",
+    "typography",
+    "component pattern",
+    "ai coding agent",
+    "design reference",
+    "website analysis",
+    "style library",
+    "web design style",
+    "markdown"
+  ],
+  "contains": [
+    "73 DESIGN.md files extracted from real product websites",
+    "grouped by industry: AI, fintech, dev tools, productivity, design tools",
+    "live preview of the source website next to each spec",
+    "single-file install: download, drop next to README.md, ask the AI",
+    "spec covers design tokens, typography and component patterns",
+    "built on Google's DESIGN.md spec"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

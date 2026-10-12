@@ -1,0 +1,36 @@
+{
+  "id": "github-com-vercel-labs-agent-skills",
+  "url": "https://github.com/vercel-labs/agent-skills",
+  "kind": "repo",
+  "hints_hash": "e899f459b9cb6e63",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:23:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/README.md", "title": "Agent Skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "vercel-labs/agent-skills",
+  "summary": "Vercel's agent skills for coding agents: React performance rules, web design and writing audits, view transitions and deployment.",
+  "description": "Eight packaged agent skills in the Agent Skills format: vercel-optimize (Vercel cost and performance audits), react-best-practices (40+ rules across 8 categories), web-design-guidelines (100+ UI, accessibility and UX rules), writing-guidelines, react-native-guidelines, react-view-transitions, composition-patterns and vercel-deploy-claimable. Each skill is a SKILL.md folder with optional scripts and references; every change to a skill publishes an immutable GitHub release with a discovery index.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill.md", "ai coding agent", "react", "next.js", "react native", "performance", "web design", "accessibility", "view transition", "composition pattern", "code review", "writing guideline", "deploy", "vercel", "frontend", "ui audit", "prompt package"],
+  "contains": [
+    "8 skills including vercel-optimize, react-best-practices and vercel-deploy-claimable",
+    "react-best-practices: 40+ React and Next.js performance rules in 8 categories",
+    "web-design-guidelines: 100+ UI rules for accessibility, focus, forms, animation and dark mode",
+    "writing-guidelines: 80+ documentation rules from the Vercel writing handbook",
+    "react-native-guidelines: 16 rules across performance, layout, animation and platform",
+    "react-view-transitions: View Transition API recipes and Next.js integration",
+    "skills are SKILL.md folders with optional scripts and references",
+    "every change publishes an immutable GitHub release with a discovery index"
+  ],
+  "formats": ["prompts", "code"],
+  "stack": ["react", "nextjs", "react-native"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/vercel-labs/agent-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

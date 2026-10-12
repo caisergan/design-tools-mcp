@@ -1,0 +1,37 @@
+{
+  "id": "github-com-calesthio-openmontage",
+  "url": "https://github.com/calesthio/OpenMontage",
+  "kind": "repo",
+  "hints_hash": "6cffa0a092ab4472",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/calesthio/OpenMontage/blob/HEAD/README.md", "title": "OpenMontage README", "status": null},
+    {"url": "https://github.com/calesthio/OpenMontage", "title": "GitHub - calesthio/OpenMontage", "status": 200},
+    {"url": "https://raw.githubusercontent.com/calesthio/OpenMontage/HEAD/LICENSE", "title": "GNU Affero General Public License v3", "status": 200},
+    {"url": "https://raw.githubusercontent.com/calesthio/OpenMontage/HEAD/PROJECT_CONTEXT.md", "title": "OpenMontage - Shared Project Context", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenMontage",
+  "summary": "Open-source, agentic video production system: 12 pipelines and 100+ tools that turn an AI coding assistant into a video studio.",
+  "description": "An instruction-driven video production platform where the AI agent is the intelligence and Python exists only for tools and persistence. It ships 12 production pipelines, 100+ tools and 700+ agent skill and production-knowledge files for scripting, generation, the Backlot living storyboard, a style system, platform output profiles and production quality gates. Starts from a reference video or a prompt, runs with zero API keys, and works with Claude, Codex, Cursor and Copilot through platform files.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["video production", "video generation", "agentic", "ai agent", "pipeline", "storyboard", "video editing", "script", "yaml", "python", "coding assistant", "generative video", "montage"],
+  "contains": [
+    "12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files",
+    "agent-first: YAML manifests and markdown skills drive the pipeline",
+    "Python only for tools and persistence",
+    "Backlot living storyboard; style system; platform output profiles; quality gates",
+    "starts from a reference video; zero-API-key mode included",
+    "AGPL-3.0 license"
+  ],
+  "formats": ["prompts", "cli", "code", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/calesthio/OpenMontage", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

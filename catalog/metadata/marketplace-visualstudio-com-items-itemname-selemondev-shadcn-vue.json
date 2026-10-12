@@ -1,0 +1,27 @@
+{
+  "id": "marketplace-visualstudio-com-items-itemname-selemondev-shadcn-vue",
+  "url": "https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue",
+  "kind": "page",
+  "hints_hash": "b8864054f915e494",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue", "title": "shadcn/vue - Visual Studio Marketplace", "status": null}
+  ],
+  "status": "ok",
+  "name": "shadcn/vue",
+  "summary": "VS Code extension that installs shadcn-vue components and adds cn/cni/cnx snippet completions in Vue files.",
+  "description": "Initializes the shadcn/vue CLI, installs one or several shadcn/vue components from a list, and opens the documentation or a particular component's docs page. Snippets add imports with cni-[component] and template markup with cnx-[component] in .vue files.",
+  "type": "plugin",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["vscode", "vs code extension", "shadcn vue", "vue", "snippet", "component", "cli", "install", "documentation", "editor extension"],
+  "contains": ["17,683 installs, free", "install shadcn/vue components from the editor", "single and multi-component install", "snippets: cni-[component] imports, cnx-[component] markup", "open docs or a component's doc page from the editor"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

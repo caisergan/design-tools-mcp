@@ -1,0 +1,28 @@
+{
+  "id": "colorhub-app",
+  "url": "https://colorhub.app",
+  "kind": "site",
+  "hints_hash": "ad7edd98a321a007",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "commandcode/deepseek/deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://colorhub.app", "title": null, "status": null},
+    {"url": "https://www.colorhub.app/browse", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "ColorHub",
+  "summary": "Color palette site for browsing palettes and picking one for a design project.",
+  "description": "Color palette site whose tagline is finding a color palette for a project; it has a palette browsing section at /browse.",
+  "type": "tool",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color palette", "palette", "color scheme", "colour palette", "palette browser", "hex color", "web design", "ui design", "color inspiration", "design tool"],
+  "contains": ["palette browsing under /browse", "tagline: find a color palette for your next project"],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

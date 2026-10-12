@@ -1,0 +1,27 @@
+{
+  "id": "amazon-jobs",
+  "url": "https://amazon.jobs",
+  "kind": "site",
+  "hints_hash": "81d09e146f64153e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://amazon.jobs", "title": "Amazon Careers: Impact the Future, Today", "status": null}
+  ],
+  "status": "ok",
+  "name": "Amazon Careers",
+  "summary": "Amazon's global careers site for corporate jobs, internships and career programs.",
+  "description": "Amazon's global career site: browse corporate and hourly jobs by team, location and job category, read about benefits, the hiring process, leadership principles and career programs, and manage applications and your profile.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["job", "career", "job search", "hiring", "internship", "corporate job", "tech job", "employment", "job opening", "career program", "application tracker", "career site"],
+  "contains": ["job search by team, location and job category", "career programs including military and hourly roles", "resources: benefits, how we hire, leadership principles, FAQ", "applications and profile dashboard", "mobile app"],
+  "formats": ["links", "app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

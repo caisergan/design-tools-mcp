@@ -1,0 +1,43 @@
+{
+  "id": "skills-sh-charlie947-voiceprint",
+  "url": "https://skills.sh/charlie947/voiceprint",
+  "kind": "page",
+  "hints_hash": "40bbfaf7913a6cda",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/charlie947/voiceprint", "title": "charlie947/voiceprint — Agent skills", "status": null },
+    { "url": "https://github.com/charlie947/voiceprint", "title": "GitHub - charlie947/voiceprint: Turn your own spoken words into a finished article.", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "voiceprint",
+  "summary": "Agent skill that turns your own spoken transcript into a finished article, keeping your sentences.",
+  "description": "A skill plus setup script: record 11-13 minutes of speech per 1,500 words, drop the raw transcript into voices/ and run /voiceprint; the agent does research, structure, headings and checking while cutting your literal sentences together. Ships trace.py, which fails the draft below 85% of your own wording, a browser PROMPT.md path for ChatGPT and Gemini, and states its limits on detector verdicts.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "writing",
+    "transcription",
+    "article writing",
+    "dictation",
+    "human writing",
+    "ai detection",
+    "claude code",
+    "prompt",
+    "content creation"
+  ],
+  "contains": [
+    "1 skill (voiceprint)",
+    "122 installs on skills.sh",
+    "trace.py fails drafts below 85% of your own wording",
+    "browser PROMPT.md path for ChatGPT and Gemini",
+    "MIT licensed"
+  ],
+  "formats": ["docs", "prompts", "code"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/charlie947/voiceprint", "docs": null, "npm": null, "figma": null, "parent": "skills-sh" },
+  "confidence": 0.85
+}

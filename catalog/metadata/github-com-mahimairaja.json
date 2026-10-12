@@ -1,0 +1,22 @@
+{
+  "id": "github-com-mahimairaja",
+  "url": "https://github.com/mahimairaja",
+  "kind": "page",
+  "hints_hash": "f7f620ed6d8b9d9a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {
+      "url": "https://github.com/mahimairaja",
+      "title": "mahimairaja (Mahimai Raja J) · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Mahimai Raja J",
+  "summary": "GitHub profile of Mahimai Raja J, a voice AI engineer building real-time voice agents with LiveKit, Pipecat and TTS.",
+  "keywords": ["voice ai", "voice agent", "livekit", "pipecat", "tts", "stt", "real-time", "webrtc", "sip", "python", "open source", "voice infrastructure", "voice agent builder"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.9
+}

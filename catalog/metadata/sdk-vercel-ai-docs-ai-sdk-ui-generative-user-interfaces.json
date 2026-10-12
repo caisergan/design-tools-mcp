@@ -1,0 +1,23 @@
+{
+  "id": "sdk-vercel-ai-docs-ai-sdk-ui-generative-user-interfaces",
+  "url": "https://sdk.vercel.ai/docs/ai-sdk-ui/generative-user-interfaces",
+  "kind": "page",
+  "hints_hash": "ba2e90ab2aba8c76",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:29:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sdk.vercel.ai/docs/ai-sdk-ui/generative-user-interfaces", "title": "Generative User Interfaces | AI SDK", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Generative User Interfaces",
+  "summary": "AI SDK UI guide to generative UI: wiring LLM tool call results into React components to render dynamic UI inside a chat.",
+  "description": "Documentation page walking through a generative UI chat interface with AI SDK UI: create a tool, add it to streamText, pass its output to a React component, and branch on typed tool parts (tool-<name>, input-available, output-available, output-error) in the UIMessage parts array.",
+  "keywords": ["generative ui", "ai sdk", "vercel ai sdk", "llm", "tool call", "function calling", "react component", "chat interface", "streaming", "usechat", "streamtext", "nextjs", "typescript", "ai chat", "ui generation"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "elements": ["chat", "ai-agent-ui"],
+  "formats": ["docs", "code"],
+  "stack": ["react", "nextjs", "typescript"],
+  "contains": ["chat interface built with useChat and a streamText API route", "weather and stock tool examples rendered as React components", "AI SDK 5.0 typed tool parts: tool-<name> with input-available, output-available and output-error states"],
+  "confidence": 0.85
+}

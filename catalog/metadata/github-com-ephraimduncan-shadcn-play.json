@@ -1,0 +1,36 @@
+{
+  "id": "github-com-ephraimduncan-shadcn-play",
+  "url": "https://github.com/ephraimduncan/shadcn-play",
+  "kind": "repo",
+  "hints_hash": "44fdea28b044cc9d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ephraimduncan/shadcn-play/blob/HEAD/README.md", "title": "Shadcn Play", "status": 200},
+    {"url": "https://github.com/ephraimduncan/shadcn-play", "title": "GitHub - ephraimduncan/shadcn-playground · GitHub", "status": 200},
+    {"url": "https://play.blocks.so", "title": "shadcn/play", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Play",
+  "summary": "Browser playground for shadcn/ui components: write JSX with Tailwind classes, see instant previews and share creations.",
+  "description": "An interactive playground for shadcn/ui components where you write JSX with Tailwind CSS classes, get an instant preview and share your creations. Built as a Next.js app with the Monaco Editor and Tailwind CSS; the repository has been renamed to ephraimduncan/shadcn-playground and the deployed playground runs at play.blocks.so with a command palette for quick actions.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": ["command-palette"],
+  "keywords": ["shadcn", "playground", "jsx", "live editor", "monaco editor", "tailwind", "nextjs", "react", "preview", "component playground", "code sandbox", "share", "command palette"],
+  "contains": [
+    "live JSX editor with instant component preview",
+    "share your creations from the playground",
+    "built with Next.js, Monaco Editor and Tailwind CSS",
+    "deployed playground at play.blocks.so with a command palette",
+    "repository renamed to ephraimduncan/shadcn-playground",
+    "55 GitHub stars"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["nextjs", "react", "tailwind", "monaco-editor"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/ephraimduncan/shadcn-playground", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

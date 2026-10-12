@@ -1,0 +1,19 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-032-synth-wave-visualizer-h",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/032-synth-wave-visualizer.html",
+  "kind": "page",
+  "hints_hash": "6ff24c25ffa237e3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/032-synth-wave-visualizer.html", "title": "NEON//OSC — Playable Synth", "status": null},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "NEON//OSC",
+  "summary": "Self-contained HTML study from a 100-study collection: a playable synth with oscilloscope and spectrum views and a computer-key piano.",
+  "keywords": ["synth", "synthesizer", "browser synth", "oscilloscope", "spectrum analyzer", "audio visualizer", "waveform", "filter cutoff", "feedback delay", "keyboard piano", "playable demo", "neon aesthetic", "html study", "standalone html"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,33 @@
+{
+  "id": "github-com-zenoncao-shadcn-drag-table",
+  "url": "https://github.com/zenoncao/shadcn-drag-table",
+  "kind": "repo",
+  "hints_hash": "1d3915f3c44d0cdf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/zenoncao/shadcn-drag-table/blob/HEAD/README.md", "title": null, "status": null},
+    {"url": "https://github.com/zenoncao/shadcn-drag-table", "title": "GitHub - zenoncao/shadcn-drag-table: A drag-and-drop table component using shadcn-ui and next.js · GitHub", "status": 200},
+    {"url": "https://github.com/zenoncao/shadcn-drag-table/blob/HEAD/LICENSE", "title": null, "status": 404}
+  ],
+  "status": "ok",
+  "name": "shadcn-drag-table",
+  "summary": "Drag-and-drop table component built with shadcn/ui and Next.js.",
+  "description": "A drag-and-drop table component built with shadcn/ui and Next.js. Copy the component from the repository; a live demo runs at shadcn-drag-table.vercel.app.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["table"],
+  "keywords": ["drag and drop", "table", "drag table", "sortable table", "shadcn", "react", "nextjs", "reorder row", "data table"],
+  "contains": [
+    "drag-and-drop table component",
+    "built with shadcn/ui and Next.js",
+    "live demo at shadcn-drag-table.vercel.app"
+  ],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/zenoncao/shadcn-drag-table", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-luismontejo-reqpy",
+  "url": "https://github.com/LuisMontejo/REQPY",
+  "kind": "repo",
+  "hints_hash": "bf9f471fe0eb6207",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/LuisMontejo/REQPY/blob/HEAD/README.md", "title": "REQPY: Spectral Matching & Signal Processing Library", "status": 200}
+  ],
+  "status": "ok",
+  "name": "REQPY",
+  "summary": "Python module for matching earthquake records to target response spectra (PSA, RotDnn) with FAS and PSD compliance.",
+  "description": "A Python library for spectral matching of earthquake ground motions using continuous wavelet transforms. It matches a single component or a pair of horizontal components to target response spectra (PSA and RotDnn/RotD100), optionally while satisfying minimum Fourier amplitude spectrum (FAS) and power spectral density (PSD) targets, and computes FAS, PSD, RotDnn, EAS and EPSD with smoothing options including Konno-Ohmachi. Eight documented example scripts run from simple matching to three-stage PSA→FAS→PSD generation, and baseline correction methods are selectable.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["earthquake", "earthquake engineering", "seismic", "spectral matching", "response spectrum", "ground motion", "wavelet transform", "signal processing", "python", "psa", "rotdnn", "fourier amplitude spectrum", "power spectral density", "baseline correction", "konno-ohmachi"],
+  "contains": [
+    "single-component and RotDnn (RotD100) response spectrum matching",
+    "PSA + minimum FAS + minimum PSD compliant generation",
+    "computes FAS, PSD, RotDnn, EAS and EPSD with Konno-Ohmachi smoothing",
+    "baseline corrections: sixth-order, piecewise, classic or none",
+    "8 documented example scripts in the repo",
+    "dependencies: NumPy, SciPy (>= 1.6), Matplotlib, Numba; optional pykooh",
+    "MIT licensed; author Luis A. Montejo (UPR)"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["python", "numpy", "scipy", "numba", "matplotlib"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/LuisMontejo/REQPY", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

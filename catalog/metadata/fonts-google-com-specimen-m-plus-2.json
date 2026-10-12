@@ -1,0 +1,68 @@
+{
+  "id": "fonts-google-com-specimen-m-plus-2",
+  "url": "https://fonts.google.com/specimen/M+PLUS+2",
+  "kind": "page",
+  "hints_hash": "e598272cee94f345",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/specimen/M+PLUS+2",
+      "title": "M PLUS 2 - Google Fonts",
+      "status": null
+    },
+    {
+      "url": "https://fonts.google.com/specimen/M+PLUS+2/about",
+      "title": "M PLUS 2 - Google Fonts",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/coz-m/MPLUS_FONTS",
+      "title": "GitHub - coz-m/MPLUS_FONTS: M+ FONTS",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "M PLUS 2",
+  "summary": "Japanese sans serif Google Font with nine weights from Thin to Black and 5,700+ kanji.",
+  "description": "A sans serif family from the M+ FONTS project, published on Google Fonts with nine weights from Thin to Black. It supports 5,700+ kanji for Japanese.",
+  "elements": [],
+  "keywords": [
+    "google font",
+    "japanese font",
+    "sans serif",
+    "kanji",
+    "web font",
+    "typeface",
+    "font family",
+    "nine weight",
+    "open font license",
+    "japanese typography",
+    "free font"
+  ],
+  "contains": [
+    "nine weights from Thin to Black",
+    "5,700+ kanji glyphs",
+    "Japanese language support",
+    "part of the M+ FONTS project"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "fonts-google-com"
+  },
+  "confidence": 0.7
+}

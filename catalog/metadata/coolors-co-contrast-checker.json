@@ -1,0 +1,21 @@
+{
+  "id": "coolors-co-contrast-checker",
+  "url": "https://coolors.co/contrast-checker",
+  "kind": "page",
+  "hints_hash": "6f0d4add4bb2d91a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:55:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coolors.co/contrast-checker", "title": "Color Contrast Checker - Coolors", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Color Contrast Checker",
+  "summary": "Calculate the contrast ratio of text and background colors to check that designs meet accessibility standards.",
+  "description": "A Coolors tool that measures the contrast ratio between text and background colors and checks designs against accessibility standards. It sits in the Coolors suite of color tools next to the palette generator, image picker, visualizer and color picker.",
+  "type": "tool",
+  "keywords": ["contrast checker", "color contrast", "contrast ratio", "accessibility", "text color", "background color", "color tool", "color palette"],
+  "pricing": "freemium",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "coolors-co"},
+  "confidence": 0.8
+}

@@ -1,0 +1,85 @@
+{
+  "id": "svelte-image-uploader-vercel-app",
+  "url": "https://svelte-image-uploader.vercel.app",
+  "kind": "site",
+  "hints_hash": "6ff4dc1086b2697e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://svelte-image-uploader.vercel.app",
+      "title": "Svelte Image Uploader",
+      "status": null
+    },
+    {
+      "url": "https://github.com/Cheveniko/svelte-image-uploader",
+      "title": "GitHub - Cheveniko/svelte-image-uploader: shadcn inspired image uploader for svelte",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Cheveniko",
+      "title": "Cheveniko (Nicolás Baquero) · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Svelte Image Uploader",
+  "summary": "Copy-paste image uploader form component for Svelte, built on shadcn-svelte with zod, svelte-drop-zone, superforms and formsnap.",
+  "description": "A shadcn-svelte-styled image uploader: the picked or dropped image is validated inside a shadcn Form with zod, svelte-drop-zone, superforms and formsnap, and styled with Tailwind CSS. Companion to the author's React version of the same component.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "file-upload",
+    "form"
+  ],
+  "keywords": [
+    "image upload",
+    "file upload",
+    "svelte",
+    "shadcn svelte",
+    "tailwind css",
+    "zod",
+    "superform",
+    "formsnap",
+    "drag and drop",
+    "form",
+    "copy paste",
+    "uploader"
+  ],
+  "contains": [
+    "Svelte image uploader with drag-and-drop",
+    "validated in a shadcn Form with zod, superforms and formsnap",
+    "svelte-drop-zone for drag and drop",
+    "Tailwind CSS styling",
+    "14 GitHub stars, 3 commits",
+    "React version available"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "svelte",
+    "tailwind",
+    "shadcn",
+    "zod",
+    "superforms",
+    "formsnap"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/Cheveniko/svelte-image-uploader",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

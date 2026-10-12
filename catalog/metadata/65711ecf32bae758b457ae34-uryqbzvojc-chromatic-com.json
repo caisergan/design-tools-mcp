@@ -1,0 +1,28 @@
+{
+  "id": "65711ecf32bae758b457ae34-uryqbzvojc-chromatic-com",
+  "url": "https://65711ecf32bae758b457ae34-uryqbzvojc.chromatic.com",
+  "kind": "site",
+  "hints_hash": "1fd317ab2bce8fdc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://65711ecf32bae758b457ae34-uryqbzvojc.chromatic.com", "title": null, "status": 401},
+    {"url": "https://github.com/JheanAntunes/storybook-shadcn", "title": "GitHub - JheanAntunes/storybook-shadcn · GitHub", "status": 200}
+  ],
+  "status": "login-required",
+  "name": "Storybook & Shadcn-ui",
+  "summary": "Component stories for shadcn/ui documented in a Next.js Storybook, hosted on Chromatic behind a login.",
+  "description": "A Next.js project that documents shadcn/ui components as Storybook stories, with light and dark themes for the Storybook UI and preview, global and per-story decorators, MDX documentation pages and Jest story tests. The Chromatic deployment is not publicly accessible; the project's source repository is public.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "form", "input", "loader", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["storybook", "shadcn ui", "component story", "component documentation", "next.js", "react", "tailwind css", "dark mode", "decorator", "mdx", "chromatic", "component test", "storybook story", "ui kit"],
+  "contains": ["Storybook stories for shadcn/ui components in a Next.js app", "light and dark theme for Storybook UI and component preview", "global and per-story decorators", "MDX introduction and component docs pages", "story tests with Jest and accessibility coverage", "Chromatic deployment requires login; 69 GitHub stars"],
+  "formats": ["code", "docs"],
+  "stack": ["nextjs", "react", "tailwind", "typescript", "storybook"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/JheanAntunes/storybook-shadcn", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

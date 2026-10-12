@@ -1,0 +1,136 @@
+{
+  "id": "github-com-shadcnstudio-shadcn-studio",
+  "url": "https://github.com/shadcnstudio/shadcn-studio",
+  "kind": "repo",
+  "hints_hash": "fc2b476e153fef22",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/shadcnstudio/shadcn-studio/blob/HEAD/README.md",
+      "title": "shadcn/studio README",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstudio.com/",
+      "title": "Shadcn Studio - Shadcn UI Components, Blocks & Templates",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstudio.com/components",
+      "title": "Shadcn Components - 1000+ Free Variants - Shadcn Studio",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn/studio",
+  "summary": "Open-source and premium shadcn components, blocks and templates with a theme generator and AI tools.",
+  "description": "A distribution of copy-paste shadcn components, blocks and templates: 659 registry items, 1000+ UI blocks (marketing, dashboard, eCommerce, datatable, bento grid), 100+ pages and 25+ templates, with animated Motion variants on Base UI or Radix UI. Extra tooling includes a live theme generator, a Figma design kit with a Figma-to-code plugin, a drag-and-drop page builder and an MCP server. Open source under MIT, with a paid all-access tier.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "bento-grid",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "checkbox",
+    "command-palette",
+    "dashboard",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "form",
+    "hero",
+    "input",
+    "kanban",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "stats",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "team",
+    "testimonials",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn component",
+    "shadcn block",
+    "template",
+    "theme generator",
+    "figma kit",
+    "mcp server",
+    "react component",
+    "nextjs",
+    "tailwind css",
+    "admin dashboard",
+    "landing page",
+    "copy paste",
+    "registry",
+    "ui kit",
+    "motion component"
+  ],
+  "contains": [
+    "659 shadcn registry items",
+    "1000+ shadcn UI blocks: marketing, dashboard & application, eCommerce, datatable, bento grid",
+    "100+ ready pages and 25+ templates (landing pages, dashboards, frontend templates)",
+    "Component variants with Motion animations, on Base UI and Radix UI",
+    "Live theme generator, Figma design kit + Figma-to-code plugin, drag-and-drop page builder, MCP server",
+    "Install via shadcn CLI or copy-paste; full code ownership",
+    "MIT-licensed open source, supported by ThemeSelection",
+    "Free tier; one-time $249 all-access license"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "templates",
+    "figma-file",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "radix",
+    "base-ui"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcnstudio/shadcn-studio",
+    "docs": "https://shadcnstudio.com/docs/getting-started/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

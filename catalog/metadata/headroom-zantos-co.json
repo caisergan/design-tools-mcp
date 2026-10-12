@@ -1,0 +1,36 @@
+{
+  "id": "headroom-zantos-co",
+  "url": "https://headroom.zantos.co",
+  "kind": "site",
+  "hints_hash": "e6443a84bd793ad5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:51:51Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://headroom.zantos.co", "title": "Headroom | AI usage in your Mac's menu bar", "status": null},
+    {"url": "https://headroom.zantos.co/release-notes", "title": "Release notes | Headroom", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Headroom",
+  "summary": "Mac menu bar app that shows what's left in Claude, Codex, Cursor and Grok, when limits reset, and API spend.",
+  "description": "A macOS menu bar app that shows remaining Claude, Codex, Cursor and Grok usage, when each limit resets, and API spend, using the accounts already signed in on the Mac. An iPhone companion is mentioned; free, macOS 15+, no app analytics.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["menubar", "progress"],
+  "keywords": ["ai usage tracker", "menu bar app", "menu bar widget", "macos", "iphone app", "rate limit", "usage limit", "reset time", "api spend", "llm usage", "developer tool", "usage meter"],
+  "contains": [
+    "menu bar app for macOS, with an iPhone companion",
+    "shows remaining Claude, Codex, Cursor and Grok limits and reset times",
+    "tracks API spend next to usage limits",
+    "menu bar pills per provider, configurable in Settings",
+    "Mac widgets with selectable meter styles",
+    "optional notifications before a limit resets",
+    "free, macOS 15+, no app analytics"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

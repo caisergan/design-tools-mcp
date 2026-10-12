@@ -1,0 +1,38 @@
+{
+  "id": "mobbin-design",
+  "url": "https://mobbin.design",
+  "kind": "site",
+  "hints_hash": "cb40b620d339d4fe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:23:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.design/llms.txt", "title": "Mobbin", "status": null},
+    {"url": "https://mobbin.design", "title": "Mobbin — UI & UX design inspiration for mobile & web apps", "status": 200},
+    {"url": "https://mobbin.com/explore", "title": "Explore the best mobile app designs on Mobbin", "status": 200},
+    {"url": "https://mobbin.com/pricing", "title": "Pricing | Mobbin", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mobbin",
+  "summary": "Design reference library of real app and website screenshots: browse screens, flows, animations and UI elements.",
+  "description": "Mobbin is a searchable library of shipped app and website screenshots - 621,500 screens and flows, updated weekly. Browse by app or site, individual screens, multi-step flows, animations and UI elements; use it for product design research, critique and competitive benchmarking. Free to browse, with Pro and Team plans adding MCP and API access for agents.",
+  "type": "gallery",
+  "categories": ["inspiration", "design-tools"],
+  "elements": ["navbar", "carousel"],
+  "keywords": ["design inspiration", "ui inspiration", "app screenshot", "ux research", "design reference", "screen flow", "ui pattern", "mobile app design", "web app design", "website section", "onboarding", "paywall", "animation", "ui element", "mcp server", "design library", "competitor research"],
+  "contains": [
+    "621,500 shipped screens, new every week",
+    "browse apps, sites, screens, flows, animations and UI elements",
+    "searchable tags such as tab bar, onboarding and paywall",
+    "MCP server tools: searchscreens, searchflows, searchsections (60 requests/60s)",
+    "REST API with workspace bearer keys on Team and Enterprise plans",
+    "Pro $10/month; Team $16 per member/month billed yearly; Enterprise custom",
+    "free plan to browse with limited access"
+  ],
+  "formats": ["screenshots", "links", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

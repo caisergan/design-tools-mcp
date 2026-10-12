@@ -1,0 +1,72 @@
+{
+  "id": "openstax-org",
+  "url": "https://openstax.org",
+  "kind": "site",
+  "hints_hash": "274f94e14a3d2449",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://openstax.org",
+      "title": "OpenStax",
+      "status": 200
+    },
+    {
+      "url": "https://openstax.org/about",
+      "title": "OpenStax",
+      "status": 200
+    },
+    {
+      "url": "https://openstax.org/subjects",
+      "title": "OpenStax",
+      "status": 200
+    },
+    {
+      "url": "https://openstax.org/blog/openstax-licensing",
+      "title": "OpenStax",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "OpenStax",
+  "summary": "Site offering free college textbooks for students, browsable by subject.",
+  "description": "OpenStax provides free college textbooks for all types of students, making education accessible and affordable. Its site lists the available subjects so students can browse the books. Pages are JavaScript-rendered, so only titles and meta descriptions were readable.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "free textbook",
+    "college textbook",
+    "textbook library",
+    "academic book",
+    "education",
+    "student resource",
+    "online textbook",
+    "browse subject"
+  ],
+  "contains": [
+    "free college textbooks for students",
+    "subject list to browse available books"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.45
+}

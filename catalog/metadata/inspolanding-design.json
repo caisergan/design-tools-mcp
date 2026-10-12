@@ -1,0 +1,32 @@
+{
+  "id": "inspolanding-design",
+  "url": "https://inspolanding.design",
+  "kind": "site",
+  "hints_hash": "48cbd1c247c51716",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:21:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://inspolanding.design", "title": "Inspolanding — Landing Page Design Inspiration", "status": null},
+    {"url": "https://inspolanding.design/sections", "title": "Figma Sections — Inspolanding", "status": null},
+    {"url": "https://inspolanding.design/category/hr", "title": "HR & Hiring website design inspiration — Inspolanding", "status": null},
+    {"url": "https://inspolanding.design/category/legal", "title": "Legal website design inspiration — Inspolanding", "status": null},
+    {"url": "https://inspolanding.design/category/media", "title": "Media & News website design inspiration — Inspolanding", "status": null}
+  ],
+  "status": "ok",
+  "name": "Inspolanding",
+  "summary": "Gallery of 400 hand-picked landing pages, portfolios and SaaS sites across 36 categories.",
+  "description": "A hand-picked gallery of landing pages, portfolios and SaaS websites — 400 sites in 36 categories — browsable by category with filters and search. A sections page groups live examples by page part (hero, nav, pricing, testimonials, FAQ, footer …) and opens ready-made Figma sections in the uiblockify library; sites can be submitted for review.",
+  "type": "gallery",
+  "categories": ["inspiration", "sections"],
+  "elements": ["navbar", "hero", "features", "pricing", "testimonials", "faq", "cta", "contact", "team", "footer", "logo-cloud", "stats", "modal", "form"],
+  "variants": {"navbar": ["mega-menu"]},
+  "keywords": ["landing page inspiration", "saas website design", "portfolio website design", "website gallery", "design inspiration", "figma section", "hero section", "pricing section", "testimonial section", "footer section", "website design gallery", "curated gallery", "web design showcase", "startup website", "category filter", "design reference", "landing page", "site gallery"],
+  "contains": ["400 hand-picked sites across 36 categories", "filters and search over the gallery", "section page live-example counts (hero 319, footer 271, testimonials 128, FAQ 63, CTA 34)", "Figma section categories that open in the uiblockify library", "site submission for review"],
+  "formats": ["screenshots", "links", "figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

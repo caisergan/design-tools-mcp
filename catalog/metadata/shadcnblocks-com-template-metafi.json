@@ -1,0 +1,27 @@
+{
+  "id": "shadcnblocks-com-template-metafi",
+  "url": "https://shadcnblocks.com/template/metafi",
+  "kind": "page",
+  "hints_hash": "40d0fb07b88bc0be",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnblocks.com/template/metafi", "title": "Metafi - Modern marketing template Next.js & Astro - Shadcnblocks.com", "status": null},
+    {"url": "https://www.shadcnblocks.com/template/metafi", "title": "Metafi - Modern marketing template Next.js & Astro - Shadcnblocks.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Metafi",
+  "summary": "Paid marketing-site template in Next.js and Astro editions: 100+ shadcn/ui components across 19 pages, plus a Figma file.",
+  "description": "A marketing-site template built on shadcn/ui and Tailwind, sold with both Next.js and Astro editions and all versions included. Purchase covers 100+ components, 19 pages, an included Figma file, MDX and JSON content, responsive mobile-first design, and one-shot deployment on Vercel, Netlify or Cloudflare Pages.",
+  "type": "template",
+  "categories": ["templates"],
+  "keywords": ["template", "marketing site", "landing page", "nextjs", "astro", "shadcn", "tailwind", "react", "mdx", "saas", "starter", "typescript"],
+  "contains": ["Next.js 1.0.0 and Astro 2.0.0 editions, all versions included", "100+ shadcn/ui components on 19 pages", "Figma file included", "MDX and data JSON content", "tested one-shot deployment: Vercel, Netlify, Cloudflare Pages"],
+  "formats": ["code", "figma-file"],
+  "stack": ["react", "nextjs", "astro", "tailwind", "typescript"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "www-shadcnblocks-com"},
+  "confidence": 0.85
+}

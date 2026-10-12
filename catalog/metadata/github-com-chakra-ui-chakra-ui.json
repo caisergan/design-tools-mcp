@@ -1,0 +1,30 @@
+{
+  "id": "github-com-chakra-ui-chakra-ui",
+  "url": "https://github.com/chakra-ui/chakra-ui",
+  "kind": "repo",
+  "hints_hash": "18ee81be280f48e8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/chakra-ui/chakra-ui/blob/HEAD/README.md", "title": "Chakra UI", "status": 200},
+    {"url": "https://chakra-ui.com/docs/components/accordion", "title": "Accordion | Chakra UI", "status": 200},
+    {"url": "https://chakra-ui.com/llms.txt", "title": "Chakra UI v3 Documentation for LLMs", "status": 200},
+    {"url": "https://chakra-ui.com/llms-components.txt", "title": "Documentation for all components in Chakra UI v3", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Chakra UI",
+  "summary": "Accessible React component system for building web apps and design systems, installed as the @chakra-ui/react package.",
+  "description": "React components covering layout and typography primitives, buttons, forms and inputs, collections, overlays, disclosure, feedback and data display, plus a charts package. The system is themeable and composable, works with Next.js RSC, and ships versioned documentation (v0 through v3) with a components index for LLMs.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "date-picker", "drawer", "dropdown", "empty-state", "file-upload", "input", "list", "loader", "marquee", "modal", "otp-input", "pagination", "popover", "progress", "select", "slider", "stats", "stepper", "switch", "table", "tabs", "timeline", "toast", "tooltip"],
+  "keywords": ["react", "component library", "accessible component", "design system", "ui component", "form component", "data display", "overlay", "chart", "date picker", "nextjs", "rsc", "open source"],
+  "contains": ["component groups: layout, typography, buttons, date, forms, collections, overlays, feedback, data display", "charts package and date and time components", "dialog, drawer, popover, tooltip, menu and toast overlays", "pin input, file upload, carousel, marquee, timeline and table", "LLM-readable components documentation; works with Next.js RSC"],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "nextjs"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/chakra-ui/chakra-ui", "docs": "https://chakra-ui.com", "npm": "@chakra-ui/react", "figma": null, "parent": null},
+  "confidence": 0.9
+}

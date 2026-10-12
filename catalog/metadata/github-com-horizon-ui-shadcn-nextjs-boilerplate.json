@@ -1,0 +1,29 @@
+{
+  "id": "github-com-horizon-ui-shadcn-nextjs-boilerplate",
+  "url": "https://github.com/horizon-ui/shadcn-nextjs-boilerplate",
+  "kind": "repo",
+  "hints_hash": "824f81071d78165d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/horizon-ui/shadcn-nextjs-boilerplate/blob/HEAD/README.md", "title": "PRO Version", "status": null},
+    {"url": "https://github.com/horizon-ui/shadcn-nextjs-boilerplate", "title": "GitHub - horizon-ui/shadcn-nextjs-boilerplate: Shadcn UI NextJS Boilerplate - Free Open-source ChatGPT UI Admin Dashboard Template - Horizon AI Boilerplate", "status": 200},
+    {"url": "https://raw.githubusercontent.com/horizon-ui/shadcn-nextjs-boilerplate/HEAD/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Horizon AI Boilerplate",
+  "summary": "Open-source Next.js admin dashboard and ChatGPT boilerplate built with shadcn/ui, with 30+ dark/light UI elements.",
+  "description": "Admin dashboard boilerplate built with Next.js, shadcn/ui and Tailwind CSS around a ChatGPT chat interface, for launching ChatGPT-style AI SaaS apps faster. It ships 30+ dark/light UI elements (buttons, inputs, navbars, tabs, cards, alerts) each documented, prebuilt example sections, and a Figma version. A paid PRO version unlocks additional components and pages.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["alert", "button", "card", "chat", "dashboard", "input", "navbar", "tabs"],
+  "keywords": ["admin dashboard", "dashboard template", "next.js", "shadcn ui", "tailwind css", "react", "boilerplate", "chatgpt", "openai", "chat ui", "ai saas", "free template", "dark mode", "admin panel", "ui kit"],
+  "contains": ["30+ dark/light UI elements: buttons, inputs, navbars, tabs, cards, alerts", "ChatGPT chat interface on the OpenAI API", "prebuilt example sections for web projects", "Figma version available", "PRO version adds components and pages", "MIT licensed, 650 stars"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "openai"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/horizon-ui/shadcn-nextjs-boilerplate", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

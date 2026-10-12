@@ -1,0 +1,44 @@
+{
+  "id": "amahub-ama-one-quests",
+  "url": "https://amahub.ama.one/quests",
+  "kind": "page",
+  "hints_hash": "37ef7eab40086931",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://amahub.ama.one/quests",
+      "title": "Tasks — amahub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Tasks — amahub",
+  "summary": "Quest board of the amahub community hub: earn points for what you build, trade and hold, with daily check-in and leaderboards.",
+  "keywords": [
+    "quest",
+    "point",
+    "leaderboard",
+    "airdrop",
+    "web3",
+    "wallet",
+    "daily check-in",
+    "community",
+    "ai agent",
+    "trading",
+    "automation"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

@@ -1,0 +1,41 @@
+{
+  "id": "trigger-dev",
+  "url": "https://trigger.dev",
+  "kind": "site",
+  "hints_hash": "6ad113f0f449c1dc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://trigger.dev/llms.txt", "title": "Trigger.dev", "status": null},
+    {"url": "https://trigger.dev", "title": "Trigger.dev | The open source platform for durable AI agents", "status": 200},
+    {"url": "https://trigger.dev/pricing", "title": "Cloud Pricing | Trigger.dev", "status": 200},
+    {"url": "https://trigger.dev/docs", "title": "Trigger.dev docs - Trigger.dev", "status": 200},
+    {"url": "https://trigger.dev/docs/how-it-works", "title": "How Trigger.dev works - Trigger.dev", "status": 200},
+    {"url": "https://trigger.dev/docs/wait-for-token", "title": "Wait for token - Trigger.dev", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Trigger.dev",
+  "summary": "Open-source TypeScript platform for durable AI agents and background tasks: no timeouts, retries, queues and realtime streaming.",
+  "description": "Runs AI agents and long-running workflows as plain async TypeScript functions with no workflow DSL, deployed with one command. CRIU checkpoint-resume snapshots keep tasks alive for hours or days — paused runs use no compute and are not billed — while retries, queues and concurrency, scheduled tasks, waitpoints for human-in-the-loop approvals, realtime LLM token streaming to React hooks and OpenTelemetry observability are built in. Apache-2.0; self-host on Docker Compose or Kubernetes, or use Trigger.dev Cloud.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["background job", "durable execution", "ai agent", "task queue", "workflow", "typescript", "open source", "self-hosted", "retry", "cron", "scheduled task", "realtime", "llm observability", "streaming", "human in the loop", "concurrency", "api", "mcp server", "long running task", "docker"],
+  "contains": [
+    "tasks are plain async TypeScript functions; no workflow DSL or determinism rules",
+    "checkpoint-resume snapshots (CRIU) resume tasks where they stopped; paused runs cost nothing",
+    "no timeouts: runs last hours, days or weeks",
+    "built-ins: retries, queues and concurrency, schedules, waitpoints, realtime streams, LLM observability",
+    "self-host with Docker Compose or Kubernetes; Apache 2.0, same codebase as Cloud",
+    "SDKs and build extensions: TypeScript, React hooks, MCP server, Python, Prisma, FFmpeg, Playwright",
+    "cloud plans: Free $0, Hobby $10, Pro $50, Enterprise custom",
+    "16.5k+ GitHub stars, 5.1k+ Discord members"
+  ],
+  "formats": ["api", "cli", "code", "docs"],
+  "stack": ["typescript", "react", "node"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": null, "docs": "https://trigger.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

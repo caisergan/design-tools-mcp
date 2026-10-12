@@ -1,0 +1,161 @@
+{
+  "id": "retroui-dev",
+  "url": "https://retroui.dev",
+  "kind": "site",
+  "hints_hash": "65fa1db5bc2fd41d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://retroui.dev/llms.txt",
+      "title": "NeoBrutalism (neobrutalism.com) — official documentation",
+      "status": null
+    },
+    {
+      "url": "https://retroui.dev",
+      "title": "NeoBrutalism — Retro UI components for React",
+      "status": 200
+    },
+    {
+      "url": "https://neobrutalism.com/docs",
+      "title": "What is neobrutalism? Definition, traits & how to use it",
+      "status": 200
+    },
+    {
+      "url": "https://neobrutalism.com/blocks",
+      "title": "Neobrutalist React UI Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://neobrutalism.com/pricing",
+      "title": "Get the full kit — All access",
+      "status": 200
+    },
+    {
+      "url": "https://neobrutalism.com/themes",
+      "title": "NeoBrutalism theme builder",
+      "status": 200
+    },
+    {
+      "url": "https://neobrutalism.com/components",
+      "title": "Neobrutalist React UI Components",
+      "status": 200
+    },
+    {
+      "url": "https://neobrutalism.com/docs/installation",
+      "title": "Install neobrutalist components with the shadcn CLI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "NeoBrutalism",
+  "summary": "Neobrutalist React UI library with 57 components, 158 blocks, templates, a theme builder and a Figma kit, installed via the shadcn CLI.",
+  "description": "The neobrutalist design system for React and Next.js, formerly RetroUI: open-source components with thick borders, hard shadows and loud color, plus 158 Pro blocks in 22 categories (heroes, pricing, auth, dashboards), complete site templates, a live theme builder and a Figma kit. Components install through the shadcn CLI or the hosted MCP server, and the source lands in your repo; free components and Pro plans are separate.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "features",
+    "testimonials",
+    "footer",
+    "cta",
+    "pricing",
+    "faq",
+    "bento-grid",
+    "sidebar",
+    "dashboard",
+    "stats",
+    "team",
+    "contact",
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "dropdown",
+    "drawer",
+    "form",
+    "input",
+    "loader",
+    "modal",
+    "popover",
+    "select",
+    "switch",
+    "table",
+    "tabs"
+  ],
+  "keywords": [
+    "neo brutalism",
+    "retro ui",
+    "shadcn",
+    "react",
+    "nextjs",
+    "tailwind",
+    "component library",
+    "ui kit",
+    "block",
+    "template",
+    "theme builder",
+    "figma",
+    "mcp",
+    "dark mode",
+    "rtl",
+    "brutalist",
+    "landing page",
+    "open source",
+    "cli"
+  ],
+  "contains": [
+    "57 open-source components built on Radix UI, Base UI and React Aria",
+    "158 blocks in 22 categories: heroes, pricing, auth, dashboards and more",
+    "6 full-site templates (devtools, SaaS, agency, portfolio, AI, dashboard)",
+    "free theme builder with shareable presets and one-command install",
+    "Figma kit and screenshot studio",
+    "installs via the shadcn CLI or the MCP server",
+    "free components; Pro unlocks blocks, templates and Figma",
+    "dark mode and RTL support"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "figma-file",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "base-ui",
+    "react-aria"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://neobrutalism.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "devicon-dev",
+  "url": "https://devicon.dev",
+  "kind": "site",
+  "hints_hash": "7a7e4097a7859d9b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:46:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://devicon.dev", "title": "DEVICON | All programming languages and development tools related icons font", "status": null},
+    {"url": "https://github.com/devicons/devicon", "title": "GitHub - devicons/devicon: Set of icons representing programming languages, designing & development tools", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Devicon",
+  "summary": "Icon set of logos for programming languages, frameworks and development tools, usable as a font or SVG.",
+  "description": "An icon collection gathering logos that represent development languages, frameworks and tools. Each icon comes in several versions — font/SVG, original/plain/line, colored or not, with or without a wordmark — and can be used via the devicon font (npm/yarn or CDN), copy-pasted SVG, or an img tag; the site offers a searchable gallery that writes the code for you. MIT licensed and community-contributed through GitHub.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon font", "programming language icon", "developer icon", "tech logo", "brand icon", "svg icon", "wordmark", "logo", "npm", "cdn", "coding", "framework", "web development", "language logo"],
+  "contains": ["icons for programming languages, designing and development tools", "150+ icons, growing (per the README)", "each icon in original, plain and line versions; colored or mono; with or without wordmark", "font, SVG, npm/yarn and CDN usage; copy-paste snippets on the site", "MIT licensed; 11.8k GitHub stars"],
+  "formats": ["svg", "font-files", "npm-package", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/devicons/devicon", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

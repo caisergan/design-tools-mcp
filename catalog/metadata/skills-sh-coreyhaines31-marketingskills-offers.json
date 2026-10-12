@@ -1,0 +1,26 @@
+{
+  "id": "skills-sh-coreyhaines31-marketingskills-offers",
+  "url": "https://skills.sh/coreyhaines31/marketingskills/offers",
+  "kind": "page",
+  "hints_hash": "e677c34c2f913420",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/coreyhaines31/marketingskills/offers", "title": "offers — coreyhaines31/marketingskills", "status": null}
+  ],
+  "status": "ok",
+  "name": "offers",
+  "summary": "Agent skill for constructing and improving offers, on the premise that the offer itself beats better copy.",
+  "description": "SKILL.md that teaches an AI coding agent to design and strengthen offers instead of rewriting copy on a weak one. Checks existing product marketing context files before asking questions, and frames the work around offer construction.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": ["offer", "offer design", "offer construction", "product marketing", "marketing", "pricing", "conversion", "sales page", "copywriting", "agent skill", "prompt"],
+  "contains": ["SKILL.md for AI coding agents", "core philosophy: the offer, not the page, is what moves", "reads product marketing context from .agents/product-marketing.md or .claude/product-marketing.md", "guidance on when this skill matters"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.75
+}

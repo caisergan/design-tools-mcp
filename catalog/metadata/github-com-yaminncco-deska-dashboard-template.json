@@ -1,0 +1,29 @@
+{
+  "id": "github-com-yaminncco-deska-dashboard-template",
+  "url": "https://github.com/yaminncco/deska-dashboard-template",
+  "kind": "repo",
+  "hints_hash": "ca36c20a2583e42f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/yaminncco/deska-dashboard-template/blob/HEAD/README.md", "title": "Deska Dashboard Template", "status": null},
+    {"url": "https://github.com/yaminncco/deska-dashboard-template", "title": "GitHub - yaminncco/deska-dashboard-template: A dashboard template built with Nuxt, Tailwind and Shadcn.", "status": 200},
+    {"url": "https://deska-docs.netlify.app/", "title": "Deska Nuxt Dashboard Template | Deska", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Deska Dashboard Template",
+  "summary": "Nuxt dashboard template with shadcn-vue: data tables, kanban, calendar, mails and file manager.",
+  "description": "A dashboard template built with Nuxt, Tailwind and shadcn-vue (Shadcn), with dark/light themes and RTL/LTR support. The showcase includes a dashboard overview, users data table, tasks kanban, mails, events calendar with month/week/agenda views, file manager and user settings. The GitHub version is free; a premium version with one-time purchase and lifetime updates is sold separately.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "table", "kanban", "calendar"],
+  "keywords": ["dashboard", "admin template", "nuxt", "vue", "shadcn vue", "tailwind css", "data table", "kanban", "calendar", "dark mode", "rtl", "typescript", "premium"],
+  "contains": ["Nuxt + Tailwind + shadcn-vue dashboard template", "showcase: dashboard, users data table, tasks kanban, mails, events calendar, file manager, user settings", "events calendar with month, week and agenda views", "dark and light themes; RTL and LTR support", "Tailwind CSS v4 and TypeScript", "free GitHub version; premium version is a one-time purchase with lifetime updates", "MIT licensed, 14 stars"],
+  "formats": ["code", "templates"],
+  "stack": ["nuxt", "vue", "tailwind", "shadcn-vue", "typescript"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/yaminncco/deska-dashboard-template", "docs": "https://deska-docs.netlify.app/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

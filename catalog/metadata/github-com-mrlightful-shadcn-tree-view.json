@@ -1,0 +1,35 @@
+{
+  "id": "github-com-mrlightful-shadcn-tree-view",
+  "url": "https://github.com/mrlightful/shadcn-tree-view",
+  "kind": "repo",
+  "hints_hash": "abf44b888f73a7f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mrlightful/shadcn-tree-view/blob/HEAD/README.md", "title": "Tree View - Shadcn UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tree View",
+  "summary": "Tree view component for shadcn/ui that expands, collapses, selects and drags nested items in hierarchical data.",
+  "description": "A copy-paste tree view component for shadcn/ui that navigates hierarchical lists with nested levels you can expand, collapse and select. It supports custom icons per item (default, open, selected), default node and leaf icons, action buttons, click handlers per item and for the whole tree, drag & drop, a disabled state and custom item renderers. Based on the implementations by WangLarry and bytechase; demo at mrlightful.com/ui/tree-view. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["list"],
+  "keywords": ["tree view", "hierarchical data", "nested list", "expand collapse", "drag and drop", "custom icon", "item renderer", "shadcn", "react", "tailwind", "file tree", "selection"],
+  "contains": [
+    "expand, collapse and select items in nested levels",
+    "custom icons per item (default, open, selected) and default node/leaf icons",
+    "action buttons, click handlers per item and per tree view",
+    "drag & drop support; disabled state; custom item renderers",
+    "based on implementations by WangLarry and bytechase",
+    "demo at mrlightful.com/ui/tree-view; roadmap adds programmatic control",
+    "MIT licensed"
+  ],
+  "formats": ["code"],
+  "stack": ["react", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mrlightful/shadcn-tree-view", "docs": "https://mrlightful.com/ui/tree-view", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sw-kovidgoyal-net-kitty",
+  "url": "https://sw.kovidgoyal.net/kitty",
+  "kind": "page",
+  "hints_hash": "64ec5947cc78fc83",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sw.kovidgoyal.net/kitty", "title": "kitty", "status": 200}
+  ],
+  "status": "ok",
+  "name": "kitty",
+  "summary": "Fast, feature-rich GPU-based terminal emulator with tabs, windows, layouts, scrollback and configurable fonts.",
+  "keywords": ["terminal", "terminal emulator", "gpu", "tabs", "window layout", "scrollback", "keyboard shortcut", "font", "color scheme", "performance"],
+  "type": "app",
+  "elements": [],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

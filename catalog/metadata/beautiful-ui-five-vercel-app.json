@@ -1,0 +1,90 @@
+{
+  "id": "beautiful-ui-five-vercel-app",
+  "url": "https://beautiful-ui-five.vercel.app",
+  "kind": "site",
+  "hints_hash": "1140ff33f1a60b93",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beautiful-ui-five.vercel.app",
+      "title": "Beautiful UI — Crafted primitives for AI-native interfaces",
+      "status": 200
+    },
+    {
+      "url": "https://www.beautifului.dev/license",
+      "title": "License — Beautiful UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Beautiful UI",
+  "summary": "27 copy-paste components for AI-native interfaces: chat, thinking states, streamed text, approval cards, tables and cards.",
+  "description": "A small library of components for agents talking to humans: loading and thinking states, streaming text with sources, human-in-the-loop approval cards, tool chips, task rows and chat UI, plus tables and cards for agent output. Distributed as a shadcn registry (27 items); this domain redirects to beautifului.dev.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "card",
+    "table",
+    "badge",
+    "prompt-input",
+    "button",
+    "loader",
+    "ai-agent-ui",
+    "chat",
+    "sidebar"
+  ],
+  "keywords": [
+    "ai interface",
+    "chat ui",
+    "thinking state",
+    "streaming text",
+    "ai agent ui",
+    "shadcn registry",
+    "copy paste component",
+    "react component",
+    "loading state",
+    "approval card",
+    "human in the loop",
+    "prompt bar",
+    "chat composer",
+    "task row",
+    "tool chip",
+    "diff table",
+    "ai chat",
+    "agent screen",
+    "agent skill"
+  ],
+  "contains": [
+    "27 shadcn registry items (registry:style, registry:ui, registry:component)",
+    "Loading State, Thinking, Streaming Text, Approval Card, Tool Chips, Task Rows, Chat, Prompt Bar, tables, cards",
+    "MIT licensed, free to use",
+    "domain now redirects to beautifului.dev"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

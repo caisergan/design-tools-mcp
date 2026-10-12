@@ -1,0 +1,22 @@
+{
+  "id": "framer-com-docs-use-time",
+  "url": "https://framer.com/docs/use-time",
+  "kind": "page",
+  "hints_hash": "8bfb65ad37b89139",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/docs/use-time", "title": "Framer Developers: APIs, React, plugins, and Fetch", "status": 200},
+    {"url": "https://www.framer.com/motion/use-time/", "title": "useTime | React motion value that emits time | Motion for React", "status": 200},
+    {"url": "https://motion.dev/docs/react-use-time", "title": "useTime | React motion value that emits time | Motion for React", "status": 200}
+  ],
+  "status": "ok",
+  "name": "useTime",
+  "summary": "Motion for React hook that returns elapsed time in milliseconds every frame, for perpetual animations.",
+  "description": "useTime returns a motion value that updates once per frame with the duration, in milliseconds, since it was first created. It is useful for generating perpetual animations and can be used directly or composed with other motion value hooks such as useTransform. The framer.com docs URL now redirects to the Framer developers hub; the hook's documentation lives at motion.dev/docs/react-use-time.",
+  "keywords": ["motion value", "use time", "react hook", "animation", "perpetual animation", "framer motion", "elapsed time", "millisecond", "use transform", "motion component"],
+  "stack": ["react"],
+  "related": {"repo": null, "docs": "https://motion.dev/docs/react-use-time", "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

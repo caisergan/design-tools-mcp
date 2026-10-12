@@ -1,0 +1,72 @@
+{
+  "id": "nerdordie-com-product-ranked-esport-stream-package",
+  "url": "https://nerdordie.com/product/ranked-esport-stream-package",
+  "kind": "page",
+  "hints_hash": "a9351f58311c0603",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://nerdordie.com/product/ranked-esport-stream-package",
+      "title": "Ranked - Esport Stream Package - Nerd or Die",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Ranked – Esport Stream Package",
+  "summary": "Esports stream overlay package for OBS, Streamlabs and StreamElements: animated overlays, alerts, chat widget and After Effects files.",
+  "description": "A paid download for streamers: animated overlay scenes, alerts and a customizable chat widget with quick-import files for OBS Studio, Streamlabs OBS and StreamElements, plus After Effects project files with master color controls. Three tiers: $10 overlay pack, $20 with source files, $30 full package with the alert pack.",
+  "type": "asset-library",
+  "elements": [
+    "alert",
+    "chat",
+    "background"
+  ],
+  "keywords": [
+    "stream overlay",
+    "twitch overlay",
+    "esports overlay",
+    "stream package",
+    "animated overlay",
+    "stream alert",
+    "chat widget",
+    "after effects template",
+    "stinger transition",
+    "obs",
+    "streamlab",
+    "streamelement",
+    "webcam frame",
+    "gameplay overlay",
+    "overlay pack",
+    "stream design"
+  ],
+  "contains": [
+    "animated overlay pack with modular scene designs and stinger transitions",
+    "customizable chat widget and animated alerts",
+    "quick import files for OBS Studio, Streamlabs OBS and StreamElements (Windows only)",
+    "After Effects project files with master color controls",
+    "tiers: $10 overlay, $20 with source files, $30 full package",
+    "9 customer reviews"
+  ],
+  "formats": [
+    "templates",
+    "video",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

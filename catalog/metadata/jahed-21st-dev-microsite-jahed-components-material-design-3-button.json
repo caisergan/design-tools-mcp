@@ -1,0 +1,78 @@
+{
+  "id": "jahed-21st-dev-microsite-jahed-components-material-design-3-button",
+  "url": "https://jahed.21st.dev/microsite/jahed/components/material-design-3-button",
+  "kind": "page",
+  "hints_hash": "0891471a3a12d864",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://jahed.21st.dev/microsite/jahed/components/material-design-3-button",
+      "title": "Material Design 3 Button | Community Components | 21st",
+      "status": 200
+    },
+    {
+      "url": "https://jahed.21st.dev/llms.txt",
+      "title": "21st (https://21st.dev)",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Material Design 3 Button",
+  "summary": "shadcn/ui and Tailwind button implementing Google Material Design 3 with ripple, state layers and five official variants.",
+  "description": "A high-fidelity Google Material Design 3 button built for shadcn/ui and Tailwind CSS: a physics-based ripple engine ported from Google's web components, dual-layer key and ambient elevation shadows and mathematically accurate hover and press state layers. Five official variants (filled, elevated, tonal, outlined, text), styled with utility classes and CSS variables and polymorphic through Radix Slot asChild.",
+  "type": "component-library",
+  "elements": [
+    "button"
+  ],
+  "keywords": [
+    "button",
+    "material design 3",
+    "m3 button",
+    "react",
+    "tailwind css",
+    "shadcn",
+    "ripple effect",
+    "elevation shadow",
+    "state layer",
+    "filled button",
+    "elevated button",
+    "tonal button",
+    "outlined button",
+    "text button",
+    "radix ui"
+  ],
+  "contains": [
+    "Material Design 3 button for shadcn/ui and Tailwind CSS",
+    "five official variants: filled, elevated, tonal, outlined, text",
+    "physics-based ripple engine ported from Google's web components",
+    "dual-layer key and ambient elevation shadows",
+    "hover and press state layers via CSS variables",
+    "polymorphic asChild through Radix Slot",
+    "dependencies: @radix-ui/react-slot, class-variance-authority"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

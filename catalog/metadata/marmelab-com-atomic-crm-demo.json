@@ -1,0 +1,14 @@
+{
+  "id": "marmelab-com-atomic-crm-demo",
+  "url": "https://marmelab.com/atomic-crm-demo",
+  "kind": "page",
+  "hints_hash": "83656caaea1291e2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://marmelab.com/atomic-crm-demo", "title": null, "status": 200}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

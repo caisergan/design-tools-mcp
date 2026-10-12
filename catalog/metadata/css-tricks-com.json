@@ -1,0 +1,113 @@
+{
+  "id": "css-tricks-com",
+  "url": "https://css-tricks.com",
+  "kind": "site",
+  "hints_hash": "feb692ca16d07f14",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://css-tricks.com/llms.txt",
+      "title": "CSS-Tricks",
+      "status": null
+    },
+    {
+      "url": "https://css-tricks.com/",
+      "title": "CSS-Tricks - Learning for front-end designers and developers",
+      "status": 200
+    },
+    {
+      "url": "https://css-tricks.com/guides",
+      "title": "Guides Archive - CSS-Tricks",
+      "status": 200
+    },
+    {
+      "url": "https://css-tricks.com/category/links",
+      "title": "Links Archives - CSS-Tricks",
+      "status": 200
+    },
+    {
+      "url": "https://css-tricks.com/about",
+      "title": "About CSS-Tricks | CSS-Tricks",
+      "status": 200
+    },
+    {
+      "url": "https://css-tricks.com/license",
+      "title": "CSS-Tricks License | CSS-Tricks",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CSS-Tricks",
+  "summary": "Front-end blog publishing CSS, HTML and JavaScript articles, guides and an almanac since 2007.",
+  "description": "A long-running web design and development publication: articles and tutorials on CSS, JavaScript, HTML, accessibility and performance, complete guides (Flexbox, Grid, container queries, cascade layers), the CSS Almanac reference, a snippets library and curated links. Written for front-end designers and developers.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [
+    "background",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "css",
+    "tutorial",
+    "front-end",
+    "web design",
+    "web development",
+    "html",
+    "javascript",
+    "css grid",
+    "flexbox",
+    "css animation",
+    "container query",
+    "cascade layer",
+    "selector",
+    "accessibility",
+    "performance",
+    "dark mode",
+    "css guide",
+    "almanac",
+    "snippet",
+    "browser support",
+    "newsletter",
+    "layout",
+    "gradient",
+    "scroll animation",
+    "responsive design"
+  ],
+  "contains": [
+    "articles, guides, the CSS Almanac, a snippets library and curated links",
+    "published since 2007, founded by Chris Coyier and led by Geoff Graham",
+    "complete guides: Flexbox, Grid, container queries, cascade layers, selectors, color functions, dark mode",
+    "CSS Almanac reference for properties, selectors, at-rules and functions",
+    "'Classic Tricks' CSS demos (scroll animation, scroll shadows, border triangles …)",
+    "code snippets MIT licensed; written articles copyrighted",
+    "14,000+ pages in the sitemap"
+  ],
+  "formats": [
+    "docs",
+    "links",
+    "code"
+  ],
+  "stack": [
+    "css",
+    "html",
+    "javascript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://css-tricks.com/guides",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

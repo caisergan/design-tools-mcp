@@ -1,0 +1,28 @@
+{
+  "id": "github-com-openai-swarm",
+  "url": "https://github.com/openai/swarm",
+  "kind": "repo",
+  "hints_hash": "5c6547ef348ffaae",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/openai/swarm/blob/HEAD/README.md", "title": "Swarm (experimental, educational)", "status": 200},
+    {"url": "https://github.com/openai/swarm/blob/HEAD/LICENSE", "title": "LICENSE · openai/swarm", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Swarm",
+  "summary": "Educational, experimental Python framework for lightweight multi-agent orchestration, now replaced by the OpenAI Agents SDK.",
+  "description": "Educational Python framework exploring ergonomic, lightweight multi-agent orchestration around two primitives: agents and handoffs. OpenAI marks it as replaced by the OpenAI Agents SDK, which it recommends for production; the repo remains readable with example agents for triage, weather, airline, support bot and personal shopper.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["multi-agent orchestration", "ai agent", "agent handoff", "python framework", "educational", "experimental", "llm", "agent coordination", "streaming", "triage agent", "swarm"],
+  "contains": ["agents and handoffs as the two core primitives", "requires Python 3.10+", "examples: triage, weather, airline, support bot, personal shopper", "streaming, evaluations and utils", "superseded by the OpenAI Agents SDK"],
+  "formats": ["code", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/openai/swarm", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

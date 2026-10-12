@@ -1,0 +1,93 @@
+{
+  "id": "github-com-swamimalode07-rare-ui",
+  "url": "https://github.com/swamimalode07/rare-ui",
+  "kind": "repo",
+  "hints_hash": "5a21d4afd854aa63",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/swamimalode07/rare-ui/blob/HEAD/README.md",
+      "title": "or: --client cursor | vscode",
+      "status": 200
+    },
+    {
+      "url": "https://rareui.com/components",
+      "title": "Components | Rare UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Rare UI",
+  "summary": "Shadcn registry of 24+ rare animated React components and blocks built with Tailwind CSS and Motion.",
+  "description": "A shadcn registry of ready-to-use animated components — gooey nav, sidebars, AI orbs, OTP input, FAQ and more. Install with the shadcn CLI or via MCP (Claude Code, Cursor, Codex); each component is a single file you own, animated with Motion and honouring prefers-reduced-motion.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "navbar",
+    "sidebar",
+    "faq",
+    "progress",
+    "scroll-effect",
+    "text-effect",
+    "stepper",
+    "otp-input",
+    "button",
+    "list"
+  ],
+  "keywords": [
+    "shadcn registry",
+    "react component",
+    "animated component",
+    "motion",
+    "animation",
+    "tailwind css",
+    "nextjs",
+    "copy paste",
+    "navbar",
+    "sidebar",
+    "otp input",
+    "ai orb",
+    "micro interaction",
+    "free component",
+    "mcp",
+    "typescript"
+  ],
+  "contains": [
+    "24+ components across display, AI kit, navigation, inputs and feedback categories",
+    "install with the shadcn CLI or via MCP",
+    "single-file components you own — no package dependency",
+    "every component honours prefers-reduced-motion",
+    "built with Next.js, Tailwind CSS and Motion",
+    "free and sponsor-funded; license is MIT with the Commons Clause and an attribution requirement"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "framer-motion",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/swamimalode07/rare-ui",
+    "docs": "https://rareui.com/components",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

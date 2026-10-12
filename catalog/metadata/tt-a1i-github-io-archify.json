@@ -1,0 +1,36 @@
+{
+  "id": "tt-a1i-github-io-archify",
+  "url": "https://tt-a1i.github.io/archify",
+  "kind": "page",
+  "hints_hash": "63a8e1bf72fe2572",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tt-a1i.github.io/archify", "title": "Archify — AI Agent Skill for Interactive Diagrams", "status": 200},
+    {"url": "https://tt-a1i.github.io/archify/guide.html", "title": "Archify Scenario Guide — Choose the Right Diagram", "status": 200},
+    {"url": "https://github.com/tt-a1i/archify", "title": "GitHub - tt-a1i/archify: Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Archify",
+  "summary": "Agent skill that turns plain-English descriptions or a codebase into explorable, self-contained HTML diagrams.",
+  "description": "An MIT-licensed agent skill that has AI coding agents turn descriptions, plans or repositories into interactive single-file HTML diagrams, validated before they ship. Output supports five typed diagram modes — architecture, workflow, sequence, data flow and lifecycle — with dark/light themes, path tracing and PNG or motion export; a scenario guide offers 12 starting recipes. Free and open source.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "architecture diagram", "diagram", "system design", "flowchart", "sequence diagram", "data flow diagram", "diagrams as code", "ai agent", "claude code", "codex", "cursor", "opencode", "html diagram", "visualization"],
+  "contains": [
+    "installs as an agent skill: npx skills add tt-a1i/archify -g",
+    "works with Claude Code, Codex, Cursor, OpenCode and Copilot",
+    "five diagram types: architecture, workflow, sequence, data flow, lifecycle",
+    "self-contained HTML output with dark/light theme and PNG or motion export",
+    "scenario guide with 12 recipes across the five modes",
+    "81.9k GitHub stars, MIT licensed, v3.0.1 stable"
+  ],
+  "formats": ["prompts", "code", "cli"],
+  "stack": ["node", "javascript", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/tt-a1i/archify", "docs": "https://tt-a1i.github.io/archify/guide.html", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

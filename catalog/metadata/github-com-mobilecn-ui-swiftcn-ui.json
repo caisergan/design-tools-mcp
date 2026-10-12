@@ -1,0 +1,27 @@
+{
+ "id": "github-com-mobilecn-ui-swiftcn-ui",
+ "url": "https://github.com/Mobilecn-UI/swiftcn-ui",
+ "kind": "repo",
+ "hints_hash": "65ac8d9ec61528b4",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:11:07Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/Mobilecn-UI/swiftcn-ui/blob/HEAD/README.md", "title": "swiftcn-ui | Swift playground", "status": 200}
+ ],
+ "status": "ok",
+ "name": "swiftcn-ui",
+ "summary": "Copy-paste SwiftUI component library inspired by shadcn/ui, with light and dark themes.",
+ "description": "A SwiftUI playground of copy-paste components inspired by shadcn/ui — avatar, badge, button, card, input, progress, slider, tabs and toggle, styled for light and dark mode. Calendar, skeleton and textarea are marked work-in-progress and an X home screen clone is included as an example. No package install: clone the repo, open Swiftcn Playground.swiftpm in Xcode and slide.",
+ "type": "component-library",
+ "categories": ["components"],
+ "elements": ["avatar", "badge", "button", "card", "input", "progress", "slider", "switch", "tabs"],
+ "keywords": ["swiftui", "swift", "ios", "shadcn", "component library", "copy paste", "xcode", "playground", "dark mode", "light mode", "avatar", "badge", "button", "card", "progress", "slider", "tabs", "toggle", "mobile app"],
+ "contains": ["9 SwiftUI components: avatar, badge, button, card, input, progress, slider, tabs, toggle", "calendar, skeleton and textarea components marked work-in-progress", "example screens: X home clone done, Spotify work-in-progress", "runs as a Swift playground you open in Xcode", "no package install — copy the components you need", "repository is looking for a maintainer"],
+ "formats": ["code"],
+ "stack": ["swift", "swiftui"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/Mobilecn-UI/swiftcn-ui", "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

@@ -1,0 +1,76 @@
+{
+  "id": "github-com-rpcpool-yellowstone-shield",
+  "url": "https://github.com/rpcpool/yellowstone-shield",
+  "kind": "repo",
+  "hints_hash": "1090fca644efaf0c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/rpcpool/yellowstone-shield/blob/HEAD/README.md",
+      "title": "Yellowstone Shield",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Yellowstone Shield",
+  "summary": "Solana program that manages on-chain allowlists and blocklists to control transaction forwarding.",
+  "description": "An on-chain Solana program that manages allowlists and blocklists of identities, where an identity is any addressable account such as a validator, wallet or program, so transaction senders can control which leaders receive transactions. It adds a forwardingPolicies parameter and an optional Solana-ForwardingPolicies header to the sendTransaction RPC method, and ships JavaScript and Rust SDKs, a CLI for creating policies and adding or removing identities, and a Rust policy store for real-time checks. Policies are bound to a Token Extensions asset carrying name, symbol and URI.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "solana",
+    "allowlist",
+    "blocklist",
+    "transaction forwarding",
+    "solana rpc",
+    "validator",
+    "on chain policy",
+    "policy store",
+    "rust sdk",
+    "javascript sdk",
+    "cli",
+    "send transaction",
+    "token extension",
+    "transaction sender",
+    "permissionless",
+    "rpc provider",
+    "blocklist management"
+  ],
+  "contains": [
+    "on-chain allowlists and blocklists for any addressable Solana identity",
+    "program ID b1ockYL7X6sGtJzueDbxRVBEEPN4YeqoLW276R3MX8W on mainnet and devnet",
+    "JavaScript SDK, Rust SDK, CLI and Rust policy store",
+    "sendTransaction parameter forwardingPolicies and Solana-ForwardingPolicies header",
+    "policy store caches policies for real-time checks with atomic snapshots",
+    "policies bound to a Token Extensions asset with name, symbol and URI",
+    "AGPL-3.0 licensed, developed by Triton One"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "rust",
+    "javascript"
+  ],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {
+    "repo": "https://github.com/rpcpool/yellowstone-shield",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

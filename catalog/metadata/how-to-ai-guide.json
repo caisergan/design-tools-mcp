@@ -1,0 +1,35 @@
+{
+  "id": "how-to-ai-guide",
+  "url": "https://how-to-ai.guide",
+  "kind": "site",
+  "hints_hash": "90702bb48de8d0c2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:10:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://how-to-ai.guide", "title": "How to AI | Ruben Hassid | Substack", "status": null},
+    {"url": "https://ruben.substack.com/archive", "title": "Archive - How to AI", "status": 200},
+    {"url": "https://ruben.substack.com/p/upgrade", "title": "How to start - by Ruben Hassid - How to AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "How to AI",
+  "summary": "Newsletter with one step-by-step AI guide per email, showing exactly where to click on the author's own screen.",
+  "description": "Ruben Hassid's Substack publication, with over 978,000 subscribers. Each issue is a step-by-step guide on using AI tools such as ChatGPT and Claude, tested on the author's own screen with prompts to copy. Free to read; the paid tier ($200/year) adds a weekly live \"AI 101\" course. how-to-ai.guide redirects to ruben.substack.com.",
+  "type": "course",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai guide", "ai newsletter", "ai tutorial", "prompt", "prompt engineering", "how to use ai", "llm", "ai course", "chatbot"],
+  "contains": [
+    "over 978,000 subscribers",
+    "one step-by-step guide per email, tested on the author's screen",
+    "guides covering ChatGPT and Claude workflows",
+    "free posts plus a $200/year tier with a weekly live AI 101 course",
+    "how-to-ai.guide redirects to the Substack publication"
+  ],
+  "formats": ["docs", "prompts"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "charliehills-substack-com-p-resource",
+  "url": "https://charliehills.substack.com/p/resource",
+  "kind": "page",
+  "hints_hash": "037b217fd24828c5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://charliehills.substack.com/p/resource", "title": "The Free AI Resource Vault (100+ prompts, guides & cheat sheets)", "status": null}
+  ],
+  "status": "ok",
+  "name": "The Free AI Resource Vault",
+  "summary": "Free vault of 100+ prompts, Claude skills, workflows, guides and cheat sheets, unlocked by email signup.",
+  "description": "A page collecting everything Charlie Hills has made: 100+ prompts, Claude skills, guides, cheat sheets and tool stacks for creators and marketers getting things done with AI. Subscribing sends the vault link in a welcome email; the page explains where to find it and what to do if it is missing.",
+  "type": "directory",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["ai prompt", "prompt library", "claude skill", "cheat sheet", "ai workflow", "free resource", "guide", "marketing prompt", "content prompt", "resource vault", "ai tool stack"],
+  "contains": ["100+ prompts, Claude skills, guides, cheat sheets and tool stacks", "free; unlocked by subscribing", "vault link arrives in the welcome email", "updated most days", "for creators and marketers using AI"],
+  "formats": ["prompts", "docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

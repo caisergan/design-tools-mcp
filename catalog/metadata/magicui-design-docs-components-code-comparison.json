@@ -1,0 +1,20 @@
+{
+  "id": "magicui-design-docs-components-code-comparison",
+  "url": "https://magicui.design/docs/components/code-comparison",
+  "kind": "page",
+  "hints_hash": "b4b7e61157e8a180",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://magicui.design/docs/components/code-comparison", "title": "Code Comparison | React Components & Templates", "status": null}
+  ],
+  "status": "ok",
+  "name": "Code Comparison",
+  "summary": "React component that shows a before/after comparison of two code snippets side by side.",
+  "keywords": ["code comparison", "code diff", "code snippet", "before after", "react component", "shadcn", "tailwind", "nextjs", "typescript", "syntax highlighting", "ui component", "docs"],
+  "contains": ["props: className, beforeCode, afterCode, language, filename, lightTheme, darkTheme, highlightColor", "demo file: components/ui/code-comparison-demo.tsx"],
+  "formats": ["code"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "magicui-design"},
+  "confidence": 0.8
+}

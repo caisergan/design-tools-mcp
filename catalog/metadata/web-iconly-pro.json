@@ -1,0 +1,30 @@
+{
+  "id": "web-iconly-pro",
+  "url": "https://web.iconly.pro",
+  "kind": "site",
+  "hints_hash": "683f43de1b5cf493",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://web.iconly.pro", "title": "Iconly Pro - The Last Icon Pack Solution You Will Need", "status": null},
+    {"url": "https://iconly.pro/", "title": "Iconly Pro | 40,000+ Flat,Animation,3D Icons", "status": 200},
+    {"url": "https://iconly.pro/pricing", "title": "Pricing — Simple Plans for Teams & Freelancers | Iconly Pro", "status": 200},
+    {"url": "https://iconly.pro/pages/licensing-guide", "title": "Licensing Guide — How You Can Use Iconly Icons | Iconly Pro", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Iconly Pro",
+  "summary": "Icon library of 40,000+ flat, animated and 3D icons with a web app, Figma plugin and SVG, PNG, JSX export.",
+  "description": "Iconly Pro is an icon pack library for designers, developers and product teams: 40,000+ icons in 6 styles (light, outline, bold, two-tone, duotone, bulk) and 3 types (flat, animated, 3D), designed on a 24x24 grid with 70+ categories. Browse, search and download from the web app or insert icons in Figma, export as SVG, PNG, JSX or TSX, and customise colors, sizes and strokes.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon pack", "svg icon", "3d icon", "animated icon", "figma plugin", "icon library", "outline icon", "duotone icon", "jsx icon", "icon download", "customizable icon", "icon set", "design asset", "developer api"],
+  "contains": ["40,000+ flat, animated and 3D icons", "6 styles: light, outline, bold, two-tone, duotone, bulk", "70+ categories on a 24x24 grid", "exports: SVG, PNG, JSX, TSX", "web app and Figma plugin", "60fps animated icons, weekly icon updates", "Starter tier with 2,000+ icons, Personal $8/mo, Team $7 per user/mo, Lifetime $189"],
+  "formats": ["svg", "png", "code", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

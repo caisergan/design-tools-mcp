@@ -1,0 +1,80 @@
+{
+  "id": "isreadyforlaunch-com",
+  "url": "https://isreadyforlaunch.com",
+  "kind": "site",
+  "hints_hash": "8fa1b354c82f80ee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:28Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://isreadyforlaunch.com",
+      "title": "Website Launch Readiness SEO Checker",
+      "status": 200
+    },
+    {
+      "url": "https://isreadyforlaunch.com/tools/ssl-checker",
+      "title": "SSL Certificate Checker",
+      "status": 200
+    },
+    {
+      "url": "https://isreadyforlaunch.com/sitemap.xml",
+      "title": "sitemap.xml",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "isreadyforlaunch.com",
+  "summary": "Pre-launch site health checker that audits SEO, technical performance and accessibility for a URL.",
+  "description": "Enter a URL and get a passed/warnings/errors audit across SEO and technical checks: title and meta tags, canonical, Open Graph, structured data, headings, alt text, security headers and Core Web Vitals. Results can be shared and copied as an LLM fix prompt, and guide pages explain each check.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "seo checker",
+    "site audit",
+    "launch checklist",
+    "website health",
+    "accessibility",
+    "core web vital",
+    "lcp",
+    "cls",
+    "total blocking time",
+    "ssl checker",
+    "meta tag",
+    "open graph",
+    "structured data",
+    "broken link",
+    "pre-launch",
+    "audit report"
+  ],
+  "contains": [
+    "single-URL audit with passed, warnings and errors results",
+    "checks: title tag, meta description, canonical, favicon, viewport, html lang, H1, heading hierarchy, image alt text",
+    "checks: Open Graph, Twitter card, structured data, PWA metadata",
+    "performance checks: LCP, CLS, total blocking time, broken assets, JavaScript runtime errors",
+    "security checks: HTTPS, HSTS, security headers, CSP quality",
+    "shareable result and copyable LLM fix prompt",
+    "guide page per check and a separate SSL certificate checker tool"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,74 @@
+{
+  "id": "webdesign-inspiration-com",
+  "url": "https://webdesign-inspiration.com",
+  "kind": "site",
+  "hints_hash": "cf2e4decef6090ee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://webdesign-inspiration.com",
+      "title": "Web Design Inspiration : The Best Website Design Ideas",
+      "status": null
+    },
+    {
+      "url": "https://www.webdesign-inspiration.com/filter-tool",
+      "title": "Filter-tool | Webdesign-Inspiration.com",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Web Design Inspiration",
+  "summary": "Free gallery of website design ideas, updated daily and browsable by website type, industry, style and colour.",
+  "description": "Editorially curated gallery of real website designs, updated daily, where each entry shows a design and links out to the live site. The filter tool combines industry (agency, fashion, gaming, SaaS, crypto …), website type (corporate, ecommerce, mobile app, portfolio, web service, magazine/blog …), style (clean, minimalist, dark, futuristic, illustrative …) and colour; an Editor's Picks collection and a blog with reviews and deals sit alongside. A free account stores favourite designs.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "web design inspiration",
+    "website design gallery",
+    "design idea",
+    "website showcase",
+    "landing page inspiration",
+    "ui inspiration",
+    "web design trend",
+    "ecommerce website design",
+    "portfolio website",
+    "design collection",
+    "editor's pick",
+    "dark website",
+    "minimalist website",
+    "filter tool"
+  ],
+  "contains": [
+    "gallery of live website designs, updated daily",
+    "filters: industry, website type, style, colour",
+    "Editor's Picks collection",
+    "each entry links out to the original website",
+    "free account to save and organise favourite designs",
+    "blog with reviews and deals",
+    "4,636 URLs in its sitemap"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

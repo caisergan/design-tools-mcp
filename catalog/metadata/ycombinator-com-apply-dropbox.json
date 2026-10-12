@@ -1,0 +1,31 @@
+{
+  "id": "ycombinator-com-apply-dropbox",
+  "url": "https://ycombinator.com/apply/dropbox",
+  "kind": "page",
+  "hints_hash": "69e7234a81a9cd6a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:03:57Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://ycombinator.com/apply/dropbox", "title": "Dropbox's original YC application", "status": null }
+  ],
+  "status": "ok",
+  "name": "Dropbox's original YC application",
+  "summary": "Dropbox's original YC application in full: solo founder Drew Houston's answers on company, founders, progress, idea, equity and legal.",
+  "description": "The full text of Dropbox's original Y Combinator application: the company and its demo links (a screencast and a Windows build), the founding team and Drew Houston's answers across company, founders, progress, idea, equity, legal and other sections. Houston applies as a single founder and writes that he is looking for a cofounder.",
+  "type": "article",
+  "keywords": [
+    "accelerator application",
+    "application example",
+    "startup application",
+    "solo founder",
+    "demo video",
+    "startup pitch",
+    "seed funding",
+    "founder",
+    "application form",
+    "startup demo"
+  ],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

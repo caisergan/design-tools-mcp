@@ -1,0 +1,24 @@
+{
+  "id": "recent-design-i-d1hsofz-henry-labs",
+  "url": "https://recent.design/i/d1hsofz-henry-labs",
+  "kind": "page",
+  "hints_hash": "04ace6071a601077",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://recent.design/i/d1hsofz-henry-labs", "title": "Henry Labs — Recent", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Henry Labs",
+  "summary": "Showcase entry for the Henry Labs site: a dark, cinematic website with glowing gradients, checkout sections and dashboard visuals.",
+  "description": "Item page on Recent, a daily design showcase. Presents the Henry Labs website with its creator, impression and outbound-link counts, and category, style and color tags (Web; Clean, Editorial, High Contrast; Dark, Vibrant, Gradient).",
+  "keywords": ["website design", "dark mode", "gradient", "landing page", "web design inspiration", "design showcase", "cinematic", "dashboard ui", "high contrast", "editorial design", "saas website", "checkout page"],
+  "elements": ["dashboard"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "recent-design"},
+  "confidence": 0.8
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ruben-substack-com-p-powerpoint",
+  "url": "https://ruben.substack.com/p/powerpoint",
+  "kind": "page",
+  "hints_hash": "3f7ed3c14d8d81f7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:20Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ruben.substack.com/p/powerpoint",
+      "title": "Slides. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Slides.",
+  "summary": "Three tested methods for making PowerPoint decks with AI: Claude, Gamma, and Claude plus Gamma.",
+  "description": "A How to AI post (Mar 2026) on generating slide decks with AI: method 1 Claude (Cowork and the PowerPoint add-in), method 2 Gamma, method 3 Claude + Gamma, with the prompts used and the author's favorite.",
+  "type": "article",
+  "keywords": [
+    "powerpoint",
+    "ai slide",
+    "presentation",
+    "slide deck",
+    "gamma",
+    "claude",
+    "pptx",
+    "ai presentation",
+    "deck design"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ruben-substack-com"
+  },
+  "confidence": 0.85
+}

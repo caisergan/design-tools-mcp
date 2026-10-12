@@ -1,0 +1,21 @@
+{
+  "id": "designme-agency-intro",
+  "url": "https://designme.agency/intro",
+  "kind": "page",
+  "hints_hash": "8d944d3fa59b40e8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:19:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designme.agency/intro", "title": "Book a Strategy Call — DesignMe", "status": null}
+  ],
+  "status": "ok",
+  "name": "Book a Strategy Call",
+  "summary": "Booking page for a 25-minute strategy call with the DesignMe design and development agency.",
+  "description": "Intro-call booking page of a Framer-built design and development agency: pick a 25-minute slot, describe what you are building, and the team maps scope, team, timeline and next steps. Includes a client testimonial and an email address.",
+  "keywords": ["book a call", "strategy call", "discovery call", "design agency", "digital agency", "design subscription", "framer", "webflow", "saas", "product design", "website design", "rebrand", "agency intro"],
+  "elements": ["form", "testimonials", "footer"],
+  "stack": ["framer"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

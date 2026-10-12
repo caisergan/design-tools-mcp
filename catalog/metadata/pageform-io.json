@@ -1,0 +1,28 @@
+{
+  "id": "pageform-io",
+  "url": "https://pageform.io",
+  "kind": "site",
+  "hints_hash": "1d9d5c60ae67044d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pageform.io", "title": "Pageform | AI-Native Virtual Data Room for Deal Teams", "status": null},
+    {"url": "https://pageform.io/pricing", "title": "Pageform Pricing | AI Data Room & Secure Document Sharing", "status": null}
+  ],
+  "status": "ok",
+  "name": "Pageform",
+  "summary": "AI-native virtual data room: turns deal documents into a narrative room with an AI agent, viewer analytics and e-signatures.",
+  "description": "AI-native data room for fundraising, diligence and deals: upload documents and an AI agent builds a structured, narrative room you can edit, audit and analyze through chat. Page- and section-level viewer analytics show what each reader opens and revisits, alongside Q&A, NDA gating, granular permissions, e-signatures and subscriber updates. Built for founders, fund managers and investment teams; free plan with Docs, Core and Pro paid tiers.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["data room", "virtual data room", "deal room", "fundraising", "due diligence", "document sharing", "viewer analytics", "q&a", "e-signature", "nda", "investor", "ai agent", "secure file sharing"],
+  "contains": ["AI agent builds, edits and audits the data room", "narrative data room with custom sections and blocks", "page- and section-level viewer analytics", "room chat and Q&A", "NDA gating, password/email gating, custom domains, watermarking", "e-signatures and subscriber updates", "uploads: PDF, XLSX, PNG, JPG, MP4, MOV, MD, HTML", "plans: Free, Docs $30, Core $69, Pro $139 per month"],
+  "formats": ["app"],
+  "stack": ["framer"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

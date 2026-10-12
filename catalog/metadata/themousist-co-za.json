@@ -1,0 +1,29 @@
+{
+  "id": "themousist-co-za",
+  "url": "https://themousist.co.za",
+  "kind": "site",
+  "hints_hash": "8f8692e2c6629ecd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://themousist.co.za", "title": null, "status": null},
+    {"url": "https://themousist.co.za/", "title": null, "status": 200},
+    {"url": "https://themousist.co.za/portfolio", "title": null, "status": 404}
+  ],
+  "status": "partial",
+  "name": "themousist.co.za",
+  "summary": "Placeholder site pointing visitors to its social profiles and a full creative portfolio while the site is being redesigned.",
+  "description": "A one-screen holding page headed \"Welcome to Our Playground!\" that says the space is being revisited, with links to Facebook, Instagram and Twitter/X as stand-ins for the work, plus a \"Full Creative Portfolio\". Project and portfolio paths on the domain return 404.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["portfolio", "creative portfolio", "holding page", "placeholder site", "under construction", "social profile", "coming soon"],
+  "contains": ["one placeholding screen: \"Welcome to Our Playground!\"", "links to Facebook, Instagram and Twitter/X", "points to a full creative portfolio", "/portfolio and /work return 404"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.35
+}

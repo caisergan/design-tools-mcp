@@ -1,0 +1,79 @@
+{
+  "id": "github-com-nishansanjuka-react-drag-card",
+  "url": "https://github.com/nishansanjuka/react-drag-card",
+  "kind": "repo",
+  "hints_hash": "738af0d837369a73",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/nishansanjuka/react-drag-card/blob/HEAD/README.md",
+      "title": "react-drag-card",
+      "status": null
+    },
+    {
+      "url": "https://github.com/nishansanjuka/react-drag-card",
+      "title": "GitHub - nishansanjuka/react-drag-card",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nishansanjuka/react-drag-card/HEAD/package.json",
+      "title": "package.json",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "react-drag-card",
+  "summary": "Reusable React component that lets a card be dragged, resized, maximized and minimized in a floating window.",
+  "description": "A Next.js 14 demo project showcasing DraggableWrapper, a reusable React component that lets users drag, resize, maximize and minimize a customizable UI element — described in the repo as a smooth, responsive, highly configurable way to display dynamic content in a resizable window. Dependencies include Radix Slot, class-variance-authority, tailwind-merge, lodash and lucide-react.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "card"
+  ],
+  "keywords": [
+    "draggable card",
+    "resizable",
+    "floating window",
+    "react",
+    "next.js",
+    "drag and drop",
+    "maximize",
+    "minimize",
+    "tailwind",
+    "component",
+    "floating panel"
+  ],
+  "contains": [
+    "DraggableWrapper component: drag, resize, maximize, minimize",
+    "Next.js 14 demo project (create-next-app)",
+    "Radix Slot, class-variance-authority, tailwind-merge and lucide-react dependencies",
+    "52 stars on GitHub"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/nishansanjuka/react-drag-card",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

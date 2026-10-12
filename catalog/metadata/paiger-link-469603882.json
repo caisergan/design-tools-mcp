@@ -1,0 +1,25 @@
+{
+  "id": "paiger-link-469603882",
+  "url": "https://paiger.link/469603882",
+  "kind": "page",
+  "hints_hash": "5c37c2d3c0b92827",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:36:40Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    {
+      "url": "https://paiger.link/469603882",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it? | TechCrunch",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Meta debuts its Muse AI agent. Will consumers trust it?",
+  "summary": "TechCrunch article on Meta's Muse personal AI agent and the data access and trust questions around its consumer launch.",
+  "description": "A TechCrunch news article from September 2026 about Muse, Meta's personal AI agent that wants access to email, calendars, payments and health services, and about whether consumers will trust Meta with that data. The paiger.link URL is a short link that redirects to it.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "keywords": ["meta", "ai agent", "muse", "personal assistant", "privacy", "data trust", "consumer ai", "techcrunch", "news", "article"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

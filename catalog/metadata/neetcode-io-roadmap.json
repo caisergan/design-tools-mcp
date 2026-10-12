@@ -1,0 +1,22 @@
+{
+  "id": "neetcode-io-roadmap",
+  "url": "https://neetcode.io/roadmap",
+  "kind": "page",
+  "hints_hash": "e12a8947fde38142",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://neetcode.io/roadmap", "title": "NeetCode | Coding Interview Prep, Courses, Versus Mode", "status": null},
+    {"url": "https://neetcode.io/roadmap", "title": "NeetCode | Coding Interview Prep, Courses, Versus Mode", "status": 200},
+    {"url": "https://neetcode.io/", "title": "NeetCode | Coding Interview Prep, Courses, Versus Mode", "status": 200},
+    {"url": "https://neetcode.io/practice", "title": "NeetCode | Coding Interview Prep, Courses, Versus Mode", "status": 200}
+  ],
+  "status": "partial",
+  "name": "NeetCode",
+  "summary": "Roadmap page of NeetCode's coding interview prep: structured courses, 1,000+ problems and Versus mode.",
+  "description": "Roadmap page of NeetCode, a coding interview preparation platform offering structured courses, AI-assisted assessments, head-to-head Versus mode and 1,000+ practice problems. The page itself renders in JavaScript, so only the platform's title and description were readable.",
+  "keywords": ["coding interview", "interview preparation", "roadmap", "study plan", "practice problem", "algorithm", "data structure", "structured course", "versus mode", "ai assessment"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

@@ -1,0 +1,39 @@
+{
+ "id": "themefisher-com",
+ "url": "https://themefisher.com",
+ "kind": "site",
+ "hints_hash": "c139c8501d257b6c",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://themefisher.com/llms.txt", "title": "200+ Website Templates Built with Modern Stacks | Themefisher", "status": null},
+  {"url": "https://themefisher.com", "title": "200+ Website Templates Built with Modern Stacks | Themefisher", "status": 200},
+  {"url": "https://themefisher.com/categories/blog.md", "title": "Blog Templates", "status": 200},
+  {"url": "https://themefisher.com/categories/saas.md", "title": "SaaS Website Templates", "status": 200},
+  {"url": "https://themefisher.com/faq.md", "title": "FAQ", "status": 200},
+  {"url": "https://themefisher.com/license.md", "title": "License", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Themefisher",
+ "summary": "Marketplace of 200+ free and premium website templates for Astro, Next.js, Hugo, Tailwind and Bootstrap.",
+ "description": "A global themes marketplace with 200+ ready-to-use website templates across Astro (48), Hugo (33), Next.js (30), Tailwind (14) and Bootstrap (14), plus Jekyll themes. Categories cover SaaS, AI websites, blogs and admin panels; free and premium themes, bundles and an all-access pass are sold directly to startups, developers and agencies.",
+ "type": "template",
+ "categories": ["templates"],
+ "elements": [],
+ "keywords": ["website template", "astro theme", "hugo theme", "nextjs template", "tailwind template", "bootstrap template", "saas template", "startup website", "blog template", "admin template", "landing page template", "free template", "premium theme", "jekyll theme", "ai website template"],
+ "contains": [
+  "200+ templates in Astro, Hugo, Next.js, Tailwind, Bootstrap and Jekyll",
+  "product counts: Astro 48, Hugo 33, Next.js 30, Tailwind 14, Bootstrap 14",
+  "categories: SaaS, AI website, blog, admin panel, landing page",
+  "free and premium themes; bundles and an all-access pass (112+ themes)",
+  "each theme ships with documentation (202 docs pages)",
+  "free themes MIT-licensed; premium themes under a commercial license"
+ ],
+ "formats": ["templates", "code"],
+ "stack": ["astro", "nextjs", "hugo", "tailwind", "bootstrap"],
+ "pricing": "freemium",
+ "license": "MIT",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

@@ -1,0 +1,37 @@
+{
+  "id": "github-com-tw93-kami",
+  "url": "https://github.com/tw93/Kami",
+  "kind": "repo",
+  "hints_hash": "802e4a88fb29a31e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/tw93/Kami/blob/HEAD/README.md", "title": "Claude Code (update: claude plugin update kami)", "status": null},
+    {"url": "https://kami.tw93.fun/llms.txt", "title": "Kami", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kami",
+  "summary": "Agent skill that lays out briefs as PDF, PNG and PowerPoint documents — resumes, slides, reports — with a parchment design system.",
+  "description": "Kami installs into Claude Code, Codex, Cursor and other agents as a skill that turns requests like \"make a one-pager\" or \"build me a resume\" into laid-out documents: eight templates (One-Pager, Long Doc, Letter, Portfolio, Resume, Slides, Equity Report, Changelog) plus a landing-page system, in English, Chinese and Korean variants. It renders HTML to PDF with WeasyPrint, editable PPTX with python-pptx and Marp decks, draws 18 inline SVG diagram types from data or Mermaid, and ships a zero-dependency MCP server.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["agent skill", "design system", "document design", "pdf", "pptx", "powerpoint", "slide deck", "resume", "one pager", "portfolio", "letter", "changelog", "equity report", "landing page", "template", "typography", "mermaid", "svg diagram", "claude code", "codex", "cursor", "mcp server", "weasyprint", "print"],
+  "contains": [
+    "8 document templates: One-Pager, Long Doc, Letter, Portfolio, Resume, Slides, Equity Report, Changelog",
+    "landing page system; English, Chinese and Korean template variants",
+    "renders PDF via WeasyPrint, editable PPTX via python-pptx, Markdown decks via Marp",
+    "18 inline SVG diagram types; sequence, class and ER from Mermaid text",
+    "zero-dependency MCP server with render, check and screenshot tools",
+    "structure and coverage checks plus a structured brief before delivery",
+    "parchment default (#f5f4ed) with ink-blue accents; white-paper print variant",
+    "MIT licensed; installs as a skill into Claude Code, Codex and Cursor"
+  ],
+  "formats": ["prompts", "templates", "code", "docs", "cli"],
+  "stack": ["python", "weasyprint", "python-pptx", "pygments", "mermaid", "marp"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/tw93/Kami", "docs": "https://kami.tw93.fun", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

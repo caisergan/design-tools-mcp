@@ -1,0 +1,78 @@
+{
+  "id": "scriptstorm-ai",
+  "url": "https://scriptstorm.ai",
+  "kind": "site",
+  "hints_hash": "471a7512b37e1a8c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://scriptstorm.ai/llms.txt",
+      "title": "ScriptStorm.ai",
+      "status": null
+    },
+    {
+      "url": "https://scriptstorm.ai",
+      "title": "ScriptStorm.ai — AI Video Script Generator for TikTok, YouTube & Reels",
+      "status": 200
+    },
+    {
+      "url": "https://scriptstorm.ai/pricing",
+      "title": "Pricing — ScriptStorm.ai | Unlimited AI Scripts",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ScriptStorm.ai",
+  "summary": "AI video script generator that turns any topic into a filmable short-form script in under 30 seconds.",
+  "description": "Turns a topic into a ready-to-film script for TikTok, YouTube Shorts, Instagram Reels, LinkedIn and X using the S.T.A.R.T. framework (Stop, Talk, Align, Resolve, Tell). You pick platform, tone, length and call to action, then refine the draft; paid plans include unlimited script generation.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "prompt-input",
+    "form"
+  ],
+  "keywords": [
+    "ai script generator",
+    "video script",
+    "script writing",
+    "tiktok script",
+    "youtube short",
+    "instagram reel",
+    "linkedin video",
+    "short-form video",
+    "ai writing assistant",
+    "content creation",
+    "creator tool",
+    "video marketing"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "contains": [
+    "turns any topic into a script in under 30 seconds",
+    "S.T.A.R.T. framework: Stop, Talk, Align, Resolve, Tell",
+    "platform, tone, length and CTA chosen per script",
+    "scripts optimized per platform, with custom writing instructions",
+    "unlimited script generation on the paid plans",
+    "pricing: $4.99/month or $49/year"
+  ],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

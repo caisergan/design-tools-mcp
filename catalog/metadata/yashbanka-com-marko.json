@@ -1,0 +1,21 @@
+{
+  "id": "yashbanka-com-marko",
+  "url": "https://yashbanka.com/marko",
+  "kind": "page",
+  "hints_hash": "60447ae7a6a8c6a0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:52:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://yashbanka.com/marko", "title": "Marko | Native Markdown viewer for Mac, iPad & iPhone", "status": null}
+  ],
+  "status": "ok",
+  "name": "Marko",
+  "summary": "Free native Markdown viewer for Mac, iPad and iPhone that renders tables, code, diagrams and math offline.",
+  "description": "A free, native Markdown viewer for Mac, iPad and iPhone, universal on Apple Silicon and Intel. It renders GitHub Flavored Markdown with real typography, syntax-highlighted code, tables, Mermaid diagrams and math, works fully offline, reads documents aloud and is a viewer, not an editor.",
+  "type": "app",
+  "keywords": ["markdown", "markdown viewer", "markdown reader", "mac app", "ipad", "iphone", "offline", "github flavored markdown", "mermaid", "typography", "read aloud", "native app"],
+  "pricing": "free",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "opacity-com",
+  "url": "https://opacity.com",
+  "kind": "site",
+  "hints_hash": "015ee742c0f39110",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:15:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://opacity.com", "title": "Zoah: the future of software development", "status": null},
+    {"url": "https://zoah.com/features/canvas", "title": "Canvas: design real code components | Zoah", "status": null}
+  ],
+  "status": "ok",
+  "name": "Zoah",
+  "summary": "Visual-first development platform that designs, builds and deploys software with AI agents on one canvas.",
+  "description": "An early-access full-stack platform for designing and shipping software visually (previously Opacity). Products are designed on a DOM-based canvas where the design is production code, edited with a vector editor, worked on together with teammates and AI agents through git-like branching and reviews, and deployed in one click; components can be published as npm packages. A macOS app, a CLI and an MCP server are offered, and pricing centres on a Business plan (50% off the first year for Founding Members).",
+  "type": "tool",
+  "categories": ["design-tools", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["design to code", "visual development", "visual builder", "design canvas", "vector editor", "ai design", "ai agent", "ai coding agent", "full-stack", "deploy", "design system", "npm package", "figma alternative", "macos app", "cli", "mcp", "collaboration", "prototype", "software design"],
+  "contains": ["visual canvas where designs are production code", "AI agents (Operators) that work continuously without prompts", "vector editor with constraints and smart pen tool", "real-time collaboration with git-like branching and reviews", "publish real code components as npm packages", "CLI and MCP server", "macOS app download", "early access: Founding Member offer, 50% off the Business plan first year"],
+  "formats": ["app", "cli"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://zoah.com/resources/cli", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

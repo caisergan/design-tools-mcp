@@ -1,0 +1,35 @@
+{
+  "id": "supaste-com",
+  "url": "https://supaste.com",
+  "kind": "site",
+  "hints_hash": "baeee93032168587",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://supaste.com", "title": "Supaste — Clipboard History Manager for Mac", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Supaste",
+  "summary": "Local-first clipboard and screenshot history app for Mac with search, OCR, multi-clip copy, clip reminders and iCloud sync.",
+  "description": "A local-first clipboard and screenshot history manager for Mac. Saves copied text, links, images, files, code and colors into a searchable visual timeline grouped by type, app and custom categories. Reach clips through a notch shelf, quick search, inline paste, drag and drop or the full Library view; adds screenshot and image OCR, multi-clip copy, inline shortcuts, clip reminders and iCloud sync. One-time purchase; works fully offline.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["clipboard manager", "clipboard history", "macos", "screenshot", "ocr", "paste", "text snippet", "notch shelf", "quick search", "icloud sync", "local-first", "privacy", "drag and drop", "multi-clip", "clip reminder", "productivity"],
+  "contains": [
+    "local-first clipboard and screenshot history app for macOS Sonoma 14.0 or later",
+    "saves text, links, images, files, code and colors; grouped by type, app and custom categories",
+    "notch shelf, quick search, inline paste, drag and drop and a full Library view",
+    "screenshot and image OCR, multi-clip copy, inline shortcuts, clip reminders",
+    "iCloud sync; Apple Intelligence; fully offline and private (site claims)",
+    "one-time purchase with lifetime access",
+    "#4 on Product Hunt; Honorable Mention (badges on site)"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

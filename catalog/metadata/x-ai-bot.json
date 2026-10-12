@@ -1,0 +1,28 @@
+{
+  "id": "x-ai-bot",
+  "url": "https://x.ai/bot",
+  "kind": "page",
+  "hints_hash": "6f146e11d84808e2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://x.ai/bot", "title": "AI teammates that finish the work | Grok Bot", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Grok Bot",
+  "summary": "Always-on AI teammates that sign in to your tools from their own cloud computer, run routines and hand back finished work.",
+  "description": "A page on x.ai for Grok Bot: a team of always-on AI teammates. Each Bot signs in to your tools, uses them like a person, learns a routine by watching you work once, and runs in parallel on a persistent cloud computer. Included with Cursor Pro/Pro+/Ultra, SuperGrok plans, Cursor Teams and Enterprise; desktop and iOS apps.",
+  "keywords": ["ai teammate", "ai agent", "agent", "automation", "virtual computer", "routine", "ai worker", "computer use", "task automation", "parallel agent", "workflow", "team", "desktop app", "ios app"],
+  "contains": [
+    "Bots sign in to your tools and use them like a person",
+    "each user's Bots share one persistent cloud computer (files, browser, logins)",
+    "taught routines run on a schedule; Bots hand work to each other in one thread",
+    "included with Cursor Pro ($20/mo), SuperGrok ($30/mo) and Cursor Teams ($40/seat/mo); Enterprise via sales",
+    "macOS, Windows and iOS apps; weekly usage included, extra usage billed by token cost"
+  ],
+  "formats": ["app", "docs"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

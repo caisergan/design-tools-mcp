@@ -1,0 +1,34 @@
+{
+  "id": "makeitanimated-dev",
+  "url": "https://makeitanimated.dev",
+  "kind": "site",
+  "hints_hash": "43f50f0c3e01860c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://makeitanimated.dev", "title": "Make It Animated | React Native Animations", "status": null},
+    {"url": "https://makeitanimated.dev/pricing", "title": "Make It Animated | React Native Animations", "status": 200},
+    {"url": "https://makeitanimated.dev/components", "title": "Make It Animated | Components", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Make It Animated",
+  "summary": "Gallery of React Native animation examples recreated from popular apps, each with source code, plus drop-in components.",
+  "description": "A browsable collection of React Native animations recreated from real app interactions (TikTok feed, Telegram profile header, Apple Wallet hold-near-reader, Reddit pull-to-refresh, Shopify tabs, Discord button shimmer, Raycast home search and more), with the code behind each example. Also lists drop-in React Native components, each built around a single animation pattern with compound APIs and full customization, using Reanimated, Gesture Handler, the Animated API and Skia. Most pages are JavaScript-rendered, so the homepage and pricing text were not readable.",
+  "type": "gallery",
+  "categories": ["motion", "components"],
+  "elements": ["tabs", "navbar", "carousel", "button", "scroll-effect", "switch", "background", "loader", "card", "3d", "drawer", "input"],
+  "keywords": ["react native", "animation", "reanimated", "gesture handler", "skia", "mobile app animation", "interaction example", "code example", "ios", "android", "pull to refresh", "shimmer effect", "loading animation", "onboarding animation", "component"],
+  "contains": [
+    "103 docs pages of animation examples",
+    "recreates interactions from TikTok, Telegram, Apple Wallet, Reddit, Shopify, Discord, Slack and more",
+    "drop-in React Native components with compound APIs",
+    "covers tabs, navbar, carousel, button, scroll, switch, background, loader, card, 3D, drawer and input patterns"
+  ],
+  "formats": ["code"],
+  "stack": ["react-native", "reanimated", "gesture-handler", "animated-api", "skia"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

@@ -1,0 +1,88 @@
+{
+  "id": "envin-turbostarter-dev",
+  "url": "https://envin.turbostarter.dev",
+  "kind": "site",
+  "hints_hash": "61f95d66d1d40570",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://envin.turbostarter.dev",
+      "title": "Envin - Type-safe env validation with live previews",
+      "status": null
+    },
+    {
+      "url": "https://envin.turbostarter.dev/docs",
+      "title": "Overview | Envin",
+      "status": null
+    },
+    {
+      "url": "https://envin.turbostarter.dev/docs/installation",
+      "title": "Installation | Envin",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/turbostarter/envin",
+      "title": "GitHub - turbostarter/envin: Type-safe env validation with live previews",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Envin",
+  "summary": "Framework-agnostic, type-safe environment variable validation for JavaScript projects, with an interactive CLI live preview.",
+  "description": "A TypeScript package and CLI that validates environment variables from a schema you define once, using any Standard Schema validator (Zod, Valibot, ArkType). It separates server and client variables, supports shared presets across packages, and ships an interactive CLI that previews and updates your env in real time during development. Works with Next.js, Vite, Astro and other frameworks.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "env validation",
+    "environment variable",
+    "typescript",
+    "cli",
+    "standard schema",
+    "zod",
+    "valibot",
+    "arktype",
+    "next.js",
+    "vite",
+    "astro",
+    "type-safe",
+    "dotenv",
+    "config",
+    "developer tool"
+  ],
+  "contains": [
+    "type-safe env validation from a single schema",
+    "works with any Standard Schema validator",
+    "interactive CLI with a live preview server",
+    "client and server variable separation",
+    "shared presets and extends for monorepos",
+    "ESM only, requires TypeScript 5.0+"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/turbostarter/envin",
+    "docs": "https://envin.turbostarter.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

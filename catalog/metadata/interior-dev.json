@@ -1,0 +1,123 @@
+{
+  "id": "interior-dev",
+  "url": "https://interior.dev",
+  "kind": "site",
+  "hints_hash": "58f89b6366e80344",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:07:12Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://interior.dev/llms.txt",
+      "title": "interior.dev",
+      "status": null
+    },
+    {
+      "url": "https://interior.dev",
+      "title": "Free React Micro-Interaction Components — interior.dev",
+      "status": 200
+    },
+    {
+      "url": "https://www.interior.dev/docs",
+      "title": "React Micro-Interaction Components — interior.dev",
+      "status": 200
+    },
+    {
+      "url": "https://www.interior.dev/docs/tabs",
+      "title": "React Tabs — interior.dev",
+      "status": 200
+    },
+    {
+      "url": "https://www.interior.dev/docs/modal",
+      "title": "React Modal — interior.dev",
+      "status": 200
+    },
+    {
+      "url": "https://www.interior.dev/docs/drawer",
+      "title": "React Drawer — interior.dev",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "interior.dev",
+  "summary": "54 free animated React micro-interaction components — buttons, modals, drawers, tabs — with copy-paste TypeScript source.",
+  "description": "Free, open-source React micro-interaction components for the half-second after a click: loading buttons, hold-to-confirm, skeleton swaps, streaming text, modals, drawers, tabs, pagination and more. Each component is a self-contained TypeScript file, most exposing a headless hook alongside a styled example; install by copying the file or via the shadcn CLI registry. React is required, Motion is the extra runtime dependency, styled examples use Tailwind CSS.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "banner",
+    "button",
+    "command-palette",
+    "drawer",
+    "dropdown",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "slider",
+    "table",
+    "tabs",
+    "text-effect",
+    "tooltip"
+  ],
+  "keywords": [
+    "micro interaction",
+    "react component",
+    "animated component",
+    "copy paste",
+    "typescript",
+    "tailwind",
+    "motion",
+    "shadcn registry",
+    "loading button",
+    "skeleton",
+    "modal",
+    "drawer",
+    "tabs",
+    "otp input",
+    "open source",
+    "ui animation",
+    "interaction design"
+  ],
+  "contains": [
+    "54 animated React components",
+    "self-contained component files, catalogue of 54 shadcn registry items",
+    "headless hook plus styled example per component where possible",
+    "runtime dependency: Motion; examples styled with Tailwind",
+    "essay on the three failures: jumping buttons, uninterruptible animation, motion-only feedback",
+    "MIT licensed, source at github.com/ddoemonn/interior"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "framer-motion",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ddoemonn/interior",
+    "docs": "https://www.interior.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

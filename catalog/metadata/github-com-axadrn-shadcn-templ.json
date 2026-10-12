@@ -1,0 +1,33 @@
+{
+  "id": "github-com-axadrn-shadcn-templ",
+  "url": "https://github.com/axadrn/shadcn-templ",
+  "kind": "repo",
+  "hints_hash": "80bca1c45ca20638",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/axadrn/shadcn-templ/blob/HEAD/README.md", "title": "shadcn-templ", "status": null},
+    {"url": "https://shadcn-templ.com/docs/introduction", "title": "Introduction - shadcn-templ", "status": 200},
+    {"url": "https://shadcn-templ.com/docs/components", "title": "Components - shadcn-templ", "status": 200},
+    {"url": "https://shadcn-templ.com/r/registry.json", "title": "shadcn-templ registry.json", "status": 200},
+    {"url": "https://shadcn-templ.com/docs/components/table", "title": "Table - shadcn-templ", "status": 200},
+    {"url": "https://shadcn-templ.com/docs/components/tabs", "title": "Tabs - shadcn-templ", "status": 200},
+    {"url": "https://shadcn-templ.com/docs/components/toast", "title": "Toast - shadcn-templ", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-templ",
+  "summary": "Go and templ port of shadcn/ui, distributed as copy-paste code through a CLI and shadcn-format registry.",
+  "description": "Unofficial community port of shadcn/ui for Go and templ (formerly templUI), shipped as copy-paste code through a shadcn-format registry that serves 83 items at registry.json, plus CLI and theming docs. The component set runs from accordion and alert dialog to carousel, chart, checkbox, command, date picker, drawer, menubar, message, navigation menu, sheet, sidebar, slider, spinner, switch, table, tabs, toast and tooltip. The docs site also covers blocks, charts, typeset and a project creator. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "chat", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "empty-state", "form", "input", "loader", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["go", "golang", "templ", "shadcn", "component library", "registry", "cli", "tailwind", "copy-paste", "accordion", "dialog", "dropdown", "form", "table", "tabs", "toast", "chart", "sidebar", "ai-ready"],
+  "contains": ["shadcn registry with 83 items at /r/registry.json", "components from accordion and alert dialog to table, tabs, toast and tooltip", "verified pages for slider, spinner, switch, table, tabs, toast and tooltip", "docs sections: installation, theming, CLI, registry, typeset, changelog", "blocks, charts and typeset sections beside components", "templUI v1 is the previous name; site offers a project creator", "MIT license"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["go", "templ", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/axadrn/shadcn-templ", "docs": "https://shadcn-templ.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

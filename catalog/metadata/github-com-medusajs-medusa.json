@@ -1,0 +1,66 @@
+{
+  "id": "github-com-medusajs-medusa",
+  "url": "https://github.com/medusajs/medusa",
+  "kind": "repo",
+  "hints_hash": "9ab0c19031522ce8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/medusajs/medusa/blob/HEAD/README.md",
+      "title": null,
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Medusa",
+  "summary": "Open-source commerce platform and framework for building custom e-commerce applications.",
+  "description": "Commerce backend with core modules and a customisation framework for B2B or DTC stores, marketplaces, distributor platforms, PoS systems and service businesses. Core commerce modules are open source and published on npm; you can start on the managed Medusa Cloud or self-host an application following the documentation.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ecommerce",
+    "e-commerce",
+    "commerce platform",
+    "headless commerce",
+    "commerce framework",
+    "open source",
+    "marketplace",
+    "b2b commerce",
+    "point of sale",
+    "commerce module",
+    "self-hosted",
+    "checkout"
+  ],
+  "contains": [
+    "core commerce modules open source and freely available on npm",
+    "supports B2B/DTC stores, marketplaces, distributor platforms, PoS systems and service businesses",
+    "managed Medusa Cloud with automated deployments, scaling and maintenance",
+    "open-core: MIT-licensed core, RBAC Enterprise Edition under a commercial agreement",
+    "community of 14,000+ members on Discord"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/medusajs/medusa",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "github-com-arevalolance-design-system-template",
+  "url": "https://github.com/arevalolance/design-system-template",
+  "kind": "repo",
+  "hints_hash": "be6806df11333dbb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/arevalolance/design-system-template/blob/HEAD/README.md", "title": "🌱 Turborepo + TailwindCSS + Storybook", "status": null},
+    {"url": "https://github.com/arevalolance/design-system-template", "title": "GitHub - arevalolance/design-system-template: 🎨 Design System Starter · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Design System Starter",
+  "summary": "Turborepo monorepo starter for a design system: shared shadcn/ui React package, Storybook workshop, Next.js apps.",
+  "description": "A Turborepo starter for building a design system: a shared ui package — a stub React component library with Tailwind CSS and shadcn/ui already included — consumed by a Storybook workshop app, a Next.js docs app and a Next.js web app. Shared eslint-config-custom, tailwind-config and tsconfig packages round it out; every package and app is 100% TypeScript.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["design system", "turborepo", "monorepo", "storybook", "shadcn", "tailwind css", "react", "component library", "next.js", "typescript", "eslint", "prettier", "template"],
+  "contains": ["Turborepo with Storybook workshop, Next.js docs app and Next.js web app", "ui package: stub React component library with Tailwind CSS and shadcn/ui included", "shared packages: eslint-config-custom, tailwind-config, tsconfig", "packages/ui built to dist/ and consumed by the apps", "100% TypeScript; ESLint and Prettier set up", "197 stars on GitHub"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "storybook", "typescript", "turborepo"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/arevalolance/design-system-template", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "photogradient-com",
+  "url": "https://photogradient.com",
+  "kind": "site",
+  "hints_hash": "24c91d3274d79ae7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://photogradient.com", "title": "Image to Mesh Gradient", "status": null}
+  ],
+  "status": "partial",
+  "name": "Image to Mesh Gradient",
+  "summary": "Browser tool that turns a photo or a set of colors into a mesh gradient.",
+  "description": "A client-side gradient generator that builds mesh gradients from an image or from colors. The page renders its interface with JavaScript, so apart from the title and meta description nothing else could be read.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["mesh gradient", "gradient", "gradient generator", "image to gradient", "photo gradient", "color", "background", "browser tool", "generative background", "design asset"],
+  "contains": ["mesh gradient generator: gradients from a photo or from colors", "runs in the browser", "interface text not readable (JavaScript-rendered page)"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

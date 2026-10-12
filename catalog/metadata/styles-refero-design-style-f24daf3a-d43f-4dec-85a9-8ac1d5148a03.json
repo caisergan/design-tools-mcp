@@ -1,0 +1,69 @@
+{
+  "id": "styles-refero-design-style-f24daf3a-d43f-4dec-85a9-8ac1d5148a03",
+  "url": "https://styles.refero.design/style/f24daf3a-d43f-4dec-85a9-8ac1d5148a03",
+  "kind": "page",
+  "hints_hash": "c97185fdc533b4c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://styles.refero.design/style/f24daf3a-d43f-4dec-85a9-8ac1d5148a03",
+      "title": "Vercel design system | Refero Styles",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Vercel design system",
+  "summary": "Written breakdown of Vercel's light, monochrome design system: color, type, spacing and guidelines.",
+  "description": "A reference page documenting Vercel's design system: the near-white palette (#fafafa, #ffffff, #171717), Geist Sans and Geist Mono typography with a type scale, a 4px spacing grid with 6px radii, and do/don't guidelines for color, type, radius and elevation. Its DESIGN.md can be connected to AI assistants such as Claude, ChatGPT, Cursor and Codex.",
+  "type": "design-rules",
+  "elements": [
+    "button",
+    "card",
+    "navbar"
+  ],
+  "keywords": [
+    "vercel design system",
+    "design token",
+    "color palette",
+    "typography scale",
+    "geist san",
+    "geist mono",
+    "design guideline",
+    "design.md",
+    "ai agent",
+    "dev tool",
+    "monochrome",
+    "spacing",
+    "border radius",
+    "css variable",
+    "type scale"
+  ],
+  "contains": [
+    "color palette: Paper White #fafafa, Pure White #ffffff, near-black #171717 surfaces, Terminal Green #297a3a accent",
+    "typography: Geist Sans for display and interface text, Geist Mono for labels, metadata and code",
+    "type scale: minor third (1.2) from a 14px base, display sizes 56-64px with tight tracking",
+    "spacing: 4px grid; 6px border radius for cards, buttons and containers",
+    "do/don't guidelines for color, type, radius, elevation and letter-spacing",
+    "DESIGN.md for AI agents, connectable to Claude, ChatGPT, Cursor and Codex"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [
+    "css"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "styles-refero-design"
+  },
+  "confidence": 0.85
+}

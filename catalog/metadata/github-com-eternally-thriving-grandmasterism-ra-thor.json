@@ -1,0 +1,27 @@
+{
+  "id": "github-com-eternally-thriving-grandmasterism-ra-thor",
+  "url": "https://github.com/Eternally-Thriving-Grandmasterism/Ra-Thor",
+  "kind": "repo",
+  "hints_hash": "3346d36bf47a0e15",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Eternally-Thriving-Grandmasterism/Ra-Thor/blob/HEAD/README.md", "title": "Ra-Thor", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Ra-Thor",
+  "summary": "Rust research workspace pairing a mercy-gated lattice with optional AI model sessions and a security fixture corpus.",
+  "description": "Inspectable research software (workspace 14.15.6) from Autonomicity Games Inc.: a Rust monorepo whose default crates are TIERMAP and mercy-security, organized around TOLC 8 'Living Mercy Gates', PATSAGi Councils and a lattice conductor. Adds a Micro-Moment Temporal Comprehension Engine for short-video analysis, a self-evolution cascade and a public white-hat fixture corpus with a mercy-admit CLI for the ingestion gate, plus agent run briefs, Grok presets and small web device pages (/chat.html, /employ.html).",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["rust", "monorepo", "cargo workspace", "research software", "ai agent", "agent tooling", "llm", "video understanding", "ai safety", "security testing", "cli", "source-available"],
+  "contains": ["Rust workspace v14.15.6; 12 default crates (TIERMAP + mercy-security)", "mercy-admit CLI and public white-hat fixture corpus for the ingestion gate", "Micro-Moment Temporal Comprehension Engine for short-video analysis", "TOLC 8 'Living Mercy Gates', PATSAGi Councils and lattice conductor v14", "Grok presets, agent run briefs and web device pages", "source-available under AG-SML v1.1; organizations need a commercial license"],
+  "formats": ["code", "cli", "docs"],
+  "stack": ["rust"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/Eternally-Thriving-Grandmasterism/Ra-Thor", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

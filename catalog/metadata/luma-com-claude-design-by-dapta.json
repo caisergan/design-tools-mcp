@@ -1,0 +1,27 @@
+{
+  "id": "luma-com-claude-design-by-dapta",
+  "url": "https://luma.com/claude-design-by-dapta",
+  "kind": "page",
+  "hints_hash": "4caededd5cef2b3b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://luma.com/claude-design-by-dapta", "title": "Claude Design by Dapta - Open Registration · Luma", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude Design by Dapta",
+  "summary": "Sold-out San Francisco workshop on building a Claude Design landing page and wiring a voice AI agent to call leads.",
+  "description": "Luma event page for a Dapta workshop at Frontier Tower SF: participants generate a branded landing page with Claude Design from prompts, build a no-code voice AI agent that calls a lead the second a form submits, and wire the full funnel (landing page, intake form, webhook, voice call) live on stage. Lists who it is for, what to bring (a laptop and a Claude Pro/Max account), the agenda and the venue.",
+  "elements": [],
+  "keywords": ["landing page", "voice ai agent", "ai funnel", "workshop", "san francisco", "vibe coding", "lead generation", "speed to lead", "intake form", "webhook", "no code automation", "event"],
+  "contains": [
+    "live build: landing page, intake form, webhook, voice AI call",
+    "what to bring: laptop and a Claude Pro/Max account",
+    "hosted at Frontier Tower SF; 244 went; registration sold out",
+    "agenda: arrivals 5:00 PM, workshop 5:30-7:00 PM, pizza and networking 7:00-8:00 PM",
+    "hosted by Frontier Tower and Dapta AI"
+  ],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "luma-com"},
+  "confidence": 0.8
+}

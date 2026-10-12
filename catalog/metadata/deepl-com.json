@@ -1,0 +1,28 @@
+{
+  "id": "deepl-com",
+  "url": "https://deepl.com",
+  "kind": "site",
+  "hints_hash": "64f357e92718df64",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://deepl.com", "title": "DeepL AI Platform: Translation, Voice & API", "status": null},
+    {"url": "https://www.deepl.com/pro", "title": "DeepL Pro | Translate Text, Word Docs & Other Docs Securely", "status": null}
+  ],
+  "status": "ok",
+  "name": "DeepL",
+  "summary": "AI translation platform for text, documents, voice and media in 100+ languages, with a developer API.",
+  "description": "Translation and writing tools: a web translator, document and file translation in 100+ languages, real-time voice translation, DeepL Write and an API that apps and AI assistants integrate. Free tier is limited to 50,000 characters per month; Pro plans serve individuals, teams and businesses.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["machine translation", "translation", "document translation", "file translation", "voice translation", "translator app", "language tool", "writing assistant", "api", "glossary", "localization", "multilingual content"],
+  "contains": ["text, file, document and voice translation in 100+ languages", "free version: 50,000 characters per user/month", "individual plan €7.49/month billed annually; team €24.99 per user/month", "business €49.99; enterprise custom pricing", "developer API and integrations with AI assistants and apps", "glossaries, style rule lists and translation memory on paid plans"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ui-shadcn-com-docs-directory",
+  "url": "https://ui.shadcn.com/docs/directory",
+  "kind": "page",
+  "hints_hash": "93e631302e31ffca",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.shadcn.com/docs/directory", "title": "Registry Directory - shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Registry Directory",
+  "summary": "Directory of community registries for shadcn/ui components and blocks, built into the shadcn CLI.",
+  "description": "Lists community registries that serve shadcn/ui components and blocks and are built into the CLI with no extra configuration, so a component installs with npx shadcn add @<registry>/<component>. Also documents how to add a registry to the directory and how the registry schema works.",
+  "type": "directory",
+  "categories": ["components", "registries"],
+  "elements": [],
+  "keywords": ["shadcn registry", "component registry", "registry directory", "community registry", "shadcn cli", "component", "block", "react", "registry index"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ui-shadcn-com"},
+  "confidence": 0.8
+}

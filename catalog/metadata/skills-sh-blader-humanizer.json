@@ -1,0 +1,23 @@
+{
+  "id": "skills-sh-blader-humanizer",
+  "url": "https://skills.sh/blader/humanizer",
+  "kind": "page",
+  "hints_hash": "b8b02616530dc2f9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/blader/humanizer", "title": "blader/humanizer — Agent skills", "status": null},
+    {"url": "https://skills.sh/blader/humanizer/humanizer", "title": "humanizer — blader/humanizer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Humanizer",
+  "summary": "Agent skill that rewrites AI-sounding text so it reads like the writer, removing chatbot patterns without changing meaning.",
+  "description": "A SKILL.md package for AI coding agents that edits prose to strip AI tells: staged importance, rhythm by rule, triads and dashes, and other default choices a language model makes. It keeps what the text says and adds nothing. Install with npx skills add blader/humanizer.",
+  "type": "agent-skill",
+  "keywords": ["agent skill", "humanizer", "ai writing", "ai tell", "rewrite", "prose", "editing", "writing style", "skill.md", "claude code", "content"],
+  "contains": ["rewrites AI-sounding text without changing what it says", "names patterns: staging, rhythm by rule, triads and dashes", "install with npx skills add blader/humanizer", "8.9K installs on skills.sh"],
+  "formats": ["prompts"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.75
+}

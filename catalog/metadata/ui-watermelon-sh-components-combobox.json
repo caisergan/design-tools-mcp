@@ -1,0 +1,26 @@
+{
+  "id": "ui-watermelon-sh-components-combobox",
+  "url": "https://ui.watermelon.sh/components/combobox",
+  "kind": "page",
+  "hints_hash": "67bedb892d27486b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:35:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.watermelon.sh/components/combobox", "title": "React Combobox Component, Free shadcn Combobox | Watermelon UI", "status": 200},
+    {"url": "https://ui.watermelon.sh/llms.txt", "title": "Watermelon UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Combobox Components",
+  "summary": "Twelve free React comboboxes built with Tailwind CSS and shadcn/ui conventions, for searchable selects and autocomplete.",
+  "description": "Collection page of 12 free React combobox components built with Tailwind CSS and shadcn/ui conventions. Copy the code or install one with the shadcn CLI; made for searchable selects, autocomplete and multi-select.",
+  "elements": ["select", "input"],
+  "keywords": ["combobox", "react", "shadcn", "searchable select", "autocomplete", "multi select", "tailwind", "form component", "select component", "free react component", "ui component", "copy paste component"],
+  "contains": ["12 free React comboboxes", "install with the shadcn CLI from registry.watermelon.sh", "built with Tailwind CSS and shadcn/ui conventions", "for searchable selects, autocomplete and multi-select"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ui-watermelon-sh"},
+  "confidence": 0.85
+}

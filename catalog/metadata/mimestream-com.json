@@ -1,0 +1,81 @@
+{
+  "id": "mimestream-com",
+  "url": "https://mimestream.com",
+  "kind": "site",
+  "hints_hash": "d5d8119dd5cba426",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mimestream.com",
+      "title": "Mimestream | A native macOS email client for Gmail",
+      "status": 200
+    },
+    {
+      "url": "https://mimestream.com/pricing",
+      "title": "Pricing | Mimestream",
+      "status": 200
+    },
+    {
+      "url": "https://mimestream.com/about",
+      "title": "About Mimestream | Mimestream",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Mimestream",
+  "summary": "Native macOS email client for Gmail built on the Gmail API: labels, filters, snooze, templates, multiple accounts and tracking prevention.",
+  "description": "A native macOS client for Gmail that connects to the Gmail API directly rather than through an intermediary sync service. Handles multiple Google accounts with profiles, unified inbox, working hours and Focus filters, plus inbox categories, colored labels, filters, search, snooze, vacation responses and tracking prevention. Composing adds aliases, templates with variables, send and archive, undo send, and markdown with code blocks. Subscription after a 14-day free trial.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "email client",
+    "macos",
+    "gmail",
+    "native app",
+    "inbox",
+    "email triage",
+    "label",
+    "filters",
+    "snooze",
+    "template",
+    "unified inbox",
+    "multiple account",
+    "privacy",
+    "tracking prevention",
+    "keyboard shortcut",
+    "apple silicon"
+  ],
+  "contains": [
+    "native macOS client built on the Gmail API; macOS 12 Monterey or newer",
+    "triage: inbox categories, colored labels, filters, list filtering, Gmail-backed search",
+    "snooze labs, vacation responses, tracking prevention for 75+ services",
+    "multiple accounts with profiles, unified inbox, working hours and Focus filters",
+    "compose: aliases, templates with variables, send and archive, undo send, markdown and code",
+    "built for Apple Silicon; menu bar extra, swipe gestures, image markup, multiple windows",
+    "pricing: $49.99/year or $4.99/month, up to 5 devices, family sharing; group licenses per seat",
+    "14-day free trial without a credit card; founded 2019, bootstrapped team of 5"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

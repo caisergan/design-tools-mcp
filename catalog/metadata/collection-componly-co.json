@@ -1,0 +1,14 @@
+{
+  "id": "collection-componly-co",
+  "url": "https://collection.componly.co",
+  "kind": "site",
+  "hints_hash": "3f1562eb47d9ac09",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://collection.componly.co", "title": null, "status": 200}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

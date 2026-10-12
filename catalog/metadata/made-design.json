@@ -1,0 +1,76 @@
+{
+  "id": "made-design",
+  "url": "https://made.design",
+  "kind": "site",
+  "hints_hash": "dba6ba98f6a4bf40",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://made.design",
+      "title": "MADE",
+      "status": null
+    },
+    {
+      "url": "https://www.made.design/about",
+      "title": "About — MADE",
+      "status": null
+    },
+    {
+      "url": "https://made.design/work",
+      "title": "Architecture — MADE",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MADE",
+  "summary": "Site of MADE, a New Orleans architecture and design firm, with its studio profile, three service lines and a project portfolio.",
+  "description": "MADE (Merlin Architecture Design, previously One to One Design, founded 2014) is a New Orleans architecture and design firm. The site covers the studio profile, approach and team, a portfolio of architecture projects (Sprout Pediatrics, Poke Loa, Lake Pines Hospital, District Donuts, Lakeshore Drive Cabana, Bloom, Sunset Point Boat House, PCI Human Resources Building, Pelican State Credit Union) and three service lines: architectural design, software + technology consulting, and technical design consulting.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "architecture",
+    "architecture firm",
+    "architecture studio",
+    "architectural design",
+    "architecture portfolio",
+    "new orlean",
+    "design firm",
+    "project portfolio",
+    "healthcare architecture",
+    "retail architecture",
+    "residential architecture",
+    "education architecture",
+    "technical design consulting",
+    "software consulting",
+    "building information modeling"
+  ],
+  "contains": [
+    "portfolio of architecture projects across healthcare, retail, education, office and residential",
+    "studio profile, approach and team pages",
+    "services: architectural design, software + technology, technical design",
+    "firm founded 2014, based in New Orleans"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

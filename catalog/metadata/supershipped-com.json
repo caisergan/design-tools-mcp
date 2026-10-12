@@ -1,0 +1,85 @@
+{
+  "id": "supershipped-com",
+  "url": "https://supershipped.com",
+  "kind": "site",
+  "hints_hash": "c4827d5ed3765227",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:15:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://supershipped.com",
+      "title": "Supershipped - Steal like a designer.",
+      "status": null
+    },
+    {
+      "url": "https://www.supershipped.com/app",
+      "title": "Supershipped - Steal like a designer.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Supershipped",
+  "summary": "Library of editable product flows, components, animations and design systems you rebrand and ship.",
+  "description": "A design library of complete end-to-end product designs: landing pages, full websites, mobile screens, microinteractions, animations, banners, illustrations and showreels. Every item is built from real components with auto-layout, variants and design tokens plus its own brand system; you preview live, copy the full file into Claude or HTML, swap brand tokens and ship. New product flow every two weeks; free tier with paid Pro and Pro+ plans.",
+  "type": "asset-library",
+  "categories": [
+    "components",
+    "inspiration"
+  ],
+  "elements": [
+    "hero",
+    "banner",
+    "background",
+    "empty-state",
+    "card"
+  ],
+  "keywords": [
+    "editable design",
+    "design library",
+    "product flow",
+    "landing page",
+    "design system",
+    "figma",
+    "html export",
+    "component",
+    "micro interaction",
+    "animation",
+    "banner",
+    "background gradient",
+    "mobile screen",
+    "illustration",
+    "showreel",
+    "rebrand",
+    "design asset",
+    "prompt export"
+  ],
+  "contains": [
+    "editable end-to-end product flows, not screenshots or flat mockups",
+    "real components with auto-layout, variants and design tokens",
+    "each item ships with its own brand: colour, typography and spacing tokens",
+    "items: landing pages, full websites, mobile screens, microinteractions, animations, banners, illustrations, showreels",
+    "free tier, Pro $9/month, Pro+ $49/month",
+    "new product flow every two weeks",
+    "HTML export and AI prompt export; Figma export coming soon"
+  ],
+  "formats": [
+    "code",
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "github-com-s5sajid-next-dashcommerce",
+  "url": "https://github.com/S5SAJID/next-dashcommerce",
+  "kind": "repo",
+  "hints_hash": "eab5a7d7c25a9c9a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/S5SAJID/next-dashcommerce/blob/HEAD/README.md", "title": "S5ARC", "status": 200}
+  ],
+  "status": "ok",
+  "name": "S5ARC",
+  "summary": "Multi-tenant e-commerce platform: launch online stores on custom subdomains, with admin dashboard built in.",
+  "description": "An open-source e-commerce platform for launching stores quickly: each tenant runs its own store on a custom subdomain with isolated data, plus product management, cart, checkout and order tracking. Store owners get an admin dashboard for inventory, orders and settings; authentication uses Better Auth with email verification. Built with Next.js 15 (App Router), React 19, Tailwind CSS v4, shadcn/ui, Drizzle ORM over PostgreSQL and Zod. AGPL-3.0 licensed, with a commercial licensing option.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["dashboard", "table", "form", "card", "input", "select", "badge", "pagination", "dropdown", "modal"],
+  "keywords": ["ecommerce platform", "multi-tenant", "online store", "saas", "storefront", "admin dashboard", "product management", "order management", "checkout", "nextjs", "react", "tailwind", "shadcn ui", "drizzle", "postgresql", "better auth", "self-hosted", "open source"],
+  "contains": ["multi-tenancy: stores on custom subdomains with isolated data", "full flow: products, cart, checkout and order tracking", "admin dashboard for inventory, orders and store settings", "Next.js 15 App Router, React 19, Tailwind CSS v4", "Drizzle ORM over PostgreSQL, Zod validation, Better Auth", "AGPL-3.0 with a commercial licensing option"],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn-ui", "drizzle", "postgresql", "better-auth", "zod", "typescript"],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/S5SAJID/next-dashcommerce", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

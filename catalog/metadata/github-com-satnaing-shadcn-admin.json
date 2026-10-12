@@ -1,0 +1,88 @@
+{
+  "id": "github-com-satnaing-shadcn-admin",
+  "url": "https://github.com/satnaing/shadcn-admin",
+  "kind": "repo",
+  "hints_hash": "55fbf178f889ad3f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/satnaing/shadcn-admin/blob/HEAD/README.md",
+      "title": "Shadcn Admin Dashboard",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Admin Dashboard",
+  "summary": "Admin dashboard UI built with shadcn/ui and Vite, with sidebar, global search command and 10+ pages.",
+  "description": "A reusable admin dashboard UI crafted with shadcn/ui and Vite, with light/dark mode, a built-in sidebar, a global search command, RTL support and 10+ pages. Components are adapted from shadcn/ui examples, several modified for RTL and other improvements; the author positions it as a collection of dashboard UI to reuse rather than a starter template.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "components"
+  ],
+  "elements": [
+    "dashboard",
+    "sidebar",
+    "command-palette",
+    "table",
+    "select",
+    "calendar",
+    "modal",
+    "drawer",
+    "dropdown",
+    "switch"
+  ],
+  "keywords": [
+    "admin dashboard",
+    "dashboard ui",
+    "shadcn ui",
+    "vite",
+    "react",
+    "sidebar",
+    "command palette",
+    "dark mode",
+    "rtl",
+    "responsive",
+    "admin panel",
+    "data table",
+    "typescript",
+    "tanstack router",
+    "accessibility"
+  ],
+  "contains": [
+    "admin dashboard UI with 10+ pages",
+    "built-in sidebar component and global search command",
+    "light/dark mode, responsive, accessible, RTL support",
+    "customized components: scroll-area, sonner, separator",
+    "RTL-updated components: calendar, table, sidebar, select, switch and more",
+    "Vite + TanStack Router + TypeScript stack"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "vite",
+    "typescript",
+    "tailwind",
+    "radix",
+    "tanstack-router",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/satnaing/shadcn-admin",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

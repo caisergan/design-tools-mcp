@@ -1,0 +1,27 @@
+{
+  "id": "github-com-jacksonkasi1-tablecraft",
+  "url": "https://github.com/jacksonkasi1/TableCraft",
+  "kind": "repo",
+  "hints_hash": "852e393c78ce28a1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/jacksonkasi1/TableCraft/blob/HEAD/README.md", "title": "TableCraft", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TableCraft",
+  "summary": "Drizzle ORM table engine plus a React data table component on TanStack Table and shadcn/ui; columns come from your schema.",
+  "description": "A backend query engine and React table component that generate table columns automatically from a Drizzle schema, with no column definitions. Server-side filtering, sorting, global search, cursor or offset pagination, CSV/Excel export, column resizing, URL state sync and role-based column visibility, with adapters for Hono, Express, Next.js, SvelteKit and Elysia.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["table", "pagination", "input", "date-picker"],
+  "keywords": ["data table", "table", "drizzle orm", "tanstack table", "shadcn ui", "react", "server-side filtering", "sorting", "pagination", "global search", "csv export", "excel export", "url state", "column resizing", "column visibility", "keyboard navigation", "admin panel", "typescript"],
+  "contains": ["columns auto-generated from the Drizzle schema, no column definitions", "server-side filtering, sorting, search and pagination", "CSV and Excel export of selected or all rows", "search, filters, sort and page state synced to the URL", "cursor or offset based pagination", "server adapters: Hono, Express, Next.js, SvelteKit, Elysia", "packages: engine, table, codegen, client, plugin-cache"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "tailwind", "typescript", "tanstack-table", "drizzle"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/jacksonkasi1/TableCraft", "docs": "https://jacksonkasi.gitbook.io/tablecraft", "npm": "@tablecraft/table", "figma": null, "parent": null},
+  "confidence": 0.9
+}

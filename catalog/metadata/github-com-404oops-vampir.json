@@ -1,0 +1,36 @@
+{
+  "id": "github-com-404oops-vampir",
+  "url": "https://github.com/404oops/vampir",
+  "kind": "repo",
+  "hints_hash": "e90b4cbd803edaac",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/404oops/vampir/blob/HEAD/README.md", "title": "Vampir", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vampir",
+  "summary": "Rust widget toolkit for GPUI apps: buttons, fields, menus, pop-ups and tables over a small OKLCH palette.",
+  "description": "A widget toolkit for building GPUI desktop apps in Rust, with a physical-surface style — lit panels, raised controls, recessed fields — shared through lighting helpers. Controls (button, switch, checkbox, slider, textfield, combo, table, tabs, dialog, tooltip, command palette and more) take a value, palette and context and return an element, so they own no app state; the theme derives from a hue, saturation and light/dark scheme that can follow the desktop. A gallery app demonstrates every widget; core depends only on gpui-ce and unicode-segmentation; MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "badge", "button", "card", "checkbox", "command-palette", "dropdown", "input", "loader", "menubar", "modal", "progress", "select", "slider", "switch", "table", "tabs", "tooltip"],
+  "keywords": ["gpui", "rust", "widget toolkit", "component library", "desktop app", "ui kit", "text input", "table", "command palette", "context menu", "tooltip", "modal dialog", "slider", "switch", "checkbox", "oklch", "dark mode", "keyboard navigation"],
+  "contains": [
+    "controls: button, iconbutton, switch, checkbox, radiogroup, segmented, chip, spinbox, textfield, textarea, combo",
+    "more controls: slider, progressbar, spinner, badge, separator, scrollbar, caption, fading text",
+    "containers: tab bar, split, collapsible, dialog, card, scroll area, row / column",
+    "menus and overlays: nested context menus, menubutton, tooltip, command palette and search lists with fuzzy matching",
+    "data: draggable tab bar, flattened tree, sortable table header, selectable list",
+    "theme from hue and saturation with a light/dark scheme that can follow the desktop",
+    "physical-surface style: lit, raised, recessed, panel, rim, glow, shade and ground helpers",
+    "gallery app with every widget in one window; macOS menu bar demo; MIT licensed; core depends only on gpui-ce"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["rust", "gpui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/404oops/vampir", "docs": "https://github.com/404oops/vampir/blob/HEAD/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

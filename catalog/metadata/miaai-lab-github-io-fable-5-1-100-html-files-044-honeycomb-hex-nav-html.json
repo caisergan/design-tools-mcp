@@ -1,0 +1,21 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-044-honeycomb-hex-nav-html",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/044-honeycomb-hex-nav.html",
+  "kind": "page",
+  "hints_hash": "e92ab043014825e8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/044-honeycomb-hex-nav.html", "title": "Apiary Studio — Honeycomb Navigation", "status": 200},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Apiary Studio — Honeycomb Navigation",
+  "summary": "Site navigation concept where a honeycomb of hexagonal cells replaces the menu bar; move across the comb and open a cell.",
+  "description": "A self-contained HTML study of navigation built as a honeycomb. The page presents 'Apiary Studio' with a 'Design · Research · Slow Craft' tagline and asks the visitor to move across the comb and choose a cell to open it (Cell 01 leads to Work). One of the Fable 5.1 100 HTML Files studies.",
+  "elements": ["navbar"],
+  "keywords": ["honeycomb", "hexagon", "navigation", "hex nav", "menu concept", "site navigation", "landing page", "interactive menu", "creative navigation", "html study", "visual study", "web experiment"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

@@ -1,0 +1,32 @@
+{
+  "id": "birobirobiro-dev",
+  "url": "https://birobirobiro.dev",
+  "kind": "site",
+  "hints_hash": "24076b857278d666",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://birobirobiro.dev", "title": "birobirobiro | Portfolio", "status": null},
+    {"url": "https://birobirobiro.dev/about", "title": "About | birobirobiro", "status": null},
+    {"url": "https://birobirobiro.dev/setup", "title": "Setup | birobirobiro", "status": 200},
+    {"url": "https://birobirobiro.dev/changelog", "title": "Changelog | birobirobiro", "status": 200},
+    {"url": "https://birobirobiro.dev/projects", "title": "Projects | birobirobiro", "status": 200},
+    {"url": "https://birobirobiro.dev/media-kit", "title": "Media Kit | birobirobiro", "status": 200}
+  ],
+  "status": "ok",
+  "name": "birobirobiro",
+  "summary": "Personal portfolio of front-end developer and content creator João Inácio, with projects, setup, shop and changelog pages.",
+  "description": "Portfolio site built with Next.js, Tailwind CSS and shadcn/ui, bilingual in Portuguese and English. A bento grid of cards links to a project list, about, contact, setup/gear, shop, media kit and a versioned changelog, with a newsletter signup and a GitHub activity graph.",
+  "type": "template",
+  "categories": ["inspiration"],
+  "elements": ["hero", "bento-grid", "contact", "changelog"],
+  "keywords": ["portfolio", "personal website", "developer portfolio", "front-end developer", "inspiration", "bento grid", "nextjs", "tailwind", "shadcn", "react", "changelog", "media kit", "projects page"],
+  "contains": ["project list including easyfy and awesome-shadcn/ui", "bilingual PT/EN", "setup page listing hardware and gear", "changelog documenting five portfolio versions since 2020", "media kit with audience stats (Instagram 21K, YouTube 9.5K)", "newsletter signup", "GitHub activity graph (3,305 contributions in 2026)"],
+  "formats": ["links"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

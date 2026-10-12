@@ -1,0 +1,40 @@
+{
+  "id": "thesvg-org",
+  "url": "https://thesvg.org",
+  "kind": "site",
+  "hints_hash": "a562b3740d575035",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://thesvg.org/llms.txt", "title": "theSVG", "status": null},
+    {"url": "https://thesvg.org", "title": "theSVG - 7,432+ Free Brand SVG Icons for Developers and Designers", "status": 200},
+    {"url": "https://thesvg.org/docs", "title": "Docs & Guides | theSVG", "status": 200},
+    {"url": "https://thesvg.org/categories", "title": "Browse All Categories | theSVG", "status": 200},
+    {"url": "https://thesvg.org/docs/api", "title": "REST API | theSVG", "status": 200},
+    {"url": "https://thesvg.org/docs/cdn", "title": "CDN / Plain HTML | theSVG", "status": 200},
+    {"url": "https://raw.githubusercontent.com/glincker/thesvg/HEAD/README.md", "title": "Fetch the manifest once, filter client-side", "status": 200}
+  ],
+  "status": "ok",
+  "name": "theSVG",
+  "summary": "Open-source library of 7,400+ brand, cloud and Kubernetes SVG icons with npm packages, CLI, CDN and MCP server.",
+  "description": "Brand and cloud SVG icons: 7,400+ icons across brand logos, AWS Architecture, Azure Services, Google Cloud, Kubernetes, auth badges and community collections, each in up to 7 variants (color, mono, light, dark, wordmark). Available as typed npm packages for React, Vue, Svelte and React Native, a CLI, static CDN URLs, a JSON manifest and an MCP server for AI agents.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["svg icon", "brand icon", "logo", "brand logo", "icon library", "cloud icon", "aws icon", "azure icon", "google cloud icon", "kubernetes icon", "npm package", "react", "vue", "svelte", "cdn", "cli", "mcp server", "wordmark", "mono icon", "auth badge", "2fa badge", "icon search", "free icon", "developer icon"],
+  "contains": [
+    "7,400+ SVG icons in 7 collections: Brand, AWS, Azure, Google Cloud, Kubernetes, Community, Auth Badges",
+    "4,675 brand icons across 115+ categories; 12,300+ total variants",
+    "Up to 7 variants per icon: color, mono, light, dark, wordmark, wordmarkLight, wordmarkDark",
+    "npm packages for React, Vue, Svelte and React Native, plus a CLI and MCP server",
+    "Static JSON manifests (/api/registry.json, /api/categories.json) and CDN URLs, no auth required",
+    "Figma, VS Code, Raycast, Neovim, Alfred and browser extensions; MCP server for AI tools"
+  ],
+  "formats": ["svg", "npm-package", "cli", "api", "docs"],
+  "stack": ["react", "vue", "svelte", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/glincker/thesvg", "docs": "https://thesvg.org/docs", "npm": "thesvg", "figma": null, "parent": null},
+  "confidence": 0.9
+}

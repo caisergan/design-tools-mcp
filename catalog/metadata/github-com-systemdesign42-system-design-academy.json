@@ -1,0 +1,33 @@
+{
+  "id": "github-com-systemdesign42-system-design-academy",
+  "url": "https://github.com/systemdesign42/system-design-academy",
+  "kind": "repo",
+  "hints_hash": "504dea548f8c869d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/systemdesign42/system-design-academy/blob/HEAD/README.md", "title": "System Design Academy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "System Design Academy",
+  "summary": "Curated index of system design and AI engineering case studies, fundamentals and interview guides.",
+  "description": "A GitHub README reading list: engineering case studies from companies (Netflix, Uber, Discord, Instagram, Stripe and more), system design fundamentals and interview frameworks, AI engineering guides (agents, RAG, MCP, evals, LLMs) and software white papers, all as links organized by topic and company name.",
+  "type": "directory",
+  "categories": ["dev-ai-tools", "learning"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "ai engineering", "software architecture", "distributed system", "scalability", "case study", "white paper", "llm", "rag", "ai agent", "backend", "interview preparation", "engineering blog"],
+  "contains": [
+    "company case studies organized A–Z (Airbnb, Netflix, Uber, Discord, Stripe and more)",
+    "system design fundamentals and interview frameworks",
+    "AI engineering guides: agents, RAG, MCP, evals, LLMs",
+    "software white papers: Amazon Dynamo, Google Spanner, Meta XFaaS",
+    "CC BY-NC-ND 4.0 license"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-NC-ND-4.0",
+  "related": {"repo": "https://github.com/systemdesign42/system-design-academy", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

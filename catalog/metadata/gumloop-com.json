@@ -1,0 +1,32 @@
+{
+  "id": "gumloop-com",
+  "url": "https://gumloop.com",
+  "kind": "site",
+  "hints_hash": "032e1d48f111c702",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gumloop.com/llms.txt", "title": "Gumloop", "status": null},
+    {"url": "https://gumloop.com", "title": "Gumloop: Build AI agents for work", "status": null},
+    {"url": "https://www.gumloop.com/templates", "title": "Gumloop Community Templates | AI Agent and Workflow Automation Templates", "status": null},
+    {"url": "https://www.gumloop.com/pricing", "title": "Pricing | Gumloop", "status": null},
+    {"url": "https://www.gumloop.com/about", "title": "About Gumloop", "status": null},
+    {"url": "https://www.gumloop.com/llms.txt", "title": "Gumloop", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Gumloop",
+  "summary": "Multiplayer AI agent builder: teams build agents on any model with 400+ connectors, triggers and skills.",
+  "description": "Teams describe work in plain language and get agents that read and write company apps, run on triggers, reuse skills they write and share, and produce artifacts such as dashboards, documents, spreadsheets and web apps. Agents get a real browser with saved logins and CAPTCHA handling. Model-agnostic, with enterprise controls (SSO, audit logging, usage monitoring, VPC deployments), a REST API and an MCP server.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "prompt-input", "ai-agent-ui"],
+  "keywords": ["ai agent", "agent builder", "ai automation", "workflow automation", "trigger", "connector", "mcp", "no-code", "artifact", "skill", "lead qualification", "crm", "seo automation", "data analysis", "enterprise", "template"],
+  "contains": ["Agents built in plain language with any AI model", "400+ connectors and 100+ MCP integrations", "Triggers, Skills and Artifacts (web apps, docs, spreadsheets, images)", "Real browser with saved logins, CAPTCHA handling and session recordings", "Enterprise: SSO, audit logs, usage monitoring, VPC deployment", "REST API at api.gumloop.com plus an MCP server; CLI and Chrome extension", "185+ community agent and workflow templates", "Pro from $37/month; Enterprise custom pricing"],
+  "formats": ["app", "api", "cli", "docs", "templates"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://docs.gumloop.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skills-google",
+  "url": "https://skills.google",
+  "kind": "site",
+  "hints_hash": "768b34751aa5016d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.google", "title": "Google Skills", "status": null},
+    {"url": "https://www.skills.google/subscriptions", "title": "Purchase A Subscription | Google Skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Google Skills",
+  "summary": "Google's learning platform for AI and cloud skills: free starter courses, badges and certifications, plus a $29/month Pro plan.",
+  "description": "A training platform for Google Cloud and AI skills, with a catalog of courses, learning paths, hands-on labs, skill badges and certifications (kickstart certificates, skill badges, professional certifications). Topics include AI, Vertex AI, AutoML, prompt design, Gemini and DeepMind. Starter is free — 35 credits a month, limited hands-on labs and badges across all levels — while Pro unlocks thousands of courses and unlimited labs for $29/month, with 7-day trials for new subscribers.",
+  "type": "course",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["google cloud", "ai course", "free course", "certification", "skill badge", "learning path", "training", "hands-on lab", "vertex ai", "prompt design", "gemini", "career", "online course"],
+  "contains": ["Starter plan free: 35 credits a month, limited labs, skill badges", "Pro plan $29/month: unlimited hands-on labs, thousands of courses; 7-day trial", "catalog, paths, activities and achievements sections", "certificates, skill badges and certifications", "AI topics: DeepMind, Gemini, Vertex AI, AutoML, prompt design", "GEAR developer program with 35 monthly credits"],
+  "formats": ["video", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

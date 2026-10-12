@@ -1,0 +1,92 @@
+{
+  "id": "recent-design",
+  "url": "https://recent.design",
+  "kind": "site",
+  "hints_hash": "b85184294423fe91",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://recent.design",
+      "title": "Recent — Design Inspiration",
+      "status": 200
+    },
+    {
+      "url": "https://recent.design/skills",
+      "title": "Design Agent Skills — Recent",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Recent",
+  "summary": "Curated design inspiration gallery of 1,100+ websites, app screenshots, OG images, app icons and design agent skills.",
+  "description": "A daily-updated gallery of design work: websites, OG images, app screenshots and app icons, each entry linking out to the live site or app. Side sections list design agent skills for coding agents and a design jobs board.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [
+    "3d",
+    "card",
+    "button",
+    "ai-agent-ui",
+    "hero",
+    "loader",
+    "carousel",
+    "slider",
+    "cursor",
+    "404",
+    "switch",
+    "footer"
+  ],
+  "keywords": [
+    "design inspiration",
+    "website gallery",
+    "landing page inspiration",
+    "app screenshot",
+    "og image",
+    "app icon",
+    "3d design",
+    "dark mode",
+    "portfolio inspiration",
+    "design gallery",
+    "ui inspiration",
+    "web design showcase",
+    "micro interaction",
+    "loading animation",
+    "animated card",
+    "cursor effect",
+    "design job board",
+    "agent skill",
+    "mobile app design",
+    "design feed"
+  ],
+  "contains": [
+    "1,114 gallery examples",
+    "sections: websites, OG images, app screenshots, app icons, tools, skills, jobs",
+    "13 design agent skills listed with install counts",
+    "design jobs board with postings from companies",
+    "1,125 urls in the sitemap",
+    "item tags include 3d, card, button, hero, loader, carousel, cursor, 404, switch"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mobbin-com-sites-butter-1ae83d90-8b85-45c1-a73b-8269cd64df34-e2064df9-d8",
+  "url": "https://mobbin.com/sites/butter-1ae83d90-8b85-45c1-a73b-8269cd64df34/e2064df9-d808-45da-825f-a3860293919f/preview",
+  "kind": "page",
+  "hints_hash": "8d58fcf694fd5873",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://mobbin.com/sites/butter-1ae83d90-8b85-45c1-a73b-8269cd64df34/e2064df9-d808-45da-825f-a3860293919f/preview", "title": "Butter | Mobbin", "status": 200 },
+    { "url": "https://mobbin.com/llms.txt", "title": "Mobbin", "status": 200 }
+  ],
+  "status": "partial",
+  "name": "Butter | Mobbin",
+  "summary": "Mobbin's preview page for the Butter website, in its library of real app and website design references.",
+  "keywords": ["design reference", "website screenshot", "web design", "ui inspiration", "app screenshot", "design library", "website section", "product flow", "ui pattern", "design research", "screen capture", "visual reference"],
+  "formats": ["screenshots"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "mobbin-com" },
+  "confidence": 0.6
+}

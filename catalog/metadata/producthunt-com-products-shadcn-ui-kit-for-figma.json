@@ -1,0 +1,19 @@
+{
+  "id": "producthunt-com-products-shadcn-ui-kit-for-figma",
+  "url": "https://producthunt.com/products/shadcn-ui-kit-for-figma",
+  "kind": "page",
+  "hints_hash": "39ae1650b9f05a6b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://producthunt.com/products/shadcn-ui-kit-for-figma", "title": "ShadcnDesign: Complete AI-Powered Figma Toolkit for shadcn/ui | Product Hunt", "status": null}
+  ],
+  "status": "ok",
+  "name": "ShadcnDesign",
+  "summary": "Figma toolkit for shadcn/ui with 2,000+ components, 5 icon libraries, AI code generation and Pro Blocks.",
+  "keywords": ["figma toolkit", "shadcn ui", "figma component library", "ui kit", "design kit", "icon library", "design mockup", "ai code generation", "theme generator", "design to code", "figma block", "product launch"],
+  "categories": ["design-tools", "components", "icons"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

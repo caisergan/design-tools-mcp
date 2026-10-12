@@ -1,0 +1,30 @@
+{
+  "id": "remixicon-com",
+  "url": "https://remixicon.com",
+  "kind": "site",
+  "hints_hash": "78970c8dc53fae88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://remixicon.com", "title": "Remix Icon - Open source icon library", "status": 200},
+    {"url": "https://github.com/Remix-Design/RemixIcon", "title": "GitHub - Remix-Design/RemixIcon: Open source neutral style icon system · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/README.md", "title": "or", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/License", "title": "Remix Icon License v1.0", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Remix Icon",
+  "summary": "Open-source icon library of 3200+ neutral-style symbols, shipped as SVG, webfont, sprite and React/Vue packages.",
+  "description": "An open-source icon library of 3200+ neutral-style symbols, each drawn in outlined and filled styles on a 24x24 grid. Icons are available as SVG and PNG downloads, a webfont, an SVG sprite and React/Vue packages, with an official Figma plugin, an MCP server and PowerPoint/Keynote versions. Free for personal and commercial use under the Remix Icon License v1.0.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "icon pack", "svg icon", "png icon", "icon font", "webfont", "svg sprite", "react", "vue", "figma plugin", "open source icon", "neutral icon", "outlined icon", "filled icon", "mcp server"],
+  "contains": ["3200+ icons in outlined and filled styles on a 24x24 grid", "SVG and PNG downloads, SVG sprite and webfont (npm, CDN or manual)", "React and Vue 3 packages", "official Figma plugin, plus MCP server and PowerPoint/Keynote versions", "free for personal and commercial use, attribution optional", "8.4k GitHub stars, 561 forks"],
+  "formats": ["svg", "png", "font-files", "npm-package"],
+  "stack": ["react", "vue"],
+  "pricing": "free",
+  "license": "LicenseRef-Remix-Icon-License-1.0",
+  "related": {"repo": "https://github.com/Remix-Design/RemixIcon", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

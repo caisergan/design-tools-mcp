@@ -1,0 +1,28 @@
+{
+  "id": "github-com-checkcheckzz-system-design-interview",
+  "url": "https://github.com/checkcheckzz/system-design-interview",
+  "kind": "repo",
+  "hints_hash": "f0847d6a8daadb98",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/checkcheckzz/system-design-interview/blob/HEAD/README.md", "title": "README", "status": 200},
+    {"url": "https://github.com/checkcheckzz/system-design-interview", "title": "GitHub - checkcheckzz/system-design-interview: System design interview for IT companies · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "system-design-interview",
+  "summary": "Handbook of system design interview tips, reading lists and reference answers for IT company interviews.",
+  "description": "A repository for preparing system design interviews with a systematic approach: interview tips, basic system design knowledge, a directory of company engineering blogs, papers and articles on real products and systems, hot interview questions with references, book lists and object-oriented design notes.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "interview preparation", "interview question", "scalability", "cap theorem", "distributed system", "load balancer", "database", "engineering blog", "object oriented design", "reading list"],
+  "contains": ["sections: interview tips, basic knowledge, engineering blogs, products and systems, hot questions, OOD", "reference links for common design questions (CDN, key-value store, news feed, tinyurl …)", "23.8k stars, 5.3k forks"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/checkcheckzz/system-design-interview", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

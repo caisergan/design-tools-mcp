@@ -1,0 +1,29 @@
+{
+  "id": "connectedpapers-com",
+  "url": "https://connectedpapers.com",
+  "kind": "site",
+  "hints_hash": "9cbd34f2644116da",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://connectedpapers.com", "title": "Connected Papers | Find and explore academic papers", "status": 200},
+    {"url": "https://www.connectedpapers.com/about", "title": "Connected Papers | Find and explore academic papers", "status": 200},
+    {"url": "https://www.connectedpapers.com/faq", "title": "Connected Papers | Find and explore academic papers", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Connected Papers",
+  "summary": "Visual tool for exploring academic papers and finding ones relevant to a field of research.",
+  "description": "Connected Papers is a visual tool to help researchers and applied scientists find academic papers relevant to their field of work. Its pages render client-side, so only the site's title and meta description were readable; the interactive paper graph itself could not be inspected.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["academic paper", "research paper", "paper discovery", "literature review", "visual tool", "scientific research", "research tool"],
+  "contains": ["visual tool for finding academic papers relevant to a field of work"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

@@ -1,0 +1,38 @@
+{
+  "id": "opensourceui-in",
+  "url": "https://opensourceui.in",
+  "kind": "site",
+  "hints_hash": "7e1a4aa71f25fb0f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://opensourceui.in/llms.txt", "title": "Opensource UI", "status": null},
+    {"url": "https://opensourceui.in", "title": "Opensource UI — Free React UI Library & Next.js Components (Copy-Paste)", "status": 200},
+    {"url": "https://opensourceui.in/components", "title": "Free UI Library — React & Next.js Components | Opensource UI | Opensource UI", "status": 200},
+    {"url": "https://opensourceui.in/about", "title": "About | Opensource UI | Opensource UI", "status": 200},
+    {"url": "https://opensourceui.in/components/ipod", "title": "Apple iPod — Free React Component | Opensource UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Opensource UI",
+  "summary": "Free MIT-licensed React and Next.js library of 207+ copy-paste components, from forms and widgets to Apple device mockups.",
+  "description": "A free React and Next.js UI library of copy-paste components, each with a live preview and copy-ready TypeScript source built on Tailwind CSS v4. 207 components are organized across 30 categories — buttons, inputs, tables, calendars, toasts, clocks, widgets — alongside Apple-style device mockups (iPhone, MacBook, iPad, Apple Watch, iPod, browser). MIT licensed for personal and commercial use, no npm package and no vendor lock-in.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["background", "button", "input", "toast", "switch", "calendar", "table", "card", "form", "dock", "navbar", "team"],
+  "keywords": ["react component", "nextjs component", "copy paste component", "free ui library", "ui kit", "tailwind css", "typescript", "apple mockup", "iphone mockup", "macbook mockup", "device mockup", "widget", "browser mockup", "clock widget", "form", "table", "calendar", "toast", "dock", "navbar", "mit license", "open source ui"],
+  "contains": [
+    "207 components across 30 categories",
+    "Apple device mockups: iPhone, MacBook, iPad, Apple Watch, iPod, browser",
+    "copy-paste TypeScript source; npm install clsx tailwind-merge lucide-react",
+    "live previews with variant props per component",
+    "forms, tables, calendars, toasts, switches, clocks and widgets",
+    "MIT licensed, free for personal and commercial use; no attribution required"
+  ],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "lucide"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/bidyut10/opensourceui", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

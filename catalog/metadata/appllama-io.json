@@ -1,0 +1,41 @@
+{
+  "id": "appllama-io",
+  "url": "https://appllama.io",
+  "kind": "site",
+  "hints_hash": "3f0047616549ca4d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://appllama.io/llms.txt", "title": "[Appllama](https://appllama.io)", "status": null},
+    {"url": "https://appllama.io", "title": "Appllama - Discover winning app designs, then build your own", "status": 200},
+    {"url": "https://appllama.io/elements", "title": "Tab bars, paywall cards and every iOS UI element | Appllama", "status": 200},
+    {"url": "https://appllama.io/pricing", "title": "Pricing | Appllama", "status": 200},
+    {"url": "https://appllama.io/elements/fabs", "title": "Floating Action Buttons in 593 top iOS apps | Appllama", "status": 200},
+    {"url": "https://github.com/Appllama/appllama-skills", "title": "GitHub - Appllama/appllama-skills: Agent skills that turn top-grossing app patterns into native-quality mobile screens.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Appllama",
+  "summary": "Browsable library of 68,000+ screens from 1,500+ top-grossing iOS apps, with revenue context and an MCP server.",
+  "description": "A design-research library of iOS app screens: every app is captured screen by screen in journey order (welcome, onboarding, paywall, tabs) with revenue estimates, downloads and ratings. Browse by app, screen, flow or UI element, or search by keyword or meaning; a Pro plan adds unlimited search and a remote MCP server so coding agents can query the library. Open-source agent skills turn what it finds into native-quality mobile screens.",
+  "type": "gallery",
+  "categories": ["inspiration", "dev-ai-tools"],
+  "elements": ["navbar", "button", "cta", "pricing", "modal", "progress", "card", "testimonials", "list", "badge"],
+  "keywords": ["app design", "ios app", "app screenshot", "app flow", "onboarding", "paywall", "mobile ui", "ui element", "app inspiration", "app store", "revenue estimate", "design research", "tab bar", "mcp", "agent skill"],
+  "contains": [
+    "68,000+ screens from 1,500+ top-grossing iOS apps, new apps added weekly",
+    "revenue estimates, downloads, ratings and category rank per app",
+    "flows browsable app by app: welcome, onboarding, paywall and more",
+    "UI-element galleries with counts (tab bars 14.6K screens, buttons & CTAs 34.9K screens …)",
+    "keyword and semantic screen search",
+    "Appllama MCP server for coding agents — 1,500 credits/month on Pro",
+    "open-source agent skills: appllama-usage and appllama-app-design-skill",
+    "free to browse; Pro for everything (monthly or annual)"
+  ],
+  "formats": ["screenshots", "video", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/Appllama/appllama-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

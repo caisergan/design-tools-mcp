@@ -1,0 +1,37 @@
+{
+  "id": "github-com-florianbruniaux-claude-code-ultimate-guide",
+  "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+  "kind": "repo",
+  "hints_hash": "10e6b1c7f09bc959",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/HEAD/README.md", "title": "Claude Code Ultimate Guide", "status": null},
+    {"url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/HEAD/LICENSE", "title": "LICENSE (Attribution-ShareAlike 4.0 International)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude Code Ultimate Guide",
+  "summary": "Guide to Claude Code and agent engineering: workflows, hooks, skills, MCP servers, security and team operations.",
+  "description": "Markdown guide covering Claude Code internals, agent harness and loop engineering, context and memory, workflows, security hardening, enterprise governance, observability and AI economics, plus reusable examples, CLAUDE.md templates, quizzes, cheat sheets and ebooks. Ships an MCP server so coding assistants can query the guide.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["claude code", "claude code guide", "ai agent", "agent engineering", "agent harness", "mcp server", "claude code skill", "claude code hook", "agent workflow", "context engineering", "memory system", "prompt injection", "ai security", "sandbox", "enterprise governance", "observability", "ai unit economics", "learning path", "cheat sheet", "quiz", "claude md", "design to code"],
+  "contains": [
+    "complete Markdown guide plus a website reading interface",
+    "MCP server: 17 tools, 6 resources, 1 prompt and 5 companion /ccguide commands",
+    "reusable examples: CLAUDE.md templates, agents, skills, hooks, workflows and scripts",
+    "learning paths per role: newcomer, senior developer, tech lead, manager, security, designer",
+    "formats: ultimate guide, quick reference, quiz, cheat sheets, diagrams, PDF/EPUB ebooks",
+    "operations and security sections: hardening, sandbox isolation, governance, observability, AI economics",
+    "French and English cheat sheets",
+    "machine-readable navigation.json and llms.txt index"
+  ],
+  "formats": ["docs", "templates", "prompts", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-SA-4.0",
+  "related": {"repo": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,30 @@
+{
+  "id": "b-ai",
+  "url": "https://b.ai",
+  "kind": "site",
+  "hints_hash": "62a3790e3cc155f4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://b.ai", "title": "BAI", "status": null},
+    {"url": "https://b.ai/pricing", "title": "BAI", "status": 200},
+    {"url": "https://b.ai/docs", "title": "BAI", "status": 200},
+    {"url": "https://b.ai/llms.txt", "title": "BAI", "status": 200}
+  ],
+  "status": "partial",
+  "name": "B.AI",
+  "summary": "Unified API and borderless payment network that gives AI agents anonymous access to top-tier AI models.",
+  "description": "B.AI presents itself as foundational economic infrastructure for AI agents: a unified API and settlement network that lets artificial intelligence access global top-tier AI models anonymously, through a borderless payment system.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent", "ai model api", "unified api", "settlement network", "borderless payment", "anonymous access", "ai infrastructure", "developer tool", "model access"],
+  "contains": ["unified API for global top-tier AI models", "borderless payment system", "settlement network", "anonymous access for AI agents"],
+  "formats": ["api"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

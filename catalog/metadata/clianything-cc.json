@@ -1,0 +1,30 @@
+{
+  "id": "clianything-cc",
+  "url": "https://clianything.cc",
+  "kind": "site",
+  "hints_hash": "79650ffbb3033fc8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://clianything.cc/llms.txt", "title": "CLI-Anything Hub", "status": null},
+    {"url": "https://clianything.cc", "title": "CLI-Anything Hub - Agent-Friendly CLI Registry", "status": null},
+    {"url": "https://clianything.cc/docs.html", "title": "Documentation — CLI-Anything Hub", "status": null},
+    {"url": "https://clianything.cc/pricing.md", "title": "CLI-Anything Pricing", "status": null}
+  ],
+  "status": "ok",
+  "name": "CLI-Anything Hub",
+  "summary": "Agent-friendly CLI registry and package manager that lets AI agents discover, install and drive tools.",
+  "description": "An agent-friendly registry and package manager for command-line tools. cli-hub (pip install cli-anything-hub) lists, searches, inspects, installs and launches agent-native CLIs that drive GUI applications, developer tools, creative software, web APIs and public SaaS platforms, and bundles tools into capability-based Workflow Matrices. Every command has --json output and a documented exit-code contract; generated harness CLIs ship with REPL mode and local project state.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["cli", "cli tool", "command line", "agent", "ai agent", "registry", "package manager", "mcp", "gui automation", "automation", "developer tool", "skill", "workflow", "repl"],
+  "contains": ["Registry of agent-native CLI harnesses and public CLI tools", "cli-hub commands: list, search, info, install, update, uninstall, launch", "Workflow Matrices bundle capabilities across CLI, library and cloud API providers", "--json output and a documented exit-code contract", "Generated harness CLIs with REPL mode, one-shot commands and local project state", "Meta-skill installable with npx skills; needs Python 3.10+", "Free and open source under Apache-2.0"],
+  "formats": ["cli", "code", "api", "docs", "prompts"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/HKUDS/CLI-Anything", "docs": "https://clianything.cc/docs.html", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

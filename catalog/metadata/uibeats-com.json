@@ -1,0 +1,135 @@
+{
+  "id": "uibeats-com",
+  "url": "https://uibeats.com",
+  "kind": "site",
+  "hints_hash": "b5c9a60cade4b789",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uibeats.com/llms.txt",
+      "title": "UI Beats",
+      "status": null
+    },
+    {
+      "url": "https://uibeats.com",
+      "title": "UI Beats · Animated React components you own",
+      "status": 200
+    },
+    {
+      "url": "https://uibeats.com/docs/animation",
+      "title": "React Animation Components · UI Beats",
+      "status": 200
+    },
+    {
+      "url": "https://uibeats.com/docs/background",
+      "title": "React Animated Backgrounds · UI Beats",
+      "status": 200
+    },
+    {
+      "url": "https://uibeats.com/docs/card",
+      "title": "React Card Components · UI Beats",
+      "status": 200
+    },
+    {
+      "url": "https://uibeats.com/docs/text",
+      "title": "React Text Animation Components · UI Beats",
+      "status": 200
+    },
+    {
+      "url": "https://uibeats.com/docs/getting-started/introduction",
+      "title": "Introduction · UI Beats",
+      "status": 200
+    },
+    {
+      "url": "https://uibeats.com/docs/getting-started/contribute",
+      "title": "Contribute · UI Beats",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI Beats",
+  "summary": "55 animated React components — backgrounds, buttons, cards and text effects — plus 3 landing page blocks, installed via shadcn CLI.",
+  "description": "Copy-paste animated components built with React, TypeScript, Tailwind CSS and Motion: entrance and scroll animations, animated backgrounds (aurora, meteors, particles, dot pattern), cursor-aware and magnetic buttons, 3D and morphing cards, and text effects (typewriter, scramble, split flap, gradient). Three blocks (Hero, Pricing, Feature Grid) assemble them into full sections. You own the source files after install.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion",
+    "sections"
+  ],
+  "elements": [
+    "button",
+    "card",
+    "background",
+    "text-effect",
+    "list",
+    "scroll-effect",
+    "features",
+    "hero",
+    "pricing",
+    "loader",
+    "avatar",
+    "bento-grid",
+    "marquee",
+    "timeline",
+    "progress",
+    "slider",
+    "dock",
+    "tabs"
+  ],
+  "keywords": [
+    "animated component",
+    "react",
+    "motion",
+    "framer motion",
+    "shadcn",
+    "tailwind css",
+    "text effect",
+    "typewriter",
+    "text scramble",
+    "gradient text",
+    "animated background",
+    "aurora",
+    "meteor",
+    "particle",
+    "magnetic button",
+    "shimmer button",
+    "3d card",
+    "tilt card",
+    "hero",
+    "pricing"
+  ],
+  "contains": [
+    "55 components in categories: animation, background, button, card, component, text",
+    "3 blocks: Hero, Pricing, Feature Grid (each installs the components it uses)",
+    "install via shadcn CLI; source files land in your repo",
+    "MCP server for agents to search and install components; Motion Studio spring tuning"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://uibeats.com/docs/getting-started/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

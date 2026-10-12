@@ -1,0 +1,31 @@
+{
+  "id": "uiplaybook-dev",
+  "url": "https://uiplaybook.dev",
+  "kind": "site",
+  "hints_hash": "7745e0594f0d7dcf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uiplaybook.dev", "title": "UI Playbook", "status": null},
+    {"url": "https://uiplaybook.dev/play/button", "title": "UI Playbook — Button", "status": 200},
+    {"url": "https://uiplaybook.dev/play/notification", "title": "UI Playbook — Notification", "status": 200},
+    {"url": "https://uiplaybook.dev/play/motion", "title": "UI Playbook — Motion", "status": 200},
+    {"url": "https://github.com/raunofreiberg/ui-playbook", "title": "GitHub - raunofreiberg/ui-playbook: The documented collection of UI components 🤓 · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UI Playbook",
+  "summary": "Documented collection of 10 common UI components with functionality, best practices, accessibility and implementation notes.",
+  "description": "Reference documentation for common UI components: for each one it lists expected functionality per state, best practices, implementation notes, accessibility concerns and resources, with component previews on the page. A motion page covers animation principles, durations and spring animations.",
+  "type": "design-rules",
+  "categories": ["design-rules", "learning"],
+  "elements": ["tooltip", "button", "select", "toast", "input", "avatar", "checkbox", "popover"],
+  "keywords": ["ui component", "component documentation", "design reference", "best practice", "accessibility", "implementation guide", "tooltip", "popover", "select", "text field", "avatar", "notification", "motion principle", "pattern library", "ui pattern"],
+  "contains": ["documents 10 components: tooltip, button, select, notification, textfield, avatar, checkbox, motion, popover, radio", "each entry covers functionality, best practices, implementation and accessibility", "component previews and a search across components", "motion principles with animation duration tiers and spring animations", "MIT-licensed, open source (raunofreiberg/ui-playbook)"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/raunofreiberg/ui-playbook", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

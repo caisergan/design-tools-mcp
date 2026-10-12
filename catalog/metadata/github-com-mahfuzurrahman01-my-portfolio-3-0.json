@@ -1,0 +1,36 @@
+{
+  "id": "github-com-mahfuzurrahman01-my-portfolio-3-0",
+  "url": "https://github.com/mahfuzurrahman01/my-portfolio-3.0",
+  "kind": "repo",
+  "hints_hash": "e801ab43f5336714",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mahfuzurrahman01/my-portfolio-3.0/blob/HEAD/README.md", "title": "Next.js Portfolio Template", "status": null}
+  ],
+  "status": "ok",
+  "name": "Next.js Portfolio Template",
+  "summary": "Bento-grid Next.js portfolio template driven by one JSON file, with dev.to blog, full SEO and dark mode.",
+  "description": "A bento-grid developer portfolio template built with Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4 and Framer Motion. One JSON content file drives most of the site; sub-pages cover experience, skills, projects, education/certifications and a blog fed from dev.to at build/ISR time. Metadata, JSON-LD, sitemap, robots.txt, generated social images and a dark/light mode with circular reveal are included.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["bento-grid", "hero", "navbar", "footer", "card"],
+  "keywords": ["portfolio template", "nextjs", "react", "tailwind css", "framer motion", "bento grid", "dark mode", "seo", "personal website", "developer portfolio", "blog", "typescript", "vercel", "json content"],
+  "contains": [
+    "bento home page with hero, skills, experience, projects and blog tiles",
+    "sub-pages: experience, skills, projects, trail, blog, extensions",
+    "single portfolio.json drives almost all content",
+    "auto blog pulls dev.to posts at build/ISR time",
+    "SEO: metadata, JSON-LD, sitemap.xml, robots.txt",
+    "OG image and favicon rendered at the edge",
+    "dark/light mode with circular reveal transition",
+    "deploys free on Vercel with no backend"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mahfuzurrahman01/my-portfolio-3.0", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

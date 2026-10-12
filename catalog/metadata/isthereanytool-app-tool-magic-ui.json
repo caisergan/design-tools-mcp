@@ -1,0 +1,23 @@
+{
+  "id": "isthereanytool-app-tool-magic-ui",
+  "url": "https://isthereanytool.app/tool/magic-ui",
+  "kind": "page",
+  "hints_hash": "688588285d75c445",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://isthereanytool.app/tool/magic-ui", "title": "Magic UI — landing micro-interactions | isthereanytool.app", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Magic UI",
+  "summary": "150+ animated marketing components for React and Tailwind: free MIT components plus Pro templates.",
+  "description": "Component library for landing page micro-interactions, distributed as open source plus Pro: MIT-licensed free components and Pro templates around 149-199 USD one-time. Platforms React / Next.js.",
+  "type": "component-library",
+  "pricing": "freemium",
+  "license": "MIT",
+  "formats": ["code", "templates"],
+  "keywords": ["animated component", "marketing component", "react component", "tailwind css", "landing page", "micro interaction", "ui kit", "template", "nextjs", "open source"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "isthereanytool-app" },
+  "confidence": 0.8
+}

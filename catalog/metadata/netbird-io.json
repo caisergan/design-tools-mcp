@@ -1,0 +1,39 @@
+{
+  "id": "netbird-io",
+  "url": "https://netbird.io",
+  "kind": "site",
+  "hints_hash": "eef91cb6f8923347",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://netbird.io", "title": "NetBird - Open Source Zero Trust Networking", "status": null},
+    {"url": "https://netbird.io/pricing", "title": "Pricing - NetBird", "status": null},
+    {"url": "https://netbird.io/about", "title": "NetBird - About", "status": null},
+    {"url": "https://github.com/netbirdio/netbird", "title": "GitHub - netbirdio/netbird: NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard® · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "NetBird",
+  "summary": "Open-source, WireGuard-based overlay network and Zero Trust access platform with SSO, MFA and access policies.",
+  "description": "An open-source networking platform that connects devices peer-to-peer over WireGuard and adds identity-based Zero Trust access control: SSO and MFA, granular group policies, device posture checks, private DNS, network routes, SSH and activity logging. Runs as a managed cloud or self-hosted, with agents for Linux, macOS, Windows, iOS, Android and more.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["vpn", "vpn alternative", "zero trust network access", "ztna", "wireguard", "mesh network", "overlay network", "peer to peer", "self-hosted", "remote access", "site to site", "sso", "mfa", "device posture", "access control", "open source", "networking", "ssh"],
+  "contains": [
+    "Open-source WireGuard-based overlay network with Zero Trust access control",
+    "Pricing: free up to 5 users, Team €6 and Business €12 per user/month, Enterprise custom",
+    "Identity-based policies with SSO, MFA and SCIM provisioning",
+    "Device posture checks with MDM and EDR integrations",
+    "Self-hosting quickstart script or managed cloud service",
+    "Agents for Linux, macOS, Windows, iOS, Android, FreeBSD and more",
+    "Terraform provider, Ansible collection and public API",
+    "BSD-3-Clause license, with the management, signal and relay directories under AGPLv3"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["golang", "wireguard"],
+  "pricing": "freemium",
+  "license": "BSD-3-Clause",
+  "related": {"repo": "https://github.com/netbirdio/netbird", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

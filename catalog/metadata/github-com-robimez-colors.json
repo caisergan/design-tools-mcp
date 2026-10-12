@@ -1,0 +1,35 @@
+{
+  "id": "github-com-robimez-colors",
+  "url": "https://github.com/RobiMez/colors",
+  "kind": "repo",
+  "hints_hash": "7ff93be018a91c11",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/RobiMez/colors/blob/HEAD/README.md", "title": "or", "status": 200},
+    {"url": "https://github.com/RobiMez/colors", "title": "GitHub - RobiMez/colors: Nice color palettes frontend · GitHub", "status": 200},
+    {"url": "https://colors.robi.work", "title": "Colors — nice palettes", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Colors",
+  "summary": "Browsable collection of 992 hand-picked color palettes from ColourLovers; click a swatch to copy its hex.",
+  "description": "An open-source Next.js front end that browses nearly 1,000 hand-picked color palettes sourced from ColourLovers. Each palette is a row of swatches — click one to copy its hex value. The code lives on GitHub, where the repo has 4 stars and 2 commits, and the app runs live at colors.robi.work.",
+  "type": "tool",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color palette", "palette browser", "hex color", "color swatch", "copy color", "color inspiration", "nextjs", "react", "typescript", "open source", "web app", "frontend"],
+  "contains": [
+    "992 hand-picked color palettes from ColourLovers",
+    "click any swatch to copy its hex value",
+    "Next.js front end, source on GitHub",
+    "live at colors.robi.work",
+    "4 stars, 1 fork, 2 commits"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["nextjs", "react", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/RobiMez/colors", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

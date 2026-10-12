@@ -1,0 +1,19 @@
+{
+  "id": "color-adobe-com-create-color-contrast-analyzer",
+  "url": "https://color.adobe.com/create/color-contrast-analyzer",
+  "kind": "page",
+  "hints_hash": "881aa27202fff6f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:25:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://color.adobe.com/create/color-contrast-analyzer", "title": "Color Contrast Checker (AA/AAA) | Adobe Express", "status": null}
+  ],
+  "status": "ok",
+  "name": "Color Contrast Checker (AA/AAA)",
+  "summary": "Checks foreground and background color contrast ratios against the WCAG 2.1 AA and AAA levels.",
+  "type": "tool",
+  "keywords": ["contrast checker", "color contrast", "contrast ratio", "wcag", "accessibility", "aa", "aaa", "foreground color", "background color", "color tool", "color wheel", "palette generator", "colorblind simulation", "text readability"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "color-adobe-com"},
+  "confidence": 0.85
+}

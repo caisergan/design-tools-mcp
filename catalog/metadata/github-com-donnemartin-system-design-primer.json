@@ -1,0 +1,37 @@
+{
+  "id": "github-com-donnemartin-system-design-primer",
+  "url": "https://github.com/donnemartin/system-design-primer",
+  "kind": "repo",
+  "hints_hash": "f09605708a45780b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/donnemartin/system-design-primer/blob/HEAD/README.md", "title": "The System Design Primer", "status": 200},
+    {"url": "https://github.com/donnemartin/system-design-primer/blob/HEAD/LICENSE.txt", "title": "system-design-primer/LICENSE.txt · donnemartin/system-design-primer · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The System Design Primer",
+  "summary": "Open-source guide with system design topics, interview questions with solutions and Anki flashcard decks.",
+  "description": "A continually updated, open-source guide to designing large-scale systems, written for engineers prepping for system design interviews. It indexes system design topics with pros and cons — scalability, CAP, consistency and availability patterns, DNS, CDNs, load balancing, databases, caching, asynchronism and communication — then pairs a study guide for short, medium and long timelines with interview questions, sample solutions and Anki flashcard decks.",
+  "type": "course",
+  "categories": ["dev-ai-tools", "learning"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "large-scale system", "scalability", "cap theorem", "caching", "load balancer", "database replication", "sharding", "nosql", "microservice", "distributed system", "object-oriented design", "interview preparation", "anki flashcard", "study guide", "architecture", "engineering blog"],
+  "contains": [
+    "open-source guide to designing large-scale systems",
+    "index of system design topics with pros and cons",
+    "8 system design interview questions with sample solutions",
+    "6 object-oriented design questions with solutions",
+    "Anki flashcard decks for spaced repetition",
+    "study guide for short, medium and long interview timelines",
+    "how to approach a system design interview question in 4 steps",
+    "English plus 19 translated versions"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-4.0",
+  "related": {"repo": "https://github.com/donnemartin/system-design-primer", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

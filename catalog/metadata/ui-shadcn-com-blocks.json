@@ -1,0 +1,84 @@
+{
+  "id": "ui-shadcn-com-blocks",
+  "url": "https://ui.shadcn.com/blocks",
+  "kind": "page",
+  "hints_hash": "7947538865c855ee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.shadcn.com/blocks",
+      "title": "Building Blocks for the Web - shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://ui.shadcn.com/llms.txt",
+      "title": "shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn/ui Blocks",
+  "summary": "Official shadcn/ui building blocks: dashboard, sidebar, login and signup layouts to copy into React apps.",
+  "description": "The blocks section of shadcn/ui: pre-made page layouts built from shadcn components, copy-pasted into your app and free to use. Featured groups are sidebar, login and signup; listed examples include a dashboard with sidebar, charts and data table, collapsible sidebar layouts and login pages with form and image.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "registries"
+  ],
+  "elements": [
+    "dashboard",
+    "sidebar",
+    "chart",
+    "table",
+    "form"
+  ],
+  "keywords": [
+    "shadcn block",
+    "page block",
+    "dashboard block",
+    "sidebar block",
+    "login page",
+    "signup page",
+    "react",
+    "tailwind",
+    "copy paste",
+    "registry",
+    "admin dashboard",
+    "data table",
+    "chart"
+  ],
+  "contains": [
+    "63 registry items measured from the page",
+    "shown blocks: dashboard-01, sidebar-07, sidebar-03, login-03, login-04",
+    "featured groups: sidebar, login, signup",
+    "free and open source, works with all React frameworks"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "radix",
+    "nextjs"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-shadcn-com"
+  },
+  "confidence": 0.85
+}

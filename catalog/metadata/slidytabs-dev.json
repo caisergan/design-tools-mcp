@@ -1,0 +1,78 @@
+{
+  "id": "slidytabs-dev",
+  "url": "https://slidytabs.dev",
+  "kind": "site",
+  "hints_hash": "381014c6c05b9d3b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://slidytabs.dev",
+      "title": "slidytabs",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "slidytabs",
+  "summary": "DOM-level utility that animates shadcn Tabs with a sliding indicator, plus slider and range-slider tab modes.",
+  "description": "Adds sliding-indicator animation to shadcn <Tabs /> without wrapping or replacing the component; works with shadcn, shadcn-svelte and shadcn-vue. tabs() slides the indicator between tab positions, slider() makes a draggable single-value slider, and range() a two-handle range slider with a push option.",
+  "type": "tool",
+  "categories": [
+    "motion",
+    "design-tools"
+  ],
+  "elements": [
+    "tabs",
+    "slider"
+  ],
+  "keywords": [
+    "shadcn",
+    "tabs",
+    "tab animation",
+    "sliding indicator",
+    "dom utility",
+    "react",
+    "svelte",
+    "vue",
+    "slider",
+    "range slider",
+    "animation",
+    "motion",
+    "controlled tab",
+    "free"
+  ],
+  "contains": [
+    "sliding-indicator animation for shadcn Tabs without changing usage",
+    "works with shadcn, shadcn-svelte and shadcn-vue",
+    "tabs() slides between tab positions",
+    "slider() turns tabs into a draggable slider with a sticky endpoint option",
+    "range() gives two draggable endpoints with a push option",
+    "controlled via shadcn value/onValueChange props or via index-based props",
+    "install and usage docs with live demos"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "svelte",
+    "vue",
+    "astro"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

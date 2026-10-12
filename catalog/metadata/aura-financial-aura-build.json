@@ -1,0 +1,28 @@
+{
+  "id": "aura-financial-aura-build",
+  "url": "https://aura-financial.aura.build",
+  "kind": "site",
+  "hints_hash": "96799d085120b9b3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aura-financial.aura.build/llms.txt", "title": "Aura Financial Banking Landing Page Template", "status": null},
+    {"url": "https://aura-financial.aura.build", "title": "Aura Financial Banking Landing Page Template", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Aura Financial",
+  "summary": "Fintech landing page template for AI-driven digital banking, trading and DeFi wealth management.",
+  "description": "A futuristic fintech banking landing page template for AI-driven digital banking, trading and DeFi wealth management platforms. One page (Home); the live page renders with JavaScript, so only its title and meta description are machine-readable.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["landing page template", "fintech", "banking", "digital banking", "defi", "trading", "wealth management", "ai", "website template", "single page website"],
+  "contains": ["single Home page", "fintech banking template for AI-driven banking, trading and DeFi", "JavaScript-rendered demo; preview image on og:image"],
+  "formats": ["templates"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

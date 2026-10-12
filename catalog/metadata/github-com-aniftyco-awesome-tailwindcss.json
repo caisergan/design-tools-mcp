@@ -1,0 +1,36 @@
+{
+  "id": "github-com-aniftyco-awesome-tailwindcss",
+  "url": "https://github.com/aniftyco/awesome-tailwindcss",
+  "kind": "repo",
+  "hints_hash": "5fd59edd8446456a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/aniftyco/awesome-tailwindcss/blob/HEAD/README.md", "title": "Awesome Tailwind CSS", "status": 200},
+    {"url": "https://github.com/aniftyco/awesome-tailwindcss", "title": "GitHub - aniftyco/awesome-tailwindcss: 😎 Awesome things related to Tailwind CSS · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Tailwind CSS",
+  "summary": "Curated list of Tailwind CSS resources: official links, IDE extensions, tools, UI libraries and templates, and plugins.",
+  "description": "A curated repository of resources for Tailwind CSS, grouped into useful links, IDE extensions, tools, UI libraries/components & templates, and plugins. Entries carry emoji legends marking official resources, online tools, browser extensions, generators, color tools, frameworks and deprecated items. 15.2k stars, 543 commits, CC0-1.0 licensed, and open to contributions.",
+  "type": "directory",
+  "categories": ["dev-ai-tools", "components"],
+  "elements": [],
+  "keywords": ["tailwind css", "css framework", "utility css", "ui library", "component library", "template", "admin dashboard", "plugin", "ide extension", "color palette", "gradient", "date picker", "icon", "awesome list", "directory", "frontend"],
+  "contains": [
+    "curated list of Tailwind CSS resources; contributions welcome",
+    "sections: useful links, IDE extensions, tools, UI libraries/components & templates, plugins",
+    "22 tools incl. color palette generators, converters, config viewer and browser extensions",
+    "26 UI libraries, component kits and templates (shadcn UI, daisyUI, Flowbite, HyperUI, Tremor …)",
+    "12 plugins: typography, forms, themer, fluid, scrollbar-hide and more",
+    "legend marks official resources, online tools, generators, color tools, frameworks, deprecated items",
+    "15.2k GitHub stars; CC0-1.0 licensed"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": "https://github.com/aniftyco/awesome-tailwindcss", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

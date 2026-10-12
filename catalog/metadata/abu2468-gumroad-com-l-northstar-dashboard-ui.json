@@ -1,0 +1,26 @@
+{
+  "id": "abu2468-gumroad-com-l-northstar-dashboard-ui",
+  "url": "https://abu2468.gumroad.com/l/northstar-dashboard-ui",
+  "kind": "page",
+  "hints_hash": "cce6b273510db34e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://abu2468.gumroad.com/l/northstar-dashboard-ui", "title": "Northstar Dashboard UI – React + Tailwind", "status": null},
+    {"url": "https://abu2468.gumroad.com/l/northstar-dashboard-ui", "title": "Northstar Dashboard UI – React + Tailwind", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Northstar Dashboard UI",
+  "summary": "React + Tailwind dashboard template with sidebar navigation, analytics cards, charts, tables and dark mode.",
+  "description": "A dashboard UI template for React and Tailwind: sidebar navigation, analytics cards, charts, tables and dark mode, pitched for launching faster. Sold as a product on Gumroad; the product page renders client-side, so only the title and meta description were readable.",
+  "type": "template",
+  "elements": ["dashboard", "sidebar", "card", "chart", "table"],
+  "keywords": ["dashboard", "dashboard template", "react", "tailwind", "admin dashboard", "dark mode", "sidebar", "analytics", "chart", "data table", "ui template"],
+  "formats": ["code"],
+  "stack": ["react", "tailwind"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

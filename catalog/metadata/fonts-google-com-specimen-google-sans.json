@@ -1,0 +1,28 @@
+{
+  "id": "fonts-google-com-specimen-google-sans",
+  "url": "https://fonts.google.com/specimen/Google+Sans",
+  "kind": "page",
+  "hints_hash": "4b0f6536ac8aed6e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:39:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/metadata/fonts/Google+Sans", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesans/METADATA.pb", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Google Sans",
+  "summary": "Variable sans-serif by Google with grade, optical-size and weight axes, roman and italic, spanning many scripts.",
+  "description": "Google Sans is a variable sans-serif designed by Google, released as roman and italic variable files with GRAD, optical-size and weight axes. It covers a wide range of scripts, from Latin, Greek, Cyrillic and Hebrew to Devanagari, Thai and Vietnamese. Free under the SIL Open Font License.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["sans serif", "font", "typeface", "variable font", "free font", "web font", "brand font", "ui font", "italic", "optical size", "grade", "multi-script", "cyrillic", "devanagari", "hebrew", "thai"],
+  "contains": ["variable axes: wght 400-700, GRAD -50-200, opsz 17-18", "roman and italic variable files", "27 subsets incl. latin, cyrillic, greek, hebrew, devanagari, thai, vietnamese", "SIL Open Font License (OFL-1.1)"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.85
+}

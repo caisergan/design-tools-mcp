@@ -1,0 +1,28 @@
+{
+  "id": "github-com-jadrizk-turborepo-launchpad",
+  "url": "https://github.com/JadRizk/turborepo-launchpad",
+  "kind": "repo",
+  "hints_hash": "cb96722bb1e6040e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/JadRizk/turborepo-launchpad/blob/HEAD/README.md", "title": "Launchpad", "status": 200},
+    {"url": "https://github.com/JadRizk/turborepo-launchpad", "title": "GitHub - JadRizk/turborepo-launchpad: 🚀 Turbo-charge your web projects with this sleek Turborepo template, featuring Next.js, Supabase, TailwindCSS, and shadcn · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Launchpad",
+  "summary": "Turborepo monorepo boilerplate with a Next.js 14 app, Storybook component library and Supabase authentication.",
+  "description": "Monorepo starter with a Next.js 14 application, a Storybook-hosted React component library styled with Tailwind CSS and shadcn, Supabase authentication, and shared config packages for Tailwind, TypeScript and ESLint. Uses Changesets for versioning and publishing, GitHub Actions for CI, Umami for analytics, and documents a local Supabase workflow with Docker.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["turborepo", "monorepo", "next.js", "storybook", "supabase", "supabase auth", "shadcn", "tailwind css", "typescript", "component library", "changeset", "pnpm", "boilerplate", "starter", "github action", "docker"],
+  "contains": ["Turborepo with apps/app (Next.js 14) and apps/docs (Storybook site)", "packages/ui shared React component library with Tailwind and shadcn", "Supabase authentication plus local Supabase CLI/Docker workflow", "Changesets versioning and npm publishing workflow", "config packages: tailwind-config, typescript-config, eslint-config", "Umami analytics and GitHub Actions; 100% TypeScript"],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn", "supabase", "storybook", "turborepo", "pnpm", "changesets", "eslint", "prettier"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/JadRizk/turborepo-launchpad", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

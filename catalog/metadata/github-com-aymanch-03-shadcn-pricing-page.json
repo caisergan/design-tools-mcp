@@ -1,0 +1,35 @@
+{
+  "id": "github-com-aymanch-03-shadcn-pricing-page",
+  "url": "https://github.com/aymanch-03/shadcn-pricing-page",
+  "kind": "repo",
+  "hints_hash": "f496f8e536aef1a7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:46Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/aymanch-03/shadcn-pricing-page/blob/HEAD/README.md", "title": "Pricing Component with shadcn/ui", "status": 200},
+    {"url": "https://shadcn-pricing-page.vercel.app", "title": "Shadcn Pricing Page", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Pricing Page",
+  "summary": "Responsive pricing section for Next.js with monthly/yearly toggle, tiered cards and animated price transitions.",
+  "description": "A pricing component built with shadcn/ui for Next.js SaaS and subscription projects. It includes payment frequency toggles, tiered pricing cards with highlights (Individuals, Teams, Organizations, Enterprise), and smooth price transitions using the NumberFlow component. The demo shows Free, $90 and $120 tiers with feature lists and a most-popular highlight.",
+  "type": "block-library",
+  "categories": ["sections", "components"],
+  "elements": ["pricing"],
+  "variants": {"pricing": ["cards", "billing-toggle", "enterprise"]},
+  "keywords": ["pricing section", "pricing table", "pricing card", "billing toggle", "monthly yearly", "saas", "subscription", "shadcn", "react", "nextjs", "tailwind", "price transition"],
+  "contains": [
+    "responsive pricing component for Next.js apps",
+    "payment frequency toggle (monthly/yearly)",
+    "tiered pricing cards with highlights and custom styling",
+    "price changes animated with NumberFlow by barvian",
+    "demo: shadcn-pricing-page.vercel.app"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/aymanch-03/shadcn-pricing-page", "docs": "https://shadcn-pricing-page.vercel.app", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

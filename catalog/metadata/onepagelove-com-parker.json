@@ -1,0 +1,21 @@
+{
+  "id": "onepagelove-com-parker",
+  "url": "https://onepagelove.com/parker",
+  "kind": "page",
+  "hints_hash": "95c889841579d073",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/parker", "title": "Parker — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Parker",
+  "summary": "One Page Love award entry for Parker, a Framer-built one-page site for an AI advertising tool, built on scrolling storytelling.",
+  "keywords": ["one page website", "framer", "scroll effect", "scrolling storytelling", "ai advertising", "saas", "landing page", "website inspiration", "one pager", "purple", "long scrolling", "web design"],
+  "elements": ["hero", "scroll-effect"],
+  "formats": ["screenshots", "links"],
+  "stack": ["framer"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.8
+}

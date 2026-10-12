@@ -1,0 +1,92 @@
+{
+  "id": "thaana-yazak-me",
+  "url": "https://thaana.yazak.me",
+  "kind": "site",
+  "hints_hash": "93f3837fcaf09e9c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://thaana.yazak.me",
+      "title": "Thaana shadcn components",
+      "status": 200
+    },
+    {
+      "url": "https://thaana.yazak.me/r/registry.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Thaana",
+  "summary": "Shadcn registry of Dhivehi-first components and blocks with Thaana script and RTL defaults.",
+  "description": "A shadcn registry (name: thaana) of Dhivehi-first UI: shadcn components rebuilt with overridable Thaana and RTL defaults, including input, select, mixed-direction search and combobox, a Gregorian and Umm al-Qura Hijri date picker, Maldives island and map pickers, form field, dropdown menu, pagination, dialog content, MVR currency and +960 phone inputs and a data table. It also ships two blocks: customer management and an invoice form.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "input",
+    "select",
+    "date-picker",
+    "dropdown",
+    "pagination",
+    "modal",
+    "table",
+    "form",
+    "map"
+  ],
+  "keywords": [
+    "shadcn",
+    "dhivehi",
+    "thaana",
+    "rtl",
+    "right-to-left",
+    "input",
+    "select",
+    "combobox",
+    "date picker",
+    "hijri calendar",
+    "island picker",
+    "maldive",
+    "data table",
+    "currency input",
+    "phone input",
+    "react",
+    "tailwind",
+    "registry",
+    "block"
+  ],
+  "contains": [
+    "16 shadcn registry items: 14 components and 2 blocks",
+    "Dhivehi, Thaana and RTL defaults throughout",
+    "Umm al-Qura Hijri and Gregorian calendar support",
+    "Maldives data: atoll-grouped islands, +960 phone numbers, MVR currency",
+    "blocks: customer management and invoice form"
+  ],
+  "formats": [
+    "registry",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

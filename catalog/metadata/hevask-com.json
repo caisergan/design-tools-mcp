@@ -1,0 +1,28 @@
+{
+  "id": "hevask-com",
+  "url": "https://hevask.com",
+  "kind": "site",
+  "hints_hash": "eace5cdc4dda0150",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:38:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hevask.com", "title": "GitHub - hev/ask: Your docs, agent ready. · GitHub", "status": 200},
+    {"url": "https://github.com/hev/ask", "title": "GitHub - hev/ask: Your docs, agent ready. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "hev ask",
+  "summary": "Agent-readable docs digest plus a ⌘K search overlay, shipped as the npm package @hevmind/ask for Astro docs sites.",
+  "description": "hev ask distills a documentation site into a committed \"ask digest\" — a markdown tree a coding agent can tree, cat and grep — and answers readers from the same material through a ⌘K search overlay. It ships as the npm package @hevmind/ask (Astro integration, /api/ask endpoint, SearchOverlay component and ask CLI binaries) built on a Go core that builds the digest offline from markdown. The hevask.com site is retired and now redirects to the GitHub repo.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["command-palette"],
+  "keywords": ["docs search", "command palette", "search overlay", "documentation digest", "agent readable docs", "llm docs", "astro integration", "cli", "npm package", "markdown digest", "grep docs", "api endpoint", "developer docs", "ai agent"],
+  "contains": ["committed ask digest: markdown tree readable with tree, cat and grep", "⌘K search overlay answering from the same digest", "Astro integration with /api/ask endpoint and SearchOverlay component", "Go core CLI (ask) plus an offline digest builder, no Astro dependency", "published on npm as @hevmind/ask with prebuilt per-platform binaries", "Docusaurus, VitePress and MkDocs adapters designed but not shipped (RFC 0004)", "agentic answers need ANTHROPIC_API_KEY, OPENAI_API_KEY or OPENROUTER_API_KEY; otherwise keyword search", "13 stars, 1 fork, 74 commits on GitHub"],
+  "formats": ["npm-package", "cli", "code", "docs"],
+  "stack": ["astro", "go", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/hev/ask", "docs": null, "npm": "@hevmind/ask", "figma": null, "parent": null},
+  "confidence": 0.85
+}

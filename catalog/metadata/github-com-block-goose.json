@@ -1,0 +1,28 @@
+{
+  "id": "github-com-block-goose",
+  "url": "https://github.com/block/goose",
+  "kind": "repo",
+  "hints_hash": "f8e60b355ba57558",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/block/goose/blob/HEAD/README.md", "title": "goose", "status": 200},
+    {"url": "https://github.com/block/goose", "title": "GitHub - aaif-goose/goose: an open source, extensible AI agent that goes beyond code suggestions", "status": 200}
+  ],
+  "status": "ok",
+  "name": "goose",
+  "summary": "Open-source general-purpose AI agent with a native desktop app, CLI and API for code, automation and research.",
+  "description": "A general-purpose AI agent that runs on your machine: native desktop app for macOS, Linux and Windows, a CLI and an embeddable API, built in Rust. Works with 15+ model providers (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock and more) and 70+ MCP extensions; part of the Agentic AI Foundation at the Linux Foundation.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent", "desktop app", "cli", "api", "mcp", "model context protocol", "llm", "automation", "local ai", "rust", "open source", "agentic", "developer tool", "workflow automation", "data analysis"],
+  "contains": ["desktop app for macOS, Linux and Windows", "CLI and embeddable API", "built in Rust", "15+ model providers", "70+ MCP extensions", "Apache-2.0 licensed", "part of the Agentic AI Foundation at the Linux Foundation"],
+  "formats": ["app", "cli", "code", "api"],
+  "stack": ["rust"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/aaif-goose/goose", "docs": "https://goose-docs.ai/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

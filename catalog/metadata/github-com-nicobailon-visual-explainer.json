@@ -1,0 +1,36 @@
+{
+  "id": "github-com-nicobailon-visual-explainer",
+  "url": "https://github.com/nicobailon/visual-explainer",
+  "kind": "repo",
+  "hints_hash": "441e2e4c925d4a8a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/nicobailon/visual-explainer/blob/HEAD/README.md", "title": "visual-explainer", "status": 200},
+    {"url": "https://github.com/nicobailon/visual-explainer", "title": "GitHub - nicobailon/visual-explainer: Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "visual-explainer",
+  "summary": "Agent skill that turns terminal output into styled HTML pages and slide decks: diagrams, diff reviews, plan audits, data tables and recaps.",
+  "description": "An agent skill for Claude Code, Codex, Cursor, Pi and MCP hosts: ask for an architecture explanation, a diff review or a plan audit and it generates a self-contained HTML page and opens it in the browser instead of printing ASCII art. Ships eight slash commands, an opt-in theme picker with eleven palettes, a validated quick-render mode, a local stdio MCP server, and PPTX and 1080p MP4 video export.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "claude code", "codex cli", "cursor", "mcp server", "diagram", "html page", "slide deck", "terminal output", "ascii art", "diff review", "plan review", "project recap", "fact check", "theme", "dark mode", "data table", "video export", "pptx", "developer tool", "prompt template"],
+  "contains": [
+    "8 slash commands: diagram, visual plan, slides, video, diff review, plan review, project recap, fact check",
+    "installs for Claude Code, Codex CLI, Cursor, Pi, MCP hosts, VS Code Copilot and OpenCode",
+    "11 switchable palettes (Dracula, Nord, Catppuccin, Tokyo Night, Solarized, Gruvbox …) with font pair chips",
+    "quick mode renders a validated JSON spec; PPTX and 1080p MP4 video export via ffmpeg and playwright-core",
+    "local stdio MCP server with prepare and render tools; output jailed to ~/.agent/diagrams/",
+    "auto-renders HTML when the agent would dump a table of 4+ rows or 3+ columns",
+    "MIT license; 10.4k GitHub stars"
+  ],
+  "formats": ["prompts", "code", "docs", "video"],
+  "stack": ["node", "playwright", "ffmpeg", "html", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/nicobailon/visual-explainer", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

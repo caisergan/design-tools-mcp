@@ -1,0 +1,28 @@
+{
+  "id": "github-com-microsoft-ai-agents-for-beginners",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners",
+  "kind": "repo",
+  "hints_hash": "6a82cc3fcb5a7b26",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/microsoft/ai-agents-for-beginners/blob/HEAD/README.md", "title": "AI Agents for Beginners - A Course", "status": 200},
+    {"url": "https://github.com/microsoft/ai-agents-for-beginners", "title": "GitHub - microsoft/ai-agents-for-beginners: 18 Lessons to Get Started Building AI Agents", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AI Agents for Beginners",
+  "summary": "Microsoft's 18-lesson course on building AI agents, with videos, Python code samples and 50+ translations.",
+  "description": "A course of 18 lessons on building AI agents, from agent use cases and design patterns through tool use, agentic RAG, planning, multi-agent systems, agentic protocols (MCP, A2A, NLWeb), context engineering and production. Each lesson includes a written lesson, a short video, Python code samples built on Microsoft Agent Framework with Microsoft Foundry Agent Service V2, and links to extra resources.",
+  "type": "course",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent", "course", "agentic rag", "multi-agent", "design pattern", "tool use", "mcp", "context engineering", "agent memory", "python", "lesson", "microsoft agent framework"],
+  "contains": ["18 lessons in numbered folders (00-course-setup to 18-securing-ai-agents)", "each lesson: written lesson, short video, Python code samples, extra links", "50+ language translations maintained by a GitHub Action", "code samples use Microsoft Agent Framework with Microsoft Foundry Agent Service V2 (Azure account required)", "76.9k stars, 25.3k forks, MIT license"],
+  "formats": ["code", "docs", "video"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/microsoft/ai-agents-for-beginners", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

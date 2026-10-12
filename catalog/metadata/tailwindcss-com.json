@@ -1,0 +1,40 @@
+{
+  "id": "tailwindcss-com",
+  "url": "https://tailwindcss.com",
+  "kind": "site",
+  "hints_hash": "fbd84cba74766fd7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tailwindcss.com", "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.", "status": null},
+    {"url": "https://tailwindcss.com/docs", "title": "Installing Tailwind CSS with Vite - Tailwind CSS", "status": null},
+    {"url": "https://tailwindcss.com/showcase", "title": "Showcase - Tailwind CSS", "status": null},
+    {"url": "https://tailwindcss.com/docs/installation", "title": "Installing Tailwind CSS with Vite - Tailwind CSS", "status": null},
+    {"url": "https://github.com/tailwindlabs/tailwindcss", "title": "GitHub - tailwindlabs/tailwindcss: A utility-first CSS framework for rapid UI development.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tailwind CSS",
+  "summary": "Utility-first CSS framework for building custom interfaces with small utility classes written in the markup.",
+  "description": "A utility-first CSS framework: small classes like flex, pt-4 and text-center for layout, typography, color, filters, transitions, dark mode, container queries and 3D transforms, composed straight in the markup. Ships as npm packages with Vite and PostCSS integrations plus a standalone CLI, with full documentation and framework guides.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["css framework", "utility class", "utility-first css", "responsive design", "dark mode", "css variable", "container query", "css grid", "gradient", "transition", "vite plugin", "postcss", "npm package", "frontend", "component styling"],
+  "contains": [
+    "utility classes for layout, flexbox and grid, spacing, sizing, typography, backgrounds, borders, effects and filters",
+    "responsive breakpoints, dark mode, CSS variables theming and P3 colors",
+    "container queries, gradients, transitions and 3D transforms",
+    "installs via npm as a Vite plugin, PostCSS plugin or standalone CLI",
+    "docs with installation guides, framework guides and a full utility reference",
+    "showcase of production sites: OpenAI/ChatGPT, Shopify, Cursor, The Verge, TED, NASA JPL",
+    "removes unused CSS on build; most projects ship under 10kB of CSS",
+    "MIT licensed, maintained by Tailwind Labs"
+  ],
+  "formats": ["code", "npm-package", "cli", "docs"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/tailwindlabs/tailwindcss", "docs": "https://tailwindcss.com/docs", "npm": "tailwindcss", "figma": null, "parent": null},
+  "confidence": 0.9
+}

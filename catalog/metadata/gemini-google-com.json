@@ -1,0 +1,30 @@
+{
+  "id": "gemini-google-com",
+  "url": "https://gemini.google.com",
+  "kind": "site",
+  "hints_hash": "10a69146948b6626",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gemini.google.com", "title": "Google Gemini", "status": 200},
+    {"url": "https://gemini.google.com/overview/image-generation", "title": "Nano Banana 2 - Gemini AI image generator & photo editor", "status": 200},
+    {"url": "https://gemini.google.com/faq", "title": "What Gemini Apps can do and other frequently asked questions", "status": 200},
+    {"url": "https://gemini.google.com/app", "title": "Google Gemini", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Google Gemini",
+  "summary": "Google's AI assistant for writing, planning and brainstorming, with AI image generation and photo editing.",
+  "description": "Google's AI assistant web app. The readable pages describe an assistant for writing, planning and brainstorming, an AI image generator and photo editor (Nano Banana 2), and a FAQ about what the Gemini apps can do and how to get access. The site renders in JavaScript, so only titles and meta descriptions were readable.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "prompt-input"],
+  "keywords": ["ai assistant", "ai chat", "ai chatbot", "image generator", "photo editor", "writing assistant", "brainstorming", "generative ai", "planning tool", "ai image generation"],
+  "contains": ["AI assistant for writing, planning and brainstorming", "AI image generator and photo editor (Nano Banana 2)", "FAQ on what the Gemini apps can do and how to get access"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

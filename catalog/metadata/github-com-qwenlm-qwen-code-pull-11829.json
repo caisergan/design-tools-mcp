@@ -1,0 +1,20 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11829",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11829",
+  "kind": "page",
+  "hints_hash": "5ce7e411909b3f31",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11829", "title": "fix(cua): preserve Linux observations and REPL diagnostics by DragonnZhang · Pull Request #11829 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(cua): preserve Linux observations and REPL diagnostics",
+  "summary": "Merged pull request in QwenLM/qwen-code: preserves Linux accessibility observation indices and Node REPL diagnostics in computer-use runs.",
+  "description": "Merged pull request (#11829) in QwenLM/qwen-code: preserves Linux accessibility element indices across window observations so returned tokens resolve to the observed controls, keeps usable observation history under element or depth limits, returns processes that own top-level windows in app discovery and reports an actionable X11 error; Node REPL preserves bounded error codes and recovery details through MCP, and cancellation gets a host-enforced five-second deadline.",
+  "keywords": ["pull request", "ai coding agent", "cli", "terminal", "computer use", "linux", "accessibility", "node repl", "diagnostic", "automation", "bug fix", "open source"],
+  "formats": ["code"],
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

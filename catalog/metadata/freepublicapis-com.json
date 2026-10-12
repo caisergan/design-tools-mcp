@@ -1,0 +1,77 @@
+{
+  "id": "freepublicapis-com",
+  "url": "https://freepublicapis.com",
+  "kind": "site",
+  "hints_hash": "1906f17de530bb2b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://freepublicapis.com",
+      "title": "Free Public APIs",
+      "status": null
+    },
+    {
+      "url": "https://www.freepublicapis.com/about",
+      "title": "About Free Public APIs",
+      "status": null
+    },
+    {
+      "url": "https://www.freepublicapis.com/api",
+      "title": "🤯 Free Public APIs API - Tested Every Single Day.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Free Public APIs",
+  "summary": "Directory of 755 free public APIs, each endpoint tested daily and scored on reliability, error rate and response time.",
+  "description": "A curated, health-checked collection of free public APIs for students and developers: every endpoint is called once every 24 hours and scored 0-100, so failing APIs rank low and are eventually removed. Browsable with tags (best, newest, popular, fastest, no errors, reliable, showcase) and queryable through the site's own free API.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "api",
+    "free api",
+    "public api",
+    "rest api",
+    "open api",
+    "developer tool",
+    "api directory",
+    "weather api",
+    "crypto api",
+    "api list",
+    "student",
+    "hobby project",
+    "api health"
+  ],
+  "contains": [
+    "755 free public APIs",
+    "each endpoint tested once every 24 hours",
+    "health score 0-100 from reliability, error rate and response time",
+    "tags: best, newest, popular, fastest, no errors, reliable, showcase",
+    "own API with 4 endpoints, no sign-up, limited to 1000 requests a day",
+    "weekly newsletter and Telegram feed for new and dead APIs"
+  ],
+  "formats": [
+    "links",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

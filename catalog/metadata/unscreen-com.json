@@ -1,0 +1,33 @@
+{
+  "id": "unscreen-com",
+  "url": "https://unscreen.com",
+  "kind": "site",
+  "hints_hash": "3633d2c623dea954",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://unscreen.com", "title": "Video Background Remover: Remove video backgrounds | Canva", "status": null}
+  ],
+  "status": "ok",
+  "name": "Canva Video Background Remover",
+  "summary": "Canva Pro tool that removes a video's background in one click so the subject can sit on a new scene.",
+  "description": "Upload a video, run Background Remover from the toolbar to mask the subject across all frames, then replace the background with an uploaded image or a template and download an MP4. Works without a green screen and requires Canva Pro; unscreen.com now redirects to this Canva feature page.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["video background remover", "remove video background", "background removal", "video editing", "transparent background video", "ai video editing", "green screen alternative", "mp4", "online video editor"],
+  "contains": [
+    "removes a video background in one click by masking the subject across all frames",
+    "replace the background with an uploaded image or a Canva template",
+    "exports high-quality MP4; part of Canva's video editor",
+    "requires Canva Pro",
+    "unscreen.com now redirects to this Canva feature page"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

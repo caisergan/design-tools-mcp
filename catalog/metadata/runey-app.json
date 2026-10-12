@@ -1,0 +1,30 @@
+{
+  "id": "runey-app",
+  "url": "https://runey.app",
+  "kind": "site",
+  "hints_hash": "9bf58dddefc2fbe1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:16:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://runey.app/llms.txt", "title": "Runey", "status": null},
+    {"url": "https://runey.app", "title": "Runey — Invoices, Projects & Clients in One Place", "status": 200},
+    {"url": "https://runey.app/faq", "title": "Runey — Invoices, Projects & Clients in One Place", "status": 200},
+    {"url": "https://runey.app/pricing", "title": "Runey — Invoices, Projects & Clients in One Place", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Runey",
+  "summary": "All-in-one business app for freelancers and small studios: invoices, projects, clients, expenses and proposals.",
+  "description": "Workspace for freelance businesses combining branded and recurring invoicing with online payments, project and task tracking with kanban boards and time tracking, a lightweight client CRM, multi-currency expense logging, revenue dashboards and interactive proposals.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["dashboard", "kanban"],
+  "keywords": ["invoicing", "invoice app", "freelance tool", "freelancer", "project management", "kanban board", "time tracking", "crm", "client management", "expense tracking", "proposal", "small studio", "business dashboard", "online payment"],
+  "contains": ["branded invoices, recurring billing and online payments", "projects and tasks: kanban boards, time tracking, assignees", "lightweight client CRM", "revenue and performance dashboard", "multi-currency expense logging", "interactive proposals"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

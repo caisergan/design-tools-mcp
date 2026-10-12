@@ -1,0 +1,28 @@
+{
+  "id": "lunarui-dev",
+  "url": "https://lunarui.dev",
+  "kind": "site",
+  "hints_hash": "55ebbd648deae834",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lunarui.dev", "title": "Lunar UI – Tailwind CSS components", "status": null},
+    {"url": "https://lunarui.dev/components", "title": "Lunar UI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Lunar UI",
+  "summary": "Copy-paste Tailwind CSS components for React and Vue: animated headlines, marquees, spotlight cards and scroll effects.",
+  "description": "A paid set of interactive Tailwind CSS components for React and Vue.js, copied into your project rather than installed as a dependency. Components are grouped into feature blocks, text animation and scroll animations; a one-time $59 purchase gives lifetime access and free updates.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["marquee", "card", "text-effect", "scroll-effect"],
+  "keywords": ["tailwind component", "copy paste component", "react component", "vue component", "text animation", "marquee", "spotlight card", "scroll animation", "text reveal", "magnetic text", "sticky scroll", "landing page component", "animated headline", "text highlighter"],
+  "contains": ["feature blocks: sparkles, spotlight card, star grid, details, marquee", "text animation: magnetic text", "scroll animations: text reveal, motion text, sticky scroll, text highlighter, scroll reveal, color swapper", "components for React and Vue.js", "$59 one-time lifetime access with free updates", "trusted by 400+ users"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "vue", "tailwind"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

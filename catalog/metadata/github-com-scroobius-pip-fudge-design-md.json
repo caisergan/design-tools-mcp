@@ -1,0 +1,35 @@
+{
+  "id": "github-com-scroobius-pip-fudge-design-md",
+  "url": "https://github.com/scroobius-pip/fudge-design-md",
+  "kind": "repo",
+  "hints_hash": "f2ea5788b11b7885",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:30:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/scroobius-pip/fudge-design-md/blob/HEAD/README.md", "title": "Fudge DESIGN.md", "status": null},
+    {"url": "https://raw.githubusercontent.com/scroobius-pip/fudge-design-md/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fudge DESIGN.md",
+  "summary": "DESIGN.md guides for real websites, generated from references captured in Fudge, to steer coding agents' visual direction.",
+  "description": "A growing collection of DESIGN.md guides, one per real website domain, built from pages saved in Fudge. Each guide summarizes the site's visual direction, typography, colors and layout, shows the representative captured pages it was based on, separates captured details from interpretation, and links to the Fudge conversation that produced it. Guides are added only when a substantial domain guide is accepted, and a status file tracks migration state.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["design.md", "website design", "visual direction", "typography", "color", "layout", "screenshot", "design reference", "coding agent", "web design", "landing page", "editorial design", "portfolio", "design analysis", "inspiration"],
+  "contains": [
+    "one DESIGN.md guide per real website domain",
+    "each guide: visual direction, typography, colors and layout summary",
+    "captured details separated from interpretation",
+    "links to the Fudge conversation and captured pages behind each guide",
+    "status page tracks migration state incl. blocked jobs",
+    "guides listed only when a substantial domain guide is published"
+  ],
+  "formats": ["prompts", "docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/scroobius-pip/fudge-design-md", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

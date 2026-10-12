@@ -1,0 +1,19 @@
+{
+  "id": "developers-openai-com-api-docs-guides-image-generation",
+  "url": "https://developers.openai.com/api/docs/guides/image-generation",
+  "kind": "page",
+  "hints_hash": "35400f44cc31c3ff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://developers.openai.com/api/docs/guides/image-generation", "title": "Image generation | OpenAI API", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Image generation",
+  "summary": "OpenAI API guide for generating and editing images with the image generation models.",
+  "keywords": ["image generation", "openai api", "image editing", "gpt image", "api guide", "text to image", "image prompting", "customize image output", "cost and latency", "sdk", "python", "node"],
+  "formats": ["docs"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

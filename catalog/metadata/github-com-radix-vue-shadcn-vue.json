@@ -1,0 +1,145 @@
+{
+  "id": "github-com-radix-vue-shadcn-vue",
+  "url": "https://github.com/radix-vue/shadcn-vue",
+  "kind": "repo",
+  "hints_hash": "dcc138dbf6cce4bb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:07Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/radix-vue/shadcn-vue/blob/HEAD/README.md",
+      "title": "shadcn-vue",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-vue.com/docs",
+      "title": "shadcn/vue",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-vue.com/llms.txt",
+      "title": "shadcn-vue",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-vue.com/docs/components",
+      "title": "Components - shadcn/vue",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-vue.com/docs/components/tabs",
+      "title": "Tabs - shadcn/vue",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-vue.com/docs/components/tooltip",
+      "title": "Tooltip - shadcn/vue",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-vue",
+  "summary": "Community Vue port of shadcn/ui: copy-paste components built with Reka UI and Tailwind CSS.",
+  "description": "A community-led Vue port of shadcn/ui: accessible, customizable components you copy into your app, built with Vue 3, TypeScript, Tailwind CSS v4 and Reka UI primitives. The docs cover installation for Vite, Nuxt, Astro and Laravel, a per-component catalog, blocks, charts, RTL and theming, with a CLI to add components and a shadcn-format registry.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "file-upload",
+    "form",
+    "input",
+    "loader",
+    "menubar",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "vue",
+    "vue 3",
+    "nuxt",
+    "shadcn",
+    "component library",
+    "reka ui",
+    "tailwind css",
+    "typescript",
+    "copy paste component",
+    "cli",
+    "registry",
+    "dark mode",
+    "block",
+    "chart",
+    "data table",
+    "dialog",
+    "combobox",
+    "date picker",
+    "sidebar",
+    "command palette"
+  ],
+  "contains": [
+    "copy-paste Vue components built with Reka UI and Tailwind CSS v4",
+    "per-component docs from accordion and data table to dialog, combobox, sidebar, tabs and tooltip",
+    "blocks and chart sections in the docs",
+    "CLI to add components plus a registry to publish and distribute code",
+    "works with Vite, Nuxt, Astro and Laravel",
+    "skills, MCP server and llms.txt for AI workflows",
+    "RTL support and typeset pages"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "vue",
+    "typescript",
+    "tailwind",
+    "reka-ui"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/unovue/shadcn-vue",
+    "docs": "https://shadcn-vue.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

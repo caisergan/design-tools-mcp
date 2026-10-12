@@ -1,0 +1,36 @@
+{
+  "id": "palette-site",
+  "url": "https://palette.site",
+  "kind": "site",
+  "hints_hash": "eb49d1d65f9bf8c4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://palette.site/llms.txt", "title": "Site Palette", "status": null},
+    {"url": "https://palette.site", "title": "Site Palette — Extract Color Palette from Any Website", "status": 200},
+    {"url": "https://palette.site/help", "title": "Site Palette Help: Getting Started, Features, Pricing & FAQ", "status": 200},
+    {"url": "https://palette.site/comparison", "title": "Site Palette vs Other Color Palette Extensions", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Site Palette",
+  "summary": "Browser extension that extracts color palettes from any website and exports them to design tools.",
+  "description": "Site Palette is a Chrome and Firefox extension that reads the colors of a live web page and builds a palette in Color Cube, Material Design or Median Cut mode. Palettes export to SVG, Sketch template, Adobe Swatch, Google Palette and Coolors, and optional profiles save or share them across devices. The site also publishes comparisons against other palette extensions and a help section covering pricing and subscriptions.",
+  "type": "plugin",
+  "categories": ["color-effects", "design-tools"],
+  "elements": [],
+  "keywords": ["color palette", "palette extractor", "website color", "color picker", "color scheme", "browser extension", "chrome extension", "firefox extension", "median cut", "material design", "color cube", "palette export", "svg export", "design tool", "frontend developer"],
+  "contains": [
+    "extracts a color palette from any website in the browser",
+    "palette modes: Color Cube, Material Design, Median Cut",
+    "exports to SVG, Sketch template, Adobe Swatch, Google Palette and Coolors",
+    "free to install; a free trial unlocks the full feature set for new users",
+    "optional profile saves and shares palettes across devices"
+  ],
+  "formats": ["app", "svg"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

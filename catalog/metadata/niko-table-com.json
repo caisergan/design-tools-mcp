@@ -1,0 +1,127 @@
+{
+  "id": "niko-table-com",
+  "url": "https://niko-table.com",
+  "kind": "site",
+  "hints_hash": "e9537d90575cdf49",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://niko-table.com/llms.txt",
+      "title": "Niko Table",
+      "status": null
+    },
+    {
+      "url": "https://niko-table.com",
+      "title": "Shadcn-Compatible React Data Table | Niko Table",
+      "status": 200
+    },
+    {
+      "url": "https://niko-table.com/getting-started/skills",
+      "title": "Skills | Niko Table",
+      "status": 200
+    },
+    {
+      "url": "https://niko-table.com/examples/tree-table",
+      "title": "Tree Table | Niko Table",
+      "status": 200
+    },
+    {
+      "url": "https://niko-table.com/examples/aside-table",
+      "title": "Aside Table | Niko Table",
+      "status": 200
+    },
+    {
+      "url": "https://niko-table.com/examples/basic-table",
+      "title": "Basic Table | Niko Table",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Semkoo/niko-table-registry",
+      "title": "GitHub - Semkoo/niko-table-registry",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Semkoo/niko-table-registry/main/README.md",
+      "title": "Niko Table",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Niko Table",
+  "summary": "Shadcn-compatible React data table registry built on TanStack Table, installed piece by piece.",
+  "description": "A copy-paste data table for React and shadcn/ui on TanStack Table: sorting, filtering, pagination, row selection and expansion, column pinning and resizing, row and column drag-and-drop, virtualization, infinite scroll, server-side data and URL state via nuqs. Ships an editable Data Grid variant and examples down to Drizzle ORM.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "button",
+    "checkbox",
+    "date-picker",
+    "dropdown",
+    "input",
+    "pagination",
+    "sidebar",
+    "slider",
+    "table"
+  ],
+  "keywords": [
+    "data table",
+    "tanstack table",
+    "shadcn ui",
+    "react",
+    "registry",
+    "sorting",
+    "filters",
+    "pagination",
+    "virtualization",
+    "infinite scroll",
+    "column pinning",
+    "row drag and drop",
+    "server side",
+    "nuq",
+    "data grid",
+    "inline edit"
+  ],
+  "contains": [
+    "34 registry items",
+    "examples: basic, search, row selection, inline edit, tree, drag-and-drop, virtualization, server-side, Drizzle ORM",
+    "install @niko-table once, then add blocks by name via the shadcn CLI",
+    "agent skill niko-table-best-practices for Cursor, Claude Code and Windsurf",
+    "llms.txt and markdown variants of every docs page",
+    "MIT license, 70 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "tanstack-table",
+    "shadcn-ui",
+    "nuqs",
+    "drizzle"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Semkoo/niko-table-registry",
+    "docs": "https://niko-table.com/getting-started/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

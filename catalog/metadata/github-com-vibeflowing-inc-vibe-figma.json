@@ -1,0 +1,27 @@
+{
+  "id": "github-com-vibeflowing-inc-vibe-figma",
+  "url": "https://github.com/vibeflowing-inc/vibe_figma",
+  "kind": "repo",
+  "hints_hash": "9ec7726ee350a3af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/vibeflowing-inc/vibe_figma/blob/HEAD/README.md", "title": "VibeFigma - Figma to React Converter", "status": 200}
+  ],
+  "status": "ok",
+  "name": "VibeFigma",
+  "summary": "Open-source CLI, API and Claude Code skill that convert Figma designs into React/TypeScript components with Tailwind CSS.",
+  "description": "Converts Figma frames into React/TypeScript components using the official Figma API, with automatic Tailwind CSS class generation (enabled by default) and optional AI-powered code cleanup. Usable as an interactive CLI, a direct command with a Figma access token, a Claude Code skill, or a REST API server; the open-source core of VibeFlow UI.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["figma to react", "figma to code", "design to code", "converter", "code generation", "tailwind css", "react component", "typescript", "figma api", "claude code", "cli", "rest api", "component generation", "dev tool"],
+  "contains": ["converts Figma frames to React/TypeScript components", "Tailwind CSS class generation enabled by default", "usage via interactive CLI, direct command, env var, Claude Code skill or REST API", "REST API server with docs in docs/API.md", "optional AI-powered code cleanup", "AGPL-3.0 licensed open-source core of VibeFlow UI"],
+  "formats": ["code", "cli", "api"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/vibeflowing-inc/vibe_figma", "docs": "https://github.com/vibeflowing-inc/vibe_figma/blob/HEAD/docs/API.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

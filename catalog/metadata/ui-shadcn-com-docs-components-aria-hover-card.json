@@ -1,0 +1,23 @@
+{
+  "id": "ui-shadcn-com-docs-components-aria-hover-card",
+  "url": "https://ui.shadcn.com/docs/components/aria/hover-card",
+  "kind": "page",
+  "hints_hash": "964d351f9a49d90b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.shadcn.com/docs/components/aria/hover-card", "title": "Hover Card - shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hover Card",
+  "summary": "Popover that appears on hover, focus or long press to preview content available behind a link.",
+  "description": "Docs page for the Hover Card component in the shadcn/ui React Aria base: installation, usage and composition, trigger delays, positioning and sides, RTL support and an API reference.",
+  "type": "component-library",
+  "elements": ["popover"],
+  "keywords": ["hover card", "popover", "hover preview", "link preview", "shadcn", "react aria", "preview trigger", "accessible component", "touch support"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "react-aria"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ui-shadcn-com"},
+  "confidence": 0.9
+}

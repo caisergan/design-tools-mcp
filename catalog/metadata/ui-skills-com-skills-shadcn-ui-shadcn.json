@@ -1,0 +1,35 @@
+{
+  "id": "ui-skills-com-skills-shadcn-ui-shadcn",
+  "url": "https://ui-skills.com/skills/shadcn-ui/shadcn",
+  "kind": "page",
+  "hints_hash": "581694540499e0a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui-skills.com/skills/shadcn-ui/shadcn", "title": "shadcn Skill - shadcn-ui | UI Skills", "status": 200},
+    {"url": "https://github.com/shadcn-ui/ui", "title": "GitHub - shadcn-ui/ui: Composable, accessible components with thoughtful defaults. · GitHub", "status": 200},
+    {"url": "https://github.com/shadcn-ui/ui/blob/HEAD/LICENSE.md", "title": "shadcn-ui/ui LICENSE.md — MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn",
+  "summary": "Agent skill for a project-aware shadcn/ui workflow: finding, adding, composing and fixing components correctly.",
+  "description": "A SKILL.md package that gives coding agents a project-aware shadcn/ui workflow. It reads the injected project context — import aliases, RSC, Tailwind version, base primitives, icon library, style — then uses it to search, add, compose and fix components instead of guessing, with a component-selection table, styling rules for Tailwind utilities and semantic tokens, CLI commands (info, search, docs, add, view) and safe-update guidance. Secondary references cover styling, forms, composition, icons and chat. Installs with the skills CLI from the shadcn-ui/ui repo (MIT).",
+  "type": "agent-skill",
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "card", "chart", "chat", "checkbox", "command-palette", "drawer", "dropdown", "empty-state", "input", "loader", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["agent skill", "skill.md", "shadcn", "shadcn ui", "react", "tailwind", "component library", "design system", "shadcn cli", "form", "data table", "chat ui", "coding agent", "ai agent", "frontend", "component composition"],
+  "contains": [
+    "installs with npx skills add from the shadcn-ui/ui repo (MIT)",
+    "project context: aliases, isRSC, tailwindVersion, style, base, iconLibrary, framework",
+    "component selection table from needs to shadcn components",
+    "workflow with the shadcn CLI: info, search, docs, view, add --diff",
+    "styling rules: gap-*, size-*, badge variants and semantic tokens over raw colors",
+    "reference files: styling.md, forms.md, composition.md, icons.md, chat.md"
+  ],
+  "formats": ["prompts"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcn-ui/ui", "docs": null, "npm": null, "figma": null, "parent": "ui-skills-com"},
+  "confidence": 0.9
+}

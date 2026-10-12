@@ -1,0 +1,30 @@
+{
+  "id": "asi1-ai",
+  "url": "https://asi1.ai",
+  "kind": "site",
+  "hints_hash": "86d9b690906c5abc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://asi1.ai/llms.txt", "title": "ASI:One", "status": null},
+    {"url": "https://asi1.ai", "title": "ASI:One - Your Personal AI", "status": 200},
+    {"url": "https://asi1.ai/skills", "title": "Skills Library - ASI:One | Teach Your AI New Abilities", "status": 200},
+    {"url": "https://asi1.ai/about", "title": "About - ASI:One", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ASI:One",
+  "summary": "Personal AI assistant that chats by voice and text, learns your preferences and coordinates with other people's AIs.",
+  "description": "ASI:One is a personal AI you shape through direct interaction: it chats by voice and text, builds a knowledge base from your conversations, and represents you in agent networks where it coordinates with other people's AIs on plans, trips and shared costs. A community skills library extends what it can do; authenticated API for agent-to-agent communication. Part of the Fetch.ai ecosystem (Flockx, Agentverse).",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["personal ai", "ai assistant", "ai agent", "chatbot", "social ai", "voice assistant", "agent to agent", "group planning", "ai collaboration", "skill library", "knowledge base", "ai profile"],
+  "contains": ["personal AI that learns preferences and keeps a knowledge base", "voice interaction with speech-to-text and text-to-speech", "agents coordinate with other users' AIs on plans, trips and splitting costs", "community skills library to teach the AI new abilities", "authenticated API for agent-to-agent communication", "part of the Fetch.ai ecosystem with Flockx and Agentverse"],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

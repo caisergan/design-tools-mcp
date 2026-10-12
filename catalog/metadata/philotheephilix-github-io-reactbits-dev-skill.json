@@ -1,0 +1,86 @@
+{
+  "id": "philotheephilix-github-io-reactbits-dev-skill",
+  "url": "https://philotheephilix.github.io/reactbits.dev-skill",
+  "kind": "page",
+  "hints_hash": "b3b5f4157b12a2af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:31:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://philotheephilix.github.io/reactbits.dev-skill",
+      "title": "react-bits — a Claude Code skill for React Bits",
+      "status": null
+    },
+    {
+      "url": "https://github.com/Philotheephilix/reactbits.dev-skill",
+      "title": "GitHub - Philotheephilix/reactbits.dev-skill",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Philotheephilix/reactbits.dev-skill/main/README.md",
+      "title": "reactbits.dev-skill README",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Philotheephilix/reactbits.dev-skill/main/LICENSE",
+      "title": "reactbits.dev-skill LICENSE (MIT)",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "react-bits",
+  "summary": "Claude Code skill that pulls real React Bits component source from the live registry instead of recalling it from memory.",
+  "description": "A Claude Code skill for adding React Bits components to a project. Instead of recalling component code, it fetches the real source and dependencies from the live registry, backed by a catalog of 165 components that is auto-updated daily and a script that writes the fetched files to disk. Install through the Claude plugin marketplace; the repo's own code is MIT.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "background",
+    "text-effect"
+  ],
+  "keywords": [
+    "claude code skill",
+    "agent skill",
+    "react bit",
+    "component registry",
+    "source fetch",
+    "react component",
+    "animated background",
+    "text effect",
+    "ai agent",
+    "coding agent",
+    "npm dependency",
+    "skill install",
+    "claude plugin"
+  ],
+  "contains": [
+    "fetches real React Bits component source and dependencies from the live registry",
+    "catalog of 165 components with 4 variants each, auto-updated daily",
+    "script (rb-add.mjs) writes fetched files to disk",
+    "installs through the Claude plugin marketplace",
+    "repo code is MIT; component source is fetched under React Bits' own license"
+  ],
+  "formats": [
+    "prompts",
+    "code"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Philotheephilix/reactbits.dev-skill",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

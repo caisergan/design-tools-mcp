@@ -1,0 +1,28 @@
+{
+  "id": "darkmodedesign-com",
+  "url": "https://darkmodedesign.com",
+  "kind": "site",
+  "hints_hash": "68f49636515d9d7c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://darkmodedesign.com", "title": "Dark Mode Design 🌘 Handpicked website inspiration", "status": null},
+    {"url": "https://www.darkmodedesign.com/about", "title": "About – Dark Mode Design 🌘", "status": null}
+  ],
+  "status": "ok",
+  "name": "Dark Mode Design",
+  "summary": "Gallery of 387 dark mode website designs, each screenshot linking to the live site.",
+  "description": "A showcase of dark-themed websites, curated by Cai Cardenas. Entries are screenshots that link to the original sites, browsable page by page, with a form to submit new sites.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["background", "chart", "3d", "form"],
+  "keywords": ["dark mode", "dark theme", "dark ui", "website inspiration", "web design gallery", "dark website", "design showcase", "website showcase", "ui inspiration", "dark mode design"],
+  "contains": ["387 website examples in the gallery", "each entry links to the live site", "curated by Cai Cardenas", "submit a site form"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,70 @@
+{
+  "id": "openshaders-com-about",
+  "url": "https://openshaders.com/about",
+  "kind": "page",
+  "hints_hash": "ad33c1c41431eaf1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://openshaders.com/about",
+      "title": "About | OpenShaders",
+      "status": 200
+    },
+    {
+      "url": "https://openshaders.com",
+      "title": "OpenShaders: Shaders belong on the web",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "About OpenShaders",
+  "summary": "Letter explaining OpenShaders, a pre-launch home for WebGL and WebGPU shaders and the people who make them.",
+  "description": "Founder's letter about OpenShaders: a community site where shader authors publish, save, upvote and follow each other, building their work in a live WebGL or WebGPU editor and collaborating when a piece needs more than one pair of hands. It states the goal of building a large collection of shaders that are easy to find, customize and use in real websites; usernames can be claimed before launch.",
+  "elements": [
+    "3d"
+  ],
+  "keywords": [
+    "shader",
+    "webgl",
+    "webgpu",
+    "shader editor",
+    "shader collection",
+    "shader community",
+    "web effect",
+    "creative coding",
+    "publish shader",
+    "web graphics",
+    "live editor",
+    "glsl"
+  ],
+  "contains": [
+    "a home for shaders and their authors",
+    "publish, save, upvote and follow",
+    "live editor for building shaders in WebGL or WebGPU",
+    "usernames can be claimed before launch"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "webgl",
+    "webgpu"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "openshaders-com"
+  },
+  "confidence": 0.7
+}

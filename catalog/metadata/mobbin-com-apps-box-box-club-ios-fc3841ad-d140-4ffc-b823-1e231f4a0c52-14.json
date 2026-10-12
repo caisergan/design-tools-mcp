@@ -1,0 +1,41 @@
+{
+  "id": "mobbin-com-apps-box-box-club-ios-fc3841ad-d140-4ffc-b823-1e231f4a0c52-14",
+  "url": "https://mobbin.com/apps/box-box-club-ios-fc3841ad-d140-4ffc-b823-1e231f4a0c52/14eacc08-f414-5e4a-a55e-38fd0cc6ca07/screens",
+  "kind": "page",
+  "hints_hash": "8eda32074cb454a0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mobbin.com/apps/box-box-club-ios-fc3841ad-d140-4ffc-b823-1e231f4a0c52/14eacc08-f414-5e4a-a55e-38fd0cc6ca07/screens",
+      "title": "Mobbin — UI & UX design inspiration for mobile & web apps",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Box Box Club iOS",
+  "summary": "Mobbin's screen gallery for the iOS app Box Box Club, within a searchable library of 600,000+ mobile and web app screenshots.",
+  "keywords": [
+    "app screen",
+    "ios app",
+    "screenshot",
+    "ui inspiration",
+    "ux research",
+    "mobile design",
+    "screen gallery",
+    "app design reference"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "mobbin-com"
+  },
+  "confidence": 0.5
+}

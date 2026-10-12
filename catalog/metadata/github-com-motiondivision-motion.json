@@ -1,0 +1,27 @@
+{
+  "id": "github-com-motiondivision-motion",
+  "url": "https://github.com/motiondivision/motion",
+  "kind": "repo",
+  "hints_hash": "d7eaf11bcaa280e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/motiondivision/motion/blob/HEAD/README.md", "title": "React / JavaScript", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Motion",
+  "summary": "Open source animation library for JavaScript, React and Vue with springs, gestures, layout transitions and scroll-linked effects.",
+  "description": "A hybrid animation engine that combines JavaScript with native browser APIs for GPU-accelerated animations, with first-class packages for React, JavaScript and Vue (Framer Motion is now Motion; import from motion/react). Batteries include gestures, springs, layout transitions, scroll-linked effects and timelines, alongside 450+ copy-paste examples, 110+ tutorials, the Motion Studio visual editor and an MIT-licensed skill and MCP server for AI agents.",
+  "type": "tool",
+  "categories": ["motion"],
+  "elements": ["scroll-effect"],
+  "keywords": ["animation library", "react animation", "vue animation", "javascript animation", "spring animation", "gesture", "layout animation", "scroll animation", "keyframe", "easing", "framer motion", "typescript", "motion studio"],
+  "contains": ["React, JavaScript and Vue packages", "springs, gestures, layout transitions, scroll-linked effects and timelines", "hybrid engine: JavaScript plus native browser APIs, 120fps GPU-accelerated", "450+ examples; 110+ with step-by-step tutorials", "Motion Studio visual editor for keyframes, easing curves and springs", "Motion+ paid plan: premium APIs, AI kit, private Discord"],
+  "formats": ["npm-package", "docs", "code"],
+  "stack": ["react", "vue", "javascript", "typescript"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/motiondivision/motion", "docs": "https://motion.dev", "npm": "motion", "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,14 @@
+{
+  "id": "adobe-com-products-animate-html",
+  "url": "https://adobe.com/products/animate.html",
+  "kind": "page",
+  "hints_hash": "514631adf93785bf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://adobe.com/products/animate.html", "title": null, "status": 403}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

@@ -1,0 +1,34 @@
+{
+  "id": "producthunt-com-products-scrimba-launches-scrimba-explain",
+  "url": "https://producthunt.com/products/scrimba/launches/scrimba-explain",
+  "kind": "page",
+  "hints_hash": "008a7d099de67e4e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://producthunt.com/products/scrimba/launches/scrimba-explain", "title": "Scrimba Explain - Ask any question, get a video back instantly | Product Hunt", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Scrimba Explain",
+  "summary": "Product Hunt launch page for Scrimba Explain, which turns a question, file, link or code into an instant narrated video tutorial.",
+  "description": "The Product Hunt launch page for Scrimba Explain, launched August 13th, 2026. The tool generates a narrated video tutorial about almost anything you ask: upload files, add links, paste code or write what you are trying to understand, and the video explainer comes back with images, code walkthroughs, animations and diagrams. It uses DOM-based playback technology instead of video-generation models.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "learning"],
+  "elements": [],
+  "keywords": ["ai video explainer", "narrated video", "video tutorial", "explainer video", "code walkthrough", "learning tool", "technical concept", "instant explainer", "developer education", "generative video", "product launch", "video generation"],
+  "contains": [
+    "Product Hunt launch page for Scrimba Explain; launched August 13th, 2026",
+    "generates a narrated video tutorial from a question, uploaded file, link or pasted code",
+    "video explainers can include images, code walkthroughs, animations and diagrams",
+    "uses DOM-based playback technology for faster output than video generation models",
+    "Scrimba: 4.9 rating from 78 reviews, 3.1K followers, 7 launches",
+    "Scrimba launched 2017; Y Combinator company; categories: code editors, online learning"
+  ],
+  "formats": ["video", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

@@ -1,0 +1,37 @@
+{
+  "id": "zod-dev",
+  "url": "https://zod.dev",
+  "kind": "site",
+  "hints_hash": "d8f38b26de67f834",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://zod.dev/llms.txt", "title": "Zod", "status": null},
+    {"url": "https://zod.dev", "title": "Intro | Zod", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Zod",
+  "summary": "Documentation for Zod 4, the TypeScript-first schema validation library with static type inference and zero dependencies.",
+  "description": "The docs site for Zod: define schemas for everything from a simple string to a complex nested object, parse data and get static TypeScript types. It covers the full schema API, refinements, transforms, codecs and pipes, error customisation and formatting, JSON Schema conversion, ahead-of-time compilation with z.compile() for hot paths, the ecosystem of form and API integrations, and guidance for library authors. Zod 4 also ships Zod Mini and Zod Core packages, a 2 kB gzipped core, an MCP server and llms.txt for agents.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["schema validation", "typescript", "type inference", "runtime validation", "json schema", "zod mini", "zod core", "codec", "parse", "form validation", "api validation", "data validation", "zero dependency", "mcp server", "docs"],
+  "contains": [
+    "documentation covering Zod 4 (current release 4.6)",
+    "schema API: primitives, strings, numbers, objects, arrays, unions, records, maps, sets, files, promises",
+    "refinements, transforms, codecs and pipes; z.input() and z.output()",
+    "error customisation, i18n and formatters: treeifyError, prettifyError, formatError, flattenError",
+    "JSON Schema conversion: z.toJSONSchema() and z.fromJSONSchema()",
+    "ahead-of-time compilation with z.compile() for hot validation paths",
+    "packages: Zod, Zod Mini, Zod Core; 2 kB gzipped core, zero external dependencies",
+    "MCP server and llms.txt for agents; tested against TypeScript 5.5+"
+  ],
+  "formats": ["docs", "code"],
+  "stack": ["typescript", "javascript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

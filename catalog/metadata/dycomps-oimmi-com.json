@@ -1,0 +1,109 @@
+{
+  "id": "dycomps-oimmi-com",
+  "url": "https://dycomps.oimmi.com",
+  "kind": "site",
+  "hints_hash": "bc7be84fad20b6c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dycomps.oimmi.com",
+      "title": "DY Comps",
+      "status": 200
+    },
+    {
+      "url": "https://dycomps.oimmi.com/templates",
+      "title": "Templates | DY Comps",
+      "status": 200
+    },
+    {
+      "url": "https://dycomps.oimmi.com/templates/c-blocks",
+      "title": "c-blocks | DY Comps",
+      "status": null
+    },
+    {
+      "url": "https://dycomps.oimmi.com/pages",
+      "title": "DY Comps",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "DY Comps",
+  "summary": "Free open-source gallery of 553 copy-paste React page sections and components built with shadcn, Next.js and Framer Motion.",
+  "description": "A gallery of React components and page sections built with Next.js, TypeScript, shadcn/ui, Tailwind CSS and Framer Motion. Blocks are browsable by type (hero, features, pricing, testimonials, FAQ, team, contact, footer, CTA, banner, card, dashboard, table) and come as copy-paste code, with full-page templates and hooks alongside. Free and open source.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "features",
+    "hero",
+    "card",
+    "cta",
+    "contact",
+    "form",
+    "pricing",
+    "testimonials",
+    "footer",
+    "team",
+    "faq",
+    "dashboard",
+    "banner",
+    "table"
+  ],
+  "keywords": [
+    "shadcn ui",
+    "react component",
+    "page section",
+    "block",
+    "next.js",
+    "typescript",
+    "framer motion",
+    "tailwind css",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "footer",
+    "free component",
+    "copy paste",
+    "template",
+    "hook"
+  ],
+  "contains": [
+    "553 browsable section and component examples",
+    "131 feature sections, 80 hero sections, 40 cards, 39 CTA sections",
+    "27 pricing, 25 testimonial, 23 footer, 23 team, 22 FAQ and 20 dashboard examples",
+    "full-page templates under /pages and React hooks alongside blocks",
+    "built with Next.js, TypeScript, shadcn/ui, Tailwind CSS and Framer Motion",
+    "free and open source"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "nextjs",
+    "typescript",
+    "shadcn-ui",
+    "tailwind",
+    "framer-motion",
+    "react"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

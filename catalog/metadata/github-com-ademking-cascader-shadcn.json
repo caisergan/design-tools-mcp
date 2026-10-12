@@ -1,0 +1,71 @@
+{
+  "id": "github-com-ademking-cascader-shadcn",
+  "url": "https://github.com/Ademking/cascader-shadcn",
+  "kind": "repo",
+  "hints_hash": "ada91cde9dda9886",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Ademking/cascader-shadcn/blob/HEAD/README.md",
+      "title": "Cascader-Shadcn",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Cascader-Shadcn",
+  "summary": "Cascading dropdown component for shadcn/ui that selects hierarchical data such as locations, categories or organizational structures.",
+  "description": "A cascading menu component for forms that selects values from nested options with click or hover expansion. It supports icons, custom labels, custom display rendering, per-option or whole-component disabling, placeholder and clear controls; installs with the shadcn CLI or by copying Cascader.tsx. Inspired by the Cascader components of Ant Design and React Suite; MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "select"
+  ],
+  "keywords": [
+    "cascader",
+    "cascading dropdown",
+    "hierarchical select",
+    "nested option",
+    "react",
+    "shadcn",
+    "tailwind",
+    "ant design",
+    "form control",
+    "location picker",
+    "category picker",
+    "typescript"
+  ],
+  "contains": [
+    "hierarchical cascading menu with click or hover expansion",
+    "controlled and uncontrolled value props",
+    "icons, custom labels and custom display render",
+    "disable per option or the whole component",
+    "shadcn CLI install (1 registry item)",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Ademking/cascader-shadcn",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

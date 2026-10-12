@@ -1,0 +1,64 @@
+{
+  "id": "designminis-com",
+  "url": "https://designminis.com",
+  "kind": "site",
+  "hints_hash": "d93b568510acd5c4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designminis.com",
+      "title": "Design Minis: the design tools you keep bookmarking",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Design Minis",
+  "summary": "Directory of small single-purpose design tools made by designers: colour pickers, type scales, easing curves, shadow generators.",
+  "description": "A browsable directory of small design tools, each doing one job, spanning colour, typography, motion, icons, images, video, layout, effects, 3D and illustration. Every tool lists a category and a Free or Freemium label; sponsorship slots and free tool submissions are open.",
+  "type": "directory",
+  "categories": [
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "design tool",
+    "designer tool",
+    "tool directory",
+    "colour picker",
+    "type scale",
+    "easing curve",
+    "shadow generator",
+    "icon tool",
+    "mockup",
+    "svg tool",
+    "free design tool"
+  ],
+  "contains": [
+    "tools listed with a category and a Free or Freemium label",
+    "categories: fun, images, motion, svg, effects, layout, video, typography, icons, 3d, illustration",
+    "sponsor slots and free tool submissions",
+    "150 pages in its sitemap"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [
+    "nextjs"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

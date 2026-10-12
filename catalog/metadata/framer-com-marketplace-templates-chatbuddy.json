@@ -1,0 +1,34 @@
+{
+  "id": "framer-com-marketplace-templates-chatbuddy",
+  "url": "https://framer.com/marketplace/templates/chatbuddy",
+  "kind": "page",
+  "hints_hash": "552ccbe4cac13fc5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/templates/chatbuddy", "title": "Chatbuddy — Free Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Chatbuddy",
+  "summary": "Free Framer template for AI SaaS and automation products, by Flexbuildr, with two homepages, two pricing layouts and a Figma file.",
+  "description": "A free AI SaaS and automation website template for Framer by Flexbuildr, aimed at AI startups, workflow automation platforms and B2B SaaS products. It includes 10+ designed pages with two complete homepage designs and two pricing page layouts, CMS collections for features and blog, AI workflow and how-it-works sections, global color and font styles and responsive layouts; it ships as a Framer remix link with an editable Figma design file and a getting-started guide.",
+  "type": "template",
+  "elements": ["pricing", "features"],
+  "keywords": ["framer template", "ai saas", "automation", "website template", "free template", "landing page", "saas website", "pricing page", "homepage layout", "cms", "figma file", "no-code", "b2b saas", "ai startup", "startup website", "responsive website"],
+  "contains": [
+    "free Framer template by Flexbuildr, published Mar 12, 2026",
+    "10+ designed pages with 2 homepage designs and 2 pricing page layouts",
+    "2 CMS collections: features and blog",
+    "Framer template, editable Figma design file and getting started guide",
+    "built natively in Framer; no coding or plugins required",
+    "global color and font styles, responsive layouts, SEO-ready pages",
+    "unlimited website license (personal and commercial), free lifetime updates"
+  ],
+  "formats": ["templates", "framer-file", "figma-file", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

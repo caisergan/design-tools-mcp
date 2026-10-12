@@ -1,0 +1,77 @@
+{
+  "id": "github-com-cline-cline",
+  "url": "https://github.com/cline/cline",
+  "kind": "repo",
+  "hints_hash": "edc5495efde2f096",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/cline/cline/blob/HEAD/README.md",
+      "title": "Cline",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Cline",
+  "summary": "Open-source coding agent that runs in your IDE, terminal and desktop, with plan/act modes and multi-agent teams.",
+  "description": "Autonomous coding agent available as a VS Code extension, JetBrains plugin, CLI, desktop app (macOS/Windows) and Node.js SDK. It edits across a project with checkpoints, runs bash commands, watches linter/compiler errors, supports plan/act modes, .clinerules and skills, multi-agent teams, scheduled agents, Slack/Telegram/Discord chats and MCP or plugin extensions, and works with any model provider.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "coding agent",
+    "ai coding assistant",
+    "ide extension",
+    "cli",
+    "sdk",
+    "mcp",
+    "plan mode",
+    "act mode",
+    "multi-agent",
+    "scheduled agent",
+    "headless",
+    "automation",
+    "ci/cd",
+    "open source",
+    "developer tool",
+    "llm"
+  ],
+  "contains": [
+    "forms: CLI, desktop app (macOS/Windows), VS Code extension, JetBrains plugin, Node.js SDK",
+    "plan and act modes with approval or auto-approve",
+    ".clinerules project rules and skills",
+    "multi-agent teams and cron-scheduled agents",
+    "chat integrations: Slack, Telegram, Discord, Google Chat, WhatsApp, Linear",
+    "works with any model provider incl. local Ollama/LM Studio",
+    "Apache-2.0 licensed"
+  ],
+  "formats": [
+    "app",
+    "cli",
+    "code"
+  ],
+  "stack": [
+    "node",
+    "nextjs",
+    "tauri",
+    "bun"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/cline/cline",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

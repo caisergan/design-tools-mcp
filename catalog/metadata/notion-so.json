@@ -1,0 +1,32 @@
+{
+ "id": "notion-so",
+ "url": "https://notion.so",
+ "kind": "site",
+ "hints_hash": "cb5251c46d0021dd",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://notion.so/llms.txt", "title": "Notion", "status": null},
+  {"url": "https://notion.so", "title": "The AI workspace that works for you. | Notion", "status": 200},
+  {"url": "https://www.notion.com/explore", "title": "Notion", "status": 200},
+  {"url": "https://www.notion.com/pricing", "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.", "status": 200},
+  {"url": "https://www.notion.com/about", "title": "Why we built Notion – About", "status": 200},
+  {"url": "https://www.notion.com/templates", "title": "Choose from 30,000+ Notion templates | Notion Marketplace", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Notion",
+ "summary": "AI workspace for notes, docs, wikis, projects and databases, with agents and a 30,000+ template marketplace.",
+ "description": "Notion is a connected workspace that combines notes, docs, wikis, projects, databases, calendar, sites and forms, with AI that captures context, answers questions with citations and runs agents. Free for individuals, paid per-member plans for teams, plus a marketplace of 30,000+ templates and consultants.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["ai workspace", "note taking", "docs", "wiki", "knowledge base", "project management", "task management", "database", "calendar", "collaboration", "team workspace", "automation", "ai agent", "enterprise search", "template"],
+ "contains": ["notes, docs, wikis, projects, calendar, sites, forms and charts", "AI agents, enterprise search and automations", "template gallery with 30,000+ templates", "free plan; Plus $10/member/month; Business; Enterprise", "50M+ users per its llms.txt"],
+ "formats": ["app", "templates", "docs", "api"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

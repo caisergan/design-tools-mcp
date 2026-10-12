@@ -1,0 +1,31 @@
+{
+  "id": "boxicons-com",
+  "url": "https://boxicons.com",
+  "kind": "site",
+  "hints_hash": "f36a2595442ef52d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:46:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://boxicons.com", "title": "Boxicons - High Quality Web Icons", "status": null},
+    {"url": "https://boxicons.com/icons", "title": "Icons Library | Boxicons", "status": null},
+    {"url": "https://boxicons.com/pricing", "title": "Pricing | Boxicons", "status": null},
+    {"url": "https://boxicons.com/faq", "title": "Frequently Asked Questions | Boxicons", "status": null},
+    {"url": "https://boxicons.com/icons/c", "title": "C Icon - SVG, PNG, JSX, React, Svelte, and Vue formats | Boxicons | Boxicons", "status": null}
+  ],
+  "status": "ok",
+  "name": "Boxicons",
+  "summary": "Icon library with 3,500+ free icons and 50,000+ Pro variations in 3 styles and 3 weights, for React, Vue, Figma and more.",
+  "description": "A web icon library for designers and developers: 3,500+ free icons plus 50,000+ Pro variations, across three styles (regular, rounded, sharp), three weights, five icon packs and 40+ categories. Icons export as optimized SVG, PNG, WebP, React or fonts and integrate via npm packages for React, Vue, Svelte and JS, icon-font CSS animations, or the Figma and Framer plugins. Free tier for individuals; Pro, Team and Enterprise plans are billed yearly.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "icon library", "web icon", "svg icon", "react icon", "vue icon", "svelte icon", "figma plugin", "framer plugin", "icon font", "duotone icon", "rounded icon", "outline icon", "filled icon", "jsx", "png", "free icon"],
+  "contains": ["3,500+ free icons; 50,000+ with Pro", "3 styles (regular, rounded, sharp) and 3 weights; five icon packs", "40+ icon categories", "exports: optimized SVG, PNG, WebP, React, fonts", "npm packages for React, Vue, Svelte and JS; Figma and Framer plugins", "pricing: Free $0, Pro $39/yr, Team $99/yr, Enterprise $249/yr"],
+  "formats": ["svg", "png", "font-files", "npm-package", "code"],
+  "stack": ["react", "vue", "svelte"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

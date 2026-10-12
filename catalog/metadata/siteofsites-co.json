@@ -1,0 +1,105 @@
+{
+  "id": "siteofsites-co",
+  "url": "https://siteofsites.co",
+  "kind": "site",
+  "hints_hash": "6db5e8fcc83c9ef9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://siteofsites.co/llms.txt",
+      "title": "Site of Sites",
+      "status": null
+    },
+    {
+      "url": "https://siteofsites.co",
+      "title": "Site of Sites | The Best Web Design Inspiration 2026",
+      "status": 200
+    },
+    {
+      "url": "https://www.siteofsites.co/collections",
+      "title": "Collections | Site of Sites | The Best Web Design Inspiration",
+      "status": 200
+    },
+    {
+      "url": "https://www.siteofsites.co/about",
+      "title": "About | Site of Sites",
+      "status": 200
+    },
+    {
+      "url": "https://www.siteofsites.co/categories/dark",
+      "title": "Dark | Site of Sites | The Best Web Design Inspiration",
+      "status": 200
+    },
+    {
+      "url": "https://www.siteofsites.co/categories/grid",
+      "title": "Grid | Site of Sites | The Best Web Design Inspiration",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Site of Sites",
+  "summary": "Curated gallery of 600+ real websites for design inspiration, filterable by style, site type and build platform.",
+  "description": "Curated showcase of real websites — 604 in the gallery at crawl time — with filters for design type, site type (portfolio, ecommerce, landing page, interactive, concept …) and build platform (Webflow, Wix, Framer, Shopify, WordPress, Readymag, Cargo, Elementor). Also offers style tags such as minimal, dark, grid, retro, big type and 3D, themed collections, a design glossary, an agencies directory, events and open submissions.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [
+    "navbar",
+    "sidebar",
+    "cursor",
+    "text-effect",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "web design inspiration",
+    "website gallery",
+    "design showcase",
+    "landing page gallery",
+    "portfolio",
+    "ecommerce",
+    "minimal",
+    "dark mode",
+    "big type",
+    "typography",
+    "grid",
+    "retro",
+    "3d element",
+    "scroll animation",
+    "menubar",
+    "custom cursor",
+    "webflow",
+    "framer",
+    "design trend",
+    "agency directory"
+  ],
+  "contains": [
+    "604 websites in the gallery",
+    "filters: design type, site type, platform (Webflow, Wix, Framer, Shopify, WordPress …)",
+    "themed collections (Studios, ASCII Art, Pink, Material World …)",
+    "dedicated collections for menu bars, sidebars, custom cursors, text effects and scroll animations",
+    "design glossary, agencies directory and events calendar",
+    "submissions open for review"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

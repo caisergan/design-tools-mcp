@@ -1,0 +1,27 @@
+{
+  "id": "framer-com-marketplace-templates-croc",
+  "url": "https://framer.com/marketplace/templates/croc",
+  "kind": "page",
+  "hints_hash": "f25c2820970704c2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/templates/croc", "title": "Croc — Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Croc",
+  "summary": "Premium AI SaaS website template for Framer: 10+ pages, Blog and Features CMS collections, Figma file.",
+  "description": "Framer template for AI startups, marketing automation platforms and B2B SaaS products, with clean conversion-ready layouts. Ships 10+ designed pages and 2 CMS collections (Blog + Features), global color and font styles for rebranding, responsive layouts for desktop, tablet and mobile and SEO-ready meta titles and descriptions. Includes an editable Figma design file, getting-started guide, lifetime updates and 24-hour support; $99 on the Framer Marketplace.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["framer template", "saas template", "ai startup", "b2b saas", "landing page", "marketing website", "cms template", "blog", "features section", "paid template", "website template"],
+  "contains": ["AI SaaS template for Framer", "10+ designed pages; 2 CMS collections (Blog + Features)", "editable Figma design file and getting-started guide", "global color and font styles; SEO-ready meta", "$99; Framer Marketplace license: Single-Use"],
+  "formats": ["framer-file", "figma-file"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

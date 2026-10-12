@@ -1,0 +1,83 @@
+{
+  "id": "design-system-service-gov-uk-components",
+  "url": "https://design-system.service.gov.uk/components",
+  "kind": "page",
+  "hints_hash": "323939eb86095440",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://design-system.service.gov.uk/components",
+      "title": "Components – GOV.UK Design System",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Components – GOV.UK Design System",
+  "summary": "Index of the GOV.UK Design System components, with guidance and coded examples for each one.",
+  "description": "The components section of the GOV.UK Design System: the reusable UI parts government teams build services from, from accordions and buttons to text inputs, banners and tables. Each component page carries guidance on its use plus coded examples that render the same as in GOV.UK Frontend or the Prototype Kit. The design system's code is public under an MIT license.",
+  "type": "design-system",
+  "elements": [
+    "input",
+    "banner",
+    "checkbox",
+    "navbar",
+    "accordion",
+    "breadcrumbs",
+    "button",
+    "date-picker",
+    "footer",
+    "table",
+    "tabs",
+    "badge"
+  ],
+  "keywords": [
+    "design system",
+    "government design system",
+    "component library",
+    "ui component",
+    "form component",
+    "input",
+    "checkbox",
+    "radio",
+    "button",
+    "breadcrumbs",
+    "accordion",
+    "cookie banner",
+    "task list",
+    "pagination",
+    "table",
+    "tabs",
+    "accessibility",
+    "nunjuck",
+    "govuk frontend"
+  ],
+  "contains": [
+    "97 documentation pages",
+    "components include text input, checkboxes, radios, select, date input, file upload, character count",
+    "also accordion, breadcrumbs, button, tabs, table, tag, banner, footer, header, pagination, task list",
+    "guidance and coded examples for each component",
+    "code public under MIT license",
+    "renders with GOV.UK Frontend or the Prototype Kit"
+  ],
+  "formats": [
+    "docs",
+    "code"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

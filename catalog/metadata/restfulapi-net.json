@@ -1,0 +1,72 @@
+{
+  "id": "restfulapi-net",
+  "url": "https://restfulapi.net",
+  "kind": "site",
+  "hints_hash": "b7dfeacd43d98b43",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://restfulapi.net",
+      "title": "What is REST?: REST API Tutorial",
+      "status": null
+    },
+    {
+      "url": "https://restfulapi.net/about-us",
+      "title": "About Us",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "REST API Tutorial",
+  "summary": "Tutorial site on REST: architecture constraints, HTTP methods, JSON and API design, with guides, how-tos and FAQs.",
+  "description": "Articles by Lokesh Gupta explaining REST and how to build RESTful APIs: the six architectural constraints, resource naming, HTTP methods and status codes, caching, HATEOAS, versioning, security, rate limiting and pagination. Organised into a REST tutorial, JSON guides, how-tos, FAQs and reference sections.",
+  "type": "course",
+  "categories": [
+    "learning",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "rest",
+    "rest api",
+    "restful api",
+    "api design",
+    "http method",
+    "http status code",
+    "json",
+    "hateoas",
+    "versioning",
+    "caching",
+    "pagination",
+    "api security",
+    "jwt",
+    "resource naming",
+    "rest tutorial"
+  ],
+  "contains": [
+    "103 pages in its sitemap",
+    "guides: architectural constraints, resource naming, HTTP methods, caching, HATEOAS, versioning",
+    "topics: security, rate limiting, pagination, performance, large payloads",
+    "sections: REST, JSON, how-tos, FAQs, references"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

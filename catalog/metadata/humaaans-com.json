@@ -1,0 +1,34 @@
+{
+  "id": "humaaans-com",
+  "url": "https://humaaans.com",
+  "kind": "site",
+  "hints_hash": "1e9fe7ead53199c2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://humaaans.com", "title": "Humaaans: Mix-&-Match illustration library", "status": null}
+  ],
+  "status": "ok",
+  "name": "Humaaans",
+  "summary": "CC0 illustration library of mix-and-match people: swap hairdos, tops and pants to build scenes.",
+  "description": "Free CC0 illustration library of people by Pablo Stanley, built for Sketch and InVision Studio. Rotate, position and restyle hairdos, tops and pants like vector Lego, or start from scene templates, for landing pages, onboarding and empty, error or success states.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["illustration", "people illustration", "mix and match illustration", "vector people", "character illustration", "sketch library", "invision studio", "cc0 illustration", "free illustration", "empty state illustration", "landing page illustration"],
+  "contains": [
+    "mix-and-match people illustrations by Pablo Stanley",
+    "swap hairdos, tops and pants; rotate and position parts",
+    "scene templates for onboarding, empty/error/success states",
+    "CC0: free for commercial or personal use",
+    "design libraries for Sketch and InVision Studio",
+    "usable with Blush"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

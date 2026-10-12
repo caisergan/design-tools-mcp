@@ -1,0 +1,134 @@
+{
+  "id": "vibeui-online",
+  "url": "https://vibeui.online",
+  "kind": "site",
+  "hints_hash": "e1c3115264c6aed7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vibeui.online",
+      "title": "VibeUI — 92 Free UI Prompts for Vibe Coders (Auth, Pricing, Hero, Bento)",
+      "status": 200
+    },
+    {
+      "url": "https://vibeui.online/about",
+      "title": "About VibeUI — How to Use the UI Prompt Library",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "VibeUI",
+  "summary": "Library of 92 copy-paste layout prompts for vibe coding: auth forms, pricing, hero, bento, stats, nav, footer, FAQ and more.",
+  "description": "A prompt library for vibe coders: 92 structural prompts that describe the layout of a UI section, not its visual style, grouped in 15 categories (auth forms, pricing, features/bento, hero, CTA, stats, nav bars, testimonials, footer, FAQ, dashboards, onboarding, blog, contact, bonus). Copy a prompt, paste it into an AI tool together with a reference screenshot, and it mirrors that screenshot's aesthetic.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "bento-grid",
+    "dashboard",
+    "stats",
+    "contact",
+    "form"
+  ],
+  "variants": {
+    "navbar": [
+      "mega-menu",
+      "sidebar",
+      "floating",
+      "pill",
+      "transparent",
+      "mobile"
+    ],
+    "hero": [
+      "centered",
+      "split",
+      "video",
+      "with-form",
+      "with-code",
+      "animated-background"
+    ],
+    "pricing": [
+      "cards",
+      "comparison-table",
+      "billing-toggle",
+      "single-plan",
+      "usage-based"
+    ],
+    "features": [
+      "grid",
+      "bento",
+      "alternating",
+      "tabs",
+      "accordion",
+      "sticky-scroll"
+    ],
+    "testimonials": [
+      "cards",
+      "grid",
+      "marquee",
+      "single",
+      "video",
+      "social-posts"
+    ]
+  },
+  "keywords": [
+    "ui prompt",
+    "prompt library",
+    "vibe coding",
+    "ai ui generation",
+    "layout prompt",
+    "ai coding agent",
+    "auth form",
+    "pricing section",
+    "hero section",
+    "bento grid",
+    "dashboard",
+    "faq",
+    "testimonials",
+    "cta",
+    "navbar",
+    "footer",
+    "onboarding",
+    "landing page",
+    "copy paste",
+    "design prompt"
+  ],
+  "contains": [
+    "92 layout prompts in 15 categories",
+    "auth forms: split-screen, centered card, magic link, multi-step wizard",
+    "pricing: 3-tier cards, monthly/annual toggle, comparison table, usage slider",
+    "each prompt ends with a line that matches the reference screenshot's style",
+    "copy button per card, search by name, keyboard shortcuts",
+    "prompts work with AI builders such as Lovable, Cursor, Bolt and v0"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

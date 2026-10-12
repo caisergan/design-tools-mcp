@@ -1,0 +1,31 @@
+{
+  "id": "gluestack-io",
+  "url": "https://gluestack.io",
+  "kind": "site",
+  "hints_hash": "56bea866227b7819",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gluestack.io/llms.txt", "title": "gluestack UI", "status": null},
+    {"url": "https://gluestack.io", "title": "gluestack: React & React Native UI components library for Web & Mobile App", "status": 200},
+    {"url": "https://gluestack.io/ui/docs", "title": "Quick Start | Styled Components React & React Native UI Kit | gluestack-UI", "status": 200},
+    {"url": "https://raw.githubusercontent.com/gluestack/gluestack-ui/main/README.md", "title": "gluestack-ui: React Native & Expo Components & Patterns", "status": 200},
+    {"url": "https://pro.gluestack.io", "title": "Premium React Native Templates & UI Components | gluestack-ui pro", "status": 200}
+  ],
+  "status": "ok",
+  "name": "gluestack-ui",
+  "summary": "Copy-paste React and React Native component library styled with Tailwind CSS, for Next.js, Expo and mobile apps.",
+  "description": "Universal component library of 30+ copy-paste components and patterns for React, Next.js and React Native (Expo), styled with Tailwind CSS via NativeWind. Add components with the gluestack-ui CLI or copy-paste them, with docs covering theming, dark mode, accessibility and benchmarks; a Figma UI kit and an MCP server come alongside.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "button", "calendar", "card", "chat", "checkbox", "date-picker", "drawer", "dropdown", "form", "input", "loader", "modal", "pagination", "popover", "progress", "select", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["react", "react native", "expo", "nextjs", "component library", "tailwind css", "nativewind", "copy paste", "universal component", "ui kit", "dark mode", "theming", "accessibility", "cli", "figma ui kit", "mcp server", "typescript", "shadcn", "app screen"],
+  "contains": ["30+ components and patterns for React, Next.js and React Native", "copy-paste components, or add them with the gluestack-ui CLI", "styled with Tailwind CSS v4 via NativeWind v5 (and UniWind)", "42 docs pages covering accessibility, theming, dark mode and benchmarks", "Figma UI kit, VS Code extension and MCP server", "Kitchensink, dashboard and todo demo apps", "MIT licensed, made by GeekyAnts"],
+  "formats": ["code", "cli", "docs", "figma-file"],
+  "stack": ["react", "react-native", "expo", "nextjs", "typescript", "tailwind", "nativewind"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/gluestack/gluestack-ui", "docs": "https://gluestack.io/ui/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

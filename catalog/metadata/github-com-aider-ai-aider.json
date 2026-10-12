@@ -1,0 +1,29 @@
+{
+  "id": "github-com-aider-ai-aider",
+  "url": "https://github.com/Aider-AI/aider",
+  "kind": "repo",
+  "hints_hash": "44d0be2b02cc2bce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Aider-AI/aider/blob/HEAD/README.md", "title": "Change directory into your codebase", "status": null},
+    {"url": "https://raw.githubusercontent.com/Aider-AI/aider/HEAD/LICENSE.txt", "title": "LICENSE.txt", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Aider-AI/aider/HEAD/pyproject.toml", "title": "pyproject.toml", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Aider",
+  "summary": "Terminal AI pair programming tool that edits code in a local git repository, with cloud or local LLMs.",
+  "description": "CLI chat that pairs a developer with an LLM on a real codebase: it maps the repository, applies edits across 100+ programming languages, runs linters and tests, and auto-commits with git. It works with cloud and local models and can run inside an IDE via watch mode.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai pair programming", "ai coding agent", "terminal", "cli", "llm", "git", "codebase map", "auto-commit", "local model", "open source", "code editor", "developer tool", "python"],
+  "contains": ["terminal chat that edits files in a local git repository", "repo map of the whole codebase for larger projects", "100+ programming languages", "automatic commits with generated messages", "cloud and local LLM support", "lint and test runs after each change", "voice-to-code and image/web page context", "LLM coding leaderboard published on the docs site"],
+  "formats": ["code", "cli", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/Aider-AI/aider", "docs": "https://aider.chat/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

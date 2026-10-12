@@ -1,0 +1,36 @@
+{
+  "id": "github-com-6551team-opennews-mcp",
+  "url": "https://github.com/6551Team/opennews-mcp",
+  "kind": "repo",
+  "hints_hash": "4c0d417c2de6612b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/6551Team/opennews-mcp/blob/HEAD/README.md", "title": "macOS / Linux", "status": null},
+    {"url": "https://github.com/6551Team/opennews-mcp", "title": "GitHub - 6551Team/opennews-mcp: News Aggregation · AI Ratings · Trading Signals · Real-time Updates · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenNews MCP Server",
+  "summary": "MCP server feeding AI agents 85+ real-time news, market and prediction sources with AI ratings and trading signals.",
+  "description": "An MCP server for Claude Code, Claude Desktop, Cursor and other MCP clients. It aggregates 85+ sources across six engine categories (news, listing, onchain, meme, market, prediction), tags every article with a 0-100 impact score, a long/short/neutral trading signal and EN/ZH summaries, and adds keyword search, strategy history and WebSocket real-time subscriptions. An API token from 6551.io is required.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["mcp server", "mcp", "crypto news", "news aggregation", "trading signal", "impact score", "ai rating", "real-time news", "websocket", "market data", "on-chain", "prediction market", "financial news", "sentiment"],
+  "contains": [
+    "85+ sources in 6 categories: news 55, listing 9, onchain 2, meme 1, market 6, prediction 12",
+    "every article AI-analyzed with impact score 0-100, long/short/neutral signal and EN/ZH summaries",
+    "20+ MCP tools: search by coin, source or engine, high-score articles, signal filters",
+    "finance tools: company filings, 13F holdings, politician stock disclosures, crypto holdings",
+    "WebSocket feed wss://ai.6551.io/open/newswss with coin and engine filters",
+    "requires an API token; each REST/MCP call consumes 1 quota",
+    "MIT license; 2.4k stars, 191 forks"
+  ],
+  "formats": ["api", "code", "docs"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/6551Team/opennews-mcp", "docs": "https://github.com/6551Team/opennews-mcp/blob/HEAD/knowledge/guide.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

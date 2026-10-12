@@ -1,0 +1,29 @@
+{
+  "id": "goey-toast-vercel-app",
+  "url": "https://goey-toast.vercel.app",
+  "kind": "site",
+  "hints_hash": "fac3a3b0537e8a06",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://goey-toast.vercel.app", "title": "gooey-toast — Morphing toast notifications for React", "status": 200},
+    {"url": "https://github.com/anl331/goey-toast/blob/HEAD/README.md", "title": "goey-toast/README.md at HEAD · anl331/goey-toast", "status": 200},
+    {"url": "https://raw.githubusercontent.com/anl331/goey-toast/main/README.md", "title": "gooey-toast", "status": 200}
+  ],
+  "status": "ok",
+  "name": "gooey-toast",
+  "summary": "Morphing blob toast notifications for React, built on Sonner with Framer Motion animations.",
+  "description": "Demo and docs site for a React toast component whose notifications morph from a pill into an organic blob, with promise tracking and full customization. Ships five toast types, six positions, animation presets, dark mode and RTL support; installed via the shadcn CLI or as the goey-toast npm package.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["toast"],
+  "keywords": ["toast", "notification", "react", "framer motion", "sonner", "shadcn", "blob animation", "promise toast", "action button", "dark mode", "rtl", "npm package", "morphing animation"],
+  "contains": ["gooey-toast React component, installable via shadcn CLI or npm", "five toast types: default, success, error, warning, info", "promise toasts with loading to success/error transitions", "six positions, dark mode and RTL support, swipe to dismiss", "animation presets: smooth, bouncy, subtle, snappy", "ships an Agent Skill (SKILL.md) for coding agents", "built on Sonner with Framer Motion; MIT licensed"],
+  "formats": ["registry", "npm-package", "cli", "code", "docs"],
+  "stack": ["react", "framer-motion", "sonner"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/anl331/goey-toast", "docs": null, "npm": "goey-toast", "figma": null, "parent": null},
+  "confidence": 0.75
+}

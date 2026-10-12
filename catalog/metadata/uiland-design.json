@@ -1,0 +1,29 @@
+{
+  "id": "uiland-design",
+  "url": "https://uiland.design",
+  "kind": "site",
+  "hints_hash": "6ce8ab0eeacd2df8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:16:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uiland.design", "title": "Uiland — The Pinterest of UI design", "status": 200},
+    {"url": "https://uiland.design/explore", "title": "Explore — Uiland", "status": 200},
+    {"url": "https://uiland.design/pricing", "title": "Uiland Pricing", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Uiland",
+  "summary": "Library of 200,000+ screenshots and flow videos from 877 real apps and web products, searchable by element, colour and flow.",
+  "description": "Design reference library of real mobile app and web screens: 168,639 screens, 12,410 user flows, 3,120 flow videos, 9,860 App Store screenshots and 4,102 OG images from 877 apps. Screens are tagged by the words on them, screen type, UI element and colour; editable ones copy into Figma as layers, and a mockup studio renders screens into device frames.",
+  "type": "gallery",
+  "categories": ["inspiration", "media"],
+  "elements": ["button", "card", "timeline"],
+  "keywords": ["app design inspiration", "ui screenshot", "mobile app screen", "web design screenshot", "user flow", "flow video", "figma layer", "design reference", "mockup", "paywall screen", "onboarding screen", "ux pattern", "design library", "app store screenshot", "og image", "site design idea"],
+  "contains": ["168,639 screens, 12,410 flows, 3,120 flow videos, 9,860 App Store screenshots, 4,102 OG images", "screens from 877 apps plus web pages", "search by words on the screen, colour, UI element, screen type and flow", "editable screens copy into Figma as layers; full-size PNG and ZIP downloads without watermark", "free plan with 12 screens per company; Pro ₦2,100/month", "mockup studio: device frames, 5 finishes, 3D camera moves, 36 templates"],
+  "formats": ["screenshots", "png", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

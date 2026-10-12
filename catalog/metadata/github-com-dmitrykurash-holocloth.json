@@ -1,0 +1,38 @@
+{
+  "id": "github-com-dmitrykurash-holocloth",
+  "url": "https://github.com/dmitrykurash/holocloth",
+  "kind": "repo",
+  "hints_hash": "0157ebbc04c5c0b3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://github.com/dmitrykurash/holocloth/blob/HEAD/README.md", "title": "Holocloth", "status": 200 },
+    { "url": "https://github.com/dmitrykurash/holocloth", "title": "GitHub - dmitrykurash/holocloth: Real-time holographic cloth design tool.", "status": 200 },
+    { "url": "https://github.com/dmitrykurash/holocloth/blob/HEAD/LICENSE", "title": "holocloth/LICENSE at a6078ba698a53cbf18be870cea555c1971f84103 · dmitrykurash/holocloth · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Holocloth",
+  "summary": "Browser tool for draping images on a holographic cloth simulation, then exporting the result as PNG.",
+  "description": "A sheet of simulated cloth floating in space: grab it, throw it around, drape your own images or SVGs over it as fabric or stickers, and watch them ripple like printed on holo foil. Iridescent foil, chrome and black cloth materials, macro depth of field, film grain and bloom, with one-click PNG export with or without background.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["holographic", "cloth simulation", "fabric physics", "three.js", "webgl", "glsl shader", "iridescent foil", "poster", "drape", "design tool", "png export", "browser tool"],
+  "contains": [
+    "real cloth physics written from scratch (Verlet integration, no physics library)",
+    "iridescent foil shader with rainbow diffraction, sparkle and bump maps",
+    "chrome and black cloth presets",
+    "upload any image or SVG as the cloth or as a sticker on top of it",
+    "macro depth of field with click-to-focus, ambient occlusion, film grain, bloom",
+    "one-click PNG export, with or without the background",
+    "save looks and switch between versions while working",
+    "built with Three.js (WebGL 2), React, TypeScript, Vite and DialKit"
+  ],
+  "formats": ["code", "png"],
+  "stack": ["three.js", "react", "typescript", "vite", "dialkit"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/dmitrykurash/holocloth", "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

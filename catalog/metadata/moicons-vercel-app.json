@@ -1,0 +1,68 @@
+{
+  "id": "moicons-vercel-app",
+  "url": "https://moicons.vercel.app",
+  "kind": "site",
+  "hints_hash": "21470b503cdac558",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T09:30:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://moicons.vercel.app",
+      "title": "Create Next App",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "MoIcons",
+  "summary": "Free animated React icon set built with Motion: every icon is a copy-ready component you drop into a project.",
+  "description": "A collection of smooth animated icons for React projects, free to use and easy to customize. Each icon — arrows, alerts, files, folders, users, media and more — is a copy-ready component animated with Motion; the page shows the npm install for the animation library.",
+  "type": "icon-set",
+  "categories": [
+    "icons",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "animated icon",
+    "icon set",
+    "react icon",
+    "motion icon",
+    "framer motion",
+    "svg icon",
+    "copy paste icon",
+    "free icon set",
+    "icon component",
+    "micro interaction",
+    "ui icon",
+    "react component"
+  ],
+  "contains": [
+    "animated icon components for React",
+    "copy-ready code for every icon",
+    "built with Motion (npm install motion)",
+    "free to use"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

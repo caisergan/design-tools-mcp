@@ -1,0 +1,70 @@
+{
+  "id": "github-com-qwenlm-qwen-code-releases-tag-cua-driver-rs-v0-20-8",
+  "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.8",
+  "kind": "page",
+  "hints_hash": "37420e7425964e7e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.8",
+      "title": "Release cua-driver-rs v0.20.8 · QwenLM/qwen-code · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Release cua-driver-rs v0.20.8",
+  "summary": "Pre-release of the Qwen CUA Driver 0.20.8: prebuilt computer-use driver binaries for macOS, Linux and Windows plus SDK payloads.",
+  "description": "GitHub pre-release of cua-driver-rs v0.20.8 in QwenLM/qwen-code: prebuilt Qwen CUA Driver binaries vendored under packages/cua-driver; macOS codesigned and notarized universal binary with QwenCuaDriver.app; unsigned Linux builds for x86_64 and arm64 (glibc 2.31); Windows UIAccess worker plus native SDK payload. The same workflow publishes the @qwen-code/cua-sdk and @qwen-code/node-repl-mcp npm packages.",
+  "type": "article",
+  "keywords": [
+    "computer use",
+    "driver",
+    "prebuilt binary",
+    "release",
+    "macos",
+    "linux",
+    "window",
+    "node.js",
+    "sdk",
+    "mcp",
+    "npm package",
+    "coordinate space",
+    "uiaccess",
+    "arm64",
+    "x86 64",
+    "notarized binary"
+  ],
+  "contains": [
+    "macOS: codesigned + notarized universal binary + QwenCuaDriver.app",
+    "Linux: unsigned x86_64 + arm64, glibc 2.31 floor",
+    "Windows: unsigned UIAccess worker + native SDK payload",
+    "Node.js: publishes @qwen-code/cua-sdk and @qwen-code/node-repl-mcp",
+    "env flags: CUA_DRIVER_RS_COORDINATE_SPACE, CUA_DRIVER_RS_COORDINATE_SCALE, MCP_MODEL_PAYLOAD_FILTER",
+    "released 14 Sep 2026; 21 assets; contributors yiliang114, LaZzyMan + 2"
+  ],
+  "formats": [
+    "app",
+    "npm-package",
+    "links"
+  ],
+  "stack": [
+    "rust",
+    "node"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/QwenLM/qwen-code",
+    "docs": null,
+    "npm": "@qwen-code/cua-sdk",
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ui-shadcn-com-docs-components-radix-sonner",
+  "url": "https://ui.shadcn.com/docs/components/radix/sonner",
+  "kind": "page",
+  "hints_hash": "1958bf2c5bfd1b48",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.shadcn.com/docs/components/radix/sonner",
+      "title": "Sonner - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Sonner",
+  "summary": "shadcn/ui component page for Sonner, an opinionated toast notification component for React, with install and API reference.",
+  "type": "component-library",
+  "elements": ["toast"],
+  "keywords": [
+    "toast",
+    "toast notification",
+    "notification",
+    "react",
+    "component",
+    "ui component",
+    "component install",
+    "api reference"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-shadcn-com"
+  },
+  "confidence": 0.9
+}

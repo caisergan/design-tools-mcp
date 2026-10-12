@@ -1,0 +1,37 @@
+{
+  "id": "github-com-cathrynlavery-diagram-design",
+  "url": "https://github.com/cathrynlavery/diagram-design",
+  "kind": "repo",
+  "hints_hash": "7ecd883cab2d8213",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/cathrynlavery/diagram-design/blob/HEAD/README.md", "title": "Diagram Design", "status": null},
+    {"url": "https://github.com/cathrynlavery/diagram-design", "title": "GitHub - cathrynlavery/diagram-design: Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Diagram Design",
+  "summary": "Agent skill that draws editorial diagrams as self-contained HTML + SVG in your brand; 44 diagram types, no build step.",
+  "description": "A skill for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Pi and other Agent Skills-compatible hosts: it picks a diagram type (flowchart, architecture, Sankey, Wardley map, kanban, UML class, database schema …), builds one self-contained HTML + SVG file with no build step, and matches your brand by reading your website (colors, fonts, WCAG AA contrast checks). Imports from draw.io, Mermaid and Excalidraw; exports PNG/SVG.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["diagram", "diagram design", "agent skill", "flowchart", "architecture diagram", "svg diagram", "html svg", "data visualization", "sankey diagram", "wardley map", "kanban diagram", "user journey", "uml class diagram", "database schema diagram", "gantt chart", "fishbone diagram", "brand color", "design system", "mermaid alternative", "draw.io", "excalidraw", "png export", "svg export", "editorial design", "coding agent"],
+  "contains": [
+    "44 diagram types (repo listing; README 2.5.10 lists 39), incl. Sankey, Wardley map, UML class, kanban",
+    "each type ships in three static variants: minimal light, minimal dark, full-editorial",
+    "output is one self-contained HTML + SVG file — no build step, no JavaScript, no external images",
+    "brand onboarding extracts paper/ink/accent colors and fonts from your site, with WCAG AA contrast checks",
+    "named brand profiles for multiple clients (~/.diagram-design/profiles)",
+    "imports draw.io, Mermaid and Excalidraw; exports PNG and SVG",
+    "installs as a plugin/skill for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Pi, Kiro and OpenCode",
+    "49.7k stars on GitHub, MIT licensed"
+  ],
+  "formats": ["code", "svg", "png", "docs", "templates", "prompts"],
+  "stack": ["html", "css", "svg"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/cathrynlavery/diagram-design", "docs": "https://cathrynlavery.github.io/diagram-design/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

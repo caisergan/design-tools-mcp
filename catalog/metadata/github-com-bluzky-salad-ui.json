@@ -1,0 +1,28 @@
+{
+  "id": "github-com-bluzky-salad-ui",
+  "url": "https://github.com/bluzky/salad_ui",
+  "kind": "repo",
+  "hints_hash": "a9a2223793687fa0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/bluzky/salad_ui/blob/HEAD/README.md", "title": "Default installation", "status": null},
+    {"url": "https://github.com/bluzky/salad_ui", "title": "GitHub - bluzky/salad_ui: Phoenix Liveview component library inspired by shadcn UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "SaladUI",
+  "summary": "Phoenix LiveView component library inspired by shadcn/ui, usable as a package or copied in as editable code.",
+  "description": "A component library for Phoenix LiveView (Elixir) inspired by shadcn/ui. Add saladui to mix.exs and run mix salad.setup to use the components straight from the library, or mix salad.install to copy every component and JavaScript file into lib/<app>_web/components/ui for full customization and custom module prefixes. v1 ships 32 components, from accordion, alert dialog and avatar to table, tabs, textarea and tooltip; a storybook demo runs at salad-storybook.fly.dev. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "card", "checkbox", "command-palette", "drawer", "dropdown", "form", "input", "loader", "modal", "pagination", "popover", "progress", "select", "slider", "switch", "table", "tabs", "tooltip"],
+  "keywords": ["elixir", "phoenix", "phoenix liveview", "liveview", "shadcn", "component library", "ui kit", "tailwind", "mix", "accordion", "dialog", "dropdown", "form", "table", "tabs", "tooltip"],
+  "contains": ["32 components available in v1", "install modes: mix salad.setup (library) or mix salad.install (local copy)", "command, table, tabs and pagination shipped in v1", "not available yet: carousel, combobox, context menu, drawer, input OTP", "storybook demo at salad-storybook.fly.dev", "MIT license", "1.1k GitHub stars"],
+  "formats": ["code", "docs"],
+  "stack": ["elixir", "phoenix", "liveview", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/bluzky/salad_ui", "docs": "https://hexdocs.pm/salad_ui", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

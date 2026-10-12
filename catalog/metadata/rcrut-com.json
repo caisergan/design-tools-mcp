@@ -1,0 +1,73 @@
+{
+  "id": "rcrut-com",
+  "url": "https://rcrut.com",
+  "kind": "site",
+  "hints_hash": "6dcb11f05bdffaff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://rcrut.com",
+      "title": "Rcrut — Where great people & good jobs actually find each other",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Rcrut",
+  "summary": "AI hiring platform for the UAE, Saudi Arabia and Lebanon, pairing a career advisor and voice interviews with employer shortlists.",
+  "description": "Two-sided hiring platform. Job seekers get swipe-based ranked matches, an AI career advisor, CVs generated for a specific role, recorded AI voice interviews, verified skill quizzes and direct messaging; employers submit a role brief and receive 5-10 scored, interview-ready candidates in 72 hours. Free for seekers with 15 applications a day, AED 44.99/month for the paid plan, employer seats at $4 per person per month.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "pricing",
+    "chat",
+    "form"
+  ],
+  "keywords": [
+    "ai hiring",
+    "job search",
+    "recruiting",
+    "cv builder",
+    "ai interview",
+    "job platform",
+    "uae job",
+    "saudi job",
+    "lebanon job",
+    "career advisor",
+    "candidate shortlist",
+    "skill assessment",
+    "applicant tracking",
+    "employer tool"
+  ],
+  "contains": [
+    "AI hiring for the UAE, Saudi Arabia and Lebanon",
+    "seekers: swipe job discovery, AI career advisor, AI CV generation, voice interviews, skill quizzes",
+    "employers: 5-10 candidate shortlists within 72 hours",
+    "scoring on five dimensions with quotes and timestamps",
+    "roles from 600+ companies",
+    "free for job seekers, 15 applications a day",
+    "paid seeker plan AED 44.99/month",
+    "employer team seats $4 per person per month, listing boost $19-$99"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tmog-org",
+  "url": "https://tmog.org",
+  "kind": "site",
+  "hints_hash": "08ae4b0c126c803c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tmog.org",
+      "title": "Why is my Computer Slow? TMOG Knows Why!",
+      "status": 200
+    },
+    {
+      "url": "https://tmog.org/rtm/pro-info.html",
+      "title": "Task Manager TMOG PRO",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "TMOG",
+  "summary": "Native task manager for macOS, Windows and Linux that names the process and subsystem behind a slow computer.",
+  "description": "One shared C++20 measuring core with native applications on each platform: a sortable process hierarchy with CPU, memory, disk, network and energy impact, and a Flight Recorder that replays the last slow hour. The free edition is a full system monitor; advanced capabilities sit in a paid PRO edition.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "dashboard",
+    "table",
+    "chart",
+    "stats"
+  ],
+  "keywords": [
+    "task manager",
+    "system monitor",
+    "process monitor",
+    "cpu monitor",
+    "memory usage",
+    "energy usage",
+    "why is my computer slow",
+    "macos",
+    "window",
+    "linux",
+    "native app",
+    "performance monitoring",
+    "flight recorder"
+  ],
+  "contains": [
+    "task manager for macOS, Windows and Linux",
+    "12 destinations incl. Summary, Performance, Processes, Power & Freq, Connections and Benchmarks",
+    "live process hierarchy sortable and filterable by CPU, memory, disk, network and energy impact",
+    "Flight Recorder records and replays telemetry as .tmogtrace (PRO)",
+    "Swift/AppKit, C++/Win32 and C++/Qt 6 over one shared measuring core",
+    "free edition; PRO sold through Lemon Squeezy",
+    "no usage statistics or identifiers sent; only an update check"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [
+    "swift",
+    "appkit",
+    "c++",
+    "win32",
+    "qt"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

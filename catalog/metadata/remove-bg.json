@@ -1,0 +1,29 @@
+{
+  "id": "remove-bg",
+  "url": "https://remove.bg",
+  "kind": "site",
+  "hints_hash": "8f63a3f74a786261",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://remove.bg", "title": "Remove Background from Image for Free – remove.bg", "status": 200},
+    {"url": "https://www.remove.bg/pricing", "title": "Pricing – remove.bg", "status": 200},
+    {"url": "https://www.remove.bg/about-us", "title": "About remove.bg: our story, vision & mission | remove.bg", "status": 200}
+  ],
+  "status": "ok",
+  "name": "remove.bg",
+  "summary": "AI service that removes image backgrounds automatically in seconds.",
+  "description": "Upload a photo and remove.bg erases the background automatically, producing transparent PNGs, white backgrounds or refined cutouts with Magic Brush. Free for basic use, with paid plans and a developer API for HD output, automation and volume. Founded in 2018, part of Canva.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["background removal", "remove background", "transparent png", "image cutout", "photo cutout", "background remover", "product photo", "ecommerce photo", "image api", "ai photo editing", "white background"],
+  "contains": ["automatic background removal in seconds", "free basic removal; paid plans unlock max quality and scale", "API for developers", "Magic Brush for manual touch-ups", "use cases: individuals, photographers, marketing, ecommerce, car dealerships, enterprise", "founded 2018, part of Canva", "trusted by 240+ enterprise clients"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

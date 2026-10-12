@@ -1,0 +1,36 @@
+{
+  "id": "ds-interlace-tools",
+  "url": "https://ds.interlace.tools",
+  "kind": "site",
+  "hints_hash": "7f4e3b13f2d9f8a8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ds.interlace.tools/llms.txt", "title": "Interlace Design System — component registry", "status": null},
+    {"url": "https://ds.interlace.tools", "title": "Interlace Design System Registry", "status": 200},
+    {"url": "https://ds.interlace.tools/getting-started", "title": "Getting started — Interlace DS", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Interlace Design System",
+  "summary": "Shadcn registry of 146 React components with published contracts: RSC boundary, min viewport, keyboard path, semver.",
+  "description": "A design-system registry served over the shadcn registry protocol: 146 installable React components in tiers (theme, primitive, pattern, template, chart, effect, starter, util), installed as plain source with the shadcn CLI. Every item publishes its contract — RSC boundary, minimum viewport, keyboard path, modelled state union, semver — plus a shared theme baseline with tokens, a WCAG 2.2 SC 2.4.13 focus ring and reduced-motion support. Built on Base UI and Tailwind CSS v4, MIT licensed, with a machine-readable index for agents.",
+  "type": "registry",
+  "categories": ["registries", "components"],
+  "elements": ["background", "text-effect", "badge", "button", "stats", "card", "form", "progress", "table", "modal", "alert", "checkbox", "accordion", "popover", "hero", "chart"],
+  "keywords": ["shadcn registry", "react component", "design system", "base ui", "tailwind css", "theme token", "component contract", "accessibility", "wcag", "layout primitive", "mdx component", "rsc", "storybook", "agent"],
+  "contains": [
+    "146 installable components across 10 categories",
+    "tiers: theme, primitive, pattern, template, chart, effect, starter, util",
+    "every item publishes RSC boundary, minimum viewport, keyboard path and semver",
+    "theme bundle ships tokens, focus ring, reduced-motion support and a brand palette",
+    "WCAG 2.2 AA floor; MIT; built on Base UI + Tailwind CSS v4",
+    "machine-readable indexes at /data/agent-index.json and /r/registry.json"
+  ],
+  "formats": ["code", "registry", "cli", "npm-package", "docs"],
+  "stack": ["react", "typescript", "tailwind", "base-ui", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://ds.interlace.tools/getting-started", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

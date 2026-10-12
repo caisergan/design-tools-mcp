@@ -1,0 +1,29 @@
+{
+  "id": "github-com-itsjavi-glasscn-ui",
+  "url": "https://github.com/itsjavi/glasscn-ui",
+  "kind": "repo",
+  "hints_hash": "7de283ffbcbaf9d5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/itsjavi/glasscn-ui/blob/HEAD/README.md", "title": "glasscn-ui", "status": null},
+    {"url": "https://github.com/itsjavi/glasscn-ui", "title": "GitHub - itsjavi/glasscn-ui", "status": 200},
+    {"url": "https://raw.githubusercontent.com/itsjavi/glasscn-ui/HEAD/package.json", "title": "package.json", "status": 200}
+  ],
+  "status": "ok",
+  "name": "glasscn-ui",
+  "summary": "shadcn/ui component library with glassmorphism variants, extra components and Tailwind theming, published on npm.",
+  "description": "A themable shadcn/ui component library published on npm as glasscn-ui. Components with solid surfaces gain opt-in glassmorphic variants (a glass variant plus customizable blur), alongside new pieces such as CircularProgress, ComboBox, DotIndicator and a gradient HeadingTitle. Theming goes through createTailwindPreset() with color aliases for primary, secondary, gray, danger and warning. Calendar, Carousel, Chart, Form and Sonner are intentionally excluded; the GitHub repo was archived in September 2026.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "button", "card", "checkbox", "command-palette", "drawer", "dropdown", "input", "loader", "menubar", "modal", "navbar", "popover", "progress", "select", "slider", "switch", "table", "tabs", "text-effect", "toast", "tooltip"],
+  "keywords": ["shadcn", "glassmorphism", "glass", "component library", "react", "tailwind", "npm package", "blur", "theming", "toast", "combobox", "circular progress", "dark mode"],
+  "contains": ["shadcn/ui components with opt-in glassmorphic variants (variant, blur props)", "new components: ComboBox, DotIndicator, HeadingTitle, CircularProgress", "createTailwindPreset() theming with color aliases", "excludes Calendar, Carousel, Chart, Form, Sonner", "npm package glasscn-ui v0.7.1, MIT licensed", "repo archived September 2026, 99 stars"],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/itsjavi/glasscn-ui", "docs": "https://itsjavi.com/glasscn-ui/", "npm": "glasscn-ui", "figma": null, "parent": null},
+  "confidence": 0.85
+}

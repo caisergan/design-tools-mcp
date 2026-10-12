@@ -1,0 +1,30 @@
+{
+  "id": "frameblox-com",
+  "url": "https://frameblox.com",
+  "kind": "site",
+  "hints_hash": "3dbe62201c9fd6d7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://frameblox.com", "title": "Frameblox - Ultimate Framer UI kit; design system & components library", "status": 200},
+    {"url": "https://www.frameblox.com/templates", "title": "Framer Templates - Frameblox UI", "status": 200},
+    {"url": "https://www.frameblox.com/pricing", "title": "Pricing - Frameblox UI Kit", "status": 200},
+    {"url": "https://www.frameblox.com/license", "title": "Frameblox - Ultimate Framer UI kit; design system & components library", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Frameblox",
+  "summary": "Framer UI kit with 1400+ sections and components, 130+ template pages and a drag-and-drop Framer plugin.",
+  "description": "A UI kit, design system and component library for Framer: 1400+ sections and components (hero, features, pricing, FAQ, testimonials, footer, stats and more), over 900 prebuilt sections and layouts, 130+ ready-made template pages and 4 full website templates. Parts go in through a drag-and-drop Framer plugin or the online library, with a one-time payment and lifetime updates.",
+  "type": "component-library",
+  "categories": ["components", "sections", "templates"],
+  "elements": ["hero", "features", "contact", "cta", "pricing", "faq", "logo-cloud", "testimonials", "footer", "stats", "team", "bento-grid", "navbar"],
+  "keywords": ["framer", "framer ui kit", "framer template", "component library", "design system", "website template", "landing page", "hero section", "pricing section", "faq section", "testimonial section", "footer", "navbar", "bento grid", "drag and drop", "no-code", "website builder", "dark mode", "marketing site", "section library"],
+  "contains": ["1400+ sections and components for Framer", "900+ prebuilt sections and layouts", "130+ ready-made template pages", "4 full website templates (e.g. Futureblox, Ultrablox)", "Framer plugin for drag-and-drop insertion", "one-time payment: $49 on sale (list price $99), lifetime updates", "1500+ customers", "dark variants of section designs"],
+  "formats": ["framer-file", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.frameblox.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

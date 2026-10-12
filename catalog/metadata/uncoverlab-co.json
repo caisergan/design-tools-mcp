@@ -1,0 +1,29 @@
+{
+  "id": "uncoverlab-co",
+  "url": "https://uncoverlab.co",
+  "kind": "site",
+  "hints_hash": "9e31b27ff5f31178",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uncoverlab.co", "title": "uncoverLAB", "status": null},
+    {"url": "https://uncoverlab.co/icons", "title": "uncoverLAB", "status": null},
+    {"url": "https://uncoverlab.co/web-design-website-sections", "title": "uncoverLAB", "status": 200}
+  ],
+  "status": "ok",
+  "name": "uncoverLAB",
+  "summary": "Copy-paste Figma library of website sections, app flows, wireframes and color palettes.",
+  "description": "A web app with a growing library of Figma website sections (header, CTA, footer, bento boxes, pricing, 404) in light and dark themes, plus app user flows, wireframes and color palettes that you copy from the app and paste into Figma. Includes free components and 492 free MIT-licensed icons.",
+  "type": "component-library",
+  "categories": ["components", "sections"],
+  "elements": ["navbar", "cta", "footer", "bento-grid", "pricing", "404"],
+  "keywords": ["figma", "figma component", "website section", "section library", "app flow", "user journey", "wireframe", "color palette", "design library", "copy paste", "dark mode", "landing page", "ui kit", "icon", "design resource"],
+  "contains": ["360+ components and 6 apps", "+100 light-mode and +90 dark-mode website sections", "app flows and wireframes from popular apps", "color palettes", "492 free icons (MIT)", "$199 lifetime or $29/month plans"],
+  "formats": ["figma-file", "app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

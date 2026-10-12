@@ -1,0 +1,28 @@
+{
+  "id": "github-com-sunil-dsb-design-md",
+  "url": "https://github.com/sunil-dsb/design.md",
+  "kind": "repo",
+  "hints_hash": "ca02f80fe93b3958",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/sunil-dsb/design.md/blob/HEAD/README.md", "title": "design.md", "status": null},
+    {"url": "https://github.com/sunil-dsb/design.md/blob/HEAD/SKILL.md", "title": "Design MD Generator v2", "status": null}
+  ],
+  "status": "ok",
+  "name": "design.md",
+  "summary": "Tool that extracts a website's design system into a DESIGN.md file AI coding agents read before generating UI.",
+  "description": "Paste a public URL in the web app or run the CLI to extract the real colors, typography, spacing, shadows, radii and dark mode of a site into a DESIGN.md, tokens.json, a preview page and a pixel-fidelity proof. Built for Claude Code, Cursor, v0, Lovable and similar agents; four example extractions ship with the repo (Stripe, Linear, Vercel, Supabase).",
+  "type": "generator",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["design system", "design token", "design.md", "tailwind theme", "css variable", "color palette", "typography scale", "spacing scale", "dark mode", "shadow", "border radius", "website extraction", "ai coding agent", "agent skill", "markdown", "ui generation", "landing page"],
+  "contains": ["paste a URL to get DESIGN.md plus tokens.json, preview.html and proof.html", "4 gold-standard examples: Stripe, Linear, Vercel, Supabase", "colors clustered in OKLCH with stability classification; typography, spacing, shadows and radii", "ships a SKILL.md agent skill and a universal AI prompt per extraction", "free, no signup or API key; MIT licensed"],
+  "formats": ["code", "cli", "prompts", "docs"],
+  "stack": ["nextjs", "react", "tailwind", "typescript", "playwright"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/sunil-dsb/design.md", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

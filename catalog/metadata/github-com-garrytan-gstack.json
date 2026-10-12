@@ -1,0 +1,37 @@
+{
+  "id": "github-com-garrytan-gstack",
+  "url": "https://github.com/garrytan/gstack",
+  "kind": "repo",
+  "hints_hash": "9da433bb834be94a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/garrytan/gstack/blob/HEAD/README.md", "title": "gstack", "status": null},
+    {"url": "https://github.com/garrytan/gstack/blob/HEAD/SKILL.md", "title": null, "status": null},
+    {"url": "https://raw.githubusercontent.com/garrytan/gstack/HEAD/README.md", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "gstack",
+  "summary": "Garry Tan's Claude Code setup: 23 specialist slash-command roles and power tools for planning, design review, QA and shipping.",
+  "description": "gstack turns Claude Code into a virtual engineering team: 23 specialist slash commands (CEO, eng manager, designer, reviewer, QA, security officer, release engineer) plus 8 power tools that run a Think → Plan → Build → Review → Test → Ship → Reflect sprint. Design skills cover design review, consultation, mockups and HTML; install takes about 30 seconds and works across 10 AI coding agents including Codex, Cursor and Copilot CLI.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude code", "agent skill", "slash command", "ai coding agent", "code review", "design review", "design consultation", "qa", "security audit", "release management", "product planning", "engineering workflow", "codex", "cursor", "openclaw", "developer methodology"],
+  "contains": [
+    "23 specialist slash commands plus 8 power tools, all Markdown",
+    "roles: CEO, eng manager, designer, reviewer, QA, security officer, release engineer",
+    "sprint flow: think, plan, build, review, test, ship, reflect",
+    "design skills for plan design review, consultation, mockups and HTML",
+    "installs into Claude Code, Codex, Cursor, OpenCode, Copilot CLI and more",
+    "about 30-second install via git clone plus ./setup; team auto-update mode",
+    "MIT licensed and free"
+  ],
+  "formats": ["prompts", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/garrytan/gstack", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

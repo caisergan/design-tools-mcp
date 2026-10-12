@@ -1,0 +1,65 @@
+{
+  "id": "beui-dev-components-motion-range-slider",
+  "url": "https://beui.dev/components/motion/range-slider",
+  "kind": "page",
+  "hints_hash": "00aec40065490611",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:00:41Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/components/motion/range-slider",
+      "title": "Range Slider · React motion component · beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Range Slider · beUI",
+  "summary": "Animated React range slider with tick dots and a bouncing thumb, plus inline, fluid, wave, bubble and ruler variants.",
+  "description": "Docs page for beUI's motion range sliders: step-snapping values, tick markers, inline labels, a bubble that leans with drag speed, an equalizer-style wave fill and an iOS-style ruler that settles on the nearest tick. Drag and keyboard controlled, reduced-motion safe, with an API reference for step, ticks, labels, units and value formatting; copy the source or install with shadcn.",
+  "type": "component-library",
+  "elements": [
+    "slider"
+  ],
+  "keywords": [
+    "range slider",
+    "slider",
+    "react slider",
+    "animated slider",
+    "motion component",
+    "tick mark",
+    "snap stop",
+    "value bubble",
+    "ruler slider",
+    "wave slider",
+    "fluid slider",
+    "inline slider",
+    "shadcn",
+    "react",
+    "nextjs",
+    "keyboard accessible",
+    "reduced motion",
+    "drag"
+  ],
+  "formats": [
+    "registry",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs"
+  ],
+  "pricing": "freemium",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "beui-dev"
+  },
+  "confidence": 0.9
+}

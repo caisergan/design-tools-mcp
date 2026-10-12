@@ -1,0 +1,76 @@
+{
+  "id": "github-com-luanroger-electron-shadcn",
+  "url": "https://github.com/LuanRoger/electron-shadcn",
+  "kind": "repo",
+  "hints_hash": "549db97bdb4bce0f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:01Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/LuanRoger/electron-shadcn/blob/HEAD/README.md",
+      "title": "electron-shadcn",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "electron-shadcn",
+  "summary": "Electron desktop app starter pre-configured with React, shadcn/ui, Tailwind, TanStack Router, testing and packaging.",
+  "description": "A ready-to-use Electron template: Electron 43 + Vite 8 + React 19 + Tailwind 4.3 + shadcn/ui with TanStack Router file-based routing, i18next, Lucide icons, oRPC, Zod and React Query. Ships with Vitest, Playwright, React Testing Library, Electron Forge packaging, auto-update via GitHub Releases and GitHub Actions CI.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [],
+  "keywords": [
+    "electron",
+    "desktop app",
+    "react",
+    "shadcn ui",
+    "tailwind css",
+    "typescript",
+    "vite",
+    "boilerplate",
+    "template",
+    "tanstack router",
+    "playwright",
+    "vitest",
+    "github action",
+    "auto update",
+    "cross-platform",
+    "i18n"
+  ],
+  "contains": [
+    "Electron 43 + Vite 8 + React 19 scaffold",
+    "shadcn/ui with Tailwind 4.3, Geist font, Lucide icons, i18next",
+    "TanStack Router with file-based routing",
+    "oRPC, Zod 4 and React Query (TanStack)",
+    "Vitest, Playwright and React Testing Library set up",
+    "Electron Forge packaging with auto-update via GitHub Releases",
+    "pre-configured GitHub Actions CI"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "electron",
+    "react",
+    "vite",
+    "typescript",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/LuanRoger/electron-shadcn",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

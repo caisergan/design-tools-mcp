@@ -1,0 +1,35 @@
+{
+  "id": "shadcnthemeeditor-vercel-app",
+  "url": "https://shadcnthemeeditor.vercel.app",
+  "kind": "site",
+  "hints_hash": "a6ac783fe5cb7873",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnthemeeditor.vercel.app", "title": "Shadcn Theme Editor", "status": null},
+    {"url": "https://shadcnthemeeditor.oimmi.com/", "title": "Shadcn Theme Editor", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Theme Editor",
+  "summary": "Component and demo for editing shadcn/ui theme colors with a live preview of components and text styles.",
+  "description": "A user-friendly component for managing and customizing theme colors in shadcn-based projects: the demo lets you experiment with color values (primary, secondary, accent, outline, destructive) and instantly preview how buttons, cards, dialogs, notifications and Tailwind text color utilities adapt. The entry URL redirects to shadcnthemeeditor.oimmi.com.",
+  "type": "component-library",
+  "categories": ["design-tools", "color-effects"],
+  "elements": ["button", "card"],
+  "keywords": ["shadcn", "theme editor", "theme", "theme color", "color", "css variable", "design token", "tailwind", "preview", "dark mode", "react", "customization"],
+  "contains": [
+    "visual editor for shadcn theme colors",
+    "live preview: buttons, cards, dialogs and other components",
+    "color roles: primary, secondary, accent, outline, destructive",
+    "text style preview for Tailwind text color utilities",
+    "demo includes account dialogs, notifications and toasts",
+    "hosted demo at shadcnthemeeditor.oimmi.com"
+  ],
+  "formats": ["app"],
+  "stack": ["react", "tailwind", "shadcn"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

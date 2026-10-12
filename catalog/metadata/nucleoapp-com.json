@@ -1,0 +1,33 @@
+{
+  "id": "nucleoapp-com",
+  "url": "https://nucleoapp.com",
+  "kind": "site",
+  "hints_hash": "8225636a8bd23d02",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://nucleoapp.com/", "title": "Nucleo – The Ultimate Icon Bundle", "status": null},
+    {"url": "https://nucleoapp.com/docs/teams", "title": "Teams", "status": null},
+    {"url": "https://nucleoapp.com/icons/food", "title": "Food Icons", "status": null},
+    {"url": "https://nucleoapp.com/pricing", "title": "Pricing", "status": null},
+    {"url": "https://nucleoapp.com/license", "title": "License", "status": null},
+    {"url": "https://nucleoapp.com/free-icons", "title": "Free Icons", "status": 200},
+    {"url": "https://nucleoapp.com/react-packages", "title": "Nucleo React Icons – 40,000+ SVG Icons as React Components", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Nucleo",
+  "summary": "Bundle of 40,000+ SVG icons with a web app, native apps, React packages and AI coding integrations.",
+  "description": "44,282 icons across five families — Core, UI, Sharp, Pixel and Micro Bold — sold with apps to browse, customize and export them. Icons ship as SVG downloads and private npm packages for React; free open-source sets cover glass, flags, arcade, cursor, pattern, isometric and social media icons.",
+  "type": "icon-set",
+  "categories": ["icons", "design-tools"],
+  "elements": [],
+  "keywords": ["icon pack", "svg icon", "icon library", "icon manager", "duotone icon", "outline icon", "pixel icon", "react icon", "icon app", "free icon", "flag icon", "custom cursor icon", "isometric icon", "social media icon", "svg pattern", "team icon library", "macos app", "windows app"],
+  "contains": ["44,282 icons across Core, UI, Sharp, Pixel and Micro Bold families", "free open-source sets: glass, flags, arcade, essential subsets, cursors, patterns", "web app and Windows app to browse, customize and export icons", "private npm packages and React components for icons", "one-time purchases from $69 to $149; all-icons bundle $149 (list $405)", "$299/year team plan with shared icon projects and role management"],
+  "formats": ["svg", "npm-package", "app", "docs"],
+  "stack": ["react"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://nucleoapp.com/docs/teams", "npm": "nucleo-core-fill-24", "figma": null, "parent": null},
+  "confidence": 0.85
+}

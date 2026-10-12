@@ -1,0 +1,28 @@
+{
+  "id": "theinternetdesigns-com",
+  "url": "https://theinternetdesigns.com",
+  "kind": "site",
+  "hints_hash": "0babd7bfe4ac36d7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://theinternetdesigns.com", "title": "The Internet Designs | UI Inspiration from X & Pinterest", "status": null},
+    {"url": "https://github.com/iurvish/theinternetdesigns", "title": "GitHub - iurvish/theinternetdesigns: Curated place for design inspiration from internet, and across the web.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The Internet Designs",
+  "summary": "Gallery of curated UI and design inspiration from X, Pinterest and the web, browsable by category, creator and color.",
+  "description": "A gallery of curated design posts: landing pages, interfaces, mobile apps, dashboards, micro-interactions, product design, typography, 3D, brand work, logos and illustration. The explore feed is a masonry grid with infinite scroll; browse by category or creator, or search by keyword or color palette.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["dashboard", "3d"],
+  "keywords": ["ui inspiration", "design inspiration", "landing page", "interface design", "micro interaction", "product design", "typography", "3d design", "brand design", "logo design", "illustration", "design gallery", "x twitter", "pinterest", "masonry feed", "web design"],
+  "contains": ["explore feed: masonry grid with infinite scroll", "categories: interfaces, landing pages, mobile apps, dashboards, interactions, 3D, brand, logo, illustration", "browse by creator", "search by keyword or color palette", "images and videos in the gallery"],
+  "formats": ["screenshots", "video", "links"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": "https://github.com/iurvish/theinternetdesigns", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,68 @@
+{
+  "id": "github-com-ggml-org-llama-cpp-pull-27000",
+  "url": "https://github.com/ggml-org/llama.cpp/pull/27000",
+  "kind": "page",
+  "hints_hash": "3b0accb5de667f2e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/pull/27000",
+      "title": "llama: add Maple 20B-A1B ternary MoE architecture (CPU) by AlexGabbia · Pull Request #27000 · ggml-org/llama.cpp · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "llama: add Maple 20B-A1B ternary MoE architecture (CPU) (#27000)",
+  "summary": "Merged llama.cpp pull request adding DeepGrove's Maple 20B-A1B ternary MoE architecture, CPU-only through TQ1_0/TQ2_0 kernels.",
+  "description": "Pull request #27000 in ggml-org/llama.cpp adding the Maple 20B-A1B architecture: 24 layers, 256 experts (8 active), SWA-512 interleaved with global attention at 3:1, ternary weights packed as TQ1_0/TQ2_0. Ported from deepgrove-ai/llama.cpp with their permission and split into four commits: gguf-py constants, converter, architecture, test entry. CPU-only for now; test-llama-archs -a maple passes (NMSE 8.75e-08). Merged 14 Sep 2026 after a long review thread on perplexity numbers.",
+  "type": "article",
+  "keywords": [
+    "llm inference",
+    "ternary weight",
+    "mixture of expert",
+    "moe",
+    "model architecture",
+    "gguf",
+    "converter",
+    "quantization",
+    "cpu inference",
+    "cuda",
+    "metal",
+    "perplexity",
+    "swa",
+    "llama.cpp"
+  ],
+  "contains": [
+    "24 layers, 256 experts (8 active), SWA-512 with global attention at 3:1",
+    "ternary weights via TQ1_0/TQ2_0, CPU-only for now",
+    "ported from deepgrove-ai/llama.cpp; test-llama-archs -a maple passes (NMSE 8.75e-08)",
+    "smoke test on M4 CPU: ~216 t/s prefill, ~88 t/s generation (TQ2_0)",
+    "review thread compares perplexity for TQ1_0/TQ2_0, TQ2_0 vs q2_0 and CUDA vs CPU",
+    "merged 14 Sep 2026 by ggerganov; 8 commits"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "cpp",
+    "cuda",
+    "metal"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/ggml-org/llama.cpp",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.9
+}

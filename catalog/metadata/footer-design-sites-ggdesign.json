@@ -1,0 +1,25 @@
+{
+  "id": "footer-design-sites-ggdesign",
+  "url": "https://footer.design/sites/ggdesign",
+  "kind": "page",
+  "hints_hash": "3347a7b734cdb971",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:19:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/ggdesign", "title": "Footer | ggdesign", "status": null}
+  ],
+  "status": "ok",
+  "name": "ggdesign",
+  "summary": "Desktop and mobile footer screenshots from the ggdesign portfolio site, tagged by style and industry.",
+  "description": "Footer showcase entry in a curated gallery of web footers: desktop and mobile screenshots of the ggdesign studio website footer, with footnotes carrying style tags (flat, dark, large type, monochromatic, retro), industry tags (design, portfolio, development, personal), date added and a link to the live site, plus a row of similar footers.",
+  "keywords": ["footer design", "website footer", "footer inspiration", "desktop footer", "mobile footer", "footer screenshot", "web design gallery", "dark footer", "monochromatic", "retro", "portfolio", "personal site", "design studio"],
+  "elements": ["footer"],
+  "contains": ["desktop and mobile footer screenshots", "style tags: flat, dark, large type, monochromatic, retro", "industry tags: design, portfolio, development, personal", "date added: August 10, 2026", "similar footer designs"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.8
+}

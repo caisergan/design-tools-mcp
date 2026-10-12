@@ -1,0 +1,77 @@
+{
+  "id": "github-com-johanguse-shadcn-carousel-testimonials",
+  "url": "https://github.com/johanguse/shadcn-carousel-testimonials",
+  "kind": "repo",
+  "hints_hash": "8526fdfe4728bab7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/johanguse/shadcn-carousel-testimonials/blob/HEAD/README.md",
+      "title": "shadcn UI Carousel Testimonials",
+      "status": null
+    },
+    {
+      "url": "https://github.com/johanguse/shadcn-carousel-testimonials",
+      "title": "GitHub - johanguse/shadcn-carousel-testimonials: shadcn UI Carousel Testimonials · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn UI Carousel Testimonials",
+  "summary": "Carousel of testimonial cards built with shadcn/ui, shipped as a copy-paste Next.js component.",
+  "description": "A testimonials component that shows customer quotes in a carousel, built with shadcn/ui in a Next.js app. Copy the component code from the repository; a live demo runs at shadcn-carousel-testimonials.pages.dev.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "testimonials",
+    "carousel"
+  ],
+  "variants": {
+    "testimonials": [
+      "carousel"
+    ]
+  },
+  "keywords": [
+    "testimonial carousel",
+    "testimonials",
+    "carousel",
+    "shadcn",
+    "react",
+    "nextjs",
+    "customer review",
+    "social proof",
+    "testimonial slider",
+    "tailwind"
+  ],
+  "contains": [
+    "one testimonials component in a carousel layout",
+    "built with shadcn/ui in a Next.js app",
+    "copy-paste source from the repo",
+    "live demo at shadcn-carousel-testimonials.pages.dev"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/johanguse/shadcn-carousel-testimonials",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

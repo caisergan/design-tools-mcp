@@ -1,0 +1,28 @@
+{
+  "id": "github-com-vaunblu-simplekit",
+  "url": "https://github.com/vaunblu/SimpleKit",
+  "kind": "repo",
+  "hints_hash": "60d4c7c05670d566",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/vaunblu/SimpleKit/blob/HEAD/README.md", "title": "SimpleKit", "status": 200},
+    {"url": "https://github.com/vaunblu/SimpleKit", "title": "GitHub - vaunblu/SimpleKit: Responsive connect wallet and account component built on top of Wagmi and shadcn/ui.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "SimpleKit",
+  "summary": "Responsive connect-wallet and account component for React built on Wagmi and shadcn/ui.",
+  "description": "A copy-paste connect wallet experience for React apps: a responsive modal that combines the shadcn/ui dialog and drawer, a connect wallet button, and a useSimpleKit hook to open it from anywhere. Built on Wagmi, Viem, TanStack Query and WalletConnect, with instructions for the Next.js app router and SSR.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["modal", "drawer", "button"],
+  "keywords": ["connect wallet", "wallet", "web3", "ethereum", "wagmi", "viem", "shadcn", "react", "typescript", "walletconnect", "account", "modal", "drawer", "tanstack query", "web3 provider", "component", "siwe"],
+  "contains": ["copy-paste components: simplekit, simplekit-modal and web3-provider", "combines the shadcn/ui dialog and drawer into one responsive modal (Credenza-style)", "built on Wagmi, Viem, TanStack Query and shadcn/ui", "exports a connect wallet button and a useSimpleKit hook", "needs a WalletConnect projectId from WalletConnect Cloud", "Next.js app-router SSR setup with cookie storage", "ships hosted connector icons"],
+  "formats": ["code"],
+  "stack": ["react", "typescript", "wagmi", "viem", "tanstack-query"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/vaunblu/SimpleKit", "docs": "https://simplekit.vaunb.lu", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

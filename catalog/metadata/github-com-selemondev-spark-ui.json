@@ -1,0 +1,91 @@
+{
+  "id": "github-com-selemondev-spark-ui",
+  "url": "https://github.com/selemondev/spark-ui",
+  "kind": "repo",
+  "hints_hash": "a1c2e536ba1e7e3c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:50:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/selemondev/spark-ui/blob/HEAD/README.md",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Spark UI",
+  "summary": "Animated Vue 3 components you copy, paste and ship, built with TypeScript, Tailwind CSS and @vueuse/motion.",
+  "description": "A copy-paste collection of 55 animated components for Vue 3: beams, bento grids, a globe, docks, text animations, patterns and marquees. Each docs page pairs a live preview with a source tab and install notes; components are inspired by Magic UI, with pieces from NuxtHub, Syntax UI and community ports.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "navbar",
+    "background",
+    "text-effect",
+    "marquee",
+    "globe",
+    "dock",
+    "progress",
+    "avatar",
+    "list",
+    "tooltip",
+    "bento-grid"
+  ],
+  "keywords": [
+    "vue",
+    "vue 3",
+    "animated component",
+    "copy paste",
+    "tailwind css",
+    "vueuse motion",
+    "component library",
+    "aurora text",
+    "animated beam",
+    "bento grid",
+    "globe",
+    "marquee",
+    "meteor",
+    "resizable navbar",
+    "scroll progress",
+    "particle",
+    "text animation",
+    "magic ui",
+    "landing page",
+    "open source"
+  ],
+  "contains": [
+    "55 components in the README's All components table",
+    "copy-paste install for Vue 3.5+, Tailwind CSS 3 and @vueuse/motion",
+    "docs pages with live preview, source tab and install notes",
+    "inspired by Magic UI, NuxtHub and Syntax UI",
+    "bun workspace monorepo; MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "vue",
+    "typescript",
+    "tailwind",
+    "vueuse-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/selemondev/spark-ui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

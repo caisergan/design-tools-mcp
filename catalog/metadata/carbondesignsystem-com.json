@@ -1,0 +1,149 @@
+{
+  "id": "carbondesignsystem-com",
+  "url": "https://carbondesignsystem.com",
+  "kind": "site",
+  "hints_hash": "dee485b1602adb48",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://carbondesignsystem.com/llms.txt",
+      "title": "Carbon Design System",
+      "status": null
+    },
+    {
+      "url": "https://carbondesignsystem.com",
+      "title": "Home | Carbon Design System",
+      "status": 200
+    },
+    {
+      "url": "https://www.carbondesignsystem.com/getting-started/about-carbon",
+      "title": "About Carbon | Carbon Design System",
+      "status": 200
+    },
+    {
+      "url": "https://carbondesignsystem.com/patterns/filtering",
+      "title": "Filtering | Carbon Design System",
+      "status": 200
+    },
+    {
+      "url": "https://carbondesignsystem.com/patterns/disclosures",
+      "title": "Disclosures | Carbon Design System",
+      "status": 200
+    },
+    {
+      "url": "https://carbondesignsystem.com/patterns/forms-pattern",
+      "title": "Forms | Carbon Design System",
+      "status": 200
+    },
+    {
+      "url": "https://www.carbondesignsystem.com/llms.txt",
+      "title": "Carbon Design System",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/carbon-design-system/carbon/main/README.md",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Carbon Design System",
+  "summary": "IBM's open-source design system: React and Web Components libraries, design tokens, foundations, UI patterns and guidelines.",
+  "description": "A documented design system with React and Web Components libraries, Sass styles, design tokens, icons and pictograms, plus foundations (color, grid, typography, motion, themes), UI patterns and data visualization guidance. Ships as open-source npm packages, Figma libraries and a Carbon MCP server for AI clients.",
+  "type": "design-system",
+  "categories": [
+    "components",
+    "design-rules"
+  ],
+  "elements": [
+    "accordion",
+    "ai-agent-ui",
+    "alert",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "chart",
+    "checkbox",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "file-upload",
+    "form",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "design system",
+    "component library",
+    "react",
+    "web component",
+    "sass",
+    "design token",
+    "ui pattern",
+    "accessibility",
+    "data visualization",
+    "figma library",
+    "icon",
+    "pictogram",
+    "typography",
+    "grid",
+    "motion",
+    "theming",
+    "dark theme",
+    "color token",
+    "enterprise ui",
+    "carbon mcp"
+  ],
+  "contains": [
+    "React (@carbon/react) and Web Components libraries plus Sass styles and tokens",
+    "40+ documented components (accordion, button, data table, date picker, modal, notifications …)",
+    "Foundations: color, 2x grid, typography, motion, spacing, themes, icons, pictograms",
+    "Patterns: filtering, forms, dialogs, disclosures, empty states, login, global header",
+    "Figma libraries, templates and design resources; Carbon MCP server for AI clients"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs",
+    "figma-file",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "sass",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/carbon-design-system/carbon",
+    "docs": null,
+    "npm": "@carbon/react",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

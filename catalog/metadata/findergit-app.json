@@ -1,0 +1,31 @@
+{
+  "id": "findergit-app",
+  "url": "https://findergit.app",
+  "kind": "site",
+  "hints_hash": "4c9e108a13c825af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://findergit.app", "title": "FinderGit — Native macOS File Browser with Git Intelligence", "status": null},
+    {"url": "https://findergit.app/docs", "title": "FinderGit | FinderGit", "status": null},
+    {"url": "https://findergit.app/docs/faq", "title": "FAQ | FinderGit", "status": null},
+    {"url": "https://findergit.app/docs/legal", "title": "Legal notice | FinderGit", "status": null},
+    {"url": "https://findergit.app/docs/account", "title": "Account | FinderGit", "status": null}
+  ],
+  "status": "ok",
+  "name": "FinderGit",
+  "summary": "Native macOS file browser that shows branch, status and diffs for all your Git repositories in one window.",
+  "description": "A macOS 15+ app that combines file browsing with Git intelligence: a sortable repository portfolio with live branch, clean/dirty and ahead/behind state, an inline diff viewer, staging, commit, push and branch actions, a GitHub profile dashboard, AI commit messages, and disk-space maintenance. Free; published by Undolog (Giovambattista Fazioli).",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["sidebar", "dashboard", "table", "chart", "stats"],
+  "keywords": ["git", "macos", "file browser", "git client", "git gui", "repository", "diff viewer", "git status", "github", "commit", "branch", "developer tool", "mac app", "repository dashboard", "code review"],
+  "contains": ["repository portfolio with live branch, clean/dirty and ahead/behind status", "inline diff viewer with line numbers", "stage, commit, push, pull and branch actions in-app", "GitHub profile dashboard with a year of contributions as heatmap or line graph", "AI commit messages from the staged diff, no API key", "disk-space cleanup and repo maintenance", "free, macOS 15+, universal, signed and notarized", "69 releases since April 2026; current v0.47.0"],
+  "formats": ["app", "docs"],
+  "stack": ["swift"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://findergit.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

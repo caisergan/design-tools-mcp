@@ -1,0 +1,28 @@
+{
+  "id": "github-com-jaleelb-emblor",
+  "url": "https://github.com/JaleelB/emblor",
+  "kind": "repo",
+  "hints_hash": "ce50258405cf22de",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/JaleelB/emblor/blob/HEAD/README.md", "title": "Emblor", "status": 200},
+    {"url": "https://github.com/JaleelB/emblor", "title": "GitHub - JaleelB/emblor: A fully-featured tag input component built with shadcn/ui · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Emblor",
+  "summary": "Headless tag-input primitive for React: tag state, validation, keyboard and native form support.",
+  "description": "Emblor v2 is a headless tag-input primitive that owns tag and draft state, keyboard behaviour, validation, focus coordination, native forms and accessible announcements while consumers own markup and styling. Tags commit on Enter or literal delimiters (configurable), run through a validation pipeline for length, duplicates and capacity, and submitted tags become repeated native form values.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input"],
+  "keywords": ["tag input", "tags input", "react tag input", "headless component", "form input", "keyboard navigation", "validation", "shadcn", "accessible", "native form"],
+  "contains": ["headless: tag and draft state, consumer-owned markup and styling", "Enter and delimiter commits, optional Tab commit, paste handling", "validation pipeline: transform, length, duplicate, capacity, boolean checks", "committed tags submit as ordered repeated native form values", "accessible announcements and automatic label association", "intentionally excludes autocomplete, popovers, Tailwind and styling runtimes"],
+  "formats": ["code", "npm-package"],
+  "stack": ["react", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/JaleelB/emblor", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

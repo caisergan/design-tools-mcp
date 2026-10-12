@@ -1,0 +1,72 @@
+{
+  "id": "github-com-thedotmack-claude-mem",
+  "url": "https://github.com/thedotmack/claude-mem",
+  "kind": "repo",
+  "hints_hash": "791acbe6e005b527",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/thedotmack/claude-mem/blob/HEAD/README.md",
+      "title": "",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Claude-Mem",
+  "summary": "Persistent memory for coding agents: captures what a session did, compresses it and injects relevant context into later sessions.",
+  "description": "A memory layer for coding agents: 5 lifecycle hooks capture sessions, observations are compressed and stored in SQLite with FTS5 and hybrid Chroma vector search, and relevant context is injected into future sessions. Agents query it through 4 MCP tools with a token-efficient 3-layer workflow, a web viewer shows the memory stream, and it installs for Claude Code, OpenCode, Antigravity CLI, OpenClaw and other agents (also published on npm as claude-mem).",
+  "type": "plugin",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "memory",
+    "persistent memory",
+    "context",
+    "agent memory",
+    "mcp",
+    "claude code",
+    "hook",
+    "vector search",
+    "sqlite",
+    "session",
+    "recall",
+    "openclaw",
+    "codex",
+    "plugin"
+  ],
+  "contains": [
+    "5 lifecycle hooks (SessionStart, UserPromptSubmit, PostToolUse, Stop, SessionEnd)",
+    "SQLite storage with FTS5 search and hybrid Chroma vector search",
+    "4 MCP search tools with a 3-layer workflow (~10x token savings)",
+    "web viewer UI and cloud sync",
+    "installs via npx claude-mem install for Claude Code, OpenCode, Antigravity CLI and OpenClaw"
+  ],
+  "formats": [
+    "npm-package",
+    "code"
+  ],
+  "stack": [
+    "typescript",
+    "node",
+    "bun",
+    "sqlite"
+  ],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/thedotmack/claude-mem",
+    "docs": null,
+    "npm": "claude-mem",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

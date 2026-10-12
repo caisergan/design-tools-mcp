@@ -1,0 +1,27 @@
+{
+  "id": "mehularora-dev",
+  "url": "https://mehularora.dev",
+  "kind": "site",
+  "hints_hash": "8ebe02dc32e83e1e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mehularora.dev", "title": "Mehul Arora — Full Stack Developer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mehul Arora",
+  "summary": "Portfolio site of a full-stack developer: skills, selected projects, videos, certificates and a contact form.",
+  "description": "Single-page developer portfolio. It opens with a hero, then an about section, a capabilities grid (React, Next.js, TypeScript, Node.js, databases, AI infrastructure), four selected projects (Arbiter, Personic, TalwinderCSS, QuarkAI) with their stacks and live links, a video/content list, certificates and a contact form.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["navbar", "hero", "features", "card", "cta", "contact", "form"],
+  "keywords": ["portfolio", "developer portfolio", "portfolio website", "personal website", "full stack developer", "nextjs", "react", "tailwind css", "ai agent", "project showcase", "developer resume"],
+  "contains": ["sections: about, capabilities, selected work, content, certifications, contact", "projects: Arbiter, Personic, TalwinderCSS, QuarkAI", "skills grid across frontend, state management, databases and AI infrastructure"],
+  "formats": ["links"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

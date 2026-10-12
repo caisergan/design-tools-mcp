@@ -1,0 +1,83 @@
+{
+  "id": "designsystem-line-me-ldsg-components",
+  "url": "https://designsystem.line.me/LDSG/components",
+  "kind": "page",
+  "hints_hash": "e80bbefab9239461",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designsystem.line.me/LDSG/components",
+      "title": "Components",
+      "status": 200
+    },
+    {
+      "url": "https://designsystem.line.me/LDSG/",
+      "title": "LINE Design System for Global Family Service",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Components — LINE Design System",
+  "summary": "35 documented UI components from LINE's design system: buttons, tabs, badges, inputs, navbars, drawers, toasts and more.",
+  "description": "The components section of LINE's design system guide (LDSG). It lists 35 component documentation pages for LINE's apps — action and icon buttons, tags, badges, page indicators, checkboxes, pulldown menus, sliders, switches, text inputs, footers, side drawers, bottom sheets, expanded tab lists and toasts, among others — each with its own reference page.",
+  "type": "design-system",
+  "elements": [
+    "navbar",
+    "footer",
+    "tabs",
+    "badge",
+    "button",
+    "checkbox",
+    "input",
+    "slider",
+    "switch",
+    "drawer",
+    "toast",
+    "avatar",
+    "loader",
+    "progress"
+  ],
+  "keywords": [
+    "design system",
+    "ui component",
+    "component documentation",
+    "component reference",
+    "mobile ui",
+    "design guideline",
+    "line",
+    "button",
+    "tabs",
+    "badge",
+    "drawer",
+    "navbar",
+    "toast",
+    "text input",
+    "checkbox",
+    "slider"
+  ],
+  "contains": [
+    "35 component documentation pages",
+    "components: action button, tag, badge, checkbox, slider, switch, text input, tabs, drawer, bottom sheet, toast",
+    "part of the LINE Design System guide (LDSG)"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

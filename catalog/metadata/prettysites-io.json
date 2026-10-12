@@ -1,0 +1,87 @@
+{
+  "id": "prettysites-io",
+  "url": "https://prettysites.io",
+  "kind": "site",
+  "hints_hash": "032ced04e79c971a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://prettysites.io",
+      "title": "Website prompts for AI coding tools | PrettySites",
+      "status": 200
+    },
+    {
+      "url": "https://prettysites.io/how-it-works",
+      "title": "How to use PrettySites | PrettySites",
+      "status": 200
+    },
+    {
+      "url": "https://prettysites.io/unlimited",
+      "title": "Pricing and lifetime access | PrettySites",
+      "status": 200
+    },
+    {
+      "url": "https://prettysites.io/?prompt=habitflow",
+      "title": "HabitFlow — Productivity website kit | PrettySites",
+      "status": 200
+    },
+    {
+      "url": "https://prettysites.io/sitemap.xml",
+      "title": "prettysites.io sitemap",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "PrettySites",
+  "summary": "Catalog of website designs, each shipped with a reusable prompt, source files and media for AI coding tools.",
+  "description": "Browsable catalog of website kits (e.g. HabitFlow, a productivity website kit): pick a design, get its reusable prompt, source and media, then follow setup instructions to make it your own; prompt packs and lifetime access available.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "website prompt",
+    "ai prompt",
+    "landing page prompt",
+    "website kit",
+    "design prompt",
+    "source file",
+    "media",
+    "animated background",
+    "website template",
+    "ai coding tool",
+    "prompt pack",
+    "frontend prompt"
+  ],
+  "contains": [
+    "browsable catalog of website designs",
+    "each kit: reusable prompt, source and media",
+    "setup instructions",
+    "prompt packs and lifetime access",
+    "backgrounds section"
+  ],
+  "formats": [
+    "prompts",
+    "code",
+    "screenshots"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

@@ -1,0 +1,36 @@
+{
+  "id": "github-com-timdehof-shadcn-timeline",
+  "url": "https://github.com/timDeHof/shadcn-timeline",
+  "kind": "repo",
+  "hints_hash": "014af9deb8a45025",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/timDeHof/shadcn-timeline/blob/HEAD/README.md", "title": "Shadcn Timeline Component", "status": 200},
+    {"url": "https://github.com/timDeHof/shadcn-timeline", "title": "GitHub - timDeHof/shadcn-timeline: Customizable and re-usable timeline component for you to use in your projects. Built on top of shadcn. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Timeline Component",
+  "summary": "Customizable shadcn/ui timeline component with item statuses, icon colors, loading and error states and Framer Motion animations.",
+  "description": "A copy-paste timeline component for shadcn/ui projects, split into Timeline, TimelineItem and TimelineTime. Items take a date, title, description, a custom icon and icon color, and a status of completed, in-progress or pending; sizes run sm, md and lg. It is ARIA accessible, SSR compatible with client-side date formatting, animated with Framer Motion, and documented in Storybook with a live demo. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["timeline"],
+  "keywords": ["timeline", "timeline component", "activity feed", "event timeline", "shadcn", "react", "tailwind", "framer motion", "ssr", "storybook", "accessible", "nextjs", "status indicator", "date formatting"],
+  "contains": [
+    "Timeline, TimelineItem and TimelineTime components",
+    "item props: date, title, description, icon, iconColor, status, loading, error",
+    "statuses: completed, in-progress, pending; sizes sm/md/lg",
+    "ARIA accessible; SSR compatible with client-side date formatting",
+    "Framer Motion animations; loading and error states",
+    "Storybook documentation and a live demo at timdehof.github.io/shadcn-timeline",
+    "install by copy-paste; MIT licensed; 317 GitHub stars"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react", "tailwind", "shadcn", "framer-motion", "nextjs", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/timDeHof/shadcn-timeline", "docs": "https://timdehof.github.io/shadcn-timeline/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

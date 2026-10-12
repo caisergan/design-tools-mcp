@@ -1,0 +1,40 @@
+{
+  "id": "godly-design",
+  "url": "https://godly.design",
+  "kind": "site",
+  "hints_hash": "ec65dfeba1331900",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://godly.design/llms.txt", "title": "Godly", "status": null},
+    {"url": "https://godly.design", "title": "Godly — Design Inspiration", "status": 200},
+    {"url": "https://godly.design/icons", "title": "Godly — App Icon Design Inspiration", "status": 200},
+    {"url": "https://godly.design/about", "title": "About — Godly", "status": 200},
+    {"url": "https://godly.design/templates", "title": "Godly Templates Inspiration — Curated Website & Framer Templates", "status": 200},
+    {"url": "https://godly.design/sections", "title": "Godly — Website Section Design Inspiration", "status": 200},
+    {"url": "https://godly.design/submit", "title": "Submit — Godly", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Godly.Design",
+  "summary": "Curated design inspiration gallery: websites, apps, app icons, logos, OG images, templates and website sections.",
+  "description": "A curated gallery of web, app, UI and visual design work published around the internet. Browse websites, posts, tools, resources, templates, apps, app icons, logos and OG images, or dive into section-level inspiration for hero, CTA, footer and navbar designs; every item links to the original work, and items can be opened in v0, ChatGPT, Claude or Cursor for use as reference. Submission is open and review-based.",
+  "type": "gallery",
+  "categories": ["inspiration", "sections"],
+  "elements": ["navbar", "hero", "cta", "footer", "pricing", "faq"],
+  "keywords": ["design inspiration", "web design gallery", "website inspiration", "app design", "ui design", "app icon", "logo design", "og image", "website section", "hero section", "footer", "cta", "pricing section", "faq", "framer template", "curated gallery", "visual design", "design showcase"],
+  "contains": [
+    "galleries: trending, websites, posts, tools, resources, templates, apps, app icons, logos, OG images",
+    "section inspiration: hero, CTA and footer (also navbar, pricing and FAQ examples)",
+    "163 templates listed with creator and price (some free)",
+    "keyboard navigation: arrows to move, enter to open, cmd+J to preview",
+    "open any item in chat, v0, ChatGPT, Claude, T3 Chat, Scira or Cursor",
+    "submit a website, app, logo, post, tool or portfolio for review"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

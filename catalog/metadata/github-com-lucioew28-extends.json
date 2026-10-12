@@ -1,0 +1,28 @@
+{
+  "id": "github-com-lucioew28-extends",
+  "url": "https://github.com/lucioew28/extends",
+  "kind": "repo",
+  "hints_hash": "4cf85e870b75658c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/lucioew28/extends/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/lucioew28/extends", "title": "GitHub - lucioew28/extends · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Extends",
+  "summary": "Collection of copy-paste UI components built on shadcn/ui.",
+  "description": "A collection of components built using shadcn/ui that you copy and paste into your own project. The repo is open to community contributions of new components; the demo site lives at extends.vercel.app.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": [],
+  "keywords": ["shadcn", "shadcn ui", "react component", "copy paste component", "ui collection", "component library", "open source component", "tailwind", "react"],
+  "contains": ["copy-and-paste component collection built on shadcn/ui", "open to community contributions", "demo at extends.vercel.app"],
+  "formats": ["code"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/lucioew28/extends", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

@@ -1,0 +1,20 @@
+{
+  "id": "toolgossip-com-tool-replit-post-1092",
+  "url": "https://toolgossip.com/tool/replit?post=1092",
+  "kind": "page",
+  "hints_hash": "e261c07a55413ebd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://toolgossip.com/tool/replit?post=1092", "title": "Tool Gossip — Your tool stack tells a story", "status": null},
+    {"url": "https://toolgossip.com/tool/replit?post=1092", "title": "Tool Gossip — Your tool stack tells a story", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Tool Gossip",
+  "summary": "Site where people log the tools they start, quit and swear by and see what people with a similar stack use.",
+  "description": "Tool Gossip is a community site for sharing and browsing developer tool stacks; this URL is a tool post for Replit (post 1092). The page body renders client-side, so only the site title and description were readable.",
+  "keywords": ["tool stack", "developer tool", "tool review", "software review", "ai coding tool", "tool discovery", "community", "stack sharing"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

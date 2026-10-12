@@ -1,0 +1,30 @@
+{
+  "id": "bestprompts-sh",
+  "url": "https://bestprompts.sh",
+  "kind": "site",
+  "hints_hash": "50fe9ff8cef05609",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bestprompts.sh", "title": "Best AI Prompts: Copy-Paste Prompts & Agent Config Files", "status": null},
+    {"url": "https://bestprompts.sh/prompts", "title": "Browse All AI Prompts | Best AI Prompts", "status": 200},
+    {"url": "https://bestprompts.sh/prompts/agent-files", "title": "Best Agents AI Prompts | Best AI Prompts", "status": 200},
+    {"url": "https://bestprompts.sh/prompts/skills", "title": "Best Skills AI Prompts | Best AI Prompts", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Best Prompts",
+  "summary": "Curated directory of 434 AI prompts, agent system prompts, config files and skills.",
+  "description": "A searchable library of copy-paste prompts for writing, marketing, business, coding, image, video and audio work, plus agent material: system prompts, config files, tool definitions, evals and guardrails, and 45 SKILL.md agent skills for planning, testing, debugging, code review and git. Each item carries a category and difficulty tag and copies in one click.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai prompt", "prompt library", "prompt directory", "system prompt", "agent prompt", "agent config", "skill.md", "agent skill", "prompt engineering", "writing prompt", "marketing prompt", "coding prompt", "image prompt", "video prompt", "audio prompt", "rabbit hole prompt", "copy paste prompt", "llm prompt", "ai agent", "prompt template"],
+  "contains": ["434 prompts across 10 categories", "agents 90, business 60, rabbit holes 54, skills 45, writing 40, coding 39, marketing 37, image 31, video 20, audio 18", "41 featured prompts", "agent files: system prompts, config files (14), tools (3), evals (5), guardrails (4)", "skills: 45 SKILL.md agent skills grouped into planning, architecture, testing, debugging, review, git …", "search with one-click copy", "difficulty tags: beginner, intermediate, advanced"],
+  "formats": ["prompts", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

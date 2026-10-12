@@ -1,0 +1,115 @@
+{
+  "id": "github-com-liamandrew-tetra-ui",
+  "url": "https://github.com/Liamandrew/tetra-ui",
+  "kind": "repo",
+  "hints_hash": "9d3babeb6f3ec614",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Liamandrew/tetra-ui/blob/HEAD/README.md",
+      "title": "tetra-ui",
+      "status": null
+    },
+    {
+      "url": "https://tetra-ui.com/llms.txt",
+      "title": "tetra-ui",
+      "status": 200
+    },
+    {
+      "url": "https://tetra-ui.com/docs/components",
+      "title": "Components | tetra-ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "tetra-ui",
+  "summary": "Copy-paste React Native components installed with the shadcn CLI, built for Expo and styled with Uniwind.",
+  "description": "shadcn/ui-style components for React Native, copied into your project rather than imported: npx shadcn@latest add @tetra-ui/<component> pulls from the registry published at tetra-ui.com/r/<name>.json. Requires React 19, the React Native New Architecture and Uniwind (Tailwind for React Native), Expo recommended. Includes 30+ components such as accordion, alert, bottom sheet, carousel, form, menu, OTP input, popover, segmented control, select, slider, switch and toast. Dark mode comes from CSS variable theme tokens, and llms.txt, llms-full.txt and AGENTS.md support AI agents. MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "button",
+    "card",
+    "carousel",
+    "checkbox",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "form",
+    "input",
+    "list",
+    "loader",
+    "otp-input",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "switch",
+    "toast"
+  ],
+  "keywords": [
+    "react native",
+    "expo",
+    "shadcn",
+    "uniwind",
+    "tailwind",
+    "copy-paste component",
+    "registry",
+    "mobile ui",
+    "component library",
+    "bottom sheet",
+    "otp input",
+    "dark mode",
+    "ios",
+    "android",
+    "ai agent"
+  ],
+  "contains": [
+    "30+ components incl. button, card, form, select, bottom sheet and menu",
+    "installed via npx shadcn@latest add @tetra-ui/<component>",
+    "shadcn registry served at tetra-ui.com/r/<name>.json",
+    "requires React 19, React Native New Architecture and Uniwind",
+    "native menu, switch and slider via Expo UI",
+    "dark mode via CSS variable theme tokens",
+    "llms.txt, llms-full.txt and AGENTS.md for AI coding agents",
+    "MIT license"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react-native",
+    "expo",
+    "uniwind",
+    "tailwind",
+    "react"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Liamandrew/tetra-ui",
+    "docs": "https://tetra-ui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

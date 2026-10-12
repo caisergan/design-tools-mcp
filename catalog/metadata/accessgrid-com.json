@@ -1,0 +1,31 @@
+{
+  "id": "accessgrid-com",
+  "url": "https://accessgrid.com",
+  "kind": "site",
+  "hints_hash": "c9456d2428439edc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://accessgrid.com", "title": "AccessGrid - API for NFC Access Passes on mobile with MIFARE DESFire compatibility", "status": null},
+    {"url": "https://accessgrid.com/docs", "title": "API documentation for Apple + Google NFC wallet credentials - AccessGrid", "status": null},
+    {"url": "https://accessgrid.com/about", "title": "About AccessGrid", "status": null},
+    {"url": "https://accessgrid.com/guides", "title": "NFC & Access Control Guides - AccessGrid Guides", "status": null},
+    {"url": "https://accessgrid.com/pricing/partners", "title": "Pricing page for partners mobile wallet credentials - AccessGrid", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AccessGrid",
+  "summary": "API for issuing and managing NFC access passes in Apple and Google Wallet.",
+  "description": "REST API that issues HID Seos, MIFARE DESFire and SmartTap credentials into Apple and Google Wallet, with HMAC-signed requests and SDKs in 8 languages. Ships with API docs, NFC reader guides, case studies and per-use-case pricing for employee badges, hotel keys and multi-family buildings.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["nfc", "access control", "api", "wallet pass", "apple wallet", "google wallet", "mifare desfire", "hid seos", "smarttap", "sdk", "access credential", "employee badge", "hotel key", "digital key", "developer api"],
+  "contains": ["API to issue, update, suspend and delete mobile wallet access passes", "SDKs for 8 languages (npm, pip, gem, go, .NET, Maven, Composer, Hex)", "supports HID Seos and MIFARE DESFire EV2", "docs, guides and a bit-format matcher tool", "pricing: card template fee from $49/mo plus per-pass fees"],
+  "formats": ["api", "docs", "code", "npm-package"],
+  "stack": ["javascript", "python", "go", "ruby"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://accessgrid.com/docs", "npm": "accessgrid", "figma": null, "parent": null},
+  "confidence": 0.85
+}

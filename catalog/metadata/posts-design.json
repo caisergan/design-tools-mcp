@@ -1,0 +1,88 @@
+{
+  "id": "posts-design",
+  "url": "https://posts.design",
+  "kind": "site",
+  "hints_hash": "fd66d7686299dcd4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://posts.design/llms.txt",
+      "title": "posts.design",
+      "status": null
+    },
+    {
+      "url": "https://posts.design",
+      "title": "Social post design inspiration — posts.design",
+      "status": 200
+    },
+    {
+      "url": "https://posts.design/about",
+      "title": "About posts.design",
+      "status": 200
+    },
+    {
+      "url": "https://posts.design/category/ai",
+      "title": "AI social post design examples - posts.design",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "posts.design",
+  "summary": "Hand-curated gallery of real social posts from 770+ brands, with OG images, profile headers and design trend write-ups.",
+  "description": "A reference library of the social media posts brands and creators actually published: launches, updates, hiring posts, teasers, memes and more, each saved with images, account, date, category and post type, and a link to the original source. It also browses Open Graph link images and profile headers by brand, publishes editorial trend pages and teardowns, and serves a public search API.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "social posts",
+    "social media design",
+    "design inspiration",
+    "og image",
+    "open graph image",
+    "link preview",
+    "profile header",
+    "launch post",
+    "product update",
+    "brand graphic",
+    "carousel post",
+    "meme",
+    "hiring post",
+    "social media marketing",
+    "post design",
+    "reference gallery"
+  ],
+  "contains": [
+    "2,982 curated posts from 774 brands",
+    "866 Open Graph images and 575 profile headers",
+    "categories: launch, update, hiring, event, teaser, meme, partnership",
+    "each post links to its original source, with account, date and post type",
+    "brand, category and post-type pages",
+    "editorial trend pages and teardowns",
+    "public gallery search API (limit, offset, q, type, field, collection)",
+    "newsletter archive (Issues)"
+  ],
+  "formats": [
+    "screenshots",
+    "links",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

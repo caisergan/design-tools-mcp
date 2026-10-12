@@ -1,0 +1,26 @@
+{
+  "id": "nxui-geoql-in-docs",
+  "url": "https://nxui.geoql.in/docs",
+  "kind": "page",
+  "hints_hash": "fa9af1c6511e3858",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:26:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://nxui.geoql.in/docs", "title": "nxui — 243+ Animated, Copy-Paste UI Components for Vue", "status": 200}
+  ],
+  "status": "ok",
+  "name": "nxui",
+  "summary": "Docs for nxui, a free MIT collection of 243+ animated Vue 3 components installed with a shadcn-vue command or copied by hand.",
+  "description": "Introduction page of the nxui documentation: a Tailwind CSS and motion-v component collection for Vue 3 and Nuxt 4. The registry ships 241 components across 8 categories (text animations, backgrounds, hero backgrounds, visual effects, buttons, animations, shaders, general components), each installable in one shadcn-vue command with dark mode and no added runtime dependencies, or copied by hand from the docs.",
+  "type": "component-library",
+  "elements": ["text-effect", "background", "hero", "button"],
+  "keywords": ["vue", "vue 3", "nuxt", "tailwind css", "motion-v", "animated component", "copy paste", "shadcn-vue", "component registry", "text animation", "background", "dark mode", "free component", "mit", "mcp"],
+  "contains": ["243+ copy-paste animated Vue components (registry: 241 across 8 categories)", "install in one shadcn-vue command; source copied into your repo, no runtime dependency", "built with Vue 3, Nuxt 4, Tailwind CSS v4, motion-v, VueUse, reka-ui", "dark mode out of the box; MIT, free forever", "live demos and copyable source on the docs site"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["vue", "nuxt", "tailwind", "motion-v"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

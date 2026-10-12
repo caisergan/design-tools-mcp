@@ -1,0 +1,102 @@
+{
+  "id": "bencho-dev",
+  "url": "https://bencho.dev",
+  "kind": "site",
+  "hints_hash": "632921fb8a8870ed",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://bencho.dev",
+      "title": "Bencho — Interactive React UI Components & Micro-interactions",
+      "status": 200
+    },
+    {
+      "url": "https://bencho.dev/sounds",
+      "title": "UI Sound Effects — 82 Interaction Sounds · Bencho",
+      "status": 200
+    },
+    {
+      "url": "https://bencho.dev/finds",
+      "title": "Finds — UI Interaction & Animation Inspiration · Bencho",
+      "status": 200
+    },
+    {
+      "url": "https://bencho.dev/bench",
+      "title": "Bench — arrange live UI blocks on a canvas · Bencho",
+      "status": 200
+    },
+    {
+      "url": "https://bencho.dev/blocks",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://bencho.dev/blocks/glass-bubble",
+      "title": "Liquid Glass Refraction Effect — React Component · Bencho",
+      "status": 200
+    },
+    {
+      "url": "https://bencho.dev/sitemap.xml",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Bencho",
+  "summary": "Library of interactive React UI blocks and micro-interactions, plus 82 UI sounds and a wall of 158 interaction clips.",
+  "description": "A library of interactive React components and micro-interactions you can explore, tweak and take straight into your projects. Alongside the blocks it holds 82 browser-synthesised UI sound effects, Finds — a curated wall of 158 interface interaction clips credited to their makers — and Bench, an infinite canvas for arranging kept blocks.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion",
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "react",
+    "ui block",
+    "micro interaction",
+    "interactive component",
+    "ui sound",
+    "sound effect",
+    "animation",
+    "motion",
+    "copy paste",
+    "inspiration",
+    "interaction design",
+    "frontend",
+    "ui library",
+    "hover effect",
+    "drag"
+  ],
+  "contains": [
+    "interactive React UI blocks you can explore, tweak and take into your projects",
+    "82 UI interaction sounds — clicks, pops, drags and swells — synthesised in the browser, playable and downloadable",
+    "Finds: a curated wall of 158 interface interactions, each a short clip credited with a link to its maker",
+    "Bench: an infinite canvas for arranging kept blocks and returning to the arrangement"
+  ],
+  "formats": [
+    "code",
+    "video",
+    "links"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

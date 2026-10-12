@@ -1,0 +1,121 @@
+{
+  "id": "threeui-com",
+  "url": "https://threeui.com",
+  "kind": "site",
+  "hints_hash": "b617ff66e6ab4065",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://threeui.com",
+      "title": "Three.js Components, Templates & Interactive Shaders | ThreeUI",
+      "status": null
+    },
+    {
+      "url": "https://threeui.com/installation",
+      "title": "Install ThreeUI for React | ThreeUI",
+      "status": null
+    },
+    {
+      "url": "https://threeui.com/pricing",
+      "title": "ThreeUI Pro Pricing | ThreeUI",
+      "status": 200
+    },
+    {
+      "url": "https://threeui.com/buttons",
+      "title": "Animated Button Components | ThreeUI",
+      "status": 200
+    },
+    {
+      "url": "https://threeui.com/landing-pages",
+      "title": "Three.js Landing Page Templates | ThreeUI",
+      "status": 200
+    },
+    {
+      "url": "https://threeui.com/buttons/dayward-buttons/ink",
+      "title": "Dayward Liquid Ink Animated Button — Dayward Buttons | ThreeUI",
+      "status": 200
+    },
+    {
+      "url": "https://threeui.com/mcp",
+      "title": "ThreeUI MCP for Pro | ThreeUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ThreeUI",
+  "summary": "Component library of copy-ready Three.js and WebGL components, animated sections and landing page templates.",
+  "description": "Three.js component and template library by DesignCode, installed as the @designcodeio/threeui React package. Browse animated buttons, WebGL backgrounds, hero, text-animation and UI-element components, section variants (testimonials, footer, pricing, features, FAQ, CTA, logo cloud) and complete landing page templates, each with its original authored interaction; component runtimes are three + DOM/CSS.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "hero",
+    "button",
+    "card",
+    "background",
+    "3d",
+    "text-effect",
+    "footer",
+    "testimonials",
+    "features",
+    "cta",
+    "faq",
+    "pricing",
+    "logo-cloud"
+  ],
+  "keywords": [
+    "three.js",
+    "webgl",
+    "component library",
+    "react component",
+    "landing page template",
+    "website template",
+    "hero section",
+    "animated button",
+    "shader",
+    "3d scene",
+    "background",
+    "text animation",
+    "ui effect",
+    "copy paste",
+    "npm package"
+  ],
+  "contains": [
+    "components, section variants and complete landing page templates for Three.js",
+    "runtimes: three + DOM/CSS",
+    "installed as @designcodeio/threeui for React",
+    "Pro plans: $299 lifetime or $199 per year with commercial use",
+    "authenticated MCP access for Pro members",
+    "sections: testimonials, footer, pricing, features, FAQ, CTA, logo cloud"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "three.js",
+    "gsap",
+    "css"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://threeui.com/installation",
+    "npm": "@designcodeio/threeui",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

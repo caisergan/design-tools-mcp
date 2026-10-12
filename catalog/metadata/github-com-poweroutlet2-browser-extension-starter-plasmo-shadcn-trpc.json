@@ -1,0 +1,28 @@
+{
+  "id": "github-com-poweroutlet2-browser-extension-starter-plasmo-shadcn-trpc",
+  "url": "https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc",
+  "kind": "repo",
+  "hints_hash": "6a599863a601f952",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc/blob/HEAD/README.md", "title": "Browser Extension Starter Template", "status": null},
+    {"url": "https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc", "title": "GitHub - poweroutlet2/browser-extension-starter: Browser extension starter template featuring WXT, React, Shadcn, and TRPC · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Browser Extension Starter Template",
+  "summary": "Chrome extension boilerplate with WXT, React, Tailwind CSS, shadcn/ui and tRPC messaging, plus a Plasmo branch.",
+  "description": "A boilerplate for building Chrome extensions, initialized with WXT, React, TailwindCSS, shadcn/ui and trpc-chrome for typesafe messaging between extension parts. It is published as a GitHub template; a plasmo branch starts the same setup on Plasmo instead. New shadcn components are added with the shadcn CLI, and development builds load from ./output/chrome-mv3-dev.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["browser extension", "chrome extension", "boilerplate", "starter template", "wxt", "plasmo", "react", "tailwind css", "shadcn", "trpc", "typescript", "manifest v3", "web extension", "typesafe messaging"],
+  "contains": ["boilerplate for Chrome extensions with WXT, React, TailwindCSS, shadcn/ui and trpc-chrome", "typesafe messaging between extension parts via trpc-chrome", "plasmo branch for starting with Plasmo instead of WXT", "new UI components added with the shadcn CLI", "MIT licensed GitHub template, 77 stars"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "tailwind", "wxt", "trpc", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

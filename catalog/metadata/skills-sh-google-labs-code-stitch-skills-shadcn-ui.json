@@ -1,0 +1,83 @@
+{
+  "id": "skills-sh-google-labs-code-stitch-skills-shadcn-ui",
+  "url": "https://skills.sh/google-labs-code/stitch-skills/shadcn-ui",
+  "kind": "page",
+  "hints_hash": "f7c61b6435af9b29",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/google-labs-code/stitch-skills/shadcn-ui",
+      "title": "shadcn-ui — google-labs-code/stitch-skills",
+      "status": null
+    },
+    {
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "title": "GitHub - google-labs-code/stitch-skills: A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents…",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-ui",
+  "summary": "Agent skill for discovering, installing and customizing shadcn/ui components and blocks in a project.",
+  "description": "A SKILL.md skill from Google's Stitch skills library that walks an agent through shadcn/ui: browsing and adding components (50+ buttons, dialogs, forms, tables …), theming via CSS variables, class-variance-authority variants, composition patterns, and blocks such as authentication forms, dashboards and sidebars. It states the requirements (React 18+, Tailwind CSS 3.0+, npx shadcn@latest add) and uses MCP tools to discover, retrieve and install components.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules",
+    "components"
+  ],
+  "elements": [
+    "button",
+    "modal",
+    "form",
+    "table",
+    "sidebar",
+    "dashboard"
+  ],
+  "keywords": [
+    "agent skill",
+    "shadcn ui",
+    "shadcn cli",
+    "react component",
+    "block",
+    "react",
+    "tailwind css",
+    "css variable",
+    "theme",
+    "mcp",
+    "skill md",
+    "radix ui"
+  ],
+  "contains": [
+    "SKILL.md: shadcn/ui Component Integration",
+    "50+ accessible components on Radix UI or Base UI primitives",
+    "theming via CSS variables; variants with class-variance-authority",
+    "blocks for authentication forms, dashboards and sidebars",
+    "MCP tools to discover, retrieve and install components",
+    "requirements: React 18+, Tailwind CSS 3.0+",
+    "52.5K installs; repo google-labs-code/stitch-skills (8.5K stars, Apache-2.0)"
+  ],
+  "formats": [
+    "prompts",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/google-labs-code/stitch-skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,32 @@
+{
+  "id": "vyomaui-design",
+  "url": "https://vyomaui.design",
+  "kind": "site",
+  "hints_hash": "874ce9645f21f19a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://vyomaui.design", "title": "Vyoma UI | Truly Beyond UI. Designed with Spatial Wisdom Inside.", "status": null },
+    { "url": "https://vyomaui.design/get-started/introduction", "title": "Introduction | Get Started | VUI React UI Library", "status": null },
+    { "url": "https://www.vyomaui.design/showcase", "title": "Vyoma UI | Truly Beyond UI. Designed with Spatial Wisdom Inside.", "status": null },
+    { "url": "https://www.vyomaui.design/Themes", "title": "Vyoma UI | Truly Beyond UI. Designed with Spatial Wisdom Inside.", "status": null },
+    { "url": "https://vyomaui.design/get-started/installation", "title": "Installation | Get Started | VUI React UI Library", "status": 200 },
+    { "url": "https://github.com/Srijan-Baniyal/vyoma-ui", "title": "GitHub - Srijan-Baniyal/vyoma-ui: Beautiful Component Library Build on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Vyoma UI",
+  "summary": "React component library built on shadcn/ui with animated components, AI chat inputs, text animations and Three.js backgrounds.",
+  "description": "Vyoma UI (VUI) is a React component library for Next.js built on top of shadcn/ui, with 30+ copy-paste components: buttons, cards, forms, bento grids, sheets, tooltips, text animations, animated backgrounds and AI chat pieces. Styled with Tailwind CSS and animated with Framer Motion and GSAP; MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "background", "bento-grid", "button", "card", "chat", "checkbox", "dock", "drawer", "footer", "form", "loader", "navbar", "prompt-input", "slider", "text-effect", "tooltip"],
+  "keywords": ["shadcn", "react component", "nextjs", "tailwind css", "framer motion", "gsap", "text animation", "background", "ai chat", "chat input", "bento grid", "dock", "sheet", "tooltip", "dark mode", "typescript", "copy paste", "component library"],
+  "contains": ["30+ React components on top of shadcn/ui", "AI components: chat and magical chat input", "text animations: animated number, blur, typing, waving, decryption", "Three.js-powered animated backgrounds", "MIT license; 37 GitHub stars", "light/dark themes, TypeScript"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "framer-motion", "radix", "gsap", "three.js"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/Srijan-Baniyal/vyoma-ui", "docs": "https://vyomaui.design/get-started/introduction", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

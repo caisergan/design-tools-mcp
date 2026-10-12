@@ -1,0 +1,30 @@
+{
+  "id": "landings-dev",
+  "url": "https://landings.dev",
+  "kind": "site",
+  "hints_hash": "b68d977ee1d959d4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://landings.dev", "title": "Landings - Landing Page Examples", "status": null},
+    {"url": "https://landings.dev/post/crontap", "title": "Crontap Landing Page Design | Landings", "status": 200},
+    {"url": "https://landings.dev/tailwind", "title": "Tailwind CSS Library | Landings", "status": 200},
+    {"url": "https://landings.dev/advertise", "title": "Advertise | Landings", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Landings",
+  "summary": "Screenshot gallery of 385+ landing page examples from leading companies, browsable by stack and color palette.",
+  "description": "Landings collects landing page designs from real companies (Gusto, Patreon, Ghost, Icons8) as screenshots, each post showing the page, its color palette and its stack tags. Browse by stack (React, Next.js, Webflow, WordPress, Tailwind CSS, Framer) or color; the site also hosts a Tailwind CSS class reference and small SVG/color conversion tools.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["dock", "navbar", "bento-grid", "map", "3d", "progress"],
+  "keywords": ["landing page", "landing page example", "landing page inspiration", "screenshot gallery", "saas landing page", "website inspiration", "web design gallery", "tailwind css", "next.js", "webflow", "react", "startup website", "color palette"],
+  "contains": ["385 landing page examples measured in the catalog", "filters: stack (React, Next.js, Webflow, WordPress, Tailwind CSS, Framer) and color", "each example has a post page with screenshot, palette colors and published date", "also includes a Tailwind CSS class reference and svg/color conversion tools"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

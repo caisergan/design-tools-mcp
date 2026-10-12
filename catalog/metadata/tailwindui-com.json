@@ -1,0 +1,16 @@
+{
+  "id": "tailwindui-com",
+  "url": "https://tailwindui.com",
+  "kind": "site",
+  "hints_hash": "215bd167f721e656",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tailwindui.com", "title": null, "status": null},
+    {"url": "https://tailwindcss.com/plus", "title": null, "status": null},
+    {"url": "https://tailwindcss.com/plus/login", "title": null, "status": null}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

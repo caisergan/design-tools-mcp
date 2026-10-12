@@ -1,0 +1,28 @@
+{
+ "id": "seo-stuff-com",
+ "url": "https://seo-stuff.com",
+ "kind": "site",
+ "hints_hash": "1e47a6ac6267943f",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T16:20:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://seo-stuff.com/llms.txt", "title": "SEO Stuff (https://www.seo-stuff.com)", "status": null},
+  {"url": "https://seo-stuff.com", "title": "SEO Stuff | AI SEO, GEO & AIO Tools", "status": 200}
+ ],
+ "status": "ok",
+ "name": "SEO Stuff",
+ "summary": "Credit-based SEO research tools plus done-for-you content and backlink services for Google and AI search.",
+ "description": "A pay-as-you-go platform for SEO, GEO and AIO work: keywords explorer, bulk keyword metrics (up to 1,000 keywords), backlinks explorer and free checkers such as AI visibility, rank, DR and an llms.txt generator. Credits start at $49, and done-for-you services add content writing, DR50+ backlink placements and full AI search packages. Serves startups, agencies, affiliate sites and small businesses.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["seo", "keyword research", "backlink analysis", "link building", "ai search optimization", "generative engine optimization", "answer engine optimization", "llms.txt", "domain rating", "rank checker", "content writing", "seo audit", "credit-based pricing"],
+ "contains": ["credit tools: keywords explorer, bulk keyword metrics, backlinks explorer", "free tools: AI visibility checker, rank checker, DR checker, AI crawler checker, llms.txt generator", "credit packages: Essentials ($49 / 400 credits), Startup ($99 / 3,000 credits)", "done-for-you services: content writing, backlink packages, done-for-you AI search package", "1 credit = 1 keyword or backlink lookup; credits expire after 1 year"],
+ "formats": ["app"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

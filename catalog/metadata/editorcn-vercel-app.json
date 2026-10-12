@@ -1,0 +1,39 @@
+{
+  "id": "editorcn-vercel-app",
+  "url": "https://editorcn.vercel.app",
+  "kind": "site",
+  "hints_hash": "ab96a399b2e901d5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://editorcn.vercel.app/llms.txt", "title": "editorcn", "status": null},
+    {"url": "https://editorcn.vercel.app", "title": "editorcn - Beautiful rich text editors, made simple", "status": 200},
+    {"url": "https://www.rtecn.space/docs", "title": "Introduction | editorcn", "status": 200},
+    {"url": "https://www.rtecn.space/sponsor", "title": "Sponsor | editorcn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "editorcn",
+  "summary": "Rich text editor components for React, built on Tiptap and distributed through the shadcn registry or npm.",
+  "description": "A monorepo of rich text editor components for the shadcn/ui ecosystem: a toolbar-style RichTextEditor with sticky toolbar, 20+ built-in controls, bubble menu and link extension, a Notion-style BlockEditor with slash commands, drag handles, image and table blocks, an extensions package and a static renderer for saved content. Installs through the shadcn registry or npm; templates cover a Comment Box and a Simple Document Editor. The site now serves at www.rtecn.space.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["button", "file-upload", "input", "table"],
+  "keywords": ["rich text editor", "tiptap", "shadcn", "shadcn registry", "react editor", "wysiwyg editor", "block editor", "notion style editor", "toolbar editor", "slash command", "bubble menu", "table editor", "image upload", "tailwind css", "typescript", "static renderer", "comment box", "content editor"],
+  "contains": [
+    "two editor packages: @editorcn/editor (toolbar editor) and @editorcn/block-editor (Notion-style blocks)",
+    "20+ built-in toolbar controls (Bold, H1, Link, Undo); sticky toolbar with control groups",
+    "BlockEditor: slash command menu, bubble menu, drag handles, block actions, image and table blocks",
+    "extensions: @editorcn/extensions (image placeholder, table) and @editorcn/static-renderer",
+    "templates: Comment Box and Simple Document Editor, installed as shadcn blocks",
+    "5 shadcn registry items, 7 docs pages; install via the shadcn registry or npm",
+    "built on Tiptap with full TypeScript support and shadcn/ui design tokens",
+    "every component is free; sponsorship never paywalls features"
+  ],
+  "formats": ["code", "npm-package", "registry", "docs"],
+  "stack": ["react", "typescript", "tailwind", "shadcn", "tiptap"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.rtecn.space/docs", "npm": "@editorcn/editor", "figma": null, "parent": null},
+  "confidence": 0.85
+}

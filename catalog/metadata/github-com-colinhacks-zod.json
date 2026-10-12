@@ -1,0 +1,29 @@
+{
+  "id": "github-com-colinhacks-zod",
+  "url": "https://github.com/colinhacks/zod",
+  "kind": "repo",
+  "hints_hash": "72cd01e4c2436f73",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/colinhacks/zod/blob/HEAD/README.md", "title": "zod/packages/zod/README.md", "status": 200},
+    {"url": "https://raw.githubusercontent.com/colinhacks/zod/HEAD/packages/zod/README.md", "title": "Zod", "status": 200},
+    {"url": "https://github.com/colinhacks/zod", "title": "GitHub - colinhacks/zod", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Zod",
+  "summary": "TypeScript-first schema validation library with static type inference: define a schema, parse data, get a typed result.",
+  "description": "A validation library where you define a schema and parse data with it to get a strongly typed, validated result. It has zero external dependencies, works in Node.js and all modern browsers, ships a 2 kB gzipped core, an immutable API, a concise interface, built-in JSON Schema conversion and a large ecosystem, for TypeScript and plain JS.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["schema validation", "type inference", "typescript", "javascript", "runtime validation", "json schema", "validation library", "api validation", "zero dependency"],
+  "contains": ["zero external dependencies", "works in Node.js and all modern browsers", "2 kB core bundle, gzipped", "immutable API: methods return a new instance", "works with TypeScript and plain JS", "built-in JSON Schema conversion"],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["typescript", "javascript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/colinhacks/zod", "docs": "https://zod.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,73 @@
+{
+  "id": "libraries-dev-studio",
+  "url": "https://libraries.dev/studio",
+  "kind": "page",
+  "hints_hash": "72a681f7144970ec",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T09:30:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://libraries.dev/studio",
+      "title": "Studio · Libraries.dev",
+      "status": null
+    },
+    {
+      "url": "https://libraries.dev/",
+      "title": "Libraries.dev: High-crafted UI libraries for AI agents",
+      "status": 200
+    },
+    {
+      "url": "https://libraries.dev/pro.html",
+      "title": "Libraries Pro: Unlock the Studio for every library",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Studio (Libraries.dev)",
+  "summary": "Live workbench for tuning every parameter of the Libraries.dev React effect libraries and exporting the exact code.",
+  "description": "The Studio is one workbench for all Libraries.dev effect libraries: every parameter is tuned live on the real component, beyond what the public playgrounds expose, and exported as props. A built-in AI agent dials in a look from a description. It is the paid part of Libraries Pro ($9/month).",
+  "type": "tool",
+  "keywords": [
+    "component customization",
+    "live preview",
+    "parameter tuning",
+    "code export",
+    "react component",
+    "ui effect",
+    "animation",
+    "ai agent",
+    "workbench",
+    "prop",
+    "component library",
+    "playground"
+  ],
+  "contains": [
+    "one workbench for every Libraries.dev effect library",
+    "tunes every parameter live and exports the exact code as props",
+    "built-in AI agent turns a description into parameter changes",
+    "included in Libraries Pro at $9/month"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "libraries-dev"
+  },
+  "confidence": 0.8
+}

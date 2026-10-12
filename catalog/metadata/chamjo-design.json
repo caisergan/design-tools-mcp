@@ -1,0 +1,69 @@
+{
+  "id": "chamjo-design",
+  "url": "https://chamjo.design",
+  "kind": "site",
+  "hints_hash": "769336b544a98cc2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://chamjo.design",
+      "title": "Chamjo | The ultimate UX inspiration hub for local apps and competitors",
+      "status": null
+    },
+    {
+      "url": "https://chamjo.design/pricing",
+      "title": "Chamjo | Pricing",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Chamjo",
+  "summary": "Library of 8000+ screenshots from local mobile apps for UX research and flow benchmarking.",
+  "description": "A UI research library that curates screenshots from real mobile apps, focused on local apps from Indonesia, the UAE and other markets. Browse flows from login to detailed features to benchmark patterns and gather design references; the free plan covers a limited selection and Pro unlocks the full catalog, priority app requests and an ad-free experience.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "ux inspiration",
+    "mobile app screenshot",
+    "app flow",
+    "ui research",
+    "app design reference",
+    "local app",
+    "ux pattern",
+    "design benchmark",
+    "mobile ui gallery",
+    "indonesia app",
+    "user flow"
+  ],
+  "contains": [
+    "8000+ local app screenshots",
+    "apps from Indonesia, the UAE and other markets",
+    "flows including payments, banking and delivery services",
+    "free plan: few popular apps, limited screenshots",
+    "Pro: full catalog, priority app requests, ad-free research",
+    "app and region requests accepted from users"
+  ],
+  "formats": [
+    "screenshots"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

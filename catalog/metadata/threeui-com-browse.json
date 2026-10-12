@@ -1,0 +1,21 @@
+{
+  "id": "threeui-com-browse",
+  "url": "https://threeui.com/browse",
+  "kind": "page",
+  "hints_hash": "4230bab37fdc8010",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://threeui.com/browse", "title": "Three.js Components, Templates & Interactive Shaders | ThreeUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ThreeUI Browse",
+  "summary": "Browse page of a Three.js component catalog: copy-ready components, templates, WebGL backgrounds and hero sections.",
+  "description": "Index of the ThreeUI catalog: copy-ready Three.js components, complete website templates, WebGL backgrounds and interactive shaders, plus section variants (testimonials, footers) extracted from named site templates such as Kairo, Meridian and RenderLab.",
+  "elements": ["testimonials", "footer", "hero", "background", "button", "3d", "text-effect"],
+  "keywords": ["three.js", "webgl background", "shader", "3d component", "copy paste component", "website template", "hero section", "testimonial section", "footer section", "landing page", "motion design", "interactive website", "web animation", "component library"],
+  "contains": ["copy-ready Three.js components, templates and interactive shaders", "section variants extracted from complete templates", "nav categories: sections, 3D assets, buttons, landing pages, text animation, UI elements, backgrounds, hero"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "threeui-com"},
+  "confidence": 0.8
+}

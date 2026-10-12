@@ -1,0 +1,100 @@
+{
+  "id": "github-com-shadcn-labs-startercn",
+  "url": "https://github.com/shadcn-labs/startercn",
+  "kind": "repo",
+  "hints_hash": "74efecf07433242b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/shadcn-labs/startercn/blob/HEAD/README.md",
+      "title": null,
+      "status": null
+    },
+    {
+      "url": "https://github.com/shadcn-labs/startercn",
+      "title": "GitHub - shadcn-labs/startercn: A shadcn/ui registry template with built-in landing page, docs, AI agent ready, and baked-in web haptics, audio, and animations. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://startercn.vercel.app/",
+      "title": "startercn - Build your own shadcn registry",
+      "status": 200
+    },
+    {
+      "url": "https://startercn.vercel.app/docs",
+      "title": "Introduction | startercn",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "startercn",
+  "summary": "Template for building and publishing a shadcn/ui component registry, with a docs site, landing page and agent-ready endpoints.",
+  "description": "A fork-and-deploy template for creating and publishing custom shadcn registry components: one component file plus a registry.json entry, a Fumadocs documentation site and a landing page, and a registry build script. It is AI-agent ready (llms.txt, llms-full.txt, an agent skill route and API catalog endpoints), and bakes in web audio feedback, haptics, motion animations and Next.js view transitions.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "registries"
+  ],
+  "elements": [
+    "navbar",
+    "sidebar"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn registry",
+    "registry template",
+    "component registry",
+    "shadcn add",
+    "fumadoc",
+    "docs site",
+    "landing page",
+    "next.js",
+    "react",
+    "typescript",
+    "tailwind css",
+    "llms.txt",
+    "agent skill",
+    "starter kit"
+  ],
+  "contains": [
+    "template for publishing a custom shadcn registry",
+    "landing page and Fumadocs documentation site",
+    "one component file plus registry.json to edit",
+    "llms.txt, llms-full.txt, agent skill route and API catalog endpoints",
+    "web audio feedback and web haptics",
+    "motion animations, animated icons and Next.js view transitions",
+    "install via npx shadcn add",
+    "1 registry item (placeholder), MIT licensed, 44 stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "fumadocs",
+    "framer-motion",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcn-labs/startercn",
+    "docs": "https://startercn.vercel.app/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

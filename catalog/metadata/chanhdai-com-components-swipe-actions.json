@@ -1,0 +1,21 @@
+{
+  "id": "chanhdai-com-components-swipe-actions",
+  "url": "https://chanhdai.com/components/swipe-actions",
+  "kind": "page",
+  "hints_hash": "7abd676c56a2ec2b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://chanhdai.com/components/swipe-actions", "title": "Swipe Actions – Chánh Đại", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Swipe Actions",
+  "summary": "Swipe a row in a list to reveal actions on the left or right, with a full swipe to run one.",
+  "keywords": ["swipe action", "swipe gesture", "list row", "swipe to delete", "react component", "shadcn registry", "mobile ui", "pointer event", "keyboard accessible", "reduced motion", "copy paste"],
+  "elements": ["list"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "chanhdai-com"},
+  "confidence": 0.85
+}

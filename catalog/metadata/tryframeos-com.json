@@ -1,0 +1,33 @@
+{
+  "id": "tryframeos-com",
+  "url": "https://tryframeos.com",
+  "kind": "site",
+  "hints_hash": "774b7dd6bdba433d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tryframeos.com", "title": "FrameOS — iPhone & Android App Demo Recorder for Mac", "status": 200}
+  ],
+  "status": "ok",
+  "name": "FrameOS",
+  "summary": "Mac app that records iPhone, iPad and Android app demos and exports polished videos and screenshots with camera, mic, zooms and masks.",
+  "description": "A Mac app for recording app demos from iPhone, iPad and Android. Capture the device screen, then trim, frame, add camera and mic, transitions, zooms and masks, and export polished videos and screenshots sized for the App Store. Sold as a one-time $79.99 purchase on the Mac App Store.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["app demo", "demo recorder", "screen recording", "macos", "iphone", "android", "app store connect", "screenshot", "video export", "camera", "zoom effect", "transition", "mask", "product demo", "app preview"],
+  "contains": [
+    "Mac app records iPhone, iPad and Android app demos",
+    "adds camera, mic, transitions, zooms and masks",
+    "exports polished videos and screenshots",
+    "$79.99 one-time purchase on the Mac App Store",
+    "features, pricing, blog, changelog and contact pages (8 URLs in sitemap)"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

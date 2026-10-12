@@ -1,0 +1,28 @@
+{
+  "id": "github-com-streamlit-streamlit",
+  "url": "https://github.com/streamlit/streamlit",
+  "kind": "repo",
+  "hints_hash": "3900dd4d89d096b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/streamlit/streamlit/blob/HEAD/README.md", "title": "Welcome to Streamlit 👋", "status": null},
+    {"url": "https://docs.streamlit.io/develop/api-reference", "title": "API Reference - Streamlit Docs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Streamlit",
+  "summary": "Python framework that turns data scripts into interactive web apps, dashboards and chat apps.",
+  "description": "Open-source Python library: write a script and get a web app with widgets, dataframes, charts, chat and layout elements. Apps deploy and share free on Streamlit Community Cloud, and a third-party components ecosystem extends it.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["sidebar", "tabs", "pagination", "modal", "popover", "toast", "alert", "button", "input", "select", "checkbox", "switch", "slider", "date-picker", "file-upload", "form", "table", "chart", "badge", "accordion", "progress", "map", "stats", "loader", "chat"],
+  "keywords": ["python", "data app", "dashboard", "dataframe", "chart", "chat app", "chatbot", "web app framework", "prototyping", "data visualization", "machine learning app", "open source", "interactive app", "report"],
+  "contains": ["pip-installable Python library", "widgets, dataframes, charts, chat, layout and status elements", "free Community Cloud for deploying and sharing apps", "third-party components ecosystem and gallery"],
+  "formats": ["code", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/streamlit/streamlit", "docs": "https://docs.streamlit.io", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

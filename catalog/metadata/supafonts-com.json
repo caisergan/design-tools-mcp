@@ -1,0 +1,31 @@
+{
+  "id": "supafonts-com",
+  "url": "https://supafonts.com",
+  "kind": "site",
+  "hints_hash": "42c29f4a588cc433",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://supafonts.com", "title": "Supa Fonts - Library of fonts & font generators", "status": null},
+    {"url": "https://supafonts.com/about", "title": "About - SupaFonts", "status": null},
+    {"url": "https://supafonts.com/all-fonts", "title": "All Fonts - SupaFonts", "status": 200},
+    {"url": "https://supafonts.com/quentin-font", "title": "Quentin Font - Download & Generator", "status": 200},
+    {"url": "https://supafonts.com/font-generator", "title": "Font Generator", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Supa Fonts",
+  "summary": "Free font library with per-font downloads and generator pages for previewing text in each font.",
+  "description": "A free font library organised into categories such as display, elegant, groovy, sans serif, serif, sports, handwriting, western and typewriter. Each font page gives a description, designer and licence note (often \"free for commercial use\") plus a download and a generator for previewing custom text with selectable size, background and color.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["free font", "font library", "font generator", "display font", "script font", "sans serif", "serif font", "handwriting font", "font download", "text preview", "commercial use", "typography"],
+  "contains": ["font categories incl. display, elegant, groovy, sports, western, medieval, stencil", "per-font page with description, designer and licence note", "font download per font", "font generator: preview custom text with size, background and color", "recently added and all-fonts indexes"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

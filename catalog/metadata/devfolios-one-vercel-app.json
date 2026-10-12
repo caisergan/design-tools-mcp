@@ -1,0 +1,71 @@
+{
+  "id": "devfolios-one-vercel-app",
+  "url": "https://devfolios-one.vercel.app",
+  "kind": "site",
+  "hints_hash": "13b19bcdfb5800ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://devfolios-one.vercel.app",
+      "title": "Devfolios",
+      "status": null
+    },
+    {
+      "url": "https://github.com/NotStark/Devfolios",
+      "title": "GitHub - NotStark/Devfolios: Find best portfolio inspirations from all over the internet.",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Devfolios",
+  "summary": "Community gallery of developer portfolios from around the web, browsable for design inspiration.",
+  "description": "Website that gathers and displays developer portfolios so you can get ideas for your own. Entries are submitted by pull request and must be personal sites with effort in design, responsive and embeddable, one per GitHub username. Source is public on GitHub.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "portfolio",
+    "inspiration",
+    "developer portfolio",
+    "gallery",
+    "showcase",
+    "personal website",
+    "portfolio example",
+    "web design inspiration",
+    "community"
+  ],
+  "contains": [
+    "community-driven gallery of developer portfolios",
+    "25+ portfolios listed in the repo README",
+    "submissions via pull request",
+    "criteria: personal site, design effort, responsive, embeddable, one per GitHub username"
+  ],
+  "formats": [
+    "links",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "vite",
+    "tailwind",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/NotStark/Devfolios",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

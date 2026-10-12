@@ -1,0 +1,35 @@
+{
+  "id": "lersent001-github-io-orb",
+  "url": "https://lersent001.github.io/orb",
+  "kind": "page",
+  "hints_hash": "92c224cfceb6b162",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lersent001.github.io/orb", "title": "", "status": 200},
+    {"url": "https://github.com/LerSent001/orb", "title": "GitHub - LerSent001/orb: Real-time WebGPU liquid-glass orb editor with Web and SwiftUI/Metal export", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Liquid Orb Editor",
+  "summary": "Real-time WebGPU liquid-glass orb editor with 13 animated presets and Web/SwiftUI code export.",
+  "description": "A browser editor for animated liquid-glass orbs built with React, WebGPU/WGSL and Toolcraft UI. Tune color, speed, shape, glass refraction and outer glow across 13 presets, preview the orb alone or in a scene, share configurations through the URL hash, drive the animation with audio, and export standalone Web pages or SwiftUI/Metal code from the same parameter snapshot.",
+  "type": "generator",
+  "categories": ["motion"],
+  "elements": ["3d"],
+  "keywords": ["orb", "liquid glass", "webgpu", "wgsl", "shader", "glassmorphism", "animated orb", "audio reactive", "code export", "swiftui", "metal", "react", "animation preset", "loading animation", "ai thinking animation"],
+  "contains": [
+    "13 editable animated orb presets",
+    "controls for color, speed, shape, glass refraction and outer glow",
+    "shareable configurations stored in the URL hash",
+    "standalone Web and SwiftUI/Metal code export from one parameter snapshot",
+    "audio response from microphone or local audio file, analysed locally in the browser",
+    "MIT-licensed source (React, WebGPU/WGSL, Toolcraft UI)"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["react", "webgpu", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/LerSent001/orb", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

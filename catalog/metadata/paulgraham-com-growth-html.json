@@ -1,0 +1,34 @@
+{
+  "id": "paulgraham-com-growth-html",
+  "url": "https://paulgraham.com/growth.html",
+  "kind": "page",
+  "hints_hash": "2d7e94108af1ae32",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:03:57Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://paulgraham.com/growth.html", "title": "Startup = Growth", "status": null }
+  ],
+  "status": "ok",
+  "name": "Startup = Growth",
+  "summary": "Paul Graham's September 2012 essay: a startup is a company designed to grow fast, and growth rate is the compass for every decision.",
+  "description": "The essay that defines a startup by growth rather than by being newly founded, working on technology or taking venture funding: rapid growth needs a big market, ordinary businesses stay constrained by geography or niche, and growth rate works as the compass for almost every decision. It ends on growth targets and the redwood-versus-bean-sprout analogy.",
+  "type": "article",
+  "keywords": [
+    "startup",
+    "growth",
+    "startup growth",
+    "growth rate",
+    "startup definition",
+    "big market",
+    "market size",
+    "scale",
+    "venture funding",
+    "startup essay",
+    "founder",
+    "company growth",
+    "growth compass"
+  ],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "paulgraham-com" },
+  "confidence": 0.9
+}

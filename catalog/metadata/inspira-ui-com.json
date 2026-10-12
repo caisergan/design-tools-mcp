@@ -1,0 +1,30 @@
+{
+  "id": "inspira-ui-com",
+  "url": "https://inspira-ui.com",
+  "kind": "site",
+  "hints_hash": "1448d37d3c6fdc1e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://inspira-ui.com/llms.txt", "title": "Inspira UI", "status": null},
+    {"url": "https://docs.inspira-ui.com/docs/en", "title": "Inspira UI - Inspira UI", "status": 200},
+    {"url": "https://github.com/unovue/inspira-ui/blob/HEAD/README.md", "title": "inspira-ui/README.md at HEAD · unovue/inspira-ui", "status": 200},
+    {"url": "https://pro.inspira-ui.com", "title": "Inspira UI Pro: Premium components and templates for Nuxt & Vue.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Inspira UI",
+  "summary": "Open-source collection of 150+ animated Vue and Nuxt components, built on shadcn-vue and motion-v.",
+  "description": "Component library for Vue and Nuxt with 150+ animated components across backgrounds, cards, interactions, text effects and visualizations, including HTML-in-canvas and WebGL scenes. Each component page shows live previews, props, API notes and copy-ready source; built on shadcn-vue, motion-v and Tailwind CSS, MIT licensed.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["background", "card", "button", "cursor", "3d", "carousel", "input", "tabs", "marquee", "testimonials", "popover", "slider"],
+  "keywords": ["vue", "nuxt", "animated component", "background effect", "aurora background", "3d card", "cursor effect", "marquee", "text effect", "carousel", "shadcn vue", "motion", "tailwind css", "copy paste", "free"],
+  "contains": ["150+ animated components for Vue and Nuxt", "categories: backgrounds, cards, interactions, text effects, visualizations", "built with shadcn-vue, motion-v and Tailwind CSS", "live preview, props, API notes and source per component", "llms.txt plus multi-language docs (English, Chinese, Italian)", "MIT licensed; 5k GitHub stars"],
+  "formats": ["code", "docs"],
+  "stack": ["vue", "nuxt", "tailwind", "shadcn-vue", "motion-v"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/unovue/inspira-ui", "docs": "https://docs.inspira-ui.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

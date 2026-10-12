@@ -1,0 +1,32 @@
+{
+  "id": "paulgraham-com-startupideas-html",
+  "url": "https://paulgraham.com/startupideas.html",
+  "kind": "page",
+  "hints_hash": "ec6747e26392daf5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:03:57Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://paulgraham.com/startupideas.html", "title": "How to Get Startup Ideas", "status": null }
+  ],
+  "status": "ok",
+  "name": "How to Get Startup Ideas",
+  "summary": "Paul Graham's November 2012 essay: get startup ideas by looking for problems you have, not by trying to think of ideas.",
+  "description": "The essay argues the best startup ideas are things the founders themselves want, can build and few others realize are worth doing. It covers why working on a problem you have matters, \"made-up\" sitcom ideas that sound plausible enough to fool you, and the narrow-but-deep \"well\" versus broad-and-shallow \"crater\" shapes of early markets.",
+  "type": "article",
+  "keywords": [
+    "startup idea",
+    "idea generation",
+    "problem",
+    "customer need",
+    "urgent problem",
+    "user need",
+    "niche market",
+    "product idea",
+    "startup essay",
+    "founder",
+    "startup problem"
+  ],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "paulgraham-com" },
+  "confidence": 0.9
+}

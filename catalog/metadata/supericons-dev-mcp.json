@@ -1,0 +1,32 @@
+{
+  "id": "supericons-dev-mcp",
+  "url": "https://supericons.dev/mcp",
+  "kind": "page",
+  "hints_hash": "e16c01e183a93530",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://supericons.dev/mcp", "title": "Supericons MCP", "status": 200},
+    {"url": "https://supericons.dev/llms.txt", "title": "SuperIcons", "status": 200},
+    {"url": "https://supericons.dev/?view=docs-mcp-tools", "title": "Supericons | Find the Right Icon Faster", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Supericons MCP",
+  "summary": "Setup page for the Supericons MCP server that lets coding agents search 20,000+ icons and add their SVG to code.",
+  "description": "Setup instructions for the Supericons MCP server, which gives Claude Code, Codex, Cursor and other MCP clients icon search, recommendations, Motion Lab and Converter tools. Connect through the hosted endpoint or npx -y @supericons/mcp@latest, with a universal config plus per-tool guides.",
+  "type": "tool",
+  "elements": [],
+  "keywords": ["mcp", "mcp server", "model context protocol", "icon search", "svg icon", "ai coding agent", "claude code", "codex", "cursor", "icon library", "developer tool", "npx"],
+  "contains": [
+    "hosted endpoint https://mcp.supericons.dev/mcp",
+    "local install: npx -y @supericons/mcp@latest (package @supericons/mcp)",
+    "14 MCP tools including icon search, recommendations, Motion Lab and Converter",
+    "setup guides for Claude Code, Codex, Cursor and a universal config",
+    "searches 20,000+ curated SVG icons across 11 libraries and returns SVG output for coding workflows",
+    "free icon tools work without an API key; premium collections need entitlement"
+  ],
+  "formats": ["api", "npm-package", "cli", "docs"],
+  "related": {"repo": null, "docs": null, "npm": "@supericons/mcp", "figma": null, "parent": null},
+  "confidence": 0.85
+}

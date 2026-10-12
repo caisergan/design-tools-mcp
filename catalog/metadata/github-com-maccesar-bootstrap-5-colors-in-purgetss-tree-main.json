@@ -1,0 +1,24 @@
+{
+  "id": "github-com-maccesar-bootstrap-5-colors-in-purgetss-tree-main",
+  "url": "https://github.com/macCesar/Bootstrap-5-Colors-in-PurgeTSS/tree/main",
+  "kind": "page",
+  "hints_hash": "548239984102e43a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {
+      "url": "https://github.com/macCesar/Bootstrap-5-Colors-in-PurgeTSS/blob/HEAD/README.md",
+      "title": "Bootstrap-5-Colors-in-PurgeTSS/README.md · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "BT5 Colors in PurgeTSS",
+  "summary": "Sample Titanium mobile app that recreates the Bootstrap 5 color palette with PurgeTSS.",
+  "categories": ["color-effects", "icons"],
+  "license": "MIT",
+  "keywords": ["bootstrap 5", "color palette", "color system", "purgetss", "titanium", "titanium sdk", "mobile app", "custom color", "icon font", "sample app", "theme color", "ttf font"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.9
+}

@@ -1,0 +1,32 @@
+{
+  "id": "kaneo-app",
+  "url": "https://kaneo.app",
+  "kind": "site",
+  "hints_hash": "7c7afead3aadb2a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://kaneo.app/llms.txt", "title": "Kaneo", "status": null},
+    {"url": "https://kaneo.app", "title": "Kaneo — Open-source, self-hosted project management", "status": null},
+    {"url": "https://kaneo.app/docs", "title": "Kaneo docs - Kaneo", "status": null},
+    {"url": "https://kaneo.app/pricing", "title": "Pricing | Kaneo", "status": null},
+    {"url": "https://kaneo.app/guides", "title": "Guides | Kaneo", "status": null},
+    {"url": "https://github.com/usekaneo/kaneo", "title": "GitHub - usekaneo/kaneo: Open source project management that works for you, not against you.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kaneo",
+  "summary": "Open-source, self-hostable project management with kanban boards, backlog, Gantt and GitHub sync.",
+  "description": "An MIT-licensed project management platform you can self-host with Docker Compose or a Helm chart on PostgreSQL (Redis optional). It covers kanban boards, list and calendar views, backlog planning, Gantt charts, subtasks, dependencies, labels, priorities, comments, attachments, time tracking and workspace roles, with GitHub/Gitea sync, chat integrations, webhooks, a REST API, a CLI client and an MCP server for AI agents. Kaneo Cloud is the managed EU-hosted option.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["kanban", "list", "calendar", "timeline", "avatar", "badge"],
+  "keywords": ["project management", "kanban", "kanban board", "issue tracker", "task management", "open source", "self-hosted", "backlog", "gantt", "time tracking", "task dependency", "github integration", "docker", "helm", "mcp", "api", "team collaboration"],
+  "contains": ["MIT licensed; self-hosting free with every feature incl. SSO", "Board, list, calendar and Gantt views plus backlog, filters and search", "Subtasks, dependencies, labels, priorities, comments, attachments and time tracking", "GitHub/Gitea sync, chat integrations, webhooks, REST API, CLI client and MCP server", "One application container plus PostgreSQL via Docker Compose or Helm chart; Redis optional", "Kaneo Cloud: $40/year single user, $50/user/year team (EU-hosted)", "Custom roles, workspace permissions and live updates"],
+  "formats": ["code", "app", "api", "cli", "docs"],
+  "stack": ["react", "typescript", "hono"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/usekaneo/kaneo", "docs": "https://kaneo.app/docs", "npm": "@kaneo/mcp", "figma": null, "parent": null},
+  "confidence": 0.9
+}

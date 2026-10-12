@@ -1,0 +1,30 @@
+{
+  "id": "uipedia-design",
+  "url": "https://uipedia.design",
+  "kind": "site",
+  "hints_hash": "971e059da5c4e8aa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:46:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uipedia.design", "title": "UiPedia | Top Design Resources & Tools for UI/UX Designers", "status": null},
+    {"url": "https://www.uipedia.design/about", "title": "UiPedia | Top Design Resources & Tools for UI/UX Designers", "status": null},
+    {"url": "https://www.uipedia.design/resources", "title": "UiPedia | Top Design Resources & Tools for UI/UX Designers", "status": 200},
+    {"url": "https://www.uipedia.design/portfolios", "title": "UiPedia | Top Design Resources & Tools for UI/UX Designers", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UiPedia",
+  "summary": "Directory of design resources plus real-world designer portfolios and a library of design screenshots.",
+  "description": "A browsable directory of design resources organised into categories with item counts: free and paid courses, jobs, illustrations, AI tools, Figma resources, icons, mockups, gradients and colours, templates, no-code builders, design systems and communities. Alongside it, portfolios of professional designers are filterable by experience, current or previous company and position, and a design screenshot library is aimed at inspiration.",
+  "type": "directory",
+  "categories": ["design-tools", "inspiration", "learning"],
+  "elements": [],
+  "keywords": ["design resource", "design directory", "ui design", "ux design", "inspiration", "designer portfolio", "screenshot library", "icon", "illustration", "figma resource", "design system", "mockup", "gradient", "color palette", "course", "job", "mentorship", "no-code", "template", "notion template", "ai tool", "design community"],
+  "contains": ["directory of design resources across 20+ categories", "category counts: 161 inspirations, 129 illustrations, 100 no-code builders, 80 mockups, 77 AI tools", "64 free courses, 22 paid courses and 21 job listings", "designer portfolios filterable by experience and current/previous company", "design screenshot library for inspiration"],
+  "formats": ["links", "screenshots"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

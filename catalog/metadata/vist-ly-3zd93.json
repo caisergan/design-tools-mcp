@@ -1,0 +1,28 @@
+{
+  "id": "vist-ly-3zd93",
+  "url": "https://vist.ly/3zd93",
+  "kind": "page",
+  "hints_hash": "a41252b002972544",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vist.ly/3zd93", "title": "Free Icon Packs | 7750 Icons | Editable Strokes | Figma", "status": null},
+    {"url": "https://www.figma.com/community/file/1531544084710582157/free-icon-packs-7750-icons-editable-strokes", "title": "Free Icon Packs | 7750 Icons | Editable Strokes | Figma", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Free Icon Packs | 7750 Icons | Editable Strokes",
+  "summary": "Figma community icon library of 7,750 free vector icons with fully editable strokes, published by MaxiBlocks.",
+  "description": "A free Figma community file of 7,750 icons from the MaxiBlocks icon library, grouped into themed packs. Icons keep fully editable strokes and lines — stroke weight, colour, alignment, caps, joins and corner radius — and can be converted to outlines. Only the title and description were readable; Figma renders the rest with JavaScript.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "icon pack", "figma icon library", "free icon", "vector icon", "editable stroke", "stroke icon", "line icon", "figma community file", "ui icon", "design asset"],
+  "contains": ["7,750 icons in one Figma community file", "fully editable strokes: weight, colour, alignment, caps, joins, corner radius", "icons convert to outlines", "themed icon packs", "free"],
+  "formats": ["figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": "https://www.figma.com/community/file/1531544084710582157/free-icon-packs-7750-icons-editable-strokes", "parent": null},
+  "confidence": 0.7
+}

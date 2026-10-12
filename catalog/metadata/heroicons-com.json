@@ -1,0 +1,27 @@
+{
+  "id": "heroicons-com",
+  "url": "https://heroicons.com",
+  "kind": "site",
+  "hints_hash": "0c3a6dd4dcad87c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://heroicons.com", "title": "Heroicons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Heroicons",
+  "summary": "316 hand-crafted SVG icons by the makers of Tailwind CSS, in outline, solid, mini and micro styles.",
+  "description": "A hand-crafted SVG icon set of 316 icons from the Tailwind CSS team, with four styles: outline (24x24, 1.5px stroke), solid, mini and micro. The set ships with React and Vue libraries and a Figma file, and is released under the MIT license.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["svg icon", "icon set", "icon library", "outline icon", "solid icon", "mini icon", "micro icon", "react icon", "vue icon", "tailwind", "free icon", "mit license"],
+  "contains": ["316 icons", "four styles: outline, solid, mini and micro", "outline icons are 24x24 with a 1.5px stroke", "React and Vue libraries", "Figma file available", "MIT licensed"],
+  "formats": ["svg", "npm-package", "figma-file"],
+  "stack": ["react", "vue"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

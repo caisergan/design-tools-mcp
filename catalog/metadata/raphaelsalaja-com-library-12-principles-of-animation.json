@@ -1,0 +1,60 @@
+{
+  "id": "raphaelsalaja-com-library-12-principles-of-animation",
+  "url": "https://raphaelsalaja.com/library/12-principles-of-animation",
+  "kind": "page",
+  "hints_hash": "c961c581717f1c32",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://raphaelsalaja.com/library/12-principles-of-animation",
+      "title": "12 Principles of Animation",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "12 Principles of Animation",
+  "summary": "Interactive guide to the 12 principles of animation with demos for each principle, aimed at web motion design.",
+  "description": "A library article by Raphael Salaja explaining the 12 principles of animation — squash and stretch, anticipation, staging, straight ahead action and pose to pose, follow through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing and appeal — with interactive examples (best viewed on desktop) and notes on applying them to web interfaces.",
+  "type": "article",
+  "elements": [],
+  "keywords": [
+    "animation principle",
+    "squash and stretch",
+    "anticipation",
+    "staging",
+    "follow through",
+    "slow in slow out",
+    "arc",
+    "timing",
+    "exaggeration",
+    "motion design",
+    "web animation",
+    "interaction design",
+    "animation guide"
+  ],
+  "contains": [
+    "all 12 principles covered with interactive demos",
+    "notes on applying the principles to web animation",
+    "published 2025-08-04"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

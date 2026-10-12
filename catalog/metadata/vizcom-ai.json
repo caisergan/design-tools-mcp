@@ -1,0 +1,28 @@
+{
+  "id": "vizcom-ai",
+  "url": "https://vizcom.ai",
+  "kind": "site",
+  "hints_hash": "d15086c0b79df381",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vizcom.ai", "title": "Vizcom | Turn Sketches into Full-Fidelity 3D Renders, Instantly", "status": null},
+    {"url": "https://vizcom.com/pricing", "title": "Vizcom Pricing | Plans for Designers, Teams, & Students", "status": null}
+  ],
+  "status": "ok",
+  "name": "Vizcom",
+  "summary": "AI design tool that turns sketches into photorealistic 3D product renders, with prompt-based iteration and animation.",
+  "description": "Vizcom is an AI-powered design tool for product and industrial designers. Sketch a concept and get photorealistic renders in seconds, then iterate with prompts: variate form, color and style, edit or enhance any image, swap materials and scenes on 3D models, and animate the result. A free Starter plan (800 credits) sits in front of Professional at $49/month and Enterprise tiers.",
+  "type": "tool",
+  "categories": ["design-tools", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["sketch to render", "ai render", "product design", "industrial design", "3d render", "concept design", "idea generation", "ai design tool", "design iteration", "color variation", "material", "animation", "image editing", "texture"],
+  "contains": ["turn sketches into photorealistic renders in seconds", "prompt-based iteration: variate form, color and style", "image editing, enhancement and animation tools", "3D model visualisation with material and scene swaps", "free Starter plan with 800 credits per month", "Professional $49 per month: 20,000 credits, 4K export, live render", "Enterprise: SSO, audit logs, custom security", "Education plan for students and educators"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

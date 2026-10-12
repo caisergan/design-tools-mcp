@@ -1,0 +1,31 @@
+{
+  "id": "codrops-com",
+  "url": "https://codrops.com",
+  "kind": "site",
+  "hints_hash": "fe04768a8f029b8d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:26:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tympanus.net/codrops/", "title": "Codrops | Fueling web creativity since 2009", "status": 200},
+    {"url": "https://tympanus.net/codrops/about", "title": "About | Codrops", "status": 200},
+    {"url": "https://tympanus.net/codrops/licensing", "title": "License | Codrops", "status": 200},
+    {"url": "https://tympanus.net/codrops/category/tutorials", "title": "Tutorials | Codrops", "status": 200},
+    {"url": "https://tympanus.net/codrops/webzibition", "title": "Webzibition | Codrops", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Codrops",
+  "summary": "Web design and frontend publication with step-by-step tutorials, live demos and hand-picked showcases of creative websites.",
+  "description": "A publication for web designers and frontend developers, running since 2009: in-depth tutorials (GSAP, Three.js, WebGL and WebGPU effects, page transitions, cursors, scroll animation) with live demos, plus case studies and designer, developer and studio spotlights. The Creative Hub and Webzibition sections showcase hand-picked websites and demos, some tutorials ship free Astro templates, and downloadable demos are MIT-licensed.",
+  "type": "course",
+  "categories": ["learning", "inspiration"],
+  "elements": ["3d", "cursor", "scroll-effect", "background"],
+  "keywords": ["web design", "frontend tutorial", "creative coding", "web animation", "gsap", "three.js", "webgl", "webgpu", "shader", "page transition", "scroll animation", "parallax", "cursor effect", "3d website", "astro template", "css", "javascript", "design inspiration", "website showcase", "case study"],
+  "contains": ["front-end tutorials with live demos and downloadable code", "2,409 hand-picked websites in the Webzibition showcase", "Creative Hub of Codrops originals and demos", "case studies and designer, developer and studio spotlights", "free Astro templates such as Isle Thorne Collective and Interlude", "curated GSAP and Astro video courses with discount codes"],
+  "formats": ["docs", "code", "templates", "links"],
+  "stack": ["gsap", "three.js", "react", "astro", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

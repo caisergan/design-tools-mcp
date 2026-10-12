@@ -1,0 +1,45 @@
+{
+  "id": "ruben-substack-com-p-claude",
+  "url": "https://ruben.substack.com/p/claude",
+  "kind": "page",
+  "hints_hash": "bbe5886322c7c270",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:20Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ruben.substack.com/p/claude",
+      "title": "Claude. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Claude.",
+  "summary": "Guide to setting up Claude: Cowork, Excel, Plugins, Artifacts and Projects, and where it falls short.",
+  "description": "A post in the How to AI newsletter (Feb 2026) that walks through Claude's six surfaces — Chat, Cowork, Excel, Plugins, Artifacts and Projects — how to pick the right one, a first-30-minutes setup routine, and where Claude falls short.",
+  "type": "article",
+  "keywords": [
+    "claude",
+    "anthropic",
+    "ai assistant",
+    "claude cowork",
+    "claude project",
+    "claude artifact",
+    "claude excel",
+    "ai workflow",
+    "knowledge work",
+    "ai productivity"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ruben-substack-com"
+  },
+  "confidence": 0.85
+}

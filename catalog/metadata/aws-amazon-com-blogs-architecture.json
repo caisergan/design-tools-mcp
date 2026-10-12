@@ -1,0 +1,18 @@
+{
+  "id": "aws-amazon-com-blogs-architecture",
+  "url": "https://aws.amazon.com/blogs/architecture",
+  "kind": "page",
+  "hints_hash": "0b667304794f8395",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aws.amazon.com/blogs/architecture", "title": "AWS Architecture Blog", "status": null}
+  ],
+  "status": "ok",
+  "name": "AWS Architecture Blog",
+  "summary": "Blog of architecture deep dives and reference designs for building production systems on AWS.",
+  "keywords": ["aws", "cloud architecture", "well-architected framework", "high availability", "amazon eks", "amazon bedrock", "database", "agentic ai", "reference architecture", "system design", "architecture blog"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

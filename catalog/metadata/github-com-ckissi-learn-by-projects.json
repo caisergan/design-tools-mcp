@@ -1,0 +1,28 @@
+{
+  "id": "github-com-ckissi-learn-by-projects",
+  "url": "https://github.com/ckissi/Learn-by-projects",
+  "kind": "repo",
+  "hints_hash": "6b36cfb9b062d769",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ckissi/Learn-by-projects/blob/HEAD/README.md", "title": "Project Based Learning", "status": 200},
+    {"url": "https://github.com/ckissi/Learn-by-projects", "title": "GitHub - ckissi/Learn-by-projects: Programming tutorials for C, C#, Python, Javascript, Typescript, React, Go, HTML/CSS, Java. PHP and more", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Project Based Learning",
+  "summary": "List of programming tutorials that build an app from scratch, grouped into 24 language and tech categories.",
+  "description": "A curated list of project-based programming tutorials in which developers learn by building an application from scratch. Entries are grouped into 24 categories based on the first technology listed — from C/C++, C#, Go, Rust, Python, Java, Kotlin, Swift and Ruby to HTML/CSS, JavaScript, TypeScript, React, React Native and Dart/Flutter — and link out to external tutorials, books and video series for web apps, games, servers, databases and emulators.",
+  "type": "directory",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["programming tutorial", "learn to code", "project based learning", "learn by building", "build from scratch", "coding project", "tutorial list", "awesome list", "web development", "app development", "game development", "beginner project"],
+  "contains": ["tutorials grouped into 24 language/technology categories", "entries link to external tutorials, books and video courses", "examples: build a database, OS, compiler, chat app, blog, emulator", "1.6k GitHub stars; MIT licensed"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ckissi/Learn-by-projects", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

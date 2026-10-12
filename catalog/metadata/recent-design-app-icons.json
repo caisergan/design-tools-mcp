@@ -1,0 +1,22 @@
+{
+  "id": "recent-design-app-icons",
+  "url": "https://recent.design/app-icons",
+  "kind": "page",
+  "hints_hash": "b3e8e86958740233",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://recent.design/app-icons", "title": "iOS App Icon Inspiration — Recent", "status": 200},
+    {"url": "https://recent.design/", "title": "Recent — Design Inspiration", "status": 200}
+  ],
+  "status": "partial",
+  "name": "iOS App Icon Inspiration",
+  "summary": "Section of the Recent design inspiration site showcasing iOS app icons to browse for icon design ideas.",
+  "description": "App Icons is one of Recent's browsing sections, alongside Websites, OG Images, App Screenshots, Tools, Skills and Jobs, and collects iOS app icon designs as visual reference. The icon entries themselves are not readable as text on the page.",
+  "type": "gallery",
+  "elements": [],
+  "keywords": ["app icon", "ios app icon", "icon design", "app icon inspiration", "icon gallery", "app design", "mobile design", "home screen icon", "design inspiration", "ui inspiration"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "recent-design"},
+  "confidence": 0.6
+}

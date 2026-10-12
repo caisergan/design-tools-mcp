@@ -1,0 +1,29 @@
+{
+  "id": "github-com-openstatushq-time-picker",
+  "url": "https://github.com/openstatusHQ/time-picker",
+  "kind": "repo",
+  "hints_hash": "b87c97d60d9706da",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/openstatusHQ/time-picker/blob/HEAD/README.md", "title": "time-picker", "status": 200},
+    {"url": "https://time.openstatus.dev", "title": "TimePicker | OpenStatus", "status": 200},
+    {"url": "https://github.com/openstatusHQ/time-picker", "title": "GitHub - openstatusHQ/time-picker: A simple shadcn/ui TimePicker component · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TimePicker",
+  "summary": "Copy-paste shadcn/ui time picker built on plain inputs, with keydown handling and arrow-key navigation and no extra dependencies.",
+  "description": "A TimePickerInput component for React and shadcn/ui made of hours, minutes, seconds and period fields. It listens to keydown events, supports arrow-key navigation, formats date values and optimises the mobile keyboard; install by copying two files, with the Select component needed for twelve-hour clocks.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["date-picker", "input", "select"],
+  "keywords": ["time picker", "time input", "date picker", "shadcn ui", "react", "next.js", "keyboard navigation", "arrow navigation", "copy paste", "component"],
+  "contains": ["copy-paste TimePickerInput component for shadcn/ui", "hour, minute, second and period fields", "keydown listeners and arrow-key navigation", "no additional library; formats date values", "mobile keyboard optimised; twelve-hour clocks also use the Select component", "MIT licensed"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/openstatusHQ/time-picker", "docs": "https://time.openstatus.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

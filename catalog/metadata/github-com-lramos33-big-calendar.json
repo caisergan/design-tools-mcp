@@ -1,0 +1,37 @@
+{
+  "id": "github-com-lramos33-big-calendar",
+  "url": "https://github.com/lramos33/big-calendar",
+  "kind": "repo",
+  "hints_hash": "2481f610872367c9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/lramos33/big-calendar/blob/HEAD/README.md", "title": "Big Calendar README", "status": 200},
+    {"url": "https://github.com/lramos33/big-calendar", "title": "GitHub - lramos33/big-calendar", "status": 200},
+    {"url": "https://raw.githubusercontent.com/lramos33/big-calendar/HEAD/README.md", "title": "Big Calendar README", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Big Calendar",
+  "summary": "Next.js calendar app template with agenda, year, month, week and day views, drag-and-drop events and user filtering.",
+  "description": "A responsive event calendar built with Next.js 14, TypeScript, Tailwind, shadcn/ui and date-fns, designed to be copied into your own project with a CalendarProvider and useCalendar hook. Five views, drag-and-drop rescheduling, per-user filtering with avatars, configurable working hours, a live time indicator and dark mode.",
+  "type": "template",
+  "categories": ["components", "templates"],
+  "elements": ["calendar", "badge", "avatar", "modal"],
+  "keywords": ["calendar", "calendar app", "event calendar", "scheduler", "month view", "week view", "day view", "agenda view", "year view", "drag and drop", "nextjs", "react", "typescript", "tailwind", "shadcn", "dark mode", "event management", "scheduling ui"],
+  "contains": [
+    "five views: agenda, year, month, week, day",
+    "drag-and-drop rescheduling with visual feedback",
+    "event colors and three badge display variants (dot, colored, mixed)",
+    "user management: filter by user, avatars and profile integration",
+    "configurable working hours and adjustable visible hours range",
+    "Next.js 14, TypeScript, Tailwind v3, shadcn/ui, date-fns, React Context",
+    "MIT licensed"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn", "date-fns"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/lramos33/big-calendar", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

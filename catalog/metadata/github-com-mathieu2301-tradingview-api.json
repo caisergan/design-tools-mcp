@@ -1,0 +1,30 @@
+{
+ "id": "github-com-mathieu2301-tradingview-api",
+ "url": "https://github.com/Mathieu2301/TradingView-API",
+ "kind": "repo",
+ "hints_hash": "471b6b5dd433a2bf",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/Mathieu2301/TradingView-API/blob/HEAD/README.md", "title": "TradingView-API", "status": null},
+  {"url": "https://raw.githubusercontent.com/Mathieu2301/TradingView-API/HEAD/package.json", "title": "package.json", "status": 200},
+  {"url": "https://raw.githubusercontent.com/Mathieu2301/TradingView-API/HEAD/llms.txt", "title": "TradingView-API", "status": 200},
+  {"url": "https://github.com/Mathieu2301/TradingView-API", "title": "GitHub - Mathieu2301/TradingView-API: 📈 Get real-time stocks from TradingView · GitHub", "status": 200}
+ ],
+ "status": "ok",
+ "name": "TradingView-API",
+ "summary": "Community JavaScript/TypeScript client that fetches TradingView market data: candles, quotes, indicators and screeners.",
+ "description": "Independent library (not an official TradingView API) for market data: candles and quotes over websockets, indicator values, strategy reports, symbol metadata, screeners, hotlists and read-only account watchlists. V4 is a TypeScript, ESM rewrite (Node >= 20 or Bun) with a high-level data API (getCandles, watchQuotes, getScreener …) and a low-level client for charts, replay and studies; docs come in English, French, Spanish and Portuguese.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["tradingview", "market data", "stock price", "crypto", "candle", "quote", "indicator", "screener", "websocket", "typescript", "node", "api client", "trading", "watchlist", "pine script"],
+ "contains": ["npm package @mathieuc/tradingview v4 (TypeScript, ESM, Node >= 20/Bun)", "data API: getCandles, watchCandles, getQuote(s), watchQuotes, getIndicatorData, getScreener, getHotlist, getWatchlists", "low-level client: charts, replay, studies, accounts", "interactive setup launcher via npx, with Claude Code/Codex prompts", "5.6k GitHub stars; ISC licensed"],
+ "formats": ["code", "npm-package", "cli", "docs"],
+ "stack": ["typescript", "node"],
+ "pricing": "free",
+ "license": "ISC",
+ "related": {"repo": "https://github.com/Mathieu2301/TradingView-API", "docs": "https://github.com/Mathieu2301/TradingView-API/blob/HEAD/docs/data-api.md", "npm": "@mathieuc/tradingview", "figma": null, "parent": null},
+ "confidence": 0.9
+}

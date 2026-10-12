@@ -1,0 +1,19 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-029-space-warp-tunnel-html",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/029-space-warp-tunnel.html",
+  "kind": "page",
+  "hints_hash": "23f9d6b3018789d3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/029-space-warp-tunnel.html", "title": "Jumpgate — Hyperspace Warp Tunnel", "status": null},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Jumpgate",
+  "summary": "Self-contained HTML study from a 100-study collection: hold click, touch or space to fly down a star tunnel with HUD readouts.",
+  "keywords": ["warp tunnel", "hyperspace", "star tunnel", "space scene", "speed effect", "sci-fi interface", "hud", "interactive demo", "creative coding", "html study", "standalone html"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

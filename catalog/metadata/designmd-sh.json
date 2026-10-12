@@ -1,0 +1,37 @@
+{
+  "id": "designmd-sh",
+  "url": "https://designmd.sh",
+  "kind": "site",
+  "hints_hash": "feb6f9b5bff20797",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:24:25Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designmd.sh", "title": "designmd.sh · Public DESIGN.md registry", "status": 200},
+    {"url": "https://designmd.sh/docs", "title": "Docs — designmd.sh", "status": 200},
+    {"url": "https://designmd.sh/about", "title": "About — designmd.sh", "status": 200}
+  ],
+  "status": "ok",
+  "name": "designmd.sh",
+  "summary": "Public registry of DESIGN.md design-system files that coding and design agents install with one command.",
+  "description": "A community registry of DESIGN.md files: single markdown documents that record colors, typography, spacing, elevation and component behavior so an AI coding agent can build UI that matches a brand. Entries are browsed on a trending / most-installed leaderboard and installed with `npx designmd.sh add <owner/repo>`, which downloads the file from its source repository (the site does not host the files). The registry follows Google's DESIGN.md spec and runs each submission through spec validation, a prompt-injection scan and an AI review.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": ["cursor"],
+  "keywords": ["design md", "design system", "design rule", "style guide", "ai coding agent", "coding agent", "claude", "cursor", "ui generation", "design token", "typography", "color palette", "spacing", "component behavior", "markdown file", "prompt injection scan", "registry", "npx cli", "agent skill"],
+  "contains": [
+    "53 urls in the sitemap, 48 docs pages",
+    "leaderboard of trending and most-installed design files",
+    "install: npx designmd.sh add <owner/repo>",
+    "each file checked by spec validation, prompt-injection scan and AI review",
+    "follows Google's DESIGN.md specification",
+    "files downloaded from source repositories, not hosted on the site",
+    "works with Claude, Cursor, Gemini, ChatGPT, VS Code, GitHub Copilot, Lovable, v0, Bolt, Framer, Webflow"
+  ],
+  "formats": ["cli", "docs", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://designmd.sh/docs", "npm": "designmd.sh", "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,45 @@
+{
+  "id": "leadpages-com-pscd-try-leadpages-com-ps-partner-key-mwi4zgq2mzuzzjdk-ps-",
+  "url": "https://leadpages.com/?pscd=try.leadpages.com&ps_partner_key=MWI4ZGQ2MzUzZjdk&ps_xid=tkLcRFxMl8kD9D&gsxid=tkLcRFxMl8kD9D&gspk=MWI4ZGQ2MzUzZjdk",
+  "kind": "site",
+  "hints_hash": "7d78ac65691dabef",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://leadpages.com/llms.txt", "title": "Leadpages", "status": null },
+    { "url": "https://leadpages.com/?pscd=try.leadpages.com&ps_partner_key=MWI4ZGQ2MzUzZjdk&ps_xid=tkLcRFxMl8kD9D&gsxid=tkLcRFxMl8kD9D&gspk=MWI4ZGQ2MzUzZjdk", "title": "The AI Landing Page Builder | Leadpages", "status": 200 },
+    { "url": "https://leadpages.com/templates", "title": "Landing Page Templates - Leadpages", "status": 200 },
+    { "url": "https://leadpages.com/pricing", "title": "Leadpages Pricing: Plans from $29/mo | Free Trial - Leadpages", "status": 200 },
+    { "url": "https://leadpages.com/faq", "title": "Frequently Asked Questions | Leadpages - Leadpages", "status": 200 },
+    { "url": "https://leadpages.com/templates/bakery", "title": "Bakery Landing Page Template", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Leadpages",
+  "summary": "Hosted landing page builder that generates pages from a prompt and optimizes them with built-in A/B testing, heatmaps and lead capture.",
+  "description": "Hosted platform for building and publishing landing pages: AI generation from a text prompt, a drag-and-drop editor and 166+ conversion-tested templates. Built-in lead capture with forms, pop-ups and Stripe checkout, plus A/B testing, Smart Traffic, heatmaps and personalization; a REST API and hosted MCP server let other tools create and publish pages.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "templates"],
+  "elements": ["navbar", "hero", "features", "testimonials", "pricing", "faq", "cta", "form", "footer"],
+  "keywords": ["landing page", "landing page builder", "website builder", "ai page builder", "conversion optimization", "ab testing", "heatmap", "smart traffic", "lead capture", "lead generation", "form", "popup", "landing page template", "personalization", "dynamic text replacement", "custom domain", "checkout", "no-code", "marketing", "analytics", "cro", "mcp server", "rest api"],
+  "contains": [
+    "166+ conversion-tested landing page templates",
+    "AI page generation from a text prompt in about 60 seconds",
+    "A/B testing, Smart Traffic routing, heatmaps and personalization",
+    "forms and pop-ups with exit-intent, timed, scroll and click triggers",
+    "lead capture with Stripe checkout and a lite CRM",
+    "REST API (Pro plan and higher) and a hosted MCP server on every plan",
+    "20+ integrations plus Zapier",
+    "no traffic caps on any plan"
+  ],
+  "formats": ["app", "templates", "api", "docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": { "repo": null, "docs": "https://leadpages.com/developers/docs", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

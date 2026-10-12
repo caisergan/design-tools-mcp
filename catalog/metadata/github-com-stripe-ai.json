@@ -1,0 +1,77 @@
+{
+  "id": "github-com-stripe-ai",
+  "url": "https://github.com/stripe/ai",
+  "kind": "repo",
+  "hints_hash": "5d96148f35128827",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/stripe/ai/blob/HEAD/README.md",
+      "title": "Stripe AI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/stripe/ai",
+      "title": "GitHub - stripe/ai: One-stop shop for building AI-powered products and businesses with Stripe. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Stripe AI",
+  "summary": "SDKs, a remote MCP server and agent skills for building AI products and businesses with Stripe billing.",
+  "description": "A collection of SDKs that connect Stripe billing to LLM apps: @stripe/ai-sdk for Vercel's AI SDK and @stripe/token-meter for the native OpenAI, Anthropic and Google Gemini SDKs. It also hosts a remote MCP server at mcp.stripe.com (OAuth-secured, usable by chats and autonomous agents), agent skills and plugins for popular coding agents, and a manual install path for the skills.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "stripe",
+    "billing",
+    "payment",
+    "subscription",
+    "usage-based billing",
+    "token metering",
+    "mcp server",
+    "model context protocol",
+    "ai sdk",
+    "llm",
+    "ai agent",
+    "agent skill",
+    "agent plugin",
+    "sdk"
+  ],
+  "contains": [
+    "SDKs: @stripe/ai-sdk (Vercel AI SDK) and @stripe/token-meter (OpenAI, Anthropic, Google Gemini)",
+    "remote MCP server at mcp.stripe.com, OAuth-secured",
+    "agent skills and plugins for Claude Code, Codex, Cursor and Grok Build",
+    "manually installed skills update with npx skills update -y",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "prompts",
+    "docs"
+  ],
+  "stack": [
+    "typescript",
+    "python"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/stripe/ai",
+    "docs": "https://docs.stripe.com/agents",
+    "npm": "@stripe/ai-sdk",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

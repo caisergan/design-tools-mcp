@@ -1,0 +1,21 @@
+{
+  "id": "ui-shadcn-com-docs-utils-scroll-fade",
+  "url": "https://ui.shadcn.com/docs/utils/scroll-fade",
+  "kind": "page",
+  "hints_hash": "4f8fe21e205269bf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.shadcn.com/docs/utils/scroll-fade", "title": "scroll-fade - shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "scroll-fade",
+  "summary": "shadcn/ui utility that adds a fade effect to the edges of a scroll container.",
+  "description": "A utility from the shadcn/ui docs for fading the edges of a scroll container. The page covers installation, usage, horizontal scrolling, edge fades, fade size, disabling the fade, a fallback and RTL.",
+  "keywords": ["scroll fade", "fade effect", "scroll container", "edge fade", "fade size", "horizontal scrolling", "rtl", "utility", "shadcn", "css"],
+  "elements": [],
+  "formats": ["code", "docs"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ui-shadcn-com"},
+  "confidence": 0.7
+}

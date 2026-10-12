@@ -1,0 +1,93 @@
+{
+  "id": "github-com-techwithanirudh-fumadocs-starter",
+  "url": "https://github.com/techwithanirudh/fumadocs-starter",
+  "kind": "repo",
+  "hints_hash": "a1ab62419160f89b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:01Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/techwithanirudh/fumadocs-starter/blob/HEAD/README.md",
+      "title": "Fumadocs Starter",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/techwithanirudh/fumadocs-starter",
+      "title": "GitHub - techwithanirudh/fumadocs-starter: A fully-fledged Fumadocs starter template with built-in plugins, AI features, and everything you need to build your next docs site.",
+      "status": 200
+    },
+    {
+      "url": "https://fumadocsstarter.vercel.app",
+      "title": "Starter Kit",
+      "status": 200
+    },
+    {
+      "url": "https://fumadocsstarter.vercel.app/docs",
+      "title": "Introduction | Starter Kit",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Fumadocs Starter",
+  "summary": "Next.js documentation starter built on Fumadocs with OpenAPI reference, AI chat, Twoslash and MCP support.",
+  "description": "A docs-site starter generated with Create Fumadocs: MDX documentation, OpenAPI API reference, changelog, RSS and an AI chat feature through the Vercel AI SDK with an OpenAI-compatible key. Optional MCP server support and Twoslash type-checked code blocks; MIT licensed and deployable on Vercel.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "sidebar",
+    "changelog",
+    "chat"
+  ],
+  "keywords": [
+    "documentation",
+    "docs site",
+    "fumadoc",
+    "next.js",
+    "mdx",
+    "openapi",
+    "api reference",
+    "ai chat",
+    "ai sdk",
+    "twoslash",
+    "mcp",
+    "changelog",
+    "rss",
+    "template",
+    "starter",
+    "typescript"
+  ],
+  "contains": [
+    "docs starter on Fumadocs + Next.js (generated with Create Fumadocs)",
+    "OpenAPI API reference pages",
+    "AI chat via the Vercel AI SDK with an OpenAI-compatible provider",
+    "optional MCP server integration",
+    "Twoslash type-checked code examples",
+    "changelog and RSS page support",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/techwithanirudh/fumadocs-starter",
+    "docs": "https://fumadocsstarter.vercel.app",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

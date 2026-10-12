@@ -1,0 +1,19 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-016-fluid-smoke-touch-html",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/016-fluid-smoke-touch.html",
+  "kind": "page",
+  "hints_hash": "7eee38a3a29fc9d9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/016-fluid-smoke-touch.html", "title": "Ether — Fluid Smoke Canvas", "status": null},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Ether",
+  "summary": "Self-contained HTML study from a 100-study collection: a touch-driven fluid smoke canvas; drag anywhere to inject color.",
+  "keywords": ["fluid simulation", "smoke effect", "touch interaction", "drag interaction", "generative art", "interactive demo", "canvas animation", "visual effect", "html study", "standalone html", "creative coding"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

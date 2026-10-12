@@ -1,0 +1,33 @@
+{
+  "id": "kigen-design-color",
+  "url": "https://kigen.design/color",
+  "kind": "page",
+  "hints_hash": "20cab7ff45e2df9d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://kigen.design/color", "title": "Color Generator – Kigen", "status": null},
+    {"url": "https://kigen.design/license", "title": "EULA - Kigen Design System", "status": 200},
+    {"url": "https://kigen.design/system", "title": "Kigen Design System", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kigen Color Generator",
+  "summary": "Color scale generator that turns one seed color into an 11-shade palette with Tailwind, CSS, SVG and Figma export.",
+  "description": "A browser color scale generator from Kigen, the Figma design system and plugin by Overlayz Studio. Pick or randomize a base color, then adjust the algorithm, contrast shift, shade count and naming pattern, and copy the resulting scale as CSS, Tailwind, Tailwind 4 or design tokens in HEX, RGBA, HSL or OKLCH, or export it as SVG for Figma.",
+  "type": "generator",
+  "elements": [],
+  "keywords": ["color generator", "color scale", "color palette", "shade generator", "tailwind color", "design token", "css color", "svg export", "oklch", "hsl", "contrast", "design system", "figma plugin"],
+  "contains": [
+    "11-shade scale (50-950) generated from one seed color",
+    "controls: algorithm, contrast shift, shade count, naming pattern",
+    "exports: CSS, Tailwind, Tailwind 4, tokens, SVG/Figma",
+    "color formats: HEX, RGBA, HSL, OKLCH"
+  ],
+  "formats": ["code", "svg"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

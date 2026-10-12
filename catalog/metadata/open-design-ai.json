@@ -1,0 +1,40 @@
+{
+  "id": "open-design-ai",
+  "url": "https://open-design.ai",
+  "kind": "site",
+  "hints_hash": "79596c0af12f85d9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://open-design.ai/llms.txt", "title": "OpenDesign", "status": null},
+    {"url": "https://open-design.ai", "title": "OpenDesign — Best Open Source Claude Design Alternative", "status": 200},
+    {"url": "https://open-design.ai/quickstart", "title": "OpenDesign quickstart — Install in three commands (Node 24, pnpm)", "status": 200},
+    {"url": "https://open-design.ai/skills", "title": "Design Skills for Claude Code & Codex: PPT, UI, Frontend | OpenDesign", "status": 200},
+    {"url": "https://open-design.ai/faq", "title": "FAQ — OpenDesign", "status": 200},
+    {"url": "https://github.com/nexu-io/open-design", "title": "GitHub - nexu-io/open-design: 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenDesign",
+  "summary": "Open-source, local-first workspace that turns a coding agent into a design engine with SKILL.md skills and DESIGN.md brand systems.",
+  "description": "An open-source AI design workspace where Claude Code, Codex, Cursor or another coding agent becomes the design engine, steered by composable SKILL.md skills and portable DESIGN.md brand systems. It produces prototypes, live dashboards, slide decks, images and MP4 motion graphics as real files, with a macOS/Windows desktop app, a local daemon with web UI and an od CLI; 138 design skills, 151 design systems and 458+ plugins ship with it.",
+  "type": "app",
+  "categories": ["design-tools", "design-rules"],
+  "elements": [],
+  "keywords": ["design tool", "ai design tool", "ai coding agent", "agent skill", "design system", "prototype", "ui generator", "design to code", "local first", "byok", "mcp", "desktop app", "landing page", "dashboard", "slide deck", "wireframe", "html prototype", "design workspace", "vibe design", "open source"],
+  "contains": [
+    "open-source AI design workspace, Apache-2.0; desktop app for macOS and Windows",
+    "138 design skills, 151 DESIGN.md design systems, 458+ plugins",
+    "design templates for prototypes, live dashboards, decks, images and video",
+    "outputs HTML prototypes, HTML/PDF/PPTX decks, images and MP4 motion graphics",
+    "works with Claude Code, Codex, Cursor and 20+ coding agents via MCP or BYOK",
+    "local daemon + web UI, three-command quickstart, od CLI",
+    "free app; paid Cloud plans add hosted model credits"
+  ],
+  "formats": ["app", "code", "cli", "prompts", "templates", "docs"],
+  "stack": ["node"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/nexu-io/open-design", "docs": "https://open-design.ai/quickstart", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

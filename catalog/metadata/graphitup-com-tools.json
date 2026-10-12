@@ -1,0 +1,77 @@
+{
+  "id": "graphitup-com-tools",
+  "url": "https://graphitup.com/tools",
+  "kind": "page",
+  "hints_hash": "c12f5998e06e3104",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://graphitup.com/tools",
+      "title": "Tools - Free, No Signup, Online Chart Makers",
+      "status": 200
+    },
+    {
+      "url": "https://graphitup.com/llms.txt",
+      "title": "Graphitup - AI Assistant Guidelines",
+      "status": 200
+    },
+    {
+      "url": "https://graphitup.com/pricing",
+      "title": "Graphitup Pricing",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Graphitup Tools",
+  "summary": "Free no-signup online chart makers: line, bar, pie, donut, bubble, scatter, area, gauge, radar and an AI graph maker.",
+  "description": "A hub of free browser-based chart and graph makers — line, bar, stacked, double, horizontal, pie, donut, bubble, scatter, area, gauge, radar and an AI graph maker. Each tool imports data from Excel, Google Sheets or Google Drive and exports the chart as a shareable image.",
+  "type": "generator",
+  "elements": [
+    "chart"
+  ],
+  "keywords": [
+    "chart maker",
+    "graph maker",
+    "line graph",
+    "bar chart",
+    "pie chart",
+    "donut chart",
+    "scatter plot",
+    "bubble chart",
+    "gauge chart",
+    "radar chart",
+    "ai chart generator",
+    "excel to chart",
+    "google sheet",
+    "chart image export",
+    "free chart tool"
+  ],
+  "contains": [
+    "17 free chart makers, incl. line, bar, pie, donut, scatter and an AI graph maker",
+    "also stacked, double, horizontal, multi-line, multi-bar, area, gauge, radar and percentages",
+    "data import from Excel, Google Sheets or Google Drive",
+    "charts download in any size or file format; no signup for the free tools",
+    "part of Graphitup, a platform that turns spreadsheets into interactive embeddable charts",
+    "free tier plus paid Creator ($20), Growth ($40) and Enterprise plans"
+  ],
+  "formats": [
+    "links",
+    "png"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

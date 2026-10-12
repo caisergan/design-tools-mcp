@@ -1,0 +1,17 @@
+{
+  "id": "awwwards-com-awwwards-colle",
+  "url": "https://awwwards.com/awwwards/colle",
+  "kind": "page",
+  "hints_hash": "610d9222bd8d845c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://www.awwwards.com/awwwards/collections", "title": "Awwwards", "status": 200}],
+  "status": "ok",
+  "name": "Awwwards Collections",
+  "summary": "99 themed collections of websites curated by the Awwwards account, from loading animations to footer design.",
+  "keywords": ["web design inspiration", "curated collection", "design collection", "website gallery", "loading animation", "footer design", "grid layout", "ai tool", "webgl", "search filter", "transition", "404 page", "ui design"],
+  "type": "gallery",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "awwwards-com"},
+  "confidence": 0.75
+}

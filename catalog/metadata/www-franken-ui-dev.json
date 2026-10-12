@@ -1,0 +1,132 @@
+{
+  "id": "www-franken-ui-dev",
+  "url": "https://www.franken-ui.dev",
+  "kind": "site",
+  "hints_hash": "2ff9cd46966f4283",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.franken-ui.dev",
+      "title": "Franken UI",
+      "status": null
+    },
+    {
+      "url": "https://franken-ui.dev/docs/2.1/installation",
+      "title": "Installation",
+      "status": null
+    },
+    {
+      "url": "https://franken-ui.dev/docs/2.1/javascript",
+      "title": "JavaScript",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/franken-ui/ui",
+      "title": "GitHub - franken-ui/ui: Franken UI is an HTML-first UI component library built on UIkit 3 and extended with LitElement, inspired by shadcn/ui. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Franken UI",
+  "summary": "HTML-first UI component library built on UIkit 3: 60+ copy-paste components, premade pages and a Tailwind CSS theme.",
+  "description": "A framework-agnostic component library built on UIkit 3 and extended with LitElement, covering accordion, alert, modal, dropdown, table, slideshow, navigation, forms and more, with shadcn/ui-inspired design. Install via CDN or npm/Vite (import from the franken-ui package), use uk-* attributes in plain HTML, and copy premade login pages and examples.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "form",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "progress",
+    "scroll-effect",
+    "select",
+    "slider",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "html",
+    "html-first",
+    "framework agnostic",
+    "copy paste component",
+    "uikit",
+    "lit",
+    "tailwind css",
+    "shadcn",
+    "css component",
+    "vanilla js",
+    "web component",
+    "accessible component",
+    "form",
+    "date picker",
+    "modal",
+    "dropdown",
+    "slideshow",
+    "table",
+    "accordion",
+    "login page",
+    "premade page",
+    "theme",
+    "dark mode"
+  ],
+  "contains": [
+    "60+ components: accordion, modal, table, slideshow, tab, tooltip …",
+    "built on UIkit 3, extended with LitElement",
+    "install via CDN or npm + Vite plugin (franken-ui)",
+    "prebuilt Tailwind utilities (~91.45 kB gzipped) and Tailwind CSS v4 support",
+    "premade pages: 4 authentication pages and 3 examples",
+    "works with React and Vue using uk-* / data-uk-* attributes",
+    "MIT licensed, 2.6k GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "css",
+    "tailwind",
+    "lit",
+    "uikit"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/franken-ui/ui",
+    "docs": "https://franken-ui.dev/docs/2.1/installation",
+    "npm": "franken-ui",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

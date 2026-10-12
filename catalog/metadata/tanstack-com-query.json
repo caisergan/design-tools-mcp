@@ -1,0 +1,36 @@
+{
+  "id": "tanstack-com-query",
+  "url": "https://tanstack.com/query",
+  "kind": "page",
+  "hints_hash": "155e601bfd72baac",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tanstack.com/query", "title": "TanStack Query", "status": 200},
+    {"url": "https://github.com/TanStack/query", "title": "GitHub - TanStack/query: Powerful asynchronous state management, server-state utilities and data fetching for the web.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TanStack Query",
+  "summary": "Async state library that fetches, caches, syncs and updates server state for React, Vue, Svelte and Solid apps.",
+  "description": "TanStack Query gives async data a cache with a lifecycle and declarative APIs for fetching, sharing, refetching, mutating and observing server state. Caching, request deduplication, retries, background refetching, window-focus updates and garbage collection are wired in, along with optimistic mutations and invalidation. It is protocol-agnostic (REST, GraphQL, promises) and ships adapters for React, Vue, Svelte, Solid, Angular and Lit.",
+  "type": "component-library",
+  "elements": [],
+  "keywords": ["server state", "data fetching", "async state", "query cache", "caching", "mutation", "optimistic update", "background refetch", "query invalidation", "request deduplication", "typescript", "react", "vue", "svelte", "solid", "angular", "suspense", "infinite scroll", "pagination", "graphql", "rest api"],
+  "contains": [
+    "2.7B total downloads, 88M weekly downloads, 50k+ GitHub stars",
+    "cache lifecycle: stale-while-revalidate, background refetch, garbage collection",
+    "request deduplication, retries and window-focus refetching",
+    "mutations with optimistic updates, invalidation and rollback",
+    "adapters for React, Vue, Svelte, Solid, Angular and Lit",
+    "protocol-agnostic fetching: REST, GraphQL, promises",
+    "docs with a full llms.txt for agents",
+    "MIT licensed"
+  ],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "vue", "svelte", "solid", "angular", "lit", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TanStack/query", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

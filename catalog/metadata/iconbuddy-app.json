@@ -1,0 +1,29 @@
+{
+  "id": "iconbuddy-app",
+  "url": "https://iconbuddy.app",
+  "kind": "site",
+  "hints_hash": "b15831f9c9f370c1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:21:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://iconbuddy.app", "title": "Free SVG Icons - 300,000+ Open Source Icons | Iconbuddy", "status": null},
+    {"url": "https://iconbuddy.com/docs/agents", "title": "IconBuddy Agent API and MCP Setup Guide", "status": null},
+    {"url": "https://iconbuddy.com/pricing", "title": "Pricing — Iconbuddy", "status": null}
+  ],
+  "status": "ok",
+  "name": "Iconbuddy",
+  "summary": "Search engine for 300,000+ open source SVG icons with colour, size and SVG/PNG/JSX/Base64 export.",
+  "description": "Iconbuddy indexes 300,000+ free SVG icons from open source libraries such as Lucide, Heroicons, Tabler, Phosphor, Material Symbols and Font Awesome. Icons can be searched, recoloured, resized and exported as SVG, PNG, JSX or Base64; plugins for Figma, VS Code, Framer, WordPress and Chrome expose the same library, and an MCP server plus REST API hand icons to coding agents.",
+  "type": "icon-set",
+  "categories": ["icons", "design-tools"],
+  "elements": [],
+  "keywords": ["svg icon", "icon library", "icon search", "free icon", "open source icon", "icon pack", "icon download", "figma plugin", "vs code extension", "react icon", "emoji icon", "country flag icon", "brand logo svg", "icon api", "mcp server", "jsx icon", "customizable icon", "colored icon", "base64 icon", "icon set"],
+  "contains": ["300,000+ icons from open source libraries", "export: SVG, PNG, JSX, Base64", "colour and size controls", "plugins for Figma, VS Code, Framer, WordPress and Chrome", "MCP server on npm plus REST API for coding agents", "Pro from $6.99/month, $49.99/year or $120 lifetime"],
+  "formats": ["svg", "png", "code", "api", "npm-package", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://iconbuddy.com/docs/agents", "npm": "@iconbuddy/mcp-server", "figma": null, "parent": null},
+  "confidence": 0.9
+}

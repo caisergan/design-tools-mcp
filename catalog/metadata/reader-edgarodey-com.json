@@ -1,0 +1,102 @@
+{
+  "id": "reader-edgarodey-com",
+  "url": "https://reader.edgarodey.com",
+  "kind": "site",
+  "hints_hash": "864671fe1410b4a0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:16:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://reader.edgarodey.com",
+      "title": "Reader — Free, Local-First Academic PDF Study Companion",
+      "status": null
+    },
+    {
+      "url": "https://reader.edgarodey.com/library",
+      "title": "My Library | Reader",
+      "status": null
+    },
+    {
+      "url": "https://reader.edgarodey.com/about",
+      "title": "The Story Behind Reader — Built by Edgar Odey | Reader",
+      "status": null
+    },
+    {
+      "url": "https://reader.edgarodey.com/settings",
+      "title": "Settings & Voice Options | Reader",
+      "status": 200
+    },
+    {
+      "url": "https://reader.edgarodey.com/help",
+      "title": "Help & Frequently Asked Questions | Reader",
+      "status": 200
+    },
+    {
+      "url": "https://reader.edgarodey.com/open-source",
+      "title": "Open Source & PolyForm Noncommercial License | Reader",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Reader",
+  "summary": "Browser study companion that reads university PDFs aloud with on-device OCR and speech synthesis.",
+  "description": "Upload course PDFs, lecture notes or scanned handouts and Reader turns them into a reflowable reading view with synchronized text-to-speech, adjustable speed, sentence highlighting and Sepia or Dark reading themes. PDF parsing, OCR and speech all run in the browser, so the files stay on the device with no account, upload or fee.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "file-upload",
+    "list",
+    "faq"
+  ],
+  "keywords": [
+    "pdf reader",
+    "text to speech",
+    "study tool",
+    "course pdf",
+    "lecture note",
+    "ocr",
+    "scanned document",
+    "local first",
+    "privacy",
+    "offline",
+    "browser app",
+    "audiobook",
+    "reading app",
+    "nextjs"
+  ],
+  "contains": [
+    "reads course PDFs aloud with the browser's speech synthesis",
+    "client-side OCR for scanned photocopied handouts",
+    "playback 0.5x to 2.0x with sentence highlighting and paragraph hopping",
+    "Sepia and Dark reading themes, adjustable font size and line height",
+    "documents stay on device (IndexedDB); no accounts, subscriptions or tracking",
+    "free and open source under PolyForm Noncommercial 1.0.0"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [
+    "nextjs",
+    "web-speech",
+    "pdf.js",
+    "tesseract.js",
+    "indexeddb"
+  ],
+  "pricing": "free",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "related": {
+    "repo": "https://github.com/edgarodey/Reader-Tech",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

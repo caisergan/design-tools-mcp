@@ -1,0 +1,24 @@
+{
+  "id": "rotor-framer-website-full",
+  "url": "https://rotor.framer.website/full",
+  "kind": "page",
+  "hints_hash": "b33b2e5992935375",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://rotor.framer.website/full", "title": "Rotor Carousel (Gallery) - Framer Component", "status": null}
+  ],
+  "status": "ok",
+  "name": "Rotor Carousel (Gallery)",
+  "summary": "Full demo of a Framer carousel component: scroll-driven gallery layouts for photo, agency and portfolio content.",
+  "description": "Demo page for the Rotor Carousel (Gallery) Framer component, with a buy link and staged sections (works, photo, agency, digital agency, portfolio, extra perspective) plus SVG-mask, stagger and scroll-to-top options.",
+  "keywords": ["framer component", "carousel", "gallery", "carousel gallery", "scroll animation", "svg mask", "stagger", "photo gallery", "agency website", "portfolio design", "framer template", "web design demo"],
+  "elements": ["carousel", "scroll-effect"],
+  "formats": ["framer-file"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

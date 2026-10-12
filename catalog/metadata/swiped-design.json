@@ -1,0 +1,35 @@
+{
+  "id": "swiped-design",
+  "url": "https://swiped.design",
+  "kind": "site",
+  "hints_hash": "3e13dd6f2721a842",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://swiped.design/llms.txt", "title": "swiped.", "status": null},
+    {"url": "https://swiped.design", "title": "swiped. | The Best Content in the Design Space", "status": 200},
+    {"url": "https://swiped.design/archive", "title": "swiped. | The Best Content in the Design Space", "status": 200}
+  ],
+  "status": "ok",
+  "name": "swiped.",
+  "summary": "Weekly swipe file of top-performing design posts on X and LinkedIn, each with a prompt to write your own version.",
+  "description": "A hand-curated swipe file of posts published by designers on X and LinkedIn, updated weekly with this-week and last-week picks plus an archive grouped by month. Each post links to the original and comes with an interview-style AI prompt that helps a designer write their own version of the post from their own experience; picks are grouped into categories like Opinion, Educational, Breakdown, Craft tip and Cheatsheet.",
+  "type": "gallery",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["swipe file", "design post", "x post", "linkedin post", "content inspiration", "design content", "post template", "ai prompt", "writing prompt", "personal brand", "content marketing", "social media post", "design blog"],
+  "contains": [
+    "top design posts on X and LinkedIn, updated weekly",
+    "this week / last week picks and a monthly archive",
+    "each post links to the original and ships a write-your-version AI prompt",
+    "categories: Opinion, Educational, Breakdown, Insight, Craft tip, Cheatsheet, Story, Business",
+    "made by brandedwords.studio"
+  ],
+  "formats": ["links", "prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

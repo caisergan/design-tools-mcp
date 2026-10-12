@@ -1,0 +1,23 @@
+{
+  "id": "ui-shadcn-com-docs-components-base-empty",
+  "url": "https://ui.shadcn.com/docs/components/base/empty",
+  "kind": "page",
+  "hints_hash": "f754825864b41f8c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:29:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.shadcn.com/docs/components/base/empty", "title": "Empty - shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Empty",
+  "summary": "shadcn/ui component for empty states, with Header, Media, Title, Description and Content parts and outline, avatar and RTL examples.",
+  "description": "Docs page for the Empty component in shadcn/ui: composition with EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription and EmptyContent, API reference, and examples for outline, background, avatar, avatar group, input group and RTL.",
+  "keywords": ["empty state", "empty component", "shadcn", "ui component", "react component", "component registry", "tailwind", "zero state", "no data", "install command", "rtl", "api reference", "base ui", "radix ui", "react aria"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ui-shadcn-com"},
+  "elements": ["empty-state"],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "tailwind"],
+  "contains": ["parts: Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription, EmptyContent", "examples: outline, background, avatar, avatar group, input group, RTL", "variant tabs: Base UI, React Aria, Radix UI", "installed from the shadcn registry"],
+  "confidence": 0.85
+}

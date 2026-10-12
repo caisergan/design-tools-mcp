@@ -1,0 +1,40 @@
+{
+  "id": "pro-beui-dev",
+  "url": "https://pro.beui.dev",
+  "kind": "site",
+  "hints_hash": "2dc676180c561e7f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pro.beui.dev/llms.txt", "title": "beUI Pro", "status": null},
+    {"url": "https://pro.beui.dev", "title": "beUI Pro — Animated React Blocks & Next.js Templates", "status": 200},
+    {"url": "https://pro.beui.dev/components.md", "title": "Components, blocks, and templates", "status": 200},
+    {"url": "https://pro.beui.dev/components", "title": "Components · beUI Pro", "status": 200},
+    {"url": "https://pro.beui.dev/components/auth.md", "title": "Auth", "status": 200},
+    {"url": "https://pro.beui.dev/components/team.md", "title": "Team", "status": 200},
+    {"url": "https://pro.beui.dev/components/installation.md", "title": "Installation", "status": 200},
+    {"url": "https://pro.beui.dev/components/agents.md", "title": "Use beUI Pro from your coding agent", "status": 200}
+  ],
+  "status": "ok",
+  "name": "beUI Pro",
+  "summary": "Paid library of motion-rich React components, animated blocks and full Next.js landing-page templates.",
+  "description": "Catalog of animated React components, blocks and complete Next.js landing-page templates, installed through a private shadcn-compatible registry with a license token or downloaded as source files kept in your codebase. Covers page sections (navbar, hero, features, pricing, footer), app surfaces (dashboards, kanban, data tables, calendar, auth, file manager) and AI-agent interfaces (model picker, agent chat input, thinking loaders). Includes an agent skill, an MCP server and a WebGL background studio; source targets React 19, Next.js, Tailwind CSS v4 and Motion.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["ai-agent-ui", "banner", "calendar", "card", "carousel", "chart", "chat", "command-palette", "cta", "dashboard", "dropdown", "empty-state", "faq", "features", "file-upload", "footer", "form", "hero", "kanban", "loader", "logo-cloud", "marquee", "modal", "navbar", "otp-input", "pricing", "prompt-input", "sidebar", "stats", "stepper", "table", "team", "testimonials", "text-effect", "tooltip"],
+  "variants": {
+    "navbar": ["mega-menu", "mobile", "pill"],
+    "sidebar": ["collapsible", "with-search"],
+    "footer": ["big-text"],
+    "pricing": ["usage-based"]
+  },
+  "keywords": ["animated component", "motion component", "react", "next.js", "tailwind css", "framer motion", "landing page template", "ui block", "animated block", "page section", "dark mode", "ai agent ui", "chat ui", "prompt input", "model picker", "text animation", "loading animation", "dashboard", "data table", "shadcn registry", "agent skill", "mcp", "copy paste component", "source code"],
+  "contains": ["292 premium components, 205 animated blocks, 41 page blocks and 11 full templates (homepage counters)", "install via private shadcn-compatible registry with a license token, or download the source", "blocks: hero, features, pricing, testimonials, CTA, footer, logo cloud, FAQ, stats, navbar, team", "app surfaces: dashboards, kanban, data tables, calendar, sidebar, auth, file manager, status pages", "AI-agent parts: model picker, agent chat input, AI thinking loaders, artifacts, agent builder", "agent skill and MCP server (mcp.beui.dev) with list, search, inspect and install tools", "full templates: Weave, Hunch, Folio, Pair, Personal Website", "pricing: $109/year or $149 lifetime; React 19, Next.js, Tailwind CSS v4, Motion"],
+  "formats": ["code", "registry", "cli", "api", "docs", "templates"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion", "shadcn", "typescript"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://pro.beui.dev/components/installation", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

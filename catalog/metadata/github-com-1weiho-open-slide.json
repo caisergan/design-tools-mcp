@@ -1,0 +1,36 @@
+{
+  "id": "github-com-1weiho-open-slide",
+  "url": "https://github.com/1weiho/open-slide",
+  "kind": "repo",
+  "hints_hash": "5d8d5a15f08db269",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:31:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/1weiho/open-slide/blob/HEAD/README.md", "title": "open-slide", "status": 200}
+  ],
+  "status": "ok",
+  "name": "open-slide",
+  "summary": "Slide framework where a coding agent writes React slides on a fixed 1920 x 1080 canvas, with inspector and PDF/PPTX export.",
+  "description": "Describe a deck in natural language and your coding agent writes the React pages; open-slide provides the canvas, scaling, navigation, hot reload, an in-browser inspector with comment markers, presenter mode and export to static HTML, PDF or PPTX. Scaffolded via npx @open-slide/cli init as a pnpm + Turbo monorepo.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["slide", "presentation", "deck", "react", "coding agent", "claude code", "scaffold", "cli", "pdf export", "pptx", "presenter mode", "vite", "typescript", "slide framework", "static site"],
+  "contains": [
+    "agent skills: /create-slide and /slide-authoring preconfigured",
+    "fixed 1920 x 1080 canvas; pages are arbitrary React components",
+    "in-browser inspector: click an element, @slide-comment markers, /apply-comments",
+    "present mode with next-slide preview, speaker notes and timer",
+    "export to static HTML, print-ready PDF, editable PPTX (in-browser)",
+    "assets manager with svgl brand logo search",
+    "deploy to Vercel, Cloudflare Pages, Zeabur, Netlify or any static host",
+    "pnpm + Turbo monorepo: @open-slide/core runtime and @open-slide/cli scaffolder"
+  ],
+  "formats": ["code", "npm-package", "cli", "docs"],
+  "stack": ["react", "vite", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/1weiho/open-slide", "docs": null, "npm": "@open-slide/cli", "figma": null, "parent": null},
+  "confidence": 0.85
+}

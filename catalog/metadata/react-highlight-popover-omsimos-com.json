@@ -1,0 +1,82 @@
+{
+  "id": "react-highlight-popover-omsimos-com",
+  "url": "https://react-highlight-popover.omsimos.com",
+  "kind": "site",
+  "hints_hash": "ce30c2f016cf5580",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://react-highlight-popover.omsimos.com",
+      "title": "React Highlight Popover",
+      "status": null
+    },
+    {
+      "url": "https://react-highlight-popover.omsimos.com/docs",
+      "title": "Introduction | React Highlight Popover",
+      "status": null
+    },
+    {
+      "url": "https://react-highlight-popover.omsimos.com/docs/migration",
+      "title": "Migrating from v1 | React Highlight Popover",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "React Highlight Popover",
+  "summary": "Headless React component that shows a popover when text is selected, with placement and collision handling.",
+  "description": "A headless component that watches text selections inside its children and renders your own popover next to the selection. It handles placement, alignment, offsets, collision handling, portals, keyboard and ARIA behaviour, and can close on Escape. You write the popover markup; about 2.4 kB gzipped with no dependencies besides React.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "popover"
+  ],
+  "keywords": [
+    "popover",
+    "text selection popover",
+    "highlight popover",
+    "headless component",
+    "react",
+    "react component",
+    "npm package",
+    "selection toolbar",
+    "floating popover",
+    "collision handling",
+    "portal",
+    "server component",
+    "accessibility",
+    "typescript"
+  ],
+  "contains": [
+    "headless React component, ~2.4 kB gzipped, no dependencies besides React",
+    "placement, alignment, offset, collision handling and portal support",
+    "installed from npm as @omsimos/react-highlight-popover",
+    "migration guide from v1 to v2",
+    "works from Next.js Server Components"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://react-highlight-popover.omsimos.com/docs",
+    "npm": "@omsimos/react-highlight-popover",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

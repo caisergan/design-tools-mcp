@@ -1,0 +1,30 @@
+{
+  "id": "grammarly-com",
+  "url": "https://grammarly.com",
+  "kind": "site",
+  "hints_hash": "cfec0526b6f9b01b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://grammarly.com", "title": "Grammarly: Free AI Writing Assistance", "status": null},
+    {"url": "https://www.grammarly.com/docs", "title": "Grammarly Docs | All-in-one AI Document Editor", "status": null},
+    {"url": "https://www.grammarly.com/plans", "title": "Grammarly Prices and Plans | Grammarly", "status": null},
+    {"url": "https://www.grammarly.com/features", "title": "Product Features | Grammarly", "status": null}
+  ],
+  "status": "ok",
+  "name": "Grammarly",
+  "summary": "AI writing assistant that checks grammar and spelling, rewrites sentences and adjusts tone in any app or website.",
+  "description": "An AI writing partner for clarity, correctness and tone: grammar and spelling suggestions, full-sentence rewrites, tone adjustment, generative AI prompts and a document editor. Works as a browser extension and desktop/mobile apps; free plan plus paid individual, team and enterprise plans.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai writing assistant", "grammar checker", "spelling checker", "sentence rewrite", "tone adjustment", "writing style guide", "ai text generation", "proofreading", "plagiarism checker", "ai detector", "writing app", "browser extension"],
+  "contains": ["free plan with grammar, spelling and tone suggestions", "paid plan at $12 per member/month billed annually", "enterprise plan with confidential mode, roles and permissions", "full-sentence rewrites and text generation with AI prompts", "browser, desktop and mobile apps", "used by 40 million people and 50,000 organizations"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

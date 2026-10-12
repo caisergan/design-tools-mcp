@@ -1,0 +1,76 @@
+{
+  "id": "adobe-com",
+  "url": "https://adobe.com",
+  "kind": "site",
+  "hints_hash": "5b7beb77c07dedb1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://adobe.com/llms.txt",
+      "title": "Adobe Tools",
+      "status": null
+    },
+    {
+      "url": "https://www.adobe.com/llms.txt",
+      "title": "Adobe Tools",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Adobe",
+  "summary": "Adobe's product site: Creative Cloud apps, Acrobat PDF and e-signing tools, Firefly generative AI and Substance 3D.",
+  "description": "Adobe's product site and tool index. It covers Acrobat PDF and e-signing tools, Creative Cloud apps (Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom, Express, Fresco, Aero), Firefly generative AI, Substance 3D, Audition for audio, Dreamweaver, Bridge and InCopy, each linking to its own product page.",
+  "type": "directory",
+  "categories": [
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "creative software",
+    "pdf editor",
+    "pdf tool",
+    "e-signature",
+    "photo editing",
+    "vector graphics",
+    "desktop publishing",
+    "video editing",
+    "motion graphics",
+    "visual effect",
+    "generative ai",
+    "image generation",
+    "3d modeling",
+    "audio editing",
+    "web design",
+    "subscription software"
+  ],
+  "contains": [
+    "suite of creative applications for photography, design, video, document editing and web development",
+    "Acrobat: PDF editing, e-signing, 25+ free online PDF tools, AI assistant",
+    "Creative Cloud: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom, Express, Fresco, Aero",
+    "Firefly: text-to-image, text-to-video, scene-to-image, video translation, boards",
+    "Substance 3D: Painter, Sampler, Designer, Modeler, Stager",
+    "Audio: Audition; Web & UX: Dreamweaver; additional tools: Bridge, InCopy",
+    "each tool links to its own product page"
+  ],
+  "formats": [
+    "app",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

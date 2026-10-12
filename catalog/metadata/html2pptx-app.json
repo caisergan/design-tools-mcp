@@ -1,0 +1,96 @@
+{
+  "id": "html2pptx-app",
+  "url": "https://html2pptx.app",
+  "kind": "site",
+  "hints_hash": "d7916d68884880f5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://html2pptx.app/llms.txt",
+      "title": "html2pptx.app",
+      "status": null
+    },
+    {
+      "url": "https://html2pptx.app",
+      "title": "HTMLからPowerPointへ変換 | PPTX API・MCP | html2pptx.app",
+      "status": 200
+    },
+    {
+      "url": "https://html2pptx.app/docs/en",
+      "title": "Documentation | html2pptx.app",
+      "status": 200
+    },
+    {
+      "url": "https://html2pptx.app/templates",
+      "title": "PowerPointテンプレート無料ダウンロード | html2pptx.app",
+      "status": 200
+    },
+    {
+      "url": "https://html2pptx.app/pricing",
+      "title": "料金プラン | html2pptx.app",
+      "status": 200
+    },
+    {
+      "url": "https://html2pptx.app/docs/ja",
+      "title": "ドキュメント | html2pptx.app",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "html2pptx.app",
+  "summary": "Hosted API, MCP server and CLI that turn slide-oriented HTML/CSS into editable PowerPoint.",
+  "description": "Converts HTML/CSS slides into PPTX through an asynchronous REST API, a remote MCP endpoint, agent Skills and a CLI. Supported text and simple shapes stay editable while SVGs, icons and complex structures are rasterized; 50 official templates, a local visual editor that writes back to the source HTML, and Free/paid plans.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "html to pptx",
+    "html to powerpoint",
+    "pptx api",
+    "powerpoint export",
+    "mcp server",
+    "claude code",
+    "slide generator",
+    "presentation automation",
+    "powerpoint template",
+    "agent skill",
+    "rest api",
+    "deck generation",
+    "cli",
+    "slide"
+  ],
+  "contains": [
+    "REST API, remote MCP endpoint, Skills and CLI channels",
+    "50 official PowerPoint templates",
+    "supported text and simple shapes stay editable; SVG, icons and complex structures rasterized",
+    "supports flexbox, grid, gradients, shadows, border radius, transforms",
+    "Free Preview 10 conversions/mo, Founder Beta $7/mo, Business $59/mo",
+    "local visual editor writes edits back to the source HTML"
+  ],
+  "formats": [
+    "api",
+    "cli",
+    "docs",
+    "templates",
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://html2pptx.app/docs/en",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,111 @@
+{
+  "id": "animateicons-in",
+  "url": "https://animateicons.in",
+  "kind": "site",
+  "hints_hash": "4c65bbd3a9e8db0e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://animateicons.in",
+      "title": "AnimateIcons | 1170+ Free Animated React Icons",
+      "status": 200
+    },
+    {
+      "url": "https://animateicons.in/icons/docs",
+      "title": "Install AnimateIcons | AnimateIcons",
+      "status": 200
+    },
+    {
+      "url": "https://animateicons.in/icons/lucide",
+      "title": "Lucide Animated Icons for React | AnimateIcons",
+      "status": 200
+    },
+    {
+      "url": "https://animateicons.in/icons/huge",
+      "title": "Huge Animated Icons for React | AnimateIcons",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Avijit07x/animateicons",
+      "title": "GitHub - Avijit07x/animateicons: Free and open-source animated SVG icons for React",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Avijit07x/animateicons/main/README.md",
+      "title": "AnimateIcons",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Avijit07x/animateicons/main/LICENSE",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AnimateIcons",
+  "summary": "Free open-source set of 1170 animated SVG icons for React, built on Lucide and Motion, with npm, CLI and MCP installs.",
+  "description": "Animated icon library for React. 1170 SVG icons in two styles: 669 Lucide-style icons for product interfaces and 501 Huge-style icons for dashboards and rich UIs. Each icon is a drop-in component built on motion/react that animates on hover, focus or imperatively, with configurable size, color and duration. Install the @animateicons/react package, copy icons into your repo with the shadcn CLI or the animateicons CLI, or let an AI agent add them through the MCP server.",
+  "type": "icon-set",
+  "categories": [
+    "icons",
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "animated icon",
+    "react icon",
+    "svg icon",
+    "icon library",
+    "icon set",
+    "icon animation",
+    "hover animation",
+    "open source",
+    "free icon",
+    "npm package",
+    "shadcn",
+    "mcp server",
+    "cli",
+    "lucide",
+    "huge icon",
+    "framer motion",
+    "micro interaction",
+    "typescript",
+    "nextjs"
+  ],
+  "contains": [
+    "1170 animated SVG icons for React (669 Lucide, 501 Huge)",
+    "542 shadcn registry items",
+    "install paths: npm (@animateicons/react), shadcn CLI, animateicons CLI, MCP server",
+    "hover, focus and imperative animation triggers; size, color and duration props",
+    "motion/react bundled; per-icon ESM import paths",
+    "MIT licensed and free to use"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "registry",
+    "cli",
+    "svg",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Avijit07x/animateicons",
+    "docs": "https://animateicons.in/icons/docs",
+    "npm": "@animateicons/react",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

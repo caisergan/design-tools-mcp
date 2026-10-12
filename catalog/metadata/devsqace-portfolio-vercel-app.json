@@ -1,0 +1,33 @@
+{
+  "id": "devsqace-portfolio-vercel-app",
+  "url": "https://devsqace-portfolio.vercel.app",
+  "kind": "site",
+  "hints_hash": "952d2fcbab7785d6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://devsqace-portfolio.vercel.app", "title": "DevSqAce Portfolio", "status": null}
+  ],
+  "status": "ok",
+  "name": "DevSqAce Portfolio",
+  "summary": "Portfolio site of DevSqace, a frontend developer in Nigeria: recent projects, a three-step process and contact.",
+  "description": "Personal portfolio of DevSqace, a frontend developer based in Nigeria. It opens with a hero (\"Crafting Interactive Web Interfaces with Next.js\"), then a small selection of recent projects (a corporate website for GlobeServe Nig Ltd and the SkyHarvest SaaS landing page), a three-step work process, a tech stack section and contact details.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["navbar", "hero", "features", "card", "contact"],
+  "keywords": ["portfolio", "developer portfolio", "personal website", "frontend developer", "project showcase", "react", "nextjs", "typescript", "tailwind css", "python", "web developer", "nigeria", "saas landing page", "corporate website"],
+  "contains": [
+    "sections: about, projects, process, tech stack, contact",
+    "projects: GlobeServe Nig Ltd corporate website and SkyHarvest SaaS landing page",
+    "three-step process: planning & strategy, execution & implementation, review & optimization",
+    "tech stack: ReactJS, NextJS, Python, TypeScript, TailwindCSS",
+    "single-page portfolio of a frontend developer based in Nigeria"
+  ],
+  "formats": ["app"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "python"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

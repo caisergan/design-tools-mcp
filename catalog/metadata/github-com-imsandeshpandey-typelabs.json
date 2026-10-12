@@ -1,0 +1,37 @@
+{
+  "id": "github-com-imsandeshpandey-typelabs",
+  "url": "https://github.com/imsandeshpandey/typelabs",
+  "kind": "repo",
+  "hints_hash": "4f75f798bec0f7ca",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/imsandeshpandey/typelabs/blob/HEAD/README.md", "title": "TypeLabs", "status": 200},
+    {"url": "https://github.com/imsandeshpandey/typelabs", "title": "GitHub - frstycodes/typelabs: MonkeyType inspired typing test app built with React, shadcn, and Zustand at it's core. · GitHub", "status": 200},
+    {"url": "https://typelabs.vercel.app", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "TypeLabs",
+  "summary": "MonkeyType-inspired typing test app with 160+ themes, sound effects and Spotify playback, built with React and shadcn/ui.",
+  "description": "A customizable typing test app in the spirit of monkeytype: practice typing with 160+ built-in themes, custom fonts, keyboard shortcuts, sound effects and volume controls, and optional Spotify music playback through the Spotify Web API. Built with React 18, TypeScript, Vite, Tailwind CSS, Zustand, React Query and shadcn/ui; a live demo runs at typelabs.vercel.app and the repository (MIT licensed) now lives at frstycodes/typelabs.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["typing test", "typing practice", "monkeytype", "theme", "spotify", "sound effect", "keyboard shortcut", "react", "vite", "zustand", "shadcn", "tailwind", "typescript", "custom font", "web app"],
+  "contains": [
+    "160+ built-in themes",
+    "Spotify integration for music playback",
+    "sound effects and volume controls",
+    "keyboard shortcuts and custom font support",
+    "React 18 + TypeScript + Vite + Tailwind CSS + Zustand + shadcn/ui",
+    "live demo at typelabs.vercel.app",
+    "MIT licensed; 123 GitHub stars"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["react", "typescript", "vite", "tailwind", "zustand", "react-query", "shadcn", "spotify"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/frstycodes/typelabs", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

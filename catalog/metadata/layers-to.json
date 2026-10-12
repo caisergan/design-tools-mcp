@@ -1,0 +1,31 @@
+{
+  "id": "layers-to",
+  "url": "https://layers.to",
+  "kind": "site",
+  "hints_hash": "5b3049ea00f0df41",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://layers.to/explore", "title": "Explore | Layers", "status": null},
+    {"url": "https://layers.to/about", "title": "About | Layers", "status": null},
+    {"url": "https://layers.to/jobs", "title": "Design Jobs | Layers", "status": 200},
+    {"url": "https://layers.to/designers", "title": "Explore | Layers", "status": 200},
+    {"url": "https://layers.to/plus", "title": "Upgrade to Layers Plus | Layers", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Layers",
+  "summary": "Community showcase where designers post their work, with a designer directory and a design job board.",
+  "description": "Design community for sharing work: explore designs and designers, follow creators, and find or post design jobs. Joining is free; Layers Plus (£6/month billed yearly) adds ad-free browsing, post scheduling, analytics and API access, and a Team tier costs £19/month.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["design community", "design inspiration", "designer showcase", "design job", "portfolio", "hire designer", "design work", "job board", "community"],
+  "contains": ["community feed of shared design work", "designer directory", "job board — $99 per posting", "reach over 200k designers (per the jobs page)", "Layers Plus £6/month, Team £19/month"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

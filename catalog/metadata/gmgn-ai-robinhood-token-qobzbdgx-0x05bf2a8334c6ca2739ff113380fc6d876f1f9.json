@@ -1,0 +1,19 @@
+{
+  "id": "gmgn-ai-robinhood-token-qobzbdgx-0x05bf2a8334c6ca2739ff113380fc6d876f1f9",
+  "url": "https://gmgn.ai/robinhood/token/QobZbdgX_0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23",
+  "kind": "page",
+  "hints_hash": "5f5d1e807b4d4b9d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gmgn.ai/robinhood/token/QobZbdgX_0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23", "title": "GMGN.AI | The Fastest Multi-Chain Meme Trading Terminal", "status": null}
+  ],
+  "status": "ok",
+  "name": "GMGN.AI",
+  "summary": "Token page on GMGN.AI, a multi-chain meme coin trading terminal with copy trading, security audits and P&L analytics.",
+  "keywords": ["meme token", "trading terminal", "crypto trading", "copy trading", "token security audit", "holder analysis", "wallet analytics", "trending token", "new token monitoring", "on-chain trading", "take profit", "stop loss", "trading api"],
+  "contains": ["features: new-token monitoring, trending rankings, holder analysis, security audit, copy trading, P&L analytics", "trading data API packaged as AI skills callable by agents"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

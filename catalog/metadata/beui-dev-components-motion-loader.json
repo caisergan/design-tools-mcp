@@ -1,0 +1,26 @@
+{
+  "id": "beui-dev-components-motion-loader",
+  "url": "https://beui.dev/components/motion/loader",
+  "kind": "page",
+  "hints_hash": "27b2febf0c69f7d7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/motion/loader", "title": "Loader · React motion component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Loader",
+  "summary": "React loading indicator with 17 variants — spinner, dots, bars, ASCII and more — installable via shadcn or copy-paste.",
+  "description": "A React and Next.js loading indicator component with seventeen variants: spinner, dots, bars, dot-matrix, dither, morph, comet, scramble, metaballs, newton, helix, percent and five terminal-style ASCII spinners. Everything scales from one size prop, uses currentColor, and swaps every transform for an opacity pulse under reduced motion.",
+  "type": "component-library",
+  "elements": ["loader"],
+  "keywords": ["loader", "loading spinner", "spinner", "loading animation", "react", "nextjs", "shadcn", "ascii spinner", "dot matrix", "copy paste component", "motion component", "reduced motion", "typescript", "tailwind"],
+  "contains": ["17 loading variants, incl. ASCII, dither, morph, metaballs, newton and helix loaders", "props: variant, size, speed, label, className", "install with the shadcn CLI or copy-paste the TSX source", "reduced-motion fallback swaps every transform for an opacity pulse", "free; the site also sells beUI Pro (292+ blocks and premium motion components)"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.9
+}

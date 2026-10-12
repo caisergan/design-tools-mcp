@@ -1,0 +1,27 @@
+{
+  "id": "github-com-openshaders-openshaders",
+  "url": "https://github.com/openshaders/openshaders",
+  "kind": "repo",
+  "hints_hash": "6d80c4135559ef82",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:05:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/openshaders/openshaders/blob/HEAD/README.md", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenShaders",
+  "summary": "Open-source home for web shaders: a free shader library, a live WebGL/WebGPU editor and React components, pre-launch.",
+  "description": "OpenShaders is building the largest collection of web shaders for real websites: light, texture and movement you can use in your own projects. Planned: a free open-source shader library, a live WebGL/WebGPU shader editor, ready-to-use React components and JavaScript modules, and a shadcn registry for installing shaders from the terminal. Until launch, visitors can claim a username and get a shader generated from their name.",
+  "type": "gallery",
+  "categories": ["color-effects", "motion"],
+  "elements": ["background", "3d"],
+  "keywords": ["shader", "shader library", "webgl", "webgpu", "glsl", "animated background", "visual effect", "react component", "javascript module", "shadcn registry", "open source", "website background", "creative coding", "shader editor"],
+  "contains": ["goal: the largest collection of web shaders", "claiming a username generates a shader from your name", "planned: live WebGL/WebGPU shader editor", "planned: React components, JavaScript modules and a shadcn registry", "MIT-licensed open-source platform", "shaders meant for real websites, not just demos"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "javascript", "webgl", "webgpu"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/openshaders/openshaders", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

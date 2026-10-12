@@ -1,0 +1,19 @@
+{
+  "id": "mobbin-com-apps-cash-app-ios-6fc9a5b8-91ee-47dd-976d-9784a1975e1a-cf7e02",
+  "url": "https://mobbin.com/apps/cash-app-ios-6fc9a5b8-91ee-47dd-976d-9784a1975e1a/cf7e02fa-2217-50ef-a724-4162e37e153d/screens",
+  "kind": "page",
+  "hints_hash": "7a54da61a2708620",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.com/apps/cash-app-ios-6fc9a5b8-91ee-47dd-976d-9784a1975e1a/cf7e02fa-2217-50ef-a724-4162e37e153d/screens", "title": "Mobbin", "status": null}
+  ],
+  "status": "partial",
+  "name": "Cash App iOS",
+  "summary": "Cash App's iOS screens for payments, banking and Bitcoin, in Mobbin's app screenshot library.",
+  "keywords": ["finance app", "banking app", "p2p payment", "ios app", "app screenshot", "mobile ui", "design inspiration", "money transfer", "mobile design"],
+  "formats": ["screenshots"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "mobbin-com"},
+  "confidence": 0.6
+}

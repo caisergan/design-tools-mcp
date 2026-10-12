@@ -1,0 +1,28 @@
+{
+  "id": "unicornclub-dev",
+  "url": "https://unicornclub.dev",
+  "kind": "site",
+  "hints_hash": "9ea7d99705e05465",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://unicornclub.dev", "title": "Product Design Newsletter | Unicorn Club", "status": null},
+    {"url": "https://unicornclub.dev/issues", "title": "Issues | Unicorn Club", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Unicorn Club",
+  "summary": "Free weekly product design newsletter with one 5-8 minute read per issue, archived by date.",
+  "description": "A weekly newsletter about digital product design: each issue slows down over one product moment - a default, a form, a redesign - and works through what is really going on and what to take into your own work. Every issue is archived on the site by date, with an RSS feed.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["product design", "newsletter", "ux", "product decision", "interface design", "design trade-off", "weekly newsletter", "design writing", "form design", "default", "product thinking", "digital product"],
+  "contains": ["free weekly newsletter sent every Wednesday", "5-8 minute read per issue", "dated issues archive", "RSS feed", "3,341+ subscribers"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

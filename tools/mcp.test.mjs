@@ -484,7 +484,7 @@ const WRAP = '<untrusted-content source="corpus/llms-full.txt">';
 test("get_content(query) returns the matching sections of a 2.9 MB doc, within 9 KB", async () => {
   const text = textOf(await callTool("get_content", { ref: BIG, query: "installation" }));
   expect(Buffer.byteLength(text)).toBeLessThanOrEqual(9_000);
-  expect(text).toMatch(/^gpui-kit\.com — corpus\/llms-full\.txt \(\d+ chars · \d+ sections\) · "installation": \d+ of \d+ matching sections/);
+  expect(text).toMatch(/^GPUI Kit — corpus\/llms-full\.txt \(\d+ chars · \d+ sections\) · "installation": \d+ of \d+ matching sections/); // the record named it
   const found = text.match(/^§(\d+) ([^\n]*Installation[^\n]*)$/m);
   expect(found).not.toBeNull();
   expect(text).toContain(WRAP);
@@ -500,7 +500,7 @@ test("get_content(query) returns the matching sections of a 2.9 MB doc, within 9
 test("get_content without a query answers a big doc with an outline, within 7.5 KB", async () => {
   const text = textOf(await callTool("get_content", { ref: BIG }));
   expect(Buffer.byteLength(text)).toBeLessThanOrEqual(7_500);
-  expect(text).toMatch(/^gpui-kit\.com — corpus\/llms-full\.txt \(\d+ chars · \d+ sections\) · outline/);
+  expect(text).toMatch(/^GPUI Kit — corpus\/llms-full\.txt \(\d+ chars · \d+ sections\) · outline/);
   expect(text).toMatch(/^§1 /m);
   expect(text).toContain(WRAP);
   expect(text.endsWith('pass query="…" for matching sections, or section=<n>')).toBe(true);
@@ -658,7 +658,7 @@ test("get_install_command groups registries, takes {ref, name}, and speaks every
     "https://animate-ui.com/r/components-radix-sidebar.json",
     "https://magicui.design/r/dock.json",
   ]); // one command, duplicates once
-  expect(textOf(r)).toContain("- Magic UI: marquee, dock\n- animate-ui: components-radix-sidebar");
+  expect(textOf(r)).toContain("- Magic UI: marquee, dock\n- Animate UI: components-radix-sidebar");
   expect(sc.registryDependencies).toContain("@animate-ui/lib-get-strict-context");
   const forms = { npx: "npx shadcn@latest add ", pnpm: "pnpm dlx shadcn@latest add ", bunx: "bunx --bun shadcn@latest add ", yarn: "yarn dlx shadcn@latest add " };
   for (const [pm, prefix] of Object.entries(forms)) {
@@ -864,7 +864,8 @@ test("get_resource with a metadata record: record fields, no X labels, ≤ 2 KB,
   }
   const nav = textOf(await callTool("get_resource", { ref: "navbar-gallery" }));
   expect(nav.split("\n")[0]).toBe("Navbar Gallery — Gallery of 450+ real-world website navigation bars, tagged by navigation type, visual style and industry.");
-  expect(nav).toContain("elements: navbar, sidebar, breadcrumbs (kinds — navbar: static, dropdown, mega-menu");
+  expect(nav).toContain("elements: navbar, sidebar, breadcrumbs (kinds — navbar: static, ");
+  expect(nav).toMatch(/kinds — navbar: [^)]*mega-menu/);
   expect(nav).toContain("categories: sections (Section galleries & blocks), inspiration (");
   const magic = (await callTool("get_resource", { ref: "magicui-design" })).structuredContent.resource;
   expect(magic).toMatchObject({ type: "component-library", pricing: "freemium", license: null, related: { repo: null, docs: "https://magicui.design/docs", npm: null, figma: null, parent: null } });
@@ -872,13 +873,14 @@ test("get_resource with a metadata record: record fields, no X labels, ≤ 2 KB,
 });
 
 test("get_resource without a record keeps its source text: labels, no record lines, metadata missing", async () => {
-  const r = await callTool("get_resource", { ref: "reactbits.dev" });
+  // after the 2B run only dead entries (reach dead / repo-gone) are left without a record
+  const r = await callTool("get_resource", { ref: "github-com-pmndrs-react-three-fiber" });
   const text = textOf(r);
-  expect(text).toContain('people call it: "React Bits"');
+  expect(text).toContain('people call it: "React Three Fiber"');
   for (const line of ["type: ", "keywords: ", "contains: ", "elements: ", "formats: "]) expect(text).not.toContain(`\n${line}`);
   const res = r.structuredContent.resource;
   expect(res).toMatchObject({ metadata: "missing", type: null, keywords: [], contains: [], pricing: null, related: null });
-  expect(res.elements).toEqual(["background"]); // provisional, from its labels (catalog.json elements_from: "hints")
+  expect(res.elements).toEqual(["3d"]); // provisional, from its hints (catalog.json elements_from: "hints")
 });
 
 test("a record's keywords are searchable: an entry ranks by what its record says", async () => {

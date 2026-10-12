@@ -1,0 +1,21 @@
+{
+  "id": "ruben-substack-com-p-infographics",
+  "url": "https://ruben.substack.com/p/infographics",
+  "kind": "page",
+  "hints_hash": "f52e1edf3556bf85",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "commandcode/deepseek/deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/infographics", "title": "Infographics. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Infographics.",
+  "summary": "Step-by-step guide to making infographics with AI in Claude, including the full copy-paste prompt.",
+  "description": "Ruben Hassid's guide to making infographics with AI in Claude: upload reference images, paste a design-lead prompt that extracts a design system, writes DESIGN_SYSTEM.md and builds a tokens preview, then generate the infographic from your information. Includes the full prompt and a screenshot walkthrough; later sections are for paid subscribers.",
+  "type": "article",
+  "keywords": ["infographic", "ai infographic", "claude", "prompt", "design system", "ai image", "visual content", "linkedin", "guide", "image generation"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "pricing": "paid",
+  "confidence": 0.8
+}

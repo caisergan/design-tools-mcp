@@ -1,0 +1,36 @@
+{
+  "id": "typewolf-com",
+  "url": "https://typewolf.com",
+  "kind": "site",
+  "hints_hash": "1d2e09b4481cd1e3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://typewolf.com", "title": "What’s Trending in Type · Typewolf", "status": null},
+    {"url": "https://www.typewolf.com/guides", "title": "Guides & Resources · Typewolf", "status": null},
+    {"url": "https://www.typewolf.com/about", "title": "About · Typewolf", "status": null},
+    {"url": "https://www.typewolf.com/intro", "title": "Intro Font Combinations & Free Alternatives · Typewolf", "status": null}
+  ],
+  "status": "ok",
+  "name": "Typewolf",
+  "summary": "Typography resource with font lists, pairings, free alternatives and a daily showcase of fonts used on real websites.",
+  "description": "An independent typography site by Jeremiah Shoaf, running since 2013. It features one website a day with the fonts it uses, typeface pages with specimens, similar-font and free-alternative suggestions, curated top-10 font lists by classification and alternatives, plus font pairing lookbooks and guides and resources for choosing type.",
+  "type": "directory",
+  "categories": ["fonts", "inspiration"],
+  "elements": ["text-effect", "features", "input", "chart", "banner", "checkbox"],
+  "keywords": ["font pairing", "font recommendation", "typeface", "typography", "web font", "free font alternative", "font list", "font combination", "type specimen", "font usage data", "typography guide", "font showcase"],
+  "contains": [
+    "1,139 typeface, list and guide pages",
+    "daily site-of-the-day writeup of fonts used on real websites",
+    "top-10 font lists by classification (sans-serif, serif, slab serif, monospaced …)",
+    "alternative lists for Helvetica, Futura, Proxima Nova and others",
+    "free font lists, lookbooks and guides, some paid"
+  ],
+  "formats": ["links", "screenshots", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.typewolf.com/guides", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

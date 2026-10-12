@@ -1,0 +1,100 @@
+{
+  "id": "hyperbrowser-ai",
+  "url": "https://hyperbrowser.ai",
+  "kind": "site",
+  "hints_hash": "58bbd7d14a987e0d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://hyperbrowser.ai/llms.txt",
+      "title": "Hyperbrowser",
+      "status": null
+    },
+    {
+      "url": "https://hyperbrowser.ai",
+      "title": "Hyperbrowser - Web Infra for AI Agents",
+      "status": 200
+    },
+    {
+      "url": "https://hyperbrowser.ai/docs/home.md",
+      "title": "Home",
+      "status": 200
+    },
+    {
+      "url": "https://hyperbrowser.ai/docs/llms.txt",
+      "title": "Hyperbrowser",
+      "status": 200
+    },
+    {
+      "url": "https://hyperbrowser.ai/pricing",
+      "title": "Pricing - Hyperbrowser",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Hyperbrowser",
+  "summary": "Cloud browser sessions, scraping, agent sandboxes and MCP tools for AI automation, with Python and Node SDKs.",
+  "description": "Cloud browsers for AI agents and automation: managed browser sessions that Playwright, Puppeteer or Selenium connect to, scraping and multi-page crawling to HTML, markdown or structured data with AI extraction schemas, the open-source Playwright-powered HyperAgent framework, and sandboxes for agent code execution. Python and Node.js SDKs, a REST API, MCP tools and the hx CLI; built by S2 Labs Inc.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "cloud browser",
+    "browser automation",
+    "headless browser",
+    "web scraping",
+    "web crawler",
+    "ai agent",
+    "playwright",
+    "puppeteer",
+    "selenium",
+    "stealth mode",
+    "proxy",
+    "sandbox",
+    "structured data extraction",
+    "mcp",
+    "rest api",
+    "sdk"
+  ],
+  "contains": [
+    "managed cloud browser sessions (Playwright, Puppeteer, Selenium)",
+    "scrape to HTML, markdown or structured data; AI extraction with schemas",
+    "multi-page crawl jobs",
+    "HyperAgent: open-source Playwright-powered agent framework",
+    "sandboxes for agent code execution, with SDKs and the hx CLI",
+    "stealth mode with anti-detection and residential or datacenter proxies",
+    "Python and Node.js SDKs plus REST API and MCP tools",
+    "credits-based service pricing with public tiers"
+  ],
+  "formats": [
+    "api",
+    "npm-package",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "python",
+    "node",
+    "playwright",
+    "puppeteer",
+    "selenium"
+  ],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://hyperbrowser.ai/docs",
+    "npm": "@hyperbrowser/sdk",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

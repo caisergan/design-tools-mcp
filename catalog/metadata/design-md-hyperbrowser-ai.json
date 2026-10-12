@@ -1,0 +1,83 @@
+{
+  "id": "design-md-hyperbrowser-ai",
+  "url": "https://design-md.hyperbrowser.ai",
+  "kind": "site",
+  "hints_hash": "de5d704dd6cd505d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://design-md.hyperbrowser.ai",
+      "title": "DESIGNMD",
+      "status": 200
+    },
+    {
+      "url": "https://design-md.hyperbrowser.ai/llms.txt",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://design-md.hyperbrowser.ai/about",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://design-md.hyperbrowser.ai/docs",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://design-md.hyperbrowser.ai/pricing",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://design-md.hyperbrowser.ai/robots.txt",
+      "title": null,
+      "status": 404
+    }
+  ],
+  "status": "partial",
+  "name": "DESIGNMD",
+  "summary": "Extracts a DESIGN.md from any website, following Google's open DESIGN.md standard.",
+  "description": "A web tool that extracts a DESIGN.md file from any website, following Google's open DESIGN.md standard for describing a visual identity to coding agents. The site boots entirely in JavaScript, so its interface, pricing and output options could not be read; only the name and one-line description above are published.",
+  "type": "tool",
+  "categories": [
+    "design-rules",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "design.md",
+    "design system",
+    "extract design token",
+    "website design spec",
+    "ai coding agent",
+    "design rule",
+    "url to design system",
+    "web design",
+    "design documentation",
+    "css token"
+  ],
+  "contains": [
+    "extracts a DESIGN.md from any website",
+    "follows Google's open DESIGN.md standard"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.55
+}

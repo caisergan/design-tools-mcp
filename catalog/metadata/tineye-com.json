@@ -1,0 +1,33 @@
+{
+  "id": "tineye-com",
+  "url": "https://tineye.com",
+  "kind": "site",
+  "hints_hash": "eba74e255910517d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://services.tineye.com/", "title": "TinEye Services", "status": 200},
+    {"url": "https://services.tineye.com/TinEyeAPI", "title": "TinEye Reverse Image Search", "status": 200}
+  ],
+  "status": "partial",
+  "name": "TinEye",
+  "summary": "Reverse image search engine: give it an image and it finds where that image appears on the web.",
+  "description": "Reverse image search and image recognition service. Its services site lists MatchEngine (finds duplicate and modified copies in your own image collection), the TinEye API (large-scale reverse image search for image verification, UGC moderation, copyright compliance and fraud detection), TinEye Alerts (automated image tracking with daily reports), WineEngine, MobileEngine and MulticolorEngine. The main tineye.com site renders only with JavaScript, so its search interface could not be read.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["reverse image search", "image search engine", "find image source", "image recognition", "duplicate image", "image tracking", "copyright", "ugc moderation", "computer vision", "api"],
+  "contains": [
+    "reverse image search: find where an image appears on the web",
+    "products: MatchEngine, TinEye API, TinEye Alerts, WineEngine, MobileEngine, MulticolorEngine",
+    "API use cases: image verification, UGC moderation, copyright compliance, fraud detection",
+    "MatchEngine finds duplicate and modified copies within your own collection"
+  ],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

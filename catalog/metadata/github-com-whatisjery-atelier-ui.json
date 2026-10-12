@@ -1,0 +1,99 @@
+{
+  "id": "github-com-whatisjery-atelier-ui",
+  "url": "https://github.com/whatisjery/atelier-ui",
+  "kind": "repo",
+  "hints_hash": "b2674382e010af88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/whatisjery/atelier-ui/blob/HEAD/README.md",
+      "title": "Atelier UI",
+      "status": 200
+    },
+    {
+      "url": "https://atelier-ui.com/docs",
+      "title": "How it works",
+      "status": 200
+    },
+    {
+      "url": "https://atelier-ui.com/docs/getting-started/license",
+      "title": "License",
+      "status": 200
+    },
+    {
+      "url": "https://atelier-ui.com/catalog",
+      "title": "Components",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Atelier UI",
+  "summary": "Motion and React Three Fiber component system for React and Next.js: WebGL galleries, cursors, scroll effects, page transitions.",
+  "description": "A copy-in component system (French for workshop) for React and Next.js: background effects, text animations, cursor interactions, scroll effects and page transitions built on Motion, React Three Fiber and Tailwind CSS v4. Components share one WebGL canvas and one smooth-scroll loop, so effects stay aligned to the DOM. Installs are driven by coding-agent prompts that write a SKILL.md per component. 36 components and 7 foundation blocks; free components are MIT, some Pro components need a one-time license key.",
+  "type": "registry",
+  "categories": [
+    "motion",
+    "registries"
+  ],
+  "elements": [
+    "background",
+    "text-effect",
+    "cursor",
+    "scroll-effect",
+    "3d"
+  ],
+  "keywords": [
+    "react three fiber",
+    "webgl",
+    "motion",
+    "scroll effect",
+    "cursor effect",
+    "page transition",
+    "text animation",
+    "background effect",
+    "3d gallery",
+    "smooth scroll",
+    "nextjs",
+    "tailwind css",
+    "copy-paste component",
+    "shadcn registry",
+    "skill.md"
+  ],
+  "contains": [
+    "36 components and 7 foundation blocks",
+    "8 background effects, 11 cursor effects, 11 scroll effects, 4 page transitions",
+    "components share one WebGL canvas and one Lenis smooth-scroll loop",
+    "installs driven by coding-agent prompt plus SKILL.md; MCP supported",
+    "free components MIT; some Pro components need a one-time license key"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "prompts",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "three.js",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/whatisjery/atelier-ui",
+    "docs": "https://atelier-ui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

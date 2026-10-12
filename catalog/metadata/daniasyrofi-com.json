@@ -1,0 +1,90 @@
+{
+  "id": "daniasyrofi-com",
+  "url": "https://daniasyrofi.com",
+  "kind": "site",
+  "hints_hash": "444376515af4aa40",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://daniasyrofi.com/llms.txt",
+      "title": "Muhammad Dani Asyrofi",
+      "status": null
+    },
+    {
+      "url": "https://daniasyrofi.com",
+      "title": "Dani Asyrofi | Product designer, building in code",
+      "status": 200
+    },
+    {
+      "url": "https://daniasyrofi.com/credits",
+      "title": "Credits | Dani Asyrofi",
+      "status": 200
+    },
+    {
+      "url": "https://daniasyrofi.com/LICENSE",
+      "title": "LICENSE",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Dani Asyrofi",
+  "summary": "Portfolio of a Jakarta product designer: selected work, micro-interactions, a loading-states playground and writing.",
+  "description": "Personal portfolio of product designer Dani Asyrofi (Abadikan, SyroPixel). Shows independent work including a playground for loading states and interface feedback, interactive micro-interactions, and selected essays published on Medium; the site is MIT-licensed and publishes llms.txt entry points for agents.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "motion"
+  ],
+  "elements": [
+    "loader"
+  ],
+  "keywords": [
+    "portfolio",
+    "product designer",
+    "micro interaction",
+    "interaction design",
+    "loading state",
+    "animation",
+    "motion design",
+    "interface design",
+    "design portfolio",
+    "typography",
+    "web design",
+    "ui design",
+    "personal site",
+    "design engineering"
+  ],
+  "contains": [
+    "portfolio of a product designer based in Jakarta",
+    "independent work incl. a loading-states playground",
+    "selected essays published on Medium",
+    "interactive micro-interactions (8-direction portrait, card details)",
+    "site source code MIT-licensed; fonts under OFL",
+    "llms.txt listing machine-readable entry points"
+  ],
+  "formats": [
+    "links",
+    "screenshots"
+  ],
+  "stack": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

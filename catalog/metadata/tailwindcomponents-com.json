@@ -1,0 +1,28 @@
+{
+  "id": "tailwindcomponents-com",
+  "url": "https://tailwindcomponents.com",
+  "kind": "site",
+  "hints_hash": "3474e7ec77555dfd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:28:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tailwindcomponents.com", "title": "Tailwind CSS Components - 600+ Free Examples and Templates", "status": null},
+    {"url": "https://www.creative-tim.com/twcomponents/components", "title": "3087+ Tailwind CSS Components Gallery", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TW Components",
+  "summary": "Free community repository of 3,000+ copy-paste Tailwind CSS components and templates, tagged by type and creator.",
+  "description": "A community repository of open-source Tailwind CSS components and templates to bootstrap apps, projects and landing pages (tailwindcomponents.com now redirects to Creative Tim's TW Components). Components are tagged by type with counts, ranked by popularity and credited to their creators; the gallery lists 3,087+ free UI components and templates.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["navbar", "banner", "breadcrumbs", "modal", "dropdown", "tooltip", "alert", "button", "checkbox", "card", "avatar", "badge", "calendar", "accordion", "chart", "carousel", "chat"],
+  "keywords": ["tailwind css", "tailwind component", "free component", "copy paste", "community component", "ui block", "template", "tailwind template", "landing page", "dashboard", "ecommerce", "alpinejs", "html", "frontend", "open source", "web3", "admin", "button", "card", "form"],
+  "contains": ["3,087+ free community components and templates", "tag counts: Cards 840, Buttons 441, Alpine.js 93, Awesome 69, Alerts 37", "more tags: Avatars 21, Checkbox 15, Charts 13, Chat 12, Calendar 12, Banner 13, Breadcrumbs 10", "top creators leaderboard (200, 123, 97, 95, 81 components each)", "feeds for latest and most popular components", "open-source components and templates for apps, projects and landing sites"],
+  "formats": ["code"],
+  "stack": ["tailwind", "alpinejs", "html"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

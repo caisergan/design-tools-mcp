@@ -1,0 +1,22 @@
+{
+  "id": "ruben-substack-com-p-sorry-claude",
+  "url": "https://ruben.substack.com/p/sorry-claude",
+  "kind": "page",
+  "hints_hash": "595238d0bba6ae89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:10:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/sorry-claude", "title": "Sorry, Claude. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Sorry, Claude",
+  "summary": "Paid comparison of ChatGPT 6-Astra vs Claude Fable-5.1 that picks ChatGPT as the winner, with where-and-how sections.",
+  "description": "An instalment of the How to AI newsletter comparing two freshly released models — ChatGPT 6-Astra and Claude Fable-5.1 — and giving a verdict: ChatGPT won. The outline covers where and how to use each model plus a reusable \"One Prompt\". The full text is for paid subscribers.",
+  "type": "article",
+  "keywords": ["model comparison", "ai model", "llm", "benchmark", "ai guide", "ai newsletter", "prompt", "chatbot"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.8
+}

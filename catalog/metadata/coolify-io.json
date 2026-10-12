@@ -1,0 +1,92 @@
+{
+  "id": "coolify-io",
+  "url": "https://coolify.io",
+  "kind": "site",
+  "hints_hash": "2f060a60a7f95181",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:46:12Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://coolify.io",
+      "title": "Coolify - Self-hosting with superpowers",
+      "status": null
+    },
+    {
+      "url": "https://coolify.io/docs",
+      "title": "Coolify Docs",
+      "status": null
+    },
+    {
+      "url": "https://coolify.io/pricing",
+      "title": "Pricing | Coolify",
+      "status": null
+    },
+    {
+      "url": "https://coolify.io/self-hosted",
+      "title": "Self-Hosted Coolify",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Coolify",
+  "summary": "Open-source, self-hostable deployment platform: run apps, databases and 280+ one-click services on your own servers.",
+  "description": "An open-source alternative to Vercel, Heroku, Netlify and Railway that runs on servers you connect over SSH. Builds every commit with Nixpacks, Railpack, a Dockerfile or Docker Compose and deploys apps, databases and 280+ one-click services, with free Let's Encrypt SSL, automatic database backups, monitoring, log drains, scheduled tasks and an MCP server that lets AI agents deploy and read logs. For developers and teams who want to own their infrastructure; self-hosting is free forever, the managed Cloud starts at $5/month.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "self-hosting",
+    "deployment platform",
+    "devop",
+    "docker",
+    "paas",
+    "server management",
+    "open source",
+    "heroku alternative",
+    "vercel alternative",
+    "database hosting",
+    "mcp server",
+    "ai agent",
+    "vps",
+    "ssl certificate",
+    "ci/cd",
+    "webhook",
+    "monitoring",
+    "backup",
+    "terminal",
+    "ssh"
+  ],
+  "contains": [
+    "deploy apps, databases and 280+ one-click services to your own servers",
+    "builds with Nixpacks, Railpack, Dockerfile or Docker Compose",
+    "one-click databases: PostgreSQL, MySQL, MariaDB, MongoDB, Redis, KeyDB, Dragonfly, ClickHouse",
+    "free Let's Encrypt SSL, automatic S3 backups, monitoring, log drains, scheduled tasks",
+    "MCP server so AI agents can list resources, deploy and read logs",
+    "self-hosted free forever; Cloud $5/month base plus $3 per extra server",
+    "3,641+ Cloud customers; 20k+ community members"
+  ],
+  "formats": [
+    "code",
+    "api",
+    "cli",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://coolify.io/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

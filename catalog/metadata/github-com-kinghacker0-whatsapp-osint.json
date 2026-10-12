@@ -1,0 +1,76 @@
+{
+  "id": "github-com-kinghacker0-whatsapp-osint",
+  "url": "https://github.com/kinghacker0/WhatsApp-OSINT",
+  "kind": "repo",
+  "hints_hash": "3318b77c229a9ee0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/kinghacker0/WhatsApp-OSINT/blob/HEAD/README.md",
+      "title": null,
+      "status": null
+    },
+    {
+      "url": "https://github.com/kinghacker0/WhatsApp-OSINT",
+      "title": "GitHub - kinghacker0/WhatsApp-OSINT: OSINT tool for WhatsApp that allows you to obtain profile pictures, verify Business accounts and check status.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "WhatsApp OSINT",
+  "summary": "Python CLI OSINT tool that looks up WhatsApp profile photos, business status, linked devices and privacy settings.",
+  "description": "A terminal tool for WhatsApp OSINT lookups: enter a phone number with its country code and query six endpoints — about, base64, business, devices, doublecheck and privacy — through the RapidAPI WhatsApp OSINT API. It retrieves and auto-saves profile photos as JPG, detects hidden or missing pictures, verifies Business accounts, checks user status, analyzes linked devices and shows privacy settings, with an interactive colored menu. Tested on Kali, Parrot, BackBox, Arch Linux and Windows 11; Python 3.8+.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "whatsapp",
+    "osint",
+    "phone number lookup",
+    "profile picture",
+    "rapidapi",
+    "python",
+    "cli",
+    "security",
+    "reconnaissance",
+    "business account",
+    "linked device",
+    "privacy setting",
+    "kali linux"
+  ],
+  "contains": [
+    "6 endpoints: about, base64, business, devices, doublecheck, privacy",
+    "retrieves and auto-saves profile photos as JPG; detects hidden pictures",
+    "verifies WhatsApp Business accounts and checks user status",
+    "analyzes linked devices and shows privacy settings",
+    "validates phone number formats; international numbers with country code",
+    "interactive colored terminal menu; Python 3.8+",
+    "requires a RapidAPI key and plan",
+    "tested on Kali, Parrot, BackBox, Arch Linux and Windows 11"
+  ],
+  "formats": [
+    "code",
+    "cli"
+  ],
+  "stack": [
+    "python"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/kinghacker0/WhatsApp-OSINT",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

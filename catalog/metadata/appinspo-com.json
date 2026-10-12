@@ -1,0 +1,28 @@
+{
+  "id": "appinspo-com",
+  "url": "https://appinspo.com",
+  "kind": "site",
+  "hints_hash": "2a37a24c3097eff7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://appinspo.com", "title": "Appinspo - The latest trends in app visual interface design inspiration", "status": null},
+    {"url": "https://appinspo.com/about", "title": "Appinspo - The latest trends in app visual interface design inspiration", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Appinspo",
+  "summary": "Inspiration showcase of current app interface design trends for digital products.",
+  "description": "A design-inspiration resource about trends in app visual interface design, aimed at people building digital products. The site renders client-side, so the gallery itself could not be read.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["app design", "app inspiration", "interface design", "ui inspiration", "mobile app", "design trend", "visual design", "gallery"],
+  "contains": ["app visual interface design inspiration for digital products"],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

@@ -1,0 +1,26 @@
+{
+  "id": "beui-dev-components-blocks-signup-form",
+  "url": "https://beui.dev/components/blocks/signup-form",
+  "kind": "page",
+  "hints_hash": "0392d39a5f38aed5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/blocks/signup-form", "title": "Sign Up Form · React motion component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Sign Up Form",
+  "summary": "Composed sign-up form block for React and Next.js with inline validation, a password strength meter and animated submit states.",
+  "description": "A copy-paste sign-up form with name, email, password and confirm-password fields, a terms checkbox and a submit button that follows the form lifecycle. A field is flagged only once it is left and cleared the moment it is fixed; the length-weighted strength meter, password reveal and loading, success and error states are built in. Install with the shadcn CLI or copy the TSX source.",
+  "type": "block-library",
+  "elements": ["form", "input", "checkbox", "button", "progress"],
+  "keywords": ["signup form", "form validation", "password strength meter", "password reveal", "react form", "nextjs", "shadcn", "animated button", "loading state", "error state", "copy paste component", "motion component", "free component"],
+  "contains": ["sign-up form block with name, email, password and confirm password fields", "validation flags a field after it is left and clears it when fixed", "length-weighted password strength meter and password reveal", "animated submit lifecycle: loading, success and error", "installs with the shadcn CLI or by copying the TSX source"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "nextjs"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.9
+}

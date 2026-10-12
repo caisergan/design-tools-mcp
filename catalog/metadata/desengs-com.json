@@ -1,0 +1,30 @@
+{
+  "id": "desengs-com",
+  "url": "https://desengs.com",
+  "kind": "site",
+  "hints_hash": "e76b80b8670f2796",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://desengs.com", "title": "DesEngs: Resources for Design Engineers", "status": null},
+    {"url": "https://desengs.com/inspiration", "title": "Curated Web Design Inspiration — DesEngs", "status": 200},
+    {"url": "https://desengs.com/minimum", "title": "Minimal Website Design Directory — DesEngs", "status": 200},
+    {"url": "https://desengs.com/dsgnrs", "title": "DSGNRS: Exceptional Designers to Follow — DesEngs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DesEngs",
+  "summary": "Curated resource directory for design engineers: link feed, website showcases and a newsletter.",
+  "description": "A dated feed of links to tools, articles, videos, communities and jobs for people working between design and code, plus three galleries: 107 website showcases (Inspiration), 196 minimal websites (Minimum) and 72 designers to follow (DSGNRS).",
+  "type": "directory",
+  "categories": ["inspiration", "learning"],
+  "elements": [],
+  "keywords": ["design engineer", "design engineering", "curated resource", "web design inspiration", "minimal website", "portfolio showcase", "designer directory", "tool directory", "newsletter", "frontend design", "article", "video", "community", "job board"],
+  "contains": ["dated feed of tools, articles, videos, communities and job posts", "Inspiration: 107 curated website showcases", "Minimum: 196 curated minimal websites", "DSGNRS: 72 designers to follow", "newsletter signup"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

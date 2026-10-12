@@ -1,0 +1,32 @@
+{
+  "id": "apify-com",
+  "url": "https://apify.com",
+  "kind": "site",
+  "hints_hash": "a865cef6caeaeedd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://apify.com/llms.txt", "title": "Apify", "status": null},
+    {"url": "https://apify.com", "title": "Apify: Marketplace of ready-to-run tools for AI", "status": 200},
+    {"url": "https://apify.com/templates", "title": "Web scraping code templates · Apify", "status": 200},
+    {"url": "https://apify.com/pricing.md", "title": "Apify Pricing", "status": 200},
+    {"url": "https://apify.com/about", "title": "About · Apify", "status": 200},
+    {"url": "https://apify.com/templates/python-scrapy", "title": "Python site crawler (Scrapy) · Template · Apify", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Apify",
+  "summary": "Marketplace of 84,000+ ready-to-run cloud tools (Actors) for web scraping, data extraction and AI agents.",
+  "description": "Apify Store is a marketplace of serverless cloud programs called Actors that take JSON input and return structured output: website scrapers, lead generation, social media monitoring, competitor tracking and content feeds for RAG pipelines. Actors run from a console, REST API, CLI, SDK or MCP server, and independent creators publish and price their own Actors and get monthly payouts.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["web scraping", "scraper", "actor", "automation", "mcp server", "api", "cli", "proxy", "data extraction", "lead generation", "crawler", "python", "javascript", "playwright", "puppeteer", "scrapy", "dataset", "scheduler"],
+  "contains": ["84,926 ready-to-run tools (Actors)", "free plan renews $5 of usage credit monthly, no credit card", "paid plans from $19/month plus pay-as-you-go usage, 10% off when billed annually", "MCP server, REST API, CLI, SDK (apify-client) and agent quickstart", "JavaScript, TypeScript and Python code templates; $500 free usage for new creators", "open-source Crawlee library, 26,110 GitHub stars", "proxy and anti-blocking infrastructure", "marketplace: third-party creators publish Actors and earn monthly payouts"],
+  "formats": ["api", "cli", "npm-package", "code", "docs", "templates"],
+  "stack": ["javascript", "python", "playwright", "puppeteer", "selenium", "scrapy"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": "apify-client", "figma": null, "parent": null},
+  "confidence": 0.9
+}

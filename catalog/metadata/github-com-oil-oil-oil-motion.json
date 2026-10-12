@@ -1,0 +1,35 @@
+{
+  "id": "github-com-oil-oil-oil-motion",
+  "url": "https://github.com/oil-oil/oil-motion",
+  "kind": "repo",
+  "hints_hash": "bc3ede5882e2514d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/oil-oil/oil-motion/blob/HEAD/README.md", "title": "", "status": null},
+    {"url": "https://github.com/oil-oil/oil-motion/blob/HEAD/SKILL.md", "title": "Oil Motion", "status": null}
+  ],
+  "status": "ok",
+  "name": "Oil Motion",
+  "summary": "Agent skill that turns an interaction idea into web animation assets — video, sprite atlas, timeline — plus runtime code.",
+  "description": "A skill for web animation driven by scroll, drag, pointer, touch, device orientation or component state. It locks a concept contract, verifies keyframes, generates continuous motion with AI video, compresses the result into baked video, chroma-key video or alpha sprite atlases according to a budget script, and delivers a compiled timeline, runtime controllers (frame-scrub, segment playback, autonomous playback), interaction code and QA including a static fallback for reduced motion.",
+  "type": "agent-skill",
+  "categories": ["motion"],
+  "elements": ["scroll-effect", "cursor"],
+  "keywords": ["animation", "web animation", "interactive animation", "scroll animation", "scroll effect", "mouse follow", "pointer", "drag", "parallax", "sprite sheet", "alpha video", "motion design", "agent skill", "runtime", "keyframe"],
+  "contains": [
+    "scroll, drag, pointer, touch and device-orientation driven animation",
+    "keyframe pilot gate before mass generation",
+    "delivery formats: baked MP4, chroma-key video, alpha WebP sprite atlas",
+    "runtime controllers: frame-scrub, segment playback, autonomous playback",
+    "four single-source-of-truth config files (concept contract, brief, timeline, motion budget)",
+    "Python + FFmpeg pipeline; API keys kept in the system credential store"
+  ],
+  "formats": ["prompts", "code", "docs"],
+  "stack": ["python", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/oil-oil/oil-motion", "docs": "https://github.com/oil-oil/oil-motion/blob/HEAD/SKILL.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

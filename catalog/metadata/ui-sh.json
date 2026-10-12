@@ -1,0 +1,99 @@
+{
+  "id": "ui-sh",
+  "url": "https://ui.sh",
+  "kind": "site",
+  "hints_hash": "62095194dccd5557",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T15:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.sh",
+      "title": "ui.sh",
+      "status": 200
+    },
+    {
+      "url": "https://ui.sh/skills/ideas",
+      "title": "ui.sh",
+      "status": 200
+    },
+    {
+      "url": "https://ui.sh/skills/design",
+      "title": "ui.sh",
+      "status": 200
+    },
+    {
+      "url": "https://ui.sh/skills/brand-kit",
+      "title": "ui.sh",
+      "status": 200
+    },
+    {
+      "url": "https://ui.sh/skills/componentize",
+      "title": "ui.sh",
+      "status": 200
+    },
+    {
+      "url": "https://ui.sh/pricing",
+      "title": null,
+      "status": 404
+    }
+  ],
+  "status": "ok",
+  "name": "ui.sh",
+  "summary": "Collection of task-oriented agent skills for building UI: design, ideas, brand kit, componentize, dark mode and responsive workflows.",
+  "description": "A set of skills that install into AI coding agents and steer UI work: /design builds new UI with senior-designer heuristics; /ideas generates several design directions and inserts an in-browser picker to compare them; /brand-kit turns a product idea into a visual identity board. Other skills refactor code into components, canonicalize Tailwind classes, add dark mode, adapt images to dark mode, make designs responsive and turn screenshots into semantic markup. Install per project with npx @uidotsh/install and an account token.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "ui design",
+    "design workflow",
+    "prompt",
+    "slash command",
+    "claude code",
+    "codex",
+    "dark mode",
+    "tailwind",
+    "responsive design",
+    "componentize",
+    "brand kit",
+    "design concept",
+    "markup from image",
+    "installer",
+    "design rule",
+    "ai coding agent"
+  ],
+  "contains": [
+    "9 skills incl. design, ideas, brand-kit, componentize and Tailwind canonicalization",
+    "further skills: add dark mode, dark mode image, make responsive, markup from image",
+    "install per project: npx @uidotsh/install <skill> --token=<token>",
+    "skills run as slash commands (/design, /ideas, /brand-kit) inside coding agents",
+    "ideas inserts an in-browser option picker to compare generated design directions",
+    "design uses senior-designer heuristics for layout, hierarchy, color, spacing and typography",
+    "brand-kit outputs a board with two site mockups plus typography and color guidance",
+    "tested with Claude Code (Opus) and Codex; brand-kit requires Codex image generation"
+  ],
+  "formats": [
+    "prompts",
+    "cli",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": "@uidotsh/install",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

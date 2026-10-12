@@ -1,0 +1,39 @@
+{
+  "id": "shadscan-com",
+  "url": "https://shadscan.com",
+  "kind": "site",
+  "hints_hash": "ed89539d61733243",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadscan.com", "title": "shadscan: Audit shadcn apps for UI fundamentals", "status": null},
+    {"url": "https://www.shadscan.com/docs", "title": "Shadscan CLI documentation | shadscan", "status": null},
+    {"url": "https://github.com/TheOrcDev/shadscan", "title": "GitHub - TheOrcDev/shadscan: Deterministic UI audits for shadcn apps, built for your terminal, your CI, and your AI agent.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/TheOrcDev/shadscan/HEAD/README.md", "title": "Machine-readable, versioned report", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadscan",
+  "summary": "CLI and GitHub Action that statically audit React shadcn apps against 62 UI rules and score them from 0 to 100.",
+  "description": "A deterministic, read-only CLI for React shadcn apps: run it from a project root (npx @shadscan/cli, no install) and it scores UI fundamentals from 0 to 100 with cited evidence across 62 rules in six categories — foundation, interaction, states, accessibility, forms and production polish. Reports separate fixes, decisions and advisories; output comes as human text, JSON or a paste-ready agent handoff, with score gates, a composite GitHub Action, a pre-commit hook and an MCP server. A web scanner and hosted API cover public GitHub repositories.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "design-tools"],
+  "elements": [],
+  "keywords": ["ui audit", "accessibility audit", "shadcn", "shadcn ui", "cli", "static analysis", "ci", "score gate", "github action", "pre commit", "agent prompt", "mcp server", "react", "design review", "best practice", "code quality"],
+  "contains": [
+    "62 deterministic rules across six weighted categories",
+    "scores UI fundamentals 0-100 with evidence behind each finding",
+    "categories: foundation, interaction, states, accessibility, forms, production polish",
+    "human, JSON and agent-prompt output; fail-under score gates",
+    "composite GitHub Action and pre-commit score gate",
+    "MCP server with scan, listprojects and explainrule tools",
+    "web scanner and hosted API for public GitHub repositories",
+    "MIT license; 552 GitHub stars; v0.17.1"
+  ],
+  "formats": ["cli", "npm-package", "docs", "prompts", "api"],
+  "stack": ["react", "node"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TheOrcDev/shadscan", "docs": "https://www.shadscan.com/docs", "npm": "@shadscan/cli", "figma": null, "parent": null},
+  "confidence": 0.9
+}

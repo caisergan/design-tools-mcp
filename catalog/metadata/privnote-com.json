@@ -1,0 +1,28 @@
+{
+  "id": "privnote-com",
+  "url": "https://privnote.com",
+  "kind": "site",
+  "hints_hash": "f08f95ad80404775",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://privnote.com", "title": "Privnote - Send notes that will self-destruct after being read", "status": 200},
+    {"url": "https://privnote.com/info/about", "title": "About Privnote", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Privnote",
+  "summary": "Free web service that turns a note into a self-destructing, optionally password-protected link.",
+  "description": "Privnote encrypts your note in the browser and gives you a link to share; the note self-destructs after the recipient reads it once. Options include a manual password, an expiration date and an email notification when the note is destroyed. No password or user registration is required.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["self-destructing note", "encrypted note", "secret message", "private note", "burn after reading", "one-time link", "password protected note", "secure sharing", "ephemeral link", "no registration"],
+  "contains": ["notes self-destruct after being read", "optional manual password", "expiration date and destruction email notification", "no registration; note is encrypted in the browser", "link shared by email or instant message"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

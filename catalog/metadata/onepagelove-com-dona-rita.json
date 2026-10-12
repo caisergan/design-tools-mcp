@@ -1,0 +1,62 @@
+{
+  "id": "onepagelove-com-dona-rita",
+  "url": "https://onepagelove.com/dona-rita",
+  "kind": "page",
+  "hints_hash": "006be9d378446ca2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://onepagelove.com/dona-rita",
+      "title": "Dona Rita — One Page Website Award",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Dona Rita",
+  "summary": "Minimal one-pager for a Brazilian cheese bread bakery, kept on One Page Love as a screenshot and an archive link.",
+  "description": "One Page Love award entry for Dona Rita, a minimal bakery one-pager by Pedro Duarte promoting Brazilian cheese bread with only four images across the whole site. Flat-design, whitespace-heavy layout with a page border and a typewriter effect. The live site has been redesigned or gone offline, so the entry keeps the screenshot and links to an Archive.org copy.",
+  "type": "gallery",
+  "elements": [
+    "text-effect"
+  ],
+  "keywords": [
+    "one page website",
+    "one pager",
+    "bakery",
+    "food website",
+    "minimal",
+    "flat design",
+    "typewriter effect",
+    "whitespace",
+    "big image",
+    "landing page",
+    "web design inspiration"
+  ],
+  "contains": [
+    "minimal one-pager for the Dona Rita cheese bread bakery",
+    "only four images used in the whole site",
+    "features: big images, long scrolling, page border, typewriter effect, whitespace",
+    "style: flat design, minimal; category: digital product",
+    "published 6 Dec 2016",
+    "live site offline; entry keeps a screenshot and an Archive.org link"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "onepagelove-com"
+  },
+  "confidence": 0.9
+}

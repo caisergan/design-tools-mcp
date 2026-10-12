@@ -1,0 +1,30 @@
+{
+  "id": "ruben-substack-com-p-claude-cowork",
+  "url": "https://ruben.substack.com/p/claude-cowork",
+  "kind": "page",
+  "hints_hash": "f67542ee33232212",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-cowork", "title": "Cowork. - by Ruben Hassid - How to AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cowork",
+  "summary": "Step-by-step guide to setting up and using Claude Cowork, from plugins and connectors to a first 30-minute walkthrough.",
+  "description": "Ruben Hassid's guide to Claude Cowork for people who don't code: what Cowork is and how it differs from Claude chat, how to use plugins and connectors, an everyday Cowork workflow, where it falls short, and a first-30-minutes plan. Published in the How to AI newsletter with screenshots of the actual interface.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["claude cowork", "claude", "anthropic", "claude plugin", "claude connector", "ai workflow", "ai guide", "no-code", "productivity", "ai tool"],
+  "contains": [
+    "what Claude Cowork is and when to use it over Claude chat",
+    "plugins and connectors inside Cowork",
+    "a daily Cowork workflow, plus where it falls short",
+    "a first-30-minutes setup plan"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

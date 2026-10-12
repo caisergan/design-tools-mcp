@@ -1,0 +1,28 @@
+{
+  "id": "github-com-ogulcanbagatir-rn-animated-components-tree-main-components-sc",
+  "url": "https://github.com/ogulcanbagatir/rn-animated-components/tree/main/components/ScratchCard",
+  "kind": "page",
+  "hints_hash": "21560228896a8896",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/ogulcanbagatir/rn-animated-components/main/components/ScratchCard/README.md", "title": "🎉 ScratchCard", "status": 200},
+    {"url": "https://raw.githubusercontent.com/ogulcanbagatir/rn-animated-components/main/README.md", "title": "Animated Components for React Native & Expo Apps", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ScratchCard",
+  "summary": "Scratch-to-reveal card component for React Native: a canvas you scratch off with a pan gesture to show hidden content.",
+  "description": "A self-contained, copy-paste React Native component: ScratchCard.Behind holds the hidden content and ScratchCard.Overlay the layer the user scratches off with a pan gesture. Custom container styling and dynamic layout sizes; requires Skia, Reanimated and Gesture Handler.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["card"],
+  "keywords": ["react native", "expo", "scratch card", "scratch to reveal", "reveal effect", "canvas", "skia", "reanimated", "gesture handler", "pan gesture", "copy paste component", "animated component", "interactive card", "ios android web"],
+  "contains": ["scratch-off effect driven by a pan gesture", "customizable overlay and hidden behind content", "self-contained single file — copy ScratchCard.tsx into your project", "requires React Native Skia, Reanimated and Gesture Handler", "MIT, part of the NicheGuys animated components collection"],
+  "formats": ["code", "docs"],
+  "stack": ["react-native", "expo", "skia", "reanimated", "gesture-handler"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ogulcanbagatir/rn-animated-components", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.9
+}

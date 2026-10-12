@@ -1,0 +1,35 @@
+{
+  "id": "generativeloaders-com",
+  "url": "https://generativeloaders.com",
+  "kind": "site",
+  "hints_hash": "98182b47661b7860",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://generativeloaders.com", "title": "Generative Loaders — text, inline, and image loaders for React", "status": 200 },
+    { "url": "https://generativeloaders.com/docs", "title": "Documentation — Generative Loaders", "status": 200 },
+    { "url": "https://github.com/kasturibuilds/generative-loaders", "title": "GitHub - kasturibuilds/generative-loaders: Accessible React loading states for generative interfaces: streamed text, inline activity, and image generation. · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Generative Loaders",
+  "summary": "React loader library for AI waiting states: 16 text, 18 inline and 12 image variants across three accessible components.",
+  "description": "A React component library for the waiting states of generative products: TextLoader for streaming text, InlineLoader for buttons and status rows, and ImageLoader for placeholders while an image generates. 46 named variants in total (16 text, 18 inline, 12 image). React 18+, SSR-safe, accessible by default and published on npm as generative-loaders.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["loader"],
+  "keywords": ["react loader", "loading animation", "skeleton loader", "streaming text", "text loader", "inline loader", "image loader", "ai loading state", "generative ui", "typewriter effect", "loading placeholder", "react component", "npm package", "accessible", "framer motion", "animation variant"],
+  "contains": [
+    "46 variants: 16 text reveals, 18 inline indicators, 12 image placeholders",
+    "three primitives: TextLoader, InlineLoader, ImageLoader",
+    "streaming-friendly: pass the full response so far, only the new suffix animates",
+    "accessible by default (polite live status, respects prefers-reduced-motion)",
+    "React 18+, SSR-safe, MIT licensed, npm install generative-loaders"
+  ],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "typescript", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/kasturibuilds/generative-loaders", "docs": "https://generativeloaders.com/docs", "npm": "generative-loaders", "figma": null, "parent": null },
+  "confidence": 0.9
+}

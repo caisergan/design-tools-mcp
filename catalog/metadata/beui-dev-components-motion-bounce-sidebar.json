@@ -1,0 +1,26 @@
+{
+  "id": "beui-dev-components-motion-bounce-sidebar",
+  "url": "https://beui.dev/components/motion/bounce-sidebar",
+  "kind": "page",
+  "hints_hash": "f05e9ef255a051c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/motion/bounce-sidebar", "title": "Bounce Sidebar · React motion component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Bounce Sidebar",
+  "summary": "Vertical React sidebar navigation whose active dot springs between items along a curved path.",
+  "description": "A vertical sidebar navigation component where the active indicator dot jumps between destinations on a spring-loaded curved path. Ships as a shadcn registry item (@beui/bounce-sidebar) or copy-paste source, with items, value and class-name props documented on the page.",
+  "type": "component-library",
+  "elements": ["sidebar"],
+  "keywords": ["sidebar", "sidebar navigation", "vertical navigation", "animated indicator", "spring animation", "react", "nextjs", "motion", "shadcn", "navigation"],
+  "contains": ["vertical sidebar nav with a spring-loaded active indicator on a curved path", "props: items, value, defaultValue, onValueChange, ariaLabel, classNames", "installed via shadcn CLI (@beui/bounce-sidebar) or copy-paste"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.85
+}

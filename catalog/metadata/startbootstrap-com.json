@@ -1,0 +1,39 @@
+{
+  "id": "startbootstrap-com",
+  "url": "https://startbootstrap.com",
+  "kind": "site",
+  "hints_hash": "902cdd5bbcdc75df",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://startbootstrap.com", "title": "Start Bootstrap", "status": null},
+    {"url": "https://startbootstrap.com/themes", "title": "Start Bootstrap", "status": 200},
+    {"url": "https://startbootstrap.com/snippets", "title": "Start Bootstrap", "status": 200},
+    {"url": "https://startbootstrap.com/guides", "title": "Start Bootstrap", "status": 200},
+    {"url": "https://github.com/StartBootstrap/startbootstrap-bare", "title": "GitHub - StartBootstrap/startbootstrap-bare", "status": 200},
+    {"url": "https://github.com/startbootstrap", "title": "Start Bootstrap · GitHub", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Start Bootstrap",
+  "summary": "Free, open source Bootstrap 5 themes, templates and code snippets, with guides and tutorials.",
+  "description": "An open source library of free Bootstrap themes, templates and code snippets maintained by David Miller, with guides and tutorials for Bootstrap development. The free templates and themes are MIT licensed and cover admin dashboards, landing pages, portfolio and blog themes; they can be downloaded as releases, installed from npm or cloned from GitHub, where 50 template repositories are published.",
+  "type": "template",
+  "categories": ["templates", "sections"],
+  "elements": [],
+  "keywords": ["bootstrap", "bootstrap 5", "bootstrap template", "bootstrap theme", "free template", "html template", "admin dashboard template", "landing page template", "portfolio template", "website template", "css snippet", "open source", "responsive template"],
+  "contains": [
+    "free Bootstrap 5 themes, templates and code snippets",
+    "50 template repositories on GitHub",
+    "MIT license for the free templates and themes",
+    "themes for admin dashboards, landing pages, portfolios and blogs",
+    "install via npm, download releases or clone from GitHub",
+    "guides and tutorials for Bootstrap"
+  ],
+  "formats": ["code", "templates", "npm-package"],
+  "stack": ["bootstrap", "html", "css", "sass", "pug"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

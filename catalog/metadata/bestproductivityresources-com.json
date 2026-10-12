@@ -1,0 +1,32 @@
+{
+  "id": "bestproductivityresources-com",
+  "url": "https://bestproductivityresources.com",
+  "kind": "site",
+  "hints_hash": "c2507cda2ae3ecc5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bestproductivityresources.com/llms.txt", "title": "Best Productivity Resources", "status": null},
+    {"url": "https://bestproductivityresources.com", "title": "Best Productivity Resources: Tools, Apps & Free Guides", "status": 200},
+    {"url": "https://bestproductivityresources.com/guides", "title": "Free Guides on AI, Productivity and Money | BPR", "status": 200},
+    {"url": "https://bestproductivityresources.com/categories", "title": "Productivity Categories | Browse by Topic | BPR", "status": 200},
+    {"url": "https://bestproductivityresources.com/collections", "title": "Curated Productivity Collections | Best Productivity", "status": 200},
+    {"url": "https://bestproductivityresources.com/categories/research", "title": "Best Research Software, Apps & Tools | Best Productivity", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Best Productivity Resources",
+  "summary": "Hand-curated directory of productivity tools, apps, AI tools, courses and books, plus free guides and in-browser PDF tools.",
+  "description": "A directory of productivity resources: every listing is reviewed by hand and links straight to the original product website. Browsable by category, resource type, collection and goal, with faceted search, 109 free guides and a few free in-browser PDF tools. Curated and updated daily by Shushant Lakhyani.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["productivity tool", "productivity app", "tool directory", "ai tool", "note-taking app", "task management", "deep work", "time management", "knowledge management", "automation tool", "productivity guide", "curated directory", "free guide"],
+  "contains": ["hand-curated directory of productivity tools, apps and AI tools", "109 free guides, no signup", "categories with counts: AI Productivity 588, Workflows 514, Automation 297, Personal Productivity 260", "faceted search across the directory", "collections and browse-by-goal bundles", "free in-browser PDF tools: merge, split, compress, convert", "articles, comparisons and an update log", "sponsored slots marked on the homepage"],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

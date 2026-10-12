@@ -1,0 +1,27 @@
+{
+  "id": "figma-com-community-plugin-1612814320994608244-design-md-generator",
+  "url": "https://figma.com/community/plugin/1612814320994608244/design-md-generator",
+  "kind": "page",
+  "hints_hash": "255f8753259f5d9c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:41:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.figma.com/community/plugin/1612814320994608244/design-md-generator", "title": "DESIGN.md Generator | Figma", "status": 200},
+    {"url": "https://github.com/bergside/design-md-figma", "title": "GitHub - bergside/design-md-figma: Figma plugin that extracts local style guidelines and generates DESIGN.md and SKILL.md files for AI tools such as Claude Code, Codex, Cursor, and other AI tools", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DESIGN.md Generator",
+  "summary": "Figma plugin that turns local styles and variables into DESIGN.md and SKILL.md files for AI coding agents.",
+  "description": "Extracts local styles and system signals from a Figma file — colors, typography, spacing, radius, effects, grids and component families — and generates editable DESIGN.md and SKILL.md markdown that gives AI tools a design-system blueprint. Actions cover auto-extract, generate DESIGN.md, generate SKILL.md, toggle view, refresh and download. Open source under the MIT license, based on the TypeUI DESIGN.md format.",
+  "type": "plugin",
+  "elements": [],
+  "keywords": ["figma plugin", "design system", "design.md", "skill.md", "design token", "style guide", "agent skill", "ai agent", "design variable", "color token", "typography token", "spacing", "markdown", "export", "automation"],
+  "contains": ["auto-extracts colors, typography, spacing, radius, effects, grids, component families", "generates DESIGN.md and SKILL.md markdown files", "based on the open-source TypeUI DESIGN.md format", "actions: auto-extract, generate, toggle view, refresh, download", "MIT licensed TypeScript plugin built with esbuild"],
+  "formats": ["code", "prompts", "docs"],
+  "stack": ["typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/bergside/design-md-figma", "docs": null, "npm": null, "figma": "https://www.figma.com/community/plugin/1612814320994608244/design-md-generator", "parent": "figma-com"},
+  "confidence": 0.85
+}

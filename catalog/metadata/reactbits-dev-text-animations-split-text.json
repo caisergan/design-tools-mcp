@@ -1,0 +1,26 @@
+{
+  "id": "reactbits-dev-text-animations-split-text",
+  "url": "https://reactbits.dev/text-animations/split-text",
+  "kind": "page",
+  "hints_hash": "d0b706d90a8c730d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://reactbits.dev/text-animations/split-text", "title": "Split Text — React Text Animation | React Bits", "status": 200 },
+    { "url": "https://reactbits.dev/get-started/installation", "title": "Install React Bits Components | React Bits", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Split Text",
+  "summary": "React text animation component that splits text into characters or words for a staggered entrance animation.",
+  "keywords": ["react", "text animation", "split text", "staggered animation", "text effect", "entrance animation", "component", "tailwind", "micro interaction", "web animation"],
+  "elements": ["text-effect"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "tailwind", "css"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "reactbits-dev" },
+  "confidence": 0.9
+}

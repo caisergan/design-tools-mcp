@@ -1,0 +1,82 @@
+{
+  "id": "repostars-dev",
+  "url": "https://repostars.dev",
+  "kind": "site",
+  "hints_hash": "99edd3af0589a497",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://repostars.dev",
+      "title": "RepoStars",
+      "status": null
+    },
+    {
+      "url": "https://github.com/TheOrcDev/repostars",
+      "title": "GitHub - TheOrcDev/repostars: Modern, themeable GitHub star history charts. Open source, free, embeddable.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "RepoStars",
+  "summary": "Themeable GitHub star history charts: compare up to five repos and embed a live sparkline in a README.",
+  "description": "Web tool and API for charting exact per-day GitHub star history of any public repository. Compare up to five repos on one time axis, switch between 20 themes, export a 2400×1260 PNG or embed a 700×420 SVG sparkline in a README; share cards and JSON history come from public endpoints.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "chart"
+  ],
+  "keywords": [
+    "github star",
+    "star history",
+    "chart",
+    "readme embed",
+    "repository analytics",
+    "svg chart",
+    "png export",
+    "repo comparison",
+    "github api",
+    "share card"
+  ],
+  "contains": [
+    "exact per-day star counts from GitHub's privacy-safe star history endpoint",
+    "compare up to 5 repos on one time axis",
+    "20 themes incl. dark, light, neon, 8-bit and synthwave",
+    "PNG export at 2400×1260 and README embed as a 700×420 SVG sparkline",
+    "endpoints: /api/og share card, /api/export, /api/embed, /api/stars",
+    "shareable links that keep repos and theme in the URL"
+  ],
+  "formats": [
+    "png",
+    "svg",
+    "api",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "visx",
+    "framer-motion",
+    "nuqs"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/TheOrcDev/repostars",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

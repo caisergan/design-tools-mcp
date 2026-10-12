@@ -1,0 +1,16 @@
+{
+  "id": "skt-ch-ios27",
+  "url": "https://skt.ch/ios27",
+  "kind": "page",
+  "hints_hash": "e8c77347621e301d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://skt.ch/ios27", "title": "Sketch", "status": null}],
+  "status": "partial",
+  "name": "Sketch",
+  "summary": "Redirect target of skt.ch/ios27 on Sketch's site; rendered by JavaScript, so only the site's title and meta description are readable.",
+  "keywords": ["sketch", "shared document", "design document", "prototyping", "developer handoff", "design app"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.4
+}

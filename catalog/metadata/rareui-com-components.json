@@ -1,0 +1,29 @@
+{
+  "id": "rareui-com-components",
+  "url": "https://rareui.com/components",
+  "kind": "page",
+  "hints_hash": "d6de2c68155628cc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://rareui.com/components", "title": "Components | Rare UI", "status": 200},
+    {"url": "https://rareui.com/llms.txt", "title": "Rare UI", "status": 200},
+    {"url": "https://rareui.com/components/fluidorb", "title": "Fluid Orb — Animated React Component | Rare UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Rare UI Components",
+  "summary": "Index of 24 animated React components built with Tailwind and Motion, previewed on hover and installed with the shadcn CLI.",
+  "description": "Browses every Rare UI component in one page — sidebars, OTP input, FAQ, gooey nav, animated orbs and other frosted-glass pieces — grouped as New releases, Display, AI kit, Navigation, Inputs and Feedback. Each component is a single file you own, added with the shadcn CLI or through MCP; free to use with an attribution link (MIT with Commons Clause).",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["faq", "sidebar", "navbar", "progress", "otp-input", "button", "list", "text-effect", "3d", "ai-agent-ui"],
+  "keywords": ["animated react component", "shadcn registry", "framer motion", "tailwind css", "otp input", "sidebar", "gooey navigation", "scroll progress", "webgl orb", "ai interface", "frosted glass", "free component", "nextjs", "micro interaction"],
+  "contains": ["24 components in six groups: New releases, Display, AI kit, Navigation, Inputs, Feedback", "hover-to-play clip and live demo per component", "single-file source you own; install with the shadcn CLI (npx shadcn add swamimalode07/rare-ui/<name>) or MCP", "license: MIT with the Commons Clause; a visible credit link is required"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT+Commons-Clause",
+  "related": {"repo": "https://github.com/swamimalode07/rare-ui", "docs": null, "npm": null, "figma": null, "parent": "rareui-com"},
+  "confidence": 0.85
+}

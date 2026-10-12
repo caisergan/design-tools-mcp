@@ -1,0 +1,76 @@
+{
+  "id": "github-com-sersavan-shadcn-calendar-component",
+  "url": "https://github.com/sersavan/shadcn-calendar-component",
+  "kind": "repo",
+  "hints_hash": "d1fe83c29e05bd7a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/sersavan/shadcn-calendar-component/blob/HEAD/README.md",
+      "title": "Calendar Date Picker Component in Next.js",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/sersavan/shadcn-calendar-component",
+      "title": "GitHub - sersavan/shadcn-calendar-component",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Calendar Date Picker Component",
+  "summary": "Calendar date picker component for Next.js projects, designed with shadcn/ui and Radix UI.",
+  "description": "A copy-paste calendar date picker component designed with shadcn/ui, with single-date and date-range selection. The README walks through installing dependencies, creating calendar-date-picker.tsx in a components directory and wiring it into a Next.js page; a live demo runs on Vercel.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "calendar",
+    "date-picker"
+  ],
+  "keywords": [
+    "date picker",
+    "calendar",
+    "date range picker",
+    "shadcn ui",
+    "nextjs",
+    "react",
+    "radix ui",
+    "component",
+    "scheduling",
+    "booking form",
+    "input"
+  ],
+  "contains": [
+    "calendar date picker component with single and range selection",
+    "step-by-step Next.js integration guide in the README",
+    "built with shadcn/ui and Radix UI",
+    "live demo on Vercel"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/sersavan/shadcn-calendar-component",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

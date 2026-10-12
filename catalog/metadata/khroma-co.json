@@ -1,0 +1,33 @@
+{
+  "id": "khroma-co",
+  "url": "https://khroma.co",
+  "kind": "site",
+  "hints_hash": "40dfcbb797f5cfa1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://khroma.co", "title": "Khroma - AI Color Tool for Designers | Discover and Save Color Palettes", "status": null}
+  ],
+  "status": "ok",
+  "name": "Khroma",
+  "summary": "AI color tool that learns which colors you like and generates palettes you can search, preview and save.",
+  "description": "Khroma trains an in-browser neural network on the colors you pick, then generates unlimited palettes you can view as typography, gradient, palette or custom image. Palettes are searchable and filterable by hue, tint, value and hex/rgb values, and saveable to a collection with color names, hex, rgb, CSS and WCAG contrast ratings.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color palette", "color generator", "palette generator", "color scheme", "ai color tool", "color combination", "hex color", "rgb", "palette inspiration", "wcag contrast", "color search", "design tool"],
+  "contains": [
+    "personalized palette generator trained on your color choices in the browser",
+    "palette previews as typography, gradient, palette or custom image",
+    "search and filter the generator by hue, tint, value, color, hex and rgb",
+    "unlimited saved collection with color names, hex, rgb, CSS code and WCAG accessibility rating",
+    "made by George Hastings; Instagram inspiration via @khromacolors"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

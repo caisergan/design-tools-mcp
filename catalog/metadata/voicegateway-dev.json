@@ -1,0 +1,30 @@
+{
+  "id": "voicegateway-dev",
+  "url": "https://voicegateway.dev",
+  "kind": "site",
+  "hints_hash": "0d5de9b596f6547b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://voicegateway.dev", "title": "VoiceGateway: the open-source profiler for voice agents", "status": null},
+    {"url": "https://voicegateway.dev/about", "title": "About · VoiceGateway", "status": null},
+    {"url": "https://docs.voicegateway.dev/llms.txt", "title": "VoiceGateway", "status": 200},
+    {"url": "https://github.com/mahimailabs/voicegateway", "title": "GitHub - mahimailabs/voicegateway: The One Dashboard every Voice Agent needs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "VoiceGateway",
+  "summary": "Open-source profiler that prices and times every STT, LLM and TTS call in a voice agent.",
+  "description": "Add one line to a LiveKit or Pipecat agent and attach() meters each STT, LLM and TTS call: cost per call, latency by stage and one telemetry row per request, rolled up per call, agent and project in a dashboard you self-host. Includes invoice reconciliation, spend guards and a live demo on example data.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["dashboard", "table"],
+  "keywords": ["voice agent", "voice ai", "observability", "cost tracking", "latency", "profiler", "telemetry", "stt", "llm", "tts", "livekit", "pipecat", "open source", "self-hosted", "dashboard", "python", "reconciliation", "spend control", "llm cost"],
+  "contains": ["one line (attach()) meters STT, LLM and TTS calls in LiveKit and Pipecat agents", "cost per call, latency by stage (time to first audio, p95) and per-call timelines", "voicegw reconcile checks recorded totals against provider usage exports", "guard() adds a fallback chain, rate limit and daily budget", "self-hosted collector, MIT licensed, no hosted version yet", "live demo dashboard on example data", "priced providers: OpenAI, Deepgram, Anthropic, Groq, Cartesia, ElevenLabs, AssemblyAI, Ollama, Kokoro, Piper", "install: pip install voicegateway"],
+  "formats": ["code", "cli", "docs", "app"],
+  "stack": ["python", "fastapi", "livekit", "pipecat"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mahimailabs/voicegateway", "docs": "https://docs.voicegateway.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

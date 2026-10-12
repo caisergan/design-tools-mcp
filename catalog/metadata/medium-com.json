@@ -1,0 +1,29 @@
+{
+  "id": "medium-com",
+  "url": "https://medium.com",
+  "kind": "site",
+  "hints_hash": "e5169ed15187f17a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://medium.com", "title": "Medium", "status": null},
+    {"url": "https://medium.com/about", "title": "Medium", "status": 200},
+    {"url": "https://medium.com/membership", "title": "Medium", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Medium",
+  "summary": "Publishing platform where anyone can read and write stories and articles, with a paid membership for unlimited access.",
+  "description": "A home for human stories and ideas: anyone can publish without building an audience first, and readers browse stories by topic, publication or author. Free reading comes with ads and limits; Medium Member and Friend of Medium plans remove them and share part of the fee with the writers you read.",
+  "type": "app",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["publishing platform", "blog", "article", "essay", "writing", "reading", "story", "ux article", "design article", "community", "membership", "subscription"],
+  "contains": ["free tier with ads and reading limits", "Medium Member and Friend of Medium plans", "membership revenue shared with the writers you read"],
+  "formats": ["links", "app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

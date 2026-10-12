@@ -1,0 +1,64 @@
+{
+  "id": "claudedesign-free",
+  "url": "https://claudedesign.free",
+  "kind": "site",
+  "hints_hash": "533643c8e3816076",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://claudedesign.free",
+      "title": "Claude Design. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Claude Design",
+  "summary": "Newsletter guide to Claude Design: access, quick tests, a video hack for better slides and a Cowork workflow.",
+  "description": "Guide from Ruben Hassid's How to AI newsletter (22 April 2026) to Claude Design, the separate design product at claude.ai/design that runs on Opus 4.7. It covers who can access it (Pro or Max; a Team/Enterprise admin toggle), three sub-2-minute tests — one-shot website, slide deck, animated video — the trick of turning a research report into an animated video first because the slides come out better, copy-any-design tips, and an advanced Cowork + Claude Design workflow where brand assets become a DESIGN.md that every later prompt reuses.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "claude design",
+    "ai design",
+    "design tool",
+    "ai website builder",
+    "slide deck",
+    "animated video",
+    "one shot prompt",
+    "prompt",
+    "design workflow",
+    "design system",
+    "design.md",
+    "canva",
+    "figma",
+    "cowork",
+    "guide"
+  ],
+  "contains": [
+    "free guide, published 22 April 2026",
+    "needs a paid Claude plan (Pro or Max); Team/Enterprise admins must enable it",
+    "3 quick tests: website, slide deck, animated video",
+    "video hack: turn a report into animated video, then a better slide deck",
+    "advanced workflow: Cowork extracts brand assets into a DESIGN.md",
+    "drop the DESIGN.md into Claude Design as context for every later prompt"
+  ],
+  "formats": ["docs", "prompts", "screenshots"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

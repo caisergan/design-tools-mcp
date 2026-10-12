@@ -1,0 +1,20 @@
+{
+  "id": "onepagelove-com-hebbia",
+  "url": "https://onepagelove.com/hebbia",
+  "kind": "page",
+  "hints_hash": "221aeac8c0c8727e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:05:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/hebbia", "title": "Hebbia — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hebbia",
+  "summary": "One Page Love award entry for Hebbia, a dark, typographic one-page portfolio built with Next.js, Tailwind and Three.js.",
+  "description": "A One Page Love showcase entry for Hebbia, a one-page portfolio for a design studio. The page lists the site's features (marquee, team, Easter eggs, lightbox gallery, long scrolling), its sections (team, marquee), category (portfolio, service), style (3D, luxury, typographic), typefaces (Edict, Selecta) and tech stack, and links to the live website.",
+  "elements": ["marquee", "team", "3d"],
+  "keywords": ["one page website", "portfolio", "design studio", "marquee", "team section", "easter egg", "lightbox gallery", "long scrolling", "dark theme", "typographic", "three.js", "next.js", "tailwind", "website award", "website inspiration"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.8
+}

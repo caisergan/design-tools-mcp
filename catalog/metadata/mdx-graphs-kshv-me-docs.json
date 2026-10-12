@@ -1,0 +1,82 @@
+{
+  "id": "mdx-graphs-kshv-me-docs",
+  "url": "https://mdx-graphs.kshv.me/docs",
+  "kind": "page",
+  "hints_hash": "5ccdab372c131e12",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mdx-graphs.kshv.me/docs",
+      "title": "introduction · mdxcn",
+      "status": 200
+    },
+    {
+      "url": "https://www.mdxcn.dev/",
+      "title": "mdxcn: markdown-friendly components",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "introduction · mdxcn",
+  "summary": "MDX components that draw callouts, tables, charts, timelines and diagrams from plain text, installed with the shadcn CLI.",
+  "description": "Markdown-friendly React components for MDX: callouts, steps, terminals, chats, timelines, trees, gantts, stats, tables and charts that sit between paragraphs. Each figure has .md, .mdx and .tsx tabs and installs as a shadcn registry item (47 components; no npm package).",
+  "type": "component-library",
+  "elements": [
+    "alert",
+    "table",
+    "chart",
+    "timeline",
+    "chat",
+    "faq",
+    "stats"
+  ],
+  "keywords": [
+    "mdx",
+    "mdx component",
+    "markdown component",
+    "react component",
+    "shadcn registry",
+    "callout",
+    "timeline",
+    "tree diagram",
+    "gantt",
+    "table",
+    "chart",
+    "documentation",
+    "technical writing",
+    "readme",
+    "agent skill"
+  ],
+  "contains": [
+    "47 components in the library",
+    "content blocks: callout, quote, steps, terminal, changelog, decision, chat, endpoint, keys, faq",
+    "diagrams: flow, timeline, tree, gantt, board",
+    "data figures: stat, spec, check, diff, tables",
+    "install via shadcn CLI registry — no npm package",
+    "same figures render from plain markdown via comark and knap"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "mdx"
+  ],
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://www.mdxcn.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

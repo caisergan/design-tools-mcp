@@ -1,0 +1,25 @@
+{
+  "id": "forms-gle-yheih1t1vehx3gdc9",
+  "url": "https://forms.gle/yheiH1t1vEHX3gDC9",
+  "kind": "page",
+  "hints_hash": "3911ecf858f8e29f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://forms.gle/yheiH1t1vEHX3gDC9", "title": "Seacats Application Form Thingy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Seacats Application Form Thingy",
+  "summary": "Volunteer application form for Seacats, an indie game studio; asks for positions, experience and a contact handle.",
+  "description": "A Google Form recruiting volunteers for Seacats, an unpaid indie game studio. It lists the areas it needs help with (3D artists, writers, programmers, management, promo, game/UI design, software engineering, voice acting, vfx, legal advice) and collects the positions you want, your motivation, previous experience, whether you are queer and Indian, and a username plus platform for contact.",
+  "elements": ["form", "input"],
+  "keywords": ["application form", "volunteer", "game studio", "indie game", "recruitment", "google form", "game design", "ui ux design", "programmer", "voice acting", "vfx", "artist"],
+  "contains": [
+    "asks for interested positions, motivation, experience and a contact handle + platform",
+    "open areas: 3D art, writing, programming, management, promo, game/UI design, voice acting, vfx, legal advice",
+    "states the work is unpaid and voluntary"
+  ],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

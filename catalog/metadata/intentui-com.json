@@ -1,0 +1,33 @@
+{
+ "id": "intentui-com",
+ "url": "https://intentui.com",
+ "kind": "site",
+ "hints_hash": "cfa1ee618c8a7c10",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://intentui.com/llms.txt", "title": "Intent UI", "status": null},
+  {"url": "https://intentui.com", "title": "Intent UI", "status": null},
+  {"url": "https://intentui.com/components", "title": "Components / Intent UI", "status": null},
+  {"url": "https://intentui.com/blocks", "title": "Blocks / Intent UI", "status": null},
+  {"url": "https://intentui.com/docs/getting-started/installation", "title": "Installation / Intent UI", "status": null},
+  {"url": "https://github.com/irsyadadl/intentui", "title": "GitHub - irsyadadl/intentui: Intent UI is a chill set of React components, built on top of React Aria Components and Tailwind CSS.", "status": 200},
+  {"url": "https://raw.githubusercontent.com/irsyadadl/intentui/HEAD/LICENSE", "title": "MIT License", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Intent UI",
+ "summary": "Copy-and-paste React components built on React Aria and Tailwind CSS, installed via the shadcn CLI.",
+ "description": "80+ accessible React components built on React Aria Components and styled with Tailwind CSS, added by copy-paste or with the shadcn CLI. Includes blocks (sidebar, navbar, auth, charts), starter kits for Next.js, Laravel, TanStack Router and Vite, themes, dark-mode guides and an MCP server; a separate premium set offers more blocks, patterns and templates.",
+ "type": "component-library",
+ "categories": ["components", "registries"],
+ "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "file-upload", "form", "input", "list", "loader", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+ "keywords": ["react", "component", "react aria", "tailwind", "shadcn", "copy paste", "accessible", "design system", "block", "nextjs", "laravel", "starter kit", "registry", "dark mode", "mcp"],
+ "contains": ["80+ components in 12 groups (collections, colors, controls, date & time, forms, overlays …)", "592 shadcn registry items; add all with @intentui/all", "blocks: sidebar, navbar, auth, charts", "starter kits: Next.js, Laravel, TanStack Router, Vite", "MIT licensed; premium blocks/templates offered separately"],
+ "formats": ["code", "registry", "cli", "templates", "docs"],
+ "stack": ["react", "tailwind", "react-aria", "nextjs"],
+ "pricing": "freemium",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/irsyadadl/intentui", "docs": "https://intentui.com/docs", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.8
+}

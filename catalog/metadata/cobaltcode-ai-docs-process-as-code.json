@@ -1,0 +1,62 @@
+{
+  "id": "cobaltcode-ai-docs-process-as-code",
+  "url": "https://cobaltcode.ai/docs/process-as-code",
+  "kind": "page",
+  "hints_hash": "52a87386d65570c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://cobaltcode.ai/docs/process-as-code",
+      "title": "Worker Roles and Process as Code — Cobalt Docs",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Worker Roles and Process as Code",
+  "summary": "Cobalt docs on reusable worker roles — coding, review and QA instructions — and versioned process-as-code definitions.",
+  "description": "Documentation for Cobalt's worker roles: reusable instructions in Markdown (name, stable key, description) that a task or a Loop selects, with the role revision captured when a message is accepted. The process-as-code part downloads worker roles and workspace-visible Loop definitions as a JSON package for Git, and roles can be created or refined by the Cobalt assistant, by a task agent or by hand in workspace settings.",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "keywords": [
+    "worker role",
+    "process as code",
+    "coding agent",
+    "agent instruction",
+    "reusable prompt",
+    "role definition",
+    "loop",
+    "version control",
+    "markdown instruction",
+    "task coordination",
+    "qa role",
+    "reviewer role",
+    "workspace setting"
+  ],
+  "contains": [
+    "worker roles: reusable instructions for jobs such as coding, review and QA",
+    "a role has a name, stable key, description and Markdown instructions",
+    "ask the assistant or a task agent to draft and refine roles",
+    "role revision captured when a message is accepted; queued work keeps its instructions",
+    "download worker roles and workspace-visible Loop definitions as a JSON package for Git",
+    "manage roles from workspace settings or an external client"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

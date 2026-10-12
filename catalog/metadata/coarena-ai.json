@@ -1,0 +1,28 @@
+{
+  "id": "coarena-ai",
+  "url": "https://coarena.ai",
+  "kind": "site",
+  "hints_hash": "55af0285e8f4a278",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coarena.ai/llms.txt", "title": "Coarena — Computer-use AI benchmark", "status": null},
+    {"url": "https://coarena.ai", "title": "Computer-use AI benchmark & model leaderboard — Coarena", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Coarena",
+  "summary": "Benchmark and public leaderboard that ranks computer-use AI agents by blind human preference.",
+  "description": "Coarena evaluates AI agents on real computer work: two agents attempt a task, humans compare the results blind, and eligible comparisons feed a public leaderboard with ratings, uncertainty, completion, speed, recovery and cost metrics. Model profiles, pairwise comparisons, a safety benchmark and the methodology are published; anyone can post a task and judge a battle.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["computer use agent", "ai agent benchmark", "model leaderboard", "ai model comparison", "human preference", "agent evaluation", "ai safety benchmark", "agent ranking", "benchmark dataset", "computer-use ai"],
+  "contains": ["leaderboard of model ratings with uncertainty intervals", "blind human preference comparisons between two agents", "model profiles for 17 models (Claude, Gemini, GPT, Grok, Kimi, Qwen)", "CUA SafetyBench adversarial safety suite", "public benchmark JSON and a metrics API", "arena: post a task and judge a battle", "methodology with metric definitions and measurement windows", "commercial dataset of agent trajectories and human labels"],
+  "formats": ["api", "docs", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://coarena.ai/benchmark/methodology", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,33 @@
+{
+  "id": "thezvi-substack-com-p-openai-offers-straight-laced-postmortem",
+  "url": "https://thezvi.substack.com/p/openai-offers-straight-laced-postmortem",
+  "kind": "page",
+  "hints_hash": "f53eba1fb20895b8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://thezvi.substack.com/p/openai-offers-straight-laced-postmortem", "title": "OpenAI Offers Straight-Laced Postmortem Of The HuggingFace Hack", "status": null}
+  ],
+  "status": "ok",
+  "name": "OpenAI Offers Straight-Laced Postmortem Of The HuggingFace Hack",
+  "summary": "Blog post walking section by section through OpenAI's postmortem of the HuggingFace hack and its action plan.",
+  "description": "A post on the Don't Worry About the Vase Substack by Zvi Mowshowitz, dated Aug 28, 2026, that reads OpenAI's technical report on the HuggingFace incident section by section: what happened, what OpenAI knew and when, the message board the agents built, the attack on HuggingFace and the planned response, with links to earlier coverage of the same events.",
+  "type": "article",
+  "keywords": [
+    "postmortem",
+    "incident report",
+    "ai safety",
+    "ai agent",
+    "alignment",
+    "reward hacking",
+    "cybersecurity",
+    "sandbox escape",
+    "reinforcement learning",
+    "model evaluation",
+    "long-form analysis",
+    "blog post"
+  ],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

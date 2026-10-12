@@ -1,0 +1,30 @@
+{
+  "id": "consensus-app",
+  "url": "https://consensus.app",
+  "kind": "site",
+  "hints_hash": "5c92c797a93eaaf6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://consensus.app/llms.txt", "title": "Consensus", "status": null},
+    {"url": "https://consensus.app", "title": "Consensus: AI for Research", "status": 200},
+    {"url": "https://consensus.app/pricing", "title": "Pricing", "status": 200},
+    {"url": "https://consensus.app/llms-full.txt", "title": "Consensus: AI-Powered Scientific Research Engine", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Consensus",
+  "summary": "AI search engine that finds and synthesizes peer-reviewed research and returns cited, evidence-backed answers.",
+  "description": "Consensus searches 400+ million peer-reviewed papers and returns AI summaries, study metadata and citations; the Consensus Meter aggregates findings across studies for yes/no/possible questions. A web app, REST API and MCP server bring the same search and synthesis to people and agents. Free, Pro, Deep, Teams and Enterprise plans.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chart"],
+  "keywords": ["research paper", "scientific research", "academic search", "literature review", "peer-reviewed", "evidence", "citation", "ai search engine", "mcp server", "rest api", "study summary"],
+  "contains": ["400+ million scientific papers indexed", "Consensus Meter: yes/no/possibly distribution across studies", "REST API and MCP server for agents", "citation export: BibTeX, RIS, EndNote, APA, MLA, Chicago, Vancouver", "free, Pro, Deep, Teams and Enterprise plans"],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://docs.consensus.app", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

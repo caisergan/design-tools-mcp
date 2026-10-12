@@ -1,0 +1,32 @@
+{
+  "id": "github-com-citrolabs-ego-lite-blob-main-skills-ego-browser-skill-md",
+  "url": "https://github.com/citrolabs/ego-lite/blob/main/skills/ego-browser/SKILL.md",
+  "kind": "page",
+  "hints_hash": "76dd2dafb2886d3e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/citrolabs/ego-lite/main/skills/ego-browser/SKILL.md", "title": "ego-browser", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ego-browser",
+  "summary": "SKILL.md that teaches coding agents to drive the ego-lite Chromium browser: navigation, clicks, forms, screenshots and CDP.",
+  "description": "Skill file from the ego-lite repo (v2.0.0) that documents the browser API agents call: TaskSpace and Page helpers for navigation, semantic snapshots and selectors, screenshots, mouse and keyboard input, form filling, file uploads, dialogs and CDP escape hatches, plus round-based workflow rules for reusing pages and handing control back to the user.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill.md", "browser automation", "browser control", "ai agent", "web testing", "qa", "dogfooding", "screenshot", "form fill", "sign in", "page snapshot", "cdp", "chromium", "prompt package"],
+  "contains": [
+    "SKILL.md v2.0.0 (2026-09-09) for the ego-browser API",
+    "TaskSpace API: spaces, pages, tabs, adopt/release, waitForControl, handOff, finish",
+    "Page API: goto, snapshot, screenshot, click, fill, selectOption, waits, mouse, keyboard, evaluate, cdp",
+    "guidance on semantic selectors vs visual coordinates, action receipts, popups and dialogs"
+  ],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/citrolabs/ego-lite", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.8
+}

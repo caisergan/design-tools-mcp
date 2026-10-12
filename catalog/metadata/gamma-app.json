@@ -1,0 +1,39 @@
+{
+  "id": "gamma-app",
+  "url": "https://gamma.app",
+  "kind": "site",
+  "hints_hash": "83909e15cc31fbd5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gamma.app/llms.txt", "title": "Gamma.app", "status": null},
+    {"url": "https://gamma.app", "title": "Gamma | Best AI Presentation Maker & Website Builder", "status": 200},
+    {"url": "https://gamma.app/templates", "title": "Best Presentation Templates for Free - Edit with AI | Gamma", "status": 200},
+    {"url": "https://gamma.app/pricing", "title": "Plans and pricing | Gamma", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Gamma",
+  "summary": "AI platform that turns prompts into presentations, documents, websites and social media visuals.",
+  "description": "Gamma is an AI-powered platform for creating presentations, documents, websites and social media visuals from a prompt. The agent starts with a conversation, outlines a draft, then lets you refine with chat, smart layouts or freeform editing; PowerPoint and PDF imports keep formatting intact, 25+ connectors pull content from Slack, Notion and Dropbox, and decks export to PowerPoint, PDF, PNG and Google Slides. Custom branding, analytics and API access come with paid plans.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai presentation", "presentation maker", "slide deck", "document", "website builder", "social media post", "template", "ai image", "powerpoint import", "pdf import", "export", "api", "no-code", "storytelling", "pitch deck", "branding"],
+  "contains": [
+    "AI workspace for presentations, documents, websites and social media visuals",
+    "agent starts with a conversation, outlines first, then iterates in chat",
+    "import PowerPoint and PDF with formatting intact; 25+ connectors",
+    "export to PowerPoint, PDF, PNG and Google Slides",
+    "100+ templates; up to 10 slides per prompt on Free, 100 on Plus",
+    "custom branding, analytics, custom domains (10 on Pro, 100 on Ultra)",
+    "API access from Pro up; SOC 2 Type II compliant",
+    "community of 100+ million users"
+  ],
+  "formats": ["app", "api", "templates", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

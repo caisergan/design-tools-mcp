@@ -1,0 +1,35 @@
+{
+  "id": "github-com-mvanhorn-last30days-skill",
+  "url": "https://github.com/mvanhorn/last30days-skill",
+  "kind": "repo",
+  "hints_hash": "b34d2a33cf8e24c9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md", "title": "/last30days", "status": null},
+    {"url": "https://github.com/mvanhorn/last30days-skill", "title": "GitHub - mvanhorn/last30days-skill: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · GitHub", "status": 200},
+    {"url": "https://github.com/mvanhorn/last30days-skill/blob/HEAD/LICENSE", "title": "last30days-skill/LICENSE at 267d50f7fcbab8a6457a93ad6ca15cbc199f633c · mvanhorn/last30days-skill · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "/last30days",
+  "summary": "Agent skill that researches any topic across Reddit, X, YouTube, Hacker News, Polymarket and the web, then writes a grounded brief.",
+  "description": "An AI-agent-led search engine scored by upvotes, likes and prediction-market odds rather than editors. It queries ~19 sources in parallel — Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, Digg, arXiv, Techmeme, LinkedIn, StockTwits, Threads, Pinterest, Xiaohongshu, Bluesky, Perplexity and the web — ranks by real engagement and has an agent judge synthesise one cited brief. Reddit, HN, Polymarket and GitHub work with zero config; other sources use your own keys or browser sessions.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["deep research", "agent skill", "research", "reddit", "twitter", "youtube", "hacker news", "polymarket", "social search", "trend research", "market research", "claude code", "codex", "recency search", "sentiment"],
+  "contains": [
+    "~19 community and prediction-market sources",
+    "Reddit, HN, Polymarket and GitHub need no API key",
+    "ranks by upvotes, likes, views and real-money odds",
+    "discovery mode ranks 5-10 exploding topics with momentum labels",
+    "works with Claude Code, Codex, Cursor, Copilot, Gemini CLI and 50+ skills hosts"
+  ],
+  "formats": ["prompts", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mvanhorn/last30days-skill", "docs": "https://github.com/mvanhorn/last30days-skill/blob/HEAD/skills/last30days/SKILL.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

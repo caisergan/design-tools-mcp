@@ -1,0 +1,26 @@
+{
+  "id": "recent-design-jobs",
+  "url": "https://recent.design/jobs",
+  "kind": "page",
+  "hints_hash": "7970a2d6d674600e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://recent.design/jobs", "title": "Design Jobs — Recent", "status": null}
+  ],
+  "status": "ok",
+  "name": "Design Jobs",
+  "summary": "Job board listing open design and design-engineering roles from companies worth watching.",
+  "description": "Open design and design-engineering roles from hand-picked companies, listed with role, location and salary range where given. Listings cover product, visual, UI/UX and founding design positions, remote and on-site. Companies can post a job for $249 to reach the site's visitors and newsletter subscribers.",
+  "type": "directory",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["design job", "job board", "product designer", "visual designer", "ui designer", "ux designer", "design engineer", "founding designer", "design career", "hiring", "remote job", "salary"],
+  "contains": ["open design and design engineering roles", "listings show role, company, location and salary range where given", "job posting costs $249", "audience: 250k+ monthly visitors and 35k+ newsletter subscribers"],
+  "formats": ["links"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "recent-design"},
+  "confidence": 0.75
+}

@@ -1,0 +1,25 @@
+{
+  "id": "nngroup-com-articles",
+  "url": "https://nngroup.com/articles",
+  "kind": "page",
+  "hints_hash": "1cd7a12291ffed39",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://nngroup.com/articles", "title": "UX & Usability Articles from Nielsen Norman Group - NN/G", "status": null}
+  ],
+  "status": "ok",
+  "name": "UX & Usability Articles from Nielsen Norman Group",
+  "summary": "Index of research-based UX and usability articles and videos from Nielsen Norman Group, browsable by topic and author.",
+  "description": "Articles & Videos listing for NN/g: entries carry dates and reading or watch times, topic filters run from accessibility and AI to writing for the web, and there are author, study-guide, most-recent, most-popular and videos-only views.",
+  "keywords": ["ux article", "usability", "user experience", "ux research", "usability testing", "heuristic evaluation", "design process", "information architecture", "ux writing", "research method", "study guide", "ux video", "interaction design", "web usability"],
+  "elements": [],
+  "formats": ["docs", "links", "video"],
+  "contains": ["articles, videos and study guides", "topics: accessibility, artificial intelligence, design process, navigation, research methods, user testing", "author index incl. Jakob Nielsen, Don Norman and Bruce Tognazzini", "list views: most recent, most popular, videos only, articles only"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "nngroup-com"},
+  "confidence": 0.85
+}

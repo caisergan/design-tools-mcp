@@ -1,0 +1,28 @@
+{
+  "id": "github-com-memfreeme-memfree",
+  "url": "https://github.com/memfreeme/memfree",
+  "kind": "repo",
+  "hints_hash": "7831f19112d23ec1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:57:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/memfreeme/memfree/blob/HEAD/README.md", "title": "MemFree", "status": 200},
+    {"url": "https://www.memfree.me/", "title": "MemFree - Hybrid AI Search", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MemFree",
+  "summary": "Open-source hybrid AI search engine over the web and your own bookmarks, notes and files, plus an AI page generator.",
+  "description": "An open-source AI search app built with Next.js and shadcn/ui. Search across the web (Google, Exa, vectors) and your own bookmarks, files and notes to get summarized answers, presented as text, mind maps, images or videos. It also includes an AI generator that turns text, images or files into React + Tailwind + shadcn UI pages with live preview, a code editor and one-click publishing. Self-host it or use the deploy guides for Vercel, Railway, Fly.io and Cloudflare.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["prompt-input"],
+  "keywords": ["ai search engine", "hybrid search", "bookmark search", "knowledge base search", "ai page generator", "answer engine", "open source", "self-hosted", "nextjs", "shadcn ui", "multi-image search", "vector search"],
+  "contains": ["search across the web plus personal bookmarks, notes and files", "answers as text, mind maps, images and videos", "search engines: Google, Exa and vector", "input formats: text, images, files and web pages, incl. multi-image search", "AI page generator for React + Tailwind + shadcn UI pages, with live preview and code editor", "Chrome bookmark sync and cross-device history", "one-click deploy guides for Vercel, Railway, Fly.io and Cloudflare", "self-hosted Next.js + shadcn/ui stack, MIT licensed"],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn-ui", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/memfreeme/memfree", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

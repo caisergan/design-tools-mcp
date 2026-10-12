@@ -1,0 +1,20 @@
+{
+  "id": "graygrids-com-templates",
+  "url": "https://graygrids.com/templates",
+  "kind": "page",
+  "hints_hash": "6df0ce004b96522c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://graygrids.com/templates", "title": "Free Web Templates for HTML5 Bootstrap, and Tailwind CSS | GrayGrids", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Free Site Templates for Bootstrap, Tailwind, and HTML5",
+  "summary": "Listing of free and premium website templates built with Bootstrap, Tailwind CSS and HTML5, from admin dashboards to landing pages.",
+  "description": "Free and premium website templates and themes based on HTML5, Tailwind CSS and the Bootstrap framework: business sites, admin dashboards and UI kits, landing pages, portfolio and resume, one-page templates and more. Each card links to a preview and download and notes whether the template is free or part of the All-Access plan.",
+  "keywords": ["free template", "website template", "html template", "bootstrap template", "tailwind template", "admin dashboard template", "landing page template", "business template", "saas template", "startup template", "portfolio template", "one-page template", "resume template", "template marketplace"],
+  "pricing": "freemium",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "graygrids-com" },
+  "confidence": 0.85
+}

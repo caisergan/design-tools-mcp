@@ -1,0 +1,53 @@
+{
+  "id": "react-icons-github-io-react-icons",
+  "url": "https://react-icons.github.io/react-icons",
+  "kind": "page",
+  "hints_hash": "d07557943eb8da3c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://react-icons.github.io/react-icons", "title": "React Icons", "status": null},
+    {"url": "https://github.com/react-icons/react-icons", "title": "GitHub - react-icons/react-icons: svg react icons of popular icon packs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Icons",
+  "summary": "React package exposing 31 popular icon sets, about 50,900 icons, as individually importable SVG components.",
+  "description": "One npm package that re-exports icon sets from Ant Design, Bootstrap, Font Awesome, Heroicons, Lucide, Material Design, Phosphor, Tabler, Simple Icons and more as SVG React components. Icons are imported from per-set subpaths (react-icons/md, react-icons/fa6 ...) so only the used ones are bundled, with props for size, color, className, style and an accessibility title, plus TypeScript types. Each set keeps its upstream licence.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": [
+    "icon set",
+    "react icon",
+    "svg icon",
+    "icon library",
+    "font awesome",
+    "bootstrap icon",
+    "heroicon",
+    "lucide",
+    "material design icon",
+    "phosphor icon",
+    "tabler icon",
+    "simple icon",
+    "npm package",
+    "typescript",
+    "icon component"
+  ],
+  "contains": [
+    "31 icon sets in one package",
+    "about 50,900 icons, per-set counts from 189 to 9,072",
+    "per-set imports such as react-icons/md and react-icons/fa6",
+    "ES6 imports include only the icons a project uses",
+    "props: color, size (1em default), className, style, attr, title",
+    "TypeScript types included",
+    "SVG components instead of an icon font",
+    "upstream licences per set (MIT, Apache-2.0, ISC, MPL-2.0, CC BY, CC0, OFL-1.1)"
+  ],
+  "formats": ["npm-package", "code", "svg", "docs"],
+  "stack": ["react", "typescript", "astro"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/react-icons/react-icons", "docs": null, "npm": "react-icons", "figma": null, "parent": null},
+  "confidence": 0.85
+}

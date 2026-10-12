@@ -1,0 +1,27 @@
+{
+  "id": "vantaui-com-explore-components-iridescent-button",
+  "url": "https://vantaui.com/explore/components/iridescent-button",
+  "kind": "page",
+  "hints_hash": "53509ea122ea6d51",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vantaui.com/explore/components/iridescent-button", "title": "Iridescent Button | VantaUI", "status": 200},
+    {"url": "https://vantaui.com/explore/docs", "title": "Introduction | Docs | VantaUI", "status": 200},
+    {"url": "https://vantaui.com", "title": "VantaUI - UI Library Built From Real Products", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Iridescent Button",
+  "summary": "Button component whose shimmering border follows the cursor, published in the VantaUI component catalog.",
+  "description": "A component page in the VantaUI library: a button with a shimmering border that physically follows the user's cursor, documented with a live demo. VantaUI components install from its registry and the library targets React and Next.js; the page body is JavaScript-rendered, so only the title and description are readable as text.",
+  "type": "component-library",
+  "elements": ["button", "cursor"],
+  "keywords": ["button", "animated button", "cursor follow", "hover effect", "shimmer", "border effect", "react component", "nextjs", "ui component", "registry", "interactive button", "component demo"],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "nextjs"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://vantaui.com/explore/docs", "npm": null, "figma": null, "parent": "vantaui-com"},
+  "confidence": 0.7
+}

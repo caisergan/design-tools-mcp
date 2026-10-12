@@ -1,0 +1,27 @@
+{
+  "id": "github-com-mattf96s-quackdb",
+  "url": "https://github.com/mattf96s/QuackDB",
+  "kind": "repo",
+  "hints_hash": "58313b6ddffe7d89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mattf96s/QuackDB/blob/HEAD/README.md", "title": "QuackDB - Online DuckDB SQL Playground", "status": 200}
+  ],
+  "status": "ok",
+  "name": "QuackDB",
+  "summary": "In-browser DuckDB SQL playground and editor over local files; queries run in WebAssembly and nothing leaves the browser.",
+  "description": "A privacy-preserving SQL editor that runs DuckDB in the browser through DuckDB Wasm. Open or drop .csv, .json, .parquet, .sqlite, .duckdb and .arrow files, query them with SQL and view the results in data tables and Observable Plot charts; files persist in the browser filesystem via OPFS. Built with Remix, Tailwind CSS and shadcn/ui, with a hosted demo at quackdb.com.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["table", "chart"],
+  "keywords": ["duckdb", "sql editor", "sql playground", "in-browser", "wasm", "data analysis", "parquet", "csv", "sqlite", "remix", "shadcn ui", "observable plot", "privacy"],
+  "contains": ["DuckDB Wasm runs SQL queries in the browser", "supports .csv, .json, .parquet, .sqlite, .duckdb and .arrow files", "results shown in tables and Observable Plot charts", "files persist via the browser filesystem (OPFS)", "no screen recording or client-side error monitoring (Vercel Analytics only)", "stack: Remix, Tailwind CSS, shadcn/ui, TanStack Table, Comlink", "demo at quackdb.com; MIT licensed"],
+  "formats": ["code", "app"],
+  "stack": ["remix", "react", "typescript", "tailwind", "shadcn-ui", "duckdb-wasm"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mattf96s/QuackDB", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

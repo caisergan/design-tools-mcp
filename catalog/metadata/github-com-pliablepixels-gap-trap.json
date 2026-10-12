@@ -1,0 +1,27 @@
+{
+  "id": "github-com-pliablepixels-gap-trap",
+  "url": "https://github.com/pliablepixels/gap-trap",
+  "kind": "repo",
+  "hints_hash": "f07daa167edfd18b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/pliablepixels/gap-trap/blob/HEAD/README.md", "title": "gap-trap", "status": 200}
+  ],
+  "status": "ok",
+  "name": "gap-trap",
+  "summary": "Agent skill that sets up contracts, gates, ratchets and playbooks so AI-written code must pass checks before merge.",
+  "description": "An agent skill you run once in a repository: it reads the code, writes the rules that fit that codebase, and adds a gate per rule that fails the commit or CI run when broken. It sets up contracts (the one right way per area such as HTTP, logging, settings, auth), a proven-red CI job that fails when a new test also passes on old code, ratchets that may only go down, and playbooks of hard-won facts; git and the agent cannot skip a gate.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai code quality", "vibe coding", "code gate", "ci check", "contract", "ratchet", "regression test", "agent skill", "code review", "claude code", "codex", "proven red"],
+  "contains": ["installs contracts, a proven-red CI job, ratchets and playbooks into a repo", "gates run inside Node and Python test suites; other languages get shell gates (git, grep, awk)", "works with any language", "installed with the skills CLI or by hand into ~/.claude/skills or ~/.agents/skills", "runs on the harness's top coding model and stops on anything smaller", "derived from the framework zmNinjaNg runs on; MIT license"],
+  "formats": ["prompts", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/pliablepixels/gap-trap", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

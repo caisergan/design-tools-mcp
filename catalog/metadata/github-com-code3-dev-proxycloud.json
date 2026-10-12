@@ -1,0 +1,36 @@
+{
+  "id": "github-com-code3-dev-proxycloud",
+  "url": "https://github.com/code3-dev/ProxyCloud",
+  "kind": "repo",
+  "hints_hash": "0f6af481f3bdecc2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/code3-dev/ProxyCloud/blob/HEAD/README.md", "title": "Proxy Cloud", "status": null},
+    {"url": "https://raw.githubusercontent.com/code3-dev/ProxyCloud/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/code3-dev/ProxyCloud/blob/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Proxy Cloud",
+  "summary": "Flutter VPN client for Android, Windows, macOS and Linux with V2Ray connections and Telegram MTProto proxies.",
+  "description": "Proxy Cloud is a Flutter desktop and mobile VPN client that connects through V2Ray/Xray subscriptions and Telegram MTProto proxies, with server selection, ping testing, auto-select, per-app tunneling and a subscription manager. It ships a dark Material 3 interface with bottom navigation in 8+ languages, plus tools for IP info, host checking and speed tests.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["vpn", "vpn client", "open source vpn", "free vpn", "flutter app", "v2ray", "xray", "telegram proxy", "mtproto", "proxy manager", "subscription manager", "android app", "desktop app", "cross platform", "dark mode", "material 3", "network tool", "speed test"],
+  "contains": [
+    "V2Ray/Xray subscription connect with one-tap, ping test and auto-select",
+    "Telegram MTProto proxy list with country, provider, ping and uptime",
+    "tools: IP info, host checker, speed test, subscription store",
+    "releases for Android, Windows, macOS and Linux (deb, rpm, AppImage, AUR)",
+    "8+ languages; dark Material 3 UI with bottom navigation",
+    "MIT licensed and free, no subscriptions"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["flutter", "dart"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/code3-dev/ProxyCloud", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

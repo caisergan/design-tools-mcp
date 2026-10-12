@@ -1,0 +1,88 @@
+{
+  "id": "bucharitesh-in",
+  "url": "https://bucharitesh.in",
+  "kind": "site",
+  "hints_hash": "159dd75c51e9de0b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://bucharitesh.in/llms.txt",
+      "title": "Ritesh Bucha",
+      "status": null
+    },
+    {
+      "url": "https://bucharitesh.in",
+      "title": "User Experience at Flam | Ritesh Bucha",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Ritesh Bucha",
+  "summary": "Personal site that doubles as a shadcn registry of 26 craft components for Next.js apps.",
+  "description": "Portfolio of Ritesh Bucha with a shadcn registry called Craft. Components — text highlight, split text effect, liquid-metal WebGL button, modern progress, book, game of life, magical mouse, view magnifier, pixel icon, icon maker — install into Next.js apps with next-themes and Tailwind CSS (system, light and dark modes). The site also carries a portfolio, experience notes, bookmarks and a guestbook.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "components",
+    "inspiration"
+  ],
+  "elements": [
+    "text-effect",
+    "progress",
+    "button"
+  ],
+  "keywords": [
+    "shadcn registry",
+    "text effect",
+    "split text effect",
+    "metallic button",
+    "webgl",
+    "progress bar",
+    "cursor effect",
+    "game of life",
+    "book component",
+    "pixel icon",
+    "icon maker",
+    "nextjs",
+    "tailwind",
+    "next-theme",
+    "portfolio",
+    "guestbook"
+  ],
+  "contains": [
+    "26 shadcn registry items (components plus demos)",
+    "craft components incl. text highlight, split text effect and a liquid-metal WebGL button",
+    "also book, game of life, magical mouse, view magnifier, pixel icon and icon maker",
+    "for Next.js apps with next-themes and Tailwind CSS (system, light and dark modes)",
+    "portfolio, experience, bookmarks and guestbook",
+    "llms.txt entry points for agents"
+  ],
+  "formats": [
+    "registry",
+    "cli",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "next-themes"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

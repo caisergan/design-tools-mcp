@@ -1,0 +1,114 @@
+{
+  "id": "ui-justinlevine-me",
+  "url": "https://ui.justinlevine.me",
+  "kind": "site",
+  "hints_hash": "6ba5922da5a5ab0b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.justinlevine.me/llms.txt",
+      "title": "jal-co/ui",
+      "status": null
+    },
+    {
+      "url": "https://ui.justinlevine.me",
+      "title": "Components — jal-co/ui — jal-co/ui",
+      "status": 200
+    },
+    {
+      "url": "https://ui.justinlevine.me/docs/themes",
+      "title": "Color Themes — jal-co/ui — jal-co/ui",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/jal-co/ui",
+      "title": "GitHub - jal-co/ui: Open-source React component library. Polished, composable components for React and Tailwind CSS. Distributed via a shadcn-compatible registry. Never paywalled. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/jal-co/ui/blob/HEAD/LICENSE",
+      "title": "ui/LICENSE at b335f93a390a118f99ffd4ba7db5065d9f3515ec · jal-co/ui · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "jalco ui",
+  "summary": "React components for docs, code and GitHub UIs, installed from a shadcn-compatible registry.",
+  "description": "Polished, composable React components by Justin Levine for docs, dev-tool and marketing pages: code blocks, diff, JSON, log and request viewers, API reference and env tables, GitHub, npm, license and CI badges, buttons, charts and a stepper. Distributed through a shadcn-compatible registry (@jalco) with one-command installs; no wrapper package, server-component-first, styled with Tailwind CSS v4.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "logo-cloud",
+    "testimonials",
+    "command-palette",
+    "stepper",
+    "button",
+    "table",
+    "chart",
+    "card",
+    "badge",
+    "chat"
+  ],
+  "keywords": [
+    "react component",
+    "shadcn registry",
+    "copy paste component",
+    "code block",
+    "syntax highlighting",
+    "diff viewer",
+    "json viewer",
+    "log viewer",
+    "api reference table",
+    "env table",
+    "badge",
+    "github badge",
+    "npm badge",
+    "command palette",
+    "stepper",
+    "repo card",
+    "activity graph",
+    "sparkline",
+    "docs ui",
+    "developer tool ui",
+    "readme badge",
+    "tailwind css",
+    "nextjs",
+    "radix ui",
+    "component library"
+  ],
+  "contains": [
+    "36 components across code, docs, GitHub, ecosystem, dev-tools and marketing groups",
+    "no npm package — components are copied as source via the shadcn CLI",
+    "65 shiki editor color themes for code and data components",
+    "server-component-first, built with React 19, Next.js 15 and Tailwind CSS v4"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/jal-co/ui",
+    "docs": "https://ui.justinlevine.me/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

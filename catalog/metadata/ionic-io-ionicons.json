@@ -1,0 +1,28 @@
+{
+  "id": "ionic-io-ionicons",
+  "url": "https://ionic.io/ionicons",
+  "kind": "page",
+  "hints_hash": "5eb4c0c91209da42",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ionic.io/ionicons", "title": "Ionicons: Premium Open Source Icon Pack for Ionic Framework", "status": null},
+    {"url": "https://ionic.io/ionicons/usage", "title": "Ionicons Usage Guide: Tips for installing and using the Ionicons free icon library", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Ionicons",
+  "summary": "MIT-licensed icon pack of 1,300 icons for web, iOS, Android and desktop apps, with filled, outline and sharp variants.",
+  "description": "Ionicons is a hand-crafted open-source icon set by the Ionic team, also usable standalone as an ion-icon web component. Each icon ships in filled, outline and sharp variants (logos excepted) and is fetched on demand as SVG, with size, color and stroke width set through CSS. The site has a searchable icon browser, install instructions and a usage guide.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "svg icon", "free icon pack", "open source icon", "web component", "mobile app icon", "ios icon", "android icon", "outline icon", "filled icon", "sharp icon", "stroke width", "mit license", "custom icon"],
+  "contains": ["1,300 icons for web, iOS, Android and desktop", "filled, outline and sharp variants; logos have no variants", "loaded on demand as SVG through the ion-icon web component", "size, color and stroke width set with CSS", "MIT licensed"],
+  "formats": ["svg", "npm-package", "code", "docs"],
+  "stack": ["javascript", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://ionic.io/ionicons/usage", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

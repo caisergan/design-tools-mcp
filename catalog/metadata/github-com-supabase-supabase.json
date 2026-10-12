@@ -1,0 +1,82 @@
+{
+  "id": "github-com-supabase-supabase",
+  "url": "https://github.com/supabase/supabase",
+  "kind": "repo",
+  "hints_hash": "cff3537818349ff2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/supabase/supabase/blob/HEAD/README.md",
+      "title": "Supabase",
+      "status": null
+    },
+    {
+      "url": "https://github.com/supabase/supabase",
+      "title": "GitHub - supabase/supabase: The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://supabase.com/pricing",
+      "title": "Pricing & Fees | Supabase",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Supabase",
+  "summary": "Open-source Postgres development platform with auth, APIs, realtime, functions, storage and vector search.",
+  "description": "Gives you a dedicated Postgres database plus Firebase-style features: authentication and authorization, auto-generated REST and GraphQL APIs, realtime subscriptions over websockets, database and edge functions, S3-backed file storage and an AI + vector/embeddings toolkit, all managed from a dashboard. Hosted or self-hosted, with official client libraries for JavaScript, Flutter, Swift and Python and community ports for C#, Go, Java, Kotlin, Ruby, Rust and Godot.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "dashboard"
+  ],
+  "keywords": [
+    "postgres",
+    "database",
+    "firebase alternative",
+    "authentication",
+    "authorization",
+    "rest api",
+    "graphql",
+    "realtime",
+    "websocket",
+    "edge function",
+    "file storage",
+    "vector embedding",
+    "ai backend",
+    "self-hosted",
+    "backend platform"
+  ],
+  "contains": [
+    "hosted Postgres database; also self-hostable and local development",
+    "auth, REST and GraphQL auto-generated APIs, realtime, functions, storage and AI/vector toolkit",
+    "client libraries: official JavaScript, Flutter, Swift, Python; community C#, Go, Java, Kotlin, Ruby, Rust, Godot",
+    "assembled from open source tools: Postgres, PostgREST, GoTrue, Realtime, Storage, pg_graphql, postgres-meta, Envoy",
+    "free plan: 2 active projects, 50,000 MAU, 500 MB database; Pro from $25/month",
+    "111k stars, Apache-2.0"
+  ],
+  "formats": [
+    "code",
+    "api",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/supabase/supabase",
+    "docs": "https://supabase.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

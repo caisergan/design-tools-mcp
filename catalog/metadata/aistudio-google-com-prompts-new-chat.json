@@ -1,0 +1,20 @@
+{
+  "id": "aistudio-google-com-prompts-new-chat",
+  "url": "https://aistudio.google.com/prompts/new_chat",
+  "kind": "page",
+  "hints_hash": "3c7321666af55994",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:08:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aistudio.google.com/", "title": "Google AI Studio", "status": 200}
+  ],
+  "status": "login-required",
+  "name": "Google AI Studio",
+  "summary": "Web playground for prompting Gemini models, billed as the fastest path from prompt to production; chat needs sign-in.",
+  "description": "Google AI Studio is described as the fastest path from prompt to production with Gemini. The /prompts/new_chat page redirects to Google sign-in, so the chat interface itself is not readable without an account; the public welcome page carries only the title and one-line description.",
+  "type": "tool",
+  "keywords": ["google ai studio", "gemini", "ai chat", "prompt", "llm playground", "prompt engineering", "ai prototyping", "gemini api"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

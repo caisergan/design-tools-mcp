@@ -1,0 +1,26 @@
+{
+  "id": "uithings-com-framer-motion",
+  "url": "https://uithings.com/framer-motion",
+  "kind": "page",
+  "hints_hash": "5272bdf5ac019354",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:35:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uithings.com/framer-motion", "title": "Framer Motion Guide (2026): Layout and Reduced Motion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Framer Motion Guide (2026)",
+  "summary": "Guide to the Framer Motion React animation library: primitives, layout animations, exits, bundle size and reduced motion.",
+  "description": "Article covering Framer Motion's primitives (motion.div, variants, springs, gestures), layout and layoutId animations, AnimatePresence modes, the LazyMotion bundle-size table, when CSS and view transitions win instead, and why reducedMotion defaults to never. Updated September 10, 2026.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["framer motion", "react animation", "layout animation", "animatepresence", "reduced motion", "lazymotion", "css animation", "gsap", "react spring", "bundle size", "animation library", "motion guide"],
+  "contains": ["12-minute read, updated September 10, 2026", "LazyMotion kilobyte table", "comparison of Motion vs GSAP, CSS and React Spring", "common mistakes and FAQ sections"],
+  "formats": ["docs"],
+  "stack": ["react", "framer-motion", "css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ruben-substack-com",
+  "url": "https://ruben.substack.com",
+  "kind": "site",
+  "hints_hash": "27d0459d099ab32c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com", "title": "How to AI | Ruben Hassid | Substack", "status": 200},
+    {"url": "https://ruben.substack.com/about", "title": "About - How to AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "How to AI",
+  "summary": "Newsletter by Ruben Hassid with step-by-step AI tool guides, illustrated with annotated screenshots of his screen.",
+  "description": "A Substack publication with over 978,000 subscribers: one step-by-step guide per email on how to use AI tools, showing where to click, what didn't work and what the author liked. Recent issues cover switching from ChatGPT to Claude, setting up Claude Cowork and growing employee reach on LinkedIn.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["ai newsletter", "ai tutorial", "ai workflow", "step by step guide", "chatgpt", "claude", "prompt", "no code", "automation", "productivity", "learn ai", "ai tool"],
+  "contains": ["978,000+ subscribers", "one step-by-step guide per email", "screenshots with arrows and annotations from the author's screen", "free tier with a paid upgrade"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

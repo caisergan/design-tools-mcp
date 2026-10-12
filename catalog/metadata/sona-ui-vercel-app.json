@@ -1,0 +1,30 @@
+{
+  "id": "sona-ui-vercel-app",
+  "url": "https://sona-ui.vercel.app",
+  "kind": "site",
+  "hints_hash": "07a9c701ece7c135",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.sonaui.com/", "title": "Sona UI | Animated React Components", "status": 200},
+    {"url": "https://www.sonaui.com/components", "title": "Animated React Components | Sona UI", "status": 200},
+    {"url": "https://www.sonaui.com/docs/home", "title": "Sona UI | Sona UI", "status": 200},
+    {"url": "https://www.sonaui.com/docs/installation", "title": "Installation | Sona UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Sona UI",
+  "summary": "Animated React components — dropdowns, dialogs, tabs, tooltips, buttons — installed as source into your project through the shadcn CLI.",
+  "description": "A source-owned library of 26 animated React components: navigation and disclosure pieces (animated dropdown, dialog, accordion, fluid tabs, fluid tooltip), actions and inputs (animated switch, buttons, fluid slider, expanding action) and motion effects (spinning, stagger and split text, marquee, image trail, depth tiles). Components install as local source files via the shadcn CLI from the Sona UI registry; docs cover installation, theming, AI agents and skills. The site moved from sona-ui.vercel.app to sonaui.com.",
+  "type": "registry",
+  "categories": ["components", "motion"],
+  "elements": ["dropdown", "modal", "accordion", "tabs", "tooltip", "switch", "button", "slider", "marquee", "text-effect", "cursor"],
+  "keywords": ["animated component", "react", "shadcn", "component registry", "source code", "dropdown", "dialog", "accordion", "tabs", "tooltip", "button", "switch", "slider", "marquee", "text animation", "motion", "interaction", "copy paste"],
+  "contains": ["26 animated React components", "groups: new, primitives, navigation & disclosure, actions & inputs", "installs as source via the shadcn CLI (Sona UI registry namespace)", "docs: installation, theming, AI agents, skills, changelog", "moved from sona-ui.vercel.app to sonaui.com"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.sonaui.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

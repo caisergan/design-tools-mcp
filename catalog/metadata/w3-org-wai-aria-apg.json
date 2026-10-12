@@ -1,0 +1,28 @@
+{
+  "id": "w3-org-wai-aria-apg",
+  "url": "https://w3.org/WAI/ARIA/apg",
+  "kind": "page",
+  "hints_hash": "b3b84230a737f943",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://w3.org/WAI/ARIA/apg", "title": "ARIA Authoring Practices Guide | APG | WAI | W3C", "status": null},
+    {"url": "https://www.w3.org/WAI/ARIA/apg/patterns", "title": "Patterns | APG | WAI | W3C", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ARIA Authoring Practices Guide (APG)",
+  "summary": "W3C guide to the ARIA semantics of common web widgets, with 30 design patterns and functional examples.",
+  "description": "The W3C Web Accessibility Initiative guide to applying ARIA roles, states and properties to common web patterns and widgets. The patterns index covers accordion, alert, breadcrumb, button, carousel, checkbox, combobox, dialog, disclosure, feed, grid, listbox, menubar, meter, radio group, slider, spinbutton, switch, table, tabs, toolbar, tooltip, tree view, treegrid and window splitter, with functional example implementations; practices pages cover landmarks, accessible names and descriptions.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": ["accordion", "alert", "breadcrumbs", "button", "carousel", "checkbox", "dropdown", "input", "menubar", "modal", "progress", "select", "slider", "switch", "table", "tabs", "tooltip"],
+  "keywords": ["aria", "wai-aria", "accessibility", "a11y", "design pattern", "widget", "keyboard interaction", "screen reader", "combobox", "accordion", "dialog", "tabs", "tooltip", "carousel", "checkbox", "slider", "tree view", "authoring practice", "web accessibility", "wcag", "example"],
+  "contains": ["30 design patterns from accordion to window splitter", "pattern pages link to functional example implementations", "practices guidance on landmarks, accessible names and descriptions", "example index listing every implementation", "open to contribution via GitHub and the public-aria-practices mailing list"],
+  "formats": ["docs", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

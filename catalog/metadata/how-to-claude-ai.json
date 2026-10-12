@@ -1,0 +1,62 @@
+{
+  "id": "how-to-claude-ai",
+  "url": "https://how-to-claude.ai",
+  "kind": "site",
+  "hints_hash": "e920e353b55de89d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://how-to-claude.ai",
+      "title": "Claude. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Claude For Dummies",
+  "summary": "Free beginner's guide to Claude: what it is, how it differs from ChatGPT, and how to use it.",
+  "description": "A long-form free guide by Ruben Hassid (the How to AI newsletter) for people who have never used Claude. It covers what Claude is and how it works, Claude vs. ChatGPT, the plans and what they cost, prompting, what Claude is good and bad at, first-week exercises, and a closing section on how pros use Claude.",
+  "type": "article",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai guide",
+    "ai assistant",
+    "ai for beginner",
+    "getting started",
+    "prompting",
+    "ai assistant comparison",
+    "ai writing",
+    "ai research",
+    "free guide",
+    "ai newsletter",
+    "long-form guide"
+  ],
+  "contains": [
+    "11 numbered sections plus a 'How pros use Claude' closing part",
+    "written for readers who have never opened an AI assistant",
+    "covers plans and costs, the three Claude products, prompting and first-week exercises",
+    "published Apr 19, 2026"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

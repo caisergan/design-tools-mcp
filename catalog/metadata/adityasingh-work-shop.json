@@ -1,0 +1,19 @@
+{
+  "id": "adityasingh-work-shop",
+  "url": "https://adityasingh.work/shop",
+  "kind": "page",
+  "hints_hash": "0729261ef6921971",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://adityasingh.work/shop", "title": "Shop — Aditya Singh", "status": null}
+  ],
+  "status": "ok",
+  "name": "Shop — Aditya Singh",
+  "summary": "Shop page selling hand-assembled hardware: a 64x64 RGB LED album-art display, a magnetic phone mirror, and a free Mac screensaver app.",
+  "description": "Aditya Singh's shop for small-batch hardware assembled by hand in India: VYNL (₹9,999, a 64x64 RGB LED matrix that shows now-playing album art with spinning CD and album-art modes), MYRRA (₹599, a mini convex mirror that snaps onto a phone's magnetic back) and PinWall (free Mac app that turns a Pinterest feed or iCloud album into a slow living wall on the idle screen). Includes a limited-drop email signup, a cart and a returns page.",
+  "keywords": ["shop", "hardware", "gadget", "album art display", "led matrix", "mini mirror", "phone accessory", "magnetic mount", "mac app", "screensaver", "photo wall", "limited drop", "hand made", "novelty gift"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

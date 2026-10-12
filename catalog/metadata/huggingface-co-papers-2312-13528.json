@@ -1,0 +1,52 @@
+{
+  "id": "huggingface-co-papers-2312-13528",
+  "url": "https://huggingface.co/papers/2312.13528",
+  "kind": "page",
+  "hints_hash": "ae5102569cf86085",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://huggingface.co/papers/2312.13528",
+      "title": "Paper page - DyBluRF: Dynamic Deblurring Neural Radiance Fields for Blurry Monocular Video",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "DyBluRF: Dynamic Deblurring Neural Radiance Fields for Blurry Monocular Video",
+  "summary": "Paper page for DyBluRF, a NeRF framework that deblurs blurry monocular video to synthesise sharp novel views.",
+  "description": "Paper page for DyBluRF (2023), a dynamic deblurring NeRF framework for blurry monocular video: an Interleave Ray Refinement stage reconstructs the dynamic 3D scene and refines camera pose, and a Motion Decomposition-based Deblurring stage splits latent sharp rays into global camera motion and local object motion. Source code and pretrained models are linked from the project page; the abstract is followed by a discussion thread, similar-paper recommendations and citing models, datasets and Spaces.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "neural radiance field",
+    "nerf",
+    "video view synthesis",
+    "novel view synthesis",
+    "motion blur",
+    "deblurring",
+    "camera pose refinement",
+    "3d scene reconstruction",
+    "computer vision",
+    "pretrained model",
+    "research paper"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://kaist-viclab.github.io/dyblurf-site/",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

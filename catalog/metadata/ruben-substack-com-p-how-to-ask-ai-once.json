@@ -1,0 +1,22 @@
+{
+  "id": "ruben-substack-com-p-how-to-ask-ai-once",
+  "url": "https://ruben.substack.com/p/how-to-ask-ai-once",
+  "kind": "page",
+  "hints_hash": "e02f5e992202d5f2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:10:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/how-to-ask-ai-once", "title": "Prompt Engineering 101. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Prompt Engineering 101",
+  "summary": "Paid newsletter post with six rules for prompting today's LLMs, from dropping \"step-by-step\" to capping rules at three.",
+  "description": "An instalment of the How to AI newsletter arguing that prompting techniques from 2023 papers are outdated for current Claude and ChatGPT models. The outline: never end with \"right?\", forget the \"step-by-step\", do not trust confidence, stick to 3 rules max, goals over examples, and \"The One Prompt\". The full text is for paid subscribers.",
+  "type": "article",
+  "keywords": ["prompt engineering", "prompt", "prompt rule", "prompt template", "llm", "ai guide", "ai newsletter", "prompting technique"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.8
+}

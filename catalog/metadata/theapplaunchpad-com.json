@@ -1,0 +1,30 @@
+{
+  "id": "theapplaunchpad-com",
+  "url": "https://theapplaunchpad.com",
+  "kind": "site",
+  "hints_hash": "3ba36c26aee424e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://theapplaunchpad.com", "title": "AppLaunchpad: Free App Store Screenshot Generator", "status": null},
+    {"url": "https://theapplaunchpad.com/templates", "title": "App Store & Play Store Screenshot Templates | AppLaunchpad", "status": null},
+    {"url": "https://theapplaunchpad.com/pricing", "title": "AppLaunchpad Pricing – Simple Plans to Launch Your App Faster", "status": null},
+    {"url": "https://theapplaunchpad.com/pricing", "title": "AppLaunchpad Pricing – Simple Plans to Launch Your App Faster", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AppLaunchpad",
+  "summary": "App store screenshot generator with 1000+ templates, device frames and export sizes for the App Store and Google Play.",
+  "description": "A browser tool that turns raw app screens into store-ready screenshots. It provides 1000+ templates, device frames for the latest iPhone, iPad, Android phones and tablets, 2K+ icons and SVG graphics, illustrations, background and font styling, localization, and automatic scaling to the sizes Apple and Google require.",
+  "type": "generator",
+  "categories": ["design-tools", "media"],
+  "elements": [],
+  "keywords": ["app store screenshot", "screenshot generator", "device mockup", "device frame", "iphone mockup", "android mockup", "ios screenshot", "android screenshot", "app store listing", "app marketing", "localization", "template", "image export", "aso"],
+  "contains": ["1000+ pre-built screenshot templates", "1M+ users; 20M images downloaded", "10K assets, fonts and graphics; 2K+ icons and SVGs", "device frames for the latest iPhone, iPad and Android devices", "auto-scaling to App Store and Google Play sizes", "backgrounds, gradients, patterns, localization and font styling"],
+  "formats": ["app", "png", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

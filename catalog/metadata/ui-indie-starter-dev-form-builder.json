@@ -1,0 +1,29 @@
+{
+  "id": "ui-indie-starter-dev-form-builder",
+  "url": "https://ui.indie-starter.dev/form-builder",
+  "kind": "page",
+  "hints_hash": "ccd9447b43d17e16",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:49:25Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.indie-starter.dev/form-builder", "title": "Modern shadcn form builder | Formcn", "status": null},
+    {"url": "https://formcn.dev/", "title": "Modern shadcn form builder | Formcn", "status": 200},
+    {"url": "https://formcn.dev/changelog", "title": "Modern shadcn form builder | Formcn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Formcn",
+  "summary": "Shadcn form builder: design single or multi-step forms with Zod validation and install the generated code.",
+  "description": "Visual builder that generates production-ready shadcn/ui forms — single-step or multi-step — with Zod client/server validation and ARIA-accessible components. Formcn AI scaffolds form field components, and the generated code plus dependencies come into your project with one command via the shadcn registry CLI. Ships form templates, a changelog and a public roadmap.",
+  "type": "generator",
+  "categories": ["components", "registries"],
+  "elements": ["form", "input", "select", "date-picker", "file-upload", "slider", "stepper"],
+  "keywords": ["form builder", "shadcn", "shadcn form", "multi-step form", "zod", "form validation", "react", "form generator", "accessible form", "aria", "form template", "shadcn registry", "code generator"],
+  "contains": ["single-step and multi-step shadcn forms from a visual builder", "Zod client/server validation with ARIA accessibility", "generated code and dependencies installed with one command via the shadcn registry CLI", "Formcn AI scaffolds form fields", "field types: tags input, date picker, file upload, combobox, slider, rating, multi-select", "form templates (e.g. signup), changelog and roadmap", "works with any React framework; no longer tied to Next.js"],
+  "formats": ["code", "registry", "cli", "templates"],
+  "stack": ["react", "nextjs", "zod", "shadcn"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

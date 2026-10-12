@@ -1,0 +1,32 @@
+{
+  "id": "openworklabs-com",
+  "url": "https://openworklabs.com",
+  "kind": "site",
+  "hints_hash": "97715f78d24d4c84",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://openworklabs.com/llms.txt", "title": "OpenWork", "status": null},
+    {"url": "https://openworklabs.com", "title": "OpenWork — Free, open-source Claude Cowork alternative", "status": 200},
+    {"url": "https://openworklabs.com/docs", "title": "Open-source Claude Cowork alternative - OpenWork Docs", "status": 200},
+    {"url": "https://openworklabs.com/pricing", "title": "OpenWork Pricing — First 5 Cloud seats free, $10 Team with SSO", "status": 200},
+    {"url": "https://openworklabs.com/guides", "title": "OpenWork guides — OpenCode, MCP, Ollama, and AI costs", "status": 200},
+    {"url": "https://openworklabs.com/docs/roadmap", "title": "OpenWork Roadmap", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenWork",
+  "summary": "Open-source desktop AI agent app — a GUI for OpenCode — for working on local files with any LLM.",
+  "description": "OpenWork is a free, open-source desktop app (macOS, Windows, Linux) and an alternative to Claude Cowork, built as a GUI for OpenCode. Bring your own model and provider keys (50+ providers or local models), wire in skills, plugins and MCP servers, and share reusable agent setups org-wide, with an AI Gateway and MCP Gateway for teams.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "prompt-input", "ai-agent-ui"],
+  "keywords": ["ai agent", "desktop app", "open source", "claude cowork alternative", "ai workspace", "opencode", "model agnostic", "bring your own key", "local model", "ollama", "mcp server", "ai gateway", "mcp gateway", "self-hosted", "team", "sso", "skill", "plugin", "automation", "file assistant"],
+  "contains": ["free MIT-licensed desktop app for macOS, Windows and Linux", "50+ model providers (OpenAI, Anthropic, Google) and local models with your own keys", "Team $10/seat/month; Enterprise $40/user/month with SSO/SAML and SCIM", "MCP Gateway usable from Claude Code, Codex, Cursor, VS Code and Gemini CLI", "share skills, plugins and MCP servers org-wide via one link", "self-host the platform with Helm or Docker Compose", "AI Gateway with spend limits and usage analytics", "OpenWork Web in the browser; Slack integration"],
+  "formats": ["app", "code", "docs", "api"],
+  "stack": ["opencode"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://openworklabs.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

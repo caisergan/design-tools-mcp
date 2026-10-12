@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-stop-prompting-claude",
+  "url": "https://ruben.substack.com/p/stop-prompting-claude",
+  "kind": "page",
+  "hints_hash": "34cbaa076e1c3144",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/stop-prompting-claude", "title": "Prompting is the worst way to use Claude. - by Ruben Hassid", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Prompting is the worst way to use Claude.",
+  "summary": "Why one-shot prompts give average results, and how to give Claude persistent context via Claude Cowork, Obsidian and a SKILLS folder.",
+  "description": "A post from the How to AI newsletter. The author argues that typing hundreds of words of instructions for every request is the worst way to use Claude, and walks through setting up Claude Cowork with Obsidian as a persistent context store, including a SKILLS folder of reusable rules and a starting point.",
+  "type": "article",
+  "keywords": ["claude cowork", "obsidian", "prompt engineering", "ai context", "skills folder", "system prompt", "claude", "ai workflow", "second brain", "note-taking", "productivity", "how to ai"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.75
+}

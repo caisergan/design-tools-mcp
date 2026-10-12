@@ -1,0 +1,31 @@
+{
+  "id": "shapefactory-co",
+  "url": "https://shapefactory.co",
+  "kind": "site",
+  "hints_hash": "e30d6aebb71e7bf5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shapefactory.co", "title": "ShapeFactory | Simple tools to enrich creativity", "status": null},
+    {"url": "https://pigment.shapefactory.co", "title": "Pigment by ShapeFactory | Simple Color Palette Generator", "status": 200},
+    {"url": "https://gradient.shapefactory.co", "title": "Gradient by ShapeFactory | Chromatic Gradient Generator", "status": 200},
+    {"url": "https://logo.shapefactory.co", "title": "Logo by ShapeFactory | Clean, Simple, Hassle-free Logo Design", "status": 200},
+    {"url": "https://duotone.shapefactory.co", "title": "Duotone by ShapeFactory | Create Beautiful Free Duotones", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ShapeFactory",
+  "summary": "Free browser design tools: logo maker, color palette generator, CSS gradient generator and duotone image effects.",
+  "description": "A set of small free browser tools built by designers. Logo creates logos, Pigment generates color palettes from lighting and pigment instead of math, Gradient builds chromatic gradients in the LAB color space and copies the CSS, and Duotone applies duotone effects to stock photos or your own uploads. The homepage also lists a GalleryQR tool.",
+  "type": "generator",
+  "categories": ["color-effects", "design-tools"],
+  "elements": [],
+  "keywords": ["color palette generator", "gradient generator", "css gradient", "logo maker", "logo design", "duotone", "image effect", "design tool", "browser tool", "free", "lab color", "color palette", "graphic design"],
+  "contains": ["free tools: Logo, Pigment, Gradient and Duotone, plus GalleryQR listed on the homepage", "Pigment: palettes based on lighting and pigment instead of math", "Gradient: LAB color space gradients with copy-ready CSS", "Duotone: free duotone images or custom duotone effects from an upload"],
+  "formats": ["code", "png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

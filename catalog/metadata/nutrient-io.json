@@ -1,0 +1,84 @@
+{
+  "id": "nutrient-io",
+  "url": "https://nutrient.io",
+  "kind": "site",
+  "hints_hash": "5af3da66890abab8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://nutrient.io/llms.txt",
+      "title": "Nutrient — The document layer for agents",
+      "status": 200
+    },
+    {
+      "url": "https://nutrient.io",
+      "title": "Nutrient — Document layer for agents | PDF SDKs and APIs",
+      "status": 200
+    },
+    {
+      "url": "https://www.nutrient.io/documentation",
+      "title": "Nutrient documentation — Guides, API references, and SDKs",
+      "status": 200
+    },
+    {
+      "url": "https://www.nutrient.io/pricing",
+      "title": "Nutrient pricing — SDKs, APIs, Workflow, and Integrations",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Nutrient",
+  "summary": "Document platform with PDF SDKs, cloud APIs and agent tools for extraction, conversion, OCR, redaction and eSignatures.",
+  "description": "SDKs and cloud APIs for document work: extract structured data from PDFs, scans and Office files, convert between formats, OCR, generate, compare, redact, sign, and tag PDFs for accessibility (PDF/UA). Hosted APIs each have a free tier; self-hosted and air-gapped deployments are supported. An MCP server and skills let agents call the APIs, while workflow automation keeps approvals, audit trails and human review.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "pdf sdk",
+    "document api",
+    "pdf viewer",
+    "pdf editing",
+    "ocr",
+    "data extraction",
+    "document conversion",
+    "redaction",
+    "esignature",
+    "pdf/ua accessibility",
+    "document automation",
+    "mcp server",
+    "agent tool",
+    "self-hosted"
+  ],
+  "contains": [
+    "cloud APIs (DWS) with a free tier per API; Data Extraction: 5,000 credits/month",
+    "SDKs for web, iOS, Android, React Native, .NET and server",
+    "MCP server plus skills: PDF-to-Markdown, Make PDF, Remediate PDF",
+    "capabilities: extraction, classification, conversion, OCR, generation, redaction, eSignatures, accessibility",
+    "workflow automation with confidence scores, approvals and human review",
+    "deploy hosted, self-hosted or air-gapped; use any AI model or none"
+  ],
+  "formats": [
+    "code",
+    "api",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://www.nutrient.io/documentation",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,53 @@
+{
+  "id": "vercel-com-design-md",
+  "url": "https://vercel.com/design.md",
+  "kind": "page",
+  "hints_hash": "a196163a76894061",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vercel.com/design.md",
+      "title": "Design report websites like Vercel",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Design report websites like Vercel",
+  "summary": "Public design.md file that teaches coding agents to design official Vercel-branded report sites with Geist type and a published CSS API.",
+  "description": "Vercel's brand-guidelines file for coding agents: a single public URL covering Vercel product and brand context, information architecture, composition, Geist typography, data storytelling, accessibility and light and dark themes. It tells agents to work in four passes, reject generated-design reflexes, integrate with the caller's project, and use the published vercel-brand.css API instead of inventing styles and sizes, with logo downloads and a priority order for competing requirements.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules"
+  ],
+  "keywords": [
+    "design.md",
+    "design rule",
+    "brand guideline",
+    "agent skill",
+    "report website",
+    "css api",
+    "geist",
+    "design system",
+    "data storytelling",
+    "coding agent",
+    "light and dark theme",
+    "responsive"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "vercel-com"
+  },
+  "confidence": 0.9
+}

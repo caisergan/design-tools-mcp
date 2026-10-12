@@ -1,0 +1,24 @@
+{
+  "id": "livekit-io-ui",
+  "url": "https://livekit.io/ui",
+  "kind": "page",
+  "hints_hash": "9e85cd6ed5e1085c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T15:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://livekit.io/ui", "title": "Agents UI | Build beautiful voice AI | LiveKit", "status": 200},
+    {"url": "https://raw.githubusercontent.com/livekit/components-js/main/packages/shadcn/README.md", "title": "@agents-ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Agents UI",
+  "summary": "Open-source React + shadcn library for LiveKit voice agents: audio visualizers, control bar, chat transcript, session view.",
+  "description": "Agents UI is LiveKit's open-source component library built with React and shadcn for designing voice agent interfaces. Five audio visualizer styles (Aura, Wave, Radial, Grid, Bar) react to agent states (connecting, speaking, listening, thinking), with pre-built blocks for a control bar (media, chat, end call), a chat transcript and a complete session view; components install via the shadcn CLI from the @agents-ui registry and customize with parameters like color hue.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["ai-agent-ui", "chat"],
+  "keywords": ["voice agent", "agents ui", "livekit", "audio visualizer", "shadcn", "react component", "chat transcript", "control bar", "session view", "realtime", "webgl", "open source", "agent ui", "voice ai", "registry"],
+  "formats": ["code", "registry", "cli"],
+  "related": {"repo": "https://github.com/livekit/components-js", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

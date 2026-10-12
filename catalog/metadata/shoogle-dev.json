@@ -1,0 +1,29 @@
+{
+  "id": "shoogle-dev",
+  "url": "https://shoogle.dev",
+  "kind": "site",
+  "hints_hash": "194a47fe1996a2d8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shoogle.dev", "title": "Shoogle - shadcn UI Components & Blocks Search Engine", "status": null},
+    {"url": "https://shoogle.dev/mcp", "title": "MCP Server for Shadcn UI - Shoogle.dev", "status": 200},
+    {"url": "https://shoogle.dev/directory", "title": "Shadcn Registry Directory - Awesome shadcn UI | shoogle.dev", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shoogle",
+  "summary": "Search engine for shadcn UI components, blocks and templates across community registries, with an MCP server for agents.",
+  "description": "Searchable index of shadcn registry items - components, blocks and templates from community registries - plus a directory of 434 registries. Items install with the shadcn CLI through the @shoogle registry namespace, and an MCP server with a skill lets AI agents search and install components from Cursor, Claude Code and other clients.",
+  "type": "tool",
+  "categories": ["registries", "design-tools"],
+  "elements": ["chart", "scroll-effect", "input", "loader", "text-effect", "table", "ai-agent-ui", "progress", "form", "timeline", "button", "tabs"],
+  "keywords": ["shadcn", "shadcn ui", "component search", "block", "registry", "mcp server", "ai agent", "cursor", "claude code", "react", "tailwind", "install component", "component directory", "free"],
+  "contains": ["26,000+ community shadcn blocks indexed (site claim)", "directory of 434 community shadcn registries", "install with the shadcn CLI from the @shoogle registry namespace", "MCP server with setup guides for Cursor, Claude Code, CLI and other clients", "Shoogle skill for Claude Code and Cursor", "search filters by type, limit and offset"],
+  "formats": ["registry", "cli", "api", "docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

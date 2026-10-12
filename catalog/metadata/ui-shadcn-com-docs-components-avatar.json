@@ -1,0 +1,72 @@
+{
+  "id": "ui-shadcn-com-docs-components-avatar",
+  "url": "https://ui.shadcn.com/docs/components/avatar",
+  "kind": "page",
+  "hints_hash": "fa4a1e68e1322334",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.shadcn.com/docs/components/avatar",
+      "title": "Avatar - shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://ui.shadcn.com/docs/components/base/avatar",
+      "title": "Avatar - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Avatar",
+  "summary": "shadcn/ui docs page for the Avatar component: image, fallback, badge and group parts, with examples and API reference.",
+  "description": "The Avatar component page in the shadcn/ui documentation: an image element with a fallback for representing the user. It covers installation, composition (Avatar, AvatarImage, AvatarFallback, AvatarBadge, AvatarGroup, AvatarGroupCount), examples from badges to dropdown triggers and RTL, and the full API reference.",
+  "elements": [
+    "avatar"
+  ],
+  "keywords": [
+    "avatar",
+    "avatar component",
+    "user avatar",
+    "profile picture",
+    "avatar group",
+    "avatar fallback",
+    "shadcn",
+    "react",
+    "base ui",
+    "component documentation"
+  ],
+  "contains": [
+    "composition: Avatar, AvatarImage, AvatarFallback, AvatarBadge, AvatarGroup, AvatarGroupCount",
+    "examples: basic, badge, badge with icon, avatar group, group count, sizes, dropdown trigger, RTL",
+    "size prop: default, sm, lg",
+    "implementations for Base UI, React Aria and Radix UI"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "base-ui",
+    "radix",
+    "react-aria"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-shadcn-com"
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,25 @@
+{
+  "id": "refactoring-guru-design-patterns",
+  "url": "https://refactoring.guru/design-patterns",
+  "kind": "page",
+  "hints_hash": "7a66686179f99ef2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://refactoring.guru/design-patterns", "title": "Design Patterns", "status": 200},
+    {"url": "https://refactoring.guru/design-patterns/catalog", "title": "The Catalog of Design Patterns", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Design Patterns",
+  "summary": "Overview of 22 classic software design patterns grouped by intent, with a catalog of patterns and a companion book.",
+  "description": "Explains what design patterns are and why they are useful, then links the catalog of 22 classic patterns in three groups: creational (5), structural (7) and behavioral (10). The page also covers classification, history and criticism of patterns and points to the book Dive Into Design Patterns.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["design pattern", "software design", "object-oriented programming", "refactoring", "creational pattern", "structural pattern", "behavioral pattern", "singleton", "factory method", "observer pattern", "strategy pattern", "adapter pattern", "decorator pattern", "code architecture", "programming guide", "design pattern catalog"],
+  "contains": ["catalog of 22 classic design patterns grouped by intent", "pattern groups: creational (5), structural (7), behavioral (10)", "sections: benefits of patterns, classification, history, criticism", "companion book: Dive Into Design Patterns"],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "refactoring-guru"},
+  "confidence": 0.85
+}

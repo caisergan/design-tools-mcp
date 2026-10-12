@@ -1,0 +1,31 @@
+{
+  "id": "github-com-anmolsaini16-mapcn",
+  "url": "https://github.com/AnmolSaini16/mapcn",
+  "kind": "repo",
+  "hints_hash": "0e5a5ab6a198effd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/AnmolSaini16/mapcn/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/AnmolSaini16/mapcn/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/AnmolSaini16/mapcn", "title": "GitHub - AnmolSaini16/mapcn: Beautiful map components. 100% Free, Zero config, one command setup. · GitHub", "status": 200},
+    {"url": "https://mapcn.dev", "title": "mapcn - Beautiful maps made simple", "status": 200},
+    {"url": "https://mapcn.dev/docs", "title": "Introduction - mapcn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "mapcn",
+  "summary": "Copy-paste map components for React built on MapLibre GL, styled with Tailwind and installed with the shadcn CLI.",
+  "description": "Free, ready-to-use map components for React that follow the shadcn model: copy-paste code you own with sensible defaults. The docs list Map, Controls, Markers, Popups, Routes, Arcs, GeoJSON and Clusters; components are theme-aware (light/dark), zero-config and TypeScript, built on MapLibre GL with Tailwind. Basemaps use CARTO over OpenStreetMap data — commercial use needs a CARTO licence, or swap in OpenStreetMap, MapTiler or Stadia tiles. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["map"],
+  "keywords": ["map", "react map", "maplibre", "shadcn registry", "map component", "marker", "popup", "route", "arc", "geojson", "cluster", "map control", "tailwind css", "typescript", "copy paste", "dark mode", "theme", "zero config", "basemap", "openstreetmap"],
+  "contains": ["components: Map, Controls, Markers, Popups, Routes, Arcs, GeoJSON, Clusters", "9 items in the shadcn registry; one-command setup", "built on MapLibre GL, styled with Tailwind, works with shadcn/ui", "theme-aware light/dark mode; zero config; composable; TypeScript", "markers with popups, tooltips and labels; routes, arcs and clusters", "basemaps from CARTO over OpenStreetMap; commercial use needs a CARTO licence or another tile provider", "llms.txt for AI agents; MIT licensed; 12.2k GitHub stars"],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "maplibre-gl", "tailwind", "shadcn", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/AnmolSaini16/mapcn", "docs": "https://www.mapcn.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

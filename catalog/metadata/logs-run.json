@@ -1,0 +1,119 @@
+{
+  "id": "logs-run",
+  "url": "https://logs.run",
+  "kind": "site",
+  "hints_hash": "07e35a30771fbee0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://logs.run/llms.txt",
+      "title": "data-table-filters",
+      "status": null
+    },
+    {
+      "url": "https://logs.run",
+      "title": "React Data Table with Filters — shadcn/ui + TanStack Table | openstatus",
+      "status": 200
+    },
+    {
+      "url": "https://data-table.openstatus.dev/docs/mcp",
+      "title": "MCP Server | Data Table",
+      "status": 200
+    },
+    {
+      "url": "https://data-table.openstatus.dev/docs/agents",
+      "title": "For AI Agents | Data Table",
+      "status": 200
+    },
+    {
+      "url": "https://data-table.openstatus.dev/docs/features",
+      "title": "Features | Data Table",
+      "status": 200
+    },
+    {
+      "url": "https://data-table.openstatus.dev/docs/drizzle-orm",
+      "title": "Drizzle ORM | Data Table",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "data-table-filters",
+  "summary": "React data table with faceted filters, sorting and infinite scroll, shipped as shadcn registry blocks.",
+  "description": "A React data table built on TanStack Table and shadcn/ui with faceted filters, sorting, infinite scroll and virtualization. It is distributed as shadcn registry blocks you install into your own repo rather than an npm dependency; filtering, faceted counts and cursor pagination run in SQL via Drizzle ORM, with state in nuqs or zustand. Ships docs, recipes, an agent skill and an MCP block.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "table",
+    "chart",
+    "checkbox",
+    "input",
+    "slider",
+    "pagination",
+    "command-palette",
+    "drawer"
+  ],
+  "keywords": [
+    "data table",
+    "react data table",
+    "tanstack table",
+    "shadcn registry",
+    "faceted filter",
+    "infinite scroll",
+    "sorting",
+    "row selection",
+    "server-side filtering",
+    "cursor pagination",
+    "virtualization",
+    "drizzle orm",
+    "nuq",
+    "zustand",
+    "nextjs",
+    "mcp server",
+    "timeline chart",
+    "command palette",
+    "agent skill"
+  ],
+  "contains": [
+    "15 shadcn registry blocks, each with a docs page and install recipe",
+    "faceted filters: checkbox, input, slider and time range",
+    "filtering, faceted counts and cursor pagination run in SQL via Drizzle ORM (Postgres/MySQL/SQLite)",
+    "recipes: zero-config from JSON, client-side table, 100k+ rows, API endpoint, row actions, AI-queryable",
+    "state management via nuqs (URL-based) or zustand (client-side)",
+    "MCP server block exposing a query_table tool to AI agents",
+    "ships an agent skill, llms.txt / llms-full.txt and raw markdown docs"
+  ],
+  "formats": [
+    "registry",
+    "cli",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "drizzle",
+    "tanstack-table",
+    "nuqs",
+    "zustand"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://data-table.openstatus.dev/docs/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

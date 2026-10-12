@@ -1,0 +1,20 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11280",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11280",
+  "kind": "page",
+  "hints_hash": "0b942da103a256e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11280", "title": "fix(skills): re-apply a Skill's side effects when a session is resumed by TianYuan1024 · Pull Request #11280 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(skills): re-apply a Skill's side effects when a session is resumed",
+  "summary": "Merged pull request in QwenLM/qwen-code: resumed sessions re-apply each Skill's allowedTools rules and hooks, closing a fail-open bug.",
+  "description": "A merged pull request (#11280) in QwenLM/qwen-code: resuming a session with --continue or --resume re-applies the side effects of every Skill the model loaded — its allowedTools session allow rules and its hooks — but only when the recorded response still matches SKILL.md on disk and the Skill is enabled, model-visible, activated and trusted. Session allow rules are also cleared when the process switches sessions, so a Skill's grants no longer outlive the session that loaded it. Fixes #11180.",
+  "keywords": ["pull request", "ai coding agent", "cli", "terminal", "skill", "session resume", "hook", "permission rule", "bug fix", "open source"],
+  "formats": ["code"],
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

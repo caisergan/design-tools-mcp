@@ -1,0 +1,66 @@
+{
+  "id": "dev-to-tapesh02-how-to-use-react-icons-in-react-with-typescript-2cgi",
+  "url": "https://dev.to/tapesh02/how-to-use-react-icons-in-react-with-typescript-2cgi",
+  "kind": "page",
+  "hints_hash": "e16865f27512f813",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dev.to/tapesh02/how-to-use-react-icons-in-react-with-typescript-2cgi",
+      "title": "How to use react-icons in React with TypeScript - DEV Community",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "How to use react-icons in React with TypeScript",
+  "summary": "dev.to tutorial on using the react-icons package in React with TypeScript by wrapping icons in one typed reusable component.",
+  "description": "Tutorial by Tapesh Patel (June 2024): install react-icons and prop-types, import an icon and the IconType type from react-icons, then build a small IconComponent that takes a typed icon prop and renders it, so any icon such as FaDev can be used like a normal React component. Covers the typing errors that appear when the icon library is used without types.",
+  "type": "article",
+  "categories": [
+    "learning",
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "react-icon",
+    "react icon",
+    "typescript",
+    "reusable component",
+    "icon component",
+    "prop-type",
+    "icon type",
+    "react tutorial",
+    "npm package",
+    "frontend tutorial"
+  ],
+  "contains": [
+    "install react-icons and prop-types with npm",
+    "import icons and the IconType type from react-icons",
+    "reusable IconComponent with a typed icon prop",
+    "usage: <IconComponent icon={FaDev}/>",
+    "published 10 Jun 2024, edited 18 Jun 2024"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [
+    "react",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

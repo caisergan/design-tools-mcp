@@ -1,0 +1,69 @@
+{
+  "id": "github-com-lottiefiles-motion-design-skill",
+  "url": "https://github.com/LottieFiles/motion-design-skill",
+  "kind": "repo",
+  "hints_hash": "9ffbf5e968d8ac09",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:07:12Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/LottieFiles/motion-design-skill/blob/HEAD/README.md",
+      "title": "Motion Design Skill",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Motion Design Skill",
+  "summary": "Agent skill teaching motion design for UI: timing, easing, choreography and Disney's 12 principles adapted for interfaces.",
+  "description": "A SKILL.md package that teaches AI agents to think like motion directors before writing animation code: an 8-step checklist, duration and easing tables, motion personality archetypes, and quality rules. Supporting docs cover the philosophy (Disney's 12 principles adapted for UI, emotion-to-motion mapping), ready-to-use patterns (entrance/exit, state feedback, ambient motion, choreography) and reference lookup tables. Implementation-agnostic — CSS, Framer Motion, GSAP, Lottie or Spring — and installs into 40+ agents including Claude Code, Cursor and GitHub Copilot.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "motion design",
+    "animation principle",
+    "easing",
+    "timing",
+    "choreography",
+    "disney animation principle",
+    "ui animation",
+    "micro interaction",
+    "agent skill",
+    "claude code",
+    "cursor",
+    "loading state",
+    "page transition",
+    "design rule"
+  ],
+  "contains": [
+    "SKILL.md core: 8-step checklist, duration/easing tables, quality rules",
+    "director/: philosophy, Disney's 12 principles adapted for UI, emotion-to-motion mapping",
+    "patterns/: entrance and exit, state feedback, ambient motion, choreography",
+    "reference/: timing and easing lookup tables, troubleshooting",
+    "works with 40+ agents (Claude Code, Cursor, Codex, Copilot)",
+    "MIT licensed"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/LottieFiles/motion-design-skill",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

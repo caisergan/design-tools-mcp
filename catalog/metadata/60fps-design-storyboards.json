@@ -1,0 +1,46 @@
+{
+  "id": "60fps-design-storyboards",
+  "url": "https://60fps.design/storyboards",
+  "kind": "page",
+  "hints_hash": "7c79a618d39cf43e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://60fps.design/storyboards",
+      "title": "Explore detailed breakdowns of animations and interactions on 60fps",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Storyboards",
+  "summary": "67 step-by-step storyboards breaking down iOS app animations and interactions, tagged by gesture, effect and element.",
+  "keywords": [
+    "storyboard",
+    "animation breakdown",
+    "motion design",
+    "micro interaction",
+    "ios app animation",
+    "splash animation",
+    "onboarding animation",
+    "interaction design",
+    "animation inspiration",
+    "mobile ui motion",
+    "gesture",
+    "transition"
+  ],
+  "pricing": "freemium",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "60fps-design"
+  },
+  "confidence": 0.85
+}

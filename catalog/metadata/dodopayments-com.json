@@ -1,0 +1,123 @@
+{
+  "id": "dodopayments-com",
+  "url": "https://dodopayments.com",
+  "kind": "site",
+  "hints_hash": "f1798b3e6981336e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dodopayments.com/llms.txt",
+      "title": "Dodo Payments",
+      "status": null
+    },
+    {
+      "url": "https://dodopayments.com",
+      "title": "Billing & Payments Platform for AI-First Companies | Dodo Payments",
+      "status": 200
+    },
+    {
+      "url": "https://docs.dodopayments.com/developer-resources/billingsdk",
+      "title": "Billing SDK - Dodo Payments Documentation",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/dodopayments/billingsdk",
+      "title": "GitHub - dodopayments/billingsdk: Modern Billing & Monetization UI Components Library",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dodopayments/billingsdk/HEAD/README.md",
+      "title": "Billing SDK README",
+      "status": 200
+    },
+    {
+      "url": "https://billingsdk.com/docs/components",
+      "title": "Components | Billing SDK",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Billing SDK",
+  "summary": "Open-source React billing and subscription UI components from Dodo Payments: pricing tables, payment forms and usage meters.",
+  "description": "A set of type-safe React components from Dodo Payments for billing and subscription screens, built with TypeScript and Tailwind CSS to sit alongside shadcn/ui. Pricing tables in eight variants, subscription management with invoice history and usage tables, payment forms and method selectors, usage meters, cancellation flows and promotional banners, plus a CLI that generates framework API routes. Install components individually or scaffold a project; GPL v3 licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "pricing",
+    "dashboard",
+    "table",
+    "form",
+    "card",
+    "modal",
+    "progress",
+    "banner",
+    "tabs",
+    "switch",
+    "input",
+    "select"
+  ],
+  "keywords": [
+    "billing",
+    "billing ui",
+    "subscription",
+    "pricing table",
+    "pricing card",
+    "payment form",
+    "payment method",
+    "usage meter",
+    "quota",
+    "invoice",
+    "billing dashboard",
+    "cancel subscription",
+    "plan upgrade",
+    "banner",
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "cli",
+    "shadcn registry"
+  ],
+  "contains": [
+    "pricing tables in eight variants, incl. feature-comparison",
+    "subscription management: usage-based pricing, invoice history, usage table, update plan, cancellation flows",
+    "payment details forms, payment method selector, success and failure dialogs",
+    "usage meters (linear and circular), billing dashboard and billing settings",
+    "CLI generates framework API routes, React hook and Dodo Payments client",
+    "themes: classic, minimal, custom tokens; light and dark mode via CSS variables",
+    "GPL-3.0 licensed; 509 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "GPL-3.0-only",
+  "related": {
+    "repo": "https://github.com/dodopayments/billingsdk",
+    "docs": "https://docs.dodopayments.com/developer-resources/billingsdk",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

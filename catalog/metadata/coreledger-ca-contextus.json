@@ -1,0 +1,21 @@
+{
+  "id": "coreledger-ca-contextus",
+  "url": "https://coreledger.ca/contextus",
+  "kind": "page",
+  "hints_hash": "aa12aa3f7639c060",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coreledger.ca/contextus", "title": "Contextus | Control What Developer Agents See, Do, and Prove · Coreledger Technologies", "status": null},
+    {"url": "https://coreledger.ca/contextus/pricing", "title": "Contextus Pricing | Governed Agent Workflows · Coreledger Technologies", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Contextus",
+  "summary": "Control layer for developer agents: compiles working context, applies policy, gates risky actions behind approval and records proof.",
+  "keywords": ["ai agent", "developer agent", "agent governance", "mcp", "policy", "approval workflow", "audit trail", "agent passport", "model routing", "context engineering", "tool permission", "ai coding agent", "guardrail"],
+  "type": "tool",
+  "pricing": "freemium",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

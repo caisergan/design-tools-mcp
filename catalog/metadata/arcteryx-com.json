@@ -1,0 +1,28 @@
+{
+  "id": "arcteryx-com",
+  "url": "https://arcteryx.com",
+  "kind": "site",
+  "hints_hash": "923d383f28fef498",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://arcteryx.com", "title": "Outdoor Clothing, Technical Outerwear, & Accessories | Arc'teryx Canada", "status": null},
+    {"url": "https://arcteryx.com/ca/en/c/womens/shell-jackets", "title": "Women's Shell Jackets | Lightweight & Waterproof | Arc'teryx Canada", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Arc'teryx",
+  "summary": "Online store and brand site for Arc'teryx outdoor clothing, technical outerwear and gear.",
+  "description": "The outdoor brand's e-commerce site: shop by clothing, activity and collection through mega-menu navigation, with campaign hero sections, product and brand cards, an announcement bar and a store locator. Brand content covers Veilance, Arc'teryx PRO, ReBIRD resale and repair, and Academy events.",
+  "type": "app",
+  "categories": ["inspiration"],
+  "elements": ["navbar", "banner", "hero", "card", "cta"],
+  "keywords": ["outdoor clothing", "technical outerwear", "ecommerce", "online store", "apparel", "jacket", "product card", "mega menu", "brand website", "shop", "winter gear", "ski touring", "hiking", "product listing"],
+  "contains": ["store for outdoor clothing, technical outerwear, footwear, packs and climbing gear", "mega-menu navigation by clothing, activity and collection", "campaign hero sections (e.g. 'Find your line') and product/brand cards", "announcement bar with shipping and returns offer and a store locator", "brand programmes: Veilance, Arc'teryx PRO, ReBIRD trade-in and resale, Academy events", "50000 URLs in the site's sitemap"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

@@ -1,0 +1,49 @@
+{
+  "id": "uxplanet-org",
+  "url": "https://uxplanet.org",
+  "kind": "site",
+  "hints_hash": "2e098b5c11a74b89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uxplanet.org", "title": "Medium", "status": null},
+    {"url": "https://uxplanet.org/about", "title": "Medium", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UX Planet",
+  "summary": "Medium publication collecting articles on UX design, user research and design careers.",
+  "description": "UX Planet is a Medium publication that calls itself a one-stop resource for everything related to user experience. Articles sit under topics such as UX for beginners, user research and career, alongside UX, UX design, user experience design and product design; readers can submit a story, and the publication also runs a design-news newsletter.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": [
+    "ux blog",
+    "user experience",
+    "ux design",
+    "user research",
+    "design career",
+    "ux for beginner",
+    "product design",
+    "design article",
+    "medium publication",
+    "design newsletter",
+    "ux resource",
+    "design community"
+  ],
+  "contains": [
+    "Medium publication with about 364K followers",
+    "topics: user experience, UX for beginners, user research, career",
+    "further topics: UX, UX design, user experience design, product design",
+    "story submission with published guidelines",
+    "archive of posts from 2016 to 2026",
+    "edited by Nick Babich, editor-in-chief",
+    "design-news newsletter"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

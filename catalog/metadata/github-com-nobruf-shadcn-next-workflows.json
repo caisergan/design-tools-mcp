@@ -1,0 +1,29 @@
+{
+  "id": "github-com-nobruf-shadcn-next-workflows",
+  "url": "https://github.com/nobruf/shadcn-next-workflows",
+  "kind": "repo",
+  "hints_hash": "628655d20dc50a44",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/nobruf/shadcn-next-workflows/blob/HEAD/README.md", "title": "Workflow Example with React Flows, Next.js & Shadcn", "status": null},
+    {"url": "https://github.com/nobruf/shadcn-next-workflows", "title": "GitHub - nobruf/shadcn-next-workflows: Interactive workflow builder using React Flows, Next.js, and Shadcnui. Create, connect, and validate custom nodes easily. · GitHub", "status": 200},
+    {"url": "https://shadcn-next-workflows.vercel.app/", "title": "Shadcn Next Workflows", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Workflow Example with React Flows, Next.js & Shadcn",
+  "summary": "Sample interactive workflow builder with draggable nodes and flow validation, built with React Flow, Next.js and shadcn/ui.",
+  "description": "A demo project showing how to build and visualize interactive workflows: five predefined node types (Start, Menu, Text Message, Tags, End) on a React Flow canvas, drag-and-drop connections between nodes, and validation that prevents incomplete flows from being finished. Node components are modular so new node types can be added.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["workflow builder", "react flow", "node editor", "flow builder", "drag and drop", "next.js", "shadcn ui", "react", "workflow", "validation", "canvas", "interactive diagram", "template"],
+  "contains": ["predefined nodes: Start, Menu, Text Message, Tags, End", "drag-and-drop connections on a React Flow canvas", "flow validation for incomplete workflows", "modular node components", "MIT licensed, 308 stars", "Vercel demo"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "react-flow"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/nobruf/shadcn-next-workflows", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

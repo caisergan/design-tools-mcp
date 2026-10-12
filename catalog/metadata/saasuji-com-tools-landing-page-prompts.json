@@ -1,0 +1,27 @@
+{
+  "id": "saasuji-com-tools-landing-page-prompts",
+  "url": "https://saasuji.com/tools/landing-page-prompts",
+  "kind": "page",
+  "hints_hash": "33b856ef300b8629",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://saasuji.com/tools/landing-page-prompts", "title": "Free Landing Page Prompts — 813+ AI Copy-Paste Prompts | saasuji", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Landing Page Prompts",
+  "summary": "Library of 813+ free copy-paste prompts for building landing pages with AI coding tools.",
+  "description": "A browsable library of 813+ landing page prompts on saasuji, with a searchable gallery of landing page designs and visual previews. Each prompt is meant to be copied into an AI builder such as Lovable, Cursor, Bolt or Claude to generate a landing page.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "sections"],
+  "elements": [],
+  "keywords": ["landing page prompt", "ai prompt", "prompt library", "copy-paste prompt", "landing page design", "saas landing page", "ai website builder", "lovable prompt", "cursor prompt", "bolt prompt", "claude prompt", "marketing prompt"],
+  "contains": ["813+ landing page prompts", "searchable prompt list", "gallery of landing page designs with visual previews", "prompts for Lovable, Cursor, Bolt and Claude", "free to browse and copy"],
+  "formats": ["prompts", "screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

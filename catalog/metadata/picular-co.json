@@ -1,0 +1,27 @@
+{
+  "id": "picular-co",
+  "url": "https://picular.co",
+  "kind": "site",
+  "hints_hash": "d3e32e11dbe95086",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://picular.co/", "title": "Picular", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Picular",
+  "summary": "Color generator that turns any word into a palette of matching hex colors drawn from image search.",
+  "description": "The site describes itself as a fast primary-color generator built on Google image search: type a search term and it returns colors for it, with the headline \"The color of anything.\" The search UI is rendered client-side, so only the title, description and heading are readable.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color generator", "color palette", "hex color", "color search", "color inspiration", "primary color", "image color", "color picker", "design tool"],
+  "contains": ["color search: type a word, get matching colors"],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

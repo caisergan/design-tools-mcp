@@ -1,0 +1,27 @@
+{
+  "id": "vantaui-com-explore-blocks-perspective-gallery",
+  "url": "https://vantaui.com/explore/blocks/perspective-gallery",
+  "kind": "page",
+  "hints_hash": "266726ae02717c4b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vantaui.com/explore/blocks/perspective-gallery", "title": "Perspective Gallery | VantaUI", "status": null},
+    {"url": "https://vantaui.com/explore/docs", "title": "Introduction | Docs | VantaUI", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Perspective Gallery",
+  "summary": "VantaUI block: a showcase gallery whose cards move in perspective on scroll.",
+  "description": "A block in the VantaUI library that shows a showcase gallery with perspective cards animated on scroll. VantaUI components and blocks are React and Next.js code installed from a shadcn registry; anonymous users can read the free source.",
+  "type": "block-library",
+  "elements": ["card", "3d", "scroll-effect"],
+  "keywords": ["perspective gallery", "showcase gallery", "scroll animation", "3d card", "card gallery", "gallery block", "react block", "nextjs block", "shadcn registry", "landing page section", "block library", "scroll effect"],
+  "contains": ["showcase gallery block with perspective cards animated on scroll", "installs from the VantaUI shadcn registry as React and Next.js source"],
+  "formats": ["registry", "code"],
+  "stack": ["react", "nextjs"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://vantaui.com/explore/docs", "npm": null, "figma": null, "parent": "vantaui-com"},
+  "confidence": 0.6
+}

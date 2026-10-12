@@ -1,0 +1,63 @@
+{
+  "id": "blog-cloudflare-com",
+  "url": "https://blog.cloudflare.com",
+  "kind": "site",
+  "hints_hash": "ee555f162e603fe8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://blog.cloudflare.com",
+      "title": "Cloudflare Blog",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Cloudflare Blog",
+  "summary": "Engineering blog covering CDN, DNS, security, developer platform and AI, with technical deep dives and product news.",
+  "description": "Company blog from Cloudflare's engineering and product teams: deep dives on DNS, CDN, DDoS, post-quantum security, Workers and Durable Objects, observability and AI, alongside product news and launch roundups. Organised into categories (AI, Developers, Radar, Product News, Security, Policy & Legal, Zero Trust, Speed & Reliability, Life at Cloudflare, Partners) and published in over 20 languages.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "engineering blog",
+    "cdn",
+    "dns",
+    "ddos",
+    "zero trust",
+    "cloudflare worker",
+    "developer platform",
+    "observability",
+    "network security",
+    "technical deep dive",
+    "product news"
+  ],
+  "contains": [
+    "categories: AI, Developers, Radar, Product News, Security, Policy & Legal, Zero Trust, Speed & Reliability",
+    "10,050 URLs in its sitemap",
+    "engineering deep dives on DNS, CDN, DDoS, Workers and AI",
+    "product announcements and launch roundups",
+    "published in 20+ languages"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

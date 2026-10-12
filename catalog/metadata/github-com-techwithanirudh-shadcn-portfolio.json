@@ -1,0 +1,29 @@
+{
+  "id": "github-com-techwithanirudh-shadcn-portfolio",
+  "url": "https://github.com/techwithanirudh/shadcn-portfolio",
+  "kind": "repo",
+  "hints_hash": "114629c2c03e9e1c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/techwithanirudh/shadcn-portfolio/blob/HEAD/README.md", "title": null, "status": null},
+    {"url": "https://github.com/techwithanirudh/shadcn-portfolio", "title": "GitHub - techwithanirudh/shadcn-portfolio: A portfolio template, which uses shadcn-ui and Next.JS. · GitHub", "status": 200},
+    {"url": "https://shadcn-portfoliox.vercel.app", "title": "John Doe", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-portfolio",
+  "summary": "Portfolio template built with Next.js 15, shadcn/ui and Framer Motion, with projects, skills, blog and a contact form.",
+  "description": "A portfolio starter for developers or designers, built with Next.js 15 App Router, shadcn/ui, Tailwind CSS and Framer Motion. The homepage carries hero, skills, projects, experience, testimonials and contact sections; the project also ships a blog with MDX, light/dark mode, SEO meta tags, Lenis smooth scrolling and a contact form with Cloudflare Turnstile. A Turborepo layout, with setup documented in GETTING_STARTED.md.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["contact", "hero", "navbar", "testimonials"],
+  "keywords": ["portfolio", "portfolio template", "next.js", "shadcn ui", "framer motion", "tailwind css", "react", "typescript", "personal website", "developer portfolio", "blog", "dark mode", "landing page", "contact form", "seo"],
+  "contains": ["portfolio sections: hero, skills, projects, experience, testimonials, contact", "blog with MDX (fumadocs and content-collections)", "Framer Motion animations, Lenis smooth scrolling", "light/dark mode", "contact form with Cloudflare Turnstile (setup required)", "Sentry integration (setup required)", "Turborepo layout", "MIT licensed, 214 stars"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "framer-motion", "fumadocs", "lenis"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/techwithanirudh/shadcn-portfolio", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

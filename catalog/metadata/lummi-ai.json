@@ -1,0 +1,39 @@
+{
+  "id": "lummi-ai",
+  "url": "https://lummi.ai",
+  "kind": "site",
+  "hints_hash": "9299a24ccc6eeaa8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lummi.ai/llms.txt", "title": "Lummi", "status": null},
+    {"url": "https://lummi.ai", "title": "Lummi — Free AI Stock Images, Illustrations & 3D", "status": 200},
+    {"url": "https://www.lummi.ai/explore", "title": "Explore Top Images, Collections, & Creators — Lummi", "status": 200},
+    {"url": "https://www.lummi.ai/pro", "title": "Lummi Pro", "status": 200},
+    {"url": "https://www.lummi.ai/license", "title": "License — Lummi", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lummi",
+  "summary": "Free AI stock library of 50,000+ photos, illustrations and 3D assets, royalty-free for commercial use, with a Pro tier.",
+  "description": "A stock library of AI-generated and human-curated photos, illustrations and 3D assets, browsable by category, colour, orientation, luminance and number of people. The free tier covers the whole catalogue with attribution; Lummi Pro ($10/mo billed yearly) adds watermark-free downloads, ultra-resolution upscaling, reframe, retouch, background removal and AI credits. Images can also come in through a REST API and plugins for Figma, Webflow, Canva, Adobe Express and Framer.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["stock photo", "ai image", "royalty-free image", "illustration", "3d asset", "free stock photo", "image library", "design asset", "figma plugin", "commercial use", "image api", "background removal"],
+  "contains": [
+    "50,000+ curated AI photos, illustrations and 3D assets",
+    "royalty-free for personal and commercial use; no reselling or bundling",
+    "free tier with attribution; Pro $10/mo billed yearly ($15 monthly)",
+    "search filters: colour, orientation, luminance, number of people",
+    "curated collections, creator profiles and trending shoots",
+    "plugins for Figma, Webflow, Canva, Adobe Express and Framer plus a REST API",
+    "Pro tools: ultra resolution, reframe, retouch, no background, duotone, 60 AI credits/month"
+  ],
+  "formats": ["png", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://lummi.ai/developers/api-reference/llms.txt", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

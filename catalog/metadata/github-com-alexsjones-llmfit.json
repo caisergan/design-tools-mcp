@@ -1,0 +1,36 @@
+{
+  "id": "github-com-alexsjones-llmfit",
+  "url": "https://github.com/AlexsJones/llmfit",
+  "kind": "repo",
+  "hints_hash": "1fba9665bb6612cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/AlexsJones/llmfit/blob/HEAD/README.md", "title": "llmfit", "status": null}
+  ],
+  "status": "ok",
+  "name": "llmfit",
+  "summary": "CLI that detects your hardware and ranks hundreds of local LLMs by memory fit, speed, quality and context.",
+  "description": "llmfit finds out which open-source LLMs your hardware can comfortably run. It detects CPU, RAM, GPU/VRAM and unified memory, then projects memory footprints and tokens-per-second for hundreds of models across GGUF, AWQ, GPTQ and EXL2 quantizations, scoring each for fit, speed, quality and context. Ships an interactive TUI, a classic CLI, a web dashboard with REST API and community benchmarks; supports Ollama, llama.cpp, MLX, Docker Model Runner and LM Studio. Installs via Homebrew, Scoop, MacPorts, uv/pip, Docker or prebuilt binaries. Written in Rust, MIT-licensed.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["llm", "local llm", "open source model", "hardware detection", "gpu", "vram", "quantization", "gguf", "ollama", "llama.cpp", "mlx", "lm studio", "cli", "tui", "benchmark", "model recommendation", "apple silicon", "cuda", "rust", "api"],
+  "contains": [
+    "hardware auto-detection: CPU, RAM, GPU/VRAM, unified memory",
+    "quantizations: GGUF, AWQ, GPTQ, EXL2",
+    "scores every model for fit, speed, quality and context",
+    "interactive TUI, classic CLI, web dashboard and REST API",
+    "runtime providers: Ollama, llama.cpp, MLX, Docker Model Runner, LM Studio",
+    "community benchmarks replace estimates with measured tok/s",
+    "installs via Homebrew, Scoop, MacPorts, uv/pip, Docker or prebuilt binaries",
+    "MIT licensed, written in Rust"
+  ],
+  "formats": ["cli", "api"],
+  "stack": ["rust"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/AlexsJones/llmfit", "docs": "https://github.com/AlexsJones/llmfit/blob/HEAD/docs/how-it-works.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

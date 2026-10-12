@@ -1,0 +1,27 @@
+{
+  "id": "doaj-org",
+  "url": "https://doaj.org",
+  "kind": "site",
+  "hints_hash": "c2bfe6fc51ea0005",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://doaj.org/about", "title": "About DOAJ – DOAJ", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DOAJ",
+  "summary": "Index of open access journals and articles, with search, an API and open metadata dumps.",
+  "description": "The Directory of Open Access Journals indexes peer-reviewed open access journals and articles worldwide. Search journals and articles, query the REST API, OAI-PMH, journal CSV, XML, OpenURL or the public data dump, and follow the publisher application process. Run by a non-profit Danish foundation; the homepage itself returned 403 to our crawler.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["open access journal", "academic journal", "scholarly article", "research paper", "open access", "journal index", "metadata", "api", "oai-pmh", "peer review"],
+  "contains": ["index of open access journals and articles", "search for journals and articles", "API, OAI-PMH, journal CSV, XML, OpenURL and public data dump", "publisher application and review process", "non-profit Danish foundation with volunteers in 45 countries"],
+  "formats": ["links", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://doaj.org/docs/api", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

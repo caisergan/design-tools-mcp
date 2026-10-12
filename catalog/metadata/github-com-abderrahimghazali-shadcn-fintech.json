@@ -1,0 +1,95 @@
+{
+  "id": "github-com-abderrahimghazali-shadcn-fintech",
+  "url": "https://github.com/abderrahimghazali/shadcn-fintech",
+  "kind": "repo",
+  "hints_hash": "293c888d5f7d696a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/abderrahimghazali/shadcn-fintech/blob/HEAD/README.md",
+      "title": "Shadcn Fintech",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Fintech",
+  "summary": "Open-source fintech dashboard template with 11 pages, built on Next.js 16, shadcn/ui and Tailwind CSS v4.",
+  "description": "A complete banking and crypto dashboard app: overview, accounts, transactions table, transfers, 3D credit cards, analytics with a spending heatmap, live investment ticker, budgets and settings. Dashboard widgets are drag-and-drop; auth pages use Clerk with an animated 3D globe; dark mode throughout.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "components"
+  ],
+  "elements": [
+    "dashboard",
+    "table",
+    "chart",
+    "card",
+    "calendar",
+    "globe",
+    "progress",
+    "stats",
+    "form",
+    "list",
+    "3d"
+  ],
+  "keywords": [
+    "fintech",
+    "finance dashboard",
+    "banking dashboard",
+    "crypto dashboard",
+    "shadcn",
+    "nextjs",
+    "tailwind",
+    "dashboard template",
+    "transaction table",
+    "chart",
+    "dark mode",
+    "drag and drop",
+    "credit card",
+    "budget",
+    "heatmap",
+    "react"
+  ],
+  "contains": [
+    "11 built pages plus sign-in and sign-up",
+    "candlestick crypto chart, 8-coin market overview and trade form",
+    "drag-and-drop dashboard widgets persisted to localStorage",
+    "3D flip credit cards with freeze toggle and virtual card generator",
+    "GitHub-style 365-day spending heatmap",
+    "budget progress rings and savings goals",
+    "Clerk auth with animated 3D globe",
+    "MIT license; Next.js 16, shadcn/ui, Tailwind v4, Recharts, Motion"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "recharts",
+    "framer-motion",
+    "dnd-kit",
+    "three.js",
+    "clerk",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/abderrahimghazali/shadcn-fintech",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

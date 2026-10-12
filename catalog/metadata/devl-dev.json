@@ -1,0 +1,28 @@
+{
+  "id": "devl-dev",
+  "url": "https://devl.dev",
+  "kind": "site",
+  "hints_hash": "4aef64d369ee8530",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://devl.dev", "title": "devl.dev — UI experiments built on coss-ui", "status": null},
+    {"url": "https://www.devl.dev/c/layouts/workspace-rail", "title": "Workspace rail · Layouts — devl.dev", "status": 200}
+  ],
+  "status": "ok",
+  "name": "devl.dev",
+  "summary": "158 browsable UI design experiments — app shells, dashboards, auth pages, tables, charts — built on coss-ui, each with copy-paste source.",
+  "description": "A personal scratch pad of 158 design experiments in 18 folders: layouts and app shells, forms, auth and onboarding screens, dashboards, tables, filters, empty states, settings, cards, modals, charts, timelines, calendars, profile pages and toasts. Everything is built on coss-ui (Tailwind v4 + Base UI); press c on any design to copy its source, or ⌘K to jump around.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["sidebar", "navbar", "form", "otp-input", "dashboard", "stats", "table", "chart", "card", "list", "empty-state", "404", "modal", "drawer", "command-palette", "toast", "banner", "timeline", "calendar", "kanban", "pricing"],
+  "keywords": ["ui experiment", "design experiment", "copy paste component", "react component", "tailwind component", "shadcn registry", "app shell", "dashboard ui", "auth page", "settings page", "data table", "chart component", "empty state", "command palette", "toast component", "timeline ui", "calendar ui"],
+  "contains": ["158 design experiments in 18 folders", "groups: layouts, forms, auth, dashboards, tables, filters, empty states", "groups: settings, cards, modals, charts, timelines, calendars, profile, toasts", "built on coss-ui (Tailwind v4 + Base UI)", "press c on any design to copy the source"],
+  "formats": ["code"],
+  "stack": ["react", "tailwind", "css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

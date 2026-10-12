@@ -1,0 +1,25 @@
+{
+  "id": "youworkforthem-com-fonts",
+  "url": "https://youworkforthem.com/fonts",
+  "kind": "page",
+  "hints_hash": "7eb9978b764bd04a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://youworkforthem.com/fonts", "title": "Download Fonts for Design - YouWorkForThem", "status": null}
+  ],
+  "status": "ok",
+  "name": "YouWorkForThem Fonts",
+  "summary": "Marketplace page with 250,000+ fonts for print, web and branding, browsable by style, with free fonts for registered users.",
+  "description": "Fonts category page of the YouWorkForThem marketplace: sans serif, script, serif, decorative, blackletter, monospace, distressed, retro, graffiti, stencil, handwriting, art deco, western and variable fonts, plus popular collections, exclusive and trending picks. New registrations get access to a free fonts collection; fonts are downloaded instantly rather than via subscription.",
+  "type": "font-foundry",
+  "formats": ["font-files", "links"],
+  "keywords": ["font", "typeface", "font download", "free font", "sans serif", "script font", "serif", "decorative font", "monospace", "variable font", "retro font", "art deco", "blackletter", "font marketplace", "commercial font", "display font"],
+  "contains": ["250,000+ fonts for print, web and branding", "free fonts for new registrations", "styles: sans serif, script, serif, monospace, variable and more", "styles include decorative, blackletter, retro, graffiti, art deco", "find fonts by image", "popular collections, exclusive and trending fonts"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "stack": [],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

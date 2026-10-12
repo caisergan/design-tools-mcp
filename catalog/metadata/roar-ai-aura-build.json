@@ -1,0 +1,28 @@
+{
+  "id": "roar-ai-aura-build",
+  "url": "https://roar-ai.aura.build",
+  "kind": "site",
+  "hints_hash": "5f641b8ad46ee8c9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://roar-ai.aura.build/llms.txt", "title": "Roar AI Social Growth Landing Page Template", "status": null},
+    {"url": "https://roar-ai.aura.build", "title": "Roar AI Social Growth Landing Page Template", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Roar AI",
+  "summary": "Landing page template for AI-driven automated social media growth and lead generation.",
+  "description": "An AI-driven landing page template built to showcase automated social media growth strategies and generate qualified leads for businesses. One page (Home); the live page renders with JavaScript, so only its title and meta description are machine-readable.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["landing page template", "social media growth", "lead generation", "ai", "marketing", "automation", "website template", "single page website"],
+  "contains": ["single Home page", "template for automated social media growth and lead generation", "JavaScript-rendered demo; preview image on og:image"],
+  "formats": ["templates"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

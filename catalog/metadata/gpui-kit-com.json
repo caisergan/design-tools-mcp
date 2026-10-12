@@ -1,0 +1,31 @@
+{
+  "id": "gpui-kit-com",
+  "url": "https://gpui-kit.com",
+  "kind": "site",
+  "hints_hash": "0a6444b6756496b3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gpui-kit.com/llms.txt", "title": "GPUI Kit", "status": null},
+    {"url": "https://gpui-kit.com", "title": "GPUI Kit", "status": 200},
+    {"url": "https://gpui-kit.com/docs", "title": "Documentation · GPUI Kit", "status": 200},
+    {"url": "https://gpui-kit.com/component", "title": "Components · GPUI Kit", "status": 200},
+    {"url": "https://gpui-kit.com/skills", "title": "Skills — GPUI Kit", "status": 200}
+  ],
+  "status": "ok",
+  "name": "GPUI Kit",
+  "summary": "Rust UI framework and component library with 75+ components for building GPUI desktop apps.",
+  "description": "GPUI Kit is a Rust desktop application framework built on GPUI. It documents 75+ components and primitives across basic, form, layout and advanced groups — buttons, dialogs, forms, data tables, charts, docking layouts, a command palette and a code editor — plus accessibility, WebAssembly support and UI integration testing, and ships as Cargo crates (gpui-kit, gpui-base, gpui-component).",
+  "type": "component-library",
+  "categories": ["components", "design-rules"],
+  "elements": ["accordion", "alert", "avatar", "badge", "button", "calendar", "carousel", "chart", "chat", "checkbox", "command-palette", "date-picker", "dock", "drawer", "dropdown", "file-upload", "form", "input", "list", "loader", "modal", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "stepper", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["rust", "gpui", "desktop app", "component library", "ui framework", "ui kit", "data table", "dock layout", "command palette", "chart", "code editor", "accessibility", "webassembly", "cross-platform", "dialog", "cargo", "native app"],
+  "contains": ["75+ documented Rust components and primitives", "component groups: basic, form, layout, advanced", "docking layouts with tabs, splits and persistent state", "data tables, charts (line, bar, area, pie, candlestick, radar, sankey) and a source-code editor", "WebAssembly, accessibility, UI integration testing and JavaScript extensions", "design guides, coding guides and skills for agents", "16.9k GitHub stars; Apache-2.0; macOS, Windows, Linux, WebAssembly", "install: gpui-kit = 0.7.1 via Cargo"],
+  "formats": ["code", "docs"],
+  "stack": ["rust", "gpui"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": null, "docs": "https://gpui-kit.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,85 @@
+{
+  "id": "github-com-unlayer-react-image-editor",
+  "url": "https://github.com/unlayer/react-image-editor",
+  "kind": "repo",
+  "hints_hash": "402aae338f2108a3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/unlayer/react-image-editor/blob/HEAD/README.md",
+      "title": "React Image Editor",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/unlayer/react-image-editor/HEAD/LICENSE",
+      "title": "React Image Editor LICENSE",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/unlayer/react-image-editor/HEAD/package.json",
+      "title": "React Image Editor package.json",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Image Editor",
+  "summary": "React component wrapping the Unlayer Image Editor: crop, resize, filters, draw, text, shapes, stickers and frames.",
+  "description": "A React wrapper around the Unlayer Image Editor for React 18+, shipped with the 'use client' directive so it works in React Server Components environments. Tools cover crop, resize, rotate and flip, filters, freehand draw, text, shapes, stickers and frames, with an optional AI Assistant that can be enabled. Props configure the built-in tools, locale and callbacks; an editor instance is exposed through a ref, and the README covers prop updates, error handling and localization.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "image editor",
+    "photo editor",
+    "react",
+    "react component",
+    "crop",
+    "resize",
+    "filters",
+    "drawing",
+    "text tool",
+    "shape",
+    "sticker",
+    "frame",
+    "ai assistant",
+    "image manipulation",
+    "nextjs",
+    "image editing sdk"
+  ],
+  "contains": [
+    "crop, resize, rotate, flip, filters, draw, text, shapes, stickers and frames tools",
+    "optional AI Assistant",
+    "React 18+; ships with 'use client' and works in React Server Components",
+    "editor instance exposed via ref; prop changes documented",
+    "localization support",
+    "live demo: react-image-editor-example.vercel.app",
+    "npm package @unlayer/react-image-editor v1.0.2",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "npm-package"
+  ],
+  "stack": [
+    "react",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/unlayer/react-image-editor",
+    "docs": null,
+    "npm": "@unlayer/react-image-editor",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

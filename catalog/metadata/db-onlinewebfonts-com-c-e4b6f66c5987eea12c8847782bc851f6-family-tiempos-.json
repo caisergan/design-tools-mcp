@@ -1,0 +1,64 @@
+{
+  "id": "db-onlinewebfonts-com-c-e4b6f66c5987eea12c8847782bc851f6-family-tiempos-",
+  "url": "https://db.onlinewebfonts.com/c/e4b6f66c5987eea12c8847782bc851f6?family=Tiempos+Headline+Light",
+  "kind": "page",
+  "hints_hash": "2ea3983e834e70f6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://db.onlinewebfonts.com/c/e4b6f66c5987eea12c8847782bc851f6?family=Tiempos+Headline+Light",
+      "title": null,
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Tiempos Headline Light",
+  "summary": "Webfont page with a copy-paste @font-face rule and woff2, woff, ttf, eot and svg files for Tiempos Headline Light.",
+  "description": "An OnlineWebFonts page for the Tiempos Headline Light typeface. It gives the CSS @font-face rule to embed the font, links to the eot, woff, woff2, ttf and svg files, and states the font is licensed CC BY 4.0 with credit to the author required.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": [
+    "webfont",
+    "font download",
+    "tiempos headline light",
+    "font face",
+    "css font embed",
+    "woff2",
+    "woff",
+    "ttf",
+    "eot",
+    "svg font",
+    "onlinewebfont",
+    "credit author",
+    "cc by 4.0",
+    "serif font",
+    "typeface"
+  ],
+  "contains": [
+    "copy-paste @font-face CSS rule for Tiempos Headline Light",
+    "file URLs in eot, woff, woff2, ttf and svg formats",
+    "snippet sets font-display: swap with normal weight and style",
+    "states CC BY 4.0 licensing and requires crediting the author"
+  ],
+  "formats": [
+    "font-files",
+    "code"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-4.0",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

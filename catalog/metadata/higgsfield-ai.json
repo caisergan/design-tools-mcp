@@ -1,0 +1,103 @@
+{
+  "id": "higgsfield-ai",
+  "url": "https://higgsfield.ai",
+  "kind": "site",
+  "hints_hash": "9ee1a2c33add9ba6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:28Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://higgsfield.ai/llms.txt",
+      "title": "Higgsfield",
+      "status": null
+    },
+    {
+      "url": "https://higgsfield.ai",
+      "title": "Higgsfield AI — AI-native creative suite",
+      "status": 200
+    },
+    {
+      "url": "https://higgsfield.ai/effects",
+      "title": "Higgsfield Visual Effects — AI Video Effects | Higgsfield",
+      "status": 200
+    },
+    {
+      "url": "https://higgsfield.ai/pricing",
+      "title": "Pricing plans — Higgsfield AI Video & Image Generator",
+      "status": 200
+    },
+    {
+      "url": "https://higgsfield.ai/about",
+      "title": "About Higgsfield AI • Higgsfield",
+      "status": 200
+    },
+    {
+      "url": "https://higgsfield.ai/creator-hub/help-center/plans-and-subscriptions/how-do-higgsfield-plans-work",
+      "title": "How Do Higgsfield Plans Work?",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Higgsfield AI",
+  "summary": "Multi-model AI platform for generating and editing video, image and voice content for creators, ads and film.",
+  "description": "Higgsfield is an AI-native creative suite: multi-model video generation (Sora, Kling, Veo, WAN, Seedance), image generation (Nano Banana, FLUX, GPT Image, Seedream, Soul), one-click visual effects, Cinema Studio, storyboard and lipsync tools, plus an MCP server, an API and an After Effects plugin. A Creator Hub hosts guides, changelog, help center and Academy.",
+  "type": "generator",
+  "categories": [
+    "media",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai video",
+    "ai image",
+    "video generation",
+    "image generation",
+    "text to video",
+    "image to video",
+    "video effect",
+    "ai effect",
+    "storyboard",
+    "lipsync",
+    "ai influencer",
+    "upscale",
+    "inpainting",
+    "image editing",
+    "motion transfer",
+    "ad creative",
+    "mcp server",
+    "api",
+    "credit"
+  ],
+  "contains": [
+    "94 public creative apps and 22 app collections",
+    "multi-model video: Sora, Kling, Veo, WAN, Seedance and more",
+    "multi-model image: Nano Banana, FLUX, GPT Image, Seedream, Soul and more",
+    "one-click visual effects and presets",
+    "Cinema Studio, Storyboard Generator, Lipsync Studio, AI Influencer Studio, Moodboard, Upscale",
+    "MCP server for Claude and ChatGPT, API, After Effects plugin",
+    "free tier with a small set of models and no credits; paid individual, team and enterprise plans with monthly credits",
+    "25M+ users, 850M+ generations, ~6M generations and ~2M videos per day"
+  ],
+  "formats": [
+    "app",
+    "api",
+    "prompts",
+    "video"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,55 @@
+{
+  "id": "magicui-design-docs-components-animated-theme-toggler",
+  "url": "https://magicui.design/docs/components/animated-theme-toggler",
+  "kind": "page",
+  "hints_hash": "68d110eedaad8de3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://magicui.design/docs/components/animated-theme-toggler",
+      "title": "Theme Toggler | React Components & Templates",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Animated Theme Toggler",
+  "summary": "React theme toggle component that animates light/dark switches with the View Transitions API and clip-path shapes.",
+  "description": "A React theme-toggle component that animates between light and dark using the View Transitions API. Pick a clip-path reveal shape (circle, square, triangle, diamond, rectangle, hexagon, star), expand from the button or the viewport center, set the animation duration, or run it controlled with next-themes.",
+  "elements": [
+    "button"
+  ],
+  "keywords": [
+    "theme toggle",
+    "dark mode",
+    "theme switcher",
+    "view transitions api",
+    "clip-path",
+    "react",
+    "next-theme",
+    "animation",
+    "reveal animation",
+    "light mode"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "magicui-design"
+  },
+  "confidence": 0.85
+}

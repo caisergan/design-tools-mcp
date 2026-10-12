@@ -1,0 +1,76 @@
+{
+  "id": "the-brandidentity-com",
+  "url": "https://the-brandidentity.com",
+  "kind": "site",
+  "hints_hash": "67bf67be5946ebe4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://the-brandidentity.com",
+      "title": "The Brand Identity – Home of the Greatest in Graphic & Brand Design",
+      "status": 200
+    },
+    {
+      "url": "https://the-brandidentity.com/features",
+      "title": "Features — The Brand Identity – Home of the Greatest in Graphic & Brand Design",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "The Brand Identity",
+  "summary": "Curated platform for brand and graphic design: project case studies, interviews, a jobs board and a store of templates and mockups.",
+  "description": "An online magazine of brand identity work, posting daily case studies, interviews and insight articles, filterable by deliverable such as packaging, brand guidelines, typeface or 3D. The store sells presentation decks, After Effects motion templates, curated mockups and ebooks, and the site also runs a jobs board and a daily newsletter.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "brand identity",
+    "branding",
+    "graphic design",
+    "case study",
+    "logo design",
+    "packaging design",
+    "typography",
+    "brand guideline",
+    "mockup",
+    "presentation template",
+    "after effects template",
+    "design job",
+    "interview",
+    "design magazine",
+    "design store"
+  ],
+  "contains": [
+    "daily brand and graphic design case studies, filterable by deliverable",
+    "interviews and insight articles",
+    "store: presentation templates, After Effects templates, mockups and ebooks",
+    "store items from $19",
+    "jobs board",
+    "daily case studies newsletter"
+  ],
+  "formats": [
+    "links",
+    "screenshots",
+    "templates"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

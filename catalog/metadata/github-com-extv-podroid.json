@@ -1,0 +1,38 @@
+{
+  "id": "github-com-extv-podroid",
+  "url": "https://github.com/ExTV/Podroid",
+  "kind": "repo",
+  "hints_hash": "4932b323d70013df",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ExTV/Podroid/blob/HEAD/README.md", "title": "Podroid", "status": null},
+    {"url": "https://github.com/ExTV/Podroid", "title": "GitHub - ExTV/Podroid: A rootless Android app that boots Alpine Linux: run containers (Podman/Docker/LXC) and GUI desktop apps.", "status": 200},
+    {"url": "https://extv.github.io/Podroid/", "title": "Podroid: Linux containers on Android, no root required", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Podroid",
+  "summary": "Android app that boots a real Alpine Linux VM to run Podman, Docker and LXC containers and an X11 desktop, no root.",
+  "description": "Podroid runs a full Alpine Linux VM with its own kernel on an arm64 Android phone — via QEMU, or hardware-accelerated AVF on supported pKVM devices — so containers behave like on a server. Podman, Docker and LXC come pre-installed; an in-app terminal offers xterm-256color, 122 color themes and 13 fonts, an X11 viewer runs GUI Linux apps with touch, keyboard, mouse and audio, and USB passthrough, SSH, port forwarding and a guest-to-Android bridge connect the VM to the phone. Android 8+, English and Chinese.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["android", "linux virtual machine", "container", "podman", "docker", "lxc", "alpine linux", "qemu", "x11", "terminal", "rootless", "virtualization", "android app", "ssh"],
+  "contains": [
+    "Alpine Linux VM with a custom kernel via QEMU; AVF on pKVM devices",
+    "Podman, Docker and LXC pre-installed",
+    "in-app xterm-256color terminal with 122 color themes and 13 fonts",
+    "X11 desktop viewer with touch, keyboard, mouse and audio",
+    "USB passthrough, SSH, port forwarding and guest-to-Android bridge",
+    "container backup, VM/device status view and Downloads sharing",
+    "any arm64 device on Android 8, no root; English and Chinese",
+    "GPLv2 licensed"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["kotlin", "jetpack-compose", "qemu"],
+  "pricing": "free",
+  "license": "GPL-2.0",
+  "related": {"repo": "https://github.com/ExTV/Podroid", "docs": "https://extv.github.io/Podroid/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,49 @@
+{
+  "id": "skills-sh-egonex-ai-understand-anything",
+  "url": "https://skills.sh/Egonex-AI/Understand-Anything",
+  "kind": "page",
+  "hints_hash": "ffcd5e5cb3be25de",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/Egonex-AI/Understand-Anything", "title": "egonex-ai/understand-anything — Agent skills", "status": null },
+    { "url": "https://github.com/Egonex-AI/Understand-Anything", "title": "GitHub - Egonex-AI/Understand-Anything: Graphs that teach > graphs that impress.", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Understand Anything",
+  "summary": "Agent skills that turn any codebase, docs or wiki into an interactive knowledge graph you can explore and question.",
+  "description": "A nine-skill pack installed with npx skills add. The main /understand command runs a tree-sitter + LLM multi-agent pipeline that extracts every file, function, class and dependency into a knowledge graph JSON and opens an interactive dashboard; companion skills cover dashboards, explanations, chat, onboarding, diffs, business domains, wiki knowledge bases and Figma. Works across Claude Code, Codex, Cursor, Copilot, Gemini CLI and more.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "knowledge graph",
+    "codebase analysis",
+    "code visualization",
+    "codebase onboarding",
+    "code diff",
+    "business domain",
+    "wiki analysis",
+    "claude code",
+    "codex",
+    "cursor",
+    "copilot",
+    "gemini cli",
+    "developer tool",
+    "tree-sitter"
+  ],
+  "contains": [
+    "9 agent skills",
+    "29.5K total installs on skills.sh",
+    "builds .ua/knowledge-graph.json + interactive dashboard",
+    "multi-agent pipeline: 5 agents, 7 for domain and knowledge skills",
+    "platform installers for 15 hosts incl. Claude Code, Codex, Cursor, Gemini CLI",
+    "MIT licensed"
+  ],
+  "formats": ["docs", "prompts", "code"],
+  "stack": ["tree-sitter", "vite"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/Egonex-AI/Understand-Anything", "docs": null, "npm": null, "figma": null, "parent": "skills-sh" },
+  "confidence": 0.85
+}

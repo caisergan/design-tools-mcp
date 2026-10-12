@@ -1,0 +1,28 @@
+{
+ "id": "github-com-upstash-context7",
+ "url": "https://github.com/upstash/context7",
+ "kind": "repo",
+ "hints_hash": "26d05786e2593ebf",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T19:00:41Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/upstash/context7/blob/HEAD/README.md", "title": "Context7 Platform - Up-to-date Code Docs For Any Prompt", "status": 200},
+  {"url": "https://context7.com/plans", "title": "Context7 Pricing & Plans – Free, Pro & Enterprise | Context7", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Context7",
+ "summary": "MCP server and CLI that pull up-to-date, version-specific library docs into an AI coding agent's context.",
+ "description": "Context7 fetches current documentation and code examples for the libraries in your prompt so coding agents stop inventing old APIs. Install with npx ctx7 setup as CLI + Skills or as an MCP server (https://mcp.context7.com/mcp), with tools resolve-library-id and query-docs, manual setup for 30+ MCP clients, and packages for the MCP server, CLI, TypeScript SDK and Vercel AI SDK.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["mcp server", "model context protocol", "documentation", "code documentation", "library docs", "up-to-date documentation", "ai coding agent", "context", "cursor", "claude code", "cli", "npm package", "api", "hallucination", "typescript sdk", "developer tool"],
+ "contains": ["two install modes: CLI + Skills, or MCP server registration", "CLI commands: ctx7 library, ctx7 docs; MCP tools: resolve-library-id, query-docs", "packages: @upstash/context7-mcp, ctx7, @upstash/context7-sdk, Vercel AI SDK tools", "documented manual MCP setup for 30+ clients", "pricing: Free $0, Pro $10 per seat/month, Enterprise custom", "MIT-licensed MCP server source; the API backend and crawler are private"],
+ "formats": ["code", "npm-package", "cli", "api", "docs"],
+ "stack": ["typescript"],
+ "pricing": "freemium",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/upstash/context7", "docs": "https://context7.com/docs", "npm": "@upstash/context7-mcp", "figma": null, "parent": null},
+ "confidence": 0.9
+}

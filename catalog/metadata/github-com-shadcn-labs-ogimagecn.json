@@ -1,0 +1,30 @@
+{
+  "id": "github-com-shadcn-labs-ogimagecn",
+  "url": "https://github.com/shadcn-labs/ogimagecn",
+  "kind": "repo",
+  "hints_hash": "7a974860cb02f7a0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shadcn-labs/ogimagecn/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/shadcn-labs/ogimagecn", "title": "GitHub - shadcn-labs/ogimagecn", "status": 200},
+    {"url": "https://ogimagecn.com", "title": "ogimagecn - Beautiful OG images, made simple", "status": 200},
+    {"url": "https://ogimagecn.com/docs/components", "title": "Components | ogimagecn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ogimagecn",
+  "summary": "Open Graph image components and blocks for React, rendered to PNG with Satori through next/og.",
+  "description": "Copy-paste OG image blocks for blog posts, changelogs, products, events, quotes, photos and shadcn registry cards, plus Satori-safe pieces like avatar, badge, brand mark, grid lines and waveform. Distributed through the shadcn registry with live previews and a playground.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["avatar", "badge"],
+  "keywords": ["og image", "open graph", "social image", "image generation", "react", "nextjs", "satori", "next/og", "shadcn ui", "registry", "twitter card", "meta image", "blog card", "changelog card", "png", "copy paste", "seo"],
+  "contains": ["22 registry items (components and blocks)", "OG blocks: blog, editorial, grid, photo, profile, quote, stat, terminal, product, event, logo, showcase", "6 shadcn registry card blocks", "Satori-safe components: avatar, badge, brand mark, divider, grid lines, waveform", "renders real PNGs through the next/og runtime", "playground plus an OG scan tool, MCP docs and an agent skill", "MIT license, 271 GitHub stars"],
+  "formats": ["code", "registry", "cli", "png", "docs", "prompts"],
+  "stack": ["react", "nextjs", "typescript", "satori"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcn-labs/ogimagecn", "docs": "https://ogimagecn.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

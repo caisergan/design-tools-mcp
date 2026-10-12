@@ -1,0 +1,40 @@
+{
+  "id": "macapp-supply",
+  "url": "https://macapp.supply",
+  "kind": "site",
+  "hints_hash": "54aacf5182efa263",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://macapp.supply/llms.txt", "title": "Macapp Supply", "status": null},
+    {"url": "https://macapp.supply", "title": "Macapp Supply — Beautifully designed macOS apps, curated", "status": 200},
+    {"url": "https://macapp.supply/categories", "title": "Categories — Macapp Supply", "status": 200},
+    {"url": "https://macapp.supply/icons", "title": "Icons — Macapp Supply", "status": 200},
+    {"url": "https://macapp.supply/category/ai", "title": "Best Ai apps for macOS in 2026 — Macapp Supply", "status": 200},
+    {"url": "https://macapp.supply/category/dev", "title": "Best Dev apps for macOS in 2026 — Macapp Supply", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Macapp Supply",
+  "summary": "Editorially curated directory of native macOS apps, browsable by category, with a wall of every app icon.",
+  "description": "Macapp Supply is an independent, hand-reviewed directory of native macOS applications, grouped into categories such as productivity, design, developer tools, utilities and AI. Every listed app is chosen for design quality, craftsmanship and usefulness; the site also shows a wall of all app icons and takes submissions for editorial review.",
+  "type": "directory",
+  "categories": ["dev-ai-tools", "inspiration"],
+  "elements": [],
+  "keywords": ["mac app", "macos", "app directory", "curated app", "app showcase", "app icon", "indie app", "utility", "productivity", "developer tool", "design app", "app submission", "app library"],
+  "contains": [
+    "every app reviewed by hand for design quality, craftsmanship and usefulness",
+    "categories: productivity, design, developer tools, utilities, ai and more",
+    "icons page: a wall of every app icon in the collection",
+    "featured picks and editor's picks sections",
+    "submit an app and listing guidelines pages",
+    "316 sitemap URLs including per-app detail pages",
+    "ships an llms.txt"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

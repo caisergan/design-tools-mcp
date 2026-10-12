@@ -1,0 +1,79 @@
+{
+  "id": "responsively-app",
+  "url": "https://responsively.app",
+  "kind": "site",
+  "hints_hash": "0458bce7cf3c088b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://responsively.app",
+      "title": "Responsively App - A web developer's browser",
+      "status": null
+    },
+    {
+      "url": "https://github.com/responsively-org/responsively-app",
+      "title": "GitHub - responsively-org/responsively-app: A modified web browser that helps in responsive web development. A web developer's must have dev-tool. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Responsively App",
+  "summary": "Open-source browser that previews a site on many devices side by side and mirrors your interactions.",
+  "description": "An Electron-based browser for responsive development: it renders the same page across many device previews side by side, mirrors clicks, scrolling and navigation across all of them, and adds a unified elements inspector, one-click screenshots, 30+ built-in device profiles and savable preview layouts. Ships a built-in MCP server so AI coding agents can drive it; free and open source.",
+  "type": "app",
+  "categories": [
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "responsive design",
+    "responsive testing",
+    "browser",
+    "device preview",
+    "multiple device",
+    "screenshot",
+    "elements inspector",
+    "devtool",
+    "electron",
+    "open source",
+    "mcp server",
+    "web development",
+    "hot reload"
+  ],
+  "contains": [
+    "Desktop app for macOS, Windows and Linux (Electron)",
+    "Mirrors clicks, scrolling and navigation across all device previews in real time",
+    "30+ built-in device profiles with custom devices and saved Preview Suites",
+    "Unified elements inspector across all devices",
+    "One-click full-page screenshots of all devices at once",
+    "Browser extension for Chrome, Firefox and Edge",
+    "Built-in MCP server for AI coding agents such as Claude Code and Cursor",
+    "Free and open source under AGPL-3.0; 150k+ downloads"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "electron",
+    "react",
+    "redux",
+    "javascript"
+  ],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {
+    "repo": "https://github.com/responsively-org/responsively-app",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,76 @@
+{
+  "id": "toolfolio-io",
+  "url": "https://toolfolio.io",
+  "kind": "site",
+  "hints_hash": "8ba450477cb17755",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://toolfolio.io",
+      "title": "Toolfolio - All the Tools You Need in One Place",
+      "status": null
+    },
+    {
+      "url": "https://toolfolio.com/collections",
+      "title": "Collections - TOOLFOLIO",
+      "status": null
+    },
+    {
+      "url": "https://toolfolio.com/boosted-listing",
+      "title": "Toolfolio - All the Tools You Need in One Place",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Toolfolio",
+  "summary": "Curated directory of AI, design, no-code and productivity tools, with collections, reviews, coupon codes and paid listings.",
+  "description": "A curated directory and marketplace for discovering software. Tools are organised into categories (design, AI, no-code, plugins, marketing, video, e-commerce, coding, writing, audio, photography, finance, education, security, productivity, newsletters, agents) and grouped into 'best tools' collections and review articles. Tool makers can claim or pay for listings and track views and clicks in a dashboard.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "tool directory",
+    "ai tool",
+    "design tool",
+    "productivity tool",
+    "no-code",
+    "software directory",
+    "tool discovery",
+    "collection",
+    "review",
+    "coupon code",
+    "startup tool",
+    "directory submission"
+  ],
+  "contains": [
+    "directory of tools across design, AI, no-code, marketing, coding, video and more",
+    "curated collections and 'best tools' roundups (e.g. 32 vibe coding assistants)",
+    "articles and reviews",
+    "coupon codes and deals",
+    "paid listing tiers: Startup $150 one-time, Growth $250/month",
+    "boost placements with CPC and banner packs",
+    "Tools Daily newsletter and Discord community"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

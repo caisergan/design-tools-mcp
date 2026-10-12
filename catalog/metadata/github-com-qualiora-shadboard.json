@@ -1,0 +1,105 @@
+{
+  "id": "github-com-qualiora-shadboard",
+  "url": "https://github.com/Qualiora/shadboard",
+  "kind": "repo",
+  "hints_hash": "70825d2a2305096c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Qualiora/shadboard/blob/HEAD/README.md",
+      "title": "Shadboard - Next.js 15 & Shadcn/UI Admin Dashboard Template",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Qualiora/shadboard",
+      "title": "GitHub - Qualiora/shadboard",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Qualiora/shadboard/blob/HEAD/LICENSE",
+      "title": "shadboard/LICENSE · Qualiora/shadboard",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadboard",
+  "summary": "Next.js 15 admin dashboard template with shadcn/ui: ready-made apps, pages, theme customizer and authentication.",
+  "description": "An open-source admin dashboard template built with Next.js 15, React 19, Tailwind CSS 4 and shadcn/ui. Ships ready-made apps and pages (email, chat, calendar, kanban, pricing, payment, settings), authentication flows, i18n, a theme customizer and reusable components, packaged as starter-kit and full-kit folders.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "components"
+  ],
+  "elements": [
+    "dashboard",
+    "sidebar",
+    "table",
+    "chart",
+    "calendar",
+    "kanban",
+    "chat",
+    "pricing",
+    "form",
+    "404"
+  ],
+  "keywords": [
+    "admin dashboard",
+    "dashboard template",
+    "admin panel",
+    "nextjs",
+    "react",
+    "shadcn ui",
+    "tailwind css",
+    "internal tool",
+    "starter kit",
+    "authentication",
+    "i18n",
+    "theme customizer",
+    "kanban",
+    "calendar",
+    "data table",
+    "chart",
+    "settings page",
+    "app template"
+  ],
+  "contains": [
+    "Next.js 15 + React 19 + Tailwind CSS 4 + shadcn/ui",
+    "apps and pages: email, chat, calendar, kanban, pricing, payment, settings",
+    "auth flows: sign in, register, forgot password, verify email",
+    "starter-kit and full-kit folders in the repo",
+    "built-in i18n, NextAuth authentication and access pages (401, 404, maintenance)",
+    "theme customizer for colors, border radii and light/dark mode"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "nextauth",
+    "zod",
+    "react-hook-form",
+    "recharts",
+    "tanstack-table",
+    "embla-carousel",
+    "fullcalendar"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Qualiora/shadboard",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

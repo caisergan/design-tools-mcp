@@ -1,0 +1,35 @@
+{
+  "id": "hano-so",
+  "url": "https://hano.so",
+  "kind": "site",
+  "hints_hash": "073292c3d3c3f28b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hano.so/llms.txt", "title": "Hano", "status": null},
+    {"url": "https://hano.so", "title": "Hano | 3D Device Mockup & Animation Studio", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hano",
+  "summary": "Browser-based studio for 3D device mockups and animations, exported as PNG images or MP4 video.",
+  "description": "Place app screenshots or videos onto 3D iPhone, MacBook and iPad models with real-time WebGL rendering, animate device position, rotation and camera on a timeline, style backgrounds and effects (focus blur, shadow, border radius), then export PNG images or MP4 video. Includes a template gallery and cloud sync.",
+  "type": "tool",
+  "categories": ["design-tools", "media"],
+  "elements": ["3d"],
+  "keywords": ["3d mockup", "device mockup", "iphone mockup", "macbook mockup", "ipad mockup", "app screenshot mockup", "3d animation", "product visual", "webgl", "mockup generator", "video export", "mp4", "png export", "template gallery"],
+  "contains": [
+    "3D device models: iPhone, MacBook, iPad",
+    "real-time WebGL rendering in the browser",
+    "upload images or videos onto device screens",
+    "timeline editor for device position, rotation and camera",
+    "export PNG image or MP4 video",
+    "template gallery of pre-built scenes"
+  ],
+  "formats": ["png", "video", "templates", "app"],
+  "stack": ["webgl"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

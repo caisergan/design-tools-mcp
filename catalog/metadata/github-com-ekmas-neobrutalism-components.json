@@ -1,0 +1,135 @@
+{
+  "id": "github-com-ekmas-neobrutalism-components",
+  "url": "https://github.com/ekmas/neobrutalism-components",
+  "kind": "repo",
+  "hints_hash": "513090b0f15600c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ekmas/neobrutalism-components/blob/HEAD/README.md",
+      "title": "Neobrutalism components",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ekmas/neobrutalism-components",
+      "title": "GitHub - ekmas/neobrutalism-components: A collection of neobrutalism-styled Tailwind components. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://neobrutalism.dev",
+      "title": "Neobrutalism components - Start making neobrutalism layouts today",
+      "status": 200
+    },
+    {
+      "url": "https://neobrutalism.dev/docs",
+      "title": "Introduction - Neobrutalism components",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Neobrutalism components",
+  "summary": "Neobrutalism-styled React component library on shadcn/ui and Base UI — 64 components, charts and star shapes.",
+  "description": "A collection of neobrutalism-styled components for React and Tailwind CSS v4, based on shadcn/ui and Base UI. 64 components, charts and star shapes, installable as shadcn registry items and themed by picking a palette, with a docs page per component.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "form",
+    "input",
+    "loader",
+    "marquee",
+    "menubar",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "neo brutalism",
+    "brutalist ui",
+    "react component",
+    "shadcn ui",
+    "tailwind css",
+    "base ui",
+    "component library",
+    "registry",
+    "nextjs",
+    "copy paste component",
+    "chart",
+    "sidebar",
+    "data table",
+    "form",
+    "theme",
+    "palette",
+    "tailwind v4",
+    "star shape"
+  ],
+  "contains": [
+    "64 components, charts and star shapes",
+    "111 items in the shadcn registry",
+    "based on shadcn/ui and Base UI, Tailwind v4",
+    "docs page per component with install commands",
+    "palette-pick theming",
+    "MIT license",
+    "5.6k GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "base-ui",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ekmas/neobrutalism-components",
+    "docs": "https://neobrutalism.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pixabay-com",
+  "url": "https://pixabay.com",
+  "kind": "site",
+  "hints_hash": "6a819eb5942a8a30",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pixabay.com", "title": "6.3 million+ Stunning Free Images to Use Anywhere - Pixabay", "status": null},
+    {"url": "https://pixabay.com/collections", "title": "Curated Collections", "status": null},
+    {"url": "https://pixabay.com/collections/halloween-10375729", "title": "Halloween", "status": null},
+    {"url": "https://pixabay.com/collections/food-20269684", "title": "Food", "status": null},
+    {"url": "https://pixabay.com/collections/summer-28079813", "title": "Summer", "status": null}
+  ],
+  "status": "ok",
+  "name": "Pixabay",
+  "summary": "Community stock media library: 6.3M+ royalty-free photos, illustrations, vectors, videos, music, sound effects, 3D models and GIFs.",
+  "description": "Free stock assets shared by a contributor community. Browse by keyword search, trending tag, Editor's Choice picks or curated collections, then download under a license that needs no attribution; creators can upload, join the forum and enter contests.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["stock photo", "royalty free image", "free video", "free music", "sound effect", "illustration", "vector graphic", "3d model", "gif", "no attribution", "wallpaper", "background image", "image search", "free asset", "stock media"],
+  "contains": ["6.3M+ royalty-free assets", "photos, illustrations, vectors, videos, music, sound effects, 3D models, GIFs", "Editor's Choice picks and curated collections", "contests, forum and creator uploads", "interface in 26 languages"],
+  "formats": ["png", "svg", "video", "api"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mobbin-com-finance",
+  "url": "https://mobbin.com/finance",
+  "kind": "page",
+  "hints_hash": "0390a49a0cf67f67",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.com/finance", "title": "Mobbin Finance+ — Fintech app flows & UX research", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mobbin Finance+",
+  "summary": "Paid fintech research library: 50+ full app flows and shipped screens from finance apps, updated weekly.",
+  "description": "A Mobbin add-on for Team and Enterprise plans: a searchable library of full flows and shipped screens from finance apps that are hard to access, from banking and payments to crypto and prediction markets. Search by app, flow or pattern; new apps and flows are added weekly and subscribers can request specific apps.",
+  "elements": [],
+  "keywords": ["fintech app", "app flow", "ux research", "design research", "mobile app screen", "banking app", "crypto app", "onboarding flow", "kyc flow", "app screenshot", "ui reference", "design inspiration"],
+  "contains": ["add-on for Mobbin Team & Enterprise plans", "$399 per month, billed yearly ($4,788), flat annual subscription", "50 apps across 12+ finance categories: banking, crypto, payments, lending, investing, insurance, prediction markets", "search by app, flow or pattern", "new apps and flows added weekly; request specific apps", "screens behind region locks, KYC gates and account tiers"],
+  "formats": ["screenshots"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "mobbin-com"},
+  "confidence": 0.9
+}

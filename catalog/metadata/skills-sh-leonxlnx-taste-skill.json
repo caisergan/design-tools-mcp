@@ -1,0 +1,75 @@
+{
+  "id": "skills-sh-leonxlnx-taste-skill",
+  "url": "https://skills.sh/Leonxlnx/taste-skill",
+  "kind": "page",
+  "hints_hash": "5f8a89124c8db4e7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/Leonxlnx/taste-skill",
+      "title": "leonxlnx/taste-skill — Agent skills",
+      "status": null
+    },
+    {
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "title": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Taste Skill",
+  "summary": "Agent skills that upgrade AI-built frontends: layout, typography, motion and spacing rules instead of boilerplate.",
+  "description": "A collection of 15 agent skills installed with npx skills add. The flagship design-taste-frontend (v2) reads the brief and tunes VARIANCE / MOTION / DENSITY dials; other skills cover a stricter GPT/Codex variant, redesign audits, minimalist, industrial-brutalist and high-end visual styles, full-output enforcement and image-to-code workflows, plus image-generation skills for website comps, mobile flows and brand kits. Rules are framework-agnostic across React, Vue, Svelte and other stacks.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "design taste",
+    "anti-slop",
+    "frontend design",
+    "ai generated ui",
+    "ui design rule",
+    "layout",
+    "typography",
+    "motion",
+    "minimalist ui",
+    "industrial brutalist",
+    "redesign",
+    "image to code",
+    "image generation",
+    "brand kit",
+    "gsap",
+    "react",
+    "vue",
+    "svelte"
+  ],
+  "contains": [
+    "15 skills: code plus image-generation",
+    "5.1M total installs on skills.sh",
+    "flagship design-taste-frontend v2 with VARIANCE / MOTION / DENSITY dials",
+    "image-generation skills for web comps, mobile flows and brand kits",
+    "MIT licensed"
+  ],
+  "formats": [
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "gsap"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Leonxlnx/taste-skill",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.85
+}

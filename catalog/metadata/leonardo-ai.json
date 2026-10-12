@@ -1,0 +1,28 @@
+{
+  "id": "leonardo-ai",
+  "url": "https://leonardo.ai",
+  "kind": "site",
+  "hints_hash": "f4a1be74cb013921",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://leonardo.ai", "title": "Leonardo.Ai - Generative AI Platform for Images, Art & Video", "status": null},
+    {"url": "https://leonardo.ai/pricing", "title": "Leonardo.Ai Pricing: Individual, Team & API Plans | Leonardo.Ai", "status": null}
+  ],
+  "status": "ok",
+  "name": "Leonardo.Ai",
+  "summary": "Generative AI platform for images and video: text-to-image, video generation, editing, upscaling and a developer API.",
+  "description": "A generative AI platform for creating images and video from prompts. It offers text-to-image and video generation across many models (Seedream, Nano Banana, Flux, Lucid …), Realtime Canvas, image and video editing, universal upscaling, custom model training and a developer API. Free tier with daily fast tokens; paid plans for individuals and teams.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "media"],
+  "elements": [],
+  "keywords": ["ai image generator", "ai video generator", "text to image", "generative ai", "ai art", "image editing", "upscaler", "developer api", "prompt", "image model", "product photography", "brand asset"],
+  "contains": ["text-to-image and video generation with models like Seedream 4.5, Nano Banana Pro, Flux.2 Pro, GPT 1.5 and Lucid", "editing, Realtime Canvas and universal upscaling", "developer API with pay-as-you-go credits", "free plan: 150 fast tokens per day, public creations", "individual plans from $12 to $60 per month; team plans from $24 per seat"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "github-com-michaelshimeles-skills",
+  "url": "https://github.com/michaelshimeles/skills",
+  "kind": "repo",
+  "hints_hash": "4286148589f3c4ac",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/michaelshimeles/skills/blob/HEAD/README.md", "title": "Skills", "status": 200},
+    {"url": "https://github.com/michaelshimeles/skills", "title": "GitHub - michaelshimeles/skills: Agent skills and an AGENTS.md workflow template", "status": 200}
+  ],
+  "status": "ok",
+  "name": "michaelshimeles/skills",
+  "summary": "Seven Claude Code agent skills plus an AGENTS.md workflow template for worktrees, evidence and review loops.",
+  "description": "A collection of seven agent skills for Claude Code, each a folder with a SKILL.md that loads when a task matches: worktree isolation, service-layer structure, evidence-driven testing, before/after screenshot proof, Greptile review loops and an unslop writing pass. AGENTS.md ties them together as isolate, build, prove, ship; install with npx skills.",
+  "type": "agent-skill",
+  "categories": ["templates", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "claude code", "codex", "git worktree", "code review", "greploop", "greptile", "before after screenshot", "test evidence", "service layer", "agents.md", "workflow template", "visual proof"],
+  "contains": ["7 skills: before-and-after, code-structure, evidence-driven-testing, greploop, greploop-apps, new-feature, unslop", "AGENTS.md template chains the skills: isolate, build, prove, ship", "evidence-driven-testing records video proof via scripts/evidence.py (Python 3 + FFmpeg) and posts it to the PR", "greploop iterates until Greptile reports 5/5 with zero unresolved comments (default max 10)", "each skill installs with npx skills", "1.3k stars, 207 forks"],
+  "formats": ["prompts", "code"],
+  "stack": ["python", "playwright"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/michaelshimeles/skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,29 @@
+{
+  "id": "vaul-emilkowal-ski",
+  "url": "https://vaul.emilkowal.ski",
+  "kind": "site",
+  "hints_hash": "17450c312ca39b8a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://github.com/emilkowalski/vaul", "title": "GitHub - emilkowalski/vaul: A drawer component for React.", "status": 200 },
+    { "url": "https://github.com/emilkowalski/vaul/blob/main/package.json", "title": "vaul/package.json at main · emilkowalski/vaul · GitHub", "status": 200 },
+    { "url": "https://github.com/emilkowalski/vaul/blob/main/README.md", "title": "vaul/README.md at main · emilkowalski/vaul · GitHub", "status": 200 }
+  ],
+  "status": "partial",
+  "name": "Vaul",
+  "summary": "Drawer component for React, published on npm as vaul, with a docs and demo site at vaul.emilkowal.ski.",
+  "description": "Vaul is a drawer component for React (npm package vaul, MIT, 8.6k GitHub stars) for building slide-in panels and sheets; it depends on @radix-ui/react-dialog. The repo ships the component source, Playwright tests and a pnpm workspace, and the author marks it unmaintained; the docs site could not be reached during the crawl.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["drawer"],
+  "keywords": ["drawer", "react drawer", "bottom sheet", "slide in panel", "modal", "dialog", "react component", "npm package", "typescript", "radix", "open source", "mobile ui"],
+  "contains": ["React drawer component (npm: vaul, v1.1.2)", "MIT licensed; 8.6k GitHub stars, 375 forks", "depends on @radix-ui/react-dialog", "Playwright tests and pnpm workspace in repo", "repo marked unmaintained by the author", "docs and demos at vaul.emilkowal.ski"],
+  "formats": ["code", "npm-package"],
+  "stack": ["react", "typescript", "radix"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/emilkowalski/vaul", "docs": "https://vaul.emilkowal.ski", "npm": "vaul", "figma": null, "parent": null },
+  "confidence": 0.8
+}

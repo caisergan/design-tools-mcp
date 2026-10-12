@@ -1,0 +1,29 @@
+{
+  "id": "github-com-avalynndev-memergez",
+  "url": "https://github.com/avalynndev/memergez",
+  "kind": "repo",
+  "hints_hash": "c399575ee132ca4d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/avalynndev/memergez/blob/HEAD/README.md", "title": "Memergez", "status": 200},
+    {"url": "https://github.com/avalynndev/memergez", "title": "GitHub - avalynndev/memergez: A platform for generating 50+ different types of memes. Created using next.js, memer.ts and shadcn-ui.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/avalynndev/memergez/HEAD/package.json", "title": "memergez/package.json", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Memergez",
+  "summary": "Next.js web app that generates memes from text and an avatar URL with 70+ meme commands.",
+  "description": "A meme generator you clone and deploy: pick one of more than 70 meme commands, enter text or an avatar URL, and get a meme image in seconds. Created using imgflip, memer.ts and shadcn/ui; runs locally or deploys to Vercel.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["input", "button"],
+  "keywords": ["meme generator", "meme", "meme maker", "imgflip", "avatar", "nextjs", "react", "shadcn ui", "tailwind", "open source", "self-hosted", "vercel"],
+  "contains": ["70+ meme commands", "generate from text or an avatar URL", "created using imgflip, memer.ts and shadcn/ui", "clone and run locally or deploy on Vercel"],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn-ui", "radix"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/avalynndev/memergez", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

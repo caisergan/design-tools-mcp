@@ -1,0 +1,79 @@
+{
+  "id": "hephzibahluxe-com",
+  "url": "https://hephzibahluxe.com",
+  "kind": "site",
+  "hints_hash": "c53a0c0edb1e3c15",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://hephzibahluxe.com",
+      "title": "Hephzibah-Luxe",
+      "status": null
+    },
+    {
+      "url": "https://www.hephzibahluxe.com/about",
+      "title": "Hephzibah-Luxe",
+      "status": null
+    },
+    {
+      "url": "https://www.hephzibahluxe.com/portfolio",
+      "title": "Hephzibah-Luxe",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Hephzibah Luxe",
+  "summary": "Marketing website of a design-led wedding and event planning studio in Lagos, with portfolio, before-and-after and inquiry pages.",
+  "description": "Website of Hephzibah Luxe, a design-led wedding and event planning studio based in Lagos, Nigeria, led by a mother-daughter team. Pages cover the studio's story, services, portfolio case studies, before-and-after transformations, client testimonials and inquiries, with a client login.",
+  "type": "template",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "testimonials",
+    "team",
+    "contact",
+    "marquee"
+  ],
+  "keywords": [
+    "event planning",
+    "wedding planner",
+    "event design",
+    "celebration",
+    "lagos",
+    "nigeria",
+    "portfolio",
+    "before and after",
+    "testimonials",
+    "luxury event"
+  ],
+  "contains": [
+    "studio based in Lagos, Nigeria",
+    "pages: about, services, portfolio, before & after, inquiries, client login",
+    "portfolio case studies: a golden 50th, an intimate 85th and a Lagos State MSME forum",
+    "client testimonials",
+    "scrolling text band: 'Start with intention / End with an unforgettable celebration'"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

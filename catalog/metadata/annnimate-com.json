@@ -1,0 +1,42 @@
+{
+  "id": "annnimate-com",
+  "url": "https://annnimate.com",
+  "kind": "site",
+  "hints_hash": "bd0973d85df4694c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://annnimate.com/llms.txt", "title": "Annnimate", "status": null },
+    { "url": "https://annnimate.com", "title": "GSAP Motion Components for React & Vue | Annnimate", "status": 200 },
+    { "url": "https://annnimate.com/docs", "title": "Documentation | Annnimate", "status": 200 },
+    { "url": "https://annnimate.com/animations", "title": "GSAP Animations & Components for React and Vue | Annnimate", "status": 200 },
+    { "url": "https://annnimate.com/pricing", "title": "Pricing | Annnimate — GSAP Motion for React & Vue", "status": 200 },
+    { "url": "https://annnimate.com/faq", "title": "FAQ | Annnimate - GSAP Motion for React & Vue", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Annnimate",
+  "summary": "Paid library of 115 GSAP motion components for React, Vue and HTML, each shipped on real brand work and tuned with data attributes.",
+  "description": "Motion component library by studio Good Fella: 115 GSAP components across buttons, scroll, UI, experimental, shader and menu categories, each one first shipped on a real brand site or held to the same bar. Components are copy-paste code for React (useGSAP), Vue (composable) and vanilla HTML/CSS/JS, tuned with data-anm-* attributes or typed props, with reduced-motion handling and Next.js/Nuxt readiness. Free components ship weekly; the paid Library covers new components and updates, and Landmark Kits (Reveal, Menu) are one-time purchases.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["text-effect", "slider", "button", "navbar", "stepper", "features", "tooltip", "cursor", "modal", "globe", "footer", "accordion"],
+  "variants": { "navbar": ["mega-menu", "full-screen"] },
+  "keywords": ["gsap", "motion library", "animation component", "react animation", "vue animation", "scroll effect", "text effect", "page transition", "hover effect", "menu animation", "mega menu", "webgl shader", "copy paste", "production ready", "client work"],
+  "contains": [
+    "115 components in six categories: buttons, scroll, UI, experimental, shader, menu",
+    "copy-paste React, Vue and HTML/CSS/JS; explicitly not an npm package",
+    "tuned with data-anm-* attributes or typed React and Vue props",
+    "free Starter Pack plus a new free component every week",
+    "Library from €29/month (quarterly) or €249/year Solo; Studio and Studio+ tiers",
+    "Landmark Kits one-time: Reveal (preloaders and heroes), Menu (ten navigation menus)",
+    "prefers-reduced-motion handled; Server Component safe, Next.js App Router and Nuxt ready",
+    "14-day money-back guarantee; unlimited commercial client projects, no attribution"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["gsap", "react", "vue", "html", "css", "typescript"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": { "repo": null, "docs": "https://annnimate.com/docs", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

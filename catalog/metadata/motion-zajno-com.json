@@ -1,0 +1,33 @@
+{
+  "id": "motion-zajno-com",
+  "url": "https://motion.zajno.com",
+  "kind": "site",
+  "hints_hash": "cb7d213437aeb589",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://motion.zajno.com", "title": "Motion Graphic Design & Animation Principles Website - Zajno Digital Studio", "status": null}
+  ],
+  "status": "ok",
+  "name": "Motion",
+  "summary": "Interactive guide to UI/UX animation principles: easing, offset and delay, fade, morph, masking, scale, parallax, zoom.",
+  "description": "An interactive site from design studio Zajno that teaches UI/UX animation. It works through easing (linear, ease, ease-in, ease-out, cubic), offset and delay, fade in/out, transform and morph, masking, scale, parallax and zoom, each with live demos, implementation examples and classic-animation references.",
+  "type": "course",
+  "categories": ["motion", "learning"],
+  "elements": ["scroll-effect"],
+  "keywords": ["motion design", "ui animation", "animation principle", "easing", "ease-in", "ease-out", "parallax", "micro interaction", "fade animation", "morph", "masking", "scroll animation", "motion guide", "transition timing", "disney animation principle"],
+  "contains": [
+    "walkthrough of techniques: easing, offset and delay, fade in/out, transform/morph, masking, scale, parallax, zoom",
+    "interactive demos for each technique",
+    "implementation examples for interface objects",
+    "classic animation references: slow in and slow out, follow through and overlapping action",
+    "sections on what motion does: attention, brand mood, guiding interaction, hinting at controls"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

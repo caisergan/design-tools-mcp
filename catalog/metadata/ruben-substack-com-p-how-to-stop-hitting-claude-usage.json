@@ -1,0 +1,31 @@
+{
+  "id": "ruben-substack-com-p-how-to-stop-hitting-claude-usage",
+  "url": "https://ruben.substack.com/p/how-to-stop-hitting-claude-usage",
+  "kind": "page",
+  "hints_hash": "05532a508ff615f8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/how-to-stop-hitting-claude-usage", "title": "How to stop hitting Claude usage limits. - by Ruben Hassid", "status": 200}
+  ],
+  "status": "ok",
+  "name": "How to stop hitting Claude usage limits",
+  "summary": "23 tips for using Claude more cheaply and staying under usage limits, from token-counting habits to Claude Code settings.",
+  "description": "A ranked list of 23 habits and tricks for stretching Claude usage: how Claude counts tokens, the everyday habits that quietly burn credits, the basics that still matter, and Claude Code-specific tips. Written for people paying for Claude who keep hitting their limits.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["claude", "claude usage limit", "usage limit", "token", "claude credit", "claude code", "ai cost", "prompt optimization", "context window", "anthropic", "productivity", "subscription"],
+  "contains": [
+    "23 ranked tips to use Claude better without overspending",
+    "how Claude counts tokens",
+    "habits that burn usage without users noticing",
+    "Claude Code-specific tips",
+    "written for paid Claude plans"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

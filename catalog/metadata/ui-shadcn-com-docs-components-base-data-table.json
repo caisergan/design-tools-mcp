@@ -1,0 +1,65 @@
+{
+  "id": "ui-shadcn-com-docs-components-base-data-table",
+  "url": "https://ui.shadcn.com/docs/components/base/data-table",
+  "kind": "page",
+  "hints_hash": "70971263b15c252a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.shadcn.com/docs/components/base/data-table",
+      "title": "Data Table - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Data Table",
+  "summary": "Guide to building a data table from shadcn/ui's Table component and TanStack Table v9: sorting, filtering, row selection, pagination.",
+  "description": "Docs page on ui.shadcn.com: rather than a packaged data-table component, it is a guide to building one with the <Table /> primitive and TanStack Table v9 — tableFeatures() setup, column definitions, cell formatting, row actions, pagination, sorting, filtering, column visibility, row selection and extracting reusable components.",
+  "elements": [
+    "table",
+    "pagination",
+    "checkbox"
+  ],
+  "keywords": [
+    "data table",
+    "datagrid",
+    "tanstack table",
+    "react table",
+    "table component",
+    "sorting",
+    "filtering",
+    "pagination",
+    "row selection",
+    "column visibility",
+    "row action",
+    "cell formatting",
+    "shadcn",
+    "shadcn ui",
+    "headless ui",
+    "docs",
+    "guide"
+  ],
+  "formats": [
+    "docs",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tanstack-table"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-shadcn-com"
+  },
+  "confidence": 0.9
+}

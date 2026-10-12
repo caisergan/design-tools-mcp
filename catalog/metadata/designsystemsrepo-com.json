@@ -1,0 +1,75 @@
+{
+  "id": "designsystemsrepo-com",
+  "url": "https://designsystemsrepo.com",
+  "kind": "site",
+  "hints_hash": "dbe24e22ae1d7058",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designsystemsrepo.com",
+      "title": "Design Systems Repo | A Collection of Design System Resources",
+      "status": null
+    },
+    {
+      "url": "https://designsystemsrepo.com/about",
+      "title": "About | Design Systems Repo",
+      "status": null
+    },
+    {
+      "url": "https://designsystemsrepo.com/design-systems",
+      "title": "Design Systems Repo | A Collection of Design System Resources",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Design Systems Repo",
+  "summary": "Curated gallery of design system examples plus articles, tools, books and talks about design systems.",
+  "description": "An organised collection of design system resources: a gallery of real design systems and style guides with short descriptions (Carbon, Material Design, GOV.UK, Atlassian, Ant Design, Cedar, Lightning, Base Web and more), plus sections for articles, tools, books and talks. Browsable A–Z or by most recent, with a community submit form.",
+  "type": "directory",
+  "categories": [
+    "design-rules",
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "design system",
+    "design system example",
+    "style guide",
+    "pattern library",
+    "component library",
+    "design system article",
+    "design system book",
+    "talk",
+    "ui guideline",
+    "curated list",
+    "directory",
+    "inspiration"
+  ],
+  "contains": [
+    "gallery of design systems and style guides with short descriptions",
+    "sections: design systems, articles, tools, books, talks",
+    "A–Z and most-recent sorting",
+    "each entry names the company and its system (Carbon, Material Design, GOV.UK, Atlassian …)",
+    "community submissions via a submit form"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,105 @@
+{
+  "id": "lineicons-com",
+  "url": "https://lineicons.com",
+  "kind": "site",
+  "hints_hash": "fe13849cf6164733",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:48:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://lineicons.com",
+      "title": "Free Line Icons for Designers and Developers - Lineicons",
+      "status": 200
+    },
+    {
+      "url": "https://lineicons.com/docs",
+      "title": "Introduction to Lineicons Docs - Lineicons",
+      "status": 200
+    },
+    {
+      "url": "https://lineicons.com/icons",
+      "title": "31204+ Free Icons in SVG, Icon Font, React, Figma & More - Lineicons",
+      "status": 200
+    },
+    {
+      "url": "https://lineicons.com/pricing",
+      "title": "Lineicons Pro - Lineicons",
+      "status": 200
+    },
+    {
+      "url": "https://lineicons.com/license",
+      "title": "License | Lineicons",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Lineicons",
+  "summary": "Icon library of 31,204+ free and premium line icons in 10 styles, as SVG, PNG, icon font, React and Figma.",
+  "description": "Icon library for designers and developers: 31,204+ icons across 60+ categories, offered in 10 styles (rounded, sharp, stroke, outlined, duo-tone, solid, bulk and more). Ships as icon font, SVG, PNG and JSX, through a free CDN and npm packages for React, Vue, Svelte and React Native, plus a Figma plugin. Free Basic icons are MIT-licensed; Pro plans unlock all variations, formats and seats.",
+  "type": "icon-set",
+  "categories": [
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "icon library",
+    "line icon",
+    "free icon",
+    "svg icon",
+    "png icon",
+    "icon font",
+    "react icon",
+    "vue icon",
+    "svelte icon",
+    "angular icon",
+    "figma plugin",
+    "icon pack",
+    "npm package",
+    "cdn",
+    "commercial use",
+    "icon editor",
+    "duotone icon",
+    "solid icon"
+  ],
+  "contains": [
+    "31,204+ free and premium icons",
+    "10 icon styles, 60+ categories",
+    "free CDN snippet and npm packages (@lineiconshq)",
+    "Figma plugin and Figma design source files",
+    "Pro plans from $59 to $799",
+    "Free Basic license is MIT with restrictions"
+  ],
+  "formats": [
+    "svg",
+    "png",
+    "font-files",
+    "npm-package",
+    "figma-file",
+    "code",
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "vue",
+    "svelte",
+    "angular",
+    "react-native",
+    "css"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://lineicons.com/docs",
+    "npm": "@lineiconshq/react-lineicons",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

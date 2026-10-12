@@ -1,0 +1,27 @@
+{
+  "id": "github-com-aniket-508-turborepo-nextjs-wxt-shadcn-boilerplate",
+  "url": "https://github.com/Aniket-508/turborepo-nextjs-wxt-shadcn-boilerplate",
+  "kind": "repo",
+  "hints_hash": "229e15229505e7e7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Aniket-508/turborepo-nextjs-wxt-shadcn-boilerplate/blob/HEAD/README.md", "title": "Turborepo Boilerplate", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Turborepo Boilerplate",
+  "summary": "Turborepo boilerplate pairing a Next.js web app with a WXT browser extension, sharing shadcn/ui components.",
+  "description": "Monorepo starter for projects that need both a web app and a browser extension: a Next.js app and a WXT extension app sharing shadcn/ui UI components, with unified TypeScript, ESLint, Tailwind CSS and Prettier configs. The README covers prerequisites, install and dev servers (extension on localhost:3000, web app on localhost:3001).",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["turborepo", "monorepo", "next.js", "browser extension", "wxt", "shadcn ui", "tailwind css", "typescript", "eslint", "prettier", "boilerplate", "starter", "react", "web app", "chrome extension"],
+  "contains": ["Turborepo monorepo with a Next.js web app and a WXT browser extension", "shared shadcn/ui components", "unified TypeScript, ESLint, Tailwind CSS and Prettier configs", "extension dev server on localhost:3000, web app on localhost:3001", "MIT licensed"],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn", "wxt", "turborepo", "eslint", "prettier"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Aniket-508/turborepo-nextjs-wxt-shadcn-boilerplate", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

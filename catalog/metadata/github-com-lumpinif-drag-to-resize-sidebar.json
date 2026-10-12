@@ -1,0 +1,80 @@
+{
+  "id": "github-com-lumpinif-drag-to-resize-sidebar",
+  "url": "https://github.com/lumpinif/drag-to-resize-sidebar",
+  "kind": "repo",
+  "hints_hash": "12cc85f755985aa1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/lumpinif/drag-to-resize-sidebar/blob/HEAD/README.md",
+      "title": "shadcn/ui Resizable Sidebar",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn/ui Resizable Sidebar",
+  "summary": "Drag-to-resize shadcn/ui sidebar with persisted width, rail-click collapse and Cmd/Ctrl+B toggle.",
+  "description": "A drop-in enhancement of the shadcn/ui Sidebar that keeps its API, variants and composition model while adding drag resize from the rail, auto-collapse past a threshold, and width/collapse persistence. State restores on the server from sidebar:state and sidebar:width cookies; the demo clamps width between 14rem and 22rem.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "sidebar"
+  ],
+  "variants": {
+    "sidebar": [
+      "collapsible",
+      "icon-rail",
+      "inset"
+    ]
+  },
+  "keywords": [
+    "resizable sidebar",
+    "sidebar",
+    "shadcn sidebar",
+    "drag to resize",
+    "collapsible sidebar",
+    "dashboard sidebar",
+    "cookie persistence",
+    "nextjs",
+    "react",
+    "tailwind",
+    "app navigation"
+  ],
+  "contains": [
+    "drag the rail to resize; click it to collapse or expand",
+    "auto-collapse when the rail is dragged past a threshold",
+    "width and collapse state persisted across reloads via cookies",
+    "server-side restore with sidebar:state and sidebar:width cookies",
+    "keeps the shadcn/ui Sidebar composition, variants and tokens",
+    "demo clamps width between 14rem and 22rem"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "typescript",
+    "radix",
+    "bun"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/lumpinif/drag-to-resize-sidebar",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

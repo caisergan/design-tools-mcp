@@ -1,0 +1,38 @@
+{
+  "id": "github-com-janhesters-shadcn-kanban-board",
+  "url": "https://github.com/janhesters/shadcn-kanban-board",
+  "kind": "repo",
+  "hints_hash": "f2a5117a5830bdde",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/janhesters/shadcn-kanban-board/blob/HEAD/README.md", "title": "Shadcn/UI Kanban Board", "status": null},
+    {"url": "https://raw.githubusercontent.com/janhesters/shadcn-kanban-board/HEAD/LICENSE", "title": "LICENSE (MIT)", "status": 200},
+    {"url": "https://raw.githubusercontent.com/janhesters/shadcn-kanban-board/HEAD/package.json", "title": "package.json", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn/UI Kanban Board",
+  "summary": "React Kanban board component for shadcn/ui apps with drag and drop, keyboard access and theming.",
+  "description": "A zero-dependency Kanban board built for Shadcn/UI: columns and cards with mouse and keyboard drag and drop, inline editing, autoscroll, screen-reader announcements and theming from your Shadcn/UI CSS variables. It works with local state, React Router v7 actions or Next.js Server Actions and ships as shadcn registry items to paste into an app.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["kanban", "card", "dropdown", "tooltip", "loader", "input"],
+  "keywords": ["kanban", "kanban board", "react", "shadcn ui", "component", "drag and drop", "dnd", "keyboard navigation", "accessibility", "screen reader", "typescript", "tailwind", "registry", "nextjs", "react router", "saas", "inline editing", "theming", "board"],
+  "contains": [
+    "3 shadcn registry items (catalog measurement)",
+    "pure React with no extra drag-and-drop libraries",
+    "mouse and keyboard drag and drop: space/enter to pick up, arrow keys to move, escape to cancel",
+    "screen-reader announcements, focus management and ARIA labels",
+    "inline editing of column and card titles; add, remove and autoscroll columns",
+    "skeleton via useJsLoaded until styles and scripts load",
+    "works with local state, React Router v7 actions or Next.js Server Actions",
+    "per-column dropdown menus with lucide-react icons and tooltips"
+  ],
+  "formats": ["registry", "code"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/janhesters/shadcn-kanban-board", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

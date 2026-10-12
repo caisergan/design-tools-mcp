@@ -1,0 +1,68 @@
+{
+  "id": "thealpy-studio-ai-taste",
+  "url": "https://thealpy.studio/ai-taste",
+  "kind": "page",
+  "hints_hash": "a9666cb98692afa6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://thealpy.studio/ai-taste",
+      "title": "Alpy Taste | AI Design Skills & Web Design Styles",
+      "status": null
+    },
+    {
+      "url": "https://alpymcp.com/pricing",
+      "title": "Pricing | Alpy MCP",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Alpy Taste",
+  "summary": "MCP server that hands AI coding tools a design system, 21 web design styles and 12 UI design skills.",
+  "description": "Alpy MCP connects Cursor, Codex, Claude, Gemini and Figma to an Alpy Library: React and Vue components, semantic and component tokens in light and dark modes, and design-taste skills — 21 web design styles (Academia, Art Deco, Bauhaus, Bento Grid, Bold Typography, Cyberpunk, Modern Dark, Neumorphism, Swiss …) and 12 UI skills, plus responsive and accessibility audits. A free plan keeps one library in the browser; Pro ($49 per library) connects it to Alpy MCP.",
+  "type": "agent-skill",
+  "categories": ["components", "design-rules"],
+  "elements": ["button", "input"],
+  "keywords": [
+    "design system",
+    "mcp server",
+    "ai agent",
+    "design skill",
+    "web design style",
+    "ui skill",
+    "design token",
+    "component token",
+    "react component",
+    "vue component",
+    "dark mode",
+    "accessibility audit",
+    "responsive design",
+    "design taste"
+  ],
+  "contains": [
+    "21 web design styles and 12 UI skills",
+    "React and Vue components, semantic and component tokens",
+    "light and dark modes",
+    "MCP endpoint for Cursor, Codex, Claude, Gemini and Figma",
+    "free plan: one library in the browser with generators, previews and audits",
+    "Pro $49 per library, Enterprise $490"
+  ],
+  "formats": ["api", "code", "prompts"],
+  "stack": ["react", "vue"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

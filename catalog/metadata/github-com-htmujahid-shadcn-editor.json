@@ -1,0 +1,33 @@
+{
+  "id": "github-com-htmujahid-shadcn-editor",
+  "url": "https://github.com/htmujahid/shadcn-editor",
+  "kind": "repo",
+  "hints_hash": "49a3b6e50bee7e43",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/htmujahid/shadcn-editor/blob/HEAD/README.md", "title": "Shadcn Editor", "status": null},
+    {"url": "https://github.com/htmujahid/shadcn-editor", "title": "GitHub - htmujahid/shadcn-editor: Lexical base rich text editor using shadcn/ui components · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Editor",
+  "summary": "Rich text editor built on Lexical and styled with shadcn/ui components.",
+  "description": "A rich text (WYSIWYG) editor built on the Lexical framework and styled with shadcn/ui components. Install it as a shadcn registry item or copy the code; a live demo runs at shadcn-editor.vercel.app.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input"],
+  "keywords": ["rich text editor", "wysiwyg", "text editor", "lexical", "shadcn", "react", "nextjs", "editor component", "typescript"],
+  "contains": [
+    "rich text editor built on Lexical",
+    "styled with shadcn/ui components",
+    "installs as a shadcn registry item",
+    "live demo at shadcn-editor.vercel.app"
+  ],
+  "formats": ["code", "cli", "registry"],
+  "stack": ["react", "nextjs", "lexical", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/htmujahid/shadcn-editor", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

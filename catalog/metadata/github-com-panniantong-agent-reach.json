@@ -1,0 +1,36 @@
+{
+  "id": "github-com-panniantong-agent-reach",
+  "url": "https://github.com/Panniantong/Agent-Reach",
+  "kind": "repo",
+  "hints_hash": "12fbc23356f276dc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Panniantong/Agent-Reach/blob/HEAD/README.md", "title": "Agent Reach README", "status": null},
+    {"url": "https://github.com/Panniantong/Agent-Reach", "title": "GitHub - Panniantong/Agent-Reach", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Panniantong/Agent-Reach/HEAD/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Agent Reach",
+  "summary": "CLI that gives AI agents internet access to Twitter, Reddit, YouTube, GitHub, Bilibili and XiaoHongShu with zero API fees.",
+  "description": "One-command setup that gives AI coding agents skills to read and search the internet. Each supported platform maps to an ordered list of preferred and fallback backends that the installer picks and health-checks. Backend links include Jina Reader, twitter-cli, rdt-cli, yt-dlp, bilibili-cli, xiaohongshu-mcp, linkedin-mcp-server and feedparser, with cookie guidance for logged-in sources.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent", "internet access", "web scraping", "web search", "agent skill", "cli", "mcp", "twitter", "reddit", "youtube", "github", "bilibili", "xiaohongshu", "linkedin", "rss", "cookie", "zero api fee", "research"],
+  "contains": [
+    "one CLI, zero API fees",
+    "platforms: Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu",
+    "each platform = preferred backend + ordered fallbacks",
+    "backends include Jina Reader, yt-dlp, feedparser, platform CLIs and MCP servers",
+    "cookie security guidance for logged-in sources",
+    "uninstall removes skill files but keeps token config"
+  ],
+  "formats": ["cli", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Panniantong/Agent-Reach", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

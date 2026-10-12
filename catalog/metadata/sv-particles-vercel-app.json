@@ -1,0 +1,35 @@
+{
+  "id": "sv-particles-vercel-app",
+  "url": "https://sv-particles.vercel.app",
+  "kind": "site",
+  "hints_hash": "52c09edc04f60fe8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sv-particles.vercel.app", "title": "Svelte QBlocks - Svelte Shadcn Blocks and Components", "status": 200},
+    {"url": "https://sv-particles.vercel.app/particles/accordion", "title": "Accordion Blocks | Svelte QBlocks", "status": 200},
+    {"url": "https://github.com/SikandarJODD/sv-particles", "title": "GitHub - SikandarJODD/sv-particles: Svelte Shadcn Useful blocks for production - Inspired from COSS UI · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Svelte QBlocks",
+  "summary": "Free shadcn-svelte blocks for Svelte 5: accordions, alert dialogs, avatars, banners, buttons, inputs, menus and data tables.",
+  "description": "A collection of shadcn-svelte blocks built with Svelte 5, Tailwind CSS and TypeScript. Sections cover accordion, alert dialog, avatars, banner, button, input, input group, input OTP, menu, table and new data-table blocks, each with multiple styled examples; inspired by COSS UI Particles.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "avatar", "banner", "button", "input", "otp-input", "modal", "table"],
+  "keywords": ["shadcn svelte", "svelte 5", "block", "component", "accordion", "avatar", "banner", "button", "input", "otp input", "data table", "menu", "tailwind", "typescript", "copy paste", "free", "open source"],
+  "contains": [
+    "component sections: accordion, alert dialog, avatars, banner, buttons, inputs, menu, table, data table",
+    "example counts per section (button 32, input group 30, avatars 14, banner 12 …)",
+    "built with Svelte 5, Tailwind CSS and TypeScript",
+    "shadcn-svelte blocks inspired by COSS UI Particles",
+    "free and open source"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["svelte", "tailwind", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/SikandarJODD/sv-particles", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

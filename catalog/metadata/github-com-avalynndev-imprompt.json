@@ -1,0 +1,34 @@
+{
+  "id": "github-com-avalynndev-imprompt",
+  "url": "https://github.com/avalynndev/imprompt",
+  "kind": "repo",
+  "hints_hash": "62d5bd98f259970f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/avalynndev/imprompt/blob/HEAD/README.md", "title": "Imprompt", "status": null},
+    {"url": "https://raw.githubusercontent.com/avalynndev/imprompt/HEAD/README.md", "title": "Imprompt", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Imprompt",
+  "summary": "Chrome extension that rewrites your prompts on ChatGPT, Claude and Gemini and chats with any webpage.",
+  "description": "Imprompt adds an Enhance button to the prompt box on ChatGPT, Claude and Gemini, and a side panel that answers questions about the page you are on. It runs locally through Chrome's built-in AI (Manifest V3); build it from source or load the release zip.",
+  "type": "plugin",
+  "categories": ["dev-ai-tools"],
+  "elements": ["button", "chat"],
+  "keywords": ["chrome extension", "browser extension", "prompt", "prompt enhancer", "ai prompt", "prompt engineering", "chatgpt", "claude", "gemini", "side panel", "chat with webpage", "summarize webpage", "manifest v3", "local ai", "privacy", "productivity"],
+  "contains": [
+    "Enhance button for ChatGPT, Claude and Gemini prompt boxes",
+    "side panel to ask questions about the current webpage",
+    "smart suggestions and context memory",
+    "runs locally via Chrome built-in AI, no servers or tracking",
+    "built with React, Plasmo, TypeScript, Shadcn and Tailwind"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/avalynndev/imprompt", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

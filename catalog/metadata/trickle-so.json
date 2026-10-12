@@ -1,0 +1,29 @@
+{
+  "id": "trickle-so",
+  "url": "https://trickle.so",
+  "kind": "site",
+  "hints_hash": "eb9d344906a163a4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://trickle.so", "title": "Trickle | Turn your ideas into live apps and websites with AI", "status": null},
+    {"url": "https://trickle.so/templates", "title": "Trickle AI - Templates", "status": null},
+    {"url": "https://trickle.so/pricing", "title": "Trickle pricing plans | Simple plans for building dreams", "status": null}
+  ],
+  "status": "ok",
+  "name": "Trickle",
+  "summary": "AI app builder that turns natural-language prompts into live websites and apps, with built-in image and video generation and hosting.",
+  "description": "An agentic canvas for vibe coding: describe an app or site and Trickle builds it with built-in image and video generation, AI models, database and design, then hosts it on a trickle.host subdomain or a custom domain. A template gallery offers reusable apps, sites and components (Profile Card, Flip Card, Lamp Container, Laser Flow and more), alongside free tools, a blog and a changelog.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "templates"],
+  "elements": ["card"],
+  "keywords": ["ai app builder", "ai website builder", "vibe coding", "no-code", "prompt", "app template", "website template", "ai component", "image generation", "video generation", "database", "hosting", "custom domain", "prototype", "landing page"],
+  "contains": ["builds websites and apps from natural-language prompts", "template and component gallery (apps, sites, UI components)", "built-in image and video generation, AI models, database", "hosting on trickle.host subdomains or custom domains", "free plan with 70 daily credits (up to 350/month), Pro $17/month, Premium $42/month", "free tools, blog and changelog"],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

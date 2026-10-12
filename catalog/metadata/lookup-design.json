@@ -1,0 +1,28 @@
+{
+  "id": "lookup-design",
+  "url": "https://lookup.design",
+  "kind": "site",
+  "hints_hash": "6e3d1158390d3644",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lookup.design", "title": "lookup.design - ui examples", "status": null},
+    {"url": "https://lookup.design/search", "title": "lookup.design - ui examples", "status": 200}
+  ],
+  "status": "ok",
+  "name": "lookup.design",
+  "summary": "Library of 900+ handpicked UI and UX design examples from real websites, hand-indexed for search.",
+  "description": "Browsable library of UI and UX design examples taken from well-designed websites; every image is hand-named, categorised and indexed so it can be found by search. The site counts 900+ images from 40+ brands and adds about 100 images a month, alongside a weekly design newsletter.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["ui example", "ux example", "design inspiration", "ui gallery", "screenshot", "web design", "app design", "design search", "newsletter", "design reference"],
+  "contains": ["900+ UI/UX example images", "40+ brands", "~100 images added monthly", "every image hand-named and indexed for search", "weekly curated design newsletter"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ruben-substack-com-p-privacy",
+  "url": "https://ruben.substack.com/p/privacy",
+  "kind": "page",
+  "hints_hash": "5bdfb4c9bb2130f8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/privacy", "title": "Privacy. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "partial",
+  "name": "Privacy (How to AI)",
+  "summary": "Paid guide to what happens to AI chat prompts, who can read them, how long they are kept, and how to set up your AI more privately.",
+  "description": "A How to AI post that follows a prompt through nine stops inside an AI provider, from leaving your laptop to retention, safety scanning, human review and training piles, citing cases like the New York Times lawsuit. The preview is public; the full guide, including the section on setting up your AI, is for paid subscribers.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["ai privacy", "data retention", "training data", "chat history", "prompt privacy", "opt out", "ai safety", "language model", "privacy setup", "ai guide"],
+  "contains": [
+    "paid subscribers only, with a free preview",
+    "a prompt's life in 9 stops",
+    "setup instructions for configuring your AI"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.6
+}

@@ -1,0 +1,27 @@
+{
+  "id": "happyhues-co",
+  "url": "https://happyhues.co",
+  "kind": "site",
+  "hints_hash": "d09b02bc1f7e773e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:28:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://happyhues.co", "title": "Happy Hues - Curated colors in context.", "status": null}
+  ],
+  "status": "ok",
+  "name": "Happy Hues",
+  "summary": "Palette inspiration site that shows 17 curated color palettes applied to a live example page you can click through.",
+  "description": "Curated color palettes shown in context: picking a palette updates every element of the example site — background, headline, buttons, illustration — so you can judge the shades before using them. Clicking an element copies its hex code, and short sections explain color terminology (hue, tint, shade, tone, value, saturation) and the psychology of color.",
+  "type": "gallery",
+  "categories": ["color-effects", "inspiration"],
+  "elements": [],
+  "keywords": ["color palette", "color inspiration", "palette inspiration", "hex code", "color scheme", "ui color", "web design color", "illustration palette", "color terminology", "color psychology", "copy hex", "curated palette"],
+  "contains": ["17 curated palettes applied to a live example page", "click any element to copy its hex code", "sections on color terminology and the psychology of color"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

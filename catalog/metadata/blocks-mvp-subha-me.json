@@ -1,0 +1,149 @@
+{
+  "id": "blocks-mvp-subha-me",
+  "url": "https://blocks.mvp-subha.me",
+  "kind": "site",
+  "hints_hash": "a691c922aade6055",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://blocks.mvp-subha.me/llms.txt",
+      "title": "MVPBlocks",
+      "status": null
+    },
+    {
+      "url": "https://blocks.mvp-subha.me",
+      "title": "MVPBlocks | Open-Source UI Blocks for Next.js, React & Tailwind CSS | MVPBlocks",
+      "status": 200
+    },
+    {
+      "url": "https://blocks.mvp-subha.me/docs/cli",
+      "title": "CLI | MVPBlocks",
+      "status": 200
+    },
+    {
+      "url": "https://blocks.mvp-subha.me/docs/categories",
+      "title": "Categories | MVPBlocks",
+      "status": 200
+    },
+    {
+      "url": "https://blocks.mvp-subha.me/showcase",
+      "title": "Showcase | Real Products Built with MVPBlocks | MVPBlocks",
+      "status": 200
+    },
+    {
+      "url": "https://blocks.mvp-subha.me/about",
+      "title": "About MVPBlocks | Our Mission & Story | MVPBlocks",
+      "status": 200
+    },
+    {
+      "url": "https://blocks.mvp-subha.me/license",
+      "title": "License | BSD 3-Clause | MVPBlocks",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MVPBlocks",
+  "summary": "Copy-paste UI blocks and templates for Next.js, React and Tailwind CSS, free under the BSD 3-Clause license.",
+  "description": "An open-source library of 50+ documented blocks — hero, pricing, testimonials, cards, chatbot and dashboard pieces — plus full templates such as an AI chat platform, a SaaS marketing page and portfolios. Blocks are responsive, accessible and dark-mode ready, and you take them by copy-paste or through the MVPBlocks CLI.",
+  "type": "block-library",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "background",
+    "bento-grid",
+    "card",
+    "chat",
+    "contact",
+    "cta",
+    "cursor",
+    "dashboard",
+    "dock",
+    "faq",
+    "features",
+    "footer",
+    "form",
+    "globe",
+    "hero",
+    "loader",
+    "logo-cloud",
+    "modal",
+    "navbar",
+    "pagination",
+    "pricing",
+    "progress",
+    "scroll-effect",
+    "team",
+    "testimonials",
+    "text-effect",
+    "tooltip"
+  ],
+  "keywords": [
+    "nextjs block",
+    "react component",
+    "tailwind css",
+    "copy paste component",
+    "shadcn ui",
+    "ui block",
+    "landing page section",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "footer",
+    "navbar",
+    "card",
+    "chatbot ui",
+    "dashboard ui",
+    "framer motion",
+    "dark mode",
+    "open source",
+    "free block",
+    "cli",
+    "mvp",
+    "saas template",
+    "marketing block",
+    "animated component"
+  ],
+  "contains": [
+    "50+ documented blocks and components",
+    "7 templates: AI chat platform, AI SaaS marketing, designer and developer portfolio, DevOps, fintech, design studio",
+    "MVPBlocks CLI with add, list, search, categories, info and auto project initialization with themes",
+    "install guides for Next.js, Vite, Astro, Gatsby, Laravel, Remix, React Router and TanStack",
+    "responsive, accessible (semantic HTML and ARIA) and dark-mode ready",
+    "showcase of products built with the blocks",
+    "BSD 3-Clause, free for personal and commercial use"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "templates",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "framer-motion",
+    "gsap"
+  ],
+  "pricing": "free",
+  "license": "BSD-3-Clause",
+  "related": {
+    "repo": "https://github.com/subhadeeproy3902/mvpblocks",
+    "docs": "https://blocks.mvp-subha.me/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

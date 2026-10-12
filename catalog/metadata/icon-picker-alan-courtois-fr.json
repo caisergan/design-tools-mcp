@@ -1,0 +1,69 @@
+{
+  "id": "icon-picker-alan-courtois-fr",
+  "url": "https://icon-picker.alan-courtois.fr",
+  "kind": "site",
+  "hints_hash": "df130fe8292ffd25",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://icon-picker.alan-courtois.fr",
+      "title": "Shadcn Icon Picker - Beautiful Icon Selection Component",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Icon Picker",
+  "summary": "Icon picker component for React that searches and picks from the Lucide icon set.",
+  "description": "A component that lets users pick an icon from the Lucide icon list, with search, category shortcuts and a virtualized list. Props cover controlled and default value, a custom trigger, a custom icon list, modal mode and search behaviour.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "select"
+  ],
+  "keywords": [
+    "icon picker",
+    "icon selection",
+    "lucide icon",
+    "shadcn ui",
+    "react",
+    "react component",
+    "searchable picker",
+    "icon search",
+    "custom trigger",
+    "tanstack virtual",
+    "lucide react"
+  ],
+  "contains": [
+    "icon picker for React using all Lucide icons",
+    "searchable icon list with category buttons, virtualized with TanStack Virtual",
+    "props: controlled value, custom trigger, custom icons list, modal mode",
+    "built with shadcn/ui"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "shadcn",
+    "lucide-react",
+    "tanstack-virtual"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

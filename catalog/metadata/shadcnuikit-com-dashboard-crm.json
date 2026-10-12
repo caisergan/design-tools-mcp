@@ -1,0 +1,22 @@
+{
+  "id": "shadcnuikit-com-dashboard-crm",
+  "url": "https://shadcnuikit.com/dashboard/crm",
+  "kind": "page",
+  "hints_hash": "25ef47aa2a87a383",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnuikit.com/dashboard/crm", "title": "CRM Admin Dashboard Template for Shadcn UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CRM Dashboard",
+  "summary": "Live demo of a CRM admin dashboard from Shadcn UI Kit: customer relationships, sales pipelines and performance metrics.",
+  "description": "One of 16 dashboards in the Shadcn UI Kit pack, built with React, Next.js, TypeScript, Tailwind CSS and shadcn/ui. The page is the live demo; the full dashboard set is a paid download ($79).",
+  "keywords": ["crm dashboard", "admin dashboard", "dashboard template", "customer relationship management", "sales pipeline", "react", "nextjs", "typescript", "tailwind", "shadcn"],
+  "type": "template",
+  "elements": ["dashboard"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shadcnuikit-com"},
+  "confidence": 0.8
+}

@@ -1,0 +1,39 @@
+{
+  "id": "openclaude-gitlawb-com",
+  "url": "https://openclaude.gitlawb.com",
+  "kind": "site",
+  "hints_hash": "f24b7775be89dc80",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://openclaude.gitlawb.com", "title": "openclaude — open-source coding agent CLI for any model", "status": 200},
+    {"url": "https://openclaude.gitlawb.com/docs", "title": "openclaude documentation — CLI guides & reference", "status": 200},
+    {"url": "https://openclaude.gitlawb.com/docs/providers", "title": "openclaude providers — 40+ backends: OpenAI, Gemini, Grok, Ollama & more", "status": 200},
+    {"url": "https://openclaude.gitlawb.com/docs/skills", "title": "openclaude skills — bundled agent skills reference", "status": 200},
+    {"url": "https://openclaude.gitlawb.com/docs/quickstart", "title": "openclaude quickstart — first session in 5 minutes", "status": 200}
+  ],
+  "status": "ok",
+  "name": "openclaude",
+  "summary": "Open-source coding agent CLI for any model: OpenAI, Gemini, Grok, Ollama, GitHub Models and 200+ more.",
+  "description": "A terminal coding agent that reads and edits files, runs shell commands, searches codebases and talks to MCP servers, against any model backend you choose. It ships with 40+ first-class providers, per-repo profiles, persisted sessions that resume, branch and rewind, and a non-interactive --print mode for scripts and CI.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["coding agent", "cli", "terminal", "open source", "llm", "openai", "gemini", "ollama", "lm studio", "mcp", "agent skill", "local model", "openai compatible", "ai coding assistant"],
+  "contains": [
+    "agent loop with bash, file edits, grep, glob, MCP servers and skills",
+    "40+ first-class providers plus any OpenAI-compatible endpoint",
+    "non-interactive --print mode with json and stream-json output, tool allowlists and budgets",
+    "sessions: resume, branch, rewind; background tasks, worktree isolation, remote control",
+    "per-repo profiles save model, base url, auth and runtime defaults",
+    "bundled skills incl. /batch worktree fan-out, /simplify and /debug",
+    "install: npm install -g @gitlawb/openclaude, requires node >= 22"
+  ],
+  "formats": ["npm-package", "cli", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://openclaude.gitlawb.com/docs", "npm": "@gitlawb/openclaude", "figma": null, "parent": null},
+  "confidence": 0.85
+}

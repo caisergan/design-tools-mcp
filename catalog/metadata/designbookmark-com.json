@@ -1,0 +1,28 @@
+{
+  "id": "designbookmark-com",
+  "url": "https://designbookmark.com",
+  "kind": "site",
+  "hints_hash": "89324dafba23efa5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designbookmark.com/llms.txt", "title": "DesignBookmark", "status": null},
+    {"url": "https://designbookmark.com", "title": "DesignBookmark, All-in-one design resources for designers", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DesignBookmark",
+  "summary": "Directory of 2,500+ design, development and AI tools and resources across 59 categories.",
+  "description": "DesignBookmark is a searchable directory of design, development and AI tools, websites and resources, organised into 11 groups (Design, AI, Development, No-Code & Web, Marketing & Growth, Productivity, Business, Content & Media, Libraries & Templates, Learn & Community) and 59 categories such as Design Inspiration, Icons, Color & Gradient, Mac Apps, Chrome Extensions, AI Image and Framer Templates. Every tool has a page with a screenshot, description, pricing signal and related alternatives; submissions are free and human-reviewed, and sponsored entries are marked.",
+  "type": "directory",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["design tool", "design resource", "tool directory", "directory", "icon", "font", "mockup", "illustration", "ui kit", "mac app", "chrome extension", "ai tool", "developer tool", "no-code", "website template", "framer template", "stock photo", "color", "gradient", "productivity tool", "web design"],
+  "contains": ["2,548 tools listed (llms.txt: 2,479+)", "11 groups and 59 categories", "largest categories: Design Inspiration 347, Mac Apps 229, APIs & Dev Tools 120", "tool pages include screenshot, description, pricing signal and alternatives", "submissions free and human-reviewed; sponsored entries marked", "bookmark tools with a Google sign-in"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

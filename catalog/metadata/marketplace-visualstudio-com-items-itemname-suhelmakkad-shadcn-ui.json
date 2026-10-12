@@ -1,0 +1,61 @@
+{
+  "id": "marketplace-visualstudio-com-items-itemname-suhelmakkad-shadcn-ui",
+  "url": "https://marketplace.visualstudio.com/items?itemName=SuhelMakkad.shadcn-ui",
+  "kind": "page",
+  "hints_hash": "4a2dac2088c50265",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://marketplace.visualstudio.com/items?itemName=SuhelMakkad.shadcn-ui",
+      "title": "shadcn/ui - Visual Studio Marketplace",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn/ui",
+  "summary": "VS Code extension that initializes the shadcn/ui CLI and installs shadcn/ui components from inside the editor.",
+  "description": "Add shadcn/ui components directly from VS Code: one command initializes the shadcn/ui CLI, another installs components into the project from a list.",
+  "type": "plugin",
+  "categories": [
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "vscode",
+    "vs code extension",
+    "shadcn",
+    "component",
+    "cli",
+    "install",
+    "react",
+    "tailwind css",
+    "editor extension",
+    "developer tool"
+  ],
+  "contains": [
+    "35,494 installs, free",
+    "initialize shadcn/ui CLI command",
+    "install components from a list",
+    "listed under the Other category on the marketplace"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

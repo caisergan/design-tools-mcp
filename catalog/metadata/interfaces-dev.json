@@ -1,0 +1,76 @@
+{
+  "id": "interfaces-dev",
+  "url": "https://interfaces.dev",
+  "kind": "site",
+  "hints_hash": "202579c3e57bc1d1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://interfaces.dev",
+      "title": "Interfaces › Design Engineering Magazine",
+      "status": null
+    },
+    {
+      "url": "https://interfaces.dev/index.md",
+      "title": "Interfaces",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Interfaces",
+  "summary": "Monthly design engineering magazine: 18 issues with interactive demos, source code and agent skills.",
+  "description": "A digital magazine by Jakub Krehel about building great interfaces. Each issue is a deep dive into one topic — animation, typography, layout, color, accessibility, gestures — with interactive demos and code snippets; issues can also be copied as markdown for agents. Three issues are free; a subscription includes all 18 past issues, the resource library, agent skills and a private Discord.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "design engineering",
+    "interface design",
+    "magazine",
+    "interactive demo",
+    "animation",
+    "typography",
+    "layout",
+    "color",
+    "oklch",
+    "gradient",
+    "accessibility",
+    "css",
+    "agent skill",
+    "source code",
+    "frontend"
+  ],
+  "contains": [
+    "18 issues, each a deep dive with chapters",
+    "new issue every month",
+    "interactive demos with source code",
+    "agent skills that can review your work",
+    "three issues readable free as markdown",
+    "plans: $7.99 per month, $79.99 per year, $299 lifetime",
+    "private Discord community and resource library"
+  ],
+  "formats": [
+    "docs",
+    "code",
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

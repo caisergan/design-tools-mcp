@@ -1,0 +1,64 @@
+{
+  "id": "gist-github-com-ilkou-7bf2dbd42a7faf70053b43034fc4b5a4",
+  "url": "https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4",
+  "kind": "page",
+  "hints_hash": "b433d3fcdea9d58c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4",
+      "title": "react-select with shadcn/ui · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "react-select with shadcn/ui",
+  "summary": "Gist of a react-select wrapper restyled with shadcn/ui class names, plus custom option and indicator components.",
+  "description": "A GitHub Gist showing how to use react-select with shadcn/ui: a SimpleSelect forwardRef wraps react-select unstyled and applies a classNames and styles configuration built from Tailwind classes that mirror shadcn form fields, with a createClassNames factory and custom Option, ClearIndicator, DropdownIndicator and MultiValueRemove components.",
+  "type": "component-library",
+  "elements": [
+    "select"
+  ],
+  "keywords": [
+    "react-select",
+    "shadcn",
+    "select",
+    "react",
+    "tailwind",
+    "multi select",
+    "form control",
+    "dropdown indicator",
+    "custom select",
+    "code snippet"
+  ],
+  "contains": [
+    "SimpleSelect wrapper around react-select",
+    "class names and styles aligned with shadcn/ui form styling",
+    "custom Option, ClearIndicator, DropdownIndicator and MultiValueRemove components",
+    "createClassNames factory for style overrides",
+    "35 stars, 4 forks"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "react-select",
+    "shadcn"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

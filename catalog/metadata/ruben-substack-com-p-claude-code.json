@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-claude-code",
+  "url": "https://ruben.substack.com/p/claude-code",
+  "kind": "page",
+  "hints_hash": "d6b5509809d32558",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-code", "title": "Claude Code. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Claude Code.",
+  "summary": "Guide for non-coders to Claude Code: where it fits, how to prompt it and its limits.",
+  "description": "A How to AI post (Mar 2026) explaining Claude Code to people who don't code: where it fits next to Chat, Projects and Cowork, how to prompt it, how to give the agent project context, where it falls short, and a first-30-minutes walkthrough.",
+  "type": "article",
+  "keywords": ["claude code", "claude", "ai coding", "ai coding agent", "prompting", "command line", "non-coder", "vibe coding", "developer tool"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

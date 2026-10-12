@@ -1,0 +1,115 @@
+{
+  "id": "microkit-co",
+  "url": "https://microkit.co",
+  "kind": "site",
+  "hints_hash": "9107f19c9e9bed70",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://microkit.co/llms.txt",
+      "title": "MicroKit UI",
+      "status": null
+    },
+    {
+      "url": "https://microkit.co",
+      "title": "MicroKit UI - Copy-paste React & CSS microinteractions",
+      "status": 200
+    },
+    {
+      "url": "https://microkit.co/components",
+      "title": "All 49 components — buttons, tabs and inputs | MicroKit UI",
+      "status": 200
+    },
+    {
+      "url": "https://microkit.co/components/focus-input",
+      "title": "Focus Field — CSS focus animation",
+      "status": 200
+    },
+    {
+      "url": "https://microkit.co/components/read-more-swap",
+      "title": "Read More Swap — CSS hover animation",
+      "status": 200
+    },
+    {
+      "url": "https://microkit.co/components/blur-glide-menu",
+      "title": "Blur Glide Menu — React click animation",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MicroKit UI",
+  "summary": "49 free copy-paste microinteractions for React, CSS and Tailwind: animated buttons, hover effects, tabs and inputs.",
+  "description": "A shadcn registry of 49 microinteractions for developers who want one specific interaction — a button that reveals an arrow on hover, tabs with a sliding underline, an input with an animated focus ring — without pulling in an animation library. Each has a live preview with TypeScript/JavaScript and CSS/Tailwind code; add by shadcn CLI, URL or hand-copy. MIT licensed.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "motion",
+    "registries"
+  ],
+  "elements": [
+    "pricing",
+    "contact",
+    "changelog",
+    "tabs",
+    "button",
+    "input",
+    "card",
+    "background",
+    "cursor"
+  ],
+  "keywords": [
+    "micro interaction",
+    "copy paste",
+    "react",
+    "css",
+    "tailwind",
+    "button animation",
+    "hover effect",
+    "animated button",
+    "tab animation",
+    "focus input",
+    "cursor effect",
+    "shadcn",
+    "registry",
+    "click feedback",
+    "no dependency",
+    "lucide icon",
+    "navigation microinteraction"
+  ],
+  "contains": [
+    "49 interactions grouped Click feedback (38), Inputs (2), Navigation (9)",
+    "each component page has a live preview and TypeScript/JavaScript plus CSS/Tailwind code",
+    "installs via shadcn CLI: npx shadcn@latest add @microkit/<id> or direct URL; hand-copying supported",
+    "26 of 49 interactions need no dependencies; 23 import lucide-react",
+    "no npm package by design; MIT licensed",
+    "submit interactions through a prefilled GitHub issue"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/henriquegpb/microkit",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

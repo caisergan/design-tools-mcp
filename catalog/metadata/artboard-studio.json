@@ -1,0 +1,36 @@
+{
+  "id": "artboard-studio",
+  "url": "https://artboard.studio",
+  "kind": "site",
+  "hints_hash": "dfee696544d0f72b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://artboard.studio/llms.txt", "title": "Artboard Studio", "status": null},
+    {"url": "https://artboard.studio", "title": "Artboard Studio ⎯ Online Mockup Generator & Editor for Designers", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Artboard Studio",
+  "summary": "Online mockup generator and editor with 5,000+ device, apparel, packaging, print and branding mockups, plus Figma plugins.",
+  "description": "An online mockup generator and editor: place images or videos on 5,000+ realistic mockups across devices, apparel, packaging, print and branding, then export PNG, JPEG, WEBP or MP4/WEBM video. Works in the browser or through the Figma and Adobe Express plugins, with an AI generator that turns a text prompt into a mockup. Free plan; Lite $9/mo, Pro $19/mo billed annually, or $129 lifetime.",
+  "type": "tool",
+  "categories": ["media", "design-tools"],
+  "elements": [],
+  "keywords": ["mockup", "mockup generator", "device mockup", "iphone mockup", "laptop mockup", "t-shirt mockup", "packaging mockup", "poster mockup", "billboard mockup", "video mockup", "mockup editor", "figma plugin", "product mockup", "branding mockup", "3d mockup", "png export"],
+  "contains": [
+    "5,000+ mockups across devices, apparel, packaging, print and branding",
+    "browser editor plus Figma and Adobe Express plugins",
+    "export PNG, JPEG, WEBP images and MP4/WEBM video mockups",
+    "AI mockup generator turns a text prompt into a mockup",
+    "free plan; Lite $9/mo and Pro $19/mo billed annually; Lifetime $129 one-time",
+    "all mockups include a commercial license",
+    "categories include iPhone, laptop, t-shirt, bottle, poster, billboard, mug"
+  ],
+  "formats": ["png", "video", "app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": "https://artboard.studio/figma-mockup", "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,36 @@
+{
+  "id": "github-com-persianlabs-ui",
+  "url": "https://github.com/persianlabs/ui",
+  "kind": "repo",
+  "hints_hash": "4148b53b6e789ac0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:45:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/persianlabs/ui/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/persianlabs/ui", "title": "GitHub - persianlabs/ui: A copy-paste component library, RTL-first for Persian interfaces. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "PersianLabs/ui",
+  "summary": "RTL-first, shadcn-compatible registry of 75+ React components for Persian interfaces, from Bank Input to Jalali date pickers.",
+  "description": "A copy-paste component registry for Persian (RTL) interfaces: logical properties and mirrored icons by default, with full LTR support, built on Base UI and Tailwind v4 and shipped as plain React source through a shadcn-compatible registry — no npm package to chase. Covers most of the shadcn/Base UI catalog plus Persian-specific pieces: Bank Input with card/Shaba validation, City Selector (province → city), Jalali Calendar/Date/Time pickers, Toman Icon, Receipt Printer, QR Code, Mobile Number Input, and validators for National ID, Postal Code and Persian dates.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "calendar", "command-palette", "date-picker", "input", "modal", "select", "slider", "tabs", "toast"],
+  "keywords": ["rtl", "persian", "farsi", "shadcn", "shadcn registry", "base ui", "tailwind css", "react component", "copy paste", "component registry", "jalali calendar", "persian date picker", "iranian bank", "shaba", "national id", "city selector", "toman", "qr code", "receipt printer", "mobile number input", "right to left", "nextjs"],
+  "contains": [
+    "75+ components, 10 utilities and 6 hooks across a shadcn-compatible registry (no npm package)",
+    "RTL-first: logical properties and mirrored icons by default, full LTR support",
+    "Persian pieces: Bank Input and bank utilities (card/Shaba validation), City Selector, Jalali pickers",
+    "extras: Toman Icon, Receipt Printer, QR Code, Mobile Number Input, Persian Reshape for OG images",
+    "validators and formatters: National ID, Postal Code, Persian Date, Persian Holidays, Persian Slug",
+    "covers most of the shadcn/Base UI catalog RTL-converted; Data Table is a docs guide for now",
+    "Turborepo monorepo with bun workspaces and a Next.js 16 docs site"
+  ],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "base-ui", "tailwind", "nextjs", "turborepo"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/persianlabs/ui", "docs": "https://ui.persian-labs.ir", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

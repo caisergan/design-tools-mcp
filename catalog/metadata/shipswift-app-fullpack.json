@@ -1,0 +1,26 @@
+{
+  "id": "shipswift-app-fullpack",
+  "url": "https://shipswift.app/fullpack",
+  "kind": "page",
+  "hints_hash": "96e3a1917563d885",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shipswift.app/fullpack", "title": "Fullpack - Packing & Outfit App - App Store", "status": null}
+  ],
+  "status": "ok",
+  "name": "Fullpack - Packing & Outfit",
+  "summary": "iPhone packing app that inventories your gear from photos and builds trip checklists and outfits.",
+  "description": "A travel app from Signer Labs: photograph an item and AI extracts, names and files it into a smart inventory, then build packing lists and plan outfits for every trip. An AI virtual try-on (Pro) previews outfits from one full-body photo. Free with in-app purchases; listed under Utilities on the App Store.",
+  "type": "app",
+  "elements": [],
+  "keywords": ["packing list", "travel", "trip planner", "wardrobe", "outfit planner", "virtual try-on", "inventory", "photo recognition", "ios app", "checklist"],
+  "contains": ["AI item recognition from photos into a digital inventory", "packing lists and outfit planning per trip", "AI virtual try-on from a full-body photo (Pro)", "free with in-app purchases; iPhone only, 66.3 MB", "developer: Signer Labs"],
+  "formats": ["app"],
+  "stack": ["swiftui", "visionkit"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shipswift-app"},
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dark-design",
+  "url": "https://dark.design",
+  "kind": "site",
+  "hints_hash": "91ef9b91997c7797",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dark.design", "title": "Dark Themed Web Design Inspiration", "status": 200},
+    {"url": "https://www.dark.design/templates", "title": "Free Framer Templates — Dark", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Dark",
+  "summary": "Curated gallery of dark-themed websites, plus free Framer templates made by Cédric.",
+  "description": "dark.design showcases curated dark-themed websites, listed with a name and a category (agency, AI, software, culture, personal, web3, hardware, education) and linked to a detail page. A templates section offers free dark Framer templates by Cédric — link-in-bio, portfolio, invoice, digital CV and store templates.",
+  "type": "gallery",
+  "categories": ["inspiration", "templates"],
+  "elements": [],
+  "keywords": ["dark mode", "dark theme", "dark website", "web design inspiration", "design gallery", "website gallery", "landing page", "portfolio", "agency website", "saas website", "personal website", "framer template", "free template", "curated website"],
+  "contains": ["curated dark-themed websites, each with a detail page", "site categories: agency, AI, software, culture, personal, web3, hardware, education", "free Framer templates by Cédric: Linx, Anticode, Artifact, Dashfolio+, Vitae, Dashfolio Neo, Billify, Supply"],
+  "formats": ["screenshots", "links", "templates"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

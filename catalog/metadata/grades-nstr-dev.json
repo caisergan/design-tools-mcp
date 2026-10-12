@@ -1,0 +1,28 @@
+{
+  "id": "grades-nstr-dev",
+  "url": "https://grades.nstr.dev",
+  "kind": "site",
+  "hints_hash": "244366cc4cd5edf3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://grades.nstr.dev", "title": "Grade Calculator - nstr.dev", "status": null},
+    {"url": "https://grades.nstr.dev/sitemap.xml", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Grade Calculator",
+  "summary": "Student grade calculator and dashboard: grade overviews per subject with weighted averages and dark mode.",
+  "description": "A grade calculator and dashboard for students with tools to get an overview of grades and calculate average grades per subject. It supports any numeric grading system and weighted averages, features dark mode and is fully responsive, and syncs data with an external service; a legacy version keeps data exclusively in the browser.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["banner"],
+  "keywords": ["grade calculator", "weighted average", "grade tracker", "student tool", "grades overview", "academic performance", "numeric grading", "dark mode", "responsive", "education", "school"],
+  "contains": ["calculates weighted averages for any numeric grading system", "overview tools for grades per subject", "data synced with an external service; legacy version stores data in the browser", "dark mode and fully responsive"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

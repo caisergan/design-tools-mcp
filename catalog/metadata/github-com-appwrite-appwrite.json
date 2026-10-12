@@ -1,0 +1,34 @@
+{
+  "id": "github-com-appwrite-appwrite",
+  "url": "https://github.com/appwrite/appwrite",
+  "kind": "repo",
+  "hints_hash": "dcd4e5a3d79ca636",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:31:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/appwrite/appwrite/blob/HEAD/README.md", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Appwrite",
+  "summary": "Open-source, self-hostable backend platform: auth, databases, storage, functions, messaging, realtime and hosting.",
+  "description": "An MCP and agent-first backend-as-a-service with Auth, Databases, Storage, Functions, Sites, Messaging, Realtime and a Firewall. Connect coding agents to a live project through the hosted MCP server or integrate one of the SDKs for web, mobile, native and server platforms; self-host with one Docker command or use Appwrite Cloud.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["backend", "backend as a service", "baas", "auth", "database", "storage", "serverless function", "realtime", "self-hosted", "docker", "mcp server", "sdk", "firebase alternative", "hosting", "web development", "mobile development"],
+  "contains": [
+    "Auth, Databases, Storage, Functions, Sites, Messaging, Firewall, Realtime",
+    "hosted MCP server (OAuth) so agents operate a live project",
+    "self-host via one Docker command; one-click on DigitalOcean, AWS, Akamai, Gitpod",
+    "SDKs for Web, Flutter, Apple, Android, React Native, Node, Python, Dart, PHP, Ruby, .NET, Go, Swift, Kotlin, Rust",
+    "REST, WebSocket and GraphQL APIs",
+    "Appwrite Cloud includes a free plan, with paid plans to scale"
+  ],
+  "formats": ["code", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "BSD-3-Clause",
+  "related": {"repo": "https://github.com/appwrite/appwrite", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

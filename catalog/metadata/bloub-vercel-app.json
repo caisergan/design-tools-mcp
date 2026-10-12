@@ -1,0 +1,28 @@
+{
+  "id": "bloub-vercel-app",
+  "url": "https://bloub.vercel.app",
+  "kind": "site",
+  "hints_hash": "033ecd29af67d5f3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bloub.vercel.app", "title": "bloub, avatar SVG animé", "status": null},
+    {"url": "https://github.com/jeremy-prt/bloub", "title": "GitHub - jeremy-prt/bloub: SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "bloub",
+  "summary": "Animated SVG avatar that morphs between 14 states, with shape, colour and expression controls and SVG, PNG, GIF and MP4 export.",
+  "description": "A Vue app that recreates the x.ai bot avatar as one filled black shape morphing between 14 states plus two independently morphing eyes, with no animation library. It offers a customiser (8 body shapes, 12 colours, 16 rest expressions), a small timeline editor for arranging states, and exports: the avatar as SVG, PNG or animated GIF, and a whole timeline as GIF or MP4. The shapes were measured frame by frame from the reference video.",
+  "type": "generator",
+  "categories": ["motion"],
+  "elements": ["avatar"],
+  "keywords": ["animated avatar", "svg animation", "morphing", "avatar generator", "mascot", "bot avatar", "svg export", "png export", "gif export", "mp4 export", "animation timeline", "vue", "tailwind", "no animation library", "chatbot avatar"],
+  "contains": ["one black shape morphing between 14 states, two eyes morphing independently", "customiser: 8 body shapes, 12 colours, 16 rest expressions", "timeline editor: arrange states and set hold durations", "exports: SVG, PNG, animated GIF and GIF/MP4 timelines", "no animation library — pure SVG with a time-sampled engine", "measured frame by frame from the reference video"],
+  "formats": ["app", "svg", "png", "video", "code"],
+  "stack": ["vue", "typescript", "tailwind", "vite"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/jeremy-prt/bloub", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

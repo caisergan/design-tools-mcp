@@ -1,0 +1,27 @@
+{
+  "id": "tabler-io-icons",
+  "url": "https://tabler.io/icons",
+  "kind": "page",
+  "hints_hash": "72e5dff436594a35",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tabler.io/icons", "title": "Tabler Icons: 6200+ free vector icons for web design", "status": null}
+  ],
+  "status": "ok",
+  "name": "Tabler Icons",
+  "summary": "6,200+ free MIT-licensed SVG icons on a 24×24 grid, with React, Vue, SolidJS and Figma packages.",
+  "description": "A complete open-source icon set of 6,238 icons drawn on a 24×24 grid with a 2px stroke, browsable by search and category with live size, stroke and color controls. Icons ship as source SVG, HTML images, SVG sprites, webfont and PNG/PDF downloads, with components for React, SolidJS and Vue and a Figma plugin. Free under MIT; optional $9 and $69 bundles add compiled formats and premium assets.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "svg icon", "free icon", "open source icon", "react icon", "vue icon", "figma plugin", "outline icon", "webfont icon", "svg sprite", "icon library", "24x24 icon", "stroke icon", "mit license"],
+  "contains": ["6,238 icons, 5,184 outline icons in search", "24×24 grid with 2px stroke; size, stroke and color customisable", "SVG source, HTML images, SVG sprites, webfont, PNG/PDF", "React, SolidJS and Vue components plus a Figma plugin", "free MIT source with optional $9 and $69 bundles", "22.2k stars on GitHub"],
+  "formats": ["svg", "png", "font-files", "figma-file", "code"],
+  "stack": ["react", "vue", "solidjs"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

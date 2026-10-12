@@ -1,0 +1,29 @@
+{
+  "id": "fonts-google-com-specimen-m-plus-rounded-1c",
+  "url": "https://fonts.google.com/specimen/M+PLUS+Rounded+1c",
+  "kind": "page",
+  "hints_hash": "961ff067df77a2ce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:39:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/M+PLUS+Rounded+1c", "title": "M PLUS Rounded 1c - Google Fonts", "status": null},
+    {"url": "https://fonts.google.com/metadata/fonts/M+PLUS+Rounded+1c", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplusrounded1c/METADATA.pb", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "M PLUS Rounded 1c",
+  "summary": "Rounded Japanese sans-serif from the M+ project, 7 weights covering Japanese, Latin, Greek, Cyrillic and Hebrew.",
+  "description": "M PLUS Rounded 1c is the rounded member of the M+ Outline Fonts superfamily, a Japanese and Latin sans-serif by Coji Morishita and the M+ Fonts Project. Seven static weights run from Thin (100) to Black (900) and cover Japanese, Latin, Latin Extended, Greek, Cyrillic, Hebrew and Vietnamese. Free under the SIL Open Font License.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["japanese font", "rounded font", "sans serif", "font", "typeface", "free font", "web font", "cjk", "japanese", "hebrew", "cyrillic", "greek", "ui font", "manga"],
+  "contains": ["7 static weights: 100, 300, 400, 500, 700, 800, 900", "subsets: japanese, latin, latin-ext, greek, cyrillic, hebrew, vietnamese", "from the M+ Outline Fonts superfamily", "SIL Open Font License (OFL-1.1)"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.9
+}

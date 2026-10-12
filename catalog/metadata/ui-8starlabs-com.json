@@ -1,0 +1,39 @@
+{
+  "id": "ui-8starlabs-com",
+  "url": "https://ui.8starlabs.com",
+  "kind": "site",
+  "hints_hash": "82e88dcd236e1179",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T15:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.8starlabs.com/llms.txt", "title": "8StarLabs UI", "status": null},
+    {"url": "https://ui.8starlabs.com", "title": "8StarLabs UI", "status": 200},
+    {"url": "https://ui.8starlabs.com/docs", "title": "8StarLabs UI | 8StarLabs UI", "status": 200},
+    {"url": "https://ui.8starlabs.com/docs/mcp", "title": "MCP | 8StarLabs UI", "status": 200},
+    {"url": "https://raw.githubusercontent.com/8starlabs/ui/HEAD/README.md", "title": "8starlabs UI", "status": 200},
+    {"url": "https://github.com/8starlabs/ui", "title": "GitHub - 8starlabs/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "8StarLabs UI",
+  "summary": "Custom shadcn/ui registry of niche React components: timeline, status monitor, transport badge, flip clock, heatmap, marquee, JSON viewer.",
+  "description": "A shadcn-compatible component library meant to complement your base kit with purpose-built pieces: Timeline, Status Indicator, Status Monitor, System Banner, Transport Badge, Flip Clock, Heatmap, JSON Viewer, Marquee, Open In Chat, Partition Bar, Relative Time, Shake, Button and Video Player. Components install with the shadcn CLI into components/8starlabs-ui, are exposed through the shadcn MCP server under the @8starlabs namespace, and every docs page has a markdown mirror under /llm alongside an llms.txt for AI tooling.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["chart", "badge", "chat", "timeline", "marquee", "button", "dropdown", "input", "tooltip", "banner", "card", "features"],
+  "keywords": ["shadcn registry", "react component", "timeline component", "status indicator", "status monitor", "flip clock", "heatmap", "json viewer", "marquee", "transport badge", "video player", "shake animation", "partition bar", "relative time", "system banner", "open in chat", "nextjs", "tailwind", "mcp"],
+  "contains": [
+    "15 components: Timeline, Status Indicator, Status Monitor, System Banner, Transport Badge, Flip Clock, Heatmap",
+    "also: JSON Viewer, Marquee, Open In Chat, Partition Bar, Relative Time, Shake, Button, Video Player",
+    "installs with pnpm dlx shadcn@latest add; files land in components/8starlabs-ui",
+    "shadcn MCP registry support via the @8starlabs namespace",
+    "markdown mirrors at /llm and an llms.txt for AI consumption",
+    "positions itself as niche, high-utility pieces that complement other libraries"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/8starlabs/ui", "docs": "https://ui.8starlabs.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

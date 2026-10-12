@@ -1,0 +1,157 @@
+{
+  "id": "ogblocks-dev",
+  "url": "https://ogblocks.dev",
+  "kind": "site",
+  "hints_hash": "a576c62c4bd3dce5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ogblocks.dev/llms.txt",
+      "title": "ogBlocks",
+      "status": null
+    },
+    {
+      "url": "https://ogblocks.dev",
+      "title": "Polished Interfaces that build Trust",
+      "status": 200
+    },
+    {
+      "url": "https://ogblocks.dev/components",
+      "title": "Component Library | ogBlocks",
+      "status": 200
+    },
+    {
+      "url": "https://ogblocks.dev/pricing",
+      "title": "Polished Interfaces that build Trust",
+      "status": 200
+    },
+    {
+      "url": "https://ogblocks.dev/components/card",
+      "title": "Animated Card Component for React & Tailwind CSS",
+      "status": 200
+    },
+    {
+      "url": "https://ogblocks.dev/components/badge",
+      "title": "Animated Badge Component for React & Tailwind CSS",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ogBlocks",
+  "summary": "Library of 110+ animated React components built with Motion and Tailwind CSS: copy the source or install via the shadcn CLI.",
+  "description": "A collection of animated React UI components — text animations, tabs, loaders, inputs, cards, carousels, modals, navbars and more — built with React, Motion, Tailwind CSS and TypeScript. Browse by category, preview each motion on hover, then copy-paste the source or add it with the shadcn CLI; every component page lists dependencies, the Motion APIs used, props and accessibility notes. Free developer tools (Framer Motion component and spring generators, Tailwind grid generator) and 26 free components sit alongside the lifetime plan.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "accordion",
+    "badge",
+    "button",
+    "card",
+    "carousel",
+    "checkbox",
+    "command-palette",
+    "cursor",
+    "drawer",
+    "dropdown",
+    "features",
+    "file-upload",
+    "form",
+    "input",
+    "loader",
+    "modal",
+    "navbar",
+    "otp-input",
+    "scroll-effect",
+    "select",
+    "sidebar",
+    "slider",
+    "stats",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "team",
+    "testimonials",
+    "text-effect",
+    "timeline",
+    "toast",
+    "404"
+  ],
+  "variants": {
+    "navbar": [
+      "dock",
+      "sidebar"
+    ]
+  },
+  "keywords": [
+    "animated component",
+    "react component",
+    "tailwind css",
+    "framer motion",
+    "copy paste",
+    "shadcn cli",
+    "text animation",
+    "loader",
+    "otp input",
+    "command palette",
+    "carousel",
+    "modal",
+    "navbar",
+    "sidebar",
+    "accordion",
+    "cursor effect",
+    "scroll animation",
+    "parallax",
+    "dark mode toggle",
+    "file upload",
+    "testimonials",
+    "toast",
+    "stepper",
+    "ui block",
+    "nextjs",
+    "typescript",
+    "lifetime access",
+    "saas ui",
+    "landing page"
+  ],
+  "contains": [
+    "111 animated components: text animations, tabs, loaders, effects, inputs, pages, navigation, carousels, cards and more",
+    "copy-paste the source or install via the shadcn CLI",
+    "component pages list dependencies, Motion APIs used, props and accessibility notes",
+    "free tools: Framer Motion component generator, spring generator, Tailwind grid generator",
+    "26 free components; the rest via the lifetime plan",
+    "one-time lifetime plan $59 (50% off $120), 7-day refund",
+    "built with React, Motion, Tailwind CSS and TypeScript",
+    "free components: free to use and modify in personal and commercial projects, no attribution required"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

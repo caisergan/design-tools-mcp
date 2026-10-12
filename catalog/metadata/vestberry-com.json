@@ -1,0 +1,32 @@
+{
+  "id": "vestberry-com",
+  "url": "https://vestberry.com",
+  "kind": "site",
+  "hints_hash": "ebf36ab9d668251f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:07:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vestberry.com/llms.txt", "title": "Vestberry", "status": null},
+    {"url": "https://vestberry.com", "title": "Vestberry - Portfolio Management Solution for Venture Capital", "status": 200},
+    {"url": "https://vestberry.com/about", "title": "About Vestberry | Reshaping VC Portfolio Management", "status": 200},
+    {"url": "https://vestberry.com/categories/product-updates", "title": "Company Updates", "status": 200},
+    {"url": "https://vestberry.com/categories/industry-insights", "title": "Industry Insights", "status": 200},
+    {"url": "https://vestberry.com/categories/events", "title": "Events", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vestberry",
+  "summary": "Marketing site of Vestberry, an AI-powered portfolio management and reporting platform for venture capital funds.",
+  "description": "Vestberry is portfolio management and reporting software for VC funds: consolidate portfolio and fund data, collect KPIs from portfolio companies, automate LP and quarterly reporting, and query it all through Tony, its AI layer. The site presents the product screens (fund overview, KPI management, reporting center, portfolio intelligence), customer quotes from funds like EIC and EnBW, integrations, and a blog of VC operating guidance.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["navbar", "hero", "features", "stats", "testimonials", "logo-cloud", "cta"],
+  "keywords": ["venture capital", "portfolio management", "fund reporting", "lp reporting", "kpi collection", "portfolio monitoring", "investor reporting", "vc software", "data collection", "fund management", "dashboard", "saas"],
+  "contains": ["product screens: fund overview, KPI management, reporting center, portfolio intelligence", "homepage stats: 45B+ AUM, 500+ funds, 8,000+ companies", "customer quotes from EIC Fund and EnBW New Ventures", "integrations across a VC tech stack, +300 more", "blog with VC industry analysis and company updates", "Tony, an AI assistant across the platform"],
+  "formats": ["app"],
+  "stack": ["webflow"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

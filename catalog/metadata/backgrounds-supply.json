@@ -1,0 +1,31 @@
+{
+  "id": "backgrounds-supply",
+  "url": "https://backgrounds.supply",
+  "kind": "site",
+  "hints_hash": "57bd017f17ba5402",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:17:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://backgrounds.supply/llms.txt", "title": "Backgrounds Supply", "status": null},
+    {"url": "https://backgrounds.supply", "title": "Backgrounds Supply | Jaw-Dropping Backgrounds for Your Projects", "status": 200},
+    {"url": "https://backgrounds.supply/pricing", "title": "Backgrounds Supply — Pricing", "status": 200},
+    {"url": "https://backgrounds.supply/faq", "title": "Backgrounds Supply — FAQ", "status": 200},
+    {"url": "https://www.backgrounds.supply/license-agreement", "title": "Backgrounds Supply — License Agreement", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Backgrounds Supply",
+  "summary": "Library of 1,359 gradient, AI-generated and animated MP4 backgrounds across 31 collections, unlocked with a $49 one-time payment.",
+  "description": "Curated background art for hero sections, presentations, wallpapers and social posts: handcrafted gradient and AI-generated abstract backgrounds as 16:9 PNGs at roughly 3K (a subset at 4K), plus 36 looping MP4 video backgrounds. A single $49 payment unlocks the library and all future drops; a free pack and a free in-browser Gradient Lab are also available.",
+  "type": "asset-library",
+  "categories": ["color-effects", "media"],
+  "elements": ["background"],
+  "keywords": ["background", "gradient background", "animated background", "wallpaper", "hero background", "abstract background", "ai generated background", "4k wallpaper", "shader gradient", "mp4 background", "presentation background", "desktop wallpaper", "design asset", "aesthetic wallpaper"],
+  "contains": ["1,359 backgrounds across 31 collections", "36 animated MP4 video backgrounds", "16:9 PNGs at roughly 3K, 27 at native 4K", "$49 one-time payment, lifetime access including future drops", "free pack of ~100 backgrounds with email sign-up", "Gradient Lab: free in-browser gradient/shader tool, PNG and MP4 export up to 4K", "drops into Figma, Framer, Photoshop, Canva, Webflow, After Effects"],
+  "formats": ["png", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

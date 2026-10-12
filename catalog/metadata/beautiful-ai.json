@@ -1,0 +1,32 @@
+{
+  "id": "beautiful-ai",
+  "url": "https://beautiful.ai",
+  "kind": "site",
+  "hints_hash": "c9db05620c2ac011",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beautiful.ai", "title": "AI Presentation Software for Teams", "status": null},
+    {"url": "https://www.beautiful.ai/templates/team", "title": "Team Slide Template l Beautiful.ai | Beautiful.ai", "status": null},
+    {"url": "https://www.beautiful.ai/pro", "title": "Beautiful.ai for Individuals | Create Stunning Slides", "status": null},
+    {"url": "https://www.beautiful.ai/about", "title": "About Us | Beautiful.ai", "status": null},
+    {"url": "https://www.beautiful.ai/templates/table", "title": "Table Slide Template | Beautiful.ai | Beautiful.ai", "status": null},
+    {"url": "https://www.beautiful.ai/pricing", "title": "Beautiful.ai Pricing and Plans", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Beautiful.ai",
+  "summary": "AI presentation platform for teams: prompt-to-deck generation and 300+ auto-aligning Smart Slide layouts.",
+  "description": "Beautiful.ai is an AI presentation platform for individuals and teams. It turns a prompt, outline or source material into a deck, builds slides from 300+ Smart Slide layouts and designer templates that auto-align and animate, keeps everything on-brand with locked themes and shared template libraries, and presents with voice-over and viewer analytics. Pro is $14.50/month billed annually, Team is $40 per user per month, and every plan starts with a 14-day free trial.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chart", "table", "timeline"],
+  "keywords": ["presentation", "slide deck", "ai presentation", "presentation template", "slide template", "pitch deck", "smart slide", "data visualization", "brand theme", "voice over", "viewer analytics", "sales deck", "reporting"],
+  "contains": ["300+ Smart Slide layouts", "AI deck generation from a prompt, outline or files", "designer presentation templates", "customizable themes and locked brand controls", "data-linked charts, tables and timelines", "slide animations and voice-over narration", "viewer and slide engagement analytics", "PowerPoint and PDF export"],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

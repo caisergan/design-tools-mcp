@@ -1,0 +1,26 @@
+{
+  "id": "shipswift-app-trovy",
+  "url": "https://shipswift.app/trovy",
+  "kind": "page",
+  "hints_hash": "4766b1b995b9f454",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shipswift.app/trovy", "title": "Trovy - Home Inventory App - App Store", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Trovy - Home Inventory",
+  "summary": "iPhone home inventory app: snap photos, organise items by room and export insurance-ready reports.",
+  "description": "Trovy turns your home into an inventory: photograph an item and it becomes a sticker filed in its room; organise by rooms and containers, find anything by name, and export a whole-home report (CSV plus your photos and receipts) laid out the way insurers ask for it. Free with in-app purchases; Productivity category; by Signer Labs.",
+  "type": "app",
+  "elements": [],
+  "keywords": ["home inventory", "insurance", "receipt", "document", "photo", "organizer", "room", "export csv", "iphone app", "household"],
+  "contains": ["photo-to-item inventory organised by rooms and containers", "insurance-ready report export (CSV + photos and receipts)", "free with in-app purchases; Productivity category", "developer: Signer Labs"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shipswift-app"},
+  "confidence": 0.75
+}

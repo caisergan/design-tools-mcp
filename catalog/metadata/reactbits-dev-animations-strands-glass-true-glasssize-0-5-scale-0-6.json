@@ -1,0 +1,26 @@
+{
+  "id": "reactbits-dev-animations-strands-glass-true-glasssize-0-5-scale-0-6",
+  "url": "https://reactbits.dev/animations/strands?glass=true&glassSize=0.5&scale=0.6",
+  "kind": "page",
+  "hints_hash": "a31212bc4bf74037",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://reactbits.dev/animations/strands?glass=true&glassSize=0.5&scale=0.6", "title": "Strands — React Animation Effect | React Bits", "status": 200 },
+    { "url": "https://reactbits.dev/get-started/installation", "title": "Install React Bits Components | React Bits", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Strands",
+  "summary": "React animation component of glowing ribbon-like strands that ripple and weave across a transparent canvas.",
+  "keywords": ["react", "animation", "canvas", "background effect", "glowing strand", "transparent canvas", "web animation", "component", "tailwind", "micro interaction", "hero background"],
+  "elements": ["background"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "tailwind", "css"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "reactbits-dev" },
+  "confidence": 0.9
+}

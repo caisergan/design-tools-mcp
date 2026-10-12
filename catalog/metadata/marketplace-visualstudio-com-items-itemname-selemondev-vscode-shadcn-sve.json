@@ -1,0 +1,28 @@
+{
+  "id": "marketplace-visualstudio-com-items-itemname-selemondev-vscode-shadcn-sve",
+  "url": "https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-svelte&ssr=false",
+  "kind": "page",
+  "hints_hash": "1dc07bfc5f54b60a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-svelte&ssr=false", "title": "shadcn/svelte - Visual Studio Marketplace", "status": null},
+    {"url": "https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-svelte", "title": "shadcn/svelte - Visual Studio Marketplace", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn/svelte",
+  "summary": "VS Code extension that installs shadcn-svelte components and adds Svelte 4/5 snippet completions in the editor.",
+  "description": "Initializes the shadcn-svelte CLI and installs one or several components from a list without leaving VS Code, and opens the documentation or a component's docs page. Snippets (cn-help, cni-[component], cnx-[component] for Svelte 4; cn-x- variants for Svelte 5) are generated from bundled templates plus the latest component registry, with an import path setting for /index.js.",
+  "type": "plugin",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["vscode", "vs code extension", "shadcn svelte", "svelte", "svelte 5", "snippet", "component", "cli", "install", "editor extension"],
+  "contains": ["20,228 installs, free", "install shadcn-svelte components from the editor", "single and multi-component install", "snippets: cn-help, cni-[component], cnx-[component], plus cn-x- for Svelte 5", "import path setting includeIndexJs", "reload component list without restarting VS Code"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,37 @@
+{
+  "id": "21st-dev",
+  "url": "https://21st.dev",
+  "kind": "site",
+  "hints_hash": "df46d7415865128c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://21st.dev/llms.txt", "title": "21st (https://21st.dev)", "status": null},
+    {"url": "https://21st.dev", "title": "React Components, Templates & Themes — 12,000+ Crafted UI | 21st | 21st", "status": 200},
+    {"url": "https://21st.dev/pricing", "title": "Plans & Pricing | 21st | 21st", "status": 200}
+  ],
+  "status": "ok",
+  "name": "21st",
+  "summary": "Community registry of 12,000+ React and Tailwind components, templates and themes, installable by copy, shadcn CLI, MCP or API.",
+  "description": "A community catalog and shadcn-format registry of React, Tailwind CSS and TypeScript components, component libraries, templates, themes and icons. Items preview live and can be copied as TSX, installed with the shadcn CLI from their registry URL, or pulled into coding agents through the 21st MCP server and CLI; 21st AI generates new components from prompts. Free browsing with a small daily retrieval quota, paid Builder and Team plans remove the limits.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["hero", "features", "cta", "pricing", "testimonials", "navbar", "footer", "card", "button", "form", "input", "chat", "dashboard", "modal", "table", "sidebar", "tooltip", "avatar", "badge", "chart", "accordion", "tabs", "carousel", "marquee", "text-effect", "background", "loader", "toast", "alert", "3d"],
+  "keywords": ["react component", "tailwind css", "component registry", "shadcn", "copy paste component", "ui component", "component library", "marketing block", "landing page block", "template", "theme", "mcp server", "ai component generator", "animated component", "hero section", "navbar", "chat ui", "dashboard", "code install", "design engineer"],
+  "contains": [
+    "12,000+ React and Tailwind components, templates and themes",
+    "2,000+ marketing blocks and 2,100+ UI components",
+    "copy the TSX, install via the shadcn CLI registry URL, or pull through the 21st MCP",
+    "21st AI generates components from a prompt; REST API with OpenAPI spec",
+    "free tier: browse and 2 code retrievals per day",
+    "Builder and Team plans add unlimited installs and AI credits",
+    "markdown twins and agent discovery endpoints; icons, themes and templates"
+  ],
+  "formats": ["code", "registry", "cli", "api", "prompts", "templates"],
+  "stack": ["react", "tailwind", "typescript", "shadcn"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": "@21st-dev/cli", "figma": null, "parent": null},
+  "confidence": 0.9
+}

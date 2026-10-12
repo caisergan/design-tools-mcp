@@ -1,0 +1,31 @@
+{
+  "id": "appshot-gallery",
+  "url": "https://appshot.gallery",
+  "kind": "site",
+  "hints_hash": "0e6dc189e207bec6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://appshot.gallery", "title": "APPSHOT.GALLERY: App Store Screenshot Inspiration for ASO & Mobile UI", "status": 200},
+    {"url": "https://www.appshot.gallery/category/news", "title": "Best News App Screenshots for ASO | AppShot Gallery", "status": 200},
+    {"url": "https://www.appshot.gallery/pricing/0-99", "title": "$0.99 Apps – Best App Screenshots for ASO | AppShot Gallery", "status": 200},
+    {"url": "https://www.appshot.gallery/about", "title": "About appshot.gallery", "status": 200},
+    {"url": "https://www.appshot.gallery/category/games", "title": "Best Games App Screenshots for ASO | AppShot Gallery", "status": 200}
+  ],
+  "status": "ok",
+  "name": "appshot.gallery",
+  "summary": "Gallery of 850 curated App Store screenshots and app icons for ASO and mobile UI inspiration.",
+  "description": "appshot.gallery collects App Store screenshots to inspire App Store Optimization (ASO) and mobile UI design. Browse by genre (Business, Games, Health & Fitness, Finance), tone of voice (Bold, Friendly, Energetic), visual style (3D, Brutalist, Dark Mode, Minimalist, Retro), price tier, and a separate gallery of app icons; each app has its own screenshot page. Aimed at indie developers, designers and marketers.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["chat", "calendar", "map", "list", "card", "team", "slider", "checkbox", "stepper", "alert", "contact", "3d"],
+  "keywords": ["app store screenshot", "app screenshot", "aso", "app icon", "mobile ui", "mobile app design", "ios", "android", "app design inspiration", "screenshot gallery", "dark mode", "minimalist", "3d", "gradient", "indie developer", "app marketing"],
+  "contains": ["850 app screenshots", "filters: genre, tone of voice, visual style, price tier", "22 genres from Business to Weather", "app icon gallery", "originally created by Valentin Galmand; now part of OG Image Gallery"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,39 @@
+{
+  "id": "jitter-video",
+  "url": "https://jitter.video",
+  "kind": "site",
+  "hints_hash": "ec2b6ba715c8a782",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jitter.video", "title": "Jitter · A fast and simple motion design tool on the web", "status": null},
+    {"url": "https://jitter.video/templates", "title": "Free motion graphics templates · Jitter", "status": null},
+    {"url": "https://jitter.video/pricing", "title": "Pricing · Jitter", "status": null},
+    {"url": "https://jitter.video/templates/text", "title": "Free text animation templates · Jitter", "status": null},
+    {"url": "https://jitter.video/templates/icons", "title": "Free animated icon templates · Jitter", "status": null}
+  ],
+  "status": "ok",
+  "name": "Jitter",
+  "summary": "Browser-based motion design tool: animate designs or AI-generated effects and export video, GIF or Lottie.",
+  "description": "A collaborative motion design tool on the web used by 20,000+ creative teams. Import designs from Figma, animate on an infinite canvas with AI effects, use free templates for text, icons, UI elements and social media, then export to 4K video, GIF or Lottie.",
+  "type": "tool",
+  "categories": ["motion", "design-tools"],
+  "elements": ["text-effect", "background", "button", "chart", "cursor", "progress", "badge"],
+  "keywords": ["motion design", "animation tool", "motion graphics", "animated template", "video export", "gif export", "lottie", "figma import", "text animation", "animated icon", "social media video", "ai animation", "after effects alternative", "animated background", "ui animation"],
+  "contains": [
+    "free templates for text, icons, UI elements, social media, video titles, ads, branding, websites and backgrounds",
+    "AI effects and image-to-video from a prompt",
+    "exports: 4K/120fps video, GIF, Lottie, ProRes and WebM",
+    "imports designs from Figma; 1,500+ fonts",
+    "animated components, batch export, magic import and auto-resize/translate",
+    "shared workspace with collaboration and approval flows",
+    "used by over 20,000 creative teams"
+  ],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

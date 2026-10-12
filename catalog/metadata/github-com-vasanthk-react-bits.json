@@ -1,0 +1,28 @@
+{
+  "id": "github-com-vasanthk-react-bits",
+  "url": "https://github.com/vasanthk/react-bits",
+  "kind": "repo",
+  "hints_hash": "403e3d1fed577547",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/vasanthk/react-bits/blob/HEAD/README.md", "title": "React Bits README", "status": 200},
+    {"url": "https://github.com/vasanthk/react-bits", "title": "GitHub - vasanthk/react-bits · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Bits",
+  "summary": "GitBook of React patterns, techniques, tips and anti-patterns, each explained with code.",
+  "description": "A compilation of React patterns, techniques, tips and anti-patterns as short markdown chapters with code: conditionals in JSX, async setState, dependency injection, context wrappers, event handlers, flux, presentational vs container components, and more. Read online as a GitBook or from the GitHub repo; community translations exist in Chinese and Korean.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["react", "react pattern", "design pattern", "anti-pattern", "javascript", "jsx", "best practice", "setstate", "context", "event handler", "react guide", "frontend development"],
+  "contains": ["18 pattern chapters plus an anti-patterns section", "short markdown chapters with JSX code", "GitBook edition and GitHub repo", "community translations: Chinese, Korean", "17.4k stars on GitHub"],
+  "formats": ["code", "docs"],
+  "stack": ["javascript", "react"],
+  "pricing": "free",
+  "license": "CC-BY-4.0",
+  "related": {"repo": "https://github.com/vasanthk/react-bits", "docs": "https://vasanthk.gitbooks.io/react-bits", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,127 @@
+{
+  "id": "moduix-dev",
+  "url": "https://moduix.dev",
+  "kind": "site",
+  "hints_hash": "e1bc87220cab8500",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://moduix.dev/llms.txt",
+      "title": "Moduix - Multi-framework Component System Built on Ark UI",
+      "status": null
+    },
+    {
+      "url": "https://moduix.dev",
+      "title": "Moduix - Multi-framework Component System Built on Ark UI",
+      "status": 200
+    },
+    {
+      "url": "https://moduix.dev/docs",
+      "title": "Introduction - Moduix - Multi-framework Component System Built on Ark UI",
+      "status": 200
+    },
+    {
+      "url": "https://moduix.dev/blocks",
+      "title": "Browse blocks - Moduix - Multi-framework Component System Built on Ark UI",
+      "status": 200
+    },
+    {
+      "url": "https://moduix.dev/docs/ai.md",
+      "title": "AI",
+      "status": 200
+    },
+    {
+      "url": "https://moduix.dev/docs/kbd.md",
+      "title": "Kbd",
+      "status": 200
+    },
+    {
+      "url": "https://moduix.dev/docs/quick-start",
+      "title": "Quick start - Moduix - Multi-framework Component System Built on Ark UI",
+      "status": 200
+    },
+    {
+      "url": "https://moduix.dev/pricing",
+      "title": null,
+      "status": 404
+    }
+  ],
+  "status": "ok",
+  "name": "Moduix",
+  "summary": "Accessible React, Solid and Vue components on Ark UI, installed as npm packages or copied through a shadcn registry.",
+  "description": "Multi-framework component system with matching CSS Modules and Tailwind styling tracks and shared design tokens. Covers form fields, overlays, navigation and data display components, plus 12 ready-made blocks such as app header, sidebar dashboard, auth screens and data table, installable with one shadcn command.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "input",
+    "list",
+    "select",
+    "button",
+    "switch",
+    "slider",
+    "badge",
+    "checkbox",
+    "date-picker",
+    "modal",
+    "popover",
+    "progress"
+  ],
+  "keywords": [
+    "component library",
+    "react component",
+    "solid component",
+    "vue component",
+    "ark ui",
+    "shadcn registry",
+    "tailwind",
+    "css module",
+    "design token",
+    "accessible component",
+    "form field",
+    "date picker",
+    "data table",
+    "dark mode",
+    "rtl",
+    "ui block"
+  ],
+  "contains": [
+    "React, Solid and Vue components built on Ark UI; Svelte is planned",
+    "59 documentation pages covering components, utilities, forms and styling guides",
+    "install as npm packages or copy owned source with the shadcn registry",
+    "CSS Modules and Tailwind styling tracks with shared design tokens",
+    "12 ready-made blocks: app header, sidebar dashboard, auth screens, data table, gallery",
+    "AI guide, llms.txt and an installable moduix agent skill"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "solid",
+    "vue",
+    "ark-ui",
+    "tailwind",
+    "css"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://moduix.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

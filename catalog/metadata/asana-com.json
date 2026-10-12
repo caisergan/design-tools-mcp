@@ -1,0 +1,41 @@
+{
+  "id": "asana-com",
+  "url": "https://asana.com",
+  "kind": "site",
+  "hints_hash": "e21b810933a72068",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://asana.com/llms.txt", "title": "Asana", "status": null},
+    {"url": "https://asana.com", "title": "Work & Project Management for Human-Agent Teams • Asana", "status": null},
+    {"url": "https://asana.com/templates", "title": "Free Project Templates & AI Workflows Gallery • Asana", "status": null},
+    {"url": "https://asana.com/pricing", "title": "Asana Pricing | Personal, Starter, Advanced, & Enterprise plans • Asana", "status": null},
+    {"url": "https://asana.com/features", "title": "Asana's Work Tracking & Project Management Features • Asana", "status": null},
+    {"url": "https://asana.com/templates/hr", "title": "HR AI Workflow Template • Asana • Asana", "status": null}
+  ],
+  "status": "ok",
+  "name": "Asana",
+  "summary": "Work management platform for teams: tasks, projects, goals, views, automation and AI teammates.",
+  "description": "Asana is a work management platform where teams plan projects, tasks and goals, with list, board, calendar, timeline and Gantt views, workflow automation rules and forms, and AI teammates plus AI Studio for agent-driven workflows. Includes a free AI-workflow template gallery and 100+ app integrations.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["navbar", "hero", "features", "pricing", "faq", "kanban", "calendar", "timeline", "dashboard", "form"],
+  "keywords": ["work management", "project management", "task management", "kanban board", "gantt chart", "timeline view", "goal tracking", "okr", "portfolio management", "workflow automation", "ai teammate", "project template", "team collaboration", "sprint planning", "resource management", "reporting dashboard", "enterprise", "productivity"],
+  "contains": [
+    "tasks, projects, goals and portfolios with list, board, calendar, timeline and Gantt views",
+    "pricing: free Personal plan (2 users), Starter $10.99/user/month billed annually, Advanced and Enterprise tiers",
+    "free AI-workflow template gallery browsable by team (marketing, operations, HR, design, product/engineering, sales)",
+    "AI Teammates, AI Studio no-code workflows and Asana Dash assistant",
+    "workflow automation with rules, forms and bundles",
+    "100+ integrations incl. Slack, Google Drive and Zoom",
+    "developer API and app platform",
+    "mobile and desktop apps"
+  ],
+  "formats": ["app", "api", "templates", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

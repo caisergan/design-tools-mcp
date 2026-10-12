@@ -1,0 +1,40 @@
+{
+  "id": "mockuuups-studio",
+  "url": "https://mockuuups.studio",
+  "kind": "site",
+  "hints_hash": "fd83fcdabc047477",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mockuuups.studio", "title": "Free Mockup Generator — 5,200+ Mockups | Mockuuups", "status": null},
+    {"url": "https://mockuuups.studio/pricing", "title": "Pricing - Mockuuups Studio", "status": null},
+    {"url": "https://mockuuups.studio/collection/imac-mockup", "title": "iMac mockup - Mockuuups Studio", "status": null},
+    {"url": "https://mockuuups.studio/about-us", "title": "About Us - Mockuuups Studio", "status": null},
+    {"url": "https://mockuuups.studio/license", "title": "License - Mockuuups Studio", "status": null}
+  ],
+  "status": "ok",
+  "name": "Mockuuups Studio",
+  "summary": "Mockup generator with 5,300+ device and print templates, design-tool plugins and a desktop app.",
+  "description": "Drop a screenshot into the web generator and export it inside phone, laptop, desktop, smartwatch, TV or print scenes; 5,300+ templates, some with transparent or 3D-rendered backgrounds. Available as a browser tool, plugins for Figma, Sketch, Penpot, Adobe Express and Frontify, a Mac/Windows/Linux desktop app, and an API for automated renders.",
+  "type": "generator",
+  "categories": ["media", "design-tools"],
+  "elements": [],
+  "keywords": ["mockup", "mockup generator", "device mockup", "iphone mockup", "macbook mockup", "print mockup", "product mockup", "figma plugin", "app screenshot", "free mockup", "desktop mockup"],
+  "contains": [
+    "5,300+ mockup templates",
+    "device mockups: phone, tablet, laptop, desktop, smartwatch, TV",
+    "print mockups: business card, poster, book, paper",
+    "scenes up to 6700x5000 px, some with transparent backgrounds",
+    "plugins for Figma, Sketch, Penpot, Adobe Express and Frontify",
+    "desktop app for Mac, Windows and Linux",
+    "Mockup Generator API and custom photoshoot service",
+    "5 free trial exports; free mockup collection with attribution"
+  ],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

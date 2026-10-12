@@ -1,0 +1,82 @@
+{
+  "id": "github-com-shelwinsunga-zoom-chart-demo",
+  "url": "https://github.com/shelwinsunga/zoom-chart-demo",
+  "kind": "repo",
+  "hints_hash": "0d0f497d1f7806be",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/shelwinsunga/zoom-chart-demo/blob/HEAD/README.md",
+      "title": "Simple Zoomable Shadcn Chart",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/shelwinsunga/zoom-chart-demo",
+      "title": "GitHub - shelwinsunga/zoom-chart-demo: A zoomable shadcn/rechart chart.",
+      "status": 200
+    },
+    {
+      "url": "https://zoom-chart-demo.vercel.app",
+      "title": "Zoomable Shadcn Chart",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Zoomable Shadcn Chart",
+  "summary": "Demo repository with the source of a zoomable shadcn/Recharts chart you copy into your own React app.",
+  "description": "A small Next.js demo repository whose chart adds click-drag and scroll zoom to a shadcn/Recharts chart over simulated event data. The chart lives in components/chart.tsx and is meant to be copied into your own app; a live demo runs on Vercel.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "chart"
+  ],
+  "keywords": [
+    "zoomable chart",
+    "shadcn chart",
+    "rechart",
+    "react chart",
+    "next.js",
+    "chart zoom",
+    "scroll zoom",
+    "click and drag zoom",
+    "interactive chart",
+    "data visualization",
+    "chart component",
+    "copy paste chart",
+    "event data",
+    "demo"
+  ],
+  "contains": [
+    "single zoomable chart component in components/chart.tsx",
+    "zoom by clicking and dragging on the chart and by scrolling",
+    "280 lines of source code",
+    "simulated event data demo",
+    "MIT-licensed, 631 GitHub stars"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "recharts"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shelwinsunga/zoom-chart-demo",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

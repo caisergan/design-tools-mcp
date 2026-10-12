@@ -1,0 +1,38 @@
+{
+  "id": "lucide-dev",
+  "url": "https://lucide.dev",
+  "kind": "site",
+  "hints_hash": "c3c09a4611c2f393",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lucide.dev/llms.txt", "title": "Beautiful &", "status": null},
+    {"url": "https://lucide.dev", "title": "Lucide", "status": 200},
+    {"url": "https://lucide.dev/guide.md", "title": "What is Lucide?", "status": 200},
+    {"url": "https://lucide.dev/icons", "title": "Icons – Lucide", "status": 200},
+    {"url": "https://lucide.dev/license.md", "title": "Lucide License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lucide",
+  "summary": "Open-source icon library of 1600+ consistent SVG icons, with official packages for React, Vue, Svelte and more.",
+  "description": "Lucide is a community-made icon toolkit providing 1600+ vector SVG icons with a strict, consistent design style (24px grid, 2px stroke, customizable color, size and stroke width). The site has a browsable, customizable icon gallery and guides for every integration; official packages cover Web (Vanilla), React, React Native, Vue, Svelte, Preact, Solid, Angular, Astro and static SVG, and are tree-shakable so you only ship imported icons. Aimed at designers and developers who need one coherent icon set across projects.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon library", "svg icon", "icon set", "vector icon", "stroke icon", "open source icon", "free icon", "react icon", "vue icon", "svelte icon", "icon font", "svg sprite", "custom stroke width", "tree shaking", "icon pack", "ui icon"],
+  "contains": [
+    "1600+ SVG icons in one consistent stroke style",
+    "official packages: Web (Vanilla), React, React Native, Vue, Svelte, Preact, Solid, Angular, Astro, static SVG",
+    "browsable icon gallery with a customizer for color, size and stroke width",
+    "tree-shakable imports: only the icons you use ship",
+    "SVG files, sprite, icon font and SVG string JS modules",
+    "ISC license; Feather-derived icons under MIT"
+  ],
+  "formats": ["svg", "npm-package", "code", "font-files", "docs"],
+  "stack": ["react", "vue", "svelte", "preact", "solid", "angular", "astro", "react-native"],
+  "pricing": "free",
+  "license": "ISC",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

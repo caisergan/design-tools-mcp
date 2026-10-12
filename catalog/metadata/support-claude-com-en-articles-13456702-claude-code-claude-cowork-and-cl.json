@@ -1,0 +1,59 @@
+{
+  "id": "support-claude-com-en-articles-13456702-claude-code-claude-cowork-and-cl",
+  "url": "https://support.claude.com/en/articles/13456702-claude-code-claude-cowork-and-claude-design-guest-passes",
+  "kind": "page",
+  "hints_hash": "248621d9e4b85de9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:42:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://support.claude.com/en/articles/13456702-claude-code-claude-cowork-and-claude-design-guest-passes",
+      "title": "Claude Code, Claude Cowork, and Claude Design guest passes | Claude Help Center",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Claude Code, Claude Cowork, and Claude Design guest passes",
+  "summary": "Help-center article on the guest passes that Pro and Max subscribers can share as seven-day free trials.",
+  "description": "Claude Help Center article explaining the guest pass program: eligible Pro and Max subscribers get a limited number of referral links to share, and each pass gives a recipient seven days of free access to the Claude Pro plan, including Claude Code, Claude Cowork and Claude Design. It covers who can send passes, how to send them (for example via the /passes command in Claude Code), what recipients get, first-come first-served redemption and referral overage credits.",
+  "type": "article",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "keywords": [
+    "guest pass",
+    "free trial",
+    "referral link",
+    "claude code",
+    "claude cowork",
+    "claude design",
+    "pro plan",
+    "max plan",
+    "subscription",
+    "help center",
+    "credit",
+    "seven day trial"
+  ],
+  "contains": [
+    "seven-day free access to the Claude Pro plan per guest pass",
+    "only eligible Pro and Max subscribers can send passes",
+    "send and track passes in Claude Code, Desktop settings or Claude Design settings",
+    "recipients must be new to paid Claude subscriptions",
+    "referee conversion can earn overage credits valid one year"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

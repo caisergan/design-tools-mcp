@@ -1,0 +1,27 @@
+{
+  "id": "iconsax-io",
+  "url": "https://iconsax.io",
+  "kind": "site",
+  "hints_hash": "92da6979914bde70",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://iconsax.io", "title": "Iconsax", "status": null}
+  ],
+  "status": "ok",
+  "name": "Iconsax",
+  "summary": "Icon library with 44,000+ premium and 6,000+ free icons, a Figma plugin, an AI icon generator and framework packages.",
+  "description": "Iconsax is the official Vuesax icon library of 44,000+ premium and 6,000+ free icons for designers and developers. Icons are optimized for Vue, React, Svelte, Flutter, JavaScript, TypeScript, fonts, Figma and Framer, with an animated icon set, a Figma plugin, an AI generator for custom icons, an MCP server and an npm package.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon set", "icon library", "icon pack", "free icon", "premium icon", "animated icon", "figma plugin", "react icon", "vue icon", "svelte icon", "icon font", "svg icon", "icon generator", "npm package"],
+  "contains": ["44,256 premium icons and 6,000 free icons", "the official Vuesax icon library", "icons for Vue, React, Svelte, Flutter, JavaScript, TypeScript, fonts, Figma and Framer", "browse, organize, customize, download and create icons", "Figma plugin to search, access, export and replace icons in Figma", "Iconsax AI generates and downloads custom icons with credits", "animated icons", "MCP server and npm package"],
+  "formats": ["svg", "font-files", "code", "npm-package"],
+  "stack": ["react", "vue", "svelte", "javascript", "typescript"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

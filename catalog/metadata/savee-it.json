@@ -1,0 +1,38 @@
+{
+  "id": "savee-it",
+  "url": "https://savee.it",
+  "kind": "site",
+  "hints_hash": "8c754634d292eb2b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://savee.it/llms.txt", "title": "Savee", "status": null},
+    {"url": "https://savee.it", "title": "Savee", "status": 200},
+    {"url": "https://savee.com/faq", "title": "FAQ – Savee", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Savee",
+  "summary": "Curated visual-inspiration platform where designers save images and videos into boards, with color and visual search.",
+  "description": "An ad-free, curated inspiration platform: members save images and videos from anywhere on the web into boards, discover work by exact color, tags or visual similarity, and collaborate in team workspaces. Ships a Figma plugin, browser extension, iOS and Android apps, a marketplace of 80+ templates and assets, and a read-only REST API plus an official MCP server for assistants.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["visual inspiration", "mood board", "design reference", "image bookmarking", "color search", "visual search", "inspiration board", "design gallery", "creative community", "save image", "figma plugin", "browser extension", "team workspace", "ai recommendation", "api", "mcp"],
+  "contains": [
+    "1.3M+ registered users; trusted by 1.4M creatives",
+    "save images and videos into boards, shared with teams",
+    "search by exact color, tag or visual similarity",
+    "ad-free; funded by Pro and Team subscriptions",
+    "Figma plugin, browser extension, iOS and Android apps",
+    "marketplace with 80+ templates and assets",
+    "read-only REST API and official MCP server with OAuth 2.1",
+    "founded 2015; bootstrapped and independent"
+  ],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://docs.savee.com/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

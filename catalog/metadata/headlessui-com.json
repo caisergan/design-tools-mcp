@@ -1,0 +1,95 @@
+{
+  "id": "headlessui-com",
+  "url": "https://headlessui.com",
+  "kind": "site",
+  "hints_hash": "15905849c444dc6b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://headlessui.com",
+      "title": "Headless UI - Unstyled, fully accessible UI components",
+      "status": null
+    },
+    {
+      "url": "https://github.com/tailwindlabs/headlessui",
+      "title": "GitHub - tailwindlabs/headlessui: Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tailwindlabs/headlessui/main/README.md",
+      "title": "Headless UI README",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Headless UI",
+  "summary": "Unstyled, fully accessible UI components for React and Vue that you style yourself; designed to pair with Tailwind CSS.",
+  "description": "A component library of behaviour-only building blocks for React and Vue: Menu (dropdown), Disclosure, Dialog, Popover, Tabs, Combobox, Listbox, Radio Group, Switch and form fields such as Input and Textarea. Components ship without any styles, accessibility is built in, and the docs show each one wired up to Tailwind CSS.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "dropdown",
+    "modal",
+    "popover",
+    "tabs",
+    "button",
+    "checkbox",
+    "select",
+    "input",
+    "switch"
+  ],
+  "keywords": [
+    "headless ui",
+    "unstyled component",
+    "accessible component",
+    "react component",
+    "vue component",
+    "tailwind css",
+    "headless component",
+    "dropdown menu",
+    "dialog",
+    "popover",
+    "tabs",
+    "combobox",
+    "listbox",
+    "switch",
+    "checkbox",
+    "keyboard navigation",
+    "ui component library"
+  ],
+  "contains": [
+    "16 unstyled components incl. menu, disclosure, dialog, popover, tabs, combobox, listbox, switch",
+    "React and Vue versions, published as @headlessui/react and @headlessui/vue",
+    "no styles included; completely unstyled and accessible",
+    "MIT-licensed open source by Tailwind Labs"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "vue",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/tailwindlabs/headlessui",
+    "docs": "https://headlessui.com",
+    "npm": "@headlessui/react",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

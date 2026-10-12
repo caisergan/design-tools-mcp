@@ -1,0 +1,30 @@
+{
+  "id": "shadcn-io-icons",
+  "url": "https://shadcn.io/icons",
+  "kind": "page",
+  "hints_hash": "8ea25202f8430510",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn.io/icons", "title": "React Icon Libraries for shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Icon Libraries for shadcn/ui",
+  "summary": "Directory of 285,682 free SVG icons across 222 icon libraries, installable with the shadcn CLI.",
+  "description": "shadcn.io's icon directory: browse 285,682 free SVG icons from 222 libraries by tag, then download SVG or PNG files or install any icon with one shadcn CLI command. Each library lists its icon count and license, and an MCP endpoint lets AI agents search and install resources from the site.",
+  "type": "directory",
+  "elements": [],
+  "keywords": ["svg icon", "react icon", "icon library", "icon directory", "free icon", "open source icon", "shadcn", "shadcn ui", "cli install", "icon search", "icon tag", "svg download", "png download", "icon set"],
+  "contains": [
+    "285,682 icons across 222 libraries",
+    "18,000+ tags such as ui, interface, design, navigation, action",
+    "install any icon with one shadcn CLI command; download SVG or PNG",
+    "each library lists its icon count and license (MIT, ISC, Apache 2.0, CC BY 4.0, CC0)",
+    "MCP endpoint lets AI agents search and install resources from shadcn.io"
+  ],
+  "formats": ["svg", "png", "cli"],
+  "stack": ["react"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shadcn-io"},
+  "confidence": 0.8
+}

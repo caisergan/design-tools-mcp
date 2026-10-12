@@ -1,0 +1,30 @@
+{
+  "id": "openlibrary-org",
+  "url": "https://openlibrary.org",
+  "kind": "site",
+  "hints_hash": "dffa6595d42b9226",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://openlibrary.org", "title": "Welcome to Open Library | Open Library", "status": 200},
+    {"url": "https://openlibrary.org/collections", "title": "Curated Collections | Open Library", "status": 200},
+    {"url": "https://openlibrary.org/about", "title": "About Us | Open Library", "status": 200},
+    {"url": "https://openlibrary.org/explore", "title": "Human Verification | Open Library", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Open Library",
+  "summary": "Open, editable library catalog with 3M+ books to read or borrow free, browsable by subject, author, lists and collections.",
+  "description": "An open, editable library catalog working towards a web page for every book ever published, holding 20M+ gathered records and more than 3M books to read or borrow online. Browse by subject, trending, author or reader-curated collections, borrow through controlled digital lending, search the full text of millions of books, and keep a reading log and yearly goals. Community-editable like a wiki; free to use.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": ["carousel", "stats"],
+  "keywords": ["library catalog", "online library", "ebook", "borrow book", "read online", "book discovery", "controlled digital lending", "reading list", "reading log", "book collection", "book search", "subject browse", "open data", "isbn", "reading goal"],
+  "contains": ["3M+ books to read or borrow for free", "20M+ catalog records gathered", "controlled digital lending for in-copyright books", "browse by subject, author, trending, lists and curated collections", "full-text search inside millions of books", "reader lists, reading log and yearly reading goals", "community editing; 283,946 ebooks borrowed in the last 28 days"],
+  "formats": ["api", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://openlibrary.org/developers", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

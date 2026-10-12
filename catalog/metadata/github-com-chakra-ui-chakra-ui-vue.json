@@ -1,0 +1,31 @@
+{
+  "id": "github-com-chakra-ui-chakra-ui-vue",
+  "url": "https://github.com/chakra-ui/chakra-ui-vue",
+  "kind": "repo",
+  "hints_hash": "bf3a880d856b84ab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/chakra-ui/chakra-ui-vue/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/chakra-ui/chakra-ui-vue", "title": "GitHub - chakra-ui/chakra-ui-vue: ⚡️ Build scalable and accessible Vue.js applications with ease. · GitHub", "status": 200},
+    {"url": "https://vue.chakra-ui.com/", "title": "Chakra UI Vue | Chakra UI Vue | Simple, Modular and Accessible UI Components for your Vue Applications.", "status": 200},
+    {"url": "https://vue.chakra-ui.com/getting-started", "title": "Chakra UI Vue", "status": 200},
+    {"url": "https://vue.chakra-ui.com/accordion", "title": "Chakra UI Vue | Accordion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Chakra UI Vue",
+  "summary": "Accessible Vue 2 component library: the Vue port of Chakra UI with style props, theming and dark mode.",
+  "description": "A set of composable Vue 2 components that follow WAI-ARIA, styled by passing props (CBox, CStack) and themed through a provider; most are dark-mode compatible. Ships a Nuxt module and a webpack loader for auto-importing components. The repository is archived and read-only since September 2024.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "checkbox", "modal", "progress"],
+  "keywords": ["vue", "vue 2", "component library", "chakra ui", "accessible component", "wai aria", "dark mode", "design system", "nuxt", "emotion css", "ui kit", "component port"],
+  "contains": ["Vue 2 component library published as @chakra-ui/vue", "components include accordion, alert, avatar, badge, breadcrumbs, button, checkbox and progress", "WAI-ARIA accessibility with keyboard interactions and dark mode", "style-props system (CBox, CStack) with theme customisation", "Nuxt module and webpack auto-import loader", "repository archived and read-only since September 2024"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["vue", "emotion", "nuxt"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/chakra-ui/chakra-ui-vue", "docs": "https://vue.chakra-ui.com", "npm": "@chakra-ui/vue", "figma": null, "parent": null},
+  "confidence": 0.9
+}

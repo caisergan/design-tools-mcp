@@ -1,0 +1,21 @@
+{
+  "id": "www-armand-salle-fr-post-autocomplete-select-shadcn-ui",
+  "url": "https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui",
+  "kind": "page",
+  "hints_hash": "6247be09c6797443",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui", "title": "Autocomplete component with Shadcn UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Autocomplete component with Shadcn UI",
+  "summary": "Write-up with a live demo of a custom autocomplete select component built with shadcn/ui and Fancy Multi Select.",
+  "description": "Blog post from July 2023 demonstrating an autocomplete component built on the shadcn/ui select, based on Fancy Multi Select by Maximilian Kaske. The demo now points to a frozen StackBlitz project and a source snapshot on GitHub.",
+  "type": "article",
+  "elements": ["select"],
+  "keywords": ["autocomplete", "combobox", "select", "multi select", "shadcn", "shadcn ui", "react", "tailwind", "component demo", "form input", "stackblitz"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

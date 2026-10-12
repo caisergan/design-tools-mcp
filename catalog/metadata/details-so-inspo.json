@@ -1,0 +1,106 @@
+{
+  "id": "details-so-inspo",
+  "url": "https://details.so/inspo",
+  "kind": "page",
+  "hints_hash": "b80e408718221398",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://details.so/inspo",
+      "title": "Best Web Design Inspiration | Details.so",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Details.so Inspo",
+  "summary": "Curated web design inspiration gallery: hero, footer, navigation, transition and scroll-animation captures from live sites.",
+  "description": "Hand-picked captures from production websites, filed by the exact detail they show — hero sections, footers, navigation, preloaders, page and section transitions, scroll animations, cursor effects and full page sections. Filter by element, industry and style, or use plain-language Smart Search. Free tier; Pro unlocks the full library, remixing and AI access.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "motion"
+  ],
+  "elements": [
+    "3d",
+    "404",
+    "accordion",
+    "button",
+    "card",
+    "carousel",
+    "contact",
+    "cta",
+    "cursor",
+    "drawer",
+    "dropdown",
+    "faq",
+    "features",
+    "footer",
+    "hero",
+    "list",
+    "loader",
+    "logo-cloud",
+    "modal",
+    "navbar",
+    "pricing",
+    "scroll-effect",
+    "stats",
+    "team",
+    "testimonials",
+    "text-effect",
+    "timeline"
+  ],
+  "variants": {
+    "navbar": [
+      "dropdown",
+      "full-screen"
+    ]
+  },
+  "keywords": [
+    "design inspiration",
+    "web design gallery",
+    "hero section",
+    "footer design",
+    "page transition",
+    "section transition",
+    "scroll animation",
+    "preloader",
+    "micro interaction",
+    "navigation design",
+    "button design",
+    "web design reference",
+    "landing page",
+    "portfolio",
+    "saas website",
+    "cursor effect",
+    "parallax",
+    "website showcase"
+  ],
+  "contains": [
+    "captures from live production sites, tagged by hand and added weekly",
+    "filters by element, industry and style with counts (Hero 393, Footer 323, Navigation 235, Scroll Animations 440)",
+    "elements grouped as UI elements, structure, page sections, transitions & loading and scroll",
+    "Smart Search in plain language",
+    "free tier shows a small preview; Pro unlocks the full library and AI access"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

@@ -1,0 +1,86 @@
+{
+  "id": "apifinder-io",
+  "url": "https://apifinder.io",
+  "kind": "site",
+  "hints_hash": "08a62ef5feebe044",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://apifinder.io",
+      "title": "API Finder - Discover Public APIs for Your Next Project",
+      "status": null
+    },
+    {
+      "url": "https://apifinder.io/categories",
+      "title": "API Categories - API Finder",
+      "status": null
+    },
+    {
+      "url": "https://apifinder.io/category/sms",
+      "title": "SMS APIs - API Finder",
+      "status": null
+    },
+    {
+      "url": "https://apifinder.io/category/jobs",
+      "title": "Jobs APIs - API Finder",
+      "status": null
+    },
+    {
+      "url": "https://apifinder.io/category/maps",
+      "title": "Maps APIs - API Finder",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "API Finder",
+  "summary": "Directory of 181 public APIs across 45 categories, with auth, CORS and pricing details for each.",
+  "description": "A browsable directory of public APIs for developers. Every listing shows a short description, auth type (API key, OAuth, no auth), CORS support and pricing (free, freemium, paid), with links to the API and its docs; browse by category from AI/ML to weather, payments and SMS. New APIs are submitted via a GitHub pull request.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "public api",
+    "api directory",
+    "api list",
+    "free api",
+    "api search",
+    "api category",
+    "rest api",
+    "api documentation",
+    "cor",
+    "api key",
+    "developer tool",
+    "weather api",
+    "payment api"
+  ],
+  "contains": [
+    "181 public APIs across 45 categories",
+    "each entry lists description, auth type, CORS support and pricing",
+    "featured APIs section",
+    "category pages with API lists (SMS, jobs, maps …)",
+    "submission via GitHub pull request with a table-row format"
+  ],
+  "formats": [
+    "links",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

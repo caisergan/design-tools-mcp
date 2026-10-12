@@ -1,0 +1,78 @@
+{
+  "id": "github-com-mattpocock-skills",
+  "url": "https://github.com/mattpocock/skills",
+  "kind": "repo",
+  "hints_hash": "cd69054bf813ff4c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/mattpocock/skills/blob/HEAD/README.md",
+      "title": "Skills For Real Engineers",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "title": "GitHub - mattpocock/skills: Skills for Real Engineers. Straight from my .agents directory.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Skills For Real Engineers",
+  "summary": "Collection of small, composable agent skills for everyday engineering work, taken straight from Matt Pocock's .agents directory.",
+  "description": "Agent skills for real engineering rather than vibe coding, split into user-invoked skills that orchestrate (grill-with-docs, triage, to-spec, to-tickets, implement, wayfinder, retro, improve-codebase-architecture) and model-invoked skills that hold the discipline (tdd, diagnosing-bugs, code-review, codebase-design, domain-modeling, wizard), plus productivity skills (grill-me, handoff, teach). Installs as a plugin for Claude Code, Codex, Copilot and Gemini CLI, or via npx skills for any other agent; setup-matt-pocock-skills configures tracker, labels and docs per repo.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "claude code",
+    "codex",
+    "copilot",
+    "tdd",
+    "spec",
+    "ticket",
+    "triage",
+    "code review",
+    "debugging",
+    "ai coding agent",
+    "prompt package",
+    "engineering workflow",
+    "handoff",
+    "npx skill",
+    "grill me"
+  ],
+  "contains": [
+    "engineering and productivity skills shipped as SKILL.md packages",
+    "install: plugin for Claude Code, Codex, Copilot CLI and VS Code, or npx skills for any other agent",
+    "run /setup-matt-pocock-skills once per repo: issue tracker, triage labels, docs location",
+    "user-invoked skills orchestrate work; model-invoked skills are reachable automatically or by name",
+    "engineering core: to-spec, to-tickets, implement, tdd, diagnosing-bugs, code-review",
+    "architecture and diagnosis: improve-codebase-architecture, wayfinder, retro, research",
+    "productivity: grill-me, grill-with-docs, handoff, teach, to-questionnaire, wait-what",
+    "skills stay small, easy to adapt and composable; work with any model"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "stack": [
+    "node"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/mattpocock/skills",
+    "docs": "https://aihero.dev/skills",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

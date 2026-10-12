@@ -1,0 +1,33 @@
+{
+  "id": "contentcore-xyz",
+  "url": "https://contentcore.xyz",
+  "kind": "site",
+  "hints_hash": "6d02c0976b93b97e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://contentcore.xyz", "title": "ContentCore", "status": null},
+    {"url": "https://contentcore.xyz/pricing", "title": "pricing — ContentCore", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ContentCore",
+  "summary": "Web tool for creating share-ready images and videos in one place from free tools and assets.",
+  "description": "An online content studio: free tools and assets for making share-ready images and videos without extra software or a steep learning curve. The free Basic plan includes a non-commercial license on created content; $9.99/month unlocks commercial use, and Enterprise & Business plans build tailored content generation tools for static assets, videos, web sections and web pages.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["content creation", "image export", "video export", "share-ready image", "asset creation", "content generator", "web section", "web page", "static asset", "free tool", "commercial license", "no software"],
+  "contains": [
+    "create content in one place and export as images or videos",
+    "free Basic plan with non-commercial license on created content",
+    "commercial plan: $9.99/mo monthly or $5.99/mo yearly, with unlimited usage, modification, distribution and resale rights",
+    "enterprise & business: tailored content generation tools for static assets, videos, web sections and web pages"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

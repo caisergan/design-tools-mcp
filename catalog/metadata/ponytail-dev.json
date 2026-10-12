@@ -1,0 +1,68 @@
+{
+  "id": "ponytail-dev",
+  "url": "https://ponytail.dev",
+  "kind": "site",
+  "hints_hash": "2985aea88db7a7c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ponytail.dev",
+      "title": "ponytail 5: the lazy senior dev for your AI agent",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ponytail",
+  "summary": "Rule set that makes AI coding agents write the least code that works, with review, audit and debt commands.",
+  "description": "A ruleset/skill for coding agents (Claude Code, Codex, Copilot, Gemini, Cursor, OpenCode and more) that makes them stop at the first rung that holds: skip, reuse, standard library, platform, then the minimum that works. Adds /ponytail-review, /ponytail-audit, /ponytail-debt and /ponytail-gain commands. Benchmarked at 53% less code while correctness and safety checks are kept.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools",
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai coding agent",
+    "coding agent rule",
+    "agent skill",
+    "system prompt",
+    "claude code",
+    "codex",
+    "cursor",
+    "copilot",
+    "gemini",
+    "minimal code",
+    "code review",
+    "code audit",
+    "token saving",
+    "benchmark"
+  ],
+  "contains": [
+    "installed in two lines; works with Claude Code, Codex, Copilot, Gemini, Cursor, OpenCode and others",
+    "slash commands: /ponytail lite|full|ultra|off, /ponytail-review, /ponytail-audit, /ponytail-debt, /ponytail-gain",
+    "benchmark on 39 tasks: 53% fewer lines, 45% fewer output tokens, 26% cheaper, 41% faster",
+    "98% of risky logic ships with a test; every reply lists what was skipped and the risk",
+    "distributed as @dietrichgebert/ponytail on npm and the DietrichGebert/ponytail repo"
+  ],
+  "formats": [
+    "prompts",
+    "npm-package"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/DietrichGebert/ponytail",
+    "docs": null,
+    "npm": "@dietrichgebert/ponytail",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,18 @@
+{
+  "id": "github-com-vibe-stack",
+  "url": "https://github.com/vibe-stack",
+  "kind": "page",
+  "hints_hash": "f32497716ce4240b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/vibe-stack", "title": "vibe stack · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "vibe stack",
+  "summary": "GitHub org behind 25 repositories of three.js and 3D tools, including ggez, vibe3d, three-maps and freed.",
+  "keywords": ["github organization", "three.js", "3d", "game framework", "asset library", "web editor", "vibe coding", "typescript", "ide", "greyboxing", "terrain"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.8
+}

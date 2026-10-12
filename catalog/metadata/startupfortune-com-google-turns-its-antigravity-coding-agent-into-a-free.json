@@ -1,0 +1,24 @@
+{
+  "id": "startupfortune-com-google-turns-its-antigravity-coding-agent-into-a-free",
+  "url": "https://startupfortune.com/google-turns-its-antigravity-coding-agent-into-a-free-gemini-api-tool",
+  "kind": "page",
+  "hints_hash": "e28c6d97cda120ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://startupfortune.com/google-turns-its-antigravity-coding-agent-into-a-free-gemini-api-tool", "title": "Google turns its Antigravity coding agent into a free Gemini API tool - Startup Fortune", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Google turns its Antigravity coding agent into a free Gemini API tool",
+  "summary": "News article on Google folding the Antigravity coding agent into the Gemini API as a managed, sandboxed agent.",
+  "description": "A Startup Fortune news article reporting that Antigravity, until recently a standalone IDE, is now a managed agent inside the Gemini API and Google AI Studio through the Interactions API. The agent runs on Gemini 3.8 Flash in a Google-hosted Linux sandbox with code execution, search and file handling, free during preview; the article covers token costs, introductory Gemini 3.8 Flash pricing and the comparison with OpenAI's AgentKit and Anthropic's Claude Agent SDK.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "keywords": ["ai coding agent", "gemini api", "antigravity", "linux sandbox", "agent sdk", "managed agent", "api pricing", "coding agent", "ai news", "developer tool"],
+  "contains": ["Antigravity is now a managed agent in the Gemini API and Google AI Studio", "runs on Gemini 3.8 Flash in a hosted Linux sandbox, free during preview", "sandbox compute not billed during preview; token costs still apply", "Gemini 3.8 Flash introductory pricing of $0.75/$3.75 per million tokens through 2026", "positions against OpenAI AgentKit and Anthropic Claude Agent SDK"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

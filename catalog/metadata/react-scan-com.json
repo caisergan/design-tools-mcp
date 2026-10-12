@@ -1,0 +1,80 @@
+{
+  "id": "react-scan-com",
+  "url": "https://react-scan.com",
+  "kind": "site",
+  "hints_hash": "5ad69b311c854c2d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://react-scan.com",
+      "title": "React Scan",
+      "status": null
+    },
+    {
+      "url": "https://github.com/aidenybai/react-scan",
+      "title": "GitHub - aidenybai/react-scan: Scan and fix React performance issues",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Scan",
+  "summary": "Drop-in tool that detects and highlights the React components whose renders cause performance problems.",
+  "description": "React Scan automatically detects performance issues in a React app and highlights the exact components to optimize, with no code changes. It installs through a script tag, an npm package or a browser extension, its init command detects the framework and wires up the project, and it exposes scan(), useScan(), setOptions(), getOptions() and onRender() plus an always-available on-page toolbar. MIT licensed; the site now also points to React Doctor for agent-facing checks.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "react performance",
+    "re-render",
+    "render highlighting",
+    "performance profiler",
+    "developer tool",
+    "debugging",
+    "react devtool",
+    "browser extension",
+    "npm package",
+    "script tag",
+    "next.js",
+    "vite",
+    "remix",
+    "react",
+    "optimization"
+  ],
+  "contains": [
+    "highlights components that render and cause performance issues",
+    "requires no code changes",
+    "available via script tag, npm install and browser extension",
+    "init command detects the framework and sets up the project",
+    "APIs: scan(), useScan(), setOptions(), getOptions(), onRender()",
+    "setup guides for Next.js App/Pages Router, Vite and Remix",
+    "21.9k GitHub stars",
+    "MIT licensed"
+  ],
+  "formats": [
+    "npm-package",
+    "cli",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/aidenybai/react-scan",
+    "docs": null,
+    "npm": "react-scan",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

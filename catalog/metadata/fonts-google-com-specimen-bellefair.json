@@ -1,0 +1,42 @@
+{
+  "id": "fonts-google-com-specimen-bellefair",
+  "url": "https://fonts.google.com/specimen/Bellefair",
+  "kind": "page",
+  "hints_hash": "b4cc58770488513f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:19Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/specimen/Bellefair",
+      "title": "Bellefair - Google Fonts",
+      "status": null
+    }
+  ],
+  "status": "partial",
+  "name": "Bellefair",
+  "summary": "Google Fonts specimen page for Bellefair, a Latin typeface by Nick Shinn with a Hebrew companion by Liron Lavi Turkenich.",
+  "description": "Specimen page for the Bellefair typeface in the Google Fonts library. The page body renders with JavaScript and was not readable; its title and meta description credit the Latin design to Nick Shinn and a Hebrew typeface added to the project by Liron Lavi Turkenich.",
+  "keywords": [
+    "font specimen",
+    "google font",
+    "typeface",
+    "free font",
+    "latin typeface",
+    "hebrew typeface",
+    "font family",
+    "bellefair"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "fonts-google-com"
+  },
+  "confidence": 0.6
+}

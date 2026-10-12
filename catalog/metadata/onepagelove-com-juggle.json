@@ -1,0 +1,32 @@
+{
+  "id": "onepagelove-com-juggle",
+  "url": "https://onepagelove.com/juggle",
+  "kind": "page",
+  "hints_hash": "fd5399c841024246",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/juggle", "title": "Juggle — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Juggle",
+  "summary": "One Page Love showcase of Juggle, the one-page landing site for an AI call-recording tool for consultants and solo operators.",
+  "description": "Showcase page for Juggle, the one-page website of a tool that records calls, organises information by client and automatically identifies next steps for consultants and solo operators. Sections on the page: waitlist or beta sign up, marquee, explainer video, highlights row, how it works, famous quotes and footer. Categories App, Landing Page and SaaS; styles Fun, Illustrative and Typographic; typefaces Acme Gothic SemiBold, Geist and Helvetica Neue; colours Blue, Red and White; built with Astro; published 10 Aug 2026.",
+  "elements": ["footer", "marquee", "features", "form"],
+  "keywords": ["one page website", "landing page", "saas", "app", "consultant", "ai", "crm", "call recording", "explainer video", "waitlist", "lead capture", "marquee", "parallax", "long scrolling", "typographic", "illustrative", "astro", "web design inspiration", "website showcase"],
+  "contains": [
+    "screenshots of the Juggle one-pager in desktop and mobile views",
+    "sections: waitlist sign up, marquee, explainer video, highlights row, how it works, famous quotes, footer",
+    "tags: AI, CRM, lead capture, long scrolling, parallax scrolling",
+    "categories App, Landing Page, SaaS; styles Fun, Illustrative, Typographic",
+    "typefaces Acme Gothic SemiBold, Geist, Helvetica Neue; colours Blue, Red, White",
+    "built with Astro; published 10 Aug 2026; spotlighted in Love Letter #91"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

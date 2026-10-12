@@ -1,0 +1,90 @@
+{
+  "id": "bytebytego-com",
+  "url": "https://bytebytego.com",
+  "kind": "site",
+  "hints_hash": "2acb688014392732",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://bytebytego.com",
+      "title": "ByteByteGo | Technical Interview Prep",
+      "status": null
+    },
+    {
+      "url": "https://bytebytego.com/guides",
+      "title": "ByteByteGo | Visual Guides",
+      "status": null
+    },
+    {
+      "url": "https://bytebytego.com/pricing",
+      "title": "ByteByteGo | Technical Interview Prep",
+      "status": null
+    },
+    {
+      "url": "https://bytebytego.com/faqs",
+      "title": "ByteByteGo | Technical Interview Prep",
+      "status": null
+    },
+    {
+      "url": "https://bytebytego.com/guides/quadtree",
+      "title": "ByteByteGo | Quadtree",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "ByteByteGo",
+  "summary": "Interview-prep platform pairing text-based system design and coding courses with 400+ visual engineering guides.",
+  "description": "ByteByteGo teaches technical interview preparation through text-based illustrated courses (coding patterns, system design, behavioral, object-oriented design, ML, GenAI and mobile system design) and a free library of 400 visual guides on engineering topics from databases and caching to DevOps, security and payments.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "system design interview",
+    "coding interview",
+    "interview preparation",
+    "technical interview",
+    "system design course",
+    "coding pattern",
+    "behavioral interview",
+    "object-oriented design",
+    "machine learning system design",
+    "generative ai system design",
+    "mobile system design",
+    "visual guide",
+    "software architecture",
+    "database",
+    "devop",
+    "cloud computing",
+    "distributed system",
+    "career"
+  ],
+  "contains": [
+    "8 courses: coding patterns, system design, behavioral, OO design, ML, GenAI and mobile system design, tech resume",
+    "400 visual guides across 15 engineering categories",
+    "text-based courses with illustrations, preview chapters and curricula",
+    "claims 5M+ learners and 100,000+ success stories",
+    "pricing: yearly, one-year access or lifetime (pay once)"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

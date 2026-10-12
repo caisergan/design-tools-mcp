@@ -1,0 +1,29 @@
+{
+  "id": "github-com-tanstack-query",
+  "url": "https://github.com/TanStack/query",
+  "kind": "repo",
+  "hints_hash": "300e3c32f79cdba5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/TanStack/query/blob/HEAD/README.md", "title": "TanStack Query", "status": 200},
+    {"url": "https://github.com/TanStack/query", "title": "GitHub - TanStack/query", "status": 200},
+    {"url": "https://raw.githubusercontent.com/TanStack/query/HEAD/LICENSE", "title": "LICENSE", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TanStack Query",
+  "summary": "Async state management library for fetching, caching, synchronizing and updating server state in TypeScript and JavaScript apps.",
+  "description": "Protocol-agnostic data fetching (REST, GraphQL, promises) with caching, refetching, pagination and infinite scroll, mutations, dependent queries and background updates. Prefetching, cancellation and React Suspense support are built in, with adapters for React, Solid, Svelte and Vue as part of the wider TanStack ecosystem.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["data fetching", "server state", "async state", "caching", "react query", "typescript", "javascript", "rest", "graphql", "pagination", "infinite scroll", "mutation", "prefetching", "react", "vue", "svelte", "solid"],
+  "contains": ["protocol-agnostic fetching: REST, GraphQL, promises", "caching, refetching, pagination and infinite scroll", "mutations, dependent queries and background updates", "prefetching, cancellation and React Suspense support", "adapters for React, Solid, Svelte and Vue"],
+  "formats": ["npm-package", "docs"],
+  "stack": ["typescript", "javascript", "react", "vue", "svelte", "solid"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TanStack/query", "docs": "https://tanstack.com/query", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

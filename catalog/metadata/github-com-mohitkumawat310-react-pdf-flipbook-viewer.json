@@ -1,0 +1,83 @@
+{
+  "id": "github-com-mohitkumawat310-react-pdf-flipbook-viewer",
+  "url": "https://github.com/mohitkumawat310/react-pdf-flipbook-viewer",
+  "kind": "repo",
+  "hints_hash": "5036d2ff3287c45e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/mohitkumawat310/react-pdf-flipbook-viewer/blob/HEAD/README.md",
+      "title": "React PDF Flipbook Viewer",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/mohitkumawat310/react-pdf-flipbook-viewer",
+      "title": "GitHub - mohitkumawat310/react-pdf-flipbook-viewer: React-based PDF flipbook viewer that allows users to view PDF documents in a flipbook format. It is built using Next.js and various other libraries…",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React PDF Flipbook Viewer",
+  "summary": "React and Next.js PDF viewer that renders a document as an interactive flipbook with zoom, pan, fullscreen and a page slider.",
+  "description": "A Next.js viewer that displays a PDF from a URL as a page-flipping flipbook. It provides zoom and pan, fullscreen mode, keyboard arrow navigation, a page slider, share buttons and a responsive layout, with four documented components: FlipbookViewer, Toolbar, Flipbook and SliderNav. Built with react-pdf, react-pageflip and react-zoom-pan-pinch; MIT licensed.",
+  "type": "template",
+  "categories": [
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "carousel",
+    "pagination"
+  ],
+  "keywords": [
+    "pdf viewer",
+    "flipbook",
+    "pdf",
+    "react",
+    "nextjs",
+    "zoom",
+    "full screen",
+    "page flip",
+    "react-pdf",
+    "react-pageflip",
+    "document viewer",
+    "tailwind"
+  ],
+  "contains": [
+    "renders a PDF from a URL as a page-flip flipbook",
+    "zoom and pan, fullscreen mode and keyboard arrow navigation",
+    "components: FlipbookViewer, Toolbar, Flipbook and SliderNav",
+    "built on react-pdf, react-pageflip and react-zoom-pan-pinch",
+    "Next.js app deployable on Vercel",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "radix",
+    "react-pdf",
+    "react-pageflip",
+    "react-zoom-pan-pinch",
+    "sonner"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/mohitkumawat310/react-pdf-flipbook-viewer",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

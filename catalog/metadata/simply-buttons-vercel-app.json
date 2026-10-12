@@ -1,0 +1,71 @@
+{
+  "id": "simply-buttons-vercel-app",
+  "url": "https://simply-buttons.vercel.app",
+  "kind": "site",
+  "hints_hash": "f06d7f55132b4aee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://simply-buttons.vercel.app",
+      "title": "Simply Buttons — interactive CSS, React, and Node button specimens",
+      "status": null
+    }
+  ],
+  "status": "partial",
+  "name": "Simply Buttons",
+  "summary": "Specimen lab of live button styles, loaders and states, searchable by name, type or motion, with copyable code.",
+  "description": "Interactive button specimens you can browse, search by name, type or motion, and copy as HTML, React or Node snippets. The catalog lists 145 button specimen pages, from glitch and ripple effects to 3D hover and keyboard-style buttons.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "button",
+    "loader"
+  ],
+  "keywords": [
+    "button",
+    "button style",
+    "css button",
+    "react button",
+    "hover effect",
+    "click effect",
+    "micro interaction",
+    "loader",
+    "animation",
+    "copy paste",
+    "ui component",
+    "press effect",
+    "3d button"
+  ],
+  "contains": [
+    "145 button specimen pages",
+    "search by name, type or motion",
+    "copyable HTML, React and Node snippets",
+    "specimens like Pixel ripple, Glitch, 3D hover, Mac folder button"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "css",
+    "react"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ycombinator-com-howtoapply",
+  "url": "https://ycombinator.com/howtoapply",
+  "kind": "page",
+  "hints_hash": "dae25c7d66ee692c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:03:57Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://ycombinator.com/howtoapply", "title": "How to Apply to Y Combinator | Y Combinator", "status": null }
+  ],
+  "status": "ok",
+  "name": "How to Apply to Y Combinator",
+  "summary": "Paul Graham's guide to how YC partners read applications: matter-of-fact answers, judging founders, and what makes an application stand out.",
+  "description": "An essay by Paul Graham on what Y Combinator looks for when reading applications: describe the idea in the first sentence without marketing-speak, how partners read the founders section, what the insight and wildcard answers show, and why many applications good enough for interviews still fail to convey how good they are. Includes the Dropbox application as a worked example.",
+  "type": "article",
+  "keywords": [
+    "accelerator application",
+    "startup application",
+    "application advice",
+    "application guide",
+    "startup pitch",
+    "startup essay",
+    "founder",
+    "demo day",
+    "application writing",
+    "interview"
+  ],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

@@ -1,0 +1,27 @@
+{
+  "id": "fonts-google-com-specimen-stack-sans-text-preview-layout-grid-preview-sc",
+  "url": "https://fonts.google.com/specimen/Stack+Sans+Text?preview.layout=grid&preview.script=Latn",
+  "kind": "page",
+  "hints_hash": "d06a02c857b48323",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/specimen/Stack+Sans+Text?preview.layout=grid&preview.script=Latn",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.google.com/specimen/Stack+Sans+Text/about",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

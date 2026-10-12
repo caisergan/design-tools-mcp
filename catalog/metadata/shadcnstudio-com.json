@@ -1,0 +1,167 @@
+{
+  "id": "shadcnstudio-com",
+  "url": "https://shadcnstudio.com",
+  "kind": "site",
+  "hints_hash": "755f3c135dd6759e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcnstudio.com/llms.txt",
+      "title": "shadcnstudio.com llms.txt",
+      "status": null
+    },
+    {
+      "url": "https://shadcnstudio.com",
+      "title": "Shadcn Studio - Shadcn UI Components, Blocks & Templates",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstudio.com/docs/components/kbd",
+      "title": "Shadcn KBD - Base UI and Radix UI - Shadcn Studio",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstudio.com/blocks",
+      "title": "Shadcn Blocks - 1000+ Free & Pro - Shadcn Studio",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstudio.com/pricing",
+      "title": "Pricing - Shadcn Studio",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnstudio.com/faqs",
+      "title": "Frequently Asked Questions (FAQs) - Shadcn Studio",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Studio",
+  "summary": "Shadcn/ui blocks, components and templates: 1000+ blocks, 1000+ components with Base UI and Radix UI support, a Figma kit and an MCP server.",
+  "description": "A shadcn/ui library of 1000+ blocks (marketing, dashboard and application, ecommerce, datatable, bento grid), 1000+ components with Base UI and Radix UI support, 100+ pages and 25+ templates, plus 250+ animated illustrations, a Figma design system and Figma-to-code plugin, an AI theme generator, a drag-and-drop landing page builder, an MCP server and an IDE extension. Free community tier; one-time paid plans.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "cta",
+    "footer",
+    "team",
+    "logo-cloud",
+    "bento-grid",
+    "contact",
+    "stats",
+    "timeline",
+    "dashboard",
+    "chart",
+    "kanban",
+    "calendar",
+    "table",
+    "form",
+    "input",
+    "select",
+    "switch",
+    "card",
+    "modal",
+    "dropdown",
+    "accordion",
+    "button",
+    "carousel",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "list",
+    "loader",
+    "toast",
+    "tabs",
+    "pagination",
+    "tooltip",
+    "progress"
+  ],
+  "keywords": [
+    "shadcn block",
+    "ui block",
+    "hero section",
+    "dashboard block",
+    "application block",
+    "ecommerce block",
+    "datatable",
+    "bento grid",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "cta",
+    "logo cloud",
+    "timeline",
+    "figma kit",
+    "figma plugin",
+    "theme generator",
+    "page builder",
+    "mcp server",
+    "ide extension",
+    "component",
+    "react",
+    "tailwind",
+    "base ui",
+    "radix ui",
+    "template",
+    "illustration",
+    "dark mode"
+  ],
+  "contains": [
+    "1000+ blocks (68 free) across marketing, dashboard and application, ecommerce, datatable and bento grid",
+    "block counts: hero 46, features 33, testimonials 27, FAQ 24, pricing 23, team 21, CTA 17, navbar 16",
+    "more counts: charts 65, application shell 32, widgets 28, statistics 25, blog 20, logo cloud 10, timeline 7",
+    "1000+ components with Base UI and Radix UI variants; install via the shadcn CLI or copy-paste",
+    "100+ pages, 25+ templates (Next.js, Astro), 250+ animated illustrations built with Motion",
+    "Figma design system and Figma-to-code plugin; AI theme generator; drag-and-drop builder",
+    "MCP server, IDE extension and copy-prompt/v0 flows",
+    "pricing: free Community tier; one-time Basic $99, Pro $199, Team $449, Enterprise $849"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "cli",
+    "figma-file",
+    "templates",
+    "prompts",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "base-ui",
+    "radix",
+    "framer-motion",
+    "astro",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://shadcnstudio.com/docs/getting-started/introduction",
+    "npm": null,
+    "figma": "https://shadcnstudio.com/figma",
+    "parent": null
+  },
+  "confidence": 0.9
+}

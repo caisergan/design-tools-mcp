@@ -1,0 +1,31 @@
+{
+  "id": "chanhdai-com-components-logos-carousel",
+  "url": "https://chanhdai.com/components/logos-carousel",
+  "kind": "page",
+  "hints_hash": "961021f4e12c1a56",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://chanhdai.com/components/logos-carousel", "title": "Logos Carousel – Chánh Đại", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Logos Carousel",
+  "summary": "React carousel component that cycles sponsor and brand logos column by column in a staggered wave.",
+  "description": "A shadcn-registry component for logo walls: the grid cycles through logos column by column in a staggered wave, with prefers-reduced-motion replacing the slide and blur with a plain opacity cross-fade, and pausing while the page is hidden or the carousel is off screen. Documented with an API reference, accessibility notes on WCAG 2.2.2 auto-updating content, and installation via npx shadcn add @ncdai/logos-carousel; inspired by Devouring Details.",
+  "type": "component-library",
+  "elements": ["carousel", "logo-cloud"],
+  "keywords": ["logo carousel", "logo cloud", "logo wall", "sponsor logo", "brand logo", "carousel", "react component", "shadcn registry", "tailwind css", "reduced motion", "accessibility", "wcag", "copy paste"],
+  "contains": [
+    "cycles logos column by column in a staggered wave",
+    "prefers-reduced-motion: slide and blur replaced by a plain opacity cross-fade",
+    "pauses while the page is hidden or the carousel is off screen",
+    "WCAG 2.2.2 note: add a pause control or keep the carousel decorative",
+    "install: npx shadcn add @ncdai/logos-carousel",
+    "inspired by Devouring Details"
+  ],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "chanhdai-com"},
+  "confidence": 0.8
+}

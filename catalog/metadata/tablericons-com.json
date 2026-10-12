@@ -1,0 +1,28 @@
+{
+  "id": "tablericons-com",
+  "url": "https://tablericons.com",
+  "kind": "site",
+  "hints_hash": "a59ade9b46579857",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tablericons.com", "title": "Tablericons - Free SVG Icons", "status": null},
+    {"url": "https://tablericons.com/icon/abc", "title": "abc.svg - Tablericons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tablericons",
+  "summary": "Browser for free SVG icons with color, size and stroke controls and copy-ready React and Vue components.",
+  "description": "A searchable library of free SVG icons. Each icon has a detail page with category and tag links, related icons, color/size/stroke-width controls, and tabs that give you the raw SVG code or a React or Vue component to paste.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["svg icon", "icon set", "free icon", "icon library", "outline icon", "stroke icon", "react icon", "vue icon", "icon search", "icon download", "copy svg", "icon category", "icon tag", "ui icon"],
+  "contains": ["free SVG icons with a detail page per icon", "controls: icon color, size, stroke width (0.5–3)", "copy tabs: SVG code, React component, Vue component", "category and tag browsing with related icons"],
+  "formats": ["svg", "code"],
+  "stack": ["react", "vue"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

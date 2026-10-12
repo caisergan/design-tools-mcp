@@ -1,0 +1,34 @@
+{
+  "id": "github-com-browserbase-stagehand",
+  "url": "https://github.com/browserbase/stagehand",
+  "kind": "repo",
+  "hints_hash": "1b07afa207a3ce58",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/browserbase/stagehand/blob/HEAD/README.md", "title": "No model configuration: the Model Gateway picks the cheapest model for each action", "status": null}
+  ],
+  "status": "ok",
+  "name": "Stagehand",
+  "summary": "Browser automation SDK for AI agents with TypeScript, Python and Go drivers and Playwright-style APIs.",
+  "description": "An SDK for browser agents with Playwright-style methods (goto, click, locator, screenshot) plus AI actions act, observe and extract that refresh their behaviour when a site changes underneath. One complete driver exists for TypeScript, Python and Go; runs go against local Chrome or the Browserbase cloud, and a hosted MCP server gives coding agents a browser without a local install.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["browser automation", "browser agent", "web scraping", "data extraction", "playwright", "typescript", "python", "go", "ai agent", "sdk", "mcp server", "self-healing", "accessibility tree", "headless browser", "llm tool", "webmcp"],
+  "contains": [
+    "TypeScript, Python and Go SDKs",
+    "Playwright-style methods: goto, click, locator, screenshot",
+    "self-healing act, observe and extract actions",
+    "hosted MCP server gives coding agents a browser",
+    "runs locally in Chrome or on Browserbase cloud",
+    "search and fetch APIs without a browser"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["typescript", "python", "go"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/browserbase/stagehand", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

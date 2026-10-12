@@ -1,0 +1,21 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-041-spiral-galaxy-particles",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/041-spiral-galaxy-particles.html",
+  "kind": "page",
+  "hints_hash": "993e6bf253815e87",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/041-spiral-galaxy-particles.html", "title": "NGC 7741 — Spiral Galaxy Particle Observatory", "status": 200},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "NGC 7741 — Spiral Galaxy Particle Observatory",
+  "summary": "Interactive particle galaxy study of NGC 7741 that tilts and zooms on drag, with distance, diameter and tilt readouts.",
+  "description": "A self-contained HTML study of the barred spiral galaxy NGC 7741, rendered as an interactive particle field from the Fable 5.1 100 HTML Files set. Drag to tilt the disk, scroll or pinch to zoom and press space to pause the rotation; the catalogue panel reads out distance, diameter, tilt and zoom.",
+  "elements": ["3d"],
+  "keywords": ["galaxy", "particle simulation", "interactive 3d", "astronomy", "space scene", "star", "canvas animation", "generative art", "visual study", "html study", "drag interaction", "web experiment"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

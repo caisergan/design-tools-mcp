@@ -1,0 +1,87 @@
+{
+  "id": "github-com-denissergeevitch-agents-best-practices",
+  "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+  "kind": "repo",
+  "hints_hash": "a7d40d708e5fb1f9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/DenisSergeevitch/agents-best-practices/blob/HEAD/README.md",
+      "title": "agents-best-practices",
+      "status": null
+    },
+    {
+      "url": "https://github.com/DenisSergeevitch/agents-best-practices/blob/HEAD/SKILL.md",
+      "title": "Agents Best Practices",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DenisSergeevitch/agents-best-practices/HEAD/README.md",
+      "title": "agents-best-practices",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "title": "GitHub - DenisSergeevitch/agents-best-practices: Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Agents Best Practices",
+  "summary": "Provider-neutral Agent Skill for designing, auditing and refactoring agentic harnesses in any domain.",
+  "description": "A markdown-only Agent Skill (SKILL.md plus reference files) for designing, generating MVP blueprints for, auditing, troubleshooting and refactoring agentic harnesses. It covers agent loops, tool permissions, environment-adaptive tools, planning, workflow orchestration, context and memory, evals, observability, prompt caching and checklists. Applies beyond coding agents; works with Codex, Claude Code and other SKILL-compatible runtimes.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "agent harness",
+    "ai agent",
+    "agent architecture",
+    "agent loop",
+    "tool permission",
+    "context compaction",
+    "memory",
+    "mcp",
+    "connector",
+    "planning mode",
+    "workflow orchestration",
+    "eval",
+    "observability",
+    "prompt caching",
+    "coding agent",
+    "codex",
+    "claude code",
+    "skill.md"
+  ],
+  "contains": [
+    "SKILL.md entrypoint plus ~20 markdown reference files",
+    "Covers agent loops, tool permissions, planning, context and memory, evals and observability",
+    "Use cases: MVP agent blueprints, audits, troubleshooting, refactors, adaptive teams, always-on agents",
+    "Installs via npx skills add; self-update checks the upstream revision",
+    "MIT licensed repository"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/DenisSergeevitch/agents-best-practices",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

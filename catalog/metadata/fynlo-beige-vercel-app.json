@@ -1,0 +1,29 @@
+{
+  "id": "fynlo-beige-vercel-app",
+  "url": "https://fynlo-beige.vercel.app",
+  "kind": "site",
+  "hints_hash": "ae55957dcbdad0c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:23:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fynlo-beige.vercel.app", "title": "Fynlo — Vendor Payments", "status": null},
+    {"url": "https://fynlo-beige.vercel.app/invoices", "title": "Fynlo — Vendor Payments", "status": 200},
+    {"url": "https://fynlo-beige.vercel.app/audit", "title": "Fynlo — Vendor Payments", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fynlo",
+  "summary": "Vendor payments app UI: a payments table, an invoice builder with live preview, and a dated audit log of actions.",
+  "description": "A vendor payments application interface: a table of 1,823 payments with amount, currency, status, due date, category and initiator; a create-invoice screen with line items, discount, tax and a live preview; and an audit log grouping status changes, amount edits, bulk uploads and auto flags by day, down to time and IP address. All data shown is demo data.",
+  "type": "app",
+  "categories": ["components", "templates"],
+  "elements": ["navbar", "table", "dashboard", "timeline", "form", "input", "date-picker", "badge", "pagination", "button"],
+  "keywords": ["vendor payment", "invoice generator", "invoice builder", "payment table", "invoice template", "dashboard ui", "admin dashboard", "finance dashboard", "audit log", "data table", "invoice preview", "payment status", "web app ui"],
+  "contains": ["views: vendor payments, invoices, audit log", "table lists 1,823 vendor payments", "payment fields: id, vendor, amount, currency, status, due date, category, initiator", "invoice builder with line items, 5% discount, 11% tax and live preview", "audit log with status changes, amount edits, bulk uploads, auto flags and IP addresses"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

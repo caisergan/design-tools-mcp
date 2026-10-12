@@ -1,0 +1,27 @@
+{
+  "id": "github-com-unslothai-unsloth",
+  "url": "https://github.com/unslothai/unsloth",
+  "kind": "repo",
+  "hints_hash": "807e6d2d34afe49c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/unslothai/unsloth/blob/HEAD/README.md", "title": "unsloth", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Unsloth",
+  "summary": "Desktop app, web UI and Python package to run and fine-tune LLMs, diffusion, embedding and audio models locally.",
+  "description": "Local tool for running and training AI models: LLMs, MLX, GGUF, diffusion, embedding, audio and vision models. Ships as a native desktop app, a Docker web UI (Studio) and a Python package (Core), with an OpenAI-compatible API, MCP tooling, private search/RAG and fine-tuning (LoRA, QLoRA, RL, GRPO, DPO, FP8) that is 2x faster with 70% less VRAM.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["run llm locally", "fine-tune llm", "local ai", "llm training", "gguf", "mlx", "lora", "qlora", "reinforcement learning", "grpo", "dpo", "diffusion model", "desktop app", "openai compatible api", "mcp", "rag", "embedding model", "text to speech", "gpu", "model export"],
+  "contains": ["desktop app, Docker web UI and Python package", "run and train LLMs, diffusion, embedding, audio and vision models", "2x faster fine-tuning with 70% less VRAM", "fine-tuning support: LoRA, QLoRA, full fine-tuning, RL, GRPO, DPO, FP8", "export formats: GGUF, NVFP4, FP8", "dual-licensed: Apache-2.0 core, AGPL-3.0 Studio UI"],
+  "formats": ["app", "cli", "code", "docs"],
+  "stack": ["python", "pytorch", "llama.cpp"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/unslothai/unsloth", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

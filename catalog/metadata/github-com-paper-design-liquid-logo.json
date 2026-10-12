@@ -1,0 +1,87 @@
+{
+  "id": "github-com-paper-design-liquid-logo",
+  "url": "https://github.com/paper-design/liquid-logo",
+  "kind": "repo",
+  "hints_hash": "b17619036f347483",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/paper-design/liquid-logo/blob/HEAD/README.md",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://github.com/paper-design/liquid-logo",
+      "title": "GitHub - paper-design/liquid-logo: Turn your logo into liquid metal with Paper Shaders · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/paper-design/liquid-logo/HEAD/LICENSE",
+      "title": "PolyForm Shield License 1.0.0",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/paper-design/liquid-logo/HEAD/package.json",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://liquid.paper.design",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Liquid Logo",
+  "summary": "Playground that renders your logo as animated liquid metal with Paper Shaders.",
+  "description": "A Next.js playground app that turns a logo into liquid metal using the @paper-design/shaders-react library. The hosted version at liquid.paper.design opens as a playground inside Paper Design; the repository is the source you can clone, run and remix.",
+  "type": "tool",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "liquid metal",
+    "logo effect",
+    "shader",
+    "glsl",
+    "webgl",
+    "animated logo",
+    "paper shader",
+    "logo animation",
+    "react shader",
+    "nextjs",
+    "playground"
+  ],
+  "contains": [
+    "renders a logo as animated liquid metal via Paper Shaders",
+    "hosted playground at liquid.paper.design, opens in Paper Design",
+    "Next.js 15 + React 19 app using @paper-design/shaders-react",
+    "repo topics: design, glsl, shaders"
+  ],
+  "formats": [
+    "code",
+    "app"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "PolyForm-Shield-1.0.0",
+  "related": {
+    "repo": "https://github.com/paper-design/liquid-logo",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

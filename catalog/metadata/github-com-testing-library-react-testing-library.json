@@ -1,0 +1,35 @@
+{
+  "id": "github-com-testing-library-react-testing-library",
+  "url": "https://github.com/testing-library/react-testing-library",
+  "kind": "repo",
+  "hints_hash": "6e0c13d4413ba658",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/testing-library/react-testing-library/blob/HEAD/README.md", "title": null, "status": null},
+    {"url": "https://github.com/testing-library/react-testing-library", "title": "GitHub - testing-library/react-testing-library: 🐐 Simple and complete React DOM testing utilities that encourage good testing practices. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Testing Library",
+  "summary": "Lightweight React DOM testing utilities that query the DOM the way users interact with it.",
+  "description": "Testing utilities built on react-dom and react-dom/test-utils: render a component and find elements by role, label or text — the way users do — instead of reaching into component instances, so tests survive refactors. Installed from npm as a devDependency; from version 16 @testing-library/dom is required too, and @testing-library/jest-dom adds matchers. The docs site hosts guides and runnable examples with react-redux, react-router and react-context.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["react", "testing", "react dom", "test", "unit test", "testing library", "query", "jest", "dom testing", "test utility", "javascript", "frontend"],
+  "contains": [
+    "queries the DOM by role, label and text instead of component internals",
+    "distributed via npm as a devDependency",
+    "@testing-library/dom required from v16; jest-dom adds matchers",
+    "19.7k stars, 1.2k forks on GitHub",
+    "examples with react-redux, react-router and react-context",
+    "MIT licensed"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "javascript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/testing-library/react-testing-library", "docs": "https://testing-library.com/react", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

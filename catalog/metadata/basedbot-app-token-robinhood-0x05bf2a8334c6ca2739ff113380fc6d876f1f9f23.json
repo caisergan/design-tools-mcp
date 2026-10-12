@@ -1,0 +1,20 @@
+{
+  "id": "basedbot-app-token-robinhood-0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23",
+  "url": "https://basedbot.app/token/robinhood/0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23",
+  "kind": "page",
+  "hints_hash": "6899cb5452aa687f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://basedbot.app/token/robinhood/0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23", "title": "BasedBot", "status": null}
+  ],
+  "status": "partial",
+  "name": "BasedBot",
+  "summary": "Token trading page on the BasedBot on-chain trading terminal; the page renders with JavaScript, so little was readable.",
+  "description": "A single token's page on basedbot.app, described as \"BasedBot Terminal, the fastest way to trade on-chain\". The page renders with JavaScript, so only the title, meta description, navigation (Discover, Pulse, Trackers, Portfolio, Rewards) and the chain switcher (ETH, SOL, BNB) could be read; no token details were available.",
+  "elements": [],
+  "keywords": ["trading terminal", "on-chain trading", "token", "crypto trading", "trading bot", "portfolio tracker", "copy trading", "token sniper", "multichart", "robinhood chain", "solana", "ethereum", "bnb"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.3
+}

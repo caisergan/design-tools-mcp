@@ -1,0 +1,27 @@
+{
+  "id": "figma-com-community-file-1677716935213497256-animated-ui-components",
+  "url": "https://figma.com/community/file/1677716935213497256/animated-ui-components",
+  "kind": "page",
+  "hints_hash": "136c689be4114407",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://figma.com/community/file/1677716935213497256/animated-ui-components", "title": "Animated UI Components | Figma", "status": null},
+    {"url": "https://www.figma.com/community/file/1677716935213497256/animated-ui-components", "title": "Animated UI Components | Figma", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Animated UI Components",
+  "summary": "Figma community file of animated fitness UI components: activity cards, step and heart-rate stats, progress indicators.",
+  "description": "A Figma community file with modern, fully animated fitness UI components for health, wellness and activity-tracking apps: activity cards, walking/step statistics, heart rate data and progress indicators.",
+  "type": "component-library",
+  "elements": ["card", "stats", "progress"],
+  "keywords": ["figma file", "ui kit", "fitness app", "animated component", "health app", "activity tracking", "progress indicator", "activity card", "wellness app", "figma community"],
+  "contains": ["animated fitness UI components designed in Figma", "activity cards", "walking/step statistics and heart rate data", "progress indicators"],
+  "formats": ["figma-file"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "figma-com"},
+  "confidence": 0.6
+}

@@ -1,0 +1,28 @@
+{
+  "id": "httpster-net",
+  "url": "https://httpster.net",
+  "kind": "site",
+  "hints_hash": "d171a8e1ca8cb3cc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://httpster.net", "title": "Website Design Inspiration | Httpster", "status": null},
+    {"url": "https://httpster.net/about", "title": "Because fuck boring websites", "status": null}
+  ],
+  "status": "ok",
+  "name": "Httpster",
+  "summary": "Gallery of 3,100+ hand-picked website designs, browsable by visual style and industry.",
+  "description": "A curated gallery of live website designs, run since 2012. Entries are tagged by visual style (minimal, dark, brutalist, typographic, photographic …) and by industry or type (advertising, blog, culture, education …), and each links out to the original site.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["website inspiration", "web design gallery", "website showcase", "design inspiration", "minimal website", "brutalist website", "typographic website", "dark website", "portfolio inspiration", "landing page inspiration", "curated design link", "web design reference"],
+  "contains": ["3116 websites featured", "19 visual style tags (minimal, dark, brutalist, typographic, photographic …)", "industry and type tags (advertising, blog, culture, design, education …)", "hand-picked by Dominic Whittle since 2012", "submissions currently closed"],
+  "formats": ["links", "screenshots"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

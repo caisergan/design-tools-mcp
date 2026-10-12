@@ -1,0 +1,100 @@
+{
+  "id": "github-com-orwa-mahmoud-adapttable",
+  "url": "https://github.com/orwa-mahmoud/adapttable",
+  "kind": "repo",
+  "hints_hash": "27c0cc5ed2f0e22a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T15:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/orwa-mahmoud/adapttable/blob/HEAD/README.md",
+      "title": "AdaptTable",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/orwa-mahmoud/adapttable/HEAD/LICENSE",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AdaptTable",
+  "summary": "Headless data table for React and Angular with adapters for Mantine, MUI, Chakra, Ant Design, Radix, Base UI, shadcn/ui and unstyled HTML.",
+  "description": "One headless table engine with styled adapters for the UI kit you already use. Client- or server-side data through a single TableSource contract, URL-synced state, filtering with drawer/popover UX and chips, sorting, pagination or infinite scroll, virtualization, column management, inline cell editing, row grouping, aggregation, pivot tables, formula and sparkline columns, CSV/XLSX/PDF export, an automatic mobile card layout, RTL/i18n with 19 locales, dark mode, and an optional provider-neutral AI binding. Layered @adapttable/* npm packages; docs hosted at adapttable.orwamahmoud.com.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "table",
+    "pagination",
+    "drawer",
+    "popover",
+    "dropdown",
+    "command-palette",
+    "chart"
+  ],
+  "keywords": [
+    "data table",
+    "react table",
+    "angular table",
+    "headless table",
+    "table component",
+    "shadcn",
+    "mantine",
+    "mui",
+    "chakra ui",
+    "ant design",
+    "radix",
+    "base ui",
+    "url state",
+    "virtualization",
+    "filters",
+    "row grouping",
+    "pivot table",
+    "inline editing",
+    "column pinning",
+    "csv export",
+    "xlsx export",
+    "i18n",
+    "rtl",
+    "dark mode",
+    "responsive table",
+    "npm package"
+  ],
+  "contains": [
+    "React adapters: Mantine, MUI, Chakra, Ant Design, Radix, Base UI, shadcn/ui and unstyled HTML",
+    "Angular binding with native HTML and NG-ZORRO kits; experimental Vue 3.5 packages",
+    "URL-synced state, filters with drawer/popover UX and chips, global search",
+    "virtualization (10,000 rows mount 10 DOM rows), infinite scroll and pagination auto by device",
+    "row grouping, aggregation, pivot tables, formula columns, sparkline columns, saved views",
+    "CSV/XLSX/PDF export, i18n (19 locales), RTL, dark mode, accessible data tables with keyboard nav",
+    "22 layered @adapttable/* npm packages incl. CLI, server query parsing and an optional AI binding"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "angular",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/orwa-mahmoud/adapttable",
+    "docs": "https://adapttable.orwamahmoud.com",
+    "npm": "@adapttable/core",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

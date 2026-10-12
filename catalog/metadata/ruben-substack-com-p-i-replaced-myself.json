@@ -1,0 +1,19 @@
+{
+ "id": "ruben-substack-com-p-i-replaced-myself",
+ "url": "https://ruben.substack.com/p/i-replaced-myself",
+ "kind": "page",
+ "hints_hash": "670c9b1db67cb5a7",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:43:05Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://ruben.substack.com/p/i-replaced-myself", "title": "Claude replaced me. - by Ruben Hassid - How to AI", "status": null}
+ ],
+ "status": "ok",
+ "name": "Claude replaced me.",
+ "summary": "Walkthrough for downloading, uploading and testing a /how-to Claude skill, with setup screenshots and Claude Cowork tips.",
+ "keywords": ["claude skill", "ai skill", "claude cowork", "tutorial", "workflow", "productivity", "guide", "prompt"],
+ "type": "article",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+ "confidence": 0.85
+}

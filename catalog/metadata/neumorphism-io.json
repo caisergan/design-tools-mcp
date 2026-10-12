@@ -1,0 +1,28 @@
+{
+  "id": "neumorphism-io",
+  "url": "https://neumorphism.io",
+  "kind": "site",
+  "hints_hash": "22674005032d1a0e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://neumorphism.io", "title": "Neumorphism CSS shadow generator", "status": null},
+    {"url": "https://github.com/adamgiebl/neumorphism", "title": "GitHub - adamgiebl/neumorphism: 🎉 Generate CSS for your Neumorphism designs · GitHub", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Neumorphism.io",
+  "summary": "CSS code generator for neumorphism (soft UI) designs: colors, gradients and shadows with copyable output.",
+  "description": "Web generator that produces the CSS for neumorphic/soft UI elements — colors, gradients and shadows — so designers and developers can experiment with the style. The homepage is JavaScript-rendered, so only its title and meta description were readable; the source is on GitHub.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["neumorphism", "neumorphic", "soft ui", "css generator", "shadow generator", "box shadow", "css code", "gradient", "ui design", "design trend"],
+  "contains": ["generates CSS colors, gradients and shadows for neumorphism", "open source with 6.2k GitHub stars", "topics: neumorphic-design, neumorphic-ui, neumorphism, soft-ui"],
+  "formats": ["code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "BSD-3-Clause",
+  "related": {"repo": "https://github.com/adamgiebl/neumorphism", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

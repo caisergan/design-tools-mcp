@@ -1,0 +1,36 @@
+{
+  "id": "github-com-blader-humanizer",
+  "url": "https://github.com/blader/humanizer",
+  "kind": "repo",
+  "hints_hash": "6f8e9aab57e137cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/blader/humanizer/blob/HEAD/README.md", "title": "Humanizer README", "status": null},
+    {"url": "https://github.com/blader/humanizer/blob/HEAD/SKILL.md", "title": "Humanizer: remove AI writing patterns", "status": null},
+    {"url": "https://raw.githubusercontent.com/blader/humanizer/HEAD/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Humanizer",
+  "summary": "Agent skill that rewrites AI-sounding text so it reads like the writer, without changing what it says.",
+  "description": "A Markdown skill that removes the tells of AI-generated writing — staged openers, not-X-but-Y contrasts, forced triads, dashes everywhere, inflated claims, stock words, bold labels and filler — while keeping the meaning and matching the writer's voice. It documents 25 patterns drawn from Wikipedia's 'Signs of AI writing' and works with any agent that supports skills. Installs with the Skills CLI, as a Claude Code plugin, or by copying SKILL.md.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "writing", "editing", "copywriting", "rewrite", "ai writing", "humanize", "prose", "tone of voice", "proofreading", "content editing", "markdown"],
+  "contains": [
+    "rewrites AI-sounding text without changing its meaning",
+    "25 AI writing patterns from Wikipedia's 'Signs of AI writing'",
+    "answers to /humanizer (plugin: /humanizer:humanizer)",
+    "works with any agent that supports skills",
+    "install via Skills CLI, Claude Code plugin or manual copy",
+    "MIT license"
+  ],
+  "formats": ["prompts", "cli"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/blader/humanizer", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.95
+}

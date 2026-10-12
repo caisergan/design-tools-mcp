@@ -1,0 +1,65 @@
+{
+  "id": "charliehills-substack-com-p-ai-design-system",
+  "url": "https://charliehills.substack.com/p/ai-design-system",
+  "kind": "page",
+  "hints_hash": "6506458d15f7b8d9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://charliehills.substack.com/p/ai-design-system",
+      "title": "Design in Claude Code (without the AI look)",
+      "status": null
+    }
+  ],
+  "status": "partial",
+  "name": "How to quit AI slop",
+  "summary": "Paid newsletter post on making Claude Code design on brand with a DESIGN.md, five brand rules and an examples folder.",
+  "description": "Charlie Hills' walkthrough of building a design system for AI: pointing Claude at an existing Figma deck through the Figma MCP, pulling the rules out of work that already exists, and keeping them in one reference file, a DESIGN.md and an examples folder. The first two parts are readable free; the rest needs a paid subscription.",
+  "type": "article",
+  "categories": [
+    "learning",
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "design system for ai",
+    "claude code",
+    "design.md",
+    "ai design rule",
+    "brand rule",
+    "figma mcp",
+    "ai slop",
+    "prompt",
+    "ai design",
+    "design reference file",
+    "on brand design"
+  ],
+  "contains": [
+    "free preview of the first two parts",
+    "Figma-to-Claude MCP workflow",
+    "four files: brand rules, DESIGN.md, examples folder, prompts",
+    "the 29 tells of AI design",
+    "paid subscription unlocks the rest"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

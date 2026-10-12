@@ -1,0 +1,36 @@
+{
+  "id": "orbs-jakubantalik-com",
+  "url": "https://orbs.jakubantalik.com",
+  "kind": "site",
+  "hints_hash": "81ff64837ecb855d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://orbs.jakubantalik.com", "title": "Thinking orbs moved to a new home", "status": 200},
+    {"url": "https://libraries.dev/orbs", "title": "Orb: thinking-orbs playground | Libraries.dev", "status": 200},
+    {"url": "https://libraries.dev/how-to-use.html", "title": "How to use · Libraries.dev", "status": 200},
+    {"url": "https://libraries.dev/pro.html", "title": "Libraries Pro: Unlock the Studio for every library", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Thinking orbs",
+  "summary": "Animated thinking-orb loading states for AI interfaces: nine hand-tuned states on a 2D canvas, npm package thinking-orbs.",
+  "description": "A small React library of thought-orb loading indicators for AI interfaces, with nine hand-tuned animated states on a 2D canvas. Install the thinking-orbs package from npm; this page has moved to a live playground at libraries.dev/orbs, where the orbs can be tuned in a Studio. Free libraries are MIT licensed; a Pro plan adds deep Studio customization.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["loader", "ai-agent-ui"],
+  "keywords": ["thinking orb", "loading indicator", "ai interface", "ai agent ui", "animated orb", "loader", "spinner", "canvas animation", "react", "react native", "npm package", "loading state", "thinking state", "chat ui"],
+  "contains": [
+    "nine hand-tuned animated states on a 2D canvas",
+    "npm package: thinking-orbs",
+    "react-native port (thinking-orbs-native) is not on npm yet",
+    "moved to libraries.dev/orbs — one of seven libraries (beam, orb, avatars, gooey, metal, image, voice)",
+    "free libraries are MIT; Pro plan $9/mo adds the Studio and Pro presets"
+  ],
+  "formats": ["code", "npm-package"],
+  "stack": ["react", "typescript", "react-native"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://libraries.dev/orbs", "npm": "thinking-orbs", "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3d-marutto-art",
+  "url": "https://3d.marutto.art",
+  "kind": "site",
+  "hints_hash": "09d5af11c8fc37cc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://3d.marutto.art", "title": "3d.marutto.art — everyone's miniature worlds", "status": null},
+    {"url": "https://3d.marutto.art/materials", "title": "Materials — 3d.marutto.art", "status": 200}
+  ],
+  "status": "ok",
+  "name": "3d.marutto.art",
+  "summary": "Gallery of miniature 3D worlds built in the browser: browse 28 scenes and 14 materials, then remix one in the editor.",
+  "description": "A browser gallery of small dioramas and islands: every world lists its model count and date, has a details page and a one-click reMix that opens it in the editor preloaded. A separate materials library holds 14 reusable 3D models (fish, tree, moon, bus, penguins) with file sizes, each pullable into the editor with one click.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["3d"],
+  "keywords": ["miniature world", "diorama", "3d scene", "3d gallery", "browser 3d", "3d editor", "remix", "3d model", "model library", "creative showcase"],
+  "contains": ["28 user-made 3D worlds, 5–11 models each", "14 reusable 3D materials with file sizes", "one-click reMix opens a world in the editor", "materials can be pulled into the editor with one click", "worlds dated 2026-09"],
+  "formats": ["app", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

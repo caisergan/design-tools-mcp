@@ -1,0 +1,130 @@
+{
+  "id": "ui-beste-co",
+  "url": "https://ui.beste.co",
+  "kind": "site",
+  "hints_hash": "140301646dc2db0d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.beste.co/llms.txt",
+      "title": "Beste UI",
+      "status": null
+    },
+    {
+      "url": "https://ui.beste.co",
+      "title": "Beste UI - Production-ready shadcn/tailwind blocks & components",
+      "status": 200
+    },
+    {
+      "url": "https://beste.dev/docs",
+      "title": "Documentation - Beste UI",
+      "status": 200
+    },
+    {
+      "url": "https://beste.dev/blocks",
+      "title": "All Blocks - Beste UI",
+      "status": 200
+    },
+    {
+      "url": "https://beste.dev/pricing",
+      "title": "Pricing - Beste UI",
+      "status": 200
+    },
+    {
+      "url": "https://beste.dev/license",
+      "title": "License - Beste UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Beste UI",
+  "summary": "Catalog of 2,236 shadcn/ui blocks, 1,325 pieces and 292 components for React and Tailwind, installed by shadcn CLI or MCP.",
+  "description": "A catalog of production-ready UI built on shadcn/ui and Tailwind CSS: 2,236 full-page blocks in 48 categories (hero, feature, pricing, footer, navigation …), 1,325 small pieces and 292 styled primitives, plus 23 whole pages assembled from blocks. Everything installs into your repo as copy-paste React source with the shadcn CLI (npx shadcn add https://beste.dev/r/<name>) or through an MCP server for AI agents; every asset ships in Radix and Base UI flavors. Pieces, components and 168 blocks are free; a one-time Pro licence ($159, $359 team) unlocks the rest.",
+  "type": "block-library",
+  "categories": [
+    "components",
+    "sections",
+    "registries"
+  ],
+  "elements": [
+    "features",
+    "hero",
+    "cta",
+    "faq",
+    "navbar",
+    "stats",
+    "pricing",
+    "footer",
+    "testimonials",
+    "chat",
+    "form",
+    "dashboard"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn ui",
+    "tailwind css",
+    "react",
+    "block",
+    "page section",
+    "hero section",
+    "pricing section",
+    "feature section",
+    "footer",
+    "navbar",
+    "testimonials",
+    "cta",
+    "faq",
+    "dashboard",
+    "chat",
+    "form",
+    "component library",
+    "ui kit",
+    "shadcn registry",
+    "shadcn cli",
+    "mcp server",
+    "dark mode",
+    "radix ui",
+    "base ui",
+    "landing page"
+  ],
+  "contains": [
+    "2,236 blocks, 1,325 pieces and 292 components (homepage figures)",
+    "2,095-item shadcn registry; llms.txt says 2,095 blocks in 48 categories, 168 free",
+    "23 full pages composed from blocks",
+    "install: npx shadcn add https://beste.dev/r/<name> or MCP server",
+    "every asset ships in Radix and Base UI flavors",
+    "React 19 + Tailwind CSS v4 copy-paste source, no runtime dependency",
+    "theming via CSS variables, dark mode, radius and tones",
+    "Pro: one-time $159 lifetime (1 developer) or $359 team (8 developers)"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "typescript",
+    "radix",
+    "base-ui"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://beste.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,39 @@
+{
+ "id": "github-com-moumen-soliman-uitripled",
+ "url": "https://github.com/moumen-soliman/uitripled",
+ "kind": "repo",
+ "hints_hash": "961d7565101d4f1f",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/moumen-soliman/uitripled/blob/HEAD/README.md", "title": "moumen-soliman/uitripled README", "status": 200},
+  {"url": "https://github.com/moumen-soliman/uitripled", "title": "GitHub - moumen-soliman/uitripled: Production-ready UI blocks, components, and full pages available in shadcn/ui and Base UI, powered by Framer Motion", "status": 200},
+  {"url": "https://github.com/moumen-soliman/uitripled/blob/HEAD/LICENSE.md", "title": "uitripled/LICENSE.md at HEAD · GitHub", "status": 200},
+  {"url": "https://ui.tripled.work", "title": "UI Components, Blocks & Pages", "status": 200},
+  {"url": "https://ui.tripled.work/components", "title": "Component Library | UI TripleD", "status": 200}
+ ],
+ "status": "ok",
+ "name": "UI TripleD",
+ "summary": "shadcn/ui and Base UI blocks, motion components and full pages with a Landing Builder, Background Builder, Grid Generator and Framer Motion.",
+ "description": "Production-ready UI blocks, components and full pages for shadcn/ui and Base UI, powered by Framer Motion. Ships with a drag-and-drop Landing Builder, a shader-powered Background Builder and a Tailwind grid generator; browse the web library, customize live, and copy the code straight into your project. MIT-licensed Turborepo monorepo (Next.js 16, React 19, TypeScript, Tailwind, Radix UI).",
+ "type": "component-library",
+ "categories": ["components", "sections", "motion"],
+ "elements": ["background"],
+ "keywords": ["shadcn", "base ui", "ui block", "framer motion", "react component", "motion component", "landing page builder", "background builder", "grid generator", "tailwind", "nextjs", "copy paste component", "landing page block", "animated background", "component library", "monorepo"],
+ "contains": [
+  "70+ motion components built with Framer Motion, shadcn/ui, Base UI and Tailwind CSS",
+  "Landing Builder: drag-and-drop shadcn/ui blocks assembled into full landing pages",
+  "Background Builder: shader-powered animated Aurora backgrounds",
+  "Grid Generator: compose Tailwind CSS grid layouts",
+  "components, blocks and full pages; copy the code into your project",
+  "Turborepo + pnpm monorepo: Next.js 16, React 19, TypeScript, Radix UI",
+  "MIT licensed (© 2026 uitripled); live at ui.tripled.work"
+ ],
+ "formats": ["code", "templates"],
+ "stack": ["react", "nextjs", "tailwind", "framer-motion", "typescript"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/moumen-soliman/uitripled", "docs": "https://ui.tripled.work", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

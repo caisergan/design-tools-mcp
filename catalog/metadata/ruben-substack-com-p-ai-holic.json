@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-ai-holic",
+  "url": "https://ruben.substack.com/p/ai-holic",
+  "kind": "page",
+  "hints_hash": "93c31ca8b6f31698",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/ai-holic", "title": "Workaholic. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Workaholic.",
+  "summary": "Essay on how AI increased work rather than reducing it, with five rules against performative productivity.",
+  "description": "Essay arguing that AI made knowledge workers put in more hours, not fewer: it cites a Harvard study, names performative productivity as the enemy and gives five rules plus a starting method to fix it.",
+  "type": "article",
+  "keywords": ["ai productivity", "workaholic", "burnout", "performative productivity", "deep work", "focus", "overwork", "ai workflow", "productivity rule", "habit", "work-life balance", "ai obsession"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.9
+}

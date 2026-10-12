@@ -1,0 +1,33 @@
+{
+  "id": "madewithreactjs-com-billing-sdk",
+  "url": "https://madewithreactjs.com/billing-sdk",
+  "kind": "page",
+  "hints_hash": "150e2c89c7bd1bde",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:36:40Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    {
+      "url": "https://madewithreactjs.com/billing-sdk",
+      "title": "Billing SDK - Billing & Monetization UI Components - Made with React.js",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Billing SDK",
+  "summary": "React billing and monetization components for pricing, usage and subscription flows, built with TypeScript and Tailwind next to shadcn/ui.",
+  "description": "A library of UI building blocks for pricing, usage and subscription workflows that you drop into a React app and wire up to your own data. Built with TypeScript and Tailwind CSS and designed to sit alongside shadcn/ui.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["pricing"],
+  "keywords": ["pricing component", "billing", "subscription", "monetization", "usage-based billing", "react", "typescript", "tailwind", "shadcn ui", "payment", "invoice", "component library", "saas"],
+  "contains": [
+    "UI building blocks for pricing, usage and subscription workflows",
+    "built with TypeScript and Tailwind CSS, designed to work with shadcn/ui",
+    "GitHub repo dodopayments/billingsdk: last commit 3 weeks ago, latest release v1.4.1, 30 open issues"
+  ],
+  "formats": ["code"],
+  "stack": ["react", "tailwind"],
+  "related": { "repo": "https://github.com/dodopayments/billingsdk", "docs": "https://billingsdk.com", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

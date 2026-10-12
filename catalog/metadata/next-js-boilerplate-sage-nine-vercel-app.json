@@ -1,0 +1,32 @@
+{
+  "id": "next-js-boilerplate-sage-nine-vercel-app",
+  "url": "https://next-js-boilerplate-sage-nine.vercel.app",
+  "kind": "site",
+  "hints_hash": "a9967bbd626807d5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://next-js-boilerplate-sage-nine.vercel.app/", "title": null, "status": 200},
+    {"url": "https://next-js-boilerplate-sage-nine.vercel.app/auth/sign-in", "title": null, "status": 200},
+    {"url": "https://next-js-boilerplate-sage-nine.vercel.app/auth/sign-up", "title": null, "status": 200},
+    {"url": "https://next-js-boilerplate-sage-nine.vercel.app/sitemap.xml", "title": null, "status": 404},
+    {"url": "https://next-js-boilerplate-sage-nine.vercel.app/about", "title": null, "status": 404},
+    {"url": "https://next-js-boilerplate-sage-nine.vercel.app/pricing", "title": null, "status": 404}
+  ],
+  "status": "login-required",
+  "name": "unknown",
+  "summary": "unknown",
+  "description": "unknown",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["nextjs", "boilerplate", "template", "authentication", "login", "sign up"],
+  "contains": ["demo site redirects to a sign-in page at /auth/sign-in; content is behind a login"],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.2
+}

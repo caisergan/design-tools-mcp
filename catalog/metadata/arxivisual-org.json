@@ -1,0 +1,29 @@
+{
+  "id": "arxivisual-org",
+  "url": "https://arxivisual.org",
+  "kind": "site",
+  "hints_hash": "9e337f8508d91ff1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:26:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://arxivisual.org", "title": "arXivisual — arXiv Papers, Visualized", "status": 200},
+    {"url": "https://www.arxivisual.org/explore", "title": "Explore Visualized Papers · arXivisual", "status": 200},
+    {"url": "https://arxivisual.org/abs/1706.03762", "title": "Attention Is All You Need · arXivisual", "status": 200}
+  ],
+  "status": "ok",
+  "name": "arXivisual",
+  "summary": "Turns any arXiv paper into an interactive scrollytelling explainer with AI-generated animations.",
+  "description": "Paste an arXiv URL or ID and the site generates an interactive scrollytelling breakdown of the paper, section by section. An explore page lists papers that have already been visualized, and any paper can be opened directly by adding \"isual\" to the arxiv.org hostname (arxiv.org/abs/… becomes arxivisual.org/abs/…).",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["arxiv", "research paper", "paper visualization", "scrollytelling", "ai animation", "manim", "explainer video", "machine learning", "deep learning", "llm", "paper summary", "interactive explainer"],
+  "contains": ["turns any arXiv URL or ID into a visual, narrated breakdown", "AI-generated Manim animations, section by section", "library of already visualized papers to browse", "add 'isual' to an arxiv.org link to open the visualized version"],
+  "formats": ["app", "video"],
+  "stack": ["manim"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

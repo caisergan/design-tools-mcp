@@ -1,0 +1,25 @@
+{
+  "id": "skills-sh-nextlevelbuilder-ui-ux-pro-max-skill-design",
+  "url": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/design",
+  "kind": "page",
+  "hints_hash": "e4c1642b7eb8c506",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/design", "title": "design — nextlevelbuilder/ui-ux-pro-max-skill", "status": null},
+    {"url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "title": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Design",
+  "summary": "Agent skill for brand identity, design tokens, UI styling, logo generation, CIP deliverables, slides, banners and social assets.",
+  "description": "The design skill of the UI UX Pro Max pack, routing each request to a sub-skill: brand identity and voice, design system tokens and specs, UI styling with shadcn/ui and Tailwind, logo design and AI generation, corporate identity program deliverables, pitch decks, banners for social media, ads, web and print, social photos and icons. Installs like the rest of the pack and is used for brand and asset work rather than only interface code.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": ["agent skill", "design skill", "brand identity", "design token", "design system", "ui styling", "shadcn", "tailwind", "logo design", "logo generation", "corporate identity", "pitch deck", "presentation", "banner design", "social media asset", "icon", "skill.md", "ai image generation"],
+  "contains": ["brand identity, voice and assets", "design system tokens and specs", "UI styling with shadcn/ui + Tailwind", "logo design and AI generation", "CIP deliverables, pitch decks, social banners, social photos, icons", "34.9K installs on skills.sh"],
+  "formats": ["prompts", "cli"],
+  "stack": ["tailwind", "shadcn"],
+  "related": {"repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.8
+}

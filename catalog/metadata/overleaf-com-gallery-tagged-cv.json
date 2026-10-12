@@ -1,0 +1,22 @@
+{
+ "id": "overleaf-com-gallery-tagged-cv",
+ "url": "https://overleaf.com/gallery/tagged/cv",
+ "kind": "page",
+ "hints_hash": "b44ee5d3bebee0c4",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://overleaf.com/gallery/tagged/cv", "title": "Gallery - Templates, Examples and Articles written in LaTeX - Overleaf, Online LaTeX Editor", "status": 200}
+ ],
+ "status": "ok",
+ "name": "LaTeX templates and examples — CVs and résumés",
+ "summary": "Gallery of LaTeX CV and résumé templates on Overleaf, with staff picks, recent uploads and community examples.",
+ "description": "Overleaf's gallery filtered to CVs and résumés: LaTeX templates, examples and community articles that open in the online LaTeX editor, each with a description and author. Items are split into staff-picked and recent lists and cross-linked with related tags such as cover letter, two-column, XeLaTeX and LuaLaTeX.",
+ "type": "gallery",
+ "categories": ["inspiration"],
+ "elements": [],
+ "keywords": ["latex template", "cv template", "resume template", "curriculum vitae", "latex", "academic cv", "template gallery", "cover letter", "community template", "staff pick", "document template"],
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

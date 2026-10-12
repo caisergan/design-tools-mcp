@@ -1,0 +1,27 @@
+{
+  "id": "github-com-jacksonkasi0-nextjs-multi-image-upload",
+  "url": "https://github.com/jacksonkasi0/nextjs-multi-image-upload",
+  "kind": "repo",
+  "hints_hash": "ede3b3be9171945c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/jacksonkasi0/nextjs-multi-image-upload/blob/HEAD/README.md", "title": "Next.js Multi-Image Upload", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Next.js Multi-Image Upload",
+  "summary": "Reusable multi-image uploader for Next.js with previews, progress overlays and signed-URL API routes.",
+  "description": "A copy-into-your-project component built with shadcn/ui, react-hook-form, zod and Tailwind CSS. It uploads several images with a configurable maximum, shows per-image upload progress, animates deletions, and ships signed URL and delete API routes plus an S3 bucket setup guide.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["file-upload", "form", "progress"],
+  "keywords": ["file upload", "image upload", "multi image upload", "react hook form", "shadcn ui", "nextjs", "tailwind css", "signed url", "s3", "upload progress", "form validation", "zod", "typescript", "cloud storage", "cloudinary"],
+  "contains": ["configurable maximum images (default 5)", "per-image upload progress overlay", "glow-and-dim delete animation", "react-hook-form and zod validation integration", "signed URL upload and delete API routes with S3 setup guide", "props: value, onChange, maxImages, name, accept, imageRegex", "MIT license"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "react-hook-form", "zod", "shadcn-ui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/jacksonkasi0/nextjs-multi-image-upload", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

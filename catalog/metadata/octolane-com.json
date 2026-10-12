@@ -1,0 +1,31 @@
+{
+  "id": "octolane-com",
+  "url": "https://octolane.com",
+  "kind": "site",
+  "hints_hash": "1ca613120dc310e6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://octolane.com/llms.txt", "title": "Octolane AI", "status": null},
+    {"url": "https://octolane.com", "title": "Octolane", "status": 200},
+    {"url": "https://www.octolane.com/pricing", "title": "Pricing · Octolane", "status": 200},
+    {"url": "https://www.octolane.com/faq", "title": "FAQ – Octolane AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Octolane",
+  "summary": "AI-native CRM whose agents find deals, draft follow-ups and keep records updated from email, calls and meetings.",
+  "description": "Octolane runs an AI agent on every account: it finds deals in the inbox, drafts personalised follow-ups based on the actual conversation, identifies anonymous website visitors and updates CRM fields automatically, with every action awaiting human approval. It can serve as the CRM or run on top of an existing one; the site presents plan tiers with a feature comparison table plus security and compliance notes (SOC 2 Type II, ISO 27001, HIPAA, GDPR).",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["hero", "stats", "chart", "faq", "pricing", "table"],
+  "variants": {"pricing": ["comparison-table", "billing-toggle"]},
+  "keywords": ["ai crm", "sales pipeline", "crm", "crm alternative", "ai agent", "follow-up", "deal finder", "lead enrichment", "website visitor identification", "sales automation", "revenue intelligence", "email sequencing", "meeting transcription", "sales workflow"],
+  "contains": ["AI deal finder, follow-up drafting and buyer-signal features", "pricing: free tier ($0, 20 AI activities) and paid plans (Pro $39, Business $79 per seat/month; higher tiers custom)", "comparison table of features across plans", "homepage figures: 4.4M actions, $700M pipeline managed, 51% of revenue work by agents", "CRM migration from other CRMs; AI enrichment and email sequencing on higher tiers", "SOC 2 Type II, ISO 27001, HIPAA, GDPR, CCPA"],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://octolane.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

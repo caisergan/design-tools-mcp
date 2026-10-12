@@ -1,0 +1,45 @@
+{
+  "id": "ruben-substack-com-p-claude-cowork-project",
+  "url": "https://ruben.substack.com/p/claude-cowork-project",
+  "kind": "page",
+  "hints_hash": "4746710f2134a69f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ruben.substack.com/p/claude-cowork-project",
+      "title": "Claude Cowork + Project. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Claude Cowork + Project",
+  "summary": "Guide to setting up Claude Cowork Projects with persistent memory, instructions and scheduled tasks.",
+  "description": "A how-to post by Ruben Hassid on Claude Cowork Projects: what they are, how to create one from scratch, by importing an existing Claude Project or from a local folder, how to run daily workflows like a weekly newsletter, and where the feature falls short.",
+  "type": "article",
+  "keywords": [
+    "ai agent",
+    "ai workflow",
+    "custom instruction",
+    "persistent memory",
+    "scheduled task",
+    "desktop app",
+    "ai guide",
+    "workspace setup",
+    "team workflow",
+    "productivity"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ruben-substack-com"
+  },
+  "confidence": 0.85
+}

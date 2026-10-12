@@ -1,0 +1,37 @@
+{
+  "id": "assistapp-dev",
+  "url": "https://assistapp.dev",
+  "kind": "site",
+  "hints_hash": "6d1d79505500a2f6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://assistapp.dev/llms.txt", "title": "Assist", "status": null},
+    {"url": "https://assistapp.dev", "title": "Assist for Mac — Clipboard, Notes, Focus Timers & Notch Modules", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Assist",
+  "summary": "Local-first Mac app for voice-annotated screenshots, capture editing and clipboard history in the notch.",
+  "description": "A native macOS utility ($20 one-time). Hold Option anywhere to draw over the screen and speak: the annotated screenshot is saved with a local Whisper transcript, ready to paste into Cursor, Claude Code or Codex. Control+Option captures the full display with a quick crop, blur and frame editor. The notch hosts eleven optional modules — clipboard history, file shelf, notes, focus timers, calendar, media controls, system stats, screen time, image conversion, revenue and AI usage.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["list", "calendar", "stats"],
+  "keywords": ["mac app", "screenshot annotation", "voice annotation", "clipboard history", "clipboard manager", "notch app", "screen capture", "screenshot editor", "local-first", "macos utility", "developer tool", "ai coding agent", "whisper"],
+  "contains": [
+    "$20 one-time purchase, one Mac per license, 1.x updates included",
+    "macOS 14+; local voice transcription needs Apple silicon",
+    "hold Option to draw and dictate; the transcript is attached to the annotated screenshot",
+    "Control+Option full-screen capture with crop, blur, padding, rounded corners, shadows and backdrops",
+    "clipboard history for text, links and images with filtering and drag-out",
+    "eleven notch modules: clipboard, shelf, notes, timers, calendar, media, system, screen time, convert, revenue, AI usage",
+    "revenue module reads Stripe/Polar/Dodo keys from the Keychain; AI usage reads local Claude Code and Codex logs",
+    "local-first: screenshots, transcripts and history stay on the Mac"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

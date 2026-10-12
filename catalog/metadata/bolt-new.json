@@ -1,0 +1,29 @@
+{
+  "id": "bolt-new",
+  "url": "https://bolt.new",
+  "kind": "site",
+  "hints_hash": "d41a60cc22343b61",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bolt.new", "title": "Bolt AI builder: Websites, apps & prototypes", "status": 200},
+    {"url": "https://bolt.new/get-started", "title": "Get started with Bolt", "status": 200},
+    {"url": "https://bolt.new/pricing", "title": "Plans & pricing: Bolt's AI powered website and app builder", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Bolt",
+  "summary": "AI builder that turns chat prompts into websites, apps and prototypes, with hosting and databases built in.",
+  "description": "Bolt is an AI builder that creates websites, apps and prototypes from chat prompts. It ships templates (dashboards, storefronts, portfolios), imports design systems from GitHub, private npm registries or Storybook, and runs Bolt Cloud for hosting, custom domains, databases, auth, analytics and SEO. Plans run from Free to Pro, Teams and Enterprise.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "templates"],
+  "elements": [],
+  "keywords": ["ai app builder", "ai website builder", "no-code", "prompt to app", "prototyping", "ai coding agent", "hosting", "database", "authentication", "deploy", "website template", "dashboard template", "saas", "small business app"],
+  "contains": ["build websites and apps by chatting with AI", "use cases: AI app builder, AI website builder, SaaS dev, prototyping", "templates: dashboards, storefronts, portfolios to fork", "Bolt Cloud: hosting, custom domains, databases, auth, analytics, SEO", "design system import from GitHub, private npm registries and Storybook", "plans: Free ($0, 300K tokens/day), Pro $25/mo, Teams $30 per member, Enterprise", "model routing between standard and max Bolt Agent", "trusted by Google, Microsoft, Salesforce, AWS, Meta, Stripe and others"],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://bolt.new/get-started", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,131 @@
+{
+  "id": "stylextras-nmn-sh",
+  "url": "https://stylextras.nmn.sh",
+  "kind": "site",
+  "hints_hash": "9352e465db029a7f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:55:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://stylextras.nmn.sh",
+      "title": "StyleX — styling system for ambitious interfaces",
+      "status": null
+    },
+    {
+      "url": "https://stylextras.nmn.sh/docs",
+      "title": "Components | StyleXtras",
+      "status": null
+    },
+    {
+      "url": "https://stylextras.nmn.sh/docs/get-started",
+      "title": "Get started | StyleX",
+      "status": null
+    },
+    {
+      "url": "https://github.com/nmn/stylextras",
+      "title": "GitHub - nmn/stylextras",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/nmn/stylextras/blob/main/README.md",
+      "title": "stylextras/README.md at main · nmn/stylextras",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "StyleXtras",
+  "summary": "Tokenized React components built on modern browser APIs and styled with StyleX.",
+  "description": "A native-first React UI library styled with StyleX. Each component styles native HTML elements and leans on modern platform APIs, adding small client controllers only where the browser lacks behavior. The stable catalog has 58 entrypoints across native, native-enhanced and client-composite tiers, plus an experimental set of advanced controls; themes are plain StyleX style objects with no provider or theme root.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "file-upload",
+    "form",
+    "input",
+    "list",
+    "loader",
+    "menubar",
+    "modal",
+    "navbar",
+    "otp-input",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "react",
+    "stylex",
+    "component library",
+    "ui kit",
+    "native html",
+    "accessible component",
+    "typescript",
+    "design token",
+    "theme",
+    "command palette",
+    "date picker",
+    "data table",
+    "combobox",
+    "dialog",
+    "toast",
+    "form component",
+    "css-in-js"
+  ],
+  "contains": [
+    "58 stable component entrypoints generated from the package manifest",
+    "34 native / zero behavior-JS, 17 native enhanced, 7 client composites",
+    "experimental catalog: color fields, date range picker, file drop zone, image cropper, tree",
+    "theme exports are plain StyleX style objects — no provider, context or theme root",
+    "no package CSS file or separate UI build step; ships TypeScript, JSX and StyleX source",
+    "canonical subpath per component; no package barrel"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "stylex",
+    "typescript"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/nmn/stylextras",
+    "docs": "https://stylextras.nmn.sh/docs",
+    "npm": "@stylextras/ui",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

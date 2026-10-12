@@ -1,0 +1,42 @@
+{
+  "id": "ui-kitze-io",
+  "url": "https://ui.kitze.io",
+  "kind": "site",
+  "hints_hash": "3904f04088aa6525",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.kitze.io/llms.txt", "title": "Kitze UI", "status": null},
+    {"url": "https://ui.kitze.io", "title": "Kitze UI", "status": 200},
+    {"url": "https://ui.kitze.io/guide", "title": "Kitze UI", "status": 200},
+    {"url": "https://ui.kitze.io/component/kbd", "title": "Kitze UI", "status": 200},
+    {"url": "https://ui.kitze.io/component/input", "title": "Kitze UI", "status": 200},
+    {"url": "https://ui.kitze.io/component/dialog", "title": "Kitze UI", "status": 200},
+    {"url": "https://ui.kitze.io/registry.json", "title": null, "status": 200},
+    {"url": "https://github.com/kitze/kitze-ui", "title": "GitHub - kitze/kitze-ui · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kitze UI",
+  "summary": "Source registry of React components built on Base UI and shadcn, with dialogs, menus, forms and pickers that adapt to mobile drawers.",
+  "description": "A shadcn-compatible registry of 75 React components and utilities (76 registry items) with small prop APIs, built on Base UI and Tailwind CSS. Responsive by default: dialogs, dropdowns, context menus, selects and pickers become bottom drawers on mobile through KitzeUIProvider and an isMobile breakpoint hook. Includes form field wrappers, emoji and icon pickers with 20 color presets, a dialog manager, menu items with inline or dialog delete confirmation, keyboard shortcut keycaps, gradient text and social login buttons; installed into your project with the shadcn CLI, so you own the source.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["input", "button", "checkbox", "switch", "select", "dropdown", "form", "modal", "popover", "tooltip", "loader", "tabs", "accordion", "text-effect"],
+  "keywords": ["react component", "shadcn", "shadcn registry", "base ui", "tailwind css", "component library", "copy paste", "source registry", "responsive component", "bottom drawer", "dialog", "dropdown menu", "context menu", "form field", "emoji picker", "icon picker", "dialog manager", "keyboard shortcut", "social login", "mobile", "accessible", "reduced motion", "typescript", "cli"],
+  "contains": [
+    "75 components and utilities; 76 registry items installable with the shadcn CLI",
+    "install: npx shadcn@latest add https://ui.kitze.io/r/COMPONENT.json",
+    "responsive by default: components become bottom drawers on mobile via KitzeUIProvider and isMobile",
+    "pickers: emoji (Unicode), icon (Lucide via Iconify), combined, with 20 color presets",
+    "form field wrappers, dialog manager, common menu item with inline or dialog delete confirmation",
+    "every component page has Copy for agents with docs URL, install command and purpose",
+    "the installed source is yours to customize"
+  ],
+  "formats": ["registry", "cli", "code", "docs"],
+  "stack": ["react", "base-ui", "tailwind", "typescript", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/kitze/kitze-ui", "docs": "https://ui.kitze.io/guide", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

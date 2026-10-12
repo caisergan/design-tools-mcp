@@ -1,0 +1,32 @@
+{
+  "id": "zepa-design",
+  "url": "https://zepa.design",
+  "kind": "site",
+  "hints_hash": "8faa6c31a3cbb568",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://zepa.design", "title": "Zepa UI — Free React Components & Hero Sections | zepa.design", "status": null },
+    { "url": "https://zepa.design/docs", "title": "Docs | Zepa UI", "status": 200 },
+    { "url": "https://zepa.design/components", "title": "Components | Zepa UI", "status": null },
+    { "url": "https://zepa.design/components/do-grid", "title": "Do Grid", "status": null },
+    { "url": "https://zepa.design/components/air-hero", "title": "Air Hero", "status": null }
+  ],
+  "status": "ok",
+  "name": "Zepa UI",
+  "summary": "Copy-paste React hero sections, grids and animated landing-page blocks, installable with the shadcn CLI.",
+  "description": "Zepa UI is a free copy-paste React component library for landing pages: 34 hero sections, 6 navbars, grid sections, animation blocks and single components like calendar, timeline and toast, each with a live demo and install command. Components install with the shadcn CLI; licensed MIT + Commons Clause (free to use, not to resell).",
+  "type": "component-library",
+  "categories": ["components", "sections"],
+  "elements": ["hero", "navbar", "card", "slider", "globe", "calendar", "toast", "timeline"],
+  "variants": { "hero": ["video"], "navbar": ["floating", "transparent"] },
+  "keywords": ["hero", "hero section", "landing page", "shadcn", "react component", "nextjs", "tailwind", "copy paste", "grid", "navbar", "animation", "scroll animation", "globe", "timeline", "toast", "free"],
+  "contains": ["34 hero sections and 6 navbars in the library", "hover preview videos on the component gallery", "installs with the shadcn CLI", "contributing docs and meta.ts workflow", "MIT + Commons Clause: free to use, not to resell"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT-Commons-Clause",
+  "related": { "repo": null, "docs": "https://zepa.design/docs", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

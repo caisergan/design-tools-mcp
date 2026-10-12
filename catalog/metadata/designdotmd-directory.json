@@ -1,0 +1,60 @@
+{
+  "id": "designdotmd-directory",
+  "url": "https://designdotmd.directory",
+  "kind": "site",
+  "hints_hash": "759e011135c87998",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designdotmd.directory",
+      "title": "designdotmd.directory — the directory of DESIGN.md files for coding agents",
+      "status": null
+    },
+    {
+      "url": "https://designdotmd.directory/cli",
+      "title": "designdotmd.directory — the directory of DESIGN.md files for coding agents",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "designdotmd.directory",
+  "summary": "Directory of DESIGN.md files: browse, preview and install visual identities any coding agent can read, with tokens next to rationale.",
+  "description": "Browse, preview and install DESIGN.md files — visual identities any coding agent can read, with design tokens shown next to their rationale. Pages are rendered client-side, so only the title and meta description were readable.",
+  "type": "directory",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "design.md",
+    "design system",
+    "design token",
+    "coding agent",
+    "ai agent",
+    "visual identity",
+    "agent-readable design"
+  ],
+  "contains": [
+    "DESIGN.md files for coding agents",
+    "browse, preview and install flows",
+    "tokens shown next to rationale"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.55
+}

@@ -1,0 +1,80 @@
+{
+  "id": "typehug-aliszu-com",
+  "url": "https://typehug.aliszu.com",
+  "kind": "site",
+  "hints_hash": "6a3a37c585ce800b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://typehug.aliszu.com",
+      "title": "Typehug · Keep words together",
+      "status": null
+    },
+    {
+      "url": "https://typehug.aliszu.com/docs/inspection.md",
+      "title": "Inspecting original text",
+      "status": null
+    },
+    {
+      "url": "https://typehug.aliszu.com/index.md",
+      "title": "Typehug",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Typehug",
+  "summary": "Tool and npm package that adds nonbreaking spaces to English and Polish text.",
+  "description": "Typehug inserts nonbreaking spaces for English and Polish through five rule families: short words, numbers and units, initials, references and paragraph endings. It works on plain text, HTML and formatted runs; the site's playground shows a before/after comparison and inspects invisible characters, and the engine ships as ESM TypeScript packages (@typehug/en, @typehug/pl, @typehug/all) for Node.js 22+.",
+  "type": "tool",
+  "categories": [
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "nonbreaking space",
+    "nbsp",
+    "typography",
+    "text wrapping",
+    "orphan control",
+    "widow control",
+    "line break",
+    "polish typography",
+    "html",
+    "npm package",
+    "typescript",
+    "node",
+    "playground",
+    "word joiner"
+  ],
+  "contains": [
+    "five rule families: short words, numbers and units, initials, references, paragraph endings",
+    "English and Polish rule sets",
+    "plain text, HTML and formatted-run inputs",
+    "playground with before/after preview and invisible character inspector",
+    "npm packages @typehug/en, @typehug/pl, @typehug/all; ESM and TypeScript; Node.js 22+"
+  ],
+  "formats": [
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "typescript",
+    "node"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://typehug.aliszu.com/index.md",
+    "npm": "@typehug/en",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

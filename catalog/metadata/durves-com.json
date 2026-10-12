@@ -1,0 +1,28 @@
+{
+  "id": "durves-com",
+  "url": "https://durves.com",
+  "kind": "site",
+  "hints_hash": "749c402399e2cbc0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:24:25Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://durves.com", "title": "Durves - Design Pattern Tool", "status": 200},
+    {"url": "https://www.durves.com/", "title": "Durves - Design Pattern Tool", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Durves",
+  "summary": "Web tool for creating and exporting dot patterns, aimed at graphic designers, UI/UX and other visual professionals.",
+  "description": "A browser tool that generates dot matrix patterns from adjustable settings: matrix proportion, size and color, plus dot radius, amplitude, waves and frequency for the pattern itself. The site also points to a Framer plugin version of the tool.",
+  "type": "generator",
+  "categories": ["color-effects", "design-tools"],
+  "elements": [],
+  "keywords": ["dot pattern", "pattern generator", "halftone pattern", "dot matrix", "pattern tool", "background pattern", "framer plugin", "wave pattern", "texture", "graphic design", "ui pattern", "svg pattern"],
+  "contains": ["matrix settings: proportion, size, color", "dot properties: radius, amplitude, waves, frequency", "available as a Framer plugin"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

@@ -1,0 +1,146 @@
+{
+  "id": "thegridcn-com",
+  "url": "https://thegridcn.com",
+  "kind": "site",
+  "hints_hash": "ffa726d39f21e1e2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://thegridcn.com",
+      "title": "The Gridcn | Tron-Inspired shadcn/ui Theme",
+      "status": 200
+    },
+    {
+      "url": "https://thegridcn.com/docs/install",
+      "title": "Install Guide | The Gridcn",
+      "status": 200
+    },
+    {
+      "url": "https://thegridcn.com/components",
+      "title": "Components | The Gridcn",
+      "status": 200
+    },
+    {
+      "url": "https://thegridcn.com/templates",
+      "title": "Templates | The Gridcn",
+      "status": 200
+    },
+    {
+      "url": "https://thegridcn.com/templates/blog",
+      "title": "Blog Template | The Gridcn",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/educlopez/thegridcn-ui",
+      "title": "GitHub - educlopez/thegridcn-ui: An authentic Tron: Ares inspired theme system for shadcn/ui · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/educlopez/thegridcn-ui/HEAD/README.md",
+      "title": "The GridCN",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "The GridCN",
+  "summary": "Tron-inspired shadcn/ui theme system and registry: 55+ base components, 90+ HUD-style components, six Greek-god color schemes.",
+  "description": "Turns plain shadcn/ui into a neon, glass-HUD design system modeled after Tron: Ares. Grid-native components (data cards, HUD frames, radars, timers, 3D grids), six oklch themes, three.js effects and glow utilities, all installed one by one through npx shadcn add or copied as raw TSX you own.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries",
+    "color-effects"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "card",
+    "chart",
+    "dashboard",
+    "drawer",
+    "dropdown",
+    "faq",
+    "features",
+    "form",
+    "hero",
+    "input",
+    "loader",
+    "menubar",
+    "modal",
+    "pagination",
+    "pricing",
+    "progress",
+    "sidebar",
+    "stats",
+    "switch",
+    "table",
+    "tabs",
+    "testimonials",
+    "toast",
+    "3d"
+  ],
+  "variants": {
+    "sidebar": [
+      "collapsible"
+    ]
+  },
+  "keywords": [
+    "tron",
+    "shadcn ui",
+    "shadcn registry",
+    "theme",
+    "sci-fi",
+    "hud",
+    "3d",
+    "glow",
+    "neon",
+    "dark theme",
+    "react",
+    "tailwind css",
+    "three.js",
+    "radix ui",
+    "base ui",
+    "dashboard template",
+    "landing page template",
+    "component"
+  ],
+  "contains": [
+    "55+ base components and 90+ Tron-flavored components (144 registry items)",
+    "6 Greek-god color schemes: Tron, Ares, Clu, Athena, Aphrodite, Poseidon",
+    "themes built on oklch() CSS variables; glow, scanline and HUD utilities",
+    "install via shadcn CLI with the @thegridcn namespace or a full URL",
+    "5 templates: dashboard, landing, blog, login, analytics",
+    "three.js effects: 3D grid, particles and light beams",
+    "works with Next.js, Vite, Remix; Radix UI or Base UI"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "three.js",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/educlopez/thegridcn-ui",
+    "docs": "https://thegridcn.com/docs/install",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

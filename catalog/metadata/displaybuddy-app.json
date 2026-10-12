@@ -1,0 +1,90 @@
+{
+  "id": "displaybuddy-app",
+  "url": "https://displaybuddy.app",
+  "kind": "site",
+  "hints_hash": "b3c042df0e6d9527",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://displaybuddy.app",
+      "title": "Control External Monitor Brightness on Mac & Windows | DisplayBuddy",
+      "status": 200
+    },
+    {
+      "url": "https://displaybuddy.app/docs",
+      "title": "DisplayBuddy Documentation | DisplayBuddy",
+      "status": 200
+    },
+    {
+      "url": "https://displaybuddy.app/pricing",
+      "title": "Pricing — DisplayBuddy",
+      "status": 200
+    },
+    {
+      "url": "https://displaybuddy.app/faq",
+      "title": "FAQ — DisplayBuddy",
+      "status": 200
+    },
+    {
+      "url": "https://displaybuddy.app/docs/sync",
+      "title": "Sync | DisplayBuddy",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "DisplayBuddy",
+  "summary": "Mac and Windows utility that controls external monitor brightness, contrast, volume and inputs over DDC.",
+  "description": "DisplayBuddy controls external display brightness, contrast, volume, input source, resolution and rotation from the menu bar, with sync across displays, presets and schedules tied to sunrise, sunset, time, charger or display connection. It talks DDC to Dell, LG, Samsung, Acer, BenQ and others, falls back to gamma control, and reaches LG webOS and Samsung Tizen smart monitors over Wi-Fi. One-time purchase for macOS 10.13+ and Windows, with Shortcuts, Siri, CLI and MCP support.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "monitor brightness",
+    "external display",
+    "display control",
+    "ddc",
+    "menu bar app",
+    "brightness slider",
+    "preset",
+    "schedule",
+    "sync",
+    "siri",
+    "shortcut",
+    "automation",
+    "macos",
+    "window",
+    "cli"
+  ],
+  "contains": [
+    "controls brightness, contrast, volume, input source, resolution and rotation",
+    "sync mode mirrors adjustments across displays; presets restore whole setups in one click",
+    "schedules on sunrise, sunset, time of day, charger or connected display",
+    "DDC control with automatic gamma fallback and Wi-Fi control for LG webOS / Samsung Tizen monitors",
+    "macOS Shortcuts, Siri, a displaybuddy CLI and MCP for scripting and AI agents",
+    "pricing: $24.99 (1 Mac), $29.99 (2 Macs), $49.99 (5 Macs), one-time payment",
+    "also distributed on SetApp; 166 sitemap URLs with docs, FAQ, guides and comparison pages"
+  ],
+  "formats": [
+    "app",
+    "cli"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://displaybuddy.app/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

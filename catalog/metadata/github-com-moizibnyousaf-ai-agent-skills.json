@@ -1,0 +1,29 @@
+{
+  "id": "github-com-moizibnyousaf-ai-agent-skills",
+  "url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills",
+  "kind": "repo",
+  "hints_hash": "24543eec20ef5a76",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/blob/HEAD/README.md", "title": "ai-agent-skills README", "status": 200},
+    {"url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills", "title": "GitHub - MoizIbnYousaf/ai-agent-skills", "status": 200},
+    {"url": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills/blob/HEAD/LICENSE", "title": "ai-agent-skills/LICENSE", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AI Agent Skills",
+  "summary": "Curated library of agent skills plus a CLI and TUI to install them and build your own skill library.",
+  "description": "A curated library of Agent Skills for AI coding agents, with an installer CLI and TUI. The bundled library ships 115 cataloged skills (17 house copies, 98 cataloged upstream) arranged in shelves — frontend, backend, mobile, workflow, agent engineering, marketing — and smaller collections. It installs to ~/.claude/skills or .agents/skills and works with any Agent Skills-compatible agent; managed workspaces let you add, catalog, vendor and curate your own picks.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill installer", "ai coding agent", "claude code", "cursor", "codex", "cli", "tui", "skill library", "claude skill", "npm package", "mcp", "frontend skill", "swift skill", "prompt library"],
+  "contains": ["115 cataloged skills (17 house copies, 98 cataloged upstream)", "shelves: frontend 10, backend 5, mobile 24, workflow 12, agent engineering 14, marketing 76", "collections: my-picks, build-apps, swift-agent-skills, build-systems, test-and-debug, docs-and-research, mktg", "CLI: list, browse, install, add, catalog, vendor, curate, sync", "install targets: ~/.claude/skills (global) and .agents/skills (project)", "legacy --agent targets: claude, cursor, codex, amp, vscode, copilot, gemini, goose, opencode, letta, kilocode", "1.1k stars and 133 forks on GitHub", "published on npm as ai-agent-skills"],
+  "formats": ["npm-package", "cli", "code", "docs", "prompts"],
+  "stack": ["node"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/MoizIbnYousaf/Ai-Agent-Skills", "docs": null, "npm": "ai-agent-skills", "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,29 @@
+{
+  "id": "mx-icons-vercel-app",
+  "url": "https://mx-icons.vercel.app",
+  "kind": "site",
+  "hints_hash": "5b1e09382c490d06",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mx-icons.vercel.app", "title": "MX Icons - Open Source React Icon Library | 5,600+ Icons", "status": null},
+    {"url": "https://github.com/ig-imanish/mx-icons", "title": "GitHub - ig-imanish/mx-icons: A modern, lightweight React icon library with beautiful SVG icons", "status": 200},
+    {"url": "https://github.com/ig-imanish/mx-icons/blob/main/README.md", "title": "mx-icons/README.md at main · ig-imanish/mx-icons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MX Icons",
+  "summary": "Open-source React icon library of 5,600+ SVG icons in outline, solid and 16px mini variants.",
+  "description": "A React icon library shipped as tree-shakeable SVG components with no dependencies beyond React 18 or 19. Every icon comes in outline, solid and mini (16px) versions, and components accept size, color and className props; icons are added through pull requests on GitHub. Live demo, icon browser and docs are linked from the README.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["react icon", "svg icon", "icon library", "open source icon", "tree-shakable", "npm icon package", "outline icon", "solid icon", "mini icon", "icon component", "free icon set", "customizable icon"],
+  "contains": ["5,600+ icons in outline, solid and mini (16px) variants", "npm package mx-icons", "tree-shakeable; only imported icons are bundled", "props: size, color, className and other SVG attributes", "zero dependencies; React 18/19 peer dependency", "MIT licensed"],
+  "formats": ["code", "npm-package", "svg", "docs"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ig-imanish/mx-icons", "docs": null, "npm": "mx-icons", "figma": null, "parent": null},
+  "confidence": 0.8
+}

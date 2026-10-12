@@ -1,0 +1,84 @@
+{
+  "id": "superfile-dev",
+  "url": "https://superfile.dev",
+  "kind": "site",
+  "hints_hash": "aa3caf0948744cde",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:43:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://superfile.dev",
+      "title": "superfile - Terminal File Manager",
+      "status": null
+    },
+    {
+      "url": "https://superfile.dev/overview",
+      "title": "Overview | superfile",
+      "status": null
+    },
+    {
+      "url": "https://superfile.dev/getting-started/installation",
+      "title": "Install superfile | superfile",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "superfile",
+  "summary": "Open-source terminal file manager written in Go, with multiple panels, image preview, themes and plugins.",
+  "description": "A terminal file manager for macOS, Linux and Windows built with Go and Bubble Tea: copy, move, delete and rename files, fuzzy search, bulk operations, image preview, split directory panels, remappable hotkeys and 20+ built-in themes, extensible with community plugins. Installs via one-line script, Homebrew, Winget, Scoop, pacman, Nix or Pixi, and runs with the spf command. MIT licensed.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "terminal file manager",
+    "tui",
+    "file manager",
+    "file operation",
+    "command line",
+    "open source",
+    "theme",
+    "plugin",
+    "image preview",
+    "fuzzy search",
+    "hotkey",
+    "macos",
+    "linux",
+    "window",
+    "go"
+  ],
+  "contains": [
+    "open-source terminal file manager in Go with Bubble Tea; MIT licensed",
+    "file operations, fuzzy search, bulk operations and image preview",
+    "multiple directory panels with copy and paste across panels",
+    "remappable hotkeys and 20+ themes (Catppuccin, Nord, Tokyo Night, Dracula, Gruvbox, Rose Pine)",
+    "community plugins (Git status integration, system monitoring, custom commands)",
+    "installs: script, Homebrew, Winget, Scoop, pacman, Nix, Pixi",
+    "runs on macOS, Linux and Windows with the spf command"
+  ],
+  "formats": [
+    "code",
+    "app",
+    "cli"
+  ],
+  "stack": [
+    "go",
+    "bubbletea"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/yorukot/superfile",
+    "docs": "https://superfile.dev/overview",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

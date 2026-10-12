@@ -1,0 +1,37 @@
+{
+  "id": "github-com-salimi-my-shadcn-ui-sidebar",
+  "url": "https://github.com/salimi-my/shadcn-ui-sidebar",
+  "kind": "repo",
+  "hints_hash": "ac570bae81ff3f6a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/salimi-my/shadcn-ui-sidebar/blob/HEAD/README.md", "title": "shadcn/ui sidebar", "status": 200},
+    {"url": "https://github.com/salimi-my/shadcn-ui-sidebar", "title": "GitHub - salimi-my/shadcn-ui-sidebar: A stunning, functional and responsive retractable sidebar for Next.js built on top of shadcn/ui. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn/ui sidebar",
+  "summary": "Retractable Next.js sidebar for shadcn/ui with mini and wide states, collapsible submenus and a mobile sheet menu.",
+  "description": "A retractable app sidebar component for Next.js built on shadcn/ui, responsive on desktop and mobile. It switches between mini and wide states, scrolls its menu, groups items under labels and collapses submenus, with menu items kept in an extracted list and a sheet menu on mobile. State is managed with Zustand; installs from a custom shadcn registry or by copying the components. Demo at shadcn-ui-sidebar.salimi.my. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["sidebar", "drawer"],
+  "variants": {"sidebar": ["collapsible"]},
+  "keywords": ["sidebar", "retractable sidebar", "mini sidebar", "collapsible menu", "submenu", "sheet menu", "mobile menu", "nextjs", "shadcn", "tailwind", "zustand", "admin panel", "dashboard layout", "navigation"],
+  "contains": [
+    "retractable sidebar with mini and wide states",
+    "scrollable menu with grouped items and labels; collapsible submenu",
+    "sheet menu for mobile; extracted menu items list",
+    "stack: Next.js 14, shadcn/ui, Tailwind CSS, TypeScript, Zustand",
+    "installs from a custom shadcn registry or by copy-paste",
+    "demo at shadcn-ui-sidebar.salimi.my",
+    "MIT licensed; 1.8k GitHub stars"
+  ],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "typescript", "zustand"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/salimi-my/shadcn-ui-sidebar", "docs": "https://shadcn-ui-sidebar.salimi.my", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

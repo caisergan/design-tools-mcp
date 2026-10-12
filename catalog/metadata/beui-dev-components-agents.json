@@ -1,0 +1,23 @@
+{
+ "id": "beui-dev-components-agents",
+ "url": "https://beui.dev/components/agents",
+ "kind": "page",
+ "hints_hash": "0f9bc4b32721bfa2",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://beui.dev/components/agents", "title": "AI Agent Components — Animated React AI Interfaces · beUI", "status": 200}
+ ],
+ "status": "ok",
+ "name": "AI Agent Components · beUI",
+ "summary": "Animated open-source React components for AI agent interfaces: prompt input, messages, streaming responses, tool calls and approvals.",
+ "description": "Animated, accessible and composable React components for AI products: prompt input, message, message bubble and scroller, streaming response, image generation, citations, agent loading states, todo list, agent activity, tool result, code block, file diff, tool approval and approval card. Grouped into conversation, response and evidence, progress and planning, tool and code, and human-in-the-loop sections.",
+ "type": "component-library",
+ "elements": ["chat", "prompt-input", "ai-agent-ui", "loader"],
+ "keywords": ["ai agent", "ai chat", "react component", "prompt input", "message bubble", "streaming response", "tool call", "citation", "todo list", "agent activity", "code block", "file diff", "approval card", "human in the loop", "loading state", "animated", "open source", "shadcn registry"],
+ "formats": ["registry", "code"],
+ "stack": ["react"],
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+ "confidence": 0.9
+}

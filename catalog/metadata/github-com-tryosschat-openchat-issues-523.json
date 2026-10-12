@@ -1,0 +1,18 @@
+{
+  "id": "github-com-tryosschat-openchat-issues-523",
+  "url": "https://github.com/tryosschat/openchat/issues/523",
+  "kind": "page",
+  "hints_hash": "3a9f17f436f43e26",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/tryosschat/openchat/issues/523", "title": "message edits, redos, branching · Issue #523 · opencoredev/openchat · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "message edits, redos, branching",
+  "summary": "Open feature request asking OpenChat for message edits, redos and conversation branching, inspired by t3.chat's message actions.",
+  "keywords": ["message edit", "redo", "branching", "conversation branch", "chat ui", "feature request", "chat app"],
+  "related": {"repo": "https://github.com/tryosschat/openchat", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.8
+}

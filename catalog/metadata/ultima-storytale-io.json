@@ -1,0 +1,27 @@
+{
+  "id": "ultima-storytale-io",
+  "url": "https://ultima.storytale.io",
+  "kind": "site",
+  "hints_hash": "0b5da39f04723f9d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ultima.storytale.io", "title": "Ultima – 750+ free illustrations", "status": null}
+  ],
+  "status": "ok",
+  "name": "Ultima",
+  "summary": "Free bundle of 750+ PNG illustrations in 30 packs, free for commercial and personal use.",
+  "description": "A free illustration bundle by Storytale: 30 packs with 750+ PNG illustrations at 1200px, spanning themes from teamwork and 90s nostalgia to eco life and crypto. Free forever and usable in commercial and personal projects; a Storytale membership upsells editable vector sources.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["illustration", "free illustration", "illustration pack", "illustration bundle", "png", "character illustration", "design asset", "commercial license", "graphic", "flat design", "teamwork", "eco"],
+  "contains": ["750+ PNG illustrations across 30 packs", "1200px resolution", "free forever, commercial and personal use", "upsell: Storytale Premium with 5,500+ graphics and editable sources"],
+  "formats": ["png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

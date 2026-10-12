@@ -1,0 +1,39 @@
+{
+  "id": "marutto-art",
+  "url": "https://marutto.art",
+  "kind": "site",
+  "hints_hash": "e1367edb04686425",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:36:40Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://marutto.art", "title": "無料で使えるイラスト素材と作成ツール｜marutto.art", "status": null },
+    { "url": "https://marutto.art/list.php", "title": "無料イラスト素材一覧｜商用利用OK｜marutto.art", "status": 200 },
+    { "url": "https://marutto.art/en", "title": "Free illustration materials and creation tools | marutto.art", "status": 200 },
+    { "url": "https://marutto.art/animals/white-cat", "title": "白猫のかわいい無料イラスト素材 | 商用利用可 | marutto.art", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "marutto.art",
+  "summary": "Free illustration library of 1,000+ downloadable images plus a mix tool for combining them into your own works.",
+  "description": "A site with free illustration materials that download per item as transparent PNG or SVG, and a Mix tool where you pick items, recolour them and combine them into a work. Works are shared in a gallery that others can remix, with a calendar of daily works; the site runs in seven languages.",
+  "type": "asset-library",
+  "categories": ["media", "design-tools"],
+  "elements": [],
+  "keywords": ["illustration", "free illustration", "clipart", "material", "png", "svg", "commercial use", "japanese", "cute", "mix", "remix", "pixel art", "character", "download", "asset library"],
+  "contains": [
+    "1,013 free illustration items across 51 pages",
+    "categories: animals, plants, food, seasonal, daily life, sea animals, insects, decorations",
+    "per-item transparent PNG and SVG download",
+    "free for commercial use, modification allowed, no credit required",
+    "Mix tool to pick and combine items into a work",
+    "community works gallery with remix",
+    "calendar of daily works",
+    "seven languages; sub-sites tinyworld.marutto.art and pixel.marutto.art"
+  ],
+  "formats": ["png", "svg"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

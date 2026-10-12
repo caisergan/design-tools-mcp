@@ -1,0 +1,29 @@
+{
+  "id": "shadcnblocks-com-blocks-bento",
+  "url": "https://shadcnblocks.com/blocks/bento",
+  "kind": "page",
+  "hints_hash": "f2014dae1b4d433c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnblocks.com/blocks/bento", "title": "Shadcn Bento Blocks - 53+ Sections - Shadcnblocks.com", "status": null},
+    {"url": "https://www.shadcnblocks.com/pricing", "title": "Pricing - Shadcnblocks.com", "status": 200},
+    {"url": "https://www.shadcnblocks.com/license", "title": "License - Shadcnblocks.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Bento Blocks",
+  "summary": "53 bento sections built with React, Tailwind CSS and shadcn/ui, installable by copy-paste or the shadcn CLI.",
+  "description": "A category page of bento-style landing sections for shadcn/ui: feature grids, tiles, mosaics and product blocks, each a self-contained React component. Copy the code or install a block with the shadcn CLI and modify it, since you own the code. Part of the larger shadcnblocks library, which mixes free and Pro blocks.",
+  "type": "block-library",
+  "categories": ["sections"],
+  "elements": ["bento-grid"],
+  "keywords": ["bento grid", "bento section", "shadcn", "shadcn ui", "block", "section", "react", "tailwind", "nextjs", "landing page", "marketing site", "copy paste", "shadcn cli", "registry", "feature grid"],
+  "contains": ["53 bento blocks, from Bento 2 to Bento 54", "each block is a self-contained React component", "copy-paste the code or install via the shadcn CLI", "light and dark layouts: analytics, AI chat, voice, ecommerce, healthcare and developer mosaics"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "tailwind", "nextjs"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "www-shadcnblocks-com"},
+  "confidence": 0.85
+}

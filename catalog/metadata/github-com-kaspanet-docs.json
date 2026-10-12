@@ -1,0 +1,79 @@
+{
+  "id": "github-com-kaspanet-docs",
+  "url": "https://github.com/kaspanet/docs",
+  "kind": "repo",
+  "hints_hash": "540256d49a44a238",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/kaspanet/docs/blob/HEAD/README.md",
+      "title": "Kaspa Docs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/kaspanet/docs",
+      "title": "GitHub - kaspanet/docs: Kaspa documentation · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Kaspa Docs",
+  "summary": "Source repo for the Kaspa documentation site: integration and development guides written as MDX in a Next.js + Fumadocs app.",
+  "description": "The documentation site for Kaspa — guides for integrating with and building on the network. Content pages are MDX files under content/docs/ that a Next.js app built with Fumadocs renders into a typed content source and catch-all routes; examples/ holds runnable code samples in Node.js, browser, Rust and Java that back the integration guides, and legacy/ keeps the previous markdown-only documentation. CI checks run on every pull request; missing documentation is tracked in the issues.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "documentation",
+    "docs",
+    "developer guide",
+    "integration guide",
+    "blockchain",
+    "cryptocurrency",
+    "network",
+    "mdx",
+    "nextjs",
+    "fumadoc",
+    "tutorial",
+    "code example",
+    "open source",
+    "developer documentation"
+  ],
+  "contains": [
+    "guides for integrating with and building on Kaspa",
+    "content pages as MDX under content/docs/, rendered by Next.js and Fumadocs",
+    "runnable examples in Node.js, browser, Rust and Java",
+    "legacy/ keeps the previous markdown-only documentation (not published)",
+    "Reference/ holds research papers and LaTeX sources (not published)",
+    "CI checks on every pull request; missing docs tracked in issues",
+    "69 stars, 28 forks, 167 commits"
+  ],
+  "formats": [
+    "docs",
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "mdx",
+    "fumadocs"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/kaspanet/docs",
+    "docs": "https://docs.kaspa.org",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

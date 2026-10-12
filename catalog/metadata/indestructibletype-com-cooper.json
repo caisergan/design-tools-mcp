@@ -1,0 +1,70 @@
+{
+  "id": "indestructibletype-com-cooper",
+  "url": "https://indestructibletype.com/Cooper",
+  "kind": "page",
+  "hints_hash": "607b7a0bcf02e879",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://indestructibletype.com/Cooper",
+      "title": "Cooper*",
+      "status": null
+    },
+    {
+      "url": "https://indestructibletype.com/BuyCooper.html",
+      "title": "indestructible type*",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Cooper*",
+  "summary": "Revival of Oswald Cooper's Cooper family, from Regular to Cooper Black, in six weights with italics.",
+  "description": "Historically accurate digital revival of Oswald Cooper's Cooper family, running from the expressive Regular to the iconic Cooper Black and researched from the 1923 Barnhart Brothers & Spindler catalog, the 1934 American Type Founders catalog and the 1949 Book of Oz Cooper. Six weights with italics, ornamental characters, and support for over 50 languages. Free to download under the SIL Open Font License; the variable font version costs $20 or more.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": [
+    "font revival",
+    "cooper black",
+    "cooper font",
+    "serif font",
+    "art nouveau font",
+    "open font license",
+    "variable font",
+    "italic font",
+    "display serif",
+    "book typeface",
+    "free font",
+    "type family",
+    "six weight",
+    "historical typeface"
+  ],
+  "contains": [
+    "Cooper family revival from Regular to Cooper Black",
+    "six weights with italics",
+    "supports over 50 languages",
+    "ornamental characters designed by Oz Cooper",
+    "reference material: 1923 Barnhart Brothers & Spindler and 1934 American Type Founders catalogs",
+    "free under the SIL Open Font License",
+    "variable font version for a payment of $20 or more"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "OFL-1.1",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "indestructibletype-com"
+  },
+  "confidence": 0.9
+}

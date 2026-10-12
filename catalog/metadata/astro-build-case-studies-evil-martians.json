@@ -1,0 +1,22 @@
+{
+ "id": "astro-build-case-studies-evil-martians",
+ "url": "https://astro.build/case-studies/evil-martians",
+ "kind": "page",
+ "hints_hash": "5532f4a137bf040b",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://astro.build/case-studies/evil-martians", "title": "Affordable and Fast Migration | Astro", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Affordable and Fast Migration",
+ "summary": "Case study of Evil Martians' nine-day Gatsby-to-Astro migration that kept existing React components intact.",
+ "description": "A case study of Evil Martians' migration from Gatsby to Astro: one engineer moved a 1,000+ page site in nine days without rewriting the existing React components, replacing the Gatsby GraphQL layer with Astro content collections. Results include 61% less JavaScript at load, mobile Lighthouse performance rising from 66 to 90, and direct dependencies down from 108 to 86.",
+ "type": "article",
+ "categories": ["learning"],
+ "elements": [],
+ "keywords": ["astro", "gatsby migration", "website migration", "case study", "react", "islands architecture", "performance", "javascript bundle", "static site", "content collection", "lighthouse score"],
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

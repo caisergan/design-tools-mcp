@@ -1,0 +1,27 @@
+{
+  "id": "leehireme-xyz",
+  "url": "https://leehireme.xyz",
+  "kind": "site",
+  "hints_hash": "4036cc1f8e1b4d8d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://leehireme.xyz", "title": "LeeHireMe", "status": null}
+  ],
+  "status": "partial",
+  "name": "LeeHireMe",
+  "summary": "Print-friendly CV and resume builder with live editing and browser PDF export.",
+  "description": "A browser-based CV and resume builder: edit your resume live with section controls, then export a print-friendly PDF from the browser. The site renders client-side, so the editor screens could not be read.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["resume builder", "cv builder", "one page cv", "print friendly", "pdf export", "live editing", "section control", "browser app"],
+  "contains": ["live editing with section controls", "PDF export in the browser"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.55
+}

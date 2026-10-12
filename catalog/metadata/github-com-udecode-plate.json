@@ -1,0 +1,118 @@
+{
+  "id": "github-com-udecode-plate",
+  "url": "https://github.com/udecode/plate",
+  "kind": "repo",
+  "hints_hash": "01ccdee5ee63dcae",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/udecode/plate/blob/HEAD/README.md",
+      "title": "Plate",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/udecode/plate",
+      "title": "GitHub - udecode/plate: Rich-text editor with AI and shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/udecode/plate/HEAD/LICENSE",
+      "title": "The MIT License (MIT)",
+      "status": 200
+    },
+    {
+      "url": "https://platejs.org",
+      "title": "Build your rich-text editor - Plate",
+      "status": 200
+    },
+    {
+      "url": "https://platejs.org/docs",
+      "title": "Introduction - Plate",
+      "status": 200
+    },
+    {
+      "url": "https://platejs.org/editors",
+      "title": "Building Editors for the Web - Plate",
+      "status": 200
+    },
+    {
+      "url": "https://platejs.org/docs/plugin-components",
+      "title": "Plugin Components - Plate",
+      "status": 200
+    },
+    {
+      "url": "https://platejs.org/docs/multi-select",
+      "title": "Multi Select - Plate",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Plate",
+  "summary": "Open-source React rich-text editor framework: headless slate plugins, Radix primitives and shadcn/ui editor components.",
+  "description": "A React framework for building rich-text editors, with four parts: a plugin system for slate-react, plugin packages for editor behavior, headless Radix UI primitives and copy-in Plate UI components styled with shadcn/ui. Ships Notion-like (AI + backend), playground (AI) and minimal templates; docs and live editor examples live at platejs.org.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "button",
+    "list",
+    "table"
+  ],
+  "keywords": [
+    "rich text editor",
+    "react editor",
+    "slate",
+    "wysiwyg",
+    "editor framework",
+    "plugin",
+    "ai editor",
+    "shadcn ui",
+    "radix ui",
+    "typescript",
+    "headless",
+    "notion-like",
+    "markdown",
+    "editor component",
+    "copy paste"
+  ],
+  "contains": [
+    "plugin system for slate-react with plugin packages",
+    "headless Radix UI primitives plus shadcn/ui Plate UI components",
+    "templates: Notion-like (AI + backend), playground (AI), minimal",
+    "editor examples: AI editor, multi-select editor, basic editor",
+    "16.7k GitHub stars",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "slate",
+    "radix",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/udecode/plate",
+    "docs": "https://platejs.org",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

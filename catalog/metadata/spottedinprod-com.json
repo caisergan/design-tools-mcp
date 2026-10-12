@@ -1,0 +1,100 @@
+{
+  "id": "spottedinprod-com",
+  "url": "https://spottedinprod.com",
+  "kind": "site",
+  "hints_hash": "38b4bc04e7c844c1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://spottedinprod.com",
+      "title": "Spotted in Prod — The very best of iOS",
+      "status": null
+    },
+    {
+      "url": "https://www.spottedinprod.com/clips",
+      "title": "Spotted in Prod — The very best of iOS",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Spotted in Prod",
+  "summary": "Gallery of standout iOS apps and interactions, filterable by style, UI pattern, industry and maker.",
+  "description": "A curated gallery of standout iOS apps and interactions. Each app is tagged across six groups: visual style (minimal, skeuomorphism, liquid glass …), content and effects, interaction (tap, scroll, drag, gyroscope …), UI pattern (modal, bottom sheet, carousel, toast …), industry and maker type. A separate Clips feed collects individual interaction clips that link back to their apps.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [
+    "navbar",
+    "footer",
+    "modal",
+    "drawer",
+    "dropdown",
+    "toast",
+    "slider",
+    "tabs",
+    "carousel",
+    "list",
+    "card",
+    "input",
+    "avatar",
+    "chart",
+    "map",
+    "calendar",
+    "loader",
+    "empty-state",
+    "text-effect",
+    "3d"
+  ],
+  "keywords": [
+    "ios",
+    "iphone",
+    "app design",
+    "app inspiration",
+    "mobile ui",
+    "mobile app",
+    "interaction design",
+    "micro interaction",
+    "gesture",
+    "swipe",
+    "ui pattern",
+    "onboarding",
+    "paywall",
+    "bottom sheet",
+    "context menu",
+    "liquid glass",
+    "skeuomorphism",
+    "pixel art",
+    "brutalist",
+    "app showcase",
+    "design showcase",
+    "motion graphics"
+  ],
+  "contains": [
+    "tags: visual style, content/effects, interaction, UI pattern, industry, maker type",
+    "app pages linking to the original iOS apps",
+    "Clips feed of individual app interactions",
+    "maker filters: startup, indie, big co, small co"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

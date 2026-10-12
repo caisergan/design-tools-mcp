@@ -1,0 +1,14 @@
+{
+  "id": "brandarchive-xyz",
+  "url": "https://brandarchive.xyz",
+  "kind": "site",
+  "hints_hash": "eed326f355845fdd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://brandarchive.xyz/", "title": null, "status": null}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

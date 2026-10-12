@@ -1,0 +1,32 @@
+{
+  "id": "getdesign-md",
+  "url": "https://getdesign.md",
+  "kind": "site",
+  "hints_hash": "9c9eff8b83336d9f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://getdesign.md", "title": "getdesign.md — DESIGN.md collection for AI coding agents", "status": null},
+    {"url": "https://getdesign.md/about", "title": "About — getdesign.md", "status": null},
+    {"url": "https://getdesign.md/backgrounds", "title": "Animated Backgrounds — getdesign.md", "status": null},
+    {"url": "https://getdesign.md/design-md", "title": "Websites — getdesign.md", "status": 200},
+    {"url": "https://getdesign.md/design-md/lottiefiles", "title": "Lottiefiles-style design system — getdesign.md", "status": 200},
+    {"url": "https://getdesign.md/design-md-pass", "title": "Catalog Pass — getdesign.md", "status": 200}
+  ],
+  "status": "ok",
+  "name": "getdesign.md",
+  "summary": "Collection of DESIGN.md design-system analyses of 550+ popular websites, made to hand to AI coding agents.",
+  "description": "Browsable catalog of independent DESIGN.md files — structured markdown analyses of a website's colors, typography, spacing, elevation and components — that you drop into a project as design reference for AI coding agents. 550+ sites are covered, alongside private DESIGN.md requests, a monthly Catalog Pass, an animated backgrounds bundle and site and app starter kits.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": ["background", "bento-grid", "cursor", "dock", "globe", "modal", "navbar", "prompt-input", "switch"],
+  "keywords": ["design.md", "design system", "design reference", "ai coding agent", "claude code", "cursor", "codex", "markdown", "typography", "color", "spacing", "component", "landing page", "website analysis", "starter kit", "animated background"],
+  "contains": ["633 docs pages in the catalog", "550+ websites covered", "each DESIGN.md documents colors, typography, spacing, elevation and responsive behavior", "works with Claude Code, Cursor, Codex, Gemini and other AI tools", "Catalog Pass: 40 curated DESIGN.md files, 5+ added monthly", "animated backgrounds bundle: editable code effects, $49 one-time", "request a private DESIGN.md for your own website"],
+  "formats": ["docs", "prompts", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

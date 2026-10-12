@@ -1,0 +1,148 @@
+{
+  "id": "daisyui-com",
+  "url": "https://daisyui.com",
+  "kind": "site",
+  "hints_hash": "a43c2f14daccae2a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:24:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://daisyui.com/llms.txt",
+      "title": "daisyUI 5",
+      "status": null
+    },
+    {
+      "url": "https://daisyui.com",
+      "title": "daisyUI - Tailwind CSS Component Library",
+      "status": 200
+    },
+    {
+      "url": "https://daisyui.com/components",
+      "title": "Tailwind CSS Components",
+      "status": 200
+    },
+    {
+      "url": "https://daisyui.com/skills",
+      "title": "daisyUI Skills — daisyUI Tailwind CSS Component UI Library",
+      "status": 200
+    },
+    {
+      "url": "https://daisyui.com/docs/install",
+      "title": "Install daisyUI as a Tailwind plugin",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/saadeghi/daisyui",
+      "title": "GitHub - saadeghi/daisyui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "daisyUI",
+  "summary": "Free Tailwind CSS component library: 68 CSS components, semantic color names, themes and no JavaScript.",
+  "description": "daisyUI is a pure-CSS plugin that adds semantic class names (btn, card, navbar, drawer, modal ...) and part/modifier classes to Tailwind CSS, so elements need far fewer utility classes. It ships 68 components, 600+ utility classes, semantic color names (primary, secondary, accent, neutral, info, success, warning, error) and CSS-variable themes including dark mode, plus a theme generator. v5 requires Tailwind CSS 4; framework guides cover React, Next.js, Vue, Svelte, Astro, Laravel and 30+ setups.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chat",
+    "checkbox",
+    "dock",
+    "drawer",
+    "dropdown",
+    "file-upload",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "progress",
+    "select",
+    "slider",
+    "stats",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "text-effect",
+    "3d",
+    "timeline",
+    "toast",
+    "tooltip"
+  ],
+  "variants": {
+    "navbar": [
+      "mega-menu"
+    ]
+  },
+  "keywords": [
+    "tailwind css",
+    "tailwind",
+    "component library",
+    "css framework",
+    "ui kit",
+    "semantic class name",
+    "theme",
+    "dark mode",
+    "theme generator",
+    "design system",
+    "color name",
+    "html",
+    "css",
+    "react",
+    "svelte",
+    "mcp server",
+    "agent skill",
+    "ui component"
+  ],
+  "contains": [
+    "68 components and 600+ utility classes",
+    "semantic class names: btn, card, navbar, drawer, modal, tabs, table, toast ...",
+    "semantic colors: primary, secondary, accent, neutral, info, success, warning, error",
+    "themes via CSS variables incl. light and dark; theme generator",
+    "pure CSS, no JS dependency; 30+ framework setup guides",
+    "install: npm i -D daisyui + @plugin \"daisyui\" (Tailwind CSS 4)",
+    "free agent skill, MCP server and BLUEPRINT code generator",
+    "paid skills: Dashboard from $29, Charts from $39; Figma library and charts in store"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "tailwind",
+    "css"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/saadeghi/daisyui",
+    "docs": "https://daisyui.com/docs/install",
+    "npm": "daisyui",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

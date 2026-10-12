@@ -1,0 +1,26 @@
+{
+  "id": "skills-sh-coreyhaines31-marketingskills-copywriting",
+  "url": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
+  "kind": "page",
+  "hints_hash": "56ec47873b167a49",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/coreyhaines31/marketingskills/copywriting", "title": "copywriting — coreyhaines31/marketingskills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "copywriting",
+  "summary": "Agent skill for writing and rewriting marketing copy for homepages, landing pages and pricing pages.",
+  "description": "SKILL.md that guides an AI coding agent through writing or improving conversion-focused page copy. Covers pre-writing audience and product context gathering, page-type frameworks (homepage, landing page, pricing, feature, about), CTA formulas, a copy quality checklist, and voice and tone guidance.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": ["copywriting", "marketing copy", "landing page copy", "homepage copy", "pricing page copy", "cta copy", "headline", "value proposition", "voice and tone", "conversion", "agent skill", "prompt", "marketing"],
+  "contains": ["SKILL.md for AI coding agents", "frameworks per page type: homepage, landing page, pricing, feature, about", "pre-writing audience, product and page-context gathering", "copy quality checklist", "CTA formulas", "principles: clarity, active voice, honest claims", "voice and tone guidance"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.8
+}

@@ -1,0 +1,76 @@
+{
+  "id": "github-com-anuoua-shadcn-packaged",
+  "url": "https://github.com/anuoua/shadcn-packaged",
+  "kind": "repo",
+  "hints_hash": "bf25109008cf9487",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:46Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/anuoua/shadcn-packaged/blob/HEAD/README.md",
+      "title": "Shadcn Packaged",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anuoua/shadcn-packaged/HEAD/package.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Packaged",
+  "summary": "npm package that exports all shadcn/ui components, hooks and utils with TypeScript declarations, no CLI needed.",
+  "description": "An npm package that packages the shadcn/ui component files as ordinary imports instead of copy-paste, so no CLI or file copying is needed. It ships components under shadcn-packaged/ui, hooks under shadcn-packaged/hooks and utils under shadcn-packaged/lib/utils, with type declarations and IDE auto-import support, and publishes the latest components to npm weekly. Works with React projects on Tailwind CSS v4 (Next.js and Vite configuration documented).",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "npm package",
+    "shadcn",
+    "component",
+    "react",
+    "nextjs",
+    "vite",
+    "tailwind",
+    "typescript",
+    "type declaration",
+    "auto import",
+    "no cli"
+  ],
+  "contains": [
+    "all shadcn/ui components as npm exports, no CLI or copy-paste",
+    "package structure: ui components, hooks, lib utils",
+    "type declarations and IDE auto-import support",
+    "weekly npm publishes of the latest components",
+    "Tailwind CSS v4 support; Next.js and Vite config documented",
+    "MIT license (package.json)"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/anuoua/shadcn-packaged",
+    "docs": null,
+    "npm": "shadcn-packaged",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

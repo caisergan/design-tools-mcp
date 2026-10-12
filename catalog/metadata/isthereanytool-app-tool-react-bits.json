@@ -1,0 +1,45 @@
+{
+  "id": "isthereanytool-app-tool-react-bits",
+  "url": "https://isthereanytool.app/tool/react-bits",
+  "kind": "page",
+  "hints_hash": "3fd41df1c8514473",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://isthereanytool.app/tool/react-bits",
+      "title": "React Bits — shader and particle marketing UI | isthereanytool.app",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Bits",
+  "summary": "Catalog page for React Bits: animated React components plus Pro blocks and templates, free core with one-time Pro.",
+  "keywords": [
+    "animated react component",
+    "motion component",
+    "shader effect",
+    "particle effect",
+    "marketing ui",
+    "pro template",
+    "nextjs"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "isthereanytool-app"
+  },
+  "pricing": "freemium",
+  "stack": [
+    "react",
+    "nextjs"
+  ],
+  "confidence": 0.8
+}

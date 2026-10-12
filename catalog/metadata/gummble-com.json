@@ -1,0 +1,39 @@
+{
+  "id": "gummble-com",
+  "url": "https://gummble.com",
+  "kind": "site",
+  "hints_hash": "5c6441a8d12d0c66",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gummble.com/llms.txt", "title": "Gummble", "status": null},
+    {"url": "https://gummble.com", "title": "Gummble — Real App UI Screenshots, UX Flows & Design MCP", "status": 200},
+    {"url": "https://gummble.com/patterns", "title": "UI Design Patterns & Examples — Gummble", "status": 200},
+    {"url": "https://gummble.com/pricing", "title": "Pricing — Affordable UI Design Inspiration | Gummble", "status": 200},
+    {"url": "https://gummble.com/about", "title": "About Gummble — UI Design Inspiration Library | Gummble", "status": 200},
+    {"url": "https://gummble.com/categories", "title": "App Categories — UI Design by Industry | Gummble", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Gummble",
+  "summary": "Library of 300,000+ app UI screenshots and 21,000+ browsable UX flows from 1,500+ iOS, Android and web apps.",
+  "description": "Reference library of real app screenshots, step-by-step UX flows and design pattern hubs from shipped iOS, Android and web apps. Browse by app, platform, category, flow (onboarding, checkout, paywall) or pattern (login, dashboard, empty states); a read-only MCP server lets Claude, Cursor and other coding agents search the same library.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["dashboard", "empty-state", "form", "navbar"],
+  "keywords": ["app screenshot", "ui design", "ux flow", "design pattern", "onboarding", "paywall", "checkout", "dashboard", "mobile app", "ios", "android", "design inspiration", "design research", "mcp", "mobbin alternative"],
+  "contains": [
+    "300,000+ UI screenshots from real apps",
+    "21,000+ browsable UX flows",
+    "1,500+ iOS, Android and web apps",
+    "pattern hubs: login, signup, onboarding, paywall, dashboard, empty states, settings, navigation",
+    "14 read-only MCP tools for Claude, ChatGPT, Cursor, Codex",
+    "free tier; paid plans from $9.99/month, MCP access on Browse"
+  ],
+  "formats": ["screenshots", "links", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

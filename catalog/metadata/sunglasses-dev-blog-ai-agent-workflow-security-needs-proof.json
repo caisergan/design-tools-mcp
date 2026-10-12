@@ -1,0 +1,45 @@
+{
+  "id": "sunglasses-dev-blog-ai-agent-workflow-security-needs-proof",
+  "url": "https://sunglasses.dev/blog/ai-agent-workflow-security-needs-proof",
+  "kind": "page",
+  "hints_hash": "399b23d3522b32d3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://sunglasses.dev/blog/ai-agent-workflow-security-needs-proof",
+      "title": "AI Agent Workflow Security Needs Proof at Every Step | Sunglasses Blog",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AI Agent Workflow Security Needs Proof at Every Step",
+  "summary": "Blog post on keeping evidence, approvals and authorization bound to each step of an AI agent workflow.",
+  "type": "article",
+  "keywords": [
+    "ai agent security",
+    "agent workflow",
+    "prompt injection",
+    "mcp security",
+    "tool call",
+    "authorization",
+    "evidence binding",
+    "approval",
+    "ai security",
+    "agent hardening",
+    "security pattern"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

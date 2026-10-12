@@ -1,0 +1,35 @@
+{
+  "id": "beam-jakubantalik-com",
+  "url": "https://beam.jakubantalik.com",
+  "kind": "site",
+  "hints_hash": "74a8d1d86c0a4107",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beam.jakubantalik.com", "title": "Border beam moved to a new home", "status": 200},
+    {"url": "https://libraries.dev/beam", "title": "Beam: animated border beam for React | Libraries.dev", "status": 200},
+    {"url": "https://libraries.dev/pricing", "title": "Libraries.dev: High-crafted UI libraries for AI agents", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Border beam",
+  "summary": "Animated rainbow glow that rides the border of any card, button or input; installable as the border-beam npm package.",
+  "description": "A React component that renders an animated beam along the border of cards, buttons and inputs, with a React Native port (border-beam-native) that is not on npm yet and uses a Metal shader. The original site beam.jakubantalik.com is now a move notice pointing to libraries.dev/beam, which carries the playground, installation and usage; the npm package border-beam is unchanged.",
+  "type": "component-library",
+  "categories": ["motion"],
+  "elements": [],
+  "keywords": ["border beam", "animated border", "glow effect", "rainbow border", "card effect", "button glow", "react", "react native", "npm package", "ui effect", "animation", "beam effect"],
+  "contains": [
+    "animated rainbow beam riding the border of cards, buttons and inputs",
+    "distributed as the border-beam npm package",
+    "React Native port not on npm yet; Metal shader built through Xcode",
+    "interactive playground, installation and usage on the new home",
+    "original domain now redirects to libraries.dev/beam"
+  ],
+  "formats": ["npm-package", "code"],
+  "stack": ["react", "react-native"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://libraries.dev/beam", "npm": "border-beam", "figma": null, "parent": null},
+  "confidence": 0.8
+}

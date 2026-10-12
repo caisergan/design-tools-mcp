@@ -1,0 +1,28 @@
+{
+  "id": "framer-com-marketplace-templates-thrust",
+  "url": "https://framer.com/marketplace/templates/thrust",
+  "kind": "page",
+  "hints_hash": "f898c1a6abf6baf7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/templates/thrust", "title": "Thrust — Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Thrust",
+  "summary": "Dark AI agency website template for Framer: 10+ pages, video hero, pricing page and case studies CMS.",
+  "description": "Dark Framer template for AI agencies, automation consultants and AI-driven service businesses. Includes 10+ designed pages with a video hero on the homepage and a pricing page with service tiers, 2 CMS collections (Case Studies + Blog), case study layouts built around measurable ROI metrics, global color and font styles and SEO-ready meta. Comes with an editable Figma file, getting-started guide and lifetime updates; $79 on the Framer Marketplace.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["hero", "pricing"],
+  "variants": {"hero": ["video"]},
+  "keywords": ["framer template", "ai agency", "agency template", "automation agency", "ai consulting", "case study", "pricing page", "dark theme", "dark mode", "cms template", "paid template", "website template"],
+  "contains": ["dark AI agency template for Framer", "10+ designed pages; 2 CMS collections (Case Studies + Blog)", "video hero section on the homepage", "pricing page with service tiers", "case studies built around measurable ROI metrics", "editable Figma file and getting-started guide", "$79; Framer Marketplace license: Single-Use"],
+  "formats": ["framer-file", "figma-file"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

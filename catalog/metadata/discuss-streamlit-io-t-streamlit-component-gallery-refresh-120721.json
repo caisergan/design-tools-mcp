@@ -1,0 +1,27 @@
+{
+  "id": "discuss-streamlit-io-t-streamlit-component-gallery-refresh-120721",
+  "url": "https://discuss.streamlit.io/t/streamlit-component-gallery-refresh/120721",
+  "kind": "page",
+  "hints_hash": "ac2ecb1eb596c927",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://discuss.streamlit.io/t/streamlit-component-gallery-refresh/120721", "title": "🧩 Streamlit Component Gallery Refresh - Official Announcements - Streamlit", "status": null}
+  ],
+  "status": "ok",
+  "name": "Streamlit Component Gallery Refresh",
+  "summary": "Announcement post about the rebuilt Streamlit Component Gallery and its new open source registry.",
+  "description": "Forum announcement in Streamlit's Official Announcements category describing the refreshed component gallery: a cleaner layout with search and sorting, now powered by a new open source registry that makes community submissions easier.",
+  "type": "article",
+  "categories": ["components"],
+  "elements": [],
+  "keywords": ["streamlit", "component gallery", "community component", "open source registry", "announcement", "search and sort", "data app", "python component", "component directory"],
+  "contains": ["announcement of the refreshed Streamlit Component Gallery", "search + sorting for discovering components", "new open source registry for community submissions"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

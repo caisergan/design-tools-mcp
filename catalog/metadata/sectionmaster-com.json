@@ -1,0 +1,30 @@
+{
+  "id": "sectionmaster-com",
+  "url": "https://sectionmaster.com",
+  "kind": "site",
+  "hints_hash": "fbb0125ac4a40fb1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sectionmaster.com/llms.txt", "title": "Sectionmaster", "status": null},
+    {"url": "https://sectionmaster.com", "title": "Website Section Design Inspiration Gallery | sectionmaster", "status": 200},
+    {"url": "https://www.sectionmaster.com/sections/rig-ai-cta-7", "title": "CTA section from rig.ai | sectionmaster", "status": 200},
+    {"url": "https://www.sectionmaster.com/sections/rig-ai-faq-8", "title": "FAQ section from rig.ai | sectionmaster", "status": 200}
+  ],
+  "status": "ok",
+  "name": "sectionmaster",
+  "summary": "Gallery of 460+ screenshot excerpts of real website sections — hero, navbar, pricing, footer — filterable by type and color.",
+  "description": "Hand-picked website sections captured from real product and marketing sites. Each entry lists the source domain, its section type (navigation, hero, features, pricing, testimonials, team, cta, footer, faq, …) and the dominant color palette; the gallery filters by type and color, and signed-in users can save sections locally.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["navbar", "hero", "features", "pricing", "testimonials", "team", "cta", "footer", "faq", "contact", "list"],
+  "keywords": ["website section", "section inspiration", "hero section", "navigation bar", "pricing table", "footer design", "cta section", "testimonial section", "faq section", "team section", "screenshot gallery", "design inspiration", "color palette", "landing page", "moodboard", "web design reference"],
+  "contains": ["460 gallery examples of real website sections (site advertises 670+ sections)", "section types: navigation, hero, features, pricing, testimonials, team, blog-list, cta, footer, contacts, faq and more", "filters: section type and dominant color palette; search by site name or type", "each entry shows the source domain and palette swatches; screenshots served from a CDN", "saved sections stored in the browser; moodboards coming soon"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,31 @@
+{
+  "id": "webgradients-com",
+  "url": "https://webgradients.com",
+  "kind": "site",
+  "hints_hash": "dd463b8a705b1a89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://webgradients.com/llms.txt", "title": "WebGradients", "status": null},
+    {"url": "https://webgradients.com", "title": "WebGradients — Free CSS Gradient Backgrounds & UI Gradients", "status": 200},
+    {"url": "https://webgradients.com/about", "title": "About WebGradients | Free CSS Gradients and Color Tools", "status": 200},
+    {"url": "https://github.com/itmeo/webgradients", "title": "GitHub - itmeo/webgradients: 180 free CSS3, Figma, Sketch & PSD gradients — plus a JSON dataset for design tools, generators, and AI agents.", "status": 200},
+    {"url": "https://github.com/itmeo/webgradients/blob/HEAD/LICENSE", "title": "webgradients/LICENSE · itmeo/webgradients", "status": 200}
+  ],
+  "status": "ok",
+  "name": "WebGradients",
+  "summary": "Collection of 180 free CSS linear gradients with copy-ready CSS3 code, plus a color-palette catalogue and design-tool packs.",
+  "description": "A free collection of 180 named CSS linear gradients you can copy into any part of a site, each with CSS3 code, start/end hex colors and a PNG export. Includes a palette catalogue (200 palettes and 200 examples extracted from real websites) plus Sketch, Photoshop and Figma packs.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["css gradient", "gradient background", "linear gradient", "color palette", "gradient generator", "css3", "hex color", "figma", "ui background", "free gradient", "web design", "background css"],
+  "contains": ["180 named CSS linear gradients", "CSS3 code, hex color pairs and PNG export per gradient", "200-palette color catalogue with CSS variables", "200 palettes extracted from real websites", "Sketch, Photoshop and Figma packs", "JSON dataset for design tools and AI agents", "free for commercial and personal use with no attribution"],
+  "formats": ["code", "png", "figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/itmeo/webgradients", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,18 @@
+{
+  "id": "prtimes-jp-main-html-rd-p-000000226-000091540-html",
+  "url": "https://prtimes.jp/main/html/rd/p/000000226.000091540.html",
+  "kind": "page",
+  "hints_hash": "cd8ba249c780fc18",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://prtimes.jp/main/html/rd/p/000000226.000091540.html", "title": "北海道内を中心としたスーパーマーケット「北雄ラッキー」、人流分析AI Agent「ミセシル」を採用し、店舗ごとの商圏解像度向上と戦略的集客の強化へ | 株式会社GROWTH VERSEのプレスリリース", "status": null}],
+  "status": "ok",
+  "name": "北海道内を中心としたスーパーマーケット「北雄ラッキー」、人流分析AI Agent「ミセシル」を採用し、店舗ごとの商圏解像度向上と戦略的集客の強化へ",
+  "summary": "プレスリリース：北海道のスーパーマーケット「北雄ラッキー」が人流分析AIエージェント「ミセシル」を採用し、店舗単位の商圏分析の高度化を進める。",
+  "description": "PR TIMESに掲載された株式会社GROWTH VERSEのプレスリリース。北海道を中心に展開するスーパーマーケット「北雄ラッキー」が人流分析AI Agent「ミセシル」を採用したことを発表し、商圏解像度の向上、競合店対策、顧客層の把握、出店・エリア戦略、DSP広告など5つの活用目的を挙げる。ミセシルは位置情報3,000万人分、WEB閲覧履歴4.8億UB、購買レシート1.8億枚と国勢調査データを掛け合わせて分析すると説明している。",
+  "type": "article",
+  "keywords": ["プレスリリース", "人流分析", "aiエージェント", "スーパーマーケット", "小売", "商圏分析", "店舗分析", "データ分析", "footfall analysis", "retail", "location data", "dsp"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

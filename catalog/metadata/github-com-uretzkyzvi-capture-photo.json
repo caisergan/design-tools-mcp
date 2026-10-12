@@ -1,0 +1,27 @@
+{
+  "id": "github-com-uretzkyzvi-capture-photo",
+  "url": "https://github.com/UretzkyZvi/capture-photo",
+  "kind": "repo",
+  "hints_hash": "946638b955b15e20",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/UretzkyZvi/capture-photo/blob/HEAD/README.md", "title": "Capture-Photo Component", "status": null}
+  ],
+  "status": "ok",
+  "name": "Capture-Photo",
+  "summary": "Copy-paste React camera component for capturing photos in the browser, with a CameraProvider for camera state.",
+  "description": "A browser-based React and TypeScript component for real-time camera capture, provided as source to copy into your project rather than as an npm package. A CameraProvider manages camera state; the README lists use cases such as profile photo updates, document scanning, product image capture and telehealth photos. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["file-upload"],
+  "keywords": ["camera", "photo capture", "webcam", "image capture", "react", "typescript", "shadcn", "copy-paste", "profile photo", "document scanning", "browser camera", "photo upload"],
+  "contains": ["copy-paste React + TypeScript camera component", "CameraProvider for camera state", "use cases: profile photos, document scans, product images, telehealth", "requires shadcn/ui components", "MIT licensed"],
+  "formats": ["code"],
+  "stack": ["react", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/UretzkyZvi/capture-photo", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

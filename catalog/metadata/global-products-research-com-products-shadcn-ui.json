@@ -1,0 +1,27 @@
+{
+  "id": "global-products-research-com-products-shadcn-ui",
+  "url": "https://global-products-research.com/products/shadcn-ui",
+  "kind": "page",
+  "hints_hash": "a11c19e23690b534",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:38:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://global-products-research.com/products/shadcn-ui", "title": "shadcn/uiのopen code・CLI・registryと成長を整理", "status": null},
+    {"url": "https://global-products-research.com/products/shadcn-ui", "title": "shadcn/uiのopen code・CLI・registryと成長を整理", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn/ui、コピーではなく自分のrepoに残るcomponent libraryへ変えたOSS",
+  "summary": "Cited Japanese analysis of shadcn/ui: open-code component distribution, CLI and registry, pricing, timeline and competitors.",
+  "description": "Product-analysis article (published 2026-09-14, 19 cited sources) on shadcn/ui, the open-code component library that ships TypeScript source into the user's repo instead of an npm package. It covers the 2023 side-project story, CLI and registry distribution, an AI-ready angle, pricing and revenue, a growth timeline, SWOT, positioning against Material UI, Chakra UI, Radix UI and Tailwind UI, and lessons for design-system teams.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["shadcn ui", "component library", "open code", "design system", "registry", "cli", "source ownership", "react", "tailwind css", "typescript", "product analysis", "open source", "developer tool", "product teardown", "frontend team"],
+  "contains": ["analysis published 2026-09-14 with 19 cited sources", "story: started January 2023 as a personal side project by a Vercel engineer", "sections: pricing/revenue, growth timeline, positioning, SWOT, related products", "pricing read: open core — core components and CLI open source, free tier", "competitors compared: Material UI, Chakra UI, Radix UI, Tailwind UI", "stack noted: TypeScript, React, Next.js, Vite, Astro, Tailwind CSS, Vercel hosting"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

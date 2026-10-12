@@ -1,0 +1,86 @@
+{
+  "id": "amicro-vercel-app",
+  "url": "https://amicro.vercel.app",
+  "kind": "site",
+  "hints_hash": "fa4b41eed5d956fd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+      "title": "GitHub - Subhan-code/Amicro--Micro-transitions- · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/main/README.md",
+      "title": "@subhanhq/amicro",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Amicro",
+  "summary": "React library of micro-interaction, transition and card components, added with the shadcn CLI.",
+  "description": "A curated collection of React micro-interactions, transition components and card layouts powered by Motion. Components include an interactive 3D carousel, a CoverFlow carousel and dither chart, heatmap and bar chart cards. Items install from a shadcn registry, either by direct raw URL or through the @amicro namespace.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "chart",
+    "card",
+    "carousel",
+    "3d"
+  ],
+  "keywords": [
+    "micro interaction",
+    "transition component",
+    "card hover",
+    "3d carousel",
+    "coverflow carousel",
+    "dither chart",
+    "heatmap",
+    "chart animation",
+    "hover effect",
+    "spring animation",
+    "react",
+    "shadcn",
+    "registry",
+    "cli",
+    "motion",
+    "ui component",
+    "animation"
+  ],
+  "contains": [
+    "6 shadcn registry items: carousels, dither charts and card layouts",
+    "sample components: Interactive 3D Carousel, CoverFlow Carousel, Dither Donut Chart, Activity Dither Heatmap",
+    "installs with the shadcn CLI: direct raw URL or @amicro namespace mapping",
+    "ships motion primitives, custom hooks and spring presets",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

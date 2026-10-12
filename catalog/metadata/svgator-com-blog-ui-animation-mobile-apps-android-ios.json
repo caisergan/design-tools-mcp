@@ -1,0 +1,20 @@
+{
+  "id": "svgator-com-blog-ui-animation-mobile-apps-android-ios",
+  "url": "https://svgator.com/blog/ui-animation-mobile-apps-android-ios",
+  "kind": "page",
+  "hints_hash": "8f7513f3ae34f4ee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://svgator.com/blog/ui-animation-mobile-apps-android-ios", "title": "Mobile App Animation: 12 Patterns Every Designer Should Study", "status": null}
+  ],
+  "status": "ok",
+  "name": "Mobile App Animation: 12 Patterns Every Designer Should Study",
+  "summary": "Blog article walking through 12 mobile app animation patterns, from launch screens and onboarding to loaders, success and error states.",
+  "description": "A design article on mobile UI animation: it covers twelve patterns — launch screen, onboarding, login, navigation, explainer, loading page, animated logo, success state, micro-animations, buttons, icons and error states — with examples for each and a short FAQ on performance and platform differences.",
+  "type": "article",
+  "keywords": ["mobile app animation", "ui animation", "micro-animation", "onboarding animation", "launch screen", "splash screen", "loading animation", "success state", "error state", "button animation", "icon animation", "navigation animation", "motion design", "app design", "ux animation", "svg animation", "animation example"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

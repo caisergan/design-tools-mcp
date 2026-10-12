@@ -1,0 +1,44 @@
+{
+  "id": "21st-dev-jean-duthil13-components-mac-book-neo-hero",
+  "url": "https://21st.dev/@jean.duthil13/components/mac-book-neo-hero",
+  "kind": "page",
+  "hints_hash": "7d7ef1ce11eb5775",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://21st.dev/@jean.duthil13/components/mac-book-neo-hero",
+      "title": "MacBook Neo Hero | Community Components | 21st",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MacBook Neo Hero",
+  "summary": "Scroll-driven image-sequence hero component: pin the page, scrub through frames and reveal floating glass step cards.",
+  "type": "component-library",
+  "elements": ["hero", "scroll-effect"],
+  "keywords": [
+    "hero",
+    "scroll animation",
+    "image sequence",
+    "scroll trigger",
+    "pinned scroll",
+    "landing page",
+    "product page",
+    "react component",
+    "copy paste component"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "21st-dev"
+  },
+  "confidence": 0.8
+}

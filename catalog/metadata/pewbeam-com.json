@@ -1,0 +1,87 @@
+{
+  "id": "pewbeam-com",
+  "url": "https://pewbeam.com",
+  "kind": "site",
+  "hints_hash": "142c0fc16ca0ea09",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pewbeam.com/llms.txt",
+      "title": "Pewbeam",
+      "status": null
+    },
+    {
+      "url": "https://pewbeam.com",
+      "title": "AI presentation software for modern church teams | Pewbeam",
+      "status": 200
+    },
+    {
+      "url": "https://pewbeam.com/docs",
+      "title": "Documentation | Pewbeam",
+      "status": 200
+    },
+    {
+      "url": "https://pewbeam.com/pricing",
+      "title": "Pricing | Pewbeam",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Pewbeam",
+  "summary": "AI church presentation app that detects Bible verses in live sermons and projects them in seconds.",
+  "description": "Desktop app for churches that transcribes sermons in real time and projects the referenced Bible verse within seconds, with semantic search over 31,000+ verses, 20 Bible translations, animated verse presentations, themes, NDI/HDMI broadcast output and AI sermon notes. Free Explorer tier plus Plus ($14/mo) and Core ($30/mo) plans; runs on macOS, Windows and Linux.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "church presentation",
+    "bible verse detection",
+    "sermon",
+    "speech recognition",
+    "presentation software",
+    "projection",
+    "worship",
+    "church media",
+    "transcription",
+    "sermon note",
+    "ndi",
+    "live captioning",
+    "bible search",
+    "desktop app"
+  ],
+  "contains": [
+    "real-time sermon transcription with automatic Bible verse detection",
+    "semantic search over 31,000+ Bible verses, including paraphrased references",
+    "20 Bible translations and animated verse presentations",
+    "NDI and HDMI broadcast output",
+    "AI sermon notes with Markdown, PDF and DOCX export",
+    "free Explorer plan; Plus $14/mo; Core $30/mo",
+    "macOS, Windows and Linux (AppImage)"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [
+    "mlx-whisper",
+    "deepgram",
+    "faiss"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://pewbeam.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

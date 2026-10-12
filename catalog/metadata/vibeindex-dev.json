@@ -1,0 +1,31 @@
+{
+  "id": "vibeindex-dev",
+  "url": "https://vibeindex.dev",
+  "kind": "site",
+  "hints_hash": "b61ce0ff9f35f157",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vibeindex.dev", "title": "VibeIndex Directory — Tools for Vibe Coding", "status": null},
+    {"url": "https://vibeindex.dev/category/cli-tools", "title": "CLI Tools — VibeIndex Directory", "status": null},
+    {"url": "https://vibeindex.dev/category/testing-qa", "title": "Testing & QA — VibeIndex Directory", "status": null},
+    {"url": "https://vibeindex.dev/category/ide-editors", "title": "AI IDEs & Code Editors — VibeIndex Directory", "status": null},
+    {"url": "https://vibeindex.dev/category/desktop-apps", "title": "Desktop Apps — VibeIndex Directory", "status": null}
+  ],
+  "status": "ok",
+  "name": "VibeIndex Directory",
+  "summary": "Directory of 285 vibe-coding tools in 16 categories, from browser app builders and AI IDEs to testing and MCP servers.",
+  "description": "Curated directory of tools for building software with AI: each tool has a page with a description, its category and a link to its website. Categories cover browser-based app builders, AI IDEs and code editors, IDE extensions, CLI tools, AI coding agents, code review and quality, testing and QA, documentation, task management, MCP servers, UI generators, security, learning resources, desktop apps, developer productivity and AI code models.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["vibe coding", "ai tool directory", "ai coding agent", "app builder", "ai ide", "cli tool", "code review", "testing", "mcp server", "ui generator", "developer tool", "directory"],
+  "contains": ["285 tools across 16 categories", "category counts: browser-based app builders 41, CLI tools 36, IDE extensions 27, agents 19", "tool pages with description, category and website link", "submit your own tool"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

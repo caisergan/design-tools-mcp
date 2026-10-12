@@ -1,0 +1,40 @@
+{
+  "id": "drawsql-app",
+  "url": "https://drawsql.app",
+  "kind": "site",
+  "hints_hash": "1ecd601e33ac51e0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://drawsql.app/llms.txt", "title": "DrawSQL", "status": null},
+    {"url": "https://drawsql.app", "title": "Database Schema Diagrams for Dev Teams | DrawSQL", "status": 200},
+    {"url": "https://drawsql.app/docs", "title": "DrawSQL - Knowledge base and FAQs - DrawSQL", "status": 200},
+    {"url": "https://drawsql.app/templates", "title": "Database schema templates by DrawSQL", "status": 200},
+    {"url": "https://drawsql.app/pricing", "title": "Pricing — DrawSQL Database Schema Design Tool", "status": 200},
+    {"url": "https://drawsql.app/features", "title": "DrawSQL Features — AI Schema Review, Real-time Editing, SQL Import and More", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DrawSQL",
+  "summary": "Browser-based database schema diagram tool: import SQL and get editable, collaborative ER diagrams with AI review.",
+  "description": "Visual database design tool where teams import SQL DDL, DBML or Rails schema.rb and get an interactive ER diagram. Includes real-time multiplayer editing with live cursors, threaded discussions anchored to tables, an AI assistant that generates, reviews and diffs schema changes, groups and sticky notes, version history, and exports to SQL, Laravel migrations, JSON, PNG or SVG. Supports MySQL, PostgreSQL, SQL Server and MariaDB, ships 200+ templates, and works free with no signup for /draw links.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["database schema", "er diagram", "erd", "entity relationship diagram", "database design", "sql", "ddl", "dbml", "schema diagram", "database diagram", "real-time collaboration", "mysql", "postgresql", "sql server", "mariadb", "laravel migration", "ai assistant", "mcp server"],
+  "contains": [
+    "200+ real-world schema templates",
+    "imports SQL DDL, DBML and Rails schema.rb; exports SQL, Laravel migrations, JSON, image/SVG",
+    "real-time multiplayer editing with live cursors and threaded discussions",
+    "built-in AI assistant for generating, reviewing and diffing schema changes",
+    "read-only REST API and MCP server for AI agents",
+    "free plan for public diagrams; paid plans from $19/mo",
+    "cloud-only, not open source"
+  ],
+  "formats": ["app", "api", "templates", "docs", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://drawsql.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

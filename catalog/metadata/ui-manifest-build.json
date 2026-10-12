@@ -1,0 +1,105 @@
+{
+  "id": "ui-manifest-build",
+  "url": "https://ui.manifest.build",
+  "kind": "site",
+  "hints_hash": "1d8542e300180be4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:34:35Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.manifest.build",
+      "title": "ChatGPT apps shadcn/ui components - Manifest UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.manifest.build/blocks",
+      "title": "UI Components Gallery",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/mnfst/manifest-ui",
+      "title": "GitHub - mnfst/manifest-ui: A shadcn/ui library for building ChatGPT Apps and MCP Apps",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Manifest UI",
+  "summary": "shadcn/ui blocks for building ChatGPT Apps and MCP Apps: 32 components for cards, forms, chat, payments and social posts.",
+  "description": "A shadcn/ui library of blocks for ChatGPT Apps and agentic UIs: post and event cards, contact and issue forms, ticket and tag selects, product lists, tables, map carousels, chat conversations and message bubbles, payment and order confirmations, social posts and progress steps. Blocks are React copy-paste source installed through the shadcn CLI into a Tailwind CSS v4 project; the Alpic SkyBridge starter ships Manifest UI preconfigured.",
+  "type": "registry",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "hero",
+    "list",
+    "form",
+    "select",
+    "badge",
+    "card",
+    "date-picker",
+    "input",
+    "stepper",
+    "stats",
+    "table",
+    "chat",
+    "map"
+  ],
+  "keywords": [
+    "chatgpt app",
+    "mcp app",
+    "agentic ui",
+    "shadcn",
+    "component",
+    "block",
+    "react",
+    "tailwind",
+    "chat ui",
+    "message bubble",
+    "payment form",
+    "event card",
+    "post card",
+    "social posts",
+    "date picker",
+    "table",
+    "map carousel",
+    "registry",
+    "chat interface",
+    "ai app"
+  ],
+  "contains": [
+    "32 registry blocks for ChatGPT Apps and MCP Apps",
+    "examples: post card, event card, contact form, date and time picker, product list, table, map carousel",
+    "chat pieces: chat conversation, message bubble, quick reply; payment and order confirmations",
+    "grouped by use case (blogging, events, forms, messaging, social ...)",
+    "copy-paste React source; Tailwind CSS v4 theming with CSS custom properties",
+    "Alpic SkyBridge starter includes Manifest UI preconfigured",
+    "MIT license"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/mnfst/manifest-ui",
+    "docs": "https://ui.manifest.build/blocks",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,30 @@
+{
+  "id": "bootstrapmade-com",
+  "url": "https://bootstrapmade.com",
+  "kind": "site",
+  "hints_hash": "76b2080b3d93db3f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bootstrapmade.com", "title": "Download 175+ Free Bootstrap Templates & Themes | BootstrapMade", "status": null},
+    {"url": "https://bootstrapmade.com/premium", "title": "Premium Plan | BootstrapMade", "status": null},
+    {"url": "https://bootstrapmade.com/about", "title": "About | BootstrapMade", "status": null},
+    {"url": "https://bootstrapmade.com/license", "title": "License & Pricing Information | BootstrapMade", "status": 200}
+  ],
+  "status": "ok",
+  "name": "BootstrapMade",
+  "summary": "Marketplace of 179+ free and premium Bootstrap website, admin and landing page templates.",
+  "description": "A template shop built on Bootstrap: 169 website templates and 10 admin templates across categories such as business, portfolio, agency, restaurant, medical, education and eCommerce. Most templates are free to download under the site's license; a one-time premium plan unlocks all pro versions, the Bootstrap Builder, unlimited domains and SCSS sources.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "scroll-effect", "form"],
+  "keywords": ["bootstrap template", "bootstrap theme", "website template", "html template", "admin template", "dashboard template", "landing page template", "portfolio template", "corporate website", "agency template", "ecommerce template", "restaurant template", "medical website", "one page template", "responsive template", "free template", "premium template", "scss", "website builder"],
+  "contains": ["179+ templates and themes (169 website + 10 admin)", "categories: business, portfolio, admin, education, eCommerce, restaurant, medical, landing page, one page and more", "free templates usable in personal and commercial projects under the site's license", "premium plan: all templates, Bootstrap Builder, unlimited domains, SCSS sources, PHP/AJAX contact form"],
+  "formats": ["templates", "code"],
+  "stack": ["bootstrap", "html", "css", "sass", "php"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

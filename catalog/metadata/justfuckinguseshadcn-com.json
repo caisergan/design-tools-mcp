@@ -1,0 +1,28 @@
+{
+  "id": "justfuckinguseshadcn-com",
+  "url": "https://justfuckinguseshadcn.com",
+  "kind": "site",
+  "hints_hash": "4e3e424fc63e7b43",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://justfuckinguseshadcn.com", "title": "Just Fucking Use shadcn", "status": null},
+    {"url": "https://www.justfuckinguseshadcn.com/", "title": "Just Fucking Use shadcn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Just Fucking Use shadcn",
+  "summary": "Blunt single-page guide arguing you should build your UI on shadcn instead of a hand-rolled component library.",
+  "description": "An opinionated, profanity-heavy guide to adopting shadcn/ui: why owning copy-pasted component code beats maintaining a bespoke library, with chapters on accessibility, dark mode, Tailwind, AI coding tools and building your own registry. It also answers common objections and says when shadcn is not the right call.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["shadcn", "component library", "tailwind", "react", "copy paste component", "design system", "ui component", "dark mode", "accessibility", "registry", "code ownership"],
+  "contains": ["arguments: you own the code, accessibility, dark mode, Tailwind, registry", "rebuttals to copy-paste and full-library objections", "guidance on when to use shadcn"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

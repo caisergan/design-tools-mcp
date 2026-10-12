@@ -1,0 +1,27 @@
+{
+  "id": "t-me-maestrosniperbot-start-0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23-c",
+  "url": "https://t.me/MaestroSniperBot?start=0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23-catmargin",
+  "kind": "page",
+  "hints_hash": "17ff5cf7a836aacc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://t.me/MaestroSniperBot?start=0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23-catmargin", "title": "Telegram: Launch @MaestroSniperBot", "status": null}
+  ],
+  "status": "ok",
+  "name": "Maestro",
+  "summary": "Telegram launch page for Maestro, an official crypto trading bot with 42,810 monthly users.",
+  "description": "The Telegram page that launches Maestro (@MaestroSniperBot), a crypto trading bot. It shows the bot's about text, a monthly user count of 42,810, links to docs.maestrobots.com and @MaestroSupport, a Start Bot button, and a start parameter in the URL.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["telegram", "telegram bot", "trading bot", "crypto", "trading", "bot", "crypto bot", "start bot"],
+  "contains": ["official Maestro trading bot on Telegram", "42,810 monthly users", "links to docs.maestrobots.com and @MaestroSupport", "launch link carries a start parameter"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

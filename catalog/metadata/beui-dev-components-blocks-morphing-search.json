@@ -1,0 +1,75 @@
+{
+  "id": "beui-dev-components-blocks-morphing-search",
+  "url": "https://beui.dev/components/blocks/morphing-search",
+  "kind": "page",
+  "hints_hash": "a5434fd0b89814f5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/components/blocks/morphing-search",
+      "title": "Morphing Search · React motion component · beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Morphing Search",
+  "summary": "Search field that morphs into a glass results surface, with keyboard shortcut and icon-only trigger, for React.",
+  "description": "A React and Next.js search trigger: a field or compact icon that morphs into a glass results panel when clicked or opened by keyboard shortcut. Props cover items, placeholder, shortcut, iconOnly, emptyMessage and controlled or uncontrolled open and query state; the panel lists items with a keyboard-driven row cursor. Install with the shadcn CLI (shadcn add @beui/morphing-search) or copy the source; needs the shared use-on-open and use-row-cursor hooks and the util files.",
+  "type": "component-library",
+  "elements": [
+    "input"
+  ],
+  "keywords": [
+    "search",
+    "search field",
+    "search bar",
+    "animated search",
+    "results panel",
+    "keyboard shortcut",
+    "react",
+    "nextjs",
+    "motion component",
+    "animated component",
+    "shadcn",
+    "tailwind",
+    "copy paste",
+    "glassmorphism",
+    "icon only"
+  ],
+  "contains": [
+    "search field or compact icon that morphs into a glass results surface",
+    "opens by click or keyboard shortcut; icon-only trigger variant",
+    "props: items, placeholder, shortcut, iconOnly, emptyMessage, open, query, onSelect",
+    "install: bunx --bun shadcn add @beui/morphing-search, or copy the source",
+    "shared files: lib/ease.ts, lib/utils.ts, hooks use-on-open and use-row-cursor",
+    "preview file components/previews/blocks/morphing-search.preview.tsx",
+    "updated Aug 22, 2026"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "beui-dev"
+  },
+  "confidence": 0.85
+}

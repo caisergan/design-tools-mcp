@@ -1,0 +1,82 @@
+{
+  "id": "github-com-jktrn-astro-erudite",
+  "url": "https://github.com/jktrn/astro-erudite",
+  "kind": "repo",
+  "hints_hash": "a5cdb40aafac04e5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:07Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/jktrn/astro-erudite/blob/HEAD/README.md",
+      "title": "astro-erudite",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "astro-erudite",
+  "summary": "Unstyled static blog template for Astro: posts, series, authors, RSS — no UI or CSS framework.",
+  "description": "enscribe's opinionated, unstyled static blogging template built with Astro and native CSS, with no UI framework, no CSS framework and minimal dependencies. Zod-validated content collections handle posts, nested subposts (series), authors, tags and projects; the design system uses Utopia fluid type and space scales and Radix color scales with system dark mode. Includes a scrollspy table of contents, Expressive Code blocks, LaTeX math rendered to MathML, GitHub-style callouts, RSS and a sitemap.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "alert"
+  ],
+  "keywords": [
+    "astro",
+    "blog template",
+    "static site",
+    "markdown blog",
+    "blogging",
+    "native css",
+    "design system",
+    "dark mode",
+    "rss",
+    "sitemap",
+    "table of content",
+    "seo",
+    "math",
+    "latex",
+    "mathml",
+    "code highlighting",
+    "author",
+    "tag",
+    "series",
+    "portfolio",
+    "typescript",
+    "zod"
+  ],
+  "contains": [
+    "posts, subposts (series), authors, tags and projects as Zod-validated content collections",
+    "native-CSS design system with Utopia fluid type/space scales and Radix color scales",
+    "system dark mode, with the theme toggle storing an override",
+    "table of contents with scrollspy, heading anchors and Expressive Code blocks",
+    "LaTeX math rendered to MathML (Temml) and GitHub-style callouts",
+    "RSS feed, sitemap and per-post SEO/Open Graph control",
+    "23 community example sites built on it"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "astro",
+    "typescript",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/jktrn/astro-erudite",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

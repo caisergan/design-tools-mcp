@@ -1,0 +1,36 @@
+{
+  "id": "revyl-com",
+  "url": "https://revyl.com",
+  "kind": "site",
+  "hints_hash": "ef203ae806b1ea5e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://revyl.com/llms.txt", "title": "Revyl", "status": null},
+    {"url": "https://revyl.com", "title": "Revyl | The Mobile Development Platform", "status": 200},
+    {"url": "https://revyl.com/pricing", "title": "Pricing | Revyl", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Revyl",
+  "summary": "Mobile development platform with cloud iOS and Android devices, agent-driven test verification and Atlas runtime evidence.",
+  "description": "Runs the mobile build-develop-test loop on shared cloud compute and real iOS and Android simulator devices. Coding agents can drive devices to verify the changes they write, every run produces replayable evidence, and Atlas turns runs into a map of the app. Works from Cursor, CLI, MCP, GitHub Actions, API and CI.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["mobile development", "mobile testing", "ios", "android", "cloud device", "simulator", "test automation", "ai agent", "mcp", "ci", "pull request validation", "release readiness", "mobile app"],
+  "contains": [
+    "cloud iOS and Android simulator devices",
+    "Atlas runtime evidence and app model",
+    "agent-driven verification of mobile changes",
+    "free plan; Starter $200-250/mo, Team Pro $600-750/mo",
+    "runtime evidence guides for common mobile bugs",
+    "integrations: Cursor, CLI, MCP, GitHub Actions, API"
+  ],
+  "formats": ["app", "api", "cli"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

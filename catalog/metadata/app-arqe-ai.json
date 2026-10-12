@@ -1,0 +1,28 @@
+{
+  "id": "app-arqe-ai",
+  "url": "https://app.arqe.ai",
+  "kind": "site",
+  "hints_hash": "ab8413e4814432f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:41:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://arqe.ai", "title": "Arqe — The creative platform for what’s next", "status": 200},
+    {"url": "https://arqe.ai/legal", "title": "Legal — Arqe", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Arqe",
+  "summary": "Browser-based suite for customising motion templates, animated 3D mockups and AI stock, then exporting video.",
+  "description": "A subscription creative suite with three tools: Singles (189 motion template scenes), Mockups (animated 3D mockup scenes) and Stock (a 4K art-directed AI image library). Drop in your own images, video, logos or audio, tune the scene with simple sliders, and export video in any format or aspect ratio — all in the browser. A free preview mode explores templates with demo images; uploading, saving and exporting need a subscription.",
+  "type": "tool",
+  "categories": ["motion", "media"],
+  "elements": ["carousel", "globe", "3d"],
+  "keywords": ["motion template", "animated mockup", "device mockup", "motion design", "video template", "social media video", "reel", "3d mockup", "stock image", "royalty free stock", "browser based", "export video", "brand content", "advertising", "carousel", "globe"],
+  "contains": ["189 starter motion templates", "animated 3D mockup scenes", "4K art-directed AI stock library", "browser editor: images, video, logos, audio; sliders for speed, spacing, colors, layout", "export in any format and aspect ratio, unlimited exports", "one subscription with commercial usage rights and custom templates", "free preview mode with demo images", "10,000+ creatives and teams joined (site claim)"],
+  "formats": ["templates", "video"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "onepagelove-com-builders-table",
+  "url": "https://onepagelove.com/builders-table",
+  "kind": "page",
+  "hints_hash": "4b7341343c176cc7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/builders-table", "title": "Builders Table — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Builders Table",
+  "summary": "One Page Love award entry for a one-page site announcing Builders Table, a 24-hour hackathon event in Cape Town.",
+  "description": "A One Page Love showcase entry for Builders Table, a one-page event site by MakeReign announcing a 24-hour hackathon in Cape Town. The entry lists the site's sections, features, category, style, typefaces and tech stack.",
+  "keywords": ["one page website", "one pager", "event landing page", "hackathon", "website inspiration", "parallax scrolling", "dot grid", "dither effect", "faq accordion", "cta hero", "metrics", "gsap", "glitch", "pixel art"],
+  "elements": ["hero", "cta", "faq", "stats", "footer", "scroll-effect", "background"],
+  "contains": [
+    "sections: CTA hero, metrics, how it works, FAQ accordion, CTA footer",
+    "features: dither effect, dot grid, interactive, long scrolling, parallax scrolling",
+    "category: event, landing page; style: futuristic, glitch, pixel art",
+    "typefaces: Geist, Lay Grotesk, Meso; tech: GSAP",
+    "published 6 Aug 2026; credit MakeReign"
+  ],
+  "stack": ["gsap"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

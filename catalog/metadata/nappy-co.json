@@ -1,0 +1,29 @@
+{
+  "id": "nappy-co",
+  "url": "https://nappy.co",
+  "kind": "site",
+  "hints_hash": "5ce443b4f7de4ff2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:15:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://nappy.co", "title": "Nappy | Beautifully Diverse Stock Photos", "status": null},
+    {"url": "https://nappy.co/license", "title": "The Nappy License | Nappy", "status": null},
+    {"url": "https://nappy.co/future", "title": "An update on the future of Nappy | Nappy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Nappy",
+  "summary": "Free CC0 stock photo library of Black and Brown people, for commercial and personal use.",
+  "description": "A stock photo site with free, CC0-licensed photos of Black and Brown people, browsable by search, categories (people, food, places, objects) and curated collections. Photos come from community photographers, can be downloaded without attribution and embedded by URL. The team has announced that the site is shutting down in the next few months, with downloads kept open until the last day.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["stock photo", "free photo", "cc0", "public domain", "black people", "brown people", "diverse representation", "diversity", "photo library", "photography", "commercial use", "no attribution", "portrait", "lifestyle", "inclusive design"],
+  "contains": ["free CC0 photos of Black and Brown people", "search, categories (people, food, places, objects) and curated collections", "personal and commercial use, no attribution required", "photos viewed hundreds of millions of times, over a million downloads", "shutting down in the next few months; downloads stay open until the last day", "every downloaded photo stays CC0 permanently"],
+  "formats": ["png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

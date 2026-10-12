@@ -1,0 +1,27 @@
+{
+  "id": "svg-guide",
+  "url": "https://svg.guide",
+  "kind": "site",
+  "hints_hash": "f4c145d713046aad",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://svg.guide", "title": "Interactive SVG Animations", "status": null}
+  ],
+  "status": "ok",
+  "name": "Interactive SVG Animations",
+  "summary": "Self-paced interactive course teaching SVG syntax and how to animate SVGs, from basics to SMIL, paths and filters.",
+  "description": "An interactive course on SVGs and SVG animation by Nanda Syahrasyad. Five chapters with 39 interactive lessons and 13 exercises cover SVG syntax, CSS and SMIL animation, the path element, gradients, masks and filters.",
+  "type": "course",
+  "categories": ["learning", "motion"],
+  "elements": [],
+  "keywords": ["svg", "svg animation", "css animation", "smil", "path animation", "svg course", "interactive course", "frontend", "motion design", "svg filter", "gradient", "mask", "icon animation", "vector graphic"],
+  "contains": ["39 interactive lessons across 5 chapters", "13 exercises with step-by-step solutions", "chapters: Foundations, Your First Animation, Animating the Unanimatable, Paths, Advanced SVG Details", "$199 one-time price"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

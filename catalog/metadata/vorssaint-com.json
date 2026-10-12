@@ -1,0 +1,37 @@
+{
+  "id": "vorssaint-com",
+  "url": "https://vorssaint.com",
+  "kind": "site",
+  "hints_hash": "a4b211f0dabd7672",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vorssaint.com/llms.txt", "title": "Vorssaint", "status": null},
+    {"url": "https://vorssaint.com", "title": "Vorssaint — The modular Swiss Army knife for macOS", "status": 200},
+    {"url": "https://github.com/vorssaint/vorssaint-utils", "title": "GitHub - vorssaint/vorssaint-utils: Free and open-source macOS menu bar toolkit.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/vorssaint/vorssaint-utils/HEAD/LICENSE", "title": "GNU General Public License v3", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vorssaint",
+  "summary": "Free, open-source macOS menu bar app bundling window, clipboard, sound and display utilities as installable modules.",
+  "description": "A modular macOS menu bar toolkit: install only the features you use and remove the rest, from window management, app switcher and Dock previews to clipboard history, text snippets, a per-app volume mixer, keep-awake, a system monitor and a Dynamic Island. Local-first with no account, subscription or telemetry; distributed as a Homebrew cask for Apple silicon on macOS 14+.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["macos", "menu bar app", "mac utility", "window manager", "clipboard manager", "system monitor", "dock preview", "open source", "homebrew", "dynamic island", "keep awake", "volume mixer", "app switcher", "uninstaller", "screenshot", "text snippet"],
+  "contains": [
+    "modular features: windows and Dock, keyboard and mouse, clipboard, sound, display, tools, system monitor",
+    "install with brew install --cask vorssaint; macOS 14+ on Apple silicon",
+    "no account, subscription or telemetry",
+    "localized in 8 languages (en, pt-br, es, de, fr, it, ja, zh-hans)",
+    "26.1k GitHub stars",
+    "one menu bar icon replaces a stack of single-purpose Mac apps"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["swift", "swift-ui"],
+  "pricing": "free",
+  "license": "GPL-3.0-only",
+  "related": {"repo": "https://github.com/vorssaint/vorssaint-utils", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

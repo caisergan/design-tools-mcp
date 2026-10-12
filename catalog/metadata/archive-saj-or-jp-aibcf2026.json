@@ -1,0 +1,22 @@
+{
+  "id": "archive-saj-or-jp-aibcf2026",
+  "url": "https://archive.saj.or.jp/aibcf2026",
+  "kind": "page",
+  "hints_hash": "1dc981fa853cbb6d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://archive.saj.or.jp/aibcf2026", "title": "AI Business Challenge Fes 2026 | SAJ B Sports", "status": null}
+  ],
+  "status": "ok",
+  "name": "AI Business Challenge Fes 2026",
+  "summary": "Japanese AI business competition event: free entry, three categories, online and in Tokyo on December 14, 2026.",
+  "description": "Event page for AI Business Challenge Fes 2026, a \"B Sports\" AI competition organised by SAJ (Japan Software Association) on Dec 14, 2026, 15:00–17:30 JST, hybrid from the Tameike-Sanno area of Tokyo and online. Three competition categories: AI service development (bonus points for domestic AI such as Sakura's AI ENGINE), AI service proposal (plan/presentation decks, videos allowed) and a real-time battle with topics revealed on the day; entry is free and open to students, professionals, individuals and teams.",
+  "elements": [],
+  "keywords": ["ai competition", "ai contest", "business competition", "ai event", "ai service development", "ai pitch", "real-time battle", "student competition", "team entry", "free entry", "online event", "japan", "tokyo", "2026"],
+  "contains": ["event date: December 14, 2026, 15:00–17:30 JST", "format: hybrid — Tameike-Sanno area, Tokyo and online", "three categories: AI service development, AI service proposal, real-time battle", "free entry; open to any age, education or affiliation, individuals or teams", "bonus points for domestic AI services such as Sakura's AI ENGINE", "pre-submitted work due Sep–Nov 2026, judging early Dec", "all applicants get SAJ support for sales, job hunting and team PR"],
+  "pricing": "free",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pdfmavericks-com",
+  "url": "https://pdfmavericks.com",
+  "kind": "site",
+  "hints_hash": "7ba348d13129ca03",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pdfmavericks.com/llms.txt", "title": "PDF Mavericks", "status": null},
+    {"url": "https://pdfmavericks.com", "title": "PDF Mavericks - Free Unlimited PDF Tools Online (No Sign-up)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "PDF Mavericks",
+  "summary": "40+ free browser-based PDF, image and developer tools; everything runs client-side so files never leave the device.",
+  "description": "A collection of 40+ tools that run entirely in the browser via pdf-lib and PDF.js: merge, split, compress, sign, watermark, crop, rotate, organize, add page numbers or Bates stamps, flatten, protect, unlock and repair PDFs; convert between PDF and Word, PowerPoint, Excel, Markdown, CSV, text or images; image tools (HEIC, WebP, AVIF, ICO, GIF, compressor, resizer, background remover) and developer tools (JSON, YAML, CSV, XML, JWT, Base64, hashes, regex tester). No signup, no upload, no fixed file size limit.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["file-upload", "input", "slider"],
+  "keywords": ["pdf tool", "compress pdf", "merge pdf", "split pdf", "sign pdf", "watermark", "pdf converter", "pdf to word", "pdf to markdown", "pdf to excel", "image converter", "heic", "webp", "json formatter", "base64", "jwt decoder", "regex tester", "client-side", "browser-based", "privacy", "free"],
+  "contains": ["40+ browser-based tools across PDF, image and developer data", "all processing client-side via pdf-lib and PDF.js; files never leave the device", "free with no signup, no upload and no fixed file size limit", "PDF tools: merge, split, compress, sign, watermark, crop, organize, page numbers, Bates, flatten, protect/unlock, repair", "conversions: PDF to Word, PowerPoint, Excel, Markdown, CSV, text and images", "image tools: HEIC/WebP/AVIF/ICO conversion, compression, resizing, background removal", "developer tools: JSON/YAML/CSV/XML, JWT decoder, Base64, hashes, regex tester", "India-specific tools such as Aadhaar number masking"],
+  "formats": ["app", "docs"],
+  "stack": ["pdf-lib", "pdf.js", "javascript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

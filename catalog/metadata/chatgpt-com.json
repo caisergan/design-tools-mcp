@@ -1,0 +1,84 @@
+{
+  "id": "chatgpt-com",
+  "url": "https://chatgpt.com",
+  "kind": "site",
+  "hints_hash": "8174a8dd1003c878",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://chatgpt.com",
+      "title": "ChatGPT: Chat, Work, Create & Code with AI",
+      "status": 200
+    },
+    {
+      "url": "https://chatgpt.com/overview",
+      "title": "Overview | ChatGPT",
+      "status": 200
+    },
+    {
+      "url": "https://chatgpt.com/pricing",
+      "title": "Pricing | ChatGPT",
+      "status": 200
+    },
+    {
+      "url": "https://chatgpt.com/features/dots",
+      "title": "Dots: Always-on agents built to handle everything | ChatGPT",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ChatGPT",
+  "summary": "AI assistant for chat, writing, images, research and code, with free and paid plans and desktop and mobile apps.",
+  "description": "Chat assistant you ask anything: get tailored answers, draft and edit work deliverables like docs, slide decks and spreadsheets, create images, run deep research, and code with the Codex agent. Free covers unlimited text chats with GPT-6 plus limited uploads, images, voice, memory and Codex; Go, Plus, Pro, Business and Enterprise plans raise the limits. Desktop and mobile apps are available, with plugins such as Canva, Spotify and PowerPoint.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "chat",
+    "prompt-input"
+  ],
+  "keywords": [
+    "ai chat",
+    "ai assistant",
+    "chatbot",
+    "chat app",
+    "writing assistant",
+    "image creation",
+    "deep research",
+    "code assistant",
+    "voice chat",
+    "file upload",
+    "ai agent",
+    "productivity",
+    "work task"
+  ],
+  "contains": [
+    "free: unlimited text chats with GPT-6, limited uploads, image creation, voice, deep research and Codex",
+    "paid plans: Go, Plus, Pro (individual) and Business, Enterprise (per user per month)",
+    "work deliverables: docs, slide decks, spreadsheets, charts, PDFs and images",
+    "dots: always-on agents powered by GPT-6 Astra, created in the desktop app",
+    "desktop and mobile apps; browser chat with image and file upload",
+    "1,947 urls in the sitemap across features, work, deep research and plugins"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

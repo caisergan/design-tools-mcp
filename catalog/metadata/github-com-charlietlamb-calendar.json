@@ -1,0 +1,76 @@
+{
+  "id": "github-com-charlietlamb-calendar",
+  "url": "https://github.com/charlietlamb/calendar",
+  "kind": "repo",
+  "hints_hash": "f956560ba2893a69",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/charlietlamb/calendar/blob/HEAD/README.md",
+      "title": "React/ShadCN Calendar",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "React/ShadCN Calendar",
+  "summary": "Full calendar component for React apps and dashboards with day, week and month views, event dialogs and a date/time picker.",
+  "description": "A copy-paste calendar built with shadcn/ui, Tailwind CSS and Radix UI for dashboards and apps. It has day, week and month views plus dialogs for creating and managing events, with a date/time and color picker, dark mode support and responsive layout. MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "calendar",
+    "modal",
+    "date-picker"
+  ],
+  "keywords": [
+    "calendar",
+    "react",
+    "shadcn",
+    "tailwind",
+    "event calendar",
+    "day view",
+    "week view",
+    "month view",
+    "date picker",
+    "event management",
+    "dialog",
+    "dashboard",
+    "dark mode",
+    "radix ui",
+    "copy-paste"
+  ],
+  "contains": [
+    "day, week and month calendar views",
+    "create and manage event dialogs",
+    "date/time picker with 24-hour time selection",
+    "event color picker and form validation",
+    "dark mode and responsive design",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/charlietlamb/calendar",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

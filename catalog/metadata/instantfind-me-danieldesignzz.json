@@ -1,0 +1,24 @@
+{
+  "id": "instantfind-me-danieldesignzz",
+  "url": "https://instantfind.me/danieldesignzz",
+  "kind": "page",
+  "hints_hash": "3c8f36451a05377d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:36:40Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    {
+      "url": "https://instantfind.me/danieldesignzz",
+      "title": "Daniel Allison - Product Designer",
+      "status": null
+    },
+    { "url": "https://instantfind.me", "title": "InstantFind", "status": 200 }
+  ],
+  "status": "partial",
+  "name": "Daniel Allison - Product Designer",
+  "summary": "InstantFind profile page of a product designer with 4 years of experience in motion, animation and illustration work.",
+  "description": "A professional profile page published on InstantFind, a service for creating profile pages, for a product designer with 4 years of experience (1 year remote) working on digital products with motion, animation and illustration. Only the title and meta description were readable; the rest of the profile is rendered by JavaScript.",
+  "keywords": ["profile page", "portfolio", "product designer", "motion design", "animation", "illustration", "design portfolio", "remote designer", "digital product design", "designer profile"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.5
+}

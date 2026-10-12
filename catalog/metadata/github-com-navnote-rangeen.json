@@ -1,0 +1,76 @@
+{
+  "id": "github-com-navnote-rangeen",
+  "url": "https://github.com/navnote/rangeen",
+  "kind": "repo",
+  "hints_hash": "19f67ec5b758688b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/navnote/rangeen/blob/HEAD/README.md",
+      "title": "Rangeen",
+      "status": null
+    },
+    {
+      "url": "https://github.com/navnote/rangeen",
+      "title": "GitHub - navnote/rangeen: tool that helps you to create a colour palette for your website",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/navnote/rangeen/HEAD/package.json",
+      "title": "package.json",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Rangeen",
+  "summary": "Open-source tool that builds a colour palette for your website and previews it on real websites and components.",
+  "description": "Rangeen generates a colour palette with material design utilities and turns it into a website theme, showing the result on real layouts and shadcn/ui components. It is a React web app whose live demo is hosted on GitHub Pages.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "colour palette",
+    "color palette",
+    "palette generator",
+    "color scheme",
+    "material design",
+    "shadcn",
+    "tailwind",
+    "theme",
+    "website color",
+    "color tool",
+    "open source",
+    "react"
+  ],
+  "contains": [
+    "generates colour palettes with material design utilities",
+    "previews colours on real websites and shadcn/ui components",
+    "open source, MIT licensed"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/navnote/rangeen",
+    "docs": "https://navnote.github.io/rangeen/",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

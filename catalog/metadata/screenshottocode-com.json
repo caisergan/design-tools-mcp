@@ -1,0 +1,31 @@
+{
+ "id": "screenshottocode-com",
+ "url": "https://screenshottocode.com",
+ "kind": "site",
+ "hints_hash": "93492e158093bbdb",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T16:20:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://screenshottocode.com", "title": "Screenshot to Code", "status": 200},
+  {"url": "https://screenshottocode.com/pricing", "title": "Screenshot to Code", "status": 200},
+  {"url": "https://screenshottocode.com/faq", "title": "Screenshot to Code", "status": 200},
+  {"url": "https://screenshottocode.com/llms.txt", "title": null, "status": 404},
+  {"url": "https://github.com/abi/screenshot-to-code", "title": "GitHub - abi/screenshot-to-code: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue) · GitHub", "status": 200}
+ ],
+ "status": "partial",
+ "name": "Screenshot to Code",
+ "summary": "Web app that converts a screenshot or design into clean code, with HTML, Tailwind, React and Vue output per its repo.",
+ "description": "Drop a screenshot or design in and get code back. The project's GitHub repository lists HTML, Tailwind, React and Vue as output targets. The hosted site is JavaScript-rendered, so only its title and meta description were readable and details like pricing and accounts are unverified.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["screenshot to code", "design to code", "image to code", "code generator", "html", "react", "vue", "tailwind", "frontend", "open source"],
+ "contains": ["converts a screenshot or design into code", "output targets listed: HTML, Tailwind, React, Vue", "open-source repo abi/screenshot-to-code, MIT, 80k+ stars"],
+ "formats": ["app", "code"],
+ "stack": ["react", "vue", "tailwind"],
+ "pricing": "unknown",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/abi/screenshot-to-code", "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.6
+}

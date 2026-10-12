@@ -1,0 +1,26 @@
+{
+  "id": "onepagelove-com-inspiration",
+  "url": "https://onepagelove.com/inspiration",
+  "kind": "page",
+  "hints_hash": "2975de8180681f4e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/inspiration", "title": "One Page Website Inspiration", "status": 200}
+  ],
+  "status": "ok",
+  "name": "One Page Website Inspiration",
+  "summary": "Browsable index of curated one page websites and landing pages, filterable by genre, style, platform, tech and colour.",
+  "description": "The inspiration index on One Page Love: a filterable gallery of one page websites and landing pages with real screenshots, feature breakdowns and design notes. Entries show a name plus genre and type labels, filters cover genre, style, platform, tech and colour, and new sites are added weekly.",
+  "type": "gallery",
+  "elements": [],
+  "keywords": ["one page website", "landing page", "website gallery", "website inspiration", "portfolio website", "screenshot gallery", "design showcase", "web design", "curated website"],
+  "contains": ["curated one page websites and landing pages", "filters: genre, style, platform, tech, colour", "real screenshots, feature breakdowns and design notes", "new sites added weekly", "genre filters: portfolio 3784, landing page 2024, digital product 1526, app 896"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.8
+}

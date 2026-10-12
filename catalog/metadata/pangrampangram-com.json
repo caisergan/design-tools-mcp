@@ -1,0 +1,31 @@
+{
+ "id": "pangrampangram-com",
+ "url": "https://pangrampangram.com",
+ "kind": "site",
+ "hints_hash": "0aeabaf37f3c3138",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://pangrampangram.com/llms.txt", "title": "Agent Instructions — Pangram Pangram Foundry", "status": null},
+  {"url": "https://pangrampangram.com", "title": "Pangram Pangram — Free to try, High-Quality Fonts for Designers – Pangram Pangram Foundry", "status": null},
+  {"url": "https://pangrampangram.com/collections/fonts", "title": "Explore All our Free-to-try Fonts | The Full Pangram Pangram® Type Collection – Pangram Pangram Foundry", "status": null},
+  {"url": "https://pangrampangram.com/collections/all-families-and-sub-families", "title": "All (Families and Sub-Families) – Pangram Pangram Foundry", "status": null},
+  {"url": "https://pangrampangram.com/products/fsp", "title": "The Ultimate Font Starter Pack for Designers by Pangram Pangram – Pangram Pangram Foundry", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Pangram Pangram",
+ "summary": "Independent type foundry: 63 font families, free to try, with commercial licenses from $40.",
+ "description": "Type foundry selling contemporary typefaces such as Neue Montreal, Neue Gstaad, Altera, Palma, Neue York and Frama, all free to try. Browse the catalog by style tags (sans serif, serif, display, mono, grotesk, variable …), preview styles, read font-in-use stories, and license fonts per project or through the paid Font Starter Pack subscription.",
+ "type": "font-foundry",
+ "categories": ["fonts"],
+ "elements": [],
+ "keywords": ["typeface", "font foundry", "sans serif", "serif", "display font", "variable font", "grotesk", "monospace", "font license", "free trial font", "branding", "typography", "font pair"],
+ "contains": ["63 font families; 208 family and sub-family products", "fonts free to try; commercial licenses from $40", "Font Starter Pack: $29–$69/year for 80 typefaces, 1300+ styles, 42 Photoshop mockups", "formats OTF, TTF, WOFF, WOFF2", "early access collection for nearly finished typefaces", "font-in-use case studies and Academy articles"],
+ "formats": ["font-files"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "proprietary",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

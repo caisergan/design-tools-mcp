@@ -1,0 +1,42 @@
+{
+  "id": "bearnie-dev",
+  "url": "https://bearnie.dev",
+  "kind": "site",
+  "hints_hash": "6ab61d553a35501b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bearnie.dev/llms.txt", "title": "Bearnie", "status": null},
+    {"url": "https://bearnie.dev", "title": "Bearnie - shadcn-style components for Astro", "status": 200},
+    {"url": "https://bearnie.dev/docs", "title": "Introduction | Bearnie", "status": 200},
+    {"url": "https://bearnie.dev/docs/cli", "title": "CLI | Bearnie", "status": 200},
+    {"url": "https://bearnie.dev/docs/mcp", "title": "MCP Server | Bearnie", "status": 200},
+    {"url": "https://bearnie.dev/docs/changelog", "title": "Changelog | Bearnie", "status": 200},
+    {"url": "https://github.com/michael-andreuzza/bearnie", "title": "GitHub - michael-andreuzza/bearnie: Accessible components for Astro and Tailwind CSS. Components are copied to your project. You own and control the code. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Bearnie",
+  "summary": "50+ accessible Astro components in the shadcn copy-paste style, with a CLI, an MCP server and 160+ color palettes.",
+  "description": "A copy-paste component library for Astro and Tailwind CSS: 50+ accessible components install with npx bearnie add and ship as plain Astro + vanilla JavaScript, with no React, Vue or Svelte runtime. Comes with a CLI (init, add, diff, update, barrel), an MCP server (@bearnie/mcp) so AI assistants can add components, 160+ color palettes, light and dark theming with CSS variables, WCAG 2.1 AA behaviour, and a create-bearnie starter for new projects.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "banner", "breadcrumbs", "button", "calendar", "card", "carousel", "checkbox", "command-palette", "dropdown", "empty-state", "file-upload", "form", "input", "loader", "marquee", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "stepper", "switch", "table", "tabs", "timeline", "toast"],
+  "variants": {"navbar": ["dropdown"], "sidebar": ["icon-rail"]},
+  "keywords": ["astro", "astro component", "tailwind css", "shadcn", "component library", "copy paste", "cli", "mcp server", "accessible component", "wcag", "dark mode", "theme", "color palette", "vanilla js", "dialog", "form", "calendar", "carousel", "data table", "toast", "banner", "timeline", "marquee", "sidebar", "file upload", "otp input"],
+  "contains": [
+    "50+ accessible components for Astro and Tailwind CSS; plain Astro + vanilla JS, zero client JS by default",
+    "install: npx bearnie init, then npx bearnie add button dialog …; create-bearnie scaffolds new projects",
+    "160+ color palettes; light/dark via CSS variables; npx bearnie diff and update keep components in sync",
+    "MCP server @bearnie/mcp: list_components, search_components, get_component, add_component(s)",
+    "WCAG 2.1 AA defaults: keyboard navigation, screen reader support, focus management, progressive enhancement",
+    "registry 0.6.0–0.12.0 adds calendar, navigation menu, timeline, marquee, banner, tables, sidebar icon rail",
+    "MIT license; 354 GitHub stars"
+  ],
+  "formats": ["code", "registry", "cli", "npm-package", "docs", "templates"],
+  "stack": ["astro", "tailwind", "javascript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/michael-andreuzza/bearnie", "docs": "https://bearnie.dev/docs", "npm": "bearnie", "figma": null, "parent": null},
+  "confidence": 0.9
+}

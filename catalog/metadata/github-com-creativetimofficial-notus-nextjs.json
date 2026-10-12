@@ -1,0 +1,27 @@
+{
+  "id": "github-com-creativetimofficial-notus-nextjs",
+  "url": "https://github.com/creativetimofficial/notus-nextjs",
+  "kind": "repo",
+  "hints_hash": "6786cb190bd827c4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/creativetimofficial/notus-nextjs/blob/HEAD/README.md", "title": "Notus NextJS", "status": null}
+  ],
+  "status": "ok",
+  "name": "Notus NextJS",
+  "summary": "Free Tailwind CSS and Next.js UI kit with an admin dashboard, 120 components and 18 dynamic components.",
+  "description": "A free, MIT-licensed UI kit and admin for Tailwind CSS and Next.js. It ships over 120 fully coded components, 18 dynamic Next.js components (navbars, modals, tabs, menus, tooltips, popovers) and prebuilt pages: a dashboard with settings, tables and maps, plus login, register, landing and profile samples.",
+  "type": "template",
+  "categories": ["templates", "components"],
+  "elements": ["alert", "button", "input", "dropdown", "modal", "navbar", "popover", "tooltip", "tabs", "table", "map", "dashboard", "form"],
+  "keywords": ["nextjs", "react", "tailwind", "ui kit", "admin dashboard", "template", "free template", "component", "landing page", "authentication page", "navbar", "modal"],
+  "contains": ["120+ fully coded components", "18 dynamic Next.js components", "pages: dashboard, settings, tables, maps, login, register, landing, profile", "MIT license", "downloadable project built with Tailwind CSS and Next.js"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/creativetimofficial/notus-nextjs", "docs": "https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

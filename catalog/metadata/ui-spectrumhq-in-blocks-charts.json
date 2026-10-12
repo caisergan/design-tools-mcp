@@ -1,0 +1,88 @@
+{
+  "id": "ui-spectrumhq-in-blocks-charts",
+  "url": "https://ui.spectrumhq.in/blocks/charts",
+  "kind": "page",
+  "hints_hash": "1ad1078a306e2bc8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:43:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.spectrumhq.in/blocks/charts",
+      "title": "Charts Blocks for React — Live Previews & Source",
+      "status": 200
+    },
+    {
+      "url": "https://ui.spectrumhq.in/llms.txt",
+      "title": "Spectrum UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Charts Blocks",
+  "summary": "19 free React chart blocks: pure-SVG market charts, Recharts charts, a histogram and dashboard widgets, with live previews and source.",
+  "description": "The Spectrum UI chart library as copy-paste blocks: a dependency-free SVG market family (market chart, candlestick, price, indicator with RSI and MACD, depth, order book, portfolio drawdown), area, bar, line, composed, pie, radar and radial charts on Recharts, a latency histogram with percentile pins, and the dashboard set — KPI stat cards, a cohort retention grid and a calendar heatmap.",
+  "type": "block-library",
+  "elements": [
+    "chart",
+    "stats"
+  ],
+  "keywords": [
+    "chart block",
+    "react chart",
+    "svg chart",
+    "candlestick chart",
+    "market chart",
+    "order book",
+    "depth chart",
+    "rsi",
+    "macd",
+    "area chart",
+    "bar chart",
+    "line chart",
+    "composed chart",
+    "pie chart",
+    "radar chart",
+    "histogram",
+    "rechart",
+    "dashboard",
+    "stat card",
+    "cohort retention",
+    "calendar heatmap",
+    "shadcn",
+    "copy paste",
+    "tailwind css"
+  ],
+  "contains": [
+    "19 chart blocks: 7 pure-SVG market charts, 7 Recharts charts, a histogram and 3 dashboard blocks",
+    "market family: OHLC candles, volume pane, snapping crosshair, order book ladder, RSI/MACD panes, portfolio drawdown",
+    "histogram with percentile pins; KPI stat cards, cohort retention grid and calendar heatmap",
+    "live previews with copyable source; free and open source under Apache-2.0",
+    "part of Spectrum UI: 111 blocks and 58 components, installable with the shadcn CLI"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "recharts",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-spectrumhq-in"
+  },
+  "confidence": 0.85
+}

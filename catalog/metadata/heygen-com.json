@@ -1,0 +1,30 @@
+{
+  "id": "heygen-com",
+  "url": "https://heygen.com",
+  "kind": "site",
+  "hints_hash": "ee81f0fb6638bbd7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://heygen.com/llms.txt", "title": "HeyGen", "status": null},
+    {"url": "https://heygen.com", "title": "HeyGen: Create AI Videos with Your Personal Avatar", "status": 200},
+    {"url": "https://www.heygen.com/pricing", "title": "Pricing Plans for Creators and Marketers | HeyGen", "status": 200},
+    {"url": "https://www.heygen.com/faq", "title": "HeyGen FAQs - AI Video, Avatars, Pricing & API | HeyGen", "status": 200}
+  ],
+  "status": "ok",
+  "name": "HeyGen",
+  "summary": "AI video platform that turns scripts, photos and audio into avatar-narrated videos and translates them into 175+ languages.",
+  "description": "Web platform for creating AI videos at scale: generate presenter videos from a script, a photo or an audio file using AI avatars, voice cloning and lip sync, with an AI Studio script-based editor and a Video Agent that turns a prompt into a finished video. It also translates and dubs existing videos into 175+ languages, and ships an enterprise API, MCP server and developer portal.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai video generator", "ai avatar", "talking avatar", "video translation", "dubbing", "lip sync", "voice cloning", "text to video", "image to video", "avatar video", "spokesperson video", "ugc ad", "video api", "mcp server", "training video"],
+  "contains": ["100+ individual video tools", "avatars from a photo or a 15-second video (Avatar IV and Avatar V)", "175+ languages with lip-synced translation", "1,000+ avatar styles and 500+ UGC looks", "developer portal with API, SDK, CLI, MCP and webhooks", "free plan: 3 videos per month; Creator from $29/mo"],
+  "formats": ["app", "api", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

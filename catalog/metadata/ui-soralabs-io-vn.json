@@ -1,0 +1,121 @@
+{
+  "id": "ui-soralabs-io-vn",
+  "url": "https://ui.soralabs.io.vn",
+  "kind": "site",
+  "hints_hash": "70e9d511dae3418f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.soralabs.io.vn/llms.txt",
+      "title": "Sora UI",
+      "status": null
+    },
+    {
+      "url": "https://ui.soralabs.io.vn",
+      "title": "Sora UI – Animated React Components for shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://ui.soralabs.studio/docs",
+      "title": "Introduction - Sora UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.soralabs.studio/icons",
+      "title": "Icons - Sora UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.soralabs.studio/pricing",
+      "title": "Pricing - Sora UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.soralabs.studio/docs/cli",
+      "title": "Sora CLI - Sora UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.soralabs.studio/docs/license",
+      "title": "License - Sora UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Sora UI",
+  "summary": "Copy-paste animated React components for shadcn/ui, built with Motion, GSAP and Tailwind CSS.",
+  "description": "A registry of animated React components — motion primitives, buttons, dialogs, loaders, text effects and scroll reveals, plus animated Lucide icons — built with Motion and GSAP on Tailwind CSS v4 and distributed as shadcn-compatible code. Install via shadcn CLI commands or the standalone sora-cli, with MCP support and full TypeScript source. Free forever: every primitive is available with no paywall, and commercial use is allowed.",
+  "type": "registry",
+  "categories": [
+    "motion",
+    "registries"
+  ],
+  "elements": [
+    "button",
+    "modal",
+    "checkbox",
+    "card",
+    "text-effect",
+    "loader",
+    "dropdown",
+    "accordion",
+    "cursor",
+    "input",
+    "badge",
+    "scroll-effect",
+    "tooltip"
+  ],
+  "keywords": [
+    "animated component",
+    "react",
+    "motion",
+    "gsap",
+    "shadcn ui",
+    "text effect",
+    "scroll reveal",
+    "loader",
+    "accordion",
+    "tooltip",
+    "copy-paste component",
+    "nextjs",
+    "tailwind css"
+  ],
+  "contains": [
+    "133 registry items installable with the shadcn CLI or sora-cli",
+    "motion primitives, Base UI and Radix UI components, animated Lucide icons",
+    "animated with Motion and GSAP, with reduced-motion support",
+    "free forever — no Pro plan, commercial use allowed",
+    "original code MIT; parts derived from Animate UI keep its Commons Clause restriction"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion",
+    "gsap",
+    "base-ui",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://ui.soralabs.studio/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

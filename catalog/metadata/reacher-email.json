@@ -1,0 +1,29 @@
+{
+  "id": "reacher-email",
+  "url": "https://reacher.email",
+  "kind": "site",
+  "hints_hash": "5aead69e990824f9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://reacher.email/llms.txt", "title": "Reacher", "status": null},
+    {"url": "https://github.com/reacherhq/check-if-email-exists", "title": "GitHub - reacherhq/check-if-email-exists: Check if an email address exists without sending any email, written in Rust.", "status": 200},
+    {"url": "https://github.com/reacherhq/check-if-email-exists/blob/HEAD/LICENSE.md", "title": "check-if-email-exists/LICENSE.md at HEAD · reacherhq/check-if-email-exists · GitHub", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Reacher",
+  "summary": "Open-source email verification API that checks addresses by talking SMTP to mail servers to reduce bounce rates.",
+  "description": "Reacher verifies email addresses over SMTP — mailbox existence, MX records, disposable providers and catch-all domains. Self-host the MIT-licensed Rust engine for free, use the managed pay-as-you-go API, or route verification through its Port 25 SMTP proxy infrastructure.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["email verification", "email validation", "email api", "smtp", "rust", "bounce rate", "catch-all", "mx record", "disposable email", "self-hosted", "rest api", "bulk email check", "email deliverability", "developer tool"],
+  "contains": ["verifies mailbox existence, MX records, disposable providers and catch-all domains over SMTP", "self-hostable Rust engine check-if-email-exists (10k+ GitHub stars, MIT)", "managed API with pay-as-you-go pricing, 10M+ requests per day handled", "REST API documented with cURL, Node.js, Python and Go snippets", "SMTP proxies from $49/month for up to 300,000 verification connections"],
+  "formats": ["api", "cli", "code", "docs"],
+  "stack": ["rust"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/reacherhq/check-if-email-exists", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

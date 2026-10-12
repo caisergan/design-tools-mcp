@@ -1,0 +1,53 @@
+{
+  "id": "reui-io-components",
+  "url": "https://reui.io/components",
+  "kind": "page",
+  "hints_hash": "ef0cc63a76fe2ca6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://reui.io/components",
+      "title": "Free Shadcn UI Components - ReUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Free Shadcn UI Components",
+  "summary": "Catalog of 1241+ free shadcn/ui components and React examples for Tailwind CSS, browsable by category.",
+  "type": "component-library",
+  "keywords": [
+    "shadcn",
+    "react component",
+    "tailwind",
+    "copy paste",
+    "data grid",
+    "event calendar",
+    "gantt",
+    "kanban",
+    "file upload",
+    "filters",
+    "cascader",
+    "chart",
+    "stepper",
+    "timeline",
+    "component catalog",
+    "radix ui",
+    "base ui",
+    "open source",
+    "docs"
+  ],
+  "related": {
+    "repo": null,
+    "docs": "https://reui.io/docs",
+    "npm": null,
+    "figma": null,
+    "parent": "reui-io"
+  },
+  "confidence": 0.85
+}

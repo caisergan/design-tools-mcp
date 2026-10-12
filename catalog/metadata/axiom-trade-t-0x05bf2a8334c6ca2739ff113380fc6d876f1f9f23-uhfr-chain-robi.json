@@ -1,0 +1,20 @@
+{
+  "id": "axiom-trade-t-0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23-uhfr-chain-robi",
+  "url": "https://axiom.trade/t/0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23/@uhfr?chain=robinhood",
+  "kind": "page",
+  "hints_hash": "3bb5688ebf23c2fc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://axiom.trade/t/0x05bf2a8334c6ca2739ff113380fc6d876f1f9f23/@uhfr?chain=robinhood", "title": "Axiom", "status": null}
+  ],
+  "status": "partial",
+  "name": "Axiom",
+  "summary": "Axiom trading terminal page for a token on the Robinhood chain; the page renders with JavaScript, so little was readable.",
+  "description": "Token page on Axiom, a DeFi trading terminal described as \"The Gateway to DeFi\", for a token contract address on the Robinhood chain. The page renders with JavaScript, so only the title, meta description and social preview image could be read; the crawl found no page text and no links.",
+  "elements": [],
+  "keywords": ["trading terminal", "defi", "token", "crypto trading", "on-chain trading", "chart", "robinhood chain", "web3"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.3
+}

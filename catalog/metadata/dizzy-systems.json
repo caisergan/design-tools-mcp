@@ -1,0 +1,27 @@
+{
+  "id": "dizzy-systems",
+  "url": "https://dizzy.systems",
+  "kind": "site",
+  "hints_hash": "d2f28404d0a85bcc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:49:25Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dizzy.systems", "title": "Dizzy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Dizzy",
+  "summary": "Generator that built fully styled, customizable shadcn-based sites; the free service is retiring.",
+  "description": "Dizzy generated fully styled, deeply customizable shadcn-based sites in minutes, letting you tune fonts, colors, spacing, radii, depth, shadows and subtle animations so the result felt like your own design system rather than a template. It was free from day one; the author is retiring the service and asks whether there is interest in a paid rebuild ($99/year for unlimited generations).",
+  "type": "generator",
+  "categories": ["color-effects", "templates"],
+  "elements": [],
+  "keywords": ["shadcn", "shadcn ui", "theme generator", "site generator", "nextjs", "tailwind", "font", "color palette", "shadow", "spacing", "radius", "animation", "design system", "starter site"],
+  "contains": ["generates fully-styled shadcn-based sites", "controls for fonts, depth, shadows, spacing, radii and animations", "free from day one", "retiring: gauging interest in a $99/year rebuild"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

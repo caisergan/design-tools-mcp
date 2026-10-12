@@ -1,0 +1,21 @@
+{
+  "id": "ruben-substack-com-p-1800-hours-of-claude",
+  "url": "https://ruben.substack.com/p/1800-hours-of-claude",
+  "kind": "page",
+  "hints_hash": "3b83c644be5f0786",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "commandcode/deepseek/deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/1800-hours-of-claude", "title": "27 Claude tips after 1,800 hours. - by Ruben Hassid", "status": null}
+  ],
+  "status": "ok",
+  "name": "27 Claude tips after 1,800 hours.",
+  "summary": "Paid post with 27 non-obvious tips for working with Claude, from the How to AI newsletter.",
+  "description": "Ruben Hassid distils 1,800 hours of Claude use into 27 tips: stop using Projects for creative work, pick model and effort level per task, generate infographics as HTML, edit prompts instead of correcting replies, dictate instead of typing, turn off unused Connectors and start fresh chats sooner. The later tips are for paid subscribers.",
+  "type": "article",
+  "keywords": ["claude", "claude tip", "ai assistant", "prompt", "prompting", "claude project", "ai workflow", "dictation", "ai newsletter", "chatgpt"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "pricing": "paid",
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+ "id": "producthunt-com-products-nextadmin",
+ "url": "https://producthunt.com/products/nextadmin",
+ "kind": "page",
+ "hints_hash": "ea9e97c925279133",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T19:00:41Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://producthunt.com/products/nextadmin", "title": "NextAdmin: Open-source Next.js admin dashboard, built for AI agents | Product Hunt", "status": null},
+  {"url": "https://nextadmin.co", "title": "Free Next.js Admin Dashboard Template for AI Agents | NextAdmin", "status": 200}
+ ],
+ "status": "ok",
+ "name": "NextAdmin",
+ "summary": "Open-source Next.js admin dashboard template with 200+ components and AI-agent context files.",
+ "description": "Product Hunt page for NextAdmin: a free, open-source Next.js admin dashboard with 200+ UI components, six prebuilt dashboards (analytics, e-commerce, CRM, marketing), AGENTS.md rules, agent skills and a prompt library, plus a Figma design source. The core is MIT; Pro adds more components and premium skills as a one-time payment.",
+ "type": "template",
+ "categories": ["templates", "components", "dev-ai-tools"],
+ "elements": ["dashboard", "table", "chart", "card", "map", "calendar", "form"],
+ "keywords": ["admin dashboard", "dashboard template", "nextjs", "react", "tailwind", "ai agent", "agents md", "agent skill", "prompt library", "admin panel", "starter template", "open source", "figma", "component library", "crm dashboard", "analytics dashboard", "design system", "dark mode"],
+ "contains": ["free, open-source Next.js admin dashboard core (MIT)", "200+ handcrafted UI components; 6 prebuilt dashboards", "AGENTS.md rules, agent skills and a prompt library for AI editors", "Figma design system and components (Pro)", "mock data shaped like a real API, swapped for live endpoints by an agent skill", "Pro adds more components as a one-time payment"],
+ "formats": ["code", "templates", "figma-file", "prompts", "docs"],
+ "stack": ["react", "nextjs", "tailwind"],
+ "pricing": "freemium",
+ "license": "MIT",
+ "related": {"repo": null, "docs": "https://nextadmin.co/docs", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.75
+}

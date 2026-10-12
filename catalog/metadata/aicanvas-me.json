@@ -1,0 +1,128 @@
+{
+  "id": "aicanvas-me",
+  "url": "https://aicanvas.me",
+  "kind": "site",
+  "hints_hash": "d48b4b80b7366c87",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:31:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://aicanvas.me/llms.txt",
+      "title": "AI Canvas",
+      "status": null
+    },
+    {
+      "url": "https://aicanvas.me",
+      "title": "React Component Registry: Components, Blocks & Design Systems | AI Canvas",
+      "status": 200
+    },
+    {
+      "url": "https://aicanvas.me/components",
+      "title": "All Components: Browse 88 Animated React Components",
+      "status": 200
+    },
+    {
+      "url": "https://aicanvas.me/pricing",
+      "title": "Pricing | AI Canvas",
+      "status": 200
+    },
+    {
+      "url": "https://aicanvas.me/about",
+      "title": "About | AI Canvas",
+      "status": 200
+    },
+    {
+      "url": "https://aicanvas.me/components/orbit",
+      "title": "Orbit - Animated Text React Component | AI Canvas",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AI Canvas",
+  "summary": "shadcn-compatible registry of animated React components, blocks, design systems and templates.",
+  "description": "Open-core component registry: animated React components, blocks, design systems and templates install with one shadcn CLI command or through the @aicanvas/mcp MCP server for AI agents. The free library is MIT; Premium adds closed-source components, design systems, templates and an AI Brain from $8.99 per month.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries",
+    "motion"
+  ],
+  "elements": [
+    "card",
+    "switch",
+    "progress",
+    "button",
+    "loader",
+    "3d",
+    "carousel",
+    "hero",
+    "tabs",
+    "navbar",
+    "modal",
+    "toast"
+  ],
+  "keywords": [
+    "animated component",
+    "react",
+    "shadcn registry",
+    "tailwind",
+    "framer motion",
+    "glassmorphism",
+    "3d",
+    "shader",
+    "card",
+    "button",
+    "modal",
+    "toast",
+    "widget",
+    "design system",
+    "dashboard template",
+    "dark mode",
+    "mcp",
+    "ai agent",
+    "remix prompt",
+    "carousel",
+    "hero section",
+    "free component",
+    "premium component"
+  ],
+  "contains": [
+    "209 components, blocks, templates and design systems",
+    "88 standalone animated components; 181 shadcn registry items",
+    "free library MIT licensed; Premium $8.99/month or $49.99/year",
+    "install with npx shadcn@latest add @aicanvas/<name>",
+    "@aicanvas/mcp MCP server for agents: browse, search, install",
+    "AI remix prompt ships with most components",
+    "Andromeda design system: 69 components, 9 templates, dark + light"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "npm-package",
+    "prompts",
+    "templates",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion",
+    "shadcn"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://aicanvas.me/mcp",
+    "npm": "@aicanvas/mcp",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

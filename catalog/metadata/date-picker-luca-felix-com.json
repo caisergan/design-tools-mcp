@@ -1,0 +1,35 @@
+{
+  "id": "date-picker-luca-felix-com",
+  "url": "https://date-picker.luca-felix.com",
+  "kind": "site",
+  "hints_hash": "179e9141f8e21f96",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://date-picker.luca-felix.com", "title": "Shadcn Date Picker", "status": null},
+    {"url": "https://github.com/flixlix/shadcn-date-picker", "title": "GitHub - flixlix/shadcn-date-picker: Advanced date picker with range selection, year and month selection, and more. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Date Picker",
+  "summary": "Advanced date picker for shadcn/ui with single-date and range selection plus year and month navigation.",
+  "description": "A custom shadcn component that offers a more advanced alternative to the default shadcn date picker, built on react-day-picker v9. It ships a basic single-date picker and a date-range picker, both with year navigation via the month label, and installs with the shadcn CLI.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["date-picker"],
+  "keywords": ["date picker", "date range picker", "calendar", "react-day-picker", "shadcn", "react", "date range", "year navigation", "birthday", "booking"],
+  "contains": [
+    "single-date and date-range picker components",
+    "built on react-day-picker v9",
+    "year and month navigation (click the month label)",
+    "installs with the shadcn CLI",
+    "needs shadcn's calendar component overridden",
+    "free to use"
+  ],
+  "formats": ["code", "cli", "registry", "docs"],
+  "stack": ["react", "tailwind", "react-day-picker"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/flixlix/shadcn-date-picker", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

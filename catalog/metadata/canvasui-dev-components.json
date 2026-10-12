@@ -1,0 +1,28 @@
+{
+  "id": "canvasui-dev-components",
+  "url": "https://canvasui.dev/components",
+  "kind": "page",
+  "hints_hash": "b73a358be19a08d8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:35:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://canvasui.dev/components", "title": "Components | Canvas UI", "status": 200},
+    {"url": "https://canvasui.dev/", "title": "Canvas UI: Creative Canvas, WebGL and WebGPU Component Library", "status": 200},
+    {"url": "https://canvasui.dev/llms.txt", "title": "Canvas UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Canvas UI Components",
+  "summary": "Open-source library of 35 creative canvas effects for live HTML, with WebGL and WebGPU builds for six frameworks.",
+  "description": "Component gallery of html-in-canvas effects such as ASCII lenses, glass, fire, ripples, glitch and particle reveals. Each effect ships for React, Solid, Preact, Vue, Svelte and vanilla JS in WebGL (GLSL) and WebGPU (vgpu) builds, installable with the shadcn CLI.",
+  "type": "component-library",
+  "elements": ["3d", "background", "cursor", "text-effect", "scroll-effect"],
+  "keywords": ["canvas", "webgl", "webgpu", "shader", "component library", "react", "vue", "svelte", "glitch effect", "ascii effect", "particle effect", "glass effect", "text effect", "cursor effect", "creative coding", "html in canvas", "shadcn"],
+  "contains": ["35 canvas effect components and counting", "420 shadcn registry items across framework and renderer variants", "WebGL and WebGPU (vgpu) builds of every effect", "framework variants for React, Solid, Preact, Vue, Svelte and vanilla JS", "install with npx shadcn@latest add @canvas-ui/...", "100% free, open source"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "solid", "preact", "vue", "svelte", "webgl", "webgpu"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://canvasui.dev/docs", "npm": null, "figma": null, "parent": "canvasui-dev"},
+  "confidence": 0.9
+}

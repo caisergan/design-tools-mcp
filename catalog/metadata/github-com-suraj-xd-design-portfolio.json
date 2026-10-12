@@ -1,0 +1,33 @@
+{
+  "id": "github-com-suraj-xd-design-portfolio",
+  "url": "https://github.com/suraj-xd/design-portfolio",
+  "kind": "repo",
+  "hints_hash": "087c9b11d247f2e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/suraj-xd/design-portfolio/blob/HEAD/README.md", "title": "Design Portfolio - Progressive Web App (PWA)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Design Portfolio",
+  "summary": "Designer portfolio template: an installable Next.js PWA with SSR and a Gmail-powered contact form.",
+  "description": "A designer portfolio website built as a Progressive Web App with the T3 stack: Next.js 15, TypeScript and Tailwind CSS. Installable with offline support, splash screens and standalone display; fully server-rendered with routes for the portfolio home, /experience and /connect. The contact form sends email through the Gmail API. MIT-licensed and ready to deploy to Vercel, Netlify or any HTTPS host.",
+  "type": "template",
+  "categories": ["templates", "inspiration"],
+  "elements": ["contact", "form"],
+  "keywords": ["portfolio template", "designer portfolio", "pwa", "progressive web app", "nextjs", "tailwind", "typescript", "t3 stack", "server-side rendering", "contact form", "installable web app", "offline"],
+  "contains": [
+    "T3-stack portfolio template: Next.js 15, TypeScript, Tailwind CSS",
+    "installable PWA with offline support, splash screens and standalone mode",
+    "routes: portfolio home, /experience, /connect",
+    "contact form via Gmail API",
+    "MIT licensed; deploy on Vercel or Netlify"
+  ],
+  "formats": ["templates", "code"],
+  "stack": ["nextjs", "react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/suraj-xd/design-portfolio", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

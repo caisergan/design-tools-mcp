@@ -1,0 +1,30 @@
+{
+  "id": "tooey-design",
+  "url": "https://tooey.design",
+  "kind": "site",
+  "hints_hash": "799e1afb0e140c9c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tooey.design", "title": "Tooey", "status": 200},
+    {"url": "https://tooey.design/files", "title": null, "status": 200},
+    {"url": "https://tooey.design/docs", "title": null, "status": 200},
+    {"url": "https://tooey.design/pricing", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Tooey",
+  "summary": "A design tool for the terminal: lay out designs in a text grid with glyph-based borders and flex layouts.",
+  "description": "Design work happens in the terminal grid instead of a canvas, with glyph-based borders and flex layouts; multiplayer is listed as a feature and components are announced as coming soon. The site opens the app itself.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["terminal", "tui", "design tool", "terminal ui", "glyph border", "flex layout", "multiplayer", "text grid", "developer tool"],
+  "contains": ["design in the terminal grid", "glyph-based borders", "flex layouts", "multiplayer", "components listed as coming soon"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

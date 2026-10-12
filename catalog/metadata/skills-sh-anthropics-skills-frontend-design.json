@@ -1,0 +1,68 @@
+{
+  "id": "skills-sh-anthropics-skills-frontend-design",
+  "url": "https://skills.sh/anthropics/skills/frontend-design",
+  "kind": "page",
+  "hints_hash": "a80db548ed5c9bf6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/anthropics/skills/frontend-design",
+      "title": "frontend-design — anthropics/skills",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Frontend Design",
+  "summary": "Agent skill that guides distinctive frontend interface design and rejects generic AI aesthetics through deliberate design choices.",
+  "description": "A SKILL.md package that approaches UI work as a design lead: choose an aesthetic direction first (brutalist, maximalist, retro-futuristic, luxury, organic and others), then build with intentional typography, CSS-variable color theming, motion, spatial composition and textural detail. It generates working HTML/CSS/JS, React or Vue code and avoids overused fonts, clichéd color schemes and predictable layouts.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": [
+    "frontend design",
+    "web design",
+    "ui design",
+    "visual design",
+    "typography",
+    "color theme",
+    "css variable",
+    "motion design",
+    "spatial composition",
+    "brutalism",
+    "maximalism",
+    "retro futurism",
+    "luxury design",
+    "design principle",
+    "agent skill",
+    "html css",
+    "react",
+    "vue"
+  ],
+  "contains": [
+    "aesthetic directions: brutalist, maximalist, retro-futuristic, luxury, organic",
+    "design pillars: typography, color theming, motion, spatial composition, texture",
+    "generates HTML/CSS/JS, React and Vue code",
+    "avoids overused fonts, clichéd colors and predictable layouts",
+    "973.6K installs; repo anthropics/skills with 180.3K stars"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/anthropics/skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.9
+}

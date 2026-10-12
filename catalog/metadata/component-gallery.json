@@ -1,0 +1,135 @@
+{
+  "id": "component-gallery",
+  "url": "https://component.gallery",
+  "kind": "site",
+  "hints_hash": "293aefd4be3087f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://component.gallery",
+      "title": "The Component Gallery",
+      "status": 200
+    },
+    {
+      "url": "https://component.gallery/components",
+      "title": "Components | The Component Gallery",
+      "status": 200
+    },
+    {
+      "url": "https://component.gallery/about",
+      "title": "About | The Component Gallery",
+      "status": 200
+    },
+    {
+      "url": "https://component.gallery/components/tabs",
+      "title": "🗂 Tabs | The Component Gallery",
+      "status": 200
+    },
+    {
+      "url": "https://component.gallery/components/quote",
+      "title": "🗣 Quote | The Component Gallery",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "The Component Gallery",
+  "summary": "Reference of 60 interface components from 95 design systems, with 2,671 examples, names, markup and usage notes.",
+  "description": "An up-to-date repository of interface components based on examples from real-world design systems. Each component page collects examples across design systems with tech, feature and accessibility tags, example counts and name distribution, plus sections on description, markup, styling, interactivity and usage guidelines.",
+  "type": "gallery",
+  "categories": [
+    "components",
+    "inspiration"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "carousel",
+    "checkbox",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "file-upload",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "component gallery",
+    "design system",
+    "ui component",
+    "component example",
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "carousel",
+    "date picker",
+    "empty state",
+    "modal",
+    "pagination",
+    "popover",
+    "progress bar",
+    "skeleton",
+    "spinner",
+    "tabs",
+    "toast",
+    "tooltip",
+    "component naming",
+    "usage guideline",
+    "accessibility",
+    "web component",
+    "react component",
+    "component reference"
+  ],
+  "contains": [
+    "60 components, 95 design systems, 2,671 examples",
+    "filters by tech (React, Web Components, Vue, Sass …) and features (code, accessibility, guidelines)",
+    "component pages include description, markup, styling, interactivity, resources and name distribution",
+    "about section answers questions on components, design systems and web components",
+    "contribute and changelog pages"
+  ],
+  "formats": [
+    "screenshots",
+    "links",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

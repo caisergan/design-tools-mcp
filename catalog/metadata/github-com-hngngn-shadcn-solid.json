@@ -1,0 +1,30 @@
+{
+ "id": "github-com-hngngn-shadcn-solid",
+ "url": "https://github.com/hngngn/shadcn-solid",
+ "kind": "repo",
+ "hints_hash": "151dee24d2cc0ce7",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:11:07Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/hngngn/shadcn-solid/blob/HEAD/README.md", "title": "shadcn-solid", "status": 200},
+  {"url": "https://shadcn-solid.com/docs/introduction", "title": "Introduction - shadcn-solid", "status": 200},
+  {"url": "https://shadcn-solid.com/docs/components/accordion", "title": "Accordion - shadcn-solid", "status": 200},
+  {"url": "https://shadcn-solid.com/docs/changelog", "title": "Changelog - shadcn-solid", "status": 200}
+ ],
+ "status": "ok",
+ "name": "shadcn-solid",
+ "summary": "Community SolidJS port of shadcn/ui: copy-paste components built on Kobalte UI, with docs and a CLI.",
+ "description": "An unofficial community-led SolidJS port of shadcn/ui: accessible, customizable components you copy into your app, built on Kobalte UI primitives. Docs cover each component with installation and usage, plus example apps (mail, cards, authentication); a CLI and a changelog track component updates such as navigation menu, menubar, number field, OTP field and sonner.",
+ "type": "component-library",
+ "categories": ["components"],
+ "elements": ["accordion", "alert", "calendar", "checkbox", "command-palette", "date-picker", "drawer", "input", "menubar", "navbar", "otp-input", "switch", "tabs", "toast"],
+ "keywords": ["solid", "solidjs", "shadcn", "component library", "kobalte", "copy paste component", "unocss", "accordion", "alert", "calendar", "checkbox", "command palette", "date picker", "drawer", "menubar", "navigation menu", "number input", "otp input", "sonner", "tabs", "toast", "toggle"],
+ "contains": ["copy-paste SolidJS components built on Kobalte UI", "component docs for accordion, alert, calendar, checkbox, command, date picker, drawer, menubar, navigation menu", "CLI to add components to a project", "example apps: mail, cards, authentication", "changelog tracks added components (navigation menu, menubar, number field, OTP field and more)"],
+ "formats": ["code", "cli", "docs"],
+ "stack": ["solid", "kobalte", "unocss"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/hngngn/shadcn-solid", "docs": "https://shadcn-solid.com/docs/introduction", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.75
+}

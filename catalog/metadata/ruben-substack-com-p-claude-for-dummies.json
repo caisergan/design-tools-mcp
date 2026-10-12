@@ -1,0 +1,31 @@
+{
+  "id": "ruben-substack-com-p-claude-for-dummies",
+  "url": "https://ruben.substack.com/p/claude-for-dummies",
+  "kind": "page",
+  "hints_hash": "6b8cb6008ee7ba70",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-for-dummies", "title": "Claude. - by Ruben Hassid - How to AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude For Dummies",
+  "summary": "Beginner's guide to Claude for people who never used it: what it is, how it compares to ChatGPT and what to try first.",
+  "description": "A free beginner's guide to Claude: what Claude is, Claude vs ChatGPT, how to get it and what it costs, the three Claude products, how to talk to it, what it is good and bad at, the words that matter and ten things to try in the first week, closing with a section on how pros use Claude. Published in the How to AI newsletter.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["claude", "anthropic", "chatgpt", "beginner guide", "getting started", "ai assistant", "claude pricing", "claude code", "ai tutorial", "ai tool"],
+  "contains": [
+    "what Claude is and how it compares with ChatGPT",
+    "pricing and the three Claude products",
+    "prompting basics, strengths and weaknesses",
+    "10 things to try in the first week",
+    "a closing 'how pros use Claude' section"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

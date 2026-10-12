@@ -1,0 +1,27 @@
+{
+  "id": "www-figma-com-community-file-1514746685758799870-obra-shadcn-ui",
+  "url": "https://www.figma.com/community/file/1514746685758799870/obra-shadcn-ui",
+  "kind": "page",
+  "hints_hash": "dc85386c5cea81c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.figma.com/community/file/1514746685758799870/obra-shadcn-ui", "title": "shadcn ui kit community edition | Figma", "status": null}
+  ],
+  "status": "partial",
+  "name": "shadcn ui kit community edition",
+  "summary": "Free Figma library recreating every shadcn/ui component as composable components, with light and dark mode.",
+  "description": "A free Figma community file that recreates the shadcn/ui component set as a composable, reusable Figma library, with light and dark mode. It is meant as a starting point for custom design systems: components are built to be restyled and combined.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "form", "input", "loader", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["figma", "figma library", "figma component", "ui kit", "shadcn", "component library", "design system", "dark mode", "light mode", "design kit", "free figma file", "figma variable"],
+  "contains": ["free Figma library of shadcn/ui components", "composable, reusable components", "light and dark mode", "starting point for custom design systems"],
+  "formats": ["figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": "https://www.figma.com/community/file/1514746685758799870/obra-shadcn-ui", "parent": "figma-com"},
+  "confidence": 0.6
+}

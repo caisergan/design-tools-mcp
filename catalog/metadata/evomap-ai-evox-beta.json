@@ -1,0 +1,22 @@
+{
+  "id": "evomap-ai-evox-beta",
+  "url": "https://evomap.ai/evox/beta",
+  "kind": "page",
+  "hints_hash": "de1a01b41b9cb957",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://evomap.ai/evox/beta", "title": "EvoX | EvoMap", "status": 200}
+  ],
+  "status": "ok",
+  "name": "EvoX",
+  "summary": "Self-evolving swarm AI agent that remembers you across terminal, browser and IDE and turns wins into reusable Genes and Capsules.",
+  "description": "Beta agent app for Windows and macOS with long-term memory: it connects the same agent across terminal, browser, chat and IDE, learns which tools to use with caution and when to switch models, and turns successful collaborations into reusable Capsules/Genes shared across a swarm. Deployment via app download or shell install script; includes a visual dashboard for parallel management and terminal integration.",
+  "type": "app",
+  "keywords": ["ai agent", "swarm agent", "self-evolving", "long-term memory", "agent memory", "coding agent", "terminal", "ide", "browser", "multi-agent", "agent marketplace", "desktop app", "beta"],
+  "contains": ["desktop app for Windows and macOS (beta)", "terminal install via install.sh", "memory across terminal, browser, chat and IDE", "turns collaborations into reusable Capsules/Genes", "swarm collaboration and observability dashboard"],
+  "formats": ["app", "cli"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

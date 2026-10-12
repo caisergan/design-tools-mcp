@@ -1,0 +1,82 @@
+{
+  "id": "ramps-studio",
+  "url": "https://ramps.studio",
+  "kind": "site",
+  "hints_hash": "4b639091971f9427",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ramps.studio/llms.txt",
+      "title": "Ramps Studio",
+      "status": null
+    },
+    {
+      "url": "https://www.ramps.studio/llms.txt",
+      "title": "Ramps Studio",
+      "status": 200
+    },
+    {
+      "url": "https://ramps.studio",
+      "title": "Ramps · Color ramps and semantic tokens your agent can read",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Ramps",
+  "summary": "Generates OKLCH color ramps and light/dark semantic tokens from a single brand color.",
+  "description": "A URL-driven palette generator: give it a brand hex and it returns perceptually-even OKLCH ramps (50-950), scheme-derived accents, a matched neutral, status colors and usage-first semantic tokens for light and dark. WCAG AA or AAA contrast is enforced and every token reports its measured ratio. Served as plain text, JSON (API), CSS, Tailwind v4 or Figma variables; free with no account, API key or rate limit.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "color ramp",
+    "color palette generator",
+    "oklch",
+    "design token",
+    "semantic token",
+    "color scale",
+    "wcag contrast",
+    "accessible palette",
+    "design system color",
+    "dark mode",
+    "tailwind theme",
+    "css variable",
+    "figma variable",
+    "brand color",
+    "json api"
+  ],
+  "contains": [
+    "OKLCH ramps (50-950) generated from one brand color",
+    "ramp names: primary, accent, accent-2, neutral, success, warning, error, info",
+    "semantic tokens (bg-, text-, border-, ring-) with light/dark mapping",
+    "WCAG AA (4.5:1) or AAA (7:1) contrast enforced; measured ratio reported per token",
+    "parameters: brand hex, accent scheme, scope, notation, contrast target",
+    "JSON API at /api/palette and plain-text pages; no account, key or rate limit",
+    "exports: CSS, Tailwind v4, Figma variables, JSON",
+    "part of Studio Tools with Springs (motion), Beeps (sounds), Depths (shadows)"
+  ],
+  "formats": [
+    "api",
+    "code",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/imryanreid/ramp-generator",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

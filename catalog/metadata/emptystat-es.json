@@ -1,0 +1,27 @@
+{
+  "id": "emptystat-es",
+  "url": "https://emptystat.es",
+  "kind": "site",
+  "hints_hash": "c2ab249a93d9c618",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://emptystat.es", "title": "Empty States", "status": null}
+  ],
+  "status": "ok",
+  "name": "Empty States",
+  "summary": "Curated gallery of empty-state screens from popular products, tagged by platform.",
+  "description": "Screenshots of empty states - views shown when a product has nothing to display - collected from apps and websites such as Gmail, Reddit, Outlook, Figma, Slack, Instagram and Webflow. Browse the latest additions, filter by platform tag (mobile, desktop, iOS, Android) or page through the collection.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["empty-state"],
+  "keywords": ["empty state", "ui inspiration", "no data", "zero state", "placeholder", "onboarding", "screenshot", "gallery", "mobile", "desktop", "ios", "android", "product design"],
+  "contains": ["screenshots of empty states from real products", "tags: mobile, desktop, iOS, Android", "examples from Gmail, Reddit, Outlook, Figma, Slack, Instagram, Webflow, Sketch, Basecamp and more", "paged browsing with a Next Page link"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

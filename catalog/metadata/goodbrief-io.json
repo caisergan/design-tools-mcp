@@ -1,0 +1,29 @@
+{
+  "id": "goodbrief-io",
+  "url": "https://goodbrief.io",
+  "kind": "site",
+  "hints_hash": "1dfaaab11bcc57a3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:23:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://goodbrief.io", "title": "Get Unique Design Briefs - Creative Brief Generator | Good Brief", "status": null},
+    {"url": "https://goodbrief.io/about", "title": "Get Unique Design Briefs - Creative Brief Generator | Good Brief", "status": null},
+    {"url": "https://goodbrief.io/faq", "title": "Get Unique Design Briefs - Creative Brief Generator | Good Brief", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Goodbrief",
+  "summary": "Generator of random design briefs: pick a job type and industry and get a practice brief with company, job and deadline.",
+  "description": "Goodbrief generates random design briefs for practice: choose a job type (logo, brand identity, illustration, packaging, billboard, website) and an industry, then generate a brief with a company name, company description, job description and deadline. Briefs are assembled randomly from a large database, so results can be odd; the generated brief can be exported. Made by Manu, with a separate mobile layout and a newsletter (v3.0).",
+  "type": "generator",
+  "categories": ["learning", "design-tools"],
+  "elements": [],
+  "keywords": ["design brief", "design brief generator", "creative brief", "graphic design practice", "portfolio practice", "practice project", "logo design brief", "brand identity brief", "packaging design brief", "website design brief", "billboard design brief", "design exercise", "learn design", "fake client brief", "random design prompt"],
+  "contains": ["brief types: logo, brand identity, illustration, packaging, billboard, website", "industries: technology, food, retail, entertainment, fashion, sports, education, travel, real estate, transportation", "brief fields: company name, company description, job description, deadline", "briefs randomly assembled from a large database of options", "export of the generated brief", "separate mobile layout", "version 3.0"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

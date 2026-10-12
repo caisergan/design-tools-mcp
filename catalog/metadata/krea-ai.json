@@ -1,0 +1,41 @@
+{
+  "id": "krea-ai",
+  "url": "https://krea.ai",
+  "kind": "site",
+  "hints_hash": "f0e866564e4b4712",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://krea.ai/llms.txt", "title": "Krea", "status": null},
+    {"url": "https://krea.ai", "title": "Krea", "status": 200},
+    {"url": "https://www.krea.ai/skills", "title": "Krea Skills | One command for agents", "status": 200},
+    {"url": "https://www.krea.ai/pricing", "title": "Krea", "status": 200},
+    {"url": "https://www.krea.ai/features/nodes", "title": "AI Image and Video Node Workflows | Krea", "status": 200},
+    {"url": "https://www.krea.ai/skills/faceless-video", "title": "Faceless Video Skill for AI Agents | Krea", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Krea",
+  "summary": "AI image, video and 3D generation and editing platform with 100+ models, a realtime canvas and LoRA training.",
+  "description": "Web platform for generating and editing images, video and 3D with 100+ hosted AI models (Flux, Veo, Sora, Kling, Runway, Imagen and Krea's own models) from one interface, including a realtime canvas where images appear as you type or draw, upscaling, background removal, lipsync and motion transfer. Users can train custom LoRA models in the browser and chain models with a node-based workflow editor that publishes mini-apps; agent skills, an MCP server, an API and a ChatGPT plugin connect it to AI assistants. Free tier with daily compute credits; paid plans from $7/month.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai image generator", "ai video generator", "text to image", "text to video", "image editing", "image upscaling", "background remover", "real-time generation", "realtime canvas", "lora training", "model finetuning", "node workflow", "3d generation", "motion transfer", "lipsync", "ai creative tool", "mcp server", "chatgpt plugin", "image enhancer"],
+  "contains": [
+    "100+ AI models in one interface, new models added on launch day",
+    "free tier: 100 units/day, no credit card required",
+    "paid plans from $7/month with commercial license; enterprise plans",
+    "realtime canvas: images appear as you type or draw (Realtime 14B)",
+    "custom LoRA finetuning for image and video, done in the browser",
+    "node-based workflow editor; workflows publishable as mini-apps",
+    "tools: upscaling, background remover, lipsync, motion transfer, 3D, video",
+    "API, MCP server and ChatGPT plugin; agent skills like faceless video"
+  ],
+  "formats": ["app", "api", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

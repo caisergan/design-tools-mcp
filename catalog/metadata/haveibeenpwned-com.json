@@ -1,0 +1,37 @@
+{
+  "id": "haveibeenpwned-com",
+  "url": "https://haveibeenpwned.com",
+  "kind": "site",
+  "hints_hash": "b36c74fcf8df90df",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://haveibeenpwned.com", "title": "Have I Been Pwned: Check if your email address has been exposed in a data breach", "status": null},
+    {"url": "https://haveibeenpwned.com/Docs/MCP", "title": "Have I Been Pwned: MCP Server", "status": null},
+    {"url": "https://haveibeenpwned.com/FAQs", "title": "Have I Been Pwned: Frequently Asked Questions", "status": null}
+  ],
+  "status": "ok",
+  "name": "Have I Been Pwned",
+  "summary": "Data breach search: check whether an email address appears in 1,000+ breached sites, with alerts, API and MCP access.",
+  "description": "Check whether an email address appears in known data breaches; results show a timeline of breaches, the data classes exposed and paste records from public text dumps. Alerts notify you when the address shows up in future breaches. A REST API and an MCP server give developers and AI agents programmatic access, with public breach metadata and Pwned Passwords (k-anonymity) available without signing in.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["data breach", "breach check", "email breach", "password leak", "pwned password", "credential exposure", "security", "privacy", "data leak", "stealer log", "mcp server", "api"],
+  "contains": [
+    "1,043 pwned websites; 17,845,484,926 pwned addresses (site counters)",
+    "breach timeline and exposed data classes per email address",
+    "paste records from public text dumps",
+    "Notify Me alerts for future breaches",
+    "Pwned Passwords range search with k-anonymity",
+    "MCP server at /mcp for AI agents (OAuth)",
+    "REST API v3 for developers"
+  ],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://haveibeenpwned.com/API/v3", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

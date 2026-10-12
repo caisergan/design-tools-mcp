@@ -1,0 +1,68 @@
+{
+  "id": "aereference-com-resources",
+  "url": "https://aereference.com/resources",
+  "kind": "page",
+  "hints_hash": "80397926e8cc6b62",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://aereference.com/resources",
+      "title": "Resources for Motion Designers",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Resources for Motion Designers",
+  "summary": "Curated directory of After Effects and motion design resources: scripts, plugins, expressions, courses, podcasts and books.",
+  "description": "A filterable link directory for motion designers, collecting AE scripts and plugins, templates and assets, expression libraries, courses and schools, conferences, YouTube channels, podcasts, books, software and workflow resources. Each entry carries a short note, and visitors can suggest new resources.",
+  "type": "directory",
+  "elements": [],
+  "keywords": [
+    "after effect",
+    "motion design",
+    "motion graphics",
+    "ae script",
+    "ae plugin",
+    "preset",
+    "expression",
+    "animation",
+    "tutorial",
+    "youtube channel",
+    "podcast",
+    "book",
+    "course",
+    "conference",
+    "workflow",
+    "freelance",
+    "resource directory",
+    "inspiration",
+    "vfx"
+  ],
+  "contains": [
+    "filters: courses/schools, conferences/meetups, blogs/newsletters, AE templates/assets, AE scripts/plugins, expressions",
+    "more filters: AE development, business/workflow, YouTube channels, podcasts, software/tools, books, inspiration",
+    "each resource has a short description",
+    "expression library and free tools/presets from the site",
+    "suggest-a-resource form"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

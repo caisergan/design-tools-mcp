@@ -1,0 +1,78 @@
+{
+  "id": "github-com-react-hook-form-react-hook-form",
+  "url": "https://github.com/react-hook-form/react-hook-form",
+  "kind": "repo",
+  "hints_hash": "80cebff881ed48b6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/react-hook-form/react-hook-form/blob/HEAD/README.md",
+      "title": null,
+      "status": null
+    },
+    {
+      "url": "https://github.com/react-hook-form/react-hook-form",
+      "title": "GitHub - react-hook-form/react-hook-form: 📋 React Hooks for form state management and validation (Web + React Native) · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Hook Form",
+  "summary": "React Hooks for form state management and validation on web and React Native.",
+  "description": "Form state management and validation for React and React Native through hooks: register inputs, validate with native HTML rules or resolver libraries (Yup, Zod, AJV, Superstruct, Joi), and submit with minimal re-renders. It is dependency-free, integrates with UI libraries out of the box, and its site adds a form builder, API reference, FAQs and examples.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "react",
+    "form",
+    "form validation",
+    "form state",
+    "react hook",
+    "react native",
+    "typescript",
+    "validation",
+    "zod",
+    "yup",
+    "form builder",
+    "hook",
+    "dx"
+  ],
+  "contains": [
+    "form state management and validation through hooks",
+    "resolvers for Yup, Zod, AJV, Superstruct and Joi",
+    "no dependencies; embraces native HTML validation",
+    "44.9k stars, 2.5k forks on GitHub",
+    "install with npm install react-hook-form",
+    "form builder, API reference and examples on the site",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "react-native",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/react-hook-form/react-hook-form",
+    "docs": "https://react-hook-form.com",
+    "npm": "react-hook-form",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

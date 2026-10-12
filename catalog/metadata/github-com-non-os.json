@@ -1,0 +1,25 @@
+{
+  "id": "github-com-non-os",
+  "url": "https://github.com/NON-OS",
+  "kind": "page",
+  "hints_hash": "7ad380dee5800807",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/NON-OS", "title": "NØNOS · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "NØNOS",
+  "summary": "GitHub organization for NØNOS, a zero-trust operating system built from bare metal.",
+  "description": "The GitHub organization page for NØNOS. Its README describes an operating system built around one idea: a machine should trust as little as possible and remember as little as it needs, with a kernel that starts from zero state, runs in memory and loads only software whose signature it checks. The page lists the org's repositories and links out to nonos.systems, X, Medium and a contact email.",
+  "elements": [],
+  "keywords": ["operating system", "zero trust", "bare metal", "kernel", "memory", "security", "github organization", "system software"],
+  "contains": ["zero-trust operating system built from bare metal", "kernel starts from zero state and runs in memory", "README: a machine should trust as little as possible and remember as little as it needs", "228 GitHub followers", "links: nonos.systems, x.com/nonossystems, medium.com/@nonos, team@nonos.systems", "public repositories listed on the org page"],
+  "formats": ["code", "docs"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.75
+}

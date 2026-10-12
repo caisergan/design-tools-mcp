@@ -1,0 +1,32 @@
+{
+  "id": "neuform-ai",
+  "url": "https://neuform.ai",
+  "kind": "site",
+  "hints_hash": "e28078833c18adc0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://neuform.ai", "title": "AI HTML Landing Page Builder and Remix Templates | Neuform", "status": 200 },
+    { "url": "https://neuform.ai/skills", "title": "Prompt Skills for AI HTML Designs | Neuform", "status": 200 },
+    { "url": "https://neuform.ai/pricing", "title": "AI HTML Design Template Pricing | Neuform", "status": 200 },
+    { "url": "https://neuform.ai/faq", "title": "AI HTML Design Template FAQ | Neuform", "status": 200 },
+    { "url": "https://neuform.ai/templates", "title": "AI HTML Templates and Remix Gallery | Neuform", "status": 200 },
+    { "url": "https://neuform.ai/llms.txt", "title": "AI HTML Landing Page Builder and Remix Templates | Neuform", "status": 200 }
+  ],
+  "status": "partial",
+  "name": "Neuform",
+  "summary": "AI builder that turns prompts into HTML landing pages, remix templates and reusable DESIGN.md design systems.",
+  "description": "Generates AI HTML landing pages from prompts, with a gallery of public remix templates, prompt skills, reusable DESIGN.md design systems and agent-ready outputs. Pages render entirely in JavaScript, so content and pricing details were readable only from page titles and descriptions.",
+  "type": "tool",
+  "categories": ["design-tools", "templates", "design-rules"],
+  "elements": ["3d", "background", "globe", "logo-cloud", "marquee", "cursor", "dashboard"],
+  "keywords": ["ai website builder", "landing page", "html", "remix template", "template gallery", "design system", "design.md", "prompt skill", "agent", "webgl", "background", "3d", "animation", "dark mode", "ai design tool", "prompt to website", "ui exploration"],
+  "contains": ["turns prompts into AI HTML landing pages and remix templates", "public template gallery with featured, pro, trending, upcoming, favorites, tags and top creators", "reusable DESIGN.md design systems and prompt skills", "plans: Free, Pro, Max, Ultra", "71 gallery examples"],
+  "formats": ["templates", "code", "prompts", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.7
+}

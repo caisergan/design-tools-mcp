@@ -1,0 +1,114 @@
+{
+  "id": "github-com-radix-ui-primitives",
+  "url": "https://github.com/radix-ui/primitives",
+  "kind": "repo",
+  "hints_hash": "ce7ac19b0c0b0472",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/radix-ui/primitives/blob/HEAD/README.md",
+      "title": "Radix Primitives",
+      "status": null
+    },
+    {
+      "url": "https://www.radix-ui.com/primitives/docs/components",
+      "title": "Components – Radix Primitives",
+      "status": 200
+    },
+    {
+      "url": "https://www.radix-ui.com/primitives/docs/overview/getting-started",
+      "title": "Getting started – Radix Primitives",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/radix-ui/primitives",
+      "title": "GitHub - radix-ui/primitives: Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Radix Primitives",
+  "summary": "Unstyled, accessible React UI primitives — around 30 components plus utilities — for building design systems.",
+  "description": "A low-level, unstyled React component library focused on accessibility, customization and developer experience: accordion, alert dialog, avatar, checkbox, dialog, dropdown menu, form, menubar, navigation menu, one-time password field, popover, progress, select, slider, switch, tabs, toast, toolbar and tooltip, plus utilities like portal and slot. Use them as the base layer of a design system or adopt them incrementally; the docs cover styling, animation, composition and server-side rendering.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "checkbox",
+    "dropdown",
+    "form",
+    "input",
+    "menubar",
+    "modal",
+    "navbar",
+    "otp-input",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "switch",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "react",
+    "primitive",
+    "unstyled component",
+    "headless component",
+    "accessible component",
+    "accessibility",
+    "wai-aria",
+    "design system",
+    "component library",
+    "radix",
+    "radix ui",
+    "dialog",
+    "dropdown menu",
+    "popover",
+    "tooltip",
+    "accordion",
+    "tabs",
+    "select",
+    "slider",
+    "toast",
+    "menubar",
+    "navigation menu"
+  ],
+  "contains": [
+    "around 30 unstyled, accessible primitives plus utilities",
+    "maintained by WorkOS",
+    "19.4k stars, 1.3k forks on GitHub",
+    "use as a design-system base layer or adopt incrementally",
+    "docs guides: styling, animation, composition, server-side rendering",
+    "adheres to WAI-ARIA design patterns",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/radix-ui/primitives",
+    "docs": "https://www.radix-ui.com/primitives/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

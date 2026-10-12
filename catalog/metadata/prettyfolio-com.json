@@ -1,0 +1,14 @@
+{
+  "id": "prettyfolio-com",
+  "url": "https://prettyfolio.com",
+  "kind": "site",
+  "hints_hash": "2cddadc8e307ca74",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://prettyfolio.com", "title": "Result Toto Macau 2026: Data Macau Pools - Pengeluaran Macau Hari Ini - Angka Keluaran Live Draw Macau", "status": 200}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

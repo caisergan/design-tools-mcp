@@ -1,0 +1,20 @@
+{
+  "id": "github-com-tryretool-custom-component-gallery-pull-37",
+  "url": "https://github.com/tryretool/custom-component-gallery/pull/37",
+  "kind": "page",
+  "hints_hash": "fcf8020f93b8cf39",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:25:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/tryretool/custom-component-gallery/pull/37", "title": "Add vertical-progress-timeline component. by snehal1791 · Pull Request #37 · tryretool/custom-component-gallery · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "vertical-progress-timeline",
+  "summary": "Pull request adding the vertical-progress-timeline component to Retool's community custom component gallery.",
+  "description": "Merged pull request #37 in tryretool/custom-component-gallery: a configurable, view-only vertical milestone timeline component for Retool with dynamic milestone data and field mapping, configurable statuses and completion states, token-based date formatting, optional sorting by date/title/status, theme controls, and click and keyboard selection with milestoneClick events and selectedMilestone state.",
+  "elements": ["timeline", "progress"],
+  "keywords": ["retool", "custom component", "timeline", "progress timeline", "milestone", "react", "typescript", "component gallery"],
+  "related": {"repo": "https://github.com/tryretool/custom-component-gallery", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

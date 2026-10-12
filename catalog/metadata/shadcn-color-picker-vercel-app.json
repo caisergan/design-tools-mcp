@@ -1,0 +1,27 @@
+{
+  "id": "shadcn-color-picker-vercel-app",
+  "url": "https://shadcn-color-picker.vercel.app",
+  "kind": "site",
+  "hints_hash": "6ca4cee0541c01c3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://shadcn-color-picker.vercel.app", "title": "shadcn-color-picker", "status": null }
+  ],
+  "status": "partial",
+  "name": "shadcn-color-picker",
+  "summary": "Color picker component in the shadcn/ui style, shown with a live picker and a disabled state.",
+  "description": "A color picker component for shadcn/ui-style React projects. The demo page shows the picker and a disabled state; the rest of the page is rendered with JavaScript.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": [],
+  "keywords": ["color picker", "color selection", "shadcn ui", "react", "color input", "disabled state", "ui component"],
+  "contains": ["color picker component demo", "disabled state example"],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.5
+}

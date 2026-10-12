@@ -1,0 +1,28 @@
+{
+  "id": "colorion-co",
+  "url": "https://colorion.co",
+  "kind": "site",
+  "hints_hash": "73d11145b3174d8c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://colorion.co/", "title": "colorion — Curated Color Palettes", "status": 200},
+    {"url": "https://colorion.co/base-colors", "title": "Base Colors — Foundational Hues for Design | colorion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "colorion",
+  "summary": "Browsable library of 30,000 curated color palettes with tag filters, one-tap HEX copy and palette extraction from images.",
+  "description": "A palette site for picking colors for interfaces: browse 30,000 curated palettes through 18 tags such as pastel, neon, minimal or vintage, copy HEX values in one tap, save favorites, or upload an image to detect its colors. Extra pages cover base color families and CSS snippets for loaders, toggles, tooltips and animated or gradient buttons.",
+  "type": "gallery",
+  "categories": ["color-effects"],
+  "elements": ["button", "loader", "switch", "tooltip"],
+  "keywords": ["color palette", "curated palette", "palette gallery", "palette library", "hex color", "color scheme", "color inspiration", "gradient", "gradient button", "css loader", "toggle", "tooltip", "image color picker", "color extractor", "ui color", "color tool"],
+  "contains": ["30,000 palettes across 1,000 pages of 30", "filters: 18 tags such as pastel, vibrant, neon, ocean, vintage, dark, light", "copy HEX in one tap and save favorites", "palette detection from an uploaded image", "base color sheet organized by family (red, purple, green, neutral …)", "extra tools: CSS loaders, toggles, tooltips, motion design, animated and gradient buttons"],
+  "formats": ["links", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

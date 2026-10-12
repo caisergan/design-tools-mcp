@@ -1,0 +1,55 @@
+{
+  "id": "curated-design-inspiration-portfolio",
+  "url": "https://curated.design/inspiration/portfolio",
+  "kind": "page",
+  "hints_hash": "3ad7f78771348d68",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://curated.design/inspiration/portfolio",
+      "title": "Portfolio website examples, all of them live | Curated",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Portfolio website examples",
+  "summary": "Shelf of live portfolio website examples from designers, developers and studios.",
+  "description": "A filterable gallery of portfolio sites that are online right now — designer, developer and studio portfolios, case studies included. Each card opens the real site, and shelves filter the list by style: animated, minimal, colorful, dark, pastel, gradients, neobrutalism. Part of the Curated gallery.",
+  "type": "gallery",
+  "keywords": [
+    "portfolio website",
+    "portfolio example",
+    "designer portfolio",
+    "developer portfolio",
+    "studio portfolio",
+    "website inspiration",
+    "personal website",
+    "case study",
+    "dark mode",
+    "minimal",
+    "neo brutalism",
+    "animated website"
+  ],
+  "contains": [
+    "30+ portfolio examples from designers, developers and studios",
+    "every card opens the live site",
+    "style shelves: animated, minimal, colorful, dark, pastel, gradients, neobrutalism"
+  ],
+  "formats": [
+    "links"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "curated-design"
+  },
+  "confidence": 0.85
+}

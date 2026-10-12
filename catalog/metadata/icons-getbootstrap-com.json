@@ -1,0 +1,29 @@
+{
+  "id": "icons-getbootstrap-com",
+  "url": "https://icons.getbootstrap.com",
+  "kind": "site",
+  "hints_hash": "7d2d0814bd2cc61c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://icons.getbootstrap.com", "title": "Bootstrap Icons", "status": null},
+    {"url": "https://icons.getbootstrap.com/icons", "title": null, "status": null},
+    {"url": "https://github.com/twbs/icons", "title": "GitHub - twbs/icons: Official open source SVG icon library for Bootstrap. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Bootstrap Icons",
+  "summary": "Open source icon library with 2,078 SVG icons for use as SVG files, an SVG sprite or a web font.",
+  "description": "Official open source icon library for Bootstrap: 2,078 icons across 24 categories such as arrows, brand, files & folders, devices and shapes. Icons ship as individual SVGs, an SVG sprite and a web font, with an npm package, CDN and a Figma library; usable with or without Bootstrap.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "svg icon", "icon library", "icon set", "icon font", "svg sprite", "web font", "free icon", "open source", "bootstrap icon", "brand icon", "ui icon", "vector icon"],
+  "contains": ["2,078 icons", "24 categories: alerts & status, apps, arrows, badges, brand, commerce, devices, files & folders, shapes …", "SVG download, SVG sprite and web font", "npm package bootstrap-icons and CDN", "Figma library"],
+  "formats": ["svg", "font-files", "npm-package", "figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/twbs/icons", "docs": "https://icons.getbootstrap.com/docs", "npm": "bootstrap-icons", "figma": null, "parent": null},
+  "confidence": 0.9
+}

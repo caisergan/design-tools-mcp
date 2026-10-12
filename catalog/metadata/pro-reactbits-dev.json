@@ -1,0 +1,33 @@
+{
+ "id": "pro-reactbits-dev",
+ "url": "https://pro.reactbits.dev",
+ "kind": "site",
+ "hints_hash": "1bca6456289628d5",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://pro.reactbits.dev/llms.txt", "title": "React Bits Pro", "status": null},
+  {"url": "https://pro.reactbits.dev", "title": "React Bits Pro | Animated React Components, Blocks & Templates", "status": 200},
+  {"url": "https://pro.reactbits.dev/docs/mcp", "title": "MCP Server | React Bits Pro", "status": 200},
+  {"url": "https://pro.reactbits.dev/about", "title": "About | React Bits Pro", "status": 200},
+  {"url": "https://pro.reactbits.dev/license", "title": "License Agreement | React Bits Pro", "status": 200},
+  {"url": "https://pro.reactbits.dev/docs/blocks", "title": "Blocks | React Bits Pro", "status": 200},
+  {"url": "https://pro.reactbits.dev/docs/introduction", "title": "Introduction | React Bits Pro", "status": 200}
+ ],
+ "status": "ok",
+ "name": "React Bits Pro",
+ "summary": "Premium React and Next.js library: 230 animated components, 300 page blocks, 300 app UI blocks and 15 templates.",
+ "description": "React Bits Pro is a paid React + Next.js component library: 230 animated creative components (text effects, backgrounds, 3D and shaders, cursors), 300 marketing page blocks across 22 categories, 300 application UI blocks across 38 categories, 15 landing-page templates and an AI Agent Kit. Items install through the shadcn CLI/registry with a license key and land as editable source in your repo; one-time payment, lifetime updates.",
+ "type": "component-library",
+ "categories": ["components", "sections", "templates"],
+ "elements": ["bento-grid", "hero", "card", "stats", "features", "testimonials", "pricing", "cta", "dashboard", "navbar", "list", "contact", "footer", "faq", "404", "sidebar", "table", "form", "modal", "ai-agent-ui", "text-effect", "background", "3d", "cursor"],
+ "keywords": ["react component library", "animated component", "text animation", "webgl background", "shader", "cursor effect", "page block", "tailwind block", "landing page block", "app ui", "dashboard ui", "landing page template", "nextjs template", "shadcn registry", "agent kit", "ai coding agent", "copy paste"],
+ "contains": ["230 animated React components (Text 34, Backgrounds 98, 3D & Shaders 49, Cursor 21, UI & Cards 28)", "300 page blocks across 22 categories", "300 application UI blocks across 38 categories", "15 Next.js landing-page templates", "AI Agent Kit with design skills and page prompts", "865 assets in the library, installable via shadcn CLI", "one-time payment with lifetime updates"],
+ "formats": ["code", "registry", "cli", "templates", "prompts", "docs"],
+ "stack": ["react", "nextjs", "tailwind", "css"],
+ "pricing": "paid",
+ "license": "proprietary",
+ "related": {"repo": null, "docs": "https://pro.reactbits.dev/docs", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

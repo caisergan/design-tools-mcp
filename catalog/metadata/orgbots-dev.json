@@ -1,0 +1,73 @@
+{
+  "id": "orgbots-dev",
+  "url": "https://orgbots.dev",
+  "kind": "site",
+  "hints_hash": "0b99f9433c31d5d7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.orgbots.dev/",
+      "title": "orgbot-hub",
+      "status": 200
+    },
+    {
+      "url": "https://www.orgbots.dev/about",
+      "title": "orgbot-hub",
+      "status": 200
+    },
+    {
+      "url": "https://www.orgbots.dev/team",
+      "title": "Team · orgbot-hub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "orgbots",
+  "summary": "Directory of 421 installable Grok Bot packs: teams of named bots shared by their authors, with official install links.",
+  "description": "A community directory of Grok Bot packs, where each pack is a small roster of named bots (desk, engineer, recruiter …) that already knows a job's stack and tone, so repeat work becomes named seats instead of a blank prompt. Browse featured and trending packs and top authors, open an author's pack page, or submit your own; install is official Grok only, previewing a template on x.ai and adding it in the Grok app.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai agent",
+    "bot pack",
+    "grok bot",
+    "agent team",
+    "ai directory",
+    "bot template",
+    "agent marketplace",
+    "prompt pack",
+    "ai assistant",
+    "team of bot",
+    "open directory"
+  ],
+  "contains": [
+    "421 packs",
+    "install is official Grok only: preview on x.ai, add in the Grok app",
+    "featured and trending lists with top authors",
+    "community packs shared by users",
+    "a pack is a roster of named bot seats (desk, engineer, recruiter …)"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,40 @@
+{
+  "id": "polyhaven-com",
+  "url": "https://polyhaven.com",
+  "kind": "site",
+  "hints_hash": "d738c5ae7bc374b1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://polyhaven.com", "title": "Poly Haven", "status": 200},
+    {"url": "https://polyhaven.com/gallery", "title": "Render Gallery • Poly Haven", "status": 200},
+    {"url": "https://polyhaven.com/license", "title": "License • Poly Haven", "status": 200},
+    {"url": "https://polyhaven.com/collections", "title": "Collections • Poly Haven", "status": 200},
+    {"url": "https://polyhaven.com/collections/moon", "title": "Lunar Landscape • Poly Haven", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Poly Haven",
+  "summary": "Public library of CC0 HDRIs, photoscanned PBR textures and 3D models for rendering, VFX and games.",
+  "description": "A community-funded 3D asset library. It offers HDRIs (16k+ resolution, unclipped for realistic lighting), photoscanned seamless PBR textures (at least 8k) and 3D models for visual effects and games, grouped into collections and free of paywalls or signup. Every asset is CC0; downloads work from the site, the public API and a Blender add-on.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["hdri", "3d model", "pbr texture", "seamless texture", "photoscanned texture", "environment map", "cc0", "public domain", "free 3d asset", "game asset", "vfx", "blender add-on", "3d asset library"],
+  "contains": [
+    "HDRIs at 16k+ resolution, always unclipped",
+    "photoscanned seamless PBR textures, at least 8k",
+    "3D models for VFX and next-gen games",
+    "all assets CC0 — no paywall or signup",
+    "collections and asset packs, e.g. Lunar Landscape with scene file and Unreal project",
+    "Blender add-on and public API (api.polyhaven.com)",
+    "community render gallery",
+    "community-funded via Patreon with public finance reports"
+  ],
+  "formats": ["api", "png", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

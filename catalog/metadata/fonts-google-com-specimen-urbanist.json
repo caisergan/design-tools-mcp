@@ -1,0 +1,67 @@
+{
+  "id": "fonts-google-com-specimen-urbanist",
+  "url": "https://fonts.google.com/specimen/Urbanist",
+  "kind": "page",
+  "hints_hash": "02fb6adb1f6fdc96",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:23:47Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/specimen/Urbanist",
+      "title": "Urbanist - Google Fonts",
+      "status": null
+    },
+    {
+      "url": "https://fonts.google.com/metadata/fonts/Urbanist",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Urbanist",
+  "summary": "Google Fonts specimen page for Urbanist, a low-contrast geometric sans-serif with a variable weight axis (100-900).",
+  "description": "Specimen page for Urbanist on Google Fonts: a low-contrast, geometric sans-serif inspired by Modernist typography, launched by Corey Hu in 2020 with 9 weights and accompanying italics. Now available as a variable font with a weight axis (100-900); Latin and Latin Extended coverage; listed as Sans Serif with a Display classification. Source: github.com/coreyhu/Urbanist.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": [
+    "google font",
+    "geometric san",
+    "sans serif font",
+    "variable font",
+    "modernist font",
+    "minimal font",
+    "ui font",
+    "webfont",
+    "free font",
+    "latin ext",
+    "italic",
+    "typeface specimen"
+  ],
+  "contains": [
+    "designed by Corey Hu, launched 2020",
+    "9 weights with accompanying italics",
+    "variable weight axis 100-900",
+    "Latin and Latin Extended subsets",
+    "SIL Open Font License 1.1",
+    "source at github.com/coreyhu/Urbanist"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {
+    "repo": "https://github.com/coreyhu/Urbanist",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "fonts-google-com"
+  },
+  "confidence": 0.85
+}

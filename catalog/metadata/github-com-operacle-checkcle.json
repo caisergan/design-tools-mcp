@@ -1,0 +1,91 @@
+{
+  "id": "github-com-operacle-checkcle",
+  "url": "https://github.com/operacle/checkcle",
+  "kind": "repo",
+  "hints_hash": "4f6d54cfb98efed2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/operacle/checkcle/blob/HEAD/README.md",
+      "title": "🚀 What is CheckCle?",
+      "status": null
+    },
+    {
+      "url": "https://github.com/operacle/checkcle",
+      "title": "GitHub - operacle/checkcle: CheckCle is a self-hosted, open-source monitoring platform for full-stack systems, applications, and infrastructure.",
+      "status": 200
+    },
+    {
+      "url": "https://docs.checkcle.io",
+      "title": "Welcome to CheckCle | CheckCle Docs",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CheckCle",
+  "summary": "Self-hosted open-source monitoring platform for uptime, servers and incidents with public status pages.",
+  "description": "CheckCle monitors websites, APIs and TCP services over HTTP, DNS, ping and TCP from distributed regions, tracks incident history and SSL/domain expiry, and runs a one-line agent that collects CPU, RAM, disk and network metrics from Linux and Windows (beta) servers. It deploys with Docker Compose or docker run on amd64 and arm64, sends alerts via email, Telegram, Discord, Slack and Matrix, and publishes operational status pages.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "uptime monitoring",
+    "server monitoring",
+    "status page",
+    "incident management",
+    "self-hosted",
+    "open source",
+    "docker",
+    "devop",
+    "alerting",
+    "ssl monitoring",
+    "infrastructure monitoring",
+    "observability",
+    "sre",
+    "system monitoring",
+    "http monitoring"
+  ],
+  "contains": [
+    "monitors HTTP, DNS, ping and TCP services; distributed regional checks",
+    "incident history UP/DOWN/WARNING/PAUSE and scheduled maintenance",
+    "server agent for Linux (Debian, Ubuntu, CentOS, Red Hat) and Windows (beta)",
+    "SSL and domain expiry tracking with notifications",
+    "operational status pages, reports and analytics",
+    "alerts via email, Telegram, Discord, Slack, Matrix and more",
+    "deploys with Docker Compose or docker run; amd64 and arm64",
+    "free and open source under the MIT License"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "vite",
+    "go",
+    "sqlite",
+    "pocketbase"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/operacle/checkcle",
+    "docs": "https://docs.checkcle.io",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

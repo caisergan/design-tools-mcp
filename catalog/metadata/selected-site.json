@@ -1,0 +1,29 @@
+{
+  "id": "selected-site",
+  "url": "https://selected.site",
+  "kind": "site",
+  "hints_hash": "6cd1ce1f2440d313",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "commandcode/deepseek/deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://selected.site", "title": "Selected — Framer Templates Ranking & Marketplace Directory", "status": null},
+    {"url": "https://selected.site/explore", "title": "Selected — Framer Templates Ranking & Marketplace Directory", "status": 200},
+    {"url": "https://selected.site/about", "title": "Selected — Framer Templates Ranking & Marketplace Directory", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Selected",
+  "summary": "Directory and live ranking of Framer marketplace templates, free and premium, by creator and category.",
+  "description": "Site that ranks templates from the Framer marketplace and organises them by creator and category, keeping free and premium picks side by side and refreshing the ranking daily.",
+  "type": "directory",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["framer", "framer template", "template directory", "template marketplace", "website template", "landing page template", "free template", "premium template", "template ranking", "creator"],
+  "contains": ["live ranking of Framer marketplace templates", "free and premium templates", "browsing by creator and category", "sitemap lists ~1,082 pages"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

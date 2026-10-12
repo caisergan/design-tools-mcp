@@ -1,0 +1,65 @@
+{
+  "id": "ui-shadcn-com-docs-components-base-questionnaire",
+  "url": "https://ui.shadcn.com/docs/components/base/questionnaire",
+  "kind": "page",
+  "hints_hash": "8d9eb71c6fd4d240",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:25Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.shadcn.com/docs/components/base/questionnaire",
+      "title": "Questionnaire - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Questionnaire",
+  "summary": "A multi-step questionnaire component with single-choice, multiple-choice, freeform and skippable questions.",
+  "description": "shadcn/ui's Questionnaire component for multi-step flows: ordered items with single or multiple selection, freeform answers and explicit skip, plus keyboard answer shortcuts, custom validation, controlled navigation, resume from saved state, conditional items and custom progress. Supports server rendering and ships with installation, usage and composition docs.",
+  "type": "component-library",
+  "elements": [
+    "form",
+    "stepper",
+    "checkbox",
+    "input"
+  ],
+  "keywords": [
+    "questionnaire",
+    "multi-step form",
+    "survey",
+    "form component",
+    "shadcn",
+    "react",
+    "single choice",
+    "multiple choice",
+    "freeform answer",
+    "skip question",
+    "form validation",
+    "keyboard shortcut",
+    "server rendering",
+    "base ui",
+    "radix ui"
+  ],
+  "formats": [
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "base-ui",
+    "radix"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-shadcn-com"
+  },
+  "confidence": 0.85
+}

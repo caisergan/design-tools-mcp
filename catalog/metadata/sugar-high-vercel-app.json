@@ -1,0 +1,86 @@
+{
+  "id": "sugar-high-vercel-app",
+  "url": "https://sugar-high.vercel.app",
+  "kind": "site",
+  "hints_hash": "ee3af84276f8e061",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://sugar-high.vercel.app/llms.txt",
+      "title": "Sugar High client-side screenshot tool",
+      "status": null
+    },
+    {
+      "url": "https://sugar-high.vercel.app",
+      "title": "Sugar High",
+      "status": null
+    },
+    {
+      "url": "https://github.com/huozhi/sugar-high",
+      "title": "GitHub - huozhi/sugar-high: Super lightweight code syntax highlighter solution",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Sugar High",
+  "summary": "Lightweight syntax highlighter that turns code into HTML: 32 built-in languages, React Code/Editor components, themes and a remark plugin.",
+  "description": "Sugar High highlights code into HTML in browsers and JavaScript runtimes without a DOM. The core package is 1.74 KB gzipped and covers 32 languages out of the box; @sugar-high/react adds Code and Editor components with built-in themes, @sugar-high/remark highlights markdown code blocks, and a client-side /capture tool renders shareable code screenshots. Theme tokens are scoped CSS variables with a Tailwind theme guide, and an agent skill teaches coding assistants the API.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "syntax highlighter",
+    "code highlighting",
+    "code block",
+    "react component",
+    "editor",
+    "remark plugin",
+    "npm package",
+    "lightweight",
+    "javascript",
+    "theme",
+    "tailwind",
+    "agent skill",
+    "screenshot",
+    "css variable"
+  ],
+  "contains": [
+    "32 built-in languages; JavaScript and JSX by default",
+    "1.74 KB core and 8.6 KB full, gzipped",
+    "@sugar-high/react Code and Editor components with built-in themes",
+    "remark plugin for markdown code blocks",
+    "theme tokens as scoped CSS variables; Tailwind theme guide",
+    "client-side /capture screenshot tool with state in the URL fragment",
+    "agent skill installable via npx skills add huozhi/sugar-high",
+    "benchmarks against PrismJS and highlight.js"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "remark",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/huozhi/sugar-high",
+    "docs": null,
+    "npm": "sugar-high",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

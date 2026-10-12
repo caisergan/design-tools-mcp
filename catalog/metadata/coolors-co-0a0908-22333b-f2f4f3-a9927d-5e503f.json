@@ -1,0 +1,19 @@
+{
+  "id": "coolors-co-0a0908-22333b-f2f4f3-a9927d-5e503f",
+  "url": "https://coolors.co/0a0908-22333b-f2f4f3-a9927d-5e503f",
+  "kind": "page",
+  "hints_hash": "e681ea080e76146e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:24:25Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coolors.co/0a0908-22333b-f2f4f3-a9927d-5e503f", "title": "Create a Palette - Coolors", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Create a Palette",
+  "summary": "Coolors palette page that opens the five-color scheme 0A0908, 22333B, F2F4F3, A9927D, 5E503F in the palette generator.",
+  "description": "Coolors' palette generator page for the palette 0A0908-22333B-F2F4F3-A9927D-5E503F: generate and edit the five colors, save the palette, check contrast and color-blindness, and export (URL, PDF, image, CSS, ASE, SVG, Tailwind, embed).",
+  "keywords": ["color palette", "color scheme", "hex color", "palette generator", "five color palette", "dark palette", "warm neutral palette", "color combination", "palette inspiration", "design color", "color harmony"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "coolors-co"},
+  "confidence": 0.65
+}

@@ -1,0 +1,25 @@
+{
+  "id": "footer-design-sites-esr",
+  "url": "https://footer.design/sites/esr",
+  "kind": "page",
+  "hints_hash": "6f9e7669337c2cea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/esr", "title": "Footer | ESR", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ESR",
+  "summary": "Desktop and mobile footer screenshots from the ESR automotive site, tagged brutalist, monochromatic, minimal and elegant.",
+  "description": "One footer entry in the Footer design gallery: the ESR automotive footer shown in desktop and mobile views, with style and type tags, designer credit and links to the live site and similar designs.",
+  "elements": ["footer"],
+  "keywords": ["footer", "footer design", "website footer", "footer inspiration", "automotive website", "brutalist", "monochromatic", "minimal footer", "desktop footer", "mobile footer"],
+  "contains": ["desktop and mobile footer screenshots", "styles: flat, brutalist, monochromatic, small type, minimal, elegant, transitions", "type: automotive", "designed by Nightjar", "added August 24, 2026"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

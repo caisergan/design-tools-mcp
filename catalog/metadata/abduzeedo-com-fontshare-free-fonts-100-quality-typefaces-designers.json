@@ -1,0 +1,32 @@
+{
+  "id": "abduzeedo-com-fontshare-free-fonts-100-quality-typefaces-designers",
+  "url": "https://abduzeedo.com/fontshare-free-fonts-100-quality-typefaces-designers",
+  "kind": "page",
+  "hints_hash": "119ea776473c67cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://abduzeedo.com/fontshare-free-fonts-100-quality-typefaces-designers", "title": "Fontshare Free Fonts: 100 Quality Typefaces for Designers", "status": null}
+  ],
+  "status": "ok",
+  "name": "Fontshare Free Fonts: 100 Quality Typefaces for Designers",
+  "summary": "Post about Fontshare, Indian Type Foundry's free type library: 100 families, variable fonts, 59 pairings, free for commercial use.",
+  "description": "Abduzeedo post introducing Fontshare, a free type library from Indian Type Foundry. It covers the ITF Free Font License (personal and commercial use), spotlights families like Satoshi, Clash Display, General Sans and Cabinet Grotesk, and describes the browse interface: a 10–200px size slider, specimen modes and 59 curated pairings.",
+  "type": "article",
+  "categories": ["fonts"],
+  "keywords": ["free font", "typeface", "variable font", "font pairing", "font license", "commercial use", "font library", "typography", "display font", "geometric grotesque", "type specimen", "font download"],
+  "contains": [
+    "100 font families, most under the Fontshare Originals label",
+    "ITF Free Font License covers personal and commercial use",
+    "Satoshi: geometric grotesque in 10 styles plus a variable font file",
+    "browse interface: 10–200px size slider and specimen modes",
+    "59 curated font pairings rendered as editorial layouts"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "abduzeedo-com"},
+  "confidence": 0.9
+}

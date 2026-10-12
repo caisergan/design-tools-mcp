@@ -1,0 +1,19 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-008-minimal-luxury-watch-ht",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/008-minimal-luxury-watch.html",
+  "kind": "page",
+  "hints_hash": "07ad1ec187e8940e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/008-minimal-luxury-watch.html", "title": "Halden — Meridian 38 · Automatic", "status": null},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Halden — Meridian 38",
+  "summary": "Self-contained HTML study from a 100-study collection: a luxury watch product page for the Halden Meridian 38 automatic.",
+  "keywords": ["watch product page", "product landing page", "luxury watch", "minimal design", "single product page", "spec sheet", "ecommerce design", "html study", "standalone html", "web design demo"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

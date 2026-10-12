@@ -1,0 +1,24 @@
+{
+  "id": "onepagelove-com-elva",
+  "url": "https://onepagelove.com/elva",
+  "kind": "page",
+  "hints_hash": "aee5b493a11cee50",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/elva", "title": "Elva — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Elva",
+  "summary": "One Page Love feature on Elva, an AI video-storytelling app landing page with 3D, glass and scroll effects.",
+  "description": "Screenshot feature of the Elva landing page, an AI tool that turns everyday videos into stories through automated direction and editing. The page lists the site's features (hero, call to action, liquid glass, glowing effect, sphere), its styles (3D, futuristic, glassmorphism) and its stack (GSAP, Three.js).",
+  "keywords": ["ai", "landing page", "one page website", "glassmorphism", "dark mode", "3d", "scroll effect", "hero", "call to action", "three.js", "gsap", "website inspiration", "app landing page", "liquid glass"],
+  "elements": ["hero", "cta", "3d", "scroll-effect"],
+  "variants": {"hero": ["video"]},
+  "formats": ["screenshots", "links"],
+  "stack": ["gsap", "three.js"],
+  "contains": ["screenshot plus a link to the live site", "features: hero, call to action, liquid glass, glowing effect, sphere, storytelling", "styles: 3D, futuristic, glassmorphism, scroll effects", "tech: GSAP, HTML, JS, Three.js", "typeface: Neue Haas Grotesk", "published 6 Sep 2026"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

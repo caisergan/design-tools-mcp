@@ -1,0 +1,31 @@
+{
+  "id": "kitbitz-art",
+  "url": "https://kitbitz.art",
+  "kind": "site",
+  "hints_hash": "c3befd64af8f06e3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://kitbitz.art/llms.txt", "title": "Kitbitz", "status": null},
+    {"url": "https://kitbitz.art", "title": "Kitbitz — 2,000+ free hand-drawn illustrations", "status": 200},
+    {"url": "https://kitbitz.art/docs", "title": "Kitbitz Docs | Kitbitz Docs", "status": 200},
+    {"url": "https://kitbitz.art/kits/city-kit", "title": "City Kit — Free CC0 illustrations | Kitbitz", "status": 200},
+    {"url": "https://kitbitz.art/kits/space-kit", "title": "Space Kit — Free CC0 illustrations | Kitbitz", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kitbitz",
+  "summary": "Free CC0 library of 2,000+ hand-drawn illustrations in 13 themed kits, downloadable as SVG and PNG or usable via Figma and MCP.",
+  "description": "A free library of hand-drawn, mix-and-match illustrations organized into themed kits (City, Cyberpunk, Dungeon, Space, Nature …). Browse and download SVG or PNG, work in Figma with the kits and plugin, or let an AI client search the catalogue via a public MCP server. All illustrations are CC0.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["illustration", "hand drawn", "svg illustration", "png illustration", "free illustration", "cc0", "figma plugin", "game asset", "map asset", "dungeon", "cyberpunk", "space", "commercial use", "mcp server"],
+  "contains": ["2,000+ hand-drawn illustrations", "13 themed kits: Barbieland, City, Cyberpunk, Dungeon, Halloween, Space, Winter …", "SVG and PNG downloads", "13 kits on Figma Community plus a Figma plugin", "public read-only MCP server", "JSON catalog", "CC0 — no attribution required"],
+  "formats": ["svg", "png", "figma-file", "api"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": null, "docs": "https://kitbitz.art/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

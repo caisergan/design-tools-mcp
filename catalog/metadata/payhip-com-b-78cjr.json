@@ -1,0 +1,61 @@
+{
+  "id": "payhip-com-b-78cjr",
+  "url": "https://payhip.com/b/78cjr",
+  "kind": "page",
+  "hints_hash": "59ae080a3b66ba44",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://payhip.com/b/78cjr",
+      "title": "Six Seven SMGs - Payhip",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Six Seven SMGs",
+  "summary": "Paid UEFN weapon pack: animated SMG models with VFX, a vending machine and in-island purchase UI.",
+  "description": "Payhip product page for Six Seven SMGs, a custom weapon system for UEFN creators: custom animated weapon models and VFX, a built-in vending machine with V-Buck offers, in-island purchase offers and transactions, NPC and zombie damage support, ammo system configuration and a full animated UI. Configurable from the details panel with no code; $34.95, download is a 1 MB PDF and a 7 MB ZIP from the seller hyperbitfn.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": [
+    "uefn",
+    "fortnite",
+    "game asset",
+    "3d model",
+    "weapon model",
+    "vfx",
+    "animated ui",
+    "game ui",
+    "vending machine",
+    "in-game purchase",
+    "asset pack"
+  ],
+  "contains": [
+    "$34.95, listed as on sale",
+    "custom animated weapon models and VFX",
+    "built-in vending machine with V-Buck offers",
+    "in-island purchase offers and transactions",
+    "NPC and zombie damage support, ammo system configuration",
+    "full animated UI, configurable from the details panel with no code",
+    "download: 1 MB PDF and 7 MB ZIP",
+    "seller: hyperbitfn on Payhip"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

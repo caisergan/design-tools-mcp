@@ -1,0 +1,30 @@
+{
+ "id": "github-com-type-zero-labs-ouroboros-ui",
+ "url": "https://github.com/Type-zero-labs/ouroboros-ui",
+ "kind": "repo",
+ "hints_hash": "6b31db545e34d808",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:11:07Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/Type-zero-labs/ouroboros-ui/blob/HEAD/README.md", "title": "ouroboros-ui", "status": 200},
+  {"url": "https://raw.githubusercontent.com/Type-zero-labs/ouroboros-ui/HEAD/docs/components/README.md", "title": "Component catalog", "status": 200},
+  {"url": "https://ouroboros-ui.typezerolabs.com/components", "title": "Component catalog - ouroboros-ui", "status": 200},
+  {"url": "https://raw.githubusercontent.com/Type-zero-labs/ouroboros-ui/HEAD/docs/SUMMARY.md", "title": "Summary", "status": 200}
+ ],
+ "status": "ok",
+ "name": "ouroboros-ui",
+ "summary": "Token-first Rust/egui port of the shadcn/ui design language, with 60+ components and build-enforced rules.",
+ "description": "The shadcn/ui design language reimplemented natively for egui in Rust: 60+ components across atoms, cells, molecules and organisms, plus a node-editor graph layer. Governance tests run in cargo test and CI — raw colors, fonts or spacing outside the token layer fail the build, and only atoms touch the painter. Ships a component catalog, a wasm storybook and docs with per-component pages (anatomy, variants, states, API).",
+ "type": "component-library",
+ "categories": ["components"],
+ "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "card", "checkbox", "input", "list", "loader", "progress", "slider", "switch", "tabs", "table", "tooltip"],
+ "keywords": ["rust", "egui", "shadcn", "design system", "design token", "component library", "native ui", "dark mode", "light mode", "theme", "storybook", "wasm", "governance", "atomic design", "builder pattern", "desktop app", "node editor", "agent", "ui kit"],
+ "contains": ["60+ components across atoms, cells, molecules and organisms, plus a node-editor graph layer", "23 atoms including avatar, badge, button, checkbox, input, progress, slider, spinner, switch, textarea and tooltip", "cells: list item, menu item, property row, responsive row, table cell, table row, toolbar button, tree node", "molecules: alert, breadcrumb, card, collapsible, input group, radio group, search field, tabs", "governance tests fail the build on raw colors, fonts or spacing outside the token layer", "token-first theming with a zinc palette, 4px scale and dark and light modes", "Rust 1.92 pinned, egui 0.34.1, builder API, wasm storybook"],
+ "formats": ["code", "docs"],
+ "stack": ["rust", "egui"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/Type-zero-labs/ouroboros-ui", "docs": "https://ouroboros-ui.typezerolabs.com", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.8
+}

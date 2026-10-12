@@ -1,0 +1,37 @@
+{
+  "id": "cufonfonts-com",
+  "url": "https://cufonfonts.com",
+  "kind": "site",
+  "hints_hash": "cf1275793406d23f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cufonfonts.com", "title": "Cufon Fonts: Download High Quality Free Fonts for Desktop and WebFonts", "status": null},
+    {"url": "https://www.cufonfonts.com/collections", "title": "Free Font Collections | Download Free Fonts for Desktop & Webfonts", "status": null},
+    {"url": "https://www.cufonfonts.com/category/serif", "title": "SERIF Fonts | Download Free Fonts for Desktop & Webfonts", "status": null},
+    {"url": "https://www.cufonfonts.com/category/symbol", "title": "SYMBOL Fonts | Download Free Fonts for Desktop & Webfonts", "status": null},
+    {"url": "https://www.cufonfonts.com/category/display", "title": "DISPLAY Fonts | Download Free Fonts for Desktop & Webfonts", "status": null}
+  ],
+  "status": "ok",
+  "name": "Cufon Fonts",
+  "summary": "Free font archive of desktop and web font families, browsable by category, tag and curated collection.",
+  "description": "Font archive listing families under style categories — serif, sans-serif, display, handwritten, monospaced and symbol — each with previews, style counts, download counts and license notes such as free for personal use or free for commercial use. Curated collections group fonts by theme (tattoo, astrology, Arabic, cinematic, K-pop, youtuber …), and category filters cover style count, newest, hot today, popular, variable and free for commercial use. Extra tools include a background remover, an image compressor and a Unicode character table.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["free font", "font download", "webfont", "serif font", "sans serif font", "display font", "handwritten font", "monospaced font", "symbol font", "font family", "font collection", "ttf", "typography", "commercial use font", "variable font"],
+  "contains": [
+    "serif category: 6,713 families with 1+ styles, display: 61,901, symbol: 3,115",
+    "categories: serif, sans-serif, display, handwritten, monospaced, symbol",
+    "curated collections: tattoo, astrology, Arabic, cinematic, K-pop, youtuber, manga",
+    "filters: style count, newest, hot today, popular, variable, free for commercial use",
+    "tools: background remover, TinyImage, character table"
+  ],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

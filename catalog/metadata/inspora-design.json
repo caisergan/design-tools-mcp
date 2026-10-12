@@ -1,0 +1,32 @@
+{
+  "id": "inspora-design",
+  "url": "https://inspora.design",
+  "kind": "site",
+  "hints_hash": "3dd6381a9e66d29c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://inspora.design", "title": "Inspora", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Inspora",
+  "summary": "Curated archive of recent visual design work, updated hourly across web, branding, product, motion, illustration, 3D and print.",
+  "description": "A curated archive of recent visual design and creative work, browsable by category (Web, Branding, Product, Motion, Illustration, 3D, Print). Posts cover effects and UI pieces such as mesh gradients, holo 3D card effects, usage meter components, flying dropdown menus, sliders and animated inputs. Updated hourly; the feed renders client-side.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["design inspiration", "visual design", "design archive", "branding", "product design", "motion design", "illustration", "3d design", "print design", "web design", "mesh gradient", "ui component", "design portfolio", "creative work", "design feed", "social post design"],
+  "contains": [
+    "categories: Web, Branding, Product, Motion, Illustration, 3D, Print",
+    "feed updated hourly",
+    "posts include mesh gradients, holo 3D card effect, usage meter component, flying dropdown menu, animated code input",
+    "email capture for updates"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

@@ -1,0 +1,35 @@
+{
+  "id": "framer-com-community-marketplace-templates-pumpkin",
+  "url": "https://framer.com/community/marketplace/templates/pumpkin",
+  "kind": "page",
+  "hints_hash": "3470dbf8b84ffbaa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/community/marketplace/templates/pumpkin", "title": "Pumpkin — Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pumpkin",
+  "summary": "Paid dark, cinematic Framer template for creative agencies and portfolios by Flexbuildr, with 10+ pages and case studies.",
+  "description": "A premium creative agency and portfolio Framer template by Flexbuildr, priced at $69, aimed at creative studios, digital agencies, branding firms and motion design teams. Ten-plus designed pages with drag-and-drop sections, two CMS collections (Projects and Blog), case study pages with outcome and results structure, motion sections with scroll-triggered animations, global color and font styles and responsive, SEO-ready pages; it ships as a Framer remix link with an editable Figma file and a getting-started guide.",
+  "type": "template",
+  "elements": ["scroll-effect"],
+  "keywords": ["framer template", "creative agency", "agency website", "portfolio template", "dark theme", "cinematic", "motion design", "case study", "branding studio", "design agency", "cms", "no-code", "website template", "figma file", "scroll animation"],
+  "contains": [
+    "premium Framer template by Flexbuildr, $69 one-time; published Dec 22, 2025, updated Sep 25, 2026",
+    "10+ designed pages; 2 CMS collections: Projects and Blog",
+    "dark, cinematic creative agency and portfolio design",
+    "case study pages with outcome and results structure",
+    "motion sections with scroll-triggered animations",
+    "drag-and-drop editing, global color and font styles, no coding or plugins",
+    "Framer remix link, editable Figma file and getting-started guide",
+    "marketplace license field: Single-Use"
+  ],
+  "formats": ["templates", "framer-file", "figma-file", "docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

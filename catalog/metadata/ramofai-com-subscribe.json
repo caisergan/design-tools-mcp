@@ -1,0 +1,15 @@
+{
+  "id": "ramofai-com-subscribe",
+  "url": "https://ramofai.com/subscribe",
+  "kind": "page",
+  "hints_hash": "d56ab3aa29a97e03",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ramofai.com/subscribe", "title": "ramofai.com", "status": null},
+    {"url": "https://ramofai.com/subscribe", "title": "ramofai.com", "status": 200}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

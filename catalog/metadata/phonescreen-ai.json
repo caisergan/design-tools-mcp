@@ -1,0 +1,36 @@
+{
+ "id": "phonescreen-ai",
+ "url": "https://phonescreen.ai",
+ "kind": "site",
+ "hints_hash": "65ccf94d1f388d9c",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:43:05Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://phonescreen.ai", "title": "AI Interviewer and Hiring Agents for Hourly Teams: Phone Screens, Resumes, References · PhoneScreen.AI", "status": null},
+  {"url": "https://phonescreen.ai/pricing", "title": "Phone Screening Software Pricing: $4 per Completed Screen · PhoneScreen.AI", "status": null}
+ ],
+ "status": "ok",
+ "name": "PhoneScreen.AI",
+ "summary": "AI interviewer that phone-screens every hourly applicant in 34 languages, plus resume screening and reference-check agents.",
+ "description": "An AI interviewer calls, or takes calls from, every hourly applicant 24/7, asks your questions in their language and returns a scored scorecard with transcript and recording; separate agents screen resumes and check references. It runs from ChatGPT or Claude and connects via ATS integrations, Zapier, API and webhooks, with preset questions for warehouses, home care, restaurants, retail, hotels, trucking and staffing. First 10 screens free, then $4 per completed screen.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["ai interviewer", "phone screen", "candidate screening", "hiring automation", "recruiting", "resume screening", "reference check", "hourly hiring", "voice agent", "ai agent", "interview question", "ats integration", "applicant tracking system", "mcp", "screening question"],
+ "contains": [
+  "AI phone screens in 34 languages with per-answer scoring against your rubric",
+  "resume screener (free, no account needed) and reference-check agent (beta)",
+  "scorecard, transcript and recording for every completed screen",
+  "presets for 30 roles across 11 industries; missed calls never charged",
+  "integrations: ATS, Zapier, API, webhooks, MCP; runs from ChatGPT or Claude",
+  "first 10 screens free, then $4 per completed screen, no monthly fee",
+  "2,486 completed screens analyzed for 83 hiring teams; median screen 4.4 min"
+ ],
+ "formats": ["app", "api"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

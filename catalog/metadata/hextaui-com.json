@@ -1,0 +1,33 @@
+{
+  "id": "hextaui-com",
+  "url": "https://hextaui.com",
+  "kind": "site",
+  "hints_hash": "93dded799e216f13",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hextaui.com/llms.txt", "title": "HextaUI", "status": null},
+    {"url": "https://hextaui.com", "title": "HextaUI — React components and blocks for shadcn/ui", "status": 200},
+    {"url": "https://hextaui.com/docs", "title": "React components for shadcn/ui, built on Base UI — HextaUI", "status": 200},
+    {"url": "https://hextaui.com/blocks", "title": "React blocks for AI products, built on shadcn/ui — HextaUI", "status": 200},
+    {"url": "https://hextaui.com/pricing", "title": "Pricing — HextaUI", "status": 200},
+    {"url": "https://hextaui.com/legal/license", "title": "Pro License — HextaUI", "status": 200},
+    {"url": "https://github.com/preetsuthar17/hextaui/blob/HEAD/README.md", "title": "hextaui/README.md at HEAD · preetsuthar17/hextaui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "HextaUI",
+  "summary": "React components, hooks and AI blocks for shadcn/ui, built on Base UI with the hard states handled.",
+  "description": "Component library for shadcn/ui built on Base UI and Tailwind CSS v4: 65 free MIT components, 9 hooks and 5 utilities added with the shadcn CLI. Paid Pro blocks cover AI product screens (chat thread, streaming, tool calls, thinking, voice mode) plus the settings and account screens around them.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "ai-agent-ui", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "chat", "checkbox", "command-palette", "drawer", "dropdown", "empty-state", "file-upload", "form", "input", "list", "loader", "menubar", "modal", "otp-input", "pagination", "popover", "progress", "prompt-input", "select", "sidebar", "slider", "switch", "table", "tabs", "team", "toast", "tooltip"],
+  "keywords": ["shadcn ui", "base ui", "react component", "tailwind css", "copy paste", "registry", "cli", "ai chat", "prompt input", "chat thread", "tool call", "agent", "streaming", "voice mode", "hook", "block", "mcp server", "accessible component", "free component"],
+  "contains": ["65 free MIT components, 9 hooks and 5 utilities", "installed with the shadcn CLI from the @hextaui registry (139 registry items)", "22 Pro blocks for AI products: chat thread, streaming, tool calls, thinking, voice mode, code block with diffs", "free tier includes the Prompt Input block", "Pro is a one-time $49 solo / $149 team of 10", "MCP server at hextaui.com/mcp plus llms.txt and Markdown docs", "React 19 + Tailwind CSS v4 on shadcn/ui"],
+  "formats": ["registry", "code", "cli", "docs"],
+  "stack": ["react", "base-ui", "tailwind", "nextjs"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/preetsuthar17/hextaui", "docs": "https://hextaui.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

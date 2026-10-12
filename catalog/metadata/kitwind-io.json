@@ -1,0 +1,37 @@
+{
+  "id": "kitwind-io",
+  "url": "https://kitwind.io",
+  "kind": "site",
+  "hints_hash": "4b5a58c5ed89ed46",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://kitwind.io", "title": "Kitwind | Coming Soon", "status": 200 },
+    { "url": "https://kitwind.io/products", "title": "Kitwind | Products", "status": 200 },
+    { "url": "https://kitwind.io/products/kometa", "title": "Kitwind | Kometa UI Kit", "status": 200 },
+    { "url": "https://kitwind.io/products/kometa/faq", "title": "Kitwind | Kometa UI Kit", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Kitwind",
+  "summary": "Marketplace of Tailwind CSS UI kits; its free Kometa kit has 130+ responsive sections in HTML, VueJS and React.",
+  "description": "A marketplace of fully responsive, multi-purpose UI kits built with Tailwind CSS. The first product, Kometa UI Kit, is free and includes 130+ sections with a custom Tailwind config, copyable component source and its own FAQ and license page; every section ships in plain HTML, VueJS and React.",
+  "type": "block-library",
+  "categories": ["components", "sections"],
+  "elements": ["navbar", "faq", "features", "footer", "pricing", "stats", "team"],
+  "keywords": ["tailwind css", "ui kit", "landing page section", "responsive section", "component source", "html", "vue", "react", "saas landing page", "startup landing page", "free ui kit", "tailwind config", "section marketplace", "web template"],
+  "contains": [
+    "free Kometa UI Kit with 130+ sections",
+    "sections in plain HTML, VueJS and React",
+    "custom Tailwind config (v1.4.1): color palette, fonts, spacings, variants",
+    "copy-paste component source",
+    "free for unlimited personal, client and commercial projects, no attribution",
+    "license forbids making derivative UI kits, templates or builders"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["tailwind", "html", "vue", "react"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

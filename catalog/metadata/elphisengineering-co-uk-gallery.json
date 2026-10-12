@@ -1,0 +1,24 @@
+{
+  "id": "elphisengineering-co-uk-gallery",
+  "url": "https://elphisengineering.co.uk/gallery",
+  "kind": "page",
+  "hints_hash": "85c01a67c1d8e21a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.elphisengineering.co.uk/gallery/", "title": "Gallery - Elphis Engineering", "status": null}
+  ],
+  "status": "ok",
+  "name": "Gallery - Elphis Engineering",
+  "summary": "Photo gallery of precision-machined components made by a UK engineering and manufacturing company.",
+  "description": "A gallery page on a UK precision engineering company's site showing examples of components it machines from various materials for different industries, with a sales contact for quotes. The page sits among the company's service pages (CNC turning, CNC milling, CAD design, manual machining, reverse engineering, fabrication and welding) and is not a UI or design resource.",
+  "type": "gallery",
+  "elements": [],
+  "keywords": ["cnc machining", "precision component", "machined part", "engineering", "manufacturing", "cnc turning", "cnc milling", "cad design", "fabrication", "welding", "gearbox repair", "hydraulic ram", "bearing", "photo gallery", "uk manufacturer"],
+  "contains": ["photos of machined components from various materials and industries", "services listed: CNC turning, CNC milling, CAD design, manual machining, reverse engineering, fabrication and welding", "contact details for quotes (01749 676 424, admin@elphisengineering.co.uk)"],
+  "formats": [],
+  "stack": [],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

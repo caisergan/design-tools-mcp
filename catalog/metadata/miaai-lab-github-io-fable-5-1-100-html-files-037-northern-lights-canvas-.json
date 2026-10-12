@@ -1,0 +1,54 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-037-northern-lights-canvas-",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/037-northern-lights-canvas.html",
+  "kind": "page",
+  "hints_hash": "cb5c465e8fcf3a2f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/037-northern-lights-canvas.html",
+      "title": "Northern Lights — Lake Inari, 68.9° N",
+      "status": 200
+    },
+    {
+      "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/",
+      "title": "Fable 5.1 · 100 HTML Files",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Northern Lights — Lake Inari, 68.9° N",
+  "summary": "Single-page canvas study of northern lights over Lake Inari, presented as a field observation with aurora data readouts.",
+  "description": "A self-contained HTML visual study of an aurora night at Lake Inari (68.9° N), one of the Fable 5.1 100 HTML Files studies. The scene is framed as a field observation — Kp 5, −23 °C, calm wind, clear sky — with aurora emission wavelengths (oxygen 557.7 nm, nitrogen 427.8 nm) and a short note on how charged particles make the sky glow.",
+  "elements": [
+    "background"
+  ],
+  "keywords": [
+    "northern light",
+    "aurora borealis",
+    "aurora",
+    "canvas animation",
+    "animated background",
+    "night sky",
+    "sky effect",
+    "html study",
+    "generative art",
+    "visual study",
+    "single html file",
+    "web demo"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.65
+}

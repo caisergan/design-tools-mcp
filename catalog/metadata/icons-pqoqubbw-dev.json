@@ -1,0 +1,83 @@
+{
+  "id": "icons-pqoqubbw-dev",
+  "url": "https://icons.pqoqubbw.dev",
+  "kind": "site",
+  "hints_hash": "a3e066b7e8239df7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://icons.pqoqubbw.dev/llms.txt",
+      "title": "lucide-animated",
+      "status": null
+    },
+    {
+      "url": "https://icons.pqoqubbw.dev",
+      "title": "lucide-animated | Free Animated React Icons Library",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "lucide-animated",
+  "summary": "Open-source collection of 467 animated React icons built on Lucide and powered by Motion, installable one by one with the shadcn CLI.",
+  "description": "A gallery of 467 animated icons, each based on a Lucide icon and rebuilt as a React component that animates on hover, with all standard SVG props forwarded. Icons install one at a time with a shadcn CLI command (@lucide-animated/<name>) or can be copied from the code; per-icon markdown docs, a full docs corpus, an agent skill and an MCP endpoint are included. MIT licensed, with community ports for Svelte, Vue, Angular and Flutter.",
+  "type": "icon-set",
+  "categories": [
+    "icons",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "animated icon",
+    "icon set",
+    "react",
+    "svg icon",
+    "motion",
+    "lucide",
+    "shadcn",
+    "copy paste",
+    "hover animation",
+    "icon library",
+    "free icon",
+    "micro animation",
+    "mcp"
+  ],
+  "contains": [
+    "467 animated icons based on Lucide",
+    "built with the Motion animation engine",
+    "installs one icon at a time with the shadcn CLI (@lucide-animated/<name>)",
+    "icons animate on hover and forward standard SVG props",
+    "8,188 GitHub stars",
+    "per-icon docs, agent skill and full docs corpus",
+    "MCP endpoint with search, list and get tools",
+    "community ports: Svelte, Vue, Angular, Flutter"
+  ],
+  "formats": [
+    "registry",
+    "cli",
+    "code",
+    "svg",
+    "docs",
+    "api"
+  ],
+  "stack": [
+    "react",
+    "framer-motion",
+    "lucide"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,32 @@
+{
+  "id": "forui-dev",
+  "url": "https://forui.dev",
+  "kind": "site",
+  "hints_hash": "9abc9bdb63145858",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://forui.dev", "title": "Forui: Flutter UI library inspired by shadcn/ui", "status": null},
+    {"url": "https://forui.dev/docs", "title": "About Forui | Forui", "status": null},
+    {"url": "https://forui.dev/docs/getting-started", "title": "Getting Started | Forui", "status": null},
+    {"url": "https://forui.dev/enterprise", "title": "Enterprise | Forui", "status": 200},
+    {"url": "https://github.com/duobaseio/forui", "title": "GitHub - duobaseio/forui: Duobase's Flutter UI library", "status": 200},
+    {"url": "https://raw.githubusercontent.com/duobaseio/forui/main/LICENSE", "title": "Forui LICENSE (MIT)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Forui",
+  "summary": "Flutter UI widget library inspired by shadcn/ui, with themes, localization, a CLI and a visual theme designer.",
+  "description": "A platform-agnostic Flutter UI library with widgets for forms (text field, select, multi select, date picker, OTP field, slider, switch), navigation (header, bottom navigation bar, sidebar, tabs, breadcrumbs) and overlays (dialog, sheet, popover, toast, tooltip). Docs cover theming, controls, localization and responsive design; a CLI and icon set ship with it.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "checkbox", "date-picker", "drawer", "dropdown", "form", "input", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "tabs", "toast", "tooltip"],
+  "keywords": ["flutter", "flutter ui library", "dart", "shadcn", "widget", "component library", "form field", "text field", "select", "multi select", "date picker", "otp input", "slider", "switch", "sidebar", "tabs", "dialog", "toast", "tooltip", "theme", "dark mode", "localization", "cli", "app ui", "open source"],
+  "contains": ["Flutter UI library inspired by shadcn/ui", "18 docs pages: themes, controls, localization, responsive", "widgets: text field, select, multi select, date/time picker, OTP, slider, switch, dialog, sheet, toast", "Forui Create: visual theme designer in the browser", "CLI, icon set, hooks and API reference", "free and open source with a paid enterprise support plan"],
+  "formats": ["code", "cli", "docs"],
+  "stack": ["flutter", "dart"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/duobaseio/forui", "docs": "https://forui.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

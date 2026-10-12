@@ -1,0 +1,25 @@
+{
+  "id": "note-com-note-suke-n-nbf5980eb80ad-sub-rt-share-pb",
+  "url": "https://note.com/note_suke/n/nbf5980eb80ad?sub_rt=share_pb",
+  "kind": "page",
+  "hints_hash": "f5f29fbd28c43cc5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:36:40Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    {
+      "url": "https://note.com/note_suke/n/nbf5980eb80ad?sub_rt=share_pb",
+      "title": "スライドも一発生成。Anthropicが放った新Labs製品「Claude Design」は何を変えるのか｜suke",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "スライドも一発生成。Anthropicが放った新Labs製品「Claude Design」は何を変えるのか",
+  "summary": "Japanese note article on Anthropic's Claude Design: what conversation-made prototypes, slides and one-pagers change.",
+  "description": "A note post by suke (September 2026) about Claude Design, the Anthropic Labs product that turns a conversation into prototypes, slides and one-pagers rendered as interactive HTML. It discusses exports, the Canva connection and how the feature sits next to PowerPoint, Canva and Gamma; the first part is free, the rest is paid.",
+  "type": "article",
+  "categories": ["learning"],
+  "keywords": ["claude design", "anthropic", "ai slide generator", "prototype", "one pager", "interactive html", "canva", "gamma", "ai design tool", "presentation", "article"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

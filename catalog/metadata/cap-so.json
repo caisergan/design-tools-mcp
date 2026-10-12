@@ -1,0 +1,100 @@
+{
+  "id": "cap-so",
+  "url": "https://cap.so",
+  "kind": "site",
+  "hints_hash": "85fd55d36ace646c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://cap.so/llms.txt",
+      "title": "Cap: Screen Recording, Sharing, and Video Collaboration",
+      "status": null
+    },
+    {
+      "url": "https://cap.so",
+      "title": "Cap — Free Screen Recorder & Open Source Loom Alternative",
+      "status": null
+    },
+    {
+      "url": "https://cap.so/docs",
+      "title": "Cap Documentation",
+      "status": null
+    },
+    {
+      "url": "https://cap.so/pricing",
+      "title": "Pricing — Cap",
+      "status": null
+    },
+    {
+      "url": "https://cap.so/about",
+      "title": "About — Cap",
+      "status": null
+    },
+    {
+      "url": "https://cap.so/docs/agents",
+      "title": "Cap for Agents - Cap Docs",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Cap",
+  "summary": "Open-source screen recorder and Loom alternative for Mac, Windows and Linux with instant share links.",
+  "description": "An open-source screen recorder and async video platform for Mac, Windows and Linux. Instant Mode uploads while recording so the share link is ready at stop; Studio Mode records locally in 4K with an editor for backgrounds, automatic zoom, captions and cursor effects; Screenshot Mode beautifies stills. Caps get comments, transcripts, chapters and analytics, with cloud, Google Drive or S3 storage, Loom import, and a CLI plus MCP server for AI agents.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "screen recorder",
+    "screen recording",
+    "loom alternative",
+    "screen sharing",
+    "async video",
+    "video editor",
+    "screenshot",
+    "open source",
+    "self-hosting",
+    "rest api",
+    "mcp server",
+    "cli",
+    "macos",
+    "window",
+    "linux"
+  ],
+  "contains": [
+    "open source: most of the repo AGPLv3, some crates MIT",
+    "three modes: Instant, Studio and Screenshot",
+    "desktop apps for macOS (Apple Silicon and Intel), Windows and Linux",
+    "cloud, Google Drive or S3-compatible storage",
+    "comments, transcripts, chapters and analytics on Cap pages",
+    "Loom import; REST API, CLI and MCP server for agents",
+    "commercial desktop license $29/year; Cap Pro $12 per user per month"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "cli",
+    "api",
+    "npm-package"
+  ],
+  "stack": [
+    "rust"
+  ],
+  "pricing": "freemium",
+  "license": "AGPL-3.0",
+  "related": {
+    "repo": "https://github.com/CapSoftware/Cap",
+    "docs": "https://cap.so/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

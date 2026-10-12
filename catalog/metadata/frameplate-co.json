@@ -1,0 +1,31 @@
+{
+  "id": "frameplate-co",
+  "url": "https://frameplate.co",
+  "kind": "site",
+  "hints_hash": "e1d90c5ce9ba3bb5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:25:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://frameplate.co", "title": "Framer Templates, Plugins and Resources | Frameplate", "status": null},
+    {"url": "https://frameplate.co/templates", "title": "Framer Templates | Frameplate", "status": null},
+    {"url": "https://frameplate.co/categories", "title": "Framer Templates Categories | Frameplate", "status": null},
+    {"url": "https://frameplate.co/about-us", "title": "About Us | Frameplate", "status": null},
+    {"url": "https://frameplate.co/templates/suppai", "title": "SuppAI Framer Template | Frameplate", "status": null}
+  ],
+  "status": "ok",
+  "name": "Frameplate",
+  "summary": "Directory of 600+ Framer templates, 110+ plugins, 60+ resources and hand-picked deals for Framer designers.",
+  "description": "A curated, daily-updated directory of Framer website templates, plugins, resources and deals. Templates are browsed by category (portfolio, SaaS, agency, free, waitlist, app, ...) or matched through a five-step template finder quiz that points to the Framer marketplace. Aimed at Framer designers and businesses building or moving their sites to Framer.",
+  "type": "directory",
+  "categories": ["templates", "design-tools"],
+  "elements": [],
+  "keywords": ["framer template", "framer plugin", "website template", "no-code website", "portfolio template", "saas template", "agency template", "free template", "template directory", "framer resource", "framer deal", "website builder", "landing page template", "directory template", "waitlist template", "app template", "design resource", "template finder"],
+  "contains": ["600+ Framer templates", "110+ Framer plugins", "60+ Framer resources", "15+ deals and discounts", "25+ blog articles", "template finder quiz in 5 steps", "template categories: free, agency, app, portfolio, SaaS, waitlist ...", "updated daily"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

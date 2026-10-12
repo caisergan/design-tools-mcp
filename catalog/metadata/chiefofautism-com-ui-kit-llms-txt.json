@@ -1,0 +1,32 @@
+{
+  "id": "chiefofautism-com-ui-kit-llms-txt",
+  "url": "https://chiefofautism.com/ui-kit/llms.txt",
+  "kind": "page",
+  "hints_hash": "ed8f9935718441b9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://chiefofautism.com/ui-kit/llms.txt",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://chiefofautism.com/ui-kit/",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://chiefofautism.com/",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "dead",
+  "confidence": 0
+}

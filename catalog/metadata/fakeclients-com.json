@@ -1,0 +1,32 @@
+{
+  "id": "fakeclients-com",
+  "url": "https://fakeclients.com",
+  "kind": "site",
+  "hints_hash": "7a7f4b97cc791af3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:18:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fakeclients.com", "title": "FakeClients — Design Brief Generator — Practice Design to Build Your Skills and Portfolio", "status": null},
+    {"url": "https://fakeclients.com/guides", "title": "Guides - Design & Art Guides, Tutorials and more - FakeClients", "status": null},
+    {"url": "https://fakeclients.com/about", "title": "About FakeClients.com - FakeClients", "status": null},
+    {"url": "https://fakeclients.com/guides/mascot-logo", "title": "What is a Mascot Logo (Guide & examples) - FakeClients", "status": null},
+    {"url": "https://fakeclients.com/guides/poster-design", "title": "How to design a poster - FakeClients", "status": null},
+    {"url": "https://fakeclients.com/upgrade", "title": "Upgrade to FakeClients Pro - FakeClients.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "FakeClients",
+  "summary": "Design brief generator: random fake-client briefs for logo, web, graphic, illustration, UI, UX and writing practice.",
+  "description": "Generates random design briefs for hypothetical clients so you can practise logo, web, graphic, illustration, painting, UI and UX design and build a portfolio without real clients. Nine generator categories, 200+ professionally written briefs, a daily brief, community feedback on your work, exercises and guides; Pro starts at $5 per month for longer pro briefs, all written briefs and dark mode.",
+  "type": "generator",
+  "categories": ["learning", "design-tools"],
+  "elements": [],
+  "keywords": ["design brief", "brief generator", "design prompt", "practice design", "logo design practice", "web design practice", "ui design practice", "ux design practice", "illustration practice", "design exercise", "portfolio building", "fake client", "daily brief", "design feedback", "graphic design prompt"],
+  "contains": ["nine brief generators: logo, web, graphic, illustration, painting, UX, UI, dynamic poses, writing", "200+ professionally written briefs", "daily brief", "community feedback posts", "exercises, inspiration and guides", "Pro from $5 per month: longer briefs, written briefs, dark mode, no ads", "started in January 2018 by August van de Ven"],
+  "formats": ["app", "prompts", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://fakeclients.com/guides", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

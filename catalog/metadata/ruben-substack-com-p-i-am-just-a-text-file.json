@@ -1,0 +1,44 @@
+{
+  "id": "ruben-substack-com-p-i-am-just-a-text-file",
+  "url": "https://ruben.substack.com/p/i-am-just-a-text-file",
+  "kind": "page",
+  "hints_hash": "509cd0b5d37fc21e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ruben.substack.com/p/i-am-just-a-text-file",
+      "title": "I am just a text file. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "I am just a text file.",
+  "summary": "Essay on distilling how you think and write into one markdown file so any AI can write in your voice.",
+  "description": "A paid How to AI essay about turning your taste, opinions and writing habits into a single .md file, the interview process for extracting them, and how the file is used with Claude or any other AI.",
+  "type": "article",
+  "keywords": [
+    "ai persona",
+    "markdown file",
+    "writing style",
+    "custom instruction",
+    "knowledge file",
+    "ai writing",
+    "tone of voice",
+    "personal context",
+    "prompt setup"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ruben-substack-com"
+  },
+  "confidence": 0.8
+}

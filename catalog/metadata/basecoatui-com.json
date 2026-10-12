@@ -1,0 +1,133 @@
+{
+  "id": "basecoatui-com",
+  "url": "https://basecoatui.com",
+  "kind": "site",
+  "hints_hash": "ed2e95802fcd7b58",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://basecoatui.com/llms.txt",
+      "title": "Basecoat",
+      "status": null
+    },
+    {
+      "url": "https://basecoatui.com",
+      "title": "All of the shadcn/ui magic, none of the React | Basecoat",
+      "status": 200
+    },
+    {
+      "url": "https://basecoatui.com/installation",
+      "title": "Installation | Basecoat",
+      "status": 200
+    },
+    {
+      "url": "https://basecoatui.com/templates",
+      "title": "Templates | Basecoat",
+      "status": 200
+    },
+    {
+      "url": "https://basecoatui.com/introduction",
+      "title": "Introduction | Basecoat",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Basecoat",
+  "summary": "shadcn/ui-style component library for plain HTML and Tailwind CSS, installed via CDN or npm.",
+  "description": "Basecoat brings shadcn/ui's component design to any web stack without React: 41 components written as plain HTML classes (btn, card, field …) on top of Tailwind CSS, mostly CSS-only with a tiny vanilla JavaScript runtime for interactive pieces. Ships via CDN or the basecoat-css npm package, with eight theme style bundles, dark mode, shadcn/ui theme compatibility, and optional Nunjucks and Jinja macros for server-rendered markup. MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "modal",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "chart",
+    "checkbox",
+    "select",
+    "command-palette",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "form",
+    "input",
+    "list",
+    "pagination",
+    "popover",
+    "progress",
+    "sidebar",
+    "loader",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "tailwind",
+    "component library",
+    "shadcn",
+    "html",
+    "css",
+    "vanilla javascript",
+    "no react",
+    "copy paste",
+    "cdn",
+    "npm",
+    "dark mode",
+    "theme",
+    "jinja template",
+    "nunjucks template",
+    "accessible",
+    "django",
+    "rails framework",
+    "laravel",
+    "flask"
+  ],
+  "contains": [
+    "41 components as plain HTML plus Tailwind CSS classes",
+    "CSS-only by default; vanilla JS only for interactive components",
+    "install from CDN or the basecoat-css npm package",
+    "8 theme style bundles: vega, nova, maia, lyra, mira, luma, sera, rhea",
+    "dark mode ready and compatible with shadcn/ui themes",
+    "optional Nunjucks and Jinja macros for server-rendered apps",
+    "works with any stack: plain HTML, Flask, Rails, Laravel, Django",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "tailwind",
+    "css",
+    "javascript",
+    "nunjucks",
+    "jinja"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://basecoatui.com/introduction",
+    "npm": "basecoat-css",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

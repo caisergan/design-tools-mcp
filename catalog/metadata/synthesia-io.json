@@ -1,0 +1,38 @@
+{
+  "id": "synthesia-io",
+  "url": "https://synthesia.io",
+  "kind": "site",
+  "hints_hash": "e8001e152be62367",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://synthesia.io/llms.txt", "title": "Synthesia – AI video communications platform", "status": null},
+    {"url": "https://synthesia.io", "title": "Synthesia: #1 AI Video Platform for Business", "status": 200},
+    {"url": "https://www.synthesia.io/pricing", "title": "Synthesia Pricing - Compare Free and Paid Plans", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Synthesia",
+  "summary": "AI video platform that creates avatar-led training, comms and marketing videos in 140+ languages.",
+  "description": "Synthesia is an AI video communications platform for enterprise L&D, enablement, HR and internal-comms teams: turn scripts, PowerPoints, documents or prompts into videos with AI avatars and voiceovers in 140+ languages. Roleplay and Survey Sessions use interactive avatars to coach staff and interview customers, AI dubbing localizes existing footage with lip-sync, and the Interactive Avatars API embeds live avatars in products. Enterprise controls cover SCORM/LMS export, brand kits, SSO and SOC 2 Type II compliance.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai video", "ai avatar", "video generation", "text to video", "powerpoint to video", "voiceover", "video translation", "dubbing", "lip sync", "voice cloning", "roleplay", "training video", "onboarding video", "compliance training", "interactive avatar", "api", "scorm", "enterprise"],
+  "contains": [
+    "AI video creation from scripts, PowerPoint, documents, links or prompts",
+    "AI avatars: 125+ to 240+ stock, custom and personal avatars from a photo",
+    "Roleplay and Survey Sessions: avatar-led practice, interviews and coaching",
+    "video translation and dubbing into 140+ languages with lip-sync and voice cloning",
+    "Interactive Avatars API; MCP for Claude and ChatGPT",
+    "SCORM/LMS export, branded video pages, built-in analytics, PPT-to-video",
+    "free Basic plan with watermark; Starter $29/mo; Pro $89/mo; Enterprise custom",
+    "SOC 2 Type II, ISO 27001/27701/42001, GDPR, EU data residency; 90% of Fortune 100"
+  ],
+  "formats": ["app", "api", "docs", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

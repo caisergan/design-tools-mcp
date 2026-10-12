@@ -1,0 +1,21 @@
+{
+  "id": "medium-com-b14ck-business-logic-error-deleting-the-project-owner-by-mani",
+  "url": "https://medium.com/@B14ck/business-logic-error-deleting-the-project-owner-by-manipulating-a-graphql-request-7e3bb5883d04",
+  "kind": "page",
+  "hints_hash": "8ac61d830c6f761f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://medium.com/@B14ck/business-logic-error-deleting-the-project-owner-by-manipulating-a-graphql-request-7e3bb5883d04", "title": "Business Logic Error — Deleting the Project Owner by Manipulating a GraphQL Request", "status": null}
+  ],
+  "status": "ok",
+  "name": "Business Logic Error — Deleting the Project Owner",
+  "summary": "Bug bounty write-up of a GraphQL business logic flaw that lets an Editor-level user delete a project Owner despite the UI blocking it.",
+  "description": "A Medium write-up by security researcher 'black' (B14ck) on a business logic vulnerability found while testing project permission management: a user with Editor privileges could delete the project Owner by manipulating a GraphQL request, even though the UI blocks the action. It shows the vulnerable request, steps to reproduce and impact, and is tagged Bug Bounty, Bug Bounty Tips and Hacking (2 min read, Nov 7, 2025).",
+  "type": "article",
+  "categories": ["learning"],
+  "keywords": ["bug bounty", "bug bounty write-up", "business logic", "graphql", "access control", "permission bypass", "vulnerability", "security research", "hacking", "api security", "authorization"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "medium-com"},
+  "confidence": 0.85
+}

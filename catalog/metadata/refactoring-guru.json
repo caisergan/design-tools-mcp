@@ -1,0 +1,28 @@
+{
+  "id": "refactoring-guru",
+  "url": "https://refactoring.guru",
+  "kind": "site",
+  "hints_hash": "215aa90813df8bac",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://refactoring.guru", "title": "Refactoring and Design Patterns", "status": null},
+    {"url": "https://refactoring.guru/store", "title": "Premium products", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Refactoring.Guru",
+  "summary": "Illustrated guides to refactoring, design patterns, code smells and SOLID principles.",
+  "description": "Reference site explaining refactoring techniques, code smells, design patterns and SOLID principles with illustrated articles and code examples. Free to read in 10 languages; a design patterns book and a refactoring course are sold in the store.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["refactoring", "design pattern", "code smell", "solid principle", "clean code", "software design", "object-oriented programming", "technical debt", "programming guide", "code refactor", "software architecture", "programming book"],
+  "contains": ["refactoring catalog grouped by code smell categories (bloaters, OO abusers, change preventers)", "design patterns catalog with illustrated explanations", "SOLID principles guide", "available in 10 languages", "book and course in the store"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

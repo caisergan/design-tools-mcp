@@ -1,0 +1,38 @@
+{
+  "id": "minimal-gallery",
+  "url": "https://minimal.gallery",
+  "kind": "site",
+  "hints_hash": "638da0166bd4cb2d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://minimal.gallery", "title": "Minimal Gallery – Hand-picked web design inspiration, premium templates, tools and more", "status": 200},
+    {"url": "https://minimal.gallery/doc", "title": "DOC on Minimal Gallery", "status": 200},
+    {"url": "https://minimal.gallery/templates", "title": "The best website templates – Minimal Gallery", "status": 200},
+    {"url": "https://minimal.gallery/about", "title": "About Minimal Gallery – Website design inspiration - Minimal Gallery", "status": 200},
+    {"url": "https://minimal.gallery/kit", "title": "Kit on Minimal Gallery", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Minimal Gallery",
+  "summary": "Curated gallery of website designs, browsable by industry tag and platform (Framer, Webflow, WordPress …), plus templates and tools.",
+  "description": "Hand-picked website design inspiration running since 2013. Browse websites by industry tag (AI, portfolio, startup, agency, e-commerce, SaaS, type foundry …) and by platform (Framer, Webflow, WordPress, Astro, Tailwind …); each entry shows a screenshot with viewport info and submitter, links to the live site and lists similar websites. There is also a curated templates section and a directory of tools for creatives, plus a weekly email digest.",
+  "type": "gallery",
+  "categories": ["inspiration", "templates"],
+  "elements": [],
+  "keywords": ["web design inspiration", "website gallery", "website design", "minimal website", "minimal design", "design inspiration", "portfolio website", "saas website", "landing page", "website template", "framer template", "webflow template", "wordpress theme", "design tool", "curated gallery", "one page website"],
+  "contains": [
+    "website gallery curated since 2013",
+    "filters: industry tag and platform (Framer, Webflow, WordPress, Astro, Tailwind …)",
+    "each entry: full-page screenshot, live-site link, submitter, viewport and DPR info, similar websites",
+    "templates section: Framer, Webflow, WordPress, Readymag and Astro templates",
+    "tools directory grouped by job (fonts, icons, forms, mockups, color, analytics …)",
+    "weekly email digest"
+  ],
+  "formats": ["screenshots", "links", "templates"],
+  "stack": ["wordpress"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

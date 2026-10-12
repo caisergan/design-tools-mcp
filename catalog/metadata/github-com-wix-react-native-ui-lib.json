@@ -1,0 +1,39 @@
+{
+  "id": "github-com-wix-react-native-ui-lib",
+  "url": "https://github.com/wix/react-native-ui-lib",
+  "kind": "repo",
+  "hints_hash": "01a06a5e6f239ed5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/wix/react-native-ui-lib/blob/HEAD/README.md", "title": "react-native-ui-lib README", "status": 200},
+    {"url": "https://github.com/wix/react-native-ui-lib", "title": "GitHub - wix/react-native-ui-lib: UI Components Library for React Native", "status": 200},
+    {"url": "https://wix.github.io/react-native-ui-lib/", "title": "RNUILib", "status": 200},
+    {"url": "https://wix.github.io/react-native-ui-lib/docs/category/basic", "title": "Basic | RNUILib", "status": 200},
+    {"url": "https://wix.github.io/react-native-ui-lib/sitemap.xml", "title": "RNUILib sitemap", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Native UI Lib",
+  "summary": "React Native component library and design-system toolset: forms, controls, lists, overlays, charts and layout.",
+  "description": "Open-source React Native component library that its docs describe as a comprehensive design system with dark mode, RTL and accessibility support. 80+ documented components are grouped into basic, charts, controls, form, layout, lists, media, navigation, overlays and status, plus a foundation layer with colors, typography, assets, modifiers and a theme manager, so teams can load presets and build their own design system in three steps. Ships an Expo demo app and a Figma library.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["navbar", "tabs", "modal", "drawer", "toast", "button", "input", "select", "checkbox", "switch", "slider", "date-picker", "stepper", "form", "card", "list", "avatar", "badge", "chart", "accordion", "timeline", "progress", "carousel", "marquee", "loader"],
+  "keywords": ["react native", "component library", "ui component", "design system", "mobile app", "expo", "button", "text field", "picker", "modal", "drawer", "toast", "tab bar", "avatar", "card", "carousel", "chart", "dark mode", "rtl", "accessibility", "theme"],
+  "contains": [
+    "80+ documented components across basic, controls, form, layout, lists, media, navigation, overlays, status and charts",
+    "foundation layer: colors, typography, assets, modifiers, theme manager",
+    "create your own design system in 3 steps via presets and defaults",
+    "supports dark mode, RTL and accessibility features",
+    "Expo demo app and Figma library",
+    "supports React Native 0.73; new-architecture upgrade on the roadmap",
+    "MIT licensed"
+  ],
+  "formats": ["code", "npm-package", "docs", "figma-file"],
+  "stack": ["react-native", "react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/wix/react-native-ui-lib", "docs": "https://wix.github.io/react-native-ui-lib/", "npm": "react-native-ui-lib", "figma": null, "parent": null},
+  "confidence": 0.9
+}

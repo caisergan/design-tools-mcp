@@ -1,0 +1,31 @@
+{
+  "id": "skiper-ui-com",
+  "url": "https://skiper-ui.com",
+  "kind": "site",
+  "hints_hash": "6d4aea04a1849e6a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skiper-ui.com", "title": "Un-common Components for shadcn/ui | Skiper UI", "status": null },
+    { "url": "https://skiper-ui.com/components", "title": "Components | Skiper UI", "status": null },
+    { "url": "https://skiper-ui.com/pricing", "title": "Pricing | Skiper UI", "status": null },
+    { "url": "https://skiper-ui.com/docs/quick-start", "title": "Quick Start Guide | Skiper UI", "status": null },
+    { "url": "https://skiper-ui.com/v1/skiper1", "title": "Anime js scrollbar | Skiper UI", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Skiper UI",
+  "summary": "Component library of 106+ animated, uncommon React components for shadcn/ui projects, installable through the shadcn CLI.",
+  "description": "Skiper UI ships 100+ animated components for Next.js projects: preloaders, carousels, scroll effects, navbars, cursor trails, text effects and AI inputs, installed with the shadcn CLI. Free components require attribution; a one-time Pro plan ($129) unlocks the full set with source access and no attribution.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "button", "calendar", "card", "carousel", "command-palette", "cursor", "features", "hero", "input", "loader", "navbar", "prompt-input", "scroll-effect", "switch", "tabs", "team", "text-effect", "tooltip", "3d"],
+  "keywords": ["shadcn", "shadcn ui", "react component", "nextjs", "animated component", "framer motion", "preloader", "carousel", "parallax", "cursor effect", "text animation", "ai input", "navbar", "hero", "scroll animation", "tailwind", "copy paste", "component library", "template", "paid"],
+  "contains": ["106+ animated React components", "CLI install: npx shadcn add @skiper-ui/skiperN", "free tier requires attribution, Pro removes it", "Pro installs with a license key; one-time $129", "recreates anime.js, Nike, Apple and Vercel UI pieces", "106 component docs pages"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion", "gsap", "shadcn"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": { "repo": null, "docs": "https://skiper-ui.com/docs/quick-start", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

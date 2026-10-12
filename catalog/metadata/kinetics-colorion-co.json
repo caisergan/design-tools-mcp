@@ -1,0 +1,87 @@
+{
+  "id": "kinetics-colorion-co",
+  "url": "https://kinetics.colorion.co",
+  "kind": "site",
+  "hints_hash": "0e035b89729325ff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://kinetics.colorion.co",
+      "title": "Kinetics — Spring-physics motion for web interfaces",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Kinetics",
+  "summary": "Library of 153 spring-physics micro-interactions for web UI, each copyable as CSS, React or an AI prompt.",
+  "description": "Interface animations built on spring physics instead of fixed-duration easing. Tune stiffness, damping and mass, then copy the CSS, the React component or a ready-made AI prompt for effects like magnetic buttons, spring accordions, toast overshoots, cursor trails and marquees.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "button",
+    "input",
+    "slider",
+    "tabs",
+    "toast",
+    "tooltip",
+    "command-palette",
+    "marquee",
+    "cursor",
+    "text-effect",
+    "prompt-input"
+  ],
+  "keywords": [
+    "spring physics",
+    "micro interaction",
+    "ui animation",
+    "css animation",
+    "react",
+    "motion",
+    "stiffness",
+    "damping",
+    "spring animation",
+    "interaction design",
+    "hover effect",
+    "cursor trail",
+    "toast",
+    "command palette",
+    "accordion",
+    "copy paste",
+    "animation library",
+    "web animation"
+  ],
+  "contains": [
+    "153 spring-driven interactions in three groups: Interaction & Input, Feedback & State, Surface & Motion",
+    "each effect ships as CSS, React and a copy-paste AI prompt",
+    "live stiffness / damping / mass readout on every effect",
+    "examples: Magnetic Button, Rubber-band Slider, Command Palette Bloom, Prompt Composer, Momentum Marquee"
+  ],
+  "formats": [
+    "code",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

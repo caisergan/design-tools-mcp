@@ -1,0 +1,29 @@
+{
+  "id": "lexend-com",
+  "url": "https://lexend.com",
+  "kind": "site",
+  "hints_hash": "c0e5a966dd33af5a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:25:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lexend.com", "title": "Lexend — Change the way the world reads.", "status": null},
+    {"url": "https://www.lexend.com/", "title": "Lexend — Change the way the world reads.", "status": 200},
+    {"url": "https://github.com/googlefonts/lexend", "title": "GitHub - googlefonts/lexend: A variable font family designed to aid in reading proficiency.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lexend",
+  "summary": "Free variable font designed to improve reading proficiency, with the research behind it, a reading demo and downloads.",
+  "description": "The site of Lexend, a variable font built on Dr. Bonnie Shaver-Troup's research into reading difficulty and designed to improve reading proficiency. It explains reading fluency measured in words correct per minute, includes a reading demo on the page, documents the font's history and offers a free download.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["variable font", "free font", "font family", "sans-serif", "typeface", "readability", "reading proficiency", "reading fluency", "reading difficulty", "educational font", "web font", "ttf", "font download", "typography", "accessibility"],
+  "contains": ["free download of the Lexend font", "variable font family", "research on reading fluency (WCPM)", "interactive reading demo on the page", "history from Dr. Bonnie Shaver-Troup's 1999-2000 work", "seven early reading-adjusted fonts", "OFL-1.1 license per the font's repository"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

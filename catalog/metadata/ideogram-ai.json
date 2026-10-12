@@ -1,0 +1,31 @@
+{
+  "id": "ideogram-ai",
+  "url": "https://ideogram.ai",
+  "kind": "site",
+  "hints_hash": "7650ca8e556b9158",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ideogram.ai/llms.txt", "title": "Ideogram AI", "status": null},
+    {"url": "https://ideogram.ai", "title": "Ideogram | AI apps and models in one platform", "status": 200},
+    {"url": "https://ideogram.ai/pricing", "title": "Pricing — Ideogram", "status": 200},
+    {"url": "https://ideogram.ai/features/mcp", "title": "Ideogram MCP: generate, edit, and train from your assistant", "status": 200},
+    {"url": "https://ideogram.ai/licensing", "title": "Licensing | Ideogram", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Ideogram",
+  "summary": "AI image generator known for accurate text rendering, used for logos, typography and print-on-demand design.",
+  "description": "Image generation platform built on the Ideogram 3.0-4.5 models, which render legible text inside images for logos, posters and print-on-demand products. Includes editing apps (background remover, object remover, ad resizer, colorways, material swap), custom models, text layers and character consistency. Agents connect through an MCP server, and one API serves image and video models; Ideogram 4.0 weights are open for non-commercial use.",
+  "type": "tool",
+  "categories": ["media", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai image generator", "text in image", "logo generator", "typography", "poster design", "print on demand", "character consistency", "background remover", "image editing", "image api", "mcp server"],
+  "contains": ["models: Ideogram 3.0, 4.0 and 4.5", "accurate text rendering for logos, branded graphics and print-on-demand design", "apps: background remover, object remover, ad resizer, colorways, material swap", "MCP server at mcp.ideogram.ai for Claude, Cursor and other clients", "one API for image and video models with per-request pricing", "plans: Free $0, Plus $15/mo, Pro $42/mo, Team $20/user/mo; open 4.0 weights with commercial licensing for production"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://developer.ideogram.ai/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

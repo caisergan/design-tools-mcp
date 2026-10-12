@@ -1,0 +1,29 @@
+{
+ "id": "github-com-peetzweg-opendisplay",
+ "url": "https://github.com/peetzweg/opendisplay",
+ "kind": "repo",
+ "hints_hash": "01f1146eb65fceb3",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/peetzweg/opendisplay/blob/HEAD/README.md", "title": "OpenDisplay", "status": null},
+  {"url": "https://github.com/peetzweg/opendisplay", "title": "GitHub - peetzweg/opendisplay: Use an iPhone, iPad, or spare Mac as a true second display for your Mac without restrictions.", "status": 200},
+  {"url": "https://raw.githubusercontent.com/peetzweg/opendisplay/HEAD/LICENSE", "title": "GNU GENERAL PUBLIC LICENSE", "status": 200}
+ ],
+ "status": "ok",
+ "name": "OpenDisplay",
+ "summary": "Free open-source app that turns an iPhone, iPad or spare Mac into a true extended display for a Mac.",
+ "description": "Self-hosted alternative to Apple Sidecar, Duet Display and Luna Display: extends a Mac's desktop onto an iPhone, iPad or another Mac over USB or WiFi, with H.264/HEVC hardware encoding, Retina/HiDPI output up to 5120×2880 and touch and two-finger-scroll input. Two small apps — a sender for the main Mac and a receiver — with no account and no dongle.",
+ "type": "app",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["second monitor", "extended display", "sidecar alternative", "ipad", "iphone", "mac", "virtual display", "screen mirroring", "usb", "wifi", "retina", "hidpi", "touch input", "open source", "swift"],
+ "contains": ["true display extension, not just mirroring", "USB (usbmuxd) and zero-config WiFi (Bonjour) transports", "H.264/HEVC via VideoToolbox; ~12–30 ms measured latency", "Retina/HiDPI up to 5120×2880 at up to 60 fps", "iPhone/iPad receiver app and a separate Mac receiver (macOS 12+)", "free, no subscription, no account"],
+ "formats": ["app", "code"],
+ "stack": ["swift"],
+ "pricing": "free",
+ "license": "GPL-3.0-only",
+ "related": {"repo": "https://github.com/peetzweg/opendisplay", "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

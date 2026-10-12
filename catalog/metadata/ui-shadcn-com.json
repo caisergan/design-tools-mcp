@@ -1,0 +1,41 @@
+{
+  "id": "ui-shadcn-com",
+  "url": "https://ui.shadcn.com",
+  "kind": "site",
+  "hints_hash": "8b4de1a027f467b9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.shadcn.com/llms.txt", "title": "shadcn/ui", "status": null},
+    {"url": "https://ui.shadcn.com", "title": "shadcn/ui - The Foundation for your Design System", "status": 200},
+    {"url": "https://ui.shadcn.com/docs", "title": "Introduction - shadcn/ui", "status": 200},
+    {"url": "https://ui.shadcn.com/blocks", "title": "Building Blocks for the Web - shadcn/ui", "status": 200},
+    {"url": "https://ui.shadcn.com/docs/cli", "title": "shadcn - shadcn/ui", "status": 200},
+    {"url": "https://ui.shadcn.com/docs/mcp", "title": "MCP Server - shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn/ui",
+  "summary": "Copy-paste React component collection and registry: 60+ accessible components, blocks, charts and a CLI.",
+  "description": "A collection of accessible React components plus a CLI and registry system to install and distribute code. Components span form and input, layout and navigation, overlays and dialogs, feedback and status, and display (accordion, alert, avatar, badge, button, calendar, card, carousel, chart, checkbox, command palette, data table, date picker, dialog, drawer, dropdown, input, menubar, pagination, popover, progress, select, sidebar, slider, switch, table, tabs, toast, tooltip). Also ships page blocks (dashboard, sidebar, login, signup), charts, markdown typography, and an MCP server.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "empty-state", "form", "input", "loader", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip", "chat"],
+  "keywords": ["react component", "component library", "shadcn", "registry", "cli", "copy paste component", "tailwind", "radix", "design system", "accessible component", "data table", "date picker", "command palette", "sidebar", "chart", "block", "login form", "dashboard", "dark mode", "rtl", "theming", "mcp server", "nextjs", "typescript"],
+  "contains": [
+    "60+ components incl. accordion, alert, avatar, badge, button, calendar, card, carousel, chart, checkbox",
+    "components incl. command palette, data table, date picker, dialog, drawer, select, sidebar, tabs, toast, tooltip",
+    "blocks: dashboard, sidebar, login and signup page sections to copy into apps",
+    "CLI commands: init, add, apply, preset, view, search, build, migrate, eject",
+    "MCP server to browse, search and install components in AI assistants",
+    "theming: colors, dark mode, RTL, components.json config; Typeset markdown CSS",
+    "registry system to publish code, with a community registries directory",
+    "works with Next.js, Vite, Remix, Astro, Laravel, React Router, TanStack"
+  ],
+  "formats": ["code", "registry", "cli", "docs", "templates"],
+  "stack": ["react", "typescript", "tailwind", "radix", "nextjs"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

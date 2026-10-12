@@ -1,0 +1,26 @@
+{
+  "id": "shipswift-app-spotby",
+  "url": "https://shipswift.app/spotby",
+  "kind": "page",
+  "hints_hash": "f7bde5153110f15b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shipswift.app/spotby", "title": "Spotby — Spots people trust App - App Store", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Spotby — Spots people trust",
+  "summary": "iPhone app that turns saved food videos into a map of cafés, restaurants and bars from creators.",
+  "description": "Spotby is a map of places worth going, curated from creator recommendations rather than algorithms: follow local tastemakers city by city, watch the video behind each pin, and navigate straight there. Food & Drink category; free with in-app purchases; by Signer Labs.",
+  "type": "app",
+  "elements": [],
+  "keywords": ["spot discovery", "food map", "restaurant", "cafe", "bar", "creator recommendation", "tiktok", "saved video", "city guide", "iphone app"],
+  "contains": ["saved food videos become map pins", "follow creators and see their spots on one map", "free with in-app purchases; Food & Drink category", "developer: Signer Labs"],
+  "formats": ["app"],
+  "stack": ["swiftui", "supabase"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shipswift-app"},
+  "confidence": 0.75
+}

@@ -1,0 +1,32 @@
+{
+  "id": "firecrawl-dev",
+  "url": "https://firecrawl.dev",
+  "kind": "site",
+  "hints_hash": "fbae19fe10674dfd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://firecrawl.dev/llms.txt", "title": "Firecrawl", "status": null},
+    {"url": "https://firecrawl.dev", "title": "Firecrawl | Web Data API for AI Agents", "status": 200},
+    {"url": "https://www.firecrawl.dev/skills", "title": "Firecrawl Skills + CLI - Give your AI agents web data", "status": 200},
+    {"url": "https://www.firecrawl.dev/pricing", "title": "Pricing | Firecrawl", "status": 200},
+    {"url": "https://www.firecrawl.dev/about", "title": "About Firecrawl | The web data API to search, scrape, and interact with the web at scale", "status": 200},
+    {"url": "https://github.com/firecrawl/firecrawl", "title": "GitHub - firecrawl/firecrawl: Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Firecrawl",
+  "summary": "Web data API for AI agents: search, scrape, crawl, map, parse, interact and monitor the live web, returning LLM-ready markdown or JSON.",
+  "description": "Managed web data API with an open-source, self-hostable core that turns any URL or query into clean Markdown, structured JSON or screenshots for agents and RAG pipelines. Endpoints cover Search, Scrape, Crawl, Map, Parse (PDF, DOCX), Interact (managed browser actions) and Monitor (change detection with webhook, email or Slack alerts). Python, Node.js, Go and Rust SDKs; a CLI, MCP server and skills connect Claude Code, Cursor and other agents. Free tier, pay-as-you-go credits, AGPL-3.0 core.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["web scraping", "web crawler", "scrape api", "search api", "markdown extraction", "llm", "ai agent", "mcp server", "browser automation", "structured data", "rag", "document parsing", "pdf", "self-hosted", "cli", "sdk", "web monitoring", "screenshot", "crawl website", "api"],
+  "contains": ["endpoints: Search, Scrape, Crawl, Map, Parse, Interact and Monitor", "SDKs for Python, Node.js, Go and Rust; CLI via npx firecrawl-cli; MCP server", "agent skills for Claude Code, Cursor, Codex, Gemini CLI and more", "free plan: 500 searches or 1,000 pages per month; paid plans from $16/month", "open source under AGPL-3.0 (SDKs MIT); 190k+ GitHub stars; self-hosting documented", "benchmarks: 96% coverage, P95 latency 3.4s, up to 93% fewer input tokens", "Alexandria: 113M+ indexed sources, 93 providers, 640 capabilities"],
+  "formats": ["api", "cli", "code", "docs", "npm-package", "prompts"],
+  "stack": ["python", "node", "go", "rust"],
+  "pricing": "freemium",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/firecrawl/firecrawl", "docs": "https://docs.firecrawl.dev", "npm": "firecrawl", "figma": null, "parent": null},
+  "confidence": 0.9
+}

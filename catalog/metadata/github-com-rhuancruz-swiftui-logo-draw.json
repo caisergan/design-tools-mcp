@@ -1,0 +1,27 @@
+{
+  "id": "github-com-rhuancruz-swiftui-logo-draw",
+  "url": "https://github.com/RhuanCruz/swiftui-logo-draw",
+  "kind": "repo",
+  "hints_hash": "c58564f9a36a0244",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/RhuanCruz/swiftui-logo-draw/blob/HEAD/README.md", "title": "LogoDraw", "status": null}
+  ],
+  "status": "ok",
+  "name": "LogoDraw",
+  "summary": "SwiftUI component that animates a logo: it traces the outline like a pen, then reveals the fill — plus a PNG-to-Shape pipeline.",
+  "description": "A SwiftUI component that draws a logo's outline as if by pen and then fades in the fill, with parameters for draw duration, easing, fill start percent, stroke width, size and replay, and Reduce Motion support. The repo also carries the process to turn a logo PNG into a clean SwiftUI Shape: Python scripts (measure, geometry, tune, compare) plus a macOS render check, and a Claude Code skill (logo-to-swiftui-draw) documenting the workflow step by step. Docs are in Brazilian Portuguese.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": [],
+  "keywords": ["swiftui", "swift", "logo animation", "logo", "animation", "path", "shape", "ios", "macos", "vector tracing", "png to shape", "agent skill", "swift package"],
+  "contains": ["SwiftUI component with drawDuration, fillStartPercent, replay and onComplete parameters", "reduce motion: logo appears complete instantly", "Python pipeline: measure.py, geometry.py, tune.py, compare.py, rendershape.sh", "Claude Code skill: logo-to-swiftui-draw", "example RunnerLogoShape reconstructed at 96% fidelity"],
+  "formats": ["code", "prompts", "docs"],
+  "stack": ["swift", "swiftui", "python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/RhuanCruz/swiftui-logo-draw", "docs": "https://github.com/RhuanCruz/swiftui-logo-draw/blob/HEAD/docs/COMO-FOI-FEITO.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,52 @@
+{
+  "id": "note-com-kgsi-n-n3cc2a7e4fc9a-sub-rt-share-sb",
+  "url": "https://note.com/kgsi/n/n3cc2a7e4fc9a?sub_rt=share_sb",
+  "kind": "page",
+  "hints_hash": "d7378fc7ada5f5bd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://note.com/kgsi/n/n3cc2a7e4fc9a?sub_rt=share_sb",
+      "title": "DESIGN.mdのもたらす効能と勘違い｜こぎそ",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "DESIGN.mdのもたらす効能と勘違い",
+  "summary": "Japanese note article by こぎそ on what DESIGN.md, Google Labs' spec for AI-readable design, does and does not do for coding agents.",
+  "description": "An essay on DESIGN.md, the open format Google Labs published on GitHub that puts YAML front matter — colour, typography, spacing tokens — in front of a Markdown body to describe a product's visual identity to agents like Claude Code and Cursor. The author explains why the file is often misunderstood as a hard constraint on AI-generated design, what it does and does not deliver, and what is actually needed to control design in practice. Published 2026-09-11 and featured among note's spotlight articles.",
+  "type": "article",
+  "categories": [
+    "learning",
+    "design-rules"
+  ],
+  "keywords": [
+    "design.md",
+    "ai coding agent",
+    "claude code",
+    "cursor",
+    "design system",
+    "visual identity",
+    "yaml front matter",
+    "markdown",
+    "google lab",
+    "ai design",
+    "design control",
+    "ui consistency",
+    "design token"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

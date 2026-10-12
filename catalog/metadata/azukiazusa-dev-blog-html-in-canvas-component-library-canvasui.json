@@ -1,0 +1,26 @@
+{
+  "id": "azukiazusa-dev-blog-html-in-canvas-component-library-canvasui",
+  "url": "https://azukiazusa.dev/blog/html-in-canvas-component-library-canvasui",
+  "kind": "page",
+  "hints_hash": "3b4c873c41894664",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://azukiazusa.dev/blog/html-in-canvas-component-library-canvasui", "title": "HTML-in-Canvas コンポーネントライブラリ Canvas UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "HTML-in-Canvas コンポーネントライブラリ Canvas UI",
+  "summary": "Article walking through Canvas UI, a component library that runs WebGL effects over real HTML via the HTML-in-Canvas API.",
+  "description": "A Japanese blog post introducing Canvas UI: React, Solid, Vue and Svelte components that apply WebGL effects to real DOM content with the experimental HTML-in-Canvas API, distributed as shadcn registry items. It shows Droplets, HexFloat, Glass and Shatter in use and explains the fallback for browsers without the API.",
+  "type": "article",
+  "elements": ["background", "cursor", "3d"],
+  "keywords": ["canvas", "html-in-canvas", "webgl", "shader", "component library", "react", "vue", "svelte", "solid", "shadcn", "liquid simulation", "glass effect", "cursor effect", "experimental api"],
+  "contains": ["walkthrough of Canvas UI components: Droplets, HexFloat, Glass, Shatter", "React, Solid, Vue and Svelte support; shadcn registry install (npx shadcn@latest add @canvas-ui/<name>)", "WebGL effects over real HTML while keeping DOM interactivity and accessibility", "fallback to plain HTML or a WebGL overlay in browsers without the API"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

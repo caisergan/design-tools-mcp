@@ -1,0 +1,37 @@
+{
+  "id": "skills-sh-leonxlnx-taste-skill-minimalist-ui",
+  "url": "https://skills.sh/leonxlnx/taste-skill/minimalist-ui",
+  "kind": "page",
+  "hints_hash": "099a78b53b85a8f4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/leonxlnx/taste-skill/minimalist-ui", "title": "minimalist-ui — leonxlnx/taste-skill", "status": null },
+    { "url": "https://github.com/leonxlnx/taste-skill", "title": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "minimalist-ui",
+  "summary": "Agent skill that enforces warm-monochrome editorial minimalism: bento grids, serif headings, no gradients.",
+  "description": "A SKILL.md protocol for AI coding agents: warm monochrome palette with ultra-desaturated pastel accents, serif headings with tight tracking, geometric sans body text, monospace code, off-black text on warm bone backgrounds, 1px solid #EAEAEA borders, bento grids and flat buttons with micro-interactions. It bans Inter, Roboto and Open Sans, Lucide/Feather/Heroicons icons, heavy shadows, gradients, pill shapes for large elements, emojis and AI copywriting clichés.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": ["bento-grid", "button", "badge"],
+  "keywords": ["agent skill", "minimalist ui", "design rule", "editorial typography", "warm monochrome", "bento grid", "serif heading", "flat design", "design system", "claude", "cursor", "anti slop"],
+  "contains": [
+    "1 skill: minimalist-ui design protocol",
+    "palette: warm monochrome with muted pastel accents",
+    "type: serif headings, geometric sans body, monospace code",
+    "borders and dividers: 1px solid #EAEAEA",
+    "bans Inter, Roboto, Open Sans, Lucide, Feather and Heroicons",
+    "component specs: bento grids, flat buttons, pill badges, keystroke UI, faux-OS window chrome",
+    "motion limited to fade-ins and hover lifts",
+    "395.5K installs; repo leonxlnx/taste-skill (94.4K stars, MIT)"
+  ],
+  "formats": ["prompts", "cli"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/leonxlnx/taste-skill", "docs": null, "npm": null, "figma": null, "parent": "skills-sh" },
+  "confidence": 0.85
+}

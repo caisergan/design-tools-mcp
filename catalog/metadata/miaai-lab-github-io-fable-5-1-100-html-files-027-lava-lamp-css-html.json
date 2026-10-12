@@ -1,0 +1,19 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-027-lava-lamp-css-html",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/027-lava-lamp-css.html",
+  "kind": "page",
+  "hints_hash": "adf56e865315ce16",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/027-lava-lamp-css.html", "title": "Groovy Glow — Three CSS Lava Lamps", "status": null},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Groovy Glow",
+  "summary": "Self-contained HTML study from a 100-study collection: three CSS-only lava lamps — Sunset, Orchid and Lagoon — with no external files.",
+  "keywords": ["lava lamp", "css animation", "retro design", "groovy", "pure css", "css art", "glow effect", "70s style", "animation demo", "html study", "standalone html"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,36 @@
+{
+  "id": "github-com-viktorianec-binaryexplorer",
+  "url": "https://github.com/Viktorianec/BinaryExplorer",
+  "kind": "repo",
+  "hints_hash": "a7af7e79c05c9d28",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Viktorianec/BinaryExplorer/blob/HEAD/README.md", "title": "🔍 Binary Explorer", "status": null},
+    {"url": "https://github.com/Viktorianec/BinaryExplorer", "title": "GitHub - Viktorianec/BinaryExplorer: A native macOS app that takes an iOS .ipa apart — byte by byte — and shows you what's actually inside. · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Viktorianec/BinaryExplorer/HEAD/LICENSE", "title": null, "status": 404}
+  ],
+  "status": "ok",
+  "name": "Binary Explorer",
+  "summary": "Native macOS app that opens iOS .ipa archives and shows bundle, Mach-O, signing, provisioning and resource details.",
+  "description": "A native macOS app that unpacks iOS .ipa archives and shows what is inside: the bundle tree, Mach-O headers and sections, embedded code signature, provisioning profile, asset catalog and every resource, plus SceneKit 3D maps of where the weight lives. Eleven inspector sections and 30+ automated findings cover distribution, security, size, privacy and configuration. Every parser is hand-written Swift, runs fully offline, and needs macOS 14+ and Xcode 15+ to build.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ios app analysis", "ipa file", "macos app", "mach-o", "code signature", "provisioning profile", "swift", "binary inspector", "asset catalog", "entitlement", "privacy manifest", "3d visualization", "static analysis", "developer tool"],
+  "contains": [
+    "11 inspector sections incl. Overview, Structure, Resources, Mach-O, Dependencies, Signing, Privacy & ATS",
+    "3 SceneKit 3D views: Bundle City, Binary Strata, Link Constellation",
+    "hand-written parsers for ZIP/ZIP64, Mach-O, code signature, provisioning profile and asset catalog",
+    "30+ automated findings rules",
+    "global search across files, libraries, plist keys and entitlements",
+    "runs fully offline; macOS 14+ and Xcode 15+ to build"
+  ],
+  "formats": ["code", "app", "video"],
+  "stack": ["swift", "swiftui", "scenekit"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/Viktorianec/BinaryExplorer", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

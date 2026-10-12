@@ -1,0 +1,19 @@
+{
+  "id": "mobbin-com-apps-bumble-ios-fefcf818-326e-4549-b2ba-1f440759e5ee-0f0dcdc7",
+  "url": "https://mobbin.com/apps/bumble-ios-fefcf818-326e-4549-b2ba-1f440759e5ee/0f0dcdc7-fe1e-5a71-9eca-9ebea0add315/flows",
+  "kind": "page",
+  "hints_hash": "d2bbee7f3d0a8e88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.com/apps/bumble-ios-fefcf818-326e-4549-b2ba-1f440759e5ee/0f0dcdc7-fe1e-5a71-9eca-9ebea0add315/flows", "title": "Mobbin", "status": null}
+  ],
+  "status": "partial",
+  "name": "Bumble iOS",
+  "summary": "Screens and UX flows from the Bumble iOS dating app, browsable in Mobbin's app screenshot library.",
+  "keywords": ["dating app", "ios app", "ux flow", "user flow", "app screenshot", "mobile ui", "design inspiration", "onboarding", "chat ui", "mobile design"],
+  "formats": ["screenshots"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "mobbin-com"},
+  "confidence": 0.6
+}

@@ -1,0 +1,18 @@
+{
+ "id": "openai-com-codex",
+ "url": "https://openai.com/codex",
+ "kind": "page",
+ "hints_hash": "7b10dae8e16be339",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T16:20:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://openai.com/codex", "title": "Codex | AI Coding Partner from OpenAI | OpenAI", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Codex",
+ "summary": "OpenAI's coding agent that plans, builds, refactors and reviews code across ChatGPT, the cloud, IDE extension and CLI.",
+ "keywords": ["ai coding agent", "code review", "pull request review", "refactoring", "cloud agent", "ide extension", "cli", "multi-agent", "automation", "software engineering"],
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.75
+}

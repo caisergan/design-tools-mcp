@@ -1,0 +1,36 @@
+{
+  "id": "github-com-papermark-papermark",
+  "url": "https://github.com/papermark/papermark",
+  "kind": "repo",
+  "hints_hash": "501f6a9c4b4ac1ec",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/papermark/papermark/blob/HEAD/README.md", "title": "Papermark", "status": 200},
+    {"url": "https://github.com/papermark/papermark", "title": "GitHub - papermark/papermark: Papermark is the open-source DocSend alternative and secure data rooms with built-in analytics and custom domains. · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/papermark/papermark/HEAD/LICENSE", "title": "papermark LICENSE", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Papermark",
+  "summary": "Open-source DocSend alternative: share documents by link with custom domains, branding and built-in view analytics.",
+  "description": "A self-hosted document-sharing platform and data rooms: upload documents, send secure custom links, add a custom domain and your own branding, and track who viewed what through built-in analytics. Built with Next.js, TypeScript, Tailwind and shadcn/ui on PostgreSQL through Prisma, with NextAuth, Tinybird analytics, Resend email and Stripe payments; needs Node.js 18.17+, blob storage (AWS S3 or Vercel Blob) and a PostgreSQL database.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["document sharing", "docsend alternative", "data room", "open source", "self-hosted", "custom domain", "document tracking", "analytics", "nextjs", "prisma", "postgresql", "stripe", "share link"],
+  "contains": [
+    "open-source, self-hostable DocSend alternative",
+    "shareable document links with custom domains and branding",
+    "built-in document tracking and analytics",
+    "Next.js, TypeScript, Tailwind and shadcn/ui app on PostgreSQL (Prisma)",
+    "AGPL-3.0; the ee/ enterprise directories carry a separate commercial license",
+    "run locally with npm install, .env, Prisma DB init, then the dev server on localhost:3000"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "typescript", "tailwind", "shadcn", "prisma", "postgresql", "nextauth.js", "stripe", "tinybird", "resend"],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/papermark/papermark", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

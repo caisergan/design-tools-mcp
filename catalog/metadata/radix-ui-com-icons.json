@@ -1,0 +1,27 @@
+{
+  "id": "radix-ui-com-icons",
+  "url": "https://radix-ui.com/icons",
+  "kind": "page",
+  "hints_hash": "16d0f5a26c63fb75",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://radix-ui.com/icons", "title": "Radix Icons", "status": null}
+  ],
+  "status": "ok",
+  "name": "Radix Icons",
+  "summary": "Set of 15×15 icons in 12 categories by the WorkOS team, downloadable as SVG or installable as React components.",
+  "description": "A crisp 15×15 icon set spanning categories such as Typography, Music, Arrows, Objects, Design, Components, Borders and corners and Alignment. Every icon can be opened in Figma, downloaded as SVG or installed as an individual React component from npm; the set is MIT licensed.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "15x15 icon", "react icon", "svg icon", "figma icon", "npm icon package", "minimal icon set", "ui icon", "open source icon", "mit license", "design system icon", "crisp icon"],
+  "contains": ["15×15 icons in 12 categories", "download SVG, open in Figma, install with npm", "available as individual React components", "MIT licensed"],
+  "formats": ["svg", "npm-package", "figma-file", "code"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "radix-ui-com"},
+  "confidence": 0.85
+}

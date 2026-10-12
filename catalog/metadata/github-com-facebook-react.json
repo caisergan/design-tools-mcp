@@ -1,0 +1,32 @@
+{
+ "id": "github-com-facebook-react",
+ "url": "https://github.com/facebook/react",
+ "kind": "repo",
+ "hints_hash": "94b6b017062b77d7",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/facebook/react/blob/HEAD/README.md", "title": "React · GitHub README", "status": 200}
+ ],
+ "status": "ok",
+ "name": "React",
+ "summary": "A JavaScript library for building web and native user interfaces with declarative, component-based code.",
+ "description": "React is a JavaScript library for building user interfaces: declarative views, encapsulated components that manage their own state, and a learn-once-write-anywhere model that makes no assumptions about the rest of your stack. Used for both web and native user interfaces; installable from npm and documented at react.dev.",
+ "type": "component-library",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["react", "javascript library", "ui library", "component", "declarative", "component based", "frontend", "user interface", "web ui", "native ui", "jsx", "open source"],
+ "contains": [
+  "JavaScript library for web and native user interfaces",
+  "declarative, component-based programming model",
+  "npm package 'react'; docs and examples at react.dev",
+  "MIT licensed"
+ ],
+ "formats": ["code", "npm-package", "docs"],
+ "stack": [],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/facebook/react", "docs": "https://react.dev", "npm": "react", "figma": null, "parent": null},
+ "confidence": 0.95
+}

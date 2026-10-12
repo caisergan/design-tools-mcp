@@ -1,0 +1,26 @@
+{
+  "id": "hvpandya-com-llm-design-systems",
+  "url": "https://hvpandya.com/llm-design-systems",
+  "kind": "page",
+  "hints_hash": "f4a7dda5f4ed5358",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hvpandya.com/llm-design-systems", "title": "Expose your design system to LLMs ・ Hardik Pandya", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Expose your design system to LLMs",
+  "summary": "Article on restructuring a design system into spec files, tokens and audits so AI coding agents stop inventing values.",
+  "description": "A written method for making an existing design system readable by LLM coding agents: structured spec files the model reads, a closed token layer it picks from, and an automated audit that catches drift. It explains why agents fabricate token names and lose context between sessions, shows a file hierarchy of 64 spec files across three tiers, and reports results from applying it to Atlassian's design system.",
+  "type": "article",
+  "categories": ["learning"],
+  "keywords": ["design system", "llm", "ai coding agent", "design token", "spec file", "vibe coding", "design drift", "audit", "consistency", "prompt", "code generation", "figma variable", "component library"],
+  "elements": [],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

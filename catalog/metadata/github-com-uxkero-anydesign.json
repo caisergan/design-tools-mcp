@@ -1,0 +1,36 @@
+{
+  "id": "github-com-uxkero-anydesign",
+  "url": "https://github.com/uxKero/anydesign",
+  "kind": "repo",
+  "hints_hash": "d50e2dfaa77d0572",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {
+      "url": "https://github.com/uxKero/anydesign/blob/HEAD/README.md",
+      "title": "anydesign",
+      "status": null
+    },
+    {
+      "url": "https://github.com/uxKero/anydesign/blob/HEAD/SKILL.md",
+      "title": "AnyDesign: design analysis and documentation",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "anydesign",
+  "summary": "Claude skill that extracts a design system from images, websites and Figma files, or copies one element.",
+  "description": "A Claude skill that analyzes a screenshot, website URL or Figma file and writes a 7-section design.md with tokens, components, layout and brand rules, plus a W3C DTCG design-tokens.json and an optional WCAG 2.1 contrast report. Element mode copies a single element (navbar, card, illustration) into a scoped spec with a paste-ready rebuild prompt or a token-grounded image prompt, and eight standalone Python CLI scripts work without Claude.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "design-tools"],
+  "elements": ["navbar", "hero", "button", "card", "pricing", "3d"],
+  "keywords": ["design system", "design token", "design analysis", "claude skill", "figma", "screenshot", "reverse engineering", "element copy", "rebuild prompt", "image prompt", "w3c dtcg", "wcag contrast", "css variable", "palette extraction", "playwright", "design audit", "typography", "design.md"],
+  "contains": ["design.md: 7-section design spec with tokens and brand rules", "design-tokens.json in W3C DTCG format", "optional WCAG 2.1 contrast report", "element mode: rebuild prompt or image prompt for one element", "8 standalone Python CLI scripts (Playwright, Pillow)", "works with v0, Lovable, Cursor, Bolt and Claude Code"],
+  "formats": ["prompts", "code", "cli"],
+  "stack": ["python", "playwright", "pillow"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/uxKero/anydesign", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

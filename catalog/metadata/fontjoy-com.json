@@ -1,0 +1,29 @@
+{
+  "id": "fontjoy-com",
+  "url": "https://fontjoy.com",
+  "kind": "site",
+  "hints_hash": "9654e6f4fbdfb59b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fontjoy.com", "title": "Fontjoy - Generate font pairings in one click", "status": 200},
+    {"url": "https://fontjoy.com/pairing", "title": "Fontjoy - Font pairing for designers and devs", "status": 200},
+    {"url": "https://github.com/Jack000/fontjoy", "title": "GitHub - Jack000/fontjoy: font vectors used for fontjoy.com · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fontjoy",
+  "summary": "One-click font pairing generator that uses deep-learning font vectors to suggest heading and body fonts.",
+  "description": "A free web tool that generates font pairings with a single click. Pairings come from font vectors learned by a neural network: fonts are mapped by similarity and combinations are picked where they contrast in one key way. A how-it-works page explains the approach, and the font vectors are published on GitHub under the MIT license.",
+  "type": "generator",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["font pairing", "font combination", "font generator", "typography", "google font", "deep learning", "machine learning", "font visualizer", "heading font", "body font", "pairing tool"],
+  "contains": ["one-click font pairing generator", "pairings from a deep-learning model of font vectors", "how-it-works page on contrast and font similarity", "sample fonts: Montserrat, Lora, Hind Madurai", "font vectors on GitHub, MIT licensed, 1.4k stars"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Jack000/fontjoy", "docs": "https://fontjoy.com/pairing", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

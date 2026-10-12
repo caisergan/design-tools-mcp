@@ -1,0 +1,24 @@
+{
+  "id": "madewithvuejs-com-vue-bits",
+  "url": "https://madewithvuejs.com/vue-bits",
+  "kind": "page",
+  "hints_hash": "7a9d70e3009d4772",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T09:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://madewithvuejs.com/vue-bits", "title": "Vue Bits - Animated UI Components - Made with Vue.js", "status": null}
+  ],
+  "status": "ok",
+  "name": "Vue Bits",
+  "summary": "Free animated Vue.js UI component collection: animations, backgrounds and interactive effects customized with props.",
+  "description": "Vue Bits is a large collection of animated Vue UI components — animations, components and backgrounds — free to use and customized through props. It is the official Vue port of React Bits. This Made with Vue.js listing links its GitHub repo and its own website.",
+  "type": "component-library",
+  "keywords": ["vue", "animated component", "ui component", "vue component", "animation library", "background effect", "text animation", "copy paste component", "motion", "vue 3", "frontend animation", "free component"],
+  "formats": ["code"],
+  "stack": ["vue"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/DavidHDev/vue-bits", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

@@ -1,0 +1,98 @@
+{
+  "id": "github-com-mobilecn-ui-nativecn-ui",
+  "url": "https://github.com/Mobilecn-UI/nativecn-ui",
+  "kind": "repo",
+  "hints_hash": "a30b8fa762f07120",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Mobilecn-UI/nativecn-ui/blob/HEAD/README.md",
+      "title": "nativecn-ui",
+      "status": null
+    },
+    {
+      "url": "https://github.com/Mobilecn-UI/nativecn-ui",
+      "title": "GitHub - Mobilecn-UI/nativecn-ui: Beautiful and customizable React Native components",
+      "status": 200
+    },
+    {
+      "url": "https://nativecn.mintlify.app",
+      "title": "Dark mode - nativecn-ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "nativecn-ui",
+  "summary": "Copy-paste React Native components for Expo with NativeWind, CSS variables and built-in dark mode.",
+  "description": "A CLI-based collection of React Native components inspired by shadcn/ui. From an Expo project root, npx nativecn-ui init sets things up and npx nativecn-ui add (or add -a for all) copies components into your app. Styling uses NativeWind/Tailwind with CSS variables, so light and dark themes work with a mode toggle. The set includes avatar, badge, button, card, checkbox, dialog, dropdown, input, progress, radio group, select, skeleton, switch, tabs, toast and toggle; alert and form are marked work in progress. Docs live at nativecn.mintlify.app. MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "avatar",
+    "badge",
+    "button",
+    "card",
+    "checkbox",
+    "dropdown",
+    "input",
+    "loader",
+    "modal",
+    "progress",
+    "select",
+    "switch",
+    "tabs",
+    "toast"
+  ],
+  "keywords": [
+    "react native",
+    "expo",
+    "nativewind",
+    "tailwind",
+    "shadcn",
+    "component library",
+    "mobile ui",
+    "ios",
+    "android",
+    "dark mode",
+    "css variable",
+    "cli",
+    "copy-paste"
+  ],
+  "contains": [
+    "15+ components incl. avatar, button, card, dialog, input, progress, select, switch, tabs, toast",
+    "alert and form marked work in progress",
+    "CLI: npx nativecn-ui init and npx nativecn-ui add",
+    "dark mode via CSS variables and NativeWind",
+    "MIT license",
+    "1.2k GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react-native",
+    "expo",
+    "nativewind",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Mobilecn-UI/nativecn-ui",
+    "docs": "https://nativecn.mintlify.app",
+    "npm": "nativecn-ui",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

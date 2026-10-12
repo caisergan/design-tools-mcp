@@ -1,0 +1,18 @@
+{
+  "id": "apps-apple-com-us-app-stormbuddy-id6780439841",
+  "url": "https://apps.apple.com/us/app/stormbuddy/id6780439841",
+  "kind": "page",
+  "hints_hash": "d93a46f7eb5447c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://apps.apple.com/us/app/stormbuddy/id6780439841", "title": "Stormbuddy App - App Store", "status": null}],
+  "status": "ok",
+  "name": "Stormbuddy",
+  "summary": "App Store listing for an iPhone app roofing and storm restoration crews use to run leads, jobs, canvassing and invoices from the field.",
+  "description": "StormBuddi is the mobile companion for roofing and storm restoration professionals: a dashboard of leads, jobs, appointments and storm alerts, plus customer records, hail canvassing, inspections and invoicing. Free with in-app purchases, rated 4+, Business category, 37.5 MB, iPhone only, English.",
+  "type": "app",
+  "keywords": ["app store", "iphone app", "roofing", "storm restoration", "field service", "contractor", "job tracking", "lead management", "invoice", "hail canvassing", "business app", "mobile app"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

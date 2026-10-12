@@ -1,0 +1,31 @@
+{
+  "id": "fliki-ai",
+  "url": "https://fliki.ai",
+  "kind": "site",
+  "hints_hash": "a22f7e50a94f4ddc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fliki.ai/llms.txt", "title": "Fliki", "status": null},
+    {"url": "https://fliki.ai", "title": "Fliki - Turn Any Idea Into Video With 2,000+ AI Voices", "status": 200},
+    {"url": "https://fliki.ai/guide", "title": "Guide - Fliki", "status": 200},
+    {"url": "https://fliki.ai/pricing", "title": "Pricing - Fliki", "status": 200},
+    {"url": "https://fliki.ai/about", "title": "About Fliki: The AI Video and Voice Platform", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fliki",
+  "summary": "AI video generator that turns scripts, blog posts and slides into narrated videos with 2,000+ voices.",
+  "description": "Web-based text-to-video platform: paste a prompt, script, blog URL or PowerPoint (or drop in raw footage) and get a publish-ready video with AI voiceover, stock visuals, subtitles, music and transitions. Adds AI avatars and digital twins, voice cloning, an image and thumbnail generator, video series planning with auto-publishing, translation, dubbing and an enterprise text-to-speech API.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["text to video", "ai video generator", "ai voiceover", "text to speech", "ai avatar", "digital twin", "voice cloning", "blog to video", "ppt to video", "faceless video", "short video", "video series", "subtitle", "dubbing"],
+  "contains": ["2,000+ voices in 80+ languages and 100+ dialects", "10M+ stock images, video clips and music tracks", "70+ AI avatars and digital twins from a photo and voice sample", "video series planning with auto-scheduling and publishing", "turns ideas, scripts, blogs, PPTs and raw clips into videos", "free plan with 3 credits/mo; enterprise text-to-speech API at developer.fliki.ai"],
+  "formats": ["app", "api", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://developer.fliki.ai", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

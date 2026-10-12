@@ -1,0 +1,29 @@
+{
+  "id": "github-com-shadcnstore-shadcn-dashboard-landing-template",
+  "url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template",
+  "kind": "repo",
+  "hints_hash": "77ad6cd99fa5c4b5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template/blob/HEAD/README.md", "title": "ShadCN Dashboard + Landing Page Template", "status": null},
+    {"url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template", "title": "GitHub - shadcnstore/shadcn-dashboard-landing-template: Accelerate your development with a sleek, open-source admin dashboard and landing page built on Vite-React, Next.js, Tailwind CSS, and Shadcn/UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ShadCN Dashboard + Landing Page Template",
+  "summary": "Open-source shadcn/ui dashboard and landing page template with 30+ pages, in both Vite React and Next.js versions.",
+  "description": "A free template shipping two complete projects: an admin dashboard with 30+ pages (two dashboard variants, mail, tasks, chat, calendar and users apps, authentication, settings and error pages) and a marketing landing page (hero, about, features, stats, logo carousel, team, testimonials, blog, pricing, FAQ, contact, CTA, navigation, footer). Both come in Vite + React 19 and Next.js 16 versions, with a live theme customizer powered by tweakcn and seven built-in themes; 2.0 runs on Base UI instead of Radix UI.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "sidebar", "table", "pagination", "chart", "calendar", "chat", "form", "404", "navbar", "hero", "features", "stats", "logo-cloud", "team", "testimonials", "pricing", "faq", "cta", "contact", "footer"],
+  "variants": {"sidebar": ["collapsible"]},
+  "keywords": ["admin dashboard", "dashboard template", "landing page", "landing page template", "shadcn ui", "next.js", "vite", "react", "typescript", "tailwind css", "theme customizer", "dark mode", "data table", "chart", "calendar", "chat", "mail", "free template", "saas"],
+  "contains": ["admin dashboard with 30+ pages and 2 dashboard variants", "apps: mail, tasks, chat, calendar, users", "data tables with sorting, filtering and pagination", "landing page: hero, features, stats, team, testimonials, blog, pricing, FAQ, contact, CTA, footer", "Vite and Next.js 16 versions", "live theme customizer (tweakcn) with 7 built-in themes", "auth, settings and error pages (404, 401, 403, 500, maintenance)", "MIT licensed, 1.2k stars"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "vite", "typescript", "tailwind", "zustand", "zod", "react-hook-form", "tanstack-table", "recharts"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcnstore/shadcn-dashboard-landing-template", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

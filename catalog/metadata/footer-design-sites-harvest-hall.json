@@ -1,0 +1,19 @@
+{
+  "id": "footer-design-sites-harvest-hall",
+  "url": "https://footer.design/sites/harvest-hall",
+  "kind": "page",
+  "hints_hash": "a0135ab86bb65d1d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/harvest-hall", "title": "Footer | Harvest Hall", "status": null}
+  ],
+  "status": "ok",
+  "name": "Harvest Hall",
+  "summary": "Desktop and mobile footer designs from the Harvest Hall artist platform, tagged with styles like flat, minimal and small type.",
+  "keywords": ["footer", "web footer", "desktop footer", "mobile footer", "footer design", "design inspiration", "gsap", "flat", "small type", "minimal", "grid", "artist website"],
+  "elements": ["footer"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

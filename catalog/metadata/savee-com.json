@@ -1,0 +1,39 @@
+{
+  "id": "savee-com",
+  "url": "https://savee.com",
+  "kind": "site",
+  "hints_hash": "477fcc6d760da75c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://savee.com/llms.txt", "title": "Savee", "status": null },
+    { "url": "https://savee.com", "title": "Savee", "status": 200 },
+    { "url": "https://savee.com/pricing", "title": "Upgrade to Pro – Savee", "status": 200 },
+    { "url": "https://savee.com/faq", "title": "FAQ – Savee", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Savee",
+  "summary": "Curated visual-inspiration platform where designers save images and videos into boards and search by color, tag or visual similarity.",
+  "description": "Ad-free visual-inspiration platform (formerly savee.it) with 1.3M+ registered users: save images and videos from anywhere into boards, browse the curated feed and community collections, and search by exact color, tag or visual similarity. Team workspaces add shared boards and admin roles; a Figma plugin, browser extension and iOS and Android apps connect it to the workflow. An official read-only MCP server and public REST API let assistants and products read a member's saves and boards.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["visual inspiration", "design inspiration", "moodboard", "design reference", "image search", "color search", "visual similarity", "inspiration board", "designer community", "figma plugin", "team board", "ad free", "api", "mcp", "creative reference"],
+  "contains": [
+    "1.3M+ registered users, 1.4M+ creatives; founded 2015, independent and ad-free",
+    "search by exact color, tag or visual similarity across millions of images",
+    "boards, private saves, comments, team workspaces, Dropbox backup",
+    "Figma plugin, browser extension, iOS and Android apps",
+    "official read-only MCP server and public REST API (api.savee.com/v1)",
+    "marketplace with 80+ professional templates and assets",
+    "Pro $9/mo, Pro & Portfolio $15/mo, Team $12 per seat per month, yearly billing",
+    "design workshop plus a design course for members"
+  ],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": { "repo": null, "docs": "https://docs.savee.com/", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

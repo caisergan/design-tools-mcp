@@ -1,0 +1,39 @@
+{
+  "id": "remocn-dev",
+  "url": "https://remocn.dev",
+  "kind": "site",
+  "hints_hash": "361ba19e9e84ae63",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://remocn.dev/llms.txt", "title": "remocn", "status": null},
+    {"url": "https://remocn.dev", "title": "Remocn - Make a product demo video with your AI agent", "status": 200},
+    {"url": "https://remocn.dev/docs/ai.md", "title": "AI", "status": 200},
+    {"url": "https://remocn.dev/docs/ui.md", "title": "Introduction", "status": 200},
+    {"url": "https://remocn.dev/docs/craft.md", "title": "Craft", "status": 200},
+    {"url": "https://remocn.dev/docs/guides.md", "title": "Guides", "status": 200}
+  ],
+  "status": "ok",
+  "name": "remocn",
+  "summary": "shadcn registry of Remotion components — animations, transitions, shaders and app-screen sims for product demo videos.",
+  "description": "Production-ready Remotion components for building product demo videos: shaders, transitions, effects, UI primitives and AI-tool interface recreations, installed with npx shadcn add. Guides walk through making launch videos, feature announcements and teasers with a coding agent.",
+  "type": "registry",
+  "categories": ["motion", "registries", "components"],
+  "elements": ["3d", "chat", "select", "text-effect", "cursor", "loader", "switch", "dropdown", "marquee", "chart", "modal", "drawer"],
+  "keywords": ["remotion", "shadcn registry", "video", "animation", "transition", "shader", "motion graphics", "product demo", "launch video", "background", "typewriter", "react"],
+  "contains": [
+    "313 installable components in the shadcn registry",
+    "shaders: light tunnel, mesh gradient, grain gradient, warp, swirl, water, liquid metal, noise and voronoi",
+    "AI interface recreations: ChatGPT, Claude chat, v0, Claude Code, OpenCode and an agent run",
+    "UI tier: shadcn primitives (button, input, checkbox, switch, spinner) scripted on the Remotion timeline",
+    "guides: launch video, feature announcement, showcase reel, teaser, product demo, changelog video",
+    "install with npx shadcn add remocn/"
+  ],
+  "formats": ["code", "registry", "cli", "docs", "prompts"],
+  "stack": ["react", "remotion"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://remocn.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

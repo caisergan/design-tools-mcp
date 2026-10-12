@@ -1,0 +1,15 @@
+{
+  "id": "whatsapp-com-channel-0029vb",
+  "url": "https://whatsapp.com/channel/0029Vb",
+  "kind": "page",
+  "hints_hash": "67da8b480abe9630",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://whatsapp.com/channel/0029Vb", "title": "WhatsApp Channel", "status": 200},
+    {"url": "https://www.whatsapp.com/channel/0029Vb", "title": "WhatsApp Channel", "status": 200}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

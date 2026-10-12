@@ -1,0 +1,36 @@
+{
+  "id": "pokecut-vercel-app",
+  "url": "https://pokecut.vercel.app",
+  "kind": "site",
+  "hints_hash": "f1a1c60bd58607be",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pokecut.vercel.app", "title": "Pokecut Admin — Dashboard", "status": 200},
+    {"url": "https://pokecut.rakibulism.space/total-users.html", "title": "Pokecut Admin — User Overview", "status": 200},
+    {"url": "https://pokecut.rakibulism.space/analytics.html", "title": "Pokecut Admin — Analytics", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pokecut Admin",
+  "summary": "Admin dashboard demo for the Pokecut AI photo-editing platform: users, payments, tool usage, moderation and system health.",
+  "description": "Multi-page static admin dashboard with overview, user, payment, tool, report, analytics and access pages. Widgets include KPI stat cards, generation-trend and hourly-activity charts, a content-moderation queue, tool failure logs and system-health metrics.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "stats", "chart", "table", "sidebar"],
+  "keywords": ["admin dashboard", "dashboard", "analytics", "chart", "stat card", "user management", "payment", "moderation", "ai photo editing", "admin template", "static html"],
+  "contains": [
+    "pages: dashboard, user overview, payments, tools, reports, analytics, access",
+    "KPI cards: total users, live engaging, new signups, avg session",
+    "charts: generation trend (24h), top tools used, hourly activity, daily user growth",
+    "content moderation queue with statuses (NSFW, safe for work, explicit imagery)",
+    "system health: AI model status, avg render time, GPU load",
+    "user directory columns: agent name, plan, generations, last active, tools used"
+  ],
+  "formats": ["code"],
+  "stack": ["html", "css"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,75 @@
+{
+  "id": "github-com-pskoett-self-improving-agent",
+  "url": "https://github.com/pskoett/self-improving-agent",
+  "kind": "repo",
+  "hints_hash": "bb0691014982f3eb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/pskoett/self-improving-agent/blob/HEAD/README.md",
+      "title": "self-improving-agent",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/pskoett/self-improving-agent",
+      "title": "GitHub - pskoett/self-improving-agent: Self-improvement skill for OpenClaw. It captures learnings, errors, and feature requests to support continuous improvement across sessions. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "self-improving-agent",
+  "summary": "OpenClaw skill that captures learnings, errors and feature requests to improve an agent across sessions.",
+  "description": "A self-improvement skill for OpenClaw: it captures learnings, errors and feature requests during work so an agent keeps improving across sessions. The publishable package is a dependency-free skill folder with a SKILL.md entry point and an OpenClaw hook; it installs through OpenClaw's built-in skill installer, the ClawHub CLI (npm i -g clawhub) or by copying the skill folder into ~/.openclaw/skills/. A multi-agent version for Claude Code, Codex and GitHub Copilot lives in the pskoett-ai-skills repo.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "skill.md",
+    "openclaw",
+    "ai agent",
+    "self improvement",
+    "agent memory",
+    "learning",
+    "error tracking",
+    "feature request",
+    "clawhub",
+    "prompt package",
+    "continuous improvement",
+    "agent workflow",
+    "cross session memory"
+  ],
+  "contains": [
+    "self-improvement skill for OpenClaw agents",
+    "captures learnings, errors and feature requests across sessions",
+    "skill entry point at self-improving-agent/SKILL.md",
+    "OpenClaw hook under hooks/openclaw/",
+    "installs into ~/.openclaw/skills/ via the OpenClaw installer, ClawHub CLI or manual copy",
+    "768 GitHub stars, 116 forks",
+    "multi-agent version for Claude Code, Codex and GitHub Copilot in pskoett-ai-skills"
+  ],
+  "formats": [
+    "prompts",
+    "code",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/pskoett/self-improving-agent",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

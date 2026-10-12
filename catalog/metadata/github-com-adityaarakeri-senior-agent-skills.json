@@ -1,0 +1,37 @@
+{
+  "id": "github-com-adityaarakeri-senior-agent-skills",
+  "url": "https://github.com/adityaarakeri/senior-agent-skills",
+  "kind": "repo",
+  "hints_hash": "e66397ab851bf577",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/adityaarakeri/senior-agent-skills/blob/HEAD/README.md", "title": "senior-agent-skills/README.md · GitHub", "status": 200},
+    {"url": "https://github.com/adityaarakeri/senior-agent-skills", "title": "GitHub - adityaarakeri/senior-agent-skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Senior Agent Skills",
+  "summary": "Ten SKILL.md playbooks that make coding agents work like senior engineers: recon, planning, TDD, debugging, refactor, review, git hygiene.",
+  "description": "Ten portable Agent Skills playbooks for the engineering loop: repo-recon (map before you touch), plan-first, tdd-loop (red before green), debug-protocol (reproduce first), evaluate-ai-changes, safe-refactor, dead-code-audit, self-review, verify-done (evidence or it didn't happen) and git-hygiene. Each is a plain SKILL.md with YAML frontmatter — no scripts or dependencies — installed with one command into Claude Code, Codex CLI, Antigravity, OpenCode, Copilot and Cursor or the ~/.agents/skills/ interop path; an AGENTS.md index covers hosts that only read AGENTS.md.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill.md", "coding agent", "claude code", "codex", "cursor", "github copilot", "opencode", "antigravity", "tdd", "test driven development", "debugging", "refactoring", "code review", "git hygiene", "playbook", "prompt", "ai coding assistant", "software engineering", "verification"],
+  "contains": [
+    "10 skills: repo-recon, plan-first, tdd-loop, debug-protocol, evaluate-ai-changes",
+    "plus safe-refactor, dead-code-audit, self-review, verify-done, git-hygiene",
+    "one-command installer: bash install.sh or install.ps1, with copy and project modes",
+    "targets Claude Code, Codex CLI, Antigravity, OpenCode, Copilot, Cursor and the ~/.agents/skills/ interop path",
+    "plain markdown: SKILL.md with name and description frontmatter, no scripts or dependencies",
+    "eval tooling: runbook, cases/ and rubric for fresh-session forward tests",
+    "AGENTS.md drop-in index for harnesses that only read AGENTS.md",
+    "tuning: edit the description frontmatter to fix triggering; house rules live in the skill bodies"
+  ],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/adityaarakeri/senior-agent-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

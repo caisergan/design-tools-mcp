@@ -1,0 +1,71 @@
+{
+  "id": "github-com-bitjaru-styleseed",
+  "url": "https://github.com/bitjaru/styleseed",
+  "kind": "repo",
+  "hints_hash": "9ea025149f5042f7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/bitjaru/styleseed/blob/HEAD/README.md",
+      "title": "StyleSeed",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "StyleSeed",
+  "summary": "Agent skill pack that turns recorded design decisions into project-local rules and a scored quality gate for coding agents.",
+  "description": "Installable skills for Claude Code, Codex and Cursor that compile selected design rules into a project-local workflow: the agent reviews, scores and revises generated UI (74 craft rules, 0-100 gate) before presenting it. Ships brand skins and recipes plus CLAUDE.md, AGENTS.md and .cursorrules files.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "design rule",
+    "design judgment",
+    "design system",
+    "design token",
+    "ai generated ui",
+    "claude code",
+    "codex",
+    "cursor",
+    "quality gate",
+    "design review",
+    "brand skin",
+    "palette",
+    "motion",
+    "frontend design",
+    "skill.md"
+  ],
+  "contains": [
+    "74 craft rules with a 0-100 scored quality gate",
+    "installs project-local skills for Claude Code, Codex and Cursor",
+    "ships CLAUDE.md, AGENTS.md and .cursorrules",
+    "engine, recipes and brand skins included",
+    "render, score and revise loop with code and rendered checks",
+    "free and MIT licensed"
+  ],
+  "formats": [
+    "prompts",
+    "cli",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/bitjaru/styleseed",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

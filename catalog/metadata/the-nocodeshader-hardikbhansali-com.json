@@ -1,0 +1,28 @@
+{
+  "id": "the-nocodeshader-hardikbhansali-com",
+  "url": "https://the-nocodeshader.hardikbhansali.com",
+  "kind": "site",
+  "hints_hash": "ae43c5b0c5f9f5f2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://the-nocodeshader.hardikbhansali.com", "title": "NO CODE-SHADER", "status": 200},
+    {"url": "https://the-nocodeshader.hardikbhansali.com/library", "title": "Library — NO CODE-SHADER", "status": null}
+  ],
+  "status": "ok",
+  "name": "No Code-Shader",
+  "summary": "Free library of remixable WebGL shader scenes built with Unicorn Studio.",
+  "description": "Library of WebGL shader templates and interactions made in Unicorn Studio by Hardik Bhansali: browse and preview shaders, remix them through remix links, study the internal structure of each effect and watch behind-the-scenes videos. The library is free with no paywall; custom shader scenes start at $999 USD.",
+  "type": "asset-library",
+  "categories": ["motion", "color-effects"],
+  "elements": ["background", "3d"],
+  "keywords": ["webgl shader", "shader library", "unicorn studio", "no-code", "3d effect", "background effect", "visual effect", "remix template", "website animation", "interactive effect"],
+  "contains": ["library of WebGL shader templates", "remix links with the internal structure of each effect", "behind-the-scenes videos", "free to browse, preview and remix, no paywall", "custom scenes from $999 USD"],
+  "formats": ["templates", "links", "video"],
+  "stack": ["webgl"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

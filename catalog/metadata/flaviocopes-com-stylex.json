@@ -1,0 +1,26 @@
+{
+  "id": "flaviocopes-com-stylex",
+  "url": "https://flaviocopes.com/stylex",
+  "kind": "page",
+  "hints_hash": "d6bc3471ae527a61",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://flaviocopes.com/stylex", "title": "A deep dive into StyleX", "status": 200}
+  ],
+  "status": "ok",
+  "name": "A deep dive into StyleX",
+  "summary": "Tutorial on StyleX, Meta's build-time CSS-in-JS compiler, with React and Astro setup, variants, themes, tokens and keyframes.",
+  "description": "A step-by-step article on StyleX: why it exists, how its build-time compiler turns JavaScript style objects into atomic CSS classes, and how to set it up with React and Vite or Astro. Covers variants, conditional styles, hover/focus/active states, responsive styles, design tokens, themes, keyframes, linting and the constraints of static styles.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["stylex", "css-in-js", "atomic css", "react", "vite", "astro", "design token", "theme", "variant", "conditional style", "responsive style", "keyframe animation", "style compiler", "build-time css", "linting"],
+  "contains": ["React + Vite and Astro setup walkthroughs", "explains atomic CSS build output and style composition", "covers variants, states, responsive styles, tokens, themes, keyframes and linting", "mentions Meta usage (Facebook, Instagram, WhatsApp, Messenger, Threads) and Linear's migration in 1,000+ PRs", "includes StyleX DevTools debugging steps"],
+  "formats": ["docs"],
+  "stack": ["react", "stylex", "vite", "astro", "typescript", "css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

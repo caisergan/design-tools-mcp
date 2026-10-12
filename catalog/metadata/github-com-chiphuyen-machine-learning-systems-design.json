@@ -1,0 +1,70 @@
+{
+  "id": "github-com-chiphuyen-machine-learning-systems-design",
+  "url": "https://github.com/chiphuyen/machine-learning-systems-design",
+  "kind": "repo",
+  "hints_hash": "dc7457c2815a448c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/chiphuyen/machine-learning-systems-design/blob/HEAD/README.md",
+      "title": "Machine Learning Systems Design",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/chiphuyen/machine-learning-systems-design",
+      "title": "GitHub - chiphuyen/machine-learning-systems-design: A booklet on machine learning systems design with exercises",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Machine Learning Systems Design",
+  "summary": "Booklet on machine learning systems design with 27 interview-style questions and practical links.",
+  "description": "A short booklet covering the four main steps of designing a machine learning system: project setup, data pipeline, modeling (selecting, training, debugging) and serving (testing, deploying, maintaining). Includes links to practical resources, case studies written by ML engineers at major tech companies, and 27 open-ended machine learning systems design questions for interviews; community answers live in the repo.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "machine learning",
+    "ml system design",
+    "machine learning systems design",
+    "machine learning interview",
+    "ml interview",
+    "data pipeline",
+    "model serving",
+    "model deployment",
+    "mlop",
+    "booklet",
+    "case study",
+    "system design"
+  ],
+  "contains": [
+    "four parts: project setup, data pipeline, modeling, serving",
+    "27 open-ended ML systems design questions",
+    "community answers contributed in the repo",
+    "generated with the magicbook package",
+    "10.7k stars"
+  ],
+  "formats": [
+    "docs",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/chiphuyen/machine-learning-systems-design",
+    "docs": "https://huyenchip.com/machine-learning-systems-design/toc.html",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

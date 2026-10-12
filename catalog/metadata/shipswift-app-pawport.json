@@ -1,0 +1,26 @@
+{
+  "id": "shipswift-app-pawport",
+  "url": "https://shipswift.app/pawport",
+  "kind": "page",
+  "hints_hash": "a3bbfb934b0d59af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shipswift.app/pawport", "title": "PawPort - SG Pet Care & Vets App - App Store", "status": 200}
+  ],
+  "status": "ok",
+  "name": "PawPort - SG Pet Care & Vets",
+  "summary": "Pet care app for Singapore: health records, vaccination reminders, HDB breed checker and licence helper.",
+  "description": "A pet care app built for Singapore dog and cat owners: one pet health record with vaccination reminders, an HDB breed checker for adoption, an AVS pet licence (PALS) checklist covering microchip and Pet Ownership Course steps, and help finding the nearest 24-hour emergency vet. Free on the App Store (Lifestyle), by Signer Labs.",
+  "type": "app",
+  "elements": [],
+  "keywords": ["pet care", "pet record", "vaccination reminder", "singapore", "hdb", "vet", "pet licence", "dog", "cat", "emergency vet", "iphone app"],
+  "contains": ["pet health records and vaccination reminders", "HDB breed checker for dog adoption", "AVS pet licence (PALS) checklist", "free, iPhone only, 22.9 MB", "developer: Signer Labs"],
+  "formats": ["app"],
+  "stack": ["swiftui", "supabase"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shipswift-app"},
+  "confidence": 0.8
+}

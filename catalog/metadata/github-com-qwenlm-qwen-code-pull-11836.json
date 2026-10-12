@@ -1,0 +1,20 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11836",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11836",
+  "kind": "page",
+  "hints_hash": "60b10e4c3ff6cedd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11836", "title": "fix(dws): align group and direct chat access controls by qqqys · Pull Request #11836 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(dws): align group and direct chat access controls",
+  "summary": "Merged pull request in QwenLM/qwen-code: DWS group and direct-message access now obey the group and DM policy controls.",
+  "description": "Merged pull request (#11836) in QwenLM/qwen-code: DWS group and direct-message access now obey the existing groupPolicy and dmPolicy controls across subscriptions, history polling, late callbacks and pending replay, and the managed editor exposes direct-message access separately from sender authorization with the Open default for configurations that omit it.",
+  "keywords": ["pull request", "ai coding agent", "cli", "terminal", "access control", "chat", "group chat", "direct message", "policy", "subscription", "bug fix", "open source"],
+  "formats": ["code"],
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

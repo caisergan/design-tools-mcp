@@ -1,0 +1,29 @@
+{
+  "id": "regex101-com",
+  "url": "https://regex101.com",
+  "kind": "site",
+  "hints_hash": "ce50bc3a6047a937",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://regex101.com/llms.txt", "title": "regex101", "status": null},
+    {"url": "https://regex101.com", "title": "regex101: Online Regex Tester, Builder & Debugger", "status": 200},
+    {"url": "https://github.com/firasdib/Regex101", "title": "GitHub - firasdib/Regex101: This repository is currently only used for issue tracking for www.regex101.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "regex101",
+  "summary": "Online regex editor, tester and debugger with explanations, code generation and sharing.",
+  "description": "regex101 builds, tests, explains and debugs regular expressions with live matches, substitution, extraction, unit tests, benchmarking and code generation. It supports PCRE2, PCRE, JavaScript, Python, Go, Java, .NET, Rust and POSIX ERE/BRE, with saved workspaces, a community library, a regex quiz, an OpenAPI HTTP API and a remote MCP server.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["regex", "regular expression", "regex tester", "regex debugger", "regex builder", "pcre2", "javascript", "python", "regex explain", "code generation", "regex library", "api", "mcp", "substitution"],
+  "contains": ["supports PCRE2, PCRE, JavaScript, Python, Go, Java, .NET, Rust, POSIX ERE/BRE", "live match highlighting with per-token explanations", "substitution, extraction, unit tests and substitution pipeline tools", "regex debugger, benchmark, formatter and ReDoS analysis", "OpenAPI 3.1 HTTP API and remote MCP server with OAuth sign-in", "community library and regex quiz", "saved workspaces and sharing"],
+  "formats": ["app", "api", "docs"],
+  "stack": ["typescript"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/firasdib/Regex101", "docs": "https://regex101.com/api/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

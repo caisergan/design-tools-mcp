@@ -1,0 +1,30 @@
+{
+  "id": "sfumato-cloud",
+  "url": "https://sfumato.cloud",
+  "kind": "site",
+  "hints_hash": "0a1ac0e6ce2cddec",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sfumato.cloud", "title": "Sfumato · Pattern Studio", "status": null},
+    {"url": "https://sfumato.cloud/pricing", "title": null, "status": 404},
+    {"url": "https://sfumato.cloud/about", "title": null, "status": 404},
+    {"url": "https://sfumato.cloud/llms.txt", "title": null, "status": 404}
+  ],
+  "status": "partial",
+  "name": "Sfumato",
+  "summary": "Browser studio for layered generative patterns.",
+  "description": "Sfumato is a layered generative pattern studio, per its own title and description. The site is a client-rendered JavaScript app: pricing, about and llms.txt routes return 404 and no page text is readable, so the editor, exports and plans could not be described.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["pattern studio", "pattern generator", "generative pattern", "layered pattern", "pattern design", "design tool"],
+  "contains": [],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

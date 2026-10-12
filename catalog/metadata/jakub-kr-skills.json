@@ -1,0 +1,22 @@
+{
+  "id": "jakub-kr-skills",
+  "url": "https://jakub.kr/skills",
+  "kind": "page",
+  "hints_hash": "9ebe91eb8d53a996",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jakub.kr/skills", "title": "Skills", "status": null}
+  ],
+  "status": "ok",
+  "name": "Skills",
+  "summary": "Collection of agent skills that improve UI, typography, color, layout, accessibility and product writing in coding agents.",
+  "description": "A set of installable agent skills (npx skills add jakubkrehel/skills) that help an AI agent build better interfaces: better-ui, better-typography, better-colors, better-accessibility, better-layout, better-writing, better-interface, interface-review, explain-interface, break, state-machine, variant and make-interfaces-feel-better.",
+  "type": "agent-skill",
+  "formats": ["prompts", "cli"],
+  "keywords": ["agent skill", "claude code skill", "skill.md", "ui polish", "typography", "color", "accessibility", "layout", "product writing", "interface review", "design engineer", "animation", "coding agent", "frontend"],
+  "contains": ["13 skills incl. better-ui, better-typography, better-colors, better-layout, better-accessibility", "installed with npx skills add jakubkrehel/skills", "better-ui covers concentric border radius, optical alignment, surface depth, hit areas"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

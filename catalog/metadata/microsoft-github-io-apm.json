@@ -1,0 +1,29 @@
+{
+  "id": "microsoft-github-io-apm",
+  "url": "https://microsoft.github.io/apm",
+  "kind": "page",
+  "hints_hash": "ee2ec9b40f622aaf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:30:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://microsoft.github.io/apm", "title": "APM - Agent Package Manager | Agent Package Manager", "status": null},
+    {"url": "https://microsoft.github.io/apm/getting-started/installation", "title": "Installation | Agent Package Manager", "status": 200},
+    {"url": "https://github.com/microsoft/apm", "title": "GitHub - microsoft/apm: Agent Package Manager", "status": 200}
+  ],
+  "status": "ok",
+  "name": "APM – Agent Package Manager",
+  "summary": "CLI dependency manager for AI agents: declare skills, prompts, instructions, plugins and MCP servers in one apm.yml.",
+  "description": "Open source Microsoft CLI that installs agent context like a package manager. An apm.yml manifest declares the skills, prompts, instructions, plugins and MCP servers a project needs, and apm install deploys each primitive to the harnesses that support it (GitHub Copilot, Claude Code, Cursor, Codex, Gemini, Windsurf, Kiro). A lockfile pins exact versions and content hashes, installs scan for hidden Unicode and block undeclared MCP servers, and apm-policy.yml is enforced at install time.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent package manager", "dependency manager", "ai agent", "mcp server", "agent skill", "prompt management", "cli", "apm.yml", "agent context", "developer tool", "package manager", "open source"],
+  "contains": ["apm.yml manifest for skills, prompts, instructions, plugins and MCP servers", "apm install deploys primitives to each supported harness", "lockfile pins exact versions and content hashes", "installs scan for hidden Unicode and policy-check MCP servers", "apm-policy.yml governance with enterprise → org → repo inheritance", "install via Homebrew, pip, Scoop, standalone installer or from source", "MIT licensed; 4k stars, 388 forks on GitHub"],
+  "formats": ["cli", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/microsoft/apm", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

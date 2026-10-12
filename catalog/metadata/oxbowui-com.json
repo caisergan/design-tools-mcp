@@ -1,0 +1,36 @@
+{
+  "id": "oxbowui-com",
+  "url": "https://oxbowui.com",
+  "kind": "site",
+  "hints_hash": "a37b473ba3ace79f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://oxbowui.com", "title": "Oxbow UI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Oxbow UI",
+  "summary": "427 open-source Tailwind CSS and Alpine.js blocks in light and dark mode, MIT licensed.",
+  "description": "A library of 427 copy-paste UI blocks built with Tailwind CSS and Alpine.js, each with light and dark mode. It covers marketing page sections (heroes, pricing, features, footers, bento grids, testimonials), application UI (navbars, breadcrumbs, command bar, sidebars, tabs, forms, alerts, modals) and eCommerce pages, released under the MIT license.",
+  "type": "block-library",
+  "categories": ["sections", "components"],
+  "elements": ["navbar", "breadcrumbs", "command-palette", "pagination", "sidebar", "tabs", "banner", "alert", "modal", "toast", "input", "select", "checkbox", "switch", "button", "avatar", "badge", "empty-state", "table", "form", "hero", "pricing", "features", "cta", "testimonials", "faq", "footer", "logo-cloud", "bento-grid", "stats", "team", "timeline", "contact"],
+  "keywords": ["tailwind block", "alpine js", "ui block", "page section", "landing page", "hero", "pricing section", "footer", "navbar", "dark mode", "open source", "copy paste", "ecommerce ui", "admin ui", "form", "command bar"],
+  "contains": [
+    "427 blocks, light and dark mode, MIT licensed",
+    "marketing sections: heroes, pricing, features, footers, bento grids, CTAs, FAQ, stats, team, testimonials, timeline",
+    "page sections also cover blog content, blog entries, contact, gallery and newsletter CTA",
+    "application UI: navbars, breadcrumbs, command bar, flyout menus, pagination, sidebars, tabs",
+    "overlays: alerts, banners, modals, notifications",
+    "forms: inputs, input groups, selects, checkboxes, radio groups, textareas, toggles",
+    "elements: avatars, badges, buttons, icon buttons, button groups, empty states, tables",
+    "eCommerce pages: category previews, product details, product list; copy-paste, CLI or MCP access"
+  ],
+  "formats": ["code", "cli"],
+  "stack": ["tailwind", "alpinejs"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

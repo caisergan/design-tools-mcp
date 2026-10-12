@@ -1,0 +1,46 @@
+{
+  "id": "skills-sh-mattpocock-skills-diagnosing-bugs",
+  "url": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
+  "kind": "page",
+  "hints_hash": "f2dee912724585f1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:18:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/mattpocock/skills/diagnosing-bugs", "title": "diagnosing-bugs — mattpocock/skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "diagnosing-bugs",
+  "summary": "Agent skill that runs a diagnosis loop for hard bugs and performance regressions.",
+  "description": "A SKILL.md for coding agents that turns debugging into a phased discipline: build a tight pass/fail feedback loop before touching code, redact secrets from every command, output and artifact shown, and read GLOSSARY.md and ADRs before exploring the codebase. Distributed from the mattpocock/skills pack.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "debugging",
+    "bug",
+    "diagnosis",
+    "feedback loop",
+    "performance regression",
+    "skill.md",
+    "claude code",
+    "coding agent",
+    "debugging workflow",
+    "root cause",
+    "instrumentation"
+  ],
+  "contains": [
+    "SKILL.md: diagnosis loop for hard bugs",
+    "phase 1 is building a tight pass/fail feedback loop",
+    "redacts secrets from commands, outputs and captured artifacts",
+    "reads GLOSSARY.md and ADRs before exploring the codebase",
+    "listed on skills.sh with 760.8K installs"
+  ],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/mattpocock/skills", "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.8
+}

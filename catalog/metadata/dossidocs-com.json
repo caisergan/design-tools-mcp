@@ -1,0 +1,34 @@
+{
+  "id": "dossidocs-com",
+  "url": "https://dossidocs.com",
+  "kind": "site",
+  "hints_hash": "1d8d5f7549858c16",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dossidocs.com", "title": "dossi · stop chasing borrowers, close faster", "status": null}
+  ],
+  "status": "ok",
+  "name": "dossi",
+  "summary": "AI agent for mortgage loan officers that requests, chases and validates borrower documents.",
+  "description": "dossi reads a loan file, generates its document conditions, emails the borrower one secure link and runs the chase until every item is cleared. A live file view shows each document's state (open, request, chase, receive, clear) and an activity log of every agent action, so closing dates hold without manual follow-up.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent", "document collection", "document validation", "mortgage", "loan officer", "borrower", "loan file", "closing", "fintech", "automation", "secure upload link", "document chase", "loan document"],
+  "contains": [
+    "AI agent that reads a loan file and generates its document conditions",
+    "borrowers get one secure link instead of another login",
+    "chases missing documents and validates what arrives",
+    "per-document states: open, request, chase, receive, clear",
+    "activity log of every agent action",
+    "built for mortgage loan officers on files such as conventional purchases"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

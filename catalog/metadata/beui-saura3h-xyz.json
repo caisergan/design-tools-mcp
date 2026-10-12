@@ -1,0 +1,139 @@
+{
+  "id": "beui-saura3h-xyz",
+  "url": "https://beui.saura3h.xyz",
+  "kind": "site",
+  "hints_hash": "ec0618974410f277",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.saura3h.xyz/llms.txt",
+      "title": "beUI",
+      "status": null
+    },
+    {
+      "url": "https://beui.saura3h.xyz",
+      "title": "Animated Components for React and Next.js · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/docs/theme",
+      "title": "Theme setup · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/components/agents",
+      "title": "AI Agent Components — Animated React AI Interfaces · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/components/blocks",
+      "title": "Animated React UI Blocks — Product-Ready Motion · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/components/motion",
+      "title": "Animated React Components — Copy-Paste Motion UI · beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "beUI",
+  "summary": "Copy-paste animated React components built with Motion and Tailwind CSS, distributed through the shadcn registry.",
+  "description": "Free, open-source animated components for React and Next.js: motion primitives, AI agent interfaces, blocks and charts, built on Motion (Framer Motion) and styled with shadcn semantic tokens. Copy the TypeScript source or install with the shadcn CLI from its registry (124 items); a paid Pro tier adds premium blocks and components.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "ai-agent-ui",
+    "alert",
+    "background",
+    "breadcrumbs",
+    "button",
+    "card",
+    "carousel",
+    "chart",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "dock",
+    "drawer",
+    "dropdown",
+    "input",
+    "list",
+    "loader",
+    "marquee",
+    "modal",
+    "otp-input",
+    "popover",
+    "prompt-input",
+    "select",
+    "sidebar",
+    "slider",
+    "stepper",
+    "switch",
+    "tabs",
+    "text-effect",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "animated component",
+    "react",
+    "nextjs",
+    "motion",
+    "framer motion",
+    "tailwind css",
+    "shadcn",
+    "copy paste",
+    "micro interaction",
+    "spring animation",
+    "ui component",
+    "toast",
+    "modal",
+    "dock",
+    "command palette",
+    "ai agent ui",
+    "chart",
+    "reduced motion",
+    "registry"
+  ],
+  "contains": [
+    "140 components plus blocks, agents and charts categories",
+    "124 shadcn registry items",
+    "free open-source components; Pro adds 292+ blocks and premium components ($149 lifetime)",
+    "built on Motion (Framer Motion) with Tailwind 4 and React 19",
+    "shadcn token theming; registry JSON endpoints at /r and /r/{slug}/raw",
+    "AI agent components: prompt input, messages, streaming response, tool results, citations"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

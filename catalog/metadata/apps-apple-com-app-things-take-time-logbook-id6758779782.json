@@ -1,0 +1,26 @@
+{
+  "id": "apps-apple-com-app-things-take-time-logbook-id6758779782",
+  "url": "https://apps.apple.com/app/things-take-time-logbook/id6758779782",
+  "kind": "page",
+  "hints_hash": "9fda303133018c50",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:26:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://apps.apple.com/app/things-take-time-logbook/id6758779782", "title": "Things take time — Logbook App - App Store", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Things take time — Logbook",
+  "summary": "App Store listing for an iPhone logbook app that tracks habits, routines and metrics side by side with per-tracker analytics.",
+  "description": "An App Store page for Things take time — Logbook, a productivity app by Chester How for tracking habits, routines, personal metrics and notes. All trackers appear together in a month grid with per-tracker analytics, and data stays on the device or in iCloud. Free with in-app purchases (monthly $2.99, lifetime $34.99).",
+  "type": "app",
+  "elements": [],
+  "keywords": ["logbook", "tracker app", "habit tracker", "personal metric", "productivity app", "iphone app", "ios app", "app store listing", "dark mode", "widget", "analytics"],
+  "contains": ["free app with in-app purchases: monthly $2.99, lifetime $34.99", "trackers for habits, routines, metrics and notes, shown side by side", "month-at-a-glance grid and per-tracker analytics", "widgets and a dark interface", "no data collected; data stays on device or in iCloud", "8 ratings at 5.0; 3.9 MB; Productivity category; requires iOS 18.6+"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/chesterhow/things-take-time", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

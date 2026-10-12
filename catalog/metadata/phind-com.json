@@ -1,0 +1,16 @@
+{
+  "id": "phind-com",
+  "url": "https://phind.com",
+  "kind": "site",
+  "hints_hash": "b012d8bcaa10dd1a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://phind.com", "title": null, "status": 404},
+    {"url": "https://www.phind.com", "title": null, "status": 404},
+    {"url": "https://www.phind.com/?Aicolumns", "title": null, "status": 404}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

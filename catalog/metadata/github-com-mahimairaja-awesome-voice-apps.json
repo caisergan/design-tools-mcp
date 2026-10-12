@@ -1,0 +1,31 @@
+{
+  "id": "github-com-mahimairaja-awesome-voice-apps",
+  "url": "https://github.com/mahimairaja/awesome-voice-apps",
+  "kind": "repo",
+  "hints_hash": "27b0c0fb34877d4f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {
+      "url": "https://github.com/mahimairaja/awesome-voice-apps/blob/HEAD/README.md",
+      "title": "awesome-voice-apps README",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "awesome-voice-apps",
+  "summary": "Collection of 20 self-contained voice AI agent examples built with Python and LiveKit Agents.",
+  "description": "Small, runnable voice agent demos: card fraud verification, billing de-escalation, clinic scheduling, drive-thru ordering, delivery calls, support cost routing and more. Each example is self-contained with its own README and runs via uv in console mode or as a LiveKit room; a livekit-base template and a short guide support adding your own demo.",
+  "type": "template",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["voice agent", "livekit", "python", "example", "starter", "real-time", "speech-to-text", "text-to-speech", "telephony", "call center", "customer support", "appointment booking", "demo app", "template"],
+  "contains": ["20 self-contained voice agent examples", "built with Python and LiveKit Agents", "console mode or LiveKit room via uv", "livekit-base template for new examples", "demos span fraud, healthcare, support and dispatch", "Apache 2.0 licensed"],
+  "formats": ["code", "templates"],
+  "stack": ["python", "livekit"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/mahimairaja/awesome-voice-apps", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

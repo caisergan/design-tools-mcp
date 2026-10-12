@@ -1,0 +1,38 @@
+{
+  "id": "generaltranslation-com",
+  "url": "https://generaltranslation.com",
+  "kind": "site",
+  "hints_hash": "4b5c6f1d8cebcf12",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://generaltranslation.com/llms.txt", "title": "General Translation", "status": null},
+    {"url": "https://generaltranslation.com", "title": "General Translation: Full-stack localization for the world's best companies", "status": 200},
+    {"url": "https://generaltranslation.com/en-US/pricing", "title": "Pricing | General Translation", "status": 200}
+  ],
+  "status": "ok",
+  "name": "General Translation",
+  "summary": "Localization platform for developers: open-source i18n SDKs, context-aware AI translation and the Locadex coding agent.",
+  "description": "Full-stack internationalization platform: translatable content lives in application code instead of extracted strings or a separate TMS, and translations are generated with context from component structure, variable names and product glossaries. Open-source SDKs cover Next.js, React, React Native, TanStack Start, Vue, Node.js and Python, plus a CLI, REST API and MCP server. Locadex, its AI agent, scans repositories, updates source code, generates translations and opens pull requests. Starter is free with usage-based billing; Enterprise adds SSO, RBAC and SOC 2.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["localization", "internationalization", "i18n", "translation", "ai translation", "react", "nextjs", "react native", "vue", "python", "sdk", "cli", "mcp server", "coding agent", "locale", "glossary", "content translation", "api", "dashboard", "usage-based pricing"],
+  "contains": [
+    "open-source SDKs: gt-next, gt-react, gt-react-native, gt-vue, gt-node, Python and the gt CLI",
+    "Locadex agent scans repos, updates source code, generates translations and opens pull requests",
+    "context-aware translation using component structure, variable names and a product glossary",
+    "content sources: GitHub, Google Drive, Figma, Contentful, Sanity, Mintlify and Markdown",
+    "120+ locales; numbers, currencies, dates and plurals; locale-aware routing",
+    "pre-generated translations delivered through production CDN infrastructure",
+    "free Starter plan with usage-based billing; Enterprise adds SSO, RBAC, SOC 2 and ISO 27001",
+    "used by Cursor, Ramp, Mintlify, Profound, Partiful and ClickHouse"
+  ],
+  "formats": ["code", "npm-package", "cli", "api", "docs"],
+  "stack": ["react", "nextjs", "react-native", "vue", "node", "python"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://generaltranslation.com/en-US/docs/overview/get-started", "npm": "gt", "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "jahed-21st-dev-components-material-design-3-expressive-slider",
+  "url": "https://jahed.21st.dev/components/material-design-3-expressive-slider",
+  "kind": "page",
+  "hints_hash": "0a06b68a671ef33c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jahed.21st.dev/components/material-design-3-expressive-slider", "title": "Material Design 3 Expressive Slider | Community Components | 21st", "status": 200},
+    {"url": "https://jahed.21st.dev/llms.txt", "title": "21st (https://21st.dev)", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Material Design 3 Expressive Slider",
+  "summary": "Slider component for shadcn/ui and Tailwind with range and centered modes, clip-path icons, spring physics and tooltips.",
+  "description": "Material Design 3 Expressive slider for shadcn/ui and Tailwind CSS: range and centered value modes, clip-path icons inside the handle, spring physics motion and tooltips for the current value. Published on the 21st community component catalog by Hossain Jahed under the MIT license.",
+  "type": "component-library",
+  "elements": ["slider"],
+  "keywords": ["slider", "range slider", "material design 3", "m3 expressive", "react", "tailwind css", "shadcn", "spring animation", "tooltip", "clip-path", "centered slider", "range input"],
+  "contains": ["range and centered slider modes", "clip-path icons inside the handle", "spring physics motion and value tooltips", "shadcn/ui and Tailwind CSS, MIT license", "published 7 Aug 2026"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

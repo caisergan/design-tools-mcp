@@ -1,0 +1,37 @@
+{
+  "id": "github-com-amitmirgal-orgbot-hub",
+  "url": "https://github.com/AmitMirgal/orgbot-hub",
+  "kind": "repo",
+  "hints_hash": "eac23066e265c666",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/AmitMirgal/orgbot-hub/blob/HEAD/README.md", "title": "orgbots", "status": 200},
+    {"url": "https://github.com/AmitMirgal/orgbot-hub", "title": "GitHub - AmitMirgal/orgbot-hub: 🤖 orgbots is a directory of Grok Bot teams you can install. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "orgbots",
+  "summary": "Public directory of Grok Bot teams (packs), with a chat that finds existing bots for the jobs you describe.",
+  "description": "orgbots.dev is a public directory of Grok Bot teams other people already made, and this repo is its source. Instead of searching by pack name, you describe the jobs you need and a chat suggests bots that already exist in the catalog; each pick opens the author's official x.ai/bot template, which you add one at a time in the Grok app. Packs are one author's published team; browsing Team needs no sign-in, while sending a mix needs GitHub, X or email under a daily message limit.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat"],
+  "keywords": ["grok bot", "ai agent", "bot directory", "agent team", "ai team", "directory", "mastra", "nextjs", "prisma", "supabase", "self-hosted", "open source", "chat ui"],
+  "contains": [
+    "public directory of Grok Bot teams ('packs') published by other people",
+    "a chat matches the jobs you describe to bots that already exist; it does not invent bots",
+    "each pick opens the author's official x.ai/bot template; bots are added one at a time in the Grok app",
+    "packs: a desk handles random questions, a seat has one repeating job",
+    "browsing Team needs no sign-in; sending a mix needs GitHub, X or email; daily message limit",
+    "public source: Next.js app on port 43147 with Prisma CRUD, Supabase Auth, Mastra memory and PostHog analytics",
+    "agent skills and editor configs included (.agents/skills, .claude/skills, .cursor, skills-lock.json)",
+    "Submit for new packs is coming soon; only official x.ai/bot URLs accepted"
+  ],
+  "formats": ["code", "app", "docs"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn", "prisma", "supabase", "postgres", "mastra", "posthog", "vercel"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/AmitMirgal/orgbot-hub", "docs": "https://orgbots.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

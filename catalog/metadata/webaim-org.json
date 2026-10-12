@@ -1,0 +1,31 @@
+{
+  "id": "webaim-org",
+  "url": "https://webaim.org",
+  "kind": "site",
+  "hints_hash": "c1c3d0f838f6540d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://webaim.org", "title": "WebAIM: Web Accessibility In Mind", "status": null},
+    {"url": "https://webaim.org/intro", "title": "WebAIM: Introduction to Web Accessibility", "status": null},
+    {"url": "https://webaim.org/about", "title": "WebAIM: About WebAIM", "status": null},
+    {"url": "https://webaim.org/resources", "title": "WebAIM: Resources", "status": 200},
+    {"url": "https://webaim.org/services/training", "title": "WebAIM: Accessibility Training", "status": 200}
+  ],
+  "status": "ok",
+  "name": "WebAIM",
+  "summary": "Accessibility resource since 1999: articles, WCAG checklists, evaluation tools and research, plus paid training.",
+  "description": "WebAIM (Web Accessibility In Mind) is a non-profit service center at Utah State University that has provided web accessibility solutions since 1999. It publishes articles such as Introduction to Web Accessibility, the WCAG 2 and Section 508 checklists, quick references and cheat sheets, and runs the WAVE evaluation tool, the Color Contrast Checker, the WebAIM Million report on the top million home pages and the Screen Reader User Survey; training and consulting are paid services.",
+  "type": "design-rules",
+  "categories": ["design-rules", "learning"],
+  "elements": [],
+  "keywords": ["accessibility", "a11y", "wcag", "web accessibility", "screen reader", "color contrast", "contrast checker", "wave", "checklist", "inclusive design", "accessibility testing", "section 508", "keyboard navigation", "assistive technology", "accessibility training"],
+  "contains": ["articles including Introduction to Web Accessibility", "WCAG 2 and Section 508 checklists", "WAVE web accessibility evaluation tool", "Color Contrast Checker and color-reliant link contrast checker", "WebAIM Million automated analysis of the top 1,000,000 home pages", "Screen Reader User Survey #11", "Ask AIMee accessibility chatbot", "training workshops from $200/person and consulting services"],
+  "formats": ["docs", "links", "app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

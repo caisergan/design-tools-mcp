@@ -1,0 +1,98 @@
+{
+  "id": "reui-io-templates",
+  "url": "https://reui.io/templates",
+  "kind": "page",
+  "hints_hash": "2da5b18e8626f78e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://reui.io/templates",
+      "title": "Shadcn UI Templates for Next.js, Laravel, Vite and Astro - ReUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn UI Templates for Next.js, Laravel, Vite and Astro",
+  "summary": "17 full-page shadcn/ui templates for Next.js, Laravel, TanStack Start, React Router, Astro and Vite.",
+  "description": "Complete multi-page app projects built from the ReUI registry's components and blocks: SaaS marketing sites, dashboards, CRMs, admin consoles, a help desk, HR, commerce and cloud storage apps. Each downloads as a standalone project for one framework, with app shell, auth, dashboard, profile and settings, and onboarding already wired.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "components"
+  ],
+  "elements": [
+    "dashboard",
+    "chat",
+    "kanban",
+    "calendar",
+    "table",
+    "form",
+    "timeline",
+    "pricing"
+  ],
+  "keywords": [
+    "shadcn",
+    "template",
+    "nextjs",
+    "laravel",
+    "react",
+    "typescript",
+    "tailwind",
+    "dashboard template",
+    "admin dashboard",
+    "saas template",
+    "ecommerce template",
+    "tanstack start",
+    "astro",
+    "inertia",
+    "crm",
+    "starter kit",
+    "full page template"
+  ],
+  "formats": [
+    "templates",
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "base-ui",
+    "framer-motion",
+    "zod",
+    "laravel",
+    "inertia",
+    "vite",
+    "tanstack-start",
+    "astro",
+    "react-router"
+  ],
+  "contains": [
+    "17 full-page templates: SaaS 8, dashboard 5, landing 2, e-commerce 2",
+    "frameworks: Next.js, Vite, TanStack Start, React Router, Astro, Laravel with Inertia",
+    "each ships an app shell, auth suite, dashboard, profile and settings, onboarding",
+    "downloaded as a full standalone project, not a shadcn registry item",
+    "free templates need an account; the rest come with the Ultimate plan from $249 once",
+    "commercial use allowed in own and client products",
+    "an MCP server lets coding agents search the registry and extend a template"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://reui.io/docs",
+    "npm": null,
+    "figma": null,
+    "parent": "reui-io"
+  },
+  "confidence": 0.85
+}

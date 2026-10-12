@@ -1,0 +1,27 @@
+{
+  "id": "skills-sh-coreyhaines31-marketingskills-content-strategy",
+  "url": "https://skills.sh/coreyhaines31/marketingskills/content-strategy",
+  "kind": "page",
+  "hints_hash": "1358a79c5f0a7ab5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/coreyhaines31/marketingskills/content-strategy", "title": "content-strategy — coreyhaines31/marketingskills", "status": null}
+  ],
+  "status": "ok",
+  "name": "content-strategy",
+  "summary": "Installable agent skill that plans content strategy: pillars, topic clusters, priority topics and buyer-stage mapping.",
+  "description": "A marketing skill for AI agents from the marketingskills pack. It walks an agent through gathering product marketing context, defining content pillars and topic clusters, mining ideas from keyword data, sales calls, surveys, forums and support tickets, and separating searchable from shareable content. The output is a structured plan: pillar definitions, priority topics with keywords and buyer stages, and a topic cluster map.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["content strategy", "content marketing", "content pillar", "topic cluster", "buyer stage", "search intent", "keyword research", "seo", "content planning", "marketing skill", "agent skill", "ai agent", "claude skill"],
+  "contains": ["SKILL.md shown in full on the page", "installs: 154.6K, GitHub stars: 54.1K", "related marketing skills: seo-audit, copywriting, marketing-psychology, social-content, programmatic-seo", "reads .agents/product-marketing.md context before planning"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.85
+}

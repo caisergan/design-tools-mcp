@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-how-to-better-use-ai-before-prompting",
+  "url": "https://ruben.substack.com/p/how-to-better-use-ai-before-prompting",
+  "kind": "page",
+  "hints_hash": "d533a59c6f509126",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/how-to-better-use-ai-before-prompting", "title": "how to better use AI (before prompting): - by Ruben Hassid", "status": null}
+  ],
+  "status": "ok",
+  "name": "how to better use AI (before prompting)",
+  "summary": "Guide to what to set up before typing a prompt: thinking mode, search, and giving the AI context instead of collecting prompts.",
+  "description": "A How to AI issue arguing that results depend on setup before the prompt: turn on thinking mode, use search to avoid made-up answers, stop re-introducing yourself in every chat, and feed the model documents and examples. Ends with a short TL;DR.",
+  "type": "article",
+  "keywords": ["ai setup", "thinking mode", "ai search", "prompting", "context", "chat workflow", "ai guide", "productivity", "prompt"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

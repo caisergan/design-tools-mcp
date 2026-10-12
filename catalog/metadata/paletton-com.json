@@ -1,0 +1,28 @@
+{
+  "id": "paletton-com",
+  "url": "https://paletton.com",
+  "kind": "site",
+  "hints_hash": "46a25f6ab8404c41",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:31:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://paletton.com", "title": "Paletton - The Color Scheme Designer", "status": null},
+    {"url": "https://paletton.com/wiki/", "title": "Colorpedia", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Paletton",
+  "summary": "Color wheel for designing palettes of one to four hues with five shades each, previewed in web, UI, photo and tartan mockups.",
+  "description": "Web app for creating color combinations from a color wheel, using classical color theory and the RYB wheel: palettes of one to four hues, each in five shades. Preview styles show the palette on a website layout, UI, a photo and tartan fabric. Ships with Colorpedia, a wiki on color theory, perception and color blindness.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color palette", "color scheme", "color wheel", "palette generator", "complementary color", "color theory", "ryb color wheel", "hex color", "palette preview", "shade generator", "color combination", "color blindness", "tartan preview", "web design color"],
+  "contains": ["palettes of one to four hues with five shades each", "classical color theory on an RYB color wheel", "previews: website design, UI, photo and tartan fabric", "Colorpedia wiki on color theory, perception and color blindness", "browser tool, formerly known as Color Scheme Designer"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://paletton.com/wiki/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

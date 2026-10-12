@@ -1,0 +1,28 @@
+{
+  "id": "shadcn-table-maker-vercel-app",
+  "url": "https://shadcn-table-maker.vercel.app",
+  "kind": "site",
+  "hints_hash": "ab9e46244aebfb5c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://shadcn-table-maker.vercel.app", "title": "ShadCN-Table-Maker", "status": null },
+    { "url": "https://shadcn-table-maker.vercel.app/examples", "title": "ShadCN-Table-Maker", "status": null }
+  ],
+  "status": "ok",
+  "name": "shadcn Table Maker",
+  "summary": "Tool that scaffolds shadcn/ui data tables with search, pagination, sorting and CRUD in Next.js.",
+  "description": "A table-building walkthrough for Next.js and the shadcn design library that produces form.tsx, column.tsx, data-table.tsx, page.tsx and types/table.ts for a data table with search, pagination, sorting, create, edit, delete and multi-delete. Forms are made in ShadCN Form Builder; the column and table code is built on @tanstack/react-table.",
+  "type": "generator",
+  "categories": ["design-tools", "components"],
+  "elements": ["table", "form", "pagination"],
+  "keywords": ["table maker", "data table", "shadcn ui", "tanstack table", "react table", "crud", "pagination", "sorting", "search", "next.js", "typescript", "form builder"],
+  "contains": ["generated files: form.tsx, column.tsx, data-table.tsx, page.tsx, types/table.ts", "table features: pagination, sorting, search, create, edit, delete, multi-delete", "uses @tanstack/react-table with shadcn/ui and Next.js", "two worked examples with copy-paste code"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "shadcn", "tanstack-table", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

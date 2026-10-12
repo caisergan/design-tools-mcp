@@ -1,0 +1,83 @@
+{
+  "id": "github-com-sadmann7-file-uploader",
+  "url": "https://github.com/sadmann7/file-uploader",
+  "kind": "repo",
+  "hints_hash": "ff0e99ad71713598",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/sadmann7/file-uploader/blob/HEAD/README.md",
+      "title": "File Uploader",
+      "status": null
+    },
+    {
+      "url": "https://github.com/sadmann7/file-uploader",
+      "title": "GitHub - sadmann7/file-uploader: File uploader built with shadcn/ui and Radix UI. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "File Uploader",
+  "summary": "Drag and drop file uploader for React with a reusable UploadThing hook, built on shadcn/ui and react-dropzone.",
+  "description": "A file uploader built with shadcn/ui and react-dropzone on top of create-t3-app. It ships a reusable useFileUpload hook for uploading files with UploadThing, a drag and drop upload component with a progress bar, react-hook-form integration with shadcn/ui form components, and a file dialog demo that adds and removes files in a scrollable list. Stack: Next.js, Tailwind CSS, Zod; live demo at uploader.sadmn.com; MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "file-upload",
+    "form",
+    "progress",
+    "list"
+  ],
+  "keywords": [
+    "file upload",
+    "drag and drop",
+    "dropzone",
+    "react",
+    "shadcn",
+    "uploadthing",
+    "next.js",
+    "form",
+    "progress bar",
+    "zod",
+    "hook",
+    "file dialog",
+    "uploader"
+  ],
+  "contains": [
+    "drag and drop uploader with a progress bar",
+    "reusable useFileUpload hook backed by UploadThing",
+    "react-hook-form integration with shadcn/ui form components",
+    "file dialog demo with a scrollable file list",
+    "Next.js + Tailwind, Zod validation, MIT licensed"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "react-dropzone",
+    "uploadthing",
+    "zod"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/sadmann7/file-uploader",
+    "docs": "https://diceui.com/docs/components/file-upload",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

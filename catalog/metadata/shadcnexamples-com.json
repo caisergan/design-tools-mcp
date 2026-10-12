@@ -1,0 +1,40 @@
+{
+  "id": "shadcnexamples-com",
+  "url": "https://shadcnexamples.com",
+  "kind": "site",
+  "hints_hash": "134ee7edc2df4b98",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnexamples.com", "title": "Shadcnexamples: Shadcn UI Components and Blocks", "status": null},
+    {"url": "https://shadcnexamples.com/blocks", "title": "Shadcn UI Blocks & Examples", "status": null},
+    {"url": "https://shadcnexamples.com/pricing", "title": "Pricing – Shadcnexamples.com", "status": null},
+    {"url": "https://shadcnexamples.com/product-list-table", "title": "Product List Table - Shadcn UI Examples and Blocks", "status": 200},
+    {"url": "https://shadcnexamples.com/contact-pages", "title": "Contact Pages - Shadcn UI Examples and Blocks", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcnexamples",
+  "summary": "Library of 83 ready-to-use shadcn/ui blocks and examples in React, Vue and Svelte.",
+  "description": "A paid library of shadcn/ui blocks, full-page examples and UI components: admin dashboards, product lists, chat apps, kanban boards, event calendars, email templates and more. Blocks ship in React, Vue and Svelte versions with live previews, copyable source code and shadcn CLI install.",
+  "type": "registry",
+  "categories": ["components", "sections", "registries"],
+  "elements": ["form", "dashboard", "chat", "list", "card", "timeline", "bento-grid", "changelog", "contact", "empty-state", "404", "calendar"],
+  "keywords": ["shadcn", "block", "template", "admin dashboard", "ecommerce", "chat app", "kanban board", "calendar", "email template", "form", "react", "vue", "svelte", "tailwind", "nextjs"],
+  "contains": [
+    "70 shadcn registry items",
+    "site says 83 ready-to-use blocks and examples",
+    "collections: admin dashboards, product lists, event calendars, email templates, AI chats, kanban boards",
+    "React, Vue and Svelte versions of every block",
+    "dark and light themes",
+    "shadcn CLI install or copy-paste source",
+    "one-time pricing: Pro $79, Premium $129",
+    "live preview for every example"
+  ],
+  "formats": ["registry", "code", "cli"],
+  "stack": ["react", "nextjs", "vue", "svelte", "tailwind", "tanstack-table", "dnd-kit", "date-fns"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

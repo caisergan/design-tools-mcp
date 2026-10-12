@@ -1,0 +1,45 @@
+{
+  "id": "ycombinator-com-rfs",
+  "url": "https://ycombinator.com/rfs",
+  "kind": "page",
+  "hints_hash": "f90936a5bf8e03cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:03:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ycombinator.com/rfs",
+      "title": "Requests for Startups | Y Combinator",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Requests for Startups",
+  "summary": "Y Combinator's Fall 2026 list of startup ideas its partners want to fund: 12 briefs on AI, defense, cloud, crypto and more.",
+  "description": "Y Combinator's public list of ideas it would like founders to tackle, with the note that you do not need to work on them to apply. The Fall 2026 edition gathers 12 requests from YC partners and founders, including an AI reading tutor, the future of American defense (written by the US Secretary of the Army), a cloud for small software, multiplayer AI, compute at sea, AI consumer products, AI for aging, new operating systems for the physical world, crypto, real-world data, proving you're human and AI-native compliance.",
+  "type": "article",
+  "keywords": [
+    "startup idea",
+    "request for startup",
+    "funding idea",
+    "startup brief",
+    "ai startup",
+    "defense technology",
+    "crypto startup",
+    "small software",
+    "healthcare ai",
+    "startup batch"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

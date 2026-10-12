@@ -1,0 +1,83 @@
+{
+  "id": "devouringdetails-com",
+  "url": "https://devouringdetails.com",
+  "kind": "site",
+  "hints_hash": "6c12643e9dde557b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://devouringdetails.com",
+      "title": "Devouring Details",
+      "status": null
+    },
+    {
+      "url": "https://devouringdetails.com/prototypes/nextjs-dev-tools",
+      "title": "Next.js Dev Tools",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Devouring Details",
+  "summary": "Interactive reference manual on interaction details and motion, with 23 downloadable React components.",
+  "description": "An interactive manual for designers who care about how interfaces feel, not a linear course: 23 chapters in three units (Principles, Prototypes and Resources), each exploring a detail of interaction design through live prototypes and examples from production apps. Registration is a one-time $249 and includes source code for 23 React components and a private community.",
+  "type": "course",
+  "categories": [
+    "learning",
+    "motion"
+  ],
+  "elements": [
+    "carousel",
+    "scroll-effect",
+    "timeline"
+  ],
+  "keywords": [
+    "interaction design",
+    "motion design",
+    "micro interaction",
+    "animation",
+    "easing",
+    "delay",
+    "spring",
+    "physics",
+    "gesture",
+    "motion choreography",
+    "prototype",
+    "react component",
+    "design engineering",
+    "reference manual",
+    "ui detail",
+    "course"
+  ],
+  "contains": [
+    "23 chapters in 3 units: Principles, Prototypes, Resources",
+    "23 downloadable React components with source code",
+    "footage recorded from live React components",
+    "prototypes such as Scroll Strip, Radial Timeline, Morph Surface, Logos Carousel and Line Graph",
+    "one-time $249 registration",
+    "private community"
+  ],
+  "formats": [
+    "code",
+    "video",
+    "docs"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

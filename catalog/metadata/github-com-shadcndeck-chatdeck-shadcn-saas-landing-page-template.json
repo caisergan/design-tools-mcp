@@ -1,0 +1,108 @@
+{
+  "id": "github-com-shadcndeck-chatdeck-shadcn-saas-landing-page-template",
+  "url": "https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template",
+  "kind": "repo",
+  "hints_hash": "725711d2ad048fe1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template/blob/HEAD/README.md",
+      "title": "ChatDeck — Free Shadcn UI SaaS Landing Page Template (Next.js + Tailwind)",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "ChatDeck",
+  "summary": "Free Next.js 16 SaaS landing page template with shadcn/ui sections, pricing toggle and dark mode.",
+  "description": "A free shadcn/ui landing page template for SaaS products, built with Next.js 16, React 19, TypeScript, Tailwind CSS v4, Base UI and Motion animations. It ships as independently editable section components — hero, sticky nav, video, social proof, features with Lucide icons, team, testimonials, pricing with a monthly/yearly toggle, and an accordion FAQ — plus dark mode with an animated theme toggler. MIT licensed, no paid tier.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "logo-cloud",
+    "features",
+    "team",
+    "testimonials",
+    "pricing",
+    "faq"
+  ],
+  "variants": {
+    "navbar": [
+      "sticky"
+    ],
+    "hero": [
+      "social-proof"
+    ],
+    "features": [
+      "grid"
+    ],
+    "testimonials": [
+      "marquee"
+    ],
+    "pricing": [
+      "billing-toggle"
+    ],
+    "faq": [
+      "accordion"
+    ]
+  },
+  "keywords": [
+    "saas landing page",
+    "template",
+    "shadcn",
+    "next.js",
+    "tailwind css",
+    "dark mode",
+    "pricing table",
+    "testimonials",
+    "faq accordion",
+    "hero section",
+    "sticky navigation",
+    "react",
+    "free template",
+    "marketing site",
+    "typescript"
+  ],
+  "contains": [
+    "free SaaS landing page template, MIT licensed, no paid tier",
+    "stack: Next.js 16, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, Base UI",
+    "sections: hero, sticky nav, video, social proof, features, team, testimonials, pricing, FAQ",
+    "testimonials marquee, pricing monthly/yearly toggle, accordion FAQ",
+    "dark mode with animated theme toggler",
+    "every section is a self-contained component, editable on its own",
+    "animations with Motion v12, icons from Lucide and Tabler"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "typescript",
+    "shadcn",
+    "base-ui",
+    "framer-motion",
+    "lucide"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.95
+}

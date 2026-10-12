@@ -1,0 +1,29 @@
+{
+  "id": "gobbl-xeve-io",
+  "url": "https://gobbl.xeve.io",
+  "kind": "site",
+  "hints_hash": "91ba9305bed43579",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gobbl.xeve.io/llms.txt", "title": "Gobbl", "status": null},
+    {"url": "https://gobbl.xeve.io", "title": "Gobbl: the free notch app for Mac, with a pet", "status": 200},
+    {"url": "https://gobbl.xeve.io/faq", "title": "Gobbl FAQ: price, Mac requirements, dictation, memory, privacy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Gobbl",
+  "summary": "Free open-source notch app for Mac with a file shelf, clipboard, on-device dictation, screen memory and a pet.",
+  "description": "A free, MIT-licensed macOS notch app built around a pet mascot, Gob. The notch panel holds a drag-and-drop file shelf, clipboard history, Now Playing with synced lyrics, HUDs, a next-meeting calendar and quick tools; it adds on-device Whisper dictation, a write-anywhere key, opt-in screen Memory with self-completing to-dos, and AI agent status with Claude Code permission requests. Needs macOS 14+.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["ai-agent-ui", "chat", "timeline"],
+  "keywords": ["notch app", "macos", "file shelf", "clipboard history", "dictation", "whisper", "on-device", "screen memory", "claude code", "ai agent", "mcp", "focus timer", "open source", "pet"],
+  "contains": ["notch panels: shelf, clipboard history (Shift-Command-Space), Now Playing, HUDs, calendar with Join links, quick tools", "on-device Whisper dictation: no word cap, no account, ~0.5 s per sentence on Apple silicon", "Claude Code permission requests can be allowed or denied from the notch (30 s fallback to the terminal)", "opt-in Memory reads on-screen text via macOS Accessibility and stores it on the Mac only", "MCP connector registers with Claude Code, Codex, Cursor, VS Code, Gemini CLI and more", "pet: 3 models, 11 hats, shareable .gobskin skins, 6-second clips", "macOS 14+, MIT, free during the beta, no account"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/xeveio/gobbl", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

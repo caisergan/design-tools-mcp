@@ -1,0 +1,75 @@
+{
+  "id": "onepagelove-com-flex-digital",
+  "url": "https://onepagelove.com/flex-digital",
+  "kind": "page",
+  "hints_hash": "e8d61a99d8c14b40",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://onepagelove.com/flex-digital",
+      "title": "Flex Digital — One Page Website Award",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Flex Digital",
+  "summary": "Portfolio one-page website by Simon Andrew, spotlighted on One Page Love with a section-by-section breakdown.",
+  "description": "A One Page Love spotlight for the Flex Digital portfolio site. It lists the page sections (client logo row, client name list, services list, testimonials grid, footer), features (long scrolling, local time, footer navigation), style tags (minimal, typographic), typefaces (Geist, Inter), the tech stack (Astro, Tailwind CSS) and a link to the live website.",
+  "elements": [
+    "footer",
+    "logo-cloud",
+    "testimonials",
+    "list"
+  ],
+  "variants": {
+    "testimonials": [
+      "grid"
+    ]
+  },
+  "keywords": [
+    "portfolio",
+    "one page website",
+    "portfolio website",
+    "minimal",
+    "typographic",
+    "client logo",
+    "testimonials",
+    "footer",
+    "long scrolling",
+    "astro",
+    "tailwind",
+    "website inspiration"
+  ],
+  "contains": [
+    "one-page portfolio website, published June 10, 2026",
+    "sections: client logo row, client name list, services list, testimonials grid, footer",
+    "features: long scrolling, local time, footer navigation, social proof",
+    "style: minimal, typographic; typefaces: Geist and Inter",
+    "tech: Astro, Tailwind CSS",
+    "credited to Simon Andrew; spotlighted in Love Letter #89"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [
+    "astro",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "onepagelove-com"
+  },
+  "confidence": 0.85
+}

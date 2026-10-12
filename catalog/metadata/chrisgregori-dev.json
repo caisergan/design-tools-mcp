@@ -1,0 +1,27 @@
+{
+  "id": "chrisgregori-dev",
+  "url": "https://chrisgregori.dev",
+  "kind": "site",
+  "hints_hash": "156db7b91bf7beff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://chrisgregori.dev", "title": "Chris Gregori", "status": null}
+  ],
+  "status": "ok",
+  "name": "Chris Gregori",
+  "summary": "Personal site and blog of engineer Chris Gregori: projects, writing, talks & media, and photography.",
+  "description": "Personal site of Chris Gregori, an Elixir-focused senior engineer: a project showcase (Kage, Boop, TinyAgent, mmbl, Bendi, FPLXI and more), opinion essays, talks & media, and photography.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["navbar", "hero", "card", "list"],
+  "keywords": ["personal site", "portfolio", "blog", "personal website", "elixir developer", "developer blog", "project showcase", "side project", "opinion", "photography", "indie developer"],
+  "contains": ["personal site and blog of Chris Gregori", "8 projects listed (Kage, Boop, TinyAgent, mmbl, Bendi, FPLXI …)", "dated opinion posts", "talks & media and photography sections", "25 urls in sitemap"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

@@ -1,0 +1,27 @@
+{
+ "id": "design-on-x-com",
+ "url": "https://design-on-x.com",
+ "kind": "site",
+ "hints_hash": "baaf38ced2834fc9",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:29:50Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://design-on-x.com", "title": "MotionVault - Curated UI & Motion Design Inspiration", "status": null}
+ ],
+ "status": "ok",
+ "name": "MotionVault",
+ "summary": "Multilingual gallery of UI, motion, branding and product design work from creators on X, browsable by category.",
+ "description": "A design inspiration gallery collecting standout interface, micro-interaction, motion and product work posted by creators on X, with preview media and links to the original posts. Sections cover UI, interface, dashboard, mobile app, SaaS UI, motion, branding, logo, website, landing page, product, dark mode, AI UI and Framer Motion design, and the site is available in English, Chinese, Japanese and Spanish.",
+ "type": "gallery",
+ "categories": ["inspiration", "motion"],
+ "elements": ["dashboard"],
+ "keywords": ["motion design", "micro interaction", "ui design", "design inspiration", "dashboard design", "mobile app design", "saas ui", "landing page design", "dark mode", "ai ui", "framer motion", "branding inspiration", "logo design", "product design", "website design", "design gallery"],
+ "contains": ["items are design posts by creators on X, each linking to the original post", "sections: UI, dashboard, mobile app, SaaS, motion, branding, logo, landing page, dark mode, AI UI", "available in English, Chinese, Japanese and Spanish", "archive of past posts"],
+ "formats": ["screenshots", "video", "links"],
+ "stack": [],
+ "pricing": "free",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

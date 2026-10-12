@@ -1,0 +1,24 @@
+{
+  "id": "polar-sh-blog-orbit-llm-safe-design-system",
+  "url": "https://polar.sh/blog/orbit-llm-safe-design-system",
+  "kind": "page",
+  "hints_hash": "f934ae1a7d7d707d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://polar.sh/blog/orbit-llm-safe-design-system", "title": "Building an LLM safe design system | Polar", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Building an LLM safe design system",
+  "summary": "Polar's essay on Orbit, a design system built so LLM-written UI can't drift: tokens as the only vocabulary, enforced in CI.",
+  "description": "A blog post describing Polar's Orbit design system and the bet behind it: make off-brand decisions close to impossible to express in code. Covers why raw Tailwind class strings fail when an LLM is typing, treating classes as decisions instead of values, enforcing tokens in CI rather than docs, banning the bare <div> and handling dark mode.",
+  "type": "article",
+  "categories": ["design-rules", "learning"],
+  "elements": [],
+  "keywords": ["design system", "design token", "llm", "ai", "tailwind", "css", "ci", "dark mode", "component", "consistency", "code generation", "frontend", "design decision", "guardrail", "orbit"],
+  "contains": ["case for making tokens the only vocabulary in LLM-written UI", "CI as the contract instead of docs", "why raw Tailwind class strings drift off-system", "banning the bare <div>; dark mode the LLM can't forget"],
+  "stack": ["tailwind", "css"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "polar-sh"},
+  "confidence": 0.85
+}

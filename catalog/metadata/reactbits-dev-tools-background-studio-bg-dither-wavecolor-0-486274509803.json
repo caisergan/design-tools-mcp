@@ -1,0 +1,27 @@
+{
+  "id": "reactbits-dev-tools-background-studio-bg-dither-wavecolor-0-486274509803",
+  "url": "https://reactbits.dev/tools/background-studio?bg=dither&waveColor=0.48627450980392156%2C0.22745098039215686%2C0.9294117647058824&mouseRadius=0&colorNum=3&pixelSize=3&waveAmplitude=0.8&waveFrequency=1&waveSpeed=0.03",
+  "kind": "page",
+  "hints_hash": "a5aca78c12697275",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    {
+      "url": "https://reactbits.dev/tools/background-studio?bg=dither&waveColor=0.48627450980392156%2C0.22745098039215686%2C0.9294117647058824&mouseRadius=0&colorNum=3&pixelSize=3&waveAmplitude=0.8&waveFrequency=1&waveSpeed=0.03",
+      "title": "Background Studio | Free Creative Tool by React Bits",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Background Studio",
+  "summary": "Free tool to customize animated background effects and export them as video, image, code or a shareable URL.",
+  "description": "React Bits' in-browser editor for animated backgrounds: choose from various effects, customize the settings, and export as video, image or code, or share a creation as a URL. Part of the React Bits tools.",
+  "type": "generator",
+  "elements": ["background"],
+  "keywords": ["animated background", "background generator", "background effect", "dither", "video export", "image export", "code export", "shareable url", "creative tool"],
+  "formats": ["video", "png", "code", "links"],
+  "pricing": "free",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "reactbits-dev" },
+  "confidence": 0.8
+}

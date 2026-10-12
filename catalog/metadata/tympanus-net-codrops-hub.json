@@ -1,0 +1,27 @@
+{
+  "id": "tympanus-net-codrops-hub",
+  "url": "https://tympanus.net/codrops/hub",
+  "kind": "page",
+  "hints_hash": "d9666140fc895fd9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tympanus.net/codrops/hub", "title": "Creative Hub | Codrops", "status": null}
+  ],
+  "status": "ok",
+  "name": "Creative Hub",
+  "summary": "Showcase of open source web demos, design experiments and interactive concepts on Codrops.",
+  "description": "A growing showcase of open-source demos and experiments, in sections such as Featured Picks, Codrops Originals, Tutorials, GSAP Highlights, WebGL, Scroll-driven Animations and Grid-based Layouts. Each entry links to a live demo and carries tags for its technology and effect (Three.js, GSAP, WebGL, TSL, Astro, React Three Fiber, cursor, scroll, 3D ...).",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["3d", "cursor", "scroll-effect", "text-effect", "map"],
+  "keywords": ["creative coding", "web demo", "three.js", "webgl", "gsap", "shader", "scroll animation", "cursor effect", "3d", "open source", "design experiment", "interaction design", "animation", "webgpu", "svg", "astro", "page transition", "grid layout"],
+  "contains": ["showcase of open source web demos by Codrops contributors and outside creators", "sections: Featured Picks, Codrops Originals, Tutorials, GSAP Highlights, WebGL, Scroll-driven, Grid layouts", "entries tagged by technology and effect (Three.js, GSAP, WebGL, TSL, Astro, React Three Fiber, cursor, scroll, 3D)", "links out to live demos, video previews and tutorials"],
+  "formats": ["links", "video"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

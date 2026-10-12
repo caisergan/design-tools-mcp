@@ -1,0 +1,37 @@
+{
+  "id": "10minutemail-com",
+  "url": "https://10minutemail.com",
+  "kind": "site",
+  "hints_hash": "5082bc6145aced0a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://10minutemail.com", "title": "10 Minute Mail - Free Anonymous Temporary email", "status": 200},
+    {"url": "https://10minutemail.com/faq.html", "title": "10 Minute Mail - FAQ - Free Anonymous Temporary email", "status": 200},
+    {"url": "https://10minutemail.com/guides", "title": "Email Privacy & Security Guides - 10 Minute Mail", "status": 200},
+    {"url": "https://10minutemail.com/guides/email-privacy-guide", "title": "Email Privacy Guide: How to Protect Your Email Address Online - 10 Minute Mail", "status": 200}
+  ],
+  "status": "ok",
+  "name": "10 Minute Mail",
+  "summary": "Free disposable email address and inbox that self-destructs after 10 minutes, with no signup. Running since 2006.",
+  "description": "A free temporary email service: every visit gets a private address and inbox that self-destructs in 10 minutes, with no signup or personal information. Messages usually arrive within seconds and can be read, replied to or forwarded, useful for signups you do not trust. The site also offers email privacy guides, a free metadata remover, service comparisons and an FAQ. Says it has operated since 2006.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["temporary email", "temp mail", "disposable email", "burner email", "throwaway email", "anonymous email", "spam", "inbox", "no signup", "email privacy", "email validation", "temporary address", "10 minute"],
+  "contains": [
+    "free anonymous temporary email address, no signup or personal data",
+    "address and inbox self-destruct after 10 minutes",
+    "messages typically arrive within seconds; read, reply or forward",
+    "one private address per visitor, not shared with others",
+    "email privacy guides and a free metadata remover",
+    "says it has operated since 2006; 166 URLs in sitemap"
+  ],
+  "formats": ["app", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

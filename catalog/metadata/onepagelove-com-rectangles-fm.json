@@ -1,0 +1,30 @@
+{
+  "id": "onepagelove-com-rectangles-fm",
+  "url": "https://onepagelove.com/rectangles-fm",
+  "kind": "page",
+  "hints_hash": "7147dea1afe8aa74",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/rectangles-fm", "title": "Rectangles.fm — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Rectangles.fm",
+  "summary": "One Page Love award listing for Rectangles.fm, a Framer-built one-pager for weekly design conversations.",
+  "description": "A One Page Love showcase entry for the Rectangles.fm site: a Framer-built one-page website with newsletter and podcast features — lead capture, manifesto, recent blogs, a testimonials grid, long scrolling and a dark editorial look in the Forma typeface. Published 22 Jun 2026 and spotlighted in Love Letter #89.",
+  "elements": ["hero", "testimonials", "footer"],
+  "keywords": ["one page website", "landing page", "framer", "newsletter website", "podcast website", "editorial design", "retro", "scroll effect", "dark mode", "design inspiration", "one pager", "web design showcase"],
+  "contains": [
+    "award listing for Rectangles.fm, a weekly design-conversation project",
+    "category: Landing Page, Newsletters",
+    "styles: editorial, retro & vintage, scroll effects",
+    "sections: newsletter, recent blogs, testimonials grid, manifesto, footer",
+    "typeface Forma; dark color scheme",
+    "platform: Framer",
+    "published 22 Jun 2026; spotlighted in Love Letter #89"
+  ],
+  "formats": ["screenshots", "links"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

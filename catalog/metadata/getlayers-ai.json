@@ -1,0 +1,32 @@
+{
+ "id": "getlayers-ai",
+ "url": "https://getlayers.ai",
+ "kind": "site",
+ "hints_hash": "521a765001f332dc",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://getlayers.ai/llms.txt", "title": "GetLayers (GetLayers AI)", "status": null},
+  {"url": "https://getlayers.ai", "title": "GetLayers AI — An AI-native library of templates.", "status": 200},
+  {"url": "https://www.getlayers.ai/docs", "title": "Docs — GetLayers AI", "status": 200},
+  {"url": "https://www.getlayers.ai/sections", "title": "Sections — GetLayers AI", "status": 200},
+  {"url": "https://www.getlayers.ai/pricing", "title": "Pricing — GetLayers AI", "status": 200},
+  {"url": "https://www.getlayers.ai/about", "title": "About — GetLayers AI", "status": 200}
+ ],
+ "status": "ok",
+ "name": "GetLayers AI",
+ "summary": "Prompt-first library of web assets: 49 templates, 114 3D WebGL scenes, 78 backgrounds, 10 animated sections and 1,088 gradients.",
+ "description": "GetLayers (by design studio Textura) is a library of web design layers: page and hero templates, real-time 3D WebGL scenes, animated and static backgrounds, animated sections and interactive WebGL gradients. Every layer can be copied as one self-contained prompt and rebuilt by an AI coding agent, or downloaded as Next.js source on paid plans; an MCP server connects the library to agent clients.",
+ "type": "template",
+ "categories": ["templates", "motion", "color-effects"],
+ "elements": ["hero", "features", "carousel", "card", "loader", "background", "3d"],
+ "keywords": ["ai prompt", "web template", "3d scene", "webgl", "animated background", "gradient", "hero template", "landing page template", "animated section", "prompt library", "mcp", "nextjs", "shader", "cinematic website", "interactive gradient"],
+ "contains": ["49 page and hero templates", "114 real-time 3D WebGL scenes", "1,088 interactive gradients (~1 KB each, pure WebGL2)", "78 backgrounds and 10 animated sections", "every layer copies as one prompt; paid plans add source", "MCP server for Claude Code, Cursor and other clients"],
+ "formats": ["prompts", "code", "templates", "docs", "api"],
+ "stack": ["nextjs", "webgl"],
+ "pricing": "freemium",
+ "license": "proprietary",
+ "related": {"repo": null, "docs": "https://www.getlayers.ai/docs", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

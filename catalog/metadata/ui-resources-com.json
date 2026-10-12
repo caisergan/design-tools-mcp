@@ -1,0 +1,30 @@
+{
+ "id": "ui-resources-com",
+ "url": "https://ui-resources.com",
+ "kind": "site",
+ "hints_hash": "b59353282f2e4023",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://ui-resources.com", "title": "Free UI Resources, Textures, Plugins, Effects & Design Tools | ResourceHub", "status": 200},
+  {"url": "https://ui-resources.com/docs", "title": "Roblox UI & Figma Documentation | ResourceHub", "status": 200},
+  {"url": "https://ui-resources.com/tools", "title": "Free Sunburst & Halftone Maker | ResourceHub", "status": 200},
+  {"url": "https://ui-resources.com/updates", "title": "ResourceHub Updates & Changelog", "status": 200}
+ ],
+ "status": "ok",
+ "name": "UI Resources",
+ "summary": "Community-run library of free UI and GFX resources: kits, textures, plugins, effects and design tools.",
+ "description": "A curated, community-run library of UI kits, components, textures, plugins, effects, graphics and GFX assets for designers and developers, focused on Roblox UI and Figma workflows. It includes documentation and tutorials on Roblox Studio UI and Figma (scale vs offset, constraints, masks, image coloring, responsive UI) and browser pattern makers that export sunbursts and halftones as SVG or PNG.",
+ "type": "asset-library",
+ "categories": ["media", "components", "design-tools"],
+ "elements": ["background"],
+ "keywords": ["ui resource", "ui kit", "gfx", "texture", "background", "effect", "pattern maker", "halftone", "sunburst", "game ui", "component", "plugin", "design asset", "svg export", "free asset", "tutorial"],
+ "contains": ["curated community-run library of UI kits, components, textures, plugins, effects, graphics and GFX assets", "documentation and tutorials on Roblox Studio UI and Figma workflows", "browser pattern makers for sunbursts and halftones with SVG and PNG export", "sections for resources, tips, contributors, suggestions, updates and tutorials"],
+ "formats": ["links", "svg", "png", "docs"],
+ "stack": [],
+ "pricing": "free",
+ "license": "unknown",
+ "related": {"repo": null, "docs": "https://ui-resources.com/docs", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.7
+}

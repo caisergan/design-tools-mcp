@@ -1,0 +1,23 @@
+{
+  "id": "footer-design-sites-simile",
+  "url": "https://footer.design/sites/simile",
+  "kind": "page",
+  "hints_hash": "63f07bf307d40bcd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/simile", "title": "Footer | Simile", "status": null}
+  ],
+  "status": "ok",
+  "name": "Simile (Footer)",
+  "summary": "Footer design of the Simile website, with desktop and mobile views, from a curated gallery of web footers.",
+  "description": "Detail page in a curated gallery of web footers: the footer of the Simile website (a simulation platform for human behavior), designed by Pentagram. It shows desktop and mobile captures, style and type tags (Flat, Animated, Interactive, Colorful, Retro, Minimal, Fun / AI, Productivity), the date added and similar footer designs.",
+  "type": "gallery",
+  "elements": ["footer"],
+  "keywords": ["footer design", "website footer", "footer inspiration", "footer gallery", "desktop footer", "mobile footer", "web design reference", "footer example", "design case study"],
+  "contains": ["desktop and mobile footer captures of the Simile website", "designed by Pentagram, added August 25, 2026", "styles: flat, animated, interactive, colorful, retro, minimal, fun", "types: AI, productivity", "similar footer designs from other sites"],
+  "formats": ["screenshots"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

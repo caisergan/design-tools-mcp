@@ -1,0 +1,22 @@
+{
+  "id": "ruben-substack-com-p-dont-use-claude-fable-5",
+  "url": "https://ruben.substack.com/p/dont-use-claude-fable-5",
+  "kind": "page",
+  "hints_hash": "96b8a9feab2ee583",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/dont-use-claude-fable-5", "title": "Fable 5. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Fable 5",
+  "summary": "Guide to using Claude Fable-5 without burning money: model families, per-token costs, and when the expensive model is worth it.",
+  "description": "An instalment of the How to AI newsletter on Claude Fable-5, the smartest and most expensive Claude tier. It maps the Claude model families (Haiku, Sonnet, Opus, Mythos, Fable-5), explains what smarter AI costs per token and per turn, and gives rules for when to use Fable-5 and when not to. Later sections cover connecting Fable to everything, Claude Cowork, Claude Code, a /fable-prompter command and keeping a team brain in a folder.",
+  "type": "article",
+  "keywords": ["claude", "fable 5", "ai model", "llm", "token cost", "ai pricing", "ai guide", "claude cowork", "claude code", "prompt", "ai newsletter"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.8
+}

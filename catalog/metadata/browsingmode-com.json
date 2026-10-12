@@ -1,0 +1,78 @@
+{
+  "id": "browsingmode-com",
+  "url": "https://browsingmode.com",
+  "kind": "site",
+  "hints_hash": "26f74842eb34df6a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://browsingmode.com",
+      "title": "Browsing Mode",
+      "status": null
+    },
+    {
+      "url": "https://browsingmode.com/about",
+      "title": "About | Browsing Mode",
+      "status": null
+    },
+    {
+      "url": "https://browsingmode.com/category/beauty",
+      "title": "Best Beauty Website Inspirations | Browsing Mode",
+      "status": null
+    },
+    {
+      "url": "https://browsingmode.com/category/fashion",
+      "title": "Best Fashion Website Inspirations | Browsing Mode",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Browsing Mode",
+  "summary": "Curated gallery of hand-picked website design inspiration, browsable by category such as agency, fashion and portfolio.",
+  "description": "A curated portal of real websites picked for their design and functionality, shown in a browsable grid with categories (Agency, Beauty & Self-care, E-commerce, Fashion, Food & Drink, Home & Living, Media & Publishing, Portfolio, Technology) and highlights like Site of the Week, Team's Pick and New. Website submissions are free.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "website inspiration",
+    "web design gallery",
+    "design inspiration",
+    "website showcase",
+    "curated website",
+    "portfolio website",
+    "agency website",
+    "e-commerce website",
+    "fashion website",
+    "site of the week"
+  ],
+  "contains": [
+    "hand-picked real websites with links to each site",
+    "filters: agency, beauty, e-commerce, fashion, food & drink, home & living, media & publishing, portfolio, technology",
+    "highlights: Site of the Week, Team's Pick, New",
+    "free website submissions"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [
+    "framer"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

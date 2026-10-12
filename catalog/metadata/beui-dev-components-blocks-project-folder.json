@@ -1,0 +1,72 @@
+{
+  "id": "beui-dev-components-blocks-project-folder",
+  "url": "https://beui.dev/components/blocks/project-folder",
+  "kind": "page",
+  "hints_hash": "d599d02f5a02df1a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/components/blocks/project-folder",
+      "title": "Project Folder · React motion component · beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Project Folder",
+  "summary": "Interactive React motion block: a folder whose files fan out on hover or focus and expand into an overlay.",
+  "description": "A free, open-source React and Next.js motion component from beUI's blocks collection. Files fan out of the folder on hover or focus, it expands into a focus-managed overlay and retraces the path when closed; install with the shadcn CLI or copy the source, with props and API reference on the page.",
+  "type": "component-library",
+  "elements": [],
+  "keywords": [
+    "react",
+    "nextjs",
+    "motion",
+    "animation",
+    "component",
+    "shadcn",
+    "registry",
+    "hover",
+    "focus",
+    "overlay",
+    "file fan",
+    "project folder",
+    "micro interaction",
+    "ui block",
+    "copy paste",
+    "interactive",
+    "accessibility"
+  ],
+  "contains": [
+    "files fan out on hover or focus",
+    "expands into a focus-managed overlay",
+    "install with the shadcn CLI or copy the source",
+    "free, open-source React and Next.js motion component built with Motion",
+    "API reference: props for open, expanded, previews and itemLabel",
+    "related blocks: Card Folder, Expandable Action Bar, Notification Stack"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "beui-dev"
+  },
+  "confidence": 0.85
+}

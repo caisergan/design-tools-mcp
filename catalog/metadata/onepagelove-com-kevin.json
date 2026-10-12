@@ -1,0 +1,28 @@
+{
+  "id": "onepagelove-com-kevin",
+  "url": "https://onepagelove.com/kevin",
+  "kind": "page",
+  "hints_hash": "1f3bb4ce761f5ae1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/kevin", "title": "Kevin — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kevin",
+  "summary": "One Page Love award entry for Kevin, a minimal one-pager for an AI mockup scene tool, built with Next.js.",
+  "description": "A One Page Love showcase entry for Kevin, a clean one-page site for an AI-powered mockup scene tool, designed by Krists Darzins with a minimal grey look. The entry lists the site's sections, features, category, style, typefaces and tech stack.",
+  "keywords": ["one page website", "one pager", "saas landing page", "app landing page", "ai tool", "mockup tool", "minimal web design", "feature carousel", "pricing table", "cta hero", "nextjs", "long scrolling", "dot grid", "website inspiration"],
+  "elements": ["hero", "cta", "pricing", "carousel", "footer", "scroll-effect", "background"],
+  "contains": [
+    "sections: eyebrow text, CTA hero, highlights row, feature carousel, pricing table, CTA footer",
+    "features: artificial intelligence, dot grid, long scrolling",
+    "category: app, digital product, SaaS; style: minimal; color: grey",
+    "typefaces: Inter, Reddit Mono, Stringer; tech: Next.js",
+    "published 26 Jun 2026; design by Krists Darzins"
+  ],
+  "stack": ["nextjs", "react"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

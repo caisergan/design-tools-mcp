@@ -1,0 +1,28 @@
+{
+  "id": "term-ink-ui",
+  "url": "https://term.ink/ui",
+  "kind": "page",
+  "hints_hash": "8270c79bab120238",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://term.ink/ui", "title": "GitHub - vadimdemedes/ink-ui: Ink-redible command-line interfaces made easy", "status": 200},
+    {"url": "https://github.com/vadimdemedes/ink-ui", "title": "GitHub - vadimdemedes/ink-ui: Ink-redible command-line interfaces made easy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Ink UI",
+  "summary": "Collection of themed React components for building command-line interfaces with Ink.",
+  "description": "Components for terminal UIs built with Ink: text, email, password and confirm inputs, select and multi select, spinner, progress bar, badge, status message, alert, and ordered and unordered lists. Every component's styles live in a theme that can be customized or replaced via extendTheme and ThemeProvider. MIT licensed, with per-component documentation.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input", "select", "loader", "progress", "badge", "alert", "list"],
+  "keywords": ["cli", "terminal", "tui", "command line", "ink", "react", "component library", "text input", "email input", "password input", "select", "multi select", "spinner", "progress bar", "badge", "status message", "alert", "list", "theme", "theming", "open source"],
+  "contains": ["13 components: text/email/password/confirm inputs, select, multi select, spinner, progress bar, badge, alert, lists", "theming via theme files, extendTheme and ThemeProvider", "component documentation and examples", "MIT licensed"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "ink", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/vadimdemedes/ink-ui", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

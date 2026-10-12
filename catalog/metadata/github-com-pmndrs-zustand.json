@@ -1,0 +1,35 @@
+{
+  "id": "github-com-pmndrs-zustand",
+  "url": "https://github.com/pmndrs/zustand",
+  "kind": "repo",
+  "hints_hash": "d166f35d5af1e004",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/pmndrs/zustand/blob/HEAD/README.md", "title": "Recipes", "status": null},
+    {"url": "https://github.com/pmndrs/zustand", "title": "GitHub - pmndrs/zustand: 🐻 Bear necessities for state management in React · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Zustand",
+  "summary": "Small, fast state management for React built on simplified flux principles, as a hook you can use anywhere.",
+  "description": "State management for React in a small package: create a store hook with create(), use it anywhere without context providers, and components re-render when selected state changes. Recipes cover selecting multiple slices with useShallow, async actions, transient updates, persist, immer and redux-devtools middleware, and the core can also be used without React. Unopinionated about structure, with a separate TypeScript usage guide.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["react", "state management", "store", "hook", "flux", "redux alternative", "middleware", "persist", "immer", "typescript", "vanilla store", "state", "zustand"],
+  "contains": [
+    "store is a hook; no context providers needed",
+    "middleware: persist, immer, devtools and subscribeWithSelector",
+    "core usable without React",
+    "58.8k stars, 2.2k forks on GitHub",
+    "TypeScript usage guide and beginner/advanced guides",
+    "MIT licensed"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/pmndrs/zustand", "docs": "https://github.com/pmndrs/zustand/blob/HEAD/docs/index.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

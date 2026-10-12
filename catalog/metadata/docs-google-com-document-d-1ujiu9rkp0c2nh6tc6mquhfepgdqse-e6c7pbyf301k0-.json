@@ -1,0 +1,28 @@
+{
+  "id": "docs-google-com-document-d-1ujiu9rkp0c2nh6tc6mquhfepgdqse-e6c7pbyf301k0-",
+  "url": "https://docs.google.com/document/d/1uJiU9Rkp0C2nH6TC6mQUhfePGDQSE-e6C7PbyF301K0/edit?usp=sharing",
+  "kind": "page",
+  "hints_hash": "affe9d30db4ecfa1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://docs.google.com/document/d/1uJiU9Rkp0C2nH6TC6mQUhfePGDQSE-e6C7PbyF301K0/edit?usp=sharing", "title": "W49 - Google Dokümanlar", "status": null},
+    {"url": "https://docs.google.com/document/d/1uJiU9Rkp0C2nH6TC6mQUhfePGDQSE-e6C7PbyF301K0/mobilebasic", "title": "W49", "status": 200}
+  ],
+  "status": "partial",
+  "name": "W49",
+  "summary": "Doc listing newly released free display fonts — Murs Gothic, Saflers, Broke, Exotica — each linked to its Behance page.",
+  "description": "A shared Google Doc that collects newly released free display fonts for commercial use: Murs Gothic, Saflers, Broke and Exotica, each with a link to its Behance gallery, plus a pointer to Fontshelf.com for organising fonts in Photoshop and Illustrator.",
+  "type": "directory",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["free font", "display font", "free commercial font", "font list", "typeface", "graphic design font", "behance font", "font resource", "typography", "free typeface", "font collection"],
+  "contains": ["free display fonts with Behance links (Murs Gothic, Saflers, Broke, Exotica)", "pointer to fontshelf.com"],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

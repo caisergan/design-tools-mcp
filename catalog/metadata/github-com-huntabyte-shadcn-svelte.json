@@ -1,0 +1,32 @@
+{
+ "id": "github-com-huntabyte-shadcn-svelte",
+ "url": "https://github.com/huntabyte/shadcn-svelte",
+ "kind": "repo",
+ "hints_hash": "91e529676f7e349d",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:11:07Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/huntabyte/shadcn-svelte/blob/HEAD/README.md", "title": "shadcn-svelte", "status": 200},
+  {"url": "https://shadcn-svelte.com/docs", "title": "Introduction - shadcn-svelte", "status": 200},
+  {"url": "https://shadcn-svelte.com/llms.txt", "title": "shadcn-svelte", "status": 200},
+  {"url": "https://shadcn-svelte.com/docs/components", "title": "Components - shadcn-svelte", "status": 200},
+  {"url": "https://shadcn-svelte.com/docs/components/tabs", "title": "Tabs - shadcn-svelte", "status": 200},
+  {"url": "https://shadcn-svelte.com/docs/components/tooltip", "title": "Tooltip - shadcn-svelte", "status": 200}
+ ],
+ "status": "ok",
+ "name": "shadcn-svelte",
+ "summary": "Community Svelte port of shadcn/ui: copy-paste components built with Bits UI and Tailwind CSS.",
+ "description": "An unofficial community-led Svelte port of shadcn/ui: accessible, customizable components you copy into your app, built with TypeScript, Tailwind CSS and Bits UI primitives. The docs cover installation for SvelteKit, Vite and Astro, theming, dark mode, forms and a per-component catalog; a CLI adds components and a registry publishes and distributes them.",
+ "type": "component-library",
+ "categories": ["components"],
+ "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "chat", "checkbox", "command-palette", "date-picker", "file-upload", "input", "modal", "otp-input", "select", "tabs", "tooltip"],
+ "keywords": ["svelte", "sveltekit", "shadcn", "component library", "bits ui", "tailwind css", "typescript", "copy paste component", "cli", "registry", "dark mode", "accessible", "accordion", "calendar", "combobox", "date picker", "otp input", "tabs", "tooltip"],
+ "contains": ["copy-paste Svelte components built with Bits UI and Tailwind CSS", "form and input components: button, checkbox, combobox, date picker, field, input, input OTP, select", "first components: accordion, alert, alert dialog, attachment, avatar, badge, breadcrumb, calendar, card", "tabs and tooltip component docs", "CLI to add components and a registry to publish and distribute code", "installation guides for SvelteKit, Vite and Astro"],
+ "formats": ["code", "cli", "registry", "docs"],
+ "stack": ["svelte", "typescript", "tailwind", "bits-ui"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/huntabyte/shadcn-svelte", "docs": "https://shadcn-svelte.com/docs", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.75
+}

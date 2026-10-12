@@ -1,0 +1,27 @@
+{
+  "id": "framer-com-marketplace-templates-bluva",
+  "url": "https://framer.com/marketplace/templates/bluva",
+  "kind": "page",
+  "hints_hash": "e3149d0fdc283674",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/templates/bluva", "title": "Bluva — Free Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Bluva",
+  "summary": "Free dark agency and portfolio website template for Framer with 7 pages, CMS collections and a Figma file.",
+  "description": "Dark, editorial Framer template for creative studios, digital agencies, branding agencies and freelancers. Includes 7 designed pages, 2 CMS collections (Projects + Articles), a homepage video section and editorial photography layouts, plus an editable Figma design file, a getting-started guide and lifetime updates. Built natively in Framer with drag-and-drop editing, global color and font styles and no coding required.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["framer template", "agency template", "portfolio template", "dark theme", "dark mode", "creative studio", "digital agency", "freelancer portfolio", "case study", "cms template", "blog", "editorial design", "free template", "website template"],
+  "contains": ["free dark agency and portfolio template for Framer", "7 designed pages; 2 CMS collections (Projects + Articles)", "video section on the homepage; editorial photography layouts", "editable Figma file, getting-started guide and lifetime updates", "Framer Marketplace license: Limited"],
+  "formats": ["framer-file", "figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

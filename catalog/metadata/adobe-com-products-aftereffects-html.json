@@ -1,0 +1,14 @@
+{
+  "id": "adobe-com-products-aftereffects-html",
+  "url": "https://adobe.com/products/aftereffects.html",
+  "kind": "page",
+  "hints_hash": "11df4eaa33839c81",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://adobe.com/products/aftereffects.html", "title": null, "status": 403}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

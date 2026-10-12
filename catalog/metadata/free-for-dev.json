@@ -1,0 +1,76 @@
+{
+  "id": "free-for-dev",
+  "url": "https://free-for.dev",
+  "kind": "site",
+  "hints_hash": "37715804b85dd2e8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://free-for.dev",
+      "title": "Free for Developers",
+      "status": null
+    },
+    {
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "title": "GitHub - ripienaar/free-for-dev: A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ripienaar/free-for-dev/master/README.md",
+      "title": "free-for.dev",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "free-for.dev",
+  "summary": "Community-maintained list of SaaS, PaaS and IaaS services that offer free tiers for developers, devops and infrastructure engineers.",
+  "description": "A long-running list of software and services with free developer tiers, from major cloud providers and source code repos to APIs/data/ML, CI/CD, testing, security and collaboration tools. Built from pull requests by 1600+ people and maintained in the ripienaar/free-for-dev GitHub repository, published as the free-for.dev website.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "free tier",
+    "free developer tool",
+    "free hosting",
+    "free database",
+    "cloud free tier",
+    "devop",
+    "infrastructure",
+    "awesome list",
+    "saas",
+    "paas",
+    "iaas",
+    "ci cd",
+    "developer resource",
+    "free api"
+  ],
+  "contains": [
+    "SaaS, PaaS and IaaS offerings with free developer tiers",
+    "sections: cloud providers, code repos, APIs/data/ML, artifact repos, CI/CD, testing, security, auth",
+    "built by 1600+ contributors",
+    "139.4k stars and 14.8k forks on GitHub"
+  ],
+  "formats": [
+    "links",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/ripienaar/free-for-dev",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

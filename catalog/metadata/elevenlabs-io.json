@@ -1,0 +1,31 @@
+{
+  "id": "elevenlabs-io",
+  "url": "https://elevenlabs.io",
+  "kind": "site",
+  "hints_hash": "08ac626f4e7e757e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://elevenlabs.io/llms.txt", "title": "ElevenLabs", "status": null},
+    {"url": "https://elevenlabs.io", "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs", "status": 200},
+    {"url": "https://elevenlabs.io/docs/llms-full.txt", "title": "ElevenLabs Documentation", "status": 200},
+    {"url": "https://elevenlabs.io/pricing", "title": "ElevenLabs Pricing for Creators & Businesses of All Sizes", "status": 200},
+    {"url": "https://elevenlabs.io/about", "title": "AI research and products that reimagine human-technology", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ElevenLabs",
+  "summary": "AI audio platform for text-to-speech, voice cloning, music, dubbing and voice agents, with APIs and SDKs.",
+  "description": "Voice AI platform in three parts: ElevenCreative for speech, music, sound effects, dubbing, image and video; ElevenAgents for deploying voice and chat agents; and ElevenAPI, the models plus SDKs for developers. Text to speech covers 90+ languages with voice cloning and prompt-based voice design, and a hosted MCP server exposes agent management and media generation to AI clients.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["text to speech", "tts", "voice cloning", "ai voice", "voice generator", "speech to text", "dubbing", "voice agent", "ai music", "sound effect", "audiobook", "podcast", "audio api", "mcp server"],
+  "contains": ["5,000+ voices in 90+ languages; 10,000+ voices in the library", "voice cloning, voice design from a prompt and voice isolator", "APIs and SDKs for text to speech, speech to text, music, sound effects and agents", "hosted MCP server with OAuth for ChatGPT, Claude, Cursor and other clients", "ElevenAgents for support and sales voice or chat agents", "free plan with 10k credits/mo; Creator $22/mo, Pro $99/mo, Scale $299/mo"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://elevenlabs.io/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

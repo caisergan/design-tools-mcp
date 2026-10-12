@@ -1,0 +1,20 @@
+{
+  "id": "jobs-ashbyhq-com-mobbin-com-4fc53cf8-744d-4281-a609-5236a2a3afd3",
+  "url": "https://jobs.ashbyhq.com/mobbin.com/4fc53cf8-744d-4281-a609-5236a2a3afd3",
+  "kind": "page",
+  "hints_hash": "96c9c059d38a240a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:15:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jobs.ashbyhq.com/mobbin.com/4fc53cf8-744d-4281-a609-5236a2a3afd3", "title": "Marketing & Motion Designer (part-time) @ Mobbin", "status": null}
+  ],
+  "status": "partial",
+  "name": "Marketing & Motion Designer (part-time) @ Mobbin",
+  "summary": "Part-time Marketing & Motion Designer job posting at Mobbin, the design reference library.",
+  "description": "A job posting on Ashby for a part-time Marketing & Motion Designer at Mobbin, a design reference platform serving over 3 million users. The posting body renders with JavaScript, so only the title and the employer description were readable.",
+  "elements": [],
+  "keywords": ["job posting", "job opening", "motion designer", "marketing designer", "part time", "design job", "motion design", "design career", "hiring", "design reference"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

@@ -1,0 +1,19 @@
+{
+  "id": "forms-gle-iowpqdl74ymwzwnm8",
+  "url": "https://forms.gle/iowPQdL74YmWzwnM8",
+  "kind": "page",
+  "hints_hash": "2cd9bdc1b51a91cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:55:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://forms.gle/iowPQdL74YmWzwnM8", "title": "ETERNAL FAITH Developer Application", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ETERNAL FAITH Developer Application",
+  "summary": "Developer application form for the Roblox game ETERNAL FAITH, now closed to new responses.",
+  "description": "A Google Form that collected developer applications for the Roblox game ETERNAL FAITH. The form is closed — it no longer accepts responses — and points applicants to the project's X account and Discord server.",
+  "keywords": ["developer application", "application form", "roblox", "game development", "game dev", "recruiting form", "closed form"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

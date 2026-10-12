@@ -1,0 +1,31 @@
+{
+  "id": "ruben-substack-com-p-claude-cowork-20",
+  "url": "https://ruben.substack.com/p/claude-cowork-20",
+  "kind": "page",
+  "hints_hash": "383aecc429a34075",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-cowork-20", "title": "Cowork. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Cowork (How to AI)",
+  "summary": "April 2026 guide to setting up Claude Cowork: folder structure, instruction files and saving credits.",
+  "description": "A free How to AI guide by Ruben Hassid for people who don't code. It shows how to set up Claude Cowork around a folder of about-me, writing-style and company files, how to write global instructions, how to trim context bloat, how to save credits, and what to do in your first 20 minutes with it.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["ai agent", "ai assistant", "ai workspace", "setup guide", "custom instruction", "global instruction", "context window", "prompt", "ai workflow", "productivity", "folder structure", "writing style"],
+  "contains": [
+    "free guide, April 2026 update",
+    "Cowork folder structure: ABOUT ME, OUTPUTS, TEMPLATES",
+    "prompts for about-me, anti-ai-writing-style and company files",
+    "credit-saving tips and a first-20-minutes walkthrough"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.8
+}

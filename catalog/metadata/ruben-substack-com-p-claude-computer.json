@@ -1,0 +1,26 @@
+{
+  "id": "ruben-substack-com-p-claude-computer",
+  "url": "https://ruben.substack.com/p/claude-computer",
+  "kind": "page",
+  "hints_hash": "b479b84759a572fa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-computer", "title": "Claude is now YOUR computer. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Claude is now YOUR computer.",
+  "summary": "Guide to Claude's computer use: enabling it on macOS, phone-driven use cases, and scheduling recurring tasks.",
+  "description": "A How to AI newsletter issue walking through Claude's computer use: installing the desktop app, turning on browser and computer use, granting accessibility and screen recording access, and pairing the phone app with Dispatch. It then shows use cases driven from a phone, such as pulling dashboard data, finding a freelancer or hunting viral ads, and how to schedule recurring tasks with a prompt, frequency, model and folder.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["claude", "computer use", "ai agent", "desktop automation", "claude dispatch", "scheduled task", "ai workflow", "mac", "ai guide", "newsletter", "anthropic"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

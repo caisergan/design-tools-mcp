@@ -1,0 +1,31 @@
+{
+  "id": "javascript-info",
+  "url": "https://javascript.info",
+  "kind": "site",
+  "hints_hash": "8b0d9f20568db2d0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://javascript.info", "title": "The Modern JavaScript Tutorial", "status": 200},
+    {"url": "https://javascript.info/intro", "title": "An Introduction to JavaScript", "status": 200},
+    {"url": "https://javascript.info/about", "title": "About the project", "status": 200},
+    {"url": "https://javascript.info/getting-started", "title": "An introduction", "status": 200},
+    {"url": "https://javascript.info/terms", "title": "Terms of Usage", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The Modern JavaScript Tutorial",
+  "summary": "Open-source, book-style JavaScript tutorial: from basics to advanced language and browser topics, with tasks and examples.",
+  "description": "A free, book-style tutorial covering JavaScript as a language (fundamentals, code quality, objects, prototypes, classes, error handling, promises and async/await, generators, modules) and the browser (DOM, events, forms, network requests, animation, Web components, regular expressions). Created in 2007 by Ilya Kantor and maintained as an open-source project with translations into 15+ languages; the full text is also sold as an EPUB/PDF ebook of about 1,300 pages.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["javascript tutorial", "learn javascript", "js book", "javascript course", "async await", "promise", "closure", "dom", "event handling", "fetch", "es6", "regular expression", "open source", "epub", "pdf", "frontend basics"],
+  "contains": ["2 main parts: the JavaScript language and browser (Document, Events, Interfaces), plus additional articles", "15 interface languages incl. EN, RU, ZH, ES, FR, TR", "tasks and runnable examples in the chapters", "ebook: EPUB/PDF, ~1,300 pages", "open-source project with 25,495 GitHub stars (as crawled)"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "CC-BY-NC-SA-3.0",
+  "related": {"repo": "https://github.com/javascript-tutorial/en.javascript.info", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,20 @@
+{
+  "id": "github-com-ggml-org-llama-cpp-pull-28576",
+  "url": "https://github.com/ggml-org/llama.cpp/pull/28576",
+  "kind": "page",
+  "hints_hash": "7c04e3e97e55a9ab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ggml-org/llama.cpp/pull/28576", "title": "HIP: fattn-mma: use fp32 accumulation on MFMA devices by IMbackK · Pull Request #28576 · ggml-org/llama.cpp · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "HIP: fattn-mma: use fp32 accumulation on MFMA devices (#28576)",
+  "summary": "Merged llama.cpp pull request: fp32 accumulation in the HIP fattn-mma path on MFMA devices, with gfx908 flash-attention benchmarks.",
+  "description": "Pull request #28576 in ggml-org/llama.cpp, merged 14 Sep 2026 from IMbackK:cdnafp32accum. It skips the post-V_MFMA fp16 downcast in the HIP fattn-mma path so MFMA (CDNA, ROCm) devices accumulate in fp32 — some performance and slightly better accuracy, at the cost of higher VGPR pressure; the 64,64,64 case was retuned. Benchmarks on gfx908 @ 190 W show 1.18–1.24x FLASH_ATTN_EXT throughput on several shapes.",
+  "keywords": ["llama.cpp", "pull request", "hip", "rocm", "mfma", "cdna", "gfx908", "fp32 accumulation", "flash attention", "fattn-mma", "amd gpu", "llm inference", "benchmark"],
+  "contains": ["merged 14 Sep 2026, 2 commits from IMbackK:cdnafp32accum into ggml-org:master", "post-V_MFMA fp16 downcast skipped for VKQ, so accumulation stays f32", "gfx908 benchmarks: 1.18–1.24x on some FLASH_ATTN_EXT shapes; 64,64,64 case retuned"],
+  "related": {"repo": "https://github.com/ggml-org/llama.cpp", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.8
+}

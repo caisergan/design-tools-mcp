@@ -1,0 +1,67 @@
+{
+  "id": "plugins-jetbrains-com-plugin-23479-shadcn-ui-components-manager",
+  "url": "https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager",
+  "kind": "page",
+  "hints_hash": "c59742f3bf88cdec",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager",
+      "title": "shadcn/ui Components Manager - IntelliJ IDEs Plugin | Marketplace",
+      "status": null
+    },
+    {
+      "url": "https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager",
+      "title": "shadcn/ui Components Manager - IntelliJ IDEs Plugin | Marketplace",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "shadcn/ui Components Manager",
+  "summary": "JetBrains IDE plugin to add, remove and update shadcn/ui components in Svelte, React, Vue and Solid projects.",
+  "description": "A plugin for JetBrains IDEs that manages a project's shadcn/ui components: adding, removing and updating them, with support for Svelte, React, Vue and Solid projects.",
+  "type": "plugin",
+  "categories": [
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "jetbrain",
+    "intellij",
+    "plugin",
+    "ide",
+    "shadcn",
+    "component",
+    "svelte",
+    "react",
+    "vue",
+    "solid",
+    "editor extension",
+    "cli"
+  ],
+  "contains": [
+    "JetBrains IDE plugin",
+    "add, remove and update shadcn/ui components",
+    "supports Svelte, React, Vue and Solid"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

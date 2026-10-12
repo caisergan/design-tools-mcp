@@ -1,0 +1,48 @@
+{
+  "id": "wikiart-org",
+  "url": "https://wikiart.org",
+  "kind": "site",
+  "hints_hash": "954154e77a05872b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://wikiart.org", "title": "WikiArt.org - Visual Art Encyclopedia", "status": null},
+    {"url": "https://www.wikiart.org/en/paintings-by-style", "title": "Artworks by style - WikiArt.org", "status": 200}
+  ],
+  "status": "ok",
+  "name": "WikiArt.org",
+  "summary": "Visual art encyclopedia: searchable database of paintings with artist biographies and artwork descriptions.",
+  "description": "WikiArt is a visual art database of paintings and photographs, organised by artist, art movement, school and group, genre, field, nationality, century and art institution, with cross-indexes of artworks by style, genre and media. Artwork pages carry details such as the artist and completion year; the site also shows an artwork of the day, short films, art news and a shop for prints and reproductions.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": [
+    "art database",
+    "painting",
+    "artwork",
+    "art encyclopedia",
+    "artist biography",
+    "art movement",
+    "art style",
+    "art genre",
+    "classical painting",
+    "art reference image",
+    "visual art",
+    "art history"
+  ],
+  "contains": [
+    "browse by artist, art movement, school and group, genre, field, nationality, century and art institution",
+    "cross-indexes: artworks by style, by genre and by media",
+    "artwork pages with artist, completion year and other details",
+    "artwork of the day and a short film of the month",
+    "available in English, German, Spanish, French, Portuguese, Russian, Ukrainian and Chinese",
+    "art news posts plus a shop for prints, posters and reproductions"
+  ],
+  "formats": ["png", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

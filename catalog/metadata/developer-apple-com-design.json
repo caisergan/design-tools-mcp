@@ -1,0 +1,54 @@
+{
+  "id": "developer-apple-com-design",
+  "url": "https://developer.apple.com/design",
+  "kind": "page",
+  "hints_hash": "c1201485be67b634",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:37:07Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://developer.apple.com/design",
+      "title": "Design - Apple Developer",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Design - Apple Developer",
+  "summary": "Apple's design hub: Human Interface Guidelines, Figma and Sketch templates, SF Symbols, Icon Composer and design videos.",
+  "description": "Apple's landing page for designing apps and games for its platforms: the Human Interface Guidelines, Apple Design Resources (Figma and Sketch templates, color guides), Icon Composer, the SF Symbols library of 7,000+ symbols, Pass Designer, Reality Composer Pro, design videos, developer stories, the Apple Design Awards and a Design Pathway for newcomers.",
+  "type": "design-system",
+  "categories": [
+    "design-rules",
+    "design-tools",
+    "icons"
+  ],
+  "keywords": [
+    "human interface guideline",
+    "apple design resource",
+    "sf symbol",
+    "figma template",
+    "sketch template",
+    "app icon",
+    "design guideline",
+    "ios design",
+    "liquid glass",
+    "design video",
+    "apple design award",
+    "icon composer"
+  ],
+  "formats": [
+    "docs",
+    "templates",
+    "video",
+    "figma-file"
+  ],
+  "related": {
+    "parent": "developer-apple-com"
+  },
+  "confidence": 0.85
+}

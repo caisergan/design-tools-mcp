@@ -1,0 +1,34 @@
+{
+  "id": "404-colorion-co",
+  "url": "https://404.colorion.co",
+  "kind": "site",
+  "hints_hash": "c82d2e4c59daab10",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://404.colorion.co", "title": "404 Animation Library — free CSS 404 page animations to copy", "status": null}
+  ],
+  "status": "ok",
+  "name": "404 Animation Library",
+  "summary": "42 ready-to-copy 404 page animations built with pure CSS, each with copy-paste code or an AI prompt.",
+  "description": "A library of 404 error page animations written in pure CSS — no JavaScript, no dependencies. Click any animation to copy its self-contained CSS or a prompt for a coding agent to recreate it, and pick an accent color per animation. Every animation respects prefers-reduced-motion, and the library is MIT licensed.",
+  "type": "block-library",
+  "categories": ["motion", "sections"],
+  "elements": ["404"],
+  "keywords": ["404 page", "404 animation", "error page", "css animation", "pure css", "copy paste css", "no javascript", "animation library", "prefers-reduced-motion", "mit license", "error page design", "coding agent prompt"],
+  "contains": [
+    "42 404 page animations",
+    "pure CSS with no JavaScript or dependencies",
+    "copy self-contained CSS or a prompt for a coding agent",
+    "accent color choices per animation",
+    "respects prefers-reduced-motion",
+    "MIT licensed, free to copy"
+  ],
+  "formats": ["code", "prompts"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,23 @@
+{
+  "id": "refero-design-styles",
+  "url": "https://refero.design/styles",
+  "kind": "page",
+  "hints_hash": "004da261fb033a19",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://refero.design/styles", "title": "Refero — UI/UX Design Inspiration for Your Next Project", "status": 200 },
+    { "url": "https://refero.design/llms.txt", "title": "Refero", "status": 200 }
+  ],
+  "status": "partial",
+  "name": "Refero Styles",
+  "summary": "Refero's collection of visual styles from real web and iOS products, covering typography, color, layout, spacing, surfaces and components.",
+  "keywords": ["design inspiration", "ui style", "visual style", "design reference", "typography", "color", "layout", "spacing", "surface", "component", "web design", "ios design", "screenshot", "design research", "style library"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "refero-design" },
+  "confidence": 0.65
+}

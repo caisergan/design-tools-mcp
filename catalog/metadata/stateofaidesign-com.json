@@ -1,0 +1,28 @@
+{
+  "id": "stateofaidesign-com",
+  "url": "https://stateofaidesign.com",
+  "kind": "site",
+  "hints_hash": "0cf22462d5eff7b6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://stateofaidesign.com", "title": "AI in Design Report 2026", "status": null},
+    {"url": "https://stateofaidesign.com/about", "title": "About AI in Design 2026", "status": null}
+  ],
+  "status": "ok",
+  "name": "AI in Design Report 2026",
+  "summary": "Designer Fund report on how design teams use AI — 900+ designers surveyed, chapters on tools, craft and teams, plus case study videos.",
+  "description": "The second annual research report from Designer Fund in partnership with Foundation Capital on how design teams are adapting to AI. It draws on 900+ survey responses from designers in 60+ countries and 25+ interviews with practitioners and leaders, and is organised into three chapters — Tools (toolstack shakeup), Craft (designers coding, speed vs quality), Teams (blurring roles, hiring) — plus filmed case studies with the design teams at Anthropic, Framer, Linear, Notion, Shopify, Sierra and Stripe. A markdown version of the report can be downloaded.",
+  "type": "article",
+  "categories": ["learning", "design-rules"],
+  "elements": [],
+  "keywords": ["ai in design", "design report", "survey", "ai adoption", "design team", "design tool", "design career", "hiring", "case study", "design leader", "design workflow", "research"],
+  "contains": ["900+ designers surveyed in 60+ countries", "25+ interviews with practitioners and leaders", "chapters: Tools, Craft, Teams", "video case studies at Sierra, Linear, Shopify, Stripe, Anthropic; Notion and Framer coming soon", "markdown version of the report downloadable", "second annual edition (first in 2025)"],
+  "formats": ["docs", "video"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "github-com-petergyang-no-ai-slop",
+  "url": "https://github.com/petergyang/no-ai-slop",
+  "kind": "repo",
+  "hints_hash": "d2bdd358c6c162ee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/petergyang/no-ai-slop/blob/HEAD/README.md", "title": "No AI Slop", "status": 200}
+  ],
+  "status": "ok",
+  "name": "No AI Slop",
+  "summary": "Agent skill that removes 20+ patterns of AI slop from writing while keeping the author's voice.",
+  "description": "A skill for ChatGPT, Claude Code, Codex and other coding agents that edits writing to remove 20+ AI slop patterns — binary contrasts, throat-clearing openers, faux-insight setups, importance puffery and more — without flattening the author's vocabulary or cadence. It can edit, detect slop, or generate slop as satire, and installs by pasting a prompt into an agent or with npx.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai slop", "writing", "editing", "copy editing", "agent skill", "claude skill", "claude code", "chatgpt", "codex", "prompt", "detection", "satire", "skill"],
+  "contains": ["20+ slop patterns it catches", "modes: edit writing, detect slop, generate slop for fun", "ships as SKILL.md, eval.md and a ChatGPT/Codex plugin", "installs by paste or npx"],
+  "formats": ["prompts", "cli"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/petergyang/no-ai-slop", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

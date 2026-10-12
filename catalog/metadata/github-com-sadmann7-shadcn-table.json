@@ -1,0 +1,39 @@
+{
+  "id": "github-com-sadmann7-shadcn-table",
+  "url": "https://github.com/sadmann7/shadcn-table",
+  "kind": "repo",
+  "hints_hash": "d9833c39af8e53d4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/sadmann7/shadcn-table/blob/HEAD/README.md", "title": "tablecn", "status": 200},
+    {"url": "https://github.com/sadmann7/shadcn-table", "title": "GitHub - sadmann7/tablecn: Data table and data grid components built with shadcn/ui, featuring sorting, filtering, pagination, infinite scrolling, and real-time collaboration. · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/sadmann7/shadcn-table/HEAD/LICENSE.md", "title": "MIT License", "status": 200},
+    {"url": "https://tablecn.com", "title": "tablecn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "tablecn",
+  "summary": "Data table and data grid components for shadcn/ui with server-side sorting, filtering, pagination and real-time collaboration.",
+  "description": "A shadcn/ui data table and data grid component set built on TanStack Table and TanStack DB. Features server-side pagination, sorting and filtering, customizable columns, filters generated from column definitions, Notion/Airtable-like advanced filtering, a Linear-like command palette filter menu, a row-selection action bar and infinite scrolling with virtualization. A separate PartyKit/PartyServer demo adds real-time multiplayer over PostgreSQL with Drizzle ORM; the repository is now named tablecn and ships 13 registry items, demoed at tablecn.com.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["table", "pagination", "command-palette", "input"],
+  "keywords": ["data table", "data grid", "server-side pagination", "sorting", "filtering", "advanced filter", "column customization", "infinite scroll", "virtualization", "row selection", "real-time collaboration", "multiplayer", "tanstack table", "tanstack db", "drizzle", "postgresql", "partykit", "shadcn", "registry", "react", "nextjs", "tailwind", "zod", "command palette"],
+  "contains": [
+    "data table and data grid components built with shadcn/ui and TanStack Table",
+    "server-side pagination, sorting and filtering; auto-generated filters from column definitions",
+    "Notion/Airtable-like advanced filtering; Linear-like command palette filter menu",
+    "customizable columns; row-selection action bar; infinite scrolling with virtualization",
+    "real-time collaboration via PartyKit/PartyServer and TanStack DB",
+    "PostgreSQL with Drizzle ORM; Zod validation",
+    "13 registry items; install with the shadcn CLI",
+    "MIT licensed; 6.3k GitHub stars; demo and docs at tablecn.com"
+  ],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "tanstack-table", "tanstack-db", "postgresql", "drizzle", "zod", "partykit"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/sadmann7/shadcn-table", "docs": "https://tablecn.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

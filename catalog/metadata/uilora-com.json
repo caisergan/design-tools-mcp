@@ -1,0 +1,154 @@
+{
+  "id": "uilora-com",
+  "url": "https://uilora.com",
+  "kind": "site",
+  "hints_hash": "8c66cdf524215740",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:00:41Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uilora.com/llms.txt",
+      "title": "Uilora - llms.txt",
+      "status": null
+    },
+    {
+      "url": "https://uilora.com",
+      "title": "Uilora - Premium UI Components for Next.js & React Native",
+      "status": 200
+    },
+    {
+      "url": "https://www.uilora.com/pricing",
+      "title": "Pricing — Uilora | Lifetime Access to 490+ UI Components | Uilora",
+      "status": 200
+    },
+    {
+      "url": "https://www.uilora.com/get-started/web/mcp",
+      "title": "Model Context Protocol (MCP) | AI-Assisted UI Development | Uilora",
+      "status": 200
+    },
+    {
+      "url": "https://www.uilora.com/about",
+      "title": "About Uilora | Founder Story, Mission & Timeline | Uilora",
+      "status": 200
+    },
+    {
+      "url": "https://www.uilora.com/terms",
+      "title": "Terms of Service | Uilora | Uilora",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Uilora",
+  "summary": "700+ animation-first React, Next.js and React Native components, copy-paste ready.",
+  "description": "A component library for web (Next.js App Router) and mobile (React Native / Expo): navigation and structure, forms, cards, modals, toasts, pricing/stats/testimonials/FAQ sections, hero and landing pages, backgrounds and motion pieces like scroll reveals, text animations and magnetic cursor, plus React Native UI, loaders and splash screens. Copy the TSX source or install via CLI; an MCP server lets AI editors browse and add components.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections",
+    "motion"
+  ],
+  "elements": [
+    "navbar",
+    "footer",
+    "sidebar",
+    "hero",
+    "pricing",
+    "stats",
+    "testimonials",
+    "features",
+    "faq",
+    "timeline",
+    "bento-grid",
+    "dashboard",
+    "404",
+    "chat",
+    "form",
+    "file-upload",
+    "button",
+    "card",
+    "toast",
+    "modal",
+    "badge",
+    "avatar",
+    "tabs",
+    "accordion",
+    "pagination",
+    "breadcrumbs",
+    "carousel",
+    "background",
+    "text-effect",
+    "cursor",
+    "loader",
+    "3d",
+    "scroll-effect"
+  ],
+  "variants": {
+    "navbar": [
+      "mega-menu"
+    ]
+  },
+  "keywords": [
+    "ui component library",
+    "react component",
+    "nextjs component",
+    "react native component",
+    "animated component",
+    "motion",
+    "tailwind",
+    "framer motion",
+    "gsap",
+    "copy paste component",
+    "background",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "modal",
+    "toast",
+    "timeline",
+    "dashboard",
+    "template",
+    "mcp server"
+  ],
+  "contains": [
+    "700+ components: 490+ web and 200+ mobile per the pricing page",
+    "web: navbars, mega menus, forms, modals, toasts, pricing, testimonials, FAQ, timelines, backgrounds",
+    "landing page sets: hero sections, auth pages, SaaS dashboards, agency/portfolio",
+    "React Native / Expo components: buttons, cards, loaders, toasts, splash screens",
+    "MCP server tools: listcomponents, viewcomponent, addcomponent (Cursor, VS Code, Windsurf)",
+    "stack: Next.js App Router, TypeScript, Tailwind, Framer Motion, GSAP, Three.js",
+    "pricing: free tier plus Pro/Ultimate lifetime plans"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "react-native",
+    "expo",
+    "typescript",
+    "tailwind",
+    "framer-motion",
+    "gsap",
+    "three.js"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://www.uilora.com/get-started/web/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

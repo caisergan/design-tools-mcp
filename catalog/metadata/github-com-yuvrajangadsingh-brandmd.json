@@ -1,0 +1,29 @@
+{
+  "id": "github-com-yuvrajangadsingh-brandmd",
+  "url": "https://github.com/yuvrajangadsingh/brandmd",
+  "kind": "repo",
+  "hints_hash": "edcb10009d026e68",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/yuvrajangadsingh/brandmd/blob/HEAD/README.md", "title": "brandmd", "status": null},
+    {"url": "https://github.com/yuvrajangadsingh/brandmd/blob/HEAD/SKILL.md", "title": "brandmd", "status": null},
+    {"url": "https://raw.githubusercontent.com/yuvrajangadsingh/brandmd/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "brandmd",
+  "summary": "Command-line tool that turns any website's design system into a spec-valid DESIGN.md for AI coding agents.",
+  "description": "Point npx brandmd at a public URL and it writes DESIGN.md in the official format (YAML token frontmatter plus prose sections) that passes the @google/design.md linter, with optional CSS custom properties, Tailwind v4 @theme, HTML brand guide and JSON outputs. Multi-page merge, dark-mode extraction and brandmd check / diff for CI drift detection are included.",
+  "type": "generator",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["design system", "design token", "brand token", "design.md", "css variable", "tailwind theme", "dark mode", "color palette", "typography", "spacing", "shadow", "border radius", "cli", "npm package", "agent skill", "ai coding agent", "drift detection", "ci"],
+  "contains": ["npx one-command CLI; default extraction runs locally with no API key", "outputs: DESIGN.md, CSS custom properties, Tailwind v4 @theme, HTML brand guide, JSON", "30 example DESIGN.md snapshots incl. Stripe, Linear, GitHub, Vercel", "brandmd check drift detection and brandmd diff comparison for CI", "optional vision pass for illustration, photography, voice and microcopy notes", "companion brand-skills repo with 5 installable example skills"],
+  "formats": ["cli", "npm-package", "code", "prompts"],
+  "stack": ["playwright"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/yuvrajangadsingh/brandmd", "docs": null, "npm": "brandmd", "figma": null, "parent": null},
+  "confidence": 0.9
+}

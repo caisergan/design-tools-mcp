@@ -1,0 +1,80 @@
+{
+  "id": "shadcn-google-maps-vercel-app",
+  "url": "https://shadcn-google-maps.vercel.app",
+  "kind": "site",
+  "hints_hash": "f7f18fb6fed1af78",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-google-maps.vercel.app/llms.txt",
+      "title": "shadcn-google-maps",
+      "status": null
+    },
+    {
+      "url": "https://shadcn-google-maps.vercel.app",
+      "title": "Shadcn Google Maps",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-google-maps",
+  "summary": "Address autocomplete component for shadcn/ui built on the Google Places API (New), with typed place results.",
+  "description": "A copy-paste or CLI-installable PlacesAutocomplete component for Next.js apps. It loads the Maps JavaScript API, debounces input, fetches suggestions with AutocompleteSuggestion and resolves the selected place via fetchFields; session tokens and country restriction are supported.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "input",
+    "select"
+  ],
+  "keywords": [
+    "address autocomplete",
+    "google place",
+    "place autocomplete",
+    "address picker",
+    "location input",
+    "shadcn",
+    "react",
+    "nextjs",
+    "google map",
+    "places api",
+    "session token",
+    "maps api key",
+    "autocomplete input"
+  ],
+  "contains": [
+    "one registry component: PlacesAutocomplete",
+    "uses Places API (New) AutocompleteSuggestion, not the legacy widget",
+    "debounced input, default 300ms",
+    "country restriction via includedRegionCodes",
+    "typed place result on selection with session-token billing",
+    "installs with shadcn CLI or copy-paste from GitHub",
+    "requires a Google Maps JavaScript API key"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/gurbaaz27/shadcn-google-maps",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

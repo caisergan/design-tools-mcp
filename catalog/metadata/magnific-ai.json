@@ -1,0 +1,28 @@
+{
+  "id": "magnific-ai",
+  "url": "https://magnific.ai",
+  "kind": "site",
+  "hints_hash": "fcf4d074fd090d68",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://magnific.ai", "title": null, "status": 403},
+    {"url": "https://magnific.ai/pricing", "title": "Pricing plans | Magnific (formerly Freepik)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Magnific",
+  "summary": "AI creative suite (formerly Freepik) for image upscaling, generation and editing, video, audio, 3D and stock assets.",
+  "description": "Magnific is an AI creative platform with an image upscaler and enhancer, image and video generators and editors, audio tools (music, voice, sound effects), 3D scene and mockup generators, and a library of 250M+ stock photos, videos, vectors and PSDs. It also offers MCP and plugin integrations, Magnific for ComfyUI and credit-based API access.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "media"],
+  "elements": [],
+  "keywords": ["image upscaler", "image enhancer", "ai image generator", "ai video generator", "background remover", "image extender", "relight", "mockup generator", "icon generator", "3d generator", "stock photo", "music generator", "text to speech", "mcp", "comfyui", "api"],
+  "contains": ["image upscaler and enhancer", "AI image, video and audio model access (Magnific One, Nano Banana, Kling, Veo, ...)", "250M+ stock photos, videos, vectors and PSDs", "3D scenes, 3D generation, 3D 360, mockups and icon generator", "MCP, plugins and Magnific for ComfyUI", "API access with credit-based usage", "plans: Free, Premium, Premium+ and Pro Starter", "trusted by 1M+ subscribers"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

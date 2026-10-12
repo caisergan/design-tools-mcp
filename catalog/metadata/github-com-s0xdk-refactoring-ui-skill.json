@@ -1,0 +1,77 @@
+{
+  "id": "github-com-s0xdk-refactoring-ui-skill",
+  "url": "https://github.com/s0xDk/refactoring-ui-skill",
+  "kind": "repo",
+  "hints_hash": "8abd3cf6e89c890f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/s0xDk/refactoring-ui-skill/blob/HEAD/README.md",
+      "title": "Refactoring UI (Claude Code skill)",
+      "status": null
+    },
+    {
+      "url": "https://github.com/s0xDk/refactoring-ui-skill/blob/HEAD/SKILL.md",
+      "title": "Refactoring UI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Refactoring UI (Claude Code skill)",
+  "summary": "Claude Code skill that applies Refactoring UI's spacing, type, color and shadow rules when styling or reviewing UI.",
+  "description": "Installs the book's concrete decisions as a skill: fixed spacing, type, weight, radius and five-elevation shadow scales, hierarchy through weight and color, contrast minimums and a tokens.css file. Loaded as a personal skill or checked into a project repository for a team.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules",
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "design rule",
+    "refactoring ui",
+    "claude code skill",
+    "agent skill",
+    "spacing scale",
+    "type scale",
+    "color palette",
+    "shadow",
+    "border radius",
+    "visual hierarchy",
+    "design token",
+    "css variable",
+    "ui review",
+    "contrast"
+  ],
+  "contains": [
+    "fixed spacing, type, weight, radius and shadow scales",
+    "hierarchy through weight and color rather than font size",
+    "five shadow elevations and 9-shade grey and primary ramps",
+    "assets/tokens.css with contrast-verified tokens and a dark-mode block",
+    "install as a personal or project Claude Code skill",
+    "MIT for the repo; the book itself is not included"
+  ],
+  "formats": [
+    "prompts",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "css"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/s0xDk/refactoring-ui-skill",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

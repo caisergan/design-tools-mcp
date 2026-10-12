@@ -1,0 +1,30 @@
+{
+  "id": "uiinspoo-com",
+  "url": "https://uiinspoo.com",
+  "kind": "site",
+  "hints_hash": "a119a03d90c003b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uiinspoo.com/llms.txt", "title": "Uiinspoo", "status": null},
+    {"url": "https://uiinspoo.com", "title": "Uiinspoo — Daily Curated UI Design Inspiration | Uiinspoo", "status": 200},
+    {"url": "https://uiinspoo.com/categories", "title": "UI Design Categories | Uiinspoo", "status": 200},
+    {"url": "https://uiinspoo.com/categories.md", "title": "Categories — Uiinspoo", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Uiinspoo",
+  "summary": "Curated gallery of UI design screenshots and motion UI, browsable by 222 categories and by designer.",
+  "description": "Daily-updated gallery of interface screenshots: dashboards, mobile apps, landing pages, onboarding flows, e-commerce and motion UI. Designs are organised into 222 A–Z categories and by designer, with saved collections behind login. Every public page has a markdown variant (.md) plus llms.txt, llms-full.txt and an agent skill for programmatic browsing.",
+  "type": "gallery",
+  "categories": ["inspiration", "motion"],
+  "elements": ["card", "form", "3d", "chat", "badge", "list", "loader", "stats", "dashboard", "chart", "button", "carousel"],
+  "keywords": ["ui inspiration", "design gallery", "interface screenshot", "dashboard design", "mobile app design", "landing page design", "motion ui", "onboarding design", "designer profile", "ui pattern", "dark mode", "bento", "e-commerce", "app icon", "curated design"],
+  "contains": ["222 categories, A–Z (dashboard, onboarding, e-commerce, AI chat …)", "interface screenshots and motion UI, curated daily", "designer directory with profiles", "design detail pages with markdown variants (.md)", "llms.txt, llms-full.txt and /skill.md agent skill", "saved collections behind login"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

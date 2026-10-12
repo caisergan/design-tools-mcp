@@ -1,0 +1,29 @@
+{
+  "id": "whichai-dev",
+  "url": "https://whichai.dev",
+  "kind": "site",
+  "hints_hash": "9dc17459a57725c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://whichai.dev", "title": "Which AI Made This?", "status": null},
+    {"url": "https://www.whichai.dev/rankings", "title": "Which AI Made This?", "status": 200},
+    {"url": "https://www.whichai.dev/with-design-skill/fable-5.1/1", "title": "Which AI Made This?", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Which AI Made This?",
+  "summary": "Gallery comparing AI-generated landing pages from the same prompt across models, with and without a frontend design skill.",
+  "description": "Renders one landing-page prompt (a note-taking second-brain app) across twelve AI models in five iterations each, grouped by with or without Anthropic's frontend design skill and by the Taste and Uncodexify skill variants. Every generation keeps per-model generation cost (Haiku 5.5 $0.80, Fable 5.1 $12.29), a compare view puts two generations side by side, a guess-the-model lab quizzes visitors, and a rankings page holds the author's taste-based ranking of models for frontend design.",
+  "type": "gallery",
+  "categories": ["dev-ai-tools", "inspiration"],
+  "elements": ["navbar", "hero", "features", "card"],
+  "keywords": ["ai generated ui", "ai website", "model comparison", "llm benchmark", "frontend design", "landing page", "design skill", "prompt", "ui generation", "side by side comparison", "ai design", "coding agent"],
+  "contains": ["same landing-page prompt rendered by 12 models in 5 iterations", "groups: with design skill, without design skill, with taste skill, with uncodexify skill", "per-generation cost shown (Haiku 5.5 $0.80, Fable 5.1 $12.29)", "side-by-side compare view of two generations", "guess-the-model lab", "author rankings of models for frontend design"],
+  "formats": ["links", "app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

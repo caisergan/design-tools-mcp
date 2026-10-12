@@ -1,0 +1,119 @@
+{
+  "id": "maxibestof-one",
+  "url": "https://maxibestof.one",
+  "kind": "site",
+  "hints_hash": "4c248f78c5058105",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://maxibestof.one",
+      "title": "Web Design Inspiration, Sections & Fonts | MaxiBestOf",
+      "status": 200
+    },
+    {
+      "url": "https://maxibestof.one/sections",
+      "title": "Website Section Examples & Inspiration | MaxiBestOf",
+      "status": 200
+    },
+    {
+      "url": "https://maxibestof.one/about",
+      "title": "About MaxiBestOf",
+      "status": 200
+    },
+    {
+      "url": "https://maxibestof.one/templates",
+      "title": "Framer & Webflow Website Templates | MaxiBestOf",
+      "status": 200
+    },
+    {
+      "url": "https://maxibestof.one/typefaces",
+      "title": "Font Pairings & Typography Inspiration | MaxiBestOf",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MaxiBestOf",
+  "summary": "Gallery of real website designs, the sections they are built from, and the fonts they use, updated every weekday.",
+  "description": "Web design inspiration gallery with three browsable collections: websites tagged by industry (agency, e-commerce, portfolio, fashion …), section examples (hero, footer, header, feature, pricing, testimonial and more) and a typeface index showing fonts in use with pairings and alternatives. Also sells Framer and Webflow website templates. Aimed at designers and creative professionals; new picks every weekday.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "sections",
+    "fonts"
+  ],
+  "elements": [
+    "hero",
+    "navbar",
+    "footer",
+    "features",
+    "testimonials",
+    "cta",
+    "faq",
+    "pricing",
+    "stats",
+    "team",
+    "contact",
+    "logo-cloud",
+    "bento-grid",
+    "timeline",
+    "list",
+    "form",
+    "table",
+    "map",
+    "card"
+  ],
+  "keywords": [
+    "web design inspiration",
+    "website gallery",
+    "design gallery",
+    "section example",
+    "hero section",
+    "footer section",
+    "header design",
+    "navbar design",
+    "landing page inspiration",
+    "typography",
+    "font pairing",
+    "font in use",
+    "typeface",
+    "sans serif font",
+    "serif font",
+    "display font",
+    "webdesign",
+    "ui inspiration",
+    "daily inspiration",
+    "website template",
+    "framer template",
+    "webflow template"
+  ],
+  "contains": [
+    "websites tagged across 60+ industry categories",
+    "section examples: hero 896, footer 755, header 624, features 559",
+    "font inspiration in use with pairings, alternatives and coding fonts",
+    "5,621 premium section designs with the Pro plan",
+    "Framer and Webflow website templates for sale",
+    "weekly email roundup; updated every weekday"
+  ],
+  "formats": [
+    "screenshots",
+    "links",
+    "templates"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

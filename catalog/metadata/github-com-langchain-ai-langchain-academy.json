@@ -1,0 +1,28 @@
+{
+  "id": "github-com-langchain-ai-langchain-academy",
+  "url": "https://github.com/langchain-ai/langchain-academy",
+  "kind": "repo",
+  "hints_hash": "1dac85667c989656",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/langchain-ai/langchain-academy/blob/HEAD/README.md", "title": "langchain-academy", "status": 200},
+    {"url": "https://github.com/langchain-ai/langchain-academy", "title": "GitHub - langchain-ai/langchain-academy · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "LangChain Academy",
+  "summary": "Jupyter notebook course for building agents in LangGraph, from setup through deployment across modules 0-6.",
+  "description": "The repository behind LangChain Academy's Introduction to LangGraph: a growing set of modules (0-6) of Jupyter notebooks, each with a link to its lesson at the top. Module 0 is setup, modules 1-5 build progressively in LangGraph, and module 6 covers deploying agents; each module also has a studio/ folder of graphs for LangGraph Studio. Python 3.11-3.13, with OpenAI, LangSmith and Tavily API keys.",
+  "type": "course",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["langgraph", "langchain", "course", "jupyter notebook", "ai agent", "agent deployment", "python", "tutorial", "studio", "notebook"],
+  "contains": ["7 modules (0-6): setup, LangGraph themes, agent deployment", "a set of Jupyter notebooks per module, each linked to its LangChain Academy lesson", "studio/ folder of graphs per module for LangGraph Studio", "setup needs Python 3.11-3.13 plus OpenAI, LangSmith and Tavily keys", "2.9k stars, 1.9k forks, MIT license"],
+  "formats": ["code"],
+  "stack": ["python", "langgraph", "jupyter"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/langchain-ai/langchain-academy", "docs": "https://academy.langchain.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,30 @@
+{
+ "id": "cosmos-so",
+ "url": "https://cosmos.so",
+ "kind": "site",
+ "hints_hash": "3d5ace7d22ba31bb",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://cosmos.so/llms.txt", "title": "llms.txt", "status": null},
+  {"url": "https://cosmos.so", "title": "Cosmos", "status": 200},
+  {"url": "https://cosmos.so/explore", "title": "Open", "status": 200},
+  {"url": "https://cosmos.so/explore/shop", "title": "Shop / Cosmos", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Cosmos",
+ "summary": "Visual inspiration and moodboarding app: save images and links, search by color and get AI captions.",
+ "description": "Cosmos is an ad-free visual discovery and moodboarding platform for creatives: save images, videos, links and text in collections, search by keyword, hex color or visual similarity, and let AI captions identify the artist or source behind an image. AI-generated content can be flagged, collections can be collaborative, and browser extensions plus imports (Pinterest, Are.na, Tumblr) bring inspiration in. Free on web, iOS and Android; Premium $8/month.",
+ "type": "tool",
+ "categories": ["inspiration"],
+ "elements": [],
+ "keywords": ["moodboard", "visual inspiration", "design inspiration", "image search", "color search", "collection", "curation", "save image", "browser extension", "creative research", "ai caption", "collaboration"],
+ "contains": ["save images, links, videos, articles and text", "collections: private, public or collaborative", "search by keyword, hex color or visual similarity", "AI captions attribute artist/source; AI-image detection", "imports from Pinterest, Are.na and Tumblr", "free tier; Premium $8/month", "web, iOS, Android and browser extensions"],
+ "formats": ["app", "links"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

@@ -1,0 +1,37 @@
+{
+  "id": "shadcnblocks-com-blocks-hero-inset-image",
+  "url": "https://shadcnblocks.com/blocks/hero/inset-image",
+  "kind": "page",
+  "hints_hash": "09561efa43fb4bfc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://shadcnblocks.com/blocks/hero/inset-image", "title": "Shadcn Hero Inset Image Blocks - Shadcnblocks.com", "status": null },
+    { "url": "https://www.shadcnblocks.com/pricing", "title": "Pricing - Shadcnblocks.com", "status": 200 },
+    { "url": "https://www.shadcnblocks.com/license", "title": "License - Shadcnblocks.com", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Shadcn Hero Inset Image Blocks",
+  "summary": "19+ shadcn/ui hero blocks built around an inset image, ready to copy-paste or install from the shadcn registry.",
+  "description": "A shadcnblocks category page for hero blocks that place an inset image beside the copy: split, left-bleed, right-bleed, rotated, gradient-frame and dot-grid layouts. Each block is a self-contained React component styled with Tailwind CSS and shadcn/ui; copy the code or add it with the shadcn CLI. Paid plans unlock the full block and component library, with free blocks also available.",
+  "type": "block-library",
+  "categories": ["sections", "registries"],
+  "elements": ["hero"],
+  "keywords": ["hero section", "shadcn", "block", "inset image", "react", "react component", "tailwind css", "shadcn cli", "registry", "landing page", "copy paste"],
+  "contains": [
+    "19+ inset-image hero blocks",
+    "blocks named Hero 159, 167, 267-271 and 315-324",
+    "layouts: split, left-bleed, right-bleed, rotated, gradient frame, dot grid, ring accent",
+    "built with React, Tailwind CSS and shadcn/ui",
+    "copy-paste the code or install with the shadcn CLI",
+    "site-wide shadcn registry holds 4,171 items",
+    "plans: Pro $149, Premium $299, Elite $399 (one-time); free blocks available"
+  ],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "tailwind"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "www-shadcnblocks-com" },
+  "confidence": 0.85
+}

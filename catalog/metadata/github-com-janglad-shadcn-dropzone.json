@@ -1,0 +1,75 @@
+{
+  "id": "github-com-janglad-shadcn-dropzone",
+  "url": "https://github.com/janglad/shadcn-dropzone",
+  "kind": "repo",
+  "hints_hash": "5c8ac6262ff5ecfa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/janglad/shadcn-dropzone/blob/HEAD/README.md",
+      "title": "ShadCn style Dropzone",
+      "status": null
+    },
+    {
+      "url": "https://github.com/janglad/shadcn-dropzone",
+      "title": "GitHub - janglad/shadcn-dropzone: A dropzone component built in the style of Shadcn using react-dropzone · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-dropzone",
+  "summary": "Accessible file-upload dropzone component in shadcn style, built on react-dropzone.",
+  "description": "A dropzone file-upload component styled like shadcn/ui, using the useDropzone hook from react-dropzone and aiming to be fully accessible. Install it with the shadcn CLI through its registry URL or copy the component file; React Hook Form integration is still on the todo list.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "file-upload"
+  ],
+  "keywords": [
+    "dropzone",
+    "file upload",
+    "upload",
+    "drag and drop",
+    "react-dropzone",
+    "shadcn",
+    "react",
+    "accessible",
+    "tailwind"
+  ],
+  "contains": [
+    "one dropzone component built on react-dropzone's useDropzone hook",
+    "styled with shadcn/ui primitives",
+    "installs with the shadcn CLI from the dropzone.json registry URL",
+    "aims to be fully accessible",
+    "React Hook Form integration on the todo list"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "react-dropzone",
+    "radix",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/janglad/shadcn-dropzone",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

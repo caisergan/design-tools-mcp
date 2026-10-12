@@ -1,0 +1,37 @@
+{
+  "id": "ht-ml-app",
+  "url": "https://ht-ml.app",
+  "kind": "site",
+  "hints_hash": "aa7d23f65e1e437e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ht-ml.app/llms.txt", "title": "ht-ml.app", "status": null},
+    {"url": "https://ht-ml.app", "title": "ht-ml.app — HTML hosting with an API built for agents", "status": 200},
+    {"url": "https://ht-ml.app/guides", "title": "Guides — build and ship single-file HTML | ht-ml.app", "status": 200},
+    {"url": "https://ht-ml.app/guides/deploy-html-site", "title": "How to Deploy an HTML Site in One Command (Free) | ht-ml.app", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ht-ml.app",
+  "summary": "HTML hosting with an API for AI agents: POST one HTML document and get a public URL back instantly.",
+  "description": "An API-first static host for single HTML documents. An agent POSTs html_content to /v1/sites and the page goes live at its own {site_id}.ht-ml.app subdomain, with an update_key bearer token for later edits, asset uploads and optional password protection. No accounts or dashboards; llms.txt and a self-describing /v1/help document the endpoints, and an installable agent skill bundles 20 page templates.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["html hosting", "static hosting", "deploy html", "single html file", "api", "ai agent", "public url", "password protection", "agent skill", "prototype hosting", "webmcp", "no signup"],
+  "contains": [
+    "POST /v1/sites publishes HTML and returns site_id, update_key and url",
+    "update_key bearer token for PUT updates and for uploading referenced assets",
+    "Optional per-site password with owner-only reads for protected sites",
+    "Self-describing /v1/help JSON plus an llms.txt reference",
+    "Installable agent skill (Claude Code, Codex and other clients) with 20 page templates",
+    "Guides: single-file kanban board, ghtml blog, deploy in one command"
+  ],
+  "formats": ["api", "docs", "templates", "prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

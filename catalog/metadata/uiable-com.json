@@ -1,0 +1,42 @@
+{
+  "id": "uiable-com",
+  "url": "https://uiable.com",
+  "kind": "site",
+  "hints_hash": "2f4c4ec730e4d7db",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uiable.com", "title": "UIAble - The Complete Shadcn Design System", "status": 200},
+    {"url": "https://uiable.com/blocks", "title": "Shadcn Blocks - UIAble", "status": 200},
+    {"url": "https://uiable.com/pricing", "title": "Pricing - UIAble", "status": 200},
+    {"url": "https://uiable.com/templates", "title": "Shadcn Templates - UIAble", "status": 200},
+    {"url": "https://uiable.com/doc/changelog", "title": "Changelog - UIAble", "status": 200},
+    {"url": "https://uiable.com/legal/license", "title": "License Agreement - UIAble", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UIAble",
+  "summary": "Shadcn-based UI system with 779+ components, 393+ blocks, 6 templates and 3 admin dashboards for React and Next.js.",
+  "description": "A shadcn-based design system for building complete interfaces in React and Next.js: 779+ components, 393+ blocks (bento, hero, pricing, e-commerce, FAQ, feature, footer, gallery, navbar, widgets, charts, tables), 6 templates, 3 admin dashboards, Figma files and Figma/MCP docs. Items are copy-paste or shadcn CLI installable from its registry; the Community tier is free and MIT-licensed, while pro blocks, templates and dashboards come with a one-time Standard purchase ($69, listed at 70% off).",
+  "type": "component-library",
+  "categories": ["components", "sections", "registries"],
+  "elements": ["accordion", "alert", "badge", "bento-grid", "button", "card", "chart", "checkbox", "contact", "cta", "dashboard", "dropdown", "faq", "features", "footer", "form", "hero", "input", "list", "loader", "modal", "navbar", "otp-input", "pricing", "select", "stats", "switch", "table", "team", "testimonials", "404"],
+  "variants": {"navbar": ["mega-menu"]},
+  "keywords": ["shadcn", "shadcn block", "shadcn ui", "react component", "nextjs", "tailwind", "base ui", "design system", "block library", "template", "admin dashboard", "dashboard", "landing page", "e-commerce", "figma", "registry", "copy paste", "typescript", "mcp", "saas"],
+  "contains": [
+    "779+ components, 393+ blocks, 6 templates and 3 admin dashboards",
+    "829 ready-to-install items in a shadcn registry",
+    "block groups: bento, hero, pricing, e-commerce, FAQ, feature, footer, gallery, navbar, widgets, charts, tables",
+    "templates: LMS, finance, AI, portfolio, SaaS, SEO",
+    "free Community tier: MIT components and blocks, copy-paste or shadcn CLI install",
+    "Standard one-time $69 (listed 70% off) unlocks pro blocks, templates and Figma",
+    "Figma files, Figma MCP and docs MCP for agents",
+    "built on Base UI primitives, TypeScript, Next.js 16, Tailwind CSS 4 and Motion"
+  ],
+  "formats": ["code", "registry", "cli", "figma-file", "docs", "templates"],
+  "stack": ["react", "nextjs", "tailwind", "typescript", "base-ui", "framer-motion"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://uiable.com/doc", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

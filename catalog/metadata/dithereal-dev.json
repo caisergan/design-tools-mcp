@@ -1,0 +1,39 @@
+{
+  "id": "dithereal-dev",
+  "url": "https://dithereal.dev",
+  "kind": "site",
+  "hints_hash": "6232fbc53c7b0021",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dithereal.dev", "title": "Dithereal", "status": 200},
+    {"url": "https://dithereal.dev/components/dither-card", "title": "Dither card | Dithereal", "status": 200},
+    {"url": "https://dithereal.dev/components/dither-badge", "title": "Dither badge | Dithereal", "status": 200},
+    {"url": "https://dithereal.dev/components/dither-agents", "title": "Dither Agents | Dithereal", "status": 200},
+    {"url": "https://dithereal.dev/components/ditherize", "title": "Ditherize | Dithereal", "status": 200},
+    {"url": "https://dithereal.dev/components/dither-button", "title": "Dither button | Dithereal", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Dithereal",
+  "summary": "Ten dithered WebGL components for React: animated controls, agent identities, loaders and image effects.",
+  "description": "A collection of ten React components on one compact dither system, rendered with WebGL: animated controls (button, checkbox, switch, slider), feedback and display pieces (loader, badge, card, agent identities), a content divider, and Ditherize, an image treatment that turns a picture into an ordered-dither field. Components install through a shadcn-style registry with npx dithereal add dithereal; ordered-pixel fields stay legible in light and dark, with palette controls, center-out reveals, directional trails and reduced-motion fallbacks.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["button", "checkbox", "switch", "slider", "badge", "loader", "card", "avatar"],
+  "keywords": ["react component", "webgl", "dithered", "dither", "animated component", "ui component", "shadcn registry", "pixel effect", "image effect", "button", "checkbox", "switch", "slider", "badge", "loader", "card", "agent avatar", "dark mode", "copy paste component", "react ui kit"],
+  "contains": [
+    "10 components on one dither system",
+    "components: Dither Agents, checkbox, loader, slider, button, switch, badge, card, content divider",
+    "Ditherize image treatment with dot size, spacing, angle and palette controls",
+    "installs with npx dithereal add dithereal from a shadcn registry (10 items)",
+    "ordered-pixel fields stay legible in light and dark",
+    "center-out reveals, directional trails, dust-like sparks and reduced-motion fallbacks"
+  ],
+  "formats": ["registry", "code", "cli"],
+  "stack": ["react", "webgl"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": "dithereal", "figma": null, "parent": null},
+  "confidence": 0.85
+}

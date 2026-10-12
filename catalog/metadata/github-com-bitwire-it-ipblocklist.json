@@ -1,0 +1,27 @@
+{
+  "id": "github-com-bitwire-it-ipblocklist",
+  "url": "https://github.com/bitwire-it/ipblocklist",
+  "kind": "repo",
+  "hints_hash": "912b34d1a8d212f7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/bitwire-it/ipblocklist/blob/HEAD/README.md", "title": "IP Blocklist", "status": 200}
+  ],
+  "status": "ok",
+  "name": "IP Blocklist",
+  "summary": "Aggregated IP blocklists for inbound and outbound traffic, refreshed every two hours.",
+  "description": "Text blocklists for firewalls, ad-blockers and security tools: inbound.txt lists IPs/networks with a bad reputation (spam, scanning, SSH/RDP brute force, web exploits), outbound.txt lists malicious destinations such as C2 servers, botnet controllers, malware drop sites and phishing hosts. Both are aggregated from public feeds and updated every 2 hours, with exclusions for major public DNS resolvers.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ip blocklist", "blocklist", "firewall", "security", "malicious ip", "threat intelligence", "botnet", "c2", "brute force", "spam", "network security", "ip list"],
+  "contains": ["inbound.txt: sources of spam, scanning, brute force and web exploits", "outbound.txt: C2 servers, botnet controllers, malware drop sites, phishing hosts", "updated every 2 hours; exclusions for major public DNS resolvers", "plain text files for firewalls, ad-blockers and security tools", "aggregated from 20+ public feeds (abuseipdb mirror, ipsum, ThreatFox, Tor lists …)", "code MIT; aggregated data CC BY-NC-SA 4.0 (non-commercial)"],
+  "formats": ["links", "code"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/bitwire-it/ipblocklist", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

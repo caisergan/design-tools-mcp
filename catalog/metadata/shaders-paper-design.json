@@ -1,0 +1,39 @@
+{
+ "id": "shaders-paper-design",
+ "url": "https://shaders.paper.design",
+ "kind": "site",
+ "hints_hash": "b81f9740e78b81fa",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://shaders.paper.design/llms.txt", "title": "Paper Shaders - Complete Documentation", "status": null},
+  {"url": "https://shaders.paper.design/llms-full.txt", "title": "Paper Shaders - Complete Documentation", "status": 200},
+  {"url": "https://shaders.paper.design", "title": "Paper Shaders – Ultra-fast zero-dependency shaders", "status": 200},
+  {"url": "https://github.com/paper-design/shaders", "title": "GitHub - paper-design/shaders: Zero-dependency canvas shaders that can be installed from npm or designed in Paper", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Paper Shaders",
+ "summary": "Ultra-fast zero-dependency shader library for React and GLSL: animated backgrounds, image filters and logo effects.",
+ "description": "A shader library used as React components or raw GLSL: mesh gradients, dithering, god rays, liquid metal, halftone, noise and more, grouped as image filters, logo animations and effects. Each shader is a parameterized component (colors, speed, scale, fit, pixel ratio) documented on its own page and installed from npm.",
+ "type": "component-library",
+ "categories": ["motion", "color-effects"],
+ "elements": ["background", "3d"],
+ "keywords": ["shader", "webgl", "glsl", "react component", "animated background", "mesh gradient", "dithering", "grain gradient", "halftone", "god ray", "liquid metal", "noise", "image filter", "logo animation", "hero background", "canvas", "zero dependency", "npm package"],
+ "contains": [
+  "shaders in three groups: image filters, logo animations and effects",
+  "image filters: paper texture, fluted glass, water, image dithering, halftone dots, halftone cmyk, lens distortion",
+  "logo animations: heatmap, liquid metal, gem smoke",
+  "effects: mesh gradient, dithering, grain gradient, dot grid, warp, spiral, swirl, waves, voronoi, metaballs, god rays",
+  "every shader is a parameterized component: colors, speed, frame, scale, rotation, fit, pixel ratio",
+  "install: npm i @paper-design/shaders-react for React, @paper-design/shaders for vanilla, or copy the GLSL",
+  "each shader has a live page documenting every parameter with ranges and enum values",
+  "zero dependencies; Apache-2.0; ~3.6k GitHub stars"
+ ],
+ "formats": ["code", "npm-package", "docs"],
+ "stack": ["react", "glsl"],
+ "pricing": "free",
+ "license": "Apache-2.0",
+ "related": {"repo": "https://github.com/paper-design/shaders", "docs": "https://shaders.paper.design/llms-full.txt", "npm": "@paper-design/shaders-react", "figma": null, "parent": null},
+ "confidence": 0.9
+}

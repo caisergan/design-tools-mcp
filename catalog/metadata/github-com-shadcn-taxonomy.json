@@ -1,0 +1,27 @@
+{
+  "id": "github-com-shadcn-taxonomy",
+  "url": "https://github.com/shadcn/taxonomy",
+  "kind": "repo",
+  "hints_hash": "e43cb30be972810e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shadcn/taxonomy/blob/HEAD/README.md", "title": "Taxonomy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Taxonomy",
+  "summary": "Archived open-source Next.js 13 App Router demo app with auth, Stripe subscriptions, MDX docs and blog.",
+  "description": "An experiment app showing how a modern app works on Next.js 13 with the App Router and server components: NextAuth authentication, Stripe subscriptions, Prisma on PlanetScale, route handlers, marketing pages, MDX docs and blog with Contentlayer, Radix UI components, Tailwind CSS and Zod. Officially archived; the README says it no longer reflects best practices.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["form"],
+  "keywords": ["next.js", "app router", "server component", "nextauth", "prisma", "planetscale", "stripe", "subscription", "mdx", "contentlayer", "tailwind css", "typescript", "zod", "radix ui", "saas", "boilerplate", "demo app", "authentication", "blog"],
+  "contains": ["Next.js 13 App Router and server components demo app", "authentication with NextAuth.js", "subscriptions with Stripe", "Prisma ORM on PlanetScale", "docs and blog with MDX and Contentlayer", "Radix UI components, Tailwind CSS, Zod and TypeScript", "dark mode; MIT licensed", "repository archived and no longer updated"],
+  "formats": ["code"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "radix", "prisma", "nextauth", "stripe", "zod", "contentlayer", "mdx"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcn/taxonomy", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

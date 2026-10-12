@@ -1,0 +1,85 @@
+{
+  "id": "github-com-kriasoft-react-starter-kit",
+  "url": "https://github.com/kriasoft/react-starter-kit",
+  "kind": "repo",
+  "hints_hash": "a4521e18ebe134d2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:03:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/kriasoft/react-starter-kit/blob/HEAD/README.md",
+      "title": "React Starter Kit",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "React Starter Kit",
+  "summary": "Full-stack monorepo template for SaaS apps on React 19, tRPC and Cloudflare Workers, with auth and billing included.",
+  "description": "An opinionated full-stack boilerplate for building SaaS web apps on the edge: React 19, TanStack Router and TanStack Query, Tailwind CSS v4 and shadcn/ui on the frontend, Hono and tRPC on the backend, Drizzle ORM on Neon PostgreSQL, plus an Astro marketing site. Better Auth (email OTP, passkey, Google OAuth), organizations and Stripe subscriptions are wired up, and three Cloudflare Workers deploy independently.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "form",
+    "otp-input"
+  ],
+  "keywords": [
+    "saas starter",
+    "boilerplate",
+    "react",
+    "trpc",
+    "cloudflare worker",
+    "typescript",
+    "tailwind css",
+    "shadcn ui",
+    "drizzle orm",
+    "better auth",
+    "stripe",
+    "monorepo",
+    "edge",
+    "tanstack router",
+    "passkey",
+    "email otp"
+  ],
+  "contains": [
+    "full-stack monorepo with three Cloudflare Workers: web, app and api",
+    "React 19, TanStack Router and TanStack Query, Tailwind CSS v4, shadcn/ui, Jotai",
+    "type-safe API with Hono and tRPC; Drizzle ORM on Neon PostgreSQL",
+    "Better Auth with email OTP, passkey and Google OAuth; organizations and Stripe subscriptions",
+    "Astro marketing site",
+    "Bun toolchain (Vite, Vitest, Oxlint, Oxfmt)",
+    "Terraform provisioning and Cloudflare deployment guide",
+    "merge-seed skill for pulling upstream updates with a coding agent"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "trpc",
+    "drizzle",
+    "hono",
+    "astro",
+    "cloudflare-workers",
+    "vite"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/kriasoft/react-starter-kit",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

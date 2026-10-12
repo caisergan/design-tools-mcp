@@ -1,0 +1,26 @@
+{
+  "id": "60fps-design-motion",
+  "url": "https://60fps.design/motion",
+  "kind": "page",
+  "hints_hash": "bcd1821da7b3bbfe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:35:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://60fps.design/motion", "title": "Explore curated gallery of motion bento grids on 60fps", "status": 200}
+  ],
+  "status": "ok",
+  "name": "60fps Motion",
+  "summary": "Gallery of 83 motion bento grid entries, each pairing an app or brand with the studio that animated it.",
+  "description": "Browsable gallery of motion bento grids and reels from apps and brands, credited to the design studios behind them. Filters cover gestures (drag, swipe, scroll, hold ...) and patterns (3D, carousel, onboarding, pricing ...); the wider 60fps site holds 2,100 shots, 492 apps and 67 storyboards.",
+  "type": "gallery",
+  "elements": ["3d", "carousel", "chat", "empty-state"],
+  "keywords": ["motion design", "bento grid", "animation gallery", "motion reference", "app animation", "micro interaction", "gesture", "onboarding animation", "carousel animation", "design studio", "design inspiration"],
+  "contains": ["83 motion bento grid entries", "each entry credits a studio (Smith & Diction, Koto, Porto Rocha, Pentagram ...)", "browse by gesture or pattern tag", "site counters: 2,100 shots, 492 apps, 88 app sites, 67 storyboards"],
+  "formats": ["video", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "60fps-design"},
+  "confidence": 0.8
+}

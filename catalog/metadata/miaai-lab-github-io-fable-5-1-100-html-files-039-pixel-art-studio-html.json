@@ -1,0 +1,22 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-039-pixel-art-studio-html",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/039-pixel-art-studio.html",
+  "kind": "page",
+  "hints_hash": "61ba541c4182e51f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/039-pixel-art-studio.html", "title": "Pixel Art Studio — Sprite Editor", "status": 200},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pixel Art Studio — Sprite Editor",
+  "summary": "Browser pixel art sprite editor study with pencil, eraser, fill and eyedropper tools, a 32×32 canvas and a 32-color palette.",
+  "description": "A self-contained HTML sprite editor study (v0.39) from the Fable 5.1 100 HTML Files set. Built around a 32×32 canvas at 14 px zoom with a tool palette (pencil, eraser, fill, eyedropper, line, mirror), keyboard shortcuts for zoom, undo and redo, grid size and zoom controls, a 32-color palette with custom colors, and 1× / 2× preview of the loaded starter sprite.",
+  "type": "tool",
+  "elements": ["button"],
+  "keywords": ["pixel art", "sprite editor", "pixel editor", "canvas", "retro", "game art", "drawing tool", "palette", "browser tool", "html study", "pixel sprite", "icon editor"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

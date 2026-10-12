@@ -1,0 +1,80 @@
+{
+  "id": "dock-cool",
+  "url": "https://dock.cool",
+  "kind": "site",
+  "hints_hash": "e9a9fea61fe1c5f3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://cooldock.app/",
+      "title": "CoolDock — Smart Second Dock with Live Widgets for Mac",
+      "status": 200
+    },
+    {
+      "url": "https://cooldock.app/docs",
+      "title": "CoolDock Docs",
+      "status": 200
+    },
+    {
+      "url": "https://cooldock.app/widgets",
+      "title": "CoolDock Widgets | Browse the Complete Library",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CoolDock",
+  "summary": "Mac app that adds a second Dock with 160+ live widgets: music, calendar, weather, todos, system stats and quick actions.",
+  "description": "CoolDock adds a customizable second Dock beside the macOS Dock, filled with 160+ live widgets — apps and folders, Pomodoro and reminders, calendar, weather, music, system stats, clipboard, screenshots, plus business and developer widgets. Widgets can be arranged in dock profiles with floating layouts, wallpapers and appearance settings. One-time purchase; requires macOS Sonoma 14.0 or later.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "dock"
+  ],
+  "keywords": [
+    "dock",
+    "second dock",
+    "mac dock",
+    "dock replacement",
+    "widget",
+    "live widget",
+    "macos",
+    "menubar",
+    "productivity",
+    "music widget",
+    "weather widget",
+    "system stat",
+    "pomodoro",
+    "clipboard",
+    "customization"
+  ],
+  "contains": [
+    "160+ widgets for Mac, from clocks and weather to AI usage, revenue and files",
+    "widget groups: apps and files, productivity, system controls, creator tools, business metrics, developer tools",
+    "dock profiles, floating layouts and wallpapers",
+    "pricing: €14.99 one-year license, €29.99+ lifetime (per device), €99.99 forever edition for 5 Macs",
+    "one-time purchase, 14-day money-back guarantee",
+    "requires macOS Sonoma 14.0 or later"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://cooldock.app/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

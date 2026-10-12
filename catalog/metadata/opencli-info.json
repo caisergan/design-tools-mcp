@@ -1,0 +1,30 @@
+{
+  "id": "opencli-info",
+  "url": "https://opencli.info",
+  "kind": "site",
+  "hints_hash": "2cb606b9be0d7496",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://opencli.info/llms.txt", "title": "OpenCLI", "status": null},
+    {"url": "https://opencli.info", "title": "OpenCLI — Browser Automation for AI Agents", "status": 200},
+    {"url": "https://opencli.info/docs/guide/getting-started.html", "title": "Getting Started | OpenCLI", "status": 200},
+    {"url": "https://github.com/jackwener/opencli", "title": "GitHub - jackwener/OpenCLI: Make Any Website into CLI & Use your logged-in browser by AI agent. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenCLI",
+  "summary": "Browser automation CLI for AI agents: reuses your logged-in Chrome and turns 100+ sites into deterministic commands.",
+  "description": "Turns your already logged-in local Chrome into a command surface for CLI workflows and AI agents — no tokens, API keys or brittle scraping. Three modes: 100+ built-in site adapters (Twitter/X, Xiaohongshu, Bilibili, Zhihu, YouTube, LinkedIn, Reddit, HackerNews and more), general-purpose browser automation (navigate, click, type, extract, screenshot) for agents, and adapter authoring for new sites. Output as JSON, CSV, Markdown or YAML; skills for Claude Code and Cursor; desktop apps (Cursor, Codex, ChatGPT App) controllable over CDP.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["browser automation", "cli", "ai agent", "chrome extension", "browser bridge", "cdp", "scraping", "site adapter", "agent skill", "claude code", "cursor", "login reuse", "json output", "plugin", "desktop app", "node", "automation", "open source"],
+  "contains": ["100+ built-in site adapters: Twitter/X, Xiaohongshu, Bilibili, Zhihu, YouTube, LinkedIn, Reddit, HackerNews", "browser primitives for agents: open, network, state, eval, init, verify, screenshot", "reuses Chrome's logged-in state; credentials never leave the browser", "output formats: JSON, CSV, Markdown, YAML; pipeable and CI-friendly", "skills: opencli-browser, opencli-adapter-author, opencli-autofix, opencli-usage", "CLI hub passthrough for gh, docker, vercel, wrangler, notion, discord, telegram; plugin system", "desktop adapters (Cursor, Codex, ChatGPT App, Discord) via Chrome DevTools Protocol", "Apache-2.0 licence; 30.1k GitHub stars; install with npm (Node.js >= 20) plus the Browser Bridge extension"],
+  "formats": ["cli", "npm-package", "code", "prompts", "docs"],
+  "stack": ["node", "playwright"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/jackwener/opencli", "docs": "https://opencli.info/docs", "npm": "@jackwener/opencli", "figma": null, "parent": null},
+  "confidence": 0.9
+}

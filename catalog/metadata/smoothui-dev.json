@@ -1,0 +1,117 @@
+{
+  "id": "smoothui-dev",
+  "url": "https://smoothui.dev",
+  "kind": "site",
+  "hints_hash": "d50c3fbf3ea99cdc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://smoothui.dev/llms.txt",
+      "title": "SmoothUI",
+      "status": null
+    },
+    {
+      "url": "https://smoothui.dev",
+      "title": "SmoothUI - Animated React Components for shadcn/ui | Motion & Tailwind",
+      "status": 200
+    },
+    {
+      "url": "https://smoothui.dev/docs/blocks",
+      "title": "UI Blocks | SmoothUI",
+      "status": 200
+    },
+    {
+      "url": "https://smoothui.dev/docs/templates",
+      "title": "Templates | SmoothUI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/educlopez/smoothui",
+      "title": "GitHub - educlopez/smoothui: SmoothUI is a collection of beautifully designed components with smooth animations",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "SmoothUI",
+  "summary": "198 animated React components and 34 page blocks for shadcn/ui, installed via the shadcn CLI.",
+  "description": "SmoothUI is a component library of 198 animated React components plus 34 pre-built blocks (hero, pricing, FAQ, footer, logo cloud, stats, team, testimonial …) and full templates, all shadcn/ui-compatible and installed from its registry. Components are built with React 19, Tailwind CSS v4, Motion and GSAP; a public REST API, an MCP server and machine-readable catalogs (llms.txt, llms-components.json) make it usable by AI agents.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "3d",
+    "navbar",
+    "button",
+    "card",
+    "faq",
+    "footer",
+    "logo-cloud",
+    "ai-agent-ui",
+    "dropdown",
+    "cta",
+    "features",
+    "pricing"
+  ],
+  "keywords": [
+    "animated react component",
+    "shadcn ui",
+    "shadcn cli",
+    "tailwind css v4",
+    "motion animation",
+    "gsap",
+    "react 19",
+    "ui block",
+    "hero block",
+    "pricing block",
+    "faq block",
+    "footer block",
+    "logo cloud",
+    "testimonials",
+    "ai chat component",
+    "3d component",
+    "mcp server",
+    "component registry",
+    "open source",
+    "copy paste component"
+  ],
+  "contains": [
+    "198 animated components + 34 blocks + templates (llms.txt)",
+    "shadcn registry with 178 items",
+    "install: npx shadcn@latest add https://smoothui.dev/r/<component>.json",
+    "blocks: hero, pricing, testimonial, FAQ, footer, logo cloud, stats, team",
+    "public REST API (search, suggest, source) + MCP server for AI agents",
+    "free and open source, sponsor-supported"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "api",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "gsap"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/educlopez/smoothui",
+    "docs": "https://smoothui.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

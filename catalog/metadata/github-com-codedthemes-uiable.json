@@ -1,0 +1,116 @@
+{
+  "id": "github-com-codedthemes-uiable",
+  "url": "https://github.com/codedthemes/uiable",
+  "kind": "repo",
+  "hints_hash": "ebf18ea04994a536",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/codedthemes/uiable/blob/HEAD/README.md",
+      "title": "UIAble",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UIAble",
+  "summary": "Open-source React component library and block set extending shadcn/ui with a vivid design system, copied into your codebase.",
+  "description": "Components and page sections built with Tailwind CSS v4, shadcn/ui architecture and Base UI primitives. Covers inputs, data display, feedback, navigation and surfaces (buttons, combobox, date picker, data table, charts, sidebar, dialogs …) plus pre-built blocks: auth pages, contact, CTA, e-commerce, 404/500, galleries, heroes, pricing, team, testimonials and more. All code is copied into your project; no lock-in.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "button",
+    "checkbox",
+    "select",
+    "input",
+    "slider",
+    "switch",
+    "calendar",
+    "date-picker",
+    "form",
+    "avatar",
+    "badge",
+    "card",
+    "carousel",
+    "chart",
+    "table",
+    "list",
+    "timeline",
+    "tooltip",
+    "alert",
+    "modal",
+    "drawer",
+    "progress",
+    "toast",
+    "loader",
+    "breadcrumbs",
+    "dropdown",
+    "menubar",
+    "pagination",
+    "tabs",
+    "sidebar",
+    "accordion",
+    "popover",
+    "404",
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "contact",
+    "footer"
+  ],
+  "keywords": [
+    "react component library",
+    "shadcn",
+    "tailwind css",
+    "base ui",
+    "design system",
+    "block",
+    "data table",
+    "sidebar",
+    "combobox",
+    "date picker",
+    "auth page",
+    "pricing",
+    "testimonials",
+    "dashboard",
+    "typescript",
+    "copy paste"
+  ],
+  "contains": [
+    "component sections: inputs, data display, feedback, navigation, surfaces, utils",
+    "blocks: auth pages, contact, CTA, e-commerce, 404/500, FAQ, feature, footer, gallery, hero, pricing, team, testimonial",
+    "navbar, process, statistics and widget blocks also included",
+    "copy-paste components, full code ownership, no lock-in",
+    "free personal and commercial use"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "base-ui",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/codedthemes/uiable",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.78
+}

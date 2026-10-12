@@ -1,0 +1,37 @@
+{
+  "id": "justwatch-com",
+  "url": "https://justwatch.com",
+  "kind": "site",
+  "hints_hash": "3a10f341a50a1875",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://justwatch.com", "title": "JustWatch - The Streaming Guide", "status": null},
+    {"url": "https://www.justwatch.com/us", "title": "JustWatch US - The Streaming Guide for Movies and TV Shows", "status": 200},
+    {"url": "https://support.justwatch.com/article/is-just-watch-free", "title": "About JustWatch - Is JustWatch free? | JustWatch Support and Knowledge Base", "status": 200}
+  ],
+  "status": "ok",
+  "name": "JustWatch",
+  "summary": "Streaming guide: one search shows where a film or series streams in your country, with a single cross-service watchlist.",
+  "description": "A cross-service streaming search guide. Type a movie or show to see which streaming service carries it in your country, filter the catalog with the Watchbar (release year, IMDb rating, age rating), and keep one watchlist across services. Also offers weekly top 10 lists, upcoming releases and a sports streaming schedule. Free; an optional JustWatch Pro subscription is not needed for the main features.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["streaming guide", "where to watch", "streaming search", "movie finder", "tv show finder", "watchlist", "streaming availability", "top 10", "sports schedule", "upcoming movie"],
+  "contains": [
+    "one search across streaming services, localized per country",
+    "watchlist combining all streaming services",
+    "Watchbar filters: release year, IMDb rating, age rating",
+    "weekly top 10 movies and TV shows",
+    "upcoming movie and show guides",
+    "sports streaming schedule",
+    "free; JustWatch Pro monthly subscription optional"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

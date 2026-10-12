@@ -1,0 +1,92 @@
+{
+  "id": "d3-loves-react-com",
+  "url": "https://d3-loves-react.com",
+  "kind": "site",
+  "hints_hash": "627aa6aff19ddbdb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:52:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://d3-loves-react.com",
+      "title": "D3 ❤️ React | The best way to learn d3.js",
+      "status": null
+    },
+    {
+      "url": "https://www.react-graph-gallery.com/react-d3-dataviz-course",
+      "title": "D3 ❤️ React | The best way to learn d3.js",
+      "status": 200
+    },
+    {
+      "url": "https://www.react-graph-gallery.com/example/population-pyramid",
+      "title": null,
+      "status": null
+    },
+    {
+      "url": "https://www.react-graph-gallery.com/example/beeswarm-interactive-search",
+      "title": "Static to Interactive: Dataviz Speedrun in the AI Era",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "D3 ❤️ React",
+  "summary": "Cohort-based course on building custom interactive charts and data visualizations with D3.js and React.",
+  "description": "An online course by Yan Holtz that teaches building custom, interactive charts with D3.js and React, from SVG, scales and axes to responsiveness, hover effects, tooltips, data fetching and animation. Ten modules of lessons and exercises, worked examples from the React Graph Gallery, and a student gallery; three free lessons, next cohort by waitlist.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [
+    "chart",
+    "tooltip"
+  ],
+  "keywords": [
+    "d3.js",
+    "react",
+    "data visualization",
+    "dataviz",
+    "chart",
+    "interactive chart",
+    "svg",
+    "d3 scale",
+    "chart axis",
+    "tooltip",
+    "course",
+    "tutorial",
+    "typescript",
+    "animation"
+  ],
+  "contains": [
+    "10 modules from web and React foundations to SVG, scales, axes, tooltips and animation",
+    "lessons and hands-on exercises in every module",
+    "reusable components: axes, tooltip, responsive chart template",
+    "3 free lessons before the cohort",
+    "500+ students across the first two cohorts",
+    "cohort 2 full, waitlist for cohort 3"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "d3.js",
+    "typescript",
+    "vite",
+    "react-spring"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/holtzy/react-graph-gallery",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "uiverse-io-design",
+  "url": "https://uiverse.io/design",
+  "kind": "page",
+  "hints_hash": "b739640bfa795856",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uiverse.io/design", "title": "Uiverse Design - Framework-agnostic design systems for AI-assisted products", "status": null},
+    {"url": "https://uiverse.io/design/how-to-use-design-systems", "title": "How to use a Uiverse Design system - Uiverse Design", "status": 200},
+    {"url": "https://uiverse.io/design/systems/transect", "title": "Transect - Uiverse Design", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Uiverse Design",
+  "summary": "Collection of framework-agnostic CSS design systems that AI coding agents apply to build consistent product interfaces.",
+  "description": "A library of portable CSS design systems for AI-assisted products: each system ships source files, a logo, fonts and colors, plus a setup prompt you copy so a coding agent (Claude Code, Cursor, Codex and others) applies the design. The systems are themed by domain — earth-systems research, civic data portals, ceramics studios and more — with fifteen listed, some marked Premium and their previews behind sign-in.",
+  "type": "design-system",
+  "elements": [],
+  "keywords": ["design system", "portable design system", "framework agnostic", "ai coding agent", "design md", "css", "design token", "color palette", "font", "prompt", "claude code", "cursor", "codex", "frontend design", "ui theme"],
+  "contains": ["15 design systems listed, from Transect and Headcount to Voltline Analytics", "each system ships source files, a logo, fonts and colors", "works with Claude Code, Cursor, Codex and other coding agents", "setup prompt copied into the coding agent to apply the design", "Transect marked Premium; system previews sit behind sign-in"],
+  "formats": ["code", "prompts", "docs", "font-files"],
+  "stack": ["css"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "uiverse-io"},
+  "confidence": 0.8
+}

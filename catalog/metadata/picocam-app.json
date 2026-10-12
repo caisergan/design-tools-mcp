@@ -1,0 +1,29 @@
+{
+  "id": "picocam-app",
+  "url": "https://picocam.app",
+  "kind": "site",
+  "hints_hash": "1aed931377ba2f17",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:21:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://picocam.app", "title": "pico cam — a tiny instant camera for iPhone", "status": null},
+    {"url": "https://picocam.app/get", "title": "Get pico cam", "status": 200},
+    {"url": "https://picocam.app/support", "title": "Support | pico cam - Dynamic Island pics", "status": 200}
+  ],
+  "status": "ok",
+  "name": "pico cam",
+  "summary": "iPhone camera app that turns moments into tiny instant-style photos with Dynamic Island reveals.",
+  "description": "A playful iPhone camera that makes tiny instant-style photos, with Dynamic Island and Live Activity reveals, filters, frames, drawing and an on-device gallery. It works on iPhones with and without a Dynamic Island, supports iPhone 11 through iPhone 17 Pro Max including SE on iOS 18 or later, and photos stay on the device.",
+  "type": "app",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["iphone camera app", "instant camera", "dynamic island", "photo filter", "photo frame", "drawing on photos", "tiny photos", "ios app", "live activity", "mobile camera", "photo app", "on-device gallery", "iphone se", "ios 18", "instant photo"],
+  "contains": ["tiny instant-style photos with Dynamic Island and Live Activity reveals", "filters, frames and drawing on photos", "on-device gallery; photos are not uploaded", "supports iPhone 11 through iPhone 17 Pro Max incl. SE, iOS 18 or later", "free download with optional pico cam+ purchases"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,33 @@
+{
+  "id": "brik-space",
+  "url": "https://brik.space",
+  "kind": "site",
+  "hints_hash": "05cf9e42066507c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://brik.space/llms.txt", "title": "Brik", "status": null},
+    {"url": "https://brik.space", "title": "Brik", "status": 200},
+    {"url": "https://brik.space/docs", "title": "Docs | Brik", "status": 200},
+    {"url": "https://brik.space/docs/remix", "title": "Remix | Brik", "status": 200},
+    {"url": "https://brik.space/gallery", "title": "Gallery | Brik", "status": 200},
+    {"url": "https://brik.space/pricing", "title": "Pricing | Brik", "status": 200},
+    {"url": "https://brik.space/about", "title": "About | Brik", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Brik",
+  "summary": "Agentic platform that turns prompts into interactive, exportable design tools for motion, 2D/3D visuals and text effects.",
+  "description": "Describe a creative vision and a Brik agent builds it into an interactive, remixable design tool with sliders, toggles and inputs — no code or timelines. Tools cover kinetic typography, scroll effects, 3D and WebGL visuals, and export as images, video (including transparent) or embed/HTML.",
+  "type": "tool",
+  "categories": ["motion", "design-tools"],
+  "elements": ["text-effect", "scroll-effect", "3d"],
+  "keywords": ["webgl", "interactive design tool", "kinetic typography", "scroll effect", "3d visual", "motion system", "text effect", "ai design tool", "agentic platform", "no code", "embed code", "transparent video"],
+  "contains": ["agentic platform: prompts become interactive design tools", "motion, kinetic typography, scroll effects, 3D and WebGL visuals", "visual controls (sliders, toggles, inputs), no code required", "export images, video including transparent, and embed/HTML", "gallery of remixable tools"],
+  "formats": ["app", "png", "video", "code"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://brik.space/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

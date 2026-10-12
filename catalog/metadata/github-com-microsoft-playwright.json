@@ -1,0 +1,29 @@
+{
+  "id": "github-com-microsoft-playwright",
+  "url": "https://github.com/microsoft/playwright",
+  "kind": "repo",
+  "hints_hash": "dca3d3490ae82996",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/microsoft/playwright/blob/HEAD/README.md", "title": "🎭 Playwright", "status": 200},
+    {"url": "https://github.com/microsoft/playwright", "title": "GitHub - microsoft/playwright", "status": 200},
+    {"url": "https://raw.githubusercontent.com/microsoft/playwright/HEAD/LICENSE", "title": "Apache License 2.0", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Playwright",
+  "summary": "Web testing and automation framework that drives Chromium, Firefox and WebKit through a single API.",
+  "description": "Playwright Test is an end-to-end test runner with auto-waiting, web-first assertions, isolated browser contexts, parallelism and tracing. The same project provides a library for browser automation scripts (screenshots, PDFs, scraping), a CLI and an MCP server for coding and AI agents, and a VS Code extension with test generation, locator picking and a trace viewer; bindings exist for Python, .NET and Java.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["e2e testing", "browser automation", "test automation", "web testing", "chromium", "firefox", "webkit", "mcp", "cli", "screenshot", "pdf generation", "typescript", "javascript", "scraping"],
+  "contains": ["drives Chromium, Firefox and WebKit with a single API", "test runner with auto-waiting, web-first assertions and test isolation", "CLI and MCP server for coding and AI agents", "library for screenshots, PDF generation and scraping", "VS Code extension with codegen, locator picker and trace viewer", "Python, .NET and Java bindings"],
+  "formats": ["npm-package", "cli", "docs"],
+  "stack": ["typescript", "javascript"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/microsoft/playwright", "docs": "https://playwright.dev", "npm": "playwright", "figma": null, "parent": null},
+  "confidence": 0.9
+}

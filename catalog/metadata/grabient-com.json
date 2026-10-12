@@ -1,0 +1,35 @@
+{
+ "id": "grabient-com",
+ "url": "https://grabient.com",
+ "kind": "site",
+ "hints_hash": "dc3eddd126cf14ee",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://grabient.com/llms.txt", "title": "Grabient", "status": null},
+  {"url": "https://grabient.com", "title": "Grabient — CSS Gradient Generator & Color Palettes", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Grabient",
+ "summary": "Free gradient and color-palette tool with 867 curated palettes, seed-based editing and CSS, SVG, PNG and JSON export.",
+ "description": "A gradient and color-palette source built to be driven by software: every palette is a deterministic function of 12 numbers addressed by a seed in the URL. Search 867 curated palettes by description, adjust any palette along four axes (exposure, contrast, frequency, phase), then copy CSS or export SVG and PNG at any size; JSON endpoints work without an API key.",
+ "type": "generator",
+ "categories": ["color-effects"],
+ "elements": ["background"],
+ "keywords": ["gradient", "css gradient", "color palette", "palette generator", "gradient generator", "gradient background", "color scheme", "swatch", "png export", "svg export", "css export", "http api", "seed url", "hero background", "landing page background"],
+ "contains": [
+  "867 curated palettes searchable by description",
+  "each palette is a deterministic function of 12 numbers addressed by a URL seed",
+  "four global modifiers: exposure, contrast, frequency, phase",
+  "styles linear, angular and radial as gradients or swatches; 2-50 steps; 0-360° angle",
+  "stable citable URLs; paste-ready CSS, SVG and PNG export; PNG at any size",
+  "no-auth JSON API: /{seed}.json, /api/search.json, /api/palettes and query PNG endpoints"
+ ],
+ "formats": ["code", "svg", "png", "api"],
+ "stack": [],
+ "pricing": "free",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

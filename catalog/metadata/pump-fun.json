@@ -1,0 +1,31 @@
+{
+  "id": "pump-fun",
+  "url": "https://pump.fun",
+  "kind": "site",
+  "hints_hash": "b3dba0c47fe2706e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:25:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pump.fun", "title": "Pump.fun — Launch and trade memecoins on Solana", "status": null},
+    {"url": "https://pump.fun/docs/fees", "title": "Pump.fun fees | Pump", "status": null},
+    {"url": "https://pump.fun/explore", "title": "Explore | Pump", "status": null},
+    {"url": "https://pump.fun/docs/dmca-policy", "title": "DMCA Guidelines | Pump", "status": null},
+    {"url": "https://pump.fun/docs/charitycoins", "title": "Charity Coins Disclaimer | Pump", "status": null}
+  ],
+  "status": "ok",
+  "name": "pump.fun",
+  "summary": "Solana memecoin launchpad: create a coin, trade instantly on a bonding curve, and track launches.",
+  "description": "A platform for launching and trading memecoins on Solana. Anyone can create a coin with no platform fee; coins trade on a bonding curve and graduate to the PumpSwap exchange, where creator, protocol and LP fees apply per trade. Explore, leaderboard and live pages track new launches, market caps and trending coins.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["list"],
+  "keywords": ["memecoin", "solana", "launchpad", "crypto", "token", "bonding curve", "pumpswap", "trading", "web3", "defi", "coin launch", "crypto trading", "leaderboard", "livestream", "crypto app"],
+  "contains": ["create a coin with no platform fee; only Solana network fees", "fees: bonding curve, graduation to PumpSwap, creator, protocol and LP", "explore feed sorted by movers, new, custom pairs, charities, oldest, last trade", "leaderboard and live pages; holder rewards feature", "coins pair with SOL, USDC or custom pair assets", "charity coins route creator fees to verified nonprofits"],
+  "formats": ["app", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://pump.fun/docs/fees", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

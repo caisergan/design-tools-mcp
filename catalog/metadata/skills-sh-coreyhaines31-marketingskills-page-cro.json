@@ -1,0 +1,26 @@
+{
+  "id": "skills-sh-coreyhaines31-marketingskills-page-cro",
+  "url": "https://skills.sh/coreyhaines31/marketingskills/page-cro",
+  "kind": "page",
+  "hints_hash": "1bda17a21dce6c5f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/coreyhaines31/marketingskills/page-cro", "title": "page-cro — coreyhaines31/marketingskills", "status": null}
+  ],
+  "status": "ok",
+  "name": "page-cro",
+  "summary": "Agent skill that reviews marketing pages across seven conversion factors and returns fixes and test ideas.",
+  "description": "SKILL.md that teaches an AI coding agent to analyze marketing pages for conversion rate optimization. It reports quick wins, high-impact changes, test ideas and copy alternatives for headlines and CTAs, with frameworks for homepages, landing pages, pricing pages, feature pages and blog posts.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": ["conversion rate optimization", "cro", "landing page optimization", "marketing page", "headline", "cta placement", "visual hierarchy", "trust signal", "objection handling", "friction", "pricing page", "agent skill", "prompt"],
+  "contains": ["SKILL.md for AI coding agents", "audits pages across seven dimensions: value proposition, headline, CTA, hierarchy, trust, objections, friction", "output: quick wins, high-impact changes, test ideas, copy alternatives", "frameworks per page type: homepage, landing page, pricing, feature, blog", "reads .agents/product-marketing-context.md when present"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.8
+}

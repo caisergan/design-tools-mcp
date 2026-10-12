@@ -1,0 +1,29 @@
+{
+  "id": "furniqo-framer-website",
+  "url": "https://furniqo.framer.website",
+  "kind": "site",
+  "hints_hash": "d04bc867062d65f9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://furniqo.framer.website", "title": "Furniqo | Luxury Furniture & Modern Interior Spaces", "status": 200},
+    {"url": "https://furniqo.framer.website/collections", "title": "Luxury Furniture Collections & Lookbooks | Furniqo", "status": 200},
+    {"url": "https://furniqo.framer.website/about-us", "title": "Our Story & Philosophy | Heritage Craft by Furniqo", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Furniqo",
+  "summary": "Framer website for a luxury furniture and interior design studio: hero, philosophy, collections, FAQs and contact.",
+  "description": "A multi-page Framer site for Furniqo, a luxury furniture and interior-studio brand. The home page carries a hero ('Luxury Living, Elevated.'), a philosophy block, latest arrivals, a 'Designed and Crafted With Mastery' feature section, five collection categories (foyer, wardrobe, balcony, private rooms, hospitality), an FAQ and a booking CTA, with separate about, collections, new-arrivals, journal and contact pages.",
+  "type": "template",
+  "categories": ["templates", "inspiration"],
+  "elements": ["navbar", "hero", "features", "faq", "cta", "footer", "contact"],
+  "keywords": ["framer", "framer template", "landing page", "furniture website", "interior design", "luxury", "website template", "hero section", "faq section", "collection page", "minimal design", "multi-page website", "studio website"],
+  "contains": ["multi-page Framer site: home, about, collections, new arrivals, journal, FAQ, contact", "home sections: hero, philosophy, latest arrivals, features, collection categories, FAQ, CTA", "5 collection categories: foyer, wardrobe, balcony, private rooms, commercial/hospitality", "booking-oriented CTAs ('Book Appointment', 'Inquire Now')"],
+  "formats": ["templates", "links"],
+  "stack": ["framer"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

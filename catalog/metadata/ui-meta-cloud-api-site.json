@@ -1,0 +1,35 @@
+{
+  "id": "ui-meta-cloud-api-site",
+  "url": "https://ui.meta-cloud-api.site",
+  "kind": "site",
+  "hints_hash": "0c497ab090eae0c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.meta-cloud-api.site", "title": "WA UI — WhatsApp Web UI components for shadcn/ui", "status": null},
+    {"url": "https://meta-cloud-api.site/", "title": "meta-cloud-api | meta-cloud-api", "status": 200},
+    {"url": "https://github.com/froggy1014/wa-ui", "title": "GitHub - froggy1014/wa-ui: shadcn/ui registry of WhatsApp Web chat components, built on WhatsApp's WDS design tokens", "status": 200}
+  ],
+  "status": "ok",
+  "name": "WA UI",
+  "summary": "shadcn/ui registry of WhatsApp Web chat components built on WhatsApp's WDS design tokens.",
+  "description": "Chat components — bubbles, headers, message input, typing indicator, media and sticker bubbles, and Meta Business template and interactive messages — styled with the same CSS variables WhatsApp Web ships (WDS). Each of the 29 registry items installs independently with npx shadcn add; light and dark mode included.",
+  "type": "registry",
+  "categories": ["registries", "components"],
+  "elements": ["chat", "list", "button", "prompt-input", "text-effect", "carousel", "contact", "cta"],
+  "keywords": ["whatsapp", "whatsapp cloud api", "chat ui", "chat bubble", "message input", "voice message", "sticker", "template message", "chat list", "typing indicator", "shadcn", "shadcn registry", "react", "tailwind", "dark mode", "chat component", "messaging ui", "wds"],
+  "contains": [
+    "29 shadcn registry items across chat, media, templates and extras",
+    "chat bubble, chat header, chat list item, chat menu, message input, message status, date separator, typing indicator",
+    "image, video, voice, file and sticker bubbles; business template and carousel messages",
+    "built on WhatsApp Web WDS tokens; light and dark mode",
+    "installs with npx shadcn add; Tailwind CSS v4 and Base UI"
+  ],
+  "formats": ["registry", "code"],
+  "stack": ["react", "nextjs", "tailwind", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/froggy1014/wa-ui", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

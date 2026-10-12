@@ -1,0 +1,45 @@
+{
+  "id": "motionsites-org",
+  "url": "https://motionsites.org",
+  "kind": "site",
+  "hints_hash": "852132a76d5d12b5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://motionsites.org/llms.txt", "title": "MotionSites", "status": null },
+    { "url": "https://motionsites.org", "title": "MotionSites - Premium AI Website Prompts & Templates", "status": 200 },
+    { "url": "https://motionsites.org/kits", "title": "Section Kits for AI-Built Websites | MotionSites", "status": 200 },
+    { "url": "https://motionsites.org/about", "title": "About MotionSites.org", "status": 200 },
+    { "url": "https://motionsites.org/skills", "title": "Codex and Claude Skills for Web, Design, Motion & Video | MotionSites", "status": 200 },
+    { "url": "https://motionsites.org/sections", "title": "AI Website Section Prompts & UI Examples | MotionSites", "status": 200 },
+    { "url": "https://motionsites.org/unlimited", "title": "MotionSites AI Website Prompts & Templates Pricing | MotionSites.org", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "MotionSites",
+  "summary": "Catalog of AI website prompts and templates: full sites, apps, page sections and section kits you paste into an AI builder.",
+  "description": "Membership catalog of AI prompts and templates for building websites and apps: full sites, 7,661 section prompts, section kits, animated backgrounds and agent skills. Copy a prompt into Claude, Cursor, Lovable or Bolt to generate the design, or buy individual copies without subscribing; a free tier covers sections and Unlimited adds weekly-to-lifetime plans.",
+  "type": "template",
+  "categories": ["templates", "sections", "motion"],
+  "elements": ["hero", "background", "features", "footer", "testimonials", "pricing", "faq", "navbar", "stats", "3d", "cta", "button"],
+  "keywords": ["ai website prompt", "ai prompt", "website prompt", "landing page prompt", "website template", "landing page template", "section", "hero section", "pricing section", "testimonial section", "animated background", "3d website", "motion", "hover effect", "section kit", "ui block", "agent skill", "claude skill", "mcp", "lovable", "bolt", "cursor", "claude", "prompt library"],
+  "contains": [
+    "529+ AI website templates and prompts",
+    "7,661 section prompts (7,181 UI blocks, 480 marketing sections)",
+    "section kits grouped per product (Kelo, Luma, Orbit, Velara …)",
+    "assets: animated backgrounds, patterns and gradients",
+    "agent skills for web, design, motion and video",
+    "free sections; Unlimited plans weekly, yearly and lifetime",
+    "catalog of 1,361 pages"
+  ],
+  "formats": ["prompts", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

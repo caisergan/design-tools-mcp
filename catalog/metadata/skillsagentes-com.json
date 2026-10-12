@@ -1,0 +1,30 @@
+{
+  "id": "skillsagentes-com",
+  "url": "https://skillsagentes.com",
+  "kind": "site",
+  "hints_hash": "b793d1973842e61c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skillsagentes.com/llms.txt", "title": "Skills Agentes", "status": null},
+    {"url": "https://skillsagentes.com", "title": "Claude Skills y MCP Servers en español - Skills Agentes", "status": 200},
+    {"url": "https://skillsagentes.com/skills", "title": "3428 Claude Skills para Claude Code, Cursor y Codex", "status": 200},
+    {"url": "https://skillsagentes.com/skills/packs", "title": "144 packs de Claude Skills para Claude Code, Cursor y Codex", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Skills Agentes",
+  "summary": "Spanish directory of 3,428 Agent Skills and 119 MCP servers, each with install commands and context costs.",
+  "description": "Spanish-language directory of AI Agent Skills and MCP servers, searchable by category, agent and use case. Every listing says what the tool really does, the permissions and credentials it asks for, its context-token cost, and the install command for Claude Code, Cursor, Codex, Gemini CLI, Windsurf or Cline; the full SKILL.md is readable on the site.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude skill", "agent skill", "mcp server", "model context protocol", "skill directory", "ai agent", "claude code", "cursor", "codex", "skill install", "spanish", "ai tool directory", "skill marketplace"],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "contains": ["3428 Agent Skills indexed, each with an install command", "119 MCP servers indexed", "144 packs with 3339 skills between them", "19 categories, 202 creators", "install commands for Claude Code, Cursor, Codex, Gemini CLI, Windsurf and Cline", "context-token cost and permissions shown per skill", "every page has a markdown version", "free to browse and install, no registration"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

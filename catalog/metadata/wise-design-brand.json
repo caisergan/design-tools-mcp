@@ -1,0 +1,26 @@
+{
+  "id": "wise-design-brand",
+  "url": "https://wise.design/brand",
+  "kind": "page",
+  "hints_hash": "9a229fe88bae6705",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://wise.design/brand", "title": "Wise Design | Brand", "status": 200},
+    {"url": "https://wise.design", "title": "Wise Design | Building a System for a Borderless World", "status": 200},
+    {"url": "https://wise.design/sitemap.xml", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Wise Design | Brand",
+  "summary": "Brand section of Wise's design system: mission, beliefs and how the brand is delivered and communicated.",
+  "description": "The Brand section of Wise Design, the site that holds Wise's foundations, components and patterns. Five numbered chapters run from why the team exists and what it believes to how it delivers and how it communicates.",
+  "type": "design-system",
+  "keywords": ["brand system", "brand guideline", "design system", "brand mission", "brand value", "brand principle", "brand portal", "brand communication", "product design", "editorial system"],
+  "contains": [
+    "five chapters: why we exist, what we are, what we believe, how we deliver, how we communicate",
+    "part of wise.design, alongside its foundations, components, patterns and resources"
+  ],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

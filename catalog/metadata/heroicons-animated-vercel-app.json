@@ -1,0 +1,77 @@
+{
+  "id": "heroicons-animated-vercel-app",
+  "url": "https://heroicons-animated.vercel.app",
+  "kind": "site",
+  "hints_hash": "36804657bfcdb984",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://heroicons-animated.vercel.app/llms.txt",
+      "title": "heroicons-animated",
+      "status": null
+    },
+    {
+      "url": "https://heroicons-animated.vercel.app",
+      "title": "heroicons-animated | Free Animated Heroicons for React",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "heroicons-animated",
+  "summary": "Open-source set of 316 animated Heroicons for React, built with Motion and installable icon by icon with the shadcn CLI.",
+  "description": "Collection of 316 Heroicons rebuilt as animated React components with the Motion library. Each icon has its own page and can be added one at a time with a shadcn CLI command or through the @heroicons-animated/react package for React 18/19; MIT licensed.",
+  "type": "icon-set",
+  "categories": [
+    "icons",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "animated icon",
+    "icon set",
+    "react",
+    "svg icon",
+    "motion",
+    "heroicon",
+    "shadcn",
+    "copy paste",
+    "micro animation",
+    "free icon library",
+    "mit"
+  ],
+  "contains": [
+    "316 animated icons",
+    "built on Heroicons with the Motion animation engine",
+    "add via shadcn CLI: @heroicons-animated/<icon-name>",
+    "npm package @heroicons-animated/react for React 18/19",
+    "MIT licensed, backed by the Vercel OSS Program",
+    "llms.txt with all icon names for agents"
+  ],
+  "formats": [
+    "registry",
+    "cli",
+    "code",
+    "svg",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Aniket-508/heroicons-animated",
+    "docs": null,
+    "npm": "@heroicons-animated/react",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

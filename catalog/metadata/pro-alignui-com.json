@@ -1,0 +1,127 @@
+{
+  "id": "pro-alignui-com",
+  "url": "https://pro.alignui.com",
+  "kind": "site",
+  "hints_hash": "d9cef6dff2778143",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pro.alignui.com",
+      "title": "AlignUI Design System - Design and development perfectly aligned",
+      "status": null
+    },
+    {
+      "url": "https://pro.alignui.com/blocks",
+      "title": "Blocks | AlignUI Pro",
+      "status": null
+    },
+    {
+      "url": "https://pro.alignui.com/pricing",
+      "title": "Pricing | AlignUI Pro",
+      "status": null
+    },
+    {
+      "url": "https://pro.alignui.com/faq",
+      "title": "Frequently Asked Questions | AlignUI Pro",
+      "status": null
+    },
+    {
+      "url": "https://pro.alignui.com/license",
+      "title": "AlignUI License Agreement",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "AlignUI Pro",
+  "summary": "React and Tailwind UI kit with 100+ components, landing-page blocks and sector templates, plus a synced Figma file.",
+  "description": "A paid component library built for React and styled with Tailwind CSS. It ships 100+ customizable components and blocks — accordion, announcement, auth card, command menu, data table, datepicker, drawer, dropdown, modal, navbar, pricing, stats, testimonials and more — plus sector-specific multi-page templates (AI, HR management, finance & banking). A Figma library is kept in sync with the code.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "accordion",
+    "banner",
+    "breadcrumbs",
+    "card",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "contact",
+    "cta",
+    "dashboard",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "faq",
+    "features",
+    "file-upload",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "logo-cloud",
+    "modal",
+    "navbar",
+    "pricing",
+    "slider",
+    "stats",
+    "switch",
+    "table",
+    "team",
+    "testimonials",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "react component library",
+    "tailwind css",
+    "figma ui kit",
+    "ui block",
+    "app template",
+    "dashboard ui",
+    "saas ui",
+    "admin panel",
+    "command menu",
+    "data table",
+    "auth card",
+    "one-time payment",
+    "lifetime update",
+    "design system"
+  ],
+  "contains": [
+    "100+ pre-built React components and UI blocks styled with Tailwind CSS",
+    "blocks for accordion, auth card, breadcrumbs, command menu, CTA, datepicker, drawer, footer, hero, modal, navbar",
+    "sector templates: AI, HR management, finance & banking",
+    "Figma file synced with the code library",
+    "one-time payment, lifetime access, unlimited projects",
+    "Personal, Startups (5 seats) and Enterprise licenses"
+  ],
+  "formats": [
+    "code",
+    "figma-file",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

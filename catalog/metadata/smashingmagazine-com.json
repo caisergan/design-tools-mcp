@@ -1,0 +1,31 @@
+{
+  "id": "smashingmagazine-com",
+  "url": "https://smashingmagazine.com",
+  "kind": "site",
+  "hints_hash": "0bb199eee8f53a16",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://smashingmagazine.com", "title": "Smashing Magazine — For Web Designers And Developers", "status": null},
+    {"url": "https://www.smashingmagazine.com/category/ux", "title": "UX — Smashing Magazine", "status": null},
+    {"url": "https://www.smashingmagazine.com/about", "title": "Team, Impressum, Legal Notice — Smashing Magazine", "status": null},
+    {"url": "https://www.smashingmagazine.com/category/css", "title": "CSS — Smashing Magazine", "status": null},
+    {"url": "https://www.smashingmagazine.com/category/vue", "title": "Vue — Smashing Magazine", "status": null}
+  ],
+  "status": "ok",
+  "name": "Smashing Magazine",
+  "summary": "Magazine with practical articles, books and workshops on CSS, JavaScript, accessibility, UX and design.",
+  "description": "Independent publication founded in 2006 for web designers and developers. Articles run under topic categories (CSS, UX, accessibility, JavaScript, performance, React, Vue, Figma …) alongside printed books and eBooks, online workshops, a membership community and a weekly newsletter.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": ["modal", "date-picker", "navbar", "table", "button"],
+  "keywords": ["front-end", "css", "javascript", "ux", "ui design", "accessibility", "web design", "article", "tutorial", "workshop", "book", "figma", "react", "vue", "performance", "newsletter", "wallpaper"],
+  "contains": ["articles across CSS, UX, accessibility, JavaScript, performance, React, Vue and Figma", "758 UX articles, 498 CSS articles", "14 printed books and 67 eBooks", "online workshops in 2.5h live segments with recordings", "membership community and weekly newsletter, 182,000+ subscribers", "monthly desktop wallpaper collections"],
+  "formats": ["docs", "links", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

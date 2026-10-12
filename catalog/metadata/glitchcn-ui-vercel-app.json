@@ -1,0 +1,29 @@
+{
+  "id": "glitchcn-ui-vercel-app",
+  "url": "https://glitchcn-ui.vercel.app",
+  "kind": "site",
+  "hints_hash": "055b52c538d387bb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://glitchcn-ui.vercel.app", "title": "Glitchcn/ui", "status": null},
+    {"url": "https://glitchcn-ui.vercel.app/docs", "title": "Glitchcn/ui", "status": 200},
+    {"url": "https://github.com/woustachemax/glitchcn-ui", "title": "GitHub - woustachemax/glitchcn-ui: TL;DR, trying to build a UI library for Shadcn components with 'hacker' like aesthetics · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Glitchcn/ui",
+  "summary": "Cyberpunk, terminal-styled React component library for Next.js with scanlines, glow borders and 5 themes.",
+  "description": "A shadcn/ui-compatible component library with a retro-futuristic terminal aesthetic: 19 drop-in React components for Next.js, animated scanline effects, glowing themeable borders, monospace typography, clipped corner styling, dark and light modes and 5 selectable color themes. Components are installed through the shadcn CLI from its registry.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "alert", "badge", "button", "card", "checkbox", "command-palette", "drawer", "input", "loader", "modal", "otp-input", "progress", "sidebar", "table", "tabs", "tooltip"],
+  "keywords": ["component library", "react component", "nextjs", "shadcn ui", "registry", "cyberpunk", "terminal", "dark mode", "theme", "monospace", "scanline", "glow effect", "tailwind css", "typescript"],
+  "contains": ["19 components from accordion to tooltip", "5 selectable color themes with dark and light modes", "animated scanline effects and glowing borders", "monospace typography and clipped corners", "installed with the shadcn CLI from its registry", "MIT license, 92 GitHub stars"],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/woustachemax/glitchcn-ui", "docs": "https://glitchcn-ui.vercel.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,31 @@
+{
+  "id": "shapeof-ai",
+  "url": "https://shapeof.ai",
+  "kind": "site",
+  "hints_hash": "4d81adfc242cec5f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shapeof.ai", "title": "The Shape of AI | UX Patterns for Artificial Intelligence Design", "status": null},
+    {"url": "https://www.shapeof.ai/examples", "title": "AI Patterns for UX Design | The Shape of AI", "status": null},
+    {"url": "https://www.shapeof.ai/about", "title": "About | Shape of AI | Shapeof.ai", "status": null},
+    {"url": "https://www.shapeof.ai/patterns/cta", "title": "AI UX Patterns | Initial CTA | ShapeofAI.com", "status": null},
+    {"url": "https://www.shapeof.ai/patterns/name", "title": "AI UX Patterns | Name | ShapeofAI.com", "status": null}
+  ],
+  "status": "ok",
+  "name": "The Shape of AI",
+  "summary": "Pattern library for AI UX with 60 patterns in six groups — Wayfinders, Inputs, Tuners, Governors, Trust builders, Identifiers.",
+  "description": "A reference project on how UX evolves with AI. Each pattern — Initial CTA, follow-up, nudges, randomize, madlibs, open input, regenerate, restyle, summary, synthesis, citations, verification, name, personality and more — comes with a description, design considerations, related patterns and examples from real mobile and web apps. Patterns are grouped into six types: Wayfinders, Inputs, Tuners, Governors, Trust builders and Identifiers. A UI library with hundreds of real-world AiUX examples, deep dives and courses is announced as coming soon; the newsletter is free.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": ["avatar", "form", "cta", "accordion", "input", "prompt-input", "ai-agent-ui"],
+  "keywords": ["ai ux", "ai pattern", "ux pattern", "pattern library", "ai design", "prompt input", "ai agent", "design consideration", "interface pattern", "ai product", "example gallery", "ai interface", "open input"],
+  "contains": ["60 pattern pages across six pattern types", "each pattern: description, design considerations, related patterns, examples", "pattern types: Wayfinders, Inputs, Tuners, Governors, Trust builders, Identifiers", "examples from real mobile and web apps", "UI library, deep dives and courses coming soon", "free newsletter"],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,37 @@
+{
+  "id": "aside-com",
+  "url": "https://aside.com",
+  "kind": "site",
+  "hints_hash": "56301d770d044bb7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:55:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aside.com", "title": "Aside | The browser built to do real work for you", "status": null},
+    {"url": "https://aside.com/docs", "title": "Get help with Aside - Aside Help Center", "status": null},
+    {"url": "https://aside.com/pricing", "title": "Aside | Pricing", "status": null},
+    {"url": "https://aside.com/features/memory", "title": "Aside | Memory", "status": null}
+  ],
+  "status": "ok",
+  "name": "Aside",
+  "summary": "AI browser that completes tasks across your logged-in websites and accounts, with a built-in agent password manager.",
+  "description": "A desktop browser built for both people and AI agents. Aside works across the websites you are signed into to run tasks — messages, payments, internal tools — with local memory built from browsing history, autofill-based sign-in that keeps credentials invisible to the AI, and approval gates for sensitive actions. Free plan plus Pro and Max subscriptions.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["ai-agent-ui", "chat", "prompt-input"],
+  "keywords": ["ai browser", "browser agent", "ai assistant", "task automation", "web automation", "password manager", "agent memory", "browsing history", "automation routine", "side panel", "desktop app", "cli", "mcp"],
+  "contains": [
+    "free plan with 500 credits/month; Pro $20/month; Max $200/month",
+    "ranked #1 on Online-Mind2Web, BU-Bench-V1 and Odysseys browser-agent benchmarks",
+    "memory from browsing history, kept local with Secure Enclave and post-quantum encryption",
+    "agent password manager autofills credentials without exposing them to the AI",
+    "browser agent, Ultrabrowse deep research, routines, channels remote control, cloud handoff",
+    "bring your own ChatGPT or Claude subscription, or an API key"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://docs.aside.com/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

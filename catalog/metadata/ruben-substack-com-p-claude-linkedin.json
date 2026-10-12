@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-claude-linkedin",
+  "url": "https://ruben.substack.com/p/claude-linkedin",
+  "kind": "page",
+  "hints_hash": "5ad383cbf8758d36",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-linkedin", "title": "Claude + Linkedin. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Claude + Linkedin.",
+  "summary": "Guide to training Claude on your LinkedIn posts and turning your own writing style into a reusable skill.",
+  "description": "A Substack post in the How to AI newsletter, by Ruben Hassid: extract around 1,000 of your public LinkedIn posts with a $2 tool, upload them to Claude as a spreadsheet, build a custom skill from your best posts, and invoke that skill whenever you write.",
+  "type": "article",
+  "keywords": ["claude", "linkedin", "ai skill", "custom skill", "prompt", "linkedin post", "content writing", "social media", "ai writing", "personal branding", "workflow"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

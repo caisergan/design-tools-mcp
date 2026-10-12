@@ -1,0 +1,84 @@
+{
+  "id": "github-com-arvindrk-extract-design-system",
+  "url": "https://github.com/arvindrk/extract-design-system",
+  "kind": "repo",
+  "hints_hash": "1e2590f825f12cf4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/arvindrk/extract-design-system/blob/HEAD/README.md",
+      "title": "extract-design-system — Extract Design Tokens from Any Website",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/arvindrk/extract-design-system/HEAD/package.json",
+      "title": "package.json",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "extract-design-system",
+  "summary": "Agent skill and CLI that reverse-engineer design tokens from any public website into JSON and CSS files.",
+  "description": "A skills-first repository: an installable extract-design-system skill for Claude, Cursor and Codex, backed by a bundled CLI. It reads a public website and generates a W3C-compatible tokens.json plus a tokens.css file of CSS custom properties with colors, typography, spacing, border radius and shadows, along with raw and normalized intermediate files. The package also ships an MCP server with extract, init and get tools for Cursor and Claude Desktop.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "design token",
+    "design system",
+    "extraction",
+    "agent skill",
+    "claude",
+    "cursor",
+    "codex",
+    "mcp server",
+    "cli",
+    "npm",
+    "css custom property",
+    "color palette",
+    "typography",
+    "spacing",
+    "border radius",
+    "shadow"
+  ],
+  "contains": [
+    "extracts colors, typography, spacing, border radius and shadows",
+    "outputs W3C-compatible tokens.json and tokens.css",
+    "writes raw.json and normalized.json intermediates",
+    "installable skill for Claude, Cursor and Codex via skills.sh",
+    "MCP server exposing extract, init and get tools",
+    "public single-page websites only; starter tokens, not a component library",
+    "requires Node.js 20+ and Playwright Chromium"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "prompts",
+    "docs"
+  ],
+  "stack": [
+    "node",
+    "typescript",
+    "playwright"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/arvindrk/extract-design-system",
+    "docs": null,
+    "npm": "extract-design-system",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

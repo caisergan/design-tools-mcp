@@ -1,0 +1,26 @@
+{
+  "id": "shuip-plvo-dev-docs",
+  "url": "https://shuip.plvo.dev/docs",
+  "kind": "page",
+  "hints_hash": "3cdcb4e00dc03901",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shuip.plvo.dev/docs", "title": "Introduction | shuip", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shuip",
+  "summary": "Docs for shuip, business-ready React form and dialog components built on shadcn/ui for Next.js apps.",
+  "description": "shuip turns shadcn/ui primitives into business-ready components: a submit button with automatic loading state, input fields with Zod validation and error handling, a confirmation dialog, and date/time/autocomplete fields. Components install via the shadcn CLI and integrate with React Hook Form, TanStack Form and TanStack Query.",
+  "type": "registry",
+  "elements": ["select", "input", "button", "checkbox", "modal", "date-picker", "slider", "form", "calendar", "table", "kanban"],
+  "keywords": ["shadcn", "react", "nextjs", "typescript", "tailwind", "form", "input field", "select", "checkbox", "date picker", "time range", "submit button", "confirmation dialog", "inline edit", "react hook form", "tanstack form", "tanstack query", "component", "registry", "open source", "mit"],
+  "contains": ["business-ready components on top of shadcn/ui primitives", "53 components in the shadcn registry", "integrations: React Hook Form, TanStack Form, TanStack Query", "fields: input, select, checkbox, radio, date, date range, datetime, month, time, time range, autocomplete", "components: confirmation dialog, side dialog, submit button, theme button, search input, copy button", "CLI installs only the components you need; 100% open source under MIT"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "nextjs", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

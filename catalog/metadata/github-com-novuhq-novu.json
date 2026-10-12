@@ -1,0 +1,75 @@
+{
+  "id": "github-com-novuhq-novu",
+  "url": "https://github.com/novuhq/novu",
+  "kind": "repo",
+  "hints_hash": "d5814d76819abe89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:19:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/novuhq/novu/blob/HEAD/README.md",
+      "title": "Novu",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Novu",
+  "summary": "Open-source notification infrastructure: one API for in-app inbox, email, SMS, push and chat, plus channels for AI agents.",
+  "description": "Open-source communication layer for products and agents: one API and a unified conversation model across Inbox/In-App, Email, SMS, Push, Chat, Slack, Microsoft Teams, Telegram and WhatsApp. Includes a workflow engine with branching and digests, a no-code email editor, an embeddable real-time React inbox and preferences component, and an Agent Communication Infrastructure (ACI) with bidirectional messaging for existing agents.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "notification infrastructure",
+    "notification api",
+    "in-app inbox",
+    "email api",
+    "sms",
+    "push notification",
+    "chat api",
+    "webhook",
+    "agent communication",
+    "ai agent messaging",
+    "slack",
+    "microsoft team",
+    "telegram",
+    "whatsapp",
+    "workflow engine",
+    "digest",
+    "react inbox component",
+    "open source"
+  ],
+  "contains": [
+    "20 email providers, 37 SMS, 8 push and 13 chat providers supported",
+    "embeddable real-time inbox and preferences components (React; React Native, Vue, Angular coming soon)",
+    "workflow engine: branching, conditions and digest batching",
+    "ACI: bidirectional agent messaging on Slack, Teams, Telegram, WhatsApp and email",
+    "open-core: MIT core, enterprise folder under a commercial license"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs",
+    "api"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/novuhq/novu",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

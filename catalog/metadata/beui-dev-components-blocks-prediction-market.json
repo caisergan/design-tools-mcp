@@ -1,0 +1,92 @@
+{
+  "id": "beui-dev-components-blocks-prediction-market",
+  "url": "https://beui.dev/components/blocks/prediction-market",
+  "kind": "page",
+  "hints_hash": "48f720403a6440e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/components/blocks/prediction-market",
+      "title": "Prediction Market · React motion component · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev",
+      "title": "Animated Components for React and Next.js · beUI",
+      "status": 200
+    },
+    {
+      "url": "https://beui.dev/llms.txt",
+      "title": "beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Prediction Market",
+  "summary": "Animated prediction-market listing cards and a buy/sell trade ticket for React, installed via shadcn or copied.",
+  "description": "Two beUI block components for prediction markets. Market listing cards show outcome rows with animated odds CTAs that roll into Yes/No labels on hover or focus, payout multipliers, bookmarks and an optional volume sparkline; the trade ticket has buy/sell modes, quick-add amount chips, a rolling number entry and a live quote. Props cover outcomes, live status, balance, positions and trade callbacks; install with the shadcn CLI (@beui/prediction-market-card, @beui/prediction-market) or copy the source.",
+  "type": "component-library",
+  "elements": [
+    "card",
+    "chart",
+    "input",
+    "button",
+    "tabs",
+    "tooltip"
+  ],
+  "keywords": [
+    "prediction market",
+    "market card",
+    "trade ticket",
+    "odd",
+    "probability",
+    "buy sell",
+    "trading interface",
+    "fintech",
+    "crypto",
+    "betting",
+    "react",
+    "nextjs",
+    "motion component",
+    "animated component",
+    "shadcn",
+    "tailwind",
+    "copy paste"
+  ],
+  "contains": [
+    "market listing cards with outcome CTAs that roll into Yes/No labels on hover or focus",
+    "optional volume sparkline (volumeHistory) in the card footer",
+    "trade ticket with buy/sell modes, quick-add chips and rolling amount entry",
+    "props: outcomes, status, live, bookmarked, balance, positions, onTrade",
+    "install: bunx --bun shadcn add @beui/prediction-market-card or @beui/prediction-market",
+    "shared motion files: number-ticker, tabs, tooltip, button, magnetic",
+    "updated Oct 11, 2026"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "beui-dev"
+  },
+  "confidence": 0.85
+}

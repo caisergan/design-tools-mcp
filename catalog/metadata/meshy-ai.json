@@ -1,0 +1,30 @@
+{
+  "id": "meshy-ai",
+  "url": "https://meshy.ai",
+  "kind": "site",
+  "hints_hash": "47c9cc7d925fd6ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://meshy.ai/llms.txt", "title": "meshy.ai", "status": null},
+    {"url": "https://meshy.ai", "title": "AI 3D Model Generator: Create 3D from Text & Images | Meshy", "status": 200},
+    {"url": "https://www.meshy.ai/pricing", "title": "Meshy Official Pricing: Free, Pro, Studio & Enterprise Plans", "status": 200},
+    {"url": "https://www.meshy.ai/about", "title": "About Us — Meshy AI 3D Generator", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Meshy",
+  "summary": "AI 3D model generator that turns text prompts and images into game-ready, printable 3D assets.",
+  "description": "3D content generation platform: text prompts or reference images become textured 3D models in minutes, with PBR texturing, auto-rigging and 600+ animation presets. Assets target games (Unity, Unreal Engine, Godot), 3D printing (watertight, multi-color, slicer-ready) and VR/AR, and export as FBX, OBJ, GLB, USDZ, STL, BLEND, 3MF or DXF. Free tools include a 3D file converter and viewer; a developer API and editor plugins are available.",
+  "type": "tool",
+  "categories": ["media", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["3d model generator", "text to 3d", "image to 3d", "ai texturing", "pbr texture", "auto rigging", "3d animation", "3d printing", "stl file", "game asset", "game engine", "3d viewer", "3d file converter", "3d api"],
+  "contains": ["Text to 3D and Image to 3D with Meshy 7", "AI texturing with PBR maps and 4K HD textures", "auto-rigging with 600+ motion presets for bipeds and quadrupeds", "exports FBX, OBJ, GLB, USDZ, STL, BLEND, 3MF, DXF", "printable watertight models with slicer and engine plugins", "free plan with 100 credits/month; free-plan assets licensed CC BY 4.0"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "CC-BY-4.0",
+  "related": {"repo": null, "docs": "https://docs.meshy.ai/en/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

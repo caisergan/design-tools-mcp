@@ -1,0 +1,99 @@
+{
+  "id": "lexingtonthemes-com-templates-alfred",
+  "url": "https://lexingtonthemes.com/templates/alfred",
+  "kind": "page",
+  "hints_hash": "7e5ab199ad1d6dbd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://lexingtonthemes.com/templates/alfred",
+      "title": "Alfred - SaaS Astro & Tailwind Theme",
+      "status": 200
+    },
+    {
+      "url": "https://lexingtonthemes.com/llms.txt",
+      "title": "Lexington Themes",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Alfred",
+  "summary": "SaaS theme for Astro and Tailwind CSS with landing, pricing, integrations, customers, help center and changelog pages.",
+  "description": "A refined SaaS theme for startups and product teams, built with Astro 7 and Tailwind CSS v4 (OKLCH color system). Ships static pages (home, about, pricing, error 404), content collections (blog, team, changelog, customers, help center) and legal pages, plus a pricing toggle, plan comparison table, integrations directory grouped by category, help center FAQ, custom icon set, logo marquee and Lenis smooth scroll. $89 one-time with lifetime updates; includes Sanity and EmDash CMS variants, SEO, RSS, sitemap and GitHub access with AGENTS.md, SKILLS.md and Cursor rules.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "components"
+  ],
+  "elements": [
+    "pricing",
+    "faq",
+    "team",
+    "changelog",
+    "404",
+    "logo-cloud",
+    "testimonials"
+  ],
+  "variants": {
+    "pricing": [
+      "billing-toggle",
+      "comparison-table"
+    ]
+  },
+  "keywords": [
+    "astro theme",
+    "tailwind theme",
+    "saas template",
+    "website theme",
+    "landing page",
+    "pricing page",
+    "pricing toggle",
+    "plan comparison",
+    "integrations directory",
+    "help center",
+    "faq",
+    "blog",
+    "changelog",
+    "team page",
+    "sanity cms",
+    "seo",
+    "oklch",
+    "lenis",
+    "lifetime update"
+  ],
+  "contains": [
+    "static pages: home, about, pricing, error 404; content collections: blog, team, changelog, customers, help center",
+    "pricing toggle and plan comparison table; integrations directory grouped by category",
+    "help center FAQ, custom icon set, logo marquee, Lenis smooth scroll, blog tags",
+    "versions: Astro 7.2.2, Tailwind 4.3.3; Lighthouse 99 performance, 100 best practices and SEO",
+    "Sanity CMS and EmDash CMS variants for the theme library",
+    "includes AGENTS.md, SKILLS.md and Cursor rules; GitHub repository access",
+    "$89 one-time (or $99 for all themes); lifetime updates and support"
+  ],
+  "formats": [
+    "templates",
+    "code"
+  ],
+  "stack": [
+    "astro",
+    "tailwind",
+    "sanity",
+    "lenis"
+  ],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://lexingtonthemes.com/documentation/getting-started",
+    "npm": null,
+    "figma": null,
+    "parent": "lexingtonthemes-com"
+  },
+  "confidence": 0.85
+}

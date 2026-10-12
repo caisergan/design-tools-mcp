@@ -1,0 +1,83 @@
+{
+  "id": "usemodify-com",
+  "url": "https://usemodify.com",
+  "kind": "site",
+  "hints_hash": "d43e8f626bb8c081",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://usemodify.com",
+      "title": "Home - Use & Modify",
+      "status": null
+    },
+    {
+      "url": "https://usemodify.com/about",
+      "title": "About - Use & Modify",
+      "status": null
+    },
+    {
+      "url": "https://usemodify.com/fonts/3270",
+      "title": "3270 - Use & Modify",
+      "status": null
+    },
+    {
+      "url": "https://usemodify.com/fonts/alef",
+      "title": "Alef - Use & Modify",
+      "status": null
+    },
+    {
+      "url": "https://usemodify.com/fonts/bluu",
+      "title": "Bluu - Use & Modify",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Use & Modify",
+  "summary": "Hand-picked collection of 191 libre and open-source fonts, browsable by license, author and keyword.",
+  "description": "Use & Modify is a hand-picked selection of libre and open-source typefaces, free to use, modify and redistribute. The 191 fonts (from 0xA000 to Young Serif) can be browsed by license (OFL, GPL, CC0, MIT, public domain …), by author and by tags such as bitmap, blackletter, code, curveless or generative; each font page shows downloads, license and a short description.",
+  "type": "font-foundry",
+  "categories": [
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "libre font",
+    "open source font",
+    "free font",
+    "font library",
+    "bitmap font",
+    "blackletter",
+    "monospaced font",
+    "font download",
+    "typography",
+    "open license",
+    "public domain"
+  ],
+  "contains": [
+    "191 libre/open-source fonts",
+    "browse by license: OFL, GPL, CC0, MIT, public domain and more",
+    "browse by author and by keyword tags",
+    "font pages with download, license and description",
+    "curated by Raphaël Bastide"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

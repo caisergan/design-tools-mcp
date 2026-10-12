@@ -1,0 +1,32 @@
+{
+  "id": "how-to-gamma-ai",
+  "url": "https://how-to-gamma.ai",
+  "kind": "site",
+  "hints_hash": "e91f8d022db14fb7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://how-to-gamma.ai", "title": "Slides. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Slides (How to AI)",
+  "summary": "Guide comparing three ways to generate slide decks with AI: Claude, Gamma, and Claude plus Gamma.",
+  "description": "A How to AI newsletter guide on making presentations with AI. It walks through three methods: prompting Claude Cowork to create a .pptx, generating polished decks in Gamma, and a combined research, brief, generate and edit workflow. A team section shows how to turn brand assets into a Gamma theme and a markdown brand-rules file.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai presentation", "pptx", "slide deck", "ai slide", "presentation generator", "slide design", "ai workflow", "prompt", "deck template", "brand template", "presentation design"],
+  "contains": [
+    "3 AI slide methods: Claude, Gamma, Claude + Gamma",
+    "research to brief to generate to edit workflow",
+    "team section on brand themes and prompt files",
+    "embedded video walkthroughs"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

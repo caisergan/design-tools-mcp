@@ -1,0 +1,38 @@
+{
+  "id": "zayx-dev",
+  "url": "https://zayx.dev",
+  "kind": "site",
+  "hints_hash": "2d5c71a07e0058ba",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://zayx.dev", "title": "ZAYX — A niche-first React Native library starting with fintech", "status": 200 },
+    { "url": "https://www.zayx.dev/guide", "title": "ZAYX — A niche-first React Native library starting with fintech", "status": 200 },
+    { "url": "https://www.zayx.dev/components", "title": "ZAYX — A niche-first React Native library starting with fintech", "status": 200 },
+    { "url": "https://www.zayx.dev/about", "title": "ZAYX — A niche-first React Native library starting with fintech", "status": 200 },
+    { "url": "https://www.zayx.dev/components/fin-panel", "title": "ZAYX — A niche-first React Native library starting with fintech", "status": 200 },
+    { "url": "https://github.com/ManasCodeXart/ZAYX", "title": "GitHub - ManasCodeXart/ZAYX: A niche-first React Native library starting with fintech 💸 · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "ZAYX",
+  "summary": "Free, open-source React Native interaction components for fintech apps: copy-paste animations built with Expo and Reanimated.",
+  "description": "A niche-first React Native interaction library, starting with fintech. Each component is pulled into your project with one npx degit command — no package, no registry — covering flows like a Dynamic Island-style status pill, an edge-swipe quick-actions drawer, a physics piggy-bank savings drop, a crypto pay orbit and quick-pay sheets. Free for personal and commercial projects, MIT licensed.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["drawer", "carousel", "slider"],
+  "keywords": ["react native", "expo", "fintech", "component library", "animation", "reanimated", "gesture", "haptic", "dynamic island", "drawer", "bottom sheet", "carousel", "payment", "crypto", "wallet", "copy paste", "typescript", "open source", "mobile app", "interaction"],
+  "contains": [
+    "10 fintech interaction components (Fintech Island, FinPanel, Piggy Bank, Crypto Orbit, QuickPay, …)",
+    "install via npx degit — source lands in your project, no package or registry",
+    "built on Expo and React Native Reanimated, some with Skia and Lottie",
+    "free for personal and commercial projects",
+    "guide, per-component API pages and FAQ"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react-native", "expo", "react-native-reanimated", "react-native-gesture-handler", "react-native-skia", "lottie", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/ManasCodeXart/ZAYX", "docs": "https://www.zayx.dev/guide", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

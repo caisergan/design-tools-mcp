@@ -1,0 +1,29 @@
+{
+  "id": "pexels-com",
+  "url": "https://pexels.com",
+  "kind": "site",
+  "hints_hash": "26111b358855d4ce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pexels.com", "title": "Free Stock Photos, Royalty Free Stock Images & Copyright Free Pictures · Pexels", "status": 200},
+    {"url": "https://www.pexels.com/pro", "title": "Pexels Pro Tools Overview", "status": 200},
+    {"url": "https://www.pexels.com/license", "title": "Free Stock Photo & Video License - Pexels", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pexels",
+  "summary": "Library of free stock photos and videos, free to download and use without attribution.",
+  "description": "Stock photo and video platform: browse millions of royalty-free photos and videos by search, trending terms, collections and wallpapers, all free to use. The Pexels license allows editing and commercial, print and social use without attribution, but forbids selling unaltered copies or redistributing files on other stock platforms; an image and video API, iOS/Android apps and Figma, Sketch, Chrome, Google Slides and MS Office integrations bring the library into other tools.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["stock photo", "stock video", "free photo", "royalty free image", "copyright free picture", "wallpaper", "footage", "photo download", "image api", "figma plugin", "chrome extension", "background", "aesthetic", "trending search", "photo challenge", "leaderboard"],
+  "contains": ["free stock photos and videos, no attribution required", "license allows editing and commercial, print and social use; no reselling unaltered copies", "trending searches by country, wallpapers, leaderboards, challenges, photography series", "image and video API", "apps for iOS and Android; Chrome extension; Figma, Sketch, Google Slides, MS Office plugins"],
+  "formats": ["png", "video", "api", "app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

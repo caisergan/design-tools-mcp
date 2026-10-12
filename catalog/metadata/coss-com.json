@@ -1,0 +1,41 @@
+{
+  "id": "coss-com",
+  "url": "https://coss.com",
+  "kind": "site",
+  "hints_hash": "daad9d455de61f59",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coss.com", "title": "A new, modern UI component library built on top of Base UI - coss ui", "status": null},
+    {"url": "https://coss.com/ui/docs", "title": "Introduction - coss ui", "status": null},
+    {"url": "https://coss.com/ui/docs/get-started", "title": "Get Started - coss ui", "status": 200},
+    {"url": "https://coss.com/ui/llms.txt", "title": "coss ui", "status": 200},
+    {"url": "https://github.com/cosscom/coss", "title": "GitHub - cosscom/coss: coss.com/ui is the official design system of Cal.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "coss ui",
+  "summary": "Copy-paste React component library built on Base UI and Tailwind CSS, with 53 primitives, particles and atoms.",
+  "description": "coss ui is a copy-paste component library for React apps: accessible primitives built from Base UI and styled with Tailwind CSS v4, plus pre-assembled particles (auth forms, tables, date pickers) and atoms that connect UI to APIs. Components are added with the shadcn CLI or by copying the source code, and the docs cover styling tokens, fonts, hooks and migration from Radix UI and shadcn/ui.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "alert", "avatar", "badge", "banner", "breadcrumbs", "button", "calendar", "card", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "empty-state", "file-upload", "form", "input", "loader", "modal", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "variants": {"sidebar": ["collapsible"]},
+  "keywords": ["react component library", "ui component library", "copy paste component", "base ui", "tailwind css component", "shadcn cli", "shadcn component", "accessible component", "design system", "design token", "css variable", "component source code", "particle", "atom", "command palette", "date picker component", "data table", "sidebar component", "drawer component", "toast notification", "otp input", "form field", "llms.txt", "agent skill", "radix ui migration", "nextjs component", "typescript component", "segmented control"],
+  "contains": [
+    "53 primitives built on Base UI and styled with Tailwind CSS v4",
+    "510 particles: pre-assembled patterns like auth forms, tables and date pickers",
+    "atoms: API-backed versions of particles (auth flows, scheduling)",
+    "components added with the shadcn CLI or by copying the source",
+    "design tokens as CSS variables, plus optional Inter and Geist Mono fonts",
+    "llms.txt, copy-markdown docs and Agent Skills (npx skills add cosscom/coss)",
+    "migration guide from Radix UI and shadcn/ui; 69 docs pages",
+    "repo 10.7k stars; apps/ui MIT, rest of the repo AGPL-3.0"
+  ],
+  "formats": ["code", "cli", "registry", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "base-ui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/cosscom/coss", "docs": "https://coss.com/ui/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

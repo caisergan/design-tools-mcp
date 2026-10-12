@@ -1,0 +1,93 @@
+{
+  "id": "github-com-damianricobelli-stepperize",
+  "url": "https://github.com/damianricobelli/stepperize",
+  "kind": "repo",
+  "hints_hash": "f8c23a856798c889",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:46Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/damianricobelli/stepperize/blob/HEAD/README.md",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/damianricobelli/stepperize/HEAD/packages/react/package.json",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://stepperize.com",
+      "title": "Stepperize",
+      "status": 200
+    },
+    {
+      "url": "https://stepperize.com/blocks",
+      "title": "Stepper Blocks — Stepperize",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Stepperize",
+  "summary": "Type-safe React toolkit for step-by-step workflows: stepper state, navigation and unstyled primitives.",
+  "description": "A type-safe toolkit for building multi-step workflows in React, distributed as @stepperize/react and a framework-agnostic core package. Steps are plain objects with typed ids; hooks and a Provider manage local or shared state and step-scoped drafts, with flat navigation (next, prev, goTo, reset), per-step validation and typed rendering. The docs site adds 28 shadcn-ready stepper blocks (progress bar, segmented tabs, circular, breadcrumb, vertical, onboarding and booking flows) installable from a registry.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "stepper"
+  ],
+  "keywords": [
+    "stepper",
+    "wizard",
+    "multi step form",
+    "step indicator",
+    "onboarding",
+    "progress step",
+    "react",
+    "typescript",
+    "headless",
+    "unstyled",
+    "shadcn",
+    "npm package",
+    "react native"
+  ],
+  "contains": [
+    "@stepperize/react v8 package plus framework-agnostic core, MIT license",
+    "useStepper, useStepperContext, Provider: local or shared step state",
+    "flat navigation: id, current, index, next, prev, goTo, reset",
+    "typed rendering with match/is; step-scoped drafts and validation (Standard Schema)",
+    "28 shadcn-ready stepper blocks on stepperize.com/blocks, installable from the registry",
+    "unstyled accessible primitives; React 18/19 supported"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "react-native",
+    "typescript",
+    "shadcn",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/damianricobelli/stepperize",
+    "docs": "https://stepperize.com",
+    "npm": "@stepperize/react",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

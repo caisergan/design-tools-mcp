@@ -1,0 +1,55 @@
+{
+  "id": "developer-apple-com-design-human-interface-guidelines",
+  "url": "https://developer.apple.com/design/human-interface-guidelines",
+  "kind": "page",
+  "hints_hash": "767f72fd52f9d28f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://developer.apple.com/design/human-interface-guidelines",
+      "title": "Human Interface Guidelines | Apple Developer Documentation",
+      "status": 200
+    },
+    {
+      "url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+      "title": "Accessibility | Apple Developer Documentation",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Human Interface Guidelines",
+  "summary": "Apple's guidance and best practices for designing a great experience on any Apple platform.",
+  "description": "Apple's documentation of guidance and best practices that help you design a great experience for any Apple platform, published in the Human Interface Guidelines section of Apple Developer Documentation. The pages render in JavaScript, so only titles and descriptions were readable.",
+  "keywords": [
+    "human interface guideline",
+    "hig",
+    "apple design",
+    "apple platform",
+    "design guideline",
+    "design principle",
+    "ui guideline",
+    "app design",
+    "ios",
+    "macos",
+    "design best practice",
+    "ux guideline"
+  ],
+  "type": "design-rules",
+  "categories": [
+    "design-rules"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "developer-apple-com"
+  },
+  "confidence": 0.65
+}

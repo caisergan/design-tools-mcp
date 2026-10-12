@@ -1,0 +1,23 @@
+{
+  "id": "craftwork-design-curated-websites",
+  "url": "https://craftwork.design/curated/websites",
+  "kind": "page",
+  "hints_hash": "50ebaa10092823cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:37:07Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://craftwork.design/curated/websites", "title": "Website Design Inspiration — 2,900+ Curated Websites • Craftwork", "status": null}
+  ],
+  "status": "ok",
+  "name": "Website Design Inspiration",
+  "summary": "Gallery of 2,909 hand-picked websites with live screencasts, filterable by industry and backed by a 12,892-item library.",
+  "description": "Craftwork's website inspiration gallery: 2,909 curated sites, each with a live screencast, browsable by industry (agency, web apps, portfolio, artificial intelligence, e-commerce, finance, web3 and more). It is the websites section of a 12,892-item inspiration library that also covers sections, interface and branding.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "keywords": ["website inspiration", "website design", "landing page example", "portfolio website", "web app design", "agency website", "e-commerce design", "website gallery", "design showcase", "website screenshot", "screencast", "curated website"],
+  "contains": ["2,909 website entries with live screencasts", "industry filters: agency 598, web apps 358, portfolio 327, AI 226, e-commerce 225", "12,892 inspiration items across websites, sections, interface, branding and OG images", "49 result pages"],
+  "formats": ["screenshots", "video", "links"],
+  "related": {"parent": "craftwork-design"},
+  "confidence": 0.85
+}

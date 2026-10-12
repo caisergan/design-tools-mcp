@@ -1,0 +1,30 @@
+{
+  "id": "number-flow-barvian-me",
+  "url": "https://number-flow.barvian.me",
+  "kind": "site",
+  "hints_hash": "ac7f8bf96b9c148b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://number-flow.barvian.me", "title": "NumberFlow for React - An animated number component", "status": null},
+    {"url": "https://number-flow.barvian.me/examples", "title": "NumberFlow for React Examples", "status": null},
+    {"url": "https://number-flow.barvian.me/showcase", "title": "NumberFlow Showcase", "status": null},
+    {"url": "https://github.com/barvian/number-flow", "title": "GitHub - barvian/number-flow: An animated number component for React, Vue, Svelte, and TS/JS. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "NumberFlow",
+  "summary": "React component that animates and formats numbers as they change, with locale, prefix and suffix support.",
+  "description": "An animated number component for React, distributed as the @number-flow/react package. It transitions digits automatically when the value changes and takes Intl.NumberFormat options, locales, prefix/suffix, custom timings, trend direction, digit configuration and a continuous plugin; it works with Motion layout animations and exposes a custom element with styling parts. Examples include input, activity and countdown templates.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["text-effect"],
+  "keywords": ["animated number", "number animation", "count up", "odometer", "counter", "number format", "intl numberformat", "react", "vue", "svelte", "typescript", "accessible animation", "motion", "dependency free", "number transition"],
+  "contains": ["animated number component for React, Vue, Svelte and TS/JS", "props: Intl.NumberFormat options, locales, prefix/suffix, timings, trend, digits, plugins", "pairs with Motion layout animations", "examples: input, activity, countdown", "real-world showcase of uses", "7.7k GitHub stars, MIT license"],
+  "formats": ["npm-package", "docs"],
+  "stack": ["react", "vue", "svelte", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/barvian/number-flow", "docs": null, "npm": "@number-flow/react", "figma": null, "parent": null},
+  "confidence": 0.9
+}

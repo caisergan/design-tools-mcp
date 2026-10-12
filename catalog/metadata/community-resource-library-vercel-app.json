@@ -1,0 +1,74 @@
+{
+  "id": "community-resource-library-vercel-app",
+  "url": "https://community-resource-library.vercel.app",
+  "kind": "site",
+  "hints_hash": "ff0f657e837fdb65",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://community-resource-library.vercel.app/llms.txt",
+      "title": "Community Resource Library — for agents",
+      "status": null
+    },
+    {
+      "url": "https://community-resource-library.vercel.app",
+      "title": "Community Resource Library",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Community Resource Library",
+  "summary": "Curated library of 30 design resources — prompts, skills, evals, UI, motion, tools and agents — for AI-assisted design.",
+  "description": "Community-curated directory of approved design resources tagged as prompts, skills, evals, UI, motion, tools, agents or critique. Browse and submit on the site (submissions are reviewed) or read the JSON API; an llms.txt and an agents page support machine browsing.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools",
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "design resource",
+    "curated list",
+    "resource library",
+    "prompt",
+    "skill",
+    "eval",
+    "ui",
+    "motion",
+    "animation",
+    "ai agent",
+    "design engineering",
+    "critique",
+    "community",
+    "directory",
+    "design tool"
+  ],
+  "contains": [
+    "30 curated resources",
+    "categories: prompts, skills, evals, ui, motion, tools, agents, critique",
+    "JSON API at /api/resources",
+    "community submissions reviewed before publishing",
+    "llms.txt and /agents page for AI agents"
+  ],
+  "formats": [
+    "links",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://community-resource-library.vercel.app/agents",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

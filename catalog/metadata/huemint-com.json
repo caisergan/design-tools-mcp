@@ -1,0 +1,29 @@
+{
+  "id": "huemint-com",
+  "url": "https://huemint.com",
+  "kind": "site",
+  "hints_hash": "740b0c9185f4644a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:21:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://huemint.com", "title": "Huemint - AI color palette generator", "status": null},
+    {"url": "https://huemint.com/website-3", "title": "Huemint - Generate a unique 3-accent palette for your website", "status": 200},
+    {"url": "https://huemint.com/about", "title": "Huemint - About Huemint - Machine learning for graphic design colorization", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Huemint",
+  "summary": "Machine-learning colour palette generator that assigns colours by how each one is used in a design.",
+  "description": "Huemint generates colour schemes for brands, websites, gradients and illustrations with a machine-learning model that knows which colours are background, foreground and accent. Templates cover brand, website, gradient, illustration and Bootstrap layouts; swatches can be locked, colours copied as code, or extracted from an uploaded flat-design image.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color palette generator", "ai color scheme", "machine learning color", "brand color", "website palette", "gradient palette", "illustration palette", "monochrome palette", "color contrast", "palette from image", "css color", "design color tool", "accent color", "color scheme"],
+  "contains": ["templates: brand, website, gradient, illustration, Bootstrap", "lock swatches and regenerate around them", "creativity slider (sampling temperature)", "upload a flat design image to extract its colour structure", "three models: random baseline, transformer, diffusion", "trained on 1.2 million filtered design images", "copy code and copy link, simple and advanced modes"],
+  "formats": ["app", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

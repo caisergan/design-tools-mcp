@@ -1,0 +1,96 @@
+{
+  "id": "ai-animate-vercel-app",
+  "url": "https://ai-animate.vercel.app",
+  "kind": "site",
+  "hints_hash": "ee4f27b9d125f0aa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:29:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ai-animate.vercel.app/llms.txt",
+      "title": "ai-animate",
+      "status": null
+    },
+    {
+      "url": "https://ai-animate.vercel.app",
+      "title": "ai-animate: Animated UI components for AI apps",
+      "status": 200
+    },
+    {
+      "url": "https://ai-animate.vercel.app/docs/introduction",
+      "title": "Getting Started with ai-animate | ai-animate",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ai-animate",
+  "summary": "Open-source React components for AI apps: 60+ animated text effects, cinematic reveals, image transitions and AI state indicators.",
+  "description": "An MIT npm package (@ai-animate/core) of drop-in animated components for AI products: typewriter, streaming and thinking text; cinematic and video/broadcast text like lower thirds, captions and countdowns; image reveals and scene wrappers. Works in React 18+, Next.js and Remotion for AI chat frontends, landing pages and video production.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "text-effect",
+    "marquee",
+    "scroll-effect",
+    "cursor",
+    "loader",
+    "ai-agent-ui"
+  ],
+  "keywords": [
+    "text animation",
+    "ai component",
+    "react",
+    "next.js",
+    "remotion",
+    "typewriter",
+    "streaming text",
+    "thinking indicator",
+    "cinematic text",
+    "lower third",
+    "subtitle",
+    "countdown",
+    "animated component",
+    "npm package",
+    "ai chat",
+    "llm",
+    "video production",
+    "scramble text"
+  ],
+  "contains": [
+    "60+ animated components: text animations, cinematic text, video/broadcast, cards, media, scene",
+    "AI state indicators: StreamText token streaming, ThinkingText, CountUp",
+    "video set: lower third, subtitles, chapter marker, countdown, waveform, timecode",
+    "@ai-animate/core npm package, MIT, tree-shakeable, peer deps React >=18",
+    "works with React, Next.js (App Router + Pages Router) and Remotion"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "remotion",
+    "typescript",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/chaitralikakde/ai-animate",
+    "docs": "https://ai-animate.in/docs/introduction",
+    "npm": "@ai-animate/core",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

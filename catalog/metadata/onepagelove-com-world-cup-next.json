@@ -1,0 +1,21 @@
+{
+  "id": "onepagelove-com-world-cup-next",
+  "url": "https://onepagelove.com/world-cup-next",
+  "kind": "page",
+  "hints_hash": "4f755b9d6ec95c20",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:29:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/world-cup-next", "title": "World Cup Next — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "World Cup Next",
+  "summary": "One Page Love award page for World Cup Next, a single-serving one pager with kick-off times and stadium/TV info for upcoming matches.",
+  "description": "Award listing on One Page Love for World Cup Next, a single-serving one pager by Mubashar Iqbal that shows the kick-off time and stadium/TV info for the next couple of World Cup matches. The page shows a full-page screenshot and lists the featured site's category, style, typeface and tech.",
+  "keywords": ["world cup", "football", "soccer", "single serving", "one pager", "match schedule", "kick off time", "sport", "one page website", "alpine.js", "tailwind", "grid layout", "landing page"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "formats": ["screenshots", "links"],
+  "contains": ["single-serving one pager: kick-off time and stadium/TV info for the next World Cup matches", "style: bold, grid layout; typeface Instrument Sans; colorful", "featured site tech: Alpine.js, Tailwind CSS", "published 11 Jun 2026"],
+  "confidence": 0.9
+}

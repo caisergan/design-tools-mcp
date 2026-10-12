@@ -1,0 +1,95 @@
+{
+  "id": "onboarding-tour-vercel-app",
+  "url": "https://onboarding-tour.vercel.app",
+  "kind": "site",
+  "hints_hash": "b349fef8abacfae5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://onboarding-tour.vercel.app",
+      "title": "Tour - Tour",
+      "status": 200
+    },
+    {
+      "url": "https://onboarding-tour.vercel.app/docs",
+      "title": "Get Started - Tour",
+      "status": 200
+    },
+    {
+      "url": "https://onboarding-tour.vercel.app/docs/api",
+      "title": "API Reference - Tour",
+      "status": 200
+    },
+    {
+      "url": "https://onboarding-tour.vercel.app/r/tour.json",
+      "title": "Tour registry item",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/tonghohin/tour",
+      "title": "GitHub - tonghohin/tour",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Tour",
+  "summary": "A single shadcn/ui component for building interactive onboarding tours that highlight elements step by step.",
+  "description": "A React tour component distributed as a shadcn registry item (radix popover based). Define tours with ids and a sequence of steps, each targeting a page element via a data-tour-step-id attribute; supports customization, multipage tours, multiple elements per step and multiple independent tours.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "popover",
+    "modal",
+    "card"
+  ],
+  "keywords": [
+    "onboarding tour",
+    "product tour",
+    "guided tour",
+    "walkthrough",
+    "onboarding flow",
+    "react",
+    "shadcn",
+    "radix ui",
+    "popover",
+    "steps",
+    "tooltip",
+    "user onboarding"
+  ],
+  "contains": [
+    "1 shadcn registry item (Tour)",
+    "docs: basics, API reference, customization, multipage and multiple tours examples",
+    "steps target elements by data-tour-step-id attribute"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "radix",
+    "tailwind",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/tonghohin/tour",
+    "docs": "https://onboarding-tour.vercel.app/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

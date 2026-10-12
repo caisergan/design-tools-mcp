@@ -1,0 +1,66 @@
+{
+  "id": "shadcn-font-picker-vercel-app",
+  "url": "https://shadcn-font-picker.vercel.app",
+  "kind": "site",
+  "hints_hash": "7d9018051513c095",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-font-picker.vercel.app",
+      "title": "Shadcn Font Picker - Beautiful Font Selection Component",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Font Picker",
+  "summary": "Font picker component for React that searches Google Fonts, built on the shadcn/ui input.",
+  "description": "A font picker implementation for React built on top of the shadcn/ui input component and the Google Fonts API. Setup adds the shadcn components and React packages, requires a Google Fonts API key in a .env file, then the picker code is copied into the project. Variants: default, custom width, custom height and without filters.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "input"
+  ],
+  "keywords": [
+    "font picker",
+    "google font",
+    "font selection",
+    "font search",
+    "react",
+    "shadcn ui",
+    "input",
+    "typography",
+    "api key",
+    "font preview"
+  ],
+  "contains": [
+    "font picker component for React using the Google Fonts API",
+    "requires a Google Fonts API key in .env",
+    "variants: default, custom width, custom height, without filters",
+    "install via shadcn CLI and copy-paste snippet"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

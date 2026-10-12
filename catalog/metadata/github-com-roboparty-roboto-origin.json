@@ -1,0 +1,28 @@
+{
+  "id": "github-com-roboparty-roboto-origin",
+  "url": "https://github.com/Roboparty/roboto_origin",
+  "kind": "repo",
+  "hints_hash": "13d53ae044e3f68e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Roboparty/roboto_origin/blob/HEAD/README.md", "title": "ROBOTOORIGIN - Fully Open-Source DIY Humanoid Robot", "status": 200},
+    {"url": "https://github.com/Roboparty/roboto_origin/blob/HEAD/LICENSES.md", "title": "roboto_origin/LICENSES.md at HEAD · Roboparty/roboto_origin · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ROBOTOORIGIN",
+  "summary": "Fully open-source DIY humanoid robot: hardware designs, ROS2 deployment and RL training code in one repo.",
+  "description": "RoboParty's ROBOTOORIGIN is a running, jumping DIY humanoid robot released as a snapshot repo aggregating eight sub-repositories: mechanical CAD and PCB hardware, a ROS2 deployment framework, IsaacLab RL training with Sim2Sim transfer to MuJoCo, URDF/MJCF models, firmware, navigation and XR teleoperation. Includes a BOM and full R&D documentation.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["humanoid robot", "diy robot", "open source robot", "robot learning", "reinforcement learning", "ros2", "isaaclab", "mujoco", "urdf", "sim2sim", "firmware", "cad", "pcb design", "bom", "teleoperation", "robot hardware", "embedded"],
+  "contains": ["8 sub-repositories: hardware, deploy, train, description, firmware, appearance, navigation, xr teleop", "RL training in IsaacLab with Sim2Sim transfer to MuJoCo", "ROS2 deployment framework with IMU and motor driver support", "mechanical CAD drawings, PCB design and a BOM table", "assemblable from Taobao parts and Jialichuang prototyping", "aggregation layer under GNU GPL v3; module snapshots keep their own licenses"],
+  "formats": ["code", "docs", "links"],
+  "stack": ["ros2", "isaaclab", "mujoco"],
+  "pricing": "free",
+  "license": "GPL-3.0-only",
+  "related": {"repo": "https://github.com/Roboparty/roboto_origin", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

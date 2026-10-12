@@ -1,0 +1,31 @@
+{
+  "id": "skills-sh",
+  "url": "https://skills.sh",
+  "kind": "site",
+  "hints_hash": "ac3a2b592446817e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh", "title": "The Agent Skills Directory", "status": null},
+    {"url": "https://www.skills.sh/docs", "title": "Documentation | Skills", "status": null},
+    {"url": "https://www.skills.sh/about", "title": "About — skills.sh", "status": null},
+    {"url": "https://www.skills.sh/block", "title": "block — Agent skills", "status": null},
+    {"url": "https://www.skills.sh/skills", "title": "skills — Agent skills", "status": null}
+  ],
+  "status": "ok",
+  "name": "skills.sh",
+  "summary": "Directory of installable AI agent skills, ranked by install counts with source repos and security audits.",
+  "description": "Indexes public agent skills that ship through the open skills CLI and ranks them by anonymous install telemetry. Each skill page shows the source repo, install count, originating organization, the agents it is used on and security audit results; skills install with a single command.",
+  "type": "directory",
+  "categories": ["design-rules", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill directory", "skills cli", "ai agent", "skill install", "skill leaderboard", "skill pack", "security audit", "procedural knowledge", "agent capability"],
+  "contains": ["leaderboard of agent skills ranked by anonymous install counts", "install with `npx skills add <owner/repo>`", "skill pages show source repo, install count, agents and security audits", "browse by packs, topics, official skills and audits", "operated by Vercel; CLI, pipeline and site are open source", "serves 50 shadcn registry items"],
+  "formats": ["links", "cli", "registry", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/vercel-labs/skills", "docs": "https://www.skills.sh/docs", "npm": "skills", "figma": null, "parent": null},
+  "confidence": 0.85
+}

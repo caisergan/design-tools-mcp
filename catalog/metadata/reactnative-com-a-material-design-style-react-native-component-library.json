@@ -1,0 +1,25 @@
+{
+  "id": "reactnative-com-a-material-design-style-react-native-component-library",
+  "url": "https://reactnative.com/a-material-design-style-react-native-component-library",
+  "kind": "page",
+  "hints_hash": "934d2fc66b4d1bef",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://reactnative.com/a-material-design-style-react-native-component-library", "title": "A Material Design component library for React Native", "status": null}
+  ],
+  "status": "ok",
+  "name": "A Material Design component library for React Native",
+  "summary": "Short 2015 post about mrn, a Material Design component library for React Native by Ben Zhao, with repo and demo links.",
+  "description": "A short post from November 2015 on reactnative.com pointing to mrn, a Material Design component library for React Native by Ben Zhao, with links to its GitHub repository and demo site.",
+  "type": "article",
+  "categories": ["components"],
+  "keywords": ["material design", "react native", "component library", "mobile ui", "android", "ios", "javascript"],
+  "formats": ["links"],
+  "stack": ["react", "react-native"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

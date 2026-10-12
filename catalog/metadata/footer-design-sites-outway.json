@@ -1,0 +1,22 @@
+{
+  "id": "footer-design-sites-outway",
+  "url": "https://footer.design/sites/outway",
+  "kind": "page",
+  "hints_hash": "ff0e322aba66e1e1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/outway", "title": "Footer | Outway", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Outway",
+  "summary": "Desktop and mobile footer design from the Outway sock brand site, with style tags and a link to the live website.",
+  "description": "One footer design from the footer.design gallery: the Outway footer, shown as desktop and mobile screenshots with style tags (flat, bright, large type, monochromatic, minimal) and a link to the live site.",
+  "keywords": ["footer", "website footer", "footer design", "footer inspiration", "ecommerce website", "fashion website", "large type footer", "bright footer", "desktop footer", "mobile footer"],
+  "elements": ["footer"],
+  "formats": ["screenshots", "links"],
+  "contains": ["desktop and mobile footer screenshots", "style tags: flat, bright, large type, monochromatic, minimal", "industry tags: ecommerce, fashion", "designed by Pact; submitted by Abby Muir", "added August 20, 2026"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "id": "github-com-darkinventor-easy-ui",
+  "url": "https://github.com/DarkInventor/easy-ui",
+  "kind": "repo",
+  "hints_hash": "e26252c6741d401b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:01Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/DarkInventor/easy-ui/blob/HEAD/README.md", "title": "Easy UI", "status": 200},
+    {"url": "https://www.easyui.pro/templates", "title": "Easy UI - Beautifully designed website templates built with React and Tailwind CSS.", "status": 200},
+    {"url": "https://www.easyui.pro/ez-beautiful", "title": "Easy UI - Beautifully designed website templates built with React and Tailwind CSS.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Easy UI",
+  "summary": "Open-source gallery of free and premium website templates and blocks built with React, Next.js and Tailwind CSS.",
+  "description": "Website templates and page blocks built with React, Next.js, Tailwind CSS, shadcn/ui, Aceternity UI and Framer Motion. Free templates are browsable by category (landing page, e-commerce, marketing, AI, portfolio, docs) and difficulty; a paid Premium tier adds 100+ blocks and templates.",
+  "type": "template",
+  "categories": ["templates", "components"],
+  "elements": ["navbar", "hero", "features", "bento-grid", "faq", "changelog", "footer"],
+  "variants": {"navbar": ["mobile"]},
+  "keywords": ["website template", "landing page template", "react", "next.js", "tailwind css", "shadcn ui", "aceternity ui", "framer motion", "bento grid", "free template", "animated template", "component", "saas", "boilerplate"],
+  "contains": ["free templates plus paid premium blocks", "categories: landing page, e-commerce, marketing, AI, portfolio, docs", "difficulty filter: beginner, intermediate, advanced", "template sections: hero, bento, features, tech stack, changelog, FAQ, footer, mobile responsive navbar", "built with React, Next.js, Tailwind CSS, shadcn/ui, Aceternity UI and Framer Motion"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/DarkInventor/easy-ui", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

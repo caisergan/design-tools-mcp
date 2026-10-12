@@ -1,0 +1,28 @@
+{
+  "id": "github-com-travisvn-awesome-claude-skills",
+  "url": "https://github.com/travisvn/awesome-claude-skills",
+  "kind": "repo",
+  "hints_hash": "8cac4a6694f567fb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/travisvn/awesome-claude-skills/blob/HEAD/README.md", "title": "Awesome Claude Skills", "status": 200},
+    {"url": "https://github.com/travisvn/awesome-claude-skills", "title": "GitHub - travisvn/awesome-claude-skills: A curated list of awesome Claude Skills, resources, and tools", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Claude Skills",
+  "summary": "Curated list of official and community Claude Skills, with guides on creating, securing and using them.",
+  "description": "A curated list of Claude Skills, resources and tools: Anthropic's official document, design and development skills, community collections such as obra/superpowers, individual community skills and tools. It also explains how skills load, how to create and share one, when to use skills versus prompts, MCP or subagents, plus security guidance, tutorials and an FAQ.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["awesome list", "agent skill", "claude skill", "claude code", "skill collection", "frontend design", "document skill", "mcp builder", "skill creator", "workflow"],
+  "contains": ["official Anthropic skills: docx, pdf, pptx, xlsx, canvas-design, frontend-design, mcp-builder, skill-creator", "community skills: collections (obra/superpowers) and individual skills such as playwright, d3.js and security skills", "guides: creating your first skill, tutorials, security and best practices, FAQ, troubleshooting", "15.4k stars, 2k forks"],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/travisvn/awesome-claude-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

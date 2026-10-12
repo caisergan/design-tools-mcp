@@ -1,0 +1,88 @@
+{
+  "id": "brandguidelines-net",
+  "url": "https://brandguidelines.net",
+  "kind": "site",
+  "hints_hash": "aed67d3728bb63dc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://brandguidelines.net",
+      "title": "The Brand Styleguide Document Showcase",
+      "status": null
+    },
+    {
+      "url": "https://www.brandguidelines.net/templates",
+      "title": "The Brand Styleguide Templates Shop",
+      "status": null
+    },
+    {
+      "url": "https://www.brandguidelines.net/about",
+      "title": "The Brand Styleguide Information And Details",
+      "status": null
+    },
+    {
+      "url": "https://www.brandguidelines.net/templates/form",
+      "title": "Form Brand Styleguide Template",
+      "status": null
+    },
+    {
+      "url": "https://www.brandguidelines.net/templates/owire",
+      "title": "Owire Brand Styleguide Template",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Brandguidelines.net",
+  "summary": "Directory of handpicked brand style guide documents from real companies, as PDF, web or Figma presentations.",
+  "description": "A curated collection of brand guidelines from companies such as Adobe, Spotify, Dropbox, Starbucks, IBM, Duolingo and Miro, available as PDF documents, web versions or Figma presentations. A paid shop sells ready-made brand guide templates in Figma (Form, Owire, Cobalt and more). Free to browse; you can submit your own guidelines.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "brand guideline",
+    "brand style guide",
+    "brand identity",
+    "branding",
+    "logo guideline",
+    "color palette",
+    "typography system",
+    "brand handbook",
+    "visual identity",
+    "pdf",
+    "figma",
+    "inspiration",
+    "style guide template"
+  ],
+  "contains": [
+    "brand guidelines from real brands: Adobe, Spotify, Ebay, Audi, Monday, Duolingo, IBM, Dropbox, Starbucks, Miro",
+    "each document available as PDF, web version or Figma presentation",
+    "paid shop of ready-made brand guide templates and kits ($9–$59)",
+    "free submissions of your own guidelines"
+  ],
+  "formats": [
+    "docs",
+    "links",
+    "figma-file",
+    "templates"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}
