@@ -8,6 +8,8 @@
 // (tools/eval/judge-2026-10-12-b19.json: 0 wrong · 1 partly · 2 a good answer, per query and hit id) — recall@5 and MRR
 // count a grade-2 hit, nDCG@5 uses gain 2^grade − 1 against the best grades judged for that query. A hit nobody judged
 // scores 0 and is counted, so a ranking change that surfaces new hits says so instead of silently scoring low.
+// Brief 19b: tools/eval/judged-queries-19b.json adds a named tuning set and a fresh held-out set (graded in
+// tools/eval/judge-2026-10-12-b19b.json), scored the same way.
 import { spawn } from "node:child_process";
 import { createInterface } from "node:readline";
 import { readFileSync } from "node:fs";
@@ -16,8 +18,9 @@ import { FILE, ROOT, loadJSON } from "./lib.mjs";
 
 const TOP = 5;
 const QUERIES = JSON.parse(readFileSync(join(ROOT, "tools", "eval", "queries.json"), "utf8"));
-const JUDGED = JSON.parse(readFileSync(join(ROOT, "tools", "eval", "judged-queries.json"), "utf8"));
-const GRADES = new Map(JSON.parse(readFileSync(join(ROOT, "tools", "eval", "judge-2026-10-12-b19.json"), "utf8")).map((j) => [`${j.q}\t${j.id}`, j.grade]));
+const evalFile = (f) => JSON.parse(readFileSync(join(ROOT, "tools", "eval", f), "utf8"));
+const JUDGED = [...evalFile("judged-queries.json"), ...evalFile("judged-queries-19b.json")];
+const GRADES = new Map(["judge-2026-10-12-b19.json", "judge-2026-10-12-b19b.json"].flatMap(evalFile).map((j) => [`${j.q}\t${j.id}`, j.grade]));
 const ITEMS = loadJSON(FILE.catalog).items;
 
 const normUrl = (u) => String(u).toLowerCase().replace(/\/+$/, "");
@@ -103,7 +106,7 @@ async function main() {
     best.set(q, [...(best.get(q) || []), g]);
   }
   const judged = async () => {
-    const out = { tune: [], held: [], unjudged: 0, misses: [] };
+    const out = { tune: [], held: [], "tune-names": [], fresh: [], unjudged: 0, misses: [] };
     for (const { q, half } of JUDGED) {
       const { result } = await rpc("tools/call", { name: "search_resources", arguments: { query: q, limit: TOP } });
       const hits = hitsOf((result?.content || []).map((c) => c.text || "").join("\n"));
@@ -148,9 +151,10 @@ async function main() {
     if (desc.failures.length) failed(desc.failures);
   }
   const avg = (a, k) => (a.reduce((n, m) => n + m[k], 0) / a.length).toFixed(3);
-  console.log(`\njudged queries (brief 19, tools/eval/judged-queries.json) — ${JUDGED.length} queries, graded by a blind judge`);
-  for (const half of ["tune", "held"])
-    console.log(`${half === "tune" ? "tuning  " : "held-out"} (${jud[half].length}): recall@${TOP} ${avg(jud[half], "r")} · MRR ${avg(jud[half], "rr")} · nDCG@${TOP} ${avg(jud[half], "ndcg")}`);
+  console.log(`\njudged queries (briefs 19 + 19b, tools/eval/judged-queries*.json) — ${JUDGED.length} queries, graded by a blind judge`);
+  const label = { tune: "tuning (19)      ", held: "held-out (19)    ", "tune-names": "named tuning (19b)", fresh: "fresh held-out (19b)" };
+  for (const half of Object.keys(label))
+    console.log(`${label[half]} (${jud[half].length}): recall@${TOP} ${avg(jud[half], "r")} · MRR ${avg(jud[half], "rr")} · nDCG@${TOP} ${avg(jud[half], "ndcg")}`);
   console.log(`unjudged hits in the top ${TOP}: ${jud.unjudged}${jud.unjudged ? " (scored 0 — judge them before reading the numbers)" : ""}`);
   if (jud.misses.length) {
     console.log(`no good answer in the top ${TOP} (${jud.misses.length}):`);

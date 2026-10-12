@@ -374,6 +374,48 @@ export function createSearch(entries, index) {
   const itemOf = (d) => items[d - E];
   const entryOf = (d) => (d < E ? entries[d] : entries[entryOfItem[d - E]]);
 
+  // Navigational queries (brief 19b): a query that is a site's or repo's name ("radix ui" → Radix UI, "shadcn ui" →
+  // shadcn/ui), its domain ("tailwindcss.com"), its repo name or a name it used to have ("framer motion" → Motion,
+  // "successor to Framer Motion") puts that entry first. Names compare without spaces and punctuation; a one-letter
+  // typo in a name of 6+ letters still matches. Saturated BM25 could not do it: Radix UI's name and domain scored below
+  // repos that repeat "radix" in four fields. Pages are left out: a page named like a product is about it, not it.
+  const compact = (x) => String(x || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
+  const nameKeys = new Map(); // compact name, domain (with and without its TLD) or repo name → [entry doc]
+  const formerKeys = new Map(); // compact former name → [entry doc]
+  const addKey = (map, k, d) => {
+    if (k.length < 3) return;
+    const l = map.get(k) || [];
+    if (!l.includes(d)) map.set(k, [...l, d]);
+  };
+  entries.forEach((e, d) => {
+    if (e.kind === "page") return;
+    addKey(nameKeys, compact(e.name), d);
+    const dom = String(e.domain || "").replace(/^www\./, "");
+    if (dom && dom !== "github.com") {
+      addKey(nameKeys, compact(dom), d);
+      addKey(nameKeys, compact(dom.replace(/\.[a-z]+$/, "")), d);
+    }
+    const repo = e.kind === "repo" && /github\.com\/[^/]+\/([^/#?]+)/.exec(e.url || "");
+    if (repo) addKey(nameKeys, compact(repo[1]), d);
+    for (const m of `${e.desc || ""} ${e.about || ""}`.matchAll(/\b(?:formerly(?: known as)?|previously(?: known as)?|successor to|renamed from)\s+([A-Z][\w.\-/]*(?:\s+[A-Z][\w.\-/]*){0,2})/g))
+      addKey(formerKeys, compact(m[1]), d);
+  });
+  // words a name may carry or drop: "lucide icons" → Lucide, "aceternity" → Aceternity UI
+  const GENERIC = new Set(["ui", "icons", "icon", "library", "components", "component", "css", "illustrations", "palette", "kit", "app", "website", "site"]);
+  function navigational(query, concepts) {
+    // a query made only of design vocabulary ("icon library") describes what it wants; it does not name a site
+    if (concepts.every((c) => ["element", "variant", "category", "tr"].includes(c.kind) || (c.kind === "word" && GENERIC.has(c.word)))) return [];
+    const words = split(query.replace(/^https?:\/\//, "").replace(/^www\./, ""));
+    if (!words.length) return [];
+    const whole = compact(words.join(""));
+    const keys = [whole];
+    if (words.length === 1) keys.push(whole + "ui");
+    if (words.length > 1 && GENERIC.has(words.at(-1))) keys.push(compact(words.slice(0, -1).join("")));
+    const hit = [...keys.flatMap((k) => nameKeys.get(k) || []), ...(formerKeys.get(whole) || [])]; // an old name only as a whole
+    if (!hit.length && whole.length >= 6) for (const [k, ds] of nameKeys) if (k.length >= 6 && editDistance1(whole, k)) hit.push(...ds);
+    return [...new Set(hit)];
+  }
+
   /** One query → concepts: [{ word, alts: [{ terms: [term], weight }] }] (score of a concept = best alt). */
   function analyse(query) {
     // Phrases are matched on every word ("list has no items" → empty-state); stopwords only never score alone.
@@ -566,6 +608,13 @@ export function createSearch(entries, index) {
       const coverage = a.hit / n;
       const score = a.s * (0.35 + 0.65 * coverage * coverage) * (a.hit === n && n > 1 ? 1.25 : 1) * prior(d);
       ranked.push({ d, score, matched: a.matched });
+    }
+    const top = ranked.reduce((m, r) => Math.max(m, r.score), 0) || 1;
+    for (const d of navigational(query || "", concepts)) {
+      if (!passes(d, f)) continue;
+      const r = ranked.find((x) => x.d === d);
+      if (r) r.score = Math.max(r.score, top * 1.01);
+      else ranked.push({ d, score: top * 1.01, matched: [[String(query), "name"]] });
     }
     ranked.sort((a, b) => b.score - a.score || a.d - b.d);
     return { analysis, ranked };
