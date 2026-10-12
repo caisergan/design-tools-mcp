@@ -470,7 +470,17 @@ validates; eval recall on the descriptive queries rises after rebuilding the Pha
   (`tools/eval/judge-2026-10-12.json`) → widened 0.983 / 0.699, descriptive block 1.000 / 0.733. Five real ranking
   regressions remain (page entries ranking on their own sections, "navbar design", the navbar gallery-examples group,
   "brand mark ideas", near-ties favouring the long tail) → brief 19 (`briefs/phase-2b/19-ranking-after-records.md`).
-  Records are on branch `phase2b/records` until brief 19 lands.
+  Records were on branch `phase2b/records` until brief 19 landed.
+- **Brief 19 (2026-10-12, Opus 5.5 high, report `briefs/phase-2b/reports/19.md`) — merged with the records.** A judged
+  eval of 83 new queries (`tools/eval/judged-queries.json`; tuning 46 / held-out 37, split before tuning; 1,541 grades by
+  19 blind judge agents, `tools/eval/judge-2026-10-12-b19.json`) scored in `bun tools/eval.mjs`. Changes: entries with
+  mapped pages get the readable prior; unreadable record entries ×0.95 (not 0.85); elements an entry only lists (not
+  named in its name or summary) rank at 1/6 weight in a `listed` field but still filter; a synonym scores no more than the
+  typed word (idf cap); plain words count 0.7 of a taxonomy concept; a `logo` synonym group; `search_resources` takes
+  each group's best strong hit first. Old eval 0.983 / 0.699 → **1.000 / 0.785**, descriptive 1.000 / 0.758; held-out
+  0.811 / 0.616 / 0.666 → **0.838 / 0.715 / 0.739** (R@5 / MRR / nDCG@5). Open: named queries for a canonical site
+  ("radix ui": radix-ui-com 108th, "shadcn ui", "framer motion", "unicorn studio") — an exact-name boost, judged on a
+  fresh held-out set.
 ---
 
 ## Phase 3 — Item layer + one ranked search index  **[#5 #6]**  ~2–3 days — **done 2026-10-07** (adapters 1–2; results in 3.8)
