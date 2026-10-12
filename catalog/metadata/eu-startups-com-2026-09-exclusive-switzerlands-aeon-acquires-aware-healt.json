@@ -1,0 +1,26 @@
+{
+ "id": "eu-startups-com-2026-09-exclusive-switzerlands-aeon-acquires-aware-healt",
+ "url": "https://eu-startups.com/2026/09/exclusive-switzerlands-aeon-acquires-aware-health-as-total-seed-funding-passes-e12-million",
+ "kind": "page",
+ "hints_hash": "44e9d1e89fff01d8",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:29:50Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://eu-startups.com/2026/09/exclusive-switzerlands-aeon-acquires-aware-health-as-total-seed-funding-passes-e12-million", "title": "EXCLUSIVE: Switzerland's Aeon acquires Aware Health as total Seed funding surpasses €12 million | EU-Startups", "status": null}
+ ],
+ "status": "ok",
+ "name": "EXCLUSIVE: Switzerland's Aeon acquires Aware Health as Seed funding passes €12M",
+ "summary": "EU-Startups article: Zurich-based Aeon acquires German blood diagnostics platform Aware Health, taking its Seed funding past €12 million.",
+ "description": "News article on EU-Startups about preventive healthcare company Aeon (Zurich) acquiring the German blood diagnostics platform Aware Health. The Seed extension, co-led by Araya Ventures, brings Aeon's total Seed funding to over €12 million; the article covers the deal, Aeon's AI-powered whole-body check-ups combining MRI with recurring blood diagnostics, and comparable 2026 European preventive-health rounds.",
+ "type": "article",
+ "elements": [],
+ "keywords": ["health tech", "startup funding", "seed round", "acquisition", "preventive healthcare", "blood diagnostics", "biomarker", "whole body mri", "ai diagnostics", "switzerland", "germany", "venture capital", "longevity", "health platform"],
+ "contains": ["published September 14, 2026", "Seed extension co-led by Araya Ventures", "Aeon total Seed funding over €12 million", "Aware Health: 100+ biomarkers, 45+ blood-draw locations, close to 10,000 active customers"],
+ "formats": ["links"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

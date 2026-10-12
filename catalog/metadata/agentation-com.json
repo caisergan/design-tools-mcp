@@ -1,0 +1,38 @@
+{
+  "id": "agentation-com",
+  "url": "https://agentation.com",
+  "kind": "site",
+  "hints_hash": "d832b231b8bccdd5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://agentation.com", "title": "Agentation", "status": 200},
+    {"url": "https://www.agentation.com/install", "title": "Agentation", "status": 200},
+    {"url": "https://www.agentation.com/faq", "title": "Agentation", "status": 200},
+    {"url": "https://github.com/benjitaylor/agentation", "title": "GitHub - benjitaylor/agentation: The visual feedback tool for agents. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Agentation",
+  "summary": "Visual feedback toolbar that turns UI annotations into structured context AI coding agents can find and act on.",
+  "description": "A floating toolbar for React apps in development: click any element, select text, multi-select or drag an area to annotate, then copy markdown containing CSS selectors, source file paths, the React component tree, computed styles and your feedback with intent and priority. Paste it into Claude Code, Codex, Gemini or Grok, or connect the bundled MCP server so the agent reads, answers, resolves and dismisses annotations directly; dev-only, local-first and zero runtime dependencies.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["visual feedback", "ui annotation", "annotate ui", "feedback tool", "ai coding agent", "agent feedback", "mcp server", "react component", "css selector", "design review", "developer tool", "annotation toolbar", "code context", "dev tool"],
+  "contains": [
+    "floating annotation toolbar for React 18+ apps, rendered in development only",
+    "output includes CSS selectors, source paths, component tree and computed styles",
+    "MCP server (agentation-mcp) lets agents list, answer, resolve and dismiss annotations",
+    "text selection, multi-select, area selection and animation pause",
+    "works in shadow roots and same-origin iframes; dark and light mode",
+    "local-first: annotations stay local until you copy or connect a server",
+    "free for internal use; PolyForm Shield license governs redistribution"
+  ],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "node"],
+  "pricing": "free",
+  "license": "PolyForm-Shield-1.0.0",
+  "related": {"repo": "https://github.com/benjitaylor/agentation", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

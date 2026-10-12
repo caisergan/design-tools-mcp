@@ -1,0 +1,27 @@
+{
+  "id": "jahed-21st-dev-components-material-design-3-ripple",
+  "url": "https://jahed.21st.dev/components/material-design-3-ripple",
+  "kind": "page",
+  "hints_hash": "4f31f1338d4dc5d2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jahed.21st.dev/components/material-design-3-ripple", "title": "Material Design 3 Ripple | Community Components | 21st", "status": 200},
+    {"url": "https://jahed.21st.dev/llms.txt", "title": "21st (https://21st.dev)", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Material Design 3 Ripple",
+  "summary": "React component that adds the Material Design 3 ripple press effect to a click target.",
+  "description": "A quick-press ripple effect component in the style of Google Material Design 3, published by Hossain Jahed on the 21st community component catalog. The component page was rendered client-side, so only the title, one-line description and publish date were readable: copy the TSX or install it with the shadcn CLI via 21st.",
+  "type": "component-library",
+  "elements": [],
+  "keywords": ["ripple", "ripple effect", "material design 3", "m3", "react", "tailwind css", "shadcn", "click effect", "press animation", "touch feedback", "component"],
+  "contains": ["standalone Material Design 3 ripple press effect", "React component by Hossain Jahed on 21st", "published 20 Jan 2026", "copy the TSX or install via the shadcn CLI"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

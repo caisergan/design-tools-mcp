@@ -1,0 +1,117 @@
+{
+  "id": "github-com-abhivarde-syncui",
+  "url": "https://github.com/AbhiVarde/syncui",
+  "kind": "repo",
+  "hints_hash": "8a4a88b458fdc98b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/AbhiVarde/syncui/blob/HEAD/README.md",
+      "title": "syncui/README.md at 5529f79c6408b8f49ef06e957478447b42f826b6 · AbhiVarde/syncui · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AbhiVarde/syncui/HEAD/README.md",
+      "title": "syncui README",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Sync UI",
+  "summary": "Animated React components, blocks and chart variants built with MUI and Motion; copy-paste, CLI, MCP or hosted registry install.",
+  "description": "A React component collection: 125+ components including buttons, cards, tables, forms, date pickers, loaders, avatars, accordions, carousels, dialogs, docks and tabs; 13+ landing-page blocks (hero, CTA, pricing, stats) and 12 animated chart variants. Entries install by copy-paste, the CLI, an MCP server, an agent skill or a hosted registry; three landing-page templates are sold separately.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections",
+    "motion"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "button",
+    "card",
+    "carousel",
+    "chart",
+    "cta",
+    "date-picker",
+    "dock",
+    "form",
+    "hero",
+    "loader",
+    "modal",
+    "pricing",
+    "progress",
+    "stats",
+    "table",
+    "tabs"
+  ],
+  "variants": {
+    "hero": [
+      "centered"
+    ]
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "mui",
+    "material ui",
+    "animated component",
+    "component library",
+    "copy paste",
+    "cli",
+    "mcp",
+    "agent skill",
+    "component registry",
+    "chart",
+    "landing page block",
+    "hero",
+    "pricing",
+    "cta",
+    "stats",
+    "accordion",
+    "dialog",
+    "date picker",
+    "loader",
+    "dock",
+    "tabs",
+    "template"
+  ],
+  "contains": [
+    "125+ components: buttons, cards, tables, forms, date pickers, loaders, avatars, accordions, carousels, dialogs, docks",
+    "13+ blocks: hero, CTA, pricing and stats sections",
+    "12 animated chart variants: bar, donut, heatmap, line, progress, stat",
+    "3 paid templates: startup, SaaS, portfolio ($29 each, $79 bundle)",
+    "install routes: copy-paste, CLI, MCP server, agent skill, hosted registry",
+    "built with React, Next.js, Material UI and Motion"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "registry",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "mui",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/AbhiVarde/syncui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

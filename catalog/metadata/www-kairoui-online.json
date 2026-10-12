@@ -1,0 +1,33 @@
+{
+  "id": "www-kairoui-online",
+  "url": "https://www.kairoui.online",
+  "kind": "site",
+  "hints_hash": "af0f00e157a8a6d5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:01Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.kairoui.online/llms.txt", "title": "Kairo UI", "status": null},
+    {"url": "https://www.kairoui.online", "title": "Free Next.js Landing Page Templates — Kairo UI", "status": 200},
+    {"url": "https://www.kairoui.online/templates", "title": "Free Next.js Landing Page Templates — Browse All | Kairo UI", "status": 200},
+    {"url": "https://www.kairoui.online/template/nova", "title": "Nova — Free SaaS landing page template for Next.js | Kairo UI", "status": 200},
+    {"url": "https://www.kairoui.online/template/xero", "title": "Xero — Free dark SaaS landing page template for Next.js | Kairo UI", "status": 200},
+    {"url": "https://www.kairoui.online/template/glaze", "title": "Glaze — Free dark glassmorphism landing page template for Next.js | Kairo UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kairo UI",
+  "summary": "Collection of 13 free MIT-licensed Next.js landing page templates installed with the shadcn CLI.",
+  "description": "Free landing page templates for Next.js 16 and Tailwind CSS v4, installed into a project with a single shadcn CLI command. Templates cover SaaS, AI tools, e-commerce, agency and mobile app pages with hero, features, pricing, FAQ, testimonials and footer sections in dark and light styles.",
+  "type": "template",
+  "categories": ["templates", "registries"],
+  "elements": ["navbar", "hero", "features", "pricing", "testimonials", "faq", "cta", "logo-cloud", "stats", "footer"],
+  "variants": {"hero": ["video"]},
+  "keywords": ["landing page template", "next.js", "react", "tailwind css", "shadcn cli", "shadcn registry", "free template", "saas landing page", "ai landing page", "dark mode", "glassmorphism", "hero section", "pricing section", "faq", "testimonials", "e-commerce", "mit license", "open source", "startup"],
+  "contains": ["13 landing page templates listed", "install with one shadcn CLI command", "sections: hero, features, pricing, FAQ, testimonials, CTA, footer", "dark and light templates for SaaS, AI, e-commerce, agency and mobile apps", "MIT licensed, no signup or paywall"],
+  "formats": ["templates", "registry", "cli", "code"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

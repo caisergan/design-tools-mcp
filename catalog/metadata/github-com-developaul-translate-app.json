@@ -1,0 +1,36 @@
+{
+  "id": "github-com-developaul-translate-app",
+  "url": "https://github.com/developaul/translate-app",
+  "kind": "repo",
+  "hints_hash": "ae72d5d96469c20b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/developaul/translate-app/blob/HEAD/README.md", "title": "Translate App", "status": 200},
+    {"url": "https://github.com/developaul/translate-app", "title": "GitHub - dryor/translate-app: Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI-SDK/OpenAI, Zod, Vercel Analytics, pdf-parse. · GitHub", "status": 200},
+    {"url": "https://talk-translate.vercel.app", "title": "Translate App", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Translate App",
+  "summary": "AI translation app for text, images and PDF documents, built with Next.js, the AI SDK and shadcn/ui.",
+  "description": "A translation web app that translates plain text, images and PDF documents (PDFs are parsed to text with pdf-parse) through the AI SDK and OpenAI. Built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, Radix primitives and Zod, run with Bun and deployed on Vercel with Vercel Analytics; a live demo runs at talk-translate.vercel.app. The repository has moved to dryor/translate-app.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["input", "file-upload"],
+  "keywords": ["translation", "ai", "translate text", "translate image", "translate pdf", "openai", "ai sdk", "nextjs", "react", "shadcn", "tailwind", "bun", "typescript", "zod", "document translation"],
+  "contains": [
+    "translates text, images and PDF documents",
+    "AI SDK/OpenAI backend with Zod validation",
+    "PDFs converted to text with pdf-parse",
+    "Next.js + TypeScript + Tailwind CSS + shadcn/ui, run with Bun",
+    "demo at talk-translate.vercel.app",
+    "MIT licensed; 111 GitHub stars"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn", "radix", "zod", "bun", "ai-sdk", "pdf-parse"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/dryor/translate-app", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

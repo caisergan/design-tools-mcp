@@ -1,0 +1,34 @@
+{
+  "id": "github-com-mehrabmp-cut-it",
+  "url": "https://github.com/mehrabmp/cut-it",
+  "kind": "repo",
+  "hints_hash": "c55e03e014371333",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mehrabmp/cut-it/blob/HEAD/README.md", "title": "[Cut It](https://cutit.vercel.app/)", "status": null},
+    {"url": "https://cutit.vercel.app", "title": "Cut it", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cut It",
+  "summary": "Open-source URL shortener web app with customizable short links, built with Next.js and shadcn/ui.",
+  "description": "Cut It is a free open-source tool for generating short links: shorten long URLs, customize the generated links, and manage them from a user-friendly interface. Built on the Next.js App Router with Drizzle ORM, Turso and NextAuth; link analytics are listed as coming soon. Inspired by Dub.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["form", "input"],
+  "keywords": ["url shortener", "short link", "link management", "next.js", "shadcn ui", "drizzle orm", "tailwind css", "link analytics", "nextauth", "open source", "full stack app", "vercel"],
+  "contains": [
+    "shortens long URLs; short links are customizable",
+    "interface for managing shortened links",
+    "stack: Next.js, Drizzle, Turso, NextAuth, Upstash Redis, Tailwind CSS, shadcn/ui",
+    "analytics track planned (soon)",
+    "MIT licensed; inspired by Dub"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mehrabmp/cut-it", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,32 @@
+{
+  "id": "shipixen-com-shadcn-pricing-page",
+  "url": "https://shipixen.com/shadcn-pricing-page",
+  "kind": "page",
+  "hints_hash": "af546cf054413816",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shipixen.com/shadcn-pricing-page", "title": "Pricing page generator: React, Vue, Shadcn UI & Tailwind CSS | Beautiful & performant Next.js apps deployed in minutes", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pricing page generator",
+  "summary": "Configurator that generates pricing page code for Shadcn UI, Radix UI, Tailwind CSS, Next.js/Shipixen or Vue projects.",
+  "description": "A pricing page generator: set a page description, optional banner text and up to three pricing tiers (name, description, price, features, monthly or annually), preview one-, two- and three-tier examples live, then copy the code. Export variants: React/Next.js + Shadcn UI, React/Next.js + Radix UI, React/Next.js + Tailwind CSS, Next.js/Shipixen and Vue + Tailwind CSS (options or composition API); responsive with dark mode included.",
+  "type": "generator",
+  "categories": ["design-tools", "sections"],
+  "elements": ["pricing"],
+  "keywords": ["pricing page", "pricing page generator", "shadcn", "radix ui", "tailwind", "react", "nextjs", "vue", "code generator", "tier", "monthly", "annually", "dark mode", "pricing section"],
+  "contains": [
+    "pricing tiers: up to three, each with name, description, price and features",
+    "monthly and annually payment frequency",
+    "live demos of one-, two- and three-tier pricing pages",
+    "export: React/Next.js + Shadcn UI, Radix UI or Tailwind CSS",
+    "export: Next.js/Shipixen boilerplate or Vue + Tailwind CSS",
+    "responsive with dark mode included"
+  ],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "vue", "tailwind", "radix"],
+  "related": {"parent": null},
+  "confidence": 0.85
+}

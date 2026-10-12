@@ -1,0 +1,30 @@
+{
+  "id": "muz-li",
+  "url": "https://muz.li",
+  "kind": "site",
+  "hints_hash": "c5a3b29fefd5fd31",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://muz.li/llms.txt", "title": "Muzli", "status": null},
+    {"url": "https://muz.li", "title": "Muzli - Design inspiration hub", "status": 200},
+    {"url": "https://muz.li/pro", "title": "Upgrade to Muzli PRO - Premium Design Inspiration Platform", "status": 200},
+    {"url": "https://muz.li/faq", "title": "Muzli FAQ – How Muzli Works | Frequently Asked Questions", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Muzli",
+  "summary": "Design inspiration hub that turns every browser new tab into a feed curated from 200+ design sources.",
+  "description": "Muzli replaces the browser's new tab with a personalised design inspiration feed, blending 200+ design sources with hand-picked editorial selections. Free extension for Chrome, Edge, Safari and Firefox, plus Muzli Web, search across indexed design work, curated collections, the Muzli Colors palette generator, designer profiles and a design jobs board.",
+  "type": "gallery",
+  "categories": ["inspiration", "design-tools"],
+  "elements": [],
+  "keywords": ["design inspiration", "new tab extension", "browser extension", "curated feed", "design gallery", "ui design", "graphic design", "illustration", "typography", "branding", "motion design", "design news", "design community", "color palette", "inspiration board", "moodboard", "design showcase"],
+  "contains": ["feed curated from 200+ design sources", "new tab extension for Chrome, Edge, Safari (Mac) and Firefox", "900,000+ designers", "Muzli Pro: $9/month, $60/year or $350 lifetime", "free Muzli Colors palette generator", "search across indexed design inspiration", "12 years of curated inspiration archive", "collections, profiles, design jobs and a tools directory"],
+  "formats": ["links", "screenshots"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

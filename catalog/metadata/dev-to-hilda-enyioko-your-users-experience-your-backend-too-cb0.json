@@ -1,0 +1,33 @@
+{
+  "id": "dev-to-hilda-enyioko-your-users-experience-your-backend-too-cb0",
+  "url": "https://dev.to/hilda_enyioko/your-users-experience-your-backend-too-cb0",
+  "kind": "page",
+  "hints_hash": "6a3f2cf8c17de65c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dev.to/hilda_enyioko/your-users-experience-your-backend-too-cb0", "title": "Your Users Experience Your Backend Too. - DEV Community", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Your Users Experience Your Backend Too",
+  "summary": "dev.to post arguing that backend choices — response times, error messages, API design, architecture — are part of user experience.",
+  "description": "An opinion piece by Hilda Enyioko on why user experience is not just the interface: slow API response times, unhelpful error messages, API design and system and scaling architecture choices all shape how users experience a product, with a section on why this matters more in the vibecoding era of AI-assisted development.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["user experience", "backend", "api design", "api response time", "error message", "system architecture", "scalability", "ux design", "software engineering", "design system", "vibecoding", "frontend", "developer", "article"],
+  "contains": [
+    "dev.to article posted 25 Aug by Hilda Enyioko",
+    "five sections: API response times, error messages, API design, system architecture, scaling architecture",
+    "argues users experience the whole system, not just the frontend",
+    "tags: uxdesign, softwareengineering, designsystem",
+    "written for the vibecoding era of AI-assisted development"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,116 @@
+{
+  "id": "jiro-build",
+  "url": "https://jiro.build",
+  "kind": "site",
+  "hints_hash": "0f40d514a4a5c085",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://jiro.build",
+      "title": "Jiro — The Design Prompt Library to Vibe Code Better Websites",
+      "status": 200
+    },
+    {
+      "url": "https://jiro.build/components",
+      "title": "Jiro — The Design Prompt Library to Vibe Code Better Websites",
+      "status": 200
+    },
+    {
+      "url": "https://jiro.build/templates",
+      "title": "Jiro — The Design Prompt Library to Vibe Code Better Websites",
+      "status": 200
+    },
+    {
+      "url": "https://jiro.build/pricing",
+      "title": "Pricing — Jiro Build | Jiro",
+      "status": 200
+    },
+    {
+      "url": "https://jiro.build/mcp",
+      "title": "Jiro Build MCP Server — use 1000+ components from your AI editor",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Jiro",
+  "summary": "Library of 1,200+ website section and full-page template designs, each with a copy-paste prompt for AI builders.",
+  "description": "A design prompt library organised by section type — headers, pricing, testimonials, FAQ, footer, CTA, stats, team, contact — plus full-page landing page templates for agency, portfolio, e-commerce, fintech, real estate and other categories. Browse a design, copy its prompt into Bolt, Lovable, v0, Cursor or Claude Code, or connect the MCP server at mcp.jiro.build to pull sections directly into an editor.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "features",
+    "testimonials",
+    "footer",
+    "faq",
+    "pricing",
+    "stats",
+    "background",
+    "cta",
+    "team",
+    "button",
+    "contact"
+  ],
+  "keywords": [
+    "design prompt",
+    "prompt library",
+    "vibe coding",
+    "ai website builder",
+    "landing page template",
+    "website section",
+    "react component",
+    "tailwind",
+    "mcp server",
+    "header section",
+    "hero",
+    "pricing section",
+    "testimonials",
+    "footer",
+    "faq",
+    "cta",
+    "portfolio template",
+    "saas landing page",
+    "bolt",
+    "lovable",
+    "v0",
+    "cursor",
+    "claude code",
+    "website template"
+  ],
+  "contains": [
+    "1,162 section components and 110 full-page templates (1,272 in total)",
+    "counts: features 237, navbar/header 197, testimonials 114, footers 106, FAQ 84, pricing 70, stats 32, CTAs 28, team 18",
+    "each item: live preview, tags, a prompt to copy, and React/Tailwind code via MCP",
+    "MCP server (mcp.jiro.build) works with Claude Code, Claude Desktop, Codex, Cursor, Lovable, Replit, Bolt, VS Code",
+    "template categories: agency, portfolio, e-commerce, fintech, real estate, health, media, education, travel",
+    "new designs added weekly"
+  ],
+  "formats": [
+    "prompts",
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

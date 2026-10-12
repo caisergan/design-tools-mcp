@@ -1,0 +1,72 @@
+{
+  "id": "fonts-google-com-specimen-dela-gothic-one",
+  "url": "https://fonts.google.com/specimen/Dela+Gothic+One",
+  "kind": "page",
+  "hints_hash": "9d7c0a2e55150198",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:23:47Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/specimen/Dela+Gothic+One",
+      "title": "Dela Gothic One - Google Fonts",
+      "status": null
+    },
+    {
+      "url": "https://fonts.google.com/metadata/fonts/Dela%20Gothic%20One",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://github.com/syakuzen/DelaGothic",
+      "title": "GitHub - syakuzen/DelaGothic: fat sans-serif font",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Dela Gothic One",
+  "summary": "Google Fonts specimen page for Dela Gothic One, a flat, very thick Gothic display typeface for posters and packaging.",
+  "description": "Specimen page for the Dela Gothic One family on Google Fonts: a flat, very thick Gothic body described as ideal for posters and packaging. The family's subsets include Cyrillic, Greek and Japanese. The source project (github.com/syakuzen/DelaGothic) is released under the SIL Open Font License 1.1 and covers Google Latin Core, kana and kanji up to JIS level 3.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": [
+    "google font",
+    "display font",
+    "gothic font",
+    "japanese font",
+    "cyrillic font",
+    "greek font",
+    "bold typeface",
+    "poster font",
+    "packaging font",
+    "headline font",
+    "free font",
+    "webfont",
+    "typeface specimen",
+    "open source font",
+    "heavy san"
+  ],
+  "contains": [
+    "flat, very thick Gothic display body",
+    "subsets listed: Cyrillic, Greek, Japanese",
+    "open source release under SIL Open Font License 1.1"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {
+    "repo": "https://github.com/syakuzen/DelaGothic",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "fonts-google-com"
+  },
+  "confidence": 0.75
+}

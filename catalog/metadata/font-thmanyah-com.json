@@ -1,0 +1,79 @@
+{
+  "id": "font-thmanyah-com",
+  "url": "https://font.thmanyah.com",
+  "kind": "site",
+  "hints_hash": "7978648c32ca80a4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://font.thmanyah.com",
+      "title": "خط ثمانية",
+      "status": null
+    },
+    {
+      "url": "https://font.thmanyah.com/licenses",
+      "title": "خط ثمانية",
+      "status": 200
+    },
+    {
+      "url": "https://font.thmanyah.com/licenses-en",
+      "title": "خط ثمانية",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Thmanyah Font (خط ثمانية)",
+  "summary": "Arabic typeface family by Thmanyah, free to download for personal and commercial design work.",
+  "description": "An Arabic typeface drawn to feel handwritten, with a Serif Display cut in five weights (light to heavy) for headlines, a Serif Text cut for long articles and a Sans cut for digital interfaces. It supports OpenType stylistic alternates, is downloaded as font files and installs on macOS or Windows, and updates are sent to the email used for the download. Thmanyah's own license permits personal and commercial design use but forbids redistribution, modification and derivative fonts.",
+  "type": "font-foundry",
+  "categories": [
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "arabic font",
+    "arabic typeface",
+    "arabic san",
+    "serif display",
+    "serif text",
+    "headline font",
+    "display font",
+    "text font",
+    "free font",
+    "opentype",
+    "stylistic alternate",
+    "webfont",
+    "rtl typography",
+    "arabic typography",
+    "font family"
+  ],
+  "contains": [
+    "Serif Display cut in 5 weights: light, regular, medium, bold, heavy",
+    "Serif Text and Sans cuts",
+    "80 builds of the family",
+    "45+ Arabic typefaces studied over 1,200+ hours of research",
+    "free download for personal and commercial design use",
+    "OpenType stylistic alternates for connected letterforms"
+  ],
+  "formats": [
+    "font-files",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://font.thmanyah.com/licenses",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

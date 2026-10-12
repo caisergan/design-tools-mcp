@@ -1,0 +1,57 @@
+{
+  "id": "skills-sh-nextlevelbuilder-ui-ux-pro-max-skill",
+  "url": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill",
+  "kind": "page",
+  "hints_hash": "d1d2aaf8b7d8324f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill", "title": "nextlevelbuilder/ui-ux-pro-max-skill — Agent skills", "status": null },
+    { "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "title": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "UI UX Pro Max",
+  "summary": "AI skill that generates a tailored design system and recommends styles, palettes and fonts for UI work.",
+  "description": "An agent skill installed via CLI or the Claude marketplace that generates a complete design system from your project requirements. The reasoning engine includes 192 industry-specific rules and searches 79 UI styles (50 active), 192 colour palettes, 74 font pairings, 25 chart types and 119 UX guidelines, with stack guidelines for 22 frameworks from React and Tailwind to SwiftUI and Jetpack Compose. The open-source Basic version is MIT; a premium tier adds brand, logo, banner and slide skills.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "design system generation",
+    "ui style",
+    "color palette",
+    "font pairing",
+    "ux guideline",
+    "landing page",
+    "mobile ui",
+    "dark mode",
+    "glassmorphism",
+    "bento grid",
+    "react",
+    "tailwind",
+    "swiftui",
+    "jetpack compose",
+    "laravel"
+  ],
+  "contains": [
+    "19 skills",
+    "792.1K total installs on skills.sh",
+    "192 industry-specific reasoning rules",
+    "79 UI styles (50 active), 192 palettes, 74 font pairings",
+    "22 tech stacks, 119 UX guidelines",
+    "free Basic version, premium tier",
+    "MIT licensed"
+  ],
+  "formats": ["docs", "prompts", "cli", "npm-package"],
+  "stack": ["python", "tailwind"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "docs": null,
+    "npm": "ui-ux-pro-max-cli",
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.9
+}

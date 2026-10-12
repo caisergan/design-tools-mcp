@@ -1,0 +1,35 @@
+{
+  "id": "github-com-jingyaogong-minimind",
+  "url": "https://github.com/jingyaogong/minimind",
+  "kind": "repo",
+  "hints_hash": "52fe58e2003f4a0d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/jingyaogong/minimind/blob/HEAD/README.md", "title": "📌 项目介绍", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MiniMind",
+  "summary": "Project that trains a small ~64M-parameter language model from scratch, with the full pretrain-to-RL pipeline in PyTorch.",
+  "description": "Minimal from-scratch LLM project: a 64M-parameter dense model (plus a 198M-A64M MoE variant) implemented in native PyTorch, together with the complete training pipeline — tokenizer training, pretrain, SFT, LoRA, RLHF (DPO), RLAIF (PPO/GRPO/CISPO), tool use, agentic RL, adaptive thinking and distillation. Ships open training datasets, an OpenAI-compatible API server, a Streamlit chat WebUI and single- or multi-GPU training scripts; the project doubles as a hands-on tutorial for understanding how LLMs work.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["llm", "language model", "train from scratch", "pytorch", "small language model", "pretraining", "fine-tuning", "sft", "lora", "rlhf", "dpo", "rlaif", "grpo", "moe", "tokenizer", "agentic rl", "tool calling", "knowledge distillation", "gpu training", "open dataset", "tutorial"],
+  "contains": [
+    "64M MiniMind-3 dense model and 198M-A64M MoE variant",
+    "pipeline covers pretrain, SFT, LoRA, RLHF-DPO, RLAIF (PPO/GRPO/CISPO) and distillation",
+    "open training datasets on ModelScope and HuggingFace",
+    "OpenAI-compatible API server and Streamlit chat WebUI",
+    "single- and multi-GPU (DDP, DeepSpeed) training with checkpoint resume",
+    "reported reproduction: one SFT epoch in ~2h on a single RTX 3090, ~¥3 GPU cost",
+    "Apache-2.0 licensed"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["python", "pytorch", "streamlit"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/jingyaogong/minimind", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

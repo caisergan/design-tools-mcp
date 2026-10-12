@@ -1,0 +1,28 @@
+{
+  "id": "hugeicons-com-icons-solid-rounded-search-ai",
+  "url": "https://hugeicons.com/icons/solid-rounded?search=AI",
+  "kind": "page",
+  "hints_hash": "ae230b5961986c68",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hugeicons.com/icons/solid-rounded?search=AI", "title": "Solid Rounded Icons for Modern UI | Hugeicons", "status": null},
+    {"url": "https://hugeicons.com/pricing", "title": "Pricing Plans | Hugeicons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hugeicons Solid Rounded Icons",
+  "summary": "Solid rounded icon style from Hugeicons, browsable by category with an AI search filter.",
+  "description": "The solid-rounded style page of the Hugeicons library: bold solid icons with rounded shapes, filtered by an AI search and grouped into categories (AI, Alert, Animation, Arrows, Business, Editing …) with icon counts. Library styles include Rounded (Bulk, Solid, Twotone, Duotone, Stroke, Free), Standard and Sharp.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "svg icon", "solid icon", "rounded icon", "ai icon", "react icon", "icon font", "figma icon library", "ui icon", "free icon", "icon pack"],
+  "contains": ["60,000+ handcrafted icons in the full Hugeicons library", "solid rounded icon style", "browse by category with counts (AI, Arrows, Business, Editing …)", "search filter, e.g. search=AI"],
+  "formats": ["svg", "font-files", "npm-package", "figma-file"],
+  "stack": ["react"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://hugeicons.com/docs", "npm": null, "figma": null, "parent": "hugeicons-com"},
+  "confidence": 0.85
+}

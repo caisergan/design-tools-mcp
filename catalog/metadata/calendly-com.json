@@ -1,0 +1,30 @@
+{
+  "id": "calendly-com",
+  "url": "https://calendly.com",
+  "kind": "site",
+  "hints_hash": "c48ec661b8978658",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://calendly.com/llms.txt", "title": "Calendly", "status": null},
+    {"url": "https://calendly.com", "title": "Meeting Scheduling Software and AI Meeting Tools | Calendly", "status": null},
+    {"url": "https://calendly.com/pricing", "title": "Pricing | Calendly", "status": null},
+    {"url": "https://calendly.com/about", "title": "About Us | Calendly", "status": null}
+  ],
+  "status": "ok",
+  "name": "Calendly",
+  "summary": "Scheduling platform for booking links, calendar sync, lead routing, payments and AI meeting notes.",
+  "description": "Connects to your calendars, video conferencing and CRM so invitees can book without back-and-forth: event types, availability rules, meeting polls, routing forms, website embeds, payment collection and automated reminders. Callie, the AI scheduling assistant, negotiates times by email and in-app chat, and Notetaker records, transcribes and summarizes meetings. Free tier for individuals, paid Standard/Teams plans and enterprise governance.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["calendar", "form"],
+  "keywords": ["scheduling", "meeting booking", "meeting scheduler", "calendar", "calendar sync", "appointment scheduling", "availability", "booking page", "booking link", "meeting poll", "routing form", "payment", "ai notetaker", "meeting recap", "crm integration", "website embed", "sales", "recruiting"],
+  "contains": ["Free plan: one event type, one calendar connection, one-on-one scheduling", "Standard from $10/seat/mo, plus Teams and Enterprise tiers with SSO and SCIM", "Callie AI assistant books over email and in-app chat", "Notetaker records, transcribes and summarizes meetings", "150+ integrations incl. Google, Microsoft, HubSpot and Stripe", "Website embeds, routing forms and meeting polls", "MCP server for ChatGPT and Claude"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

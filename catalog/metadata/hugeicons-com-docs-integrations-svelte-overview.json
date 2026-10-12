@@ -1,0 +1,25 @@
+{
+  "id": "hugeicons-com-docs-integrations-svelte-overview",
+  "url": "https://hugeicons.com/docs/integrations/svelte/overview",
+  "kind": "page",
+  "hints_hash": "31149431c869b688",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hugeicons.com/docs/integrations/svelte/overview", "title": "Svelte Integration Overview | Hugeicons Documentation", "status": null}
+  ],
+  "status": "ok",
+  "name": "Hugeicons with Svelte Overview",
+  "summary": "Docs page for using the Hugeicons icon library in Svelte and SvelteKit with the @hugeicons/svelte package.",
+  "description": "Overview page of the Hugeicons Svelte integration docs. It lists the prerequisites, compares the free 6,000-icon Stroke Rounded pack with the 60,000+ icon Pro library across 10 styles, and links to the quick start, Pro setup, the HugeiconsIcon wrapper API and examples.",
+  "elements": [],
+  "keywords": ["svelte icon", "sveltekit icon", "icon library", "svg icon", "icon component", "npm icon package", "icon set", "free icon", "pro icon", "stroke rounded icon", "icon documentation"],
+  "contains": ["free tier: 6,000+ icons in one Stroke Rounded style", "Pro: 60,000+ icons across 10 styles", "packages @hugeicons/svelte and @hugeicons/core-free-icons", "Pro icons via private registry npm.hugeicons.com", "integration docs for React, Vue, Angular, SolidJS, React Native, Flutter and more"],
+  "formats": ["docs", "npm-package"],
+  "stack": ["svelte"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "hugeicons-com"},
+  "confidence": 0.9
+}

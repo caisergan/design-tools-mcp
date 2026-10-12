@@ -1,0 +1,29 @@
+{
+  "id": "ecommercekit-dev",
+  "url": "https://ecommercekit.dev",
+  "kind": "site",
+  "hints_hash": "2ba9e072cf81f733",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ecommercekit.dev", "title": "Next.js E-commerce Store Starter Kit", "status": null},
+    {"url": "https://github.com/bundui/ecommerce-starter-kit", "title": "GitHub - bundui/ecommerce-starter-kit: Next.js starter kit with the tools you need to quickly launch your e-commerce. · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/bundui/ecommerce-starter-kit/main/README.md", "title": "EcommerceKit", "status": 200}
+  ],
+  "status": "ok",
+  "name": "EcommerceKit",
+  "summary": "Next.js e-commerce starter kit with authentication, email and payments pre-integrated.",
+  "description": "A Next.js store starter template that includes an authentication system, mailing integration and payment integration, plus the components, blocks, hooks and state stores needed for a shop. Start from the repo or the live demo and customise it into your own storefront.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["next.js", "e-commerce", "store", "starter kit", "boilerplate", "template", "shadcn ui", "tailwind css", "react", "typescript", "authentication", "payment", "email", "online shop", "checkout"],
+  "contains": ["Next.js starter template for an e-commerce site", "pre-integrated authentication, email and payment systems", "ships components, blocks, hooks and stores directories", "shadcn/ui components.json plus Tailwind CSS and TypeScript", "public repo with 36 stars, 16 forks"],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "tailwind", "typescript", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/bundui/ecommerce-starter-kit", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

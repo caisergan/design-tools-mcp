@@ -1,0 +1,19 @@
+{
+  "id": "app-testedrecruits-com-posting-16685",
+  "url": "https://app.testedrecruits.com/posting/16685",
+  "kind": "page",
+  "hints_hash": "d25f07160c179e03",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:26:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://app.testedrecruits.com/posting/16685", "title": "Coalition Technologies Jobs & Careers", "status": 200},
+    {"url": "https://app.testedrecruits.com/allCompanies", "title": "TestedRecruits All Jobs & Careers Listings", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Coalition Technologies Jobs & Careers",
+  "summary": "Company careers page in the TestedRecruits job app, listing open roles at digital agency Coalition Technologies.",
+  "keywords": ["job posting", "job listing", "career page", "hiring", "job board", "job opening", "job application", "digital agency"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

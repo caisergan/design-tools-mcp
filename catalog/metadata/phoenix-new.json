@@ -1,0 +1,27 @@
+{
+  "id": "phoenix-new",
+  "url": "https://phoenix.new",
+  "kind": "site",
+  "hints_hash": "038441d1ca99ec81",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://phoenix.new", "title": "Home · Phoenix.new", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Phoenix.new",
+  "summary": "Remote AI runtime where you describe a Phoenix (Elixir) app and watch it build and run in the browser.",
+  "description": "Hosted runtime for Phoenix apps: describe your app and watch it take shape, prototype and share instantly, with sign-in through a Fly.io account.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["prompt-input"],
+  "keywords": ["ai app builder", "ai runtime", "phoenix", "elixir", "remote dev environment", "describe your app", "prompt to app", "prototype", "app generation", "instant sharing"],
+  "contains": ["browser-based runtime that builds Phoenix apps", "describe an app and watch it take shape", "sign in with a Fly.io account", "prototype and share instantly"],
+  "formats": ["app"],
+  "stack": ["elixir"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

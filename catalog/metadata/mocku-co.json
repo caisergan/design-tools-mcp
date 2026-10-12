@@ -1,0 +1,79 @@
+{
+  "id": "mocku-co",
+  "url": "https://mocku.co",
+  "kind": "site",
+  "hints_hash": "b418e7299ec61bb5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:54:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mocku.co",
+      "title": "Mocku - Mockup Generator | Device, Book, Magazine, Apparel & Packaging Mockups",
+      "status": 200
+    },
+    {
+      "url": "https://mocku.com/templates",
+      "title": "Mockup Templates - Professional Templates | Mocku",
+      "status": 200
+    },
+    {
+      "url": "https://mocku.com/mockups/imac",
+      "title": "iMac Mockup Generator - Free Online | Mocku",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Mocku",
+  "summary": "Free online mockup generator with 1,900+ device, print, apparel, packaging and outdoor templates.",
+  "description": "A browser mockup generator for devices, books, magazines, apparel and packaging that needs no design skills. Pick a mockup by category or style - including AI 'nano banana' styles - and the catalog lists 1,918 ready-to-use templates.",
+  "type": "generator",
+  "categories": [
+    "media",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "mockup generator",
+    "device mockup",
+    "apparel mockup",
+    "packaging mockup",
+    "book mockup",
+    "magazine mockup",
+    "imac mockup",
+    "macbook mockup",
+    "tshirt mockup",
+    "bottle mockup",
+    "mockup template",
+    "free mockup",
+    "ai mockup",
+    "product mockup",
+    "print mockup",
+    "outdoor mockup"
+  ],
+  "contains": [
+    "1,918 mockup templates",
+    "categories: devices, print, apparels, packaging, outdoor",
+    "AI styles including nano banana",
+    "free online generator"
+  ],
+  "formats": [
+    "templates",
+    "png"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

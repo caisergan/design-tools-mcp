@@ -1,0 +1,28 @@
+{
+  "id": "iconsax-dev",
+  "url": "https://iconsax.dev",
+  "kind": "site",
+  "hints_hash": "6f8e3127cc9cdac2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:37:07Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://iconsax.dev", "title": "IconSax - 5904 Open source free SVG icons", "status": null},
+    {"url": "https://iconsax.dev/category/Car", "title": "Car Free SVG icons - IconSax", "status": null}
+  ],
+  "status": "ok",
+  "name": "IconSax",
+  "summary": "Searchable library of 5,904 free SVG icons in 32 categories, with adjustable stroke, size and color and copy-to-clipboard.",
+  "description": "IconSax is a browser for 5,904 open source SVG icons organised in 32 categories (Arrow, Business, Crypto-Company, Design-Tools, Programing, Weather and more). Icons can be searched, their stroke, size and color changed live, and each copied to the clipboard as SVG; no attribution is required and use is free for commercial projects.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["svg icon", "icon set", "icon library", "free icon", "icon pack", "copy svg", "stroke icon", "icon search", "ui icon", "web icon", "open source icon", "commercial use icon"],
+  "contains": ["5,904 SVG icons", "32 categories, e.g. Arrow 390, Essetional 600, Crypto-Company 511, Video-Audio-Image 486, Design-Tools 323", "adjustable stroke, size and color", "copy to clipboard as SVG", "search across all icons", "no attribution required, commercial use allowed"],
+  "formats": ["svg"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

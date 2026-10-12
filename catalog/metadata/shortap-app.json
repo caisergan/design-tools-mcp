@@ -1,0 +1,70 @@
+{
+  "id": "shortap-app",
+  "url": "https://shortap.app",
+  "kind": "site",
+  "hints_hash": "7ed61555d630523f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shortap.app",
+      "title": "Shortap — Quick tap gestures for your MacBook",
+      "status": null
+    },
+    {
+      "url": "https://shortap.app/",
+      "title": "Shortap — Quick tap gestures for your MacBook",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shortap",
+  "summary": "Mac app that runs actions or Apple Shortcuts when you tap the left or right side of a MacBook once, twice or three times.",
+  "description": "Shortap turns taps on a MacBook into commands: six slots (left or right side, one to three taps) can each trigger one of 50+ built-in actions — screenshot, mute/unmute, play/pause, next track, flashlight, toggle Wi-Fi — or any Apple Shortcut. It requires macOS 14+ and a MacBook Pro with M1 Pro or newer, or MacBook Air M2 or newer. One-time payment from $5.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "mac app",
+    "macbook",
+    "tap gesture",
+    "gesture control",
+    "apple shortcut",
+    "shortcuts automation",
+    "productivity",
+    "screenshot",
+    "play pause",
+    "next track",
+    "mute",
+    "toggle wi-fi",
+    "macos 14",
+    "apple silicon"
+  ],
+  "contains": [
+    "six tap slots: left/right side x 1, 2 or 3 taps",
+    "50+ built-in actions plus any Apple Shortcut",
+    "requires macOS 14+ and Apple-silicon MacBook (Pro M1 Pro+, Air M2+)",
+    "one-time payment from $5"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

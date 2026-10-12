@@ -1,0 +1,29 @@
+{
+  "id": "github-com-openpanel-dev-openpanel",
+  "url": "https://github.com/Openpanel-dev/openpanel",
+  "kind": "repo",
+  "hints_hash": "b9a8f557fb1ff8c5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Openpanel-dev/openpanel/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/Openpanel-dev/openpanel/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/Openpanel-dev/openpanel", "title": "GitHub - Openpanel-dev/openpanel: OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenPanel",
+  "summary": "Open-source web and product analytics platform — funnels, cohorts, session replay, A/B tests and revenue — self-hostable with Docker.",
+  "description": "An open-source Mixpanel and Google Analytics alternative: event analytics with funnels, cohorts, user profiles, session history, session replay, real-time dashboards, A/B variant breakdowns, event and funnel notifications, revenue tracking and Google Search Console integration. Cookieless and GDPR-focused, with SDKs for web, mobile and server and an MCP server exposing 38 tools to Claude, Cursor and other clients. Self-host with Docker Compose: Next.js dashboard, Fastify event API, Postgres, ClickHouse, Redis, BullMQ, tRPC, Tailwind and shadcn/ui.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["product analytics", "web analytics", "open source analytics", "mixpanel alternative", "google analytics alternative", "funnel", "cohort", "retention", "session replay", "event tracking", "self-hosted", "privacy", "gdpr", "cookieless", "ab testing", "revenue tracking", "dashboard", "mcp server", "clickhouse", "docker"],
+  "contains": ["features: funnels, cohorts, user profiles, session history, session replay, A/B testing", "real-time dashboards, custom charts, event and funnel notifications", "cookieless tracking and GDPR compliance; web, mobile and server-side SDKs", "revenue tracking of purchases, subscriptions and LTV; Google Search Console integration", "MCP server: 38 tools for Claude, Cursor and other MCP clients", "stack: Next.js, Fastify, Postgres, ClickHouse, Redis, BullMQ, tRPC, Tailwind, shadcn/ui", "self-hosting via Docker Compose; dashboard on port 3000, API on 3333, Bullboard queue UI", "AGPL-3.0; 7.1k GitHub stars"],
+  "formats": ["app", "api", "code", "docs"],
+  "stack": ["nextjs", "fastify", "postgres", "clickhouse", "redis", "bullmq", "groupmq", "trpc", "tailwind", "shadcn", "resend", "arctic", "oslo"],
+  "pricing": "freemium",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/Openpanel-dev/openpanel", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

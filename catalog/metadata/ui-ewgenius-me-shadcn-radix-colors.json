@@ -1,0 +1,74 @@
+{
+  "id": "ui-ewgenius-me-shadcn-radix-colors",
+  "url": "https://ui.ewgenius.me/shadcn-radix-colors",
+  "kind": "page",
+  "hints_hash": "589a88e108b4e856",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:49:25Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.ewgenius.me/shadcn-radix-colors",
+      "title": "ewgenius/ui - shadcn-radix-colors",
+      "status": null
+    },
+    {
+      "url": "https://github.com/ewgenius/ui",
+      "title": "GitHub - ewgenius/ui: Generate custom CSS themes for shadcn/ui effortlessly using vibrant palettes from Radix Colors. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "shadcn-radix-colors",
+  "summary": "Generates custom CSS themes for shadcn/ui from Radix Colors palettes, installable as prebuilt registry themes.",
+  "description": "Web app that generates custom themes for shadcn/ui from vibrant Radix Colors palettes. Prebuilt themes are served in the shadcn registry format, so they can be installed with the shadcn CLI from urls like /themes/radix/[base-color]-[accent-color]-[primary-color]-[destructive-color].",
+  "type": "generator",
+  "categories": [
+    "color-effects",
+    "registries"
+  ],
+  "elements": [],
+  "keywords": [
+    "shadcn",
+    "shadcn ui",
+    "radix color",
+    "theme generator",
+    "color palette",
+    "css variable",
+    "shadcn registry",
+    "shadcn cli",
+    "tailwind",
+    "nextjs"
+  ],
+  "contains": [
+    "generates custom shadcn/ui themes from Radix Colors palettes",
+    "prebuilt themes installed with the shadcn CLI",
+    "registry urls: /themes/radix/[base]-[accent]-[primary]-[destructive]",
+    "open-source Next.js app (repo: ewgenius/ui)"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/ewgenius/ui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

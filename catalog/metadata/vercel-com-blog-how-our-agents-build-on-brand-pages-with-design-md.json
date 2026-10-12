@@ -1,0 +1,50 @@
+{
+  "id": "vercel-com-blog-how-our-agents-build-on-brand-pages-with-design-md",
+  "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+  "kind": "page",
+  "hints_hash": "3a58896e651e1d3d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+      "title": "How our agents build on-brand pages with design.md - Vercel",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "How our agents build on-brand pages with design.md",
+  "summary": "How Vercel built design.md — one public file any coding agent can load to make on-brand pages — and the eval loop behind it.",
+  "description": "A design-engineering post by John Phamous (31 Aug 2026, 12 min read): why porting Vercel's product-design skill into a public prompt failed because every model interpreted the words differently, how seven fixed eval prompts (renewal proposal, benchmark report, planning page, deck …) turned corrections into rules one at a time, the three-part system of design.md, the published CSS API and a stylesheet that loads in the browser without entering model context, and a build-your-own tutorial.",
+  "type": "article",
+  "categories": [
+    "design-rules"
+  ],
+  "keywords": [
+    "design.md",
+    "design rule",
+    "brand guideline",
+    "coding agent",
+    "eval",
+    "css api",
+    "geist",
+    "design system",
+    "web design",
+    "prompt engineering",
+    "report website",
+    "agent skill"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "vercel-com"
+  },
+  "confidence": 0.9
+}

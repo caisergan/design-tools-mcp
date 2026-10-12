@@ -1,0 +1,28 @@
+{
+  "id": "bestfreefonts-com",
+  "url": "https://bestfreefonts.com",
+  "kind": "site",
+  "hints_hash": "e01f91f0eedc8f3e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bestfreefonts.com", "title": "Best Free Fonts – Curated Fonts for Designers", "status": null},
+    {"url": "https://bestfreefonts.com/clarity-city", "title": "Clarity City – Free Sans Serif Font", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Best Free Fonts",
+  "summary": "Curated collection of 214 free fonts with previews, style filters, glyph counts and license details.",
+  "description": "A curated library of 214 free fonts for branding, websites and editorial projects. Fonts are browsable by style (sans serif, serif, display, script, monospace); each font page shows a family preview, style counts (static and variable), glyph count, license and designer, and links out to get the font.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["free font", "font library", "sans serif", "serif font", "display font", "script font", "monospace font", "font preview", "font download", "typeface", "typography", "open source font", "variable font", "web font"],
+  "contains": ["214 free fonts", "browse by style: sans serif, serif, display, script, monospace", "font pages with preview, style counts, glyph count, license and designer", "links out to get each font"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

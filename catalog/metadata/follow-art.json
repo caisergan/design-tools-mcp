@@ -1,0 +1,89 @@
+{
+  "id": "follow-art",
+  "url": "https://follow.art",
+  "kind": "site",
+  "hints_hash": "9bf822454f8e2a17",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://follow.art",
+      "title": "FOLLOW.ART | Your Creative Practice in One Card",
+      "status": null
+    },
+    {
+      "url": "https://follow.art/pricing",
+      "title": "FOLLOW.ART Pricing | Free & PRO Card Plans",
+      "status": null
+    },
+    {
+      "url": "https://follow.art/faq",
+      "title": "FAQ | Everything About Your FOLLOW.ART Card",
+      "status": null
+    },
+    {
+      "url": "https://follow.art/about",
+      "title": "About FOLLOW.ART | Built by Creatives for Creatives",
+      "status": 200
+    },
+    {
+      "url": "https://follow.art/community-board",
+      "title": "Community Board | Collaborations & Open Calls",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "FOLLOW.ART",
+  "summary": "Portfolio card platform for artists and curators, with a searchable directory and direct financial support.",
+  "description": "Members create a shareable digital Card that gathers portfolio, biography, experience, links and contacts, discoverable through the Connectory directory and a Community Board with open calls and collaborations. A free Starter Card covers a basic portfolio, while PRO plans from $4.99 a month add extended links, QR and Wallet sharing, studio visit bookings and card statistics. A Support My Practice button lets audiences contribute directly, and the site says it keeps no algorithm between members and viewers.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools",
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "portfolio",
+    "artist portfolio",
+    "curator",
+    "digital business card",
+    "portfolio website",
+    "artist directory",
+    "art community",
+    "direct support",
+    "support for artist",
+    "no algorithm",
+    "qr sharing",
+    "wallet pass",
+    "studio visit",
+    "open call",
+    "creator profile"
+  ],
+  "contains": [
+    "4K+ artists and curators across 100+ countries",
+    "free Starter Card and PRO Card from $4.99/month or $59.88/year",
+    "Connectory searchable directory of curators and artists",
+    "Community Board with 146 threads",
+    "Support My Practice direct contributions",
+    "gift card for a year of PRO"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

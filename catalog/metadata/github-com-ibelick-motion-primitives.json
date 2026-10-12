@@ -1,0 +1,87 @@
+{
+  "id": "github-com-ibelick-motion-primitives",
+  "url": "https://github.com/ibelick/motion-primitives",
+  "kind": "repo",
+  "hints_hash": "1dde703684b8c395",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ibelick/motion-primitives/blob/HEAD/README.md",
+      "title": "Motion-Primitives",
+      "status": 200
+    },
+    {
+      "url": "https://motion-primitives.com/docs",
+      "title": "Motion-Primitives - UI kit to make beautiful, animated interfaces, faster.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Motion-Primitives",
+  "summary": "Open-source UI kit of animated React components built with Motion and Tailwind CSS.",
+  "description": "Copy-paste motion components for React, Next.js and Tailwind projects: accordion, carousel, cursor, dialog, dock, image comparison and a family of text effects, plus background, in-view and group animation helpers. Each component ships documented examples, and the beta adds components regularly.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "accordion",
+    "background",
+    "carousel",
+    "cursor",
+    "modal",
+    "scroll-effect",
+    "marquee",
+    "text-effect",
+    "dock"
+  ],
+  "keywords": [
+    "motion component",
+    "animated component",
+    "react",
+    "nextjs",
+    "tailwind",
+    "text effect",
+    "text shimmer",
+    "carousel",
+    "dock",
+    "cursor",
+    "scroll animation",
+    "copy paste"
+  ],
+  "contains": [
+    "23 animated components: accordion, carousel, cursor, dialog, dock, text effects and more",
+    "text effects: loop, morph, roll, scramble, shimmer, shimmer wave",
+    "background, in-view, border trail and animated group helpers",
+    "built with Motion and Tailwind CSS",
+    "copy-paste components, documented with examples",
+    "beta project, new components released regularly"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ibelick/motion-primitives",
+    "docs": "https://motion-primitives.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cyclorama-framer-ai",
+  "url": "https://cyclorama.framer.ai",
+  "kind": "site",
+  "hints_hash": "5a9c01662b966539",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:18:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cyclorama.framer.ai", "title": "Cyclorama — inside-out gallery carousel", "status": null},
+    {"url": "https://cyclorama.framer.ai/guide", "title": "Cyclorama — component guide", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cyclorama",
+  "summary": "Framer component that maps image slides onto the inside of a cylinder you drag or scroll through, like a 360° room.",
+  "description": "A Framer component that places image panels on the inner surface of a cylinder around the camera, so moving through the gallery reads as turning your head inside a 360° room rather than spinning an object. Drag or scroll changes the bearing; six presets, two layouts, four indicators and seven cursor styles are set from an in-canvas control panel, and a guide page walks through setup, every control, interaction, access and performance.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["carousel", "3d", "cursor"],
+  "keywords": ["framer", "framer component", "carousel", "gallery", "3d gallery", "cylinder gallery", "360 gallery", "image gallery", "photo gallery", "drag", "scroll", "slide", "panel", "component guide", "no-code"],
+  "contains": ["Framer component dragged in from the assets panel", "slides mapped onto the inner surface of a cylinder", "eight to sixteen image panels with optional captions", "six presets, two layouts, four indicators, seven cursor styles", "in-canvas control panel", "drag or scroll to navigate, with bearing readout", "guide page with live examples"],
+  "formats": ["framer-file", "docs"],
+  "stack": ["framer"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://cyclorama.framer.ai/guide", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

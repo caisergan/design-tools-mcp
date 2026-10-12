@@ -1,0 +1,28 @@
+{
+  "id": "github-com-adityarajdigital-designmd",
+  "url": "https://github.com/adityarajdigital/designmd",
+  "kind": "repo",
+  "hints_hash": "32a9827f7acd909d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/adityarajdigital/designmd/blob/HEAD/README.md", "title": "DesignMD", "status": null},
+    {"url": "https://github.com/byadityaraj/designmd", "title": "GitHub - byadityaraj/designmd: Production-grade design context for AI coding workflows.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DesignMD",
+  "summary": "CLI and web tool that measures a real site's design system and streams a portable DESIGN.md for coding agents.",
+  "description": "DesignMD opens a URL in a headless browser and measures the real visual system — colors from computed styles, typography from the cascade, breakpoints from live @media rules, hover and focus states — then writes a portable DESIGN.md spec. The file drops into Claude Code, Cursor, Windsurf, Aider, Copilot or any LLM chat. Ships as a web app plus an npm CLI for Node 18+, with sample DESIGN.md files for Stripe, Linear, Vercel, Notion, Anthropic, Mercury, Figma and Airbnb.",
+  "type": "tool",
+  "categories": ["design-rules", "design-tools"],
+  "elements": [],
+  "keywords": ["design.md", "design token", "design system", "extraction", "cli", "npm", "ai coding agent", "claude code", "cursor", "color palette", "typography", "breakpoint", "markdown", "css", "url"],
+  "contains": ["extracts colors, typography, spacing, breakpoints, motion and interaction states", "streams markdown or JSON to stdout for piping", "web app plus npm CLI requiring Node 18+", "sample DESIGN.md files for Stripe, Linear, Vercel, Notion, Anthropic, Mercury, Figma and Airbnb", "56-site benchmark catalog at designmd.cc", "free tier: 5 anonymous generations per day", "exit codes 0-3 for scripts and agents"],
+  "formats": ["cli", "code", "docs", "api"],
+  "stack": ["node"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/adityarajdigital/designmd", "docs": "https://github.com/adityarajdigital/designmd/blob/HEAD/docs/ai-workflows.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

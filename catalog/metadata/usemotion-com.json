@@ -1,0 +1,84 @@
+{
+  "id": "usemotion-com",
+  "url": "https://usemotion.com",
+  "kind": "site",
+  "hints_hash": "8c4833696eafe2f3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://usemotion.com/llms.txt",
+      "title": "Usemotion",
+      "status": null
+    },
+    {
+      "url": "https://usemotion.com",
+      "title": "The AI Powered SuperApp for Work | Motion",
+      "status": 200
+    },
+    {
+      "url": "https://www.usemotion.com/pricing",
+      "title": "Pricing | Motion",
+      "status": 200
+    },
+    {
+      "url": "https://www.usemotion.com/about",
+      "title": "About | Motion",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Motion",
+  "summary": "AI productivity platform that auto-plans your day, schedules tasks and meetings, and manages projects, docs and notes.",
+  "description": "AI work management suite for individuals and teams: projects, tasks, calendar, meetings, docs, notes, reports and workflows. Motion prioritizes tasks by deadlines, dependencies and duration, plans the calendar around them and re-plans as things change, builds entire projects from a description, and its notetaker produces summaries, action items and follow-up emails. Apps for iOS, Android and desktop; integrations include Google Calendar, Gmail, Outlook, Slack, Zoom, Teams, HubSpot, Salesforce and Zapier. Paid plans from $19/seat/month with a free trial.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai calendar",
+    "task management",
+    "project management",
+    "auto scheduling",
+    "time blocking",
+    "meeting note",
+    "ai notetaker",
+    "gantt chart",
+    "workflow automation",
+    "productivity",
+    "team planning",
+    "docs",
+    "report",
+    "deadline"
+  ],
+  "contains": [
+    "AI tasks, projects, calendar, meetings, docs, notes, reports and workflows",
+    "auto-prioritises tasks and warns about at-risk deadlines days ahead",
+    "AI notetaker with summaries, action items and follow-up emails",
+    "creates an entire project from a description in seconds",
+    "integrates with Google Calendar, Gmail, Outlook, iCloud, Slack, Zoom, Teams, HubSpot, Salesforce, Zapier, Siri",
+    "iOS, Android and desktop apps; API access",
+    "Pro AI $19/seat/month; Business AI $29/seat/month; free trial"
+  ],
+  "formats": [
+    "app",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

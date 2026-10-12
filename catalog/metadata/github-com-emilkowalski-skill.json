@@ -1,0 +1,28 @@
+{
+  "id": "github-com-emilkowalski-skill",
+  "url": "https://github.com/emilkowalski/skill",
+  "kind": "repo",
+  "hints_hash": "a64e536312668f2f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/emilkowalski/skill/HEAD/README.md", "title": "Skills For Designers and Engineers", "status": 200},
+    {"url": "https://github.com/emilkowalski/skill", "title": "GitHub - emilkowalski/skills: Skills for Designers and Engineers. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Skills For Designers and Engineers",
+  "summary": "15 agent skills about animation, UI design decisions, Apple design, Swift and mobile-native details.",
+  "description": "A collection of skills that help agents make the right design and animation calls: easing and duration, animation review and audits, animation performance, Apple's fluid-motion principles, UI library picking, prototyping, mobile-native fixes and UI stress testing. Built from experience at Vercel and Linear.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "motion"],
+  "elements": [],
+  "keywords": ["agent skill", "claude code", "animation", "motion design", "easing", "ui design", "design engineering", "swift", "react native", "expo", "apple design", "toast", "sonner", "animation review", "prototype", "mobile native"],
+  "contains": ["15 skills: emil-design-eng, animate, animate-expo, review-animations, improve-animations and more", "animation-focused: curves, durations, properties, performance and review rules", "apple-design distils Apple's WWDC motion principles for the web", "write-swift covers Swift 6 concurrency and testing", "ask-sonner covers the Sonner toast library", "MIT licensed"],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/emilkowalski/skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

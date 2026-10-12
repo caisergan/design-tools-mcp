@@ -1,0 +1,19 @@
+{
+  "id": "figma-com-community",
+  "url": "https://figma.com/community",
+  "kind": "page",
+  "hints_hash": "ebd93479e9cac3cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://figma.com/community", "title": "Discover community-made templates, plugins, and widgets | Figma", "status": null}
+  ],
+  "status": "partial",
+  "name": "Figma Community",
+  "summary": "Section of figma.com for exploring, installing and using community-made templates, plugins and widgets.",
+  "description": "The Figma Community section of figma.com: a browsable, installable collection of templates, plugins and widgets published by designers and developers.",
+  "keywords": ["figma community", "figma template", "figma plugin", "figma widget", "ui kit", "design template", "design file", "design resource", "community plugin"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "figma-com"},
+  "confidence": 0.6
+}

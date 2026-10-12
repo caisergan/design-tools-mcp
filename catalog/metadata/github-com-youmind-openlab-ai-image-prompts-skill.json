@@ -1,0 +1,35 @@
+{
+  "id": "github-com-youmind-openlab-ai-image-prompts-skill",
+  "url": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill",
+  "kind": "repo",
+  "hints_hash": "4776957343b99f89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:31:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill/blob/HEAD/README.md", "title": "AI Image Prompts — 10,000+ Curated Prompts for Any Model", "status": 200},
+    {"url": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill/blob/HEAD/SKILL.md", "title": "AI Image Prompts — Universal Prompt Recommender", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AI Image Prompts",
+  "summary": "Agent skill that searches 10,000+ curated image generation prompts and returns top matches with sample images.",
+  "description": "A SKILL.md package for Claude Code, Cursor, Codex and other assistants: it searches a library of 10,000+ community-curated image prompts across 11 use-case categories and recommends up to three matches with their sample images, or remixes a prompt around your own content. The prompt references sync from GitHub twice daily.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["prompt", "image generation", "ai image", "prompt library", "midjourney", "stable diffusion", "flux", "dall-e", "claude code", "cursor", "agent skill", "text to image", "avatar prompt", "thumbnail prompt", "content illustration", "prompt template"],
+  "contains": [
+    "10,000+ prompts in 11 categories (social media, product, avatar, poster, e-commerce, game, comic, thumbnail)",
+    "every prompt includes its sample image",
+    "two modes: direct search and content-illustration remix",
+    "references auto-update from GitHub twice daily",
+    "installs in OpenClaw, Claude Code, Cursor, Codex, Gemini CLI",
+    "model-agnostic: Nano Banana, Seedream, GPT Image, Midjourney, DALL-E, Flux, Stable Diffusion"
+  ],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

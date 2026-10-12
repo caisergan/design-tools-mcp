@@ -1,0 +1,50 @@
+{
+  "id": "ui-shadcn-com-figma",
+  "url": "https://ui.shadcn.com/figma",
+  "kind": "page",
+  "hints_hash": "897fa8eb574e9868",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:50:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.shadcn.com/figma",
+      "title": "Figma - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Figma",
+  "summary": "Community Figma UI kits for shadcn/ui — free and paid options that recreate every component with props, theming and icons.",
+  "description": "A shadcn/ui docs page listing community Figma kits: free options from Sitsiilia Bergmann, Pietro Schirano, Obra Studio and shadcncraft, and paid kits (Matt Wierzbicki, shadcncraft Pro, shadcn/studio, Shadcnblocks, Obra Pro, Shadcn Space, ShadcnStore) with variables, theming and design-to-code tooling.",
+  "keywords": [
+    "figma",
+    "figma kit",
+    "shadcn",
+    "ui kit",
+    "design system",
+    "figma variable",
+    "design token",
+    "design to code",
+    "component library",
+    "figma community",
+    "react"
+  ],
+  "formats": [
+    "figma-file",
+    "links"
+  ],
+  "pricing": "freemium",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-shadcn-com"
+  },
+  "confidence": 0.85
+}

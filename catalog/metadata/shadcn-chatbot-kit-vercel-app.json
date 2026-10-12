@@ -1,0 +1,38 @@
+{
+  "id": "shadcn-chatbot-kit-vercel-app",
+  "url": "https://shadcn-chatbot-kit.vercel.app",
+  "kind": "site",
+  "hints_hash": "20ee8355beb33f9c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn-chatbot-kit.vercel.app", "title": "shadcn-chatbot-kit", "status": null},
+    {"url": "https://shadcn-chatbot-kit.vercel.app/docs", "title": "Introduction - shadcn-chatbot-kit", "status": null},
+    {"url": "https://shadcn-chatbot-kit.vercel.app/docs/components", "title": "Chat - shadcn-chatbot-kit", "status": null},
+    {"url": "https://shadcn-chatbot-kit.vercel.app/themes", "title": "Themes - shadcn-chatbot-kit", "status": null},
+    {"url": "https://shadcn-chatbot-kit.vercel.app/docs/installation", "title": "Installation - shadcn-chatbot-kit", "status": 200},
+    {"url": "https://github.com/Blazity/shadcn-chatbot-kit", "title": "GitHub - Blazity/shadcn-chatbot-kit: 🤖 Beautifully designed chatbot components based on shadcn/ui · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-chatbot-kit",
+  "summary": "Chatbot UI component kit for shadcn/ui: chat, message list, prompt suggestions, typing indicator and more.",
+  "description": "A set of 11 shadcn registry components for building chatbot interfaces: chat, chat message, message input, message list, markdown renderer, prompt suggestions, typing indicator, copy button, file preview, audio visualizer and interrupt prompt. Components install with the shadcn CLI; the site also offers copy-paste themes and a demo app.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["chat", "button", "prompt-input", "list", "text-effect"],
+  "keywords": ["chatbot", "chat ui", "chat component", "shadcn", "react", "nextjs", "ai chat", "message list", "message input", "prompt suggestion", "typing indicator", "markdown renderer", "file preview", "audio visualizer", "copy button", "ai sdk"],
+  "contains": [
+    "11 chatbot components as shadcn registry items",
+    "components: chat, message input, message list, markdown renderer, prompt suggestions and more",
+    "installed with the shadcn CLI",
+    "hand-picked copy-paste themes",
+    "live demo app"
+  ],
+  "formats": ["registry", "cli", "code", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "ai-sdk", "openai"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Blazity/shadcn-chatbot-kit", "docs": "https://shadcn-chatbot-kit.vercel.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

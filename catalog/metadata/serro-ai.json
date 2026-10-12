@@ -1,0 +1,76 @@
+{
+  "id": "serro-ai",
+  "url": "https://serro.ai",
+  "kind": "site",
+  "hints_hash": "683558f524a9f78a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://serro.ai/llms.txt",
+      "title": "Serro",
+      "status": null
+    },
+    {
+      "url": "https://serro.ai",
+      "title": "Serro AI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Serro",
+  "summary": "Agentic TPM platform: shared program memory, risks and decisions that humans and AI agents work from together.",
+  "description": "Serro is a program-oversight layer for AI-native engineering organizations: it captures live program context, keeps decisions, owners, risks and dependencies current, turns meetings into updates, and routes all of it between people and their AI agents. It connects to issue trackers, docs, messaging and code hosts, and is built around four systems: program memory, loops on programs, agent governance and program analytics.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "hero",
+    "dashboard",
+    "timeline",
+    "prompt-input"
+  ],
+  "keywords": [
+    "technical program manager",
+    "agentic tpm",
+    "program management",
+    "ai agent",
+    "engineering operation",
+    "program memory",
+    "risk tracking",
+    "dependency tracking",
+    "issue tracker",
+    "team collaboration",
+    "ai-native",
+    "engineering management",
+    "coordination"
+  ],
+  "contains": [
+    "shared program state and memory for humans and AI agents",
+    "four systems: program memory, loops on programs, agent governance, program analytics",
+    "connects Slack, Linear, GitHub, Jira, Zoom, Notion, email and the codebase",
+    "org-wide gantt, program detection and an agent activity feed in the product UI",
+    "'Ask Serro' querying, Deep Research and generated reports"
+  ],
+  "formats": [
+    "app",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

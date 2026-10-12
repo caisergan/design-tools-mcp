@@ -1,0 +1,26 @@
+{
+  "id": "shadcnblocks-com-template-lumen",
+  "url": "https://shadcnblocks.com/template/lumen",
+  "kind": "page",
+  "hints_hash": "5a527c56606f22bd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnblocks.com/template/lumen", "title": "Lumen - Modern landing page template Next.js & Astro - Shadcnblocks.com", "status": null}
+  ],
+  "status": "ok",
+  "name": "Lumen",
+  "summary": "Landing page and marketing site template for Next.js and Astro with 22 pages and 100+ shadcn/ui sections.",
+  "description": "A landing page and marketing website template built with shadcn/ui and Tailwind 4, sold as a one-time purchase. It ships 22 pages and 100+ block sections in Next.js and Astro editions, with MDX content, data JSON, a Figma file and SEO metadata.",
+  "type": "template",
+  "categories": ["templates"],
+  "keywords": ["landing page template", "nextjs template", "astro template", "shadcn ui", "tailwind css", "marketing website", "saas landing page", "block section", "figma file", "mdx", "typescript", "seo", "responsive design", "vercel deployment"],
+  "contains": ["22 pages, 100+ components", "Next.js and Astro editions", "built on shadcn/ui and Tailwind 4", "Figma file included", "MDX and data JSON content", "tested one-shot deploys on Vercel, Netlify and Cloudflare Pages"],
+  "formats": ["templates", "code", "figma-file"],
+  "stack": ["react", "nextjs", "astro", "tailwind", "typescript"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "www-shadcnblocks-com"},
+  "confidence": 0.85
+}

@@ -1,0 +1,33 @@
+{
+  "id": "markodenic-com-tools-glassmorphism-css-generator",
+  "url": "https://markodenic.com/tools/glassmorphism-css-generator",
+  "kind": "page",
+  "hints_hash": "afe976ff4ae2327e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://markodenic.com/tools/glassmorphism-css-generator", "title": "Glassmorphism CSS Generator - Marko Denic", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Glassmorphism CSS Generator",
+  "summary": "Free generator that builds glassmorphism CSS: adjust blur, transparency and colour with a live preview, then copy the CSS.",
+  "description": "A free browser tool for the frosted-glass look: move the Blur slider, set Transparency and pick a Colour tint while a live preview updates, then copy the generated CSS onto any element. The effect relies on backdrop-filter (with a -webkit- prefix for older Safari), and the page suggests a more opaque fallback background for browsers without support. The site also links a ready-made CSS glass effect snippet with a dark variant; 69.8K uses, last updated October 2, 2026.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["glassmorphism", "css generator", "frosted glass", "blur", "transparency", "backdrop filter", "glass effect", "css snippet", "web design", "ui style", "free tool", "copy css"],
+  "contains": [
+    "adjust blur, transparency and colour with a live preview",
+    "copy the generated CSS in one click",
+    "uses backdrop-filter with a -webkit- prefix for older Safari",
+    "links a ready-made CSS glass effect snippet with dark variant and fallback",
+    "69.8K uses; last updated October 2, 2026"
+  ],
+  "formats": ["code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

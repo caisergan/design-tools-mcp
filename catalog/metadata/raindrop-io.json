@@ -1,0 +1,28 @@
+{
+  "id": "raindrop-io",
+  "url": "https://raindrop.io",
+  "kind": "site",
+  "hints_hash": "13637e7caa527d88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raindrop.io", "title": "Raindrop.io — All-in-one bookmark manager", "status": 200},
+    {"url": "https://raindrop.io/pro", "title": "Subscribe to Pro — Raindrop.io", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Raindrop.io",
+  "summary": "All-in-one bookmark manager for saving, organizing and searching links, media and files, with apps on every platform.",
+  "description": "A bookmark manager that saves links, articles, videos, images and files into collections with tags, filters and multiple view modes (grid, headlines, masonry, list). Full-text search covers saved pages, PDFs and YouTube transcripts; the Pro plan adds permanent copies, cloud backup, upload space and cleanup tools. Available as browser extensions (Chrome, Firefox, Safari, Edge), desktop and mobile apps, plus an API and an MCP integration for AI apps.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["card", "input", "list"],
+  "keywords": ["bookmark manager", "bookmark", "save for later", "read later", "collection", "tag", "bookmark organizer", "full-text search", "web archive", "browser extension", "ai assistant", "mcp", "productivity", "inspiration collection", "bookmark app"],
+  "contains": ["unlimited bookmarks, collections and devices on the free plan", "full-text search across pages, PDFs and YouTube transcripts (Pro)", "apps for Chrome, Firefox, Safari, Edge, Windows, Mac, iPad, iPhone and Android", "view modes: grid, headlines, masonry, list", "highlights, instant preview, reminders, batch processing, import/export, light and dark themes", "integrations API; MCP for Claude, ChatGPT and other AI apps", "automatic web archive copies and Dropbox/Google Drive backup"],
+  "formats": ["app", "api"],
+  "stack": ["react", "nextjs"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

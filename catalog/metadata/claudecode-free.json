@@ -1,0 +1,70 @@
+{
+  "id": "claudecode-free",
+  "url": "https://claudecode.free",
+  "kind": "site",
+  "hints_hash": "1835adc5ef824310",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://claudecode.free",
+      "title": "Vibecoding. - by Ruben Hassid - How to AI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Vibecoding.",
+  "summary": "Beginner's guide to vibecoding with Claude Code: setup steps, a mega prompt, costs and pitfalls.",
+  "description": "Guide for people who don't code: what vibecoding looks like, a seven-step Claude Code setup (app, clean folder, bypass permissions, Netlify and Supabase connectors, folder picker, model choice), a mega prompt to copy, prompt collections, what it really costs, and when not to use Claude Code. Part of Ruben Hassid's How to AI newsletter; needs Claude Pro ($20/month).",
+  "type": "article",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "claude code",
+    "vibecoding",
+    "vibe coding",
+    "claude",
+    "ai coding",
+    "mega prompt",
+    "prompt library",
+    "claude pro",
+    "netlify",
+    "supabase",
+    "ai website builder",
+    "no-code",
+    "bypass permission",
+    "setup guide"
+  ],
+  "contains": [
+    "free guide, June 2026",
+    "seven-step Claude Code setup",
+    "mega prompt to copy and paste",
+    "best-of Claude Code prompts",
+    "section on what it really costs",
+    "when not to use Claude Code",
+    "needs Claude Pro ($20/month; $100/month for more credits)"
+  ],
+  "formats": [
+    "docs",
+    "prompts",
+    "screenshots"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

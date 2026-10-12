@@ -1,0 +1,123 @@
+{
+  "id": "base-ui-com",
+  "url": "https://base-ui.com",
+  "kind": "site",
+  "hints_hash": "20f68fd22760fe82",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:25:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://base-ui.com/llms.txt",
+      "title": "Base UI",
+      "status": null
+    },
+    {
+      "url": "https://base-ui.com",
+      "title": "Unstyled UI components for accessible design systems · Base UI",
+      "status": 200
+    },
+    {
+      "url": "https://base-ui.com/react/overview/about.md",
+      "title": "About Base UI",
+      "status": 200
+    },
+    {
+      "url": "https://base-ui.com/react/overview/community.md",
+      "title": "Community",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/mui/base-ui",
+      "title": "GitHub - mui/base-ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Base UI",
+  "summary": "Unstyled, accessible React UI components from the creators of Radix, Floating UI and Material UI.",
+  "description": "Base UI is a styling-agnostic React component library: 37 unstyled, composable components plus utilities, with no bundled CSS, so teams style them with Tailwind, CSS Modules, CSS-in-JS or plain CSS. Components follow WAI-ARIA patterns and WCAG 2.2, from accordion, dialog and combobox to menu, select, slider, tabs, toast and tooltip, and ship as @base-ui/react on npm for React 17+. MIT licensed and free for commercial use.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "button",
+    "checkbox",
+    "drawer",
+    "dropdown",
+    "form",
+    "input",
+    "menubar",
+    "modal",
+    "navbar",
+    "otp-input",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "switch",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "react",
+    "unstyled component",
+    "headless ui",
+    "accessible component",
+    "aria",
+    "wcag",
+    "component library",
+    "design system",
+    "tailwind",
+    "css module",
+    "css-in-js",
+    "dialog",
+    "combobox",
+    "autocomplete",
+    "menubar",
+    "select",
+    "slider",
+    "tabs",
+    "toast",
+    "tooltip",
+    "npm package",
+    "typescript"
+  ],
+  "contains": [
+    "37 unstyled React components plus utilities",
+    "components include accordion, autocomplete, combobox, dialog, drawer, menu, menubar, select, slider, tabs, toast",
+    "no bundled CSS; compatible with Tailwind, CSS Modules, CSS-in-JS and plain CSS",
+    "WAI-ARIA Authoring Practices patterns and WCAG 2.2 compliance",
+    "npm package @base-ui/react (renamed from @base-ui-components/react); React 17+",
+    "v1.0.0 released Dec 2025; release notes through v1.9.0 (Oct 2026)",
+    "MIT licensed, free for commercial use; shadcn/ui builds on it",
+    "team of seven; previously from Radix, Floating UI and Material UI"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/mui/base-ui",
+    "docs": "https://base-ui.com/react/overview/quick-start",
+    "npm": "@base-ui/react",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

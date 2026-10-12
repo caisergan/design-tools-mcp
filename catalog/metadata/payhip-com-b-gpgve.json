@@ -1,0 +1,20 @@
+{
+  "id": "payhip-com-b-gpgve",
+  "url": "https://payhip.com/b/GpgVe",
+  "kind": "page",
+  "hints_hash": "168d8e4be40a36e2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:55:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://payhip.com/b/GpgVe", "title": "Hyper Dragon Flamethrower - Payhip", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hyper Dragon Flamethrower",
+  "summary": "Paid UEFN weapon system with animated dragon flamethrower models, a vending machine, VFX and an in-island purchase UI.",
+  "description": "A Payhip product page for a complete custom weapon system made for UEFN creators. It includes custom animated weapon models and VFX, a built-in vending machine with V-Buck offers, in-island purchase offers and transactions, NPC and zombie damage support, ammo configuration and a fully animated UI; everything is configurable from the details panel without code.",
+  "keywords": ["uefn", "fortnite", "weapon system", "game asset", "vfx", "animated ui", "microtransaction", "vending machine", "game development", "flamethrower"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

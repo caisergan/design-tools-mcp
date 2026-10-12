@@ -1,0 +1,33 @@
+{
+  "id": "paulgraham-com",
+  "url": "https://paulgraham.com",
+  "kind": "site",
+  "hints_hash": "8601b591ee84e823",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://paulgraham.com", "title": "Paul Graham", "status": null},
+    {"url": "https://paulgraham.com/articles.html", "title": "Essays", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Paul Graham",
+  "summary": "Personal site of Paul Graham: an index of 200+ essays on startups, founders, programming and writing.",
+  "description": "The personal site of Paul Graham: an index of 200+ essays spanning startup advice (How to Do Great Work, Founder Mode, Startup = Growth), programming and Lisp, writing and ideas. The index suggests How to Do Great Work, Having Kids or How to Lose Time and Money as starting points, and an RSS feed is available.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["paul graham", "essay", "startup advice", "y combinator", "founder", "startup idea", "startup growth", "programming", "lisp", "writing", "hacker", "essay collection", "silicon valley", "startup funding", "wealth"],
+  "contains": [
+    "200+ essays listed newest first",
+    "suggested starting points: How to Do Great Work, Having Kids, How to Lose Time and Money",
+    "topics span startups, founders, programming languages, writing and taste",
+    "plain HTML essays with an RSS feed"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

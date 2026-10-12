@@ -1,0 +1,79 @@
+{
+  "id": "github-com-rightnow-ai-picolm",
+  "url": "https://github.com/RightNow-AI/picolm",
+  "kind": "repo",
+  "hints_hash": "376a3265467974bb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:31:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/RightNow-AI/picolm/blob/HEAD/README.md",
+      "title": "1. Build PicoLM",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/RightNow-AI/picolm/blob/HEAD/LICENSE",
+      "title": "picolm/LICENSE at cf3f2dfca389e4f19a10dd36ce110c41ea12c899 · RightNow-AI/picolm · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "PicoLM",
+  "summary": "C11 LLM inference engine that runs a 1-billion parameter model on $10 boards with 256MB RAM.",
+  "description": "A from-scratch LLM inference engine in about 2,500 lines of C11 with zero dependencies. It runs TinyLlama 1.1B and other LLaMA-architecture GGUF models on Raspberry Pi, LicheeRV and x86-64 machines in ~45 MB of RAM, and it is the offline brain of the PicoClaw agent.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "llm",
+    "local llm",
+    "inference engine",
+    "c11",
+    "embedded",
+    "raspberry pi",
+    "risc-v",
+    "arm",
+    "gguf",
+    "quantization",
+    "offline ai",
+    "edge ai",
+    "json mode",
+    "tool calling",
+    "tinyllama",
+    "zero dependency"
+  ],
+  "contains": [
+    "~2,500 lines of C11; ~80 KB binary; only libc, libm, libpthread",
+    "runs TinyLlama 1.1B Q4KM (638 MB) in ~45 MB RAM",
+    "~13 tok/s on x86-64, ~8 tok/s on Pi 4, ~1 tok/s on a $10 LicheeRV Nano",
+    "mmap layer streaming, FP16 KV cache, flash attention, NEON/SSE2 SIMD",
+    "grammar-constrained JSON mode for tool calling",
+    "any LLaMA-architecture GGUF model; Q2K, Q3K, Q4K, Q5K, Q6K, Q80, F16, F32",
+    "one-line install script for Raspberry Pi / Linux"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "c"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/RightNow-AI/picolm",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,19 @@
+{
+  "id": "recent-design-app-store-screenshots",
+  "url": "https://recent.design/app-store-screenshots",
+  "kind": "page",
+  "hints_hash": "00ea2e82eb4360ed",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://recent.design/app-store-screenshots", "title": "App Store Screenshot Inspiration — Recent", "status": null}],
+  "status": "ok",
+  "name": "App Store Screenshots",
+  "summary": "Browsable gallery of app store screenshots from real apps, for mobile store-listing and screenshot design inspiration.",
+  "description": "A section of Recent that collects app store screenshots to browse for inspiration, presented as summaries of a few screenshots each. The listing is rendered client-side, so the readable page text is limited to the title, description and screenshot counts.",
+  "type": "gallery",
+  "keywords": ["app screenshot", "screenshot", "app design", "mobile app", "inspiration", "gallery", "app listing", "mobile ui", "screenshot design"],
+  "formats": ["screenshots", "links"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "recent-design"},
+  "confidence": 0.7
+}

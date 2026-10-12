@@ -1,0 +1,110 @@
+{
+  "id": "github-com-haydenbleasel-roadmap-ui",
+  "url": "https://github.com/haydenbleasel/roadmap-ui",
+  "kind": "repo",
+  "hints_hash": "49343d87d3ce9985",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/haydenbleasel/roadmap-ui/blob/HEAD/README.md",
+      "title": "Kibo UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/haydenbleasel/roadmap-ui",
+      "title": "GitHub - shadcnblocks/kibo: A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://www.kibo-ui.com/docs",
+      "title": "Introduction",
+      "status": 200
+    },
+    {
+      "url": "https://www.kibo-ui.com/components",
+      "title": "Avatar Stack",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Kibo UI",
+  "summary": "Custom shadcn/ui registry of 41 composable components — kanban, gantt, table, dropzone, marquee and more.",
+  "description": "Kibo UI is a component library and custom registry built on top of shadcn/ui: 41 components from avatar stacks, kanban, gantt, list and table to dropzone, combobox, ticker, announcement and dialog stack, plus blocks. The components use the shadcn/ui CSS variables, wrap headless logic and install with the shadcn CLI. Free and open source, MIT licensed; the repo now lives at github.com/shadcnblocks/kibo.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "avatar",
+    "cursor",
+    "calendar",
+    "kanban",
+    "list",
+    "table",
+    "timeline",
+    "select",
+    "file-upload",
+    "badge",
+    "card",
+    "marquee",
+    "banner",
+    "loader",
+    "modal",
+    "chart"
+  ],
+  "keywords": [
+    "shadcn",
+    "registry",
+    "react",
+    "nextjs",
+    "tailwind",
+    "typescript",
+    "component library",
+    "kanban",
+    "gantt",
+    "table",
+    "dropzone",
+    "marquee",
+    "avatar stack",
+    "dialog stack",
+    "color picker",
+    "open source"
+  ],
+  "contains": [
+    "41 components: kanban, gantt, table, list, dropzone, combobox, ticker, marquee and more",
+    "components use the shadcn/ui CSS variables",
+    "installs with the shadcn CLI from the Kibo registry",
+    "docs include setup, usage and MCP server pages",
+    "repo moved to github.com/shadcnblocks/kibo",
+    "free and open source, MIT licensed, 4k stars"
+  ],
+  "formats": [
+    "registry",
+    "cli",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcnblocks/kibo",
+    "docs": "https://www.kibo-ui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

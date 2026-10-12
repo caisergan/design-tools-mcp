@@ -1,0 +1,26 @@
+{
+  "id": "dexape-com-token-chain-solana-address-hkgzgwknz3asuyfzor9c8qupberk485ee4",
+  "url": "https://dexape.com/token?chain=solana&address=HKGzGwKNz3AsuYfzor9c8QupBerK485Ee4XfShnhpump&platform=all",
+  "kind": "page",
+  "hints_hash": "c4af2670b20cb68d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dexape.com/token?chain=solana&address=HKGzGwKNz3AsuYfzor9c8QupBerK485Ee4XfShnhpump&platform=all", "title": "Molly • Token Overview", "status": null}
+  ],
+  "status": "ok",
+  "name": "Molly • Token Overview",
+  "summary": "Dexape token page for $MOLLY on Solana: market cap, price chart, caller leaderboard and signal feed.",
+  "description": "A Dexape token dashboard for the Solana token $MOLLY (CIA AI Agent): current and all-time-high market cap, last recorded price, caller impact score, mention counts, a caller leaderboard and a signal feed with time windows from 5 minutes to 30 days. The full board and monthly or yearly Pro plans are locked behind an account.",
+  "keywords": ["token tracker", "solana", "memecoin", "market cap", "price chart", "caller leaderboard", "signal feed", "crypto signal", "token overview", "all-time high", "ai agent token", "crypto dashboard"],
+  "contains": [
+    "market cap and ATH market cap for $MOLLY on Solana",
+    "price chart with time windows from 5 minutes to 30 days",
+    "caller leaderboard and signal feed",
+    "paid plans: free account, Dexape Pro monthly and yearly"
+  ],
+  "formats": ["links"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

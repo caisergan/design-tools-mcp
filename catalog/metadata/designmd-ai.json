@@ -1,0 +1,105 @@
+{
+  "id": "designmd-ai",
+  "url": "https://designmd.ai",
+  "kind": "site",
+  "hints_hash": "2e8750d5169cea6f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designmd.ai",
+      "title": "DESIGN.md - Design Systems for AI Coding",
+      "status": null
+    },
+    {
+      "url": "https://designmd.ai/explore",
+      "title": "Explore Free Design Systems | DESIGN.md",
+      "status": null
+    },
+    {
+      "url": "https://designmd.ai/about",
+      "title": "About | DESIGN.md",
+      "status": null
+    },
+    {
+      "url": "https://designmd.ai/mcp",
+      "title": "Set up MCP | DESIGN.md",
+      "status": 200
+    },
+    {
+      "url": "https://designmd.ai/cli",
+      "title": "CLI | DESIGN.md",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "DESIGNmd",
+  "summary": "Library of 400+ free DESIGN.md design systems that AI coding tools read to build consistent, on-brand UI.",
+  "description": "DESIGNmd hosts community-made DESIGN.md files: the Google-published plain-text format that gives coding agents a design system, with tokens in YAML front matter and markdown sections for colors, typography, layout, elevation, shapes and components. Browse systems by tag and drop one into a project, or install the MCP server (7 tools) or the npm CLI so an agent can search and download them.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [
+    "command-palette",
+    "dashboard",
+    "card",
+    "3d",
+    "background",
+    "stats",
+    "features",
+    "file-upload",
+    "chat",
+    "team",
+    "prompt-input",
+    "ai-agent-ui"
+  ],
+  "keywords": [
+    "design system",
+    "design.md",
+    "ai coding",
+    "claude code",
+    "cursor",
+    "antigravity",
+    "design token",
+    "agent skill",
+    "ui rule",
+    "mcp",
+    "cli",
+    "code generation",
+    "landing page",
+    "dashboard",
+    "dark mode"
+  ],
+  "contains": [
+    "400+ community DESIGN.md design systems",
+    "browse by tag: saas, dark, minimal, bold, dashboard, landing page, mobile app",
+    "DESIGN.md spec published by Google (alpha); every uploaded kit is linted",
+    "MCP server with 7 tools and ~2K tokens of context",
+    "CLI via npm or npx designmd, with JSON output",
+    "free API key required to download systems",
+    "upload your own design system"
+  ],
+  "formats": [
+    "prompts",
+    "docs",
+    "cli",
+    "npm-package"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://designmd.ai/what-is-design-md",
+    "npm": "designmd",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

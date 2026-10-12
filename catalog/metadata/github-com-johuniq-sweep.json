@@ -1,0 +1,37 @@
+{
+  "id": "github-com-johuniq-sweep",
+  "url": "https://github.com/Johuniq/sweep",
+  "kind": "repo",
+  "hints_hash": "b6878a1002f94762",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Johuniq/sweep/blob/HEAD/README.md", "title": "Sweep", "status": 200},
+    {"url": "https://github.com/Johuniq/sweep", "title": "GitHub - Johuniq/sweep: Create stunning gradients in seconds. A beautiful, modern gradient generator. · GitHub", "status": 200},
+    {"url": "https://sweep.jolyui.dev", "title": null, "status": 402}
+  ],
+  "status": "ok",
+  "name": "Sweep",
+  "summary": "Open-source gradient generator with linear and radial gradients, noise and blur effects, and CSS, Tailwind or JPG export.",
+  "description": "A gradient editor for designers and developers: multi-stop color control, linear and radial gradients, adjustable angles and positions, noise and blur effects rendered on canvas, and a real-time high-resolution preview. Export the result as CSS code or Tailwind CSS utility classes, download a high-quality JPG, or copy with one click; dark mode, responsive layout and Motion animations included. Built with Next.js 16, React 19, Tailwind CSS v4, Radix UI and next-themes; MIT licensed.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["gradient", "gradient generator", "linear gradient", "radial gradient", "css gradient", "tailwind", "noise", "blur", "color stop", "background", "graphic design", "web design", "nextjs", "react", "open source"],
+  "contains": [
+    "linear and radial gradients with multi-stop color control",
+    "adjustable angles and positions with real-time preview",
+    "noise and blur effects with canvas-based rendering",
+    "export: CSS code, Tailwind CSS utility classes, high-quality JPG",
+    "dark mode via next-themes; Motion animations; Radix UI components",
+    "Next.js 16 + React 19 + Tailwind CSS v4 app",
+    "MIT licensed; 24 GitHub stars; site listed as sweep.jolyui.dev"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "radix", "framer-motion", "shadcn", "next-themes"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Johuniq/sweep", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

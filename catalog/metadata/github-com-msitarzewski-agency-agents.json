@@ -1,0 +1,72 @@
+{
+  "id": "github-com-msitarzewski-agency-agents",
+  "url": "https://github.com/msitarzewski/agency-agents",
+  "kind": "repo",
+  "hints_hash": "2c1f7cbf224e88cc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/msitarzewski/agency-agents/blob/HEAD/README.md",
+      "title": "🎭 The Agency: AI Specialists Ready to Transform Your Workflow",
+      "status": null
+    },
+    {
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "title": "GitHub - msitarzewski/agency-agents: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized…",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "The Agency",
+  "summary": "A roster of AI agent personas for software teams, from frontend and backend specialists to SRE, marketing and sales roles.",
+  "description": "A growing collection of AI agent personalities, each a markdown file with identity and personality, mission and workflows, technical deliverables and success metrics. Agents are grouped into divisions — engineering, design, paid media, sales, marketing, product, project management and testing — and install into Claude Code, Cursor, Codex, Gemini CLI, OpenCode and more, with an optional desktop app for browsing the roster.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai agent",
+    "agent persona",
+    "agent team",
+    "prompt",
+    "claude code",
+    "cursor",
+    "codex",
+    "coding agent",
+    "developer",
+    "frontend",
+    "backend",
+    "devop",
+    "sre",
+    "workflow",
+    "specialist"
+  ],
+  "contains": [
+    "agents grouped into engineering, design, paid media, sales, marketing, product, project management and testing divisions",
+    "each agent file: identity, personality, mission, workflows, deliverables, success metrics",
+    "installs into Claude Code, Cursor, Codex, Gemini CLI, OpenCode and more",
+    "desktop app for browsing and installing the roster",
+    "installer scripts support per-division subsets"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/msitarzewski/agency-agents",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "id": "raylight-app",
+  "url": "https://raylight.app",
+  "kind": "site",
+  "hints_hash": "e7fc9c77401b518e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:31:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raylight.app", "title": "Raylight: Build beautiful product videos in minutes", "status": null},
+    {"url": "https://www.raylight.app/templates", "title": "Free video templates | Raylight", "status": null},
+    {"url": "https://www.raylight.app/pricing", "title": "Pricing | Raylight", "status": null},
+    {"url": "https://www.raylight.app/templates/0Gk9f2du", "title": "Prompt video template | Raylight", "status": null}
+  ],
+  "status": "ok",
+  "name": "Raylight",
+  "summary": "Browser studio for making product launch and demo videos from screenshots: design shots on a canvas, animate on a timeline, export MP4.",
+  "description": "Web app that turns screenshots, shapes and footage into product launch videos. Lay out shots on a canvas, add animation blocks on the timeline, use 3D device mockups, camera moves and scene effects, then export MP4 or GIF. Templates are remixable; an MCP server lets Claude, Codex and Cursor drive edits; voiceover, music and sound effects are generated. Free plan plus Hobby, Pro and Max tiers.",
+  "type": "tool",
+  "categories": ["motion"],
+  "elements": ["3d", "text-effect"],
+  "keywords": ["product video", "launch video", "motion graphics", "video template", "video editor", "screen recording", "3d mockup", "camera move", "animation", "voiceover", "sound effect", "mcp server", "figma import", "demo video", "saas marketing", "app promo video"],
+  "contains": ["free plan: unlimited projects and 1080p exports with a badge", "Hobby $4.80/mo, Pro and Max tiers", "remixable video templates (Apple News+ remake used 4385 times)", "MCP server for Claude, Codex, Cursor and Antigravity", "3D device mockups for iPhone, iPad and MacBook", "voiceover, music and sound effects with credits"],
+  "formats": ["app", "templates", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.raylight.app/academy", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,31 @@
+{
+  "id": "freebiesui-com",
+  "url": "https://freebiesui.com",
+  "kind": "site",
+  "hints_hash": "3d30b50c7dd590ff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://freebiesui.com", "title": "Free hand-picked UI resources for designers - FreebiesUI", "status": null},
+    {"url": "https://freebiesui.com/collections", "title": "Collections - FreebiesUI", "status": null},
+    {"url": "https://freebiesui.com/premium", "title": "Premium UI kits, Web Templates and Mockups - FreebiesUI", "status": null},
+    {"url": "https://freebiesui.com/about", "title": "About - FreebiesUI", "status": null},
+    {"url": "https://freebiesui.com/license", "title": "License - FreebiesUI", "status": null}
+  ],
+  "status": "ok",
+  "name": "FreebiesUI",
+  "summary": "Library of free and premium UI kits, app designs, web templates and mockups for Figma, Adobe Xd, Sketch and PSD.",
+  "description": "A collection of downloadable design resources: app UI kits, web templates, mockups and typefaces in Figma, Adobe Xd, Sketch and Photoshop formats. Items are grouped into free and premium sections and collections, each with its own license note; commercial use is allowed while reselling the files is not.",
+  "type": "asset-library",
+  "categories": ["media", "components"],
+  "elements": ["dashboard", "form", "3d", "card", "chart", "map", "calendar", "team", "tabs", "chat", "navbar", "slider"],
+  "keywords": ["ui kit", "free ui kit", "mockup", "app design", "dashboard design", "mobile ui", "ios ui", "figma template", "sketch", "adobe xd", "photoshop", "web template", "design freebie", "premium ui kit", "device mockup"],
+  "contains": ["987 resource pages; sitemap lists 6,095 URLs", "item types: app designs, UI kits, web templates, mockups, typefaces", "free and premium sections (UI Free / UI Premium / UI Tools)", "item files in Figma, Adobe Xd, Sketch and PSD", "catalogued elements include dashboards (34), forms (15), 3D (9), cards, charts, maps, calendars", "license: personal and commercial use, no attribution; no resale or redistribution of files", "homepage feed currently carries unrelated spam/gambling posts"],
+  "formats": ["figma-file", "screenshots"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

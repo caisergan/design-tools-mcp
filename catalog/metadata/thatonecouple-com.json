@@ -1,0 +1,35 @@
+{
+ "id": "thatonecouple-com",
+ "url": "https://thatonecouple.com",
+ "kind": "site",
+ "hints_hash": "5503f3f250a6f81c",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://thatonecouple.com/llms.txt", "title": "That One Couple", "status": null},
+  {"url": "https://thatonecouple.com", "title": "That One Couple — brand, web and product", "status": 200},
+  {"url": "https://www.thatonecouple.com/about", "title": "About Jess & Nelson · That One Couple", "status": 200}
+ ],
+ "status": "ok",
+ "name": "That One Couple",
+ "summary": "Studio site of a two-person San Diego brand, web and product team: services, client case studies, pricing and notes.",
+ "description": "A two-person San Diego studio site (Jessica Cruz-Abalos, brand & design; Nelson Abalos Jr., web & development): brand identity, web development, SEO & AEO and iOS/Android app services, case studies with links to live client sites (Sabrina Jeffries, Invisible Technologies, Close CRM, NovaUp …), services and pricing, an about page, a podcast and design notes.",
+ "type": "gallery",
+ "categories": ["inspiration"],
+ "elements": [],
+ "keywords": ["design studio", "brand studio", "portfolio", "case study", "agency website", "web design", "branding", "san diego", "landing page", "studio website"],
+ "contains": [
+  "two-person studio: brand identity, web development, SEO & AEO, iOS & Android",
+  "case studies with links to live client sites (Sabrina Jeffries, Invisible Technologies, Close CRM, NovaUp …)",
+  "services and pricing page; about; notes; podcast; contact form",
+  "35 combined years of design experience; 80+ projects shipped since 2016",
+  "booking November, 2 project slots at crawl time"
+ ],
+ "formats": ["links"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.7
+}

@@ -1,0 +1,29 @@
+{
+  "id": "logggos-club",
+  "url": "https://logggos.club",
+  "kind": "site",
+  "hints_hash": "e4c38694bfcd7942",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.logggos.club/", "title": "Logggos — Well-Designed Logos for Your Inspiration", "status": null},
+    {"url": "https://www.logggos.club/browse", "title": "1000 logos of all companies — Logggos", "status": null},
+    {"url": "https://www.logggos.club/about", "title": "About us", "status": null}
+  ],
+  "status": "ok",
+  "name": "Logggos",
+  "summary": "Catalog of 1000+ logos from real companies, browsable by industry, typography style, branding color and tags.",
+  "description": "A browsable catalog of well-designed logos from real companies. Each logo has its own page with the company, its industry and tags; browse by company type (Tech, DTC, Agencies, Other), typography style, branding color, theme or tag, and get a weekly logos-inspiration email.",
+  "type": "gallery",
+  "categories": ["inspiration", "media"],
+  "elements": [],
+  "keywords": ["logo", "logo inspiration", "logo gallery", "logo design", "brand identity", "wordmark", "logotype", "logo catalog", "logo case study", "logo by industry", "logo by color", "typography style", "brand color", "tech logo", "startup logo", "saas logo", "design inspiration"],
+  "contains": ["1000+ logos from real companies, each with its own page", "company types: Tech (393), DTC (167), Other (302), Agencies (138)", "filters: company type, typography style, branding color, tags", "case studies pairing a logo with the company and industry", "weekly logos-inspiration email"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

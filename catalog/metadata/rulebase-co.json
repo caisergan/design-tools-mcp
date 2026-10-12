@@ -1,0 +1,101 @@
+{
+  "id": "rulebase-co",
+  "url": "https://rulebase.co",
+  "kind": "site",
+  "hints_hash": "414712a30ff57945",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://rulebase.co/llms.txt",
+      "title": "Rulebase",
+      "status": null
+    },
+    {
+      "url": "https://rulebase.co",
+      "title": "Rulebase | AI agent monitoring for customer-facing agents",
+      "status": 200
+    },
+    {
+      "url": "https://rulebase.co/skills",
+      "title": "Skills and Workflows Gallery | Rulebase",
+      "status": 200
+    },
+    {
+      "url": "https://rulebase.co/skills/cx-voice-qa",
+      "title": "Voice QA | Rulebase",
+      "status": 200
+    },
+    {
+      "url": "https://rulebase.co/skills/cx-wip-limits",
+      "title": "Concurrency limits | Rulebase",
+      "status": 200
+    },
+    {
+      "url": "https://rulebase.co/skills/cx-macro-audit",
+      "title": "Macro and template audit | Rulebase",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Rulebase",
+  "summary": "AI agent monitoring for customer-facing agents: reviews every conversation and shows the fix that improves resolution.",
+  "description": "Rulebase monitors AI and human customer conversations across chat, voice and workflows, detects silent failures, quality gaps and policy breaches, compares failed AI journeys with human resolutions, and points to the prompt, knowledge, tool or workflow change to make. It also publishes an MCP server for helpdesks and contact centres and an open-source library of 149 agent skills for customer operations, QA, compliance and RevOps.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "hero",
+    "chat",
+    "timeline",
+    "progress",
+    "stats",
+    "list"
+  ],
+  "keywords": [
+    "ai agent monitoring",
+    "customer support",
+    "quality assurance",
+    "conversation analytics",
+    "helpdesk",
+    "mcp server",
+    "agent skill",
+    "customer operation",
+    "fintech",
+    "complaint detection",
+    "cx",
+    "qa scorecard",
+    "contact centre",
+    "revop"
+  ],
+  "contains": [
+    "monitors AI and human conversations across chat, voice and workflows",
+    "149 open-source agent skills, installed with npx rulebase-skills, vendor-neutral",
+    "MCP directory covering Zendesk, Freshdesk, Help Scout, Crisp, Aircall, Five9, Genesys Cloud CX, NICE CXone and Avaya",
+    "detects silent failures, missed complaints and risky handoffs; scores QA against SOPs",
+    "customer case studies: Qonto, Rho, Lesaka; SOC 2 Type II, GDPR, PCI DSS"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/rulebase-co/rulebase-skills",
+    "docs": null,
+    "npm": "rulebase-skills",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

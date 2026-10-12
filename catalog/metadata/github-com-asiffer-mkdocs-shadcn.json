@@ -1,0 +1,91 @@
+{
+  "id": "github-com-asiffer-mkdocs-shadcn",
+  "url": "https://github.com/asiffer/mkdocs-shadcn",
+  "kind": "repo",
+  "hints_hash": "3fadc2113cf625a9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/asiffer/mkdocs-shadcn/blob/HEAD/README.md",
+      "title": "README",
+      "status": null
+    },
+    {
+      "url": "https://github.com/asiffer/mkdocs-shadcn",
+      "title": "GitHub - asiffer/mkdocs-shadcn: Documentation that also shines",
+      "status": 200
+    },
+    {
+      "url": "https://asiffer.github.io/mkdocs-shadcn/",
+      "title": "Welcome to mkdocs-shadcn",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "mkdocs-shadcn",
+  "summary": "MkDocs theme bringing the shadcn/ui style to documentation sites, plus tabs, admonitions, charts and diagrams.",
+  "description": "An unofficial MkDocs theme that applies shadcn/ui styling to documentation sites; the project's own docs are built with it. It supports built-in MkDocs and pymdownx extensions (admonition, tabbed, blocks details and tab, progressbar, arithmatex, footnotes, codehilite) and plugins for Excalidraw editing, mkdocstrings API docs, mike versioning and a custom autonumber plugin. Ships ECharts and Iconify integrations (shadcn.echarts, shadcn.iconify) and publishes its Tailwind-based CSS sources. Installable with pip; ProperDocs works as a drop-in replacement. MIT licensed.",
+  "type": "template",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "chart",
+    "navbar",
+    "popover",
+    "progress",
+    "sidebar",
+    "tabs"
+  ],
+  "keywords": [
+    "mkdoc",
+    "mkdocs theme",
+    "documentation",
+    "docs site",
+    "shadcn",
+    "tailwind",
+    "python",
+    "admonition",
+    "tabs",
+    "excalidraw",
+    "echart",
+    "iconify",
+    "api documentation"
+  ],
+  "contains": [
+    "MkDocs theme styled after shadcn/ui",
+    "supports pymdownx tabs, details blocks, admonitions, progress bars and arithmatex",
+    "ECharts and Iconify integrations",
+    "plugins: Excalidraw, mkdocstrings, mike, autonumber",
+    "Tailwind-based CSS sources published",
+    "pip install; works with ProperDocs as drop-in replacement",
+    "MIT license"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "python",
+    "tailwind",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/asiffer/mkdocs-shadcn",
+    "docs": "https://asiffer.github.io/mkdocs-shadcn/",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

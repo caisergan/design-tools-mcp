@@ -1,0 +1,25 @@
+{
+  "id": "nugunapass-com-learn-react-react-28",
+  "url": "https://nugunapass.com/learn/react/react-28",
+  "kind": "page",
+  "hints_hash": "722ce8a9894a9461",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:36:40Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    {
+      "url": "https://nugunapass.com/learn/react/react-28",
+      "title": "28강. 배포하기 | 리액트 입문 — 컴포넌트로 만드는 웹 · 입문 — NUGUNA | NUGUNA",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "28강. 배포하기 | 리액트 입문 — 컴포넌트로 만드는 웹",
+  "summary": "Free Korean lesson 28 of a React intro course: deployment plus component libraries (shadcn/ui, Radix UI) and accessibility basics.",
+  "description": "Lesson 28 of the free 30-part Korean course 'React intro — building the web with components', readable without an account. It covers deployment and walks through why to use a component library, how shadcn/ui and Radix UI handle accessibility, and the cn() Tailwind class-merge utility.",
+  "type": "course",
+  "categories": ["learning"],
+  "keywords": ["react", "course", "korean", "free course", "deployment", "component library", "shadcn ui", "radix ui", "accessibility", "a11y", "tailwind", "tutorial"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

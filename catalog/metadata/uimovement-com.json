@@ -1,0 +1,29 @@
+{
+  "id": "uimovement-com",
+  "url": "https://uimovement.com",
+  "kind": "site",
+  "hints_hash": "4a96cd28bf160585",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uimovement.com", "title": "UI/UX Design Inspiration & User Flows from Top Apps — Page Flows", "status": null},
+    {"url": "https://pageflows.com/pricing", "title": "Page Flows Pricing — UI Design Research Tool from $8.25/mo", "status": null},
+    {"url": "https://pageflows.com/faq", "title": "Frequently Asked Questions | Page Flows", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Page Flows",
+  "summary": "UX research library of annotated user flow recordings and app screens from 300+ real products.",
+  "description": "A UX research library: recorded user flows and screenshots from 300+ real apps and websites such as Spotify, Airbnb, Slack and Notion, each recording annotated step by step. Flows cover onboarding, signup and login, checkout, upgrade and cancellation, settings and email; browsing works by app, flow type, industry and UI element, with full-text search inside screenshots. The entry's own address, uimovement.com, now redirects to this site.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["button", "card", "dashboard", "drawer", "form", "input", "pricing", "tabs"],
+  "keywords": ["user flow", "ux flow", "app screen", "ui pattern", "design inspiration", "screen recording", "onboarding flow", "signup flow", "checkout flow", "email design", "ux research", "ui element", "bottom sheet", "dashboard design", "product design", "ios app", "android app", "mobile app"],
+  "contains": ["79,000+ app screens, 20,000+ apps and hundreds of recorded user flows", "recordings annotated step by step", "flows: onboarding, signup, checkout, upgrade, cancellation, settings, email", "browse by app, flow type, industry or UI element; search text inside screenshots", "iOS, Android, desktop and mobile web", "3-day trial $2.95, then $39/quarter or $99/year; team plans from $199/year", "uimovement.com redirects to pageflows.com"],
+  "formats": ["video", "screenshots", "links"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

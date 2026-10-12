@@ -1,0 +1,27 @@
+{
+  "id": "framer-com-community-marketplace-templates-rivon",
+  "url": "https://framer.com/community/marketplace/templates/rivon",
+  "kind": "page",
+  "hints_hash": "70ae17c7153d2849",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/community/marketplace/templates/rivon", "title": "Rivon — Free Website Template for Framer", "status": null},
+    {"url": "https://www.framer.com/marketplace/templates/rivon/", "title": "Rivon — Free Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Rivon",
+  "summary": "Free minimal portfolio template for Framer with CMS-powered project pages and case studies.",
+  "description": "A free Framer website template for product designers, UI/UX designers, freelancers and design studios: strong typography, structured case studies, responsive layouts and reusable components. Projects are connected to the Framer CMS, so updating a project once refreshes its cards, sections and detail pages. Includes setup documentation. By Mahmoud Anbousi.",
+  "type": "template",
+  "keywords": ["framer template", "portfolio template", "free template", "portfolio website", "cms template", "case study", "designer portfolio", "ui/ux portfolio", "freelancer portfolio", "studio website", "no-code", "framer cms", "personal website"],
+  "elements": ["card"],
+  "contains": ["free Framer portfolio template", "CMS-powered project collection", "dynamic project detail pages", "case studies, responsive layouts, reusable components", "setup documentation included", "published Jul 20, 2026, updated Jul 21, 2026"],
+  "formats": ["templates"],
+  "stack": ["framer"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

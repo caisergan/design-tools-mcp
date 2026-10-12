@@ -1,0 +1,38 @@
+{
+  "id": "shipvoice-dev",
+  "url": "https://shipvoice.dev",
+  "kind": "site",
+  "hints_hash": "45bc77961ced9004",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shipvoice.dev/llms.txt", "title": "ShipVoice", "status": null},
+    {"url": "https://shipvoice.dev", "title": "ShipVoice: the voice AI platform agencies own", "status": 200},
+    {"url": "https://shipvoice.dev/license", "title": "License | ShipVoice", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ShipVoice",
+  "summary": "LiveKit voice-agent boilerplate with Stripe per-minute metered billing, telephony, a call console and one-command deploy.",
+  "description": "A self-hostable platform for building and billing voice-AI products on LiveKit: meter STT, LLM, TTS and telephony per minute, add your margin, and charge end users through your own Stripe. It ships auth, telephony, a client console with calls, transcripts and spend, ten call patterns, and swappable provider plugins (LiveKit Cloud, Deepgram, OpenAI, Cartesia, ElevenLabs, Twilio, Telnyx). The kernel is open source (MIT); the agency edition is a one-time commercial license.",
+  "type": "template",
+  "categories": ["templates", "dev-ai-tools"],
+  "elements": ["dashboard"],
+  "keywords": ["voice agent", "voice ai", "livekit", "boilerplate", "ai voice saas", "stripe billing", "metered billing", "per-minute billing", "telephony", "call dashboard", "agency", "saas starter", "transcription", "twilio", "self-hosted"],
+  "contains": [
+    "MIT-licensed LiveKit voice core (livekit-starter) plus a paid agency edition",
+    "per-minute Stripe metered billing across STT, LLM, TTS and telephony, with your margin",
+    "auth, telephony and a call dashboard",
+    "ten call patterns: solo, supervisor, relay, guided path, observer, talker & thinker, background worker",
+    "plugin slots: LiveKit Cloud or self-hosted, Deepgram, OpenAI, Cartesia, ElevenLabs, Twilio, Telnyx",
+    "client console with calls, transcripts and spend",
+    "free guides: 18-chapter Voice AI primer, margin calculator, platform comparison, 10DLC guide",
+    "founding access $199 one-time for the first 50, then $299 at launch (2 Sept 2026)"
+  ],
+  "formats": ["code", "templates", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

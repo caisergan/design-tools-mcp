@@ -1,0 +1,28 @@
+{
+  "id": "openmotion-design",
+  "url": "https://openmotion.design",
+  "kind": "site",
+  "hints_hash": "0c1d69ef5a01765f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://openmotion.design", "title": "OpenMotion — Build launch videos from a prompt", "status": null},
+    {"url": "https://openmotion.design/examples", "title": "Examples · OpenMotion", "status": null}
+  ],
+  "status": "ok",
+  "name": "OpenMotion",
+  "summary": "Desktop app that turns a prompt into editable motion scenes on a canvas and timeline, exportable as video, transparent WebM or HTML.",
+  "description": "OpenMotion generates a scene plan from a chat prompt, then lets you refine composition, timing, easing, colors, assets and sound on a real canvas and timeline before exporting. It is designed to work with a Claude Code or Codex subscription instead of separate API keys, and currently has one free plan while the app is in development.",
+  "type": "app",
+  "categories": ["motion"],
+  "elements": ["chat", "prompt-input"],
+  "keywords": ["motion design", "launch video", "product video", "ai video generator", "motion graphics", "explainer video", "video editor", "timeline editor", "prompt to video", "mac app", "windows app", "brand kit", "webm export", "html export", "scene based animation"],
+  "contains": ["prompt to editable motion scenes", "scene-based canvas with layer and audio timeline", "reusable brand kits", "exports: video, transparent WebM, self-contained HTML", "works with Claude Code and Codex subscriptions", "free while in development; a Pro plan may come later", "macOS (Apple silicon/Intel) and Windows 10+ (beta); v1.1.0, 326 MB"],
+  "formats": ["app", "video"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

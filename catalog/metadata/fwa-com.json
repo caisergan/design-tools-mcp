@@ -1,0 +1,16 @@
+{
+  "id": "fwa-com",
+  "url": "https://fwa.com",
+  "kind": "site",
+  "hints_hash": "a4c73badc48c5c6d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fwa.com", "title": "♛ Unternehmen - INDULOR, mehr als 40 Jahre Erfahrung...", "status": null},
+    {"url": "https://fwa.com/", "title": "♛ Unternehmen - INDULOR, mehr als 40 Jahre Erfahrung...", "status": 200},
+    {"url": "http://www.fwa.com/", "title": "fwa.com", "status": 200}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

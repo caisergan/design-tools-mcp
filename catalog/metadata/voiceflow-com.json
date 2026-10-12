@@ -1,0 +1,32 @@
+{
+ "id": "voiceflow-com",
+ "url": "https://voiceflow.com",
+ "kind": "site",
+ "hints_hash": "266265420cc89bb0",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T19:00:41Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://voiceflow.com/llms.txt", "title": "Voiceflow", "status": null},
+  {"url": "https://voiceflow.com", "title": "Voiceflow | Enterprise Conversational AI Platform & Voice AI", "status": 200},
+  {"url": "https://www.voiceflow.com/docs", "title": "Build AI agents with Voiceflow - Voiceflow Documentation", "status": 200},
+  {"url": "https://www.voiceflow.com/pricing", "title": "Pricing | Voiceflow", "status": 200},
+  {"url": "https://www.voiceflow.com/pricing.md", "title": "For the teams behind the world's best AI agents", "status": 200},
+  {"url": "https://www.voiceflow.com/about", "title": "About Us | Voiceflow", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Voiceflow",
+ "summary": "Enterprise platform for building, launching and monitoring chat and voice AI agents for customer support.",
+ "description": "Teams design agents in a visual builder — playbooks, workflows, knowledge base, tools, global prompt and guardrails — then deploy the same agent to web, app, WhatsApp, SMS and voice. Production features include environments, observability with LLM-powered evaluations, live agent handoff and integrations with Zendesk, Salesforce, HubSpot and Shopify; docs ship as markdown and as an MCP server.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": ["chat"],
+ "keywords": ["ai agent", "conversational ai", "chat agent", "voice agent", "customer support", "chatbot", "agent builder", "customer experience", "no-code", "knowledge base", "observability", "telephony", "integration", "template", "conversation design", "whatsapp", "sms"],
+ "contains": ["visual agent builder: playbooks, workflows, knowledge base, tools", "omnichannel: web, app, WhatsApp, SMS and voice (500 ms voice latency claimed)", "integrations: Zendesk, Salesforce, HubSpot, Shopify and more", "industry templates and customer-story library", "docs as markdown plus a docs MCP server for Cursor and VS Code", "compliance pages: SOC-2, ISO 27001, GDPR, HIPAA", "pricing: usage-based for agencies/partners, request pricing for businesses; free trial"],
+ "formats": ["app", "docs", "api", "cli", "templates"],
+ "stack": [],
+ "pricing": "paid",
+ "license": "unknown",
+ "related": {"repo": null, "docs": "https://www.voiceflow.com/docs", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

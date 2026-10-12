@@ -1,0 +1,36 @@
+{
+  "id": "github-com-mem0ai-mem0",
+  "url": "https://github.com/mem0ai/mem0",
+  "kind": "repo",
+  "hints_hash": "cb44eba5a7888f10",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mem0ai/mem0/blob/HEAD/README.md", "title": "Introduction", "status": null},
+    {"url": "https://raw.githubusercontent.com/mem0ai/mem0/HEAD/README.md", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mem0",
+  "summary": "Memory layer for AI agents that extracts, stores and retrieves user, session and agent memories across sessions.",
+  "description": "Mem0 gives AI assistants and agents persistent memory: single-pass ADD-only extraction with entity linking, multi-signal retrieval (semantic, BM25 keyword, entity) and temporal reasoning, benchmarked at 92.5 on LoCoMo and 94.4 on LongMemEval. Available as Python and npm libraries, a self-hosted server with dashboard and auth, or the managed cloud platform, plus CLI, agent skills and integrations for ChatGPT, LangGraph and CrewAI.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai memory", "memory layer", "agent memory", "long term memory", "personalization", "chatbot", "python", "typescript", "sdk", "self hosted", "rag", "vector store", "cli", "agent skill", "claude code"],
+  "contains": [
+    "library (pip install mem0ai, npm SDK), self-hosted server or managed cloud",
+    "multi-level memory: user, session and agent state",
+    "single-pass ADD-only extraction with entity linking",
+    "multi-signal retrieval: semantic, BM25 keyword and entity matching",
+    "benchmarks: 92.5 LoCoMo, 94.4 LongMemEval, 64.1 BEAM (1M)",
+    "CLI, agent skills and integrations (ChatGPT extension, LangGraph, CrewAI)",
+    "Apache-2.0 licensed"
+  ],
+  "formats": ["code", "npm-package", "cli", "api", "app"],
+  "stack": ["python", "typescript"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/mem0ai/mem0", "docs": "https://docs.mem0.ai", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

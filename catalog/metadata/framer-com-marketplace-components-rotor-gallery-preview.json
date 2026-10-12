@@ -1,0 +1,21 @@
+{
+  "id": "framer-com-marketplace-components-rotor-gallery-preview",
+  "url": "https://framer.com/marketplace/components/rotor-gallery/preview",
+  "kind": "page",
+  "hints_hash": "a50af0601a415937",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/components/rotor-gallery/preview", "title": "Component unavailable — Framer Marketplace", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Rotor Gallery",
+  "summary": "Framer Marketplace component preview page; the component is unavailable on the Marketplace right now.",
+  "description": "The Framer Marketplace preview page for the Rotor Gallery component renders a \"Component unavailable\" notice: the component isn't available on Framer Marketplace right now, so nothing about its contents is readable.",
+  "keywords": ["framer", "framer marketplace", "component", "gallery component", "framer component", "rotor gallery"],
+  "elements": [],
+  "formats": ["links"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.4
+}

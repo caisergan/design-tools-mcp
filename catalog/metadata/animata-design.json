@@ -1,0 +1,105 @@
+{
+  "id": "animata-design",
+  "url": "https://animata.design",
+  "kind": "site",
+  "hints_hash": "247f6dba4f987a65",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://animata.design/llms.txt",
+      "title": "Animata",
+      "status": null
+    },
+    {
+      "url": "https://animata.design",
+      "title": "Free Animated React Components | Animata | animata",
+      "status": 200
+    },
+    {
+      "url": "https://animata.design/docs",
+      "title": "Animated Introduction — UI React Component (Tailwind CSS) | Animata",
+      "status": 200
+    },
+    {
+      "url": "https://animata.design/components",
+      "title": "Components | animata",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Animata",
+  "summary": "156+ animated React components — text effects, backgrounds, cards, buttons, widgets — to copy or install with the shadcn CLI.",
+  "description": "Animata is a library of animated React components built with Tailwind CSS v4, organised into 19 categories (text, background, card, button, list, tabs, charts, progress, widgets and more). Every component ships with a live preview, source code and install instructions; add it through the shadcn CLI registry or copy-paste it into your project.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "card",
+    "button",
+    "list",
+    "chart",
+    "text-effect",
+    "tabs",
+    "progress",
+    "marquee",
+    "scroll-effect",
+    "avatar",
+    "3d",
+    "cursor"
+  ],
+  "keywords": [
+    "animated react component",
+    "react animation",
+    "tailwind css",
+    "shadcn cli",
+    "copy paste ui component",
+    "text effect",
+    "background animation",
+    "animated card",
+    "animated button",
+    "chart",
+    "tabs",
+    "progress bar",
+    "marquee",
+    "cursor effect",
+    "3d effect",
+    "widget",
+    "free react component",
+    "open source component"
+  ],
+  "contains": [
+    "156+ animated React components filed in 19 categories",
+    "largest categories: text (42), widget (30), button (13), card (11), background (10)",
+    "live preview, source code and install instructions per component",
+    "install via the shadcn CLI registry or copy-paste",
+    "MIT licensed, theme-aware, built with Tailwind CSS v4"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/codse/animata",
+    "docs": "https://animata.design/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

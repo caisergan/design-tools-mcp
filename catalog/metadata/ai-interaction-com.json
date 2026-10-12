@@ -1,0 +1,31 @@
+{
+  "id": "ai-interaction-com",
+  "url": "https://ai-interaction.com",
+  "kind": "site",
+  "hints_hash": "f6b67f1e364a11a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ai-interaction.com", "title": "AI Interaction Atlas - Open Source AI UX Reference", "status": null},
+    {"url": "https://ai-interaction.com/llms.txt", "title": "AI Interaction Atlas - Open Source AI UX Reference", "status": 200},
+    {"url": "https://ai-interaction.com/patterns", "title": "AI Interaction Atlas - Open Source AI UX Reference", "status": 200},
+    {"url": "https://github.com/quietloudlab/ai-interaction-atlas", "title": "GitHub - quietloudlab/ai-interaction-atlas: A shared language for designing and communicating AI experiences.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/quietloudlab/ai-interaction-atlas/main/atlas-package/package.json", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "AI Interaction Atlas",
+  "summary": "Open-source taxonomy and pattern reference for AI interaction design, with 100+ patterns across AI tasks, human actions and system ops.",
+  "description": "An open-source taxonomy and reference site by quietloudlab that gives teams a shared language for designing AI experiences. Interactions are organised into six dimensions — AI tasks (classify, generate, verify), human tasks (review, approve, edit, compare), system tasks (routing, logging, state), data artifacts, constraints (latency, privacy, cost, accuracy) and touchpoints (UI, API, notifications, integrations) — with 100+ patterns, visual examples and reusable components. The Atlas data ships as a React/TypeScript codebase and an npm package (@quietloudlab/ai-interaction-atlas).",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": ["file-upload", "input", "select", "command-palette", "toast"],
+  "keywords": ["ai interaction", "ai ux", "interaction design", "taxonomy", "pattern library", "ai pattern", "human-ai interaction", "design reference", "ai agent", "prompt", "open source", "react", "typescript", "design vocabulary", "ai task", "system op"],
+  "contains": ["100+ interaction patterns across AI tasks, human actions and system ops", "six dimensions: AI tasks, human tasks, system tasks, data artifacts, constraints, touchpoints", "visual examples and reusable components", "npm package @quietloudlab/ai-interaction-atlas", "64 reference pages", "open source under Apache-2.0 (123 GitHub stars)"],
+  "formats": ["docs", "code", "npm-package"],
+  "stack": ["react", "typescript", "tailwind", "vite"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/quietloudlab/ai-interaction-atlas", "docs": null, "npm": "@quietloudlab/ai-interaction-atlas", "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,73 @@
+{
+  "id": "developer-mozilla-org",
+  "url": "https://developer.mozilla.org",
+  "kind": "site",
+  "hints_hash": "b8da394cce63b8af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://developer.mozilla.org",
+      "title": "MDN Web Docs",
+      "status": 200
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "title": "Attribution and copyright licensing - MDN Web Docs | MDN",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MDN Web Docs",
+  "summary": "Reference documentation and guides for the web platform: HTML, CSS, JavaScript and Web APIs.",
+  "description": "Documents CSS, HTML and JavaScript since 2005: reference pages for elements, properties and APIs, plus guides, tutorials and browser compatibility notes. Content is contributed by Mozilla and the community in many languages, and reuse is free under an open license.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "web development",
+    "documentation",
+    "reference",
+    "html",
+    "css",
+    "javascript",
+    "web api",
+    "browser compatibility",
+    "frontend",
+    "tutorial",
+    "web standard",
+    "accessibility",
+    "code example",
+    "web platform",
+    "learning"
+  ],
+  "contains": [
+    "reference docs for HTML, CSS, JavaScript and Web APIs",
+    "guides and tutorials, e.g. CSS anchor positioning and view transitions",
+    "browser compatibility data",
+    "blog and community contributions (mdn/content, mdn/translated-content)",
+    "10+ language editions"
+  ],
+  "formats": [
+    "docs",
+    "code"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-SA-2.5",
+  "related": {
+    "repo": "https://github.com/mdn/content",
+    "docs": "https://developer.mozilla.org/en-US/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

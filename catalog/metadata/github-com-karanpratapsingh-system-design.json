@@ -1,0 +1,35 @@
+{
+  "id": "github-com-karanpratapsingh-system-design",
+  "url": "https://github.com/karanpratapsingh/system-design",
+  "kind": "repo",
+  "hints_hash": "167be9193b3f5536",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/karanpratapsingh/system-design/blob/HEAD/README.md", "title": "System Design", "status": 200},
+    {"url": "https://github.com/karanpratapsingh/system-design", "title": "GitHub - karanpratapsingh/system-design: Learn how to design systems at scale and prepare for system design interviews · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "System Design",
+  "summary": "Free written course on system design at scale: networking, databases, distributed systems and five interview case studies.",
+  "description": "A text-based course in five chapters that starts from IP, the OSI model, TCP/UDP and DNS, then works through load balancing, caching, CDNs, SQL vs NoSQL, replication, sharding, message brokers, microservices, CQRS, rate limiting and more, and ends with system design interview walkthroughs (URL shortener, WhatsApp, Twitter, Netflix, Uber). Diagram images live in the repo; the same course is also published on the author's website and as a Leanpub ebook.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "distributed system", "scalability", "database", "load balancing", "caching", "cdn", "microservice", "cap theorem", "event driven architecture", "api gateway", "interview preparation", "engineering course"],
+  "contains": [
+    "five chapters from networking basics to interview case studies",
+    "covers IP, OSI, TCP/UDP, DNS, load balancing, caching, CDNs and proxies",
+    "databases: SQL vs NoSQL, replication, sharding, consistency models, transactions",
+    "architecture: message queues, microservices, event-driven architecture, CQRS, API gateways",
+    "case studies: URL shortener, WhatsApp, Twitter, Netflix, Uber",
+    "diagram images in the repo; also an ebook on Leanpub and on the author's website"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/karanpratapsingh/system-design", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

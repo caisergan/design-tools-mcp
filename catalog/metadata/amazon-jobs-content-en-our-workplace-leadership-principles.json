@@ -1,0 +1,41 @@
+{
+  "id": "amazon-jobs-content-en-our-workplace-leadership-principles",
+  "url": "https://amazon.jobs/content/en/our-workplace/leadership-principles",
+  "kind": "page",
+  "hints_hash": "fefa42fa262ff65f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://amazon.jobs/content/en/our-workplace/leadership-principles",
+      "title": "Leadership Principles",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Leadership Principles",
+  "summary": "Amazon's leadership principles, each with a short paragraph describing the behavior it expects from employees.",
+  "keywords": [
+    "leadership principle",
+    "amazon value",
+    "company culture",
+    "customer obsession",
+    "ownership",
+    "hiring",
+    "career",
+    "workplace"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "amazon-jobs"
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,36 @@
+{
+  "id": "musicforprogramming-net",
+  "url": "https://musicforprogramming.net",
+  "kind": "site",
+  "hints_hash": "dd3a60ff225f860f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://musicforprogramming.net/about/", "title": null, "status": 200},
+    {"url": "https://musicforprogramming.net/latest/", "title": null, "status": 200},
+    {"url": "https://musicforprogramming.net/one/", "title": null, "status": 200},
+    {"url": "https://musicforprogramming.net/rss.xml", "title": "Music For Programming", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Music For Programming",
+  "summary": "Series of 79 mixes by different artists, intended for listening while programming to focus the brain.",
+  "description": "A numbered series of mixes by different artists, made for listening while programming to focus the brain and inspire the mind. 79 episodes so far, from ~30-minute sets to 4-hour marathons, each tagged Electronic, Ambient, Acoustic, Drone, Noise or Instrumental. Episodes stream in the browser player or via the RSS feed with direct mp3 links.",
+  "type": "asset-library",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["coding music", "focus music", "ambient mix", "electronic mix", "study music", "concentration", "dj mix", "drone", "instrumental", "rss feed"],
+  "contains": [
+    "79 mixes (latest: Episode 79: Corticyte, August 2026)",
+    "each episode credited to a different artist (Datassette, Hainbach, Com Truise …)",
+    "episode lengths from ~30 minutes to 4 hours",
+    "episode tags: Electronic, Ambient, Acoustic, Drone, Noise, Instrumental, Study, Concentration, Programming",
+    "RSS feed with direct mp3 links (files hosted at datashat.net)"
+  ],
+  "formats": ["app", "links"],
+  "stack": ["svelte"],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

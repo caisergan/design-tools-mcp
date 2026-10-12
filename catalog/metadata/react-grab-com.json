@@ -1,0 +1,28 @@
+{
+  "id": "react-grab-com",
+  "url": "https://react-grab.com",
+  "kind": "site",
+  "hints_hash": "3739b21b3324e61e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://react-grab.com/llms.txt", "title": "React Grab", "status": null},
+    {"url": "https://react-grab.com", "title": "React Grab", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Grab",
+  "summary": "Shortcut that copies a UI element's file name, React component and HTML source for pasting into a coding agent.",
+  "description": "Dev tool for React projects: hover over any UI element in the browser and press Cmd/Ctrl+C to copy its file name, React component and HTML source to the clipboard, ready to paste into a coding agent. Installed with a CLI (npx grab@latest init) that detects Next.js, Vite or Webpack and adds the needed scripts; manual npm installation is documented too.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["copy ui element", "ui to code", "coding agent", "react", "nextjs", "vite", "webpack", "cli", "npm package", "element inspector", "developer tool", "clipboard", "component source", "prompt context", "browser shortcut"],
+  "contains": ["hover + Cmd/Ctrl+C copies file name, React component and HTML source", "CLI detects the framework and adds scripts automatically", "supports Next.js App router, Next.js Pages router, Vite and Webpack", "install via npx grab@latest init or manual package", "works with Claude Code, Codex and Cursor"],
+  "formats": ["cli", "npm-package", "code"],
+  "stack": ["react", "nextjs", "vite", "webpack"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": "grab", "figma": null, "parent": null},
+  "confidence": 0.85
+}

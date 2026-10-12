@@ -1,0 +1,28 @@
+{
+  "id": "chat-with-youtube-vercel-app",
+  "url": "https://chat-with-youtube.vercel.app",
+  "kind": "site",
+  "hints_hash": "be3f924edd92b5f1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://chat-with-youtube.vercel.app", "title": "Chat With Youtube", "status": null},
+    {"url": "https://chat-with-youtube.vercel.app/", "title": "Chat With Youtube", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Chat With Youtube",
+  "summary": "Open-source Chrome extension that summarizes YouTube videos and answers questions about their content.",
+  "description": "A conversational AI browser extension for YouTube: it reads a video's transcript and metadata so you can summarize it, ask questions about its content or search for specific parts. The landing page demonstrates it on sample TED talks and links to the extension.",
+  "type": "plugin",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "prompt-input"],
+  "keywords": ["youtube", "chrome extension", "browser extension", "video summarizer", "youtube transcript", "chat", "ai chat", "prompt", "llm", "conversational ai", "video search", "open source"],
+  "contains": ["open-source Chrome extension", "summarizes YouTube videos", "chat about a video's content", "search for specific parts of a video", "interactive demo with sample videos on the landing page"],
+  "formats": ["app", "code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

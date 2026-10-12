@@ -1,0 +1,32 @@
+{
+  "id": "colorhunt-co",
+  "url": "https://colorhunt.co",
+  "kind": "site",
+  "hints_hash": "6c92a2705bfa2c81",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://colorhunt.co", "title": "Color Hunt - Color Palettes for Designers and Artists", "status": null},
+    {"url": "https://colorhunt.co/collection", "title": "My collection of color palettes on Color Hunt", "status": null},
+    {"url": "https://colorhunt.co/about", "title": "Color Hunt - Color Palettes for Designers and Artists", "status": null},
+    {"url": "https://colorhunt.co/about", "title": "Color Hunt - Color Palettes for Designers and Artists", "status": 200},
+    {"url": "https://colorhunt.co/palettes/pastel", "title": "Pastel Color Palettes - Color Hunt", "status": 200},
+    {"url": "https://colorhunt.co/palette/4d46465b56567fcd91f5eaea", "title": "Color Palette: #4D4646 #5B5656 #7FCD91 #F5EAEA - Color Hunt", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Color Hunt",
+  "summary": "Open collection of hand-picked color palettes, browsable by colour and style tags, with a palette creator and likes.",
+  "description": "A colour palette resource created by Gal Shir: an open collection that anyone can browse and add to. Filter palettes by colour or style tags (pastel, vintage, retro, neon, dark, warm …), sort by new, popular, month, year, all time or random, like palettes into a personal collection, or build and submit your own with the palette creator.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color palette", "colour palette", "color inspiration", "hex color", "palette generator", "color combination", "color scheme", "pastel palette", "dark palette", "gradient palette", "design color", "chrome extension"],
+  "contains": ["browse palettes by colour and style tags (pastel, vintage, retro, neon, dark, warm …)", "sort by new, popular, month, year, all time, or random", "palette creator: anyone can build and submit a palette", "like palettes into a personal collection", "each palette page shows its four hex colours"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

@@ -1,0 +1,112 @@
+{
+  "id": "github-com-johuniq-jolyui",
+  "url": "https://github.com/Johuniq/jolyui",
+  "kind": "repo",
+  "hints_hash": "d910961cb5d1cc5f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Johuniq/jolyui/blob/HEAD/README.md",
+      "title": "Joly UI",
+      "status": 200
+    },
+    {
+      "url": "https://jolyui.dev",
+      "title": "Joly UI - 50+ Free shadcn/ui Components for React & Next.js",
+      "status": 200
+    },
+    {
+      "url": "https://jolyui.dev/docs/components",
+      "title": "Joly UI - 50+ Free shadcn/ui Components for React & Next.js",
+      "status": 200
+    },
+    {
+      "url": "https://jolyui.dev/llms-full.txt",
+      "title": "Installation",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Joly UI",
+  "summary": "50+ free copy-paste React components extending shadcn/ui, with animated text effects and motion.",
+  "description": "Open-source collection of 50+ additional components for shadcn/ui projects, grouped as buttons, creative, feedback, inputs, navigation, surfaces and text animations. Built on Radix UI primitives with framer-motion animations, TypeScript and Tailwind CSS v4, and works with Next.js 14+ and React 19. Install with the shadcn CLI from the Joly UI registry or copy the source by hand.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "bento-grid",
+    "tabs",
+    "command-palette",
+    "dock",
+    "button",
+    "switch",
+    "date-picker",
+    "prompt-input",
+    "table",
+    "card",
+    "avatar",
+    "calendar",
+    "marquee",
+    "background",
+    "text-effect"
+  ],
+  "keywords": [
+    "shadcn",
+    "react component",
+    "copy paste component",
+    "component library",
+    "text animation",
+    "animated component",
+    "framer motion",
+    "tailwind css",
+    "typescript",
+    "nextjs",
+    "registry",
+    "radix ui",
+    "button",
+    "text effect",
+    "animated table",
+    "bento grid",
+    "command palette",
+    "date picker",
+    "dock",
+    "dark mode"
+  ],
+  "contains": [
+    "50+ free components extending shadcn/ui",
+    "categories: buttons, creative, feedback, inputs, navigation, surfaces, text animations",
+    "install with the shadcn CLI from the Joly UI registry",
+    "built on Radix UI primitives with framer-motion animations",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Johuniq/jolyui",
+    "docs": "https://jolyui.dev",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

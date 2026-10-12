@@ -1,0 +1,29 @@
+{
+  "id": "hoverstat-es",
+  "url": "https://hoverstat.es",
+  "kind": "site",
+  "hints_hash": "b870afb972f49fe9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hoverstat.es", "title": "HOVERSTAT.ES | The home of alternative web-design.", "status": 200},
+    {"url": "https://www.hoverstat.es/about", "title": "About | HOVERSTAT.ES", "status": 200},
+    {"url": "https://www.hoverstat.es/features/soft-labor", "title": "Soft Labor | HOVERSTAT.ES", "status": 200}
+  ],
+  "status": "ok",
+  "name": "HOVERSTAT.ES",
+  "summary": "Curated showcase of alternative web design: sites experimenting with interactions, typography and code, archived since 2012.",
+  "description": "A curated gallery of websites that experiment with design, interactivity and content, published since 2012 by Mike Guppy and Dan Powell. Each feature gives the site's URL, date and a short write-up of what it does (SVG typography animation, timeline navigation, hover toggles …) with a video preview and credits; visitors can browse the archive or submit a site.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["web design inspiration", "design showcase", "archive", "interactive website", "typography animation", "svg animation", "hover effect", "portfolio website", "creative development", "website gallery", "experimental design", "motion design"],
+  "contains": ["curated web design archive running since 2012", "feature pages with date, write-up and credits for each site", "video previews of featured sites", "archive and submit pages"],
+  "formats": ["video", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

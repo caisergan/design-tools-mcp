@@ -1,0 +1,29 @@
+{
+  "id": "github-com-aslam97-react-fancy-switch",
+  "url": "https://github.com/Aslam97/react-fancy-switch",
+  "kind": "repo",
+  "hints_hash": "75fd401e5b540606",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Aslam97/react-fancy-switch/blob/HEAD/README.md", "title": "React Fancy Switch", "status": null},
+    {"url": "https://github.com/Aslam97/react-fancy-switch/blob/HEAD/packages/react-fancy-switch/README.md", "title": "react-fancy-switch/packages/react-fancy-switch/README.md · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Aslam97/react-fancy-switch/HEAD/packages/react-fancy-switch/README.md", "title": "@omit/react-fancy-switch", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Fancy Switch",
+  "summary": "Animated, accessible switch and segmented control component for React, shipped as @omit/react-fancy-switch.",
+  "description": "A customizable React component for switching between multiple options: it behaves like a radio group and animates a highlighter between the options without framer-motion. It accepts primitive (string/number/boolean) or object options, works controlled (value + onChange) or uncontrolled, and allows custom container, option and highlighter styling plus custom option rendering. Accessibility covers radiogroup/radio roles, roving tabindex, keyboard navigation and a live region. Published on npm as @omit/react-fancy-switch.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["switch"],
+  "keywords": ["switch", "segmented control", "toggle", "radio group", "react", "animated", "accessible", "keyboard navigation", "npm package", "shadcn", "controlled component"],
+  "contains": ["one component: animated switch / segmented control", "no framer-motion dependency", "primitive or object options, controlled or uncontrolled", "accessibility: radiogroup roles, roving tabindex, live region", "npm package @omit/react-fancy-switch, MIT licensed"],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Aslam97/react-fancy-switch", "docs": null, "npm": "@omit/react-fancy-switch", "figma": null, "parent": null},
+  "confidence": 0.9
+}

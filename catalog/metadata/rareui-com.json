@@ -1,0 +1,42 @@
+{
+  "id": "rareui-com",
+  "url": "https://rareui.com",
+  "kind": "site",
+  "hints_hash": "36307f909d8f1b7f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://rareui.com/llms.txt", "title": "Rare UI", "status": null},
+    {"url": "https://rareui.com", "title": "Rare UI — Rare Animated React Components", "status": 200},
+    {"url": "https://www.rareui.com/components", "title": "Components | Rare UI", "status": 200},
+    {"url": "https://www.rareui.com/components/fluidorb", "title": "Fluid Orb — Animated React Component | Rare UI", "status": 200},
+    {"url": "https://www.rareui.com/components/otpinput", "title": "OTP Input — Animated React Component | Rare UI", "status": 200},
+    {"url": "https://rareui.com/components/websearch", "title": "Web Search — Animated React Component | Rare UI", "status": 200},
+    {"url": "https://rareui.com/components/githubactivity", "title": "GitHub activity — Animated React Component | Rare UI", "status": 200},
+    {"url": "https://rareui.com/components/stepplayer", "title": "Step player — Animated React Component | Rare UI", "status": 200},
+    {"url": "https://rareui.com/components/animatedcounter", "title": "Animated counter — Animated React Component | Rare UI", "status": 200},
+    {"url": "https://github.com/swamimalode07/rare-ui", "title": "GitHub - swamimalode07/rare-ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Rare UI",
+  "summary": "Registry of 24 animated React components — sidebars, drawers, an OTP input, a WebGL orb and more — installed with the shadcn CLI.",
+  "description": "A free, open-source shadcn registry of animated React components built with Tailwind CSS and Motion: springy sidebars, a family drawer, a WebGL fluid orb, gravity letters, an OTP input, code block, contribution heatmap, step player and animated counter. Every component is a single file you own, installable with the shadcn CLI or MCP, with per-component props documented.",
+  "type": "registry",
+  "categories": ["components", "motion", "registries"],
+  "elements": ["navbar", "sidebar", "faq", "stepper", "drawer", "button", "otp-input", "date-picker", "chart", "stats", "progress", "text-effect", "scroll-effect", "3d", "ai-agent-ui"],
+  "keywords": ["shadcn registry", "animated component", "react component", "sidebar", "drawer", "otp input", "webgl orb", "text animation", "scroll progress", "contribution heatmap", "animated counter", "stepper", "faq component", "tailwind", "framer motion", "copy paste", "free component", "ai ui", "source citation", "nextjs"],
+  "contains": [
+    "24+ components incl. Folder, Bounce/Hook/Proximity sidebars, Family Drawer, Fluid Orb, Gravity Letters",
+    "component groups: new releases, display, AI kit, navigation, inputs, feedback",
+    "install with npx shadcn@latest add swamimalode07/rare-ui/<component> or MCP",
+    "every component is free to use; full source on GitHub (1.7k stars)",
+    "per-component pages list props, dependencies, interaction type and source code"
+  ],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/swamimalode07/rare-ui", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,25 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11860",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11860",
+  "kind": "page",
+  "hints_hash": "bba774752c674f9d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11860", "title": "fix(core): keep escaped whitespace at pipe-list entry edges by qqqys · Pull Request #11860 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(core): keep escaped whitespace at pipe-list entry edges (#11860)",
+  "summary": "Merged pull request fixing hook matchers in Qwen Code that dropped an escaped space at the edge of a pipe-separated entry list.",
+  "description": "Pull request in QwenLM/qwen-code. When a hook matcher is a |-separated list, the rebuilt regular expression no longer trims whitespace the author escaped: a trailing space preceded by an odd run of backslashes stays, an even run still trims. Previously the dangling backslash escaped the pipe inserted by the rebuild, so the matcher silently matched literal text and stopped matching.",
+  "type": "article",
+  "keywords": ["hook matcher", "hook", "regular expression", "escaped whitespace", "backslash escaping", "pipe list", "ai coding agent", "cli", "typescript", "session hook", "pull request"],
+  "contains": ["keeps a trailing space escaped by an odd backslash run; even runs still trim", "before: dangling backslash escaped the rebuilt pipe and the matcher matched literal text", "tests: hook-matcher, hookPlanner and sessionHooksManager suites plus mutation checks", "part of #11610; follows review finding R4-1 from #11619"],
+  "formats": ["code", "docs"],
+  "stack": ["typescript", "node"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

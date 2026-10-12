@@ -1,0 +1,63 @@
+{
+  "id": "designmd-me-s-arcteryx-ediud",
+  "url": "https://designmd.me/s/arcteryx-ediud",
+  "kind": "page",
+  "hints_hash": "1b7aa7573428d170",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:18:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designmd.me/s/arcteryx-ediud",
+      "title": "DESIGN.md for arcteryx.com · DesignMD | DesignMD",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "DESIGN.md for arcteryx.com",
+  "summary": "Generated DESIGN.md design-system spec for arcteryx.com: colors, typography, component styles and layout rules.",
+  "description": "A shareable DESIGN.md document that extracts a live site's design system: theme and mood, color palette and roles, type scale, button, link, navigation and footer styling, layout, spacing, responsive behavior, do's and don'ts and an agent prompt guide. Written for design agents and developers who want to reuse the look in their own work.",
+  "type": "design-rules",
+  "keywords": [
+    "design.md",
+    "design system",
+    "style guide",
+    "design token",
+    "color palette",
+    "typography scale",
+    "button style",
+    "navigation style",
+    "footer style",
+    "layout rule",
+    "responsive design",
+    "agent prompt",
+    "design spec",
+    "css token",
+    "dark theme"
+  ],
+  "elements": [
+    "button",
+    "navbar",
+    "footer"
+  ],
+  "formats": [
+    "docs",
+    "screenshots",
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "designmd-me"
+  },
+  "confidence": 0.8
+}

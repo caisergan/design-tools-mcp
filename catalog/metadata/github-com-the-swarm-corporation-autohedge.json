@@ -1,0 +1,74 @@
+{
+  "id": "github-com-the-swarm-corporation-autohedge",
+  "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+  "kind": "repo",
+  "hints_hash": "c715f5f63e964c3b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge/blob/HEAD/README.md",
+      "title": "AutoHedge",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "title": "GitHub - The-Swarm-Corporation/AutoHedge: Build your autonomous hedge fund in minutes",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/The-Swarm-Corporation/AutoHedge/HEAD/README.md",
+      "title": "AutoHedge",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AutoHedge",
+  "summary": "Autonomous AI-agent hedge fund that generates trading theses, sizes risk and executes trades on Solana.",
+  "description": "Python project that runs an autonomous trading pipeline with swarm intelligence: a Director agent generates the strategy and thesis, a Quant agent does technical and statistical analysis, a Risk Management agent sizes positions and an Execution agent places orders. Full autonomous trading on Solana today, with Coinbase and other exchanges on the roadmap. Structured JSON outputs and configurable enterprise logging.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai agent",
+    "hedge fund",
+    "autonomous trading",
+    "swarm intelligence",
+    "market analysis",
+    "risk management",
+    "trade execution",
+    "solana",
+    "quantitative trading",
+    "python",
+    "trading bot"
+  ],
+  "contains": [
+    "multi-agent pipeline: director, quant, risk management and execution agents",
+    "full autonomous trading on Solana; Coinbase and other CEX listed as roadmap",
+    "structured JSON output and configurable enterprise logging",
+    "Python package (pyproject.toml, requirements.txt, example.py); 6.3k GitHub stars"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "python"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/The-Swarm-Corporation/AutoHedge",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

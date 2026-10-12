@@ -1,0 +1,27 @@
+{
+ "id": "github-com-iscale-llc-agentic-react-nextjs-shadcn",
+ "url": "https://github.com/iscale-llc/agentic-react-nextjs-shadcn",
+ "kind": "repo",
+ "hints_hash": "3887ec1befcce0e9",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:11:07Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/iscale-llc/agentic-react-nextjs-shadcn/blob/HEAD/README.md", "title": "Agentic React + shadcn/ui", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Agentic React + shadcn/ui",
+ "summary": "Agent-testable SaaS starter: Next.js 16, shadcn/ui and Neon Postgres, with an accessibility-tree e2e harness.",
+ "description": "A GitHub template for building agent-testable SaaS apps on standard Next.js 16 + shadcn/ui + Neon Postgres — nothing forked or patched. Its value-add is a semantic contract of seven ARIA rules, thin wrapper components that fix ARIA gaps (DataTable, Pagination, Breadcrumb, Loading, ErrorDisplay, IconButton, SearchableSelect), 14 toggleable accessibility traps, and a dual-layer test harness where agent-browser e2e tests check both the visual and the semantic layer.",
+ "type": "template",
+ "categories": ["templates", "dev-ai-tools"],
+ "elements": ["alert", "breadcrumbs", "button", "form", "loader", "pagination", "select", "table", "toast"],
+ "keywords": ["nextjs", "react", "saas", "starter", "template", "shadcn", "tailwind css", "typescript", "agent testing", "e2e testing", "accessibility", "aria", "semantic html", "agent-browser", "nextauth", "postgres", "drizzle", "vitest", "ai agent", "testing"],
+ "contains": ["Next.js 16 App Router, shadcn/ui (Radix), Tailwind v4, TypeScript strict", "Neon Postgres + Drizzle ORM and NextAuth v5 credentials", "7 semantic contract rules, with ESLint jsx-a11y strict", "agent wrappers adding ARIA to DataTable, Pagination, Breadcrumb, Loading, ErrorDisplay, IconButton, SearchableSelect", "14 intentional accessibility traps toggled by NEXTPUBLICTRAPSENABLED", "agent-browser e2e harness checking visual and semantic layers", "Vitest unit tests; test mode disables animations", "hydration signal so agent tests can wait for React hydration"],
+ "formats": ["code"],
+ "stack": ["nextjs", "react", "tailwind", "typescript", "drizzle"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/iscale-llc/agentic-react-nextjs-shadcn", "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

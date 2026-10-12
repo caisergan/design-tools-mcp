@@ -1,0 +1,23 @@
+{
+  "id": "onepagelove-com-pp-neue-montreal",
+  "url": "https://onepagelove.com/pp-neue-montreal",
+  "kind": "page",
+  "hints_hash": "58064506044f7c39",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/pp-neue-montreal", "title": "PP Neue Montreal — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "PP Neue Montreal",
+  "summary": "One Page Love feature on a long-scrolling Framer one-pager showcasing the Neue Montreal typeface.",
+  "description": "Screenshot feature of a one-page site, built with Framer, that shows Pangram Pangram's Neue Montreal typeface across bold typographic layouts with a dark and red palette. Links to the live site.",
+  "keywords": ["typeface", "typography", "framer", "one page website", "long scrolling", "header navigation", "bold typography", "dark mode", "landing page", "scroll effect", "website inspiration", "digital product"],
+  "elements": ["navbar", "scroll-effect"],
+  "formats": ["screenshots", "links"],
+  "stack": ["framer"],
+  "contains": ["screenshot plus a link to the live one-pager", "features: header navigation, interactive, long scrolling, whitespace", "styles: bold, scroll effects, typographic", "platform: Framer", "typeface: Neue Montreal by Pangram Pangram", "published 23 Jul 2026"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

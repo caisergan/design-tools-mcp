@@ -1,0 +1,44 @@
+{
+  "id": "skills-sh-ayghri-i-have-adhd",
+  "url": "https://skills.sh/ayghri/i-have-adhd",
+  "kind": "page",
+  "hints_hash": "18278acfea22953f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/ayghri/i-have-adhd", "title": "ayghri/i-have-adhd — Agent skills", "status": null },
+    { "url": "https://github.com/ayghri/i-have-adhd", "title": "GitHub - ayghri/i-have-adhd: A skill to stop your coding agent from burying the answer. ADHD-friendly output.", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "i-have-adhd",
+  "summary": "Agent skill that stops coding assistants from burying the answer: ten ADHD-friendly output rules.",
+  "description": "One skill installed via npx skills add or by copying SKILL.md into the agent's skills folder, for Claude Code, Codex, Cursor and other assistants. It enforces ten output rules: lead with the next action, number multi-step tasks, end with one concrete next step, restate state every turn, cap lists at five, no preamble or recap. The SKILL.md can be forked and tuned, and the repo ships hooks, extensions and evals for several hosts.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "output style",
+    "concise reply",
+    "action first",
+    "numbered step",
+    "adhd friendly",
+    "prompt",
+    "claude code",
+    "codex",
+    "cursor",
+    "developer productivity"
+  ],
+  "contains": [
+    "1 skill (i-have-adhd)",
+    "25.2K installs on skills.sh",
+    "10 output rules in SKILL.md",
+    "install via npx skills add or copy into ~/.claude/skills/",
+    "MIT licensed"
+  ],
+  "formats": ["docs", "prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/ayghri/i-have-adhd", "docs": null, "npm": null, "figma": null, "parent": "skills-sh" },
+  "confidence": 0.85
+}

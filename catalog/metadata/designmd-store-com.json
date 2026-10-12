@@ -1,0 +1,31 @@
+{
+  "id": "designmd-store-com",
+  "url": "https://designmd-store.com",
+  "kind": "site",
+  "hints_hash": "da31f19c5c3d9eff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designmd-store.com/llms.txt", "title": "Design.md Store", "status": null},
+    {"url": "https://designmd-store.com", "title": "Design.md Store — AI-Ready Design System Files", "status": 200},
+    {"url": "https://designmd-store.com/docs", "title": "What is DESIGN.md? — Design.md Store", "status": 200},
+    {"url": "https://designmd-store.com/about", "title": "About — Design.md Store", "status": 200},
+    {"url": "https://designmd-store.com/docs/quickstart", "title": "Quickstart — Design.md Docs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Design.md Store",
+  "summary": "Library of 51+ free DESIGN.md design-system files (YAML tokens + usage rules) for AI coding assistants.",
+  "description": "Each pack is a single DESIGN.md combining a YAML block of exact design tokens (colors, typography, spacing, border radius, component properties) with markdown prose explaining when to apply them, formatted to the open DESIGN.md spec published by Google Labs. Covers 51+ independent, unofficial design systems across fintech, retail, gaming, media and more; free with sign-in, with a Pro tier for premium files.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["design.md", "design system", "design token", "style guide", "ai agent", "coding agent", "agent context", "ui generation", "yaml token", "markdown", "brand system", "component spec", "typography token", "color token", "prompt context", "design reference"],
+  "contains": ["51+ free DESIGN.md packs", "each pack: YAML design tokens + markdown design rationale", "covers products such as Stripe, Slack, Apple, IKEA, Notion and Coinbase (unofficial)", "setup guides for Claude Code, Cursor, GitHub Copilot and Google Stitch", "Pro subscription unlocks premium files"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://designmd-store.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

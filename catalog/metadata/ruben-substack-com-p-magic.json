@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-magic",
+  "url": "https://ruben.substack.com/p/magic",
+  "kind": "page",
+  "hints_hash": "5fddcb02f1d6014f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/magic", "title": "🪄 Magic. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "🪄 Magic.",
+  "summary": "Essay on why folders of saved prompts fail, and why context files beat prompts when working with an AI chat.",
+  "description": "A How to AI issue arguing the prompt is not the problem: 27 collected prompts still return generic text, so the author stopped writing prompts and writes files instead, and treats the tool as a chat rather than a one-shot prompt box.",
+  "type": "article",
+  "keywords": ["ai prompting", "prompt", "context file", "prompt engineering", "ai workflow", "ai chat", "knowledge file", "essay"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

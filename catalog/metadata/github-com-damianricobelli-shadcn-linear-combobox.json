@@ -1,0 +1,84 @@
+{
+  "id": "github-com-damianricobelli-shadcn-linear-combobox",
+  "url": "https://github.com/damianricobelli/shadcn-linear-combobox",
+  "kind": "repo",
+  "hints_hash": "1865f63b5a2b7e8b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/damianricobelli/shadcn-linear-combobox/blob/HEAD/README.md",
+      "title": "or",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/damianricobelli/shadcn-linear-combobox",
+      "title": "GitHub - damianricobelli/shadcn-linear-combobox · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-linear-combobox.vercel.app",
+      "title": "Shadcn Linear",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Linear Combobox",
+  "summary": "A shadcn/ui recreation of the combobox Linear uses to set a task's priority.",
+  "description": "A React component that copies Linear's task-priority combobox with shadcn/ui: set a priority, filter the options, open the combobox with the P key, hide the kbd hint while searching and show a tooltip on the trigger button.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "select",
+    "input",
+    "tooltip"
+  ],
+  "keywords": [
+    "combobox",
+    "priority picker",
+    "task priority",
+    "linear style",
+    "shadcn",
+    "react",
+    "nextjs",
+    "keyboard shortcut",
+    "tooltip",
+    "select",
+    "input",
+    "ui component"
+  ],
+  "contains": [
+    "copy of Linear's task priority combobox",
+    "set and filter priorities",
+    "opens with the P key",
+    "kbd hint hides during priority search",
+    "tooltip on button hover",
+    "267 GitHub stars"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/damianricobelli/shadcn-linear-combobox",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

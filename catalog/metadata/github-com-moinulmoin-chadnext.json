@@ -1,0 +1,28 @@
+{
+  "id": "github-com-moinulmoin-chadnext",
+  "url": "https://github.com/moinulmoin/chadnext",
+  "kind": "repo",
+  "hints_hash": "c98e74149f84cfd3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/moinulmoin/chadnext/blob/HEAD/README.md", "title": "ChadNext ✨", "status": null},
+    {"url": "https://github.com/moinulmoin/chadnext", "title": "GitHub - moinulmoin/chadnext: ChadNext - Quick Starter Template for your Next project", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ChadNext",
+  "summary": "Next.js 15 App Router starter with shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe and i18n.",
+  "description": "A quick starter template for Next.js projects: Next.js 15 App Router with shadcn/ui, LuciaAuth authentication, Prisma database, Server Actions, Stripe, internationalization, and more. Set up with pnpm install, copy .env.example to .env, run pnpm prisma db push, then pnpm dev. MIT licensed.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["next.js", "starter template", "shadcn", "prisma", "lucia auth", "stripe", "server action", "internationalization", "app router", "react", "tailwind css", "typescript", "boilerplate", "saas starter", "authentication"],
+  "contains": ["Next.js 15 App Router starter with shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe and i18n", "setup: pnpm install, pnpm prisma db push, pnpm dev", "environment template in .env.example", "MIT licensed"],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "prisma", "shadcn", "lucia"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/moinulmoin/chadnext", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

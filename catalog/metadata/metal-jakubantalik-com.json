@@ -1,0 +1,30 @@
+{
+  "id": "metal-jakubantalik-com",
+  "url": "https://metal.jakubantalik.com",
+  "kind": "site",
+  "hints_hash": "aa2287009c5c05a3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://metal.jakubantalik.com", "title": "Liquid metal — Animated metal shader effect", "status": 200},
+    {"url": "https://github.com/Jakubantalik/metal-fx", "title": "GitHub - Jakubantalik/metal-fx: Animated WebGL liquid-metal effect for React buttons and UI components · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Jakubantalik/metal-fx/main/README.md", "title": "metal-fx", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Jakubantalik/metal-fx/main/package.json", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Liquid metal",
+  "summary": "React component that wraps a button, chip or icon in an animated WebGL liquid-metal ring.",
+  "description": "A real-time WebGL metal shader effect for React. It wraps a single child element, measures it and paints an animated metal ring on top while the child stays fully interactive. Options include three bundled palettes, auto light and dark theme, strength and paused controls, proximity reflection on neighbouring elements, custom border radius and sizing, and SSR support.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["button", "3d"],
+  "keywords": ["liquid metal", "metal shader", "webgl", "shader effect", "metallic button", "animated button", "button effect", "animated border", "chrome effect", "react", "react component", "dark mode", "proximity reflection", "hover effect", "npm package"],
+  "contains": ["React component wrapping a single button, chip or icon", "real-time WebGL metal ring with optional proximity reflection on neighbouring elements (dark mode)", "3 bundled palettes, each with tuned light and dark blocks", "props: theme, strength, paused, custom border radius, sizing", "SSR-safe; the child element stays fully interactive"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "webgl"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Jakubantalik/metal-fx", "docs": null, "npm": "metal-fx", "figma": null, "parent": null},
+  "confidence": 0.75
+}

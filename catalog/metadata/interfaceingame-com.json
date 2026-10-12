@@ -1,0 +1,28 @@
+{
+  "id": "interfaceingame-com",
+  "url": "https://interfaceingame.com",
+  "kind": "site",
+  "hints_hash": "ce9c454660ddad62",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://interfaceingame.com", "title": "Interface In Game | Collection of video games UI | Screenshots and videos", "status": null},
+    {"url": "https://interfaceingame.com/about", "title": "About | Interface In Game", "status": null}
+  ],
+  "status": "ok",
+  "name": "Interface In Game",
+  "summary": "Collection of video game UI screenshots and clips, browsable by genre, element and theme.",
+  "description": "Screenshots and clips of interfaces from video games: menus, HUDs, inventories, maps, dialogue and more. Browse by genre, by UI element (in game, overlay, settings, progress) or by theme; the site also publishes interviews with game UI and UX designers.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["map", "progress", "stats"],
+  "keywords": ["video game ui", "game interface", "game design", "ui screenshot", "hud", "inventory", "game menu", "dialogue box", "skill tree", "minimap", "quest log", "game art", "game ui inspiration", "wireframe", "screenshot gallery", "game development"],
+  "contains": ["screenshots and clips of video game interfaces", "17,893 pages in the site sitemap", "element galleries: in game 5,320, overlay 3,021, stats 2,021, settings 1,893 screenshots", "genre filters (Action 249 games, RPG 54, Strategy 71)", "theme filters (Sci-Fi, Fantasy, Pixel art)", "interviews with game UI and UX designers", "wireframe mockup resource (60+ PSD designs)"],
+  "formats": ["screenshots", "video", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

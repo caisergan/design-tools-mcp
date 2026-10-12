@@ -1,0 +1,28 @@
+{
+  "id": "github-com-rich-harris-svelte-cubed",
+  "url": "https://github.com/Rich-Harris/svelte-cubed",
+  "kind": "repo",
+  "hints_hash": "a4fc95fa8e88d8f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Rich-Harris/svelte-cubed/blob/HEAD/README.md", "title": "svelte-cubed", "status": 200},
+    {"url": "https://github.com/Rich-Harris/svelte-cubed", "title": "GitHub - Rich-Harris/svelte-cubed: Svelte ❤️ Three", "status": 200}
+  ],
+  "status": "ok",
+  "name": "svelte-cubed",
+  "summary": "A Three.js component library for Svelte that builds 3D scenes declaratively with Svelte components.",
+  "description": "Declarative 3D for Svelte: components wrap Three.js objects so scenes are written as Svelte markup instead of imperative Three.js code. The repo ships a demo site and develops with pnpm; 1.2k stars, 116 commits, MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["3d"],
+  "keywords": ["svelte", "three.js", "3d scene", "webgl", "component library", "declarative", "canvas", "3d component", "svelte component", "open source"],
+  "contains": ["wraps Three.js objects as Svelte components", "demo site at svelte-cubed.vercel.app", "developed with pnpm; pnpm dev launches the demo site", "1.2k GitHub stars, 116 commits, MIT licensed"],
+  "formats": ["code"],
+  "stack": ["svelte", "three.js"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Rich-Harris/svelte-cubed", "docs": "https://svelte-cubed.vercel.app", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

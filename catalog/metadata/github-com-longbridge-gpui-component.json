@@ -1,0 +1,27 @@
+{
+  "id": "github-com-longbridge-gpui-component",
+  "url": "https://github.com/longbridge/gpui-component",
+  "kind": "repo",
+  "hints_hash": "eb401ad49826d5f1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/longbridge/gpui-component/blob/HEAD/README.md", "title": "Dock layout system (panels, split views, tabs)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "GPUI Kit",
+  "summary": "Rust desktop UI framework: 75+ components and primitives on GPUI, with data tables, a code editor, charts and dock layout.",
+  "description": "GPUI Kit builds cross-platform desktop apps in Rust on GPUI, Zed's UI framework. It ships styled components, an unstyled behavior layer (gpui-base) and an optional JavaScript extension runtime (gpui-shell), plus WebAssembly support, AccessKit accessibility, UI integration testing and a story gallery. Extracted from Longbridge Pro, a shipped commercial desktop app.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["form", "table", "list", "chart", "tabs"],
+  "keywords": ["rust", "gpui", "desktop app", "gui component", "ui kit", "cross-platform", "data table", "virtual list", "code editor", "tree-sitter", "dock layout", "markdown", "webassembly", "accessibility", "component library", "zed", "native", "apache-2.0"],
+  "contains": ["75+ documented components and primitives", "three layers: gpui-component (styled), gpui-base (behavior), gpui-shell (JS extension runtime)", "data tables with virtual scrolling and resizable columns; code editor stable at 200K lines", "dock layout: resizable panels, draggable tabs, nested splits, serializable", "macOS, Windows and Linux from one codebase; WebAssembly support", "AccessKit accessibility and headless UI integration tests", "story gallery app showcases every component; skills for AI coding agents", "software and doc code examples Apache-2.0; doc prose CC BY 4.0"],
+  "formats": ["code", "docs"],
+  "stack": ["rust"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/longbridge/gpui-component", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

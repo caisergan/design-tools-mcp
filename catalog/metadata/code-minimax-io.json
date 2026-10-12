@@ -1,0 +1,89 @@
+{
+  "id": "code-minimax-io",
+  "url": "https://code.minimax.io",
+  "kind": "site",
+  "hints_hash": "6e2cf0e48092219a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:28Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://code.minimax.io",
+      "title": "MiniMax Agent: Minimize Effort, Maximize Intelligence",
+      "status": 200
+    },
+    {
+      "url": "https://agent.minimax.io/docs/llms.txt",
+      "title": "MiniMax Agent Docs",
+      "status": 200
+    },
+    {
+      "url": "https://agent.minimax.io/docs/user-guide",
+      "title": "Welcome to MiniMax Code - MiniMax Agent Docs",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MiniMax Agent",
+  "summary": "Desktop AI agent app and CLI (MiniMax Code) for software development, everyday workflows and automation.",
+  "description": "code.minimax.io redirects to MiniMax Agent's product site; its docs document MiniMax Code, a desktop AI Agent app for software development, everyday workflows, automation and remote collaboration. MiniMax Code bundles chat, project context, file operations, terminal sessions, browser previews, skills, memory and scheduled tasks, and ships a CLI with headless/CI mode, a plugin marketplace, MCP servers, BYOK custom models and remote control from a phone.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "chat",
+    "prompt-input",
+    "ai-agent-ui"
+  ],
+  "keywords": [
+    "ai agent",
+    "coding agent",
+    "desktop app",
+    "cli",
+    "mcp server",
+    "plugin",
+    "skill",
+    "memory",
+    "scheduled task",
+    "remote control",
+    "automation",
+    "terminal",
+    "byok",
+    "custom model",
+    "window",
+    "macos",
+    "headless",
+    "open source"
+  ],
+  "contains": [
+    "desktop AI agent app (MiniMax Code) for macOS and Windows",
+    "Coding and Work modes; tasks, history and workspace context",
+    "CLI with headless and CI mode, structured output and stable exit codes",
+    "plugins marketplace, MCP servers, skills and memory",
+    "scheduled tasks, remote control from a phone, messaging integrations: Telegram, WeChat, Lark, Feishu",
+    "BYOK custom model providers and MiniMax API key support",
+    "subscription plan with credit balance and usage quotas (M Plan)",
+    "tech blog: MiniMax Code Is Open Source — the Harness behind a coding agent"
+  ],
+  "formats": [
+    "app",
+    "cli",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://agent.minimax.io/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

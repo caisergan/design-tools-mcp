@@ -1,0 +1,80 @@
+{
+  "id": "hugeicons-animated-com",
+  "url": "https://hugeicons-animated.com",
+  "kind": "site",
+  "hints_hash": "2873bc11e9a31768",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:38:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://hugeicons-animated.com/llms.txt",
+      "title": "Hugeicons Animated",
+      "status": null
+    },
+    {
+      "url": "https://hugeicons-animated.com",
+      "title": "Hugeicons Animated — Free Animated Icons for React",
+      "status": null
+    },
+    {
+      "url": "https://hugeicons-animated.com/docs",
+      "title": "Introduction - Hugeicons Animated",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Hugeicons Animated",
+  "summary": "85 hand-animated icons for React, installed as source with the shadcn CLI from a public registry.",
+  "description": "Curated set of 85 animated interface icons for React, built with Motion (Framer Motion) on top of the free Hugeicons shapes. Each icon installs as plain component source via npx shadcn add from the @hugeicons-animated registry — no package or lock-in; icons animate on hover, can be controlled with a ref and follow the reduced-motion setting.",
+  "type": "icon-set",
+  "categories": [
+    "icons",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "animated icon",
+    "icon set",
+    "react icon",
+    "shadcn icon",
+    "framer motion",
+    "hover animation",
+    "svg icon",
+    "free icon",
+    "micro interaction",
+    "ui icon",
+    "registry",
+    "typescript"
+  ],
+  "contains": [
+    "85 hand-animated icons",
+    "installs as source via npx shadcn add @hugeicons-animated/<icon>",
+    "Motion (Framer Motion) animations, hover-triggered or ref-controlled",
+    "respects prefers-reduced-motion",
+    "icon shapes from the free Hugeicons set; MIT licensed"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/enesgules/hugeicons-animated",
+    "docs": "https://hugeicons-animated.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

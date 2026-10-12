@@ -1,0 +1,30 @@
+{
+  "id": "github-com-naveenda-shadcn-nextjs-dashboard",
+  "url": "https://github.com/NaveenDA/shadcn-nextjs-dashboard",
+  "kind": "repo",
+  "hints_hash": "e3c345bfea820f2d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/NaveenDA/shadcn-nextjs-dashboard/blob/HEAD/README.md", "title": "Modern Next.js Dashboard with shadcn/ui", "status": null},
+    {"url": "https://github.com/NaveenDA/shadcn-nextjs-dashboard", "title": "GitHub - NaveenDA/shadcn-nextjs-dashboard: Admin Dashboard UI built with Shadcn and NextJS. · GitHub", "status": 200},
+    {"url": "https://shadcn-nextjs-dashboard.vercel.app", "title": "Modern Dashboard Template - Next.js 14 & shadcn/ui", "status": 200},
+    {"url": "https://shadcn-nextjs-dashboard.vercel.app/dashboard", "title": "Modern Dashboard Template - Next.js 14 & shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Modern Next.js Dashboard with shadcn/ui",
+  "summary": "Next.js 14 admin dashboard template with shadcn/ui: sidebar layout, stats overview, recent activity and auth routes.",
+  "description": "A responsive admin dashboard starter built with Next.js 14, TypeScript, Tailwind CSS and shadcn/ui. It provides a dashboard layout with sidebar navigation, a stats overview (revenue, subscriptions, sales, active users), recent activity and quick actions, plus prepared authentication routes and components. Customization goes through globals.css and components.json.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["card", "dashboard", "form", "sidebar", "stats"],
+  "keywords": ["admin dashboard", "dashboard template", "next.js", "shadcn ui", "tailwind css", "react", "typescript", "sidebar", "authentication", "admin panel", "stats", "starter", "responsive"],
+  "contains": ["Next.js 14, TypeScript, Tailwind CSS and shadcn/ui", "stats overview: revenue, subscriptions, sales, active users", "sidebar navigation layout", "recent activity and quick actions", "prepared authentication routes and components", "MIT licensed, 110 stars, live Vercel demo"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/NaveenDA/shadcn-nextjs-dashboard", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

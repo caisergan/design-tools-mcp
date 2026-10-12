@@ -1,0 +1,28 @@
+{
+  "id": "shotsnapp-com",
+  "url": "https://shotsnapp.com",
+  "kind": "site",
+  "hints_hash": "0bf887c551cf3406",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shotsnapp.com", "title": "shotsnapp - Create beautiful device mockup presentation", "status": null},
+    {"url": "https://shotsnapp.com/faq", "title": "FAQ - shotsnapp", "status": null}
+  ],
+  "status": "ok",
+  "name": "shotsnapp",
+  "summary": "Browser tool that turns app screenshots into device mockups on phones, tablets, laptops and smart watches.",
+  "description": "Pick a device and a pre-designed template, drop in a screenshot or design file, adjust the background, fonts and Unsplash photos, then export the mockup as PNG or JPEG for portfolios, presentations and social posts. Basic use is free; PRO is a one-time 48 USD year.",
+  "type": "generator",
+  "categories": ["media", "design-tools"],
+  "elements": [],
+  "keywords": ["device mockup", "mockup generator", "screenshot mockup", "app screenshot", "phone mockup", "laptop mockup", "browser mockup", "tablet mockup", "smart watch mockup", "presentation image", "portfolio image", "social media image", "mockup template"],
+  "contains": ["device mockups: mobile phones, tablets, laptops, smart watches", "free plan: 1 object per canvas, free templates, PNG/JPEG export", "PRO, 48 USD for 1 year: unlimited objects and templates, unlimited Unsplash photos, more device styles", "custom fonts and pre-designed templates"],
+  "formats": ["png"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

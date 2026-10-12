@@ -1,0 +1,29 @@
+{
+  "id": "before-click",
+  "url": "https://before.click",
+  "kind": "site",
+  "hints_hash": "71512d1a957173c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://before.click", "title": "App Store Screenshot Design Inspiration | before.click", "status": null},
+    {"url": "https://before.click/explore", "title": "App Store Screenshot Design Inspiration | before.click", "status": 200},
+    {"url": "https://before.click/collections", "title": "Collections · before", "status": 200}
+  ],
+  "status": "ok",
+  "name": "before",
+  "summary": "Gallery of App Store screenshot designs, onboarding flows, paywalls and icons from iPhone and Mac apps.",
+  "description": "Curated gallery of App Store screenshot designs from live iPhone and Mac apps: browse apps in Explore, open featured picks, and read an Insights section about App Store optimization (ASO). Saved screens can be grouped into collections and shared with a link.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["app store screenshot", "screenshot design", "app design inspiration", "onboarding flow", "paywall", "app icon", "ios app", "mac app", "app store optimization", "aso", "mobile app design", "screenshot gallery", "app marketing"],
+  "contains": ["curated App Store screenshots from iPhone and Mac apps", "covers onboarding flows, paywalls and icons", "collections: save items and share a collection by link", "featured apps and an ASO insights section"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

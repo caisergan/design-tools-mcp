@@ -1,0 +1,78 @@
+{
+  "id": "indestructibletype-com",
+  "url": "https://indestructibletype.com",
+  "kind": "site",
+  "hints_hash": "69e0806e1105792a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://indestructibletype.com",
+      "title": null,
+      "status": null
+    },
+    {
+      "url": "https://indestructibletype.com/Home.html",
+      "title": "indestructible type*",
+      "status": 200
+    },
+    {
+      "url": "https://indestructibletype.com/About.html",
+      "title": "indestructible type*",
+      "status": 200
+    },
+    {
+      "url": "https://indestructibletype.com/Jost.html",
+      "title": "Jost*",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "indestructible type*",
+  "summary": "Independent foundry by Owen Earl making free typefaces such as Jost*, plus pay-what-you-want variable versions.",
+  "description": "indestructible type* is a one-person type foundry making free, versatile, archetypal typefaces named after designers of the past: Jost*, Bodoni*, Besley*, Cooper*, Marauder, Cowboy, Gnomon, No Tears and Drafting. Font pages offer live editable specimens, weights, character set and language support; static styles are free and variable versions are pay-what-you-want from $10, with free webfont hosting for Jost*.",
+  "type": "font-foundry",
+  "categories": [
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "free font",
+    "open source font",
+    "type foundry",
+    "variable font",
+    "sans serif",
+    "serif font",
+    "geometric",
+    "webfont",
+    "font download",
+    "pay what you want",
+    "typography"
+  ],
+  "contains": [
+    "fonts include Jost*, Bodoni*, Besley*, Cooper*, Marauder, Cowboy, Gnomon, No Tears, Drafting",
+    "Jost* has nine weights plus a variable version",
+    "free static styles; variable versions pay-what-you-want from $10",
+    "free webfont hosting CSS for Jost*",
+    "live editable specimen pages"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

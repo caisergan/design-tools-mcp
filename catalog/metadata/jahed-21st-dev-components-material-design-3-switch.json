@@ -1,0 +1,27 @@
+{
+  "id": "jahed-21st-dev-components-material-design-3-switch",
+  "url": "https://jahed.21st.dev/components/material-design-3-switch",
+  "kind": "page",
+  "hints_hash": "848b5dcde0cc7d93",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jahed.21st.dev/components/material-design-3-switch", "title": "Material Design 3 Switch | Community Components | 21st", "status": 200},
+    {"url": "https://jahed.21st.dev/llms.txt", "title": "21st (https://21st.dev)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Material Design 3 Switch",
+  "summary": "Google Material Design 3 switch for React and Tailwind with spring physics and haptic audio.",
+  "description": "A React and Tailwind CSS implementation of the Google Material Design 3 switch: cubic-bezier spring curves for the signature overshoot motion, and a handle that morphs in size and shape between unchecked, checked and pressed states. Haptic feedback comes from a built-in Web Audio engine that synthesises a mechanical thud or plastic click with no audio assets. Custom React node icons, destructive and compact options, 48px touch targets at WCAG AAA.",
+  "type": "component-library",
+  "elements": ["switch"],
+  "keywords": ["switch", "toggle switch", "material design 3", "m3 switch", "react", "tailwind css", "shadcn", "spring animation", "overshoot animation", "haptic feedback", "web audio api", "android toggle", "toggle button", "accessible switch", "css animation"],
+  "contains": ["Material Design 3 switch for React and Tailwind CSS", "spring physics overshoot with custom cubic-bezier curves", "handle morphs across unchecked, checked and pressed states", "Web Audio haptic sound engine, no mp3 assets", "custom React node icons, destructive and compact options", "48px touch targets meeting WCAG AAA", "dependencies: lucide-react, class-variance-authority"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

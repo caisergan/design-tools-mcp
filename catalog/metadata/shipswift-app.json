@@ -1,0 +1,28 @@
+{
+  "id": "shipswift-app",
+  "url": "https://shipswift.app",
+  "kind": "site",
+  "hints_hash": "fe4b84f378204c83",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shipswift.app", "title": "ShipSwift — AI Solutions & Custom Software for Enterprises", "status": null},
+    {"url": "https://github.com/signerlabs/ShipSwift", "title": "GitHub - signerlabs/ShipSwift: AI-native SwiftUI component library with full-stack recipes", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ShipSwift",
+  "summary": "AI solutions studio and home of ShipSwift, its open-source SwiftUI component library with full-stack recipes.",
+  "description": "ShipSwift builds and runs custom AI systems and software for enterprises — AI agents, computer vision, data pipelines and iOS/web apps — on ShipSwift, its open-source MIT SwiftUI component library: 80+ components and modules plus full-stack recipes delivered to AI coding agents through skills and an MCP recipe server. The site also showcases the products Signer Labs ships and operates.",
+  "type": "component-library",
+  "categories": ["components", "dev-ai-tools"],
+  "elements": ["alert", "background", "3d", "chart", "chat", "faq", "form", "input", "loader", "stepper", "tabs", "text-effect"],
+  "keywords": ["swiftui", "swift", "ios", "component library", "full stack recipe", "ai coding agent", "mcp server", "animation", "chart", "metal shader", "shimmer", "chat ui", "authentication", "camera", "paywall", "app template", "open source"],
+  "contains": ["80+ SwiftUI components & modules under MIT", "30 animation components incl. Metal-shader backgrounds", "8 chart components", "modules: auth, camera, paywall, chat, settings", "free and pro recipes via skills and MCP recipe server", "custom builds: 48-hour demo, 4-week delivery from $5,000", "3.2k GitHub stars"],
+  "formats": ["code", "docs", "prompts"],
+  "stack": ["swiftui", "swift", "metal"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/signerlabs/ShipSwift", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

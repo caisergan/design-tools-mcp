@@ -1,0 +1,32 @@
+{
+  "id": "libraries-dev",
+  "url": "https://libraries.dev",
+  "kind": "site",
+  "hints_hash": "52b14a9abbaaef33",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://libraries.dev", "title": "Libraries.dev: High-crafted UI libraries for AI agents", "status": null},
+    {"url": "https://libraries.dev/pro", "title": "Libraries Pro: Unlock the Studio for every library", "status": null},
+    {"url": "https://libraries.dev/beam", "title": "Beam: animated border beam for React | Libraries.dev", "status": 200},
+    {"url": "https://libraries.dev/orbs", "title": "Orb: thinking-orbs playground | Libraries.dev", "status": 200},
+    {"url": "https://libraries.dev/gooey", "title": "Gooey: liquid UI effects for React | Libraries.dev", "status": 200},
+    {"url": "https://libraries.dev/how-to-use", "title": "How to use · Libraries.dev", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Libraries.dev",
+  "summary": "Seven React UI effect libraries (Beam, Orb, Avatars, Gooey, Metal, Image, Voice) installed from npm or a coding-agent prompt.",
+  "description": "Production-ready React effect libraries for modern apps: an animated border beam, thought-orb loaders for AI interfaces, liquid metal, gooey morphing, animated bot avatars, an image-generation loader and a sound-reactive voice glow. The free packages are MIT and install from npm (border-beam, thinking-orbs, liquid-gooey, metal-fx, img-fx …); every library also ships as a prompt your coding agent builds. Pro ($9/mo) adds the Studio, presets and an agent skill.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["loader", "avatar", "button", "input"],
+  "keywords": ["react", "ui effect", "animation", "animated border", "glow effect", "loader", "loading indicator", "thinking orb", "liquid metal", "gooey", "bot avatar", "voice reactive", "webgl", "shader", "npm package", "coding agent", "ai interface", "nextjs"],
+  "contains": ["7 libraries: Beam, Orb, Avatars, Gooey, Metal, Image, Voice", "free MIT npm packages: border-beam, thinking-orbs, liquid-gooey, metal-fx, img-fx, bot-avatars, voice-glow", "2,300,000+ installs", "copy-prompt setup for Claude Code, Cursor and Codex", "Pro $9/mo: Studio customization, presets, agent skill", "Business $29/mo: seats, team MCP server, priority support", "React 18+; SwiftUI and React Native ports for Beam and Orb"],
+  "formats": ["npm-package", "code", "prompts", "docs"],
+  "stack": ["react", "typescript", "three.js", "webgl", "swiftui", "react-native"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

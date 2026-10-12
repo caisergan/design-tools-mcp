@@ -1,0 +1,42 @@
+{
+  "id": "suno-com",
+  "url": "https://suno.com",
+  "kind": "site",
+  "hints_hash": "2034f47238ea6065",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://suno.com/llms.txt", "title": "Suno: Make a Full Song From a Simple Idea", "status": null},
+    {"url": "https://suno.com", "title": "Suno | AI Music Generator", "status": 200},
+    {"url": "https://suno.com/pricing", "title": "Suno | Pricing", "status": 200},
+    {"url": "https://suno.com/about", "title": "Suno | About", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Suno",
+  "summary": "Turns a text prompt into a complete original song with vocals, lyrics and production.",
+  "description": "Describe a song or paste lyrics and Suno returns a finished track with vocals and instruments, then offers remix, extend, stem separation, a browser DAW (Suno Studio), voice recording and custom models trained on your own recordings. Free tier with daily songs; Pro and Premier unlock commercial rights, downloads and studio tools. Web, iOS and Android.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "ai music generator", "song generator", "text to music", "lyric generator", "beat maker",
+    "instrumental", "vocal", "stem separation", "remix", "music studio", "daw", "midi export",
+    "voice clone", "custom model"
+  ],
+  "contains": [
+    "free tier: up to 10 songs a day, no credit card",
+    "Pro $8 and Premier $24 per month with annual billing",
+    "Pro: 20 song downloads a month; Premier: 60",
+    "Suno Studio browser DAW with MIDI export, effects and automation",
+    "stem separation into vocal and instrument stems, up to 3 types",
+    "voices: record a few seconds and sing anything in any style",
+    "custom models trained on your own recordings"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

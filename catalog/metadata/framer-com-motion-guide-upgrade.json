@@ -1,0 +1,31 @@
+{
+  "id": "framer-com-motion-guide-upgrade",
+  "url": "https://framer.com/motion/guide-upgrade",
+  "kind": "page",
+  "hints_hash": "c5bd277fb5195619",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/motion/guide-upgrade", "title": "Motion & Framer Motion upgrade guide | Motion for React", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Motion & Framer Motion upgrade guide",
+  "summary": "Official upgrade guide for Motion for React: breaking API changes per major version, from Framer Motion 6.0 through Motion 14.0.",
+  "description": "Step-by-step upgrade notes between Motion for React versions. Each major version section documents the breaking changes — velocity calculation and render scheduling in 11.0, the removed IntersectionObserver fallback and exitBeforeEnter error in 10.0, pointer events in 8.0, the framer-motion to motion/react import swap in 12.0 — plus how to run the upgrade automatically with the Motion AI Kit. The framer.com URL now redirects to motion.dev/docs/react-upgrade-guide.",
+  "keywords": ["framer motion", "motion", "upgrade guide", "migration", "breaking change", "react animation", "animation library", "api change", "version upgrade", "animatepresence", "whileinview", "motionvalue", "react 18", "typescript"],
+  "contains": [
+    "upgrade notes for every major version: 6.0 to 14.0",
+    "11.0: velocity calculation and render scheduling changes, Jest test caveat",
+    "12.0: swap imports from framer-motion to motion/react",
+    "13.0: @emotion/is-prop-valid removed in favour of explicit injection",
+    "10.0: IntersectionObserver fallback removed, exitBeforeEnter now throws",
+    "9.0: whileFocus behaves like :focus-visible; tap listeners get tabindex 0"
+  ],
+  "formats": ["docs"],
+  "stack": ["react"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.8
+}

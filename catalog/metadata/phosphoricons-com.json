@@ -1,0 +1,37 @@
+{
+  "id": "phosphoricons-com",
+  "url": "https://phosphoricons.com",
+  "kind": "site",
+  "hints_hash": "2fa84ce21e2458b3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:10:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://phosphoricons.com", "title": "Phosphor Icons", "status": null},
+    {"url": "https://github.com/phosphor-icons/react", "title": "GitHub - phosphor-icons/react: A flexible icon family for React", "status": 200},
+    {"url": "https://raw.githubusercontent.com/phosphor-icons/react/master/README.md", "title": "@phosphor-icons/react", "status": 200},
+    {"url": "https://raw.githubusercontent.com/phosphor-icons/core/main/README.md", "title": "@phosphor-icons/core", "status": 200},
+    {"url": "https://raw.githubusercontent.com/phosphor-icons/web/master/README.md", "title": "@phosphor-icons/web", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Phosphor Icons",
+  "summary": "Icon family with six weights (thin, light, regular, bold, fill, duotone) packaged for React, Vue, Flutter and web fonts.",
+  "description": "An icon family for interfaces, diagrams and presentations, shipping every icon in six weights as SVG assets and as framework packages: @phosphor-icons/react for tree-shakeable React imports with SSR support, @phosphor-icons/web webfonts loaded weight by weight, plus Vue and Flutter ports. @phosphor-icons/core holds the raw SVGs with catalog data (tags, categories, versions). MIT licensed.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "icon library", "svg icon", "react icon", "vue icon", "flutter icon", "icon font", "webfont icon", "duotone icon", "free icon", "open source icon"],
+  "contains": [
+    "6 weights: regular, thin, light, bold, fill, duotone",
+    "React, Vue and Flutter component packages plus web fonts",
+    "tree-shakeable React imports with SSR and RSC support",
+    "raw SVG assets and a catalog of tags, categories and versions in @phosphor-icons/core",
+    "MIT licensed"
+  ],
+  "formats": ["svg", "npm-package", "font-files"],
+  "stack": ["react", "vue"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/phosphor-icons/react", "docs": null, "npm": "@phosphor-icons/react", "figma": null, "parent": null},
+  "confidence": 0.8
+}

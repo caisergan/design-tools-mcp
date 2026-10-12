@@ -1,0 +1,30 @@
+{
+  "id": "github-com-akii09-pdfx",
+  "url": "https://github.com/akii09/pdfx",
+  "kind": "repo",
+  "hints_hash": "b063750556a082ec",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://github.com/akii09/pdfx/blob/HEAD/README.md", "title": "PDFx", "status": 200 },
+    { "url": "https://getpdfx.dev", "title": "PDFx — shadcn/ui for React PDFs | Copy-Paste PDF Components", "status": 200 },
+    { "url": "https://getpdfx.dev/components", "title": "Components — PDFx", "status": 200 },
+    { "url": "https://getpdfx.dev/docs", "title": "Documentation — PDFx", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "PDFx",
+  "summary": "Copy-paste React PDF components built on @react-pdf/renderer — 24 components with a theme system and CLI.",
+  "description": "A shadcn/ui-style library of copy-paste PDF components for React, built on @react-pdf/renderer with no runtime dependency on PDFx. Components are namespaced so they don't collide with shadcn/ui's heading and table, installed through a CLI (npx pdfx-cli add <component>) and customized with a theme system; invoice and report block templates are included.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["table", "badge", "chart"],
+  "keywords": ["pdf component", "react pdf", "pdf template", "invoice", "report", "copy paste", "shadcn", "cli", "document generation", "watermark", "qr code", "table", "badge", "chart", "typescript", "theme"],
+  "contains": ["24 copy-paste React PDF components", "built on @react-pdf/renderer, no runtime dependency on PDFx", "CLI: npx pdfx-cli add <component>", "namespaced to coexist with shadcn/ui (heading, table)", "theme system", "invoice and report block templates", "MIT licensed"],
+  "formats": ["code", "cli", "npm-package", "docs", "templates"],
+  "stack": ["react", "typescript", "react-pdf", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/akii09/pdfx", "docs": "https://getpdfx.dev", "npm": "pdfx-cli", "figma": null, "parent": null },
+  "confidence": 0.85
+}

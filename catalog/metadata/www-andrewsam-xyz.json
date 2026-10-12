@@ -1,0 +1,29 @@
+{
+  "id": "www-andrewsam-xyz",
+  "url": "https://www.andrewsam.xyz",
+  "kind": "site",
+  "hints_hash": "9892ba0491c84103",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.andrewsam.xyz", "title": "Andrew Sameh", "status": null},
+    {"url": "https://www.andrewsam.xyz/about", "title": "About | Andrew Sameh", "status": null},
+    {"url": "https://github.com/asamgx/andrewsam.xyz", "title": "GitHub - asamgx/andrewsam.xyz: Personal Website", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Andrew Sameh",
+  "summary": "Personal blog and portfolio built on a shadcn/ui revamp of tailwind-nextjs-starter-blog, with resume and experience sections.",
+  "description": "Open-source personal site: MDX blog with three post layouts, a projects page, a resume page and custom experience and technologies components. Wires up Contentlayer content, Giscus comments, newsletter, analytics and a kbar command palette; MIT licensed as a starter you clone and customize.",
+  "type": "template",
+  "categories": ["templates", "inspiration"],
+  "elements": ["navbar", "timeline", "card", "command-palette"],
+  "keywords": ["blog template", "portfolio", "nextjs", "react", "personal website", "shadcn", "tailwind", "mdx", "contentlayer", "resume", "blog starter", "dark mode", "projects page", "open source"],
+  "contains": ["Next.js, Tailwind CSS and shadcn/ui personal blog based on tailwind-nextjs-starter-blog", "3 blog post layouts and 2 listing layouts, tags and multiple authors", "projects page, resume page, custom experience and technologies components", "Contentlayer MDX with KaTeX maths, citations and code highlighting", "pliny integrations: analytics, Giscus comments, newsletter and kbar command palette", "Prisma + MongoDB and Auth.js for a protected section (under development)", "MIT licensed with clone-and-customize docs", "light and dark theme, 85kB first load"],
+  "formats": ["code", "templates", "docs"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn", "prisma", "contentlayer"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/asamgx/andrewsam.xyz", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

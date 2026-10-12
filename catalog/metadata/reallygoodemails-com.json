@@ -1,0 +1,39 @@
+{
+  "id": "reallygoodemails-com",
+  "url": "https://reallygoodemails.com",
+  "kind": "site",
+  "hints_hash": "0ba3c3bdc434b315",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://reallygoodemails.com/llms.txt", "title": "Really Good Emails", "status": null},
+    {"url": "https://reallygoodemails.com", "title": "Really Good Emails", "status": 200},
+    {"url": "https://reallygoodemails.com/categories", "title": "Email Categories and Topics | Really Good Emails", "status": 200},
+    {"url": "https://reallygoodemails.com/pricing", "title": "Start for Free. Scale As You Grow | RGE Studio Pricing", "status": 200},
+    {"url": "https://reallygoodemails.com/about", "title": "Where Really Good Emails Get Made | About RGE", "status": 200},
+    {"url": "https://reallygoodemails.com/templates", "title": "Free HTML Email Templates - RGE Studio", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Really Good Emails",
+  "summary": "Gallery of 19,000+ curated real-brand emails plus free HTML email templates and an email design tool.",
+  "description": "A curated showcase of emails from real brands, browsable by category (welcome, newsletter, abandoned cart, promotional, transactional, retention and more) with screenshots and the original HTML. Includes company profiles, community collections and search, 1,280+ free HTML email templates, email design articles in RGE School, and RGE Studio, an email builder.",
+  "type": "gallery",
+  "categories": ["inspiration", "templates", "learning"],
+  "elements": [],
+  "keywords": ["email design", "email template", "email inspiration", "newsletter email", "welcome email", "abandoned cart email", "promotional email", "transactional email", "email marketing", "email screenshot", "html email template", "email builder", "email category", "dark mode email"],
+  "contains": [
+    "19,000+ curated emails from real brands",
+    "browse by category: welcome, newsletter, abandoned cart, promotional, transactional",
+    "1,280+ free HTML email templates",
+    "company profiles, community collections, search",
+    "RGE Studio email builder (free Starter, Professional $30/mo, Business $160/mo)",
+    "articles and interviews in RGE School"
+  ],
+  "formats": ["screenshots", "links", "templates", "app"],
+  "stack": ["html", "css"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

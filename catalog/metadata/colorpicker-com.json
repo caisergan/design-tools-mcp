@@ -1,0 +1,28 @@
+{
+  "id": "colorpicker-com",
+  "url": "https://colorpicker.com",
+  "kind": "site",
+  "hints_hash": "02c6d6380907959c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:28:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://colorpicker.com", "title": "Free Color Picker Tool & Palette Generator", "status": null},
+    {"url": "https://www.webfx.com/about", "title": "WebFX: Who We Are", "status": null}
+  ],
+  "status": "ok",
+  "name": "ColorPicker.com",
+  "summary": "Free online color picker: choose colors, generate color schemes and grab color palettes from any website.",
+  "description": "A browser-based color picker with HEX, RGB and HSB inputs and a color chart; pick a color and generate complementary, split complementary, monochromatic, triadic, tetradic, analogous, shade, tint and tone schemes. A Grab Website Colors tab extracts hex codes from a site's HTML and CSS, colors can be saved to a palette, and every color links directly via its hex code in the URL.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color picker", "hex color", "rgb color", "hsb", "color scheme", "palette generator", "complementary color", "triadic color", "color chart", "website color extractor", "css color", "free color tool"],
+  "contains": ["HEX, RGB and HSB color picker with a color chart", "scheme generation: complementary, split complementary, monochromatic, triadic, tetradic, analogous, shades, tints, tones", "grab website colors from any URL by reading its HTML and CSS hex codes", "save colors; link directly to a hex color in the URL", "copy hex codes"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

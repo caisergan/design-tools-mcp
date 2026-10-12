@@ -1,0 +1,32 @@
+{
+  "id": "canvasui-dev",
+  "url": "https://canvasui.dev",
+  "kind": "site",
+  "hints_hash": "ca20d804ff1aba85",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://canvasui.dev/llms.txt", "title": "Canvas UI", "status": null },
+    { "url": "https://canvasui.dev", "title": "Canvas UI: Creative Canvas, WebGL and WebGPU Component Library", "status": 200 },
+    { "url": "https://canvasui.dev/docs", "title": "Introduction | Canvas UI", "status": 200 },
+    { "url": "https://canvasui.dev/components", "title": "Components | Canvas UI", "status": 200 },
+    { "url": "https://canvasui.dev/docs/mcp", "title": "MCP Server | Canvas UI", "status": 200 },
+    { "url": "https://canvasui.dev/docs/rendering", "title": "Rendering: WebGL and WebGPU | Canvas UI", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Canvas UI",
+  "summary": "Open source component library of WebGL and WebGPU canvas effects that run over live HTML, installed via a shadcn registry.",
+  "description": "Creative html-in-canvas effects for React, Solid, Preact, Vue, Svelte and vanilla TypeScript: ASCII lenses, fluid simulations, fire, glass, particles and 3D objects drawn over fully interactive HTML. Every effect ships as a WebGL and a WebGPU (vgpu) build with the same API, as single source files served through the shadcn-compatible @canvas-ui registry.",
+  "type": "component-library",
+  "categories": ["components", "motion", "registries"],
+  "elements": ["background", "cursor", "text-effect", "3d", "scroll-effect"],
+  "keywords": ["canvas", "webgl", "webgpu", "shader", "react", "vue", "svelte", "solid", "preact", "component library", "background effect", "cursor effect", "text effect", "3d", "particle", "fluid simulation", "ascii", "glitch", "shadcn registry", "html-in-canvas", "open source", "animation", "creative coding"],
+  "contains": ["35 components and counting", "420 shadcn registry items covering both renderer builds across six frameworks", "every effect ships in six flavors: React, Solid, Preact, Vue, Svelte and vanilla TypeScript", "two renderer builds per effect: WebGL (GLSL, zero dependencies) and WebGPU (WGSL, via vgpu)", "install with npx shadcn@latest add @canvas-ui/<component>-<framework>", "free forever under MIT + Commons Clause: personal and commercial use allowed, reselling the components is not", "MCP-ready registry for AI assistants"],
+  "formats": ["registry", "code"],
+  "stack": ["react", "solid", "preact", "vue", "svelte", "three.js"],
+  "pricing": "free",
+  "license": "MIT+Commons-Clause",
+  "related": { "repo": null, "docs": "https://canvasui.dev/docs", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

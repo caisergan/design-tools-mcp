@@ -1,0 +1,23 @@
+{
+  "id": "figma-academy-handoff-helpers",
+  "url": "https://figma.academy/handoff-helpers",
+  "kind": "page",
+  "hints_hash": "ca1d0202f4213200",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://figma.academy/handoff-helpers", "title": "Figma Academy 2.0", "status": null},
+    {"url": "https://www.dive.club/advanced-figma/handoff-helpers", "title": "Handoff Helpers — Advanced Figma (Academy 2.0)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Handoff Helpers",
+  "summary": "Free Figma component library of annotation helpers for documenting designs and communicating handoff.",
+  "description": "An all-in-one Figma library of flexible annotation components for the design handoff process, with nested link trees, statuses and change logs, plus variables and theming support. The original figma.academy URL now redirects to the Figma Academy 2.0 course page; the library page itself lives on Dive Club.",
+  "type": "component-library",
+  "formats": ["figma-file"],
+  "pricing": "free",
+  "keywords": ["design handoff", "developer handoff", "figma component library", "figma file", "annotation", "design documentation", "spec annotation", "figma library", "free figma file", "changelog", "designer communication"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

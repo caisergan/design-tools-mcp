@@ -1,0 +1,39 @@
+{
+  "id": "midjourney-com",
+  "url": "https://midjourney.com",
+  "kind": "site",
+  "hints_hash": "6e7a347a03a4a6b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://midjourney.com/", "title": null, "status": 403},
+    {"url": "https://www.midjourney.com/", "title": "Midjourney", "status": 200},
+    {"url": "https://docs.midjourney.com/", "title": "Midjourney", "status": 200},
+    {"url": "https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide", "title": "Getting Started Guide – Midjourney", "status": 200},
+    {"url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans", "title": "Comparing Midjourney Plans – Midjourney", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Midjourney",
+  "summary": "AI image and video generation service: text prompts become images on the web app or Discord, sold as subscription plans.",
+  "description": "An AI research lab's generation service: write a prompt on the Create page of midjourney.com or through the Discord bot, get four image options, then upscale, vary, personalize or turn images into videos. Four subscription tiers (Basic, Standard, Pro, Mega) gate Fast hours, unlimited Relax mode and Stealth mode; official docs cover prompting, settings and billing.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai image generator", "text to image", "image to video", "ai video", "generative ai", "ai art", "prompt", "discord bot", "upscale", "variation", "subscription", "web app"],
+  "contains": [
+    "four subscription tiers: Basic, Standard, Pro and Mega",
+    "unlimited Relax mode image generations on Standard and up, video on Pro and up",
+    "Stealth mode (private generations) only on Pro and Mega plans",
+    "images generate as four options per prompt",
+    "image-to-video animation of Midjourney creations and uploaded images",
+    "20% discount when paying yearly",
+    "official help center for prompting, settings and billing"
+  ],
+  "formats": ["app", "docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://docs.midjourney.com/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

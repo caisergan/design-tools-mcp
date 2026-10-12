@@ -1,0 +1,28 @@
+{
+  "id": "github-com-sahil-sharma-23-supa-next-shad-auth",
+  "url": "https://github.com/Sahil-Sharma-23/supa-next-shad-auth",
+  "kind": "repo",
+  "hints_hash": "24d749742029a27e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Sahil-Sharma-23/supa-next-shad-auth/blob/HEAD/README.md", "title": "Next.js + Supabase Auth starter template with shadcn-UI and Tailwind CSS", "status": 200},
+    {"url": "https://github.com/Sahil-Sharma-23/supa-next-shad-auth", "title": "GitHub - Sahil-Sharma-23/supa-next-shad-auth · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "supa-next-shad-auth",
+  "summary": "Next.js + Supabase authentication starter template with shadcn/ui, Tailwind CSS, server actions and Zod.",
+  "description": "A starter template for apps with Supabase authentication: Next.js, TypeScript, shadcn/ui and Tailwind CSS, with secured server actions and Zod validation. The README covers Supabase project setup, test credentials in .env.local.example, and links a live Vercel demo.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["form"],
+  "keywords": ["authentication", "next.js", "supabase", "supabase auth", "shadcn ui", "tailwind css", "react", "typescript", "server action", "zod", "sign up", "login", "starter template", "auth page", "type-safe", "responsive", "free template"],
+  "contains": ["Next.js + Supabase auth starter with shadcn/ui and Tailwind CSS", "sign-up and login flows with a live Vercel demo", "secure Next.js server actions and Zod validation, fully type-safe", "responsive UI with loading states", "test credentials documented in .env.local.example", "MIT licensed; 60 stars on GitHub"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn", "supabase", "zod"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Sahil-Sharma-23/supa-next-shad-auth", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

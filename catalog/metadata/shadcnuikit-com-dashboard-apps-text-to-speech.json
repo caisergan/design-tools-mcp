@@ -1,0 +1,68 @@
+{
+  "id": "shadcnuikit-com-dashboard-apps-text-to-speech",
+  "url": "https://shadcnuikit.com/dashboard/apps/text-to-speech",
+  "kind": "page",
+  "hints_hash": "0231a723e94d25a7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcnuikit.com/dashboard/apps/text-to-speech",
+      "title": "Text to Speech App for Shadcn UI – Admin Dashboard Template",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Text to Speech",
+  "summary": "Text-to-speech app screen from the Shadcn UI Kit dashboard template: voices, models and voice tuning.",
+  "description": "Live demo of the Text to Speech app included in the Shadcn UI Kit admin dashboard template: a text box with a 5,000-character counter, voice and model pickers, and voice adjustment controls (speed, stability, similarity, style exaggeration, speaker boost). Built with React, TypeScript, Tailwind CSS and shadcn/ui; part of a 16-dashboard kit sold for $79.",
+  "elements": [
+    "command-palette",
+    "slider",
+    "input"
+  ],
+  "keywords": [
+    "text to speech",
+    "tts",
+    "speech synthesis",
+    "voice",
+    "voice setting",
+    "dashboard app",
+    "admin template",
+    "shadcn",
+    "react",
+    "tailwind",
+    "command palette",
+    "ai app"
+  ],
+  "contains": [
+    "text box with a 5,000-character counter",
+    "voice and model pickers",
+    "voice adjustment: speed, stability, similarity, style exaggeration",
+    "command palette for switching dashboards",
+    "included in Shadcn UI Kit: 16 dashboards for $79"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind"
+  ],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "shadcnuikit-com"
+  },
+  "confidence": 0.85
+}

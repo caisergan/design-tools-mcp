@@ -1,0 +1,76 @@
+{
+  "id": "template-next-official-vercel-app",
+  "url": "https://template-next-official.vercel.app",
+  "kind": "site",
+  "hints_hash": "c4365570e7a1d0b0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://template-next-official.vercel.app",
+      "title": "Template-NEXT",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Template-NEXT",
+  "summary": "Next.js starter with TypeScript, Tailwind CSS, React Compiler, Turbopack, next-themes and a shadcn/ui preset.",
+  "description": "A clean Next.js starter created with npx @edward-hyde/template-next. TypeScript, Tailwind CSS, React Compiler, Turbopack and next-themes are wired up along with the shadcn/ui preset b1YmqvjRA; formatting and linting come preconfigured, and the create command lets you pick the project name, package manager, shadcn/ui components and options.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [],
+  "keywords": [
+    "nextjs",
+    "starter",
+    "template",
+    "typescript",
+    "tailwind css",
+    "shadcn ui",
+    "react compiler",
+    "turbopack",
+    "next-theme",
+    "dark mode",
+    "prettier",
+    "eslint",
+    "boilerplate",
+    "cli"
+  ],
+  "contains": [
+    "create with npx @edward-hyde/template-next",
+    "TypeScript, Tailwind CSS, React Compiler, Turbopack",
+    "shadcn/ui preset b1YmqvjRA",
+    "next-themes for dark mode",
+    "formatting and linting already wired up",
+    "create command: project name, package manager, shadcn/ui components, options"
+  ],
+  "formats": [
+    "cli",
+    "npm-package",
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "typescript",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": "@edward-hyde/template-next",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

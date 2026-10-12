@@ -1,0 +1,28 @@
+{
+  "id": "vantaui-registry-vercel-app-components-iridescent-button",
+  "url": "https://vantaui-registry.vercel.app/components/iridescent-button",
+  "kind": "page",
+  "hints_hash": "0ae1716c7203bc50",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vantaui-registry.vercel.app/components/iridescent-button", "title": "Vanta UI", "status": 200},
+    {"url": "https://vantaui-registry.vercel.app/r/registry.json", "title": "Vanta UI registry index", "status": 200},
+    {"url": "https://vantaui-registry.vercel.app/r/iridescent-button.json", "title": "iridescent-button registry item", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Iridescent Button",
+  "summary": "Conic-gradient React button with a cursor-tracking iridescent glow and an optional keyboard shortcut badge.",
+  "description": "A shadcn registry component from Vanta UI. The button paints a conic gradient with a cursor-tracking iridescent glow — pointer coordinates are stored in CSS custom properties — and shows an optional keyboard shortcut badge; all standard button props are forwarded. Styling comes from the registry's globals.css and it depends on the utils registry item.",
+  "type": "component-library",
+  "elements": ["button"],
+  "keywords": ["button", "react", "shadcn", "registry", "conic gradient", "iridescent", "glow", "cursor tracking", "hover effect", "shortcut badge", "copy paste", "component"],
+  "contains": ["conic-gradient button with a cursor-tracking iridescent glow", "optional keyboard shortcut badge", "registry item name: iridescent-button", "source: src/components/ui/iridescent-button.tsx", "registry dependency: utils", "one of 100 items in the Vanta UI registry"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind", "css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

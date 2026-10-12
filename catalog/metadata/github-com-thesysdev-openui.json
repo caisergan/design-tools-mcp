@@ -1,0 +1,30 @@
+{
+  "id": "github-com-thesysdev-openui",
+  "url": "https://github.com/thesysdev/openui",
+  "kind": "repo",
+  "hints_hash": "4fbe8eef853c64ce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/thesysdev/openui/blob/HEAD/README.md", "title": "OpenUI - The Open Standard for Intelligent UI", "status": 200},
+    {"url": "https://raw.githubusercontent.com/thesysdev/openui/HEAD/README.md", "title": "OpenUI - The Open Standard for Intelligent UI", "status": 200},
+    {"url": "https://github.com/thesysdev/openui", "title": "GitHub - thesysdev/openui: The Open Standard for Generative UI · GitHub", "status": 200},
+    {"url": "https://www.openui.com/llms.txt", "title": "OpenUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenUI",
+  "summary": "Generative UI framework and language: models stream compact UI code that React, Vue, Svelte and Angular runtimes render progressively.",
+  "description": "OpenUI Lang is a compact, streaming-first language for model-generated UI — up to 67% fewer tokens than JSON. A framework-agnostic core powers first-party runtimes for React, Vue, Svelte and Angular; the React packages add headless chat state, prebuilt chat layouts and two built-in component libraries (charts, forms, tables). Generate a prompt from the components you allow, stream the model output and render it progressively. Also LangChain/assistant-ui integrations, an email renderer, browser bundle, A2UI client, CLI and an agent skill for Claude Code and Cursor.",
+  "type": "component-library",
+  "categories": ["dev-ai-tools", "components"],
+  "elements": ["chat", "chart", "form", "table", "ai-agent-ui"],
+  "keywords": ["generative ui", "streaming ui", "llm ui", "openui lang", "react", "vue", "svelte", "angular", "chat ui", "component library", "langchain", "assistant-ui", "ag-ui", "prompt generation", "zod schema", "token efficiency", "email template", "cli", "ai agent", "agent skill"],
+  "contains": ["OpenUI Lang: streaming-first language, up to 67% fewer tokens than JSON", "runtimes: lang-core plus react-lang, vue-lang, svelte-lang and angular-lang", "react-ui: prebuilt chat layouts and two built-in component libraries (charts, forms, tables)", "packages: react-headless, react-email, browser-bundle, a2ui, server, observability and CLI", "integrations: LangChain/LangGraph, assistant-ui, AG-UI; agent skill for Claude Code, Codex, Cursor", "benchmarks: 52.8% fewer tokens than Vercel json-render across seven UI scenarios", "MIT licensed; 10.7k GitHub stars"],
+  "formats": ["code", "npm-package", "cli", "docs", "prompts"],
+  "stack": ["react", "vue", "svelte", "angular", "typescript", "langchain", "zod"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/thesysdev/openui", "docs": "https://www.openui.com/docs", "npm": "@openuidev/react-ui", "figma": null, "parent": null},
+  "confidence": 0.9
+}

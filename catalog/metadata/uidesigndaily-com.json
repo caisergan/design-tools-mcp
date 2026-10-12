@@ -1,0 +1,33 @@
+{
+  "id": "uidesigndaily-com",
+  "url": "https://uidesigndaily.com",
+  "kind": "site",
+  "hints_hash": "f265f9ac89c99603",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uidesigndaily.com", "title": "UI Design Daily | Open Source UI Resources", "status": null},
+    {"url": "https://www.uidesigndaily.com/components/buttons", "title": "Buttons", "status": null},
+    {"url": "https://www.uidesigndaily.com/about", "title": "UI Design Daily | About", "status": null},
+    {"url": "https://www.uidesigndaily.com/license", "title": "UI Design Daily | License", "status": null},
+    {"url": "https://www.uidesigndaily.com/terms-and-conditions", "title": "Terms", "status": 200},
+    {"url": "https://www.uidesigndaily.com/license", "title": "UI Design Daily | License", "status": 200},
+    {"url": "https://www.uidesigndaily.com/figma", "title": "UI Design Daily | Free Figma Open Source UI Resources", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UI Design Daily",
+  "summary": "Gallery of 1500+ free UI designs, each downloadable as an editable source file for Sketch, Figma, XD or Photoshop.",
+  "description": "A large gallery of free UI components and screens, posted daily since 2016. Designs are tagged by element and topic (card, form, dropdown, pricing, chart, dark mode …) and each can be downloaded as an editable source file for Sketch, Figma, Adobe XD, Photoshop or InVision Studio, under a Creative Commons license.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["card", "list", "form", "dropdown", "stats", "modal", "pricing", "badge", "toast", "progress", "button", "chart"],
+  "keywords": ["ui design", "ui component", "free ui design", "design source file", "figma file", "sketch file", "daily ui", "card design", "form design", "dropdown", "pricing table", "dashboard ui", "dark mode", "wireframe", "mobile ui", "design inspiration", "open source design", "ui resource"],
+  "contains": ["1505 free UI designs, posted daily since 2016", "browsable by element and topic tags (card, form, dropdown, pricing, chart, dark mode …)", "source files for Sketch, Figma, Adobe XD, Photoshop and InVision Studio", "free under a Creative Commons license, no attribution required"],
+  "formats": ["figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

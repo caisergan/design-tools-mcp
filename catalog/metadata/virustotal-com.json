@@ -1,0 +1,37 @@
+{
+  "id": "virustotal-com",
+  "url": "https://virustotal.com",
+  "kind": "site",
+  "hints_hash": "bb4df21f4abc6d49",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://virustotal.com", "title": "VirusTotal", "status": null},
+    {"url": "https://docs.virustotal.com/docs/how-it-works", "title": "How it works", "status": 200},
+    {"url": "https://docs.virustotal.com/docs/api-overview", "title": "API Overview", "status": 200},
+    {"url": "https://docs.virustotal.com/docs/quota-consumption.md", "title": "Understanding Consumption", "status": 200},
+    {"url": "https://docs.virustotal.com/docs/faq/llms.txt", "title": "VirusTotal Documentation", "status": 200}
+  ],
+  "status": "ok",
+  "name": "VirusTotal",
+  "summary": "Scans files, URLs and domains with over 70 antivirus engines and blocklisting services.",
+  "description": "Submit an item through the web interface, desktop uploaders, browser extensions or the REST API, and get a report that combines over 70 antivirus scanners and URL/domain blocklisting services with tools that extract signals from the content. Public and private API tiers are metered by consumption quotas; premium products include VT Intelligence, IOC Reputation, VT Hunting, VT Graph and Private Scanning, and an MCP-based entry point (VTAI) exists for AI agents.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["virus scan", "malware analysis", "url scanner", "file scanner", "security", "threat intelligence", "antivirus", "api", "domain reputation", "ioc"],
+  "contains": [
+    "over 70 antivirus scanners and URL/domain blocklisting services per scan",
+    "submission routes: web interface, desktop uploaders, browser extensions, REST API",
+    "API can scan files and URLs, fetch reports and comment on samples (x-apikey auth)",
+    "premium services: VT Intelligence, IOC Reputation, VT Hunting, VT Graph, Private Scanning",
+    "AI agent entry point: keyless MCP-based VTAI at ai.virustotal.com"
+  ],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://docs.virustotal.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

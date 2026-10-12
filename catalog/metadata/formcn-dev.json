@@ -1,0 +1,30 @@
+{
+ "id": "formcn-dev",
+ "url": "https://formcn.dev",
+ "kind": "site",
+ "hints_hash": "53ace1e15f46f849",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://formcn.dev", "title": "Modern shadcn form builder | Formcn", "status": null},
+  {"url": "https://formcn.dev/form-templates/template-signup", "title": "Signup Form | Formcn", "status": 200},
+  {"url": "https://formcn.dev/changelog", "title": "Modern shadcn form builder | Formcn", "status": 200},
+  {"url": "https://formcn.dev/ai-form-generator", "title": "Modern shadcn form builder | Formcn", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Formcn",
+ "summary": "Visual builder that generates production-ready shadcn/ui forms and multi-step flows as React code.",
+ "description": "Build shadcn-styled forms in the browser: pick one of 13 templates (signup, credit card, login, employee onboarding, feedback, waitlist, contact, multi-step, job application, event registration, product order, customer support) or start blank, arrange fields in one or several steps, and get consistent React code with Zod validation. Generated code and dependencies install with the shadcn registry CLI; Formcn AI scaffolds the fields from a description.",
+ "type": "tool",
+ "categories": ["components", "registries"],
+ "elements": ["form", "stepper", "card", "contact", "input", "select", "checkbox", "date-picker", "file-upload", "slider"],
+ "keywords": ["form builder", "shadcn", "form", "react", "tailwind", "zod", "validation", "multi-step form", "signup form", "login form", "form template", "code generator", "typescript", "registry"],
+ "contains": ["13 form templates (signup, login, credit card, job application …)", "one-step and multi-step forms with a stepper", "client/server validation with Zod", "code and dependencies added via the shadcn registry CLI", "Formcn AI scaffolds form fields", "field types: input, combobox, date picker, file upload, slider, tag input"],
+ "formats": ["registry", "code", "cli"],
+ "stack": ["react", "tailwind", "zod"],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.75
+}

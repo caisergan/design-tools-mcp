@@ -1,0 +1,28 @@
+{
+  "id": "github-com-enaqx-awesome-react",
+  "url": "https://github.com/enaqx/awesome-react",
+  "kind": "repo",
+  "hints_hash": "8192bcd200cf61b1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/enaqx/awesome-react/blob/HEAD/README.md", "title": "Awesome React", "status": 200},
+    {"url": "https://github.com/enaqx/awesome-react", "title": "GitHub - enaqx/awesome-react", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome React",
+  "summary": "Curated link list for the React ecosystem: tutorials, frameworks, component libraries, tooling, testing and React Native.",
+  "description": "A community awesome list of React and React Native resources, each a short labelled link. Sections cover general resources, tutorials, frameworks, component libraries, state management and data fetching, styling, icons, routing, development tools, testing, forms, tables and grids, maps, charts, renderers, internationalization, graphics and animations, plus a separate React Native part.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["react", "react native", "awesome list", "curated list", "react resource", "react tutorial", "component library", "state management", "react tooling", "testing", "frontend", "javascript"],
+  "contains": ["sections for tutorials, frameworks, component libraries, styling, icons, routing, dev tools and testing", "lists for forms, tables, maps, charts, renderers, i18n and animations", "separate React Native section", "every entry is a one-line labelled link"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/enaqx/awesome-react", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

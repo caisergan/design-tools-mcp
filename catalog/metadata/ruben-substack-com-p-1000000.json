@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-1000000",
+  "url": "https://ruben.substack.com/p/1000000",
+  "kind": "page",
+  "hints_hash": "b6ec1babc9cb7655",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/1000000", "title": "1,000,000. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "1,000,000.",
+  "summary": "Essay on why AI access alone will not win 1M LinkedIn followers: taste and consistency do.",
+  "description": "Essay in the How to AI newsletter arguing that AI made effort and strategy worthless for LinkedIn growth, leaving taste and consistency; it lists five reasons readers stay stuck, from weak media to inconsistency.",
+  "type": "article",
+  "keywords": ["linkedin growth", "linkedin follower", "personal branding", "audience building", "content strategy", "consistency", "ai writing", "social media growth", "creator", "taste", "engagement", "writing habit"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.9
+}

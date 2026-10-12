@@ -1,0 +1,130 @@
+{
+  "id": "landingfolio-com",
+  "url": "https://landingfolio.com",
+  "kind": "site",
+  "hints_hash": "3fb4f6567c61c0e0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "commandcode/deepseek/deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://landingfolio.com",
+      "title": "The Best Landing Page Design Inspiration, Templates and More | Landingfolio",
+      "status": null
+    },
+    {
+      "url": "https://www.landingfolio.com/library",
+      "title": "Extensive component library for Tailwind, Webflow and Figma | Landingfolio",
+      "status": null
+    },
+    {
+      "url": "https://www.landingfolio.com/pricing",
+      "title": "Pricing — Landingfolio All Access Pass",
+      "status": null
+    },
+    {
+      "url": "https://www.landingfolio.com/components",
+      "title": "The Best Landing Page Components, Curated For You | Landingfolio",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Landingfolio",
+  "summary": "Landing page design inspiration plus a section and component library for Tailwind, Webflow and Figma.",
+  "description": "Gallery of landing pages from live websites — 961 sites, filterable by industry and colour — plus a library of 800+ sections and components (hero, pricing, testimonials, footer …) shipped as Tailwind, Webflow and Figma kits. Free to browse; downloads and kits come with the paid All Access Pass.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "sections",
+    "components"
+  ],
+  "elements": [
+    "alert",
+    "badge",
+    "banner",
+    "chart",
+    "contact",
+    "cta",
+    "dashboard",
+    "faq",
+    "features",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "list",
+    "logo-cloud",
+    "map",
+    "modal",
+    "navbar",
+    "pagination",
+    "pricing",
+    "select",
+    "sidebar",
+    "stats",
+    "switch",
+    "table",
+    "team",
+    "testimonials",
+    "timeline",
+    "toast"
+  ],
+  "variants": {
+    "features": [
+      "steps"
+    ]
+  },
+  "keywords": [
+    "landing page",
+    "landing page inspiration",
+    "landing page design",
+    "component library",
+    "section library",
+    "tailwind",
+    "webflow",
+    "figma",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "footer",
+    "cta",
+    "design reference",
+    "website template",
+    "saas landing page",
+    "screenshot",
+    "mcp"
+  ],
+  "contains": [
+    "961 sites in the landing page gallery",
+    "section counts include Feature 1009, Hero 469, Footer 397, Header 390",
+    "library of 800+ components and sections for Tailwind, Webflow and Figma",
+    "filters: industry (SaaS, product, business …) and colour",
+    "All Access Pass: $1.99/week or $59 lifetime",
+    "MCP access for AI agents: 1,000 requests/day (paid)"
+  ],
+  "formats": [
+    "screenshots",
+    "links",
+    "code",
+    "figma-file",
+    "templates",
+    "api"
+  ],
+  "stack": [
+    "tailwind"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

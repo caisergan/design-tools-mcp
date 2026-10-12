@@ -1,0 +1,22 @@
+{
+  "id": "vercel-com-changelog-introducing-platform-elements",
+  "url": "https://vercel.com/changelog/introducing-platform-elements",
+  "kind": "page",
+  "hints_hash": "eb2a695c4e7858f4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vercel.com/changelog/introducing-platform-elements", "title": "Introducing Platform Elements - Vercel", "status": null}
+  ],
+  "status": "ok",
+  "name": "Introducing Platform Elements",
+  "summary": "Vercel changelog post introducing Platform Elements: prebuilt shadcn/ui blocks and actions for platform features.",
+  "description": "A Vercel changelog entry (5 Dec 2025) announcing Platform Elements, part of the Vercel for Platforms product: a library of production-ready shadcn/ui components and actions you drop into your app. It lists the blocks (custom-domain, deploy-popover, dns-table, claim-deployment, report-abuse) and actions (add-custom-domain, deploy-files), the Vercel Platforms CLI install and quickstarts for multi-tenant and multi-project platforms.",
+  "elements": ["popover", "table", "form"],
+  "keywords": ["shadcn", "shadcn ui", "custom domain", "dns", "dns table", "deployment", "abuse report", "multi-tenant", "platform", "vercel", "component", "block", "action", "next.js", "cli"],
+  "contains": ["Introduces Platform Elements from the Vercel for Platforms product", "Blocks: custom-domain, deploy-popover, dns-table, claim-deployment, report-abuse", "Actions: add-custom-domain, deploy-files", "Install with the Vercel Platforms CLI", "Quickstarts for multi-tenant and multi-project platforms", "Published 5 Dec 2025"],
+  "formats": ["code", "cli", "docs"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "vercel-com"},
+  "confidence": 0.85
+}

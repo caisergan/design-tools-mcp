@@ -1,0 +1,134 @@
+{
+  "id": "buouui-com",
+  "url": "https://buouui.com",
+  "kind": "site",
+  "hints_hash": "dbd3f8f70c18b5f6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://buouui.com",
+      "title": "BuouUI - React & Tailwind CSS Animated UI Components and Templates",
+      "status": null
+    },
+    {
+      "url": "https://buouui.com/docs",
+      "title": "Animations UI library Preview | BuouUI",
+      "status": null
+    },
+    {
+      "url": "https://buouui.com/sections",
+      "title": "Sections | BuouUI",
+      "status": null
+    },
+    {
+      "url": "https://buouui.com/pricing",
+      "title": "Pricing | BuouUI",
+      "status": 200
+    },
+    {
+      "url": "https://buouui.com/about",
+      "title": "About Us | BuouUI",
+      "status": null
+    },
+    {
+      "url": "https://buouui.com/license",
+      "title": "License | BuouUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "BuouUI",
+  "summary": "Tailwind CSS UI library of 100+ animated React components, landing page sections and Next.js templates, built with Framer Motion.",
+  "description": "Animated React and Tailwind CSS components, page sections and landing page templates you copy into a project, built with TypeScript, Framer Motion and shadcn/ui. The docs cover 100+ animations and components (backgrounds, buttons, cards, forms, calendars) plus sections such as hero, FAQ, pricing, testimonials, CTA, stats, team, header and footer, and 11 landing page designs. Full source code, starter kits (BuouNext, BuouStore, BuouAI) and an MCP server come with paid plans.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "stats",
+    "team",
+    "contact",
+    "card",
+    "button",
+    "form",
+    "input",
+    "badge",
+    "tabs",
+    "avatar",
+    "background",
+    "calendar",
+    "3d",
+    "bento-grid",
+    "dock",
+    "stepper",
+    "select",
+    "popover"
+  ],
+  "keywords": [
+    "animated component",
+    "react component",
+    "tailwind css",
+    "framer motion",
+    "shadcn ui",
+    "ui library",
+    "landing page section",
+    "next.js template",
+    "copy paste component",
+    "landing page template",
+    "dark mode",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "faq section",
+    "mcp server",
+    "starter kit",
+    "ecommerce template",
+    "blog template"
+  ],
+  "contains": [
+    "100+ animated components (backgrounds, buttons, cards, forms, calendars)",
+    "sections: hero, FAQ, header, footer, contact, features, testimonials, CTA, stats, team, pricing, blog",
+    "11 landing page templates, from Brutal Retro and Pixel Retro to GPT, SEO and E-commerce",
+    "Next.js starter kits: BuouNext, BuouStore, BuouAI",
+    "SupaUI MCP server, 167 docs pages",
+    "plans: $9.9/month, $79 lifetime, $189 all bundle"
+  ],
+  "formats": [
+    "code",
+    "templates",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion",
+    "nextjs"
+  ],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://buouui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

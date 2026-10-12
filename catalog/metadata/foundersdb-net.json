@@ -1,0 +1,28 @@
+{
+  "id": "foundersdb-net",
+  "url": "https://foundersdb.net",
+  "kind": "site",
+  "hints_hash": "1db0802f17934536",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://foundersdb.net", "title": "FoundersDB", "status": null},
+    {"url": "https://foundersdb.net/", "title": "FoundersDB", "status": 200}
+  ],
+  "status": "ok",
+  "name": "FoundersDB",
+  "summary": "Case-study database of profitable SaaS and apps with revenue figures, growth tactics and P&L details from real founders.",
+  "description": "A database of 1,500+ startup case studies with verified revenue data ($25K average), growth tactics, pricing strategy and real P&L data, browsable by category (SaaS, AI tools, no-code, agency) and by app — Outrank.so ($250k+ MRR), Jenni.ai, Cal AI, Vonu and others — with founder stories such as Marc Lou, David Park and Tibo. Full access requires an account; the site also offers a newsletter.",
+  "type": "directory",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["case study", "startup case study", "saas", "revenue", "mrr", "arr", "growth", "monetization", "pricing strategy", "p&l", "indie hacker", "founder", "no-code", "ai tool", "validated idea", "app business", "market research"],
+  "contains": ["1,500+ case studies", "$25K average revenue, verified data", "2K+ founders", "categories: SaaS, AI tools, no-code, agency", "featured apps: Outrank.so ($250k+ MRR), Jenni.ai, Cal AI, Vonu", "login required for full access"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

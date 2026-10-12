@@ -1,0 +1,24 @@
+{
+  "id": "movingicons-dev-icons",
+  "url": "https://movingicons.dev/icons",
+  "kind": "page",
+  "hints_hash": "29d70000383bc62d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://movingicons.dev/icons", "title": "moving icons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "moving icons",
+  "summary": "Animated icon set for Svelte, distributed as shadcn registry items and installed with the shadcn CLI.",
+  "description": "Animated icons built for Svelte. The collection is distributed through the shadcn registry, so icons can be added piece by piece with the shadcn CLI.",
+  "type": "icon-set",
+  "elements": [],
+  "keywords": ["animated icon", "moving icon", "svelte", "svelte icon", "icon set", "icon library", "animated svg", "shadcn", "shadcn registry", "motion"],
+  "contains": ["555 shadcn registry items", "built for Svelte by @jis3r"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["svelte"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

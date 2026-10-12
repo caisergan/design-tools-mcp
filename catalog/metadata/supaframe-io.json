@@ -1,0 +1,96 @@
+{
+  "id": "supaframe-io",
+  "url": "https://supaframe.io",
+  "kind": "site",
+  "hints_hash": "5230c38512af5dfe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://supaframe.io",
+      "title": "Supaframe — Collect Leads, Bookings & Customer Data in One Dashboard",
+      "status": null
+    },
+    {
+      "url": "https://supaframe.io/components",
+      "title": "Embeddable Website Components & Dashboard — Supaframe",
+      "status": null
+    },
+    {
+      "url": "https://supaframe.io/docs/welcome-to-supaframe",
+      "title": "Welcome to Supaframe - Supaframe",
+      "status": null
+    },
+    {
+      "url": "https://supaframe.io/pricing",
+      "title": "Pricing - Supaframe",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Supaframe",
+  "summary": "Embeddable website components — booking, chat, testimonials, contact, poll, email collector — with one dashboard.",
+  "description": "No-code component templates you embed into Framer, Webflow or custom sites to collect bookings, leads and customer data, managed from a single dashboard; integrations and webhooks (Slack, Jira, ClickUp, Notion, Stripe, PayPal).",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "form",
+    "chat",
+    "dashboard",
+    "modal",
+    "calendar",
+    "testimonials"
+  ],
+  "keywords": [
+    "embeddable widget",
+    "booking widget",
+    "appointment booking",
+    "framer component",
+    "framer template",
+    "waitlist form",
+    "contact form",
+    "poll",
+    "testimonials",
+    "chat widget",
+    "lead capture",
+    "crm",
+    "no-code",
+    "stripe",
+    "webhook",
+    "webflow"
+  ],
+  "contains": [
+    "6 embeddable components: booking, chat, testimonial, contact, poll, email collector",
+    "native Framer code component plus embeds for Webflow and custom sites",
+    "single dashboard for bookings, leads and chats",
+    "integrations: Slack, Jira, ClickUp, Notion, Stripe, PayPal, webhooks",
+    "free ready-made Framer templates",
+    "13 docs pages"
+  ],
+  "formats": [
+    "code",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "framer"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://supaframe.io/docs/welcome-to-supaframe",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

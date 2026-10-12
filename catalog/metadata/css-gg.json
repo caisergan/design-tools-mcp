@@ -1,0 +1,29 @@
+{
+  "id": "css-gg",
+  "url": "https://css.gg",
+  "kind": "site",
+  "hints_hash": "059f988a8d08bf6f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:46:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://css.gg", "title": "CSS＊GG • The CSS Icon Library", "status": null},
+    {"url": "https://github.com/astrit/css.gg", "title": "GitHub - astrit/css.gg: 700+ Pure CSS, SVG & Figma UI Icons, 6000+ glyphs, patterns, colors and layouts.", "status": 200},
+    {"url": "https://github.com/astrit/css.gg/blob/main/LICENSE.md", "title": "css.gg/LICENSE.md at main · astrit/css.gg · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "css.gg",
+  "summary": "Icon library of 700+ icons drawn in pure CSS and SVG, plus 6000+ glyphs, patterns, colors and layouts.",
+  "description": "A CSS-first icon library: icons are drawn in pure CSS, with SVG and Figma UI icon versions available. The project also ships npm packages, an API/JSON feed and a Raycast extension, and newer versions add a browsable collection of 6000+ glyphs, patterns, colors and layouts. Licensed MIT up to v2.1.2, after which a custom agreement applies (attribution required, no derivatives, commercial use needs permission).",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon library", "css icon", "pure css", "svg icon", "icon pack", "figma icon", "glyph", "pattern", "color", "layout", "npm", "api", "json", "raycast", "retina", "copy paste", "ui icon"],
+  "contains": ["700+ icons drawn in pure CSS", "SVG and Figma UI icon versions", "6000+ glyphs, patterns, colors and layouts collection", "npm package, API/JSON and Raycast extension", "license: MIT before v2.1.2, custom terms after", "10.1k GitHub stars"],
+  "formats": ["svg", "code", "npm-package", "figma-file", "api"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": "https://github.com/astrit/css.gg", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

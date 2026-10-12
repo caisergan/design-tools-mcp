@@ -1,0 +1,77 @@
+{
+  "id": "motion-primitives-com-docs-infinite-slider",
+  "url": "https://motion-primitives.com/docs/infinite-slider",
+  "kind": "page",
+  "hints_hash": "7b13d961bdd7a221",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://motion-primitives.com/docs/infinite-slider",
+      "title": "Infinite Slider - Motion-Primitives",
+      "status": 200
+    },
+    {
+      "url": "https://motion-primitives.com/docs/installation",
+      "title": "Installation - Motion-Primitives",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Infinite Slider",
+  "summary": "Animated infinite-looping slider component for React, horizontal or vertical, with speed and hover-speed props.",
+  "description": "Docs page for the InfiniteSlider component of Motion-Primitives: an infinite scrolling slider that smoothly loops through its children, in horizontal or vertical direction, with gap, speed and speed-on-hover props. It ships basic, hover-speed and vertical examples, installation instructions (Tailwind CSS, Motion, Lucide icons, or copying the code by hand) and the component API.",
+  "elements": [
+    "carousel",
+    "marquee"
+  ],
+  "keywords": [
+    "infinite slider",
+    "marquee",
+    "carousel",
+    "scrolling animation",
+    "loop slider",
+    "react component",
+    "tailwind css",
+    "motion",
+    "motion primitive",
+    "logo marquee",
+    "vertical slider",
+    "animated component",
+    "hover speed"
+  ],
+  "contains": [
+    "infinite scrolling slider that loops its children",
+    "horizontal and vertical directions",
+    "gap, speed and speed-on-hover props",
+    "demos: basic, hover speed, vertical",
+    "installed by command or by copying the code",
+    "built for React, Next.js and Tailwind CSS"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "motion-primitives-com"
+  },
+  "confidence": 0.85
+}

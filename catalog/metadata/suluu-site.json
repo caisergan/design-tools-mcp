@@ -1,0 +1,117 @@
+{
+  "id": "suluu-site",
+  "url": "https://suluu.site",
+  "kind": "site",
+  "hints_hash": "b93f2930a8757d1b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://suluu.site",
+      "title": "Suluu — Animated React components",
+      "status": null
+    },
+    {
+      "url": "https://suluu.site/components",
+      "title": "Components — Suluu",
+      "status": null
+    },
+    {
+      "url": "https://suluu.site/components/magnet-pull",
+      "title": "MagnetPull — Suluu",
+      "status": null
+    },
+    {
+      "url": "https://suluu.site/components/toast",
+      "title": "Toaster — Suluu",
+      "status": null
+    },
+    {
+      "url": "https://suluu.site/components/otp-input",
+      "title": "OtpInput — Suluu",
+      "status": null
+    },
+    {
+      "url": "https://suluu.site/sitemap.xml",
+      "title": "",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Suluu",
+  "summary": "16 minimal animated React components, installed one at a time through the shadcn CLI registry or an npm package.",
+  "description": "A deliberately small library of expressive React primitives — buttons, switches, tabs, inputs, a time picker, a toast deck, a card — grouped as surfaces, buttons, forms, navigation, feedback and data display. Each one installs through the shadcn CLI from suluu.site/r/*.json or the optional suluu npm package, and arrives as readable TypeScript and Tailwind with reduced-motion support.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "button",
+    "input",
+    "switch",
+    "slider",
+    "tabs",
+    "otp-input",
+    "date-picker",
+    "toast",
+    "card"
+  ],
+  "keywords": [
+    "animated component",
+    "react component",
+    "motion",
+    "spring animation",
+    "micro interaction",
+    "shadcn",
+    "shadcn registry",
+    "copy paste component",
+    "typescript",
+    "tailwind",
+    "npm package",
+    "switch",
+    "theme toggle",
+    "tabs",
+    "otp input",
+    "time picker",
+    "toast",
+    "card",
+    "search field",
+    "reduced motion",
+    "accessible component"
+  ],
+  "contains": [
+    "16 animated React components",
+    "install via the shadcn CLI registry (suluu.site/r/*.json) or the optional suluu npm package",
+    "groups: surfaces, buttons, forms, navigation, feedback, data display",
+    "built on Motion with Tailwind classes",
+    "open source (v0.2.0) with reduced-motion support"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": "suluu",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

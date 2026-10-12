@@ -1,0 +1,39 @@
+{
+  "id": "myfonts-com",
+  "url": "https://myfonts.com",
+  "kind": "site",
+  "hints_hash": "62e2cdd59a0505fd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://myfonts.com/llms.txt", "title": "llms.txt for MyFonts.com", "status": null},
+    {"url": "https://myfonts.com", "title": "MyFonts | Buy and Download Fonts", "status": 200},
+    {"url": "https://www.myfonts.com/collections/best-seller", "title": "Bestsellers Fonts | MyFonts", "status": 200},
+    {"url": "https://www.myfonts.com/collections/bundles", "title": "Font Bundles | MyFonts", "status": 200},
+    {"url": "https://www.myfonts.com/collections/hot-new-fonts", "title": "Hot New Fonts | MyFonts", "status": 200},
+    {"url": "https://www.myfonts.com/collections/special-offers", "title": "Fonts for Sale | MyFonts", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MyFonts",
+  "summary": "Commercial font marketplace selling 400,000+ desktop and web fonts from independent foundries.",
+  "description": "MyFonts is a commercial font marketplace where individual styles, family packages and bundles are bought with desktop, webfont, mobile app, e-document and digital ad/email licenses. Fonts are browsable by category (serif, sans serif, slab serif, script, display, handwritten) and refined with tag, foundry and designer search, and curated collections cover bestsellers, new releases, hot new fonts and special offers. The WhatTheFont tool identifies fonts from an uploaded image on web, iOS and Android.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["font marketplace", "buy font", "webfont", "desktop font", "font family", "typeface", "font bundle", "font foundry", "font license", "commercial license", "serif font", "sans serif font", "script font", "display font", "handwritten font", "font identification", "typography", "font sale"],
+  "contains": [
+    "400,000+ fonts for sale as single styles, family packages and bundles",
+    "collections: bestsellers (top 50, hourly), hot new fonts (last 50 days), bundles, special offers",
+    "browse by category and tag: serif, sans serif, slab serif, script, display, handwritten",
+    "license types: desktop, web font, mobile application, electronic document, digital ad/email",
+    "WhatTheFont identifies fonts from an uploaded image (web, iOS and Android)",
+    "localised in English, German, Spanish, French and Portuguese (Brazil)"
+  ],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

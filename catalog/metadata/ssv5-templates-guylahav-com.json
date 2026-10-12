@@ -1,0 +1,34 @@
+{
+  "id": "ssv5-templates-guylahav-com",
+  "url": "https://ssv5.templates.guylahav.com",
+  "kind": "site",
+  "hints_hash": "b7a4a52446222e62",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ssv5.templates.guylahav.com", "title": "My Brand", "status": null}
+  ],
+  "status": "ok",
+  "name": "SvelteKit + shadcn-svelte Template",
+  "summary": "Full-stack SvelteKit starter with shadcn-svelte, Drizzle + PostgreSQL, better-auth, i18n and an app shell.",
+  "description": "Production-ready SvelteKit application template with a responsive app shell, better-auth (OAuth + email/password), Drizzle ORM on PostgreSQL, dark/light theme switching, internationalization (English/Hebrew), cookie management, SEO components and policy pages. bun scripts scaffold pages, markdown files, database migrations and API controllers.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["sidebar", "form", "input", "button"],
+  "keywords": ["sveltekit", "svelte", "shadcn-svelte", "starter", "template", "better-auth", "drizzle orm", "postgresql", "i18n", "rtl", "dark mode", "app shell", "sidebar", "tailwind css", "typescript", "authentication", "full stack", "seo", "cookie consent", "crud"],
+  "contains": [
+    "tech: SvelteKit, shadcn-svelte, Tailwind CSS v4, TypeScript, better-auth, PostgreSQL + Drizzle ORM",
+    "app shell, theme switching, i18n (English/Hebrew), cookie management",
+    "SEO components, sitemap.xml and robots.txt",
+    "policy pages: privacy, terms, cookies, accessibility statement",
+    "bun scripts: create:page, create:md, create:api-controller, db:migrate, tests",
+    "roadmap: layout variants, CLI tooling, data table, accessibility tools"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["svelte", "tailwind", "typescript", "drizzle", "better-auth"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

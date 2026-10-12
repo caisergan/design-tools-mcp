@@ -1,0 +1,24 @@
+{
+  "id": "someflex-be-blog-claude-design-visuals-huisstijl",
+  "url": "https://someflex.be/blog/claude-design-visuals-huisstijl",
+  "kind": "page",
+  "hints_hash": "6404b7c8599394d2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://someflex.be/blog/claude-design-visuals-huisstijl", "title": "Claude Design: visuals in je huisstijl zonder designer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude Design: flyers, slides en visuals in je huisstijl, zonder designer",
+  "summary": "Dutch blog article on Claude Design: what it makes, what it costs and the 12 video lessons that go with it.",
+  "description": "A Dutch-language article introducing Claude Design, Anthropic's design workspace at claude.ai/design where you chat to produce flyers, slides, landing pages, social visuals and mockups. It walks through the three-step workflow (set up a design system, describe the ask, refine), where the tool sits in Claude's Pro, Max, Team and Enterprise plans, how it compares with Canva, and what the 12 Someflex video lessons cover.",
+  "type": "article",
+  "categories": ["design-tools", "learning"],
+  "keywords": ["claude design", "anthropic", "ai design", "flyer", "presentation", "social visual", "landing page", "design system", "brand style", "canva", "video lesson", "marketing"],
+  "contains": ["explains the chat + canvas workflow with a reusable design system", "pricing: included in paid Claude plans (Pro, Max, Team, Enterprise), no free version", "comparison table Claude Design vs Canva", "12 Someflex video lessons built around a coffee-roastery case"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

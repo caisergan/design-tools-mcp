@@ -1,0 +1,101 @@
+{
+  "id": "great-ui-com",
+  "url": "https://great-ui.com",
+  "kind": "site",
+  "hints_hash": "00d1c2d821288aa6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.great-ui.com/",
+      "title": "Great UI - Accessible React & Tailwind Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.great-ui.com/components",
+      "title": "Components | Great UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Saurabh-2607/GreatUI",
+      "title": "GitHub - Saurabh-2607/GreatUI: Beautiful, animated React components built with TypeScript, Tailwind CSS, and Motion.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Great UI",
+  "summary": "Fifty copy-paste React components with Tailwind CSS and Motion: transitions, text effects, cards and buttons.",
+  "description": "Collection of 50 production-ready, WAI-ARIA accessible React components built with TypeScript, Tailwind CSS v4 and Motion, covering social cards, visuals, typography, page and theme transitions, buttons and layout blocks. Copy the source or install from its shadcn registry; MIT licensed and free.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "card",
+    "button",
+    "marquee",
+    "avatar",
+    "accordion",
+    "timeline",
+    "team",
+    "dock",
+    "loader",
+    "list",
+    "text-effect",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "react component",
+    "tailwind",
+    "copy paste",
+    "animated component",
+    "page transition",
+    "theme transition",
+    "dark mode",
+    "text animation",
+    "social card",
+    "dock menu",
+    "accordion",
+    "timeline",
+    "avatar stack",
+    "motion",
+    "accessible component",
+    "ui kit",
+    "shadcn registry"
+  ],
+  "contains": [
+    "50 copy-paste React components",
+    "sections: social cards, visuals, typography, page transitions, theme transitions, buttons, layout & cards",
+    "shadcn registry with 49 items",
+    "built with TypeScript, Tailwind CSS v4 and Motion",
+    "WAI-ARIA accessible, light and dark modes",
+    "MIT licensed, 268 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Saurabh-2607/GreatUI",
+    "docs": "https://www.great-ui.com/components",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

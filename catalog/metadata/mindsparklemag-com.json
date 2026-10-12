@@ -1,0 +1,94 @@
+{
+  "id": "mindsparklemag-com",
+  "url": "https://mindsparklemag.com",
+  "kind": "site",
+  "hints_hash": "9a8c934caaf9b6b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mindsparklemag.com",
+      "title": "Homepage - Mindsparkle Mag | Design Inspiration",
+      "status": 200
+    },
+    {
+      "url": "https://mindsparklemag.com/categories/3d",
+      "title": "3D | Mindsparkle Mag",
+      "status": 200
+    },
+    {
+      "url": "https://mindsparklemag.com/pro",
+      "title": "Mindsparkle Pro | Join the Pros & Access Premium Features",
+      "status": 200
+    },
+    {
+      "url": "https://mindsparklemag.com/about",
+      "title": "About MindsparkleMag - Our Story & Mission",
+      "status": 200
+    },
+    {
+      "url": "https://mindsparklemag.com/categories/app",
+      "title": "App & Mobile Website Design Inspiration | Mindsparkle Mag",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Mindsparkle Mag",
+  "summary": "Magazine-style design inspiration: curated branding, web design, packaging and motion projects with case studies, interviews and jobs.",
+  "description": "A design magazine running since 2014, curating graphic design, web design, branding, motion, 3D and photography projects with tags and often behind-the-scenes insights. Sections include Stories interviews, Top 10 roundups, a jobs board and a studio directory. Browsing is free, while Plus and Pro memberships add extended insights and studio visibility.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "design inspiration",
+    "branding",
+    "graphic design",
+    "web design",
+    "packaging design",
+    "type design",
+    "motion design",
+    "3d design",
+    "case study",
+    "behind the scene",
+    "interview",
+    "design magazine",
+    "design job",
+    "design directory",
+    "portfolio website",
+    "e-commerce website",
+    "product design",
+    "illustration"
+  ],
+  "contains": [
+    "9,307 URLs in the site sitemap",
+    "categories: graphic design, web design, design agency, product, portfolio, packaging, type design, motion, 3D, app",
+    "case studies with behind-the-scenes insights (BTS)",
+    "interviews (Stories) and Top 10 roundups",
+    "jobs board and freelancer/studio directory",
+    "weekly Sparkle*News newsletter",
+    "Plus and Pro memberships, Pro from €8/month billed yearly"
+  ],
+  "formats": [
+    "links",
+    "screenshots"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

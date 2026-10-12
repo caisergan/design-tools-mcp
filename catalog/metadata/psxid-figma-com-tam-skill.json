@@ -1,0 +1,27 @@
+{
+  "id": "psxid-figma-com-tam-skill",
+  "url": "https://psxid.figma.com/tam_skill",
+  "kind": "page",
+  "hints_hash": "6e86f789983de3ad",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://psxid.figma.com/tam_skill", "title": "spacing-audit | Figma", "status": null},
+    {"url": "https://www.figma.com/community/skill/70410/spacing-audit", "title": "spacing-audit | Figma", "status": 200}
+  ],
+  "status": "partial",
+  "name": "spacing-audit",
+  "summary": "Figma skill that audits a layout against a 4/8pt spacing system and flags or fixes off-grid padding, gaps and margins.",
+  "description": "A Figma community skill for spacing audits: it checks padding, gaps and margins against a 4/8pt grid and flags or fixes values that are off the grid. The listing says to use it when spacing looks inconsistent, before developer handoff, or when tightening a design system.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "design-tools"],
+  "elements": [],
+  "keywords": ["figma", "figma skill", "agent skill", "spacing", "8pt grid", "4pt grid", "design system", "padding", "gap", "margin", "layout audit", "developer handoff", "design review"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": "https://www.figma.com/community/skill/70410/spacing-audit", "parent": null},
+  "confidence": 0.6
+}

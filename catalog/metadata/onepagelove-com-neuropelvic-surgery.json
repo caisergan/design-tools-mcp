@@ -1,0 +1,25 @@
+{
+  "id": "onepagelove-com-neuropelvic-surgery",
+  "url": "https://onepagelove.com/neuropelvic-surgery",
+  "kind": "page",
+  "hints_hash": "317720e807ad4796",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/neuropelvic-surgery", "title": "Neuropelvic Surgery — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Neuropelvic Surgery",
+  "summary": "Informational one-pager for a women's pelvic health and surgery practice, featured on One Page Love.",
+  "description": "One Page Love award entry for Neuropelvic Surgery, an informational one-pager for a practice offering pelvic health treatments and surgical solutions for women. Sections: CTA hero, how it works, manifesto, FAQ accordion, CTA footer and footer. Built on WordPress with GSAP, corporate style, white, Aspekta typeface.",
+  "type": "gallery",
+  "elements": ["hero", "cta", "features", "faq", "footer"],
+  "variants": {"faq": ["accordion"], "footer": ["with-cta"]},
+  "keywords": ["one page website", "one pager", "landing page", "healthcare", "medical website", "surgery", "wordpress", "gsap", "faq accordion", "hero cta", "corporate design", "web design inspiration"],
+  "contains": ["informational one-pager for pelvic health treatments and surgery", "sections: CTA hero, how it works, manifesto, FAQ accordion, CTA footer, footer", "platform: WordPress; tech: GSAP", "typeface: Aspekta; style: corporate, white", "published 24 Jun 2026", "spotlighted in One Page Love's Love Letter #90"],
+  "formats": ["screenshots", "links"],
+  "stack": ["wordpress", "gsap"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.9
+}

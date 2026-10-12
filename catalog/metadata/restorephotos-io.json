@@ -1,0 +1,68 @@
+{
+  "id": "restorephotos-io",
+  "url": "https://restorephotos.io",
+  "kind": "site",
+  "hints_hash": "bb4150914e3f598f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:25:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://restorephotos.io",
+      "title": "Face Photo Restorer",
+      "status": null
+    },
+    {
+      "url": "https://www.restorephotos.io/pricing",
+      "title": "restorePhotos.io",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "restorePhotos.io",
+  "summary": "AI service that restores old, blurry face photos; free to use, with credit packs for more restores.",
+  "description": "Upload an old or blurry face photo and an AI model restores it, shown with original/restored examples. The site claims 869,000+ users and says restoring is 100% free, while also selling RestorePhotos credit packs for further restores.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "photo restoration",
+    "ai photo restore",
+    "old photo",
+    "blurry photo",
+    "face photo",
+    "photo repair",
+    "image restoration",
+    "photo enhancer",
+    "ai image tool",
+    "restore photo",
+    "photo memory",
+    "free photo restore"
+  ],
+  "contains": [
+    "AI restoration of old or blurry face photos",
+    "original/restored comparison on the homepage",
+    "869,000+ users claimed",
+    "restoring advertised as 100% free",
+    "credit packs sold on the pricing page",
+    "promo code BF60: 60% off plans"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

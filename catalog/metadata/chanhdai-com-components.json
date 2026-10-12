@@ -1,0 +1,97 @@
+{
+  "id": "chanhdai-com-components",
+  "url": "https://chanhdai.com/components",
+  "kind": "page",
+  "hints_hash": "c697e409f7ff940f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://chanhdai.com/components",
+      "title": "Components – Chánh Đại",
+      "status": null
+    },
+    {
+      "url": "https://chanhdai.com/llms.txt",
+      "title": "chanhdai.com",
+      "status": 200
+    },
+    {
+      "url": "https://chanhdai.com/components.md",
+      "title": "Components",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Components – Chánh Đại",
+  "summary": "42 copy-paste React components for shadcn/ui: carousels, text effects, menus, testimonials and more, installed via the shadcn CLI.",
+  "description": "A registry of React components for Next.js and Tailwind CSS in the shadcn/ui style: carousels, text effects, menus, theme switchers, testimonials and more. Each component has Markdown documentation and installs with the shadcn CLI (npx shadcn@latest add @ncdai/<name>); all are free to copy.",
+  "type": "component-library",
+  "elements": [
+    "carousel",
+    "slider",
+    "marquee",
+    "text-effect",
+    "scroll-effect",
+    "testimonials",
+    "background",
+    "banner",
+    "button",
+    "dropdown",
+    "card"
+  ],
+  "keywords": [
+    "shadcn",
+    "registry",
+    "react",
+    "nextjs",
+    "tailwind",
+    "copy-paste",
+    "component",
+    "cli",
+    "carousel",
+    "text effect",
+    "marquee",
+    "slider",
+    "testimonials",
+    "theme switcher",
+    "banner",
+    "card",
+    "button",
+    "menu",
+    "markdown docs",
+    "free"
+  ],
+  "contains": [
+    "42 components",
+    "install with npx shadcn@latest add @ncdai/<name>",
+    "component docs available as Markdown",
+    "free to copy",
+    "67 shadcn registry items in total"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "chanhdai-com"
+  },
+  "confidence": 0.85
+}

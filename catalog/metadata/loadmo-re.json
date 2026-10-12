@@ -1,0 +1,82 @@
+{
+  "id": "loadmo-re",
+  "url": "https://loadmo.re",
+  "kind": "site",
+  "hints_hash": "a6175a5ace9eeb4e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://loadmo.re",
+      "title": "loadmo.re — Mobile Web Design Archive by Kim Boutin",
+      "status": 200
+    },
+    {
+      "url": "https://loadmo.re/about",
+      "title": "loadmo.re — Mobile Web Design Archive by Kim Boutin",
+      "status": 200
+    },
+    {
+      "url": "https://loadmo.re/posts/sabrina-zeltner",
+      "title": "Sabrina Zeltner – Mobile Design Inspiration | Loadmo.re",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "loadmo.re",
+  "summary": "Curated archive of distinctive, experimental mobile websites, browsable by tags like 3D, editorial and net art.",
+  "description": "A mobile web design archive by Kim Lê Boutin, launched in 2021, collecting websites that explore alternative, non-obvious approaches to mobile-first design. Each entry has a cover, a one-line description, tags and a link to the live site.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "mobile web design",
+    "mobile website",
+    "web design inspiration",
+    "gallery",
+    "archive",
+    "experimental",
+    "brutalist",
+    "net art",
+    "editorial",
+    "animation",
+    "micro interaction",
+    "3d",
+    "portfolio",
+    "e-commerce",
+    "immersive",
+    "typography",
+    "sound design",
+    "design reference"
+  ],
+  "contains": [
+    "curated archive of mobile websites, launched 2021 by Kim Lê Boutin",
+    "tag filters: 3D, animation, brutalist, e-commerce, editorial, fashion, immersive, music, net art, typography, video",
+    "featured picks on the homepage",
+    "each entry: cover image, one-line description, tags, date added and a link to the live site",
+    "newsletter digest of new additions",
+    "submit a website form"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

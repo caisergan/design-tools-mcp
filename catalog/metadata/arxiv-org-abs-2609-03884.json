@@ -1,0 +1,21 @@
+{
+  "id": "arxiv-org-abs-2609-03884",
+  "url": "https://arxiv.org/abs/2609.03884",
+  "kind": "page",
+  "hints_hash": "ff632ccc6fcb9421",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://arxiv.org/abs/2609.03884", "title": "[2609.03884] A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors", "status": null},
+    {"url": "https://arxiv.org/html/2609.03884v2", "title": "A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors", "status": 200}
+  ],
+  "status": "ok",
+  "name": "A Blind Trust, the Bloody Thrust",
+  "summary": "arXiv security paper on HookPry, an attack that trojanizes agent plugins through trusted lifecycle-hook updates to run attacker commands.",
+  "description": "Lifecycle hooks bind shell commands to AI agent runtime events and run with host privileges outside the model's decision path; the paper identifies this update path as a supply-chain attack surface. HookPry combines adversarial manifest optimization, temporal decoupling and a least-common-interface compiler, compromising all seven tested harnesses (up to 92.5% success across 1,000 runs) while Microsoft Defender scored 0% recall.",
+  "type": "article",
+  "keywords": ["arxiv", "paper", "ai agent", "agent harness", "lifecycle hook", "supply chain attack", "security research", "privilege escalation", "plugin", "mcp", "threat model", "coding agent", "malware", "vulnerability"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

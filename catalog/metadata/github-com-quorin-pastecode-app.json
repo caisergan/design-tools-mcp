@@ -1,0 +1,28 @@
+{
+  "id": "github-com-quorin-pastecode-app",
+  "url": "https://github.com/Quorin/PasteCode.app",
+  "kind": "repo",
+  "hints_hash": "746a442dc9dc62fd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:15:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Quorin/PasteCode.app/blob/HEAD/README.md", "title": "PasteCode", "status": 200},
+    {"url": "https://github.com/Quorin/PasteCode.app", "title": "GitHub - Quorin/PasteCode.app: Pastebin alternative built with Typescript, Next.js, Drizzle, Shadcn, RSC", "status": 200}
+  ],
+  "status": "ok",
+  "name": "PasteCode",
+  "summary": "Pastebin alternative for sharing and saving text and code, built with Next.js Server Components and shadcn/ui.",
+  "description": "A pastebin-style web app for sharing and saving text and code snippets. The stack is TypeScript, Next.js with React Server Components, shadcn/ui and TailwindCSS, with Drizzle ORM over NeonDB, oRPC for the API layer and Shiki for syntax highlighting. MIT licensed, with a hosted demo at pastecodeapp.vercel.app.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["input"],
+  "keywords": ["pastebin", "code sharing", "snippet", "paste", "text sharing", "nextjs", "shadcn ui", "drizzle orm", "shiki", "rsc", "typescript", "neondb"],
+  "contains": ["share and save text and code pastes", "built with TypeScript, Next.js (RSC), shadcn/ui and TailwindCSS", "Drizzle ORM over NeonDB with an oRPC API layer", "Shiki syntax highlighting", "MIT licensed; 113 GitHub stars", "hosted demo at pastecodeapp.vercel.app"],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn-ui", "drizzle-orm", "shiki"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Quorin/PasteCode.app", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

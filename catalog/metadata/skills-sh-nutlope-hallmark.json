@@ -1,0 +1,74 @@
+{
+  "id": "skills-sh-nutlope-hallmark",
+  "url": "https://skills.sh/Nutlope/hallmark",
+  "kind": "page",
+  "hints_hash": "53483b1f042c745a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/Nutlope/hallmark",
+      "title": "nutlope/hallmark — Agent skills",
+      "status": null
+    },
+    {
+      "url": "https://www.skills.sh/nutlope/hallmark/hallmark",
+      "title": "hallmark — nutlope/hallmark",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/nutlope/hallmark",
+      "title": "GitHub - Nutlope/hallmark: Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Hallmark",
+  "summary": "Design skill for AI coding agents that builds, audits and redesigns UI without the AI-generated look.",
+  "description": "One SKILL.md for Claude Code, Cursor and Codex, installed with npx skills add or copied into the agent's skills folder. A build mode picks a macrostructure and one of twenty-one themes, runs fifty-seven slop-test gates plus a pre-emit self-critique, and refuses template defaults; audit scores existing code, redesign rebuilds the structure while keeping copy and brand, and study extracts macrostructure, type pairing and colour anchor from a URL or screenshot, optionally emitting a design.md for handoff.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "design skill",
+    "anti-ai-slop",
+    "ai generated ui",
+    "frontend design",
+    "ui design rule",
+    "redesign",
+    "ui audit",
+    "design extraction",
+    "design.md",
+    "landing page",
+    "theme",
+    "claude code",
+    "cursor",
+    "codex"
+  ],
+  "contains": [
+    "1 skill (hallmark)",
+    "61.3K installs on skills.sh",
+    "21 themes, four verbs, 57 slop-test gates",
+    "study mode can emit a design.md for handoff",
+    "MIT licensed"
+  ],
+  "formats": [
+    "docs",
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/nutlope/hallmark",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.9
+}

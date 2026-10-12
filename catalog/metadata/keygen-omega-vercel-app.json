@@ -1,0 +1,35 @@
+{
+  "id": "keygen-omega-vercel-app",
+  "url": "https://keygen-omega.vercel.app",
+  "kind": "site",
+  "hints_hash": "757bff9861ef27ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://keygen-omega.vercel.app", "title": "KeyGen - Random Key & Password Generator", "status": null}
+  ],
+  "status": "ok",
+  "name": "KeyGen",
+  "summary": "Client-side suite of 39 generators for passwords, API keys, encryption keys and framework secrets, run in the browser.",
+  "description": "A browser utility suite of 39 generators that run fully client-side with Web Crypto APIs: passwords, passphrases, PIN and recovery codes, API keys, JWT secrets, UUIDs, TOTP codes, test cards, framework secrets for Django, Laravel, Flask and WordPress, encryption keys (AES, RSA, HMAC), hashes, salts, SSH and PGP keys. Nothing generated is transmitted or stored.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["password generator", "api key", "passphrase", "pin code", "uuid", "jwt secret", "totp", "encryption key", "ssh key", "pgp key", "django secret key", "laravel app key", "client-side", "web crypto", "random string", "security"],
+  "contains": [
+    "39 generators in one tool index",
+    "passwords: passphrase, pronounceable, memorable, master password, bulk",
+    "developer: API keys, JWT secret, UUID, random string, TOTP/2FA, test cards",
+    "framework secrets: Django, Laravel, Flask, WordPress",
+    "encryption: AES, RSA and HMAC keys, hash and salt generators",
+    "advanced keys: SSH, PGP/GPG, WireGuard, VAPID, usernames",
+    "100% client-side with Web Crypto APIs; nothing transmitted or stored"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

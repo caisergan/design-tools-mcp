@@ -1,0 +1,32 @@
+{
+  "id": "purelanding-page",
+  "url": "https://purelanding.page",
+  "kind": "site",
+  "hints_hash": "3ffe25a7cb55c263",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://purelanding.page", "title": "Pure — Landing Page Design Inspiration", "status": null},
+    {"url": "https://purelanding.page/categories", "title": "Categories | Pure Landing Page", "status": null},
+    {"url": "https://purelanding.page/faq", "title": "FAQ - Pure — Landing Page Inspirations", "status": null},
+    {"url": "https://purelanding.page/categories/beta-landing-pages", "title": "The Best Beta Landing Page Design Inspiration | Pure Landing Page", "status": null},
+    {"url": "https://purelanding.page/categories/ebook-landing-pages", "title": "The Best eBook Landing Page Design Inspiration | Pure Landing Page", "status": null},
+    {"url": "https://purelanding.page/subscribe", "title": "Pure — Landing Page Inspiration", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pure Landing Page",
+  "summary": "Gallery of 2,500+ hand-picked landing page designs, browsable by website type, with daily new shots.",
+  "description": "Daily-updated gallery of landing page designs from live sites, curated to only the top work. Entries are grouped by website type — web app, software, single page, service, resource, physical product, personal, OS app, mobile app, infographic, eBook, community, beta and agency — and each one opens the original site. A Shots section collects design posts from X/Twitter designers; there are newsletter and submission forms.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["landing page", "landing page inspiration", "design inspiration", "website gallery", "web design showcase", "saas landing page", "app landing page", "single page website", "portfolio website", "daily inspiration", "ui inspiration", "website design example", "agency website", "ebook landing page", "beta launch page", "product landing page"],
+  "contains": ["2,500+ website images (FAQ)", "browse by website type: web app, software, single page, service, physical product, mobile app, eBook, agency", "each entry links to the live website", "Shots page collects design posts from X/Twitter", "newsletter signup and design submission form", "daily new additions"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

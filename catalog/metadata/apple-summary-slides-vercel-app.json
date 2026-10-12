@@ -1,0 +1,27 @@
+{
+  "id": "apple-summary-slides-vercel-app",
+  "url": "https://apple-summary-slides.vercel.app",
+  "kind": "site",
+  "hints_hash": "609899d8b749231a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://apple-summary-slides.vercel.app", "title": "All Slides - Apple Summary Slides | Apple Summary Slides", "status": null}
+  ],
+  "status": "ok",
+  "name": "Apple Summary Slides",
+  "summary": "Unofficial collection of Apple's bento-style summary slides from events and keynotes.",
+  "description": "An unofficial gallery of the bento-grid summary slides Apple uses to recap products at its events and WWDC keynotes. Slides are grouped by event (September events and WWDC, 2020-2026) and by product line (iPhone, Mac, AirPods, Vision, Apple Intelligence).",
+  "type": "gallery",
+  "categories": ["layout", "inspiration"],
+  "elements": ["bento-grid"],
+  "keywords": ["apple", "bento", "bento grid", "summary slide", "keynote", "apple event", "wwdc", "presentation", "slide design", "layout inspiration", "screenshot", "product slide", "grid layout", "design reference"],
+  "contains": ["34 gallery entries in the catalog index", "slides from Apple events 2020-2026", "grouped by event (WWDC, September events) and product (iPhone, Mac, AirPods, AI)", "all images are screenshots from Apple events"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,151 @@
+{
+  "id": "mynaui-com",
+  "url": "https://mynaui.com",
+  "kind": "site",
+  "hints_hash": "75a125e52df6280b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mynaui.com",
+      "title": "MynaUI - Made with TailwindCSS, shadcn/ui, Radix UI and Figma.",
+      "status": 200
+    },
+    {
+      "url": "https://mynaui.com/getting-started",
+      "title": "Getting Started - MynaUI - Made with TailwindCSS, shadcn/ui, Radix UI and Figma",
+      "status": 200
+    },
+    {
+      "url": "https://mynaui.com/icons",
+      "title": "MynaUI Icons - MynaUI - Made with TailwindCSS, shadcn/ui, Radix UI and Figma",
+      "status": 200
+    },
+    {
+      "url": "https://mynaui.com/design-system",
+      "title": "Design System - MynaUI - Made with TailwindCSS, shadcn/ui, Radix UI and Figma",
+      "status": 200
+    },
+    {
+      "url": "https://mynaui.com/copy",
+      "title": "Copybook - MynaUI - Made with TailwindCSS, shadcn/ui, Radix UI and Figma",
+      "status": 200
+    },
+    {
+      "url": "https://mynaui.com/changelog",
+      "title": "Changelog - MynaUI - Made with TailwindCSS, shadcn/ui, Radix UI and Figma",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MynaUI",
+  "summary": "Tailwind CSS and shadcn/ui UI kit: 346 React components plus a matching Figma kit and open-source icon set.",
+  "description": "Copy-paste React components built with Tailwind CSS v4, Radix UI and shadcn/ui, installed through the shadcn CLI registry. Organised into elements, forms, marketing and application pieces, each shipping as Figma and code, plus a design-token reference (colors, type, spacing, shadows) and the open-source MynaUI Icons set.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries",
+    "icons"
+  ],
+  "elements": [
+    "404",
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "banner",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "cta",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "faq",
+    "features",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "loader",
+    "logo-cloud",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "testimonials",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "shadcn ui",
+    "ui kit",
+    "tailwind css",
+    "react component",
+    "copy paste component",
+    "figma ui kit",
+    "design system",
+    "radix ui",
+    "form",
+    "marketing section",
+    "application ui",
+    "icon set",
+    "dark mode",
+    "date picker",
+    "data table",
+    "command menu",
+    "dashboard",
+    "auth form"
+  ],
+  "contains": [
+    "346 components and blocks in the shadcn registry",
+    "sections: elements, forms, marketing, application",
+    "every entry ships as Figma and code",
+    "install via shadcn CLI namespace or copy the code",
+    "design system page: colors, typography, spacing, radius, shadows, blur",
+    "MynaUI Icons: React, SVG sprites, icon font, Figma file and plugin",
+    "changelog since January 2025"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "figma-file",
+    "svg",
+    "font-files"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "shadcn-ui"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://mynaui.com/getting-started",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

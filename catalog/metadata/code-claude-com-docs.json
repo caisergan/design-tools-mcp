@@ -1,0 +1,24 @@
+{
+  "id": "code-claude-com-docs",
+  "url": "https://code.claude.com/docs",
+  "kind": "page",
+  "hints_hash": "6cf87ed1acd727b5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://code.claude.com/docs", "title": "Overview - Claude Code Docs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude Code Docs",
+  "summary": "Official Claude Code documentation: install, quickstart, features, IDE and desktop integrations.",
+  "description": "The documentation home for Claude Code, Anthropic's agentic coding tool: installation for the terminal CLI, VS Code, JetBrains, desktop app and web, plus what you can do, core concepts and links to guides, best practices and the changelog.",
+  "elements": [],
+  "keywords": ["claude code", "documentation", "docs", "agentic coding", "cli", "terminal", "ide extension", "install", "quickstart", "ai coding assistant", "reference", "developer tool"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

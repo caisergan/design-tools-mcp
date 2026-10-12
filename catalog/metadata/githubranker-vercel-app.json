@@ -1,0 +1,61 @@
+{
+  "id": "githubranker-vercel-app",
+  "url": "https://githubranker.vercel.app",
+  "kind": "site",
+  "hints_hash": "f86b2de26fb63f6c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://githubranker.vercel.app",
+      "title": "GitHub Analyzer",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "GitHub Analyzer",
+  "summary": "AI-powered tool that analyses a GitHub profile and turns developer activity into a structured report.",
+  "description": "Web app that reads a GitHub profile, measures engineering activity and finds the person's strongest career roles, then generates a professional developer report. Only the landing text could be read; the rest of the app is rendered by JavaScript.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "github analytics",
+    "github profile analyzer",
+    "github ranker",
+    "developer report",
+    "github stat",
+    "ai developer tool",
+    "engineering activity",
+    "career role matching",
+    "github intelligence",
+    "developer profile"
+  ],
+  "contains": [
+    "analyses a GitHub profile",
+    "measures engineering activity",
+    "finds strongest career roles",
+    "generates a professional developer report"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.65
+}

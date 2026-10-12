@@ -1,0 +1,35 @@
+{
+  "id": "fonts-google-com-noto-specimen-noto-sans-arabic-preview-script-arab",
+  "url": "https://fonts.google.com/noto/specimen/Noto+Sans+Arabic?preview.script=Arab",
+  "kind": "page",
+  "hints_hash": "0dd6451707b92462",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/noto/specimen/Noto+Sans+Arabic?preview.script=Arab", "title": "Noto Sans Arabic - Google Fonts", "status": null},
+    {"url": "https://fonts.google.com/metadata/fonts/Noto+Sans+Arabic", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Noto Sans Arabic",
+  "summary": "Google Fonts specimen page for Noto Sans Arabic, an unmodulated sans-serif for Arabic script with variable weight and width.",
+  "description": "Specimen page for Noto Sans Arabic on Google Fonts, part of the Noto collection for the world's scripts. An unmodulated sans-serif for Arabic-script text: 1,642 glyphs, 12 OpenType features and 1,161 characters across Arabic and Latin blocks, with 9 weights (100-900) and variable width (62.5-100). Intended for Arabic, Persian, Urdu, Pashto, Kurdish and other right-to-left languages; SIL Open Font License 1.1. The specimen page itself renders with JavaScript, so the facts come from the family's metadata.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": ["google font", "arabic font", "arabic script", "right to left", "rtl font", "sans serif", "unmodulated", "variable font", "variable width", "variable weight", "multilingual font", "urdu font", "persian font", "kurdish font", "pashto font", "webfont", "free font", "open source font", "typeface specimen", "unicode font"],
+  "contains": [
+    "1,642 glyphs, 12 OpenType features",
+    "1,161 characters from 6 Unicode blocks",
+    "9 weights (100-900) with variable width axis (62.5-100)",
+    "subsets: arabic, latin, latin-ext, math, symbols",
+    "designed by Google as part of the Noto collection",
+    "supports Arabic, Persian, Urdu, Pashto, Kurdish and many more Arabic-script languages",
+    "SIL Open Font License 1.1"
+  ],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pixlo-me",
+  "url": "https://pixlo.me",
+  "kind": "site",
+  "hints_hash": "5b051076d1d3fb78",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pixlo.me", "title": "Pixlo – Still images. Moving story.", "status": null},
+    {"url": "https://pixlo.me/pricing", "title": "Pixlo – Still images. Moving story.", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Pixlo",
+  "summary": "Web tool that turns photos into video slideshows to export for Reels, Stories and social posts.",
+  "description": "Pixlo turns photos into video slideshows: drop images, customize each slide, and export a video for Reels, Stories and social posts. Aimed at social content creators. The site is JavaScript-rendered, so only its title and description are readable and feature and pricing details are unverified.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["photo to video", "slideshow maker", "video slideshow", "reel", "story", "social media video", "content creation", "photo", "transition", "export", "video maker"],
+  "contains": ["turns photos into video slideshows", "per-slide customization", "exports video for Reels, Stories and social posts"],
+  "formats": ["app", "video"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

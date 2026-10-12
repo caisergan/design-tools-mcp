@@ -329,13 +329,27 @@ function toolSearch({ query = "", element = "", variant = "", category = "", kin
   const groups = { res: [], code: [], gallery: [], docs: [] };
   const list = collapse(ranked).slice(Number(offset) || 0);
   let taken = 0;
-  // caps keep every group visible among the strong hits (≥ half the best score); the rest goes by rank
+  // caps keep every group visible among the strong hits (≥ half the best score); the rest goes by rank.
+  // Each group's best strong hit is taken first: 70 navbar components within a few points of each other would
+  // otherwise fill the answer before the first gallery example is reached (brief 19).
   const picked = new Set();
   const strong = (list[0]?.score || 0) / 2;
+  const groupOf = (r) => (S.isItem(r.d) ? itemGroup(S.itemOf(r.d)) : "res");
+  const leaders = {};
+  for (const r of list) {
+    if (r.score < strong) break;
+    leaders[groupOf(r)] ||= r;
+  }
+  for (const r of Object.values(leaders)) {
+    if (taken >= L) break;
+    groups[groupOf(r)].push(r);
+    picked.add(r);
+    taken++;
+  }
   for (const capped of [true, false])
     for (const r of list) {
       if (taken >= L) break;
-      const g = S.isItem(r.d) ? itemGroup(S.itemOf(r.d)) : "res";
+      const g = groupOf(r);
       if (picked.has(r) || (capped && (groups[g].length >= caps[g] || r.score < strong))) continue;
       groups[g].push(r);
       picked.add(r);

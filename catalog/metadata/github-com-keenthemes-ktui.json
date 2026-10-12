@@ -1,0 +1,115 @@
+{
+  "id": "github-com-keenthemes-ktui",
+  "url": "https://github.com/keenthemes/ktui",
+  "kind": "repo",
+  "hints_hash": "7b312543ca7bff8f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/keenthemes/ktui/blob/HEAD/README.md",
+      "title": "KTUI",
+      "status": 200
+    },
+    {
+      "url": "https://ktui.io/docs",
+      "title": "Introduction - KTUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "KTUI",
+  "summary": "Tailwind CSS UI component library in plain JavaScript, initialized with data attributes.",
+  "description": "Open-source, modular JavaScript/TypeScript UI library for Tailwind CSS projects: 40+ DOM-based components including DataTable, Select, Modal, Drawer, Tabs, Toast and Tooltip, themed with shadcn-like CSS variables and initialized through data attributes instead of JavaScript. Supports dark mode, RTL and custom fonts, and ships agent skills so coding assistants use it correctly.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "tabs",
+    "breadcrumbs",
+    "pagination",
+    "stepper",
+    "modal",
+    "drawer",
+    "tooltip",
+    "dropdown",
+    "toast",
+    "alert",
+    "button",
+    "input",
+    "select",
+    "checkbox",
+    "switch",
+    "slider",
+    "otp-input",
+    "table",
+    "card",
+    "avatar",
+    "badge",
+    "accordion",
+    "progress",
+    "carousel",
+    "loader",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "tailwind css",
+    "javascript ui library",
+    "vanilla javascript",
+    "data attribute",
+    "datatable",
+    "select",
+    "combobox",
+    "modal",
+    "drawer",
+    "dropdown",
+    "toast",
+    "tooltip",
+    "tabs",
+    "stepper",
+    "dark mode",
+    "rtl",
+    "css variable",
+    "theming",
+    "form component",
+    "agent skill",
+    "claude code",
+    "cursor",
+    "npm package",
+    "component library"
+  ],
+  "contains": [
+    "DOM-based JavaScript components for Tailwind CSS, no framework required",
+    "data-attribute initialization, zero JavaScript init code",
+    "components incl. DataTable, Select, Modal, Drawer, Tabs, Toast, Carousel, Progress",
+    "shadcn-like CSS variables for theming; dark mode and RTL support",
+    "ships 4 agent skills: ktui, ktui-install, ktui-datatable, ktui-select"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "tailwind",
+    "javascript",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/keenthemes/ktui",
+    "docs": "https://ktui.io/docs",
+    "npm": "@keenthemes/ktui",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,76 @@
+{
+  "id": "github-com-programmerkr-proxicons",
+  "url": "https://github.com/ProgrammerKR/ProXIcons",
+  "kind": "repo",
+  "hints_hash": "aad5e0fe6b5127e9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:25:39Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ProgrammerKR/ProXIcons/blob/HEAD/README.md",
+      "title": "ProXIcons",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "ProXIcons",
+  "summary": "Open-source icon library with 1,500+ icons in regular, solid, outline, logo and duotone styles.",
+  "description": "A free, lightweight icon set for modern UIs: 1,500+ pixel-perfect SVG icons with regular, solid, outline, logo, brand and duotone variants. Install via npm, CDN or manual download and use CSS classes or a web component; framework examples cover React, Vue and Angular, and an icon customizer with SVG/PNG export is on the roadmap.",
+  "type": "icon-set",
+  "categories": [
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "icon set",
+    "icon library",
+    "svg icon",
+    "free icon",
+    "open source icon",
+    "web component",
+    "css icon",
+    "react icon",
+    "vue icon",
+    "angular icon",
+    "duotone icon",
+    "solid icon",
+    "outline icon",
+    "brand icon",
+    "animated icon",
+    "icon customizer"
+  ],
+  "contains": [
+    "1,500+ icons (1,600+ unique icons in v1.3.0)",
+    "styles: regular, solid, outline, logo, brand, duotone",
+    "install via npm, CDN or manual download",
+    "CSS classes and web component with color, size, rotate, flip, border and animation attributes",
+    "framework examples for React, Vue and Angular",
+    "customizer with SVG/PNG export on the roadmap",
+    "icons CC BY 4.0, fonts SIL OFL 1.1, code MIT"
+  ],
+  "formats": [
+    "svg",
+    "npm-package",
+    "code",
+    "font-files"
+  ],
+  "stack": [
+    "javascript",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "CC-BY-4.0",
+  "related": {
+    "repo": "https://github.com/ProgrammerKR/ProXIcons",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

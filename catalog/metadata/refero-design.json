@@ -1,0 +1,29 @@
+{
+ "id": "refero-design",
+ "url": "https://refero.design",
+ "kind": "site",
+ "hints_hash": "fce2ff317f486603",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://refero.design/llms.txt", "title": "Refero", "status": null},
+  {"url": "https://refero.design", "title": "Refero — UI/UX Design Inspiration for Your Next Project", "status": 200},
+  {"url": "https://refero.design/pricing", "title": "Refero — UI/UX Design Inspiration for Your Next Project", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Refero",
+ "summary": "Library of tens of thousands of web and iOS app screenshots and user flows, searchable by pattern, style and page type.",
+ "description": "Refero collects real product screenshots from web and iOS apps and organises them by screen, user flow, page type and UI pattern, with structured metadata and visual styles (typography, color, layout, spacing, surfaces). Designers browse it as reference; AI agents can query it through a paid MCP server at api.refero.design/mcp.",
+ "type": "gallery",
+ "categories": ["inspiration", "design-tools"],
+ "elements": [],
+ "keywords": ["design inspiration", "ui reference", "ux research", "screenshot library", "app design", "ios app", "user flow", "ui pattern", "visual style", "page type", "design research", "mcp", "search"],
+ "contains": ["screenshots of real web and iOS product screens", "complete user flows and page types", "visual styles: typography, color, layout, spacing, surfaces", "search and browse by app, pattern and flow", "MCP server for agents (requires a paid plan)"],
+ "formats": ["screenshots", "links", "api"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.8
+}

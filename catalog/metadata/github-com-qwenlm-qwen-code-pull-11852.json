@@ -1,0 +1,25 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11852",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11852",
+  "kind": "page",
+  "hints_hash": "07b65eeb3a543f95",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11852", "title": "feat(core): cap web_search calls per session by qqqys · Pull Request #11852 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "feat(core): cap web_search calls per session (#11852)",
+  "summary": "Merged pull request adding a per-session cap on web_search tool calls in the Qwen Code agent, plus settings-dialog fixes.",
+  "description": "Pull request in QwenLM/qwen-code that caps web_search tool calls per session: tools.webSearch.maxPerSession (env WEB_SEARCH_MAX_PER_SESSION, default 200, max 10000) returns a non-error skip at the cap. The counter lives on the root Config, is shared by subagents and resets when the session changes. Also fixes sub-second timeout text, truncation labels and editing of integer settings in the settings dialogs.",
+  "type": "article",
+  "keywords": ["web search", "session cap", "tool call limit", "ai coding agent", "terminal agent", "cli", "typescript", "settings dialog", "environment variable", "subagent", "session", "pull request"],
+  "contains": ["session cap default 200, max 10000 (WEB_SEARCH_MAX_PER_SESSION)", "non-error skip result; failed searches still count; calls rejected before send do not", "counter on root Config shared by subagents, reset on session change", "follow-up fixes: sub-second timeout text, truncation label, integer settings in dialogs", "merged Sep 14, 2026; 3 commits (bd1b0a0, 9475fcc, 3a49e2b)"],
+  "formats": ["code", "docs"],
+  "stack": ["typescript", "node"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

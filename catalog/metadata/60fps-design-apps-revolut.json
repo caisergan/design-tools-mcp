@@ -1,0 +1,17 @@
+{
+  "id": "60fps-design-apps-revolut",
+  "url": "https://60fps.design/apps/revolut",
+  "kind": "page",
+  "hints_hash": "5f04f84f1d4c3f4a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://60fps.design/apps/revolut", "title": "Revolut iOS App UI/UX animation", "status": 200}],
+  "status": "ok",
+  "name": "Revolut iOS App UI/UX animation",
+  "summary": "Frame-by-frame breakdown of recorded Revolut iOS app interactions, with numbered shots of each animation.",
+  "description": "A 60fps.design page documenting Revolut's iOS app interface: interaction shots broken down frame by frame — transaction counter, coachmark button glow, circular slider, feature-intro swipe, donate heart and coin roll. Full access to the app shots requires a 60fps PRO subscription.",
+  "keywords": ["app animation", "ui animation", "interaction", "ios app", "mobile app", "frame by frame", "animation breakdown", "micro interaction", "motion reference", "fintech app", "product animation", "swipe animation", "slider", "coachmark", "glow effect"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "60fps-design"},
+  "confidence": 0.85
+}

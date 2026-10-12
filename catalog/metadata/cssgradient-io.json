@@ -1,0 +1,34 @@
+{
+  "id": "cssgradient-io",
+  "url": "https://cssgradient.io",
+  "kind": "site",
+  "hints_hash": "a476eb30a4ec56ad",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:10:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cssgradient.io", "title": "CSS Gradient – Generator, Maker, and Background", "status": null}
+  ],
+  "status": "ok",
+  "name": "CSS Gradient",
+  "summary": "Free CSS gradient generator with a visual picker, copy-ready CSS, plus a swatch gallery, color shade pages and tutorials.",
+  "description": "A browser tool for building linear and radial CSS gradient backgrounds: pick colors or paste hex values, set stops and angles, and copy the generated CSS. Around the generator sit a swatch gallery of popular gradients with code, color shade pages, gradient examples from real sites (Stripe, Instagram) and a blog explaining gradient syntax.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["css gradient", "gradient generator", "linear gradient", "radial gradient", "gradient background", "css background", "background generator", "color shade", "gradient swatch", "color picker", "css code", "web design tool"],
+  "contains": [
+    "gradient generator with picker, hex input, up to 5 stops and CSS output",
+    "max compatibility (IE6+) mode for old browsers",
+    "gradient swatch gallery with copy-ready code",
+    "color shade pages: pink, yellow, red, blue, green, purple",
+    "gradient examples from real websites (Stripe, Instagram)",
+    "blog and resources on linear, radial and text gradients"
+  ],
+  "formats": ["code", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

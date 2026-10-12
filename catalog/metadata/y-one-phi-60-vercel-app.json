@@ -1,0 +1,65 @@
+{
+  "id": "y-one-phi-60-vercel-app",
+  "url": "https://y-one-phi-60.vercel.app",
+  "kind": "site",
+  "hints_hash": "ac41b1fb75aae776",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://y-one-phi-60.vercel.app",
+      "title": "Dropstage — micro-animation builder",
+      "status": null
+    },
+    {
+      "url": "https://y-one-phi-60.vercel.app/",
+      "title": "Dropstage — micro-animation builder",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Dropstage",
+  "summary": "Drag-and-drop builder for UI micro-animations: compose motion, preview it and export.",
+  "description": "A visual builder for UI micro-animations: compose motion by drag and drop, preview it and export. The app renders entirely client-side, so only the title and meta description were readable.",
+  "type": "tool",
+  "categories": [
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "micro-animation",
+    "micro interaction",
+    "animation builder",
+    "motion",
+    "ui animation",
+    "visual editor",
+    "drag and drop",
+    "css animation",
+    "javascript",
+    "export",
+    "motion design"
+  ],
+  "contains": [
+    "drag-and-drop builder for UI micro-animations",
+    "compose, preview and export workflow"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

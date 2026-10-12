@@ -1,0 +1,28 @@
+{
+  "id": "icons8-com",
+  "url": "https://icons8.com",
+  "kind": "site",
+  "hints_hash": "aa76dd32030cd322",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://icons8.com", "title": "Icons8 - Icons, Illustrations and 3D for Designers and AI Agents", "status": 200},
+    {"url": "https://icons8.com/pricing", "title": "Icons8 Plans and Pricing: AI Tools and Graphics Subscription", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Icons8",
+  "summary": "Icon, illustration, 3D and photo packs in 130+ matching styles, with free downloads and an MCP server for agents.",
+  "description": "Icons8 provides matching graphic assets: PNG and SVG icons in 130+ styles, animated icons, illustrations, 3D models and stock photos, drawn by in-house designers since 2012. It also offers AI generators (icon, illustration, face swap, upscaler), an MCP server that feeds the same packs to coding agents, plugins for Figma, Photoshop, Illustrator, Google, Miro and Lucid, an API and the Lunacy design app.",
+  "type": "icon-set",
+  "categories": ["icons", "media"],
+  "elements": [],
+  "keywords": ["icon pack", "svg icon", "png icon", "animated icon", "gif icon", "illustration", "3d model", "stock photo", "face swap", "background remover", "image upscaler", "mcp server", "figma plugin", "photoshop plugin", "ai icon generator", "icon library", "emoji icon"],
+  "contains": ["PNG and SVG icons in 130+ different styles", "free SVG, PNG and animated GIF downloads", "illustrations, 3D models (800+ FBX) and stock photos", "MCP server for AI agents and coding tools (Claude Code, Cursor)", "AI tools: icon and illustration generators, face swap, upscaler, background remover, human generator", "plugins: Figma, Photoshop, Illustrator, Google, Miro, Lucid", "API, Line Awesome icon font, OMG IMG, Emoji and SF Symbols alternatives", "subscription with AI credits, billed monthly or yearly (save 20%)"],
+  "formats": ["svg", "png", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

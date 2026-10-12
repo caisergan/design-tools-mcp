@@ -1,0 +1,45 @@
+{
+  "id": "60fps-design-apps-cred",
+  "url": "https://60fps.design/apps/cred",
+  "kind": "page",
+  "hints_hash": "29b9f45a46aa7047",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://60fps.design/apps/cred",
+      "title": "CRED iOS App UI/UX animation",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CRED",
+  "summary": "79 recorded CRED app interactions, broken down frame by frame as motion reference for designers.",
+  "type": "gallery",
+  "elements": ["slider", "3d"],
+  "keywords": [
+    "app animation",
+    "ios animation",
+    "interaction",
+    "motion reference",
+    "frame by frame",
+    "swipe to pay",
+    "card flip",
+    "fintech",
+    "mobile ui",
+    "reward animation"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "60fps-design"
+  },
+  "confidence": 0.8
+}

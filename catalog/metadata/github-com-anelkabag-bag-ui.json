@@ -1,0 +1,86 @@
+{
+  "id": "github-com-anelkabag-bag-ui",
+  "url": "https://github.com/anelkabag/bag-ui",
+  "kind": "repo",
+  "hints_hash": "ec37ef8f97d4150e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/anelkabag/bag-ui/blob/HEAD/README.md",
+      "title": "BagUi",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "BagUi",
+  "summary": "Open-source shadcn/ui registry of production-ready components, blocks and sections: navbars, heroes, footers, pricing tables and CTAs.",
+  "description": "BagUi is an open-source component registry with production-ready UI blocks, sections and components built with shadcn/ui and Framer Motion. The registry currently ships 38 items: blocks organised by category (navbar, hero, feature …) plus core UI components in registry/default/ui. Items are registered through registry.json with free or pro access tiers, and the README documents the pull-request workflow from component file to npm run registry:build. MIT licensed.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "pricing",
+    "cta",
+    "features"
+  ],
+  "keywords": [
+    "shadcn registry",
+    "component registry",
+    "react component",
+    "ui block",
+    "landing page section",
+    "navbar",
+    "hero",
+    "footer",
+    "pricing table",
+    "cta",
+    "nextjs",
+    "tailwind",
+    "framer motion",
+    "copy paste",
+    "open source",
+    "registry item"
+  ],
+  "contains": [
+    "38 shadcn registry items",
+    "blocks organised by category: navbar, hero, feature",
+    "core UI components in registry/default/ui",
+    "tech stack: Next.js, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion",
+    "registry.json entries carry free or pro access tiers",
+    "contributing: add the component file, register it in registry.json, run npm run registry:build",
+    "MIT licensed, contributions via pull request"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/anelkabag/bag-ui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,78 @@
+{
+  "id": "invoicegenerator-io",
+  "url": "https://invoicegenerator.io",
+  "kind": "site",
+  "hints_hash": "96433fcfaea02e77",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://invoicegenerator.io",
+      "title": "Privacy-First Invoice Generator",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Privacy-First Invoice Generator",
+  "summary": "Browser-based invoice editor: fill in an invoice and export it as a PDF, with data saved locally on your device.",
+  "description": "An invoice generator for freelancers and small businesses. Fill in seller and buyer details, line items, discounts, taxes and shipping, preview the result and generate a PDF. Data stays in the browser's local storage; invoices can be saved, loaded and imported/exported as text files. Supports 30 currencies and 16 languages.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "form",
+    "input",
+    "select",
+    "date-picker",
+    "table",
+    "file-upload",
+    "list"
+  ],
+  "keywords": [
+    "invoice generator",
+    "invoice",
+    "pdf invoice",
+    "billing",
+    "free invoice",
+    "privacy-first",
+    "local storage",
+    "invoice editor",
+    "tax",
+    "discount",
+    "shipping",
+    "multi-currency",
+    "receipt",
+    "small business",
+    "freelancer",
+    "custom field",
+    "payment term"
+  ],
+  "contains": [
+    "free invoice generator; data stays in the browser local storage",
+    "PDF invoice generation with live preview",
+    "30 currencies and 16 languages",
+    "line items, discounts, taxes and shipping (percentage or amount)",
+    "custom fields for seller and buyer, notes and payment terms",
+    "import/export invoices as text files; saved invoices list"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

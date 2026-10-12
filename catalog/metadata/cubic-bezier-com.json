@@ -1,0 +1,45 @@
+{
+  "id": "cubic-bezier-com",
+  "url": "https://cubic-bezier.com",
+  "kind": "site",
+  "hints_hash": "dc99be04048a90a6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cubic-bezier.com", "title": "cubic-bezier.com", "status": null}
+  ],
+  "status": "ok",
+  "name": "cubic-bezier.com",
+  "summary": "Web editor for CSS cubic-bezier easing curves with preview, comparison and import/export.",
+  "description": "A small browser tool for building CSS cubic-bezier() easing functions: drag the curve handles or read the four values, preview the animation at a chosen duration, and compare the current curve with curves from a built-in library. Curves can be imported and exported as code.",
+  "type": "generator",
+  "categories": ["motion", "design-tools"],
+  "elements": [],
+  "keywords": [
+    "cubic bezier",
+    "easing curve",
+    "css easing",
+    "timing function",
+    "easing generator",
+    "animation timing",
+    "css animation",
+    "transition timing",
+    "bezier curve",
+    "motion curve",
+    "easing editor"
+  ],
+  "contains": [
+    "curve editor showing cubic-bezier(x1, y1, x2, y2)",
+    "preview and compare with a duration control (1 second default)",
+    "library of curves to compare against the current one",
+    "import curves by pasting code and export by copying code",
+    "runs in the browser with no sign-in"
+  ],
+  "formats": ["code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

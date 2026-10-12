@@ -1,0 +1,27 @@
+{
+  "id": "ailocal-substack-com-p-im-running-an-opus-level-coding-agent",
+  "url": "https://ailocal.substack.com/p/im-running-an-opus-level-coding-agent",
+  "kind": "page",
+  "hints_hash": "1596024f85c7baae",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ailocal.substack.com/p/im-running-an-opus-level-coding-agent", "title": "I’m running an Opus-level coding agent locally at nearly 2x Claude Opus speed, for free.", "status": null}
+  ],
+  "status": "ok",
+  "name": "I’m running an Opus-level coding agent locally at nearly 2x Claude Opus speed",
+  "summary": "Julian Harris post on running a local Opus-level coding agent with Qwen 3.8 27B: benchmarks, quantization and speed boosts.",
+  "description": "Hand-written long-form post (Sep 4, 2026) in the AI Local newsletter on replacing commercial coding agents with local AI: why local models became viable, quants and fine-tune behaviour changes, prediction boosts (MTP and DFlash), cache boosts such as TurboQuant, thinking time, kernel optimisations and thermal throttling on Macs, then the tested stacks at 128k context — Ubuntu with an RTX 4090 24GB and a MacBook Pro M5 Max 128GB, both close to 2x Claude Opus speed against a 40 tokens/second baseline.",
+  "type": "article",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["local ai", "local llm", "coding agent", "qwen", "quantization", "fine-tune", "llm inference", "token speed", "context window", "mtp", "dflash", "turboquant", "rtx 4090", "macbook pro", "claude opus", "benchmark", "self-hosted ai", "ai coding"],
+  "contains": ["published Sep 4, 2026 by Julian Harris; hand-written long-form", "test model: Qwen 3.8 27B at 128k context", "baseline to beat: 40 tokens/second", "Ubuntu with RTX 4090 24GB: nearly 2x Claude Opus speed", "MacBook Pro M5 Max 128GB: also nearly 2x Opus", "topics: quants and fine-tunes, MTP and DFlash, TurboQuant, thinking time, kernel optimisations, thermal throttling", "AI Local is a reader-supported publication with free and paid tiers"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

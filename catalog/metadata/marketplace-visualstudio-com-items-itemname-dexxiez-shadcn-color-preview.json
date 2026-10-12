@@ -1,0 +1,28 @@
+{
+  "id": "marketplace-visualstudio-com-items-itemname-dexxiez-shadcn-color-preview",
+  "url": "https://marketplace.visualstudio.com/items?itemName=dexxiez.shadcn-color-preview",
+  "kind": "page",
+  "hints_hash": "de56237d09b0697a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://marketplace.visualstudio.com/items?itemName=dexxiez.shadcn-color-preview", "title": "shadcn Color Preview - Visual Studio Marketplace", "status": null},
+    {"url": "https://marketplace.visualstudio.com/items?itemName=dexxiez.shadcn-color-preview", "title": "shadcn Color Preview - Visual Studio Marketplace", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn Color Preview",
+  "summary": "VS Code extension that previews shadcn HSL color values inline in CSS and other stylesheet files.",
+  "description": "Displays a live color preview for colors written in shadcn's HSL CSS-variable syntax as you type, with more color information and a color mixer on hover, plus conversion utilities. Supports CSS, SCSS, LESS, PostCSS, JS/JSX, TS/TSX and TailwindCSS files; requires VS Code 1.88 or newer.",
+  "type": "plugin",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["vscode", "vs code extension", "shadcn", "color preview", "hsl", "color swatch", "css variable", "tailwind css", "scss", "less", "postcss", "editor extension", "color mixer"],
+  "contains": ["7,119 installs, free", "inline preview of shadcn HSL color values", "hover details with a color mixer", "conversion utilities", "file support: CSS, SCSS, LESS, PostCSS, JS/JSX, TS/TSX, TailwindCSS", "requires VS Code 1.88+", "MIT licensed"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

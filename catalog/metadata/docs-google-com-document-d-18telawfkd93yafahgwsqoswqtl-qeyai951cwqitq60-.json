@@ -1,0 +1,73 @@
+{
+  "id": "docs-google-com-document-d-18telawfkd93yafahgwsqoswqtl-qeyai951cwqitq60-",
+  "url": "https://docs.google.com/document/d/18TeLAwFKD93YaFAhgwsQOSwqTl_Qeyai951cwqItq60/edit",
+  "kind": "page",
+  "hints_hash": "078988a930a4a59b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://docs.google.com/document/d/18TeLAwFKD93YaFAhgwsQOSwqTl_Qeyai951cwqItq60/edit",
+      "title": "Design Career Guide by Elvis Obi - Google Dokümanlar",
+      "status": null
+    },
+    {
+      "url": "https://docs.google.com/document/d/18TeLAwFKD93YaFAhgwsQOSwqTl_Qeyai951cwqItq60/mobilebasic",
+      "title": "Design Career Guide by Elvis Obi",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Design Career Guide by Elvis Obi",
+  "summary": "Google Doc listing design career resources: books, apps, websites, jobs, toolkits, design tools and design systems.",
+  "description": "A shared 2022 document by Elvis Obi and Emmanuel Adegbe collecting resources for people building a design career: books (Refactoring UI, The Design of Everyday Things, Don't Make Me Think), apps (UX Companion, Uxcel), practice websites (Laws of UX, the method.ac series, Coolors, Mobbin, Screenlane), job boards, toolkits, design tools, design systems, portfolio builders and mentorship categories.",
+  "type": "directory",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "design career",
+    "career guide",
+    "design resource",
+    "ux book",
+    "design book",
+    "ux app",
+    "design website",
+    "design job",
+    "design toolkit",
+    "design tool",
+    "design system",
+    "portfolio",
+    "mentorship",
+    "ux roadmap",
+    "learning resource"
+  ],
+  "contains": [
+    "sections: Books, Apps, Websites, Jobs, ToolKits, Design Tools, Design Systems",
+    "books: Refactoring UI, Think like a UX Researcher, The Design of Everyday Things, Don't Make Me Think",
+    "apps: UX Companion and Uxcel on Google Play and the App Store",
+    "websites: Laws of UX, Coolors, Awwwards, Dribbble, Behance, Mobbin, Screenlane",
+    "Portfolio Builders, What is Your Design Level and Mentorship Categories (ADPList)"
+  ],
+  "formats": [
+    "docs",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

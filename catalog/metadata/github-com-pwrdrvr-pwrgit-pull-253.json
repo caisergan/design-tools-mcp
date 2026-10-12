@@ -1,0 +1,18 @@
+{
+  "id": "github-com-pwrdrvr-pwrgit-pull-253",
+  "url": "https://github.com/pwrdrvr/PwrGit/pull/253",
+  "kind": "page",
+  "hints_hash": "54bab21eeb311ad8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/pwrdrvr/PwrGit/pull/253", "title": "feat(desktop): add a worktree pruner with a bounded sweep and a reclaim-only option by huntharo · Pull Request #253 · pwrdrvr/PwrGit", "status": 200}
+  ],
+  "status": "ok",
+  "name": "feat(desktop): add a worktree pruner with a bounded sweep",
+  "summary": "Merged PwrGit PR adding a bounded, cancellable worktree sweep and a reclaim-only mode that frees disk without deleting worktrees.",
+  "keywords": ["git worktree", "worktree pruner", "disk space", "reclaim", "desktop app", "pull request", "git clean", "sweep"],
+  "related": {"repo": "https://github.com/pwrdrvr/PwrGit", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.8
+}

@@ -1,0 +1,33 @@
+{
+  "id": "excalidraw-com",
+  "url": "https://excalidraw.com",
+  "kind": "site",
+  "hints_hash": "aaaa7e691378cd8a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://excalidraw.com", "title": "Excalidraw Whiteboard", "status": null},
+    {"url": "https://github.com/excalidraw/excalidraw", "title": "GitHub - excalidraw/excalidraw: Virtual whiteboard for sketching hand-drawn like diagrams", "status": 200},
+    {"url": "https://raw.githubusercontent.com/excalidraw/excalidraw/master/README.md", "title": "Excalidraw README", "status": 200},
+    {"url": "https://docs.excalidraw.com/", "title": "Excalidraw developer docs", "status": 200},
+    {"url": "https://docs.excalidraw.com/docs", "title": "Introduction | Excalidraw developer docs", "status": 200},
+    {"url": "https://docs.excalidraw.com/docs/@excalidraw/excalidraw/installation", "title": "Installation | Excalidraw developer docs", "status": 200},
+    {"url": "https://docs.excalidraw.com/docs/@excalidraw/excalidraw/faq", "title": "FAQ | Excalidraw developer docs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Excalidraw",
+  "summary": "Open-source virtual whiteboard for sketching hand-drawn-style diagrams in the browser, with end-to-end encrypted collaboration.",
+  "description": "A canvas whiteboard for diagramming, wireframing and sketching with a hand-drawn look: infinite canvas, dark mode, shape libraries, image support, and export to PNG, SVG, clipboard or .excalidraw JSON files. Collaboration works through shareable end-to-end encrypted rooms, and the editor is also published as the @excalidraw/excalidraw npm component to embed in your own app.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["whiteboard", "virtual whiteboard", "diagram", "hand-drawn", "sketch", "wireframe", "flowchart", "collaboration", "drawing", "open source", "excalidraw file", "embed", "react component", "canvas", "mockup", "brainstorming"],
+  "contains": ["free and open-source editor (MIT)", "infinite canvas with hand-drawn style, dark mode and shape libraries", "export to PNG, SVG, clipboard and .excalidraw JSON", "collaboration via shareable rooms, end-to-end encrypted", "embeddable via the @excalidraw/excalidraw npm package", "@excalidraw/mermaid-to-excalidraw converts Mermaid diagrams"],
+  "formats": ["app", "npm-package", "code"],
+  "stack": ["react", "typescript"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/excalidraw/excalidraw", "docs": "https://docs.excalidraw.com", "npm": "@excalidraw/excalidraw", "figma": null, "parent": null},
+  "confidence": 0.85
+}

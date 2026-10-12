@@ -1,0 +1,27 @@
+{
+  "id": "interfacecraft-dev",
+  "url": "https://interfacecraft.dev",
+  "kind": "site",
+  "hints_hash": "a89ea53f9e008682",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://interfacecraft.dev", "title": "Interface Craft: a working library for those committed to designing with uncommon care.", "status": null}
+  ],
+  "status": "ok",
+  "name": "Interface Craft",
+  "summary": "Paid membership library of articles, walkthroughs and videos about designing interfaces with uncommon care.",
+  "description": "A working library by Josh Puckett for people who design digital products: 40+ articles, interactive walkthroughs, videos, skill files, references and custom tools in thematic collections on a custom platform. A one-time payment gives lifetime access to current and future material; 3 items can be previewed for free, with regional pricing and educational, gift and team options.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["interface design", "design craft", "design library", "membership", "article", "walkthrough", "interactive video", "skill file", "design course", "design engineering", "product design", "ux design", "lifetime access", "design tool"],
+  "contains": ["40+ articles, walkthroughs, videos, skill files, references and custom tools", "thematic collections on a custom platform", "3 items free to preview", "one-time payment, lifetime access", "author: Josh Puckett"],
+  "formats": ["docs", "video"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

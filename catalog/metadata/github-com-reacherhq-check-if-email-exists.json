@@ -1,0 +1,33 @@
+{
+  "id": "github-com-reacherhq-check-if-email-exists",
+  "url": "https://github.com/reacherhq/check-if-email-exists",
+  "kind": "repo",
+  "hints_hash": "9696db2c3491f4af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/reacherhq/check-if-email-exists/blob/HEAD/README.md", "title": null, "status": null}
+  ],
+  "status": "ok",
+  "name": "check-if-email-exists",
+  "summary": "Rust crate, CLI and Docker HTTP backend that checks if an email address exists without sending any email.",
+  "description": "Validates an address end to end: syntax, MX records, SMTP connection, deliverability, disabled mailbox, full inbox, catch-all, disposable and role accounts, Gravatar and Have I Been Pwned breaches. Use it as a Rust crate, a standalone CLI binary, or a Docker HTTP backend answering POST /v0/check_email with JSON fields such as is_reachable and smtp.is_deliverable.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["email verification", "email validation", "verify email", "smtp check", "mx record", "catch-all", "disposable email", "role account", "deliverability", "rust", "cli", "http api", "docker", "json output"],
+  "contains": [
+    "12 checks: syntax, MX, SMTP connect, deliverability, disabled, full inbox, catch-all, disposable, role account, breach",
+    "3 ways to run: Docker HTTP backend, CLI binary, Rust crate",
+    "JSON output per check (is_reachable, syntax.is_valid_syntax, mx.accepts_mail, smtp.is_deliverable ...)",
+    "HTTP backend needs outbound port 25 open; SMTP proxies recommended beyond small volumes",
+    "live demo at reacher.email; a paid SaaS version exists separately"
+  ],
+  "formats": ["code", "cli", "api", "docs"],
+  "stack": ["rust"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/reacherhq/check-if-email-exists", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

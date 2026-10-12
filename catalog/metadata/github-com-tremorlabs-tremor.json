@@ -1,0 +1,83 @@
+{
+  "id": "github-com-tremorlabs-tremor",
+  "url": "https://github.com/tremorlabs/tremor",
+  "kind": "repo",
+  "hints_hash": "a2f2a0768047fa12",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/tremorlabs/tremor/blob/HEAD/README.md",
+      "title": "tremorlabs/tremor",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/tremorlabs/tremor",
+      "title": "GitHub - tremorlabs/tremor",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Tremor",
+  "summary": "35+ copy-and-paste React components for charts and dashboards, built on Tailwind CSS and Radix UI.",
+  "description": "A set of customizable, accessible React components to build dashboards and modern web applications: charts, cards, tables and metric displays. Components are copied into your project and styled with Tailwind CSS classes; the repo is Apache-2.0 licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "chart",
+    "table",
+    "card",
+    "stats",
+    "progress",
+    "badge"
+  ],
+  "keywords": [
+    "chart",
+    "dashboard",
+    "react",
+    "component library",
+    "tailwind css",
+    "radix ui",
+    "data visualization",
+    "area chart",
+    "bar chart",
+    "line chart",
+    "donut chart",
+    "metric card",
+    "analytics",
+    "copy paste",
+    "typescript"
+  ],
+  "contains": [
+    "35+ customizable, accessible React components",
+    "chart and dashboard components: area, bar, line and donut charts, cards, tables",
+    "copy-and-paste installation (JSX files into your project)"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/tremorlabs/tremor",
+    "docs": "https://tremor.so",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

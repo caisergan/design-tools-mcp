@@ -1,0 +1,20 @@
+{
+  "id": "9to5google-com-2020-08-10-oneplus-android-11-samsung-one-ui",
+  "url": "https://9to5google.com/2020/08/10/oneplus-android-11-samsung-one-ui",
+  "kind": "page",
+  "hints_hash": "f12c9931e4051549",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://9to5google.com/2020/08/10/oneplus-android-11-samsung-one-ui", "title": "OnePlus essentially copies Samsung One UI w/ Android 11 - 9to5Google", "status": null}
+  ],
+  "status": "ok",
+  "name": "OnePlus essentially copies Samsung One UI w/ Android 11",
+  "summary": "9to5Google post on OnePlus's Android 11 HydrogenOS UI redesign, which borrows One UI's one-handed layout, with a screenshot gallery.",
+  "type": "article",
+  "categories": ["inspiration"],
+  "keywords": ["android", "smartphone ui", "mobile ui", "mobile design", "one-handed mode", "always-on display", "dark mode", "android skin", "settings app", "ui redesign", "screenshot gallery"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,73 @@
+{
+  "id": "github-com-jeffallan-claude-skills",
+  "url": "https://github.com/jeffallan/claude-skills",
+  "kind": "repo",
+  "hints_hash": "cee9f97a19cec1b4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/jeffallan/claude-skills/blob/HEAD/README.md",
+      "title": "claude-skills",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "claude-skills",
+  "summary": "67 agent skills for full-stack development: languages, frameworks, infrastructure, APIs, testing, DevOps, security and data/ML.",
+  "description": "Skill pack for Claude Code: 67 skills across 12 categories with 371 reference files, activating automatically based on the request, plus 9 project workflow commands that manage epics through Jira and Confluence via an Atlassian MCP server. Includes a /common-ground command for surfacing hidden assumptions about a project and a docs site with decision trees and workflow combinations.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "claude code",
+    "claude skill",
+    "skill pack",
+    "full-stack developer",
+    "pair programmer",
+    "backend",
+    "frontend",
+    "devop",
+    "testing",
+    "security",
+    "machine learning",
+    "jira",
+    "confluence",
+    "atlassian",
+    "mcp",
+    "workflow command",
+    "context engineering"
+  ],
+  "contains": [
+    "67 skills across 12 categories",
+    "371 reference files",
+    "9 project workflow commands integrating with Jira and Confluence (Atlassian MCP required)",
+    "/common-ground command to surface and validate Claude's assumptions",
+    "context-aware automatic activation and multi-skill workflows",
+    "documentation site with skills guide, decision trees and quick start",
+    "MIT licensed"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/jeffallan/claude-skills",
+    "docs": "https://jeffallan.github.io/claude-skills",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-hkuds-openspace",
+  "url": "https://github.com/HKUDS/OpenSpace",
+  "kind": "repo",
+  "hints_hash": "d270a569ce98ff61",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/HKUDS/OpenSpace/blob/HEAD/README.md", "title": "Interactive command-line mode", "status": 200},
+    {"url": "https://raw.githubusercontent.com/HKUDS/OpenSpace/HEAD/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenSpace",
+  "summary": "Skill management layer for AI agents that retrieves, evaluates, shares and evolves skills with real-task evidence.",
+  "description": "OpenSpace manages the lifecycle of agent skills: it organises skill packages, retrieves the right skill per task, records real-task evidence to score quality, and evolves skills from outcomes. It plugs into agents such as Claude Code, Codex, OpenClaw, Hermès and nanobot, and ships a CLI, Python API, MCP server, gateway, dashboard and TUI with a local-first skill hub.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["skill management", "ai agent", "agent skill", "claude code", "codex", "mcp server", "skill library", "skill evaluation", "self-evolving agent", "agent harness", "skill sharing", "python api", "cli", "tui", "llm tooling"],
+  "contains": [
+    "skill lifecycle: retrieve, evaluate, share, evolve",
+    "v2 (2026-07-17) adds package browsing, quality summaries, task-trace uploads, dashboard and TUI",
+    "plugs into agents as skills: Claude Code, Codex, OpenClaw, Hermès, nanobot",
+    "skill quality judged from real run records and uploaded task traces",
+    "local-first: cloud is for skill discovery, the local machine for execution",
+    "interfaces: CLI, Python API, MCP (stdio, SSE, streamable HTTP), gateway, dashboard"
+  ],
+  "formats": ["code", "cli", "api"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/HKUDS/OpenSpace", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

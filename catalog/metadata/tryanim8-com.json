@@ -1,0 +1,27 @@
+{
+  "id": "tryanim8-com",
+  "url": "https://tryanim8.com",
+  "kind": "site",
+  "hints_hash": "bf355cacc77f6ddd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tryanim8.com", "title": "MP4 to Animated SVG Converter & Editor | Anim8", "status": null}
+  ],
+  "status": "partial",
+  "name": "Anim8",
+  "summary": "Converts MP4 and AI-generated video into an editable animated SVG and exports animated SVG, Lottie or MP4.",
+  "description": "A converter and editor that turns MP4 or AI-generated video into one editable animated SVG. Motion is vectorized so every frame can be refined, then exported as animated SVG, Lottie or MP4.",
+  "type": "tool",
+  "categories": ["motion", "design-tools"],
+  "elements": [],
+  "keywords": ["mp4 to svg", "animated svg", "svg animation", "lottie", "video to vector", "vectorize motion", "svg editor", "lottie export", "animated icon", "video converter", "motion vectorization"],
+  "contains": ["converts MP4 and AI-generated video to animated SVG", "vectorizes motion into one editable SVG", "exports animated SVG, Lottie or MP4"],
+  "formats": ["app", "svg", "video"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

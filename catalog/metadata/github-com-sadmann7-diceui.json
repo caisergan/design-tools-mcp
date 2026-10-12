@@ -1,0 +1,106 @@
+{
+  "id": "github-com-sadmann7-diceui",
+  "url": "https://github.com/sadmann7/diceui",
+  "kind": "repo",
+  "hints_hash": "c8fe907f5fb90e8a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/sadmann7/diceui/blob/HEAD/README.md",
+      "title": "[Dice UI](https://diceui.com/docs)",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/sadmann7/diceui",
+      "title": "GitHub - sadmann7/diceui: Accessible shadcn/ui components built with React, TypeScript, and Tailwind CSS. Copy-paste ready, and customizable. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://diceui.com/docs",
+      "title": "Introduction - Dice UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Dice UI",
+  "summary": "Accessible shadcn/ui component collection: 47 copy-paste React components plus utility primitives.",
+  "description": "Copy-paste ready shadcn/ui components built with React, TypeScript and Tailwind CSS, from combobox and kanban to a data grid, cropper, file upload, timeline and tour. Ships with 10 utility primitives including portal, presence and direction provider.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "avatar",
+    "badge",
+    "banner",
+    "card",
+    "checkbox",
+    "date-picker",
+    "file-upload",
+    "input",
+    "kanban",
+    "marquee",
+    "modal",
+    "progress",
+    "select",
+    "slider",
+    "stats",
+    "stepper",
+    "table",
+    "timeline"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn ui",
+    "react component",
+    "accessible component",
+    "copy paste component",
+    "tailwind",
+    "typescript",
+    "ui library",
+    "combobox",
+    "data table",
+    "data grid",
+    "kanban board",
+    "file upload",
+    "marquee",
+    "color picker",
+    "timeline",
+    "stepper",
+    "wai aria"
+  ],
+  "contains": [
+    "47 components incl. combobox, kanban, data grid, file upload, timeline and tour",
+    "10 utility primitives e.g. portal, presence, direction provider",
+    "accessibility-focused (WAI-ARIA) shadcn/ui components",
+    "React, TypeScript and Tailwind CSS"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "radix",
+    "base-ui",
+    "tanstack-table"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/sadmann7/diceui",
+    "docs": "https://diceui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

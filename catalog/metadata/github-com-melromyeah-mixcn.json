@@ -1,0 +1,27 @@
+{
+  "id": "github-com-melromyeah-mixcn",
+  "url": "https://github.com/melromyeah/MixCN",
+  "kind": "repo",
+  "hints_hash": "224816903a3d7a7e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:04:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/melromyeah/MixCN/blob/HEAD/README.md", "title": "🎧 MixCN", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MixCN",
+  "summary": "Browser DJ console with two decks, vinyl scratching, beat-grid analysis, mixer FX and mix recording; fully client-side.",
+  "description": "A fully client-side DJ app built with Next.js and styled with the default shadcn/ui dark theme plus hand-built audio controls (knobs, faders, jog wheels, VU meters). Two decks with a beat-grid analyzer, SYNC, bar-fraction loops, hot cues, 3-band EQ, filters, beat-synced FX and a crossfader, plus mix recording via MediaRecorder. Tracks (MP3, WAV, OGG, M4A, FLAC, AAC) are decoded, analyzed and stored locally in IndexedDB; nothing is uploaded.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["slider", "table", "toast"],
+  "keywords": ["dj app", "dj console", "audio player", "scratching", "beat matching", "beat grid", "crossfader", "mixer", "mix recording", "nextjs", "react", "shadcn ui", "web audio api", "browser app"],
+  "contains": ["two decks with pitch, EQ, loops and 4 hot cues each", "vinyl-style scratching via a custom AudioWorklet jog wheel", "beat-grid analyzer: precise BPM, beat phase and downbeat detection", "SYNC matches tempo and phase-aligns both decks", "per-channel 3-band EQ, LP/HP filter and beat-synced FX (echo, reverb, flanger)", "mix recording to .webm/.m4a via MediaRecorder", "track library with key detection, auto-gain and IndexedDB persistence", "supports MP3, WAV, OGG, M4A, FLAC, AAC; no backend, no uploads"],
+  "formats": ["code"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn-ui"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/melromyeah/MixCN", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,37 @@
+{
+  "id": "thebase-design",
+  "url": "https://thebase.design",
+  "kind": "site",
+  "hints_hash": "2519e58273562ea9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://thebase.design/llms.txt", "title": "The Base", "status": null},
+    {"url": "https://thebase.design", "title": "The Base · Free Design Assets", "status": 200},
+    {"url": "https://thebase.design/collections", "title": "Curated collections of free design assets · The Base", "status": 200},
+    {"url": "https://thebase.design/faq", "title": "FAQ · The Base", "status": 200},
+    {"url": "https://thebase.design/license", "title": "License · The Base", "status": 200},
+    {"url": "https://thebase.design/category/fonts", "title": "Free Fonts for Designers · The Base", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The Base",
+  "summary": "Catalog of free design assets: mockups, fonts, icons, illustrations, UI kits and templates.",
+  "description": "A curated catalog of free design assets across nine categories: mockups, fonts, templates, UI kits, icons, illustrations, backgrounds & textures, graphics and photos. Every asset page lists formats and license terms and points to a direct download or the author's own site; themed collections group assets for dark websites, portfolios, presentations and device mockups.",
+  "type": "asset-library",
+  "categories": ["media", "icons", "templates"],
+  "elements": [],
+  "keywords": ["free design asset", "mockup", "free font", "icon set", "illustration", "ui kit", "framer template", "figma template", "website template", "device mockup", "3d illustration", "background texture", "freebie", "graphic"],
+  "contains": [
+    "9 categories: mockups, fonts, templates, UI kits, icons, illustrations, backgrounds, graphics, photos",
+    "themed collections incl. for dark websites, for portfolio, free device mockups, icon sets, free UI kits",
+    "asset pages list formats and license terms with a direct download or a link to the author's site",
+    "authors can submit their own freebies; assets from Craftwork can be hosted on the site"
+  ],
+  "formats": ["figma-file", "framer-file", "svg", "png", "font-files", "templates", "code", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

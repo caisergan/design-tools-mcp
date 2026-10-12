@@ -1,0 +1,32 @@
+{
+  "id": "deck-gallery",
+  "url": "https://deck.gallery",
+  "kind": "site",
+  "hints_hash": "d317f0f7f04cee77",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://deck.gallery/llms.txt", "title": "Deck.gallery", "status": null},
+    {"url": "https://www.deck.gallery/", "title": "Deck.gallery - Beautifully designed decks, curated", "status": 200},
+    {"url": "https://www.deck.gallery/category/pitch", "title": "Pitch deck examples - Deck.gallery", "status": 200},
+    {"url": "https://www.deck.gallery/category/report", "title": "Report deck examples - Deck.gallery", "status": 200},
+    {"url": "https://www.deck.gallery/pricing", "title": "Membership - Deck.gallery", "status": 200},
+    {"url": "https://www.deck.gallery/faq", "title": "Marketplace FAQ - Deck.gallery", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Deck.gallery",
+  "summary": "Curated gallery of 200+ presentation decks and 9,000+ slides, plus a marketplace of editable templates.",
+  "description": "Free-to-browse library of real pitch decks, brand guidelines, reports, portfolios and talks, with slide-by-slide previews, creator credits and category/industry filters. Pro and Team memberships unlock full slide views; editable presentation templates are sold separately in the marketplace, with checkout handled by Whop.",
+  "type": "gallery",
+  "categories": ["inspiration", "templates"],
+  "elements": [],
+  "keywords": ["presentation deck", "pitch deck", "slide", "keynote", "brand guideline", "deck gallery", "presentation template", "investor deck", "report design", "portfolio deck", "slide design", "design reference"],
+  "contains": ["200+ curated decks, 9,000+ slides", "free tier: today's new deck + 6 slides per archived deck", "filters: category (pitch, guideline, report, talks, portfolio, marketing, sales, strategy) and industry", "marketplace of editable presentation templates and design assets (separate purchase)", "public JSON catalog API with OpenAPI spec", "curated by product designer Muharrem Senyil"],
+  "formats": ["screenshots", "links", "templates", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

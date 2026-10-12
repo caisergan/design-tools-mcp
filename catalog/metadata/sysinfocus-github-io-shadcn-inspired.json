@@ -1,0 +1,29 @@
+{
+  "id": "sysinfocus-github-io-shadcn-inspired",
+  "url": "https://sysinfocus.github.io/shadcn-inspired",
+  "kind": "page",
+  "hints_hash": "37dc4806e1bbfdb3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sysinfocus.github.io/shadcn-inspired", "title": "Sysinfocus simple/ui - Blazor Components inspired by shadcn/ui", "status": null},
+    {"url": "https://github.com/Sysinfocus/shadcn-inspired", "title": "GitHub - Sysinfocus/shadcn-inspired: Website to demonstrate the use of Sysinfocus simple/ui components for Blazor", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Sysinfocus/shadcn-inspired/main/README.md", "title": "Sysinfocus AspNetCore Components", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Sysinfocus simple/ui",
+  "summary": "Blazor component library inspired by shadcn/ui, with 70+ components and a live example page for each.",
+  "description": "A Razor component library for Blazor, inspired by the shadcn/ui components. The docs site lists 70+ components — accordion, data table, AI chat, file manager, maps, scheduler and more — each with an example page. The project is MIT-licensed open source, ships free UI templates, and has moved to a new home at BLAZOR.ART.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "chat", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "file-upload", "form", "input", "loader", "map", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "prompt-input", "select", "slider", "switch", "table", "tabs", "timeline", "toast", "tooltip"],
+  "keywords": ["blazor", "razor", "csharp", "dotnet", "component library", "shadcn", "ui component", "data table", "ai chat", "file upload", "calendar", "chart", "menubar", "treeview", "map", "scheduler", "open source"],
+  "contains": ["70+ Blazor components, each with an example page", "components include data table, AI chat, file manager, maps, scheduler, signature, treeview", "MIT-licensed open source repo (26 stars)", "free UI templates; the library's new home is BLAZOR.ART"],
+  "formats": ["code", "docs", "templates"],
+  "stack": ["blazor", "csharp", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Sysinfocus/shadcn-inspired", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

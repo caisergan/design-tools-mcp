@@ -1,0 +1,36 @@
+{
+  "id": "fontsinuse-com",
+  "url": "https://fontsinuse.com",
+  "kind": "site",
+  "hints_hash": "656c94e1a861efa5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:10:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fontsinuse.com", "title": "Fonts In Use - Fonts In Use", "status": null},
+    {"url": "https://fontsinuse.com/typefaces/74/ano", "title": "Ano in use - Fonts In Use", "status": null},
+    {"url": "https://fontsinuse.com/faq", "title": "FAQ - Fonts In Use", "status": null}
+  ],
+  "status": "ok",
+  "name": "Fonts In Use",
+  "summary": "Searchable archive of 34,773 typographic designs, each documented with images and indexed by typeface, format and topic.",
+  "description": "An independent, community-contributed archive of typography in the wild: album art, magazines, signs, logos, identities, books and websites, each entry credited to its designer and contributor. Typeface pages add foundry, designer and release-date data plus where to get the fonts, and the whole collection is searchable and filterable by typeface, format and topic.",
+  "type": "gallery",
+  "categories": ["fonts", "inspiration"],
+  "elements": [],
+  "keywords": ["typography archive", "font in use", "typeface", "font library", "type specimen", "typography", "graphic design", "design archive", "logo", "book cover", "album art", "signage"],
+  "contains": [
+    "34,773 documented uses of typefaces",
+    "6,373 staff picks; 171 blog posts",
+    "indexed by typeface, format (magazine, album art, logo, sign, website) and 30 topics",
+    "typeface pages list foundry, designers, release date, related typefaces and where to get the fonts",
+    "community-contributed entries with credits and images",
+    "advanced search plus sort by contribution date, artwork date, most discussed, most liked or most viewed"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

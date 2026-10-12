@@ -1,0 +1,31 @@
+{
+  "id": "webzooo-com",
+  "url": "https://webzooo.com",
+  "kind": "site",
+  "hints_hash": "fa3bef20b2a4dc93",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://webzooo.com", "title": "Webzooo — Website Design Inspiration by Color", "status": null},
+    {"url": "https://webzooo.com/collections/minimal", "title": "Webzooo — Website Design Inspiration by Color", "status": null},
+    {"url": "https://webzooo.com/pricing", "title": "Webzooo — Website Design Inspiration by Color", "status": null},
+    {"url": "https://webzooo.com/faq", "title": "Webzooo — Website Design Inspiration by Color", "status": null},
+    {"url": "https://webzooo.com/collections/dark-mode", "title": "Webzooo — Website Design Inspiration by Color", "status": null}
+  ],
+  "status": "ok",
+  "name": "Webzooo",
+  "summary": "Gallery of 4,000+ real websites organised by color, palette and hex code, with 33 industry filters.",
+  "description": "A curated gallery of real, hand-reviewed websites organised by color: browse nine color collections plus light and dark mode views, or enter a hex code such as #1D4ED8 to find the closest brand palettes. Every entry records the site's dominant color, full palette with hex codes, typography and a full-page screenshot, and industry filters can be combined with any color collection.",
+  "type": "gallery",
+  "categories": ["color-effects", "inspiration"],
+  "elements": [],
+  "keywords": ["website inspiration", "color palette", "hex code search", "brand color", "dark mode gallery", "website design gallery", "color collection", "industry filter", "typography reference", "web design inspiration", "palette hex code"],
+  "contains": ["4,000+ real websites catalogued", "33 industry filters combinable with color collections", "9 color collections plus light and dark mode views", "hex code search (e.g. #1D4ED8)", "each entry: dominant color, palette hex codes, typography, full-page screenshot", "free to explore"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

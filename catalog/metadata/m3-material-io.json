@@ -1,0 +1,29 @@
+{
+  "id": "m3-material-io",
+  "url": "https://m3.material.io",
+  "kind": "site",
+  "hints_hash": "392b540cdb7908e7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://m3.material.io", "title": "Material Design", "status": 200},
+    {"url": "https://m3.material.io/components", "title": "Components – Material Design 3", "status": 200},
+    {"url": "https://m3.material.io/components/all-buttons", "title": "All buttons – Material Design 3", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Material Design 3",
+  "summary": "Google's open-source design system: 30+ documented UI components plus color, typography and layout guidance.",
+  "description": "Material Design 3 is Google's open-source design system documentation. It covers over 30 UI components — buttons, cards, dialogs, lists, navigation, text fields and more — with usage and accessibility guidance, alongside style foundations such as color, typography and layout. 240+ documentation pages are browsable by component and by topic.",
+  "type": "design-system",
+  "categories": ["design-rules", "components"],
+  "elements": ["button", "drawer", "navbar", "badge", "checkbox", "date-picker", "card", "carousel", "modal", "list", "loader", "sidebar"],
+  "keywords": ["material design", "material 3", "design system", "google", "android", "ui component", "component guideline", "accessibility", "color system", "typography", "layout", "expressive", "design guideline", "mobile ui"],
+  "contains": ["240+ documentation pages", "30+ documented UI components", "per-component usage, anatomy and accessibility guidance", "style foundations: color system, typography, layout", "M3 Expressive and XR design guidance"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://m3.material.io/components", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

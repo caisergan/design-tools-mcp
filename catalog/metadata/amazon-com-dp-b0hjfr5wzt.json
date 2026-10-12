@@ -1,0 +1,15 @@
+{
+  "id": "amazon-com-dp-b0hjfr5wzt",
+  "url": "https://amazon.com/dp/B0HJFR5WZT",
+  "kind": "page",
+  "hints_hash": "c8938b506b00316a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://amazon.com/dp/B0HJFR5WZT", "title": "Amazon.com", "status": null},
+    {"url": "https://amazon.com/dp/B0HJFR5WZT", "title": "Amazon.com", "status": 200}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

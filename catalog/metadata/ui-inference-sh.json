@@ -1,0 +1,121 @@
+{
+  "id": "ui-inference-sh",
+  "url": "https://ui.inference.sh",
+  "kind": "site",
+  "hints_hash": "d170da026f137d92",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.inference.sh",
+      "title": "ui components | inference shell",
+      "status": 200
+    },
+    {
+      "url": "https://inference.sh/docs",
+      "title": "documentation | inference shell",
+      "status": 200
+    },
+    {
+      "url": "https://inference.sh/skills",
+      "title": "skills | inference shell",
+      "status": 200
+    },
+    {
+      "url": "https://inference.sh/pricing",
+      "title": "pricing | inference shell",
+      "status": 200
+    },
+    {
+      "url": "https://inference.sh/about",
+      "title": "about inference shell",
+      "status": 200
+    },
+    {
+      "url": "https://inference.sh/ui/agent",
+      "title": "agent chat component | inference shell ui",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/inference-sh/shadcn-registry",
+      "title": "GitHub - inference-sh/shadcn-registry",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/inference-sh/shadcn-registry/blob/HEAD/README.md",
+      "title": "shadcn-registry/README.md",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ui.inference.sh",
+  "summary": "shadcn registry of React components for AI agents and chatbots: agent chat, A2UI widgets, tool approvals and chat primitives.",
+  "description": "A shadcn registry of React UI components for building AI-powered applications, chatbots and agent interfaces. Items include agent chat (streaming, state management, tool lifecycle, human-in-the-loop approvals), A2UI generative widgets, chat primitives, tool invocation UI, task output, markdown renderer, code block, steps, sidebar and table of contents, installed with the shadcn CLI and wired to any inference shell agent.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "chat",
+    "ai-agent-ui",
+    "sidebar",
+    "table"
+  ],
+  "keywords": [
+    "ai chat ui",
+    "agent chat",
+    "chatbot ui",
+    "shadcn registry",
+    "react component",
+    "ai agent interface",
+    "a2ui widget",
+    "generative ui",
+    "tool call ui",
+    "tool approval",
+    "streaming chat",
+    "human in the loop",
+    "markdown renderer",
+    "code block",
+    "sidebar navigation",
+    "table of content",
+    "next.js",
+    "chat primitive",
+    "task output",
+    "virtualized list"
+  ],
+  "contains": [
+    "14 registry items incl. agent chat, tool invocation, A2UI widget renderer, markdown renderer, code block, sidebar",
+    "install: pnpm dlx shadcn@latest add @inferencesh/[component]",
+    "agent chat ships streaming, message history, tool lifecycle and human-in-the-loop approvals",
+    "A2UI widgets: spec-compliant generative UI, streaming-friendly, works on Gemini Enterprise",
+    "part of the inference shell agent platform"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/inference-sh/shadcn-registry",
+    "docs": "https://inference.sh/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

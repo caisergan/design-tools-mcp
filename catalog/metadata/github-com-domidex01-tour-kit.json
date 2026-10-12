@@ -1,0 +1,104 @@
+{
+  "id": "github-com-domidex01-tour-kit",
+  "url": "https://github.com/domidex01/tour-kit",
+  "kind": "repo",
+  "hints_hash": "d4cf8fd985e59fe9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/domidex01/tour-kit/blob/HEAD/README.md",
+      "title": "Tour Kit",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/domidex01/tour-kit",
+      "title": "GitHub - domidex01/tour-kit: Headless onboarding and product tour library for React.",
+      "status": 200
+    },
+    {
+      "url": "https://usertourkit.com",
+      "title": "userTourKit, Product Tours, Checklists & In-App Messaging for React",
+      "status": 200
+    },
+    {
+      "url": "https://usertourkit.com/pricing",
+      "title": "Pricing, userTourKit",
+      "status": 200
+    },
+    {
+      "url": "https://usertourkit.com/product-tours",
+      "title": "Product Tours for React, Headless & Accessible | userTourKit",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Tour Kit",
+  "summary": "Headless React, Vue and Svelte library for product tours, hints, checklists, announcements and microsurveys, shadcn/ui friendly.",
+  "description": "A headless onboarding library shipped as 17 composable packages (@tour-kit/core, react, vue, svelte, hints, checklists, announcements, surveys, analytics, media, scheduling and more) for product tours, feature hints, checklists, in-app announcements and microsurveys. TypeScript-first and WCAG 2.1 AA accessible, with pre-styled components that fit shadcn/ui; free in development, with a one-time licence key for production.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "popover",
+    "tooltip",
+    "banner",
+    "form",
+    "progress"
+  ],
+  "keywords": [
+    "product tour",
+    "onboarding library",
+    "feature hint",
+    "checklist",
+    "in-app announcement",
+    "microsurvey",
+    "headless ui",
+    "react",
+    "vue",
+    "svelte",
+    "typescript",
+    "accessibility",
+    "shadcn ui",
+    "spotlight overlay",
+    "walkthrough",
+    "router-aware",
+    "tree-shakeable",
+    "wcag"
+  ],
+  "contains": [
+    "17 composable packages under the @tour-kit npm scope",
+    "product tours, feature hints, checklists, in-app announcements and microsurveys",
+    "headless core plus pre-styled components, router adapters, progress persistence, tour analytics",
+    "works with React, Vue and Svelte and any component library; shadcn/ui-friendly defaults",
+    "source-available under BUSL-1.1: free in development, one-time production licence $9.99–$299",
+    "69 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "vue",
+    "svelte",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "BUSL-1.1",
+  "related": {
+    "repo": "https://github.com/domidex01/tour-kit",
+    "docs": "https://usertourkit.com/docs",
+    "npm": "@tour-kit/core",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

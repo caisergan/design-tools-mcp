@@ -1,0 +1,23 @@
+{
+  "id": "framer-com-api-motion-guide-reduce-bundle-size",
+  "url": "https://framer.com/api/motion/guide-reduce-bundle-size",
+  "kind": "page",
+  "hints_hash": "a430bbddeaf1584b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/api/motion/guide-reduce-bundle-size", "title": "Framer: AI web design tool for responsive websites", "status": 200},
+    {"url": "https://motion.dev/docs/react-reduce-bundle-size", "title": "Reduce bundle size of Framer Motion | Motion for React", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Reduce bundle size",
+  "summary": "Motion (Framer Motion) guide to shrinking the React animation bundle with tree shaking, LazyMotion and m components.",
+  "description": "Guide from the Motion docs on reducing the Motion for React bundle: what each animation feature bundle contains, synchronous vs lazy loading via LazyMotion and the m component, strict mode, and the mini and hybrid useAnimate sizes. The old Framer docs URL now redirects to Framer's design page; the guide itself lives in the Motion documentation.",
+  "keywords": ["framer motion", "bundle size", "lazy motion", "tree shaking", "react animation", "performance", "lazy loading", "motion component", "useanimate", "javascript bundle", "gzip size", "frontend performance", "guide"],
+  "elements": [],
+  "formats": ["docs"],
+  "stack": ["react"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.8
+}

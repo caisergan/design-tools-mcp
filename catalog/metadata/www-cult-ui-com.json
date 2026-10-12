@@ -1,0 +1,134 @@
+{
+  "id": "www-cult-ui-com",
+  "url": "https://www.cult-ui.com",
+  "kind": "site",
+  "hints_hash": "e3000e57ea19200d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.cult-ui.com",
+      "title": "Cult UI – Shadcn UI Components, Blocks & Templates",
+      "status": null
+    },
+    {
+      "url": "https://www.cult-ui.com/docs/theming",
+      "title": "Theming · Cult UI",
+      "status": null
+    },
+    {
+      "url": "https://www.cult-ui.com/docs/changelog",
+      "title": "Changelog · Cult UI",
+      "status": null
+    },
+    {
+      "url": "https://www.cult-ui.com/docs/installation",
+      "title": "Installation · Cult UI",
+      "status": null
+    },
+    {
+      "url": "https://pro.cult-ui.com/",
+      "title": "Cult Pro is going open source | Existing buyers keep access",
+      "status": 200
+    },
+    {
+      "url": "https://pro.cult-ui.com/pricing",
+      "title": "Cult Pro goes back to its roots: open source | cult ui/pro",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Cult UI",
+  "summary": "Free MIT-licensed shadcn/ui component library: 154 animated React components plus blocks, templates and an MCP server.",
+  "description": "An open-source React component library installed with the shadcn CLI from the @cult-ui registry. 154 animated components are grouped in the docs by job: AI inputs and generative UI (prompt composer, search, dropzone), app and workspace (analytics chart, kanban board, timer), form controls, feedback and status, navigation and overlays, onboarding, buttons, cards, landing page sections, illustrations, device mockups, backgrounds and typography. Older Cult Pro blocks and templates are being open-sourced; AI SDK Agents is a separate paid product by the same author.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "prompt-input",
+    "input",
+    "file-upload",
+    "form",
+    "select",
+    "switch",
+    "button",
+    "badge",
+    "progress",
+    "toast",
+    "tabs",
+    "dock",
+    "popover",
+    "drawer",
+    "accordion",
+    "stepper",
+    "card",
+    "chart",
+    "kanban",
+    "list",
+    "avatar",
+    "chat",
+    "carousel",
+    "hero",
+    "features",
+    "logo-cloud",
+    "testimonials",
+    "background",
+    "text-effect",
+    "globe"
+  ],
+  "keywords": [
+    "animated component",
+    "shadcn ui",
+    "react component",
+    "registry",
+    "tailwind css",
+    "next.js",
+    "kanban board",
+    "prompt input",
+    "ai component",
+    "globe",
+    "card",
+    "landing page section",
+    "mit license",
+    "copy paste",
+    "mcp server",
+    "dark mode"
+  ],
+  "contains": [
+    "154 animated components, free and MIT licensed",
+    "installed with the shadcn CLI from the @cult-ui registry",
+    "58 components added in September 2026 (illustrations, device mockups, cards)",
+    "docs groups: AI inputs, app and workspace, form controls, feedback, navigation, onboarding, buttons, cards",
+    "MCP server so AI agents can search and install components",
+    "theming via shadcn/ui CSS variables and Tailwind CSS v4 tokens"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "nextjs",
+    "tailwind",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://www.cult-ui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

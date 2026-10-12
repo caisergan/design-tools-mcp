@@ -1,0 +1,34 @@
+{
+  "id": "alternativeto-net",
+  "url": "https://alternativeto.net",
+  "kind": "site",
+  "hints_hash": "f30d8277334f2796",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://alternativeto.net", "title": "AlternativeTo - Crowdsourced software recommendations | AlternativeTo", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AlternativeTo",
+  "summary": "Crowdsourced directory of 156,904 software titles with user-suggested alternatives, ranked by 2,047,652 user opinions.",
+  "description": "A crowd-sourced, free site for finding alternatives to apps and services: 156,904 titles ranked by 2,047,652 user opinions, browsable by platform (Mac, Windows, Linux, web, iOS, Android …) and by tag. Each app page carries user reviews, likes, alternative links and platform/OS tags; the home page surfaces new releases, interesting new alternatives, community reviews and tech news. Signup is optional.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["software directory", "app recommendation", "alternative", "crowdsourced", "review", "app discovery", "software comparison", "platform filter", "tech news", "user opinion", "app list", "browse app"],
+  "contains": [
+    "156,904 apps and software titles with alternatives",
+    "ranked by 2,047,652 user opinions",
+    "browse new apps, all apps, news and lists",
+    "user reviews, likes and community picks on app pages",
+    "apps tagged by platform (Mac, Windows, Linux, web, iOS, Android) and category",
+    "home shows new app releases, interesting new alternatives and tech news"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

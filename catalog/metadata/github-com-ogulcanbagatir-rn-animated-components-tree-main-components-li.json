@@ -1,0 +1,34 @@
+{
+  "id": "github-com-ogulcanbagatir-rn-animated-components-tree-main-components-li",
+  "url": "https://github.com/ogulcanbagatir/rn-animated-components/tree/main/components/LiquidSwitch",
+  "kind": "page",
+  "hints_hash": "2391596b644a41d8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/ogulcanbagatir/rn-animated-components/main/README.md", "title": "Animated Components for React Native & Expo Apps", "status": 200},
+    {"url": "https://raw.githubusercontent.com/ogulcanbagatir/rn-animated-components/main/components/LiquidSwitch/README.md", "title": "💧 LiquidSwitch", "status": 200}
+  ],
+  "status": "ok",
+  "name": "LiquidSwitch",
+  "summary": "Liquid-morphing animated toggle switch component for React Native, built with Skia and Reanimated, with optional state icons.",
+  "description": "Self-contained copy-paste React Native switch: a smooth liquid-style slide between ON and OFF states, optional icons per state, customizable track and thumb colors and responsive size scaling. Props include size, gap, trackColors, thumbColor, images, initialValue and onChange.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["switch"],
+  "keywords": ["react native", "expo", "switch", "toggle", "animated switch", "liquid effect", "skia", "reanimated", "copy paste component", "icon switch", "ui component", "form control"],
+  "contains": [
+    "single copy-paste LiquidSwitch.tsx component, no setup",
+    "liquid slide animation between ON and OFF states",
+    "optional image icons for both states with tint support",
+    "props: size, gap, trackColors, thumbColor, images, initialValue, onChange",
+    "requires React Native Reanimated and Skia"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react-native", "skia", "reanimated"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ogulcanbagatir/rn-animated-components", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.9
+}

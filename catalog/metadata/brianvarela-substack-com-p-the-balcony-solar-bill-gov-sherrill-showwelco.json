@@ -1,0 +1,21 @@
+{
+  "id": "brianvarela-substack-com-p-the-balcony-solar-bill-gov-sherrill-showwelco",
+  "url": "https://brianvarela.substack.com/p/the-balcony-solar-bill-gov-sherrill?showWelcomeOnShare=true",
+  "kind": "page",
+  "hints_hash": "0f7f17d05fb892aa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://brianvarela.substack.com/p/the-balcony-solar-bill-gov-sherrill?showWelcomeOnShare=true", "title": "The Balcony Solar Bill Gov. Sherrill Just Signed is a Win", "status": null},
+    {"url": "https://brianvarela.substack.com/p/the-balcony-solar-bill-gov-sherrill", "title": "The Balcony Solar Bill Gov. Sherrill Just Signed is a Win", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The Balcony Solar Bill Gov. Sherrill Just Signed is a Win",
+  "summary": "Substack post breaking down New Jersey's balcony solar bill and what it changes for renters, condo owners and ratepayers.",
+  "description": "Post in Brian Varela's Inside the Garden State newsletter, dated Sep 12, 2026: after New Jersey electric bills rose 17.23-20.20% (the Board of Public Utilities blamed PJM capacity auction results), the balcony solar bill offers renters and condo owners a way to cut bills. It also covers what landlords and HOAs can still require.",
+  "type": "article",
+  "keywords": ["solar", "balcony solar", "new jersey", "energy bill", "solar panel", "legislation", "ratepayer", "renter", "hoa", "landlord", "energy policy", "newsletter"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,33 @@
+{
+  "id": "smartmockups-com",
+  "url": "https://smartmockups.com",
+  "kind": "site",
+  "hints_hash": "e5e30eb641ecbe79",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://smartmockups.com", "title": "Unsupported client – Canva", "status": null},
+    {"url": "https://www.canva.com/mockups/", "title": "Unsupported client – Canva", "status": 200},
+    {"url": "https://www.canva.com/about", "title": "About Canva", "status": null}
+  ],
+  "status": "partial",
+  "name": "Canva Mockups",
+  "summary": "Smartmockups now redirects to the mockups tool of Canva, the online design and publishing platform.",
+  "description": "The smartmockups.com domain redirects to Canva's mockups page, listed among Canva's photo editing tools (background remover, photo collages, mockups). Canva describes itself as an online design and publishing tool launched in 2013. The mockups page serves a browser-check screen to non-browser clients, so the mockup library itself could not be read.",
+  "type": "generator",
+  "categories": ["media", "design-tools"],
+  "elements": [],
+  "keywords": ["mockup", "mockup generator", "mockup maker", "product mockup", "scene mockup", "mockup template", "design mockup", "online mockup tool"],
+  "contains": [
+    "smartmockups.com redirects to canva.com/mockups/",
+    "mockups listed among Canva's photo editing tools",
+    "target page serves a browser check to non-browser clients"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

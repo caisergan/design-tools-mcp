@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-claude-compu",
+  "url": "https://ruben.substack.com/p/claude-compu",
+  "kind": "page",
+  "hints_hash": "0df332f07a43e519",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-computer", "title": "Claude is now YOUR computer. - by Ruben Hassid - How to AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude is now YOUR computer.",
+  "summary": "How-to guide for letting Claude use your computer: access, favourite use cases and scheduled tasks.",
+  "description": "Guide to Claude's computer-use capability: how to set up Claude so it clicks around your computer for you while you are away, favourite use cases and how to schedule tasks with it.",
+  "type": "article",
+  "keywords": ["claude", "computer use", "ai agent", "desktop automation", "scheduled task", "claude cowork", "ai workflow", "ai assistant", "automation guide", "how-to guide"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

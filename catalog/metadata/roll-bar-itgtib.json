@@ -1,0 +1,27 @@
+{
+  "id": "roll-bar-itgtib",
+  "url": "https://roll.bar/itGTIb",
+  "kind": "page",
+  "hints_hash": "72df941b5d9f1a04",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://roll.bar/itGTIb", "title": "Rollbar MCP Server | Model Context Protocol for Observability", "status": null}
+  ],
+  "status": "ok",
+  "name": "Rollbar MCP Server",
+  "summary": "MCP server that gives AI coding agents production error data: stack traces, deploys, top errors and session replays.",
+  "description": "Rollbar's official MCP server runs locally and plugs into AI coding tools such as Claude Code, Codex CLI, Cursor, Copilot CLI, Junie and VS Code with a single config block. Agents can pull item details with stack traces, telemetry and occurrence counts, list the top errors per environment, correlate errors with deploys and read session replay context. Read-only with a read-scoped token, MIT licensed and open source.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["mcp server", "model context protocol", "error monitoring", "observability", "production error", "stack trace", "session replay", "deploy tracking", "ai coding agent", "debugging", "root cause analysis", "claude code", "cursor", "vs code", "ide integration"],
+  "contains": ["local stdio MCP server, set up with one config block", "queries errors with stack trace, request params, telemetry and occurrence counts", "lists top items per environment from the last 24 hours", "deploy correlation and session replay context", "read-only by default; write actions need a write-scoped token", "official server, MIT licensed and open source"],
+  "formats": ["cli", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

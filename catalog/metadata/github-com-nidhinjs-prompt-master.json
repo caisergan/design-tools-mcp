@@ -1,0 +1,41 @@
+{
+  "id": "github-com-nidhinjs-prompt-master",
+  "url": "https://github.com/nidhinjs/prompt-master",
+  "kind": "repo",
+  "hints_hash": "da3b8665d185990d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {
+      "url": "https://github.com/nidhinjs/prompt-master/blob/HEAD/README.md",
+      "title": "prompt-master README",
+      "status": null
+    },
+    {
+      "url": "https://github.com/nidhinjs/prompt-master/blob/HEAD/SKILL.md",
+      "title": "prompt-master SKILL.md",
+      "status": null
+    },
+    {
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "title": "GitHub - nidhinjs/prompt-master: A Claude skill that writes the accurate prompts for any AI tool",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Prompt Master",
+  "summary": "Claude skill that turns a rough idea into one optimized, copy-ready prompt for any AI tool.",
+  "description": "A Claude skill that writes a single production-ready prompt for a chosen AI tool. It detects the target from 30+ tool profiles, extracts nine dimensions of intent, asks at most three clarifying questions, routes to one of 13 prompt templates, strips token waste with 37 detected anti-patterns and carries a memory block so context survives across prompts.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["prompt engineering", "prompt generator", "claude skill", "prompt template", "prompt optimization", "token efficiency", "context memory", "coding agent", "image ai", "video ai", "workflow automation", "llm", "clarifying question", "midjourney", "cursor"],
+  "contains": ["13 auto-selected prompt templates", "profiles for 30+ AI tools", "37 credit-killing patterns with before/after examples", "5 safe techniques applied only when needed", "memory block for carry-forward context", "9 dimensions of intent extraction", "max 3 clarifying questions"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/nidhinjs/prompt-master", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

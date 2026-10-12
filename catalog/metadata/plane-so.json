@@ -1,0 +1,129 @@
+{
+  "id": "plane-so",
+  "url": "https://plane.so",
+  "kind": "site",
+  "hints_hash": "dec49b77cd597ff1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://plane.so/llms.txt",
+      "title": "Plane",
+      "status": null
+    },
+    {
+      "url": "https://plane.so",
+      "title": "AI-native project management | Plane",
+      "status": 200
+    },
+    {
+      "url": "https://docs.plane.so",
+      "title": "Plane Docs | Plane",
+      "status": 200
+    },
+    {
+      "url": "https://plane.so/templates",
+      "title": "Project management templates • Plane",
+      "status": 200
+    },
+    {
+      "url": "https://plane.so/pricing",
+      "title": "Plane Pricing | Simple per-seat plans for teams that ship",
+      "status": 200
+    },
+    {
+      "url": "https://plane.so/about",
+      "title": "About Plane | Work infrastructure for humans and agents",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/makeplane/plane",
+      "title": "GitHub - makeplane/plane: Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Plane",
+  "summary": "Open-source, AI-native project management workspace: work items, cycles, wiki, dashboards and agents.",
+  "description": "Project management for teams and agents — work items, cycles, modules, wiki pages, intake, approvals, analytics dashboards and Plane AI (Pi Chat plus background agents). Runs on cloud, self-hosted or air-gapped; open source under AGPL-3.0 with GitHub, GitLab and Slack integrations, APIs and SDKs.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "kanban",
+    "table",
+    "list",
+    "calendar",
+    "timeline",
+    "chart",
+    "dashboard",
+    "form",
+    "chat",
+    "prompt-input",
+    "ai-agent-ui",
+    "command-palette"
+  ],
+  "keywords": [
+    "project management",
+    "issue tracker",
+    "open source",
+    "jira alternative",
+    "linear alternative",
+    "kanban board",
+    "sprint planning",
+    "gantt chart",
+    "wiki",
+    "documentation",
+    "ai agent",
+    "self-hosted",
+    "air-gapped",
+    "work item",
+    "task management",
+    "dashboard",
+    "roadmap",
+    "cycle"
+  ],
+  "contains": [
+    "views: board, spreadsheet, list, gantt, calendar",
+    "work items, cycles, modules, epics and initiatives",
+    "wiki with nested pages, intake forms, workflows and approvals",
+    "Plane AI: Pi Chat and background agents",
+    "cloud, self-hosted and air-gapped editions",
+    "free up to 12 users; Pro $6/user/mo annual; Business $13/user/mo",
+    "AGPL-3.0, 60.7k GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "app",
+    "api",
+    "cli",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "django",
+    "python",
+    "vite",
+    "postgresql",
+    "redis",
+    "docker"
+  ],
+  "pricing": "freemium",
+  "license": "AGPL-3.0",
+  "related": {
+    "repo": "https://github.com/makeplane/plane",
+    "docs": "https://docs.plane.so",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

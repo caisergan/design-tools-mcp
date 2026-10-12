@@ -1,0 +1,78 @@
+{
+  "id": "github-com-brielov-shadcn-location-picker",
+  "url": "https://github.com/brielov/shadcn-location-picker",
+  "kind": "repo",
+  "hints_hash": "3ed35a22b2a00d4f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/brielov/shadcn-location-picker/blob/HEAD/README.md",
+      "title": "Welcome to React Router!",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/brielov/shadcn-location-picker",
+      "title": "GitHub - brielov/shadcn-location-picker: A simple google maps location picker that integrates shadcn · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-location-picker.vercel.app",
+      "title": "New React Router App",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-location-picker",
+  "summary": "A Google Maps location picker that integrates shadcn/ui components.",
+  "description": "A location picker built on Google Maps and shadcn/ui, shipped as a React Router demo app with server-side rendering, TypeScript and Tailwind CSS. The repo README is the standard React Router starter with Docker deployment files.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "map"
+  ],
+  "keywords": [
+    "location picker",
+    "google map",
+    "map picker",
+    "place picker",
+    "address",
+    "shadcn",
+    "react",
+    "react router",
+    "tailwind",
+    "typescript"
+  ],
+  "contains": [
+    "Google Maps location picker integrating shadcn/ui",
+    "React Router app with SSR, TypeScript and Tailwind CSS",
+    "Docker files for npm, pnpm and bun",
+    "23 GitHub stars, 2 commits"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "react-router",
+    "typescript",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/brielov/shadcn-location-picker",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

@@ -1,0 +1,68 @@
+{
+  "id": "crm-ui-table-vercel-app",
+  "url": "https://crm-ui-table.vercel.app",
+  "kind": "site",
+  "hints_hash": "2c10d93b0fc1f187",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://crm-ui-table.vercel.app",
+      "title": "CRM App - Customer List & Drawer",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CRM App - Customer List & Drawer",
+  "summary": "Demo CRM screen: a customer list with filter, layout and sort controls plus a detail drawer showing one customer's profile and metrics.",
+  "description": "A single-screen CRM UI built around a customer table and a detail drawer. The list view carries filter, layout, sort and view-settings controls; the drawer opens a customer record (Vertex Financial Services) with company facts, account details and KPI tiles — response rate 92%, email exchange rate 1,198, NPS 75, retention rate 85%. The workspace sidebar covers company, customers, transactions, workflows, payments, billing and reporting.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "table",
+    "drawer",
+    "sidebar",
+    "stats"
+  ],
+  "keywords": [
+    "crm",
+    "customer list",
+    "data table",
+    "drawer",
+    "customer detail",
+    "crm ui",
+    "admin dashboard",
+    "app ui",
+    "customer management",
+    "detail panel",
+    "filters",
+    "web app demo"
+  ],
+  "contains": [
+    "customer list with filter, layout, sort and view settings",
+    "detail drawer for a single customer record",
+    "KPI tiles: response rate 92%, NPS 75, retention rate 85%",
+    "app sidebar: customers, transactions, workflows, payments, billing, reporting"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.65
+}

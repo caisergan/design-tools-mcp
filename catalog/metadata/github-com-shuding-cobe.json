@@ -1,0 +1,36 @@
+{
+  "id": "github-com-shuding-cobe",
+  "url": "https://github.com/shuding/cobe",
+  "kind": "repo",
+  "hints_hash": "72694ebdf594a9ad",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shuding/cobe/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/shuding/cobe", "title": "GitHub - shuding/cobe: 5KB WebGL globe lib. · GitHub", "status": 200},
+    {"url": "https://cobe.vercel.app", "title": "COBE", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cobe",
+  "summary": "5KB WebGL globe library that renders an interactive globe with markers and arcs on a canvas.",
+  "description": "A ~5KB zero-dependency WebGL globe you draw onto a canvas via createGlobe(canvas, options), which returns update() and destroy() methods. Options cover size, rotation, land darkness and more; markers and arcs connect locations and can be bound to DOM elements through CSS anchor names and visibility variables. Works with React, Vue, Svelte or vanilla JS.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["globe"],
+  "keywords": ["webgl globe", "3d globe", "interactive globe", "globe animation", "marker", "arc", "canvas", "react", "vue", "svelte", "vanilla js", "location"],
+  "contains": [
+    "~5KB, zero dependencies",
+    "createGlobe(canvas, options) returns update() and destroy() methods",
+    "options incl. width, height, phi, theta and dark for rotation and land darkness",
+    "markers and arcs bound to DOM elements via CSS anchor names and visibility variables",
+    "works with React, Vue, Svelte or vanilla JS",
+    "globe v2; MIT licensed"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["javascript", "webgl"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shuding/cobe", "docs": "https://cobe.vercel.app", "npm": "cobe", "figma": null, "parent": null},
+  "confidence": 0.9
+}

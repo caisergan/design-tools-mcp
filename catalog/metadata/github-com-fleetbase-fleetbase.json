@@ -1,0 +1,29 @@
+{
+  "id": "github-com-fleetbase-fleetbase",
+  "url": "https://github.com/fleetbase/fleetbase",
+  "kind": "repo",
+  "hints_hash": "e29c0b475afb2171",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/fleetbase/fleetbase/blob/HEAD/README.md", "title": "fleetbase/README.md · fleetbase/fleetbase", "status": 200},
+    {"url": "https://github.com/fleetbase/fleetbase", "title": "GitHub - fleetbase/fleetbase: Modular logistics and supply chain operating system (LSOS) · GitHub", "status": 200},
+    {"url": "https://github.com/fleetbase/fleetbase/blob/HEAD/api/composer.json", "title": "fleetbase/api/composer.json · fleetbase/fleetbase", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fleetbase",
+  "summary": "Open-source modular logistics and supply chain operating system for dispatch, tracking, commerce and warehousing.",
+  "description": "A self-hosted (Docker) or cloud platform for logistics operations, assembled from modules installed into a console: Fleet-Ops dispatch with live tracking and route optimization, Storefront commerce, Pallet warehousing, Ledger invoicing, a customer portal, IAM, an AI module and developer tooling. Ships a REST API, WebSockets, webhooks, an extension marketplace and open-source iOS/Android driver and storefront apps.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["kanban", "map", "dashboard", "chat"],
+  "keywords": ["logistics", "fleet management", "dispatch", "delivery tracking", "supply chain", "warehouse management", "route optimization", "order management", "last mile delivery", "open source", "self-hosted", "rest api", "docker", "transport management", "logistics platform"],
+  "contains": ["modules: Fleet-Ops, Storefront, Pallet, Ledger, Customer Portal, AI, IAM, Developers, Navigator App, Storefront App", "open-source iOS and Android driver and storefront apps", "REST API, WebSockets, webhooks and an extension marketplace", "screenshots: order kanban board, live operations map, geofences, ledger", "Docker self-host, Fleetbase Cloud or own-cloud deployment; free trial", "dual license: AGPL-3.0-or-later or a commercial license"],
+  "formats": ["code", "api", "docs", "app"],
+  "stack": ["php", "laravel"],
+  "pricing": "freemium",
+  "license": "AGPL-3.0-or-later",
+  "related": {"repo": "https://github.com/fleetbase/fleetbase", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

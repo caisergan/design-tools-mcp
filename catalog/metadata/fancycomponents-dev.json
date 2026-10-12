@@ -1,0 +1,114 @@
+{
+  "id": "fancycomponents-dev",
+  "url": "https://fancycomponents.dev",
+  "kind": "site",
+  "hints_hash": "75411c444296265b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fancycomponents.dev/llms.txt",
+      "title": "Fancy Components",
+      "status": null
+    },
+    {
+      "url": "https://fancycomponents.dev",
+      "title": "Fancy Components",
+      "status": 200
+    },
+    {
+      "url": "https://fancycomponents.dev/components",
+      "title": "Fancy Components",
+      "status": 200
+    },
+    {
+      "url": "https://fancycomponents.dev/docs/changelog.md",
+      "title": "Changelog",
+      "status": 200
+    },
+    {
+      "url": "https://fancycomponents.dev/docs/installation.md",
+      "title": "Installation",
+      "status": 200
+    },
+    {
+      "url": "https://fancycomponents.dev/docs/introduction.md",
+      "title": "Introduction",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Fancy Components",
+  "summary": "Copy-paste React components for playful text, cursor, physics and 3D effects.",
+  "description": "Playful React components and microinteractions: text effects, cursor and trail effects, physics animations, marquees, a 3D box carousel and SVG filters. Built with TypeScript, Tailwind CSS and Motion, added through the shadcn CLI's @fancy registry or copied by hand; free for personal and commercial projects.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "text-effect",
+    "cursor",
+    "3d",
+    "marquee",
+    "carousel",
+    "scroll-effect",
+    "card",
+    "background"
+  ],
+  "keywords": [
+    "react component",
+    "micro interaction",
+    "text animation",
+    "hover effect",
+    "marquee",
+    "cursor effect",
+    "3d card",
+    "physics animation",
+    "svg filter",
+    "copy paste component",
+    "shadcn registry",
+    "framer motion",
+    "tailwind css",
+    "scroll animation",
+    "typewriter",
+    "scramble text",
+    "parallax",
+    "image trail"
+  ],
+  "contains": [
+    "40 docs pages and 158 shadcn registry items",
+    "sections: text (20), physics (3), background (2), image (2), filter (2), carousel (1)",
+    "adds via the shadcn CLI @fancy registry or manual copy-paste",
+    "built with React, TypeScript, Tailwind CSS and Motion",
+    "some components work in Framer"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion",
+    "matter.js"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-the-claude-code-bible",
+  "url": "https://ruben.substack.com/p/the-claude-code-bible",
+  "kind": "page",
+  "hints_hash": "41b1a57be2bd7647",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/the-claude-code-bible", "title": "Vibecoding. - by Ruben Hassid - How to AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vibecoding.",
+  "summary": "Guide to vibecoding with Claude Code for non-coders: setup, a copy-paste mega prompt, costs, a best-of prompt list and when not to use it.",
+  "description": "A How to AI post explaining vibecoding, building a site by talking to an AI in plain English, and how to set up Claude Code. It includes a mega prompt to copy, notes on making output less generic, a cost breakdown, a best-of prompt list and a step on handing the project to a real coder.",
+  "type": "article",
+  "keywords": ["claude code", "vibecoding", "ai coding", "mega prompt", "prompt list", "vibe coding", "no-code website", "cli", "ai agent", "how to ai"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.75
+}

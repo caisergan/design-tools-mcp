@@ -1,0 +1,25 @@
+{
+  "id": "shadcnblocks-com-template-zippay",
+  "url": "https://shadcnblocks.com/template/zippay",
+  "kind": "page",
+  "hints_hash": "851b706ab7056f5d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnblocks.com/template/zippay", "title": "Zippay - Fintech SaaS marketing template Next.js & Astro - Shadcnblocks.com", "status": null}
+  ],
+  "status": "ok",
+  "name": "Zippay",
+  "summary": "Fintech SaaS marketing template in Next.js and Astro editions, built with shadcn/ui and Tailwind 4.",
+  "description": "A multi-page marketing website template for a fintech SaaS product, built with shadcn/ui and Tailwind 4. Ships in Next.js and Astro editions with 100+ components across 25 pages, MDX and data JSON files, an included Figma file and mobile-first responsive design.",
+  "type": "template",
+  "keywords": ["fintech template", "saas template", "marketing template", "nextjs template", "astro template", "shadcn ui", "tailwind template", "landing page template", "react template", "multi-page template", "website template", "figma file", "mdx", "typescript", "deploy"],
+  "contains": ["25-page fintech SaaS marketing template", "100+ components", "Next.js and Astro editions in one purchase", "Figma file included", "MDX and data JSON content", "responsive mobile-first design with Next.js SEO metadata", "deploy-tested on Vercel, Netlify and Cloudflare Pages", "template versions 1.0.0 (Sep 2025) and 2.0.0 (Mar 2026)"],
+  "formats": ["code", "figma-file"],
+  "stack": ["nextjs", "astro", "react", "tailwind", "typescript"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "www-shadcnblocks-com"},
+  "confidence": 0.85
+}

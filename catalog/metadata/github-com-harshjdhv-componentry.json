@@ -1,0 +1,31 @@
+{
+  "id": "github-com-harshjdhv-componentry",
+  "url": "https://github.com/harshjdhv/componentry",
+  "kind": "repo",
+  "hints_hash": "c81f68504ee2ac34",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/harshjdhv/componentry/blob/HEAD/README.md", "title": "Clone the repository", "status": 200},
+    {"url": "https://github.com/harshjdhv/componentry", "title": "GitHub - harshjdhv/componentry: Animated, production-ready UI components. Built the way real products need them. · GitHub", "status": 200},
+    {"url": "https://componentry.dev", "title": "Componentry — Beautiful Animated UI Components for React", "status": 200},
+    {"url": "https://componentry.dev/docs", "title": "Components Documentation | Componentry - UI Component Library", "status": 200},
+    {"url": "https://componentry.dev/blocks", "title": "Blocks — Coming Soon | Componentry", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Componentry",
+  "summary": "Animated React UI components — text effects, hero backgrounds, cursor and scroll effects — installed with the shadcn CLI.",
+  "description": "53 animated, copy-paste React components built with Tailwind CSS and Framer Motion, grouped into text animations, components, hero backgrounds, visual effects and ASCII effects. Includes kinetic text, WebGL cursor effects, carousels, cards and calendars; install via the shadcn CLI or an AI editor over MCP.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["background", "text-effect", "cursor", "scroll-effect", "3d", "carousel", "card", "calendar"],
+  "keywords": ["react", "ui component", "animated component", "framer motion", "tailwind", "shadcn", "copy paste", "text animation", "cursor effect", "hero background", "webgl", "3d", "scroll animation", "component library", "nextjs", "typescript", "mcp"],
+  "contains": ["53 components: text animations, hero backgrounds, visual effects, ASCII effects", "install via shadcn CLI or MCP; source is editable", "docs page per component with previews", "MIT-licensed; image-trail and layered-stack require GSAP"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion", "typescript", "gsap"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/harshjdhv/componentry", "docs": "https://componentry.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

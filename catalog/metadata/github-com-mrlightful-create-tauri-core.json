@@ -1,0 +1,28 @@
+{
+  "id": "github-com-mrlightful-create-tauri-core",
+  "url": "https://github.com/mrlightful/create-tauri-core",
+  "kind": "repo",
+  "hints_hash": "1e1d8d31f558d966",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mrlightful/create-tauri-core/blob/HEAD/README.md", "title": "Tauri: An Ultimate Project Template", "status": null},
+    {"url": "https://github.com/mrlightful/create-tauri-core", "title": "GitHub - MrLightful/create-tauri-react: Well-architected Tauri app template with Vite, React, and Tailwind CSS. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "create-tauri-react",
+  "summary": "Tauri desktop app template with Vite, React, TypeScript, Tailwind and shadcn/ui; Biome and Husky pre-commits.",
+  "description": "A Tauri project template for building desktop apps with Tauri, React, TypeScript and Tailwind CSS (with shadcn/ui) in Vite. The architecture follows bulletproof-react practices: routes in src/app, pages built from src/features, pure UI components in src/components. Biome (via ultracite) handles linting and formatting, Husky + lint-staged run pre-commit hooks, and bun is the default package manager.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["tauri", "desktop app", "template", "vite", "react", "typescript", "tailwind css", "shadcn", "biome", "husky", "bulletproof react", "boilerplate"],
+  "contains": ["Tauri + Vite + React + TypeScript + Tailwind CSS (shadcn/ui) template", "architecture based on bulletproof-react practices", "Biome (via ultracite) for linting and formatting; bun run check / bun run fix", "Husky + lint-staged pre-commit hooks", "bun by default, with steps to switch package manager", "MIT licensed, 239 stars"],
+  "formats": ["code", "templates"],
+  "stack": ["tauri", "react", "vite", "typescript", "tailwind", "shadcn", "biome"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mrlightful/create-tauri-core", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

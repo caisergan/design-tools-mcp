@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-ai-couldnt-do-excel",
+  "url": "https://ruben.substack.com/p/ai-couldnt-do-excel",
+  "kind": "page",
+  "hints_hash": "08fa2af842ed3c73",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/ai-couldnt-do-excel", "title": "How to install Claude Excel. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "How to install Claude Excel.",
+  "summary": "Step-by-step guide to installing Claude in Excel and using it on formulas, data cleaning, analysis and models.",
+  "description": "How-to guide for using Claude inside Excel: installing it, reading formulas you have never seen, cleaning messy data, analysing data without formulas, turning PDFs into real Excel files and building financial models, plus what it cannot do yet.",
+  "type": "article",
+  "keywords": ["claude", "excel", "spreadsheet", "spreadsheet automation", "formula", "data cleaning", "data analysis", "financial model", "pdf to excel", "ai tutorial", "step-by-step guide", "spreadsheet ai"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.9
+}

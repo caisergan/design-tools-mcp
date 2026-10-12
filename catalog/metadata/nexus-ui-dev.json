@@ -1,0 +1,122 @@
+{
+  "id": "nexus-ui-dev",
+  "url": "https://nexus-ui.dev",
+  "kind": "site",
+  "hints_hash": "87753e60d1e5c199",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://nexus-ui.dev/llms.txt",
+      "title": "Nexus UI Documentation",
+      "status": null
+    },
+    {
+      "url": "https://nexus-ui.dev",
+      "title": "Nexus UI - Build Better AI Interfaces",
+      "status": 200
+    },
+    {
+      "url": "https://nexus-ui.dev/docs.md",
+      "title": "Introduction",
+      "status": 200
+    },
+    {
+      "url": "https://nexus-ui.dev/docs",
+      "title": "Introduction | Nexus UI",
+      "status": 200
+    },
+    {
+      "url": "https://nexus-ui.dev/docs/skills.md",
+      "title": "Skills",
+      "status": 200
+    },
+    {
+      "url": "https://nexus-ui.dev/docs/roadmap.md",
+      "title": "Roadmap",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/victorcodess/nexus-ui",
+      "title": "GitHub - victorcodess/nexus-ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Nexus UI",
+  "summary": "Open-source component library of AI-native primitives for chat, streaming and agent interfaces.",
+  "description": "Copy-paste React components for AI apps: prompt input, message and thread, attachments, model selector, chain of thought, reasoning, tool calls, citations, suggestions and text shimmer. Built on Tailwind CSS v4 and Radix UI through the shadcn registry, compatible with the Vercel AI SDK, with an agent skill for coding assistants.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "ai-agent-ui",
+    "chat",
+    "file-upload",
+    "prompt-input",
+    "text-effect",
+    "timeline",
+    "toast"
+  ],
+  "keywords": [
+    "ai component",
+    "chat ui",
+    "prompt input",
+    "ai agent",
+    "shadcn ui",
+    "react",
+    "tailwind css",
+    "vercel ai sdk",
+    "streaming",
+    "message",
+    "thread",
+    "model selector",
+    "reasoning",
+    "tool call",
+    "citation",
+    "text shimmer",
+    "copy paste",
+    "llm interface"
+  ],
+  "contains": [
+    "15 shadcn registry components",
+    "chat pieces: prompt input, message, thread, attachments, suggestions, toaster",
+    "agent pieces: chain of thought, reasoning, tool, citation, feedback bar",
+    "works with useChat and the Vercel AI SDK",
+    "agent skill for Cursor, Claude Code and Windsurf",
+    "markdown docs plus llms.txt and llms-full.txt",
+    "MIT license, 132 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "radix",
+    "shadcn-ui",
+    "vercel-ai-sdk"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/victorcodess/nexus-ui",
+    "docs": "https://nexus-ui.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

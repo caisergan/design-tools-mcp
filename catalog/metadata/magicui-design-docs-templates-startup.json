@@ -1,0 +1,22 @@
+{
+  "id": "magicui-design-docs-templates-startup",
+  "url": "https://magicui.design/docs/templates/startup",
+  "kind": "page",
+  "hints_hash": "e36e0597bf0aad89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:01Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://magicui.design/docs/templates/startup", "title": "Startup Template | React Components & Templates", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Startup Template",
+  "summary": "Paid landing page template for launching a new product, aimed at bootstrappers and pre-PMF startups.",
+  "description": "A complete frontend-only landing page template with header, hero, social proof, pricing, CTA and footer sections plus a mobile responsive navbar. Part of Magic UI's Pro template set; the page explains who it is for and what it includes.",
+  "type": "template",
+  "elements": ["navbar", "hero", "pricing", "cta", "footer"],
+  "keywords": ["landing page template", "startup", "launch", "hero section", "pricing section", "social proof", "cta", "footer", "mobile navbar", "react", "next.js", "tailwind css", "saas", "template"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "magicui-design"},
+  "confidence": 0.8
+}

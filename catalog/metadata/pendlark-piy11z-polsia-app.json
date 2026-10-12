@@ -1,0 +1,36 @@
+{
+  "id": "pendlark-piy11z-polsia-app",
+  "url": "https://pendlark-piy11z.polsia.app",
+  "kind": "site",
+  "hints_hash": "efde2c11f5d69970",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://pendlark-piy11z.polsia.app/llms.txt", "title": "Pendlark", "status": null },
+    { "url": "https://pendlark-piy11z.polsia.app", "title": "Polsia — AI That Runs Your Company While You Sleep", "status": 200 }
+  ],
+  "status": "partial",
+  "name": "Pendlark",
+  "summary": "Web app that turns every customer signal into the next right action.",
+  "description": "Hosted app on the Polsia platform (pendlark-piy11z.polsia.app). Its llms.txt gives the one-line purpose — every customer signal turned into the next right action — and lists a single page, Home. The interface is JavaScript-rendered, so no further product detail was readable.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["customer signal", "next action", "customer follow-up", "web app", "hosted app", "automation"],
+  "contains": [
+    "llms.txt tagline: every customer signal turned into the next right action",
+    "one published page (Home)",
+    "hosted on the polsia.app platform"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.4
+}

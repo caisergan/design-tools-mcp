@@ -1,0 +1,15 @@
+{
+  "id": "acrobatreaderonline-com",
+  "url": "https://acrobatreaderonline.com",
+  "kind": "site",
+  "hints_hash": "4521b87938d592b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://acrobatreaderonline.com/llms.txt", "title": null, "status": null},
+    {"url": "https://acrobatreaderonline.com/", "title": null, "status": null}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

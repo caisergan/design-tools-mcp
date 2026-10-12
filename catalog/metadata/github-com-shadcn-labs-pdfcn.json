@@ -1,0 +1,30 @@
+{
+  "id": "github-com-shadcn-labs-pdfcn",
+  "url": "https://github.com/shadcn-labs/pdfcn",
+  "kind": "repo",
+  "hints_hash": "96cb4da62c6c41fb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shadcn-labs/pdfcn/blob/HEAD/README.md", "title": "pdfcn", "status": 200},
+    {"url": "https://github.com/shadcn-labs/pdfcn", "title": "GitHub - shadcn-labs/pdfcn: Beautiful pdf components, built on Takumi and Forme. 100% Free, Zero config, one command setup. · GitHub", "status": 200},
+    {"url": "https://pdfcn.dev", "title": "pdfcn - Beautiful PDFs, made simple", "status": 200},
+    {"url": "https://pdfcn.dev/llms.txt", "title": "pdfcn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "pdfcn",
+  "summary": "Copy-paste PDF components for React: Takumi and Forme primitives, invoice and report blocks, installed with the shadcn CLI.",
+  "description": "Free, open-source PDF components for React built on the Takumi and Forme renderers and distributed through a shadcn registry. The docs cover printable primitives — alert, badge, card, data table, form, graph, QR code, watermark and more — plus ready-made blocks from invoices and reports to packing slips, and nine theme presets.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["alert", "badge", "card", "table", "form", "chart", "list"],
+  "keywords": ["pdf component", "react pdf", "shadcn registry", "pdf generation", "invoice template", "report template", "document template", "copy paste component", "takumi", "forme", "typescript", "qr code", "watermark", "print"],
+  "contains": ["24 Takumi PDF primitives (alert, badge, card, data table, form, graph, QR code, watermark…)", "20 blocks: six invoice styles, four reports, meeting minutes, packing slip, shipping label, work order…", "two rendering bases: Takumi and Forme", "nine theme presets (Professional, Modern, Minimal, Executive, Corporate, Elegant, Vivid, Forest, Blueprint)", "installs via shadcn CLI, MCP server or copy-paste; an agent skill ships with the docs"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "typescript", "rust", "wasm", "takumi", "forme"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcn-labs/pdfcn", "docs": "https://pdfcn.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

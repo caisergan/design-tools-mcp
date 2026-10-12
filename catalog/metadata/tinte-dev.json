@@ -1,0 +1,29 @@
+{
+  "id": "tinte-dev",
+  "url": "https://tinte.dev",
+  "kind": "site",
+  "hints_hash": "5324f705751d8f42",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tinte.dev", "title": "Compile your design system into an Agent Plugin", "status": null},
+    {"url": "https://github.com/Railly/tinte", "title": "GitHub - Railly/tinte: Compile your design system into an Agent Plugin.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/Railly/tinte/main/README.md", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tinte",
+  "summary": "CLI that compiles a site's design system into an agent plugin and editor themes.",
+  "description": "Tinte extracts computed styles from a live page into thirteen semantic OKLCH tokens, compiles them into an installable Agent Plugin (SKILL.md + tokens.css) for Claude Code, Codex and Cursor, and emits themes for editors and terminals from one config. A linter fails the build on colors that bypass the tokens.",
+  "type": "tool",
+  "categories": ["design-rules", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["design system", "design token", "agent plugin", "skill.md", "design.md", "cli", "theme", "vs code theme", "terminal theme", "shadcn", "oklch", "lint", "claude code", "cursor", "codex", "css variable", "color token"],
+  "contains": ["extracts computed styles into 13 semantic OKLCH tokens", "emits SKILL.md + tokens.css agent plugin", "theme targets: VS Code/Cursor, Zed, Kitty, Warp, Alacritty, Windows Terminal, Slack, GIMP, Shiki", "lints builds for off-palette colors", "themes installable as shadcn registry items", "MIT-licensed; npm packages tinte, @tinte/core and @tinte/providers"],
+  "formats": ["cli", "npm-package", "registry", "code", "docs"],
+  "stack": ["nextjs"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Railly/tinte", "docs": null, "npm": "tinte", "figma": null, "parent": null},
+  "confidence": 0.9
+}

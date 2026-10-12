@@ -1,0 +1,22 @@
+{
+  "id": "lucide-dev-icons",
+  "url": "https://lucide.dev/icons",
+  "kind": "page",
+  "hints_hash": "d56ad5c15cb8217b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lucide.dev/icons", "title": "Icons – Lucide", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lucide Icons",
+  "summary": "Browsable catalog of the Lucide SVG icon set with category filters, counts and a customizer for stroke and color.",
+  "description": "The icons page of lucide.dev: the whole Lucide set in one browsable list with category counts (Arrows 218, Coding & development 271, Design 169, Devices 189, File icons 170, Accessibility 34 …), a customizer for size, stroke width and color, an option to include external libraries and a view switcher.",
+  "type": "icon-set",
+  "elements": [],
+  "keywords": ["icon", "icon set", "svg icon", "icon library", "icon browser", "outline icon", "stroke icon", "free icon", "open source icon", "customizable icon", "vector icon", "icon gallery", "react", "icon pack"],
+  "formats": ["svg"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "lucide-dev"},
+  "confidence": 0.8
+}

@@ -1,0 +1,20 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11796",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11796",
+  "kind": "page",
+  "hints_hash": "1e21a2bc54e69a59",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11796", "title": "fix(goal): keep a full-claim checkpoint replay from spending a stall, and tidy batching follow-ups by qqqys · Pull Request #11796 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(goal): keep a full-claim checkpoint replay from spending a stall",
+  "summary": "Merged pull request in QwenLM/qwen-code: a successful checkpoint replay no longer spends a stall, plus small Goal batching and docs fixes.",
+  "description": "Merged pull request (#11796) in QwenLM/qwen-code: follow-ups to the Goal checkpoint batching work — a checkpoint replay that succeeds full no longer spends a stall, which could stop a session restored one stall short of GOAL_CHECKPOINT_STALL_LIMIT as usage_limited before its first turn; the docs now explain goalCheckpointTimeoutSeconds and batched active-time accounting, and the restore-replay tests share one crash-state harness.",
+  "keywords": ["pull request", "ai coding agent", "cli", "terminal", "checkpoint", "session resume", "goal", "stall", "batch", "bug fix", "open source"],
+  "formats": ["code"],
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

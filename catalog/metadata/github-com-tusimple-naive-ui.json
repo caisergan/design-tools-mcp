@@ -1,0 +1,27 @@
+{
+  "id": "github-com-tusimple-naive-ui",
+  "url": "https://github.com/TuSimple/naive-ui",
+  "kind": "repo",
+  "hints_hash": "87e3371cb275ae0f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/TuSimple/naive-ui/blob/HEAD/README.md", "title": "Naive UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Naive UI",
+  "summary": "Vue 3 component library with 90+ tree-shakable TypeScript components and a type-safe theme system.",
+  "description": "A fairly complete Vue 3 component library: more than 90 tree-shakable components written in TypeScript, with a type-safe theme system that needs no CSS/Less/Sass imports or webpack loaders. Data components use virtual lists by default, and the project recommends xicons as its icon library.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": [],
+  "keywords": ["vue", "vue 3", "component library", "ui component", "typescript", "theme customization", "design system", "tree-shakable", "virtual list", "vue ui kit"],
+  "contains": ["90+ tree-shakable components", "type-safe theme system; no CSS/Less/Sass imports needed", "written in TypeScript", "data components use virtual lists by default", "recommends the xicons icon library; Sketch design resources", "MIT licensed; docs at www.naiveui.com"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["vue", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TuSimple/naive-ui", "docs": "https://www.naiveui.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

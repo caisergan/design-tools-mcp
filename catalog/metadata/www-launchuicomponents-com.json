@@ -1,0 +1,134 @@
+{
+  "id": "www-launchuicomponents-com",
+  "url": "https://www.launchuicomponents.com",
+  "kind": "site",
+  "hints_hash": "31e92230dacaaa7d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.launchuicomponents.com",
+      "title": "Launch UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.launchuicomponents.com/blocks",
+      "title": "Blocks - Launch UI - Launch UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.launchuicomponents.com/pricing",
+      "title": "Launch UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.launchuicomponents.com/templates",
+      "title": "Website Templates - Launch UI - Launch UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/launch-ui/launch-ui",
+      "title": "GitHub - launch-ui/launch-ui: Landing page kit built with React, Shadcn/ui and Tailwind that you can copy/paste into your project. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/launch-ui/launch-ui/blob/main/LICENSE.md",
+      "title": "launch-ui/LICENSE.md at main · launch-ui/launch-ui · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Launch UI",
+  "summary": "Copy-paste landing page blocks and components built with React, shadcn/ui and Tailwind CSS.",
+  "description": "A landing page kit of blocks — navbar, hero, features, logos, bento, tabs, social proof, testimonials, FAQ, CTA, carousel, stats, pricing and footer — plus badge, button and card components, installed by copy-paste or from its shadcn registry. Includes website templates (Saturn, Jupiter, Neptune, Luna, Pluto) and app templates; free components plus one-time Pro plans.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "bento-grid",
+    "stats",
+    "tabs",
+    "button",
+    "card",
+    "badge",
+    "carousel"
+  ],
+  "variants": {
+    "navbar": [
+      "static",
+      "sticky",
+      "floating",
+      "centered"
+    ]
+  },
+  "keywords": [
+    "landing page",
+    "page section",
+    "block",
+    "react component",
+    "shadcn",
+    "tailwind css",
+    "nextjs",
+    "navbar",
+    "hero",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "cta",
+    "footer",
+    "carousel",
+    "stats",
+    "bento grid",
+    "website template",
+    "saas template",
+    "dark mode",
+    "copy paste component",
+    "marketing site"
+  ],
+  "contains": [
+    "blocks: navbar, hero, features, logos, carousel, tabs, social proof, testimonials, stats, FAQ, CTA, pricing, footer",
+    "website templates: Saturn, Jupiter, Neptune, Luna, Pluto",
+    "app templates: calendar, AI chat",
+    "free tier plus lifetime Pro and Pro Team plans",
+    "copy-paste or install via the shadcn registry"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "templates",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "typescript",
+    "radix"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/launch-ui/launch-ui",
+    "docs": "https://www.launchuicomponents.com/docs/getting-started/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

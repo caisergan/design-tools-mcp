@@ -1,0 +1,16 @@
+{
+  "id": "cal-com-imran-uxi-30min-user-imran-uxi",
+  "url": "https://cal.com/imran.uxi/30min?user=imran.uxi",
+  "kind": "page",
+  "hints_hash": "4b302ffafaf3283d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://cal.com/imran.uxi/30min?user=imran.uxi", "title": "Get Your Free Strategy Session | Imran | Cal.com", "status": 200}],
+  "status": "partial",
+  "name": "Get Your Free Strategy Session",
+  "summary": "Bookable 30-minute strategy session event page for Imran on Cal.com.",
+  "keywords": ["booking page", "schedule a call", "appointment scheduling", "strategy session", "30 minute meeting", "free consultation", "meeting scheduler", "calendar booking"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "cal-com"},
+  "confidence": 0.5
+}

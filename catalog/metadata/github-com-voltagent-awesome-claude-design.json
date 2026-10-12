@@ -1,0 +1,73 @@
+{
+  "id": "github-com-voltagent-awesome-claude-design",
+  "url": "https://github.com/VoltAgent/awesome-claude-design",
+  "kind": "repo",
+  "hints_hash": "e197ca99ed876aa3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/VoltAgent/awesome-claude-design/blob/HEAD/README.md",
+      "title": "Awesome Claude Design",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Awesome Claude Design",
+  "summary": "68 ready-to-use DESIGN.md files that Claude Design expands into a full UI scaffold in one shot.",
+  "description": "A collection of 68 DESIGN.md files, each describing one brand-inspired design system — visual theme, color palette, typography, component stylings, layout, depth, do's and don'ts, responsive behaviour and an agent prompt guide — in a format design agents can act on. Upload one to Claude Design and it scaffolds tokens, preview cards and a working UI kit with a SKILL.md. Systems span AI & LLM platforms, developer tools, fintech, e-commerce, media and automotive brands.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [
+    "button",
+    "input",
+    "card",
+    "navbar"
+  ],
+  "keywords": [
+    "design.md",
+    "design system",
+    "claude design",
+    "agent skill",
+    "design token",
+    "style guide",
+    "ui rule",
+    "claude",
+    "ai agent",
+    "prompt",
+    "color palette",
+    "typography",
+    "component styling",
+    "design inspiration",
+    "scaffold"
+  ],
+  "contains": [
+    "68 DESIGN.md design system files",
+    "groups: AI, dev tools, backend/DevOps, productivity, design tools, fintech, e-commerce, media, automotive",
+    "each file has 9 sections incl. theme, palette, type, components, layout, depth, responsive rules",
+    "Claude Design output: README, CSS variables, preview cards, UI kit and SKILL.md",
+    "MIT-licensed repo; files are unofficial brand-inspired starting points"
+  ],
+  "formats": [
+    "docs",
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/VoltAgent/awesome-claude-design",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

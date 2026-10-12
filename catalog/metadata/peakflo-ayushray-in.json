@@ -1,0 +1,72 @@
+{
+  "id": "peakflo-ayushray-in",
+  "url": "https://peakflo.ayushray.in",
+  "kind": "site",
+  "hints_hash": "5779b15c7a5204c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://peakflo.ayushray.in",
+      "title": "Peakflo — Agentic Workflows for Finance Automation",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Peakflo",
+  "summary": "Peakflo's finance-automation marketing site: agentic workflow templates, an ROI calculator and 40+ integrations.",
+  "description": "A full marketing site for Peakflo (Y Combinator S21): hero for agentic invoice-to-cash workflows, AI capability cards, pre-built AP/AR workflow templates with volume and accuracy figures, an interactive AR & AP savings calculator, 40+ ERP, banking and messaging integrations, industry sections, customer stories, an FAQ and demo CTAs.",
+  "type": "template",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "stats",
+    "testimonials",
+    "faq",
+    "cta",
+    "logo-cloud"
+  ],
+  "keywords": [
+    "finance automation",
+    "invoice to cash",
+    "accounts payable",
+    "saas",
+    "marketing site",
+    "landing page",
+    "hero section",
+    "testimonials",
+    "roi calculator",
+    "b2b"
+  ],
+  "contains": [
+    "hero: agentic workflows that automate invoice-to-cash",
+    "capability cards: AI extraction, validation, routing, multi-system sync, continuous learning",
+    "pre-built workflow templates with volumes and accuracy (10K+ bills/mo, 99.5% …)",
+    "interactive AR & AP savings calculator with live ROI output",
+    "40+ ERP, banking and messaging integrations: NetSuite, SAP, Xero, QuickBooks, Slack, WhatsApp",
+    "customer stories: Ninja Van, InMobi, Cove, Bharathi Homes, Vida, Driver Logistics",
+    "compliance badges (SOC 2, CASA Tier 2, PDPA) and a G2 rating"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

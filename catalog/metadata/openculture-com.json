@@ -1,0 +1,38 @@
+{
+  "id": "openculture-com",
+  "url": "https://openculture.com",
+  "kind": "site",
+  "hints_hash": "fbf2916193b2a7ad",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://openculture.com", "title": "The best free cultural & educational media on the web - Open Culture", "status": null},
+    {"url": "https://www.openculture.com/category/art", "title": "Art Archives - Open Culture archive | Open Culture", "status": null},
+    {"url": "https://www.openculture.com/category/law", "title": "Law Archives - Open Culture archive | Open Culture", "status": null},
+    {"url": "https://www.openculture.com/category/mit", "title": "MIT Archives - Open Culture archive | Open Culture", "status": null},
+    {"url": "https://www.openculture.com/category/data", "title": "Data Archives - Open Culture archive | Open Culture", "status": null}
+  ],
+  "status": "ok",
+  "name": "Open Culture",
+  "summary": "Editorial guide to free cultural and educational media: online courses, audiobooks, movies, textbooks and podcasts.",
+  "description": "A regularly updated blog that catalogues free cultural and educational media: curated guides to free online courses, audiobooks, eBooks, textbooks, movies, podcasts, language lessons and K-12 resources. Posts are written by editors, tagged by subject (art, books, history, film, law, data, MIT …) and browsable through category archives; everything it points to is free to access.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["free online course", "free audiobook", "free ebook", "free movie", "free textbook", "free language lesson", "free podcast", "public domain", "culture", "education", "k-12 resource"],
+  "contains": [
+    "guides to free online courses and certificate programs",
+    "free audiobooks, eBooks and textbooks",
+    "free movies and podcasts",
+    "free language lessons and K-12 resources",
+    "posts tagged by category (art, books, history, film, law, data, MIT …)",
+    "15,931 URLs in the site's sitemap"
+  ],
+  "formats": ["links"],
+  "stack": ["wordpress"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

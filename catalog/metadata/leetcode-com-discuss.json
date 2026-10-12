@@ -1,0 +1,18 @@
+{
+  "id": "leetcode-com-discuss",
+  "url": "https://leetcode.com/discuss",
+  "kind": "page",
+  "hints_hash": "d239dd94c12247cb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://leetcode.com/discuss", "title": "Discuss - LeetCode", "status": null}
+  ],
+  "status": "partial",
+  "name": "Discuss",
+  "summary": "Discussion forum on LeetCode for coding problems, interviews and networking, with trending and all-time views.",
+  "keywords": ["leetcode", "discuss", "forum", "coding interview", "algorithm", "problem solution", "community", "programming discussion"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "leetcode-com"},
+  "confidence": 0.6
+}

@@ -1,0 +1,97 @@
+{
+  "id": "github-com-thefrontkit-a11y-starter-kit-code",
+  "url": "https://github.com/thefrontkit/a11y-starter-kit-code",
+  "kind": "repo",
+  "hints_hash": "0b3971622b754611",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:07Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/thefrontkit/a11y-starter-kit-code/blob/HEAD/README.md",
+      "title": "A11y Starter Kit",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/thefrontkit/a11y-starter-kit-code/HEAD/LICENSE.md",
+      "title": "thefrontkit — License Summary",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "A11y Starter Kit",
+  "summary": "Free Next.js starter kit for WCAG 2.1 AA interfaces: accessible components, a11y hooks, dark mode.",
+  "description": "A free, production-ready accessibility starter kit by thefrontkit for building WCAG 2.1 AA compliant interfaces with Next.js 16, React 19, Tailwind CSS 4 and shadcn/ui. It ships demo pages (login, dashboard, data table, settings, notifications), accessibility hooks (useAnnounce, useFocusTrap, useKeyboardNavigation, useReducedMotion) and layout components (SkipLink, Header, Footer, Sidebar, MobileNav, ThemeToggle) with system-aware dark mode.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "footer",
+    "sidebar",
+    "breadcrumbs",
+    "table",
+    "pagination",
+    "form",
+    "switch",
+    "checkbox",
+    "toast",
+    "modal"
+  ],
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "wcag",
+    "wcag 2.1 aa",
+    "starter kit",
+    "nextjs",
+    "react",
+    "tailwind css",
+    "shadcn",
+    "typescript",
+    "dark mode",
+    "keyboard navigation",
+    "screen reader",
+    "focus trap",
+    "skip link",
+    "reduced motion",
+    "data table",
+    "login form",
+    "dashboard",
+    "aria",
+    "hook",
+    "template"
+  ],
+  "contains": [
+    "demo pages: login, dashboard, data table, settings, notifications",
+    "custom hooks: useAnnounce, useFocusTrap, useKeyboardNavigation, useReducedMotion",
+    "components: LiveRegion, VisuallyHidden, SkipLink, Header, Footer, Sidebar, Breadcrumbs, MobileNav, ThemeToggle",
+    "keyboard navigation, ARIA landmarks, 44px touch targets and reduced-motion support",
+    "system-aware dark mode",
+    "Next.js 16, React 19, Tailwind CSS 4, shadcn/ui, React Hook Form + Zod, TanStack Table"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {
+    "repo": "https://github.com/thefrontkit/a11y-starter-kit-code",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

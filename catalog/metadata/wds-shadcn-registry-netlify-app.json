@@ -1,0 +1,109 @@
+{
+  "id": "wds-shadcn-registry-netlify-app",
+  "url": "https://wds-shadcn-registry.netlify.app",
+  "kind": "site",
+  "hints_hash": "601382b194f422c2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://wds-shadcn-registry.netlify.app",
+      "title": "WDS Shadcn Registry | WDS Shadcn Registry",
+      "status": 200
+    },
+    {
+      "url": "https://wds-shadcn-registry.netlify.app/getting-started/installation",
+      "title": "Installation | WDS Shadcn Registry",
+      "status": 200
+    },
+    {
+      "url": "https://wds-shadcn-registry.netlify.app/getting-started/introduction",
+      "title": "Introduction | WDS Shadcn Registry",
+      "status": 200
+    },
+    {
+      "url": "https://wds-shadcn-registry.netlify.app/components",
+      "title": "Components | WDS Shadcn Registry",
+      "status": 200
+    },
+    {
+      "url": "https://wds-shadcn-registry.netlify.app/components/loading-swap",
+      "title": "Loading Swap | WDS Shadcn Registry",
+      "status": 200
+    },
+    {
+      "url": "https://wds-shadcn-registry.netlify.app/components/multi-select",
+      "title": "Multi-Select | WDS Shadcn Registry",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/WebDevSimplified/wds-shadcn-registry",
+      "title": "GitHub - WebDevSimplified/wds-shadcn-registry",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "WDS Shadcn Registry",
+  "summary": "Shadcn registry of five accessible React components: action button, loading swap, multi-select, number input, password input.",
+  "description": "A small shadcn registry of accessible components meant as building blocks for your own component library: action button, loading swap (swaps content with a loading spinner without changing the element size), multi-select, number input and password input. Each ships in a standard and an experimental variant; install with shadcn add @wds/<component>.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "components"
+  ],
+  "elements": [
+    "button",
+    "loader",
+    "select",
+    "input"
+  ],
+  "keywords": [
+    "shadcn registry",
+    "action button",
+    "confirm button",
+    "loading spinner",
+    "loading swap",
+    "multi select",
+    "number input",
+    "password input",
+    "react component",
+    "accessible component",
+    "form component",
+    "copy paste component",
+    "tailwind css",
+    "shadcn cli"
+  ],
+  "contains": [
+    "10 registry items: 5 components in standard and experimental variants",
+    "components: action button, loading swap, multi-select, number input, password input",
+    "install: shadcn add @wds/<component> or the component JSON URL",
+    "accessible, customizable building blocks rather than a full component library",
+    "MIT-licensed, 293 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/WebDevSimplified/wds-shadcn-registry",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,24 @@
+{
+  "id": "on-contra-com-dtpq9n",
+  "url": "https://on.contra.com/DTPQ9N",
+  "kind": "page",
+  "hints_hash": "2b2ea21662e3b5fd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:15:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://on.contra.com/DTPQ9N", "title": "Revolutionize Your Designs with Our Interactive AI Studio", "status": null}
+  ],
+  "status": "ok",
+  "name": "Revolutionize Your Designs with Our Interactive AI Studio",
+  "summary": "Contra community post showing an AI background generator reworked into an interactive studio with Base44.",
+  "description": "A Contra community post by Zaoui Sohaib that reimagines PRYZM, an AI background generator, as an interactive creative studio built with Base44 and no coding. It lists what was built — several creative builders (social media, portfolio, AI image mixing, a 3D logo builder), AI-generated animated backgrounds and custom cursor, sharing, remixing and export as image or video — followed by community comments and related posts.",
+  "type": "article",
+  "categories": ["motion", "inspiration"],
+  "elements": ["background", "cursor", "3d"],
+  "keywords": ["ai background generator", "animated background", "custom cursor", "3d logo", "interactive studio", "base44", "vibe coding", "no code", "landing page", "redesign", "case study", "generative ai", "remix", "web design", "motion design"],
+  "formats": ["links"],
+  "stack": [],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

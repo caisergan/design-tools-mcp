@@ -1,0 +1,20 @@
+{
+  "id": "cal-com-instantly-intro",
+  "url": "https://cal.com/instantly/intro",
+  "kind": "page",
+  "hints_hash": "db757aee84a59a59",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cal.com/instantly/intro", "title": "Intro Call with Instantly Studio | Hamza | Cal.com", "status": 200},
+    {"url": "https://cal.com/instantly", "title": "Hamza | Cal.com", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Intro Call with Instantly Studio",
+  "summary": "Cal.com booking page for an intro call with Hamza of Instantly Studio, covering design needs, process and next steps.",
+  "description": "A Cal.com scheduling page where visitors book an intro call with Hamza of Instantly Studio, whose profile also offers a 30-minute Quick chat. The profile lists what the call covers: a quick introduction, your project and goals, how we work, and next steps. The booking page renders client-side, so only its title and meta description are readable without a browser.",
+  "keywords": ["booking page", "intro call", "scheduling", "appointment", "meeting booking", "calendar", "discovery call", "design studio", "freelancer", "consultation"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "cal-com"},
+  "confidence": 0.7
+}

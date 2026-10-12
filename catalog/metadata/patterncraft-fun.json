@@ -1,0 +1,27 @@
+{
+  "id": "patterncraft-fun",
+  "url": "https://patterncraft.fun",
+  "kind": "site",
+  "hints_hash": "59649962477714ba",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://patterncraft.fun", "title": "Pattern Craft - Modern Background Patterns & Gradients Snippets", "status": null}
+  ],
+  "status": "ok",
+  "name": "Pattern Craft",
+  "summary": "Copy-paste library of 250+ CSS background patterns and gradients for Tailwind projects.",
+  "description": "A library of ready-to-use CSS background patterns and gradients — radial glows, grids, dots, noise textures, stripes and aurora gradients — with live previews and one-click copy. Snippets are plain CSS and Tailwind classes.",
+  "type": "component-library",
+  "categories": ["color-effects", "components"],
+  "elements": ["background"],
+  "keywords": ["css background", "background pattern", "gradient", "tailwind", "background snippet", "grid pattern", "dot pattern", "noise texture", "glow effect", "radial gradient", "aurora background", "copy paste", "css snippet", "hero background", "dark mode"],
+  "contains": ["250+ background patterns (257 in the library)", "100% free", "plain CSS and Tailwind snippets", "one-click copy", "live preview", "radial glows, grids, dots, noise, stripes and aurora gradients"],
+  "formats": ["code"],
+  "stack": ["css", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "supa-palette-com",
+  "url": "https://supa-palette.com",
+  "kind": "site",
+  "hints_hash": "933ab9569799ee4b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://supa-palette.com", "title": "Supa Palette - The ultimate color palette generator for Figma!", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Supa Palette",
+  "summary": "Figma plugin that generates accessible color palettes and design-system color scales.",
+  "description": "A Figma plugin for building color systems: browse 14 integrated color systems and 30,000+ ready-made palettes, refine shades and color spaces, check WCAG 2.1 or APCA contrast, document palettes as guides and save them as Figma variables; palettes export to formats like Figma Tokens, Tailwind or Chakra UI.",
+  "type": "plugin",
+  "categories": ["color-effects", "design-tools"],
+  "elements": [],
+  "keywords": ["color palette", "figma plugin", "palette generator", "color system", "color scale", "design token", "design system", "contrast checker", "wcag", "apca", "accessibility", "light and dark theme", "oklch", "tailwind", "material design", "chakra ui", "figma variable", "color space"],
+  "contains": ["14 integrated color systems incl. Tailwind, Material and Radix", "30,000+ ready-to-use palettes", "contrast grid and table with WCAG 2.1 or APCA", "5 color spaces including LCH and OKLCH", "exports to Figma Tokens, Chakra UI, Material UI and Tailwind", "palettes saved as Figma variables with light/dark modes", "one-time licenses: Personal $59, Team $139, Business $279", "100K+ users"],
+  "formats": ["code"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

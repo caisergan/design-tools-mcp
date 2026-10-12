@@ -1,0 +1,28 @@
+{
+ "id": "figma-bot-4k2emz5",
+ "url": "https://figma.bot/4k2EMz5",
+ "kind": "page",
+ "hints_hash": "3b0026f274597de9",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://figma.bot/4k2EMz5", "title": null, "status": null},
+  {"url": "https://www.figma.com/community/file/1597641111449594397", "title": "MCP Apps for Claude | Figma", "status": 200}
+ ],
+ "status": "partial",
+ "name": "MCP Apps for Claude",
+ "summary": "Figma UI kit for designing MCP apps that render inline, with components, patterns, guidelines and tokens.",
+ "description": "A Figma community UI kit for designing MCP apps in Claude, built by Anthropic's design team: components, patterns and guidelines for integrations that render inline. It covers layout, typography, color tokens and interaction states.",
+ "type": "component-library",
+ "categories": ["components"],
+ "elements": [],
+ "keywords": ["ui kit", "mcp app", "ai app ui", "inline ui", "design guideline", "design token", "color token", "component library", "ui pattern", "interaction state", "layout", "typography", "ai integration"],
+ "contains": ["UI kit for designing MCP apps that render inline in Claude", "components, patterns and guidelines for integrations", "covers layout, typography, color tokens and interaction states", "built by Anthropic's design team"],
+ "formats": ["figma-file"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": "https://www.figma.com/community/file/1597641111449594397", "parent": null},
+ "confidence": 0.65
+}

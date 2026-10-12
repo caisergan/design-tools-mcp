@@ -1,0 +1,70 @@
+{
+  "id": "vantaui-com-explore-components-disperse-text",
+  "url": "https://vantaui.com/explore/components/disperse-text",
+  "kind": "page",
+  "hints_hash": "42aada729f8f5931",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:54Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vantaui.com/explore/components/disperse-text",
+      "title": "Disperse Text | VantaUI",
+      "status": null
+    },
+    {
+      "url": "https://vantaui.com/explore/components",
+      "title": "Components | VantaUI",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Disperse Text",
+  "summary": "Animated text component with a dispersion effect on hover, from the VantaUI React component library.",
+  "description": "VantaUI component page for a text effect that disperses on hover. VantaUI is a library of production-ready React components for Next.js; it lists 89 components and has its own docs section.",
+  "type": "component-library",
+  "elements": [
+    "text-effect"
+  ],
+  "keywords": [
+    "text effect",
+    "dispersion effect",
+    "hover animation",
+    "animated text",
+    "glitch text",
+    "react component",
+    "nextjs",
+    "text animation",
+    "component library",
+    "ui component",
+    "micro interaction",
+    "motion"
+  ],
+  "contains": [
+    "hover-triggered text dispersion effect",
+    "component of the VantaUI React component library",
+    "VantaUI lists 89 components for Next.js"
+  ],
+  "formats": [
+    "code",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "nextjs"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://vantaui.com/explore/docs",
+    "npm": null,
+    "figma": null,
+    "parent": "vantaui-com"
+  },
+  "confidence": 0.5
+}

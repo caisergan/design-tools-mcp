@@ -1,0 +1,29 @@
+{
+  "id": "github-com-bramsuurdje-proxmox-helper-scripts",
+  "url": "https://github.com/BramSuurdje/proxmox-helper-scripts",
+  "kind": "repo",
+  "hints_hash": "57f6e0960eea922b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:19:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/BramSuurdje/proxmox-helper-scripts/blob/HEAD/README.md", "title": "Archive", "status": 200},
+    {"url": "https://github.com/BramSuurdje/proxmox-helper-scripts", "title": "GitHub - bramsuurdje/proxmox-helper-scripts: Modern front-end for the Proxmox VE Helper Scripts project", "status": 200},
+    {"url": "https://proxmoxve-scripts.com/", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "proxmox-helper-scripts",
+  "summary": "Archived front-end for the Proxmox VE Helper Scripts catalog; the website was merged into the Community Edition repository.",
+  "description": "Former modern front-end for the Proxmox VE Helper Scripts project, built with Next.js, shadcn and Pocketbase. The repository was archived by the owner on Nov 5, 2024 and is read-only; per the README, the website has been merged into the community-scripts/ProxmoxVE Community Edition repository. The proxmoxve-scripts.com deployment returns no readable content.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["proxmox", "proxmox ve helper script", "homelab", "lxc", "container", "self-hosted", "nextjs", "shadcn ui", "pocketbase", "archive"],
+  "contains": ["archived by the owner on Nov 5, 2024; read-only repository", "was a modern front-end for the Proxmox VE Helper Scripts project", "website merged into the community-scripts/ProxmoxVE Community Edition repository", "built with Next.js, shadcn and Pocketbase"],
+  "formats": ["code"],
+  "stack": ["nextjs", "shadcn-ui", "pocketbase"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/BramSuurdje/proxmox-helper-scripts", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

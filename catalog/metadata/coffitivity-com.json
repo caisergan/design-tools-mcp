@@ -1,0 +1,31 @@
+{
+  "id": "coffitivity-com",
+  "url": "https://coffitivity.com",
+  "kind": "site",
+  "hints_hash": "57c64623b1bcef39",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coffitivity.com", "title": "Coffitivity", "status": 200},
+    {"url": "https://coffitivity.com/about", "title": "Coffitivity", "status": 200},
+    {"url": "https://coffitivity.com/faq", "title": "Coffitivity", "status": 200},
+    {"url": "https://coffitivity.com/pricing", "title": "Coffitivity", "status": 200},
+    {"url": "https://coffitivity.com/made-for/students", "title": "Coffitivity", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Coffitivity",
+  "summary": "Web app that recreates the ambient sounds of a cafe to help you focus, work and stay creative.",
+  "description": "Coffitivity plays ambient coffee-shop noise to help people work and study better. The player and its sound library are rendered client-side, so only the site's title and meta description were readable; no other pages could be inspected.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ambient sound", "cafe sound", "coffee shop noise", "background noise", "focus", "productivity", "creativity", "study tool", "sound player", "browser app"],
+  "contains": ["ambient cafe sounds for work, study and creativity"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

@@ -1,0 +1,64 @@
+{
+  "id": "emilkowal-ski-ui-you-dont-need-animations",
+  "url": "https://emilkowal.ski/ui/you-dont-need-animations",
+  "kind": "page",
+  "hints_hash": "a870007c98b42475",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://emilkowal.ski/ui/you-dont-need-animations",
+      "title": "You Don't Need Animations",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "You Don't Need Animations",
+  "summary": "Essay on when UI animations help and when they hurt, with live demos of timing, frequency and perceived speed trade-offs.",
+  "description": "A design-engineering write-up arguing that an animation needs a purpose before it earns its place: it covers how often users see an interaction, the perception of speed (UI animations generally under 300ms), and when the best animation is none. Interactive demos show command menu, spinner, dropdown, tooltip, button and toast behaviour with and without motion.",
+  "type": "article",
+  "categories": [
+    "learning",
+    "motion"
+  ],
+  "elements": [
+    "button",
+    "toast",
+    "command-palette",
+    "tooltip",
+    "dropdown",
+    "loader"
+  ],
+  "keywords": [
+    "animation",
+    "ui animation",
+    "micro interaction",
+    "when to animate",
+    "animation speed",
+    "perceived performance",
+    "design engineering",
+    "interaction design",
+    "command menu",
+    "tooltip delay",
+    "toast animation",
+    "spinner"
+  ],
+  "contains": [
+    "sections: purposeful animations, frequency of use, perception of speed, building great interfaces",
+    "rule of thumb: UI animations stay under 300ms",
+    "live demos: command menu, spinner, dropdown, tooltip, button press, toast"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

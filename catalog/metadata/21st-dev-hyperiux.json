@@ -1,0 +1,92 @@
+{
+  "id": "21st-dev-hyperiux",
+  "url": "https://21st.dev/@hyperiux",
+  "kind": "page",
+  "hints_hash": "45761a675a976c8c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://21st.dev/@hyperiux",
+      "title": "Hyperiux Vault — 54 React Components, Preview & Copy | 21st",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Hyperiux Vault",
+  "summary": "Author page on 21st for Hyperiux Vault: 54 free React and Next.js interaction-effect components, copyable or installed via the shadcn CLI.",
+  "description": "Hyperiux Vault is a source-first library of polished React and Next.js interaction effects, animations, transitions and microinteractions, ready to copy, customize and ship. The 21st author page lists 54 components — a 50-component free library (hyperiux-vault) with animated text, carousels, cursors, buttons, navigation and transitions — plus pro components and templates from the same studio.",
+  "elements": [
+    "background",
+    "button",
+    "card",
+    "carousel",
+    "cursor",
+    "drawer",
+    "loader",
+    "navbar",
+    "scroll-effect",
+    "text-effect",
+    "timeline"
+  ],
+  "variants": {
+    "navbar": [
+      "full-screen"
+    ]
+  },
+  "keywords": [
+    "react component",
+    "nextjs",
+    "interaction effect",
+    "animation",
+    "transition",
+    "micro interaction",
+    "text animation",
+    "carousel",
+    "cursor effect",
+    "hover effect",
+    "button",
+    "navbar",
+    "drawer",
+    "loader",
+    "background effect",
+    "component library",
+    "copy paste",
+    "shadcn",
+    "gsap",
+    "free component",
+    "pro component"
+  ],
+  "contains": [
+    "54 components by Hyperiux Vault",
+    "free library hyperiux-vault holds 50 components",
+    "components include Animated Border Beam, Arc Flow Carousel, Elevate Navbar and Typing Text",
+    "1.3M views and 10.7K bookmarks on 21st",
+    "free components plus pro components and templates",
+    "copy the TSX or install with the shadcn CLI"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "21st-dev"
+  },
+  "confidence": 0.85
+}

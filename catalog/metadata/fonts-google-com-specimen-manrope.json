@@ -1,0 +1,51 @@
+{
+  "id": "fonts-google-com-specimen-manrope",
+  "url": "https://fonts.google.com/specimen/Manrope",
+  "kind": "page",
+  "hints_hash": "cf62095bd47db624",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/specimen/Manrope",
+      "title": "Manrope - Google Fonts",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Manrope",
+  "summary": "Google Fonts specimen page for Manrope, an open-source modern sans-serif font family designed by Mikhail Sharanda in 2018.",
+  "description": "Specimen page on Google Fonts for Manrope, an open-source modern sans-serif typeface designed by Mikhail Sharanda in 2018. The page renders through JavaScript, so weights, glyphs, pairing suggestions and license are not readable from the crawled page.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": [
+    "sans serif",
+    "typeface",
+    "font family",
+    "open source font",
+    "web font",
+    "ui font",
+    "geometric san",
+    "type specimen",
+    "body text"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "fonts-google-com"
+  },
+  "confidence": 0.6
+}

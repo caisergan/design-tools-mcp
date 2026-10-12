@@ -1,0 +1,48 @@
+{
+  "id": "component-gallery-about",
+  "url": "https://component.gallery/about",
+  "kind": "page",
+  "hints_hash": "3fddce784b03f95d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://component.gallery/about",
+      "title": "About | The Component Gallery",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "About",
+  "summary": "About page of The Component Gallery: what interface components are, why to build with them, and where the site's examples come from.",
+  "description": "The Component Gallery is a collection of interface components from real-world design systems, made as a reference for anyone building user interfaces. The page explains what a component is, the benefits of component-based design (consistency, reusability, a shared language), web components vs React/Vue/Angular/Svelte components, design systems vs component libraries, and links resources for making a design system.",
+  "keywords": [
+    "interface component",
+    "design system",
+    "component gallery",
+    "component library",
+    "ui component",
+    "web component",
+    "react component",
+    "atomic design",
+    "style guide",
+    "design system example",
+    "front-end",
+    "inspiration",
+    "component definition",
+    "design system vs component library"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "component-gallery"
+  },
+  "confidence": 0.85
+}

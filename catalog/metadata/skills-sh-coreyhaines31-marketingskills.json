@@ -1,0 +1,27 @@
+{
+  "id": "skills-sh-coreyhaines31-marketingskills",
+  "url": "https://skills.sh/coreyhaines31/marketingskills",
+  "kind": "page",
+  "hints_hash": "66ee1c1bcfdd06c1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/coreyhaines31/marketingskills", "title": "coreyhaines31/marketingskills — Agent skills", "status": null},
+    {"url": "https://www.skills.sh/coreyhaines31/marketingskills", "title": "coreyhaines31/marketingskills — Agent skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "coreyhaines31 / marketingskills",
+  "summary": "Marketing skill pack: 70 agent skills for SEO, copywriting, content strategy, ads, email and growth, with 5.4M total installs.",
+  "description": "The skills.sh listing for the coreyhaines31/marketingskills pack: 70 agent skills with per-skill install counts and 5.4M total installs, including seo-audit, copywriting, marketing-psychology, content-strategy, programmatic-seo, ai-seo, copy-editing, marketing-ideas, ad-creative, cold-email, site-architecture, churn-prevention, sales-enablement, revops and pricing. Installed with npx skills add coreyhaines31/marketingskills.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": ["agent skill", "marketing skill", "seo audit", "copywriting", "content strategy", "marketing psychology", "programmatic seo", "ad creative", "cold email", "churn prevention", "site architecture", "growth marketing", "skill pack", "claude code", "prompt"],
+  "contains": ["70 agent skills, 5.4M total installs", "install with npx skills add coreyhaines31/marketingskills", "skills include seo-audit, copywriting, marketing-psychology, content-strategy, ad-creative, cold-email, pricing, launch", "per-skill install counts, e.g. seo-audit 225.2K, copywriting 221.5K"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.85
+}

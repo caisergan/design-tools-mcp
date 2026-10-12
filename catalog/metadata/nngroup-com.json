@@ -1,0 +1,34 @@
+{
+  "id": "nngroup-com",
+  "url": "https://nngroup.com",
+  "kind": "site",
+  "hints_hash": "d8548bfbe5ca3053",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://nngroup.com", "title": "Nielsen Norman Group: UX Training, Consulting, & Research - NN/G", "status": null}
+  ],
+  "status": "ok",
+  "name": "Nielsen Norman Group",
+  "summary": "UX research articles, training courses and certification, reports and consulting from the Nielsen Norman Group.",
+  "description": "Nielsen Norman Group publishes evidence-based UX articles and videos, sells live online and self-paced courses with UX Certification, research reports and books, and offers consulting (user research, expert review, usability testing, UX maturity assessment). Aimed at UX practitioners, designers and product teams.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["ux", "usability", "user experience", "ux research", "ux training", "ux certification", "usability testing", "interaction design", "information architecture", "ux article", "ux consulting", "ux course", "ux report", "heuristic evaluation"],
+  "contains": [
+    "article and video library on UX research, usability and interaction design",
+    "live online courses and self-paced courses (priced from US$49 to US$199)",
+    "UX Certification: take 5 live courses, pass 5 online exams",
+    "research reports and books",
+    "consulting: user research, expert review, applied workshops, keynote speaking, user testing, UX maturity assessment",
+    "28+ years of UX research"
+  ],
+  "formats": ["docs", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.nngroup.com/articles", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

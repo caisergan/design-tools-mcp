@@ -1,0 +1,36 @@
+{
+  "id": "github-com-mahimailabs-voice-ai-skills",
+  "url": "https://github.com/mahimailabs/voice-ai-skills",
+  "kind": "repo",
+  "hints_hash": "3b4d6e5700ae1452",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {
+      "url": "https://github.com/mahimailabs/voice-ai-skills/blob/HEAD/README.md",
+      "title": "Voice AI Skills",
+      "status": null
+    },
+    {
+      "url": "https://github.com/mahimailabs/voice-ai-skills",
+      "title": "GitHub - mahimailabs/voice-ai-skills: Vendor-neutral Agent Skills for people who build voice agents",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Voice AI Skills",
+  "summary": "Ten vendor-neutral Agent Skills that teach coding agents to build, review and debug real-time voice agents.",
+  "description": "A collection of ten Agent Skills in the open Agent Skills format that give coding agents engineering judgment for voice agents: pipeline choice, turn-taking, interruptions, latency budget, prompting, function tools, telephony, evals, full-duplex and a 40-item production-readiness review. Versioned adapters connect the rules to LiveKit, Pipecat and Vapi, and an installer (Node.js 22.20+) or manual copy supports Claude Code, Codex, Cursor, Gemini CLI and GitHub Copilot.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["voice agent", "agent skill", "voice ai", "speech-to-text", "text-to-speech", "turn taking", "interruption handling", "latency budget", "telephony", "sip", "dtmf", "full duplex", "eval", "prompt engineering", "livekit", "pipecat", "vapi", "coding agent", "claude code", "cursor", "codex"],
+  "contains": ["10 agent skills for voice agent builders", "versioned adapters for LiveKit, Pipecat and Vapi", "installer CLI plus manual and Claude Code plugin installs", "40-item production-readiness review across eight areas", "clinic booking example in LiveKit and Pipecat", "docs on compatibility, vendor neutrality and testing"],
+  "formats": ["prompts", "cli", "docs"],
+  "stack": ["python", "livekit", "pipecat"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mahimailabs/voice-ai-skills", "docs": "https://skills.mahimai.ca", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

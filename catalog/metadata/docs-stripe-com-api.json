@@ -1,0 +1,19 @@
+{
+  "id": "docs-stripe-com-api",
+  "url": "https://docs.stripe.com/api",
+  "kind": "page",
+  "hints_hash": "fcc075f3148c0bdc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://docs.stripe.com/api", "title": "Stripe API Reference", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Stripe API Reference",
+  "summary": "Reference for the Stripe REST API: authentication, errors, pagination, versioning and every API resource.",
+  "description": "Reference documentation for Stripe's REST API, organised by resource group — core resources, payments, billing, checkout, connect, issuing, terminal, treasury, fraud, tax and more — alongside guides on authentication, errors, idempotent requests, expanding responses, pagination and API versioning. Shows curl examples by default, with sample code for seven official client libraries.",
+  "keywords": ["stripe", "api", "api reference", "rest api", "payment api", "payment", "documentation", "authentication", "webhook", "idempotent request", "pagination", "api versioning", "client library", "developer documentation"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

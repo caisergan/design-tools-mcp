@@ -1,0 +1,31 @@
+{
+  "id": "you-com",
+  "url": "https://you.com",
+  "kind": "site",
+  "hints_hash": "ab84ac0a2ac5f299",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://you.com/llms.txt", "title": "You.com | Documentation", "status": null},
+    {"url": "https://you.com", "title": "The Leading Web Search APIs for AI | You.com", "status": 200},
+    {"url": "https://you.com/docs/welcome.md", "title": "Build agentic apps with real-time web intelligence.", "status": 200},
+    {"url": "https://you.com/pricing", "title": "Pricing — You.com | You.com", "status": 200},
+    {"url": "https://you.com/about", "title": "About Us | You.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "You.com",
+  "summary": "Web search, content extraction, answer and research APIs plus an MCP server for AI apps and agents.",
+  "description": "APIs that give AI applications real-time web data: Web Search, Contents page extraction, Answer, Research and Finance Research, with an MCP server for Claude, Cursor and other clients. Docs are published as markdown with an OpenAPI spec and installable agent skills; a free MCP tier needs no API key.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["web search api", "search api", "mcp server", "ai agent", "llm", "rag", "grounding", "citation", "content extraction", "web scraping", "research api", "openapi", "sdk", "web search"],
+  "contains": ["Web Search, Contents, Answer, Research and Finance Research APIs", "MCP server for Claude, Cursor and other MCP clients", "free tier: 100 Web Search queries/day via MCP without an API key", "per-call pricing (~$5 per 1K calls), pay-as-you-go and enterprise plans", "enterprise: Zero Data Retention, SOC 2, DPA, custom QPS limits", "docs as markdown, OpenAPI spec and installable agent skills"],
+  "formats": ["api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://you.com/docs/welcome", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

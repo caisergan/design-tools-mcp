@@ -1,0 +1,31 @@
+{
+  "id": "shadcn-io",
+  "url": "https://shadcn.io",
+  "kind": "site",
+  "hints_hash": "c112858f10b65e85",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn.io", "title": "The AI-Native shadcn/ui Component Library for React", "status": 200},
+    {"url": "https://www.shadcn.io/blocks", "title": "6156+ React UI Blocks — Hero, Pricing, CTA, Dashboard & More", "status": 200},
+    {"url": "https://www.shadcn.io/pricing", "title": "Stop building UI from scratch. | shadcn.io", "status": 200},
+    {"url": "https://www.shadcn.io/license", "title": "License - shadcn.io", "status": 200},
+    {"url": "https://www.shadcn.io/template", "title": "Free React & shadcn/ui Templates", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn.io",
+  "summary": "Library of 6,000+ shadcn/ui blocks and components, with 285k+ React icons, themes, templates and an MCP server.",
+  "description": "A shadcn/ui ecosystem library: 6,000+ production blocks across 56 categories (hero, pricing, CTA, dashboard, form, chat and more), 7,999 installable registry items, 285k+ React icons, 59 themes, 14 premium Next.js templates and a community template gallery, plus DESIGN.md brand style files. Content installs via shadcn registry URLs or the MCP server for Claude Code, Cursor, ChatGPT and other agents. Free tier with paid individual, team and organization plans.",
+  "type": "registry",
+  "categories": ["registries", "components", "sections"],
+  "elements": ["form", "card", "chat", "dashboard", "changelog", "modal", "features", "stats", "list", "hero", "team", "loader"],
+  "keywords": ["shadcn", "shadcn ui", "ui block", "react component", "hero section", "pricing table", "cta section", "dashboard", "website template", "nextjs", "tailwind", "react icon", "theme", "mcp", "ai agent", "landing page", "saas", "shadcn registry"],
+  "contains": ["6,000+ blocks across 56 categories", "7,999 shadcn registry items", "285k+ React icons and 59 themes", "14 premium Next.js templates plus 331+ community templates", "DESIGN.md brand style files (Stripe, Linear, Apple, GitHub, Vercel, Claude, Figma, Framer)", "MCP server setup for Claude Code, Cursor, ChatGPT, Codex and more", "free tier; paid plans $32-$132/mo billed annually"],
+  "formats": ["code", "registry", "templates"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

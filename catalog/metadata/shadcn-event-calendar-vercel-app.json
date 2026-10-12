@@ -1,0 +1,28 @@
+{
+  "id": "shadcn-event-calendar-vercel-app",
+  "url": "https://shadcn-event-calendar.vercel.app",
+  "kind": "site",
+  "hints_hash": "fe93da533cb9a71a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://shadcn-event-calendar.vercel.app", "title": "Shadcn Event Calendar", "status": null },
+    { "url": "https://shadcn-event-calendar.vercel.app/docs", "title": "Documentation - React Event Calendar", "status": null }
+  ],
+  "status": "ok",
+  "name": "React Event Calendar",
+  "summary": "Event calendar component for React with day, week, month and agenda views, built on shadcn/ui.",
+  "description": "A calendar component for React applications that manages and displays events across day, week, month, year and agenda views, with theming through shadcn/ui and Tailwind CSS v4. Built with Next.js, Zustand, Drizzle ORM, date-fns, nuqs and Framer Motion, with documentation (installation, architecture, API) and a demo app.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["calendar"],
+  "keywords": ["event calendar", "calendar component", "react", "shadcn ui", "next.js", "tailwind", "framer motion", "date-fns", "scheduling", "day view", "week view", "month view", "agenda view", "typescript"],
+  "contains": ["calendar views: day, week, month, year and agenda", "stack: React 18+, Next.js 15+, Tailwind CSS v4, shadcn/ui, Framer Motion, date-fns, nuqs, TypeScript", "documentation: installation, architecture, customization and API", "demo app with Zustand state and Drizzle ORM over PostgreSQL"],
+  "formats": ["code", "docs", "app"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "framer-motion", "date-fns", "nuqs", "typescript", "zustand", "drizzle"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": "https://shadcn-event-calendar.vercel.app/docs", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

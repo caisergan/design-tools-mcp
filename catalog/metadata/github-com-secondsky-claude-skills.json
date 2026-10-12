@@ -1,0 +1,81 @@
+{
+  "id": "github-com-secondsky-claude-skills",
+  "url": "https://github.com/secondsky/claude-skills",
+  "kind": "repo",
+  "hints_hash": "5a0f8ccdb51db6b9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/secondsky/claude-skills/blob/HEAD/README.md",
+      "title": "Claude Code Skills Collection",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/secondsky/claude-skills",
+      "title": "GitHub - secondsky/claude-skills: Production-ready skills for Claude Code CLI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Claude Code Skills Collection",
+  "summary": "145 installable Claude Code skills covering frontend, Cloudflare, API, testing and design across 18 categories.",
+  "description": "A collection of 145 production-ready skills for Claude Code CLI, shipping as marketplace plugins for Claude Code and Codex CLI and installable per skill with npx skills. Skills are grouped in 18 categories such as tooling, frontend, cloudflare, api, ai, web, security, mobile, testing, design and auth; each folder holds a SKILL.md plus templates, references and scripts.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "claude code",
+    "codex",
+    "claude code plugin",
+    "tailwind v4",
+    "shadcn",
+    "react",
+    "nuxt",
+    "cloudflare worker",
+    "three.js",
+    "react native",
+    "vitest",
+    "playwright",
+    "marketplace"
+  ],
+  "contains": [
+    "145 individual skills across 18 categories",
+    "category counts: tooling 27, frontend 26, cloudflare 21, api 16, web 10, ai 7, security 6, mobile 5, design 4",
+    "each skill: SKILL.md, templates, references, scripts",
+    "installs via Claude Code marketplace, Codex CLI plugins or npx skills",
+    "version 3.9.0, updated 2026-09-09; 228 stars, MIT license"
+  ],
+  "formats": [
+    "prompts",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "vue",
+    "nuxt",
+    "three.js",
+    "cloudflare-workers"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/secondsky/claude-skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

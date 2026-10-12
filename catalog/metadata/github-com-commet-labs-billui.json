@@ -1,0 +1,36 @@
+{
+  "id": "github-com-commet-labs-billui",
+  "url": "https://github.com/commet-labs/billui",
+  "kind": "repo",
+  "hints_hash": "5a5da3bb205b5d2a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/commet-labs/billui/blob/HEAD/README.md", "title": "billui README", "status": 200},
+    {"url": "https://billui.com", "title": "billui - Beautiful billing UI components", "status": 200},
+    {"url": "https://billui.com/docs/components", "title": "Components | billui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "billui",
+  "summary": "Open-source billing UI components for React and shadcn/ui: plan cards, invoice cards, payment methods and pricing tables.",
+  "description": "Copy-paste components for billing pages in React and Next.js apps, distributed via the shadcn registry. Includes plan card, plan group, invoice card, payment method, usage card, pricing table, card input and billing address, plus an animated usage card, each with its own docs page and live previews. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["pricing", "card", "table", "form", "progress", "input", "switch"],
+  "keywords": ["billing ui", "billing component", "pricing table", "plan card", "invoice", "payment method", "payment form", "usage card", "meter", "subscription", "react", "nextjs", "typescript", "shadcn", "registry", "tailwind", "animated"],
+  "contains": [
+    "components: plan card, plan group, invoice card, payment method, usage card, pricing table, card input, billing address",
+    "animated usage card",
+    "payment method cards with brand detection, expiry warnings and action buttons",
+    "plan cards, comparison tables and billing period toggles",
+    "docs with per-component pages and live previews",
+    "MIT licensed"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/commet-labs/billui", "docs": "https://billui.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

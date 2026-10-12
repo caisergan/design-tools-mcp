@@ -1,0 +1,36 @@
+{
+  "id": "github-com-opencut-app-opencut",
+  "url": "https://github.com/OpenCut-app/OpenCut",
+  "kind": "repo",
+  "hints_hash": "e765646a8d8488a2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/OpenCut-app/OpenCut/blob/HEAD/README.md", "title": "OpenCut", "status": null},
+    {"url": "https://github.com/OpenCut-app/OpenCut", "title": "GitHub - OpenCut-app/OpenCut: The open-source CapCut alternative · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenCut",
+  "summary": "Free, open-source video editor for web, desktop and mobile, presented as the open-source CapCut alternative.",
+  "description": "OpenCut is a free and open source video editor for web, desktop and mobile, presented as the open-source CapCut alternative. The repository is being rewritten from the ground up around a Rust core: coming are an editor API, first-class plugins, one codebase for browser/desktop/mobile, an MCP server for AI agents, headless rendering and a scripting tab in the editor. The current release (opencut-classic) runs at opencut.app and the rewrite will take over at new.opencut.app. MIT licensed.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["video editor", "video editing", "open source", "capcut alternative", "web app", "desktop app", "mobile app", "rust", "editor api", "plugin", "mcp server", "headless rendering", "batch rendering", "scripting", "free"],
+  "contains": [
+    "free and open source video editor for web, desktop and mobile",
+    "being rewritten around a Rust core",
+    "planned: editor API, third-party plugins, MCP server, headless mode, scripting tab",
+    "current release: opencut-classic at opencut.app",
+    "rewrite will live at new.opencut.app",
+    "contributions not open while the architecture is designed",
+    "MIT licensed; 93.6k stars, 9.2k forks"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["rust"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/OpenCut-app/OpenCut", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,36 @@
+{
+  "id": "github-com-pmndrs-jotai",
+  "url": "https://github.com/pmndrs/jotai",
+  "kind": "repo",
+  "hints_hash": "6153df955998c90a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/pmndrs/jotai/blob/HEAD/README.md", "title": null, "status": null},
+    {"url": "https://github.com/pmndrs/jotai", "title": "GitHub - pmndrs/jotai: 👻 Primitive and flexible state management for React · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Jotai",
+  "summary": "Primitive and flexible state management for React built on atoms, with a 2 kB core.",
+  "description": "A state-management library for React where state lives in atoms: create a primitive atom, read it in components like useState, and derive new atoms from existing ones with get and set — including async and write-only derived atoms. The minimal core API is about 2 kB, comes with utilities and extensions, and avoids string keys. Scales from a useState replacement to enterprise TypeScript applications.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["react", "state management", "atom", "state", "react hook", "state library", "derived state", "async state", "typescript", "javascript", "store", "jotai"],
+  "contains": [
+    "minimal core API of about 2 kB",
+    "primitive, derived, async and write-only atoms",
+    "no string keys, compared to Recoil",
+    "21.3k stars, 726 forks on GitHub",
+    "install with npm i jotai",
+    "docs and a course linked from the repo",
+    "MIT licensed"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/pmndrs/jotai", "docs": "https://jotai.org", "npm": "jotai", "figma": null, "parent": null},
+  "confidence": 0.9
+}

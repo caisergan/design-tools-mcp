@@ -1,0 +1,107 @@
+{
+  "id": "shadcn-hooks-com",
+  "url": "https://shadcn-hooks.com",
+  "kind": "site",
+  "hints_hash": "e2356197c76fb6c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-hooks.com/llms.txt",
+      "title": "Docs",
+      "status": null
+    },
+    {
+      "url": "https://shadcn-hooks.com",
+      "title": "Shadcn Hooks",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-hooks.com/docs/introduction",
+      "title": "Introduction - Shadcn Hooks",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-hooks.com/docs/installation",
+      "title": "Installation - Shadcn Hooks",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-hooks.com/docs/skills",
+      "title": "AI Skills - Shadcn Hooks",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-hooks.com/docs/hooks/use-boolean",
+      "title": "useBoolean - Shadcn Hooks",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Hooks",
+  "summary": "Collection of 58 TypeScript-first React hooks built in the shadcn style, installed via the shadcn CLI or as an npm package.",
+  "description": "A collection of 58 React hooks plus three lib utilities (createContext, createEffectWithTarget, isBrowser), grouped into state, lifecycle & effects, browser, dev and external-library categories. The hooks are TypeScript-first, SSR compatible and built for React 19+, and install either as shadcn registry items via the shadcn CLI or all at once from npm. The docs site documents every hook and ships an AI Skills directory (SKILL.md plus per-hook references) that teaches coding assistants like Cursor and Codex how to use each hook.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "react hook",
+    "hooks library",
+    "shadcn",
+    "typescript",
+    "shadcn cli",
+    "npm package",
+    "ssr",
+    "react 19",
+    "state management",
+    "lifecycle",
+    "browser api",
+    "debounce",
+    "throttle",
+    "clipboard",
+    "full screen",
+    "media query",
+    "ai skill",
+    "coding assistant",
+    "cursor",
+    "open source"
+  ],
+  "contains": [
+    "58 React hooks and 3 lib utilities (createContext, createEffectWithTarget, isBrowser)",
+    "categories: state, lifecycle & effects, browser, dev, external libraries",
+    "install via shadcn CLI registry items or as one npm package",
+    "AI Skills directory with SKILL.md and per-hook reference files for coding assistants",
+    "TypeScript-first, SSR compatible, built for React 19",
+    "hook docs with demos, e.g. useBoolean, useDebounce, useInterval, useClipboard, useFps",
+    "hooks include useQuery, useSWR, useMcp and useStickToBottom for chat UIs"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "npm-package",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://shadcn-hooks.com/docs/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

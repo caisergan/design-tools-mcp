@@ -1,0 +1,29 @@
+{
+  "id": "aitable-ai",
+  "url": "https://aitable.ai",
+  "kind": "site",
+  "hints_hash": "e51a80f2896d6ffa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aitable.ai", "title": "AITable.ai | Automate data across 6,000+ apps", "status": null},
+    {"url": "https://aitable.ai/pricing", "title": "AITable.ai | Organize Any Data with AI", "status": null},
+    {"url": "https://aitable.ai/about", "title": "About Us | AITable", "status": null}
+  ],
+  "status": "ok",
+  "name": "AITable.ai",
+  "summary": "AI-powered visual database with forms, automations and dashboards that connects to 6,000+ apps.",
+  "description": "Spreadsheet-style database for organising and automating data: gallery, kanban, gantt and calendar views, forms, dashboards, widgets, an AI copilot and chatbot builder; connects to 6,000+ apps via Zapier, Make, Pabbly, Activepieces and albato, with an API and a self-hosted option.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["table", "form", "kanban", "calendar", "timeline", "dashboard", "chart", "chat"],
+  "keywords": ["visual database", "no-code database", "spreadsheet database", "airtable alternative", "database app builder", "workflow automation", "zapier", "kanban view", "gantt view", "calendar view", "crm", "project management", "form builder", "dashboard", "ai copilot", "chatbot", "self-hosted", "api"],
+  "contains": ["spreadsheet-style visual database", "6,000+ app integrations via Zapier, Make, Pabbly, Activepieces, albato", "views: gallery, kanban, architecture, gantt, calendar", "forms, dashboards, widgets and automations", "AI copilot, CRM chatbot and AI writing assistant", "10,000+ GitHub stars", "self-hosted plan and API access"],
+  "formats": ["app", "api", "templates", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

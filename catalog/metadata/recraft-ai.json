@@ -1,0 +1,32 @@
+{
+  "id": "recraft-ai",
+  "url": "https://recraft.ai",
+  "kind": "site",
+  "hints_hash": "8596bdee9a0558b0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://recraft.ai/llms.txt", "title": "Recraft", "status": null},
+    {"url": "https://recraft.ai", "title": "Recraft | AI for designers, creatives, sellers, and teams", "status": 200},
+    {"url": "https://www.recraft.ai/docs/index.md", "title": "Recraft API", "status": 200},
+    {"url": "https://www.recraft.ai/pricing", "title": "Pricing and plans - Recraft", "status": 200},
+    {"url": "https://www.recraft.ai/about", "title": "About", "status": 200},
+    {"url": "https://www.recraft.ai/docs/mobile-apps.md", "title": "Mobile Apps", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Recraft",
+  "summary": "AI design platform for generating and editing vector art, images, logos and mockups from prompts, with custom styles and palettes.",
+  "description": "Recraft Studio generates and edits raster and vector images from prompts: photorealism, illustrations, vector art, logos, mockups, seamless patterns and text, with custom styles, color palettes and a vector editor. Recraft's own V2-V4.1 models sit alongside external models (Flux, Ideogram, GPT Image, Veo, Sora). Available as a web studio, iOS and Android apps, a REST API and an MCP server.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["ai image generator", "text to image", "vector generator", "svg", "logo generator", "icon", "illustration", "mockup", "custom style", "color palette", "seamless pattern", "image upscaler", "background remover", "vector editor", "inpainting", "api", "mcp", "video generation"],
+  "contains": ["models: Recraft V2-V4.1 plus external models (Flux, Ideogram, GPT Image, Nano Banana, Veo, Sora)", "vector generation with editable SVG output, logos, icons and typography", "custom styles from dropped-in images; color palettes and seamless patterns", "mockups, inpainting, outpainting, upscaling, background remover", "web studio plus iOS and Android apps", "REST API, hosted MCP server and plugins", "free plan and paid plans; credits reset monthly, top-ups never expire"],
+  "formats": ["app", "api", "svg", "png", "video", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.recraft.ai/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

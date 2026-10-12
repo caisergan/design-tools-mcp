@@ -1,0 +1,19 @@
+{
+  "id": "yaronschoen-com-blog-claude-code-101-for-designers",
+  "url": "https://yaronschoen.com/blog/claude-code-101-for-designers",
+  "kind": "page",
+  "hints_hash": "d90b01a7fa3eb3f4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:25:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://yaronschoen.com/blog/claude-code-101-for-designers", "title": "Claude Code 101, for Designers", "status": null}
+  ],
+  "status": "ok",
+  "name": "Claude Code 101, for Designers",
+  "summary": "Plain-language explainer of Claude Code for product designers, decoding models, tokens, agents, MCP and other AI jargon.",
+  "type": "article",
+  "keywords": ["claude code", "ai coding agent", "large language model", "context window", "token", "mcp", "ai agent", "terminal", "git", "github", "claude.md", "designer", "product design", "design workflow", "ai tool"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

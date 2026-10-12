@@ -1,0 +1,28 @@
+{
+  "id": "github-com-agmmnn-tauri-ui",
+  "url": "https://github.com/agmmnn/tauri-ui",
+  "kind": "repo",
+  "hints_hash": "05602d9efd714444",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/agmmnn/tauri-ui/blob/HEAD/README.md", "title": "tauri-ui", "status": null},
+    {"url": "https://github.com/agmmnn/tauri-ui", "title": "GitHub - agmmnn/tauri-ui: 🦀 Tauri + shadcn/ui app scaffolder with desktop-ready defaults and optional batteries. Supports: Vite, Next.js, Astro, TanStack Start. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "tauri-ui",
+  "summary": "CLI that scaffolds Tauri desktop apps with shadcn/ui, desktop-ready defaults and optional batteries.",
+  "description": "A scaffolder for Tauri desktop apps that adds the native shell and desktop-ready defaults on top of the upstream create-tauri-app and shadcn CLIs; you choose Vite, Next.js, React Router, Astro or TanStack Start. Defaults remove the startup flash, route external links to the system browser and disable overscroll; optional batteries add a starter dashboard, a Rust invoke example, a smaller binary and a GitHub Actions release workflow, plus a dev-only debug panel on Cmd/Ctrl+D.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard"],
+  "keywords": ["tauri", "desktop app", "scaffold", "cli", "shadcn", "vite", "next.js", "react router", "astro", "tanstack start", "template", "debug panel", "rust"],
+  "contains": ["CLI create-tauri-ui scaffolds Tauri apps with shadcn/ui", "frontend options: Vite, Next.js, React Router, Astro, TanStack Start", "desktop defaults: no startup flash, external links in system browser, no overscroll", "optional batteries: starter dashboard, Rust invoke example, ~65% smaller binary, GitHub Actions release workflow", "debug panel on Cmd/Ctrl+D: app state, route, window, invokes, events, plugin logs, diagnostics", "no forks of upstream shadcn or create-tauri-app; upstream stays up to date", "MIT licensed, 2.3k stars"],
+  "formats": ["cli", "code", "templates"],
+  "stack": ["tauri", "react", "shadcn", "vite", "nextjs", "astro", "tanstack-start", "react-router"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/agmmnn/tauri-ui", "docs": "https://tauriui.vercel.app", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

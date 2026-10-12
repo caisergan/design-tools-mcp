@@ -1,0 +1,25 @@
+{
+  "id": "amazon-jobs-content-en-our-workplace",
+  "url": "https://amazon.jobs/content/en/our-workplace",
+  "kind": "page",
+  "hints_hash": "05768ff7b94c9ea8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://amazon.jobs/content/en/our-workplace", "title": "Our Workplace", "status": null}
+  ],
+  "status": "ok",
+  "name": "Our Workplace",
+  "summary": "Amazon careers-site hub on workplace culture, Leadership Principles, benefits and inclusion.",
+  "description": "A hub page on Amazon's global careers site describing what it is like to work at Amazon: the Leadership Principles, employee benefits by location and job status, and the Together at Amazon programme. Links to dedicated pages for leadership principles, global benefits and inclusive experiences.",
+  "elements": [],
+  "keywords": ["amazon", "career", "workplace", "company culture", "leadership principle", "employee benefit", "job search", "hiring", "inclusion", "employer"],
+  "contains": ["Amazon.jobs 'Our Workplace' hub", "sections: Leadership Principles, Benefits, Together at Amazon", "links to leadership principles, global benefits and inclusive experiences pages"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "amazon-jobs"},
+  "confidence": 0.8
+}

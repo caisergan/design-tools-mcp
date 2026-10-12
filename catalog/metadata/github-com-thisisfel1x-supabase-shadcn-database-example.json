@@ -1,0 +1,28 @@
+{
+  "id": "github-com-thisisfel1x-supabase-shadcn-database-example",
+  "url": "https://github.com/thisisfel1x/supabase-shadcn-database-example",
+  "kind": "repo",
+  "hints_hash": "175da1bdb8bcba3b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/thisisfel1x/supabase-shadcn-database-example/blob/HEAD/README.md", "title": "Supabase + TanStack Table Demo", "status": 200},
+    {"url": "https://github.com/thisisfel1x/supabase-shadcn-database-example", "title": "GitHub - thisisfel1x/supabase-shadcn-database-example: Demo project showcasing how to fetch, filter, and display supabase data in a tanstack table with server-side rendering · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Supabase + TanStack Table Demo",
+  "summary": "Demo project that fetches, filters and paginates Supabase data server-side and shows it in a TanStack Table with shadcn/ui.",
+  "description": "Shows one approach to server-side data tables with Supabase: server-rendered fetching, a basic filtering system, and lazy loading where only the rows of the current page are fetched along with the table's total size. The extended shadcn data table lives in a single basic-data-table component; demo data is generated with Faker.",
+  "type": "template",
+  "categories": ["templates", "components"],
+  "elements": ["table", "pagination"],
+  "keywords": ["data table", "tanstack table", "supabase", "shadcn ui", "react", "server-side rendering", "ssr", "server-side filtering", "pagination", "lazy loading", "tailwind css", "postgresql", "row level security"],
+  "contains": ["server-side fetching, filtering and pagination from Supabase", "TanStack Table with shadcn/ui, responsive", "only the current page of rows is loaded, plus a total count query", "extended data table in @/components/ui/basic-data-table", "demo data generated with FakerJS"],
+  "formats": ["code"],
+  "stack": ["react", "tailwind", "tanstack-table"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/thisisfel1x/supabase-shadcn-database-example", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

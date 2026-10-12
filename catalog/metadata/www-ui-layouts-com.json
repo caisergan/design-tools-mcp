@@ -1,0 +1,155 @@
+{
+  "id": "www-ui-layouts-com",
+  "url": "https://www.ui-layouts.com",
+  "kind": "site",
+  "hints_hash": "e6500a6c49a76ce4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.ui-layouts.com/llms.txt",
+      "title": "ui-layouts",
+      "status": null
+    },
+    {
+      "url": "https://www.ui-layouts.com",
+      "title": "Ui-Layouts | Your Frontend Universe",
+      "status": 200
+    },
+    {
+      "url": "https://www.ui-layouts.com/blocks",
+      "title": "Blocks | UI-Layouts",
+      "status": 200
+    },
+    {
+      "url": "https://www.ui-layouts.com/components",
+      "title": "Components | UI-Layouts",
+      "status": 200
+    },
+    {
+      "url": "https://www.ui-layouts.com/llms-full.txt",
+      "title": "UI Layouts — LLM Full Context",
+      "status": 200
+    },
+    {
+      "url": "https://www.ui-layouts.com/get-started",
+      "title": "Get Started | UI Layouts",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ui-layouts/uilayouts",
+      "title": "GitHub - ui-layouts/uilayouts",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ui-layouts/uilayouts/blob/HEAD/LICENSE",
+      "title": "uilayouts/LICENSE",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI Layouts",
+  "summary": "Open-source React and Tailwind component library with 300+ copy-paste components, visual effects and landing-page blocks.",
+  "description": "A collection of React, Next.js and Tailwind CSS components, blocks and animated effects you copy into your app or install from its shadcn-compatible registry. Organised into forms & input, layout & navigation, overlays & dialogs, animation & motion, visual effects, 3D, media and data-display categories; a Pro tier adds 100+ premium blocks. Ships docs, a CLI, an MCP page and llms.txt files for AI agents.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "features",
+    "cta",
+    "pricing",
+    "testimonials",
+    "faq",
+    "footer",
+    "team",
+    "stats",
+    "button",
+    "input",
+    "slider",
+    "tabs",
+    "accordion",
+    "card",
+    "modal",
+    "drawer",
+    "carousel",
+    "marquee",
+    "loader",
+    "background",
+    "cursor",
+    "scroll-effect",
+    "text-effect",
+    "3d"
+  ],
+  "keywords": [
+    "react component",
+    "next.js component",
+    "tailwind css",
+    "copy paste component",
+    "shadcn registry",
+    "animated component",
+    "visual effect",
+    "mesh gradient",
+    "liquid glass",
+    "noise texture",
+    "blur vignette",
+    "image reveal",
+    "cursor trail",
+    "scroll animation",
+    "text marquee",
+    "typewriter effect",
+    "shimmer loader",
+    "modal",
+    "drawer",
+    "range slider",
+    "tabs",
+    "accordion",
+    "landing page block",
+    "hero section",
+    "pricing section",
+    "faq section",
+    "footer section",
+    "team section",
+    "stats section",
+    "testimonial section"
+  ],
+  "contains": [
+    "324 catalogue items incl. 31 docs pages; 327 shadcn registry entries",
+    "60+ open-source components and 100+ ready-to-use blocks; Pro adds 100+ premium blocks",
+    "component categories: forms & input, layout & navigation, overlays, animation, visual effects, 3D, media, data display",
+    "install via shadcn registry/CLI or copy-paste",
+    "llms.txt and llms-full.txt indexes for AI agents",
+    "MCP integration page"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ui-layouts/uilayouts",
+    "docs": "https://www.ui-layouts.com/get-started",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

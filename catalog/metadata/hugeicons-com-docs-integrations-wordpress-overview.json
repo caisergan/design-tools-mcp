@@ -1,0 +1,47 @@
+{
+  "id": "hugeicons-com-docs-integrations-wordpress-overview",
+  "url": "https://hugeicons.com/docs/integrations/wordpress/overview",
+  "kind": "page",
+  "hints_hash": "16aa2029341ab3b5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hugeicons.com/docs/integrations/wordpress/overview", "title": "WordPress Integration Overview | Hugeicons Documentation", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hugeicons with WordPress Overview",
+  "summary": "Docs page on installing Hugeicons icons in WordPress, free via the plugin or as Pro with Elementor widgets.",
+  "description": "Setup guide for the Hugeicons icon system in WordPress: the free plugin ships 6,000+ icons in one style (Stroke Rounded) for the Block Editor and shortcodes, while the Pro addon and the Elementor plugin unlock 60,000+ icons across 10 styles plus four dedicated widgets (Icon Button, Icon Box, Icon List, FAQ). Lists prerequisites (WordPress 5.0+, PHP 7.4+) and the API endpoint the plugins call for icon metadata.",
+  "type": "plugin",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": [
+    "wordpress plugin",
+    "elementor widget",
+    "icon library",
+    "block editor",
+    "gutenberg",
+    "icon shortcode",
+    "svg icon",
+    "icon picker",
+    "free icon pack",
+    "icon set",
+    "wordpress 5.0",
+    "php 7.4",
+    "icon metadata api"
+  ],
+  "contains": [
+    "free plugin: 6,000+ icons in 1 style (Stroke Rounded)",
+    "Pro: 60,000+ icons across 10 styles",
+    "Elementor plugin with 4 widgets: Icon Button, Icon Box, Icon List, FAQ",
+    "requires WordPress 5.0+ and PHP 7.4+",
+    "plugins call https://hugeicons.com/api for icon metadata"
+  ],
+  "formats": ["docs", "links"],
+  "stack": ["wordpress", "php"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "hugeicons-com"},
+  "confidence": 0.85
+}

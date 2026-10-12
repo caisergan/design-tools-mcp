@@ -1,0 +1,23 @@
+{
+  "id": "reactbits-dev-text-animations-rotating-text",
+  "url": "https://reactbits.dev/text-animations/rotating-text",
+  "kind": "page",
+  "hints_hash": "a7c0212bc8198d19",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:29:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://reactbits.dev/text-animations/rotating-text", "title": "Rotating Text — React Text Animation | React Bits", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Rotating Text",
+  "summary": "React component that cycles through phrases with a 3D rotate/flip transition; JavaScript or TypeScript source with CSS or Tailwind.",
+  "description": "Text animation component page for Rotating Text, which cycles through multiple phrases with a 3D rotate or flip transition. Install docs cover JavaScript or TypeScript with plain CSS or Tailwind, and an interactive preview with customization controls and source tabs.",
+  "keywords": ["text animation", "rotating text", "text effect", "3d rotate", "flip transition", "react component", "typescript", "javascript", "tailwind", "css", "micro interaction", "copy paste component", "animated text", "react"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "reactbits-dev"},
+  "elements": ["text-effect"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "css", "tailwind"],
+  "contains": ["cycles through multiple phrases with a 3D rotate/flip transition", "install options: JavaScript or TypeScript, plain CSS or Tailwind", "related components: Split Flap Text, ASCII Text, Blur Text"],
+  "confidence": 0.85
+}

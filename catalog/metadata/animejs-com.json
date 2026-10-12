@@ -1,0 +1,33 @@
+{
+  "id": "animejs-com",
+  "url": "https://animejs.com",
+  "kind": "site",
+  "hints_hash": "00c8ce3dd5a7604a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://animejs.com", "title": "Anime.js | JavaScript Animation Engine", "status": null},
+    {"url": "https://animejs.com/documentation", "title": "Documentation | Anime.js | JavaScript Animation Engine", "status": null},
+    {"url": "https://animejs.com/documentation/easings", "title": "Easings | Documentation | Anime.js | JavaScript Animation Engine", "status": null},
+    {"url": "https://animejs.com/documentation/svg", "title": "SVG | Documentation | Anime.js | JavaScript Animation Engine", "status": null},
+    {"url": "https://animejs.com/documentation/scope", "title": "Scope | Documentation | Anime.js | JavaScript Animation Engine", "status": null},
+    {"url": "https://animejs.com/documentation/getting-started", "title": "Getting started | Documentation | Anime.js | JavaScript Animation Engine", "status": 200},
+    {"url": "https://animejs.com/documentation/getting-started/installation", "title": "Installation | Getting started | Documentation | Anime.js | JavaScript Animation Engine", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Anime.js",
+  "summary": "All-in-one JavaScript animation engine: one API for DOM, SVG and CSS animations, timelines, scroll and draggable elements.",
+  "description": "A lightweight, modular JavaScript animation library (the animejs npm package, from v4.0.0) for animating the web with a single animate() API. It ships timelines, easing and spring functions, a Scroll Observer for scroll-synchronised animation, a stagger utility, an SVG toolset for shape morphing, line drawing and motion paths, and a Draggable API, with full documentation, an easing editor and examples.",
+  "type": "tool",
+  "categories": ["motion"],
+  "elements": ["scroll-effect", "text-effect"],
+  "keywords": ["javascript animation", "animation library", "animation engine", "web animation", "scroll animation", "timeline", "keyframe", "easing", "spring", "svg animation", "shape morph", "line drawing", "motion path", "stagger", "draggable", "css transform", "frontend", "npm package"],
+  "contains": ["single animate() API with per-property parameters and keyframes", "Timeline API for sequencing and playback control", "Scroll Observer API for scroll-triggered animations", "SVG utilities: shape morphing, line drawing, motion paths", "stagger utility: time, values and timeline positions", "Draggable API with snap, flick and throw", "Scope API for media-query responsive animations", "modular imports; ~24.5 KB full bundle"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["javascript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://animejs.com/documentation", "npm": "animejs", "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,77 @@
+{
+  "id": "github-com-openreplay-openreplay",
+  "url": "https://github.com/openreplay/openreplay",
+  "kind": "repo",
+  "hints_hash": "ac63490cb41e444a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:19:35Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/openreplay/openreplay/blob/HEAD/README.md",
+      "title": "OpenReplay",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "OpenReplay",
+  "summary": "Self-hosted session replay, cobrowsing and product analytics that keep user data inside your own infrastructure.",
+  "description": "Open-source experience platform you host yourself: replay sessions with full DevTools context (network, console, JS errors, store state, 40+ performance metrics), analyze funnels, trends, journeys, heatmaps and web analytics, and co-browse live over WebRTC. Capture-time masking, private mode and GDPR/CCPA tooling; deploy on a single VM, Kubernetes, Docker or from source, with cloud options including dedicated instances in 50+ regions.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "session replay",
+    "product analytics",
+    "cobrowsing",
+    "self-hosted analytics",
+    "user session recording",
+    "error tracking",
+    "debugging",
+    "heatmap",
+    "funnel",
+    "journey",
+    "devtool",
+    "privacy",
+    "gdpr",
+    "web analytics",
+    "open source",
+    "adblock resistant"
+  ],
+  "contains": [
+    "self-hosted session replay (free) plus serverless, dedicated and bring-your-own-cloud options",
+    "DevTools: network, console, JS errors, store state, 40+ performance metrics",
+    "analytics: funnels, trends, journeys, heatmaps, web analytics",
+    "cobrowsing with cursor control and WebRTC calls",
+    "capture-time sanitization and private mode (mask all text and inputs)",
+    "native mobile replay for iOS, Android and React Native (beta)",
+    "deploys on a 2 vCPU / 8 GB / 50 GB VM, Kubernetes (Helm), Docker or from source"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "vue",
+    "svelte"
+  ],
+  "pricing": "freemium",
+  "license": "AGPL-3.0",
+  "related": {
+    "repo": "https://github.com/openreplay/openreplay",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,19 @@
+{
+ "id": "seo-stuff-com-gold-plan-package",
+ "url": "https://seo-stuff.com/gold-plan-package",
+ "kind": "page",
+ "hints_hash": "1579c061bd44b0ec",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T16:20:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://seo-stuff.com/gold-plan-package", "title": "Done-For-You SEO, GEO & AIO Package | SEO Stuff", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Done-For-You Package",
+ "summary": "Done-for-you AI search pack: 10 citation-optimized pages, 3 DR50+ backlink placements and a full SEO + AI search audit, $999.",
+ "keywords": ["done for you seo", "ai search optimization", "seo audit", "content writing", "backlink placement", "domain rating", "ai citation", "generative engine optimization", "seo service", "roadmap"],
+ "pricing": "paid",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "seo-stuff-com"},
+ "confidence": 0.85
+}

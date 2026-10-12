@@ -1,0 +1,32 @@
+{
+  "id": "craftwork-design",
+  "url": "https://craftwork.design",
+  "kind": "site",
+  "hints_hash": "5cbe9b705dd06bac",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://craftwork.design", "title": "Craftwork: Design assets and templates for designers and AI agents", "status": null},
+    {"url": "https://craftwork.design/icons", "title": "SVG Icons for Design and Code • Craftwork", "status": null},
+    {"url": "https://craftwork.design/pricing", "title": "Pro Pricing: Every Pack, Asset and the MCP Server • Craftwork", "status": null},
+    {"url": "https://craftwork.design/faq", "title": "FAQ • Craftwork", "status": null},
+    {"url": "https://craftwork.design/license", "title": "License • Craftwork", "status": null},
+    {"url": "https://craftwork.design/components", "title": "React Components for Your Codebase • Craftwork", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Craftwork",
+  "summary": "Marketplace of 3,300+ design packs and 40,000+ assets: illustrations, mockups, icon sets, fonts, templates and React components.",
+  "description": "Craftwork is a marketplace of hand-picked design assets organised in packs: illustrations, 3D, mockups, backgrounds, fonts, 77,000+ SVG icons, Figma/Framer/Webflow templates and animated React/Tailwind components. A free account gets five premium assets a month; Pro ($149/year or $449 lifetime) unlocks every pack, a Figma plugin and an MCP server for AI agents.",
+  "type": "asset-library",
+  "categories": ["media", "icons", "components"],
+  "elements": ["3d", "accordion", "ai-agent-ui", "background", "button", "card", "carousel", "chart", "chat", "cursor", "form", "hero", "input", "loader", "marquee", "modal", "navbar", "popover", "progress", "prompt-input", "switch", "text-effect"],
+  "keywords": ["illustration", "mockup", "3d asset", "icon set", "svg icon", "font", "ui kit", "figma template", "framer template", "webflow template", "react component", "tailwind component", "animated component", "background", "design asset", "marketplace", "shader", "presentation template", "mcp server", "figma plugin"],
+  "contains": ["3,300+ packs and 40,000+ assets", "2,457 catalog assets, 180 packs, 899 fonts, 77,762 icons", "77,762 SVG icons with size, stroke and color controls; copy as SVG, React or Vue", "992 animated React and Tailwind components from several open-source libraries", "templates for Figma, Framer, Webflow, Jitter, Notion and presentations", "plans: free with 5 premium assets a month; Pro $49/quarter, $149/year, $449 lifetime, $299/year team", "MCP server for Claude Code, ChatGPT, Cursor and Lovable; Figma plugin", "200+ independent authors, $320K paid to authors"],
+  "formats": ["code", "figma-file", "framer-file", "font-files", "png", "svg", "cli", "prompts", "templates"],
+  "stack": ["react", "tailwind", "vue"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": "@craftwork-design/wizard", "figma": null, "parent": null},
+  "confidence": 0.9
+}

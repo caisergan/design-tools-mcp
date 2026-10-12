@@ -1,0 +1,27 @@
+{
+  "id": "library-relume-io-figma-kits",
+  "url": "https://library.relume.io/figma-kits",
+  "kind": "page",
+  "hints_hash": "a19d89d7c985f1da",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://library.relume.io/figma-kits", "title": "The world's largest collection of Figma components for web design | Figma Library", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Figma Library",
+  "summary": "Library of 1,000+ desktop and mobile web components and page layouts in Figma, free to download and updated monthly.",
+  "description": "A Figma library of 1,000+ components and layouts for web design: page templates, marketing and e-commerce sections, and application UI, each with desktop and mobile variants. Built on a lightweight style guide with global typography, colors and UI elements; the kit is free to download and updated monthly.",
+  "type": "block-library",
+  "categories": ["sections", "components"],
+  "elements": ["navbar", "form", "stats", "cta", "testimonials", "pricing", "contact", "list", "team", "timeline", "footer", "banner"],
+  "keywords": ["figma kit", "figma component", "web design", "page layout", "landing page", "wireframe", "design system", "marketing section", "ecommerce", "app ui", "responsive layout", "desktop and mobile", "figma library", "free figma"],
+  "contains": ["1,000+ components and layouts with desktop and mobile variants", "page templates, marketing sections, e-commerce sections and application UI", "free Figma Kit download, updated monthly", "global style guide: typography, colors, textures, UI elements", "works with Figma best practices"],
+  "formats": ["figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

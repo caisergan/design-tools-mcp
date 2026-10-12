@@ -1,0 +1,30 @@
+{
+  "id": "varchive-ai",
+  "url": "https://varchive.ai",
+  "kind": "site",
+  "hints_hash": "45a5552071b7f532",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://varchive.ai", "title": "Varchive", "status": null},
+    {"url": "https://varchive.ai/apps", "title": "Explore Varchive", "status": 200},
+    {"url": "https://varchive.ai/tools", "title": "Varchive | Tools for building with AI", "status": 200},
+    {"url": "https://varchive.ai/rss", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Varchive",
+  "summary": "AI news digest biased toward design, plus a gallery of AI-assisted work and a list of tools for building with AI.",
+  "description": "A curated feed of artificial intelligence news for designers, written by Cameron Moll: each item links to the source with a short editorial note, readable on the site, by email or as RSS. The gallery collects AI-assisted work submitted by others — websites, apps and interfaces — and a software section lists tools for building with AI.",
+  "type": "gallery",
+  "categories": ["inspiration", "learning"],
+  "elements": [],
+  "keywords": ["ai news", "ai design", "design inspiration", "ai tool", "gallery", "newsletter", "curated", "ai interface", "rss", "ai product", "digest", "submit"],
+  "contains": ["news digest of AI items with a design angle", "gallery of submitted AI-assisted work", "software section of tools for building with AI", "email newsletter and RSS feed", "curated by Cameron Moll", "submit-your-work form"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

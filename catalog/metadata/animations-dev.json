@@ -1,0 +1,67 @@
+{
+  "id": "animations-dev",
+  "url": "https://animations.dev",
+  "kind": "site",
+  "hints_hash": "d45dbe28964bb699",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://animations.dev",
+      "title": "animations.dev",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "animations.dev",
+  "summary": "Interactive course by Emil Kowalski on crafting web animations with CSS and Framer Motion (Motion).",
+  "description": "animations.dev teaches the theory and practice of UI animation: choosing easings and timing, spring animations, and coding performant animations with CSS animations and Framer Motion, with exercises on a custom-built platform. 13,000+ designers and engineers have taken it; enrollment is closed until 2027, with a waitlist that includes two free preview lessons.",
+  "type": "course",
+  "categories": [
+    "learning",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "animation course",
+    "web animation",
+    "css animation",
+    "framer motion",
+    "motion",
+    "animation theory",
+    "easing",
+    "spring animation",
+    "ui animation",
+    "micro interaction",
+    "frontend course",
+    "interactive course"
+  ],
+  "contains": [
+    "13,000+ students",
+    "video lessons, breakdowns and interactive exercises on a custom platform",
+    "covers animation theory, CSS animations and Framer Motion (now Motion)",
+    "enrollment closed; waitlist with two free preview lessons"
+  ],
+  "formats": [
+    "video"
+  ],
+  "stack": [
+    "css",
+    "framer-motion"
+  ],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,94 @@
+{
+  "id": "pricingpages-design",
+  "url": "https://pricingpages.design",
+  "kind": "site",
+  "hints_hash": "eece99ad41ab47b8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pricingpages.design/llms.txt",
+      "title": "llms.txt - AI and LLM Guidelines for pricingpages.design",
+      "status": null
+    },
+    {
+      "url": "https://pricingpages.design",
+      "title": "Pricing Pages — A Curated Gallery of Pricing Page Designs",
+      "status": 200
+    },
+    {
+      "url": "https://pricingpages.design/about",
+      "title": "Turn browsers into buyers",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Pricing Pages",
+  "summary": "Curated gallery of pricing page designs from real SaaS, ecommerce and agency sites, filterable by components and patterns.",
+  "description": "A browsable vault of pricing page examples with screenshots and links out to the live pages. Each design is tagged by pricing components — tier cards, comparison tables, monthly/annual switch, usage-based calculator, enterprise pricing, FAQs — and by design patterns such as contact sales, one-off payment, subscription, and short or long layouts. New designs can be submitted for review; screenshots stay with their original owners.",
+  "type": "gallery",
+  "categories": [
+    "sections",
+    "inspiration"
+  ],
+  "elements": [
+    "pricing",
+    "faq",
+    "testimonials",
+    "table"
+  ],
+  "variants": {
+    "pricing": [
+      "cards",
+      "comparison-table",
+      "billing-toggle",
+      "usage-based",
+      "enterprise",
+      "with-faq"
+    ]
+  },
+  "keywords": [
+    "pricing page",
+    "pricing table",
+    "saas pricing",
+    "pricing page design",
+    "pricing page example",
+    "tier card",
+    "comparison table",
+    "usage-based pricing",
+    "subscription pricing",
+    "conversion",
+    "landing page",
+    "inspiration",
+    "design pattern",
+    "pricing"
+  ],
+  "contains": [
+    "curated vault of pricing page examples from SaaS, ecommerce and agency sites",
+    "15 pricing components and 5 design patterns as filters",
+    "each entry links out to the live pricing page",
+    "136 URLs in the sitemap (catalog measurement)",
+    "screenshots © their respective owners, shown for inspiration",
+    "submissions via /submit reviewed before publishing"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "heyneuma-com",
+  "url": "https://heyneuma.com",
+  "kind": "site",
+  "hints_hash": "66eb2152b64494d9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://heyneuma.com/llms.txt", "title": "Neuma", "status": null},
+    {"url": "https://heyneuma.com", "title": "Neuma · Build an agent of your own", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Neuma",
+  "summary": "Self-paced course that teaches non-programmers to build a personal AI system with Claude Code.",
+  "description": "A 20-module course (9 foundation, 9 advanced, 2 bonus) plus a starter kit of roughly 15 plain markdown template files. It teaches one loop — describe, review, redirect — by building a personal AI operating system: identity, memory, daily briefings, energy-based tasks and a coaching layer, then subagents, orchestration, websites and an iOS app. Aimed at designers, writers, founders and managers with no coding or terminal experience.",
+  "type": "course",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai course", "claude code", "build an ai agent", "personal ai assistant", "ai agent", "memory", "markdown", "claude.md", "subagent", "mcp server", "figma to code", "ios app", "no-code", "designer", "self-paced course", "daily briefing"],
+  "contains": ["20 modules: 9 foundation, 9 advanced, 2 bonus", "starter kit of ~15 markdown template files", "teaches a personal AI operating system: identity, memory, daily briefings, coaching", "advanced track: subagents, parallel orchestration, iOS app build", "bonus modules: first website and Figma to code", "$129 one-time, lifetime access, 30-day money-back guarantee"],
+  "formats": ["video", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

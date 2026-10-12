@@ -1,0 +1,21 @@
+{
+  "id": "ruben-substack-com-p-how-to-bypass-ai-detectors",
+  "url": "https://ruben.substack.com/p/how-to-bypass-ai-detectors",
+  "kind": "page",
+  "hints_hash": "8ca32239bf81ee11",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/how-to-bypass-ai-detectors", "title": "Can you detect AI? - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Can you detect AI?",
+  "summary": "Paid newsletter post on how Substack's AI detector works and how to write so your text does not read as AI.",
+  "description": "A post in Ruben Hassid's How to AI newsletter about Substack's AI detector and AI slop: how the detector works, how to stop sounding like an AI, and the author's own live AI writing workflow. Sections after the introduction are for paid subscribers.",
+  "type": "article",
+  "keywords": ["ai detector", "ai slop", "substack", "ai writing", "detect ai content", "write with ai", "newsletter", "content detection"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.75
+}

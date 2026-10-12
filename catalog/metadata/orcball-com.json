@@ -1,0 +1,28 @@
+{
+  "id": "orcball-com",
+  "url": "https://orcball.com",
+  "kind": "site",
+  "hints_hash": "53a6b29da645db5f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://orcball.com", "title": "ORC-BALL — Retro Arcade Breakout", "status": null},
+    {"url": "https://www.orcball.com/", "title": "ORC-BALL — Retro Arcade Breakout", "status": 200}
+  ],
+  "status": "partial",
+  "name": "ORC-BALL",
+  "summary": "Retro Breakout / DX-Ball style arcade game played free in the browser.",
+  "description": "A browser arcade game in the Breakout / DX-Ball tradition: bounce a ball with a paddle to smash bricks across 26 levels, using power-ups such as lasers, multi-ball and a glue paddle.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["arcade game", "breakout", "dx-ball", "browser game", "retro game", "brick breaker", "free game", "power-up", "paddle game"],
+  "contains": ["26 levels", "power-ups: lasers, multi-ball, glue paddle", "free to play in the browser"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

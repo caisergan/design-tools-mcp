@@ -1,0 +1,19 @@
+{
+  "id": "kickresu-me-gwvqlm4",
+  "url": "https://kickresu.me/Gwvqlm4",
+  "kind": "page",
+  "hints_hash": "cab17e4fd746835c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:52:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://kickresu.me/Gwvqlm4", "title": "ATS Resume Checker — Simulate the ATS Scan | Kickresume", "status": null}
+  ],
+  "status": "ok",
+  "name": "ATS Resume Checker",
+  "summary": "Web checker that simulates an applicant tracking system scan and scores a resume against more than 20 checks.",
+  "description": "An online tool that simulates an ATS scan of a resume: it checks whether the file is scannable, runs over 20 checks against a database of successful CVs, and returns a score with improvement tips. It also offers AI resume grading and review next to the checker.",
+  "keywords": ["ats", "resume checker", "cv", "applicant tracking system", "resume score", "job application", "career tool", "ai resume review"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

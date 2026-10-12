@@ -1,0 +1,28 @@
+{
+  "id": "iconifyai-com",
+  "url": "https://iconifyai.com",
+  "kind": "site",
+  "hints_hash": "59ec62b834d35b2e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:25:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://iconifyai.com", "title": "AI Icon Generator - Make unique app icons in seconds", "status": null},
+    {"url": "https://www.iconifyai.com/gallery", "title": "AI Generated Icons | Create your app icon in seconds", "status": null}
+  ],
+  "status": "ok",
+  "name": "IconifyAI",
+  "summary": "AI icon generator: describe an app icon, pick a color and one of 11 styles, download a 1024x1024 PNG.",
+  "description": "Text-to-icon service for app icons: name the objects, choose a color and a style, and get an icon in under a minute. Output is a 1024x1024 PNG/JPG with an extracted color palette, and the icon comes with full commercial rights and resale. Credit packs start at $17 for 80 icons.",
+  "type": "generator",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["ai icon generator", "app icon generator", "icon maker", "app icon", "ios app icon", "android app icon", "logo generator", "ai logo", "flat icon", "gradient icon", "clay icon", "pixelated icon", "mascot icon", "vintage icon", "sketch icon", "photorealistic icon", "icon style", "icon credit"],
+  "contains": ["AI icon generator from a text prompt", "11 icon styles: flat, gradient, clay, pixelated, mascot, vintage, sketch ...", "1024x1024 PNG/JPG downloads", "automatic color palette extraction from the icon", "credit packs: $17 / 80, $24 / 200, $37 / 450 credits", "commercial rights and resale allowed", "gallery of customer-generated icons", "1900+ customers"],
+  "formats": ["png"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "codebeautify-org",
+  "url": "https://codebeautify.org",
+  "kind": "site",
+  "hints_hash": "55f6dc6cdf8c1fa9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://codebeautify.org", "title": "Code Beautify and Code Formatter For Developers - to Beautify, Validate, Minify, JSON, XML, JavaScript, CSS, HTML, Excel and more", "status": 200},
+    {"url": "https://codebeautify.org/faq", "title": "FAQ", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CodeBeautify",
+  "summary": "Free collection of 1,200+ online developer tools: formatters, beautifiers, minifiers, validators and converters.",
+  "description": "Browser-based toolbox covering JSON, XML, HTML, CSS, SQL, CSV and Excel: beautifiers, minifiers, validators, viewers, editors, converters and encryption tools, plus hundreds of generators (names, text, images). Most tools run without login; registered users can save, archive and share links to their data. Input size limit is 1 MB, UTF-8.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["json beautifier", "code formatter", "minifier", "validator", "converter", "xml viewer", "base64", "html viewer", "sql formatter", "developer tool", "online tool", "css beautifier"],
+  "contains": ["1,200+ tool pages in its sitemap", "beautifiers, minifiers, validators, converters, viewers and editors", "supports JSON, XML, HTML, CSS, SQL, CSV, Excel and images", "free; login adds saved and archived links"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

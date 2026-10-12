@@ -1,0 +1,27 @@
+{
+  "id": "csscursors-colorion-co",
+  "url": "https://csscursors.colorion.co",
+  "kind": "site",
+  "hints_hash": "f17145f0f4ce85dd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://csscursors.colorion.co", "title": "CSS Cursors — 39 custom cursor effects, free to copy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CSS Cursors",
+  "summary": "Library of 39 custom CSS cursor effects you can preview, copy as code or recreate with an agent prompt.",
+  "description": "A collection of 39 custom cursor effects — magnetic rings, difference-blend discs, comet trails, gooey metaballs, radar reticles and more — each pure CSS driven by a ~20-line universal pointer tracker that only writes --x, --y, --angle and --speed. Hover a tile to try a cursor, click to copy its self-contained code or a ready-made prompt for your coding agent; everything respects prefers-reduced-motion and the collection is MIT licensed.",
+  "type": "component-library",
+  "categories": ["color-effects", "motion"],
+  "elements": ["cursor"],
+  "keywords": ["custom cursor", "css cursor", "mouse cursor", "pointer effect", "cursor follower", "magnetic cursor", "comet trail", "gooey effect", "css animation", "copy paste", "interactive effect", "reduced motion", "agent prompt"],
+  "contains": ["39 custom cursor effects", "pure CSS plus a ~20-line JavaScript pointer tracker", "click to copy self-contained code or an agent prompt", "MIT licensed, no dependencies", "respects prefers-reduced-motion"],
+  "formats": ["code", "prompts"],
+  "stack": ["css", "javascript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

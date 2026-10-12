@@ -1,0 +1,78 @@
+{
+  "id": "arrakis-tech",
+  "url": "https://arrakis.tech",
+  "kind": "site",
+  "hints_hash": "b448690af4513dc0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://arrakis.tech/llms.txt",
+      "title": "Arrakis Technologies LLM Index",
+      "status": null
+    },
+    {
+      "url": "https://arrakis.tech",
+      "title": "AI transformation for mission-critical industries | Arrakis",
+      "status": 200
+    },
+    {
+      "url": "https://www.arrakis.tech/about",
+      "title": "Deploying AI where it matters | Arrakis",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Arrakis",
+  "summary": "Company that builds and deploys secure AI agents for industrial operations: aerospace, defense, energy, chemicals, construction, telecom.",
+  "description": "Arrakis partners with industrial enterprises to design, build and scale AI agents that execute real-world workflows: data intake and integration, workflow and governance logic, and an execution hub. Pages cover the platform, the industries served (aerospace and defense, energy, chemicals, engineering and construction, telecommunications, shipping) and customer stories. Engagement starts with a demo request.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai agent",
+    "ai transformation",
+    "enterprise ai",
+    "agentic workflow",
+    "industrial operation",
+    "aerospace",
+    "defense",
+    "energy",
+    "chemical",
+    "construction",
+    "telecommunication",
+    "shipping",
+    "operations automation",
+    "workflow automation",
+    "knowledge graph",
+    "secure ai deployment"
+  ],
+  "contains": [
+    "builds and deploys AI agents for industrial operations",
+    "industries: aerospace and defense, energy, chemicals, construction, telecom, shipping",
+    "platform layers: data intake, workflow logic, governance logic, execution hub",
+    "value-based pricing; demo requests via demo@arrakis.tech",
+    "customer stories: Glencore, Maersk"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

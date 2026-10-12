@@ -1,0 +1,32 @@
+{
+ "id": "replit-com",
+ "url": "https://replit.com",
+ "kind": "site",
+ "hints_hash": "55bc27cbf14087e5",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://replit.com/llms.txt", "title": "Replit Documentation", "status": null},
+  {"url": "https://replit.com", "title": "AI App and Website Builder | Replit", "status": 200},
+  {"url": "https://replit.com/guides", "title": "Replit Guides | Replit", "status": 200},
+  {"url": "https://replit.com/gallery", "title": "Replit Gallery | Replit", "status": 200},
+  {"url": "https://replit.com/pricing", "title": "Pricing and Plans | Replit", "status": 200},
+  {"url": "https://replit.com/about", "title": "About Us | Replit", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Replit",
+ "summary": "AI app and website builder: describe an idea and Replit Agent builds, deploys and hosts a working app in the browser.",
+ "description": "Replit is a browser-based software creation platform: describe what you want and the Replit Agent builds, tests and deploys an app or website. It includes a cloud IDE with AI chat, extensions, SSH and version control, plus deployments, custom domains, databases and app storage, a gallery of apps to remix and quickstart guides.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["ai app builder", "website builder", "no-code", "prompt to app", "cloud ide", "vibe coding", "deploy", "hosting", "database", "agent", "code editor", "prototype", "landing page", "chatbot builder", "full stack"],
+ "contains": ["Agent builds and deploys apps and websites from a prompt", "cloud IDE with AI chat, extensions, SSH and version control", "gallery of 61 apps and templates to remix", "228-document llms.txt bundle for agents", "Free mode; Core $18-20/month; Pro $90-100/month; Enterprise"],
+ "formats": ["app", "templates", "docs", "links"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

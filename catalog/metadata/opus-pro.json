@@ -1,0 +1,85 @@
+{
+  "id": "opus-pro",
+  "url": "https://opus.pro",
+  "kind": "site",
+  "hints_hash": "b5f9c20c1313b482",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://opus.pro/llms.txt",
+      "title": "OpusClip",
+      "status": null
+    },
+    {
+      "url": "https://opus.pro",
+      "title": "OpusClip: #1 AI video clipping and editing tool",
+      "status": 200
+    },
+    {
+      "url": "https://www.opus.pro/pricing",
+      "title": "Pricing - OpusClip",
+      "status": 200
+    },
+    {
+      "url": "https://www.opus.pro/about",
+      "title": "About Us - OpusClip",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "OpusClip",
+  "summary": "AI video tool that cuts long videos into short vertical clips with captions and reframing, then posts them to social platforms.",
+  "description": "An AI clipping and editing platform: drop a YouTube, Twitch, Zoom or Google Drive link (or upload a file) and it picks highlight moments, adds animated captions, reframes to any aspect ratio with object tracking and can auto-post to YouTube Shorts, TikTok and Instagram Reels. Agent Opus adds prompt-to-video generation with avatars, voiceover and motion graphics; a public REST API and a native MCP server (29 tools) drive the pipeline from agents and code.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai video",
+    "video clipping",
+    "short clip",
+    "youtube short",
+    "tiktok",
+    "instagram reel",
+    "caption",
+    "reframe",
+    "virality score",
+    "mcp server",
+    "video api",
+    "podcast clip",
+    "video editor",
+    "ai agent"
+  ],
+  "contains": [
+    "ClipAnything model clips any video type, not only podcasts",
+    "animated captions in 20+ languages",
+    "AI reframing with object tracking, plus manual tracking",
+    "auto-post to YouTube Shorts, TikTok and Instagram Reels",
+    "Agent Opus: prompt-to-video agent with AI avatars, voiceover and motion graphics",
+    "native MCP server with 29 tools and a public REST API",
+    "free tier; Starter $15/mo, Pro $29/mo ($14.50 billed yearly), Business plan",
+    "site figures: 20M+ creators, 440M+ clips created, 160B+ views"
+  ],
+  "formats": [
+    "app",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://www.opus.pro/mcp",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,26 @@
+{
+  "id": "uxdesign-cc-figma-just-made-your-design-system-debt-everyones-problem-no",
+  "url": "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf",
+  "kind": "page",
+  "hints_hash": "626fc20a2d10f8d4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf", "title": "Figma just made your design system debt everyone’s problem. Now use it.", "status": null}
+  ],
+  "status": "ok",
+  "name": "Figma just made your design system debt everyone’s problem. Now use it.",
+  "summary": "UX Collective article on how Figma's Config 2026 design-system features surface design debt — and what teams should do about it.",
+  "description": "Opinion piece by Dolphia on UX Collective (June 2026, 6 min read): everything Figma shipped at Config 2026 reads from your design system, and design checks with one-click fixes make design-system debt visible to everyone; the article argues what design and product teams should do next.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["figma", "design system", "design system debt", "design debt", "design token", "config 2026", "design ops", "product design", "ux collective", "one-click fix", "design check"],
+  "contains": ["article by Dolphia on UX Collective", "6 min read, published June 2026", "covers Figma Config 2026 design-system features", "discusses Check designs, seeded violations and one-click fixes"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "uxdesign-cc"},
+  "confidence": 0.8
+}

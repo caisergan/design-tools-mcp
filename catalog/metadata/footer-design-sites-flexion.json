@@ -1,0 +1,25 @@
+{
+  "id": "footer-design-sites-flexion",
+  "url": "https://footer.design/sites/flexion",
+  "kind": "page",
+  "hints_hash": "8f9396efea3e9aa3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:19:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/flexion", "title": "Footer | Flexion", "status": null}
+  ],
+  "status": "ok",
+  "name": "Flexion",
+  "summary": "Desktop and mobile footer screenshots from the Flexion Robotics site, tagged by style and industry.",
+  "description": "Footer showcase entry in a curated gallery of web footers: desktop and mobile screenshots of the Flexion Robotics website footer, with footnotes carrying style tags (flat, gradient, bright, large type, minimal), industry tags (robotics, technology), date added and submitter, a link to the live site and a row of similar footers.",
+  "keywords": ["footer design", "website footer", "footer inspiration", "desktop footer", "mobile footer", "footer screenshot", "web design gallery", "flat design", "gradient", "minimal", "large type", "robotics", "technology"],
+  "elements": ["footer"],
+  "contains": ["desktop and mobile footer screenshots", "style tags: flat, gradient, bright, large type, minimal", "industry tags: robotics, technology", "date added, designer and submitter credits", "similar footer designs"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.8
+}

@@ -1,0 +1,35 @@
+{
+  "id": "patternpad-com",
+  "url": "https://patternpad.com",
+  "kind": "site",
+  "hints_hash": "f91ba1a1643fe61b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://patternpad.com", "title": "PatternPad - Create beautiful patterns for presentations, social media or branding.", "status": null},
+    {"url": "https://patternpad.com/terms.html", "title": "PatternPad - Create beautiful patterns for presentations, social media or branding.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "PatternPad",
+  "summary": "Seamless pattern generator: pick shapes and palettes, tune parameters, and export the pattern as SVG or PNG.",
+  "description": "Browser editor that generates endless pattern variations from shapes, parameters and hand-picked colour palettes. Patterns export as PNG, JPG or SVG for branding, presentations, social media and product customisation. Free to use; commercial use is allowed with credit and the artwork itself may not be resold.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["seamless pattern", "pattern generator", "pattern design", "background pattern", "geometric pattern", "vector pattern", "svg pattern", "color palette", "branding", "presentation background", "social media background", "product customization", "free pattern generator", "custom pattern"],
+  "contains": [
+    "endless pattern variations from shapes, colours and parameters",
+    "hand-picked colour palettes",
+    "exports PNG, JPG and SVG",
+    "free of charge",
+    "commercial use allowed with credit and link to PatternPad",
+    "artwork itself may not be resold"
+  ],
+  "formats": ["svg", "png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

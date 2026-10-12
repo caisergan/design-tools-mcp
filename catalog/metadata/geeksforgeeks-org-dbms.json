@@ -1,0 +1,47 @@
+{
+  "id": "geeksforgeeks-org-dbms",
+  "url": "https://geeksforgeeks.org/dbms",
+  "kind": "page",
+  "hints_hash": "dd72917971513daa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://geeksforgeeks.org/dbms",
+      "title": "DBMS Tutorial - GeeksforGeeks",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "DBMS Tutorial",
+  "summary": "Tutorial hub covering DBMS topics: ER model, normalization, transactions, indexing, SQL and interview questions.",
+  "keywords": [
+    "dbm",
+    "database management system",
+    "sql",
+    "normalization",
+    "transaction",
+    "indexing",
+    "er model",
+    "relational database",
+    "database tutorial",
+    "interview question",
+    "data warehouse",
+    "acid",
+    "b+ tree",
+    "dbms note"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

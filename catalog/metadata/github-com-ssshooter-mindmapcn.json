@@ -1,0 +1,35 @@
+{
+  "id": "github-com-ssshooter-mindmapcn",
+  "url": "https://github.com/SSShooter/mindmapcn",
+  "kind": "repo",
+  "hints_hash": "5e14f233ea43c0b1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:34:35Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/SSShooter/mindmapcn/blob/HEAD/README.md", "title": "mindmapcn", "status": 200},
+    {"url": "https://github.com/SSShooter/mindmapcn", "title": "GitHub - SSShooter/mindmapcn: Beautiful mind maps, works seamlessly with shadcn/ui.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "mindmapcn",
+  "summary": "Mind map component for React and shadcn/ui projects, built on Mind Elixir with theme-aware styling, zoom and export controls.",
+  "description": "A mind map component installed into a shadcn/ui project with one command, based on Mind Elixir and styled with Tailwind. It adapts to light and dark mode automatically, needs zero config and adds zoom, fit-to-screen and export controls; suited to organizational charts, project planning, knowledge graphs and brainstorming. Docs and live examples at mindmapcn.mind-elixir.com.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["button"],
+  "keywords": ["mind map", "mindmap", "diagram", "shadcn", "react", "tailwind", "mind elixir", "org chart", "knowledge graph", "brainstorming", "project planning", "component", "typescript", "tree", "graph"],
+  "contains": [
+    "single mind map component, one-command install into a shadcn/ui project",
+    "powered by Mind Elixir, styled with Tailwind",
+    "theme-aware: auto light/dark mode, zero-config defaults",
+    "zoom, fit-to-screen and export controls",
+    "rich styling options, uses shadcn/ui patterns and conventions",
+    "MIT license; 86 GitHub stars; examples at mindmapcn.mind-elixir.com"
+  ],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "tailwind", "shadcn", "mind-elixir"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/SSShooter/mindmapcn", "docs": "https://mindmapcn.mind-elixir.com/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

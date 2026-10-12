@@ -1,0 +1,28 @@
+{
+  "id": "roadmap-sh-vibe-coding",
+  "url": "https://roadmap.sh/vibe-coding",
+  "kind": "page",
+  "hints_hash": "b3e5c69f30464c65",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://roadmap.sh/vibe-coding", "title": "Vibe Coding", "status": 200},
+    {"url": "https://roadmap.sh/vibe-coding/best-tools", "title": "The 10 Best Vibe Coding Tools in 2026: Our Choices", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vibe Coding",
+  "summary": "Step-by-step roadmap for learning vibe coding with AI app builders and coding assistants in 2026.",
+  "description": "roadmap.sh learning path for vibe coding: building software by describing what you want in plain language and reviewing what the AI generates. The page carries an AI tutor for the roadmap, a download link and a FAQ on choosing tools, and points to a guide that compares ten tools from Claude Code and Cursor to Lovable, Bolt and Replit.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["vibe coding", "roadmap", "learning path", "ai coding", "ai app builder", "coding assistant", "claude code", "cursor", "lovable", "bolt", "replit", "prompting", "developer roadmap"],
+  "contains": ["step-by-step roadmap to master vibe coding in 2026", "AI tutor for the roadmap", "FAQ on choosing vibe coding tools", "guide comparing 10 vibe coding tools"],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

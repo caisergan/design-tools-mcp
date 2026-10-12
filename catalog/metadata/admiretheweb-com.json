@@ -1,0 +1,30 @@
+{
+  "id": "admiretheweb-com",
+  "url": "https://admiretheweb.com",
+  "kind": "site",
+  "hints_hash": "80173356d8a2d65f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://admiretheweb.com", "title": "Admire The Web - The very best in web design inspiration", "status": null},
+    {"url": "https://admiretheweb.com/category/blog", "title": "Blog Website Design Inspiration | Admire The Web", "status": null},
+    {"url": "https://admiretheweb.com/category/film", "title": "Film Website Design Inspiration | Admire The Web", "status": null},
+    {"url": "https://admiretheweb.com/category/food", "title": "Food Website Design Inspiration | Admire The Web", "status": null}
+  ],
+  "status": "ok",
+  "name": "Admire The Web",
+  "summary": "Gallery of 2,982 curated website designs with category and colour filters, updated daily.",
+  "description": "Showcase of minimal, clean and responsive websites from around the web, updated daily. Around 2,982 examples are filed under 26+ categories with counts (agency 956, portfolio 655, product 443, responsive 1,546) and can be filtered by colour; each entry links to the live site, and users can sign in to save favourites or submit a site of their own.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["ai-agent-ui", "avatar", "badge", "calendar", "checkbox", "form", "globe", "hero", "map", "marquee", "navbar", "team"],
+  "keywords": ["web design inspiration", "website gallery", "design showcase", "portfolio website", "landing page", "category filter", "color filter", "site of the day", "minimal design", "responsive design", "web design example", "agency website"],
+  "contains": ["2,982 gallery examples of live websites", "26+ categories with counts: agency 956, portfolio 655, product 443, responsive 1,546", "filter by category and colour", "daily updates", "save favourites with an account, submit your own site"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,50 @@
+{
+  "id": "onepagelove-com-shopify-editions-spring-2026",
+  "url": "https://onepagelove.com/shopify-editions-spring-2026",
+  "kind": "page",
+  "hints_hash": "1128975d0a838500",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://onepagelove.com/shopify-editions-spring-2026",
+      "title": "Shopify Editions – Spring 2026 — One Page Website Award",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shopify Editions – Spring 2026",
+  "summary": "One Page Love award listing for Shopify's Editions Spring 2026 landing page: long scrolling, parallax and a sticky CTA.",
+  "keywords": [
+    "landing page",
+    "one page website",
+    "parallax scrolling",
+    "sticky cta",
+    "long scrolling",
+    "shopify",
+    "annual report",
+    "3d",
+    "editorial",
+    "scroll effect"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "onepagelove-com"
+  },
+  "elements": [
+    "scroll-effect",
+    "cta"
+  ],
+  "stack": [
+    "tailwind"
+  ],
+  "confidence": 0.8
+}

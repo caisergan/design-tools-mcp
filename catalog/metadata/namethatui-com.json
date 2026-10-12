@@ -1,0 +1,28 @@
+{
+  "id": "namethatui-com",
+  "url": "https://namethatui.com",
+  "kind": "site",
+  "hints_hash": "a349c8e33d3e91f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:17:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://namethatui.com/llms.txt", "title": "NameThatUI", "status": null},
+    {"url": "https://namethatui.com", "title": "NameThatUI — What Is This UI Element Called?", "status": 200}
+  ],
+  "status": "ok",
+  "name": "NameThatUI",
+  "summary": "Visual dictionary that turns a sloppy description of a UI piece into its real name, API symbol and a coding-agent prompt.",
+  "description": "Reference dictionary of UI element names for macOS and the web: each entry gives the canonical name, alternate names, the folk phrasings people use, the API symbols (AppKit, SwiftUI, HTML, ARIA, CSS) and a paste-ready prompt for a coding agent. Guides cover commonly confused elements; llms-full.txt inlines all content and a JSON search API answers programmatic queries.",
+  "type": "tool",
+  "categories": ["learning", "design-rules"],
+  "elements": ["accordion", "alert", "avatar", "badge", "button", "card", "carousel", "chart", "chat", "cursor", "date-picker", "drawer", "dropdown", "form", "input", "loader", "menubar", "modal", "navbar", "pagination", "popover", "progress", "scroll-effect", "select", "sidebar", "slider", "stepper", "switch", "table", "tabs", "text-effect", "timeline"],
+  "keywords": ["ui element name", "ui terminology", "what is this ui element called", "ui dictionary", "ui glossary", "visual dictionary", "macos ui element", "appkit", "swiftui", "aria", "css", "html", "design terminology", "ui anatomy", "component name", "hover effect", "text animation", "date picker", "pagination", "coding agent prompt", "llms.txt"],
+  "contains": ["81 entry and guide pages across macOS elements, web elements and visual styles", "each entry: canonical name, alternate names, folk phrasings, API symbols and an agent prompt", "API symbols across AppKit, SwiftUI, HTML, ARIA and CSS", "llms-full.txt with all content inline", "programmatic search: POST /api/search", "guides contrasting commonly confused elements (data table, avatar group, timeline, steps, chat bubble …)"],
+  "formats": ["docs", "api", "prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

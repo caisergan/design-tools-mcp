@@ -1,0 +1,119 @@
+{
+  "id": "uniqueui-platform-vercel-app",
+  "url": "https://uniqueui-platform.vercel.app",
+  "kind": "site",
+  "hints_hash": "49b73af7c4577bca",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uniqueui-platform.vercel.app/llms.txt",
+      "title": "UniqueUI",
+      "status": null
+    },
+    {
+      "url": "https://uniqueui-platform.vercel.app",
+      "title": "UniqueUI",
+      "status": 200
+    },
+    {
+      "url": "https://uniqueui-platform.vercel.app/docs",
+      "title": "UniqueUI",
+      "status": 200
+    },
+    {
+      "url": "https://uniqueui-platform.vercel.app/components",
+      "title": "UniqueUI",
+      "status": 200
+    },
+    {
+      "url": "https://uniqueui-platform.vercel.app/blocks",
+      "title": "UniqueUI",
+      "status": 200
+    },
+    {
+      "url": "https://uniqueui-platform.vercel.app/templates",
+      "title": "UniqueUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UniqueUI",
+  "summary": "Copy-paste React component library and shadcn registry: 59 animated components and 9 hero blocks built on motion.dev and Tailwind CSS.",
+  "description": "Animated React components installed into your codebase as single .tsx files with the uniqueui CLI or the shadcn CLI, with no runtime package. The library covers text effects, cards, backgrounds, cursor effects, navigation, data layout and hero sections, with 9 composed hero blocks and 7 page templates on top. Docs cover installation, theming, compatibility and registry MCP setup for AI editors.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion",
+    "sections"
+  ],
+  "elements": [
+    "hero",
+    "card",
+    "text-effect",
+    "background",
+    "cursor",
+    "3d",
+    "button",
+    "marquee",
+    "scroll-effect",
+    "navbar",
+    "tabs",
+    "loader"
+  ],
+  "keywords": [
+    "react component",
+    "animated component",
+    "copy paste component",
+    "shadcn registry",
+    "motion",
+    "tailwind css",
+    "hero block",
+    "text effect",
+    "cursor effect",
+    "animated background",
+    "marquee",
+    "3d card",
+    "component cli",
+    "nextjs",
+    "page template"
+  ],
+  "contains": [
+    "59 components across 9 categories",
+    "9 composed hero blocks",
+    "7 full page templates",
+    "68 shadcn registry items",
+    "single-file .tsx components, no runtime package",
+    "install via npx uniqueui add or the shadcn CLI",
+    "built on motion.dev springs and Tailwind CSS (uses motion, not framer-motion)",
+    "docs for theming, compatibility and AI/MCP setup"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://uniqueui-platform.vercel.app/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

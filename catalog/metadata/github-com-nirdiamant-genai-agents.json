@@ -1,0 +1,35 @@
+{
+  "id": "github-com-nirdiamant-genai-agents",
+  "url": "https://github.com/NirDiamant/GenAI_Agents",
+  "kind": "repo",
+  "hints_hash": "967a0d01cb93e510",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/NirDiamant/GenAI_Agents/blob/HEAD/README.md", "title": "GenAI Agents: Comprehensive Repository for Development and Implementation", "status": null},
+    {"url": "https://raw.githubusercontent.com/NirDiamant/GenAI_Agents/HEAD/LICENSE", "title": "LICENSE (Custom License Agreement)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "GenAI Agents",
+  "summary": "57 tutorials and notebook implementations of generative AI agent techniques, from conversational bots to multi-agent systems.",
+  "description": "Notebook tutorials and implementations organised by category (beginner, framework, educational, business, creative, analysis, news, shopping, task management, QA), built with LangGraph, LangChain, PydanticAI, CrewAI, AutoGen, OpenAI Swarm and LightRAG. Each covers a working agent, from a first conversational bot to multi-agent research systems.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["ai agent", "genai", "generative ai", "tutorial", "jupyter notebook", "langgraph", "langchain", "crewai", "autogen", "pydanticai", "multi-agent", "agent memory", "rag", "mcp", "llm", "python", "customer support agent", "travel planner", "chatbot", "news summarization"],
+  "contains": [
+    "57 tutorials and growing (repo README)",
+    "categories: beginner, framework, educational, business, creative, analysis, news, shopping, task management, QA",
+    "frameworks: LangGraph, LangChain, PydanticAI, CrewAI, AutoGen, OpenAI Swarm, LightRAG",
+    "agent examples: customer support, essay grading, travel planning, recruitment, meme and podcast generation",
+    "companion resources: RAG Techniques, Agents Towards Production, Prompt Engineering, Agent Memory Techniques",
+    "custom non-commercial license: commercial use requires written permission"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["python", "langchain", "langgraph", "crewai", "autogen"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/NirDiamant/GenAI_Agents", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

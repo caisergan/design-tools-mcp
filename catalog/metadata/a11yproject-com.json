@@ -1,0 +1,29 @@
+{
+  "id": "a11yproject-com",
+  "url": "https://a11yproject.com",
+  "kind": "site",
+  "hints_hash": "bfc12114f8327091",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://a11yproject.com", "title": "Home - The A11Y Project", "status": null},
+    {"url": "https://www.a11yproject.com/about", "title": "About - The A11Y Project", "status": null},
+    {"url": "https://www.a11yproject.com/checklist/", "title": "Checklist - The A11Y Project", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The A11Y Project",
+  "summary": "Community-driven site making digital accessibility easier: WCAG checklist, posts and a resource directory.",
+  "description": "A community-driven project with a WCAG-based accessibility checklist for levels A and AA, blog posts and topic collections (ARIA, semantic HTML, color contrast …), spotlight interviews with practitioners, and a directory of tools, books, videos, podcasts and newsletters. For designers and developers learning to build accessible sites.",
+  "type": "design-rules",
+  "categories": ["design-rules", "learning"],
+  "elements": [],
+  "keywords": ["accessibility", "a11y", "wcag", "checklist", "web accessibility", "screen reader", "aria", "color contrast", "keyboard navigation", "inclusive design", "semantic html", "audit", "assistive technology"],
+  "contains": ["WCAG-based accessibility checklist (levels A and AA)", "posts and collections on ARIA, semantic HTML, color contrast …", "spotlight interviews with accessibility practitioners", "directory of tools, books, videos, podcasts and newsletters", "108 URLs in its sitemap"],
+  "formats": ["docs", "links"],
+  "stack": ["eleventy"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

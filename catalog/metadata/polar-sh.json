@@ -1,0 +1,87 @@
+{
+  "id": "polar-sh",
+  "url": "https://polar.sh",
+  "kind": "site",
+  "hints_hash": "caa71619295b8837",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://polar.sh/llms.txt",
+      "title": "Polar",
+      "status": null
+    },
+    {
+      "url": "https://polar.sh",
+      "title": "Polar — A billing platform for the intelligence era | Polar",
+      "status": 200
+    },
+    {
+      "url": "https://polar.sh/docs",
+      "title": "Polar: Turn Your Software into a Business - Polar",
+      "status": 200
+    },
+    {
+      "url": "https://polar.sh/features/seats",
+      "title": "Seat-Based Billing | Polar",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Polar",
+  "summary": "Billing platform for developers: payments, subscriptions and usage-based billing as a merchant of record.",
+  "description": "Polar is a Merchant of Record for software and AI companies: it handles payments, sales tax, fraud, refunds and payouts. Products combine usage billing from ingested events, subscriptions with trials and proration, credits, seat-based pricing and automated benefits such as license keys, GitHub access and Discord roles. Aimed at developers and small teams selling digital products.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "billing",
+    "payment",
+    "subscription",
+    "usage-based billing",
+    "metered billing",
+    "merchant of record",
+    "checkout",
+    "sales tax",
+    "invoice",
+    "payout",
+    "saas",
+    "api",
+    "sdk",
+    "webhook",
+    "license key",
+    "credit",
+    "digital product",
+    "ai billing",
+    "llm billing",
+    "mcp server",
+    "open source"
+  ],
+  "contains": [
+    "usage billing, subscriptions and credits composable on one product",
+    "hosted, embedded and API checkout with localization",
+    "merchant of record in over 100 markets: tax, fraud, refunds and chargebacks",
+    "automated benefits: Discord roles, GitHub repo access, file downloads and license keys",
+    "event ingestion strategies for LLM, S3 and stream usage",
+    "pricing: free Starter; Pro $20/mo, Growth $100/mo, Scale $400/mo",
+    "startup program: Scale plan free for 12 months",
+    "MCP server and framework adapters"
+  ],
+  "formats": ["api", "code", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://polar.sh/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

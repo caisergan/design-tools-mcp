@@ -1,0 +1,29 @@
+{
+ "id": "github-com",
+ "url": "https://github.com",
+ "kind": "site",
+ "hints_hash": "0022f8bebb1bfc60",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/llms.txt", "title": "GitHub", "status": null},
+  {"url": "https://github.com", "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub · GitHub", "status": 200},
+  {"url": "https://github.com/pricing", "title": "GitHub · Plans & pricing for every developer and team · GitHub", "status": 200}
+ ],
+ "status": "ok",
+ "name": "GitHub",
+ "summary": "Developer platform for Git repository hosting, CI/CD, code review and AI-assisted coding with Copilot.",
+ "description": "GitHub is a cloud platform for building, shipping and maintaining software: Git repository hosting, pull requests and code review, Issues and Projects for planning, GitHub Actions for CI/CD, Pages for static sites and Copilot for AI-assisted development. REST and GraphQL APIs plus an MCP server let tools and agents automate work.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["git hosting", "code hosting", "version control", "repository", "ci/cd", "automation", "pull request", "code review", "issue tracking", "project management", "ai code completion", "api", "open source", "static site hosting", "mcp"],
+ "contains": ["Git hosting with unlimited public and private repos on the free plan", "Actions CI/CD, Issues, Projects and PR code review", "GitHub Copilot AI coding assistance", "REST and GraphQL APIs and an MCP server for agents", "Free ($0); Team $4/user/month; Enterprise $21/user/month"],
+ "formats": ["code", "api", "docs"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

@@ -1,0 +1,42 @@
+{
+  "id": "skills-sh-charlie947-answer-first",
+  "url": "https://skills.sh/charlie947/answer-first",
+  "kind": "page",
+  "hints_hash": "02ef67149277df09",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/charlie947/answer-first", "title": "charlie947/answer-first — Agent skills", "status": null },
+    { "url": "https://github.com/charlie947/answer-first", "title": "GitHub - charlie947/answer-first: Ten rules that move the answer to the top of every reply. No preamble, no waffle, one next step. Adapted from i-have-adhd (MIT).", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "answer-first",
+  "summary": "Agent skill of eleven rules that move the answer to the top of every reply, with no preamble.",
+  "description": "One skill, installed via the skills CLI or by dropping SKILL.md into ~/.claude/skills/answer-first/. Eleven rules keep replies bottom-line-up-front: the answer in sentence one, numbered multi-step work, one concrete next step at the end, no tangents, flat tone on errors, options capped at five; rules 1-10 are adapted from i-have-adhd (MIT) and stay active for the rest of the conversation once invoked.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "bluf",
+    "answer first",
+    "concise reply",
+    "output rule",
+    "prompt",
+    "claude code",
+    "no preamble",
+    "numbered step"
+  ],
+  "contains": [
+    "1 skill (answer-first)",
+    "124 installs on skills.sh",
+    "11 rules incl. bottom line up front",
+    "adapted from i-have-adhd (MIT)",
+    "MIT licensed"
+  ],
+  "formats": ["docs", "prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/charlie947/answer-first", "docs": null, "npm": null, "figma": null, "parent": "skills-sh" },
+  "confidence": 0.85
+}

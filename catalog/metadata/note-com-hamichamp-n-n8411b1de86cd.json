@@ -1,0 +1,26 @@
+{
+  "id": "note-com-hamichamp-n-n8411b1de86cd",
+  "url": "https://note.com/hamichamp/n/n8411b1de86cd",
+  "kind": "page",
+  "hints_hash": "7fb2ced09aca5a57",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://note.com/hamichamp/n/n8411b1de86cd", "title": "【バイブコーディング Day4】UIをプロっぽくする裏技 — デザイナーなしで\"プロっぽく\"する方法｜小泉正人 MBA × 新規事業の試作品を作る人", "status": 200}
+  ],
+  "status": "ok",
+  "name": "【バイブコーディング Day4】UIをプロっぽくする裏技",
+  "summary": "Vibe-coding walkthrough of polishing a prototype UI with Claude Code and Tailwind CSS prompts.",
+  "description": "Day 4 of a Japanese vibe-coding series. It re-designs a call-log prototype with Tailwind CSS through Claude Code prompts: unifying the color scheme, adding whitespace, drop shadows and a text-size hierarchy, with before/after button and card code plus animation touches. It also includes the prompts used and a list of reference products for picking a style.",
+  "type": "article",
+  "categories": ["learning"],
+  "keywords": ["tailwind css", "claude code", "ui design", "vibe coding", "prompt", "prototype", "card component", "button style", "color scheme", "whitespace", "drop shadow", "typography hierarchy", "japanese", "ai code generation", "ui polish"],
+  "elements": ["button", "card", "input", "table"],
+  "formats": ["docs", "code", "prompts"],
+  "stack": ["tailwind", "css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,18 @@
+{
+  "id": "design-johnson7543-com-qr",
+  "url": "https://design.johnson7543.com/qr",
+  "kind": "page",
+  "hints_hash": "4d7f4ac6b7ca2920",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://design.johnson7543.com/qr", "title": "Design — Interactive tools and experiments", "status": 200}
+  ],
+  "status": "partial",
+  "name": "design.johnson7543.com",
+  "summary": "/qr route on design.johnson7543.com, a JavaScript-rendered collection of interactive design tools by Johnson Wang; no page text readable.",
+  "keywords": ["qr", "interactive design tool", "web experiment", "design playground", "client-side route"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "design-johnson7543-com"},
+  "confidence": 0.3
+}

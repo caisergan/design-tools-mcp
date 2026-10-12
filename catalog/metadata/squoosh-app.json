@@ -1,0 +1,35 @@
+{
+  "id": "squoosh-app",
+  "url": "https://squoosh.app",
+  "kind": "site",
+  "hints_hash": "45e3977a9e695d05",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://squoosh.app", "title": "Squoosh", "status": null},
+    {"url": "https://github.com/GoogleChromeLabs/squoosh", "title": "GitHub - GoogleChromeLabs/squoosh: Make images smaller using best-in-class codecs, right in the browser. · GitHub", "status": 200},
+    {"url": "https://github.com/GoogleChromeLabs/squoosh/blob/dev/README.md", "title": "squoosh/README.md at dev · GoogleChromeLabs/squoosh · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/GoogleChromeLabs/squoosh/dev/package.json", "title": "package.json", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Squoosh",
+  "summary": "Image compression web app that shrinks images with different codecs entirely in the browser.",
+  "description": "Drop or paste an image, inspect the compressed result against the original and save it, or adjust settings for even smaller files. Processing runs locally: images are never sent to a server. Open-source on GitHub under Apache-2.0 (~26k stars).",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["image compression", "image optimizer", "compress image", "image converter", "codec", "browser-based", "client-side", "web performance", "open source", "image format"],
+  "contains": [
+    "compress and compare images with different codecs in the browser",
+    "images never leave the device, all compression runs locally",
+    "open source on GitHub: Apache-2.0, ~26k stars",
+    "drop, paste or pick a sample image; save instantly or tune settings"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["rollup"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/GoogleChromeLabs/squoosh", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

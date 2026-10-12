@@ -1,0 +1,87 @@
+{
+  "id": "trees-software",
+  "url": "https://trees.software",
+  "kind": "site",
+  "hints_hash": "5f7b1d0e53f9e535",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://trees.software/llms.txt",
+      "title": "@pierre/trees",
+      "status": null
+    },
+    {
+      "url": "https://trees.software",
+      "title": "Trees, from Pierre",
+      "status": 200
+    },
+    {
+      "url": "https://trees.software/docs",
+      "title": "Trees docs",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "@pierre/trees",
+  "summary": "Open-source file tree rendering library for the web, built for extreme performance on trees of tens of thousands of files.",
+  "description": "A file tree library with one path-first model shared across React, vanilla JS and SSR entry points. Ships search with three match modes, drag and drop, rename, Git status badges, context menu composition, built-in icon tiers, Shiki theme support, CSS-variable styling, adjustable density and automatic virtualization; ARIA tree roles and keyboard navigation are built in.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "list",
+    "input"
+  ],
+  "keywords": [
+    "file tree",
+    "tree view",
+    "file explorer",
+    "file browser",
+    "virtualization",
+    "drag and drop",
+    "git status",
+    "react",
+    "vanilla js",
+    "ssr",
+    "typescript",
+    "keyboard navigation",
+    "accessibility",
+    "icon",
+    "theming",
+    "search"
+  ],
+  "contains": [
+    "React hook (useFileTree, FileTree), vanilla JS class and SSR entry points; npm @pierre/trees",
+    "7 gallery examples: React, Search, Git Status, Density, Item Customization, Drag And Drop, Responsiveness",
+    "built-in virtualization (demo tree with 2,956 files)",
+    "three icon tiers: minimal, standard, complete; Shiki theme support",
+    "agent skill and plain-text docs (llms.txt, llms-full.txt)"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/pierrecomputer/pierre",
+    "docs": "https://trees.software/docs",
+    "npm": "@pierre/trees",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

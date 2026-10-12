@@ -1,0 +1,46 @@
+{
+  "id": "isthereanytool-app-tool-rare-ui",
+  "url": "https://isthereanytool.app/tool/rare-ui",
+  "kind": "page",
+  "hints_hash": "92d2c4c4a8ae39ba",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://isthereanytool.app/tool/rare-ui",
+      "title": "Rare UI — rare animated React UI components | isthereanytool.app",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Rare UI",
+  "summary": "Catalog page for Rare UI, a free registry of rare animated React components for Tailwind, Motion and the shadcn CLI.",
+  "keywords": [
+    "animated react component",
+    "shadcn registry",
+    "tailwind",
+    "motion",
+    "copy paste component",
+    "free component library"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "isthereanytool-app"
+  },
+  "pricing": "free",
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "shadcn"
+  ],
+  "confidence": 0.8
+}

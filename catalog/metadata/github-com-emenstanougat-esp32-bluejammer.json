@@ -1,0 +1,34 @@
+{
+  "id": "github-com-emenstanougat-esp32-bluejammer",
+  "url": "https://github.com/EmenstaNougat/ESP32-BlueJammer",
+  "kind": "repo",
+  "hints_hash": "705aed358dce261f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/EmenstaNougat/ESP32-BlueJammer/blob/HEAD/README.md", "title": "ESP32-BlueJammer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ESP32-BlueJammer",
+  "summary": "DIY 2.4GHz jammer built on an ESP32 and two nRF24 modules: firmware binaries, pinouts, PCB and 3D-printed case.",
+  "description": "Build and flash instructions for a handheld device that disrupts Bluetooth, BLE, WiFi and RC drone traffic on the 2.4GHz band. The repo provides firmware binaries, a web flasher, HSPI/VSPI wiring pinouts, a battery mod, PCB layouts and 3D-printable cases. Firmware is closed source; the README frames it as educational and warns jamming is illegal.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["esp32", "nrf24", "2.4ghz jammer", "bluetooth jammer", "ble jammer", "wifi jammer", "rc jammer", "security testing", "penetration testing", "diy hardware", "firmware", "pcb", "3d printed case", "web flasher", "iot", "wireless interference", "drone"],
+  "contains": [
+    "firmware options: Bluetooth 79CH, BLE 40CH, WiFi 14CH, RC 1-125CH and combo channels",
+    "web flasher plus manual .bin flashing instructions",
+    "HSPI/VSPI nRF24L01+ pinouts, status LED and OLED wiring, battery mod",
+    "PCB layout (7x5.5cm), parts list and V3/V4 3D-printed case files",
+    "20-30m range with standard 2.4GHz antennas, extendable",
+    "closed-source firmware; README states educational use only, jamming is illegal"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": "https://github.com/EmenstaNougat/ESP32-BlueJammer", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

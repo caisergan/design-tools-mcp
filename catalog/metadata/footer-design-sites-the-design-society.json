@@ -1,0 +1,25 @@
+{
+  "id": "footer-design-sites-the-design-society",
+  "url": "https://footer.design/sites/the-design-society",
+  "kind": "page",
+  "hints_hash": "2be2031cf5993285",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:19:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/the-design-society", "title": "Footer | The Design Society", "status": null}
+  ],
+  "status": "ok",
+  "name": "The Design Society",
+  "summary": "Desktop and mobile footer screenshots from The Design Society event site, tagged by style and industry.",
+  "description": "Footer showcase entry in a curated gallery of web footers: desktop and mobile screenshots of The Design Society community website footer, with footnotes carrying style tags (flat, retro, interactive, fun, bright, large type, unusual layout, GSAP), industry tags (event, design, community), designer credit, date added, a link to the live site and similar footers.",
+  "keywords": ["footer design", "website footer", "footer inspiration", "desktop footer", "mobile footer", "footer screenshot", "web design gallery", "interactive footer", "gsap", "retro", "unusual layout", "large type", "event", "community"],
+  "elements": ["footer"],
+  "contains": ["desktop and mobile footer screenshots", "style tags include interactive, retro, unusual layout, GSAP", "industry tags: event, design, community", "designed by Benjamin Nespoulous", "similar footer designs"],
+  "formats": ["screenshots", "links"],
+  "stack": ["gsap"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.8
+}

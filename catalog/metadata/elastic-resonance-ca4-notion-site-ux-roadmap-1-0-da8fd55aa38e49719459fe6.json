@@ -1,0 +1,19 @@
+{
+  "id": "elastic-resonance-ca4-notion-site-ux-roadmap-1-0-da8fd55aa38e49719459fe6",
+  "url": "https://elastic-resonance-ca4.notion.site/UX-RoadMap-1-0-da8fd55aa38e49719459fe6519a4a9de",
+  "kind": "page",
+  "hints_hash": "2926c41f298db5fa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://elastic-resonance-ca4.notion.site/UX-RoadMap-1-0-da8fd55aa38e49719459fe6519a4a9de", "title": "Notion", "status": null},
+    {"url": "https://elastic-resonance-ca4.notion.site/", "title": "Notion", "status": 200}
+  ],
+  "status": "partial",
+  "name": "UX RoadMap 1.0",
+  "summary": "UX roadmap page hosted on Notion; its body is rendered client-side and could not be read.",
+  "keywords": ["ux roadmap", "notion", "roadmap", "ux"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.3
+}

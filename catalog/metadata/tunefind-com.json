@@ -1,0 +1,35 @@
+{
+  "id": "tunefind-com",
+  "url": "https://tunefind.com",
+  "kind": "site",
+  "hints_hash": "0eba77935cc4a90f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tunefind.com", "title": "Music from TV Shows & Movies | Tunefind", "status": null},
+    {"url": "https://www.tunefind.com/about", "title": "About Tunefind | Tunefind", "status": null},
+    {"url": "https://www.tunefind.com/api", "title": "API Overview | Tunefind", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tunefind",
+  "summary": "Database of songs heard in TV shows, movies and games, browsable per title and episode with community voting.",
+  "description": "Find the music that played in a show, movie or game: each title lists its songs with counts, alongside trending songs and artists and a TV schedule of upcoming episodes. Song listings come from music supervisors or user submissions, and the community confirms them with votes. A commercial API offers real-time and historical data, with a free trial of two months of historical data.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["tv show music", "movie soundtrack", "song finder", "soundtrack", "music supervisor", "episode music", "film music", "music database", "what song", "api"],
+  "contains": [
+    "song counts per title (Grey's Anatomy 2,327 songs, Saturday Night Live 1,303, Ted Lasso 271)",
+    "community votes confirm song submissions",
+    "listings come from music supervisors and user submissions",
+    "TV schedule of upcoming episodes by day",
+    "API: free trial with two months of historical data; analytics, advertising and experience products"
+  ],
+  "formats": ["api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

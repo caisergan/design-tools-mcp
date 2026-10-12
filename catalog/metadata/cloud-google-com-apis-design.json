@@ -1,0 +1,43 @@
+{
+  "id": "cloud-google-com-apis-design",
+  "url": "https://cloud.google.com/apis/design",
+  "kind": "page",
+  "hints_hash": "c0ad4e65294282c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://cloud.google.com/apis/design",
+      "title": "API design guide | Cloud API Design Guide | Google Cloud Documentation",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "API design guide",
+  "summary": "Google's design guide for networked APIs, covering resource-oriented design, standard methods, naming, errors and versioning.",
+  "keywords": [
+    "api design",
+    "api guideline",
+    "rest api",
+    "grpc",
+    "resource naming",
+    "standard method",
+    "api versioning",
+    "error handling",
+    "protobuf",
+    "google cloud"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

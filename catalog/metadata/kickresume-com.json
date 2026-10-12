@@ -1,0 +1,36 @@
+{
+ "id": "kickresume-com",
+ "url": "https://kickresume.com",
+ "kind": "site",
+ "hints_hash": "07098ff18a145ce3",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:43:05Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://kickresume.com", "title": "Kickresume | Best Online Resume & Cover Letter Builder", "status": null},
+  {"url": "https://kickresume.com/pricing", "title": "Pricing | Kickresume", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Kickresume",
+ "summary": "Online resume and cover letter builder with AI writing, ATS checking, resume tailoring and 40+ designer templates.",
+ "description": "Web app to build resumes, cover letters and resume websites: pick a template, let AI write, rewrite, translate or give feedback, tailor each resume to a job description and check its ATS score. Also includes a job board, interview-question generator, career map, LinkedIn import and iOS/Android apps. Free plan; Premium starts at $5/month.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["resume builder", "cv builder", "cover letter", "resume template", "ats resume", "ai resume writer", "resume checker", "job application", "job board", "interview question", "resume website", "career", "linkedin import"],
+ "contains": [
+  "40 customizable resume templates and 40 matching cover letter templates",
+  "AI writer, rewriter, translation and resume feedback tools",
+  "ATS resume checker and job-description tailoring",
+  "free plan; Premium (Yearly/Quarterly/Monthly) from $5/month",
+  "8M+ users; iOS and Android apps",
+  "job board, interview questions, career map, resignation letter and LinkedIn import",
+  "1,000,000 possible design combinations"
+ ],
+ "formats": ["app", "templates"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

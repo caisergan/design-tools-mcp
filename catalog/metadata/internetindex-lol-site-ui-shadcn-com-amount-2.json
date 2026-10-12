@@ -1,0 +1,27 @@
+{
+  "id": "internetindex-lol-site-ui-shadcn-com-amount-2",
+  "url": "https://internetindex.lol/site/ui.shadcn.com?amount=2",
+  "kind": "page",
+  "hints_hash": "d70195d67d4b3489",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://internetindex.lol/site/ui.shadcn.com?amount=2", "title": "shadcn is #35 on The Internet Index", "status": 200},
+    {"url": "https://internetindex.lol/how-it-works", "title": "How it works | The Internet Index", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The Internet Index",
+  "summary": "Live board where sites are backed with money and tiles grow with their share; this page is shadcn's listing at #35.",
+  "description": "The Internet Index is a live leaderboard of websites: anyone can add a site for $1, then back any listing with any amount, and a tile's size follows its share of backing. This page is the listing for ui.shadcn.com (ranked #35 when crawled), with links to the board, market activity, the most-clicked sites and category share.",
+  "type": "directory",
+  "elements": [],
+  "keywords": ["leaderboard", "website ranking", "website index", "market share", "pay to list", "live board", "directory", "listing", "backing", "shadcn", "internet index", "traffic", "promotion"],
+  "contains": ["add any site for $1; no login or subscription", "tile size follows each site's share of money backing it", "live views: board, latest bids, most clicked, category share", "shadcn listed at #35 on the board (as crawled)", "tiles and leaderboard rows link out to the listed website"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

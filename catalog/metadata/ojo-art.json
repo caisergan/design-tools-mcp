@@ -1,0 +1,28 @@
+{
+  "id": "ojo-art",
+  "url": "https://ojo.art",
+  "kind": "site",
+  "hints_hash": "31a70794d5802c2d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:21:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ojo.art", "title": "OJO | AI Design Agent for UI & Product Prototypes", "status": null},
+    {"url": "https://ojo.art/pricing", "title": null, "status": 404}
+  ],
+  "status": "ok",
+  "name": "OJO",
+  "summary": "Private-beta workspace where AI design agents turn prompts, images or URLs into UI designs and prototypes.",
+  "description": "OJO is an agent-team workspace for product design, in private beta: you assemble an agent team with 200+ skill types (wireframe generation, UI/UX best practices, visual DNA, image search) and work on an infinite canvas that joins idea exploration, prototyping, code generation and live running. Prototypes come from a prompt, image or URL, and the design can ship as production-ready code that lives in your repo.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["ai design agent", "ai design tool", "prompt to ui", "ui generation", "landing page generator", "interactive prototype", "design to code", "code generation", "wireframe generation", "infinite canvas", "design agent", "agent skill", "product design", "ui prototype", "web design", "waitlist beta"],
+  "contains": ["over 200 agent skill types", "prototypes from a prompt, image or URL", "design exported as production-ready code into your repo", "infinite canvas for exploration, prototyping, code generation and live running", "private beta with waitlist"],
+  "formats": ["app", "code"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

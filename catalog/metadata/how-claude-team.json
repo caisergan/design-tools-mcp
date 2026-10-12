@@ -1,0 +1,67 @@
+{
+  "id": "how-claude-team",
+  "url": "https://how-claude.team",
+  "kind": "site",
+  "hints_hash": "e6e2f6ab4530033f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://how-claude.team",
+      "title": "Claude for teams. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Claude for teams.",
+  "summary": "Seven-day playbook for rolling out Claude across a team with Projects and prompt templates.",
+  "description": "Week-long playbook for setting up Claude for a team: choosing the team plan (minimum 5 seats, up to 150, Standard or Premium), building one Claude Project per recurring deliverable with the right context and instructions, creating prompt templates, testing the setup, converting one champion, and rolling it out by Friday. Part of Ruben Hassid's How to AI newsletter.",
+  "type": "article",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "claude for team",
+    "claude",
+    "team rollout",
+    "claude project",
+    "prompt template",
+    "ai adoption",
+    "claude team plan",
+    "ai onboarding",
+    "enterprise",
+    "playbook",
+    "chatgpt alternative",
+    "ai workflow"
+  ],
+  "contains": [
+    "free article, March 2026",
+    "day-by-day plan from Monday to Friday",
+    "team plan: minimum 5 seats, up to 150",
+    "one Project per recurring deliverable",
+    "prompt templates to copy",
+    "test-and-rollout advice"
+  ],
+  "formats": [
+    "docs",
+    "prompts",
+    "screenshots"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

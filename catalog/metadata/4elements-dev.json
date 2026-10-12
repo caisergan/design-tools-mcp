@@ -1,0 +1,28 @@
+{
+  "id": "4elements-dev",
+  "url": "https://4elements.dev",
+  "kind": "site",
+  "hints_hash": "cda4bcdf6c133f7f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://4elements.dev", "title": "4 Elements | AI 3D Scene Benchmark", "status": null},
+    {"url": "https://github.com/TheOrcDev/4elements", "title": "GitHub - TheOrcDev/4elements: 3d test for different AI models", "status": 200}
+  ],
+  "status": "ok",
+  "name": "4 Elements",
+  "summary": "Local-first benchmark playground that compares AI models building the same interactive 3D elemental scene.",
+  "description": "A local-first benchmark for AI-generated interactive 3D scenes. Every model gets the same brief — fire, water, earth and air rendered in real time in the browser — and ships a complete, self-contained WebGL app; the playground switches between 22 model builds (Opus 5, Grok 4.7, GPT-6 Sol, Gemini 3.8 Flash …) so you can compare them side by side.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["3d"],
+  "keywords": ["3d benchmark", "ai model comparison", "webgl", "three.js", "glsl shader", "interactive 3d scene", "ai generated 3d", "browser demo", "local-first", "react", "vite"],
+  "contains": ["22 model apps, one per AI model, all built from the same brief", "brief: fire, water, earth and air as real-time 3D scenes", "build times from 4m 26s to 3h 32m at each model's max reasoning", "each app keeps its own Three.js version and is loaded in an iframe", "model selectable via URL parameter"],
+  "formats": ["code", "app"],
+  "stack": ["react", "vite", "tailwind", "three.js", "shadcn", "nuqs"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TheOrcDev/4elements", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hugeicons-com-docs-integrations-vue-quick-start",
+  "url": "https://hugeicons.com/docs/integrations/vue/quick-start",
+  "kind": "page",
+  "hints_hash": "92916318c834e520",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T09:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hugeicons.com/docs/integrations/vue/quick-start", "title": "Quick Start with Vue | Hugeicons Documentation", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Quick Start with Vue (Free)",
+  "summary": "Guide to installing @hugeicons/vue and the free icon package, then rendering icons in a Vue 3 or Nuxt app.",
+  "description": "A quick-start guide for Hugeicons Free in Vue: prerequisites, installing @hugeicons/vue and @hugeicons/core-free-icons, then rendering a first icon. The free package holds 6,000+ icons in one style (stroke rounded); size, color and strokeWidth are props on the icon component.",
+  "type": "icon-set",
+  "elements": [],
+  "keywords": ["vue icon", "nuxt icon", "icon component", "free icon set", "svg icon", "icon library", "npm package", "vue 3", "stroke icon", "icon integration", "quick start", "documentation"],
+  "contains": ["installs @hugeicons/vue and @hugeicons/core-free-icons", "free package: 6,000+ icons in one style (stroke rounded)", "props: size, color, strokeWidth", "works with Vue 3 (Vite, Nuxt, Vue CLI)"],
+  "formats": ["docs", "npm-package"],
+  "stack": ["vue"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://hugeicons.com/docs", "npm": "@hugeicons/vue", "figma": null, "parent": "hugeicons-com"},
+  "confidence": 0.85
+}

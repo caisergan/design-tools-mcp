@@ -1,0 +1,22 @@
+{
+  "id": "aihero-dev-skills-wait-what",
+  "url": "https://aihero.dev/skills-wait-what",
+  "kind": "page",
+  "hints_hash": "deed2f589fa33ae3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aihero.dev/skills-wait-what", "title": "The /wait-what Skill", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The /wait-what Skill",
+  "summary": "A three-line agent skill that makes a coding agent re-pitch what it just said in plain English when you get lost.",
+  "description": "Page for the /wait-what skill in Matt Pocock's skills collection: you type /wait-what when a message lost you, and the agent re-pitches the explanation in plain English, reusing the vocabulary from your project's GLOSSARY.md. Installed with npx skills add mattpocock/skills --skill=wait-what; it is part of the AI Skills for Real Engineers series on aihero.dev.",
+  "type": "agent-skill",
+  "keywords": ["agent skill", "ai skill", "coding agent", "ai coding agent", "plain english", "jargon", "glossary", "communication", "wait-what", "skill install"],
+  "contains": ["three-line skill that re-pitches the last explanation", "reuses CLAUDE.md and GLOSSARY.md vocabulary", "installs via the skills CLI"],
+  "formats": ["prompts"],
+  "related": {"repo": "https://github.com/mattpocock/skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

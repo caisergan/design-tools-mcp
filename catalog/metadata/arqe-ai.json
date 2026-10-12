@@ -1,0 +1,79 @@
+{
+  "id": "arqe-ai",
+  "url": "https://arqe.ai",
+  "kind": "site",
+  "hints_hash": "1adffc2cd8722fff",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://arqe.ai/llms.txt",
+      "title": "Arqé — arqe.ai",
+      "status": null
+    },
+    {
+      "url": "https://arqe.ai",
+      "title": "Arqe — The creative platform for what’s next",
+      "status": 200
+    },
+    {
+      "url": "https://arqe.ai/showcase",
+      "title": "Showcase — made with Arqe | Arqe",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Arqé",
+  "summary": "Subscription creative suite: 189 motion templates, animated 3D device mockups and an art-directed 4K stock library.",
+  "description": "A browser-based platform for designers, art directors and brand studios with three parts: Animator motion templates you customize with sliders, animated 3D device mockup scenes, and an art-directed AI stock library in 4K. One flat subscription covers everything, with royalty-free commercial use and exports up to 4K.",
+  "type": "tool",
+  "categories": [
+    "motion",
+    "media"
+  ],
+  "elements": [],
+  "keywords": [
+    "motion template",
+    "animated mockup",
+    "device mockup",
+    "3d mockup",
+    "stock library",
+    "ai stock",
+    "4k stock",
+    "royalty free",
+    "brand visual",
+    "social media video",
+    "product film",
+    "no timeline",
+    "subscription"
+  ],
+  "contains": [
+    "189 starter motion templates (Singles / Animator)",
+    "animated 3D device mockups from pre-made scenes",
+    "art-directed 4K AI stock library",
+    "one plan: $39/mo, $288/yr or $890 lifetime",
+    "no free tier — signed-out demo preview only",
+    "royalty-free commercial rights and exports up to 4K"
+  ],
+  "formats": [
+    "app",
+    "video",
+    "png"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

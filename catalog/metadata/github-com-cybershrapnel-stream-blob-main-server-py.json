@@ -1,0 +1,45 @@
+{
+  "id": "github-com-cybershrapnel-stream-blob-main-server-py",
+  "url": "https://github.com/cybershrapnel/stream/blob/main/server.py",
+  "kind": "page",
+  "hints_hash": "bdfa24ffbd7d345d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://raw.githubusercontent.com/cybershrapnel/stream/main/server.py",
+      "title": "Enable CORS for all origins",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "stream/server.py",
+  "summary": "Standalone FastAPI server that streams music stored in Litecoin or NanoCheeze blockchain transactions into a browser audio player.",
+  "keywords": [
+    "fastapi",
+    "python",
+    "litecoin",
+    "blockchain",
+    "music streaming",
+    "op return",
+    "json-rpc",
+    "audio player",
+    "media source",
+    "uvicorn",
+    "httpx",
+    "transaction"
+  ],
+  "related": {
+    "repo": "https://github.com/cybershrapnel/stream",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.7
+}

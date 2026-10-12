@@ -1,0 +1,20 @@
+{
+  "id": "onepagelove-com-screentune",
+  "url": "https://onepagelove.com/screentune",
+  "kind": "page",
+  "hints_hash": "20068db960cba0cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/screentune", "title": "ScreenTune — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ScreenTune",
+  "summary": "One Page Love award listing for ScreenTune, a one-page Mac app site for capturing and editing screenshots and screen recordings.",
+  "elements": ["navbar", "hero", "cta", "carousel", "pricing", "faq", "footer"],
+  "keywords": ["one page website", "landing page", "mac app", "screenshot tool", "screen recording", "app landing page", "showcase", "inspiration", "minimal", "gradient", "scroll effect", "product demo"],
+  "contains": ["listing tags: App, Digital Product, Landing Page", "styles: gradients, minimal, scroll effects", "sections: header nav, CTA hero, product demo, feature carousel, screenshots, pricing table, FAQ, footer", "published 12 Aug 2026"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

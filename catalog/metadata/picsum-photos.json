@@ -1,0 +1,27 @@
+{
+  "id": "picsum-photos",
+  "url": "https://picsum.photos",
+  "kind": "site",
+  "hints_hash": "1ae1754520264a09",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:21:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://picsum.photos", "title": "Lorem Picsum", "status": null}
+  ],
+  "status": "ok",
+  "name": "Lorem Picsum",
+  "summary": "Placeholder photo service: add a size to the URL and get a random image, with seed, id, grayscale and blur options.",
+  "description": "An image placeholder service — the Lorem Ipsum for photos. Append a width and height to the URL for a random photo, /seed/{seed} for a stable one or /id/{id} for a specific image, and combine ?grayscale and ?blur; a /v2/list endpoint returns image metadata with pagination and /id/{id}/info gives per-image details.",
+  "type": "tool",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["placeholder image", "random image", "dummy image", "lorem ipsum photo", "mockup image", "image api", "grayscale image", "blurred image", "seed image", "webp image", "prototyping", "wireframe", "sample photo", "placeholder photo", "design mockup"],
+  "contains": ["random photo from /{width}/{height}", "specific image via /id/{id}, stable random image via /seed/{seed}", "?grayscale and ?blur (1–10) options", "/v2/list endpoint, 30 images per page, page and limit parameters", "image details via /id/{id}/info and /seed/{seed}/info", ".jpg and .webp file endings"],
+  "formats": ["api"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

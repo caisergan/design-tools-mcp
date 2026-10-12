@@ -1,0 +1,32 @@
+{
+  "id": "ui-persian-labs-ir",
+  "url": "https://ui.persian-labs.ir",
+  "kind": "site",
+  "hints_hash": "d5a7fc23701a8f3c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.persian-labs.ir/llms.txt", "title": "PersianLabs UI", "status": null},
+    {"url": "https://ui.persian-labs.ir", "title": "PersianLabs/ui — Copy-paste components for Persian interfaces", "status": 200},
+    {"url": "https://ui.persian-labs.ir/docs", "title": "Introduction — PersianLabs/ui", "status": 200},
+    {"url": "https://ui.persian-labs.ir/blocks", "title": "Blocks — PersianLabs/ui", "status": 200},
+    {"url": "https://ui.persian-labs.ir/templates", "title": "Templates - PersianLabs/ui — PersianLabs/ui", "status": 200},
+    {"url": "https://ui.persian-labs.ir/docs/ai", "title": "AI — PersianLabs/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "PersianLabs/ui",
+  "summary": "Open-source, RTL-first component library for Persian interfaces, installed by copy-paste through a shadcn registry.",
+  "description": "A copy-paste component library built RTL-first for Persian interfaces on top of Base UI and shadcn/ui — there is no package to install, components land in your codebase through the shadcn registry CLI. Ships Persian typography, offline fonts and Farsi digits, with docs for theming, RTL and Persian conventions, and a markdown twin plus an llms.txt index for every page.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["input", "button", "modal", "select", "slider", "switch", "sidebar", "checkbox", "date-picker", "dropdown", "drawer", "popover", "accordion", "tabs", "alert", "loader"],
+  "keywords": ["rtl", "persian", "farsi", "component library", "copy paste component", "shadcn registry", "shadcn ui", "base ui", "tailwind css", "react", "persian font", "dark mode", "date picker", "sidebar", "form input", "right to left", "typescript", "design system", "persian ui", "rtl component"],
+  "contains": ["105 shadcn registry items", "86 documentation pages", "components for input, button, modal, select, slider, switch, sidebar, checkbox, date picker and more", "Persian typography, offline fonts and Farsi digits baked in", "RTL, theming and Persian conventions docs", "llms.txt index and markdown twin (append .md) for every doc page", "premium Persian admin dashboard template on the site (Velin, Next.js 16 + Tailwind v4)"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://ui.persian-labs.ir/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

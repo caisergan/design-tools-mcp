@@ -1,0 +1,25 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11864",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11864",
+  "kind": "page",
+  "hints_hash": "a85cd36184e4c1f8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11864", "title": "fix(core)!: let bash expand project directory variables in command hooks by qqqys · Pull Request #11864 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(core)!: let bash expand project directory variables in command hooks",
+  "summary": "Merged pull request: bash command hooks in Qwen Code expand project directory variables from the environment instead of by rewrite.",
+  "description": "Pull request in QwenLM/qwen-code marked breaking: command hooks running under bash receive their command string exactly as configured and bash expands $QWEN_PROJECT_DIR, $CLAUDE_PROJECT_DIR and $GEMINI_PROJECT_DIR from the hook's environment. cmd.exe and PowerShell keep the pre-launch rewrite, which now also covers $QWEN_PROJECT_DIR and ignores longer names. Migration: double-quote the variables in bash hooks.",
+  "type": "article",
+  "keywords": ["command hook", "bash", "environment variable", "project directory", "variable expansion", "shell quoting", "powershell", "cmd.exe", "ai coding agent", "cli", "typescript", "breaking change"],
+  "contains": ["bash hooks get the command verbatim; variables come from the environment", "cmd/PowerShell keep the quoted-path rewrite, extended to $QWEN_PROJECT_DIR with a word boundary", "migration: double-quote $QWEN_PROJECT_DIR in bash hooks; single quotes no longer expand", "mutation checks cover bash verbatim, rewrite coverage and the word boundary", "merged Sep 14, 2026 (commit d401392); Windows shell rework left to #11778"],
+  "formats": ["code", "docs"],
+  "stack": ["typescript", "node", "bash"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

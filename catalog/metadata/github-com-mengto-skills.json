@@ -1,0 +1,77 @@
+{
+  "id": "github-com-mengto-skills",
+  "url": "https://github.com/MengTo/Skills",
+  "kind": "repo",
+  "hints_hash": "42f9a07d047e6035",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:17:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/MengTo/Skills/blob/HEAD/README.md",
+      "title": "Agent Skills",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/MengTo/Skills/blob/HEAD/LICENSE",
+      "title": "Skills/LICENSE · MengTo/Skills",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MengTo/Skills",
+  "summary": "Portable agent skills for Codex, Claude and Cursor: web design, SVG illustration, Three.js games and prompt workflows.",
+  "description": "Curated collection of 176 plain-Markdown SKILL.md packages for AI coding agents, organised into nine categories including 81 web-design skills, 20 game-development skills, 19 Codex workflows, 14 hand-written SVG illustration styles, 6 game-combat VFX skills and 4 workflow skills. Skills ship as portable folders with references, scripts, demo assets and acceptance checks.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "skill.md",
+    "claude skill",
+    "codex",
+    "cursor rule",
+    "ai agent workflow",
+    "web design skill",
+    "svg illustration",
+    "three.js",
+    "game development",
+    "landing page prompt",
+    "video to prompt",
+    "ui prompting",
+    "design workflow",
+    "prompt package"
+  ],
+  "contains": [
+    "176 skills across nine categories",
+    "81 web-design skills",
+    "19 Codex workflow skills",
+    "20 Three.js game-development skills",
+    "14 hand-written SVG illustration styles",
+    "6 game-combat VFX skills (fire, ice, lightning, water)",
+    "portable SKILL.md folders with references, scripts and demo assets"
+  ],
+  "formats": [
+    "prompts",
+    "code"
+  ],
+  "stack": [
+    "three.js"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/MengTo/Skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

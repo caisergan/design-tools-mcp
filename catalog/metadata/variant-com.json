@@ -1,0 +1,29 @@
+{
+  "id": "variant-com",
+  "url": "https://variant.com",
+  "kind": "site",
+  "hints_hash": "09de5340cec7600d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://variant.com", "title": "Variant – Endless designs for your ideas, just scroll", "status": null},
+    {"url": "https://variant.com/pricing", "title": "Variant – Endless designs for your ideas, just scroll", "status": 200},
+    {"url": "https://variant.com/llms.txt", "title": "Variant – Endless designs for your ideas, just scroll", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Variant",
+  "summary": "Design tool for exploring directions: enter an idea for an app or site and scroll through endless design options.",
+  "description": "Tool for exploring design directions: you enter an idea for an app or site and see endless design options just by scrolling. The homepage is a JavaScript app, and the app, pricing and llms.txt routes redirect to a sign-in page, so plans and features could not be read.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["design tool", "design variant", "ui design", "web design", "app design", "design inspiration", "design exploration"],
+  "contains": ["enter an idea for an app or site", "scroll through endless design options", "app, pricing and llms.txt routes require sign-in"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

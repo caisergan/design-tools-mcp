@@ -1,0 +1,28 @@
+{
+  "id": "icon-museum",
+  "url": "https://icon.museum",
+  "kind": "site",
+  "hints_hash": "72d93780a9398cd6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://icon.museum", "title": "Icon Museum - Curated App Icon Gallery & Inspiration", "status": 200},
+    {"url": "https://icon.museum/about", "title": "About - Icon Museum", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Icon Museum",
+  "summary": "Curated gallery of 247 iOS and macOS app icons, listed by app name for icon-design inspiration.",
+  "description": "A curated gallery of shipped iOS and macOS app icons, browsable for inspiration. Items are listed by app name (Arc Search, Blippo, Mapkin, Sudoku A Day, Tripcache and 240+ more); an about page describes what gets featured and who is behind the museum. Pages are JavaScript-rendered, so only titles and descriptions are readable as text.",
+  "type": "gallery",
+  "categories": ["icons", "inspiration"],
+  "elements": ["calendar", "card", "list", "chat", "toast", "background", "map", "dashboard"],
+  "keywords": ["app icon", "ios icon", "macos icon", "icon gallery", "icon design", "icon inspiration", "app icon design", "icon showcase", "icon designer", "icon collection", "mobile app icon"],
+  "contains": ["247 app icons in the gallery", "iOS and macOS app icons by top designers", "sample apps: Arc Search, Blippo, Mapkin, Sudoku A Day, Tripcache"],
+  "formats": ["screenshots"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

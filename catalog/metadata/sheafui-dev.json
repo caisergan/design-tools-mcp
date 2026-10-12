@@ -1,0 +1,28 @@
+{
+  "id": "sheafui-dev",
+  "url": "https://sheafui.dev",
+  "kind": "site",
+  "hints_hash": "9f1e1b76667934c2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sheafui.dev", "title": "Sheaf UI - Modern laravel and livewire Components", "status": null},
+    {"url": "https://sheafui.dev/docs/guides/overview", "title": "Overview Guide | Sheaf UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Sheaf UI",
+  "summary": "Open-source component library of Laravel Blade, Alpine.js and Livewire components installed with a CLI.",
+  "description": "Sheaf UI is a component library and design system for the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire). Inspired by shadcn/ui, components are copied into your own codebase via an artisan CLI — no vendor package — with light/dark theming, design tokens, layouts and docs for every component.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "checkbox", "command-palette", "date-picker", "dropdown", "input", "modal", "navbar", "otp-input", "popover", "select", "sidebar", "tabs", "toast", "tooltip"],
+  "keywords": ["laravel", "livewire", "alpine.js", "tailwind", "blade", "tall stack", "component library", "shadcn ui", "copy paste component", "php", "ui kit", "design system", "dark mode", "cli"],
+  "contains": ["52 documentation pages", "components: input, select, checkbox, date picker, button, card, dropdown, tabs, OTP, tooltip, accordion, toast", "install with artisan CLI commands", "light/dark theming with Tailwind design tokens", "components live in your codebase (no vendor package)"],
+  "formats": ["code", "cli", "docs"],
+  "stack": ["laravel", "livewire", "alpine.js", "tailwind", "blade"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://sheafui.dev/docs/guides/overview", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

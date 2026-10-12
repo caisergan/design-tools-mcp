@@ -1,0 +1,33 @@
+{
+  "id": "github-com-shadcn-labs-framecn",
+  "url": "https://github.com/shadcn-labs/framecn",
+  "kind": "repo",
+  "hints_hash": "d11171dd0d049ce0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shadcn-labs/framecn/blob/HEAD/README.md", "title": "framecn", "status": null},
+    {"url": "https://github.com/shadcn-labs/framecn", "title": "GitHub - shadcn-labs/framecn", "status": 200},
+    {"url": "https://framecn.dev", "title": "framecn - Beautiful videos, made simple", "status": 200},
+    {"url": "https://www.framecn.dev/llms.txt", "title": "framecn", "status": 200},
+    {"url": "https://www.framecn.dev/docs/components.md", "title": "Components", "status": 200},
+    {"url": "https://www.framecn.dev/docs/ui.md", "title": "UI", "status": 200},
+    {"url": "https://www.framecn.dev/docs/shaders.md", "title": "Shaders", "status": 200}
+  ],
+  "status": "ok",
+  "name": "framecn",
+  "summary": "Video components for React built on Editframe, distributed as shadcn registry items for building videos in code.",
+  "description": "Open-source video components for React built on Editframe and distributed through a shadcn registry and CLI. Caption components (Clip Wipe, Glitch RGB, Matrix Decode, Pill Karaoke and more) animate text over video, WebGL shader backdrops from paper-design/shaders set the scene, and UI primitives like Button, Input, Dialog and chat pieces build app mockups inside compositions. Prebuilt compositions such as Product Launch Trailer, Browser Flow and AI Generation Canvas render to MP4 through Editframe's cloud rendering.",
+  "type": "registry",
+  "categories": ["components", "motion"],
+  "elements": ["accordion", "button", "chat", "checkbox", "command-palette", "cursor", "drawer", "dropdown", "input", "loader", "modal", "popover", "progress", "select", "slider", "stepper", "switch", "tabs", "text-effect", "toast", "tooltip", "3d"],
+  "keywords": ["video component", "react", "shadcn", "registry", "editframe", "caption", "subtitle", "text animation", "shader", "webgl", "video template", "mp4 export", "timeline", "ai video", "programmatic video", "motion graphic"],
+  "contains": ["101 shadcn registry items", "15+ caption effects: Clip Wipe, Glitch RGB, Matrix Decode, Pill Karaoke and more", "prebuilt compositions: Product Launch Trailer, Browser Flow, AI Generation Canvas", "WebGL shader backdrops adapted from paper-design/shaders", "cloud MP4 rendering via Editframe", "timeline control and multi-layer composition", "llms.txt, markdown mirrors and an agent skill for AI agents", "MIT licensed, 151 stars"],
+  "formats": ["registry", "code", "docs", "templates"],
+  "stack": ["react", "tailwind", "editframe"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcn-labs/framecn", "docs": "https://www.framecn.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

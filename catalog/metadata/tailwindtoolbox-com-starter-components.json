@@ -1,0 +1,80 @@
+{
+  "id": "tailwindtoolbox-com-starter-components",
+  "url": "https://tailwindtoolbox.com/starter-components",
+  "kind": "page",
+  "hints_hash": "244b8baa033b02fe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tailwindtoolbox.com/starter-components",
+      "title": "Windy Toolbox - Free Tailwind CSS Components",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Windy Toolbox Components",
+  "summary": "Directory of free Tailwind CSS component collections and kits: buttons, alerts, 404 pages, tables, pricing boxes, skeletons and more.",
+  "description": "A browsable index of free Tailwind CSS component resources from many creators — Windstatic, HyperUI, 404 Components, Button Components, Table Components, Pricing Box, Skeleton Loading and others — each card linking out to the collection with its author. It sits inside Windy Toolbox, which also hosts templates, kits, generators, guides, plugins and a marketplace.",
+  "type": "directory",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "404",
+    "alert",
+    "avatar",
+    "badge",
+    "button",
+    "input",
+    "loader",
+    "navbar",
+    "pricing",
+    "progress",
+    "table"
+  ],
+  "keywords": [
+    "tailwind css",
+    "component",
+    "directory",
+    "free",
+    "component library",
+    "ui kit",
+    "404 page",
+    "skeleton loading",
+    "pricing box",
+    "progress bar",
+    "table",
+    "button",
+    "alert",
+    "badge",
+    "avatar",
+    "dropdown menu",
+    "alpinejs",
+    "react"
+  ],
+  "contains": [
+    "16+ free Tailwind component collections, each with its author",
+    "free and paid listings ($3+, $5+)",
+    "site sections: templates, components, kits, generators, marketplace, guides, tools, plugins"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

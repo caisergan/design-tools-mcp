@@ -1,0 +1,28 @@
+{
+  "id": "why-zero-university",
+  "url": "https://why.zero.university",
+  "kind": "site",
+  "hints_hash": "21337341ee3df8ae",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T09:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://why.zero.university", "title": "Zero — Human Infrastructure to Get Hired", "status": null},
+    {"url": "https://zero.university", "title": "Zero — Learn. Build. Get Hired.", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Zero",
+  "summary": "AI-native learning platform that trains people for in-demand careers through real projects and matched interviews.",
+  "description": "Zero is an all-in-one app for getting hired into in-demand careers: software engineering, AI and data science, business, product, marketing and sales. Members build real projects and a portfolio inside immersive, AI-native experiences, and beta members get a guaranteed interview.",
+  "type": "course",
+  "categories": ["learning", "inspiration"],
+  "elements": ["hero", "features", "pricing", "cta"],
+  "keywords": ["ai learning platform", "career training", "get hired", "online course", "bootcamp", "portfolio", "job interview", "ai-native app", "landing page animation", "scroll animation", "website inspiration", "framer"],
+  "contains": ["career tracks: software engineering, AI & data science, business, product, marketing, sales", "build real projects and a portfolio", "beta members get a guaranteed interview", "animated marketing landing page"],
+  "formats": ["app", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

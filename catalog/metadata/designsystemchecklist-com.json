@@ -1,0 +1,36 @@
+{
+  "id": "designsystemchecklist-com",
+  "url": "https://designsystemchecklist.com",
+  "kind": "site",
+  "hints_hash": "8edcc2ac6c4c0945",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designsystemchecklist.com", "title": "Design System Checklist", "status": 200},
+    {"url": "https://www.designsystemchecklist.com/about", "title": "Design System Checklist", "status": 200},
+    {"url": "https://www.designsystemchecklist.com/category/core-components", "title": "Design System Checklist", "status": 200},
+    {"url": "https://github.com/ardakaracizmeli/design-system-checklist", "title": "GitHub - ardakaracizmeli/design-system-checklist: An open-source checklist to help you plan, build and grow your design system.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/ardakaracizmeli/design-system-checklist/master/README.md", "title": "README.md", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Design System Checklist",
+  "summary": "Open-source checklist site for planning, building and growing a design system.",
+  "description": "A community-maintained checklist that walks teams through planning, building and growing a design system. Its content is open source on GitHub: items are proposed by pull request, must hold as a standard across multiple well-known design systems, and each carries reference links.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["design system", "checklist", "design system checklist", "design token", "component library", "style guide", "design principle", "documentation", "open source", "ui design"],
+  "contains": [
+    "open-source checklist for planning, building and growing a design system",
+    "items contributed via pull requests, each with reference links",
+    "GitHub repo: 506 stars, 63 forks, 113 commits",
+    "built as a Next.js site with pages and src folders"
+  ],
+  "formats": ["docs", "links"],
+  "stack": ["nextjs"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/ardakaracizmeli/design-system-checklist", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

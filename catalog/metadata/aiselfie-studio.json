@@ -1,0 +1,35 @@
+{
+  "id": "aiselfie-studio",
+  "url": "https://aiselfie.studio",
+  "kind": "site",
+  "hints_hash": "4f96a8dde141c4dd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:08:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aiselfie.studio", "title": "AI Selfie Studio | AI Headshots for LinkedIn & Professional Photos", "status": null},
+    {"url": "https://www.aiselfie.studio/pricing", "title": "Pricing | AI Selfie Studio - Professional AI Headshots", "status": null}
+  ],
+  "status": "ok",
+  "name": "AI Selfie Studio",
+  "summary": "AI headshot generator: turns a single selfie into dozens of professional profile photos for social and resume use.",
+  "description": "Upload one selfie and the app generates 54+ headshot styles, from studio and corporate to editorial, cinematic and creative, ready in under a minute in 4K. One-tap portrait filters adjust skin, expression, gaze, outfit and colour, and a built-in AI photo editor removes or replaces backgrounds and fine-tunes colour and lighting. Aimed at professionals and teams who need profile pictures without a photographer.",
+  "type": "tool",
+  "categories": ["media", "dev-ai-tools"],
+  "elements": ["file-upload"],
+  "keywords": ["ai headshot", "ai headshot generator", "ai portrait", "ai photo", "profile picture", "professional headshot", "corporate headshot", "selfie", "photo filter", "background remover", "photo editor", "headshot style", "dating profile photo", "resume photo"],
+  "contains": [
+    "54+ AI headshot styles from one selfie",
+    "credit packs: $15 for 15 images, $25 for 50, $39 for 100, $99 for 300",
+    "one credit equals one generated image; credits do not expire",
+    "built-in AI photo editor: background removal and replacement, effect presets, colour and lighting",
+    "4K high-resolution downloads; generation takes 10-30 seconds",
+    "team section: consistent headshots for a whole team page at $29 per employee"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

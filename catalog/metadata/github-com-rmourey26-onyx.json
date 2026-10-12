@@ -1,0 +1,69 @@
+{
+  "id": "github-com-rmourey26-onyx",
+  "url": "https://github.com/rmourey26/onyx",
+  "kind": "repo",
+  "hints_hash": "34bec50af8f0b2ef",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:03:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/rmourey26/onyx/blob/HEAD/README.md",
+      "title": "Kronova Asset Intelligence Platform",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Kronova Asset Intelligence Platform",
+  "summary": "Open-source Next.js frontend for orchestrating RWA tokenization and AI agent workflows with a 44-field asset schema.",
+  "description": "An open-source Next.js orchestration layer for real-world-asset (RWA) tokenization and multi-agent AI workflows, shipping a 44-field asset schema, integrated AI tools and an OAuth 2.1 MCP server. The repo runs locally as a sandbox; legally binding settlement and secure execution go through the proprietary AetherNet QUAS API under an enterprise key.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai agent workflow",
+    "tokenization",
+    "real-world asset",
+    "rwa",
+    "next.js",
+    "mcp server",
+    "orchestration",
+    "web3",
+    "smart contract",
+    "ai tool",
+    "post-quantum",
+    "template"
+  ],
+  "contains": [
+    "Next.js orchestration frontend for RWA tokenization and AI agent workflows",
+    "44-field asset schema included",
+    "OAuth 2.1 MCP server and a library of integrated AI tools",
+    "runs locally as a free sandbox",
+    "production settlement via the proprietary AetherNet QUAS API (Canton smart contracts)",
+    "Apache-2.0 licensed, with a trademark notice for Kronova/AetherNet branding"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react"
+  ],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/rmourey26/onyx",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

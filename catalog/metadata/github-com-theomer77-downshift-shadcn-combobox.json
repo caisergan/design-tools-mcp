@@ -1,0 +1,28 @@
+{
+  "id": "github-com-theomer77-downshift-shadcn-combobox",
+  "url": "https://github.com/TheOmer77/downshift-shadcn-combobox",
+  "kind": "repo",
+  "hints_hash": "7eb6b2011d2857cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/TheOmer77/downshift-shadcn-combobox/blob/HEAD/README.md", "title": "Shadcn/ui + Downshift Combobox", "status": 200},
+    {"url": "https://github.com/TheOmer77/downshift-shadcn-combobox", "title": "GitHub - OmerMakesStuff/downshift-shadcn-combobox: Combobox/autocomplete component built with shadcn/ui and Downshift. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn/ui + Downshift Combobox",
+  "summary": "Combobox/autocomplete and command-palette input for React, built with shadcn/ui and Downshift's useCombobox hook.",
+  "description": "An autocomplete input and command palette with a list of suggestions, assembled from shadcn/ui components and Downshift's useCombobox hook. Installs into an app with the shadcn CLI as a single registry item, and the repo includes a demo app with a more advanced example.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input", "command-palette"],
+  "keywords": ["combobox", "autocomplete", "command palette", "downshift", "shadcn ui", "react", "input", "suggestion list", "keyboard navigation", "tailwind", "vite"],
+  "contains": ["autocomplete input and command palette with a list of suggestions", "built on Downshift's useCombobox hook", "single shadcn registry item, installed with the shadcn CLI", "demo app with a more advanced usage example"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "typescript", "tailwind", "downshift", "vite"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TheOmer77/downshift-shadcn-combobox", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

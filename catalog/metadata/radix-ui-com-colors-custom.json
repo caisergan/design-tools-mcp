@@ -1,0 +1,30 @@
+{
+  "id": "radix-ui-com-colors-custom",
+  "url": "https://radix-ui.com/colors/custom",
+  "kind": "page",
+  "hints_hash": "e864360a21184a5f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://radix-ui.com/colors/custom", "title": "Create a custom palette – Radix Colors", "status": null},
+    {"url": "https://www.radix-ui.com/colors", "title": "Radix Colors", "status": 200},
+    {"url": "https://www.radix-ui.com/colors/docs/overview/custom-palettes", "title": "Custom palettes – Radix Colors", "status": 200},
+    {"url": "https://www.radix-ui.com/colors/docs/overview/installation", "title": "Installation – Radix Colors", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Custom palette",
+  "summary": "Builds a custom Radix Colors scale from a couple of reference colors, previewed across backgrounds, borders, solid and text steps.",
+  "description": "An interactive generator on the Radix Colors site: pick an accent and a gray, and it produces a full palette from those reference colors. The preview shows the scale as backgrounds, interactive component fills, borders and separators, solid colors and accessible text, with steps 10 to 12 called out. The generated CSS can be pasted into a project and used like the regular Radix Colors scales.",
+  "type": "generator",
+  "categories": ["color-effects", "design-tools"],
+  "elements": [],
+  "keywords": ["color palette", "palette generator", "color scale", "custom palette", "color system", "design token", "css variable", "dark mode", "contrast", "accessibility", "theme", "radix"],
+  "contains": ["accent and gray pickers generate a palette from a couple of reference colors", "preview groups: backgrounds, interactive components, borders and separators, solid colors, accessible text", "steps 10, 11 and 12 highlighted for solid and text use", "generated CSS pasted into a project like the built-in Radix scales"],
+  "formats": ["code"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://radix-ui.com/colors/docs/overview/installation", "npm": null, "figma": null, "parent": "radix-ui-com"},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "github-com-microsoft-vibevoice",
+  "url": "https://github.com/microsoft/VibeVoice",
+  "kind": "repo",
+  "hints_hash": "914d7ba87be13bc8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/microsoft/VibeVoice/blob/HEAD/README.md", "title": "VibeVoice: Open-Source Frontier Voice AI", "status": null},
+    {"url": "https://github.com/microsoft/VibeVoice", "title": "GitHub - microsoft/VibeVoice: Open-Source Frontier Voice AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "VibeVoice",
+  "summary": "Open-source voice AI models for long-form speech recognition and multi-speaker text-to-speech, plus a realtime streaming model.",
+  "description": "Microsoft's open-source family of voice AI models. VibeVoice-ASR transcribes up to 60 minutes of audio in a single pass, labelling who said what and when across 50+ languages; VibeVoice-TTS synthesizes up to 90 minutes of speech with up to 4 distinct speakers; VibeVoice-Realtime-0.5B streams text-to-speech with roughly 300 ms first-audio latency. Weights, finetuning code and vLLM inference are provided; the models are intended for research and development.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["text to speech", "speech recognition", "voice ai", "asr", "tts", "multi-speaker audio", "streaming tts", "long-form transcription", "speaker diarization", "speech model", "python", "finetuning"],
+  "contains": ["VibeVoice-ASR: 60-minute single-pass transcription with who/when/what labels", "ASR supports 50+ languages and custom hotwords", "VibeVoice-TTS: up to 90 minutes of speech with 4 speakers", "VibeVoice-Realtime-0.5B streams TTS at ~300 ms first-audio latency", "weights on Hugging Face plus finetuning and vLLM inference code", "MIT-licensed Microsoft repository (54.8k stars)"],
+  "formats": ["code", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/microsoft/VibeVoice", "docs": "https://microsoft.github.io/VibeVoice/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

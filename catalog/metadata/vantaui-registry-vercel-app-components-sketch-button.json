@@ -1,0 +1,24 @@
+{
+  "id": "vantaui-registry-vercel-app-components-sketch-button",
+  "url": "https://vantaui-registry.vercel.app/components/sketch-button",
+  "kind": "page",
+  "hints_hash": "2658bb786d0fa54d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vantaui-registry.vercel.app/components/sketch-button", "title": "Vanta UI", "status": 200},
+    {"url": "https://vantaui-registry.vercel.app/", "title": "Vanta UI", "status": 200},
+    {"url": "https://vantaui-registry.vercel.app/r/sketch-button.json", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Sketch Button",
+  "summary": "Button whose dashed stroke sketches animate around the edge on hover; an item in the Vanta UI shadcn registry.",
+  "keywords": ["sketch button", "animated button", "button hover effect", "svg stroke animation", "gradient button", "react component", "shadcn registry", "css keyframe", "copy paste component"],
+  "elements": ["button"],
+  "contains": ["shadcn registry item named sketch-button", "SVG dashed strokes animate on pointer enter", "CSS keyframes: sketch-button-stroke", "single .tsx component file at src/components/ui/sketch-button.tsx"],
+  "formats": ["registry", "code"],
+  "stack": ["react", "tailwind", "css"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

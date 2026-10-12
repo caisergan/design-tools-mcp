@@ -1,0 +1,36 @@
+{
+  "id": "github-com-lnkiai-m3e-canvas",
+  "url": "https://github.com/lnkiai/m3e-canvas",
+  "kind": "repo",
+  "hints_hash": "def6d3cbdff5a904",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/lnkiai/m3e-canvas/blob/HEAD/README.md", "title": "M3E Canvas", "status": 200}
+  ],
+  "status": "ok",
+  "name": "M3E Canvas",
+  "summary": "Browser canvas for sketching Material 3 Expressive screens that turns the design into a prompt for AI coding tools.",
+  "description": "M3E Canvas is a drag-and-drop editor for laying out Material 3 Expressive screens — phone (412x892) and desktop (1280x800) — with parts drawn to the M3 spec: buttons, FABs, chips, app bars, navigation bars, cards, lists, dialogs, snackbars and more. Screens link together with tap and swipe transitions, can be previewed and themed on the four M3 axes (color, shape, type, motion), and export as a concise natural-language prompt in English, Japanese, Chinese or Korean for AI coding tools, or as a PNG. Designed for sketching app ideas that an AI coding tool then implements for Android or the web.",
+  "type": "tool",
+  "categories": ["design-tools", "dev-ai-tools"],
+  "elements": ["navbar", "button", "input", "card", "list", "modal", "toast", "dropdown", "switch", "checkbox", "slider", "badge", "map", "tabs", "loader", "progress"],
+  "keywords": ["material 3", "material 3 expressive", "ui mockup", "prototype", "mobile app design", "drag and drop", "prompt generator", "ai coding agent", "wireframe", "android", "screen flow", "design to prompt", "nextjs", "web app"],
+  "contains": [
+    "Drag-and-drop M3E parts: buttons, FABs, chips, app bars, navigation bars, cards, lists, dialogs, snackbars",
+    "Phone (412x892) and desktop (1280x800) screens, linked with tap and swipe transitions",
+    "Preview mode that taps through the linked flow",
+    "Theme: seed color or presets, light/dark, three contrast levels, shape, Roboto type options, motion",
+    "Generates a natural-language prompt in English, Japanese, Chinese or Korean, targeting Android or the web",
+    "Export the prompt as text or a screen as PNG; share links; designs autosave to localStorage",
+    "Optional AI helper with your own OpenAI, Claude, Gemini or DeepSeek key",
+    "MIT-licensed, free; static Next.js export"
+  ],
+  "formats": ["app", "code", "prompts", "png", "links"],
+  "stack": ["nextjs", "react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/lnkiai/m3e-canvas", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

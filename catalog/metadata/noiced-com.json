@@ -1,0 +1,68 @@
+{
+  "id": "noiced-com",
+  "url": "https://noiced.com",
+  "kind": "site",
+  "hints_hash": "80ff30ced22a1bba",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:46:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://noiced.com",
+      "title": "Noiced",
+      "status": 200
+    },
+    {
+      "url": "https://noiced.com/videos",
+      "title": "Noiced",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Noiced",
+  "summary": "Small hand-picked list of video links for designers and creative people, curated by Maze.",
+  "description": "A short, opinionated collection of videos worth watching for designers and creatives: talks and stories, each listed with a date and linked out to the source video. Curated by Maze.",
+  "type": "directory",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "design video",
+    "design talk",
+    "video collection",
+    "curated video",
+    "design engineering",
+    "dark mode",
+    "design career",
+    "freelance design",
+    "design studio",
+    "design inspiration",
+    "conference talk",
+    "watch list"
+  ],
+  "contains": [
+    "5 curated video links listed at crawl time",
+    "each title links out to the source video",
+    "curated by Maze"
+  ],
+  "formats": [
+    "links",
+    "video"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

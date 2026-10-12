@@ -1,0 +1,34 @@
+{
+  "id": "github-com-danielagg-shadcn-data-table-advanced-col-opions",
+  "url": "https://github.com/danielagg/shadcn-data-table-advanced-col-opions",
+  "kind": "repo",
+  "hints_hash": "a2f7256bdc93967f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/danielagg/shadcn-data-table-advanced-col-opions/blob/HEAD/README.md", "title": "What is this?", "status": null},
+    {"url": "https://github.com/danielagg/shadcn-data-table-advanced-col-opions", "title": "GitHub - danielagg/shadcn-data-table-resize-columns · GitHub", "status": 200},
+    {"url": "https://github.com/danielagg/shadcn-data-table-resize-columns/blob/HEAD/LICENSE", "title": null, "status": 404}
+  ],
+  "status": "ok",
+  "name": "shadcn-data-table-resize-columns",
+  "summary": "Demo showing how to add column resizing to the shadcn/ui DataTable.",
+  "description": "A small example that adds a functional column-resizing option to the shadcn/ui DataTable. It is a single React demo you copy from the repository; a live demo runs on Vercel.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["table"],
+  "keywords": ["data table", "column resize", "resizable column", "table", "shadcn", "react", "datatable", "admin table", "example"],
+  "contains": [
+    "single example adding a column-resizing option to the shadcn/ui DataTable",
+    "copy-paste code from the repository",
+    "live demo at shadcn-data-table-advanced-col-opions.vercel.app",
+    "GitHub repo now lives at shadcn-data-table-resize-columns"
+  ],
+  "formats": ["code"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/danielagg/shadcn-data-table-resize-columns", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dafont-com-emilone-ricta-font",
+  "url": "https://dafont.com/emilone-ricta.font",
+  "kind": "page",
+  "hints_hash": "19e9a2a1ba32e4b1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dafont.com/emilone-ricta.font", "title": "Emilone Ricta Font | dafont.com", "status": null},
+    {"url": "https://www.dafont.com/emilone-ricta.font", "title": "Emilone Ricta Font | dafont.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Emilone Ricta",
+  "summary": "Handwritten script font by Mozyen Studio on DaFont, free for personal use and shipped as two font files.",
+  "description": "DaFont listing for Emilone Ricta, a handwritten script typeface by Mozyen Studio filed under Script > Handwritten with 7,156 downloads. The download offers 2 font files (EmiloneRicta.ttf) plus a donate link, and the author's note grants free use for personal projects only.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": [
+    "handwritten font",
+    "script font",
+    "hand lettering font",
+    "free font",
+    "personal use font",
+    "font download",
+    "ttf",
+    "typeface",
+    "casual script",
+    "dafont",
+    "display script"
+  ],
+  "contains": [
+    "handwritten script typeface by Mozyen Studio",
+    "7,156 downloads on DaFont",
+    "2 font files (EmiloneRicta.ttf)",
+    "free for personal use only, donate to the author",
+    "category: Script > Handwritten"
+  ],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "dafont-com"},
+  "confidence": 0.8
+}

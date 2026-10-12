@@ -1,0 +1,28 @@
+{
+  "id": "github-com-s1dashu-ip-as-logo-skill",
+  "url": "https://github.com/s1dashu/ip-as-logo-skill",
+  "kind": "repo",
+  "hints_hash": "a6fe4023ac9ce238",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/s1dashu/ip-as-logo-skill/blob/HEAD/README.md", "title": "IP as Logo", "status": null},
+    {"url": "https://github.com/s1dashu/ip-as-logo-skill/blob/HEAD/SKILL.md", "title": "IP as Logo", "status": null}
+  ],
+  "status": "ok",
+  "name": "IP as Logo",
+  "summary": "Agent skill that writes image-generation prompts for simple, cute IP mascot characters.",
+  "description": "Guides an agent through a short discovery step, three proposed directions and a six-candidate batch of rounded mascot images with two character colors and one solid background. Installs with the Agent Skills CLI and requires a top-tier image model such as GPT Image 2 or Nano Banana Pro.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["ip mascot", "mascot logo", "logo generator", "agent skill", "image generation", "prompt", "character design", "cute mascot", "brand mascot", "brand identity"],
+  "contains": ["one silhouette from roughly 4-7 shapes, readable at 32x32", "three directions proposed, then six candidates in one batch", "two IP base colors plus one solid background color", "targets GPT Image 2, Seedance 5.0 Pro, Nano Banana Pro or Nano Banana 2", "installs through the Agent Skills CLI with --global option", "one-pass generation; results delivered as-is", "free ready-made logos on its companion website, free for commercial use"],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/s1dashu/ip-as-logo-skill", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

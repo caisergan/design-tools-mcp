@@ -1,0 +1,24 @@
+{
+  "id": "pro-beui-dev-components-onboarding",
+  "url": "https://pro.beui.dev/components/onboarding",
+  "kind": "page",
+  "hints_hash": "0765abf1e5f394b8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pro.beui.dev/components/onboarding", "title": "Onboarding · beUI Pro", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Onboarding",
+  "summary": "Three shadcn-installable onboarding flows: a stepped form, a split-screen form and a checklist dialog.",
+  "description": "A beUI Pro component page with three onboarding variants: onboarding-steps (numbered Interests - Skills - Documents stepper with grouped emoji chip selectors and a dashed upload step), onboarding-split (split-screen form beside an app-preview mock that live-binds the typed values) and onboarding-modal (progress-ring row that opens an animated checklist dialog). Each ships as a .tsx file installed with bunx shadcn add @beui-pro/onboarding-*.",
+  "elements": ["stepper", "form", "input", "file-upload", "checkbox", "modal", "progress"],
+  "keywords": ["onboarding", "stepper", "multi-step form", "checklist", "form", "shadcn", "react", "tailwind", "signup flow", "progress ring", "animated modal", "file upload", "split screen", "emoji picker"],
+  "contains": ["3 variants: stepped, split screen and checklist dialog", "shadcn registry items: onboarding-steps, onboarding-split, onboarding-modal", "animated transitions, spring success state and live-bound form values", "premium beUI Pro content (yearly or lifetime)"],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "tailwind"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "pro-beui-dev"},
+  "confidence": 0.85
+}

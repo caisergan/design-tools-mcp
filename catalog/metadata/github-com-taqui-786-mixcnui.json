@@ -1,0 +1,36 @@
+{
+  "id": "github-com-taqui-786-mixcnui",
+  "url": "https://github.com/taqui-786/mixcnui",
+  "kind": "repo",
+  "hints_hash": "82631f1c0b6c6a40",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:34:35Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/taqui-786/mixcnui/blob/HEAD/README.md", "title": "Mixcn-UI", "status": 200},
+    {"url": "https://github.com/taqui-786/mixcnui", "title": "GitHub - taqui-786/mixcnui: Collection of Nextjs Components", "status": 200},
+    {"url": "https://mixcn-ui.vercel.app/components", "title": "MixUi", "status": 200},
+    {"url": "https://mixcn-ui.vercel.app/docs/installation", "title": "MixUi", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mixcn-UI",
+  "summary": "Animated React component collection for Next.js apps, installed like shadcn/ui through its own CLI (npx mixui init).",
+  "description": "A collection of reusable, animation-heavy components for Next.js apps, built with React, TypeScript, Tailwind CSS and Framer Motion and installed like shadcn/ui through its own CLI. Documented components: a hacker button that scrambles text on click, an Embla-based carousel, animated floating notifications and a set of loading spinners; the site also lists templates. Docs cover installation, component API, theming and animations.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["button", "carousel", "toast", "loader"],
+  "keywords": ["component library", "react", "nextjs", "tailwind", "framer-motion", "animation", "button", "carousel", "toast", "notification", "spinner", "loader", "cli", "typescript", "embla"],
+  "contains": [
+    "components installed via CLI: npx mixui init, shadcn-style into a Next.js app",
+    "documented set: hacker button, carousel (Embla-based), floating notification, loading spinner",
+    "built with React, TypeScript, Next.js, Tailwind CSS and Framer Motion",
+    "sections: components, templates; docs cover installation, component API, theming, animations",
+    "open source; 315 GitHub stars"
+  ],
+  "formats": ["code", "cli", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/taqui-786/mixcnui", "docs": "https://mixcn-ui.vercel.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

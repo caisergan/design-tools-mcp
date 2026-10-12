@@ -1,0 +1,57 @@
+{
+  "id": "developer-apple-com-design-resources",
+  "url": "https://developer.apple.com/design/resources",
+  "kind": "page",
+  "hints_hash": "7260ee2f92d936da",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://developer.apple.com/design/resources",
+      "title": "Apple Design Resources - Apple Developer",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Apple Design Resources",
+  "summary": "Official Apple design resources: UI kits, icon templates, fonts, SF Symbols and product bezels for Apple platforms.",
+  "description": "Apple's download hub for designers: Figma and Sketch UI kits, production templates and app icon templates for iOS, iPadOS, macOS, tvOS, watchOS and visionOS, SF fonts (SF Pro, SF Compact, SF Mono, New York and script variants), the 7,000+ symbol SF Symbols library, Icon Composer and product bezels for marketing.",
+  "keywords": [
+    "apple design resource",
+    "ui kit",
+    "figma ui kit",
+    "sketch ui kit",
+    "app icon template",
+    "sf symbol",
+    "sf pro",
+    "apple font",
+    "product bezel",
+    "ios design",
+    "macos design",
+    "visionos",
+    "watchos",
+    "design template",
+    "icon composer",
+    "color guide"
+  ],
+  "formats": [
+    "figma-file",
+    "templates",
+    "font-files",
+    "png",
+    "svg"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "developer-apple-com"
+  },
+  "confidence": 0.9
+}

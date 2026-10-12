@@ -1,0 +1,36 @@
+{
+  "id": "skills-sh-github-awesome-copilot-web-design-reviewer",
+  "url": "https://skills.sh/github/awesome-copilot/web-design-reviewer",
+  "kind": "page",
+  "hints_hash": "65499c88fda7b5c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/github/awesome-copilot/web-design-reviewer", "title": "web-design-reviewer — github/awesome-copilot", "status": null },
+    { "url": "https://github.com/github/awesome-copilot", "title": "GitHub - github/awesome-copilot: Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "web-design-reviewer",
+  "summary": "Agent skill that visually reviews a running website and fixes layout, responsive and contrast issues in its source.",
+  "description": "A GitHub Copilot agent skill: it opens a running target site (local dev server, staging or production), checks it at mobile (375px), tablet (768px), desktop (1280px) and wide (1920px) viewports, flags layout overflow, alignment, responsive breakpoints and accessibility contrast issues, then applies minimal fixes in the source — up to three attempts per issue, with before/after screenshot comparison. Works with static sites, SPAs (React, Vue, Angular, Svelte), Next.js/Nuxt/SvelteKit and CMS platforms.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["agent skill", "design review", "visual inspection", "responsive design", "accessibility", "contrast", "layout overflow", "viewport", "skill md", "react", "nextjs", "frontend"],
+  "contains": [
+    "detects layout overflow, alignment, contrast and responsive issues",
+    "checks 375px, 768px, 1280px and 1920px viewports",
+    "applies source-level fixes, up to 3 attempts per issue",
+    "before/after screenshot comparison",
+    "supports static sites, SPA frameworks, full-stack frameworks and CMS platforms",
+    "requires a running target site and workspace access",
+    "13.8K installs; repo github/awesome-copilot (39.9K stars, MIT)"
+  ],
+  "formats": ["prompts", "cli"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/github/awesome-copilot", "docs": null, "npm": null, "figma": null, "parent": "skills-sh" },
+  "confidence": 0.85
+}

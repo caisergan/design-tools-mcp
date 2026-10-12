@@ -1,0 +1,104 @@
+{
+  "id": "github-com-ephraimduncan-blocks",
+  "url": "https://github.com/ephraimduncan/blocks",
+  "kind": "repo",
+  "hints_hash": "063f1b1621255109",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ephraimduncan/blocks/blob/HEAD/README.md",
+      "title": "blocks README",
+      "status": 200
+    },
+    {
+      "url": "https://blocks.so",
+      "title": "Shadcn Blocks - 60+ Free shadcn/ui Components for React",
+      "status": 200
+    },
+    {
+      "url": "https://blocks.so/ai",
+      "title": "Shadcn AI Components - 5 Free Examples | blocks.so",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "blocks",
+  "summary": "Free registry of shadcn/ui blocks for React apps: AI chat, dialogs, stats, tables, login, onboarding and more.",
+  "description": "Copy-paste UI blocks built with React, Tailwind CSS and shadcn/ui, added through the shadcn CLI by namespace or registry URL, or straight from the registry. Categories cover AI chat (3 blocks), AI components (5), command menu (4), dashboard, dialogs (12), file upload (6), form layout, grid list, login and signup (9), onboarding (7), sidebar, stats (15) and tables — 60+ blocks in total. MIT licensed.",
+  "type": "block-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "chat",
+    "ai-agent-ui",
+    "prompt-input",
+    "command-palette",
+    "dashboard",
+    "modal",
+    "file-upload",
+    "form",
+    "sidebar",
+    "stats",
+    "table"
+  ],
+  "keywords": [
+    "shadcn block",
+    "ui block",
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "registry",
+    "copy paste",
+    "ai chat",
+    "command menu",
+    "dialog",
+    "file upload",
+    "login",
+    "signup",
+    "onboarding",
+    "stats",
+    "table",
+    "dashboard",
+    "sidebar",
+    "form layout"
+  ],
+  "contains": [
+    "60+ free blocks",
+    "categories: AI chat, AI components, command menu, dashboard, dialogs, file upload, login, onboarding, stats, tables",
+    "block counts: stats 15, dialogs 12, login/signup 9, onboarding 7, file upload 6, AI components 5, command menu 4",
+    "AI components: chat with voice input, model selection, compact interface, file attachments",
+    "add via shadcn CLI, namespace or registry URL",
+    "works with all React frameworks",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ephraimduncan/blocks",
+    "docs": "https://blocks.so",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

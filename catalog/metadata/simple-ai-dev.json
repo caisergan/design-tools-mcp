@@ -1,0 +1,32 @@
+{
+  "id": "simple-ai-dev",
+  "url": "https://simple-ai.dev",
+  "kind": "site",
+  "hints_hash": "aa02c916651fdc07",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://simple-ai.dev", "title": "simple-ai", "status": 200},
+    {"url": "https://www.simple-ai.dev/docs", "title": "simple-ai · Introduction", "status": 200},
+    {"url": "https://www.simple-ai.dev/blocks", "title": "simple-ai · Examples", "status": 200},
+    {"url": "https://www.simple-ai.dev/docs/installation", "title": "simple-ai · Installation", "status": 200},
+    {"url": "https://www.simple-ai.dev/docs/components", "title": "simple-ai · Components", "status": 200},
+    {"url": "https://www.simple-ai.dev/llms.txt", "title": "simple-ai", "status": 200}
+  ],
+  "status": "ok",
+  "name": "simple-ai",
+  "summary": "Shadcn registry of agent chat examples — a complete chat page plus chat input, tool and work-fold pieces.",
+  "description": "A registry of agent examples: a complete chat page with tools, files and mentions, and the pieces it uses — a chat input with mentions and streaming status, a quiet collapsible tool call, and the work fold that keeps the answer readable. Installs with the shadcn CLI; the source is copied into the project and can be changed freely.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["chat", "prompt-input", "ai-agent-ui", "input", "avatar", "loader"],
+  "keywords": ["shadcn", "registry", "ai", "chat", "chat page", "chat input", "prompt", "agent", "tool call", "streaming", "react", "nextjs", "tailwind", "example", "block", "copy paste", "mention", "file attachment"],
+  "contains": ["shadcn registry of agent examples; 63 code items across 77 registry items", "chat page: full-screen chat with tools, files and mentions", "pieces: chat input, tool rows, thinking, work fold and page layout", "installs shadcn sidebar, message, bubble, attachment and message-scroller", "ships a mocked transport so a fresh install works without a model", "hosted registry added via components.json; needs a shadcn/ui project with the Base UI style"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "tailwind"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.simple-ai.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

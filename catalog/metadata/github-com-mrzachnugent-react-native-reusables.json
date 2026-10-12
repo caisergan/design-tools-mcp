@@ -1,0 +1,30 @@
+{
+  "id": "github-com-mrzachnugent-react-native-reusables",
+  "url": "https://github.com/mrzachnugent/react-native-reusables",
+  "kind": "repo",
+  "hints_hash": "47225f73b9fcbf17",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mrzachnugent/react-native-reusables/blob/HEAD/README.md", "title": "React Native Reusables", "status": null},
+    {"url": "https://github.com/mrzachnugent/react-native-reusables", "title": "GitHub - founded-labs/react-native-reusables: Bringing shadcn/ui to React Native. Beautifully crafted components with Nativewind/Uniwind, open source, and almost as easy to use.", "status": 200},
+    {"url": "https://reactnativereusables.com/docs/cli", "title": "CLI", "status": 200},
+    {"url": "https://reactnativereusables.com/docs/components/accordion", "title": "Accordion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Native Reusables",
+  "summary": "React Native port of shadcn/ui for Expo, styled with NativeWind or Uniwind and distributed as open source.",
+  "description": "Brings shadcn/ui to React Native as an open-source component set for Expo apps, styled with NativeWind or Uniwind (Tailwind for React Native). A project CLI adds components into your app, and the documentation site hosts component pages and getting-started docs. The GitHub repository also publishes a community resources list of further components, libraries and templates. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": [],
+  "keywords": ["react native", "expo", "shadcn", "nativewind", "uniwind", "component library", "mobile ui", "ios", "android", "react-native-web", "tailwind", "copy-paste", "open source"],
+  "contains": ["shadcn/ui components for React Native and Expo", "styled with NativeWind or Uniwind", "CLI to add components into your app", "docs site with per-component pages, incl. accordion", "community resources list of extra components, libraries and templates", "MIT license", "8.7k GitHub stars"],
+  "formats": ["code", "cli", "docs"],
+  "stack": ["react-native", "expo", "nativewind", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mrzachnugent/react-native-reusables", "docs": "https://reactnativereusables.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

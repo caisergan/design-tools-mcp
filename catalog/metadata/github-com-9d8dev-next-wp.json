@@ -1,0 +1,36 @@
+{
+  "id": "github-com-9d8dev-next-wp",
+  "url": "https://github.com/9d8dev/next-wp",
+  "kind": "repo",
+  "hints_hash": "07e1fa7248e2ee2d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:03:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/9d8dev/next-wp/blob/HEAD/README.md", "title": "Next WP", "status": null}
+  ],
+  "status": "ok",
+  "name": "Next WP",
+  "summary": "Headless WordPress starter for Next.js 16 with dynamic post, page and taxonomy routes, search and cache revalidation.",
+  "description": "A headless WordPress starter built with Next.js 16, React 19, TypeScript and Tailwind CSS v4, paired with shadcn/ui components. It reads posts, pages, authors, categories and tags through typed WordPress REST API functions, with server-side pagination, debounced search, a dynamic sitemap, OG image generation and dark mode. A companion WordPress plugin revalidates Next.js cache tags when content changes.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["input", "pagination"],
+  "keywords": ["headless wordpress", "next.js", "wordpress starter", "react", "typescript", "headless cms", "blog starter", "cache revalidation", "server-side pagination", "dark mode", "tailwind css", "shadcn ui", "dynamic sitemap", "og image"],
+  "contains": [
+    "headless WordPress starter on Next.js 16 and React 19",
+    "dynamic routes for posts, pages, authors, categories and tags",
+    "type-safe WordPress REST API functions in lib/wordpress.ts",
+    "server-side pagination and debounced search",
+    "next-revalidate WordPress plugin for instant cache revalidation",
+    "dynamic sitemap and OG image generation",
+    "one-click Railway deploy (MySQL + WordPress + Next.js) or Vercel",
+    "Vitest unit tests for utils, metadata, the API layer and the revalidate route"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/9d8dev/next-wp", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

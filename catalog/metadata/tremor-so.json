@@ -1,0 +1,114 @@
+{
+  "id": "tremor-so",
+  "url": "https://tremor.so",
+  "kind": "site",
+  "hints_hash": "ff57a47aefcc9ec0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tremor.so",
+      "title": "Tremor – Copy-and-Paste Tailwind CSS UI Components for Charts and Dashboards",
+      "status": null
+    },
+    {
+      "url": "https://www.tremor.so/docs/visualizations/area-chart",
+      "title": "Area Chart - Tremor",
+      "status": null
+    },
+    {
+      "url": "https://github.com/TremorLabs/tremor",
+      "title": "GitHub - tremorlabs/tremor: Copy & Paste React components to build modern web applications.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Tremor",
+  "summary": "Open-source React components and blocks for building charts and dashboards with Tailwind CSS.",
+  "description": "A copy-and-paste React component library and npm package for charts and dashboards, built with Tailwind CSS, Radix UI and Recharts. It covers visualizations (area, bar, combo, line, donut, spark charts, trackers, bar lists), inputs (calendar, date picker, slider, select, switch) and UI pieces (badge, dialog, drawer, table, tabs, toast, tooltip), plus 250+ blocks and templates.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "chart",
+    "dashboard",
+    "calendar",
+    "checkbox",
+    "date-picker",
+    "dropdown",
+    "input",
+    "select",
+    "slider",
+    "switch",
+    "progress",
+    "tabs",
+    "badge",
+    "button",
+    "card",
+    "modal",
+    "drawer",
+    "popover",
+    "table",
+    "toast",
+    "tooltip",
+    "accordion",
+    "alert"
+  ],
+  "keywords": [
+    "react chart",
+    "dashboard component",
+    "tailwind css chart",
+    "data visualization",
+    "area chart",
+    "bar chart",
+    "line chart",
+    "donut chart",
+    "spark chart",
+    "kpi card",
+    "bar list",
+    "dashboard template",
+    "copy paste component",
+    "radix ui",
+    "rechart",
+    "admin dashboard",
+    "analytics dashboard",
+    "npm package"
+  ],
+  "contains": [
+    "35+ open-source components",
+    "300+ block examples, 250+ blocks and templates",
+    "charts: area, bar, combo, line, donut, spark, tracker, bar list, category bar",
+    "inputs: calendar, date range picker, dropdown menu, slider, switch, select, textarea",
+    "15K+ GitHub stars, 300K+ monthly npm downloads",
+    "built on React, Tailwind CSS, Radix UI and Recharts"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "recharts",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": null,
+    "docs": "https://www.tremor.so/docs/getting-started/installation",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

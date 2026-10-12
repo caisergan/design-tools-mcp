@@ -1,0 +1,35 @@
+{
+  "id": "annualreport-gallery",
+  "url": "https://annualreport.gallery",
+  "kind": "site",
+  "hints_hash": "37dc24e9c9632d1b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://annualreport.gallery/llms.txt", "title": "Annual Report Archive", "status": null},
+    {"url": "https://annualreport.gallery", "title": "Annual Report Archive", "status": 200},
+    {"url": "https://annualreport.gallery/mcp", "title": "Add as MCP · Annual Report Archive", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Annual Report Archive",
+  "summary": "Searchable archive of 3,002 vintage corporate annual report covers from 1945–2023, also served as a remote MCP server.",
+  "description": "A browsable gallery of 3,002 historic corporate annual-report covers scanned from archive.org, university libraries and design archives. Filter by decade, industry or color, search by design vibe, company, year or what's pictured, and connect the archive to Cursor or Claude through a free remote MCP server.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["annual report", "vintage design", "corporate design", "graphic design archive", "cover art", "mid-century design", "print design", "design inspiration", "archive", "mcp server", "ai search", "typography", "illustration", "retro"],
+  "contains": [
+    "3,002 covers, 1945–2023",
+    "filters: decade, industry, color",
+    "search by design vibe, company, year or what's on the cover",
+    "remote MCP server (Streamable HTTP, no auth) with tools searchcovers, getcover, similarcovers, listfacets",
+    "sources: Internet Archive, McGill, bitsavers, UW Libraries, Portal to Texas History, Paul Rand and SVA archives"
+  ],
+  "formats": ["screenshots", "api", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

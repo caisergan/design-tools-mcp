@@ -1,0 +1,61 @@
+{
+  "id": "ui-arctis-sh-motion",
+  "url": "https://ui.arctis.sh/motion",
+  "kind": "page",
+  "hints_hash": "a4dc7b6b7ba134f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:03:57Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://ui.arctis.sh/motion", "title": "Motion | arctis/ui", "status": null },
+    { "url": "https://ui.arctis.sh/docs/installation", "title": "Installation | arctis/ui", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Motion — arctis/ui",
+  "summary": "21 motion primitives for arctis/ui — Aurora, Parallax, Scramble, Typing, Magnetic — copied into components/motion with the CLI.",
+  "description": "The motion index of arctis/ui: preview a piece, copy the code, and shape it around your project. The 21 pieces include Aurora, Beam, Contour, Dots, Flicker, Flux, Lamina, Magnetic, Mask, Moire, Morph, Orbit, Parallax, Reveal, Ripple, Scramble, Sheen, Split Flap, Tilt, Trace and Typing; files land in components/motion and styles load automatically on import, while Aurora, Mask and Morph also pull the ogl WebGL library.",
+  "type": "component-library",
+  "elements": ["text-effect", "background", "scroll-effect", "cursor", "3d"],
+  "keywords": [
+    "motion",
+    "motion primitive",
+    "animation",
+    "animated component",
+    "text animation",
+    "animated background",
+    "parallax",
+    "aurora",
+    "scramble",
+    "typing animation",
+    "split flap",
+    "magnetic",
+    "ripple",
+    "tilt",
+    "reveal",
+    "morph",
+    "webgl",
+    "ogl",
+    "react",
+    "tailwind",
+    "copy paste"
+  ],
+  "contains": [
+    "21 pieces including Aurora, Beam, Dots, Magnetic, Mask, Morph, Parallax, Scramble and Typing",
+    "preview a piece, copy the code, shape it around your project",
+    "files land in components/motion; styles load automatically on import",
+    "Aurora, Mask and Morph also need the ogl WebGL library",
+    "the CLI installs the pieces and their dependencies"
+  ],
+  "formats": ["code", "cli", "npm-package"],
+  "stack": ["react", "tailwind", "ogl"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/arctis-sh/ui",
+    "docs": "https://ui.arctis.sh/docs/installation",
+    "npm": "@arctis-sh/ui",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

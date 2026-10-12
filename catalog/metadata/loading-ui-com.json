@@ -1,0 +1,39 @@
+{
+  "id": "loading-ui-com",
+  "url": "https://loading-ui.com",
+  "kind": "site",
+  "hints_hash": "a8813253d59681c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:34:35Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://loading-ui.com/llms.txt", "title": "Docs", "status": null},
+    {"url": "https://loading-ui.com", "title": "Loading UI - spinners, loaders, and loading animations for the web", "status": 200},
+    {"url": "https://loading-ui.com/docs", "title": "Introduction - Loading UI", "status": 200},
+    {"url": "https://loading-ui.com/docs/usage", "title": "Usage - Loading UI", "status": 200},
+    {"url": "https://loading-ui.com/docs/community", "title": "Community - Loading UI", "status": 200},
+    {"url": "https://www.loading-ui.com/docs/components", "title": "Components - Loading UI", "status": 200},
+    {"url": "https://github.com/turbostarter/loading-ui", "title": "GitHub - turbostarter/loading-ui: Spinners, loaders and loading animations for modern web apps", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Loading UI",
+  "summary": "Registry of 50 copy-paste spinners, loaders and text animations for React apps, installed with the shadcn CLI.",
+  "description": "A custom shadcn registry of loading indicators for React and Tailwind CSS apps: around 50 components, including ring and dots spinners, pulse and ripple loaders, bars, ASCII block loaders, text shimmer and typing animations, and accordion loaders. Components install with the shadcn CLI from the @loading-ui namespace as editable source, and the docs cover usage, philosophy, contributing and community.",
+  "type": "registry",
+  "categories": ["components", "motion"],
+  "elements": ["loader", "text-effect", "accordion"],
+  "keywords": ["spinner", "loader", "loading animation", "loading state", "react", "tailwind", "shadcn", "registry", "copy-paste", "css animation", "text effect", "skeleton", "pending state", "loading indicator"],
+  "contains": [
+    "50 loading components in the registry",
+    "types: ring and dots spinners, pulse and ripple loaders, bars, ASCII block loaders, text and typing animations",
+    "installs via shadcn CLI from the @loading-ui registry namespace",
+    "docs: introduction, usage, philosophy, components reference, contributing, community",
+    "MIT license; 500+ GitHub stars"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/turbostarter/loading-ui", "docs": "https://loading-ui.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,31 @@
+{
+  "id": "blog-vibecoder-me",
+  "url": "https://blog.vibecoder.me",
+  "kind": "site",
+  "hints_hash": "fc3b7fb12bd15d58",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://blog.vibecoder.me", "title": "Vibe Coder Blog — The Missing Manual for AI-Assisted Development — Vibe Coder Blog", "status": null},
+    {"url": "https://blog.vibecoder.me/library", "title": "Vibe Coding Articles: Tutorials, Guides & Deep Dives — Vibe Coder Blog", "status": null},
+    {"url": "https://blog.vibecoder.me/category/grow", "title": "Scale & Maintain: Analytics, Costs & Long-Term App Health — Vibe Coder Blog", "status": null},
+    {"url": "https://blog.vibecoder.me/category/ship", "title": "Ship Your AI App: Deployment, Security, Debugging & Testing — Vibe Coder Blog", "status": null},
+    {"url": "https://blog.vibecoder.me/category/build", "title": "Build with AI: Tutorials, Walkthroughs & Prompt Engineering — Vibe Coder Blog", "status": null}
+  ],
+  "status": "ok",
+  "name": "Vibe Coder Blog",
+  "summary": "Blog with 1,100+ tutorials, tool comparisons and guides on building and shipping products with AI coding tools.",
+  "description": "A tutorial site for AI-assisted ('vibe') coding, billed as the missing manual for AI-assisted development. A library of 1,108 articles is organised into 11 learning tracks (agency, career changer, designer, developer, e-commerce, founder, indie hacker, kids & teens, marketer, product manager, student) and topic areas (foundations, build, ship, grow, tools, pulse). It includes tool hubs and comparisons (Cursor, Claude Code, Windsurf, Lovable, Bolt, Replit), guides on deployment, security, debugging, testing, analytics and maintenance, and a 10-part 'Zero to Shipped' beginner series.",
+  "type": "course",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["vibe coding", "ai coding", "ai coding tool", "tutorial", "learning path", "claude code", "cursor", "lovable", "bolt", "replit", "deployment", "security", "debugging", "testing", "prompt engineering", "saas", "mvp", "indie hacker", "shipping", "ai workflow"],
+  "contains": ["1,108 articles in the library", "11 learning tracks from beginner to developer", "tool hubs comparing Cursor, Claude Code, Windsurf, Lovable, Bolt and Replit", "topic areas: foundations, build, ship, grow, tools, pulse", "'Zero to Shipped' 10-part beginner series", "monthly 'This Month in Vibe Coding' release roundups"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

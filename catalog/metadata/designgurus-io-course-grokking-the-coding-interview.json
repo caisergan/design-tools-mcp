@@ -1,0 +1,57 @@
+{
+  "id": "designgurus-io-course-grokking-the-coding-interview",
+  "url": "https://designgurus.io/course/grokking-the-coding-interview",
+  "kind": "page",
+  "hints_hash": "36993e25bc025607",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designgurus.io/course/grokking-the-coding-interview",
+      "title": "Grokking the Coding Interview Patterns: 42 Patterns, 500+ Problems",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Grokking the Coding Interview: Patterns for Coding Questions",
+  "summary": "Interview prep course on 41 coding patterns, with 671 lessons, in-browser practice problems and worked solutions.",
+  "description": "Online course that teaches the recurring patterns behind coding interview questions — two pointers, sliding window, tree and graph search, dynamic programming and more — with in-browser editor playgrounds and time/space complexity analysis for every solution. 49 chapters, 90 h of study time, plus a warmup chapter and 34 unlabeled test-your-knowledge problems; solutions are shown in Python, Java, C++, JavaScript, Go and C#.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "keywords": [
+    "coding interview",
+    "interview prep",
+    "coding pattern",
+    "algorithm",
+    "data structure",
+    "dynamic programming",
+    "sliding window",
+    "two pointer",
+    "graph search",
+    "binary tree",
+    "practice problem",
+    "course",
+    "java",
+    "python",
+    "cpp",
+    "javascript",
+    "go",
+    "c#"
+  ],
+  "pricing": "paid",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

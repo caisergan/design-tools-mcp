@@ -1,0 +1,40 @@
+{
+  "id": "maccess-io",
+  "url": "https://maccess.io",
+  "kind": "site",
+  "hints_hash": "b852b23182f7c97b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://maccess.io/llms.txt", "title": "Maccess", "status": null},
+    {"url": "https://maccess.io", "title": "Maccess — Control Your Mac from iPhone", "status": 200},
+    {"url": "https://maccess.io/guides", "title": "Guides: Control Your Mac from iPhone | Maccess", "status": 200},
+    {"url": "https://maccess.io/pricing", "title": "Pricing: Free, Pro & Max Plans | Maccess", "status": 200},
+    {"url": "https://maccess.io/faq", "title": "FAQ: Controlling Your Mac from iPhone | Maccess", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Maccess",
+  "summary": "iPhone app that controls a Mac over Wi-Fi or from anywhere: trackpad, keyboard, screen mirroring, files and AI assistant.",
+  "description": "Maccess pairs an iPhone with the free Maccess Helper on macOS to turn the phone into a trackpad, keyboard and remote control — locally over the same Wi-Fi, or from anywhere with Pro Online Access. It adds live screen mirroring, file transfer in both directions, app search and launch, Terminal and one-tap automations, plus Mackie, an AI assistant that can run tasks on the Mac. Free tier with local control; Pro $4.99/month and Max $9.99/month subscriptions.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["remote control", "iphone", "mac control", "trackpad", "keyboard", "screen mirroring", "file transfer", "ai assistant", "wi fi", "remote access", "terminal", "automation", "ios", "macos"],
+  "contains": [
+    "free tier: touchpad and keyboard, volume and media controls, local pairing, 1 Mac, 150K Auto AI tokens/month",
+    "Pro $4.99/month or $39.99/year: remote access, multiple Macs, mirroring, files, apps, Terminal and automations",
+    "Max $9.99/month or $79.99/year: PasteBox clipboard history, all 8 hologram scenes, 3M Auto + 500K Custom AI tokens/month",
+    "Mackie AI assistant by voice or chat; run on Maccess Cloud, Claude Code, Codex or a local model",
+    "local control works device-to-device on the same Wi-Fi without routing through the cloud",
+    "requires iOS 17+ and macOS 15.6+ via the free Maccess Helper",
+    "guides, pricing and FAQ pages (44 sitemap URLs)",
+    "ships an llms.txt"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://maccess.io/guides", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

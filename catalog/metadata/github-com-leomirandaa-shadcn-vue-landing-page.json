@@ -1,0 +1,33 @@
+{
+  "id": "github-com-leomirandaa-shadcn-vue-landing-page",
+  "url": "https://github.com/leoMirandaa/shadcn-vue-landing-page",
+  "kind": "repo",
+  "hints_hash": "f69efb0ee704cecf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:03:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/leoMirandaa/shadcn-vue-landing-page/blob/HEAD/README.md", "title": "Shadcn/Vue Landing Page Template", "status": null},
+    {"url": "https://github.com/leoMirandaa/shadcn-vue-landing-page/blob/HEAD/LICENSE", "title": "shadcn-vue-landing-page/LICENSE at 8578cba17b754f28316a78a289c2a5df6373335d · leoMirandaa/shadcn-vue-landing-page · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn/Vue Landing Page Template",
+  "summary": "Vue landing page template with 15 ready sections — navbar, hero, features, pricing, testimonials, contact and more — on shadcn-vue.",
+  "description": "A landing page template for Vue built with shadcn-vue, Vue.js, TypeScript and Tailwind CSS. Sections: navbar, mobile sidebar, hero, sponsors, benefits, features, services, how it works, testimonials, pricing, FAQ, team, community, contact and footer. Responsive, with dark mode and meta tags.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["navbar", "sidebar", "hero", "logo-cloud", "features", "testimonials", "pricing", "faq", "team", "contact", "footer"],
+  "keywords": ["landing page template", "vue", "shadcn vue", "tailwind css", "typescript", "navbar", "hero", "pricing", "testimonials", "faq", "contact", "dark mode", "responsive", "saas landing page", "marketing site"],
+  "contains": [
+    "15 sections: navbar, sidebar, hero, sponsors, features, services, testimonials, pricing, faq, team, contact, footer",
+    "shadcn-vue components with Vue.js, TypeScript and Tailwind CSS",
+    "responsive design with dark mode and meta tags",
+    "live demo linked from the README"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["vue", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/leoMirandaa/shadcn-vue-landing-page", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

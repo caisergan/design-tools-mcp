@@ -1,0 +1,39 @@
+{
+  "id": "orbkit-zzzzshawn-cloud",
+  "url": "https://orbkit.zzzzshawn.cloud",
+  "kind": "site",
+  "hints_hash": "2cf11281443c8335",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://orbkit.zzzzshawn.cloud/llms.txt", "title": "Orbkit", "status": null},
+    {"url": "https://orbkit.zzzzshawn.cloud", "title": "Orbkit", "status": 200},
+    {"url": "https://orbkit.zzzzshawn.cloud/getting-started/introduction", "title": "Introduction · Orbkit", "status": 200},
+    {"url": "https://orbkit.zzzzshawn.cloud/getting-started/usage", "title": "Usage · Orbkit", "status": 200},
+    {"url": "https://orbkit.zzzzshawn.cloud/getting-started/manual", "title": "Manual setup · Orbkit", "status": 200},
+    {"url": "https://orbkit.zzzzshawn.cloud/agents", "title": "For agents · Orbkit", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Orbkit",
+  "summary": "React component library of 33 WebGL shader orbs that animate through idle, thinking and speaking agent states.",
+  "description": "Orbkit is a shadcn-registry component library of WebGL shader orbs used as state-driven avatars for AI and voice agents. Each orb renders a fragment shader on a canvas through a dependency-free runtime and takes state (idle, thinking, speaking), size, params and colors props. Orbs install as source with the shadcn CLI or by copying two files, and 19 of the 33 orbs are ported from XorDev shaders for non-commercial use with attribution.",
+  "type": "component-library",
+  "categories": ["components", "registries", "motion"],
+  "elements": ["3d", "ai-agent-ui"],
+  "keywords": ["webgl shader", "shader orb", "react component", "shadcn", "shadcn registry", "ai agent", "voice agent", "agent avatar", "agent state", "loading state", "animated component", "typescript", "canvas", "fragment shader", "copy paste component", "webgl"],
+  "contains": [
+    "34 shadcn registry items: a shared runtime plus 33 orbs (shdr-01 to shdr-33)",
+    "orbs map the agent states idle, thinking and speaking onto motion, color and energy, with gliding transitions",
+    "installed as source via the shadcn CLI or by copying two files; zero runtime dependencies, WebGL 1",
+    "every shader uniform is a documented, range-checked parameter tunable in the playground",
+    "19 orbs are ported from XorDev shaders: non-commercial use with attribution; the runtime and original orbs are MIT",
+    "machine-readable for agents: llms.txt, agents.md, skill.md, JSON catalog and OpenAPI"
+  ],
+  "formats": ["registry", "code", "cli", "api", "docs"],
+  "stack": ["react", "typescript", "webgl"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://orbkit.zzzzshawn.cloud/getting-started/introduction", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

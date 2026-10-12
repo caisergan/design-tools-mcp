@@ -1,0 +1,24 @@
+{
+  "id": "docs-family-co-connectkit",
+  "url": "https://docs.family.co/connectkit",
+  "kind": "page",
+  "hints_hash": "4fc139e17c97779c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:37:07Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://docs.family.co/connectkit", "title": "Family Docs", "status": null}
+  ],
+  "status": "ok",
+  "name": "ConnectKit",
+  "summary": "React component library docs for adding a wallet connection to a dApp, with themes, translations and wagmi support.",
+  "description": "Documentation for ConnectKit 1.9.1, a React component library that connects a wallet to a dApp: connect button, chain setup, Sign In With Ethereum, theming (fonts, border radius, colors, avatar) and translations. It is TypeScript ready and builds on wagmi; Family hosts it alongside the docs for its own self-custody account.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["button", "avatar"],
+  "keywords": ["wallet connection", "connect button", "dapp", "ethereum wallet", "sign in with ethereum", "wagmi", "react component library", "wallet theming", "wallet connector", "web3", "typescript"],
+  "formats": ["docs", "code"],
+  "stack": ["react", "typescript", "wagmi"],
+  "related": {"parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,31 @@
+{
+  "id": "github-com-sarveshsea-memi",
+  "url": "https://github.com/sarveshsea/memi",
+  "kind": "repo",
+  "hints_hash": "cd32a2ff4efe4cec",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:02:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/sarveshsea/memi/blob/HEAD/README.md", "title": "Memi", "status": 200},
+    {"url": "https://github.com/sarveshsea/memi", "title": "GitHub - memi-design/memi: The design layer for agentic AI", "status": 200},
+    {"url": "https://github.com/memi-design/memi/blob/HEAD/LICENSE", "title": "memi/LICENSE", "status": 200},
+    {"url": "https://www.memoire.cv/", "title": "memi. Stop letting the agent guess.", "status": 200},
+    {"url": "https://www.memoire.cv/download", "title": "Download memi for macOS", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Memi",
+  "summary": "CLI, agent skills and CI gate that audit a frontend for design-system and accessibility issues before agents edit it.",
+  "description": "Memi reads a repository's interface before an agent edits it: an audit returns file:line findings on accessibility and design-system risks, and an interface brief (2-16 KiB JSON) lists the components, exports, props, CSS/DTCG tokens and stories the agent should reuse. Distributed as an npm CLI, agent skills, a GitHub Action design CI gate, an MCP server and a free macOS Studio companion. Local diagnosis is deterministic; no model call, API key or Figma file is required.",
+  "type": "tool",
+  "categories": ["design-rules", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["frontend audit", "design system audit", "accessibility audit", "design ci", "ui check", "agent skill", "mcp server", "codex plugin", "design token", "component reuse", "shadcn", "tailwind", "figma", "quality gate"],
+  "contains": ["CLI: npx @memi-design/cli diagnose . --no-write", "file:line findings with confidence and provenance", "Agent Skill for Codex, Claude Code, Cursor and compatible agents", "GitHub Action gate that fails only on newly introduced interface debt (SARIF + HTML report)", "MCP server with four read-only tools", "interface brief: exports, props, CSS/DTCG tokens and CSF stories", "free macOS Studio companion (FSL-1.1-ALv2, no accounts)", "local deterministic audit: no model call, API key or Figma file"],
+  "formats": ["cli", "npm-package", "app", "prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/memi-design/memi", "docs": "https://www.memoire.cv/docs", "npm": "@memi-design/cli", "figma": null, "parent": null},
+  "confidence": 0.85
+}

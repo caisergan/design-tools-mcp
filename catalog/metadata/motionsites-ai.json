@@ -1,0 +1,40 @@
+{
+  "id": "motionsites-ai",
+  "url": "https://motionsites.ai",
+  "kind": "site",
+  "hints_hash": "242136fa1ba4a4cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://motionsites.ai/llms.txt", "title": "MotionSites", "status": null},
+    {"url": "https://motionsites.ai", "title": "MotionSites AI — Official Premium AI Website Prompts", "status": 200},
+    {"url": "https://motionsites.ai/sections", "title": "MotionSites AI — Official Premium AI Website Prompts", "status": 200},
+    {"url": "https://motionsites.ai/backgrounds", "title": "MotionSites AI — Official Premium AI Website Prompts", "status": 200},
+    {"url": "https://motionsites.ai/templates", "title": "MotionSites AI — Official Premium AI Website Prompts", "status": 200},
+    {"url": "https://motionsites.ai/unlimited", "title": "MotionSites AI — Official Premium AI Website Prompts", "status": 200},
+    {"url": "https://motionsites.ai/mcp", "title": "MotionSites AI — Official Premium AI Website Prompts", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MotionSites",
+  "summary": "Prompt library for AI website builders: hero and page-section prompts, animated backgrounds, gradients and templates.",
+  "description": "A library of copy-paste design prompts for AI website builders such as Lovable, Bolt, Cursor and Claude, covering hero sections, other page sections, animated backgrounds, gradients and full website templates. Browsing is free with a few sample prompts; paid plans (3 months $129, yearly $279, lifetime $399) and an MCP server unlock the full 500+ prompt library for both people and coding agents.",
+  "type": "agent-skill",
+  "categories": ["sections", "motion", "templates"],
+  "elements": ["hero", "features", "footer", "cta", "pricing", "background"],
+  "keywords": ["ai prompt", "prompt library", "website prompt", "hero section", "landing page", "animated background", "gradient background", "website template", "3d website", "web design", "lovable", "bolt", "cursor", "claude", "mcp"],
+  "contains": [
+    "500+ premium website design prompts, with fresh drops daily",
+    "sections prompt library: hero, features, footer, CTA, pricing and more",
+    "animated backgrounds and gradients collections, with video previews",
+    "40+ Lovable templates and full website templates for members",
+    "MCP server for Claude, Cursor and Codex; free accounts open 3 prompts",
+    "plans: 3 months $129, yearly $279, lifetime $399 (one-time)"
+  ],
+  "formats": ["prompts", "video", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-niazmorshed2007-shadcn-tiptap",
+  "url": "https://github.com/NiazMorshed2007/shadcn-tiptap",
+  "kind": "repo",
+  "hints_hash": "06d0276628ff1071",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/NiazMorshed2007/shadcn-tiptap/blob/HEAD/README.md", "title": "Shadcn tiptap", "status": 200},
+    {"url": "https://github.com/NiazMorshed2007/shadcn-tiptap", "title": "GitHub - NiazMorshed2007/shadcn-tiptap: Sets of custom extensions & toolbars for tiptap editor. Install with shadcn/cli. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn tiptap",
+  "summary": "Custom Tiptap rich-text editor extensions and toolbar components for shadcn/ui, installed with the shadcn CLI.",
+  "description": "A set of custom extensions and toolbar components for the Tiptap rich-text editor, built to be used with shadcn/ui components and installed with the shadcn CLI. The demo app is a Next.js project styled with Tailwind CSS; the set covers editor extensions plus the shadcn-styled toolbar UI. Demo at tiptap.niazmorshed.dev; MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input"],
+  "keywords": ["tiptap", "rich text editor", "editor extension", "toolbar", "wysiwyg", "prosemirror", "shadcn", "shadcn cli", "react", "nextjs", "tailwind", "text editor", "content editor"],
+  "contains": [
+    "custom Tiptap extensions ready to use with shadcn/ui components",
+    "editor toolbar components",
+    "Next.js demo app with Tailwind CSS and shadcn/ui",
+    "install with the shadcn CLI",
+    "demo at tiptap.niazmorshed.dev",
+    "MIT licensed; 706 GitHub stars"
+  ],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "tiptap"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/NiazMorshed2007/shadcn-tiptap", "docs": "https://tiptap.niazmorshed.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

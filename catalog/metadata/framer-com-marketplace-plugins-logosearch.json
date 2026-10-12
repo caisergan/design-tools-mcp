@@ -1,0 +1,26 @@
+{
+  "id": "framer-com-marketplace-plugins-logosearch",
+  "url": "https://framer.com/marketplace/plugins/logosearch",
+  "kind": "page",
+  "hints_hash": "ea0cc2a61461e80c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/plugins/logosearch", "title": "Logosearch — Plugin for Framer", "status": null},
+    {"url": "https://www.framer.com/marketplace/plugins/logosearch/", "title": "Logosearch — Plugin for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Logosearch",
+  "summary": "Framer plugin that finds and inserts 30M+ company logos by brand name or domain, without leaving the canvas.",
+  "description": "A Framer Marketplace plugin for placing real company logos: search by company name or domain, drag logos into the canvas or replace existing image frames, pick preset sizes (32, 64, 128 px) or custom dimensions, export PNG/JPG/WEBP, and browse by category such as SaaS, crypto, social and brands. Built for landing pages, partner sections and tech-stack visuals. Powered by Logo.dev.",
+  "type": "plugin",
+  "keywords": ["framer plugin", "logo", "logo search", "logo finder", "company logo", "brand logo", "media plugin", "landing page", "saas", "partner logo", "tech stack", "no-code", "design tool"],
+  "elements": [],
+  "contains": ["30M+ company logos powered by Logo.dev", "search by brand name or domain", "presets 32, 64, 128 px or custom sizes", "export PNG, JPG, WEBP", "category browsing: SaaS, crypto, social, brands", "drag and drop into canvas or image frames", "published Feb 27, 2026, updated Mar 3, 2026"],
+  "stack": ["framer"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.8
+}

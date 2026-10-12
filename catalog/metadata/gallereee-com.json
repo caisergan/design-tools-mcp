@@ -1,0 +1,39 @@
+{
+ "id": "gallereee-com",
+ "url": "https://gallereee.com",
+ "kind": "site",
+ "hints_hash": "23150af5bc4399fb",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:30:25Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://gallereee.com/llms.txt", "title": "llms.txt — Gallereee.com", "status": null},
+  {"url": "https://gallereee.com", "title": "Best Inspirational Portfolio Websites. Handpicked for Creatives.", "status": 200},
+  {"url": "https://www.gallereee.com/templates", "title": "Best Portfolio Templates for Creatives", "status": 200},
+  {"url": "https://www.gallereee.com/templates/kim", "title": "KIM Framer Portfolio Template — Gallereee", "status": 200},
+  {"url": "https://www.gallereee.com/templates/dune", "title": "Dune Framer Portfolio Template — Gallereee", "status": 200},
+  {"url": "https://www.gallereee.com/templates/lando", "title": "Lando Framer Portfolio Template — Gallereee", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Gallereee",
+ "summary": "Curated gallery of portfolio websites from indie creatives and studios, filterable by portfolio type and design style.",
+ "description": "A running collection of portfolio websites, sorted by portfolio type (designer, agency, developer, photographer, videographer, director, 3D artist, illustrator …) and by style (bold, colorful, dark mode, minimal, retro, typographic …). Detail pages carry screenshots, highlights and design credits; there is also a curated portfolio-templates section and Spotlight interviews.",
+ "type": "gallery",
+ "categories": ["inspiration", "templates"],
+ "elements": [],
+ "keywords": ["portfolio", "portfolio website", "web design inspiration", "gallery", "showcase", "designer portfolio", "agency website", "developer portfolio", "photographer portfolio", "dark mode portfolio", "minimal portfolio", "typographic", "framer template", "portfolio template", "website inspiration"],
+ "contains": [
+  "curated gallery of portfolio websites, updated regularly",
+  "filters by portfolio type (12 types incl. designer, agency, developer, photographer, director, illustrator)",
+  "filters by style (bold, colorful, darkmode, elegant, experimental, lightmode, minimal, playful, retro, typographic)",
+  "detail pages with screenshots, highlights and design credits",
+  "portfolio templates section (free and paid, e.g. Framer templates)",
+  "Spotlight interviews with designers; submit-your-portfolio form"
+ ],
+ "formats": ["screenshots", "links"],
+ "stack": [],
+ "pricing": "free",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

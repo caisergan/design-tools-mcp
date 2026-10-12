@@ -1,0 +1,117 @@
+{
+  "id": "github-com-bradgroux-veritas-kanban",
+  "url": "https://github.com/BradGroux/veritas-kanban",
+  "kind": "repo",
+  "hints_hash": "1fe30c32d324f844",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/BradGroux/veritas-kanban/blob/HEAD/README.md",
+      "title": "Veritas Kanban",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/BradGroux/veritas-kanban",
+      "title": "GitHub - BradGroux/veritas-kanban: Lightweight orchestration harness built for your AI agents.",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/BradGroux/veritas-kanban/HEAD/web/package.json",
+      "title": "web/package.json",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/BradGroux/veritas-kanban/HEAD/docs/FEATURES.md",
+      "title": "Veritas Kanban features",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Veritas Kanban",
+  "summary": "Local-first Kanban board with optional AI agent orchestration: CLI, MCP server, workflows and governance.",
+  "description": "A local-first task board: start with the Kanban UI and Markdown tasks on disk, then add a CLI, an MCP server, multi-agent orchestration, a YAML workflow engine, approval gates and policy governance. The board ships customizable dashboard widgets, telemetry, an evidence timeline and time breakdowns; agents run as first-class workers (Codex, Claude Code, Copilot CLI, Ollama …) on web, Electron desktop for macOS and REST API. MIT licensed.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "kanban",
+    "dashboard",
+    "chart",
+    "chat",
+    "ai-agent-ui",
+    "timeline",
+    "form",
+    "input",
+    "modal",
+    "drawer",
+    "card",
+    "dropdown",
+    "sidebar",
+    "toast"
+  ],
+  "keywords": [
+    "kanban board",
+    "task management",
+    "local-first",
+    "ai agent",
+    "agent orchestration",
+    "mcp server",
+    "cli",
+    "workflow engine",
+    "codex",
+    "claude code",
+    "multi-agent",
+    "self-hosted",
+    "markdown",
+    "react",
+    "electron",
+    "governance",
+    "time tracking",
+    "developer tool"
+  ],
+  "contains": [
+    "Kanban board with drag-and-drop columns, subtasks, dependencies and sprints",
+    "optional layers: CLI, MCP server, OpenClaw, webhooks, workflows, governance",
+    "multi-agent orchestration with dashboard, squad chat and team roster routing",
+    "YAML workflow engine with run state and approval gates",
+    "customizable dashboard widgets, telemetry, evidence timeline, time breakdowns",
+    "agent providers: Codex, Claude Code, Copilot CLI, Grok Build, Hermes and Ollama/LM Studio",
+    "packaged macOS desktop app plus self-hosted server",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "app",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "vite",
+    "tailwind",
+    "tanstack-query",
+    "dnd-kit",
+    "mantine",
+    "recharts",
+    "typescript",
+    "node",
+    "electron"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/BradGroux/veritas-kanban",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ruben-substack-com-p-how-to-make-perfect-spreadsheets",
+  "url": "https://ruben.substack.com/p/how-to-make-perfect-spreadsheets",
+  "kind": "page",
+  "hints_hash": "f9831124568faf0a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/how-to-make-perfect-spreadsheets", "title": "Stop learning Excel. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Stop learning Excel.",
+  "summary": "Guide comparing AI tools for building and editing Excel spreadsheets — Claude Cowork, ChatGPT, Shortcut.ai — with step-by-step screenshots.",
+  "type": "article",
+  "keywords": ["spreadsheet", "excel", "ai spreadsheet", "spreadsheet automation", "claude cowork", "chatgpt", "ai assistant", "step-by-step guide", "screenshot tutorial", "ai workflow", "productivity", "office automation"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.9
+}

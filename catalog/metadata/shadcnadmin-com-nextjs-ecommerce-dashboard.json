@@ -1,0 +1,27 @@
+{
+  "id": "shadcnadmin-com-nextjs-ecommerce-dashboard",
+  "url": "https://shadcnadmin.com/nextjs-ecommerce-dashboard",
+  "kind": "page",
+  "hints_hash": "3b21d43eb96dc443",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnadmin.com/nextjs-ecommerce-dashboard", "title": "Next.js Ecommerce Dashboard Template - Shadcn Admin", "status": 200},
+    {"url": "https://shadcnadmin.com/pricing", "title": "Pricing - Shadcn Admin", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Next.js Ecommerce Dashboard Template",
+  "summary": "Paid ecommerce admin template for Next.js with product, order, customer, analytics and messaging screens.",
+  "description": "A complete ecommerce admin panel built with shadcn/ui, Tailwind CSS v4 and TypeScript on the Next.js App Router: dashboard, products, orders, filters, customers, analytics, messages and settings pages filled with sample data. One-time payment with full source code and lifetime updates.",
+  "type": "template",
+  "elements": ["dashboard", "table", "chart", "chat", "form", "list"],
+  "keywords": ["nextjs", "ecommerce dashboard", "admin template", "admin panel", "shadcn ui", "tailwind css", "typescript", "app router", "tanstack table", "product management", "order management", "analytics", "dark mode"],
+  "contains": ["8 admin pages: dashboard, products, orders, filters, customers, analytics, messages, settings", "orders list with TanStack Table sorting and filtering", "analytics dashboard with interactive charts", "product catalog with create and detail flows", "shadcn/ui components on Tailwind CSS v4, typed with TypeScript", "light and dark mode, mobile-first layout", "one-time payment, lifetime updates"],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "tailwind", "typescript", "tanstack-table"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shadcnadmin-com"},
+  "confidence": 0.9
+}

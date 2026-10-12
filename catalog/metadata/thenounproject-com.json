@@ -1,0 +1,39 @@
+{
+  "id": "thenounproject-com",
+  "url": "https://thenounproject.com",
+  "kind": "site",
+  "hints_hash": "3a5d1f8b657416ce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://thenounproject.com/llms.txt", "title": "The Noun Project", "status": null},
+    {"url": "https://thenounproject.com", "title": "10M Free Icons & Stock Photos | SVG & PNG | Download Today", "status": 200},
+    {"url": "https://thenounproject.com/icons", "title": "Free Icons | Download 10M SVG & PNG icons | Noun Project", "status": 200},
+    {"url": "https://thenounproject.com/pricing", "title": "Icon & Photo Pricing and Royalty-Free Licenses | Noun Project", "status": 200},
+    {"url": "https://thenounproject.com/about", "title": "Noun Project", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Noun Project",
+  "summary": "Library of nearly 10 million human-made SVG and PNG icons plus stock photos, free to download with artist attribution.",
+  "description": "A searchable icon library with nearly 10 million vector icons and a growing stock photo collection across thousands of artist-made styles; every icon downloads as PNG or editable SVG. Plugins for Figma, Adobe, PowerPoint, Google and a Mac app place icons directly in your tools, and a REST API serves the full collection. Free with artist attribution, with Pro and Team plans for unlimited downloads and set downloads.",
+  "type": "icon-set",
+  "categories": ["icons", "media"],
+  "elements": [],
+  "keywords": ["icon", "icon library", "icon set", "icon pack", "free icon", "svg icon", "png icon", "vector icon", "stock photo", "icon download", "icon search", "icon api", "figma plugin", "royalty-free", "clip art"],
+  "contains": [
+    "nearly 10 million free vector icons and a growing free stock photo library",
+    "every icon as PNG and editable SVG; photos as high-resolution JPG",
+    "free to download with attribution to the artist",
+    "style-matched icon sets and AI-enhanced search across thousands of styles",
+    "plugins for Figma, Adobe, PowerPoint, Google and a Mac app",
+    "REST API with OAuth for the whole collection",
+    "Noun Pro $3.33/mo billed yearly; Noun Team plans for groups"
+  ],
+  "formats": ["svg", "png", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://thenounproject.com/api", "npm": null, "figma": "https://thenounproject.com/for-figma", "parent": null},
+  "confidence": 0.9
+}

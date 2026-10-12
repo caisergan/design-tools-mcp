@@ -1,0 +1,32 @@
+{
+  "id": "github-com-ali-hussein-dev-indie-ui",
+  "url": "https://github.com/Ali-Hussein-dev/indie-ui",
+  "kind": "repo",
+  "hints_hash": "8db7a3a3ba3ecc1a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Ali-Hussein-dev/indie-ui/blob/HEAD/README.md", "title": "Indie UI", "status": 200},
+    {"url": "https://github.com/Ali-Hussein-dev/indie-ui", "title": "GitHub - alibey-10/indie-ui: Collection of UI components", "status": 200},
+    {"url": "https://ui.indie-starter.dev", "title": "Indie UI", "status": 200},
+    {"url": "https://ui.indie-starter.dev/docs", "title": "Quick Setup", "status": 200},
+    {"url": "https://ui.indie-starter.dev/docs/header", "title": "Reusable header component", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Indie UI",
+  "summary": "Free collection of styled React components with Framer Motion animations, built on Tailwind and shadcn.",
+  "description": "Copy-paste React components styled with Tailwind CSS and animated with Framer Motion: buttons (simple, eye-catching, stateful), inputs, several card layouts, bento grids, skeleton and text loaders, text animations, a counter, header and separator. Dark mode support and TypeScript; docs with code snippets at ui.indie-starter.dev.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["button", "input", "card", "loader", "text-effect", "bento-grid", "navbar"],
+  "variants": {"navbar": ["centered", "sticky"]},
+  "keywords": ["react component", "tailwind css", "framer motion", "shadcn", "animated component", "button", "card", "input", "bento grid", "loader", "text animation", "copy paste", "dark mode", "free", "typescript"],
+  "contains": ["buttons, inputs, cards, bento grids, loaders, text animations, counter, header and separator", "built with React, shadcn and Framer Motion", "dark mode support out of the box, TypeScript", "docs with live demos, props and get-code snippets", "header component with wide and centered variants and a sticky option", "MIT licensed; 707 GitHub stars"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "tailwind", "framer-motion", "shadcn", "nextjs"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Ali-Hussein-dev/indie-ui", "docs": "https://ui.indie-starter.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-jcarterjohnson-vibecoded-design-tells",
+  "url": "https://github.com/JCarterJohnson/vibecoded-design-tells",
+  "kind": "repo",
+  "hints_hash": "52b51e0fe4643fd4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/JCarterJohnson/vibecoded-design-tells/blob/HEAD/README.md", "title": "What makes a site look \"vibe-coded\": the data", "status": 200},
+    {"url": "https://raw.githubusercontent.com/JCarterJohnson/vibecoded-design-tells/HEAD/README.md", "title": "What makes a site look \"vibe-coded\": the data", "status": 200}
+  ],
+  "status": "ok",
+  "name": "vibecoded-design-tells",
+  "summary": "Reddit-mined study of what makes sites look AI-built, with Claude skills that strip AI slop from UI, writing and code.",
+  "description": "Three studies that mine public Reddit posts for the tells people use to spot AI-generated sites, prose and code, each shipped with a Claude skill. The UI study scanned 3.2M posts and ranks tells such as shadcn/Tailwind defaults and AI-purple gradients; the unslop-ui skill includes a scanner that gates CI on its exit code.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai slop", "vibe coding", "design tell", "claude skill", "ai-generated ui", "shadcn", "tailwind", "gradient", "design audit", "code scanner", "reddit data", "ui review", "prompt", "ci"],
+  "contains": [
+    "3.2M Reddit posts scanned across 47 subreddits",
+    "46,971 on-topic posts; 3,033 comments from 125 threads",
+    "three Claude skills: unslop-ui, unslop-text, unslop-code",
+    "unslop-ui: build and audit modes, ranked tells catalog, devibescan.py scanner that gates CI",
+    "raw data: corpus.jsonl.gz, CSV tables, quote banks, 12 charts",
+    "python scripts reproduce the harvest and ranking"
+  ],
+  "formats": ["prompts", "code", "docs"],
+  "stack": ["python", "javascript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/JCarterJohnson/vibecoded-design-tells", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

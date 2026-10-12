@@ -1,0 +1,126 @@
+{
+  "id": "feature101-dev",
+  "url": "https://feature101.dev",
+  "kind": "site",
+  "hints_hash": "fc5901692ac576b1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://feature101.dev",
+      "title": "feature101 - Full-stack features. Copy. Paste. Ship.",
+      "status": null
+    },
+    {
+      "url": "https://www.feature101.dev/docs/features",
+      "title": "Features - feature101",
+      "status": null
+    },
+    {
+      "url": "https://www.feature101.dev/pricing",
+      "title": "Pricing — feature101",
+      "status": null
+    },
+    {
+      "url": "https://www.feature101.dev/docs/getting-started",
+      "title": "Introduction - feature101",
+      "status": null
+    },
+    {
+      "url": "https://www.feature101.dev/docs/installation",
+      "title": "Installation - feature101",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "feature101",
+  "summary": "shadcn-style registry of full-stack Next.js features — auth, payments, uploads, booking, AI — added by CLI.",
+  "description": "A registry of production-ready full-stack primitives for Next.js: instead of one UI component, each feature lands as a complete vertical slice — React component, hook, Zustand store, server action and Prisma model — copied into your repo with one command. Live features are follow, subscribe, upload, booking, auth, payments and an AI assistant, built on shadcn/ui; you own every line and there is no runtime dependency.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "components"
+  ],
+  "elements": [
+    "avatar",
+    "badge",
+    "button",
+    "calendar",
+    "card",
+    "chat",
+    "date-picker",
+    "dropdown",
+    "file-upload",
+    "form",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "prompt-input",
+    "tabs"
+  ],
+  "keywords": [
+    "shadcn registry",
+    "full stack feature",
+    "nextjs",
+    "auth",
+    "payment",
+    "ai chat",
+    "file upload",
+    "booking",
+    "prisma",
+    "server action",
+    "react hook",
+    "zustand",
+    "newsletter signup",
+    "follow button",
+    "copy paste code",
+    "cli"
+  ],
+  "contains": [
+    "7 live primitives: follow, subscribe, upload, booking, auth, payments, AI assistant",
+    "each feature is a component, hook, Zustand store, server action and Prisma model",
+    "103+ files across all features, about 30 seconds per install",
+    "CLI: npx feature101@latest add <feature>",
+    "free primitives plus Pro at $19/year or $49 lifetime",
+    "built on shadcn/ui, Better Auth, Dodo Payments, UploadThing and Groq"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "prisma",
+    "postgres",
+    "tailwind",
+    "zustand",
+    "zod",
+    "shadcn",
+    "better-auth",
+    "uploadthing",
+    "groq",
+    "dodo-payments",
+    "vercel-ai-sdk"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://www.feature101.dev/docs/getting-started",
+    "npm": "feature101",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

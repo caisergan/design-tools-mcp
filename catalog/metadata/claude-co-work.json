@@ -1,0 +1,68 @@
+{
+  "id": "claude-co-work",
+  "url": "https://claude-co.work",
+  "kind": "site",
+  "hints_hash": "3295332dda1a5d54",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://claude-co.work",
+      "title": "Cowork. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Cowork.",
+  "summary": "Guide to setting up Claude Cowork: folder structure, global instructions, saving credits, first 20 minutes.",
+  "description": "Free April 2026 guide (business blog post) to Claude Cowork for people who don't code: how to structure a Cowork folder with about-me, anti-AI-writing-style and company files, set up global instructions, avoid wasting credits, and a 20-minute first walkthrough. Part of Ruben Hassid's How to AI newsletter; requires a Claude Pro account.",
+  "type": "article",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "claude cowork",
+    "claude",
+    "anthropic",
+    "ai setup guide",
+    "global instruction",
+    "cowork folder",
+    "about-me file",
+    "ai writing style",
+    "claude desktop app",
+    "claude pro",
+    "ai workflow",
+    "non-coder"
+  ],
+  "contains": [
+    "free guide, April 2026 update",
+    "Cowork folder setup: about-me, anti-AI-writing-style, company files",
+    "global instructions for Cowork",
+    "tips to save credits",
+    "first 20 minutes with Claude Cowork",
+    "needs a Claude Pro account ($20/month)",
+    "written for people who don't code"
+  ],
+  "formats": [
+    "docs",
+    "prompts",
+    "screenshots"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

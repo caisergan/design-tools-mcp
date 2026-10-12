@@ -1,0 +1,79 @@
+{
+  "id": "beui-dev-components-motion-dock",
+  "url": "https://beui.dev/components/motion/dock",
+  "kind": "page",
+  "hints_hash": "d6e556c549a7bea0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/components/motion/dock",
+      "title": "Dock · React motion component · beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Dock",
+  "summary": "macOS-style dock React component with grouped actions and a gliding active pill, installed via shadcn or copy-paste.",
+  "description": "A motion component for React and Next.js: a macOS-style dock with grouped actions, separators and a gliding active pill. DockItem renders as a button when onClick is set, carries an active state and an aria-label; a size prop sets the item size in px (44 by default). Install with the shadcn CLI (shadcn add @beui/dock) or copy the source; needs the beUI theme tokens and the shared lib/ease.ts and lib/utils.ts files.",
+  "type": "component-library",
+  "elements": [
+    "navbar",
+    "dock"
+  ],
+  "variants": {
+    "navbar": [
+      "dock"
+    ]
+  },
+  "keywords": [
+    "dock",
+    "macos dock",
+    "app dock",
+    "floating dock",
+    "navigation",
+    "navbar",
+    "react",
+    "nextjs",
+    "motion component",
+    "animated component",
+    "shadcn",
+    "copy paste",
+    "spring animation",
+    "active indicator"
+  ],
+  "contains": [
+    "macOS-style dock with grouped actions and a gliding active pill",
+    "parts: Dock, DockItem (active, onClick, aria-label), DockSeparator; size prop in px (default 44)",
+    "install: bunx --bun shadcn add @beui/dock, or copy the source",
+    "shared files: lib/ease.ts, lib/utils.ts, components/app/icons.tsx",
+    "preview file components/previews/motion/dock.preview.tsx",
+    "updated Sep 22, 2026"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "beui-dev"
+  },
+  "confidence": 0.85
+}

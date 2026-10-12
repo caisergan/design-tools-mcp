@@ -1,0 +1,29 @@
+{
+  "id": "fonts-google-com-specimen-reggae-one",
+  "url": "https://fonts.google.com/specimen/Reggae+One",
+  "kind": "page",
+  "hints_hash": "7c507111b98c3121",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:39:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/Reggae+One", "title": "Reggae One - Google Fonts", "status": null},
+    {"url": "https://fonts.google.com/metadata/fonts/Reggae+One", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/google/fonts/main/ofl/reggaeone/METADATA.pb", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Reggae One",
+  "summary": "Japanese display font with sharpened stroke ends; single weight, used in magazines and digital content.",
+  "description": "Reggae One is a display font by Fontworks Inc.; its sharpened stroke ends give off a dynamic pulse, and it is often used in Japanese magazines and digital content. One 400 weight covers Japanese, Latin, Latin Extended and Cyrillic. Free under the SIL Open Font License.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["japanese font", "display font", "font", "typeface", "headline", "manga", "magazine", "free font", "web font", "logo", "poster", "cjk"],
+  "contains": ["single weight: 400 Regular", "subsets: japanese, latin, latin-ext, cyrillic, menu", "sharpened stroke ends for a dynamic display look", "by Fontworks Inc.", "SIL Open Font License (OFL-1.1)"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.85
+}

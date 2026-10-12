@@ -1,0 +1,21 @@
+{
+  "id": "forms-gle-ksmhw1odvzr7mdes7",
+  "url": "https://forms.gle/ksmHw1odVzR7mdEs7",
+  "kind": "page",
+  "hints_hash": "084010ce9c9ae0ef",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:23:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://forms.gle/ksmHw1odVzR7mdEs7", "title": "Curious About Product Design? Start with EPC7!", "status": null}
+  ],
+  "status": "ok",
+  "name": "Curious About Product Design? Start with EPC7!",
+  "summary": "Closed Google Form for EPC7, a free 6-week foundational UI/UX training for beginners; registration ended 18 July 2026.",
+  "description": "A Google Form (no longer accepting responses) that took applications for EPC7, the Enlightenment Program Cohort 7: a free 6-week foundational UI/UX training for beginners who want to understand product design before committing to a full bootcamp. The link now redirects to a notice that registration closed.",
+  "type": "course",
+  "keywords": ["google form", "application form", "ui ux training", "product design course", "free design course", "beginner design course", "design bootcamp", "cohort program", "registration closed", "design program application"],
+  "pricing": "free",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

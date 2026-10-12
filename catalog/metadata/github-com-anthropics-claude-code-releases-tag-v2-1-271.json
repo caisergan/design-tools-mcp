@@ -1,0 +1,65 @@
+{
+  "id": "github-com-anthropics-claude-code-releases-tag-v2-1-271",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+  "kind": "page",
+  "hints_hash": "196efbc74ea3a816",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "title": "Release v2.1.271 · anthropics/claude-code · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Release v2.1.271",
+  "summary": "Claude Code v2.1.271: fast mode in remote sessions, per-command allowed_domains sandboxing, host config snapshots and many fixes.",
+  "description": "Release notes for Claude Code v2.1.271 (anthropics/claude-code), released 14 Sep 2026 with 73 commits to main. Adds fast mode in Remote sessions, mouse support in the /config panel, claude self-hosted-runner --drain-marker-file, per-command allowed_domains for Bash, PowerShell and Monitor in auto mode, omitClaudeMd for subagents, --accept-command for plugin install and update, and modelPricing multipliers above 1. Fixes cover organization policy caching, MCP OAuth client registrations, Bash permission checks and terminal rendering.",
+  "type": "article",
+  "keywords": [
+    "release note",
+    "release",
+    "ai coding agent",
+    "cli",
+    "fast mode",
+    "remote session",
+    "mcp",
+    "sandbox",
+    "permission",
+    "artifact",
+    "vscode",
+    "terminal",
+    "hook",
+    "subagent",
+    "config panel",
+    "self-hosted runner"
+  ],
+  "contains": [
+    "fast mode in Remote sessions (cloud and self-hosted runners)",
+    "per-command allowed_domains sandboxing for Bash, PowerShell and Monitor",
+    "omitClaudeMd for subagents; --accept-command for plugin install and update",
+    "fixes: organization policy caching, MCP OAuth client registrations, Bash permission checks",
+    "released 14 Sep 2026; 73 commits to main since this release"
+  ],
+  "formats": [
+    "docs",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/anthropics/claude-code",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.9
+}

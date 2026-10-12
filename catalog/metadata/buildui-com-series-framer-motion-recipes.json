@@ -1,0 +1,27 @@
+{
+  "id": "buildui-com-series-framer-motion-recipes",
+  "url": "https://buildui.com/series/framer-motion-recipes",
+  "kind": "page",
+  "hints_hash": "0a47d6e63fd376d6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://buildui.com/series/framer-motion-recipes", "title": "Framer Motion Recipes", "status": null}
+  ],
+  "status": "ok",
+  "name": "Framer Motion Recipes",
+  "summary": "Video course that teaches Framer Motion by building six animated React components across eight lessons (3h 8m).",
+  "description": "Build UI's paid Framer Motion course: eight video lessons (3 hours 8 minutes) taught by Sam Selikoff, building a multistep wizard, an email client, a fixed header, a carousel, a resizable panel and a calendar. Each lesson has a live code demo, a GitHub repo with a source diff and a written summary with code snippets, plus a private Discord. $199 one-time, or $349 for lifetime access to all Build UI courses.",
+  "type": "course",
+  "categories": ["motion", "learning"],
+  "elements": ["stepper", "navbar", "carousel", "calendar"],
+  "keywords": ["framer motion", "react animation", "animation course", "video course", "scroll animation", "animatepresence", "dynamic variant", "carousel animation", "multistep wizard", "fixed header", "motion design", "frontend course", "react"],
+  "contains": ["8 lessons, 3h 8m of video", "builds 6 animated components from scratch", "per-lesson GitHub repos with source diffs", "live in-browser code demos and written summaries", "$199 one-time or $349 lifetime membership"],
+  "formats": ["video", "code", "docs"],
+  "stack": ["react", "framer-motion"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

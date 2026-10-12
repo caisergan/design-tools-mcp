@@ -1,0 +1,31 @@
+{
+  "id": "onepagelove-com-mat",
+  "url": "https://onepagelove.com/mat",
+  "kind": "page",
+  "hints_hash": "1f1d6809aba0909b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/mat", "title": "Mat — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mat",
+  "summary": "One Page Love showcase of Mat, a Framer one-pager for an iOS app that arranges photo cutouts on personalised digital mats.",
+  "description": "Showcase page for Mat, the one-page website of an iOS app that lets users create custom home screen layouts by arranging photo cutouts on personalised digital mats. Built with Framer; sections Eyebrow Text, Call-To-Action Hero, Device Mockup, Highlights Row and Manifesto; styles Fun, Retro & Vintage and Scroll Effects; typeface Nunito; colours Beige and Green; published 10 Jul 2026, credited to Rahul Singh Bhadoriya.",
+  "elements": ["hero", "cta"],
+  "keywords": ["one page website", "one pager", "ios app", "framer", "photo cutout", "home screen layout", "device mockup", "long scrolling", "scroll effect", "retro", "nunito", "app landing page", "website inspiration"],
+  "contains": [
+    "screenshot of the Mat one-pager with device mockup",
+    "sections: eyebrow text, call-to-action hero, device mockup, highlights row, manifesto",
+    "built with Framer; typeface Nunito",
+    "styles Fun, Retro & Vintage and Scroll Effects; colours Beige and Green",
+    "published 10 Jul 2026, credited to Rahul Singh Bhadoriya"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

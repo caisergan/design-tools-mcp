@@ -1,0 +1,31 @@
+{
+  "id": "xquik-com",
+  "url": "https://xquik.com",
+  "kind": "site",
+  "hints_hash": "c9afa5478c07b1cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://xquik.com/llms.txt", "title": "Xquik", "status": null},
+    {"url": "https://xquik.com", "title": "Xquik: X (Twitter) Scraper API, MCP & Automation Tools", "status": 200},
+    {"url": "https://xquik.com/docs/llms.txt", "title": "Xquik documentation", "status": 200},
+    {"url": "https://xquik.com/pricing.md", "title": "Xquik pricing", "status": 200},
+    {"url": "https://xquik.com/developers/llms.txt", "title": "Develop with Xquik", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Xquik",
+  "summary": "X (Twitter) scraper and automation API: search, extract and export posts, monitor accounts, publish, MCP server.",
+  "description": "An independent X (Twitter) data platform with 53 dashboard tools: search and extract tweets, replies, profiles, followers, lists, communities and Spaces; AI analysis such as sentiment, brand mentions and viral score; publishing from connected accounts; and trending sources including Reddit, GitHub, Hacker News, Google and Wikipedia. Integrates through a REST API with an OpenAPI 3.1 contract, a remote MCP endpoint, signed webhooks, TypeScript/Python/Go/Ruby SDKs and a CLI; exports to CSV, XLSX, JSON or Markdown. Not affiliated with X Corp.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["twitter api", "x api", "scraper", "tweet search", "tweet export", "follower export", "monitor", "webhook", "mcp server", "rest api", "sdk", "cli", "automation", "sentiment analysis", "trending", "data export"],
+  "contains": ["53 dashboard tools: extraction, AI analysis, write actions, trending", "REST API with OpenAPI 3.1 contract and a remote MCP endpoint", "SDKs for TypeScript, Python, Go and Ruby, plus a CLI", "exports CSV, XLSX, JSON and Markdown", "monitors accounts and keywords with 1-second checks and signed webhook events", "pay-as-you-go from $10 or monthly plans at $20, $99 and $199"],
+  "formats": ["api", "cli", "docs", "npm-package"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://xquik.com/docs/llms.txt", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

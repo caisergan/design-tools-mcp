@@ -1,0 +1,29 @@
+{
+  "id": "megmcclain-com",
+  "url": "https://megmcclain.com",
+  "kind": "site",
+  "hints_hash": "6eb9f3956f79f828",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:29:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://megmcclain.com/llms.txt", "title": "MegMcClainVO", "status": null},
+    {"url": "https://megmcclain.com", "title": "Meg McClain Voiceover", "status": 200},
+    {"url": "https://www.megmcclain.com/about", "title": "ABOUT | MegMcClainVO", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Meg McClain Voiceover",
+  "summary": "Portfolio site of voice actor Meg McClain: demo reels for commercials, animation, games and apps, plus roles, clients and studio setup.",
+  "description": "Voice-over portfolio and booking site: audio demo players for commercial, animation, children's promo and K-12 game and app work, a highlighted-roles list with client credits, and a home studio gear rundown (Neumann TLM 103, SSL 2, Source-Connect). Built on Wix; publishes an MCP endpoint so AI agents can read business details and search the site.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["voiceover", "voice actor", "voice acting", "demo reel", "voice demo", "anime voice", "video game voice", "commercial voiceover", "character voice", "dubbing", "narration", "children's media", "voiceover portfolio", "home studio gear", "audition"],
+  "contains": ["audio demos: commercial, animation, children's promo, K-12 mobile games & apps", "credits include Angels of Death, Fairy Tail Final, Fire Force, Goblin Slayer, Cygames and Yu-Gi-Oh", "highlighted roles and client sections", "home studio gear list: Neumann TLM 103, SSL 2, Audition, Twisted Wave, Source-Connect", "Wix-powered MCP endpoint for AI agent access"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

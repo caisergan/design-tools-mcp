@@ -1,0 +1,32 @@
+{
+ "id": "bannerbear-com",
+ "url": "https://bannerbear.com",
+ "kind": "site",
+ "hints_hash": "11353ddef6d9b831",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T19:00:41Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://bannerbear.com/llms.txt", "title": "Bannerbear", "status": null},
+  {"url": "https://bannerbear.com", "title": "API for Automated Image and Video Generation - Bannerbear", "status": 200},
+  {"url": "https://www.bannerbear.com/pricing", "title": "Pricing - Bannerbear", "status": 200},
+  {"url": "https://www.bannerbear.com/templates", "title": "Template Library - Bannerbear", "status": 200},
+  {"url": "https://www.bannerbear.com/examples", "title": "API Quick Start - Bannerbear", "status": 200},
+  {"url": "https://www.bannerbear.com/about", "title": "About Us - Bannerbear", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Bannerbear",
+ "summary": "API and no-code platform that auto-generates branded images, videos and PDFs from templates.",
+ "description": "Template-based media generation over a REST API: render images, multi-image sets, PDFs, animated GIFs, videos and multi-video movies from JSON payloads, chain steps with the Workflow API, and connect 50+ tools like Airtable, Notion, Shopify and Zapier. Also ships free client-side browser tools (background remover, video trim, subtitles, watermark) and an MCP server for AI agents.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["image generation api", "video generation api", "pdf generation api", "template", "marketing automation", "social media image", "open graph image", "banner generator", "background remover", "subtitle", "watermark", "no-code", "zapier", "airtable", "mcp server", "browser tool", "api", "automation"],
+ "contains": ["image, PDF, animation, video and workflow generation APIs", "ready-made template library plus a template editor", "50+ integrations incl. Airtable, Notion, WordPress, Zapier; MCP server for AI agents", "15+ free client-side browser tools: background remover, video trim/resize, subtitle burn, watermark", "5 free online generators: certificate, wedding invite, event ID card, photo collage, invoice", "pricing: Automate $49/mo, Scale $149/mo, Enterprise $299/mo; free trial with 30 credits"],
+ "formats": ["api", "templates", "docs", "png", "video"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

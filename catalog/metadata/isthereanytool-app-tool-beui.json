@@ -1,0 +1,24 @@
+{
+  "id": "isthereanytool-app-tool-beui",
+  "url": "https://isthereanytool.app/tool/beui",
+  "kind": "page",
+  "hints_hash": "485d846c668bb812",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://isthereanytool.app/tool/beui", "title": "beUI — motion UI patterns | isthereanytool.app", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "beUI",
+  "summary": "Free open source React components built with Motion and Tailwind CSS, copied through a public shadcn registry.",
+  "description": "Copy-paste component set with composable parts: a sortable list, an image viewer and a date range picker, each with a shared state hook and keyboard support. MIT licensed for personal and commercial projects; platforms React / Next.js.",
+  "type": "component-library",
+  "pricing": "free",
+  "license": "MIT",
+  "formats": ["code", "registry"],
+  "elements": ["list", "date-picker", "chart"],
+  "keywords": ["react component", "motion", "tailwind css", "shadcn registry", "copy paste component", "sortable list", "date range picker", "image viewer", "open source", "nextjs", "ui kit"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "isthereanytool-app" },
+  "confidence": 0.8
+}

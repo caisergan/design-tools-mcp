@@ -1,0 +1,75 @@
+{
+  "id": "joshwcomeau-com",
+  "url": "https://joshwcomeau.com",
+  "kind": "site",
+  "hints_hash": "773317551fbf321f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://joshwcomeau.com",
+      "title": "Josh W. Comeau",
+      "status": 200
+    },
+    {
+      "url": "https://www.joshwcomeau.com/courses/",
+      "title": "Online Courses • Josh W. Comeau",
+      "status": 200
+    },
+    {
+      "url": "https://www.joshwcomeau.com/about-josh/",
+      "title": "Josh W. Comeau",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Josh W. Comeau",
+  "summary": "Personal site of front-end developer Josh W. Comeau: in-depth articles and tutorials on CSS, React, animation and SVG.",
+  "description": "Articles and tutorials for front-end web developers covering CSS (anchor positioning, subgrid, @starting-style, the linear() timing function), React, JavaScript, SVG and animation, browsable by category with a blog and a popular-content list. The site also hosts interactive self-paced courses — CSS for JavaScript Developers, The Joy of React and Whimsical Animations — for which developers register; the articles are free to read.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "css tutorial",
+    "react tutorial",
+    "animation tutorial",
+    "svg tutorial",
+    "frontend blog",
+    "interactive course",
+    "css layout",
+    "flexbox",
+    "css grid",
+    "scroll animation",
+    "react hook",
+    "web development article",
+    "frontend developer",
+    "coding course"
+  ],
+  "contains": [
+    "articles/tutorials on CSS, React, JavaScript, SVG, animation, career and Next.js",
+    "interactive courses: CSS for JavaScript Developers, The Joy of React, Whimsical Animations",
+    "31,997 developers registered for the courses (about page)",
+    "popular posts: interactive guides to flexbox, CSS grid and CSS transitions"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

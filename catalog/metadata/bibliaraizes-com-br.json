@@ -1,0 +1,29 @@
+{
+  "id": "bibliaraizes-com-br",
+  "url": "https://bibliaraizes.com.br",
+  "kind": "site",
+  "hints_hash": "b911c847ab76265a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bibliaraizes.com.br/llms.txt", "title": "Bíblia Raízes", "status": null},
+    {"url": "https://bibliaraizes.com.br", "title": "Bíblia Raízes | Estude a Bíblia em Hebraico e Grego", "status": 200},
+    {"url": "https://bibliaraizes.com.br/llms-full.txt", "title": "Bíblia Raízes", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Bíblia Raízes",
+  "summary": "Portuguese Bible study platform with Hebrew and Greek word-by-word text, cited AI answers and a library of classic works.",
+  "description": "Bíblia Raízes maps the Almeida Revista e Atualizada text to biblical Hebrew and Greek word by word, showing transliteration, morphology, meaning in context and every occurrence. An AI assistant answers in Portuguese with cited sources drawn from the Scriptures and the library of 11 classic works; highlights, per-verse notes, a study editor and a prayer list round it out.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["bible study", "bible", "hebrew", "greek", "interlinear", "original text", "bible commentary", "ai search", "citation", "study note", "verse highlight", "prayer list", "christian classic", "sermon preparation", "bible library", "transliteration", "morphology"],
+  "contains": ["Hebrew and Greek word-by-word mapping with transliteration, morphology and occurrences", "interlinear view; Almeida Revista e Atualizada translation", "AI answers in Portuguese with cited sources (included in the launch offer)", "library of 11 classic works in Portuguese", "highlights, per-verse notes, study editor and prayer list", "works in the browser and installs as an app", "launch offer: R$ 97.90 one-time lifetime access (12x R$ 9.77); 7-day refund; later annual subscription"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

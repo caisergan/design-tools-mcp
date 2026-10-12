@@ -1,0 +1,27 @@
+{
+  "id": "ky-fyi-posts-data-driven",
+  "url": "https://ky.fyi/posts/data-driven",
+  "kind": "page",
+  "hints_hash": "2638cd9c2d759506",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ky.fyi/posts/data-driven", "title": "Building data-driven design systems · Ky Decker", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Building data-driven design systems",
+  "summary": "Case study on scaling Scribe's design system with surveys and metrics, serving over 6 million users.",
+  "description": "Personal write-up by Ky Decker, Scribe's first design engineer, about running Scribe's design system from June 2024 to April 2026. It explains the survey questions used to track adoption, predictability, naming, time savings, documentation and collaboration, the results after 18 months, and the lessons drawn from them.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["design system", "design system survey", "design ops", "design engineer", "component library", "design system adoption", "documentation", "react", "tailwind", "storybook", "figma", "case study"],
+  "contains": ["case study of Scribe's design system, June 2024 to April 2026", "survey questions on adoption, predictability, naming, time savings, documentation and collaboration", "results after 18 months", "tech named: React, Tailwind, Storybook, Astro, Starlight, Omlet, Figma"],
+  "formats": ["docs"],
+  "stack": ["react", "tailwind", "storybook", "astro", "starlight"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

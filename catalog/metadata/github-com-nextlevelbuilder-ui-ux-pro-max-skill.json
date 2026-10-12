@@ -1,0 +1,87 @@
+{
+  "id": "github-com-nextlevelbuilder-ui-ux-pro-max-skill",
+  "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "kind": "repo",
+  "hints_hash": "d1fd06030e8d8f81",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/HEAD/README.md",
+      "title": "UI UX Pro Max",
+      "status": null
+    },
+    {
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "title": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/HEAD/LICENSE",
+      "title": "ui-ux-pro-max-skill/LICENSE at 67803eac81607188194aea9842a723b89326d90d · nextlevelbuilder/ui-ux-pro-max-skill · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI UX Pro Max",
+  "summary": "Agent skill that generates a tailored design system — styles, palettes, fonts and UX rules — before UI code is written.",
+  "description": "An AI skill that reasons about your product type to generate design guidance: 79 searchable UI styles (50 active), 192 industry-specific color palettes, 74 curated font pairings, 25 chart types for dashboards, 119 UX guidelines and anti-patterns, and 192 industry reasoning rules, matched through a BM25 search engine. It ships as a CLI that installs per-agent files for Claude Code, Cursor, Windsurf, Codex and more, with stack-specific guidance for 22 frameworks; a design system can be persisted to files for hierarchical retrieval.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "design system",
+    "ui style",
+    "color palette",
+    "font pairing",
+    "ux guideline",
+    "glassmorphism",
+    "brutalism",
+    "neumorphism",
+    "bento grid",
+    "dark mode",
+    "tailwind",
+    "react",
+    "shadcn",
+    "landing page",
+    "typography",
+    "agent skill",
+    "design rule",
+    "cli"
+  ],
+  "contains": [
+    "79 searchable UI styles (50 active)",
+    "192 industry color palettes aligned to 192 product types",
+    "74 font pairings, 25 chart types, 119 UX guidelines",
+    "192 industry-specific reasoning rules (v2.0)",
+    "stack guidance for 22 frameworks",
+    "BM25 search over the style, palette and font catalog",
+    "basic version free; premium adds brand identity and asset generation"
+  ],
+  "formats": [
+    "prompts",
+    "cli",
+    "code"
+  ],
+  "stack": [
+    "node",
+    "python"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "docs": null,
+    "npm": "ui-ux-pro-max-cli",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

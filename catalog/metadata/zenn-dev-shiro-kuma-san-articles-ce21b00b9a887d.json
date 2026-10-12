@@ -1,0 +1,46 @@
+{
+  "id": "zenn-dev-shiro-kuma-san-articles-ce21b00b9a887d",
+  "url": "https://zenn.dev/shiro_kuma_san/articles/ce21b00b9a887d",
+  "kind": "page",
+  "hints_hash": "c95fef937b1e566e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://zenn.dev/shiro_kuma_san/articles/ce21b00b9a887d", "title": "Claude DesignをClaude Codeから動かしてループエンジニアリングする", "status": null}
+  ],
+  "status": "ok",
+  "name": "Claude DesignをClaude Codeから動かしてループエンジニアリングする",
+  "summary": "Japanese write-up on driving Claude Design from Claude Code over MCP to loop UI mock revisions.",
+  "description": "Case study on moving design change requests out of a browser chat and into a repo changes.md written in EARS notation, with per-screen structure, UI element lists and requirements. Claude Code then reads and writes the Claude Design project through DesignSync MCP tools, screenshots the locally rendered screens and re-fixes only the diffs, which the author reports cut token use by roughly 20-30%.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": [
+    "claude code",
+    "claude design",
+    "figma",
+    "ui design",
+    "loop engineering",
+    "mcp",
+    "design workflow",
+    "ears notation",
+    "change request",
+    "screenshot verification",
+    "prompt",
+    "japanese"
+  ],
+  "contains": [
+    "workflow: changes.md with EARS statements per screen",
+    "Claude Design MCP tools: DesignSync, finalize_plan, write_files",
+    "loop: apply changes, render locally, screenshot the full page, compare with requirements",
+    "author reports 20-30% lower token use",
+    "published 2026/09/10 on Zenn"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

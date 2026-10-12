@@ -1,0 +1,32 @@
+{
+  "id": "reactbits-dev-backgrounds-molten-metal",
+  "url": "https://reactbits.dev/backgrounds/molten-metal",
+  "kind": "page",
+  "hints_hash": "f5dd5f8b3e647229",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://reactbits.dev/backgrounds/molten-metal", "title": "Molten Metal — React Background | React Bits", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Molten Metal",
+  "summary": "React Bits animated background component: swirling caustic plasma filaments with molten, white-hot cores.",
+  "description": "A React background component from React Bits: swirling caustic plasma filaments with molten, white-hot cores. Choose JavaScript or TypeScript and plain CSS or Tailwind, preview it with the page's customization controls and copy or install the source. Related components: Plasma Wave, CRT Warp and Plasma.",
+  "type": "component-library",
+  "elements": ["background"],
+  "keywords": ["react component", "animated background", "background", "plasma", "molten metal", "glowing background", "free component", "react", "typescript", "javascript", "css", "tailwind", "copy paste", "shadcn cli"],
+  "contains": [
+    "animated background: swirling caustic plasma filaments with molten, white-hot cores",
+    "ships in JavaScript or TypeScript, with plain CSS or Tailwind",
+    "interactive preview with customization controls and source tabs",
+    "part of React Bits, an open-source React component library",
+    "related components: Plasma Wave, CRT Warp, Plasma"
+  ],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "typescript", "javascript", "css", "tailwind"],
+  "pricing": "free",
+  "license": "MIT+Commons-Clause",
+  "related": {"repo": null, "docs": "https://reactbits.dev/get-started/installation", "npm": null, "figma": null, "parent": "reactbits-dev"},
+  "confidence": 0.8
+}

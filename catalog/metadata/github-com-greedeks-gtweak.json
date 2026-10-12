@@ -1,0 +1,78 @@
+{
+  "id": "github-com-greedeks-gtweak",
+  "url": "https://github.com/Greedeks/GTweak",
+  "kind": "repo",
+  "hints_hash": "a7b62bae2a8a5b0b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Greedeks/GTweak/blob/HEAD/README.md",
+      "title": "GTweak README",
+      "status": null
+    },
+    {
+      "url": "https://github.com/Greedeks/GTweak",
+      "title": "GitHub - Greedeks/GTweak: Portable Tool for an Ideal Windows Setup",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "GTweak",
+  "summary": "Portable Windows tweaking tool that removes bloat, disables telemetry and applies privacy and performance tweaks.",
+  "description": "A portable Windows utility for debloating and tuning a system. It uninstalls bundled apps and AI assistants (OneDrive, Edge, pre-installed UWP apps, Cortana, Copilot, Recall), disables telemetry, updates and unnecessary services, blocks Microsoft shadow domains via hosts and firewall, and exposes privacy, network, power, UI and maintenance tweaks. It can also run custom scripts with TrustedInstaller privileges, and ships community translations.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "window",
+    "debloat",
+    "bloatware removal",
+    "telemetry",
+    "privacy",
+    "system utility",
+    "tweaker",
+    "windows 11",
+    "windows 10",
+    "portable",
+    "optimization",
+    "registry tweak",
+    "csharp",
+    "wpf"
+  ],
+  "contains": [
+    "portable Windows 10/11 tweak utility in C# and WPF",
+    "removes OneDrive, Edge, WebView2, UWP apps, Cortana, Copilot and Recall",
+    "disables telemetry, update services, diagnostics and scheduled tasks",
+    "blocks Microsoft shadow domains via hosts and firewall",
+    "applies privacy, network, power, UI and maintenance tweaks",
+    "runs custom .ps1, .cmd, .bat and .reg scripts as TrustedInstaller",
+    "13 translated READMEs",
+    "BSD-3-Clause licensed (1.8k stars)"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "csharp",
+    "wpf"
+  ],
+  "pricing": "free",
+  "license": "BSD-3-Clause",
+  "related": {
+    "repo": "https://github.com/Greedeks/GTweak",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

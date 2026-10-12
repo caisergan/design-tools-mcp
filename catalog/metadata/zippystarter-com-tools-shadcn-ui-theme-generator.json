@@ -1,0 +1,46 @@
+{
+  "id": "zippystarter-com-tools-shadcn-ui-theme-generator",
+  "url": "https://zippystarter.com/tools/shadcn-ui-theme-generator",
+  "kind": "page",
+  "hints_hash": "fedbce54c1f08420",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://zippystarter.com/tools/shadcn-ui-theme-generator",
+      "title": "Shadcn Theme Generator",
+      "status": null
+    }
+  ],
+  "status": "partial",
+  "name": "Shadcn Theme Generator",
+  "summary": "Visual theme generator for shadcn/ui: create and export themes from a single colour or ready-made presets.",
+  "description": "An advanced visual theme generator for shadcn/ui. Create, tweak and export themes from a single colour or ready-made presets; free to use.",
+  "type": "generator",
+  "pricing": "free",
+  "keywords": [
+    "shadcn",
+    "theme generator",
+    "color",
+    "preset",
+    "css variable",
+    "design token",
+    "dark mode",
+    "tailwind",
+    "theme",
+    "export"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

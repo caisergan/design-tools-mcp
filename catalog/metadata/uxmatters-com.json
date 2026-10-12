@@ -1,0 +1,48 @@
+{
+  "id": "uxmatters-com",
+  "url": "https://uxmatters.com",
+  "kind": "site",
+  "hints_hash": "d8ae2aebcb83cb5f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uxmatters.com", "title": "UXmatters :: Insights and inspiration for the user experience community", "status": null},
+    {"url": "https://www.uxmatters.com/about-us", "title": "UXmatters :: About UXmatters", "status": null}
+  ],
+  "status": "ok",
+  "name": "UXmatters",
+  "summary": "Web magazine of articles and columns on UX research, strategy, design and the business of user experience.",
+  "description": "UXmatters is an online magazine founded in 2005 that publishes articles and regular columns by UX practitioners, grouped into topics such as business, code, community, design, experiences, process, research, reviews and strategy. Readers get editions published roughly every two weeks, a top-articles page, an author index and a glossary.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": [
+    "ux magazine",
+    "user experience",
+    "ux article",
+    "ux column",
+    "ux research",
+    "ux strategy",
+    "information architecture",
+    "usability",
+    "design process",
+    "ai design",
+    "ux career",
+    "glossary"
+  ],
+  "contains": [
+    "web magazine founded in 2005 by Pabini Gabriel-Petit",
+    "articles and columns in editions that appear about every two weeks",
+    "topics: business, code, community, design, experiences, process, research, reviews, strategy",
+    "top-articles page, author index and UX glossary",
+    "roughly 3,400 URLs in its sitemap",
+    "columns such as AI Minds, Inclusive User Experiences and Structuring Success"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

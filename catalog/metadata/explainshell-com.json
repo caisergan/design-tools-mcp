@@ -1,0 +1,28 @@
+{
+  "id": "explainshell-com",
+  "url": "https://explainshell.com",
+  "kind": "site",
+  "hints_hash": "83d173aa81fd40f4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://explainshell.com", "title": "explainshell.com - match command-line arguments to their help text", "status": 200},
+    {"url": "https://github.com/idank/explainshell", "title": "GitHub - idank/explainshell: match command-line arguments to their help text", "status": 200}
+  ],
+  "status": "ok",
+  "name": "explainshell.com",
+  "summary": "Web tool that matches each argument of a shell command to the relevant manpage help text.",
+  "description": "Write a command line on explainshell.com and it parses the command's AST, then explains each argument with the corresponding snippet from the manpage, scoped to distributions like Ubuntu 26.04 or Arch. Open source (GPLv3), built with Python, Flask, bashlex and SQLite; manpages come from the Ubuntu archive and manned.org.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["shell command", "command line", "manpage", "terminal", "bash", "cli", "argument", "help text", "linux", "open source", "developer tool"],
+  "contains": ["matches each command-line argument to manpage help text", "manpage database scoped by distro/release (Ubuntu 26.04, Arch)", "example commands and light/dark themes", "open source, 14.3k+ GitHub stars"],
+  "formats": ["app", "code"],
+  "stack": ["python", "flask", "bashlex", "sqlite"],
+  "pricing": "free",
+  "license": "GPL-3.0",
+  "related": {"repo": "https://github.com/idank/explainshell", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

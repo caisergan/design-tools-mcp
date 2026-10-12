@@ -1,0 +1,41 @@
+{
+  "id": "designmd-app",
+  "url": "https://designmd.app",
+  "kind": "site",
+  "hints_hash": "47e52628b87e3df2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designmd.app/llms.txt", "title": "designmd.app", "status": null},
+    {"url": "https://designmd.app", "title": "DESIGN.md — 759 Design System Files for AI Coding Agents", "status": 200},
+    {"url": "https://designmd.app/library", "title": "DESIGN.md Library — 759 Design Systems for AI Agents", "status": 200},
+    {"url": "https://designmd.app/guides", "title": "DESIGN.md Setup Guides — AI Agent Configuration", "status": 200},
+    {"url": "https://designmd.app/skills", "title": "AI Agent Skills — SKILL.md for Claude, Cursor, Kiro", "status": 200},
+    {"url": "https://designmd.app/about", "title": "About designmd.app — Open DESIGN.md Reference", "status": 200}
+  ],
+  "status": "ok",
+  "name": "designmd.app",
+  "summary": "Open library of 759 documented DESIGN.md design-system files for AI coding agents.",
+  "description": "Ready-to-copy DESIGN.md files: Markdown design-system specs with YAML token front matter (colors, typography, spacing, components) that AI coding agents read before generating UI. Browse by style and industry vertical, or take a brand system from the Real Brands section; setup guides cover Claude Code, Cursor, Kiro, Windsurf, Google Stitch and more, alongside the official @google/design.md lint CLI.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["design system", "design token", "design rule", "ai agent", "agent skill", "style guide", "markdown", "yaml", "claude code", "cursor", "windsurf", "kiro", "google stitch", "codex", "copilot", "tailwind", "dtcg", "ui consistency", "code generation", "prompt", "design spec", "brand guideline", "vibe coding", "skill.md"],
+  "contains": [
+    "759 documented DESIGN.md files ready to copy",
+    "47 real brand design systems extracted from public sources",
+    "format: YAML token front matter + Markdown prose, 8 canonical sections",
+    "setup guides for Claude Code, Cursor, Kiro, Windsurf, Google Stitch, Copilot, Cline, Aider, Codex, Devin, Continue.dev",
+    "official CLI: npx @google/design.md lint|diff|export|spec",
+    "exports tokens to Tailwind theme config and DTCG tokens.json",
+    "AI agent skills (SKILL.md modules) in a separate section",
+    "open-source format maintained by Google (github.com/google-labs-code/design.md)"
+  ],
+  "formats": ["prompts", "templates", "docs", "cli"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://designmd.app/what-is-design-md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ui-unlumen-com-components",
+  "url": "https://ui.unlumen.com/components",
+  "kind": "page",
+  "hints_hash": "2f9fe6b196fcf64a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.unlumen.com/components", "title": "Components – unlumen UI", "status": 200},
+    {"url": "https://ui.unlumen.com/pricing", "title": "Unlumen UI Pricing", "status": 200}
+  ],
+  "status": "ok",
+  "name": "unlumen UI",
+  "summary": "Catalog of 80 animated React components for landing pages, installed with the shadcn CLI; individual pieces marked Free or Pro.",
+  "description": "The components index of unlumen UI, grouped into Animations (28), Image Effects, Marketing, Navigation (10), Backgrounds & Shaders and Icons. Each card links to a component page; free and Pro items install through the shadcn CLI, with lifetime Pro access at $119.",
+  "keywords": ["animated component", "react component", "shadcn registry", "copy paste component", "navbar", "sidebar", "dock", "background", "text animation", "marquee", "cursor trail", "ai chat", "testimonials", "component library", "tailwind css", "motion", "landing page", "free component", "pro component", "webgl"],
+  "elements": ["navbar", "sidebar", "dock", "background", "text-effect", "marquee", "card", "list", "cursor", "chat", "input", "switch", "accordion", "testimonials"],
+  "formats": ["registry", "cli", "code"],
+  "pricing": "freemium",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

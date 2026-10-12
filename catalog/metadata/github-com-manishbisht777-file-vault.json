@@ -1,0 +1,85 @@
+{
+  "id": "github-com-manishbisht777-file-vault",
+  "url": "https://github.com/ManishBisht777/file-vault",
+  "kind": "repo",
+  "hints_hash": "a3002d24d438be36",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ManishBisht777/file-vault/blob/HEAD/README.md",
+      "title": "file-vault",
+      "status": null
+    },
+    {
+      "url": "https://github.com/ManishBisht777/file-vault",
+      "title": "GitHub - ManishBisht777/file-vault",
+      "status": 200
+    },
+    {
+      "url": "https://file-vault-delta.vercel.app",
+      "title": "File Vault",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ManishBisht777/file-vault/HEAD/package.json",
+      "title": "package.json",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "File Vault",
+  "summary": "File upload component for React with a Cloudinary upload helper, demoed in a small Next.js app.",
+  "description": "A file upload component for React together with a Cloudinary upload helper function, shipped in a small Next.js 14 demo app at file-vault-delta.vercel.app. The component builds its drop area with react-dropzone and Radix UI dialog and scroll-area parts styled with Tailwind; the helper uploads the selected files to Cloudinary. Code is meant to be copied into your own project.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "file-upload"
+  ],
+  "keywords": [
+    "file upload",
+    "cloudinary",
+    "react",
+    "next.js",
+    "dropzone",
+    "upload component",
+    "image upload",
+    "tailwind",
+    "radix ui",
+    "drag and drop"
+  ],
+  "contains": [
+    "file upload component plus a Cloudinary upload helper function",
+    "Next.js 14 demo app at file-vault-delta.vercel.app",
+    "uses react-dropzone and Radix UI parts",
+    "Tailwind styling (tailwind-merge, tailwindcss-animate)",
+    "399 stars on GitHub"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "react-dropzone",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/ManishBisht777/file-vault",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

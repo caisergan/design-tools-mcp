@@ -1,0 +1,28 @@
+{
+  "id": "grainient-supply-freebies",
+  "url": "https://grainient.supply/freebies",
+  "kind": "page",
+  "hints_hash": "9f755105f6c0556f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://grainient.supply/freebies", "title": "Grainient | Freebies", "status": null},
+    {"url": "https://grainient.supply/backgrounds/ecliptic---01", "title": "Ecliptic - 01 - Unlimited Gradients and AI-Generated Backgrounds", "status": 200},
+    {"url": "https://grainient.supply/license-agreement", "title": "Grainient | License agreement", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Freebies — Grainient",
+  "summary": "Free gradients, grainy textures and AI-generated backgrounds from Grainient's collections.",
+  "description": "The free download section of Grainient, a gradient and background library. It hands out a selection of smooth-blend gradients, noisy grainy textures and AI-generated backgrounds at no cost — for example Ecliptic - 01, a 5K (5120×2880) JPG — while further collections and unlimited downloads come with the paid Pro subscription.",
+  "type": "asset-library",
+  "elements": ["background"],
+  "keywords": ["gradient", "background", "texture", "grain", "noise texture", "ai-generated background", "wallpaper", "free download", "jpg", "5k", "smooth blend", "gradient pack"],
+  "contains": ["free sample gradients, grainy textures and AI-generated backgrounds", "example freebie: Ecliptic - 01, JPG, 5120×2880, 3.29 MB", "categories: smooth blend, noisy grainy, ai-generated", "Pro subscription for unlimited downloads", "license: personal and commercial use with restrictions"],
+  "formats": ["png"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "grainient-supply"},
+  "confidence": 0.75
+}

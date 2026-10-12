@@ -1,0 +1,39 @@
+{
+  "id": "landing-gallery",
+  "url": "https://landing.gallery",
+  "kind": "site",
+  "hints_hash": "3888c120c42c01bc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://landing.gallery/llms.txt", "title": "Landing.Gallery", "status": null},
+    {"url": "https://landing.gallery", "title": "Best Landing Page Inspiration Library | Landing.Gallery", "status": 200},
+    {"url": "https://www.landing.gallery/about", "title": "About | Landing.Gallery", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Landing.Gallery",
+  "summary": "Curated library of 1,800+ real landing-page screenshots with desktop and mobile views.",
+  "description": "Browse 1,816+ hand-picked landing pages with full-page desktop and mobile screenshots, tagged by page type (pricing, about, careers), page builder (Webflow, Framer, Shopify) and framework (Next.js). Every submission is reviewed manually, and a public MCP server exposes search and website lookup for agents.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["hero", "navbar", "footer", "pricing"],
+  "keywords": [
+    "landing page", "landing page inspiration", "design inspiration", "website screenshot",
+    "web design gallery", "pricing page", "careers page", "webflow", "framer", "next.js",
+    "mcp server", "saas landing page"
+  ],
+  "contains": [
+    "1,816+ hand-picked landing pages",
+    "filters: page type, page builder, framework, device",
+    "full-page desktop and mobile screenshots",
+    "manual review of every submission",
+    "public MCP server with searchinspiration and getwebsite tools"
+  ],
+  "formats": ["screenshots", "links", "api"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

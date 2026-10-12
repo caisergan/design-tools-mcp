@@ -1,0 +1,105 @@
+{
+  "id": "animate-ui-com",
+  "url": "https://animate-ui.com",
+  "kind": "site",
+  "hints_hash": "5799676b4bb2d7db",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://animate-ui.com",
+      "title": "Animate UI - Animated React Components",
+      "status": 200
+    },
+    {
+      "url": "https://animate-ui.com/docs",
+      "title": "Introduction - Animate UI",
+      "status": 200
+    },
+    {
+      "url": "https://animate-ui.com/docs/installation",
+      "title": "Installation - Animate UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/imskyleen/animate-ui",
+      "title": "GitHub - imskyleen/animate-ui: Fully animated, open-source component distribution",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Animate UI",
+  "summary": "Open-source distribution of animated React components, primitives and icons, installed with the shadcn CLI.",
+  "description": "A fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS and Motion, following the shadcn registry model. It ships components, primitives and icons — browse each with a live preview, then install with the shadcn CLI add command or copy the source.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "checkbox",
+    "switch",
+    "button",
+    "modal",
+    "tabs",
+    "background",
+    "popover",
+    "card",
+    "tooltip",
+    "accordion",
+    "progress",
+    "dropdown"
+  ],
+  "keywords": [
+    "animated react component",
+    "react animation",
+    "shadcn cli",
+    "shadcn registry",
+    "tailwind css",
+    "motion animation",
+    "component distribution",
+    "animated button",
+    "animated checkbox",
+    "animated switch",
+    "animated tab",
+    "dialog",
+    "popover",
+    "tooltip",
+    "accordion",
+    "animated icon",
+    "copy paste component",
+    "open source"
+  ],
+  "contains": [
+    "580 shadcn registry items across components, primitives and icons",
+    "built with React, TypeScript, Tailwind CSS and Motion",
+    "install with the shadcn CLI or copy the source into your project",
+    "component names cover base and Radix variants (e.g. Base Tabs, Radix Accordion)"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/imskyleen/animate-ui",
+    "docs": "https://animate-ui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

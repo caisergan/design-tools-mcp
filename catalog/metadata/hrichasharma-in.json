@@ -1,0 +1,29 @@
+{
+  "id": "hrichasharma-in",
+  "url": "https://hrichasharma.in",
+  "kind": "site",
+  "hints_hash": "6081cceb062b8398",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:21:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hrichasharma.in", "title": "Hricha Sharma | Frontend Developer | Design Engineer", "status": null},
+    {"url": "https://hrichasharma.in/component", "title": "Hricha Sharma | Frontend Developer | Design Engineer", "status": null},
+    {"url": "https://hrichasharma.in/projects", "title": "Hricha Sharma | Frontend Developer | Design Engineer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hricha Sharma",
+  "summary": "Portfolio of a frontend developer and design engineer, with seven copy-paste UI components.",
+  "description": "Personal portfolio of Hricha Sharma, a frontend developer and design engineer: experience, projects, skills and a components page with seven production-ready UI pieces whose source code can be copied directly. The listed projects are built with Next.js, Tailwind CSS and Framer Motion.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["navbar", "hero", "card", "button", "contact"],
+  "keywords": ["react component", "copy paste component", "ui component", "component source code", "portfolio website", "developer portfolio", "frontend developer", "design engineer", "nextjs portfolio", "tailwind css", "framer motion", "dark mode portfolio", "personal website", "interaction design", "web design"],
+  "contains": ["7 copy-paste UI components with source code", "portfolio sections: experience, projects, components, skills, contact", "projects built with Next.js, Tailwind CSS and Framer Motion", "live developer activity via WakaTime"],
+  "formats": ["code", "links"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

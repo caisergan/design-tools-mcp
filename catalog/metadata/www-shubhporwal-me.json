@@ -1,0 +1,30 @@
+{
+  "id": "www-shubhporwal-me",
+  "url": "https://www.shubhporwal.me",
+  "kind": "site",
+  "hints_hash": "5a4aaeef93fbb64f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.shubhporwal.me", "title": "Portfolio | Shubh Porwal", "status": null},
+    {"url": "https://github.com/shubh73", "title": "shubh73 (Shubh Porwal) · GitHub", "status": 200},
+    {"url": "https://github.com/shubh73/devfolio", "title": "GitHub - shubh73/devfolio: 👨‍🎓 An eye-catching developer Portfolio, built on NextJS, GSAP, Tailwind and React.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/shubh73/devfolio/main/README.md", "title": "devfolio", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shubh Porwal",
+  "summary": "Personal portfolio of product engineer Shubh Porwal, built with Next.js, GSAP, Tailwind CSS and React.",
+  "description": "The personal portfolio of Shubh Porwal, a product engineer. Its MIT-licensed source, devfolio, is a Next.js site animated with GSAP and styled with Tailwind CSS and React; it is responsive and mobile-first, deployed on Vercel, and documented with a live demo plus forking instructions. The design may be drawn on as inspiration freely, while forked code should keep attribution.",
+  "type": "app",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["portfolio", "developer portfolio", "personal website", "product engineer", "nextjs", "react", "gsap", "tailwind", "animation", "responsive", "mobile-first", "portfolio template", "open source"],
+  "contains": ["MIT-licensed source repo (450+ stars, 89 forks)", "Next.js, GSAP, Tailwind CSS and React; dev server runs on bun", "responsive, mobile-first, deployed on Vercel", "live demo at shubhporwal.me and forking instructions"],
+  "formats": ["app", "code"],
+  "stack": ["react", "nextjs", "tailwind", "gsap"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shubh73/devfolio", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

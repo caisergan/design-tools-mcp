@@ -1,0 +1,53 @@
+{
+  "id": "mdxeditor-dev",
+  "url": "https://mdxeditor.dev",
+  "kind": "site",
+  "hints_hash": "5e6b8b566dd90ca3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mdxeditor.dev", "title": "MDXEditor - the Rich Text Markdown Editor React Component", "status": null},
+    {"url": "https://github.com/mdx-editor/editor", "title": "GitHub - mdx-editor/editor: A rich text editor React component for markdown", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MDXEditor",
+  "summary": "Open-source React component for WYSIWYG markdown editing, with tables, code blocks, JSX and a configurable toolbar.",
+  "description": "A React component that lets users author markdown in a rich-text editor instead of an edit/preview split. It covers core markdown plus extensions such as tables, images, code blocks with syntax highlighting and optional CodeMirror, links, front matter, JSX components and custom directives, with a diff/source view, customizable toolbar and tunable markdown output. MIT licensed, documented at mdxeditor.dev.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input", "table", "button", "modal"],
+  "keywords": [
+    "markdown editor",
+    "rich text editor",
+    "wysiwyg editor",
+    "react component",
+    "mdx",
+    "code block",
+    "syntax highlighting",
+    "codemirror",
+    "table editor",
+    "front matter",
+    "jsx editor",
+    "toolbar",
+    "diff view",
+    "open source",
+    "docs editor"
+  ],
+  "contains": [
+    "React component for WYSIWYG markdown editing",
+    "table editor, link dialog, image support and front-matter editor",
+    "code blocks with syntax highlighting, optional CodeMirror editing",
+    "built-in JSX component editing and custom directive editors",
+    "diff/source view",
+    "configurable markdown output (bullet style, emphasis markers, whitespace)",
+    "customizable toolbar",
+    "3.7k GitHub stars, MIT licensed"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "typescript", "lexical"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mdx-editor/editor", "docs": "https://mdxeditor.dev/editor/docs/getting-started", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

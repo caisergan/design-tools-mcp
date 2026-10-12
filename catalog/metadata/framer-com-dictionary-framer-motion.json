@@ -1,0 +1,28 @@
+{
+  "id": "framer-com-dictionary-framer-motion",
+  "url": "https://framer.com/dictionary/framer-motion",
+  "kind": "page",
+  "hints_hash": "3d5236afc61ed5e8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/dictionary/framer-motion", "title": "Framer Motion: Definition, Examples, and Framer Context", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Framer Motion",
+  "summary": "Framer dictionary entry on Framer Motion (now Motion.dev): what the React animation library is and how Framer covers it.",
+  "description": "A glossary page that defines Framer Motion — the high-performance animation library for React and JavaScript now documented as Motion.dev — and explains its role in web design. It notes that building in Framer needs no npm install or custom React animation code because Motion-powered tools are built into the canvas (appear effects, scroll animations, hover and tap states, transitions and component variants), and links related terms like Bezier Curve, Canvas, Easing, Frame and Keyframe.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["framer motion", "motion.dev", "animation library", "react animation", "javascript animation", "web animation", "keyframe", "easing", "bezier curve", "canvas", "glossary", "definition", "scroll animation", "component variant", "transition"],
+  "contains": [
+    "defines Framer Motion, now Motion.dev, as an animation library for React and JavaScript",
+    "notes Framer's canvas has Motion-powered animation tools built in",
+    "lists appear effects, scroll animations, hover/tap states, transitions and variants",
+    "related terms: Bezier Curve, Canvas, Easing, Frame, Keyframe, Motion"
+  ],
+  "formats": ["docs"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

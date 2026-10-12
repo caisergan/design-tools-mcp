@@ -1,0 +1,77 @@
+{
+  "id": "diabrowser-com",
+  "url": "https://diabrowser.com",
+  "kind": "site",
+  "hints_hash": "f9f5fcb34ab771af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.diabrowser.com/",
+      "title": "Dia | The browser for better days at work.",
+      "status": 200
+    },
+    {
+      "url": "https://www.diabrowser.com/earlybirds",
+      "title": "Dia Browser | Early Birds",
+      "status": 200
+    },
+    {
+      "url": "https://www.diabrowser.com/plans",
+      "title": "Dia Browser | Plans",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Dia",
+  "summary": "Desktop browser with AI chat that reads across your tabs and tools, plus profiles, split view and meeting features.",
+  "description": "Dia is a browser for macOS and Windows with a built-in AI layer: ask questions on any page, get synthesis from connected tools (Slack, Notion, Teams, GSuite), and turn scattered context into reports or slides. Free browser tier; Better Answers ($10/month) and Better Days ($100/month) plans add AI usage, the daily Morning Brief and meeting prep.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "browser",
+    "ai browser",
+    "ai chat",
+    "tab management",
+    "profile",
+    "split view",
+    "picture in picture",
+    "ad blocker",
+    "meeting note",
+    "morning brief",
+    "report",
+    "macos",
+    "window",
+    "work browser"
+  ],
+  "contains": [
+    "free browser tier; Better Answers $10/month; Better Days $100/month",
+    "AI chat over tabs and connected tools (Slack, Notion, Teams, GSuite, GitHub)",
+    "profiles, tab groups, split view, picture-in-picture, ad and tracking blocker, cross-device sync",
+    "Morning Brief daily summary plus reports, decks and meeting prep on paid plans",
+    "available for macOS and Windows",
+    "Early Birds program for early access to experimental features"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://www.diabrowser.com/help",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,33 @@
+{
+  "id": "github-com-bergside-design-md-figma",
+  "url": "https://github.com/bergside/design-md-figma",
+  "kind": "repo",
+  "hints_hash": "9e8c148c271373c1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:30:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/bergside/design-md-figma/blob/HEAD/README.md", "title": "DESIGN.md generator for Figma - TypeUI", "status": null}
+  ],
+  "status": "ok",
+  "name": "DESIGN.md generator for Figma",
+  "summary": "Figma plugin that extracts the open file's styles and variables and generates editable DESIGN.md and SKILL.md for AI tools.",
+  "description": "A Figma plugin that reads local styles and variables from the current file - colors, typography, spacing, radius, motion, effects, grids and component families - and generates editable DESIGN.md and SKILL.md markdown for tools such as Google Stitch, Claude Code and Codex. Actions cover auto-extract, generate, toggle view, refresh and download; the SKILL.md output carries WCAG 2.2 AA accessibility rules and quality gates.",
+  "type": "plugin",
+  "categories": ["design-tools", "design-rules"],
+  "elements": [],
+  "keywords": ["figma plugin", "design.md", "skill.md", "design token", "figma variable", "color style", "text style", "spacing token", "grid style", "effect style", "component family", "design system", "design guideline", "ai agent", "claude code", "codex", "google stitch", "wcag 2.2", "markdown"],
+  "contains": [
+    "extracts colors, typography, spacing, radius, motion, effects, grids and component families from the active Figma file",
+    "generates editable DESIGN.md and SKILL.md files",
+    "actions: auto-extract, generate DESIGN.md, generate SKILL.md, toggle view, refresh, download",
+    "SKILL.md applies WCAG 2.2 AA requirements and defines quality gates",
+    "runs as a local development plugin in Figma Desktop"
+  ],
+  "formats": ["code", "prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/bergside/design-md-figma", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ui-skills-com",
+  "url": "https://ui-skills.com",
+  "kind": "site",
+  "hints_hash": "2e80b7638081f928",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui-skills.com/llms.txt", "title": "UI Skills", "status": null},
+    {"url": "https://ui-skills.com", "title": "UI Skills for Design Engineers | UI Skills", "status": 200},
+    {"url": "https://www.ui-skills.com/skills", "title": "Browse 349 UI skills for design engineers | UI Skills", "status": 200},
+    {"url": "https://www.ui-skills.com/cli", "title": "CLI | UI Skills", "status": 200},
+    {"url": "https://www.ui-skills.com/components", "title": "React Component Libraries | UI Skills", "status": 200},
+    {"url": "https://www.ui-skills.com/collections", "title": "UI Design Collections | UI Skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UI Skills",
+  "summary": "Curated catalog of 349 installable agent skills for design engineering: accessibility, motion, UI quality and frontend craft.",
+  "description": "Browse 349 skills that install into AI coding agents via the npx ui-skills CLI or an MCP server, organised by topic (accessibility, motion, UI, performance, testing …) and by problem collections (mobile app design, landing pages, dashboards, forms). The site also hosts a playbook of small UI rules, a Design.md collection from Vercel, Atlassian, Ant Design and others, and curated lists of component and icon libraries.",
+  "type": "directory",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["agent skill", "design engineering", "ui skill", "accessibility", "wcag", "motion", "ui audit", "design review", "frontend", "design.md", "skill registry", "playbook", "coding agent", "ai agent", "mcp", "cli"],
+  "contains": [
+    "349 skills with topic filters (accessibility 33, motion 70, UI 174, performance 34 …)",
+    "install via npx ui-skills CLI or MCP server from the same registry",
+    "task collections: mobile app design, website layout, landing page, dashboard, forms",
+    "Design.md collection with designs from Vercel, Atlassian, Mintlify, Ant Design …",
+    "playbook rules: text-balance, tabular-nums, 44px touch targets",
+    "curated component and icon library lists"
+  ],
+  "formats": ["prompts", "cli", "docs", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

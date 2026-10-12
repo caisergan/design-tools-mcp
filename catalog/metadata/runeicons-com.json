@@ -1,0 +1,39 @@
+{
+  "id": "runeicons-com",
+  "url": "https://runeicons.com",
+  "kind": "site",
+  "hints_hash": "273f2c90e81154c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:27:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://runeicons.com/llms.txt", "title": "Rune Icons", "status": null},
+    {"url": "https://runeicons.com", "title": "Rune Icons: open-source icons in five styles", "status": 200},
+    {"url": "https://runeicons.com/icons", "title": "Browse icons | Rune Icons", "status": 200},
+    {"url": "https://github.com/Runeicons/runeicons", "title": "GitHub - Runeicons/runeicons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Rune Icons",
+  "summary": "Open-source icon library: 900+ icons in five styles, editable in the browser and copied as SVG or JSX.",
+  "description": "Rune Icons draws 217 glyphs in five styles - outline, duotone, fill, pixelated and glass - for 904 SVG files once variants are counted, organised into 16 categories (action, commerce, communication, dev, layout ...). Icons can be reshaped and tuned in the browser editor (stroke, size, colour, gradient, animation), then copied as optimised SVG or JSX; npm packages exist for React, Vue, Svelte, Astro and React Native, and 1,125 brand logos ship as separate SVG files.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "icon library", "svg icon", "jsx icon", "react icon", "vue icon", "svelte icon", "astro icon", "react native icon", "duotone icon", "glass icon", "pixel icon", "outline icon", "browser editor", "open source icon", "brand logo svg", "figma plugin", "mcp server"],
+  "contains": [
+    "217 glyphs / 904 files across five styles: outline, duotone, fill, pixelated, glass",
+    "per-style counts: normal 217, duotone 213, fill 124, pixelated 215, glass 135",
+    "16 categories incl. accessibility, action, commerce, communication, dev, navigation, weather",
+    "browser editor: reshape paths, tune stroke, size, colour, gradient and animation",
+    "copy as optimised SVG or JSX; download .svg files",
+    "npm packages: runeicons, runeicons-react, -vue, -svelte, -astro, -react-native",
+    "1,125 brand logos as SVG with license and brand-guideline links",
+    "icons Apache-2.0 with no attribution required; brand logos excluded"
+  ],
+  "formats": ["svg", "npm-package", "code"],
+  "stack": ["react", "vue", "svelte", "astro", "react-native", "nextjs", "tailwind", "bun"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/Runeicons/runeicons", "docs": null, "npm": "runeicons", "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,37 @@
+{
+  "id": "posemy-art",
+  "url": "https://posemy.art",
+  "kind": "site",
+  "hints_hash": "64f81777e13220b4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://posemy.art", "title": "PoseMy.Art | Free tool to create reference poses with 3D models.", "status": null},
+    {"url": "https://posemy.art/pricing", "title": "Pricing | PoseMy.Art", "status": null},
+    {"url": "https://posemy.art/faq", "title": "FAQ | PoseMyArt!", "status": null}
+  ],
+  "status": "ok",
+  "name": "PoseMy.Art",
+  "summary": "Free browser tool for posing 3D models: 5500+ scenes, 6300+ poses and 2400+ mocap animations as figure-drawing reference.",
+  "description": "A 3D model poser for artists: load a premade scene or pose a figure with inverse or forward kinematics, adjust camera FOV and lighting, swap characters and export the result as Open Pose, depth, canny or normals images. It runs in the browser on desktop and mobile, with a paid library of poses, scenes, animations, props, hands and anime, animal and realistic models.",
+  "type": "tool",
+  "categories": ["motion", "media"],
+  "elements": ["3d"],
+  "keywords": ["pose reference", "figure drawing", "3d model", "character pose", "posing tool", "animation reference", "mocap", "art reference", "drawing reference", "hand pose", "scene builder", "obj export", "ik posing", "artist tool", "3d pose"],
+  "contains": [
+    "5500+ ready-to-use 3D scenes",
+    "6300+ premade poses and a pre-posed hand library",
+    "2400+ motion-capture animations, pausable on any frame",
+    "models: realistic, animal and anime figures, props, custom .obj import",
+    "camera FOV, directional light and image-plane controls",
+    "exports: Open Pose, depth, canny and normals images, scenes as .obj",
+    "free forever plan; Pro $15/month, $150/year or $99.99 lifetime; education from $3 per student per year"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

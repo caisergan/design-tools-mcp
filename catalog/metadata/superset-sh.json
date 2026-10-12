@@ -1,0 +1,80 @@
+{
+  "id": "superset-sh",
+  "url": "https://superset.sh",
+  "kind": "site",
+  "hints_hash": "b45e845565a32697",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://superset.sh/llms.txt",
+      "title": "Superset",
+      "status": null
+    },
+    {
+      "url": "https://superset.sh",
+      "title": "Superset - Orchestrate any coding agent",
+      "status": 200
+    },
+    {
+      "url": "https://superset.sh/pricing",
+      "title": "Pricing | Superset",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Superset",
+  "summary": "Desktop workspace for orchestrating many CLI coding agents in parallel, each task in an isolated Git worktree.",
+  "description": "A local-first desktop app (macOS; experimental Linux AppImage) that runs CLI coding agents such as Claude Code, Codex and OpenCode side by side, each task in its own Git worktree and branch. Automations run prompts on a schedule, and a CLI, TypeScript SDK and MCP server allow programmatic control.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "coding agent",
+    "agent orchestration",
+    "agent workspace",
+    "parallel agent",
+    "git worktree",
+    "scheduled agent",
+    "automation",
+    "code review",
+    "mcp server",
+    "cli",
+    "desktop app",
+    "local first"
+  ],
+  "contains": [
+    "one workspace for any CLI coding agent: Claude Code, Codex, OpenCode, Gemini CLI, Copilot, Cursor Agent",
+    "each task runs in an isolated Git worktree with its own branch",
+    "scheduled automations: issue triage, changelog drafts, dependency bumps",
+    "parallel execution scaled to 100+ agents",
+    "remote hosts: workspaces keep running when your laptop sleeps",
+    "CLI, TypeScript SDK and MCP server, plus installable agent skills",
+    "macOS today, experimental Linux AppImage, Windows not yet available",
+    "free tier plus paid seats at $15/user/month billed yearly, and an enterprise plan"
+  ],
+  "formats": [
+    "app",
+    "cli",
+    "api",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "Elastic-2.0",
+  "related": {
+    "repo": "https://github.com/superset-sh/superset",
+    "docs": "https://docs.superset.sh",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

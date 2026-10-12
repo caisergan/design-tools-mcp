@@ -1,0 +1,20 @@
+{
+  "id": "shadcn-davidsling-in-components-data-command",
+  "url": "https://shadcn.davidsling.in/components/data-command",
+  "kind": "page",
+  "hints_hash": "20b67124e9c076fb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn.davidsling.in/components/data-command", "title": "DataCommand", "status": 200},
+    {"url": "https://shadcn.davidsling.in/", "title": "davidsling shadcn registry", "status": 200}
+  ],
+  "status": "partial",
+  "name": "DataCommand",
+  "summary": "A data-driven command component built on shadcn/ui that adds async fetching, nested commands and instant search.",
+  "keywords": ["command palette", "command menu", "shadcn ui", "registry", "react", "async search", "data fetching", "nested command", "component", "slingcn", "typescript"],
+  "elements": ["command-palette"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

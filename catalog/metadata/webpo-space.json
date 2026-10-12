@@ -1,0 +1,31 @@
+{
+  "id": "webpo-space",
+  "url": "https://webpo.space",
+  "kind": "site",
+  "hints_hash": "51256a6c81f28ac5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:25:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://webpo.space", "title": "Website Design Inspiration — 511 Curated Real Sites | Webpo", "status": null},
+    {"url": "https://webpo.space/template/0x-website-landing-page", "title": "0x — Webpo", "status": null},
+    {"url": "https://webpo.space/template/108-website-landing-page", "title": "108™ — Webpo", "status": null},
+    {"url": "https://webpo.space/template/cal-website-landing-page", "title": "Cal — Webpo", "status": null},
+    {"url": "https://webpo.space/template/dub-website-landing-page", "title": "Dub — Webpo", "status": null}
+  ],
+  "status": "ok",
+  "name": "Webpo",
+  "summary": "Curated archive of 511 real website designs with screenshots, filterable by stack, category and style.",
+  "description": "A handpicked archive of real websites worth studying, updated weekly with a newsletter of picks. Each entry tags the site's stack (Webflow, Next.js), its category (crypto, software, marketing, directory) and its visual style (dark, minimal, gradient, motion, typography), and links out to the live site. Separate galleries cover websites, apps and tools, logos, app icons and OG images.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["cursor", "loader", "table", "ai-agent-ui", "3d"],
+  "keywords": ["website inspiration", "web design inspiration", "website gallery", "landing page", "landing page inspiration", "web design showcase", "curated website", "website screenshot", "webflow website", "nextjs website", "framer website", "saas website", "portfolio website", "dark mode website", "minimal website", "web design archive", "app gallery", "logo inspiration", "app icon inspiration", "og image inspiration", "design inspiration", "weekly design newsletter"],
+  "contains": ["511 curated real websites per the site title", "788 gallery example pages indexed", "filters: stack, category, visual style", "stacks tagged: Webflow, Next.js", "categories tagged: Web3, crypto, API, directory, software, productivity, marketing, analytics", "styles tagged: dark, light, clean, minimal, gradient, motion, animation, typography, big background image", "galleries: websites, apps/tools, logos, app icons, OG images", "weekly picks newsletter"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,101 @@
+{
+  "id": "github-com-w3-kit-ui",
+  "url": "https://github.com/w3-kit/ui",
+  "kind": "repo",
+  "hints_hash": "6967c4b4b34190b5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/w3-kit/ui/blob/HEAD/README.md",
+      "title": "ui",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/w3-kit/ui",
+      "title": "GitHub - w3-kit/ui: Web3 React component library",
+      "status": 200
+    },
+    {
+      "url": "https://ui.w3-kit.com",
+      "title": "UI Components — w3-kit",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "w3-kit",
+  "summary": "React component library of 27 web3 UI components and 12 primitives for wallets, DeFi, NFTs and transactions.",
+  "description": "A React, Tailwind CSS and TypeScript component library for blockchain apps and dApps: 27 interactive components covering connect wallet, network switcher, wallet balance, address book, multisig, token swap, staking, bridge, limit orders, NFT cards and collections, token lists, transaction history, smart contract tools, ENS resolver, gas calculator and subscription payments, plus 12 primitives. Distributed as shadcn registry items and copy-paste code.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "button",
+    "select",
+    "input",
+    "form",
+    "card",
+    "list",
+    "table",
+    "stats",
+    "badge"
+  ],
+  "keywords": [
+    "web3 component",
+    "dapp ui",
+    "connect wallet",
+    "network switcher",
+    "wallet balance",
+    "token swap",
+    "defi",
+    "staking",
+    "nft card",
+    "nft collection",
+    "transaction history",
+    "ens resolver",
+    "gas calculator",
+    "multisig",
+    "bridge",
+    "limit order",
+    "airdrop",
+    "vesting",
+    "react",
+    "tailwind css",
+    "shadcn registry",
+    "typescript"
+  ],
+  "contains": [
+    "27 interactive web3 components + 12 primitives",
+    "component groups: wallet, DeFi, NFT, tokens, transactions, contract, ENS, gas, plans, airdrops, vesting",
+    "registry distribution as shadcn items",
+    "React + Tailwind CSS + TypeScript, MIT licensed",
+    "16 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/w3-kit/ui",
+    "docs": "https://ui.w3-kit.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

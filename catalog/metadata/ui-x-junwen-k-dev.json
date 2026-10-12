@@ -1,0 +1,30 @@
+{
+  "id": "ui-x-junwen-k-dev",
+  "url": "https://ui-x.junwen-k.dev",
+  "kind": "site",
+  "hints_hash": "83a43697b7be17ee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui-x.junwen-k.dev/llms.txt", "title": "Docs", "status": null},
+    {"url": "https://ui-x.junwen-k.dev", "title": "junwen-k/ui-x", "status": 200},
+    {"url": "https://ui-x.junwen-k.dev/docs", "title": "Introduction - junwen-k/ui-x", "status": 200},
+    {"url": "https://github.com/junwen-k/ui-x", "title": "GitHub - junwen-k/ui-x: Additional beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "junwen-k/ui-x",
+  "summary": "Additional copy-paste components that extend shadcn/ui: date and time fields, dropzones, badge groups.",
+  "description": "An extension of shadcn/ui distributed through the same registry system: primitives such as date time field, date time range field, date picker, password input, phone input and dropzone, plus components like badge group, confirmer, emoji picker, timeline and BProgress, and sortable and virtualized utilities. Built on Base UI primitives with React 19 and Tailwind CSS v4; install with the shadcn CLI.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["modal", "input", "slider", "date-picker", "file-upload", "list", "badge", "timeline", "progress"],
+  "keywords": ["shadcn", "registry", "copy paste component", "react component", "date picker", "date time field", "time picker", "dropzone", "file upload", "password input", "phone input", "badge group", "emoji picker", "timeline", "sortable", "drag and drop", "virtualized list", "confirmer", "tailwind css", "base ui", "react 19", "open source"],
+  "contains": ["17 docs pages", "primitives: date time field, date time range field, date picker, dropzone, password input, phone input", "components: badge group, confirmer, BProgress, emoji picker, description list, time field, timeline, wheel picker", "utilities: sortable (built on @dnd-kit), virtualized", "rebuilt on Base UI primitives with React 19 ref handling"],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "tailwind", "base-ui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/junwen-k/ui-x", "docs": "https://ui-x.junwen-k.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

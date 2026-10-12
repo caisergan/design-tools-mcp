@@ -1,0 +1,90 @@
+{
+  "id": "chartjs-org",
+  "url": "https://chartjs.org",
+  "kind": "site",
+  "hints_hash": "b3f618caf65bde37",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:47:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://chartjs.org",
+      "title": "Chart.js | Open source HTML5 Charts for your website",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/chartjs/Chart.js",
+      "title": "GitHub - chartjs/Chart.js: Simple HTML5 Charts using the <canvas> tag",
+      "status": 200
+    },
+    {
+      "url": "https://www.chartjs.org/docs/latest/getting-started/installation.html",
+      "title": "Installation | Chart.js",
+      "status": 200
+    },
+    {
+      "url": "https://www.chartjs.org/docs/latest/getting-started/integration.html",
+      "title": "Integration | Chart.js",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Chart.js",
+  "summary": "Open-source JavaScript charting library drawing 8 animated, responsive chart types on HTML5 canvas.",
+  "description": "A community-maintained JavaScript library for charts and graphs on the HTML5 canvas: 8 animated, customizable chart types, date-time, logarithmic and custom scales, a decimation plugin for large datasets, and tree-shaking in v4. Install from npm or a CDN and use it with plain JavaScript, bundlers (Webpack, Rollup) or framework integrations (React, Angular, Vue).",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "chart"
+  ],
+  "keywords": [
+    "chart library",
+    "javascript chart",
+    "html5 canvas",
+    "bar chart",
+    "line chart",
+    "pie chart",
+    "doughnut chart",
+    "radar chart",
+    "bubble chart",
+    "scatter chart",
+    "data visualization",
+    "animated chart",
+    "responsive chart",
+    "open source",
+    "npm package",
+    "graph"
+  ],
+  "contains": [
+    "8 chart types, animated and customizable",
+    "HTML5 canvas rendering, redraws on window resize",
+    "date-time, logarithmic and custom scales",
+    "v4: colors plugin, tree-shaking",
+    "decimation plugin demo with 1M points",
+    "67.7k GitHub stars, MIT licensed"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "javascript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/chartjs/Chart.js",
+    "docs": "https://www.chartjs.org/docs/latest/",
+    "npm": "chart.js",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

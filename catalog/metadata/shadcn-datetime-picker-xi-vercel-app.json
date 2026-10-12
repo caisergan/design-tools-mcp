@@ -1,0 +1,85 @@
+{
+  "id": "shadcn-datetime-picker-xi-vercel-app",
+  "url": "https://shadcn-datetime-picker-xi.vercel.app",
+  "kind": "site",
+  "hints_hash": "fa3c36769eb1303e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-datetime-picker-xi.vercel.app",
+      "title": "Shadcn Datetime Picker — Flexible Date, Time & Timezone Picker for shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-datetime-picker-xi.vercel.app/r/registry.json",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-datetime-picker-xi.vercel.app/r/datetime-picker.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Shadcn Datetime Picker",
+  "summary": "Shadcn registry of three date and time pickers: datetime input, simple time picker and datetime picker.",
+  "description": "Single-file date and time components served through a shadcn registry: a segmented, keyboard-friendly DateTime Input, a Simple Time Picker dropdown and a full DateTime Picker with timezone support, min/max bounds and month/year jump. Timezone-aware and react-hook-form ready, with no runtime dependency.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "date-picker",
+    "input"
+  ],
+  "keywords": [
+    "date picker",
+    "time picker",
+    "datetime picker",
+    "datetime input",
+    "timezone",
+    "shadcn",
+    "registry",
+    "react",
+    "react hook form",
+    "min max",
+    "month year selection",
+    "keyboard"
+  ],
+  "contains": [
+    "3 registry items: datetime-input, simple-time-picker, datetime-picker",
+    "timezone support, min/max bounds, month/year jump",
+    "segmented keyboard-friendly input with form integration",
+    "deps: date-fns, react-day-picker, lucide; shadcn button/popover/scroll-area"
+  ],
+  "formats": [
+    "registry",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "date-fns",
+    "react-day-picker",
+    "react-hook-form"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

@@ -1,0 +1,28 @@
+{
+  "id": "umanmade-com",
+  "url": "https://umanmade.com",
+  "kind": "site",
+  "hints_hash": "e14add8f06c4294f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://umanmade.com", "title": "Umanmade", "status": null},
+    {"url": "https://www.umanmade.com/about", "title": "Umanmade", "status": null}
+  ],
+  "status": "ok",
+  "name": "Umanmade",
+  "summary": "Curated directory of human-made design and code: websites, UI, motion, 3D, branding and illustration work.",
+  "description": "A curated feed of digital work made by people, without AI tools, assets or shortcuts in the creation process. Every submission is reviewed before it appears; browse by category (web design, web development, user interface, motion, micro interaction, 3D, brand design, logo design, animation, illustration) or by creator.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["design inspiration", "showcase", "human made", "no ai", "web design", "ui design", "motion design", "micro interaction", "3d design", "brand design", "logo design", "illustration", "curated directory", "designer portfolio", "digital work"],
+  "contains": ["curated feed of human-made design and code, reviewed before publishing", "categories: web design, web development, UI, motion, micro interaction, 3D, brand, logo, animation, illustration", "featured creators row", "submit-work flow", "beta"],
+  "formats": ["links", "screenshots"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

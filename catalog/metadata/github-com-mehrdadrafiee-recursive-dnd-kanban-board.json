@@ -1,0 +1,80 @@
+{
+  "id": "github-com-mehrdadrafiee-recursive-dnd-kanban-board",
+  "url": "https://github.com/mehrdadrafiee/recursive-dnd-kanban-board",
+  "kind": "repo",
+  "hints_hash": "d0dd47a073bfcfc8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/mehrdadrafiee/recursive-dnd-kanban-board/blob/HEAD/README.md",
+      "title": "Recursive dnd-kit Kanban Board Example",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/mehrdadrafiee/recursive-dnd-kanban-board",
+      "title": "GitHub - mehrdadrafiee/recursive-dnd-kanban-board: Recursively-generated drag and drop Accessible kanban board implementing using Next.js, @dnd-kit, Tailwind CSS and shadcn/ui · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Recursive dnd-kit Kanban Board Example",
+  "summary": "Next.js Kanban board example that generates its drag-and-drop columns recursively, built with @dnd-kit, Tailwind and shadcn/ui.",
+  "description": "An accessible drag-and-drop Kanban board example whose columns are generated recursively instead of being fixed in number. It is built with Next.js, @dnd-kit, Tailwind CSS and shadcn/ui and credits react-dnd-kit-tailwind-shadcn-ui as its inspiration; a live demo runs on Vercel.",
+  "type": "template",
+  "categories": [
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "kanban",
+    "card"
+  ],
+  "keywords": [
+    "kanban",
+    "kanban board",
+    "drag and drop",
+    "dnd-kit",
+    "recursive",
+    "nextjs",
+    "react",
+    "shadcn",
+    "tailwind",
+    "accessible",
+    "project management",
+    "example"
+  ],
+  "contains": [
+    "columns generated recursively instead of a fixed number",
+    "accessible drag and drop via @dnd-kit",
+    "built with Next.js, Tailwind CSS and shadcn/ui",
+    "inspired by react-dnd-kit-tailwind-shadcn-ui",
+    "live demo on Vercel",
+    "84 GitHub stars"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "shadcn",
+    "dnd-kit"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/mehrdadrafiee/recursive-dnd-kanban-board",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

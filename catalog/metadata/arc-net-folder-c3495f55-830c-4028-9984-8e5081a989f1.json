@@ -1,0 +1,53 @@
+{
+  "id": "arc-net-folder-c3495f55-830c-4028-9984-8e5081a989f1",
+  "url": "https://arc.net/folder/C3495F55-830C-4028-9984-8E5081A989F1",
+  "kind": "page",
+  "hints_hash": "801edc65428c66d7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://arc.net/folder/C3495F55-830C-4028-9984-8E5081A989F1",
+      "title": "Inspiration",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Inspiration",
+  "summary": "Shared Arc folder of 19+ bookmarks to web design inspiration galleries: dark mode, footers, portfolios, motion.",
+  "type": "directory",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "design inspiration",
+    "web design gallery",
+    "bookmark",
+    "dark mode design",
+    "portfolio inspiration",
+    "footer gallery",
+    "landing page inspiration",
+    "motion design",
+    "og image",
+    "curated link",
+    "design resource",
+    "arc browser"
+  ],
+  "formats": [
+    "links"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

@@ -1,0 +1,22 @@
+{
+  "id": "beui-dev-components-motion-adaptive-stepper",
+  "url": "https://beui.dev/components/motion/adaptive-stepper",
+  "kind": "page",
+  "hints_hash": "aa7586b341ff9f37",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/motion/adaptive-stepper", "title": "Adaptive Stepper · React motion component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Adaptive Stepper",
+  "summary": "Composable React numeric stepper whose fixed footprint adapts at its minimum and maximum while the value rolls between steps.",
+  "keywords": ["stepper", "numeric stepper", "quantity stepper", "number input", "motion component", "animated number", "react component", "nextjs", "shadcn registry", "copy paste", "liquid", "accessible"],
+  "elements": ["stepper"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs"],
+  "pricing": "free",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.85
+}

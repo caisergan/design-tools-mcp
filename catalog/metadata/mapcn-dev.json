@@ -1,0 +1,33 @@
+{
+  "id": "mapcn-dev",
+  "url": "https://mapcn.dev",
+  "kind": "site",
+  "hints_hash": "a72f2b5b80c828d0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mapcn.dev/llms.txt", "title": "mapcn", "status": null},
+    {"url": "https://mapcn.dev", "title": "mapcn - Beautiful maps made simple", "status": 200},
+    {"url": "https://www.mapcn.dev/docs", "title": "Introduction - mapcn", "status": 200},
+    {"url": "https://www.mapcn.dev/blocks", "title": "Map Blocks - mapcn", "status": 200},
+    {"url": "https://mapcn.dev/docs/arcs", "title": "Arcs - mapcn", "status": 200},
+    {"url": "https://mapcn.dev/docs/popups", "title": "Standalone Popups - mapcn", "status": 200},
+    {"url": "https://github.com/AnmolSaini16/mapcn", "title": "GitHub - AnmolSaini16/mapcn: Beautiful map components. 100% Free, Zero config, one command setup. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "mapcn",
+  "summary": "Copy-paste React map components and blocks built on MapLibre GL, installed with the shadcn CLI.",
+  "description": "A shadcn-style registry of ready-to-use React map components — Map, Controls, Markers, Popups, Routes, Arcs, GeoJSON and Clusters — plus eight pre-built blocks including Analytics Map, Choropleth, Delivery Tracker, Heatmap and Store Locator. Zero-config with free CARTO tiles and no API keys, theme-aware light and dark styles, and support for any MapLibre-compatible tile provider.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["modal", "chart", "card", "map"],
+  "keywords": ["map component", "react map", "maplibre", "shadcn", "tailwind", "choropleth", "heatmap", "store locator", "delivery tracker", "logistics map", "geojson", "marker", "cluster", "route map", "arc map", "analytics map", "dashboard map", "world map", "copy paste", "registry"],
+  "contains": ["components: Map, Controls, Markers, Popups, Routes, Arcs, GeoJSON, Clusters", "8 blocks incl. Analytics Map, Choropleth, Delivery Tracker, Uptime Monitor, Heatmap, Store Locator", "one command install: npx shadcn@latest add @mapcn/map", "free CARTO basemap tiles, no API keys needed; light and dark theme aware", "works with any MapLibre-compatible tiles (OpenStreetMap, Carto, MapTiler, Stadia, Thunderforest)", "MIT licensed, 12.2k GitHub stars"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "tailwind", "typescript", "maplibre-gl"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/AnmolSaini16/mapcn", "docs": "https://mapcn.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

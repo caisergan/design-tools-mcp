@@ -1,0 +1,106 @@
+{
+  "id": "lemonsqueezy-com-wedges",
+  "url": "https://lemonsqueezy.com/wedges",
+  "kind": "page",
+  "hints_hash": "eb8bf3619861b4e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://lemonsqueezy.com/wedges",
+      "title": "Wedges — Open-source UI components for React • Lemon Squeezy",
+      "status": null
+    },
+    {
+      "url": "https://www.lemonsqueezy.com/wedges",
+      "title": "Wedges — Open-source UI components for React • Lemon Squeezy",
+      "status": 200
+    },
+    {
+      "url": "https://www.lemonsqueezy.com/wedges/docs",
+      "title": "Introduction — Wedges | Lemon Squeezy",
+      "status": 200
+    },
+    {
+      "url": "https://www.lemonsqueezy.com/wedges/docs/components",
+      "title": "Alert — Wedges | Lemon Squeezy",
+      "status": 200
+    },
+    {
+      "url": "https://www.lemonsqueezy.com/wedges/figma",
+      "title": "Wedges — Design System for Figma • Lemon Squeezy",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Wedges",
+  "summary": "Open-source React UI component library plus a free Figma design system, built on Radix UI and Tailwind CSS.",
+  "description": "Wedges is an open-source, MIT-licensed React UI library built with Radix UI primitives, Tailwind CSS and TypeScript support, with dark mode and theming included. A matching free Figma design system and UI kit adds components, variants, variables, a 4px grid and 200 bundled icons; install guides cover Next.js, Vite, Remix, Gatsby, Astro, Laravel and manual setups.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "alert",
+    "avatar",
+    "badge",
+    "button",
+    "checkbox",
+    "dropdown",
+    "input",
+    "progress",
+    "select",
+    "slider",
+    "switch",
+    "tabs",
+    "tooltip"
+  ],
+  "keywords": [
+    "react component",
+    "ui component library",
+    "design system",
+    "tailwind css",
+    "radix ui",
+    "figma ui kit",
+    "figma component",
+    "open source component",
+    "typescript",
+    "dark mode",
+    "accessible component",
+    "form component",
+    "dashboard ui"
+  ],
+  "contains": [
+    "open-source React component library, MIT licensed",
+    "matching free Figma design system and UI kit, updated monthly",
+    "components include button, input, select, alert, avatar, badge, tabs, switch, slider, tooltip and progress",
+    "install guides for Next.js, Vite, Remix, Gatsby, Astro, Laravel and manual",
+    "Figma kit ships variables, variants, a 4px grid and 200 icons"
+  ],
+  "formats": [
+    "code",
+    "docs",
+    "figma-file"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://www.lemonsqueezy.com/wedges/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

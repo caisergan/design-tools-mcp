@@ -1,0 +1,29 @@
+{
+  "id": "perplexity-ai",
+  "url": "https://perplexity.ai",
+  "kind": "site",
+  "hints_hash": "6e4e2937fb6f7542",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://perplexity.ai", "title": "Perplexity", "status": 200},
+    {"url": "https://www.perplexity.ai/pro", "title": "Perplexity", "status": 200},
+    {"url": "https://www.perplexity.ai/enterprise", "title": null, "status": 0}
+  ],
+  "status": "partial",
+  "name": "Perplexity",
+  "summary": "Free AI answer engine that answers questions in real time; Pro adds more models and deep research.",
+  "description": "An AI-powered answer engine that provides real-time answers to any question, per its own home page description. The Pro tier unlocks access to the latest AI models, extended deep research, increased file uploads and deeper sourcing. Its product pages render client-side, so only titles and meta descriptions are readable without a browser.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai search", "answer engine", "ai chatbot", "question answering", "deep research", "ai model", "web search", "research tool", "file upload", "ai assistant", "productivity"],
+  "contains": ["described on its home page as a free AI-powered answer engine with real-time answers", "Pro adds the latest AI models, extended deep research, increased file uploads and deeper sourcing", "25,646 urls in its sitemap; pages show little text without a browser"],
+  "formats": [],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

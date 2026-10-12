@@ -1,0 +1,29 @@
+{
+  "id": "github-com-zippystarter-template-devstarter",
+  "url": "https://github.com/zippystarter/template-devstarter",
+  "kind": "repo",
+  "hints_hash": "4086b007fe8bbae9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:01Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/zippystarter/template-devstarter/blob/HEAD/README.md", "title": "Devstarter - by Zippystarter", "status": 200},
+    {"url": "https://github.com/zippystarter/template-devstarter", "title": "GitHub - zippystarter/template-devstarter: A one page developer portfolio template", "status": 200},
+    {"url": "https://zippystarter.com/templates/devstarter", "title": "Devstarter - Developer portfolio template built with shadcn & Next.js.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Devstarter",
+  "summary": "Free, open-source one-page developer portfolio template built with Next.js, shadcn/ui and Tailwind CSS.",
+  "description": "A single-page developer portfolio with a cyberpunk look: neon accents, monospace type and light/dark modes. Sections cover hero, projects, skills, blog posts and a contact form, all built on shadcn theming and modern CSS (Grid, Subgrid, view transitions).",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["hero", "card", "badge", "progress", "contact", "form"],
+  "keywords": ["developer portfolio", "portfolio template", "next.js", "react", "tailwind css", "shadcn ui", "cyberpunk", "neon", "dark mode", "one page portfolio", "personal website", "template", "typescript", "free", "open source", "animated"],
+  "contains": ["one-page portfolio: hero, projects, skills, blog and contact", "project cards with images, tech tags and links", "shadcn theming with light and dark modes", "modern CSS: Grid, Subgrid, backdrop blur, view transitions", "Next.js 16, React 19, Tailwind CSS v4, TypeScript 5.8"],
+  "formats": ["code"],
+  "stack": ["nextjs", "react", "tailwind", "typescript", "css"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/zippystarter/template-devstarter", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

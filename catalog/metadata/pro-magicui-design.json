@@ -1,0 +1,123 @@
+{
+  "id": "pro-magicui-design",
+  "url": "https://pro.magicui.design",
+  "kind": "site",
+  "hints_hash": "7ae825ba138eef10",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:31:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pro.magicui.design",
+      "title": "Next.js",
+      "status": 200
+    },
+    {
+      "url": "https://pro.magicui.design/docs",
+      "title": "Introduction | Magic UI Pro",
+      "status": 200
+    },
+    {
+      "url": "https://pro.magicui.design/templates",
+      "title": "Codeforge Template | Magic UI Pro",
+      "status": 200
+    },
+    {
+      "url": "https://pro.magicui.design/license",
+      "title": "License Agreement",
+      "status": 200
+    },
+    {
+      "url": "https://pro.magicui.design/docs/sections",
+      "title": "All Sections | Magic UI Pro",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Magic UI Pro",
+  "summary": "Paid library of 50+ landing page sections and 9+ templates built with React, Next.js, Tailwind CSS and Framer Motion.",
+  "description": "A one-time purchase unlocks 50+ copy-paste landing page sections (headers, heroes, stats, pricing tables, FAQs, CTAs, footers) and 9+ full templates for dev tools, AI agents, mobile apps, SaaS, startups and portfolios. Built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, Radix and Framer Motion.",
+  "type": "block-library",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "stats",
+    "logo-cloud",
+    "carousel"
+  ],
+  "keywords": [
+    "landing page",
+    "section",
+    "template",
+    "hero",
+    "navbar",
+    "pricing table",
+    "faq",
+    "testimonials",
+    "footer",
+    "call to action",
+    "stats",
+    "carousel",
+    "nextjs",
+    "react",
+    "tailwind",
+    "shadcn",
+    "framer motion",
+    "dark mode",
+    "saas template",
+    "startup",
+    "portfolio",
+    "marketing site",
+    "copy paste",
+    "one-time purchase"
+  ],
+  "contains": [
+    "50+ sections: 4 headers, 3 heroes, 5 stats, 9 pricing, 4 FAQ, 11 CTA, 11 footer",
+    "9+ templates: dev tool, AI agent, mobile, SaaS, startup, portfolio, blog, changelog",
+    "$199 one-time purchase with lifetime access and updates",
+    "103 installable shadcn registry items",
+    "built with Next.js 15, TypeScript, Tailwind CSS, shadcn/ui, Radix, Framer Motion",
+    "dark mode support, SEO optimized, fully responsive",
+    "commercial use permitted; redistribution of the code is not"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "templates",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "radix",
+    "framer-motion"
+  ],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://pro.magicui.design/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,115 @@
+{
+  "id": "github-com-rmahammad-motiq",
+  "url": "https://github.com/RMahammad/motiq",
+  "kind": "repo",
+  "hints_hash": "2b9246e7e0bbdc03",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:34:35Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/RMahammad/motiq/blob/HEAD/README.md",
+      "title": "Motiq",
+      "status": 200
+    },
+    {
+      "url": "https://motiq.dev",
+      "title": "Motiq - Animated React & shadcn components, installable as editable source.",
+      "status": 200
+    },
+    {
+      "url": "https://motiq.dev/components",
+      "title": "Components - Motiq",
+      "status": 200
+    },
+    {
+      "url": "https://motiq.dev/packs",
+      "title": "Workflow packs - Motiq",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/RMahammad/motiq",
+      "title": "GitHub - RMahammad/motiq: Beautiful, production-ready animated React & shadcn components, installed as editable source.",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/RMahammad/motiq/HEAD/LICENSE",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Motiq",
+  "summary": "Free registry of 86 animated React components and 8 workflow blocks for product UIs, installed as editable source via shadcn.",
+  "description": "Animated React and shadcn components plus complete workflow blocks, delivered as editable source through a shadcn-compatible registry. 86 components span AI interfaces, developer tools, collaboration, file, security, productivity, backgrounds, cursor, scroll and text categories; 4 packs (AI Interface, Developer Tools, Collaboration, Data Motion) compose four components each into installable blocks such as an AI agent workspace with run timeline, tool calls, response stream and citations. MIT licensed, free and open source.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "ai-agent-ui",
+    "chat",
+    "background",
+    "cursor",
+    "scroll-effect",
+    "text-effect"
+  ],
+  "keywords": [
+    "animated component",
+    "react",
+    "shadcn",
+    "framer-motion",
+    "motion",
+    "ai interface",
+    "agent ui",
+    "workflow block",
+    "editable source",
+    "source code",
+    "background",
+    "cursor",
+    "scroll animation",
+    "text animation",
+    "developer tool",
+    "dashboard",
+    "nextjs",
+    "tailwind",
+    "registry"
+  ],
+  "contains": [
+    "86 animated React components",
+    "8 workflow blocks in 4 packs: AI Interface, Developer Tools, Collaboration, Data Motion",
+    "AI Interface pack: Agent Run Timeline, Tool Call Activity, AI Response Stream, Source Citation Rail",
+    "installs as editable source through a shadcn-compatible registry",
+    "product states covered: loading, error and retry, reduced-motion support",
+    "MIT license; 21 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/RMahammad/motiq",
+    "docs": "https://motiq.dev",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

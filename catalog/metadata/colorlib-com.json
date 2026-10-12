@@ -1,0 +1,106 @@
+{
+  "id": "colorlib-com",
+  "url": "https://colorlib.com",
+  "kind": "site",
+  "hints_hash": "7ad0c0ed77e3eadc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:24:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://colorlib.com/llms.txt",
+      "title": "Colorlib",
+      "status": null
+    },
+    {
+      "url": "https://colorlib.com",
+      "title": "WordPress Themes & Website Templates - Colorlib",
+      "status": 200
+    },
+    {
+      "url": "https://colorlib.com/wp/licence/",
+      "title": "Licence - Colorlib",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Colorlib",
+  "summary": "Free WordPress themes plus a library of 1,000+ commercial HTML/Bootstrap website templates and free snippets.",
+  "description": "Colorlib publishes free WordPress themes and a large library of HTML/Bootstrap website templates, organised by type and industry (business, portfolio, e-commerce, restaurant, landing page, one page, Astro ...) with curated collections and website-example galleries. The HTML templates are commercial products ($19 single, $129/year all-access, $349 lifetime); WordPress themes, HTML/CSS code snippets (CC BY 3.0) and blog tutorials are free.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "inspiration",
+    "learning"
+  ],
+  "elements": [
+    "form",
+    "404",
+    "stepper",
+    "table",
+    "calendar",
+    "checkbox",
+    "sidebar",
+    "accordion",
+    "button",
+    "footer",
+    "carousel",
+    "dropdown"
+  ],
+  "keywords": [
+    "wordpress theme",
+    "website template",
+    "html template",
+    "bootstrap template",
+    "landing page template",
+    "one page template",
+    "portfolio template",
+    "ecommerce template",
+    "astro template",
+    "free theme",
+    "code snippet",
+    "form template",
+    "table",
+    "carousel",
+    "design inspiration",
+    "website example",
+    "tutorial",
+    "theme collection"
+  ],
+  "contains": [
+    "1,000+ HTML/Bootstrap website templates; commercial ($19 single, $129/year, $349 lifetime)",
+    "50+ free WordPress themes; 10M+ total template downloads",
+    "100+ website example galleries and theme collections by industry",
+    "free HTML/CSS code snippets (forms, tables, carousels, progress bars) under CC BY 3.0",
+    "blog with tutorials, theme roundups, plugin reviews and design inspiration",
+    "licence: templates usable on own and client sites, no resale or redistribution"
+  ],
+  "formats": [
+    "templates",
+    "code",
+    "screenshots",
+    "links"
+  ],
+  "stack": [
+    "wordpress",
+    "php",
+    "bootstrap",
+    "astro",
+    "html",
+    "css"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

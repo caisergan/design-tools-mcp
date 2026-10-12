@@ -1,0 +1,88 @@
+{
+  "id": "smallpdf-com",
+  "url": "https://smallpdf.com",
+  "kind": "site",
+  "hints_hash": "c3bd99bd66139f34",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://smallpdf.com",
+      "title": "Smallpdf - A Free Solution to all your PDF Problems",
+      "status": null
+    },
+    {
+      "url": "https://smallpdf.com/templates",
+      "title": "Free templates to meet all your business and personal needs",
+      "status": null
+    },
+    {
+      "url": "https://smallpdf.com/pricing",
+      "title": "Smallpdf Pricing and Plans",
+      "status": null
+    },
+    {
+      "url": "https://smallpdf.com/about",
+      "title": "About Smallpdf",
+      "status": null
+    },
+    {
+      "url": "https://smallpdf.com/templates/invoices",
+      "title": "Free Invoice Templates You Can Edit and Customize Easily",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Smallpdf",
+  "summary": "Web platform with 30+ PDF tools to convert, compress, edit, merge, split and sign documents.",
+  "description": "Online PDF workspace with 30+ document tools: PDF to Word and other format conversions, OCR, PDF/A, merge, split, rotate, compress, edit (text, shapes, annotations, freehand), electronic signatures and an AI PDF tool. A free templates library adds invoices, contracts and business templates. Free plan with limited downloads, plus Pro, Team (2-100 seats) and Business plans; also a mobile app and Chrome, Google Workspace and Dropbox integrations.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "pdf",
+    "pdf editor",
+    "compress pdf",
+    "pdf converter",
+    "pdf to word",
+    "merge pdf",
+    "split pdf",
+    "sign pdf",
+    "e-signature",
+    "edit pdf",
+    "ocr",
+    "jpg to pdf",
+    "pdf tool",
+    "online pdf",
+    "invoice template"
+  ],
+  "contains": [
+    "30+ PDF tools to convert, compress and edit documents",
+    "free templates library: invoices (69), contracts & agreements (185), business templates (46)",
+    "plans: Free, Pro, Team (2-100 seats) and Business; 7-day free trial",
+    "trusted by 1.7 billion people since 2013; available in 24 languages",
+    "ISO/IEC 27001 certified, GDPR, CCPA and nFADP compliant (stated)"
+  ],
+  "formats": [
+    "app",
+    "templates"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

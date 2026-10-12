@@ -1,0 +1,21 @@
+{
+  "id": "ui-shadcn-com-create",
+  "url": "https://ui.shadcn.com/create",
+  "kind": "page",
+  "hints_hash": "a4e98ff2746fd9b8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.shadcn.com/create", "title": "New Project - shadcn/ui", "status": 200},
+    {"url": "https://ui.shadcn.com/llms.txt", "title": "shadcn/ui", "status": 200}
+  ],
+  "status": "partial",
+  "name": "shadcn/ui Create",
+  "summary": "Project customizer that builds your own version of shadcn/ui: pick component library, icons, base color, theme and fonts.",
+  "description": "The New Project flow on ui.shadcn.com: choose your component library, icon set, base color, theme and fonts, then create your own version of shadcn/ui. The page is rendered client-side, so only its title and description are readable.",
+  "type": "tool",
+  "keywords": ["shadcn ui", "new project", "theme customizer", "base color", "icon set", "font", "component library", "project setup", "theming", "react"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ui-shadcn-com"},
+  "confidence": 0.6
+}

@@ -1,0 +1,36 @@
+{
+  "id": "collectui-com",
+  "url": "https://collectui.com",
+  "kind": "site",
+  "hints_hash": "71cacb6f95d8b19c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://collectui.com", "title": "CollectUI - Daily Design Inspiration", "status": 200},
+    {"url": "https://collectui.com/categories", "title": "Categories - Collect UI", "status": 200},
+    {"url": "https://collectui.com/trending", "title": "Trending - Collect UI", "status": 200},
+    {"url": "https://collectui.com/designers", "title": "Designers - Collect UI", "status": 200}
+  ],
+  "status": "partial",
+  "name": "CollectUI",
+  "summary": "Daily gallery of hand-picked UI designs and websites, curated by designers, with categories, trending and favorites.",
+  "description": "A daily design-inspiration feed of hand-picked websites and interfaces, curated by a community of designers and delivered by email. Browse latest designs, categories or trends, see top designers and most-clicked designs, and save favorites. List views render client-side, so item contents are not readable from the pages.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["design inspiration", "daily inspiration", "ui design", "website design", "interface design", "design gallery", "portfolio inspiration", "design showcase", "mobile design", "web design", "curated design", "designer", "design trend", "email digest", "design community", "latest design"],
+  "contains": [
+    "daily-curated designs, hand-picked by designers",
+    "sections: latest designs, designers, categories, trending, favorites",
+    "trending page: top designers by post count, top designs by clicks",
+    "email subscription for daily picks",
+    "sponsored network directory listings"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

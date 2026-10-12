@@ -1,0 +1,79 @@
+{
+  "id": "github-com-aslam97-react-confirm-dialog",
+  "url": "https://github.com/Aslam97/react-confirm-dialog",
+  "kind": "repo",
+  "hints_hash": "7743d19074871c85",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Aslam97/react-confirm-dialog/blob/HEAD/README.md",
+      "title": "React Confirm Dialog",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Aslam97/react-confirm-dialog",
+      "title": "GitHub - Aslam97/react-confirm-dialog: React Confirm Dialog · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Confirm Dialog",
+  "summary": "Promise-based confirm dialog for React, built on Radix Alert Dialog and styled with Tailwind CSS v4.",
+  "description": "A confirm dialog component for React with a useConfirm hook whose promise resolves to true or false. Built on Radix UI Alert Dialog with Tailwind CSS v4 styling; supports icons, custom button props, content slots and custom actions. Ships ESM and CommonJS builds with TypeScript types for React 18 and 19; installed from npm as @omit/react-confirm-dialog.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "modal"
+  ],
+  "keywords": [
+    "confirm dialog",
+    "alert dialog",
+    "modal",
+    "dialog",
+    "react",
+    "tailwind",
+    "radix ui",
+    "shadcn",
+    "useconfirm hook",
+    "promise",
+    "typescript",
+    "npm",
+    "focus trap",
+    "accessibility"
+  ],
+  "contains": [
+    "promise-based useConfirm hook resolves true/false",
+    "Radix UI Alert Dialog base, Tailwind CSS v4",
+    "custom buttons, icons, content slots and actions",
+    "React 18 and 19; ESM and CommonJS builds with types",
+    "npm package @omit/react-confirm-dialog"
+  ],
+  "formats": [
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Aslam97/react-confirm-dialog",
+    "docs": null,
+    "npm": "@omit/react-confirm-dialog",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

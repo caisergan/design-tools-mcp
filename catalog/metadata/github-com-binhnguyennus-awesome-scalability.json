@@ -1,0 +1,76 @@
+{
+  "id": "github-com-binhnguyennus-awesome-scalability",
+  "url": "https://github.com/binhnguyennus/awesome-scalability",
+  "kind": "repo",
+  "hints_hash": "d20b52842d85a4b1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/binhnguyennus/awesome-scalability/blob/HEAD/README.md",
+      "title": "README",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/binhnguyennus/awesome-scalability",
+      "title": "GitHub - binhnguyennus/awesome-scalability: The Patterns of Scalable, Reliable, and Performant Large-Scale Systems · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/binhnguyennus/awesome-scalability/HEAD/LICENSE",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "awesome-scalability",
+  "summary": "Reading list of articles and case studies on scaling, reliability and performance of large-scale systems.",
+  "description": "An organized reading list illustrating the patterns of scalable, reliable and performant large-scale systems, with sections for principles, scalability, availability, stability, performance, intelligence, architecture, interviews and organization. Concepts are explained in articles by prominent engineers; case studies come from battle-tested systems serving millions to billions of users.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "scalability",
+    "distributed system",
+    "system design",
+    "architecture",
+    "reliability",
+    "performance",
+    "high availability",
+    "case study",
+    "engineering blog",
+    "microservice",
+    "caching",
+    "database",
+    "interview",
+    "awesome list",
+    "backend",
+    "devop"
+  ],
+  "contains": [
+    "sections: principle, scalability, availability, stability, performance, intelligence, architecture, interview",
+    "case studies from systems serving millions to billions of users",
+    "74.6k stars, 7.2k forks"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/binhnguyennus/awesome-scalability",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,81 @@
+{
+  "id": "castmagic-io",
+  "url": "https://castmagic.io",
+  "kind": "site",
+  "hints_hash": "312f06cdd40dd84f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://castmagic.io/llms.txt",
+      "title": "Castmagic — the AI content platform for content teams",
+      "status": null
+    },
+    {
+      "url": "https://castmagic.io",
+      "title": "Castmagic - 10x Audio Content With AI",
+      "status": 200
+    },
+    {
+      "url": "https://www.castmagic.io/pricing",
+      "title": "Pricing | Castmagic - 10x your content with AI",
+      "status": 200
+    },
+    {
+      "url": "https://www.castmagic.io/about",
+      "title": "About | Castmagic - 10x your content with AI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Castmagic",
+  "summary": "AI platform that turns one recording into transcripts, show notes, clips, social posts and newsletters.",
+  "description": "Content repurposing platform for podcasters and content teams: import or upload a recording (1,800+ platforms, plus files, RSS and Zapier) and get a speaker-labelled transcript with timestamps, then AI-drafted show notes, chapters, clips, social posts, newsletters and blog articles in a trained brand voice. Teams draft, review and publish together in shared workspaces with reusable templates and custom prompts.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "content repurposing",
+    "transcription",
+    "show note",
+    "podcast",
+    "podcast clip",
+    "audiogram",
+    "social post generator",
+    "newsletter generator",
+    "blog post generator",
+    "brand voice",
+    "content pipeline",
+    "meeting recap",
+    "content workflow"
+  ],
+  "contains": [
+    "100+ content utilities from one recording",
+    "speaker-labelled transcripts in 60+ languages",
+    "import from 1,800+ platforms plus upload, RSS and Zapier",
+    "brand voice training with reusable templates and custom prompts",
+    "team workspaces with user permissions, folders and review workflows",
+    "plans from $19/mo (Hobby) with yearly billing"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

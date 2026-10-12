@@ -1,0 +1,87 @@
+{
+  "id": "vehla-app",
+  "url": "https://vehla.app",
+  "kind": "site",
+  "hints_hash": "81f32e6be9d55aa1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vehla.app/llms.txt",
+      "title": "Vehla - Kaila Consulting Inc.",
+      "status": null
+    },
+    {
+      "url": "https://vehla.app",
+      "title": "Vehla – Mac command center: launcher, clipboard, windows & AI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Vehla",
+  "summary": "Native macOS command center app: launcher palette, clipboard history, window management, dictation, file shelf and on-device AI actions.",
+  "description": "A native macOS 15+ command center for Apple Silicon that replaces a stack of single-purpose utilities: launcher palette, clipboard intelligence, window management, dictation, OCR, file shelf, menu-bar cleanup and notes/canvas/Kanban workspaces. Text AI actions can run on-device through an MLX runtime, with cloud models as bring-your-own-key (OpenAI, Anthropic, Google, DeepSeek, OpenRouter), plus Ollama and LM Studio. Free forever tier; Pro is a one-time $29.99 for two Macs.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "command-palette",
+    "kanban"
+  ],
+  "keywords": [
+    "launcher",
+    "command palette",
+    "clipboard manager",
+    "window manager",
+    "dictation",
+    "ocr",
+    "file shelf",
+    "menubar",
+    "kanban",
+    "note",
+    "canvas",
+    "on-device ai",
+    "local model",
+    "mlx",
+    "ollama",
+    "mcp server",
+    "text expansion",
+    "macos",
+    "apple silicon",
+    "snippet"
+  ],
+  "contains": [
+    "native macOS 15+ app for Apple Silicon; free forever tier, Pro $29.99 once for two Macs",
+    "launcher palette, clipboard history, window management, dictation, OCR, file shelf, menu-bar cleanup",
+    "on-device AI via MLX; Ollama, LM Studio or cloud keys (OpenAI, Anthropic, Google, DeepSeek, OpenRouter)",
+    "workspaces: notes, canvas, Kanban, draw.io; Recall local retrieval index",
+    "SnapWheel pointer gestures, Island system surface, Dock Widgets, QuickGlass, Flow, Magic Rewrite",
+    "extensions: native Swift extensions, MCP servers, browser integration, Finder actions",
+    "version 8.5, build 406; 7-day Pro trial without card; docs and SDK included",
+    "made by Kaila Consulting Inc., Ottawa, Canada"
+  ],
+  "formats": [
+    "app",
+    "docs"
+  ],
+  "stack": [
+    "swift",
+    "mlx"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

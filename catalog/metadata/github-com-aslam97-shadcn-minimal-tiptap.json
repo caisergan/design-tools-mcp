@@ -1,0 +1,34 @@
+{
+  "id": "github-com-aslam97-shadcn-minimal-tiptap",
+  "url": "https://github.com/Aslam97/shadcn-minimal-tiptap",
+  "kind": "repo",
+  "hints_hash": "ffe6416d42f4681d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:34:35Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Aslam97/shadcn-minimal-tiptap/blob/HEAD/README.md", "title": "Minimal Tiptap Editor", "status": 200},
+    {"url": "https://github.com/Aslam97/shadcn-minimal-tiptap", "title": "GitHub - Aslam97/minimal-tiptap: Minimal Tiptap Editor", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Minimal Tiptap Editor",
+  "summary": "Rich text editor component for shadcn/ui built on Tiptap, with a configurable toolbar and image upload support.",
+  "description": "A lightweight WYSIWYG rich text editor component built on Tiptap and styled for shadcn/ui projects. It installs from the shadcn registry or manually with the listed dependencies, and ships React and Tailwind source: configurable toolbar, image support with upload and error management, and documented props for customization. Demo at minimal-tiptap.aslamh.dev; the repo was renamed from shadcn-minimal-tiptap to minimal-tiptap.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input"],
+  "keywords": ["rich text editor", "wysiwyg", "tiptap", "shadcn", "react", "tailwind", "editor", "text formatting", "image upload", "toolbar", "content editor", "typescript", "input"],
+  "contains": [
+    "rich text editor component for shadcn/ui projects",
+    "installs from the shadcn registry; manual installation and Tailwind CSS setup documented",
+    "configurable toolbar; image upload with upload management and error handling",
+    "props documented for customization; React + Tailwind source",
+    "MIT license; 1.8k GitHub stars; demo at minimal-tiptap.aslamh.dev"
+  ],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "tailwind", "shadcn", "tiptap"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Aslam97/minimal-tiptap", "docs": "https://minimal-tiptap.aslamh.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

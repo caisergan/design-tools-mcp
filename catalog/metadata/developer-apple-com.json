@@ -1,0 +1,99 @@
+{
+  "id": "developer-apple-com",
+  "url": "https://developer.apple.com",
+  "kind": "site",
+  "hints_hash": "7003651be6e04391",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:51:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://developer.apple.com",
+      "title": "Apple Developer",
+      "status": 200
+    },
+    {
+      "url": "https://developer.apple.com/get-started",
+      "title": "Get Started - Apple Developer",
+      "status": 200
+    },
+    {
+      "url": "https://developer.apple.com/fonts",
+      "title": "Fonts - Apple Developer",
+      "status": 200
+    },
+    {
+      "url": "https://developer.apple.com/design",
+      "title": "Design - Apple Developer",
+      "status": 200
+    },
+    {
+      "url": "https://developer.apple.com/documentation",
+      "title": "Featured | Apple Developer Documentation",
+      "status": 200
+    },
+    {
+      "url": "https://developer.apple.com/documentation/appintents",
+      "title": "App Intents | Apple Developer Documentation",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Apple Developer",
+  "summary": "Apple's developer portal for building apps on its platforms: docs, videos, Xcode, design resources and membership.",
+  "description": "Apple's portal for building apps on Apple platforms: documentation and sample code, videos, Xcode and OS betas, design guidance and resources (Human Interface Guidelines, Apple Design Resources for Figma and Sketch, SF Symbols, system fonts), and the Apple Developer Program. A free account covers betas, forums and events; the $99/year program adds distribution, TestFlight, analytics and code-level support.",
+  "type": "design-system",
+  "categories": [
+    "dev-ai-tools",
+    "design-rules",
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "ios development",
+    "mobile app development",
+    "swift",
+    "swiftui",
+    "app development",
+    "developer documentation",
+    "sample code",
+    "human interface guideline",
+    "design guideline",
+    "design resource",
+    "system font",
+    "app icon",
+    "sf symbol"
+  ],
+  "contains": [
+    "documentation, sample code and videos for Apple platforms",
+    "Human Interface Guidelines and Apple Design Resources for Figma and Sketch",
+    "SF Symbols library of over 7,000 symbols",
+    "SF Pro, SF Compact, SF Mono and New York font downloads",
+    "free developer account vs $99/year Apple Developer Program"
+  ],
+  "formats": [
+    "docs",
+    "video",
+    "font-files",
+    "figma-file",
+    "code"
+  ],
+  "stack": [
+    "swift",
+    "swiftui"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://developer.apple.com/documentation",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

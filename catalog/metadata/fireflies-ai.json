@@ -1,0 +1,91 @@
+{
+  "id": "fireflies-ai",
+  "url": "https://fireflies.ai",
+  "kind": "site",
+  "hints_hash": "5cd3e263fa92a556",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fireflies.ai/llms.txt",
+      "title": "Fireflies.ai",
+      "status": null
+    },
+    {
+      "url": "https://fireflies.ai",
+      "title": "Fireflies.ai | #1 AI Teammate for Meetings, Email, Chat & CRM",
+      "status": 200
+    },
+    {
+      "url": "https://fireflies.ai/skills",
+      "title": "Fireflies.ai Skills | AI Skill for Smarter Meeting Notes & Productivity",
+      "status": 200
+    },
+    {
+      "url": "https://fireflies.ai/pricing",
+      "title": "Pricing & Plans | Fireflies.ai AI App for Smarter Meeting Notes",
+      "status": 200
+    },
+    {
+      "url": "https://fireflies.ai/about-us",
+      "title": "Fireflies.ai About Us | Transforming Meetings with AI App & Notetaker",
+      "status": 200
+    },
+    {
+      "url": "https://fireflies.ai/skills/hr",
+      "title": "HR Skills | Fireflies.ai | AI Teammate & Note Taker",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Fireflies.ai",
+  "summary": "AI meeting assistant that records, transcribes and summarizes calls, then syncs notes into work tools.",
+  "description": "AI notetaker that joins Zoom, Google Meet, Microsoft Teams and Webex meetings (or captures in-person audio from mobile and desktop apps) to produce transcripts with speaker recognition, summaries and action items. 200+ AI Skills extract follow-ups, scorecards and CRM updates, conversation intelligence adds speaker and sentiment analytics, and an MCP server and API expose meeting data to other tools.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "meeting note",
+    "transcription",
+    "ai notetaker",
+    "meeting summary",
+    "action item",
+    "conversation intelligence",
+    "sales call",
+    "crm sync",
+    "video call",
+    "meeting api",
+    "mcp server",
+    "meeting analytics"
+  ],
+  "contains": [
+    "95% accurate transcription in 100+ languages",
+    "joins Zoom, Google Meet, Microsoft Teams and Webex; Chrome extension, mobile and desktop apps",
+    "200+ AI Skills for sales, HR, recruiting, engineering and more",
+    "conversation intelligence with speaker, topic and sentiment analytics",
+    "MCP server and API; Slack, CRM, project management and ATS integrations",
+    "free plan with unlimited transcription; Pro from $10/seat/mo billed annually"
+  ],
+  "formats": [
+    "app",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://fireflies.ai/api",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

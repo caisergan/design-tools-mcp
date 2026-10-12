@@ -1,0 +1,26 @@
+{
+  "id": "doi-org-10-1177-8755293020970981",
+  "url": "https://doi.org/10.1177/8755293020970981",
+  "kind": "page",
+  "hints_hash": "f8ccb8cfbf622fca",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://doi.org/10.1177/8755293020970981", "title": "Response spectral matching of horizontal ground motion components to an orientation-independent spectrum (RotDnn)", "status": null}
+  ],
+  "status": "ok",
+  "name": "Response spectral matching of horizontal ground motion components (RotDnn)",
+  "summary": "Crossref DOI landing page for a 2021 Earthquake Spectra journal article on spectral matching of ground motions (RotDnn).",
+  "description": "Crossref chooser page for a journal article: publication Earthquake Spectra (May 2021), author Luis A. Montejo, the DOI and multiple link options to the publisher (wiley.com, geoscienceworld.org).",
+  "type": "article",
+  "elements": [],
+  "keywords": ["earthquake engineering", "ground motion", "response spectrum", "spectral matching", "seismic design", "journal article", "academic paper", "doi", "rotdnn", "orientation-independent spectrum"],
+  "contains": ["Crossref DOI chooser page", "record type: journal article", "published May 2021 in Earthquake Spectra", "author: Luis A. Montejo", "link options: wiley.com, geoscienceworld.org"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,29 @@
+{
+  "id": "onepagelove-com-tapdaa",
+  "url": "https://onepagelove.com/tapdaa",
+  "kind": "page",
+  "hints_hash": "c0145c0888d7dc2f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/tapdaa", "title": "Tapdaa — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tapdaa",
+  "summary": "One Page Love showcase of the Tapdaa landing page: NFC and QR labels for hospitality, tagged by sections, style and typeface.",
+  "description": "An award entry on One Page Love for Tapdaa, a landing page for NFC and QR-enabled label technology that connects hospitality customers with digital menus, reservations and feedback. The page shows a full screenshot and description, tags the design by category (digital product, SaaS), style, typeface and color, and lists the sections it uses: header navigation, CTA hero, bento grid features, contact form, pricing table and footer.",
+  "type": "gallery",
+  "elements": ["navbar", "hero", "bento-grid", "features", "form", "contact", "pricing", "footer"],
+  "keywords": ["one page website", "landing page", "web design inspiration", "website showcase", "digital product", "saas", "hospitality", "nfc", "qr code", "bento grid", "pricing table", "contact form", "modular layout"],
+  "contains": [
+    "full-page screenshot of the Tapdaa website",
+    "tagged sections: header navigation, CTA hero, bento grid features, contact form, pricing table, footer",
+    "design tags: digital product, SaaS, modular layout, lime color, FH Oscar typeface",
+    "published 25 Aug 2026",
+    "link to the live website"
+  ],
+  "formats": ["screenshots", "links"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

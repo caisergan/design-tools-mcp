@@ -1,0 +1,27 @@
+{
+  "id": "cleanup-pictures",
+  "url": "https://cleanup.pictures",
+  "kind": "site",
+  "hints_hash": "0617bbe3abf88686",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cleanup.pictures", "title": "Cleanup.pictures - Remove objects, people, text and defects from any picture for free", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cleanup.pictures",
+  "summary": "Web tool that erases objects, people, text and watermarks from photos with AI inpainting.",
+  "description": "Cleanup.pictures removes unwanted objects, people, text, logos and defects from any image in a few brush strokes: the AI reconstructs what was behind the selection. A free tier handles unlimited images at 720p export; Pro lifts the resolution limit and a usage-based inpainting API is available for Node.js, SwiftUI and Kotlin apps. Built for photographers, creative agencies, real estate and e-commerce teams.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["object removal", "inpainting", "photo retouching", "image editor", "remove watermark", "remove people from photo", "remove text from image", "ai photo tool", "image cleanup", "watermark removal", "api", "photo editing"],
+  "contains": ["removes objects, people, text, logos and watermarks from photos", "free tier: unlimited images, export limited to 720p", "Pro from $5/month or $36/year for high-resolution output", "usage-based inpainting API (Node.js, SwiftUI, Kotlin)"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

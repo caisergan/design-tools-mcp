@@ -1,0 +1,27 @@
+{
+  "id": "github-com-jscodedevlopment-upload-crop-image",
+  "url": "https://github.com/JsCodeDevlopment/upload-crop-image",
+  "kind": "repo",
+  "hints_hash": "654ef80c06dbf7bd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/JsCodeDevlopment/upload-crop-image/blob/HEAD/README.md", "title": "Image Crop Field", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Image Crop Field",
+  "summary": "React image upload and crop field built on shadcn/ui, wrapping react-easy-crop and react-image-crop.",
+  "description": "Form field component for uploading and cropping images, with zoom from 0.5x to 5x, rotation from -45 to +45 degrees, locked aspect ratio or free crop, and output files at exact dimensions via canvas. Integrates with React Hook Form and Zod and targets Next.js 15, React 19, TypeScript and Tailwind CSS 4; a playground route demos the options.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["file-upload", "form"],
+  "keywords": ["image crop", "image upload", "react", "shadcn ui", "react hook form", "zod", "crop field", "avatar crop", "banner crop", "canvas", "nextjs", "typescript", "tailwind css"],
+  "contains": ["upload and crop field with preview, zoom 0.5x-5x and rotation -45 to 45 degrees", "hybrid engine: react-easy-crop for fixed aspect, react-image-crop for free crop", "outputs images at exact dimensions (e.g. 1200x630) via canvas", "React Hook Form + Zod integration with max file size limit", "Next.js 15, React 19, TypeScript and Tailwind CSS 4", "playground route to test crop shape, ratio and free crop"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "react-hook-form", "zod", "react-easy-crop", "react-image-crop"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/JsCodeDevlopment/upload-crop-image", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

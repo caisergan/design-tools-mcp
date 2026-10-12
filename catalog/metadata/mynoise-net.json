@@ -1,0 +1,71 @@
+{
+  "id": "mynoise-net",
+  "url": "https://mynoise.net",
+  "kind": "site",
+  "hints_hash": "d2e0e26bfd518a34",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mynoise.net",
+      "title": "Custom Soundscapes for Focus, Relaxation & Sleep | myNoise ®",
+      "status": null
+    },
+    {
+      "url": "https://mynoise.net/faq.php",
+      "title": "About myNoise.net",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "myNoise",
+  "summary": "Adjustable soundscape generators for focus, relaxation and sleep, with per-frequency sliders and hearing calibration.",
+  "description": "A library of sound generators — field-recorded nature sounds, ambient music and noise textures — grouped into Focus & Productivity, Meditation & Relaxation and Sleep Aid. Each generator is tuned with a bank of frequency sliders and an iEQ calibration that adapts the sound to your speakers and hearing. Free to use; donations unlock lifetime privileged access, and mobile apps unlock the full catalog with a one-time payment. Sounds are licensed for personal use only.",
+  "type": "generator",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "soundscape",
+    "noise generator",
+    "white noise",
+    "background noise",
+    "focus",
+    "relaxation",
+    "sleep aid",
+    "tinnitus",
+    "ambient sound",
+    "equalizer",
+    "browser audio"
+  ],
+  "contains": [
+    "sound generators grouped into Focus & Productivity, Meditation & Relaxation, Sleep Aid",
+    "each generator tuned with frequency sliders plus an iEQ calibration",
+    "library examples: Distant Thunder, Japanese Garden, Irish Coast, Medieval Library, Stormy Weather",
+    "favorites and per-generator custom settings",
+    "iOS and Android apps: free soundscapes, one payment unlocks the full catalog",
+    "donations give lifetime privileged access to the website"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [
+    "web-audio-api"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,28 @@
+{
+  "id": "github-com-henriqpohl-turborepo-shadcn-ui-tailwindcss",
+  "url": "https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss",
+  "kind": "repo",
+  "hints_hash": "3c80804ca696d8f2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss/blob/HEAD/README.md", "title": "🚀 Turborepo starter NextJS with Shadcn/UI & Tailwind CSS", "status": 200},
+    {"url": "https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss", "title": "GitHub - henriqpohl/turborepo-shadcn-ui-tailwindcss: Turborepo starter with Shadcn/UI & Tailwind CSS pre-configured for shared ui components. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Turborepo starter NextJS with Shadcn/UI & Tailwind CSS",
+  "summary": "Turborepo starter with Next.js, shadcn/ui and Tailwind CSS pre-configured for shared UI components across apps.",
+  "description": "Monorepo starter that wires shadcn/ui and Tailwind CSS into Turborepo with pnpm: a docs Next.js app plus a @repo/ui shared React component library, ESLint and TypeScript config packages, and optional Vercel remote caching for build artifacts.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["turborepo", "monorepo", "shadcn ui", "tailwind css", "next.js", "pnpm", "react", "typescript", "starter", "boilerplate", "shared component", "component library", "eslint", "prettier", "remote caching", "vercel"],
+  "contains": ["Turborepo starter with shadcn/ui and Tailwind CSS", "apps: docs (Next.js); packages: @repo/ui shared component library", "@repo/eslint-config and @repo/typescript-config packages", "100% TypeScript, pnpm workspaces", "Vercel remote caching setup", "MIT licensed"],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn", "pnpm", "turborepo", "eslint", "prettier"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

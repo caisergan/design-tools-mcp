@@ -1,0 +1,138 @@
+{
+  "id": "ui-spectrumhq-in",
+  "url": "https://ui.spectrumhq.in",
+  "kind": "site",
+  "hints_hash": "8358cde11792f7e2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.spectrumhq.in/llms.txt",
+      "title": "Spectrum UI",
+      "status": null
+    },
+    {
+      "url": "https://ui.spectrumhq.in",
+      "title": "Spectrum UI — Animated React Components & Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://ui.spectrumhq.in/docs",
+      "title": "Components | Spectrum UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.spectrumhq.in/blocks/ai-assistants",
+      "title": "AI Assistants Blocks for React — Live Previews & Source",
+      "status": 200
+    },
+    {
+      "url": "https://ui.spectrumhq.in/faqs",
+      "title": "Frequently Asked Questions | Spectrum UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.spectrumhq.in/docs/mcp",
+      "title": "MCP Server | Spectrum UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Spectrum UI",
+  "summary": "Open-source React component and block library of 250+ animated, copy-paste parts with shadcn CLI installs and an MCP server.",
+  "description": "An open-source library of 250+ animation-ready React components, blocks and variants: 58 documented components and 111 composed blocks (AI assistants, pricing, tables, charts, footers, empty states). Built with React, Next.js, Tailwind CSS, Motion and Radix UI; install by copy-paste or with the shadcn CLI, or let an AI editor add components through the @spectrumui/mcp server. Apache-2.0, new components ship every Thursday.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries",
+    "sections"
+  ],
+  "elements": [
+    "accordion",
+    "ai-agent-ui",
+    "alert",
+    "avatar",
+    "badge",
+    "3d",
+    "button",
+    "card",
+    "chart",
+    "chat",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "empty-state",
+    "footer",
+    "input",
+    "kanban",
+    "loader",
+    "pricing",
+    "prompt-input",
+    "slider",
+    "switch",
+    "table"
+  ],
+  "keywords": [
+    "react component",
+    "animated component",
+    "shadcn",
+    "shadcn ui",
+    "shadcn registry",
+    "tailwind css",
+    "nextjs",
+    "copy paste",
+    "ui block",
+    "landing page",
+    "saas dashboard",
+    "admin panel",
+    "ai chat",
+    "chat interface",
+    "pricing block",
+    "data table",
+    "chart",
+    "kanban board",
+    "command palette",
+    "empty state",
+    "footer",
+    "mcp server",
+    "ai agent",
+    "motion"
+  ],
+  "contains": [
+    "250+ copy-paste components, blocks and variants",
+    "58 documented components and 111 composed blocks",
+    "block tiers: AI assistants (27), tables (15), charts (19), footers (18), empty states (25), pricing (7)",
+    "315 shadcn registry items, installable with the shadcn CLI",
+    "MCP server @spectrumui/mcp for Cursor, Claude Code and Windsurf",
+    "Apache-2.0, community-maintained, new components every Thursday"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "typescript",
+    "framer-motion",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/arihantcodes/spectrum-ui",
+    "docs": "https://ui.spectrumhq.in/docs",
+    "npm": "@spectrumui/mcp",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

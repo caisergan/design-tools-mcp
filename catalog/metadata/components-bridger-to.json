@@ -1,0 +1,31 @@
+{
+  "id": "components-bridger-to",
+  "url": "https://components.bridger.to",
+  "kind": "site",
+  "hints_hash": "d7f6fd7dec286a82",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://components.bridger.to", "title": "Next JS Components for building websites created by Bridger Tower", "status": null},
+    {"url": "https://components.work/pricing", "title": "Next JS Components for building websites created by Bridger Tower", "status": null},
+    {"url": "https://components.work/faq", "title": "Next JS Components for building websites created by Bridger Tower", "status": null},
+    {"url": "https://github.com/brijr/components", "title": "GitHub - brijr/components: Next.js components built with Tailwind, Typescript, brijr/craft, shadcn/ui, and more. · GitHub", "status": 200},
+    {"url": "https://github.com/brijr/components/blob/main/README.md", "title": "components/README.md at main · brijr/components · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "components.work",
+  "summary": "Copy-paste Next.js components for marketing sites: heroes, features, CTAs, FAQs, pricing, headers and footers.",
+  "description": "A collection of type-safe React and TypeScript components for building Next.js landing pages, styled with Tailwind CSS and shadcn/ui. Components are grouped into hero, feature, CTA, FAQ, pricing, header and footer sections; you copy a component from the site or the GitHub repo and paste it into your app.",
+  "type": "block-library",
+  "categories": ["sections", "components"],
+  "elements": ["navbar", "hero", "features", "cta", "faq", "pricing", "footer"],
+  "keywords": ["nextjs component", "react component", "landing page", "hero section", "feature section", "cta section", "faq section", "pricing section", "header", "footer", "copy paste", "tailwind css", "typescript", "marketing site", "page section"],
+  "contains": ["7 section groups: hero, feature, CTA, FAQ, pricing, header, footer", "type-safe React components for Next.js", "built with Tailwind, shadcn/ui and brijr/craft", "copy a component and paste it into your app", "docs and setup steps in the GitHub repo", "506 GitHub stars"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn-ui"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/brijr/components", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

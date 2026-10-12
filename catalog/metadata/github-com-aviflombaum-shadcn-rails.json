@@ -1,0 +1,116 @@
+{
+  "id": "github-com-aviflombaum-shadcn-rails",
+  "url": "https://github.com/aviflombaum/shadcn-rails",
+  "kind": "repo",
+  "hints_hash": "ab1a31170f5c4af4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:07Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/aviflombaum/shadcn-rails/blob/HEAD/README.md",
+      "title": "shadcn/ui on Rails",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aviflombaum/shadcn-rails/main/app/views/documentation/installation.html.md",
+      "title": "Installation",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn-on-rails.avi.nyc/docs/components/accordion",
+      "title": "Accordion - shadcn/ui on Rails",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn/ui on Rails",
+  "summary": "Ruby port of shadcn/ui: 32 copy-paste components for Rails, installed via a gem or by hand.",
+  "description": "A Ruby port of shadcn/ui for Rails: 32 copy-paste components styled with Tailwind CSS, installed via the shadcn-ui gem and its Rails generators or copied by hand. Each component has a docs page with examples, installation and usage sections, and a demo Rails app showcases them. The repository is no longer under active development.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "badge",
+    "button",
+    "card",
+    "checkbox",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "file-upload",
+    "form",
+    "input",
+    "loader",
+    "modal",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "shadcn",
+    "rail",
+    "ruby",
+    "ruby gem",
+    "component library",
+    "tailwind css",
+    "copy paste component",
+    "stimulus",
+    "accordion",
+    "combobox",
+    "data table",
+    "date picker",
+    "dialog",
+    "dropdown menu",
+    "file upload",
+    "form",
+    "popover",
+    "card",
+    "tabs",
+    "toast",
+    "tooltip",
+    "slider",
+    "switch"
+  ],
+  "contains": [
+    "32 components including accordion, alert dialog, combobox, date picker, dropdown menu, table, tabs and toast",
+    "installed via the shadcn-ui gem with Rails generators, or copied by hand",
+    "each component has docs with examples, installation and usage sections",
+    "demo Rails app with a components showcase",
+    "repository is no longer under active development"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "ruby",
+    "rails",
+    "tailwind",
+    "stimulus"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/aviflombaum/shadcn-rails",
+    "docs": "https://shadcn-on-rails.avi.nyc/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

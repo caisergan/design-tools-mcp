@@ -1,0 +1,19 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-020-glitch-art-portrait-htm",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/020-glitch-art-portrait.html",
+  "kind": "page",
+  "hints_hash": "36b01c0559a38454",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/020-glitch-art-portrait.html", "title": "Signal Loss — Generative Glitch Portrait", "status": null},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Signal Loss",
+  "summary": "Self-contained HTML study from a 100-study collection: a generative face drawn in code, corrupted live with slice and smear controls.",
+  "keywords": ["glitch art", "generative portrait", "procedural art", "glitch effect", "corruption effect", "seeded art", "digital art", "interactive demo", "creative coding", "html study", "standalone html"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

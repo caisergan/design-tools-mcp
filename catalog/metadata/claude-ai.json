@@ -1,0 +1,15 @@
+{
+  "id": "claude-ai",
+  "url": "https://claude.ai",
+  "kind": "site",
+  "hints_hash": "f5825bfd08731c88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:50:00Z",
+  "extractor": {"agent": "omp", "model": "commandcode/deepseek/deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://claude.ai/", "title": null, "status": 403},
+    {"url": "https://claude.ai/login", "title": null, "status": 403}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

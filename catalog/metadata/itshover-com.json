@@ -1,0 +1,103 @@
+{
+  "id": "itshover-com",
+  "url": "https://itshover.com",
+  "kind": "site",
+  "hints_hash": "012e1f8152895ac3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://itshover.com",
+      "title": "Its Hover",
+      "status": null
+    },
+    {
+      "url": "https://www.itshover.com/icons",
+      "title": "Animated icons | Its Hover",
+      "status": null
+    },
+    {
+      "url": "https://www.itshover.com/example",
+      "title": "Its Hover",
+      "status": null
+    },
+    {
+      "url": "https://github.com/itshover/itshover",
+      "title": "GitHub - itshover/itshover: Icons that move with intent · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Its Hover",
+  "summary": "Open source library of animated SVG icons shipped as editable React components and installable from a shadcn registry.",
+  "description": "Animated icons built with React and Motion, distributed through a shadcn registry: each icon installs with npx shadcn add https://itshover.com/r/<name>.json and works with Next.js, shadcn and modern design systems. Icons cover UI essentials, social, tech, actions, currency and status, and the site also shows community examples of animated components (sidebar, navbar, dock, profile dropdown).",
+  "type": "icon-set",
+  "categories": [
+    "icons",
+    "motion"
+  ],
+  "elements": [
+    "navbar",
+    "sidebar",
+    "dock",
+    "dropdown",
+    "tooltip"
+  ],
+  "variants": {
+    "sidebar": [
+      "collapsible"
+    ]
+  },
+  "keywords": [
+    "animated icon",
+    "animated icon library",
+    "react icon",
+    "svg icon",
+    "icon animation",
+    "hover animation",
+    "micro interaction",
+    "shadcn registry",
+    "motion",
+    "open source icon",
+    "icon component",
+    "animated navbar",
+    "animated sidebar",
+    "dock navigation",
+    "nextjs"
+  ],
+  "contains": [
+    "263 items in its shadcn registry",
+    "186+ animated icons: UI essentials, social, tech, actions, currency, status",
+    "each icon is a React component animated with motion/react on hover",
+    "install via npx shadcn add https://itshover.com/r/<icon>.json",
+    "example gallery of animated components: sidebar, navbar, dock, profile dropdown",
+    "Apache-2.0 licensed; built with Next.js 16, React 18+, Motion and Tailwind CSS 4"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "svg"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/itshover/itshover",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,130 @@
+{
+  "id": "ui-watermelon-sh",
+  "url": "https://ui.watermelon.sh",
+  "kind": "site",
+  "hints_hash": "f57da5e95655008a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.watermelon.sh/llms.txt",
+      "title": "Watermelon UI",
+      "status": null
+    },
+    {
+      "url": "https://ui.watermelon.sh",
+      "title": "Watermelon UI: Free React Components, Blocks & Dashboards",
+      "status": 200
+    },
+    {
+      "url": "https://ui.watermelon.sh/blocks",
+      "title": "UI Blocks - Pre-built Sections | Watermelon UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.watermelon.sh/developers",
+      "title": "Watermelon UI Developers",
+      "status": 200
+    },
+    {
+      "url": "https://ui.watermelon.sh/developers/status",
+      "title": "Watermelon UI Status & Integrations",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WatermelonCorp/watermelon-platform/main/LICENSE",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Watermelon UI",
+  "summary": "Open-source React UI platform: components, animated pieces, pre-built blocks, dashboards and templates for Tailwind CSS and shadcn/ui.",
+  "description": "Watermelon UI collects production-style React building blocks: copy-paste blocks (hero, navbar, pricing, footer, cta, stats, faq …), animated components, dashboards and full templates. It is free and open-source (MIT), with 403 documented pages served through a shadcn registry (778 items) installed with the shadcn CLI, plus a public catalog API, an OpenAPI contract, llms.txt and a hosted MCP server for AI agents.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "hero",
+    "footer",
+    "navbar",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "cta",
+    "contact",
+    "stats",
+    "team",
+    "bento-grid",
+    "404",
+    "banner",
+    "form",
+    "file-upload",
+    "dashboard",
+    "card",
+    "accordion",
+    "button",
+    "toast",
+    "slider"
+  ],
+  "keywords": [
+    "react component",
+    "shadcn ui",
+    "tailwind css",
+    "ui block",
+    "hero section",
+    "navbar",
+    "dashboard",
+    "animated component",
+    "copy paste",
+    "shadcn registry",
+    "mcp server",
+    "landing page template",
+    "pricing section",
+    "faq section",
+    "testimonials",
+    "bento grid",
+    "open source",
+    "file upload"
+  ],
+  "contains": [
+    "778 shadcn registry items; install with the shadcn CLI",
+    "403 documented pages: components, blocks, dashboards, templates",
+    "block categories: hero, navbar, footer, pricing, cta, stats, team, bento, 404, file upload, newsletter, widget",
+    "template: Landing Page 01",
+    "public catalog API with OpenAPI contract and llms.txt for agents",
+    "hosted MCP server at mcp.watermelon.sh for ChatGPT/Claude clients",
+    "MIT-licensed platform repository"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "api",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/WatermelonCorp/watermelon-platform",
+    "docs": "https://ui.watermelon.sh/developers",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

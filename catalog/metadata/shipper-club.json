@@ -1,0 +1,28 @@
+{
+  "id": "shipper-club",
+  "url": "https://shipper.club",
+  "kind": "site",
+  "hints_hash": "58a5910b71f10aa5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shipper.club", "title": "Shipper Club | A Club for Modern Builders With Taste", "status": null},
+    {"url": "https://www.shipper.club/showcase", "title": "What Members Are Building | Shipper Club", "status": null}
+  ],
+  "status": "ok",
+  "name": "Shipper Club",
+  "summary": "Paid private community where builders share work, meet weekly and get resources to ship faster.",
+  "description": "A private club for developers and founders, paid once ($149): a Discord community, weekly member meetings and live video calls, a curated builder resource list, a newsletter and exclusive member discounts. A public showcase and world map show what members are building and where they are.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["private community", "discord community", "builder", "founder", "shipping", "membership", "developer community", "weekly meeting", "network", "resource list", "indie maker"],
+  "contains": ["$149 one-time payment, no subscription; 242 members so far, batch 3 of 10", "perks: private Discord, weekly meetings and calls, newsletter, builder resource list, member discounts", "showcase of member builds with live products and GitHub star counts", "world map of where members build from"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

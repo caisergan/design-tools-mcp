@@ -1,0 +1,107 @@
+{
+  "id": "termy-sh",
+  "url": "https://termy.sh",
+  "kind": "site",
+  "hints_hash": "bc4273a4ff9e4db5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://termy.sh/llms.txt",
+      "title": "Termy",
+      "status": null
+    },
+    {
+      "url": "https://termy.sh",
+      "title": "Termy — A fast, native terminal",
+      "status": null
+    },
+    {
+      "url": "https://termy.sh/docs",
+      "title": "Termy documentation",
+      "status": null
+    },
+    {
+      "url": "https://termy.sh/docs/customize",
+      "title": "Customize Termy",
+      "status": null
+    },
+    {
+      "url": "https://termy.sh/docs/developer",
+      "title": "Develop and embed",
+      "status": null
+    },
+    {
+      "url": "https://termy.sh/docs/reference",
+      "title": "Reference",
+      "status": null
+    },
+    {
+      "url": "https://github.com/lassejlv/termy",
+      "title": "GitHub - lassejlv/termy: The terminal, at full speed",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Termy",
+  "summary": "GPU-accelerated terminal for macOS, Linux and Windows with tabs, splits, a command palette and plugins.",
+  "description": "Termy is a native terminal for macOS, Linux and Windows built on its own streaming parser and damage-scoped GPU rendering. It ships tabs, split panes, scrollback search, a command palette, themes and keybindings in a plain config file, tasks and reusable layouts, plugins, saved SSH hosts and optional tmux sessions. The Rust core (libtermy) can be embedded in native hosts, and @termysh packages run the engine in the browser.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "command-palette",
+    "tabs",
+    "stats"
+  ],
+  "keywords": [
+    "terminal",
+    "terminal emulator",
+    "gpu rendering",
+    "tabs",
+    "split pane",
+    "command palette",
+    "theme",
+    "tmux",
+    "ssh",
+    "rust",
+    "plugin",
+    "macos",
+    "linux",
+    "window"
+  ],
+  "contains": [
+    "native terminal for macOS, Linux and Windows",
+    "damage-scoped GPU rendering with dirty-span cell caching",
+    "tabs, split panes, scrollback search, tasks and reusable layouts",
+    "command palette, themes and keybindings via a config file",
+    "plugin system with palette commands and native UI",
+    "optional tmux control-mode sessions and saved SSH hosts",
+    "libtermy embeddable in Rust/C/Swift; @termysh web packages",
+    "MIT licensed (444 stars)"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "npm-package"
+  ],
+  "stack": [
+    "rust"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/lassejlv/termy",
+    "docs": "https://termy.sh/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

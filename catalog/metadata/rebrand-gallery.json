@@ -1,0 +1,105 @@
+{
+  "id": "rebrand-gallery",
+  "url": "https://rebrand.gallery",
+  "kind": "site",
+  "hints_hash": "5821b39048d79770",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.rebrand.gallery/",
+      "title": "Rebrand Gallery — Best Rebrands & Brand Identity Inspiration",
+      "status": 200
+    },
+    {
+      "url": "https://www.rebrand.gallery/typefaces",
+      "title": "Brand Fonts: Typefaces Used by Real Brands — Rebrand Gallery",
+      "status": 200
+    },
+    {
+      "url": "https://www.rebrand.gallery/about",
+      "title": "About & Submissions — Rebrand Gallery",
+      "status": 200
+    },
+    {
+      "url": "https://www.rebrand.gallery/typefaces/inter",
+      "title": "Page Not Found — Rebrand Gallery",
+      "status": 200
+    },
+    {
+      "url": "https://www.rebrand.gallery/typefaces/aeonik",
+      "title": "Brands using the Aeonik font — 3 identities, 20+ examples",
+      "status": 200
+    },
+    {
+      "url": "https://www.rebrand.gallery/rebrand-pro",
+      "title": "Rebrand Pro — Pricing and plans",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Rebrand Gallery",
+  "summary": "Curated gallery of 700+ rebrand projects with reveal videos, bentos and shots, tagged by typeface, color and industry.",
+  "description": "A curated reference library of rebrands and visual identities. Each project is a set of 'intros' (reveal videos), 'bentos' (grids of brand assets) and 'shots' (image examples of logos, packaging, signage, stationery, merch and editorial systems), tagged by style, color, typeface, industry and studio. Includes a typeface index showing which fonts brands use, with shot counts. Free to browse with an account; Pro unlocks the full library (700+ brands, 14,000+ shots), all filters and unlimited collections.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "fonts"
+  ],
+  "elements": [
+    "bento-grid",
+    "tabs"
+  ],
+  "keywords": [
+    "rebrand",
+    "brand identity",
+    "rebranding",
+    "logo redesign",
+    "visual identity",
+    "brand design",
+    "branding",
+    "brand reveal",
+    "identity design",
+    "brand font",
+    "typography in branding",
+    "color palette",
+    "design system",
+    "brand guideline",
+    "packaging design",
+    "signage",
+    "stationery design",
+    "merch design",
+    "brand inspiration",
+    "inspiration gallery"
+  ],
+  "contains": [
+    "700+ brands and 14,000+ shots; 726 gallery examples measured",
+    "content types: intros (reveal videos), bentos (asset grids), shots (image examples)",
+    "filters: style, color, typeface, industry, studio",
+    "typeface index with shot counts (Custom 2010 shots, Roobert 61, FK Grotesk 56, Season Mix 52 …)",
+    "shot collections: billboard, packaging, brand guidelines, signage, merch, editorial, stationery",
+    "industries: fintech, ai, hospitality, food, healthcare, sports, culture",
+    "started July 2023 by Sahkyo; new work weekly; submission free, €99 for a permanent spot"
+  ],
+  "formats": [
+    "video",
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

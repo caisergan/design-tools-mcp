@@ -1,0 +1,32 @@
+{
+  "id": "onepagelove-com-medium-rare",
+  "url": "https://onepagelove.com/medium-rare",
+  "kind": "page",
+  "hints_hash": "e0221b192826ba3c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/medium-rare", "title": "Medium Rare — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Medium Rare",
+  "summary": "One Page Love showcase of Medium Rare, a playful one-page portfolio with easter eggs, a scheme switcher and a newsletter signup.",
+  "description": "Showcase page for Medium Rare, a one-pager presenting the work and experiments of a design duo with fun, interactive elements. Features: lead capture, newsletter, easter eggs, interactive, long scrolling, scheme switcher and whimsical styling. Categories Experimental and Portfolio; style Fun and Scroll Effects; typefaces Inter and Oswald; colour Colorful; built with HTML; published 10 Jul 2026.",
+  "elements": ["form", "switch"],
+  "keywords": ["one page website", "portfolio", "experimental", "easter egg", "interactive", "scroll effect", "scheme switcher", "newsletter", "lead capture", "long scrolling", "whimsical", "fun", "html", "inter", "oswald", "web design inspiration", "personal site"],
+  "contains": [
+    "screenshots of the Medium Rare one-pager in desktop and mobile views",
+    "section: newsletter; features: lead capture, easter eggs, interactive, scheme switcher, long scrolling",
+    "categories Experimental and Portfolio; style Fun, Scroll Effects",
+    "typefaces Inter and Oswald; colour Colorful; built with HTML",
+    "published 10 Jul 2026; spotlighted in Love Letter #90",
+    "showcases the work and experiments of the Medium Rare duo"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

@@ -1,0 +1,22 @@
+{
+  "id": "flicker-laurie-fyi-gallery",
+  "url": "https://flicker.laurie.fyi/gallery",
+  "kind": "page",
+  "hints_hash": "3d18cf27e184c19a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:52:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://flicker.laurie.fyi/gallery", "title": "Flicker - Spinner Library", "status": null},
+    {"url": "https://flicker.laurie.fyi/", "title": "Flicker - Spinner Library", "status": 200},
+    {"url": "https://flicker.laurie.fyi/create", "title": "Flicker - Spinner Library", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Flicker",
+  "summary": "Spinner library of flip-dot display loaders, with a builder that exports them to SVG, React or Flutter.",
+  "description": "A loading spinner library inspired by flip-dot displays (version 1.5). Browse the spinner collection or open the create tool, which takes a 5x5 or 7x7 dot grid, on and off colors and a pixel size, and exports to SVG, React or Flutter. The gallery grid itself is rendered by JavaScript, so the individual presets could not be read.",
+  "elements": ["loader"],
+  "keywords": ["spinner", "loader", "loading animation", "flip dot", "dot matrix", "svg", "react", "flutter", "export", "animation library", "spinner gallery"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

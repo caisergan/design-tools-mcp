@@ -1,0 +1,35 @@
+{
+  "id": "github-com-greensock-gsap",
+  "url": "https://github.com/greensock/gsap",
+  "kind": "repo",
+  "hints_hash": "3cc585cd417971cb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/greensock/gsap/blob/HEAD/README.md", "title": "GSAP (GreenSock Animation Platform)", "status": 200},
+    {"url": "https://gsap.com/standard-license", "title": "Standard License - GSAP", "status": 200}
+  ],
+  "status": "ok",
+  "name": "GSAP",
+  "summary": "Framework-agnostic JavaScript animation library for CSS, SVG, canvas, WebGL and more.",
+  "description": "A JavaScript animation library that animates CSS, SVG, canvas, React, Vue, WebGL, colors, strings, motion paths and generic objects with sequencing, easing and timeline control. ScrollTrigger covers scroll-driven animation, optional plugins add text splitting, morphing, motion paths and FLIP, and a @gsap/react package exposes the useGSAP() hook. Free for everyone, including commercial use and the bonus plugins.",
+  "type": "component-library",
+  "categories": ["motion"],
+  "elements": ["scroll-effect", "text-effect"],
+  "keywords": ["animation library", "javascript animation", "scroll animation", "scrolltrigger", "timeline", "easing", "svg animation", "text animation", "morphing", "motion path", "flip animation", "webgl animation", "react animation", "canvas animation"],
+  "contains": [
+    "framework-agnostic core with zero dependencies",
+    "animates CSS, SVG, canvas, React, Vue, WebGL, colors, strings and motion paths",
+    "ScrollTrigger and ScrollSmoother for scroll-driven animation",
+    "plugins incl. SplitText, MorphSVG, motion paths, FLIP and Observer",
+    "useGSAP() hook via the @gsap/react package",
+    "free for everyone, including commercial use and the bonus plugins"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["javascript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/greensock/gsap", "docs": "https://gsap.com/docs/v3", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

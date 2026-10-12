@@ -1,0 +1,103 @@
+{
+  "id": "nsui-irung-me",
+  "url": "https://nsui.irung.me",
+  "kind": "site",
+  "hints_hash": "6c5e4b0d5af6a1b7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://nsui.irung.me",
+      "title": "Tailark",
+      "status": null
+    },
+    {
+      "url": "https://tailark.com/docs/changelog",
+      "title": "Tailark",
+      "status": null
+    },
+    {
+      "url": "https://tailark.com/pricing",
+      "title": "Pricing - Tailark",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Tailark",
+  "summary": "Shadcn registry of marketing blocks, complete pages and illustrations for landing pages, SaaS sites and marketing websites.",
+  "description": "Shadcn registry for building marketing websites, with blocks, complete pages and illustrations that install through the shadcn CLI with Radix UI and Base UI variants. Content is organised into styles/kits (Quartz, Libre, Dusk, Mist, Veil) and covers hero and features sections, pricing, product, solution, customer story, about, contact, brand and legal pages.",
+  "type": "registry",
+  "categories": [
+    "sections",
+    "components"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "contact",
+    "team",
+    "form"
+  ],
+  "variants": {
+    "features": [
+      "carousel",
+      "accordion"
+    ]
+  },
+  "keywords": [
+    "shadcn registry",
+    "marketing block",
+    "landing page block",
+    "marketing website",
+    "hero section",
+    "features section",
+    "pricing page",
+    "testimonials",
+    "contact page",
+    "team section",
+    "saas landing page",
+    "tailwind block",
+    "nextjs block",
+    "radix ui",
+    "base ui",
+    "dark mode",
+    "illustration"
+  ],
+  "contains": [
+    "474 items in its shadcn registry",
+    "blocks, complete pages and illustrations for marketing sites",
+    "styles/kits: Quartz, Libre, Dusk (free), Mist, Veil",
+    "compatible with Radix UI and Base UI",
+    "setup prompts generate a tailored AI prompt or components.json",
+    "free tier plus one-time plans ($249 Essentials, $299 Complete, $499 Team)"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

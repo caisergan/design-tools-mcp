@@ -1,0 +1,29 @@
+{
+ "id": "liquid-paper-design",
+ "url": "https://liquid.paper.design",
+ "kind": "site",
+ "hints_hash": "7aecc5c34475e43a",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://liquid.paper.design", "title": null, "status": null},
+  {"url": "https://app.paper.design/playground/liquid-metal", "title": null, "status": 200},
+  {"url": "https://paper.design", "title": "Paper – design, share, ship", "status": 200}
+ ],
+ "status": "partial",
+ "name": "Paper",
+ "summary": "Liquid metal playground from Paper, the online design canvas that connects teams, agents, code and data.",
+ "description": "A JavaScript-only playground route in Paper's web app (playground/liquid-metal) that could not be read as text. Paper itself is a design tool for creating, sharing and shipping work: one connected canvas built on web standards where teams, agents, code and data meet, available in the browser and as a desktop app.",
+ "type": "tool",
+ "categories": ["color-effects", "design-tools"],
+ "elements": [],
+ "keywords": ["liquid metal", "metal effect", "chrome effect", "color effect", "visual effect", "playground", "design canvas", "browser design tool", "online design tool", "ui design", "prototyping"],
+ "contains": ["JavaScript-only playground route at app.paper.design/playground/liquid-metal", "design canvas connecting teams, agents, code and data", "runs in the browser and as a desktop app", "docs, pricing, roadmap, blog and changelog on paper.design"],
+ "formats": ["app"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": "https://paper.design/docs", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.6
+}

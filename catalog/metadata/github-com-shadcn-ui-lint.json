@@ -1,0 +1,78 @@
+{
+  "id": "github-com-shadcn-ui-lint",
+  "url": "https://github.com/shadcn-ui/lint",
+  "kind": "repo",
+  "hints_hash": "be8a47aab086c288",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/shadcn-ui/lint/blob/HEAD/README.md",
+      "title": "@shadcn/lint",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "@shadcn/lint",
+  "summary": "Agent-first linter that enforces Tailwind design system rules and hands coding agents fixes from your theme.",
+  "description": "An ESLint and Oxlint plugin that turns a Tailwind v4 design system into lint rules agents can verify, with 6 rules covering className restyling, raw colors, arbitrary values, inline styles, unknown classes and unreadable static classes. When an agent breaks a rule, the error explains what's wrong and suggests a fix based on your components, variants and theme, with custom messages, placeholders and per-component contracts. Works with React, Vue and Svelte, with or without shadcn/ui.",
+  "type": "tool",
+  "categories": [
+    "design-rules",
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "linter",
+    "design system",
+    "design rule",
+    "tailwind",
+    "eslint",
+    "oxlint",
+    "lint rule",
+    "design token",
+    "css class",
+    "static analysis",
+    "agent",
+    "ai agent",
+    "react",
+    "vue",
+    "svelte",
+    "code review",
+    "component"
+  ],
+  "contains": [
+    "6 rules: no-restyle, no-raw-colors, no-arbitrary-values, no-inline-styles, no-unknown-classes, require-static-classes",
+    "works with ESLint 9.30+ and Oxlint 1.80+, Node.js 20.19+",
+    "Tailwind v4 projects; shadcn/ui not required",
+    "React, Vue and Svelte support",
+    "custom error messages, placeholders and per-component contracts",
+    "settings.shadcn: component imports, class functions, theme token imports",
+    "eval: 150+ agent task runs; most tasks to zero violations in one correction round",
+    "monorepo support for shared component packages"
+  ],
+  "formats": [
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "tailwind",
+    "eslint",
+    "oxlint"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcn-ui/lint",
+    "docs": "https://github.com/shadcn-ui/lint/blob/main/docs/README.md",
+    "npm": "@shadcn/lint",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,41 @@
+{
+  "id": "github-com-mahimairaja-tts",
+  "url": "https://github.com/mahimairaja/tts",
+  "kind": "repo",
+  "hints_hash": "17def6d186084803",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {
+      "url": "https://github.com/mahimairaja/tts/blob/HEAD/README.md",
+      "title": "Awesome TTS README",
+      "status": null
+    },
+    {
+      "url": "https://github.com/mahimairaja/tts",
+      "title": "GitHub - mahimairaja/tts: Set of links to improve the voice",
+      "status": 200
+    },
+    {
+      "url": "https://tts.mahimai.ca",
+      "title": "Awesome TTS: A curated path through text-to-speech",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Awesome TTS",
+  "summary": "Curated guide to text-to-speech with 185 resources, split between real-time streaming synthesis for agents and offline synthesis for media.",
+  "description": "A developer-friendly path through text-to-speech organized around one decision: real-time streaming synthesis for agents versus high-fidelity offline synthesis for media. Its 17 sections cover foundational concepts, commercial providers, open-weight models, streaming and cancellation, voice cloning, expressive and multilingual control, architectures, landmark papers, datasets, evaluation and audio codecs.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["text to speech", "tts", "voice cloning", "streaming synthesis", "low latency", "time to first byte", "vocoder", "audio codec", "grapheme to phoneme", "open weight model", "dataset", "benchmark", "paper", "multilingual", "provider", "voice design", "real-time"],
+  "contains": ["185 curated resources", "17 sections from foundational concepts to codecs", "18 commercial providers and 19 open models", "tags: beginner, intermediate, advanced", "companion website at tts.mahimai.ca"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mahimairaja/tts", "docs": "https://tts.mahimai.ca", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

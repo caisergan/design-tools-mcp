@@ -1,0 +1,26 @@
+{
+  "id": "shadcnuikit-com-template-waitly-free-waitlist-template",
+  "url": "https://shadcnuikit.com/template/waitly-free-waitlist-template",
+  "kind": "page",
+  "hints_hash": "f7cad7c30fbd71a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnuikit.com/template/waitly-free-waitlist-template", "title": "Waitly | Next.js Waitlist Template – Shadcnuikit.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Waitly",
+  "summary": "Free open-source Next.js waitlist page template with an email capture form, dark mode and shadcn/ui components.",
+  "description": "A free single-page waitlist template for products before launch: headline and pitch, an email signup form that shows a confirmation toast (UI only — connect your own service), and social links. Built with Next.js 16 App Router, TypeScript, Tailwind CSS and shadcn/ui, with light and dark styles.",
+  "type": "template",
+  "elements": ["hero", "form"],
+  "keywords": ["waitlist", "waitlist page", "waitlist template", "coming soon", "launch page", "email capture", "email signup", "next.js", "shadcn ui", "tailwind css", "typescript", "dark mode", "free template", "landing page"],
+  "contains": ["single waitlist page: headline, email signup form, social links", "Next.js 16 App Router with shadcn/ui and Tailwind CSS", "light and dark theme; deploys to Vercel"],
+  "formats": ["code"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn", "lucide"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shadcnuikit-com"},
+  "confidence": 0.9
+}

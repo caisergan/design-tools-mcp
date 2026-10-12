@@ -1,0 +1,32 @@
+{
+  "id": "designeng-tools",
+  "url": "https://designeng.tools",
+  "kind": "site",
+  "hints_hash": "d7c7985235a311d3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:31:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designeng.tools", "title": "DesignEng: Curated Design Engineering Tools & Resources", "status": null},
+    {"url": "https://www.designeng.tools/categories/people", "title": "People — DesignEng", "status": null},
+    {"url": "https://www.designeng.tools/about", "title": "About — DesignEng", "status": 200},
+    {"url": "https://www.designeng.tools/categories/resources", "title": "resources — DesignEng", "status": null},
+    {"url": "https://www.designeng.tools/categories/inspiration", "title": "inspiration — DesignEng", "status": null},
+    {"url": "https://www.designeng.tools/sponsor", "title": "Sponsor — DesignEng", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DesignEng",
+  "summary": "Curated directory of design engineering resources: 190 tools, component libraries, icons, fonts, courses and people to follow.",
+  "description": "Hand-picked collection of tools, websites, people and learning material for design engineers. Browse categories such as websites, designs, app icons, OG images, app screenshots, components, icons, tools, playbooks, design systems, fonts, skills, community and courses, or search everything with ⌘K. Includes its own fluid type and space scales, contrast checker, OKLCH palette generator and easing tools; sponsorship keeps it free.",
+  "type": "directory",
+  "categories": ["design-tools", "inspiration"],
+  "elements": [],
+  "keywords": ["design engineering", "design resource", "resource directory", "component library", "ui inspiration", "icon set", "font", "design system", "ai design tool", "web design", "app screenshot", "og image", "course", "curated list", "developer tool", "playbook", "agent skill", "design reference"],
+  "contains": ["190 resources across inspiration, resources and people", "63 components, 62 tools, 20 icons, 12 skills, 9 fonts, 4 design systems", "own tools: fluid type scale, fluid space scale, contrast checker, OKLCH palette generator", "⌘K search, favourites and shareable collection pages", "sponsorship keeps it free to browse"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ui-shadcn-com-docs-components-base-message-scroller",
+  "url": "https://ui.shadcn.com/docs/components/base/message-scroller",
+  "kind": "page",
+  "hints_hash": "76222c49277d9008",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:44:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.shadcn.com/docs/components/base/message-scroller", "title": "Message Scroller - shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Message Scroller",
+  "summary": "Chat scroll container for streaming responses: anchors turns, follows the live edge, opens saved threads.",
+  "description": "Documentation page for Message Scroller, a chat transcript scroller built for streaming AI responses. MessageScrollerProvider owns scroll state and transcript-row behaviour (opening position, streamed output, new-turn anchoring, prepended history, visibility) and MessageScroller renders the styled frame; the page covers anchoring turns, group chat markers, live-edge auto-scroll, reopening saved threads at the last anchor, jumping to messages, virtualization, accessibility and an unstyled option.",
+  "type": "component-library",
+  "elements": ["chat"],
+  "keywords": ["chat ui", "message list", "scroll container", "streaming", "ai chat", "transcript", "auto-scroll", "jump to latest", "virtualization", "react", "shadcn", "base ui", "radix", "react aria", "accessibility"],
+  "contains": ["MessageScrollerProvider plus viewport, content, item and button parts", "anchors new turns near the top with a peek of the previous item", "auto-scroll only while the reader is at the live edge", "reopens saved threads at the last anchor instead of the absolute bottom", "virtualization, keyboard accessibility and unstyled usage", "available for Base UI, React Aria and Radix"],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ui-shadcn-com"},
+  "confidence": 0.9
+}

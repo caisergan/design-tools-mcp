@@ -1,0 +1,27 @@
+{
+  "id": "magify-design",
+  "url": "https://magify.design",
+  "kind": "site",
+  "hints_hash": "e96c4cd0e51a2d38",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://magify.design", "title": "magify.design", "status": 200}
+  ],
+  "status": "ok",
+  "name": "magify.design",
+  "summary": "AI product-design platform that generates PRDs, UI designs and code from text prompts and sketches.",
+  "description": "A web platform that generates PRDs, designs and front-end code based on your design system, driven by text prompts and sketches. Existing designs can be edited with prompts or by moving elements while the AI works out the precise layout, and work imports from and exports to Figma. Access is currently early access for design partners.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "keywords": ["ai design tool", "prompt to design", "prd generator", "code generation", "design system", "ui generation", "sketch to design", "layout autofix", "design automation", "product design platform", "generative ui", "design import export"],
+  "elements": [],
+  "contains": ["generates PRDs, designs and code from text prompts and sketches", "imports and exports designs with Figma", "edits existing designs using prompts", "AI-assisted precise layout for freely moved elements", "early access for design partners"],
+  "formats": ["app", "code", "figma-file"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

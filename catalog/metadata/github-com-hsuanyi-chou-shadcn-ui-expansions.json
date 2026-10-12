@@ -1,0 +1,36 @@
+{
+  "id": "github-com-hsuanyi-chou-shadcn-ui-expansions",
+  "url": "https://github.com/hsuanyi-chou/shadcn-ui-expansions",
+  "kind": "repo",
+  "hints_hash": "89e268dd9492340a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/hsuanyi-chou/shadcn-ui-expansions/blob/HEAD/README.md", "title": "shadcn-ui expansions", "status": 200},
+    {"url": "https://github.com/hsuanyi-chou/shadcn-ui-expansions", "title": "GitHub - hsuanyi-chou/shadcn-ui-expansions: More components built on top of shadcn-ui. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-ui expansions",
+  "summary": "14 extra shadcn/ui components: multiple selector, loading button, infinite scroll, datetime picker, spinner and more.",
+  "description": "Additional copy-paste components built on top of shadcn/ui: autosize textarea, blockquote, floating label input, heading with anchor, infinite scroll, loading button, magic back button, multiple selector, datetime picker, spinner, dual range slider, progress with value, responsive modal and typewriter. It also ships a rate limit library. Demo at shadcnui-expansions.typeart.cc; MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["button", "input", "select", "date-picker", "slider", "progress", "modal", "loader", "text-effect"],
+  "keywords": ["shadcn", "component", "multiple selector", "loading button", "infinite scroll", "datetime picker", "spinner", "dual range slider", "responsive modal", "typewriter", "autosize textarea", "floating label", "progress", "copy paste", "react", "tailwind"],
+  "contains": [
+    "14 components incl. multiple selector, loading button, infinite scroll, datetime picker, spinner",
+    "more: autosize textarea, blockquote, floating label input, heading with anchor, magic back button",
+    "more: dual range slider, progress with value, responsive modal, typewriter",
+    "rate limit library included",
+    "built on top of shadcn/ui; copy and paste the code into your project",
+    "demo at shadcnui-expansions.typeart.cc",
+    "MIT licensed; 1.9k GitHub stars"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/hsuanyi-chou/shadcn-ui-expansions", "docs": "https://shadcnui-expansions.typeart.cc/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

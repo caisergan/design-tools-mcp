@@ -1,0 +1,33 @@
+{
+  "id": "bubble-io",
+  "url": "https://bubble.io",
+  "kind": "site",
+  "hints_hash": "0b35e7411c3fb2c5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bubble.io", "title": "Bubble: Build web & mobile apps with the only no-code AI app builder", "status": null},
+    {"url": "https://bubble.io/pricing", "title": "Bubble Pricing — Start Free, Scale as You Grow", "status": null},
+    {"url": "https://bubble.io/faq", "title": "What Is Bubble AI? FAQ — Pricing, Features & More | Bubble", "status": null},
+    {"url": "https://bubble.io/llms.txt", "title": null, "status": 404},
+    {"url": "https://bubble.io/features", "title": "No-Code App Builder: Full Platform Features | Bubble", "status": 200},
+    {"url": "https://bubble.io/templates", "title": "Templates for Bubble", "status": 200},
+    {"url": "https://bubble.io/blog/dogfooding-startup-tech", "title": "What is Dogfooding? How to Use It & Examples to Copy", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Bubble",
+  "summary": "No-code platform for building and shipping web and mobile apps, from an AI prompt or a visual editor.",
+  "description": "Bubble is a no-code app builder: build with AI when you want speed or edit visually when you want precision, adding database, workflow logic, API integrations and privacy rules. It offers a free plan, app templates, plugins, a showcase gallery and an academy.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["no-code", "app builder", "ai app builder", "web app", "mobile app", "visual programming", "saas", "mvp", "startup", "database", "api integration", "template", "plugin", "privacy rule", "prototype", "low-code"],
+  "contains": ["free plan with no credit card required", "AI app generation from a text prompt", "visual editing of design, database, logic, API integrations and privacy rules", "template marketplace to buy and sell app templates", "plugin marketplace", "community app gallery and showcase", "academy courses and blog"],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

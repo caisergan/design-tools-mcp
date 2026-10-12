@@ -1,0 +1,53 @@
+{
+  "id": "skillsagentes-com-creators-emilkowalski",
+  "url": "https://skillsagentes.com/creators/emilkowalski",
+  "kind": "page",
+  "hints_hash": "0e25bae2c312c670",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skillsagentes.com/creators/emilkowalski",
+      "title": "Skills de emilkowalski - Skills Agentes",
+      "status": 200
+    },
+    {
+      "url": "https://skillsagentes.com/skills/emilkowalski/skills",
+      "title": "skills - 12 Claude Skills de emilkowalski",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Skills de emilkowalski",
+  "summary": "Creator page listing the 12 Agent Skills Emil Kowalski publishes for interface animation and UI design decisions.",
+  "description": "Lists the MIT-licensed emilkowalski/skills pack (39.8k GitHub stars): Animate, Animate Expo, Animation Vocabulary, Apple Design, Ask Sonner, Emil Design Eng, Find Animation Opportunities, Improve Animations, Pick Ui Library, Prototype, Review Animations and Write Swift. The pack installs with one npx command for coding agents, and each skill shows its context-token cost, file count and last update.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "skill pack",
+    "animation",
+    "motion design",
+    "ui design",
+    "animation review",
+    "audit animation",
+    "prototype",
+    "swift",
+    "react native",
+    "expo",
+    "design engineering"
+  ],
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/emilkowalski/skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skillsagentes-com"
+  },
+  "confidence": 0.85
+}

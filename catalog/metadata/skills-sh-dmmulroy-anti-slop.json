@@ -1,0 +1,35 @@
+{
+  "id": "skills-sh-dmmulroy-anti-slop",
+  "url": "https://skills.sh/dmmulroy/anti-slop",
+  "kind": "page",
+  "hints_hash": "29622569a7cb2a87",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/dmmulroy/anti-slop", "title": "dmmulroy/anti-slop — Agent skills", "status": null },
+    { "url": "https://github.com/dmmulroy/anti-slop", "title": "GitHub - dmmulroy/anti-slop: Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "anti-slop",
+  "summary": "Agent skill that installs opinionated Oxlint rules rejecting low-evidence TypeScript and JavaScript patterns.",
+  "description": "The dmmulroy/anti-slop repo ships one agent skill, install-anti-slop, which sets up opinionated Oxlint rules for TypeScript and JavaScript code: generic rules plus optional Effect rules, flagging patterns such as no-array-filter-map and no-reduce-accumulator-copy. Install with npx skills add dmmulroy/anti-slop; the repo is MIT licensed with 5.4K GitHub stars and the skill shows 12.3K installs on skills.sh.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "lint rule", "oxlint", "typescript", "javascript", "code quality", "static analysis", "ai slop", "skill md", "code review"],
+  "contains": [
+    "1 agent skill: install-anti-slop",
+    "opinionated Oxlint rules for TypeScript and JavaScript",
+    "rules such as no-array-filter-map and no-reduce-accumulator-copy",
+    "generic rules plus optional Effect rules",
+    "install with npx skills add dmmulroy/anti-slop",
+    "MIT licensed; 5.4K GitHub stars; 12.3K installs on skills.sh"
+  ],
+  "formats": ["prompts", "code"],
+  "stack": ["typescript", "oxlint"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/dmmulroy/anti-slop", "docs": null, "npm": null, "figma": null, "parent": "skills-sh" },
+  "confidence": 0.8
+}

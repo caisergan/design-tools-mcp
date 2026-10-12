@@ -1,0 +1,29 @@
+{
+  "id": "github-com-stretchcloud-campfire",
+  "url": "https://github.com/stretchcloud/campfire",
+  "kind": "repo",
+  "hints_hash": "9d1dfbb2dd57547e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/stretchcloud/campfire/blob/HEAD/README.md", "title": "Campfire README", "status": 200},
+    {"url": "https://github.com/stretchcloud/campfire/blob/HEAD/LICENSE", "title": "LICENSE · stretchcloud/campfire", "status": 200},
+    {"url": "https://github.com/stretchcloud/campfire", "title": "GitHub - stretchcloud/campfire · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Campfire",
+  "summary": "Collaborative web platform for running AI coding agent sessions side by side, with replay, voting and 30+ integrations.",
+  "description": "Web platform for running parallel AI coding agent sessions — Claude Code, Codex, Goose, Aider, OpenHands, OpenClaw, OpenCode — side by side in one browser tab, with real-time collaboration, permission voting, session replay and forking. Ships via npm, source, Docker or a macOS desktop app, with a documented CLI, REST API and WebSocket protocol.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai coding agent", "multi-agent session", "session replay", "permission voting", "agent orchestration", "claude code", "codex", "collaboration", "websocket", "session fork", "prompt library"],
+  "contains": ["runs 7 agent backends side by side: Claude Code, Codex, Goose, Aider, OpenHands, OpenClaw, OpenCode", "real-time collaboration with invite links and owner/collaborator/spectator roles", "permission voting policies: majority-rules, any-deny-blocks, owner-decides", "session replay at 1x/2x/4x/8x from JSONL recordings", "fork & branch, session gallery, prompt library, cost dashboard", "scheduled tasks, webhooks, Linear integration, 30+ integrations", "run via npm, source, Docker or a macOS desktop app", "documented CLI, REST API and WebSocket protocol"],
+  "formats": ["code", "npm-package", "cli", "api", "docs", "app"],
+  "stack": ["bun"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/stretchcloud/campfire", "docs": "https://the-campfire.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

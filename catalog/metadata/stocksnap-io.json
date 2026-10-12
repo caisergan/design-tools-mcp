@@ -1,0 +1,53 @@
+{
+  "id": "stocksnap-io",
+  "url": "https://stocksnap.io",
+  "kind": "site",
+  "hints_hash": "0668a0d69a8d5375",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://stocksnap.io", "title": "Free Stock Photos and Images - StockSnap.io", "status": null},
+    {"url": "https://stocksnap.io/faq", "title": "Frequently Asked Questions - StockSnap.io", "status": null},
+    {"url": "https://stocksnap.io/license", "title": "License - StockSnap.io", "status": null}
+  ],
+  "status": "ok",
+  "name": "StockSnap.io",
+  "summary": "Library of free CC0 stock photos that can be downloaded without attribution for personal and commercial use.",
+  "description": "StockSnap is a stock photo site whose images are all released under the Creative Commons CC0 license, so they can be copied, modified and redistributed without asking permission or crediting the photographer. Photos are browsable by category and trending tag, signed-in users can favourite them, and photographers can submit their own work for curation.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": [
+    "free stock photo",
+    "cc0 image",
+    "royalty free photo",
+    "no attribution",
+    "commercial use",
+    "stock photography",
+    "background image",
+    "nature photo",
+    "business photo",
+    "travel photo",
+    "texture photo",
+    "wallpaper image",
+    "high resolution photo",
+    "photo download"
+  ],
+  "contains": [
+    "sitemap lists about 50,000 photo and page URLs",
+    "all photos licensed CC0, no attribution required",
+    "categories: technology, travel, nature, business, food, wallpapers and more",
+    "popular and date sorts plus trending tag pages",
+    "free account for favouriting photos and submitting your own",
+    "submission guidelines: at least 1920x1280, no borders, text or nudity",
+    "no public API; an early-access list is offered by email",
+    "weekly newsletter with the most popular photos"
+  ],
+  "formats": ["png"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": null, "docs": "https://stocksnap.io/faq", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

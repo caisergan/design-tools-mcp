@@ -1,0 +1,31 @@
+{
+  "id": "supermotion-co",
+  "url": "https://supermotion.co",
+  "kind": "site",
+  "hints_hash": "ed11a0d4a17d782b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://supermotion.co", "title": "SuperMotion - Beautiful Promo Videos from Screenshots & Screen Recordings", "status": null},
+    {"url": "https://www.supermotion.co/templates", "title": "Templates for Product Videos & Mockups – SuperMotion.co", "status": null},
+    {"url": "https://www.supermotion.co/pricing", "title": "Pricing - SuperMotion Video Editor Plans", "status": null},
+    {"url": "https://www.supermotion.co/features", "title": "Features - SuperMotion Video Editor", "status": null},
+    {"url": "https://www.supermotion.co/templates/funny-tweet-26196f43-8dc6-4399-8d8c-1be8a81b7d32", "title": "Funny tweet – Free Video Template | SuperMotion.co", "status": null}
+  ],
+  "status": "ok",
+  "name": "SuperMotion",
+  "summary": "Web app that turns product screenshots and screen recordings into promo videos with mockups, zooms and annotations.",
+  "description": "A browser-based editor that turns a product screenshot or screen recording into a promo video. It adds browser and device mockups, smooth zoom and 3D tilt animations, text callouts and multi-scene transitions, and exports from hand-crafted templates. Free plan with watermark, or a $79 one-time lifetime license.",
+  "type": "tool",
+  "categories": ["media", "design-tools"],
+  "elements": [],
+  "keywords": ["promo video", "product video", "screen recording", "screenshot to video", "device mockup", "browser mockup", "zoom animation", "video annotation", "video template", "app store preview", "product hunt launch", "social media video", "video editor", "multi-scene video", "3d tilt", "product demo video"],
+  "contains": ["20+ easing options for zoom and 3D tilt animations", "Safari, Chrome and iPhone device mockups", "multi-scene editing with smooth transitions", "templates for X posts, Dribbble shots, product demos and newsletters", "free plan with watermark, $79 one-time lifetime license", "free browser tools: trim, crop, compress, merge, change speed"],
+  "formats": ["app", "templates", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

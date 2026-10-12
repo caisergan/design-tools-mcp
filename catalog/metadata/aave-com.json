@@ -1,0 +1,107 @@
+{
+  "id": "aave-com",
+  "url": "https://aave.com",
+  "kind": "site",
+  "hints_hash": "196128e9c61aa918",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://aave.com/llms.txt",
+      "title": "Aave",
+      "status": null
+    },
+    {
+      "url": "https://aave.com",
+      "title": "Aave — Onchain Savings, Lending and Borrowing | Aave",
+      "status": 200
+    },
+    {
+      "url": "https://aave.com/docs",
+      "title": "Aave Protocol Overview",
+      "status": 200
+    },
+    {
+      "url": "https://aave.com/pro",
+      "title": "Aave Pro | Aave",
+      "status": 200
+    },
+    {
+      "url": "https://aave.com/faq",
+      "title": "FAQs | Aave",
+      "status": 200
+    },
+    {
+      "url": "https://aave.com/docs/llms.txt",
+      "title": "Aave Documentation",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Aave",
+  "summary": "Product site for the Aave protocol: savings app, pro lending markets, stablecoin, docs and APIs.",
+  "description": "Marketing site and app hub for Aave, a decentralized non-custodial liquidity protocol for supplying, borrowing and swapping crypto assets across chains. Pages cover the Aave App savings product, Aave Pro markets built on v4, GHO, staking, security, governance and the Aave Kit integration stack, with an animated homepage of live counters, market cards and a simulated rate ticker, plus an extensive FAQ.",
+  "type": "app",
+  "categories": [
+    "inspiration",
+    "motion"
+  ],
+  "elements": [
+    "hero",
+    "stats",
+    "logo-cloud",
+    "chart",
+    "faq",
+    "features",
+    "dashboard"
+  ],
+  "keywords": [
+    "defi",
+    "onchain lending",
+    "savings app",
+    "crypto borrowing",
+    "stablecoin",
+    "web3 landing page",
+    "animated website",
+    "micro interaction",
+    "market dashboard",
+    "hero section",
+    "stats counter",
+    "faq",
+    "product marketing site",
+    "web3 design"
+  ],
+  "contains": [
+    "protocol site plus the app at /app (wallet required)",
+    "products: Aave App savings, Aave Pro (v4), GHO stablecoin, Umbrella staking, Aave Kit",
+    "homepage figures: $32.4B net deposits, 2.5M+ users, $3.46T lifetime deposits",
+    "animated counters, a simulated 6.25% rate ticker and a growth chart",
+    "developer resources: docs, GraphQL APIs, MCP server, OpenAPI description"
+  ],
+  "formats": [
+    "app",
+    "api",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "solidity",
+    "graphql"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://aave.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

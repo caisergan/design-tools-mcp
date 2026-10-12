@@ -1,0 +1,30 @@
+{
+ "id": "twin-so",
+ "url": "https://twin.so",
+ "kind": "site",
+ "hints_hash": "f6b93972f19829e9",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T19:00:41Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://twin.so/llms.txt", "title": "Twin", "status": null},
+  {"url": "https://twin.so", "title": "Twin - AI Agents That Run Your Business", "status": 200},
+  {"url": "https://twin.so/pricing", "title": "Twin Pricing - AI Agent Automation Plans", "status": 200},
+  {"url": "https://twin.so/features", "title": "AI Automation Features - Agent Builder, Browser Automation", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Twin",
+ "summary": "No-code AI agent builder whose agents browse the web, connect apps and run on schedules or webhooks.",
+ "description": "Describe a job in natural language and Twin builds an agent that scrapes sites, drives web apps with no API, enriches data, generates decks/images/video and reaches out over email, SMS, WhatsApp and LinkedIn. Agents run on schedules or webhooks and write back to 5,000+ connected apps; the Agents library holds community-built templates.",
+ "type": "tool",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["ai agent", "agent builder", "no-code", "automation", "browser automation", "web scraping", "lead generation", "workflow", "sales outreach", "crm", "data enrichment", "webhook", "scheduled run", "marketing automation", "slack", "spreadsheet"],
+ "contains": ["no-code AI agent builder with browser automation for sites without APIs", "5,000+ connected apps (Gmail, Slack, Notion, Sheets, calendars …)", "triggers: schedules and webhooks; self-healing runs", "agent template library plus use-case pages (lead gen, real estate, e-commerce …)", "pricing: Plus $29, Pro $149, Store from $399 per month; 7-day free trial", "public docs and API reference at docs.twin.so"],
+ "formats": ["app", "docs", "templates", "api"],
+ "stack": [],
+ "pricing": "paid",
+ "license": "unknown",
+ "related": {"repo": null, "docs": "https://docs.twin.so", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

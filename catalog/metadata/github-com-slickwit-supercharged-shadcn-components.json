@@ -1,0 +1,29 @@
+{
+  "id": "github-com-slickwit-supercharged-shadcn-components",
+  "url": "https://github.com/slickwit/supercharged-shadcn-components",
+  "kind": "repo",
+  "hints_hash": "a64ea888237e1aa0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/slickwit/supercharged-shadcn-components/blob/HEAD/README.md", "title": "Supercharged Shadcn Components", "status": 200},
+    {"url": "https://supercharged-shadcn-components.dykennethryan.com/", "title": "Supercharged Shadcn/UI Components", "status": 200},
+    {"url": "https://supercharged-shadcn-components.dykennethryan.com/docs/getting-started", "title": "Getting Started - Supercharged Shadcn/UI Components - Supercharged Shadcn/UI Components", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Supercharged Shadcn Components",
+  "summary": "Copy-paste React component library that extends shadcn/ui with simpler type-safe forms, inputs, date and time pickers and uploads.",
+  "description": "A collection of pre-designed components you copy into your project like shadcn/ui: buttons, floating input and textarea, chip, rating, autocomplete, combobox, multi select, date, date range and time pickers, single and multiple upload, and a form provider, most with React Hook Form wrappers. Integrates date-fns, framer-motion, numeral and react-hook-form.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["button", "badge", "input", "checkbox", "select", "form", "date-picker", "file-upload"],
+  "keywords": ["shadcn ui", "react component", "copy paste", "form", "react hook form", "type safe form", "input", "floating label", "textarea", "date picker", "date range picker", "time picker", "file upload", "select", "combobox", "autocomplete", "multi select", "rating", "chip"],
+  "contains": ["copy-paste components for React in shadcn/ui style", "buttons, chip, rating, floating input and floating textarea", "date picker, date range picker and time picker components", "select, combobox, autocomplete and multi select", "upload and upload multiple", "React Hook Form wrappers for the form components", "integrates date-fns, framer-motion, numeral and react-hook-form"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "tailwind", "framer-motion", "react-hook-form", "date-fns"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/slickwit/supercharged-shadcn-components", "docs": "https://supercharged-shadcn-components.dykennethryan.com/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

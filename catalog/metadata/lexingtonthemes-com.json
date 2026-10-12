@@ -1,0 +1,41 @@
+{
+  "id": "lexingtonthemes-com",
+  "url": "https://lexingtonthemes.com",
+  "kind": "site",
+  "hints_hash": "00f9017c464a7c0f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lexingtonthemes.com/llms.txt", "title": "Lexington Themes", "status": null},
+    {"url": "https://lexingtonthemes.com", "title": "Astro Themes & Tailwind CSS Templates | Lexington Themes", "status": 200},
+    {"url": "https://lexingtonthemes.com/documentation/emdash-cms", "title": "EmDash CMS | Lexington Themes Docs", "status": 200},
+    {"url": "https://lexingtonthemes.com/showcase", "title": "Showcase | Lexington Themes", "status": 200},
+    {"url": "https://lexingtonthemes.com/pricing", "title": "Pricing: All Astro themes from $99 | Lexington Themes", "status": 200},
+    {"url": "https://lexingtonthemes.com/templates", "title": "Astro Themes & Tailwind v4 Templates | Lexington Themes", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lexington Themes",
+  "summary": "Library of Astro themes built on Tailwind CSS v4 for SaaS, agency, portfolio, blog, ecommerce, directory and event websites.",
+  "description": "A theme shop of Astro templates built with Tailwind CSS v4. Each theme is a production-ready website for one vertical — SaaS, agency, services, portfolio, blog, podcast, ecommerce, directory, job board, real estate, automotive, restaurant, event, education and more — with responsive layouts, dark mode, reusable components, content collections and SEO setup. Selected themes ship Sanity CMS or EmDash CMS variants, and Lexington Motion adds Remotion video templates.",
+  "type": "template",
+  "categories": ["templates", "components"],
+  "elements": [],
+  "keywords": ["astro", "astro theme", "tailwind css", "website template", "theme library", "saas template", "agency website", "portfolio template", "blog template", "ecommerce template", "directory template", "documentation template", "landing page", "dark mode", "sanity cms", "cms", "remotion", "video template", "content collection", "seo"],
+  "contains": [
+    "Astro themes with Tailwind CSS v4 for SaaS, agency, portfolio, blog, ecommerce, directory and more",
+    "Sanity CMS and EmDash CMS variants for selected themes",
+    "Full Access: every theme for $99 one-time (50% off); individual themes from $89",
+    "Personal $99, Studio $169 and Agency $399 plans; one payment, future releases included",
+    "Studio and Agency add 416 Remotion video templates, the Morrisson editor and Lexington MCP months",
+    "GitHub repository access, unlimited projects, lifetime updates and a commercial license",
+    "9,000+ freelancers, startups and agencies; award-recognized by Astro",
+    "27 sites customers have shipped with Lexington themes in the showcase"
+  ],
+  "formats": ["code", "templates", "docs"],
+  "stack": ["astro", "tailwind", "sanity", "remotion"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://lexingtonthemes.com/documentation", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

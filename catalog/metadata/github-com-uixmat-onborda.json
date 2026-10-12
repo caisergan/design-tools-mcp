@@ -1,0 +1,98 @@
+{
+  "id": "github-com-uixmat-onborda",
+  "url": "https://github.com/uixmat/onborda",
+  "kind": "repo",
+  "hints_hash": "2495e24b0bf2b70c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/uixmat/onborda/blob/HEAD/README.md",
+      "title": "Onborda - Next.js onboarding flow",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/uixmat/onborda",
+      "title": "GitHub - uixmat/onborda: An onboarding wizard flow / product tour for Next.js animated by framer motion",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/uixmat/onborda/blob/HEAD/package.json",
+      "title": "onborda/package.json",
+      "status": 200
+    },
+    {
+      "url": "https://onborda.dev",
+      "title": "Onborda - Product tour's for Next.js",
+      "status": 200
+    },
+    {
+      "url": "https://onborda.dev/docs",
+      "title": "Onborda - Product tour's for Next.js",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Onborda",
+  "summary": "Lightweight onboarding and product tour flow for Next.js, animated with Framer Motion and styled with Tailwind CSS.",
+  "description": "Onborda renders guided product tours and onboarding wizards in Next.js apps: you define tours and steps, target any element by its id attribute and show fully customisable pointer tooltips with Framer Motion transitions. The tour card can be replaced with a custom component, and hooks and options control behaviour; styling works with Tailwind CSS and shadcn/ui.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "tooltip"
+  ],
+  "keywords": [
+    "product tour",
+    "onboarding flow",
+    "onboarding wizard",
+    "next.js",
+    "guided tour",
+    "walkthrough",
+    "tour tooltip",
+    "step by step",
+    "framer motion",
+    "tailwind css",
+    "shadcn ui",
+    "react",
+    "user onboarding",
+    "multi step tour",
+    "pointer tooltip"
+  ],
+  "contains": [
+    "npm package onborda v1.2.5",
+    "product tours with multiple steps targeting elements by id",
+    "fully customisable pointer tooltips; custom card component supported",
+    "framer-motion animations, Tailwind CSS styling, Radix portal",
+    "works with shadcn/ui",
+    "1.4k GitHub stars, 64 forks"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/uixmat/onborda",
+    "docs": "https://onborda.dev",
+    "npm": "onborda",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

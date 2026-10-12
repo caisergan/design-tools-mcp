@@ -1,0 +1,31 @@
+{
+  "id": "jakobnielsenphd-substack-com-p-accessibility-generative-ui",
+  "url": "https://jakobnielsenphd.substack.com/p/accessibility-generative-ui",
+  "kind": "page",
+  "hints_hash": "6716584b93465b94",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jakobnielsenphd.substack.com/p/accessibility-generative-ui", "title": "Accessibility Has Failed: Try Generative UI = Individualized UX", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Accessibility Has Failed: Try Generative UI = Individualized UX",
+  "summary": "Essay arguing that 30 years of traditional accessibility work failed and that generative UI can generate an interface per user.",
+  "description": "A Jakob Nielsen article from February 2024 arguing that accessibility standards have not made computers usable for disabled users, and proposing generative UI as the fix: first-generation designs frozen at ship time, then second-generation UIs generated fresh at runtime and optimized for each person. It also covers old users (75+) and low-literacy users as groups current methods can help, and compares the screen-reader path with AI-generated auditory interfaces.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["accessibility", "generative ui", "individualized ux", "ai generated interface", "disabled user", "screen reader", "low literacy", "old user", "usability", "ux design", "user testing", "responsive design"],
+  "contains": [
+    "argues accessibility has failed as a way to make computers usable for disabled users",
+    "proposes second-generation generative UI: an interface generated fresh per user at runtime",
+    "contrasts the screen-reader path with AI-generated auditory interfaces",
+    "covers old users and low-literacy users as groups current approaches can help"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

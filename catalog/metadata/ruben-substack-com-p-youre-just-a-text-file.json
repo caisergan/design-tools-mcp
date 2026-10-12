@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-youre-just-a-text-file",
+  "url": "https://ruben.substack.com/p/youre-just-a-text-file",
+  "kind": "page",
+  "hints_hash": "a10760a356f9f5e3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:59:24Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/youre-just-a-text-file", "title": "I can be you. - by Ruben Hassid - How to AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "I can be you.",
+  "summary": "Guide to capturing your voice, taste and patterns in one text file you upload to Claude, ChatGPT, Gemini or any AI so it writes like you.",
+  "description": "A How to AI post arguing that a person fits in a text file. It describes how to extract your writing voice and patterns in about two hours, upload the file to Claude, ChatGPT, Gemini or Grok, see a session in practice, and keep editing the file often.",
+  "type": "article",
+  "keywords": ["ai persona", "voice capture", "writing style", "text file", "claude", "chatgpt", "prompt", "personal context", "ai assistant", "how to ai"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.75
+}

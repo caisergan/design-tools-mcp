@@ -1,0 +1,33 @@
+{
+  "id": "ycombinator-coach-library",
+  "url": "https://ycombinator.coach/library",
+  "kind": "page",
+  "hints_hash": "3b12322ccf7e026e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:03:57Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://ycombinator.coach/library", "title": "YC Library - Real Applications, Decks & Pitches | ycombinator.coach", "status": null }
+  ],
+  "status": "ok",
+  "name": "YC Founder Library",
+  "summary": "Free community library of real YC applications, pitch decks and demo day videos, shared by founders who got in.",
+  "description": "A link library that collects publicly shared Y Combinator material: 12 successful applications (Dropbox, Reddit, Mixpanel, GitLab, The Muse, Cruise, Paystack and more), original pitch decks (Airbnb, Coinbase, DoorDash), application and demo day videos (Flip, Campus Job, 40+ founder pitches) and curated collections such as Shizune's 32 applications and Rohit Mittal's 60+ links. A community project, not affiliated with Y Combinator.",
+  "type": "directory",
+  "keywords": [
+    "application example",
+    "startup application",
+    "application library",
+    "pitch deck",
+    "pitch deck example",
+    "demo day",
+    "demo video",
+    "accelerator application",
+    "founder resource",
+    "startup pitch",
+    "application video",
+    "curated collection"
+  ],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

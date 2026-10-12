@@ -1,0 +1,60 @@
+{
+  "id": "coss-com-ui",
+  "url": "https://coss.com/ui",
+  "kind": "page",
+  "hints_hash": "3ff3c37a46874615",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://coss.com/ui",
+      "title": "A new, modern UI component library built on top of Base UI - coss ui",
+      "status": 200
+    },
+    {
+      "url": "https://coss.com/ui/docs",
+      "title": "Introduction - coss ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "coss ui",
+  "summary": "55 accessible React components built on Base UI, documented for developers and AI agents.",
+  "type": "component-library",
+  "keywords": [
+    "component library",
+    "react component",
+    "base ui",
+    "accessible component",
+    "ui kit",
+    "accordion",
+    "alert dialog",
+    "autocomplete",
+    "combobox",
+    "command palette",
+    "date picker",
+    "drawer",
+    "otp input",
+    "popover",
+    "select",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip",
+    "open source",
+    "docs"
+  ],
+  "related": {
+    "repo": null,
+    "docs": "https://coss.com/ui/docs",
+    "npm": null,
+    "figma": null,
+    "parent": "coss-com"
+  },
+  "confidence": 0.85
+}

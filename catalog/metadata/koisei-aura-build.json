@@ -1,0 +1,33 @@
+{
+  "id": "koisei-aura-build",
+  "url": "https://koisei.aura.build",
+  "kind": "site",
+  "hints_hash": "29a7bc74db2d88ae",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://koisei.aura.build/llms.txt", "title": "Koisei Luxury Cultural Journey Landing Page Template", "status": null},
+    {"url": "https://koisei.aura.build", "title": "Koisei Luxury Cultural Journey Landing Page Template", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Koisei",
+  "summary": "Landing page template for travel and luxury brands with cinematic WebGL animation and smooth scroll effects.",
+  "description": "Immersive storytelling landing page template built for travel experiences and luxury brands, featuring cinematic WebGL animations and smooth scroll effects. One home page; it renders client-side, so only the page title and description are readable.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["landing page", "template", "travel", "luxury", "webgl", "smooth scroll", "animation", "storytelling", "immersive", "one page"],
+  "contains": [
+    "single-page luxury travel landing template",
+    "cinematic WebGL animations",
+    "smooth scroll effects",
+    "sitemap lists one page"
+  ],
+  "formats": ["templates"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

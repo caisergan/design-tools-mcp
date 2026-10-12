@@ -1,0 +1,27 @@
+{
+  "id": "zenn-dev-babysteps-articles-operational-ontology-learn-ui",
+  "url": "https://zenn.dev/babysteps/articles/operational-ontology-learn-ui",
+  "kind": "page",
+  "hints_hash": "d077e0e48a5c5b9d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://zenn.dev/babysteps/articles/operational-ontology-learn-ui", "title": "Palantir Ontology を手元で辿る — Operational Ontology の学習デモを作った", "status": null}
+  ],
+  "status": "ok",
+  "name": "Palantir Ontology を手元で辿る — Operational Ontology の学習デモを作った",
+  "summary": "Zenn article on a minimal open-source demo of Palantir's Operational Ontology pattern, wrapped in a Japanese learning UI.",
+  "description": "Japanese-language write-up by Taka (Zenn, August 2026) about gura105/operational-ontology: a minimal TypeScript implementation of Palantir Foundry's Operational Ontology — semantic objects and links, action-gated writes, write-back and audit log — walked through as a 9-chapter orders scenario.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["palantir", "ontology", "operational ontology", "palantir foundry", "typescript", "ddd", "model context protocol", "mcp", "write-back", "audit log", "learning demo", "architecture"],
+  "contains": ["walkthrough of gura105/operational-ontology (OSS)", "9 chapters: read, assignOrder, cancelOrder, write-back, re-index, audit log", "orders scenario in a Japanese learning UI", "published 2026/08/16 on Zenn", "tags: TypeScript, DDD, architecture, MCP, Palantir"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/gura105/operational-ontology", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

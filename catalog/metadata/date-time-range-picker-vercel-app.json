@@ -1,0 +1,87 @@
+{
+  "id": "date-time-range-picker-vercel-app",
+  "url": "https://date-time-range-picker.vercel.app",
+  "kind": "site",
+  "hints_hash": "b20f94923844c5c7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://date-time-range-picker.vercel.app",
+      "title": "Date Time Range Picker",
+      "status": 200
+    },
+    {
+      "url": "https://date-time-range-picker.vercel.app/registry",
+      "title": "Date Time Range Picker",
+      "status": 200
+    },
+    {
+      "url": "https://date-time-range-picker.vercel.app/r/date-time-range-picker.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Date Time Range Picker",
+  "summary": "Shadcn registry of five date and time picker components, from date input to date-time range picker.",
+  "description": "A collection of date and time pickers served as a shadcn registry: Date Input, Time Input, Date Time Input, Date Range Picker and Date Time Range Picker. One command adds them all; features include preset ranges, keyboard navigation, accessibility and light/dark mode, built on shadcn/ui.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "date-picker",
+    "input",
+    "slider"
+  ],
+  "keywords": [
+    "date picker",
+    "time picker",
+    "date time picker",
+    "date range picker",
+    "datetime input",
+    "shadcn",
+    "registry",
+    "react",
+    "calendar",
+    "preset range",
+    "tailwind",
+    "keyboard",
+    "dark mode"
+  ],
+  "contains": [
+    "5 registry components: date, time, date-time inputs and range pickers",
+    "install: npx shadcn add https://date-time-range-picker.vercel.app/r/date-time-range-picker.json",
+    "features: preset ranges, keyboard navigation, light & dark mode",
+    "deps: date-fns, lucide, shadcn button/calendar/popover"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "date-fns",
+    "lucide"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

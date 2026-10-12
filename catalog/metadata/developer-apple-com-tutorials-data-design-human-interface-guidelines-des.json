@@ -1,0 +1,64 @@
+{
+  "id": "developer-apple-com-tutorials-data-design-human-interface-guidelines-des",
+  "url": "https://developer.apple.com/tutorials/data/design/human-interface-guidelines/designing-for-iphone-duo.md",
+  "kind": "page",
+  "hints_hash": "08efd95b100acf7e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://developer.apple.com/tutorials/data/design/human-interface-guidelines/designing-for-iphone-duo.md",
+      "title": "Designing for iPhone Duo",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Designing for iPhone Duo",
+  "summary": "Apple HIG page on designing apps for the dual-display iPhone Duo: adaptive layouts, device poses and split views.",
+  "description": "A Human Interface Guidelines page for iPhone Duo, an iPhone with inner and outer displays joined by a center hinge. It covers the device's anatomy (displays, cameras, hinge), poses, best practices for resizing and cross-display continuity, dynamic layouts, reserved regions, split views, arrangement views and vertical controls, plus a change log.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "apple",
+    "human interface guideline",
+    "iphone duo",
+    "foldable phone",
+    "dual display",
+    "adaptive layout",
+    "size class",
+    "split view",
+    "safe area",
+    "ios design",
+    "app design",
+    "design guideline",
+    "mobile layout"
+  ],
+  "contains": [
+    "Apple Human Interface Guidelines page for the dual-display iPhone Duo",
+    "sections: anatomy, device poses, best practices, dynamic layouts, vertical controls",
+    "covers reserved regions, split views and arrangement views",
+    "markdown source served from developer.apple.com"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://developer.apple.com/design/Human-Interface-Guidelines/designing-for-iphone-duo",
+    "npm": null,
+    "figma": null,
+    "parent": "developer-apple-com"
+  },
+  "confidence": 0.85
+}

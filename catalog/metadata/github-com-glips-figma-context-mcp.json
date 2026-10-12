@@ -1,0 +1,85 @@
+{
+  "id": "github-com-glips-figma-context-mcp",
+  "url": "https://github.com/GLips/Figma-Context-MCP",
+  "kind": "repo",
+  "hints_hash": "2d901e69472e7d63",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/GLips/Figma-Context-MCP/blob/HEAD/README.md",
+      "title": "Framelink MCP for Figma",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/GLips/Figma-Context-MCP/HEAD/LICENSE",
+      "title": "LICENSE (MIT)",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/GLips/Figma-Context-MCP/HEAD/package.json",
+      "title": "package.json",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Framelink MCP for Figma",
+  "summary": "MCP server that gives coding agents like Cursor layout and styling data from Figma files so they can implement designs.",
+  "description": "A Model Context Protocol server (npm package figma-developer-mcp) that reads a Figma file, frame or group through the Figma API and returns simplified layout and styling data to the AI agent. Configure it in your editor with a Figma access token, paste a Figma link into the agent chat and ask it to implement the design.",
+  "type": "tool",
+  "categories": [
+    "design-tools",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "figma",
+    "mcp server",
+    "model context protocol",
+    "cursor",
+    "ai coding agent",
+    "design to code",
+    "figma to code",
+    "figma api",
+    "layout data",
+    "design context",
+    "npm package",
+    "cli",
+    "typescript",
+    "claude",
+    "vscode",
+    "design implementation"
+  ],
+  "contains": [
+    "npm package figma-developer-mcp (v0.13.2) with a CLI bin",
+    "reads Figma files, frames and groups from pasted links",
+    "returns simplified layout and styling data from the Figma API",
+    "works with Cursor, Claude and other MCP clients",
+    "requires a Figma API access token",
+    "MIT licensed"
+  ],
+  "formats": [
+    "npm-package",
+    "cli",
+    "code"
+  ],
+  "stack": [
+    "typescript",
+    "node"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/GLips/Figma-Context-MCP",
+    "docs": "https://www.framelink.ai",
+    "npm": "figma-developer-mcp",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

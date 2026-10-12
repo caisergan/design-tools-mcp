@@ -1,0 +1,29 @@
+{
+  "id": "openshaders-com",
+  "url": "https://openshaders.com",
+  "kind": "site",
+  "hints_hash": "f4b7c52d05f0e3ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://openshaders.com", "title": "OpenShaders: Shaders belong on the web", "status": null},
+    {"url": "https://openshaders.com/explore", "title": "Explore | OpenShaders", "status": null},
+    {"url": "https://openshaders.com/about", "title": "About | OpenShaders", "status": null}
+  ],
+  "status": "ok",
+  "name": "OpenShaders",
+  "summary": "Pre-launch home for web shaders: claim a username and browse every claimed shader in an explore gallery.",
+  "description": "Claim a username before launch and get a one-of-one shader generated for it. The explore page lists every claimed name with the shader it renders, newest first, with rarity filters and an immersive view; the team is building a place to publish, save and upvote shaders made in a live WebGL/WebGPU editor.",
+  "type": "gallery",
+  "categories": ["motion"],
+  "elements": ["3d"],
+  "keywords": ["shader", "webgl", "webgpu", "glsl", "shader gallery", "creative coding", "graphics programming", "visual effect", "web animation", "publish shader", "live editor", "username"],
+  "contains": ["3,171 usernames claimed at crawl time", "explore gallery: every claimed name and the shader it renders, newest first", "rarity filters and immersive view", "planned: publish, save, upvote and follow from a live WebGL/WebGPU editor"],
+  "formats": ["links"],
+  "stack": ["webgl"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

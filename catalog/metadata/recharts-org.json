@@ -1,0 +1,52 @@
+{
+  "id": "recharts-org",
+  "url": "https://recharts.org",
+  "kind": "site",
+  "hints_hash": "2ed456e0fa9f2b2e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://recharts.org", "title": "Recharts has moved", "status": null},
+    {"url": "https://recharts.github.io", "title": "Recharts", "status": 200},
+    {"url": "https://github.com/recharts/recharts", "title": "GitHub - recharts/recharts: Redefined chart library built with React and D3", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Recharts",
+  "summary": "Composable React charting library that renders SVG charts from decoupled components with a light D3 dependency.",
+  "description": "Recharts builds charts in React applications from independent components - a LineChart is assembled from axis, tooltip, grid and line items - and renders them as native SVG with only a minimal dependency on D3 submodules. Charts are customized through component props and your own components. Install from npm, Deno or a UMD build; docs, API reference, examples and storybook live at recharts.github.io, where the recharts.org domain now redirects.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["chart"],
+  "keywords": [
+    "chart library",
+    "react chart",
+    "svg chart",
+    "data visualization",
+    "dashboard",
+    "line chart",
+    "composable component",
+    "d3",
+    "typescript",
+    "graph",
+    "tooltip",
+    "axis",
+    "react component"
+  ],
+  "contains": [
+    "composable charting library built with React and D3",
+    "renders to native SVG with minimal D3 submodule dependencies",
+    "charts assembled from independent components (line, axis, grid, tooltip)",
+    "install via npm, Deno or UMD build from unpkg",
+    "documentation, examples, API reference and storybook on recharts.github.io",
+    "current version 3.10.1 with a 3.0 migration guide",
+    "27.6k GitHub stars",
+    "MIT licensed"
+  ],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "d3", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/recharts/recharts", "docs": "https://recharts.github.io", "npm": "recharts", "figma": null, "parent": null},
+  "confidence": 0.85
+}

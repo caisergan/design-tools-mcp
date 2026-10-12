@@ -1,0 +1,19 @@
+{
+  "id": "seo-stuff-com-free-audit",
+  "url": "https://seo-stuff.com/free-audit",
+  "kind": "page",
+  "hints_hash": "5e441f462128581b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://seo-stuff.com/free-audit", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Free SEO + AI Search Audit",
+  "summary": "Offer of a free manual audit of a site's visibility in Google and AI search platforms, delivered as a personalized report within 48 hours.",
+  "description": "A form page from SEO STUFF offering a free, manually produced SEO + AI search audit. The report covers current visibility in AI search results, how AI platforms understand and cite the content, optimization opportunities for Google and AI search, and competitive gaps against top-ranked sites; it is sent within 48 hours, and the form asks for the website URL, email, company name and a short business description.",
+  "keywords": ["seo audit", "ai search", "free audit", "search visibility", "website audit", "ai search optimization", "search engine optimization", "competitive analysis", "seo report", "content citation"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "seo-stuff-com"},
+  "confidence": 0.8
+}

@@ -1,0 +1,84 @@
+{
+  "id": "github-com-dhravya-cloudflare-saas-stack",
+  "url": "https://github.com/Dhravya/cloudflare-saas-stack",
+  "kind": "repo",
+  "hints_hash": "a38b4648e011087b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Dhravya/cloudflare-saas-stack/blob/HEAD/README.md",
+      "title": "🚀 Full-Stack Cloudflare SaaS Kit",
+      "status": null
+    },
+    {
+      "url": "https://github.com/Dhravya/cloudflare-saas-stack",
+      "title": "GitHub - supermemoryai/cloudflare-saas-stack: Quickly make and deploy full-stack apps with database, auth, styling, storage etc. figured out for you. Add all primitives you want. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Full-Stack Cloudflare SaaS Kit",
+  "summary": "Opinionated SaaS starter kit on Cloudflare with Next.js, Drizzle ORM, NextAuth, D1 and shadcn/ui.",
+  "description": "A batteries-included starter kit for building and deploying SaaS products on Cloudflare: Next.js, TailwindCSS, shadcn/ui, Drizzle ORM, NextAuth, Cloudflare D1 and Cloudflare Pages. Wrangler scripts cover Pages build, preview, deploy and typegen; Drizzle-kit handles D1 migrations and studio; the README walks through bindings, R2 CORS/file upload and Google OAuth. The same stack runs Supermemory.ai.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [],
+  "keywords": [
+    "saas starter",
+    "cloudflare",
+    "next.js",
+    "drizzle orm",
+    "nextauth",
+    "cloudflare d1",
+    "cloudflare page",
+    "shadcn",
+    "tailwind css",
+    "serverless",
+    "template",
+    "wrangler",
+    "google oauth",
+    "r2 bucket",
+    "typescript"
+  ],
+  "contains": [
+    "Cloudflare SaaS kit: Next.js, TailwindCSS, Drizzle ORM, NextAuth, D1, Pages",
+    "shadcn/ui as the component library",
+    "Wrangler scripts: pages:build, preview, deploy, cf-typegen",
+    "D1 migrations with Drizzle-kit: db:generate, db:migrate:dev/prod, studio",
+    "R2 bucket CORS and object upload setup",
+    "Google OAuth via AUTH_GOOGLE_ID/SECRET in .dev.vars",
+    "same stack as Supermemory.ai; 3.7k stars on GitHub"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "drizzle",
+    "nextauth",
+    "bun"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/Dhravya/cloudflare-saas-stack",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

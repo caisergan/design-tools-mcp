@@ -1,0 +1,34 @@
+{
+  "id": "freeimages-com",
+  "url": "https://freeimages.com",
+  "kind": "site",
+  "hints_hash": "0eeedb5d830dc66a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://freeimages.com", "title": "Stok Görseller, Royalty-Free Görseller, İllüstrasyonlar, Vektörler ve Videolar - iStock", "status": null}
+  ],
+  "status": "ok",
+  "name": "iStock",
+  "summary": "Stock media marketplace; the freeimages.com domain now redirects to iStock's photos, vectors, illustrations and videos.",
+  "description": "iStock sells royalty-free stock photos, HD and 4K video, vectors and illustrations with plans and pricing, and gives away a free photo of the week plus a free illustration and video clip each month. Requests to freeimages.com redirect to iStock (our crawl landed on its Turkish locale); no separate freeimages catalog remains. The archive states it accepts no AI-generated content.",
+  "type": "asset-library",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["stock photo", "royalty-free image", "stock video", "4k video", "vector", "illustration", "free stock photo", "image marketplace", "photo download", "stock media", "ai-free stock", "commercial license"],
+  "contains": [
+    "freeimages.com redirects to istockphoto.com",
+    "stock photos, HD and 4K video, vectors and illustrations",
+    "free photo of the week, free illustration and free video clip of the month",
+    "plans and pricing page",
+    "archive accepts no AI-generated content",
+    "signature, premium and basic collections"
+  ],
+  "formats": ["video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

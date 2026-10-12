@@ -1,0 +1,27 @@
+{
+  "id": "getcssscan-com",
+  "url": "https://getcssscan.com",
+  "kind": "site",
+  "hints_hash": "5767f1d968b8de1e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://getcssscan.com", "title": "CSS Scan - The fastest and easiest way to check and copy CSS", "status": null}
+  ],
+  "status": "ok",
+  "name": "CSS Scan",
+  "summary": "Browser extension that shows and copies the CSS of any element you hover over.",
+  "description": "Extension for Chrome, Firefox, Safari and Edge that inspects the CSS of any element on any site and copies all active rules, child elements, pseudo-classes and media queries in one click. It can export elements to CodePen, convert CSS to Tailwind and pin the inspector on screen; sold as a buy-once lifetime license. The site also hosts free CSS example pages (buttons, checkboxes, radios, shapes, box shadows).",
+  "type": "plugin",
+  "categories": ["design-tools", "components"],
+  "elements": ["button", "checkbox"],
+  "keywords": ["css inspector", "browser extension", "copy css", "inspect element", "css to tailwind", "code export", "web design tool", "developer tool", "css example", "button css", "checkbox css", "box shadow"],
+  "contains": ["browser extension for Chrome, Firefox, Safari and Edge", "copies full CSS rules, child elements, pseudo-classes and media queries", "export elements to CodePen; convert CSS to Tailwind CSS", "lifetime license, $79 (list $120), limited to 3 browsers", "free CSS example pages: buttons, checkboxes, radios, shapes, box shadows"],
+  "formats": ["app", "code"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

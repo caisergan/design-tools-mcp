@@ -1,0 +1,24 @@
+{
+  "id": "ui-spectrumhq-in-blocks-footers",
+  "url": "https://ui.spectrumhq.in/blocks/footers",
+  "kind": "page",
+  "hints_hash": "22ce07aefcd65a25",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:07:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.spectrumhq.in/blocks/footers", "title": "Footers Blocks for React — Live Previews & Source", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Spectrum UI Footers",
+  "summary": "Eighteen interactive footer sections for React from Spectrum UI's open-source block library, with live previews and source.",
+  "description": "The footers page of Spectrum UI's block library: 18 ready-made footer sections with live previews and source, from an enterprise mega-sitemap and a service-status/uptime footer to newsletter and waitlist capture, a link-search footer, a logo wall and a spotlit wordmark. Every block is free and open source and dogfoods Spectrum UI's own components.",
+  "type": "block-library",
+  "elements": ["footer"],
+  "keywords": ["footer", "footer section", "mega sitemap footer", "newsletter footer", "footer template", "react footer", "waitlist footer", "logo wall", "status page footer", "changelog feed", "footer block", "open source"],
+  "related": {"repo": null, "docs": "https://ui.spectrumhq.in/docs", "npm": null, "figma": null, "parent": "ui-spectrumhq-in"},
+  "formats": ["code", "registry"],
+  "stack": ["react"],
+  "pricing": "free",
+  "confidence": 0.85
+}

@@ -1,0 +1,23 @@
+{
+  "id": "producthunt-com-products-speaker-copilot",
+  "url": "https://producthunt.com/products/speaker-copilot",
+  "kind": "page",
+  "hints_hash": "1c2f044c6cbf6ded",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:29:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://producthunt.com/products/speaker-copilot", "title": "Speaker Copilot: The stage timing copilot for live speakers | Product Hunt", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Speaker Copilot",
+  "summary": "Product Hunt listing for a free PWA that paces live talks: auto-advancing timed sections, vibration cues, SOS and Q&A card decks.",
+  "description": "Product page for Speaker Copilot, a PWA that splits a talk into timed sections and advances them automatically with a vibration cue, with one-tap clue, SOS and Q&A card decks and rehearsal scoring. Built with React, Vite and Tailwind, LocalStorage only — no login, no backend, works offline, open source.",
+  "keywords": ["speaker timer", "stage timer", "talk pacing", "presentation timer", "pwa", "open source", "rehearsal", "conference talk", "public speaking", "q&a", "vibration cue", "offline app", "react", "vite", "tailwind", "productivity"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "formats": ["app", "code", "links"],
+  "stack": ["react", "vite", "tailwind"],
+  "pricing": "free",
+  "contains": ["auto-advancing timed sections with a vibration cue on each transition", "clue, SOS and Q&A phrase card decks", "rehearsal tracking scored on five criteria toward a readiness target", "no login, no backend; talks stay in LocalStorage; works offline and installs to the home screen", "free, open source; launched 2026"],
+  "confidence": 0.85
+}

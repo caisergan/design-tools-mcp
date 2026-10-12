@@ -1,0 +1,33 @@
+{
+  "id": "screenkite-com",
+  "url": "https://screenkite.com",
+  "kind": "site",
+  "hints_hash": "94347d36b98239c2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://screenkite.com/llms.txt", "title": "ScreenKite - Native macOS Screen Recorder & AI-Agent Video Editor", "status": null},
+    {"url": "https://screenkite.com", "title": "ScreenKite is the best macOS screen recorder and video editor", "status": null},
+    {"url": "https://www.screenkite.com/guide", "title": "ScreenKite — Guide", "status": null},
+    {"url": "https://www.screenkite.com/showcase", "title": "ScreenKite — Showcase", "status": null},
+    {"url": "https://www.screenkite.com/pricing", "title": "ScreenKite — Pricing", "status": null},
+    {"url": "https://www.screenkite.com/about", "title": "ScreenKite — About Us", "status": null},
+    {"url": "https://www.screenkite.com/terms", "title": "ScreenKite — Terms of Service", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ScreenKite",
+  "summary": "Native macOS screen recorder and video editor with automatic zoom and AI-agent editing.",
+  "description": "A native macOS screen recorder and video editor for product demos, tutorials and screen-heavy videos. It follows the cursor and zooms on clicks and keystrokes while recording, captures up to 4K 60fps with camera and multi-channel audio, and edits with backgrounds, captions, timeline trimming and device frames. The editor is exposed to AI coding agents (Claude Code, Codex, Gemini CLI, Cursor) through 83 tools with dry-run previews.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["screen recorder", "screen recording", "video editor", "macos", "auto zoom", "demo video", "tutorial video", "cursor effect", "caption", "4k export", "ai agent", "screenshot", "presenter overlay"],
+  "contains": ["macOS 15+ on Apple Silicon and Intel", "recording up to 4K 60fps; export MP4, MOV, GIF, HEVC with alpha", "automatic zoom, cursor tracking and click effects", "83 agent tools with dry-run previews for AI coding agents", "local WhisperKit transcription; captions in 19 languages", "free with watermark; Pro is $79.99 once for 3 Macs"],
+  "formats": ["app"],
+  "stack": ["swift"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://www.screenkite.com/guide", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

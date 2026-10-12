@@ -1,0 +1,38 @@
+{
+  "id": "heroui-com",
+  "url": "https://heroui.com",
+  "kind": "site",
+  "hints_hash": "b4de6452e8edb6ef",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://heroui.com/llms.txt", "title": "HeroUI v3 Documentation", "status": null},
+    {"url": "https://heroui.com", "title": "HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.", "status": 200},
+    {"url": "https://heroui.com/about", "title": "About HeroUI", "status": 200},
+    {"url": "https://heroui.com/en/docs/react/getting-started", "title": "Introduction to HeroUI v3 – React UI Library", "status": 200},
+    {"url": "https://raw.githubusercontent.com/heroui-inc/heroui/HEAD/LICENSE", "title": "Apache License 2.0", "status": 200}
+  ],
+  "status": "ok",
+  "name": "HeroUI",
+  "summary": "Open-source React and React Native component library built on React Aria Components and Tailwind CSS v4.",
+  "description": "Accessible UI components for React web and React Native, built on Tailwind CSS v4 and React Aria Components with typed APIs, theming and smooth animations. The docs cover installation, component APIs, colors, dark mode, animation, composition, CLI, MCP server and migration from v2. Packages are free and open source; a paid Pro tier adds components, templates and AI tooling.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "checkbox", "date-picker", "drawer", "dropdown", "form", "input", "list", "loader", "modal", "pagination", "progress", "select", "slider", "switch", "table", "tabs", "toast"],
+  "keywords": ["react", "react native", "ui component", "component library", "tailwind css", "react aria", "accessible component", "design system", "theming", "dark mode", "animation", "typescript", "open source", "cli", "mcp server", "data table", "date picker", "autocomplete"],
+  "contains": [
+    "80+ documentation pages; 522 sitemap URLs",
+    "components for React web and React Native",
+    "built on React Aria Components and Tailwind CSS v4",
+    "free open-source packages; HeroUI Pro adds components, templates and AI tooling",
+    "agent resources: llms.txt indexes, docs agent API, MCP server, CLI",
+    "27.7k GitHub stars"
+  ],
+  "formats": ["code", "npm-package", "docs", "cli"],
+  "stack": ["react", "react-native", "tailwind", "typescript"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/heroui-inc/heroui", "docs": null, "npm": "@heroui/react", "figma": null, "parent": null},
+  "confidence": 0.9
+}

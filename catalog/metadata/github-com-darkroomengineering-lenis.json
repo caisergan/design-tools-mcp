@@ -1,0 +1,35 @@
+{
+  "id": "github-com-darkroomengineering-lenis",
+  "url": "https://github.com/darkroomengineering/lenis",
+  "kind": "repo",
+  "hints_hash": "9ab570d6cf5f76f8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/darkroomengineering/lenis/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/darkroomengineering/lenis", "title": "GitHub - darkroomengineering/lenis: Smooth scroll as it should be · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lenis",
+  "summary": "Lightweight smooth scroll library with React, Vue and Framer packages and a scroll-snap plugin.",
+  "description": "A dependency-free smooth scroll library that wraps the browser's own scroll, so position: sticky, anchor links and accessibility keep working. One instance handles vertical, horizontal and nested scrolling and drives WebGL scroll scenes, GSAP ScrollTrigger and parallax from a single loop; prefers-reduced-motion is honored by default. Packages exist for React, Vue, Framer and scroll snapping.",
+  "type": "component-library",
+  "categories": ["motion"],
+  "elements": ["scroll-effect"],
+  "keywords": ["smooth scroll", "scroll animation", "parallax", "scroll trigger", "scroll snapping", "infinite scroll", "native scroll", "webgl scroll", "horizontal scroll", "nested scroll", "react", "vue", "framer", "reduced motion", "anchor link"],
+  "contains": [
+    "dependency-free, a few KB with zero runtime dependencies",
+    "vertical, horizontal and nested scrolling from one instance",
+    "packages: lenis, lenis/react, lenis/vue, lenis/framer and lenis/snap",
+    "settings, properties, methods and events documented (lerp, duration, scrollTo, raf, syncTouch)",
+    "syncs smooth scroll with WebGL scenes, GSAP ScrollTrigger and parallax",
+    "honors prefers-reduced-motion by default"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["javascript", "react", "vue"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/darkroomengineering/lenis", "docs": "https://lenis.dev", "npm": "lenis", "figma": null, "parent": null},
+  "confidence": 0.9
+}

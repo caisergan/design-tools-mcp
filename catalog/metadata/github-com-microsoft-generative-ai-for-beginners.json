@@ -1,0 +1,28 @@
+{
+  "id": "github-com-microsoft-generative-ai-for-beginners",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "kind": "repo",
+  "hints_hash": "5d81888d11fe7cac",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/microsoft/generative-ai-for-beginners/blob/HEAD/README.md", "title": "Generative AI for Beginners (Version 3) - A Course", "status": 200},
+    {"url": "https://github.com/microsoft/generative-ai-for-beginners", "title": "GitHub - microsoft/generative-ai-for-beginners: 21 Lessons, Get Started Building with Generative AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Generative AI for Beginners",
+  "summary": "Microsoft's 21-lesson course on building generative AI apps, with videos, Python and TypeScript samples.",
+  "description": "A 21-lesson course on generative AI fundamentals and applications. Lessons are labeled Learn or Build and cover prompt engineering, chat apps, vector search, image generation, function calling, RAG, agents and fine-tuning; each includes a short video, a written lesson, Python and TypeScript code samples for Azure OpenAI or the OpenAI API, and a Keep Learning section.",
+  "type": "course",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["generative ai", "course", "llm", "prompt engineering", "rag", "vector database", "fine-tuning", "image generation", "python", "typescript", "lesson", "beginner"],
+  "contains": ["21 lessons numbered 00-21, labeled Learn or Build", "each lesson: video, written lesson, Python and TypeScript samples, extra learning links", "code runs on Azure OpenAI, Microsoft Foundry Models, OpenAI API or Foundry Local", "50+ language translations", "121k stars, 63.9k forks, MIT license"],
+  "formats": ["code", "docs", "video"],
+  "stack": ["python", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/microsoft/generative-ai-for-beginners", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

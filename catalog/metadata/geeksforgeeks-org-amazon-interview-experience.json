@@ -1,0 +1,22 @@
+{
+ "id": "geeksforgeeks-org-amazon-interview-experience",
+ "url": "https://geeksforgeeks.org/amazon-interview-experience",
+ "kind": "page",
+ "hints_hash": "d8e2ca7e7f696fba",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://geeksforgeeks.org/amazon-interview-experience", "title": "Amazon Interview Experience - GeeksforGeeks", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Amazon Interview Experience",
+ "summary": "Write-up of an Amazon interview: two coding rounds with array and binary search tree questions, plus the BST solution code.",
+ "description": "An interview-experience write-up on GeeksforGeeks for an Amazon interview: round one asks for numbers occurring once in a right-rotated array, round two is a binary search tree path-weight problem with a worked example and code. Links out to the site's DSA and system design tutorials.",
+ "type": "article",
+ "categories": ["learning"],
+ "elements": [],
+ "keywords": ["interview experience", "coding interview", "technical interview", "interview question", "coding round", "array", "binary search tree", "tree deletion", "data structure", "algorithm", "software engineer", "interview preparation"],
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.8
+}

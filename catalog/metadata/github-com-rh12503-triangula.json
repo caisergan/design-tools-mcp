@@ -1,0 +1,36 @@
+{
+  "id": "github-com-rh12503-triangula",
+  "url": "https://github.com/RH12503/Triangula",
+  "kind": "repo",
+  "hints_hash": "3cc5c77fc3462676",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://github.com/RH12503/Triangula/blob/HEAD/README.md", "title": null, "status": 200 },
+    { "url": "https://github.com/RH12503/Triangula/blob/HEAD/LICENSE", "title": "triangula/LICENSE at a1f8f585440ef3fd5a71cd09bad15dca55aec172 · rh12503/triangula · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Triangula",
+  "summary": "Desktop app and CLI that turns images into triangulated or polygonal art with a genetic algorithm.",
+  "description": "Generates triangulated and polygonal art from images using a modified genetic algorithm, typically producing an optimal result within a couple of minutes for images under 3000px. Ships a GUI desktop app built on Wails, a Go CLI that renders SVG and PNG, and a Go API; the desktop app is 20-50x faster than the browser demo.",
+  "type": "app",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["triangulated art", "polygonal art", "low poly", "image to art", "genetic algorithm", "generative art", "desktop app", "cli", "go", "svg", "png", "vector art", "image processing"],
+  "contains": [
+    "triangulated and polygonal art generated from images",
+    "modified genetic algorithm; optimal result usually within a couple of minutes",
+    "GUI desktop app (Wails) plus a Go CLI and a Go API",
+    "options: points, mutations, variation, population, cutoff, cache, block, threads, repetitions",
+    "renders SVG; PNG export with effects",
+    "browser demo available; the desktop app is 20-50x faster",
+    "works best with images under 3000px and fewer than 3000 points"
+  ],
+  "formats": ["code", "app", "cli", "svg", "png"],
+  "stack": ["go", "wails"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/RH12503/Triangula", "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

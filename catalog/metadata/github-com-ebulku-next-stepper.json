@@ -1,0 +1,27 @@
+{
+  "id": "github-com-ebulku-next-stepper",
+  "url": "https://github.com/ebulku/next-stepper",
+  "kind": "repo",
+  "hints_hash": "f519e48faceadfce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ebulku/next-stepper/blob/HEAD/README.md", "title": "next-stepper", "status": 200}
+  ],
+  "status": "ok",
+  "name": "next-stepper",
+  "summary": "Multi-step form component for Next.js with conditional steps, progress tracking and Zustand state.",
+  "description": "A dynamic multi-step form built with Next.js, shadcn/ui and Framer Motion. Steps can be filtered by earlier answers, transitions and progress are animated, state is kept in Zustand, and the component ships with optional step icons, images and a completion summary.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["form", "progress", "stepper"],
+  "keywords": ["multi step form", "stepper", "wizard", "react", "nextjs", "shadcn ui", "zustand", "framer motion", "form", "conditional step", "tailwind css", "typescript"],
+  "contains": ["dynamic multi-step navigation with progress tracking", "conditional step filtering based on previous selections", "Framer Motion transitions and Zustand state", "copy components/ui/multi-step-form.tsx into your project", "optional icons and images per step, completion summary", "MIT license"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion", "zustand", "shadcn-ui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ebulku/next-stepper", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

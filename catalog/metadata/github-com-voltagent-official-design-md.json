@@ -1,0 +1,27 @@
+{
+  "id": "github-com-voltagent-official-design-md",
+  "url": "https://github.com/VoltAgent/official-design-md",
+  "kind": "repo",
+  "hints_hash": "46ef6d3435634f58",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/VoltAgent/official-design-md/blob/HEAD/README.md", "title": "Official DESIGN.md", "status": null}
+  ],
+  "status": "ok",
+  "name": "Official DESIGN.md",
+  "summary": "Curated index of first-party DESIGN.md files that companies and projects publish themselves.",
+  "description": "A tracker of DESIGN.md adoption: every entry is a design system document published by the company or project itself, not extracted or community-made. It lists official files from Ant Design, Atlassian, Clerk, Juspay, Microsoft FAST, Mintlify, Nuxt, Oxide Computer, Resend, Vercel and VoltAgent, each with a one-line description and a link to the source file.",
+  "type": "directory",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["design.md", "design system", "design documentation", "first-party", "design token", "ai agent", "markdown", "ui consistency", "agent prompt", "curated list", "index", "company design system"],
+  "contains": ["11 official DESIGN.md files indexed", "names include Ant Design, Atlassian, Clerk, Juspay, Microsoft FAST, Nuxt, Oxide, Resend, Vercel and VoltAgent", "each entry links to the company's own DESIGN.md file", "explains the DESIGN.md format and how to use it"],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/VoltAgent/official-design-md", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

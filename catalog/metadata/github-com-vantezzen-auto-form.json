@@ -1,0 +1,107 @@
+{
+  "id": "github-com-vantezzen-auto-form",
+  "url": "https://github.com/vantezzen/auto-form",
+  "kind": "repo",
+  "hints_hash": "cb9fabcc4942bd14",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/vantezzen/auto-form/blob/HEAD/README.md",
+      "title": "AutoForm README",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/vantezzen/auto-form",
+      "title": "GitHub - vantezzen/autoform",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vantezzen/auto-form/HEAD/README.md",
+      "title": "AutoForm README",
+      "status": 200
+    },
+    {
+      "url": "https://autoform.vantezzen.io",
+      "title": "AutoForm - Instant forms for your schemas",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AutoForm",
+  "summary": "React library that renders forms automatically from Zod, Yup or Joi schemas, with official shadcn/ui and MUI packages.",
+  "description": "Point AutoForm at an existing validation schema and it maps fields to the right input components, connects them to your form library and sets up validation — a drop-in form builder for internal tools and simple forms. Official packages cover shadcn/ui, Material UI, Mantine, Ant Design and Chakra UI, plus React Hook Form and TanStack Form; fieldConfig options and custom renderers stay open for overrides. A skill is available for AI coding assistants.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "form",
+    "input",
+    "select",
+    "date-picker",
+    "slider",
+    "file-upload",
+    "modal"
+  ],
+  "keywords": [
+    "form",
+    "form builder",
+    "schema form",
+    "zod",
+    "yup",
+    "joi",
+    "react",
+    "typescript",
+    "shadcn",
+    "react hook form",
+    "tanstack form",
+    "form validation",
+    "auto form",
+    "input",
+    "select",
+    "date picker",
+    "slider",
+    "file upload",
+    "dialog",
+    "internal tool"
+  ],
+  "contains": [
+    "renders forms from Zod, Yup and Joi schemas",
+    "official packages for shadcn/ui, Material UI, Mantine, Ant Design and Chakra UI",
+    "works with React Hook Form and TanStack Form",
+    "fieldConfig and custom renderer escape hatches; can sit inside dialogs",
+    "16 shadcn registry items",
+    "AutoForm skill for AI coding assistants",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "zod",
+    "react-hook-form",
+    "tanstack-form",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/vantezzen/autoform",
+    "docs": "https://autoform.vantezzen.io",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

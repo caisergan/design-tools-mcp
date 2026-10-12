@@ -1,0 +1,38 @@
+{
+  "id": "mesh3d-gallery",
+  "url": "https://mesh3d.gallery",
+  "kind": "site",
+  "hints_hash": "aceba0873e0c9e4c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mesh3d.gallery/llms.txt", "title": "mesh3d.gallery", "status": null},
+    {"url": "https://mesh3d.gallery", "title": "Three.js & WebGL Website Inspiration | mesh3d", "status": 200},
+    {"url": "https://mesh3d.gallery/about", "title": "About mesh3d - The Three.js & 3D Website Gallery", "status": 200},
+    {"url": "https://mesh3d.gallery/llms-full.txt", "title": "mesh3d.gallery — Full Directory", "status": 200}
+  ],
+  "status": "ok",
+  "name": "mesh3d",
+  "summary": "Curated gallery of Three.js, WebGL and interactive 3D websites, with maker profiles and a weekly render newsletter.",
+  "description": "A human-curated gallery of production websites and creative-coding experiments built with Three.js, WebGL, Spline and related real-time 3D tooling. The directory lists 434 websites and 118 experiments from 287 makers, browsable by tag, technology and studio; each entry links out to the live site and credits its makers. Makers get profile pages, the blog runs studio interviews, and a weekly 'render' newsletter picks six Three.js sites. For designers, developers and creative directors looking for 3D web inspiration.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["3d"],
+  "keywords": ["three.js", "webgl", "3d website", "webgl website", "interactive website", "3d web experience", "gallery", "showcase", "inspiration", "creative developer", "shader", "spline", "react three fiber", "portfolio", "agency website", "3d web design", "experiment", "maker"],
+  "contains": [
+    "434 websites and 118 experiments from 287 makers (llms-full.txt)",
+    "filter by tag, technology and maker",
+    "technologies covered: Three.js, React Three Fiber, WebGL, Spline, Rive, Babylon.js, GSAP, Lenis, Lottie, OGL, p5.js",
+    "top makers: PeachWeb 26 entries, Unseen Studio 24, Anderson Mancini 15",
+    "weekly 'render' newsletter with six hand-picked Three.js sites",
+    "submissions are free and editor-reviewed",
+    "machine-readable llms.txt and llms-full.txt with URL, makers, tech and tags"
+  ],
+  "formats": ["links", "screenshots"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

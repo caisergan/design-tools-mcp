@@ -1,0 +1,28 @@
+{
+  "id": "github-com-osolmaz-pi-workflows",
+  "url": "https://github.com/osolmaz/pi-workflows",
+  "kind": "repo",
+  "hints_hash": "b73f6b7d5b67e7ad",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/osolmaz/pi-workflows/blob/HEAD/README.md", "title": "pi-workflows", "status": null},
+    {"url": "https://github.com/osolmaz/pi-workflows", "title": "GitHub - osolmaz/pi-workflows: Workflow engine, JSON control-flow tool, and live terminal viewer for the pi coding agent", "status": 200}
+  ],
+  "status": "ok",
+  "name": "pi-workflows",
+  "summary": "Workflow engine for the Pi coding agent: TypeScript graph workflows, JSON control flow and a live terminal viewer.",
+  "description": "Define multi-step agent workflows as TypeScript graphs and trigger them from a Pi conversation with /workflow; agent steps run in the current conversation and return structured output while compute, notify, action and checkpoint nodes cover the rest. A Rust TUI (piw) and an in-editor widget show each run live over durable SQLite state.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["ai-agent-ui"],
+  "keywords": ["workflow engine", "coding agent", "agent workflow", "typescript", "json control flow", "terminal viewer", "tui", "sqlite", "automation", "human in the loop", "resource manager", "monitor"],
+  "contains": ["TypeScript graph workflows with agent, compute, notify, action/shell and checkpoint nodes", "/workflow start, pause, resume, cancel and answer commands", "Rust piw terminal viewer plus an in-Pi node widget", "durable run state in a local SQLite database", "six bundled skills: pi-workflows, monitor, autoplan, autodoc, autoimplement, sanity-check", "resource managers and a Herdr plugin", "npm package @osolmaz/pi-workflows; Rust viewer crate pi-workflows on crates.io"],
+  "formats": ["npm-package", "cli", "prompts", "docs"],
+  "stack": ["typescript", "node", "rust", "sqlite"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/osolmaz/pi-workflows", "docs": null, "npm": "@osolmaz/pi-workflows", "figma": null, "parent": null},
+  "confidence": 0.9
+}

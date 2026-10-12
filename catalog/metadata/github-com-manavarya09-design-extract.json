@@ -1,0 +1,101 @@
+{
+  "id": "github-com-manavarya09-design-extract",
+  "url": "https://github.com/Manavarya09/design-extract",
+  "kind": "repo",
+  "hints_hash": "bfbe3e7d1dafd522",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Manavarya09/design-extract/blob/HEAD/README.md",
+      "title": null,
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Manavarya09/design-extract/HEAD/LICENSE",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://designlang.app",
+      "title": "designlang — Open-source design extractor (design-extractor.com alternative). Tokens, Tailwind, Figma, MCP, iOS, Android, Flutter, WordPress.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "designlang",
+  "summary": "Open-source CLI that extracts a complete design system — DTCG tokens, Tailwind, Figma, motion — from any live website.",
+  "description": "Points a headless Chromium browser at any URL and reads colors, typography, spacing, motion and component anatomy off the rendered DOM. One run emits 17+ files: W3C DTCG tokens, Tailwind config, shadcn theme, Figma variables, CSS variables, native iOS SwiftUI / Android Compose / Flutter / WordPress emitters and a brand-book PDF. A stdio MCP server and generated AGENTS.md / .cursorrules / Claude skills feed the result to AI coding agents.",
+  "type": "tool",
+  "categories": [
+    "design-tools",
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "design system",
+    "design token",
+    "dtcg token",
+    "tailwind config",
+    "shadcn theme",
+    "figma variable",
+    "css variable",
+    "design extractor",
+    "website design system",
+    "color palette",
+    "typography",
+    "motion token",
+    "wcag",
+    "color contrast",
+    "design audit",
+    "design md",
+    "brand guideline",
+    "mcp server",
+    "ai coding agent",
+    "react",
+    "vue",
+    "svelte",
+    "ios swiftui",
+    "android compose",
+    "flutter",
+    "wordpress",
+    "cli",
+    "npm package"
+  ],
+  "contains": [
+    "one command emits 17+ files: DTCG tokens, Tailwind config, shadcn theme, Figma variables, motion tokens, prompts",
+    "site states 26 capabilities / 11 output formats / 3 MCP-aware editors · $0 · MIT",
+    "whole-site crawl synthesizes one canonical system with coverage grades (site-wide / section / page-local)",
+    "fidelity score compares a clone against the original — pixel-diff plus motion",
+    "native emitters: iOS SwiftUI, Android Compose, Flutter ThemeData, WordPress block theme, brand-book PDF",
+    "stdio MCP server; writes AGENTS.md, .cursorrules and Claude skills",
+    "WCAG remediation suggests the smallest hue-shift that passes AA",
+    "hosted demo rate-limited to 2 extractions per IP per day; CLI unlimited"
+  ],
+  "formats": [
+    "cli",
+    "npm-package",
+    "code",
+    "prompts",
+    "docs"
+  ],
+  "stack": [
+    "node",
+    "playwright"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Manavarya09/design-extract",
+    "docs": null,
+    "npm": "designlang",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

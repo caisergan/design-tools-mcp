@@ -1,0 +1,36 @@
+{
+  "id": "prompt-motion-com",
+  "url": "https://prompt-motion.com",
+  "kind": "site",
+  "hints_hash": "16a9714064945b62",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://prompt-motion.com", "title": "Prompt Motion", "status": 200},
+    {"url": "https://prompt-motion.com/templates", "title": "Templates · Prompt Motion", "status": 200},
+    {"url": "https://prompt-motion.com/customize", "title": "Customize a prompt · Prompt Motion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Prompt Motion",
+  "summary": "Gallery of motion videos made with Claude Opus 5.5, each shown with the prompt or skill that produced it.",
+  "description": "A browsable collection of AI-made motion videos, each credited to its creator (@handles) and paired with the prompt or the skill behind it; a filter switches between prompt-based and skill-based entries. Includes writable prompt templates (a 3D template and a showreel prompt) and a free customizer that rewrites any prompt with your subject, format and colours in the browser.",
+  "type": "gallery",
+  "categories": ["motion"],
+  "elements": ["3d", "text-effect"],
+  "keywords": ["motion video", "motion design", "motion graphics", "ai video", "video prompt", "prompt", "showreel", "kinetic typography", "3d animation", "three.js", "prompt template", "claude"],
+  "contains": [
+    "motion videos made with Claude Opus 5.5, each with its prompt or skill",
+    "filter between prompt and skill entries",
+    "creators credited by their handle",
+    "prompt templates: the 3D template and the showreel prompt",
+    "free prompt customizer that runs in the browser",
+    "email digest of new videos and prompts"
+  ],
+  "formats": ["video", "prompts"],
+  "stack": ["three.js"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

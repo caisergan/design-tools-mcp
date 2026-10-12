@@ -1,0 +1,35 @@
+{
+  "id": "gooey-jakubantalik-com",
+  "url": "https://gooey.jakubantalik.com",
+  "kind": "site",
+  "hints_hash": "17094da1b3dacc64",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gooey.jakubantalik.com", "title": "Liquid Gooey moved to a new home", "status": 200},
+    {"url": "https://libraries.dev/gooey", "title": "Gooey: liquid UI effects for React | Libraries.dev", "status": 200},
+    {"url": "https://libraries.dev/pricing", "title": "Libraries.dev: High-crafted UI libraries for AI agents", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Liquid Gooey",
+  "summary": "Liquid effect library for React where touching pieces merge like goo and morph like jelly while text stays crisp.",
+  "description": "A React library of liquid gooey effects: pieces that merge and morph when they touch, with text and images kept crisp through the blend. The original site gooey.jakubantalik.com is now a move notice pointing to libraries.dev/gooey, which carries the playground, installation and usage; the npm package liquid-gooey is unchanged.",
+  "type": "component-library",
+  "categories": ["motion"],
+  "elements": [],
+  "keywords": ["gooey effect", "liquid effect", "liquid ui", "blob", "metaball", "jelly effect", "morph", "react", "npm package", "ui effect", "animation"],
+  "contains": [
+    "liquid gooey effects for React: pieces merge and morph on touch",
+    "text and images stay crisp through the blend",
+    "distributed as the liquid-gooey npm package",
+    "playground, installation and usage on the new home",
+    "original domain now redirects to libraries.dev/gooey"
+  ],
+  "formats": ["npm-package"],
+  "stack": ["react"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://libraries.dev/gooey", "npm": "liquid-gooey", "figma": null, "parent": null},
+  "confidence": 0.8
+}

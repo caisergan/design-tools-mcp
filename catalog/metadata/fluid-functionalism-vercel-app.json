@@ -1,0 +1,127 @@
+{
+  "id": "fluid-functionalism-vercel-app",
+  "url": "https://fluid-functionalism.vercel.app",
+  "kind": "site",
+  "hints_hash": "1416eec26b20d90f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fluid-functionalism.vercel.app",
+      "title": "Fluid Functionalism",
+      "status": null
+    },
+    {
+      "url": "https://fluid-functionalism.vercel.app/docs",
+      "title": "Fluid Functionalism",
+      "status": null
+    },
+    {
+      "url": "https://fluid-functionalism.vercel.app/docs/card",
+      "title": "Fluid Functionalism",
+      "status": null
+    },
+    {
+      "url": "https://fluid-functionalism.vercel.app/docs/tabs",
+      "title": "Fluid Functionalism",
+      "status": null
+    },
+    {
+      "url": "https://fluid-functionalism.vercel.app/docs/badge",
+      "title": "Fluid Functionalism",
+      "status": null
+    },
+    {
+      "url": "https://fluid-functionalism.vercel.app/docs/skill",
+      "title": "Fluid Functionalism",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Fluid Functionalism",
+  "summary": "Open-source shadcn/ui-compatible components with spring physics and proximity hover, in Radix or Base UI flavors.",
+  "description": "A refined shadcn/ui-compatible component set where animation carries meaning: proximity fluid hover highlights the interactive element closest to your cursor before you click, spring presets (fast, moderate, slow) replace fixed-duration eases, and font weights shift on interaction. Every component installs in a Radix or a Base UI flavor with one CLI command, and the 70 registry items cover Sidebar, CommandMenu, ChatMessage, Tabs, Table, Slider and AI-interface pieces like ThinkingIndicator and AskUserQuestions. Docs also ship a skill page for agent installs.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "accordion",
+    "ai-agent-ui",
+    "badge",
+    "banner",
+    "button",
+    "card",
+    "carousel",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "drawer",
+    "dropdown",
+    "input",
+    "modal",
+    "select",
+    "sidebar",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "tooltip"
+  ],
+  "keywords": [
+    "shadcn",
+    "react",
+    "spring physics",
+    "fluid hover",
+    "proximity hover",
+    "animated component",
+    "base ui",
+    "radix ui",
+    "sidebar",
+    "command menu",
+    "chat",
+    "ai interface",
+    "font weight",
+    "dark mode",
+    "keyboard navigation",
+    "component registry",
+    "design system"
+  ],
+  "contains": [
+    "70 shadcn registry items",
+    "28 components incl. Sidebar, CommandMenu, ChatMessage, Table, Tabs",
+    "spring presets: fast, moderate, slow",
+    "each component in a Radix and a Base UI flavor",
+    "fluid hover previews the click target before you click",
+    "font weight transitions (Inter variable font)",
+    "installs with one CLI command, dependencies included",
+    "agent skill page for installs"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "base-ui"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://fluid-functionalism.vercel.app/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

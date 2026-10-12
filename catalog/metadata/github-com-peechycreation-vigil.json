@@ -1,0 +1,27 @@
+{
+  "id": "github-com-peechycreation-vigil",
+  "url": "https://github.com/peechycreation/vigil",
+  "kind": "repo",
+  "hints_hash": "a95a31f749750ee7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/peechycreation/vigil/blob/HEAD/README.md", "title": "Vigil", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vigil",
+  "summary": "Tiny native macOS menu bar app that keeps your Mac awake with a 15-minute to 8-hour timer.",
+  "description": "Lightweight menu bar utility for macOS 13+ that prevents the Mac from going to sleep. One-click toggle, timer from 15 minutes to 8 hours with live countdown, progress bar and end time, an option to put the Mac to sleep automatically when the timer ends and launch at login. Native SwiftUI panel, universal binary (Apple Silicon + Intel), zero dependencies; it holds the same IOKit power assertion as caffeinate. The interface is in French; the app is not notarized and ships from GitHub releases or builds from source with Xcode.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["menubar", "progress"],
+  "keywords": ["macos", "menu bar app", "keep awake", "sleep prevention", "swiftui", "swift", "timer", "utility", "open source", "mac app", "countdown"],
+  "contains": ["menu bar toggle prevents the Mac from sleeping", "timer 15 minutes to 8 hours with countdown, progress bar and end time", "optional auto-sleep when the timer ends; launch at login", "macOS 13+, universal binary, zero dependencies", "not notarized; build from source with Xcode or Command Line Tools", "UI is in French"],
+  "formats": ["app", "code"],
+  "stack": ["swift", "swiftui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/peechycreation/vigil", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

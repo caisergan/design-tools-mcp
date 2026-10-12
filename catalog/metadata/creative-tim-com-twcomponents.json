@@ -1,0 +1,124 @@
+{
+  "id": "creative-tim-com-twcomponents",
+  "url": "https://creative-tim.com/twcomponents",
+  "kind": "page",
+  "hints_hash": "3162ac0bf39fbf4e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://creative-tim.com/twcomponents",
+      "title": "Tailwind CSS Components - 600+ Free Examples and Templates",
+      "status": null
+    },
+    {
+      "url": "https://www.creative-tim.com/twcomponents/components",
+      "title": "3087+ Tailwind CSS Components Gallery",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "TW Components",
+  "summary": "Community repository of 3,000+ free Tailwind CSS components and templates that you preview and copy-paste as HTML snippets.",
+  "description": "A free, community-driven gallery of Tailwind CSS components and templates, grouped into 80+ categories such as buttons, cards, navbars, mega menus, modals, dropdowns, pricing, footers and forms. Each entry can be previewed and its HTML snippet pasted straight into your codebase, and the creators are ranked by component count.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "banner",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "chat",
+    "checkbox",
+    "dashboard",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "faq",
+    "features",
+    "file-upload",
+    "footer",
+    "form",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "pagination",
+    "popover",
+    "pricing",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "testimonials",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "tailwind css",
+    "component",
+    "component library",
+    "copy paste",
+    "html snippet",
+    "tailwind component",
+    "free",
+    "community",
+    "ui kit",
+    "template",
+    "tailwind template",
+    "navbar",
+    "mega menu",
+    "card",
+    "button",
+    "modal",
+    "dashboard",
+    "date picker",
+    "toast",
+    "pricing",
+    "footer",
+    "alpinejs"
+  ],
+  "contains": [
+    "3,087+ free components and templates",
+    "80+ category filters (buttons 441, cards 840, alerts 37 …)",
+    "preview and copy/paste HTML snippets",
+    "community creators ranked by component count",
+    "latest and popular component lists"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "tailwind",
+    "alpinejs"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

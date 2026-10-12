@@ -1,0 +1,28 @@
+{
+  "id": "omarchy-org",
+  "url": "https://omarchy.org",
+  "kind": "site",
+  "hints_hash": "10367ae0d65f01bf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://omarchy.org", "title": "Omarchy - Beautiful, fun & agentic Linux by DHH", "status": null},
+    {"url": "https://omarchy.org/themes", "title": "Themes - Omarchy", "status": null}
+  ],
+  "status": "ok",
+  "name": "Omarchy",
+  "summary": "Linux distribution by DHH with curated defaults, AI agents, community themes and plugins.",
+  "description": "Omarchy is a Linux distribution by David Heinemeier Hansson: write the ISO to a USB stick, answer five questions and hand back a finished desktop in under a minute. It ships a configured editor (Neovim), terminals and language setups (Ruby on Rails, Laravel, Node.js via mise), invites you to pick a default AI agent on first boot, and has community galleries for themes and plugins.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["linux distro", "linux desktop", "agentic os", "operating system", "developer os", "desktop theme", "linux theme", "community plugin", "neovim", "development environment", "dev setup", "ai agent", "vibe coding", "workstation"],
+  "contains": ["ISO install in under two minutes (35 seconds on fast machines)", "community theme gallery", "thousands of community plugins", "AI agents to debug crashes and build plugins/themes", "Omarchy Doctrine: ten principles", "runs on old hardware (2011 ThinkPad X220 with 2GB RAM)"],
+  "formats": ["app", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

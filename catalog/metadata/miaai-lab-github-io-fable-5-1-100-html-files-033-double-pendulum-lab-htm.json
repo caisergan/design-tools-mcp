@@ -1,0 +1,19 @@
+{
+  "id": "miaai-lab-github-io-fable-5-1-100-html-files-033-double-pendulum-lab-htm",
+  "url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/033-double-pendulum-lab.html",
+  "kind": "page",
+  "hints_hash": "205639c39a0fcc14",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/033-double-pendulum-lab.html", "title": "Double Pendulum Laboratory — Chaos Instrument No. 7", "status": null},
+    {"url": "https://miaai-lab.github.io/Fable-5.1-100-HTML-Files/", "title": "Fable 5.1 · 100 HTML Files", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Double Pendulum Laboratory",
+  "summary": "Self-contained HTML study from a 100-study collection: a double pendulum physics sandbox with live readouts and equations.",
+  "keywords": ["double pendulum", "physics simulation", "chaos theory", "physics sandbox", "lagrangian mechanics", "runge kutta", "simulation lab", "trail effect", "interactive demo", "creative coding", "html study", "standalone html"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

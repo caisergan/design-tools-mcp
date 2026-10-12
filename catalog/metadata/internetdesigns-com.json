@@ -1,0 +1,15 @@
+{
+  "id": "internetdesigns-com",
+  "url": "https://internetdesigns.com",
+  "kind": "site",
+  "hints_hash": "e06f134c129ba947",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://internetdesigns.com/llms.txt", "title": "internetdesigns.com", "status": null},
+    {"url": "https://internetdesigns.com", "title": null, "status": 200}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

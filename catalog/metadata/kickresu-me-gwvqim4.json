@@ -1,0 +1,18 @@
+{
+  "id": "kickresu-me-gwvqim4",
+  "url": "https://kickresu.me/GwvqIm4",
+  "kind": "page",
+  "hints_hash": "f9faa60c75de78eb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://kickresu.me/GwvqIm4", "title": "ATS Resume Checker — Simulate the ATS Scan | Kickresume", "status": null}
+  ],
+  "status": "ok",
+  "name": "ATS Resume Checker",
+  "summary": "Simulates an applicant tracking system scan and grades a resume on 20+ checks, then offers AI review and rewriting.",
+  "keywords": ["ats", "resume checker", "resume score", "cv review", "applicant tracking system", "resume optimization", "ai resume review", "job application", "resume grader", "ats friendly resume"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

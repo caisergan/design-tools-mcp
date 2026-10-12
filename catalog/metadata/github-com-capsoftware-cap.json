@@ -1,0 +1,89 @@
+{
+  "id": "github-com-capsoftware-cap",
+  "url": "https://github.com/CapSoftware/cap",
+  "kind": "repo",
+  "hints_hash": "5edf2ee866934c0f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:27:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/CapSoftware/cap/blob/HEAD/README.md",
+      "title": "Cap",
+      "status": 200
+    },
+    {
+      "url": "https://cap.so/pricing",
+      "title": "Pricing — Cap",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Cap",
+  "summary": "Open-source Loom alternative for screen recording, editing and shareable video links.",
+  "description": "Cap records your screen, camera and microphone and shares it as a link or export; an open-source Loom alternative with desktop apps for macOS and Windows plus a web dashboard. Instant Mode uploads while recording, Studio Mode edits locally with backgrounds, zooms, captions and trimming. Share links carry comments, reactions, transcripts and viewer analytics; recordings can live in Cap Cloud, your own S3 bucket, locally or on a fully self-hosted deployment.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "screen recorder",
+    "screen recording",
+    "loom alternative",
+    "screen capture",
+    "product demo",
+    "video sharing",
+    "async video",
+    "video editor",
+    "open source",
+    "self-hosted",
+    "team workspace",
+    "tutorial video",
+    "bug report",
+    "macos",
+    "window"
+  ],
+  "contains": [
+    "records screen, camera and microphone; Instant and Studio recording modes",
+    "desktop apps for macOS and Windows plus a web dashboard",
+    "share links with comments, reactions, transcripts and viewer analytics",
+    "AI titles, summaries, clickable chapters, captions and transcripts",
+    "storage: Cap Cloud, your own S3 (R2, B2, MinIO ...), local or self-hosted",
+    "self-hosting via Docker Compose, Railway or Coolify; Loom video importer",
+    "pricing: free for personal use; Desktop $29/year; Cap Pro $12/user/month",
+    "AGPL-3.0 license (cap-camera and scap crates MIT)"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "rust",
+    "typescript",
+    "tauri",
+    "solidstart",
+    "nextjs",
+    "react",
+    "drizzle",
+    "mysql",
+    "tailwind",
+    "effect",
+    "bun"
+  ],
+  "pricing": "freemium",
+  "license": "AGPL-3.0",
+  "related": {
+    "repo": "https://github.com/CapSoftware/cap",
+    "docs": "https://cap.so/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,48 @@
+{
+  "id": "uxdesign-cc",
+  "url": "https://uxdesign.cc",
+  "kind": "site",
+  "hints_hash": "64365b53994f5d00",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uxdesign.cc", "title": "Medium", "status": null},
+    {"url": "https://uxdesign.cc/about", "title": "Medium", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UX Collective",
+  "summary": "Independent design publication on Medium with curated stories on UX, visual and product design.",
+  "description": "UX Collective is an independent design publication and blog hosted on Medium (ISSN 2766-5267). It curates stories on user experience, visual and product design for designers, organised by topics such as UX, design, artificial intelligence, technology and product, with editor picks and a yearly archive back to 2013; readers can follow it, take the newsletter or submit a story.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": [
+    "design publication",
+    "ux blog",
+    "design article",
+    "user experience",
+    "product design",
+    "visual design",
+    "design writing",
+    "design newsletter",
+    "medium publication",
+    "curated story",
+    "editor pick",
+    "design career"
+  ],
+  "contains": [
+    "independent design publication and blog on Medium (ISSN 2766-5267)",
+    "topics: UX, design, artificial intelligence, technology, product",
+    "editor picks plus a yearly archive back to 2013",
+    "about 635K followers on Medium",
+    "weekly UX Collective Newsletter",
+    "open story submissions, edited by founder Fabricio Teixeira"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

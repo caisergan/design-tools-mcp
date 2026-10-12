@@ -1,0 +1,31 @@
+{
+  "id": "v0-app",
+  "url": "https://v0.app",
+  "kind": "site",
+  "hints_hash": "a0c343348022f1b6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://v0.app", "title": "v0 by Vercel - Build Full-Stack Web Apps with AI", "status": null},
+    {"url": "https://v0.app/docs", "title": "What is v0? | v0 Docs", "status": null},
+    {"url": "https://v0.app/templates", "title": "v0 Templates - v0 by Vercel", "status": null},
+    {"url": "https://v0.app/pricing", "title": "v0 by Vercel", "status": null},
+    {"url": "https://v0.app/faq", "title": "FAQs | v0 Docs", "status": null}
+  ],
+  "status": "ok",
+  "name": "v0 by Vercel",
+  "summary": "AI builder that turns prompts into React and Next.js apps, components and dashboards, deployed to Vercel in one click.",
+  "description": "Vercel's AI agent for building full-stack web apps. You describe an idea and it generates working React and Next.js code, connects to databases and APIs, previews and edits with design mode, syncs with GitHub and deploys to Vercel. A community template gallery covers landing pages, dashboards, components, e-commerce, blogs and AI agent apps.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "templates", "components"],
+  "elements": ["dashboard", "hero", "chat", "form", "navbar", "3d", "scroll-effect"],
+  "keywords": ["ai app builder", "ai code generator", "prompt to app", "react", "nextjs", "shadcn", "full-stack", "landing page", "dashboard", "template", "website builder", "design mode", "design system", "deploy", "vercel", "github", "component", "chat ui"],
+  "contains": ["free plan: 7 messages/day, design mode, GitHub sync, Vercel deploys", "Plus $30 per user/month with monthly credits; Business $100 per user/month; Enterprise custom", "template gallery: apps and games, landing pages, dashboards, components, e-commerce, AI", "agentic features: plans, tasks, database connections", "design systems, design mode, iOS app, MCP integrations"],
+  "formats": ["app", "code", "templates", "api"],
+  "stack": ["react", "nextjs"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://v0.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

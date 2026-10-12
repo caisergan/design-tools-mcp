@@ -1,0 +1,28 @@
+{
+  "id": "untitledui-com-icons",
+  "url": "https://untitledui.com/icons",
+  "kind": "page",
+  "hints_hash": "98d53fbd3acc9966",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://untitledui.com/icons", "title": "Untitled UI Icons — The Ultimate Figma Icon Library", "status": null},
+    {"url": "https://www.untitledui.com/icons", "title": "Untitled UI Icons — The Ultimate Figma Icon Library", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Untitled UI Icons",
+  "summary": "Icon library of 4,600+ Figma icons in four styles, with a free SVG set and one-time PRO licenses.",
+  "description": "A neutral icon library crafted for modern UI design, built as Figma components and organized into 19 categories. The free tier includes 1,100+ line icons; the PRO library adds duocolor, duotone and solid styles across 4,600+ icons, with optimized SVG exports, an IconJar library, master icons with live corners and access through a private npm. React icon components are also available.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "icon library", "figma icon", "svg icon", "free icon", "line icon", "duotone icon", "duocolor icon", "solid icon", "ui icon", "react icon", "icon pack", "figma component", "npm package"],
+  "contains": ["4,600+ icons across 19 categories", "4 styles: line, duocolor, duotone, solid", "Free tier: 1,100+ line icons as SVG and a Figma library", "PRO one-time licenses: $79 solo, $199 studio, $499 business, $1,199 enterprise", "Exports: optimized SVGs, IconJar library, master icons with live corners, private npm", "React icons available"],
+  "formats": ["figma-file", "svg", "npm-package", "code"],
+  "stack": ["react"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "untitledui-com"},
+  "confidence": 0.9
+}

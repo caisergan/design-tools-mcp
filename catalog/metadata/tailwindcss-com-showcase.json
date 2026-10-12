@@ -1,0 +1,26 @@
+{
+  "id": "tailwindcss-com-showcase",
+  "url": "https://tailwindcss.com/showcase",
+  "kind": "page",
+  "hints_hash": "1aaf345ba0e80a37",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tailwindcss.com/showcase", "title": "Showcase - Tailwind CSS", "status": null}
+  ],
+  "status": "ok",
+  "name": "Tailwind CSS Showcase",
+  "summary": "Showcase of live websites and apps built with Tailwind CSS, from marketing sites to SaaS, ecommerce and docs.",
+  "description": "A gallery of production sites built with Tailwind CSS, each card labelled by product type — marketing site, SaaS application, ecommerce platform, code editor, documentation, fintech, CMS, analytics — and linking to the live website. It includes Railway, v0, Lovable, Vercel, Supabase, Mintlify, Gumroad, Cursor, Shopify, Base UI, Graphite, Clerk, Resend, PostHog, Sanity, OpenAI/ChatGPT, Wealthfront, Loom and The Verge.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "keywords": ["showcase", "website showcase", "tailwind css", "marketing site", "saas website", "ecommerce website", "landing page", "design inspiration", "real-world website", "production site", "web design", "css framework"],
+  "contains": ["showcase of live production sites built with Tailwind CSS", "cards labelled by product type: marketing, SaaS, ecommerce, docs, code editor, fintech, CMS, analytics", "each entry links to the live website", "includes Vercel, Shopify, Cursor, OpenAI/ChatGPT, The Verge, Loom, Supabase"],
+  "formats": ["links"],
+  "stack": ["tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "tailwindcss-com"},
+  "confidence": 0.85
+}

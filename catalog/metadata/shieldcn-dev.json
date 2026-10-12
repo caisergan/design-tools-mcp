@@ -1,0 +1,120 @@
+{
+  "id": "shieldcn-dev",
+  "url": "https://shieldcn.dev",
+  "kind": "site",
+  "hints_hash": "1e29b00f2b636362",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:44:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shieldcn.dev/llms.txt",
+      "title": "shieldcn",
+      "status": null
+    },
+    {
+      "url": "https://shieldcn.dev",
+      "title": "shieldcn — Beautiful README Badges & Charts",
+      "status": 200
+    },
+    {
+      "url": "https://shieldcn.dev/docs",
+      "title": "Getting Started — shieldcn",
+      "status": 200
+    },
+    {
+      "url": "https://shieldcn.dev/showcase",
+      "title": "Showcase — shieldcn",
+      "status": 200
+    },
+    {
+      "url": "https://shieldcn.dev/docs/skill",
+      "title": "Agent Skill — shieldcn",
+      "status": 200
+    },
+    {
+      "url": "https://shieldcn.dev/docs/charts",
+      "title": "Charts — shieldcn",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/jal-co/shieldcn",
+      "title": "GitHub - jal-co/shieldcn: Beautiful README badges, inspired by shields.io and styled like shadcn/ui.",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/jal-co/shieldcn/blob/HEAD/README.md",
+      "title": "shieldcn/README.md",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shieldcn",
+  "summary": "Shields.io alternative that renders GitHub README badges as shadcn/ui-style SVG and PNG images.",
+  "description": "A badge image service: every badge renders in the look of a shadcn/ui Button, with 45+ providers (npm, GitHub, Discord, Reddit, PyPI, Docker, Bluesky, YouTube and more), plus charts (star history, issues, commits, npm downloads, inline JSON) and repository header banners. A free browser README Studio composes a whole GitHub README from text, header, badge, chart, table and image blocks, and an agent skill teaches coding agents to add badges.",
+  "type": "generator",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "badge",
+    "chart"
+  ],
+  "keywords": [
+    "badge",
+    "readme badge",
+    "github badge",
+    "shields.io alternative",
+    "svg",
+    "png",
+    "npm badge",
+    "github star",
+    "discord badge",
+    "reddit badge",
+    "dynamic json",
+    "chart",
+    "star history",
+    "readme builder",
+    "markdown",
+    "shadcn",
+    "dark mode",
+    "icon",
+    "agent skill",
+    "api",
+    "badge generator"
+  ],
+  "contains": [
+    "SVG and PNG badge images, no API keys or build step",
+    "badges rendered as shadcn/ui Button components",
+    "45+ providers incl. npm, GitHub, Discord, Reddit, PyPI, Docker, Bluesky and GitLab",
+    "charts: star history, GitHub issues, lifetime commits, npm downloads, inline JSON",
+    "README Studio: visual README builder (text, header, badge, chart, table, image)",
+    "repository header banner images",
+    "agent skill installable via skills.sh for Claude Code, Cursor, Codex and 40+ agents",
+    "284 showcased badges on the showcase page"
+  ],
+  "formats": [
+    "svg",
+    "png",
+    "api",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/jal-co/shieldcn",
+    "docs": "https://shieldcn.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

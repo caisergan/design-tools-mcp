@@ -1,0 +1,27 @@
+{
+  "id": "vantaui-registry-vercel-app-components-rubiks-cube",
+  "url": "https://vantaui-registry.vercel.app/components/rubiks-cube",
+  "kind": "page",
+  "hints_hash": "7d53db88662a8628",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:35:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vantaui-registry.vercel.app/components/rubiks-cube", "title": "Vanta UI", "status": 200},
+    {"url": "https://vantaui-registry.vercel.app/r/rubiks-cube.json", "title": "Rubik's Cube", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Rubik's Cube",
+  "summary": "Auto-scrambling 3D Rubik's cube React component with metallic stickers, from the Vanta UI shadcn registry.",
+  "description": "shadcn registry item for a dark, studio-lit 3D Rubik's cube that auto-scrambles with textured metallic stickers. Built with react-three-fiber; ships as src/components/ui/rubiks-cube.tsx.",
+  "type": "component-library",
+  "elements": ["3d"],
+  "keywords": ["rubik's cube", "3d component", "three.js", "react three fiber", "shadcn", "registry component", "webgl", "interactive 3d", "animated 3d", "vanta ui", "react component"],
+  "contains": ["shadcn registry item named rubiks-cube", "dependencies: @react-three/fiber, @react-three/drei, three", "file: src/components/ui/rubiks-cube.tsx", "auto-scrambling animation with textured metallic stickers"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "three.js", "react-three-fiber"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

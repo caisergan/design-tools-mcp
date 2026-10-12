@@ -1,0 +1,27 @@
+{
+  "id": "claude101-com",
+  "url": "https://claude101.com",
+  "kind": "site",
+  "hints_hash": "4e9e8eb40396a3a0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://claude101.com", "title": "Claude 101 — Free guides to master Claude", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude 101",
+  "summary": "Free guides for mastering Claude, arranged in four levels from beginner to advanced.",
+  "description": "A collection of free guides that teach people to use Claude, organised in four levels from beginner to expert. Guides include Claude For Dummies, Prompt Engineering 101, Claude Certified, Claude & Mom, AI Brain Rot, 27 Claude Tips, Opus 5.5, Claude for teams, Claude Design, Privacy, Deslop Claude and Claude Skills, each with an estimated reading time.",
+  "type": "course",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude", "anthropic", "prompt engineering", "ai guide", "claude tutorial", "claude skill", "ai course", "beginner guide", "ai tip", "claude certified", "ai productivity", "llm"],
+  "contains": ["free guides in 4 levels: beginner to advanced", "guides: Claude For Dummies, Prompt Engineering 101, Claude Certified, 27 Claude Tips, Claude Skills and more", "estimated reading times of 4–11 minutes per guide"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

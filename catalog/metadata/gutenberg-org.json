@@ -1,0 +1,37 @@
+{
+  "id": "gutenberg-org",
+  "url": "https://gutenberg.org",
+  "kind": "site",
+  "hints_hash": "2b4666bb84b92043",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gutenberg.org", "title": "Free eBooks | Project Gutenberg", "status": null},
+    {"url": "https://www.gutenberg.org/browse/scores/top", "title": "Top 100 | Project Gutenberg", "status": null},
+    {"url": "https://www.gutenberg.org/about", "title": "About | Project Gutenberg", "status": null}
+  ],
+  "status": "ok",
+  "name": "Project Gutenberg",
+  "summary": "Library of 79,574 free public-domain eBooks to read online or download, with no fees or registration.",
+  "description": "A volunteer-run library of free eBooks, digitized and proofread since 1971, focused on older works whose U.S. copyright has expired. Browse by category, reading list or top-100 download counts; every title can be read online in the browser or downloaded in ebook formats, and the site points to human-read and computer-generated audiobook collections.",
+  "type": "asset-library",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["free ebook", "public domain book", "ebook download", "classic literature", "online library", "audiobook", "ebook format", "read online", "novel", "poetry"],
+  "contains": [
+    "79,574 free eBooks (site counter; 'over 75,000' in its meta description)",
+    "no fees, registration or ads; volunteer-digitized since 1971",
+    "top 100 lists: yesterday, 7 days, 30 days, by downloads",
+    "audio: 662 human-read titles (LibriVox) plus almost 5,000 computer-generated audiobooks",
+    "multiple ebook formats; read online in the browser",
+    "categories: History, Literature, Science & Technology, Arts & Culture, …",
+    "feeds of new releases; offline catalogs"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

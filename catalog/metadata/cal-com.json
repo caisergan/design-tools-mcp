@@ -1,0 +1,40 @@
+{
+  "id": "cal-com",
+  "url": "https://cal.com",
+  "kind": "site",
+  "hints_hash": "f5d24f1f5a4e12b4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:23:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cal.com/llms.txt", "title": "Cal.com: Scheduling Infrastructure for Individuals, Teams, and Organizations", "status": null},
+    {"url": "https://cal.com", "title": "Cal.com | Scheduling Software for Online Bookings", "status": 200},
+    {"url": "https://cal.com/docs", "title": "Introduction to API v2 - Cal.com Docs", "status": 200},
+    {"url": "https://cal.com/pricing", "title": "Pricing | Cal.com", "status": 200},
+    {"url": "https://cal.com/faq", "title": "FAQ | Cal.com", "status": 200},
+    {"url": "https://cal.com/font", "title": "Cal Sans by Cal.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cal.com",
+  "summary": "Scheduling platform for booking links, teams and developers, with a v2 API, embeddable React components and Cal Sans.",
+  "description": "Cal.com is scheduling software and infrastructure: share a booking link and let invitees pick a time, with round-robin and collective scheduling, routing forms, workflows, payments and native video. Developers get a v2 REST API, embeddable React atoms and an MCP server; designers get the downloadable open-source Cal Sans UI and Text variable typeface. The commercial product is closed source; the self-hostable community edition Cal.diy is MIT licensed.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["date-picker", "calendar", "form"],
+  "keywords": ["scheduling", "booking", "calendar", "appointment scheduling", "meeting scheduler", "booking link", "round robin", "embed", "react component", "api", "mcp server", "self-host", "open source", "scheduling infrastructure", "variable font", "saas"],
+  "contains": [
+    "free forever plan for individuals; Teams $12 and Organizations $28 per user/month",
+    "API v2 with OAuth or API keys; embeddable React atoms",
+    "MCP server and AI scheduling agent support",
+    "Cal.diy: MIT-licensed self-hostable community edition",
+    "compliance: HIPAA, SOC 2, ISO 27001, GDPR",
+    "Cal Sans v2 variable font with three optical sizes, free download",
+    "100+ app integrations, payments, workflows and Cal Video"
+  ],
+  "formats": ["app", "api", "code", "docs", "font-files"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://cal.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

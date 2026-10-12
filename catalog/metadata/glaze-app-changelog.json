@@ -1,0 +1,20 @@
+{
+  "id": "glaze-app-changelog",
+  "url": "https://glaze.app/changelog",
+  "kind": "page",
+  "hints_hash": "86740368c76e7f83",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://glaze.app/changelog", "title": "Changelog — Glaze", "status": null},
+    {"url": "https://glaze.app/changelog", "title": "Changelog — Glaze", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Changelog — Glaze",
+  "summary": "Dated release notes for Glaze, the app builder with AI agents: new features, improvements and fixes.",
+  "description": "Release notes for Glaze, listed newest first with version numbers and dates and grouped into New, Improvements and Fixes sections, each linking to its own entry. Recaps cover features such as bringing your own agent, Creator Hub and Swift support.",
+  "keywords": ["changelog", "release note", "product update", "app builder", "ai agent", "swift", "sdk", "version history", "bug fix"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "glaze-app"},
+  "confidence": 0.85
+}

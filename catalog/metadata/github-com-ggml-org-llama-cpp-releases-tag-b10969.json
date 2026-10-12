@@ -1,0 +1,55 @@
+{
+  "id": "github-com-ggml-org-llama-cpp-releases-tag-b10969",
+  "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10969",
+  "kind": "page",
+  "hints_hash": "8dc611c11c8f5c6b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10969",
+      "title": "Release b10969 · ggml-org/llama.cpp · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Release b10969 · ggml-org/llama.cpp",
+  "summary": "llama.cpp build release b10969: adds Ubuntu CUDA 12/13 binaries (x64, arm64) via PR #28186; 35 prebuilt assets.",
+  "description": "Automated llama.cpp build release, marked pre-release: commit 391fac1 'ci : add ubuntu-cuda builds to release (#28186)', published 14 Sep 19:50 by github-actions. The release workflow gained Ubuntu CUDA 12 (12.8 libraries) and CUDA 13 (13.3 libraries) builds for x64 and arm64, alongside the existing macOS, Linux, Windows, Android and openEuler jobs. 35 assets.",
+  "keywords": [
+    "llama.cpp",
+    "release",
+    "pre-release",
+    "prebuilt binary",
+    "ubuntu",
+    "cuda",
+    "linux",
+    "macos",
+    "window",
+    "android",
+    "openeuler",
+    "vulkan",
+    "rocm",
+    "llm inference",
+    "build artifact"
+  ],
+  "contains": [
+    "35 assets",
+    "commit 391fac1 'ci : add ubuntu-cuda builds to release (#28186)'",
+    "adds Ubuntu x64 and arm64 CUDA 12 (12.8) and CUDA 13 (13.3) builds",
+    "marked pre-release, released 14 Sep 19:50 by github-actions"
+  ],
+  "related": {
+    "repo": "https://github.com/ggml-org/llama.cpp",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.8
+}

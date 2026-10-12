@@ -1,0 +1,23 @@
+{
+  "id": "isthereanytool-app-tool-aceternity-ui",
+  "url": "https://isthereanytool.app/tool/aceternity-ui",
+  "kind": "page",
+  "hints_hash": "3f0ca2af4dd64357",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://isthereanytool.app/tool/aceternity-ui", "title": "Aceternity UI — wow-factor marketing heroes | isthereanytool.app", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Aceternity UI",
+  "summary": "Marketing component kit with 200+ copy-paste components, blocks and templates built with React, Tailwind CSS and Motion.",
+  "description": "Listed as cinematic React, Tailwind and Motion marketing components: 200+ production-ready components, blocks and templates to copy, paste and customize. Free core with an All-Access plan around 199 USD lifetime; platforms React / Next.js.",
+  "type": "component-library",
+  "pricing": "freemium",
+  "formats": ["code", "templates"],
+  "elements": ["hero"],
+  "keywords": ["marketing component", "react component", "tailwind css", "motion", "landing page", "hero section", "copy paste component", "template", "nextjs", "animated component", "ui kit"],
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": "isthereanytool-app" },
+  "confidence": 0.8
+}

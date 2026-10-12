@@ -1,0 +1,135 @@
+{
+  "id": "astryx-atmeta-com",
+  "url": "https://astryx.atmeta.com",
+  "kind": "site",
+  "hints_hash": "7ba94f480121fa7d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://astryx.atmeta.com/llms.txt",
+      "title": "Astryx",
+      "status": null
+    },
+    {
+      "url": "https://astryx.atmeta.com",
+      "title": "Astryx Design System",
+      "status": 200
+    },
+    {
+      "url": "https://astryx.atmeta.com/docs/getting-started",
+      "title": "Getting Started · Astryx",
+      "status": 200
+    },
+    {
+      "url": "https://astryx.atmeta.com/themes",
+      "title": "Themes · Astryx",
+      "status": 200
+    },
+    {
+      "url": "https://astryx.atmeta.com/templates",
+      "title": "Templates · Astryx",
+      "status": 200
+    },
+    {
+      "url": "https://astryx.atmeta.com/components",
+      "title": "Components · Astryx",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Astryx",
+  "summary": "Open source React design system with 180+ components, themes, page templates and an agent-ready CLI.",
+  "description": "An open source design system built on React 19+ and StyleX, grown inside Meta over eight years and powering over 13,000 apps. It ships 180+ accessible, themeable components (tables, chat, navigation, forms, overlays), customizable themes, page templates and design tokens; component docs, props, variants and design rules are also exposed to coding agents through the @astryxdesign/cli CLI and MCP.",
+  "type": "design-system",
+  "categories": [
+    "components",
+    "design-rules"
+  ],
+  "elements": [
+    "accordion",
+    "ai-agent-ui",
+    "avatar",
+    "badge",
+    "banner",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "form",
+    "input",
+    "list",
+    "modal",
+    "navbar",
+    "popover",
+    "prompt-input",
+    "sidebar",
+    "stepper",
+    "table"
+  ],
+  "keywords": [
+    "design system",
+    "react",
+    "react component",
+    "component library",
+    "stylex",
+    "design token",
+    "theme",
+    "dark mode",
+    "page template",
+    "agent ready",
+    "ai agent",
+    "cli",
+    "mcp",
+    "dashboard",
+    "chat",
+    "data table",
+    "command palette",
+    "sidebar",
+    "navbar",
+    "modal",
+    "breadcrumbs",
+    "calendar",
+    "open source"
+  ],
+  "contains": [
+    "180+ accessible React components",
+    "289 docs pages covering components, hooks, templates and tokens",
+    "customizable themes and production-ready page templates",
+    "CLI and MCP for AI agents: @astryxdesign/cli, core package @astryxdesign/core",
+    "built on React 19+ and StyleX; powers 13,000+ Meta apps"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "npm-package",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "stylex"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://astryx.atmeta.com/docs/getting-started",
+    "npm": "@astryxdesign/core",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

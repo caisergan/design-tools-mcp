@@ -1,0 +1,31 @@
+{
+  "id": "tanstack-com-query-latest",
+  "url": "https://tanstack.com/query/latest",
+  "kind": "page",
+  "hints_hash": "74d49cf97abd8256",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tanstack.com/query/latest", "title": "TanStack Query", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TanStack Query",
+  "summary": "Product page for TanStack Query, the library that gives async server state a cache, a lifecycle and declarative fetch/mutate APIs.",
+  "description": "The landing page for TanStack Query: components declare the data they need while the cache coordinates fetches, subscribers, freshness, retries and background updates, with garbage collection after the last observer leaves. Mutations cover optimistic UI, pending state, recovery, invalidation and reconciliation. Numbers shown on the page: 2.7B total downloads, 88,167,680 weekly downloads and 50,414 GitHub stars; part of the wider TanStack suite (Router, DB, Store, AI, Table …); works with React, Vue, Solid, Svelte, Angular and Lit.",
+  "keywords": ["server state", "asynchronous state", "data fetching", "caching", "react query", "mutation", "optimistic ui", "background refetch", "query cache", "typescript", "javascript", "react", "vue", "solid", "svelte", "angular", "lit", "state management"],
+  "contains": [
+    "caching, request deduplication, retries, background refetching, window-focus updates and garbage collection",
+    "cache lifecycle: fetch, share, revalidate, collect",
+    "mutations with optimistic UI, pending state, rollback, invalidation and reconciliation",
+    "stats shown: 2.7B total downloads, 88,167,680 weekly downloads, 50,414 GitHub stars",
+    "framework adapters: React, Vue, Solid, Svelte, Angular, Lit",
+    "part of the TanStack suite: Start, Router, DB, Store, AI, Table, Charts, Form, Virtual and more"
+  ],
+  "formats": ["docs"],
+  "stack": ["typescript", "javascript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

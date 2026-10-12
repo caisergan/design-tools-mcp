@@ -1,0 +1,27 @@
+{
+ "id": "github-com-jakejarvis-cn",
+ "url": "https://github.com/jakejarvis/_cn",
+ "kind": "repo",
+ "hints_hash": "c275283feaeb5313",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:11:07Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://github.com/jakejarvis/_cn/blob/HEAD/README.md", "title": "_cn", "status": 200}
+ ],
+ "status": "ok",
+ "name": "_cn",
+ "summary": "Minimal TanStack Start starter for publishing a shadcn-compatible component registry with docs and previews.",
+ "description": "An intentionally minimal TanStack Start + Vite+ starter template for publishing a shadcn-compatible registry without writing the docs site or registry plumbing: typed registry authoring, MDX docs under /docs, live preview pages with syntax-highlighted source, schema validation against shadcn's schemas, and server routes that serve the registry index and item JSON with dynamic search. Also generates llms.txt and llms-full.txt and supports markdown content negotiation for AI clients.",
+ "type": "template",
+ "categories": ["templates", "registries"],
+ "elements": [],
+ "keywords": ["shadcn registry", "registry template", "tanstack start", "vite", "react", "typescript", "component registry", "documentation site", "mdx docs", "live preview", "registry item", "install command", "cli", "agent skill", "llms.txt", "content negotiation", "starter template", "nitro", "schema validation", "deploy", "vercel"],
+ "contains": ["typed registry authoring under registry/ with registry/config.ts", "docs pages from MDX under /docs", "live preview plus syntax-highlighted source for every registry item", "registry index JSON at /registry.json and /r paths with dynamic search (q, type, limit, offset)", "generates /llms.txt and /llms-full.txt and serves markdown to AI clients", "scripts to scaffold items (new.ts) and validate metadata (doctor.ts)", "installable agent skill for registry authoring", "deploys to Vercel as a platform-agnostic Nitro server"],
+ "formats": ["code", "registry", "docs", "templates"],
+ "stack": ["react", "tanstack-start", "typescript", "vite", "nitro"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/jakejarvis/_cn", "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

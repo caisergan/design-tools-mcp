@@ -1,0 +1,111 @@
+{
+  "id": "vibecodecomponents-com",
+  "url": "https://vibecodecomponents.com",
+  "kind": "site",
+  "hints_hash": "c4a40a1cd5c5e6ee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:59:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vibecodecomponents.com",
+      "title": "VCI Components - Premium UI Prompts for Vibe Coding | React Components",
+      "status": null
+    },
+    {
+      "url": "https://vibecodecomponents.com/components",
+      "title": "VCI Components - Premium UI Prompts for Vibe Coding | React Components",
+      "status": 200
+    },
+    {
+      "url": "https://vibecodecomponents.com/pricing",
+      "title": "VCI Components - Premium UI Prompts for Vibe Coding | React Components",
+      "status": 200
+    },
+    {
+      "url": "https://vibecodecomponents.com/sitemap.xml",
+      "title": "Sitemap",
+      "status": 200
+    },
+    {
+      "url": "https://vibecodecomponents.com/micro-interactions",
+      "title": "VCI Components - Premium UI Prompts for Vibe Coding | React Components",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "VCI Components",
+  "summary": "200+ copy-paste UI component prompts for AI vibe coding, organised by component type and by kit (SaaS, ecommerce, dashboard and more).",
+  "description": "A library of 200+ UI component prompts to paste into AI coding tools such as Lovable, Cursor and Bolt. Docs are organised into groups such as micro-interactions, form components, navigation components, hero components, CTA components, storytelling components, CSS animations, content components, mobile optimisation, and kits (conversion, SaaS, AI, ecommerce, dashboard, onboarding). Individual items include voice typing, context menu, comparison table, segmented control, animated CTA buttons and text scramble.",
+  "type": "agent-skill",
+  "categories": [
+    "components",
+    "sections",
+    "motion"
+  ],
+  "elements": [
+    "card",
+    "text-effect",
+    "scroll-effect",
+    "hero",
+    "button",
+    "form",
+    "checkbox",
+    "navbar",
+    "loader",
+    "tabs",
+    "select",
+    "timeline"
+  ],
+  "keywords": [
+    "ui prompt",
+    "ai prompt",
+    "prompt pack",
+    "vibe coding",
+    "react component",
+    "copy paste",
+    "component library",
+    "micro interaction",
+    "css animation",
+    "text effect",
+    "scroll animation",
+    "hero section",
+    "cta",
+    "form",
+    "dashboard kit",
+    "ecommerce kit",
+    "saas kit",
+    "onboarding",
+    "lovable",
+    "cursor",
+    "bolt"
+  ],
+  "contains": [
+    "200+ copy-paste UI component prompts",
+    "183 docs pages",
+    "component groups: micro-interactions, form, navigation, hero, CTA, storytelling, CSS animations",
+    "kits: conversion, SaaS, AI, ecommerce, dashboard, onboarding",
+    "prompt counts per element: 9 card, 7 text-effect, 7 scroll-effect, 7 hero, 6 button, 6 form"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

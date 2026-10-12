@@ -1,0 +1,31 @@
+{
+  "id": "ascii-magic-com-landing",
+  "url": "https://ascii-magic.com/landing",
+  "kind": "page",
+  "hints_hash": "8f52cc245babe1f3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ascii-magic.com/landing", "title": "Free ASCII Art Generator, Image & Video to ASCII | ASCII Magic", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ASCII Magic",
+  "summary": "Browser-based ASCII art generator that turns photos and videos into ASCII, pixel, voxel and 100+ other styles.",
+  "description": "A free, no-signup studio for turning images and videos into ASCII art and other effects entirely in the browser: 100+ art styles, 20 one-click recipes, post-processing (glitch, bloom, CRT, scanlines, halftone, vignette) and 171 AI generative presets. An MCP server lets agents run the same render pipeline, with export up to 4K resolution.",
+  "type": "generator",
+  "elements": [],
+  "keywords": ["ascii art", "ascii art generator", "image to ascii", "video to ascii", "text to ascii", "pixel art", "halftone", "dither", "glitch", "retro", "mcp server", "browser tool", "generative ai", "post processing"],
+  "contains": [
+    "100+ art styles: ASCII, pixel, voxel, mosaic, halftone, glitch, LEGO, oil paint",
+    "20 one-click recipes with parameters pre-set",
+    "171 AI generative presets steered by prompt, strength and resolution",
+    "Post-processing effects: glitch, bloom, CRT curvature, scanlines, halftone, vignette, film grain",
+    "MCP server for agents: ASCII text or rendered image per tool call, export up to 4K",
+    "Free, no signup, renders in the browser"
+  ],
+  "formats": ["app"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "pricing": "free",
+  "confidence": 0.85
+}

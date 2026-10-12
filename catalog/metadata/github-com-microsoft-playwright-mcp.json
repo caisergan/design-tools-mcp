@@ -1,0 +1,76 @@
+{
+  "id": "github-com-microsoft-playwright-mcp",
+  "url": "https://github.com/microsoft/playwright-mcp",
+  "kind": "repo",
+  "hints_hash": "9d0b8344a218156b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/microsoft/playwright-mcp/blob/HEAD/README.md",
+      "title": "For VS Code",
+      "status": null
+    },
+    {
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "title": "GitHub - microsoft/playwright-mcp: Playwright MCP server · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Playwright MCP",
+  "summary": "MCP server that lets LLM agents drive a real browser through Playwright accessibility snapshots instead of screenshots.",
+  "description": "A Model Context Protocol server for browser automation with Playwright. Agents interact with pages through structured accessibility snapshots rather than screenshots, so no vision model is needed. 45+ configuration flags cover browser choice, device emulation, profiles, proxies, permissions, timeouts and snapshot detail, and it installs into VS Code, Cursor, Claude Code, Codex, Copilot and other MCP clients.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "mcp",
+    "mcp server",
+    "model context protocol",
+    "browser automation",
+    "playwright",
+    "accessibility tree",
+    "browser agent",
+    "web testing",
+    "end-to-end testing",
+    "llm agent",
+    "headless browser",
+    "device emulation",
+    "claude code",
+    "cursor",
+    "copilot"
+  ],
+  "contains": [
+    "MCP server exposing Playwright browser automation tools",
+    "structured accessibility snapshots instead of screenshots",
+    "45+ CLI flags for browser, device, proxy, profile, permission and timeout settings",
+    "works with VS Code, Cursor, Claude Code, Codex, Copilot, Gemini CLI, Windsurf and more",
+    "single-command install via npx @playwright/mcp"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "node"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/microsoft/playwright-mcp",
+    "docs": null,
+    "npm": "@playwright/mcp",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

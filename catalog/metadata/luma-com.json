@@ -1,0 +1,73 @@
+{
+  "id": "luma-com",
+  "url": "https://luma.com",
+  "kind": "site",
+  "hints_hash": "8d2148b564d82fde",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://luma.com",
+      "title": "Luma",
+      "status": 200
+    },
+    {
+      "url": "https://luma.com/pricing",
+      "title": "Pricing · Luma",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Luma",
+  "summary": "Event platform for creating, hosting and discovering events: invites, ticketing, reminders, check-in and public discovery.",
+  "description": "Luma is a hosted event platform: create an event or calendar, send invites and automated reminders by email, SMS, push notification or WhatsApp, sell tickets with cards, Apple Pay, Google Pay and regional methods, check guests in, and publish events to a discovery feed and mobile app. The free plan has unlimited events and guests with a 5% platform fee on paid events; Luma Plus ($59/month billed annually) drops the fee to 0%, raises sends to 5,000/week and adds taxes, custom URLs, Zapier and API access.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "event platform",
+    "event registration",
+    "ticketing",
+    "rsvp",
+    "invite",
+    "event calendar",
+    "check in",
+    "event management",
+    "sell ticket",
+    "community event",
+    "meetup",
+    "reminder",
+    "discover event",
+    "newsletter"
+  ],
+  "contains": [
+    "free plan: unlimited events and guests, 5% platform fee for paid events",
+    "Luma Plus: $59/month billed annually, 0% platform fee, 5,000 sends/week, taxes, Zapier, API access",
+    "invites and reminders by email, SMS, push notification and WhatsApp",
+    "ticketing: cards, Apple Pay, Google Pay, iDEAL, Konbini, PayNow; ticket types, group purchasing, coupons",
+    "check-in, cohosts, calendar admins, approval or token gating, CSV import/export, Zoom integration",
+    "add-on sends: 10,000 for $50/mo up to 100,000 for $800/mo",
+    "enterprise plan on request"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

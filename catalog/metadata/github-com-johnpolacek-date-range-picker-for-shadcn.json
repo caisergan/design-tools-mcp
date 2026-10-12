@@ -1,0 +1,84 @@
+{
+  "id": "github-com-johnpolacek-date-range-picker-for-shadcn",
+  "url": "https://github.com/johnpolacek/date-range-picker-for-shadcn",
+  "kind": "repo",
+  "hints_hash": "3fb403e4a545eaf6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/johnpolacek/date-range-picker-for-shadcn/blob/HEAD/README.md",
+      "title": "DateRangePicker Component",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/johnpolacek/date-range-picker-for-shadcn",
+      "title": "GitHub - johnpolacek/date-range-picker-for-shadcn: DateRangePicker is a reusable component for shadcn using Radix UI and Tailwind CSS. Includes preset date ranges, text entry, calendar selection and…",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/johnpolacek/date-range-picker-for-shadcn/blob/HEAD/LICENSE",
+      "title": null,
+      "status": 404
+    }
+  ],
+  "status": "ok",
+  "name": "DateRangePicker",
+  "summary": "Shadcn date range picker with preset ranges, text entry, calendar selection and date comparison.",
+  "description": "A reusable date range picker for shadcn/ui built with Radix UI and Tailwind CSS. A dropdown popover holds a multi-month calendar, preset ranges and text date entry, plus an optional compare date range; props cover locale, popover alignment, initial dates and showCompare.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "date-picker",
+    "calendar",
+    "popover",
+    "button",
+    "switch",
+    "input"
+  ],
+  "keywords": [
+    "date range picker",
+    "date picker",
+    "calendar",
+    "range selection",
+    "preset range",
+    "compare date",
+    "shadcn",
+    "radix",
+    "tailwind",
+    "react",
+    "popover",
+    "date input"
+  ],
+  "contains": [
+    "dropdown popover with calendar selection",
+    "preset date ranges and text date entry",
+    "optional date range comparison toggle",
+    "props: locale, align, initial dates, showCompare"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/johnpolacek/date-range-picker-for-shadcn",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

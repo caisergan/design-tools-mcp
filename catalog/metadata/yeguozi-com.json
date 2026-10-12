@@ -1,0 +1,30 @@
+{
+  "id": "yeguozi-com",
+  "url": "https://yeguozi.com",
+  "kind": "site",
+  "hints_hash": "ba8d37905ab485a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://yeguozi.com/llms.txt", "title": "Yeguozi (野果子)", "status": null},
+    {"url": "https://yeguozi.com", "title": "Yeguozi · Film stills for home color & décor", "status": 200},
+    {"url": "https://www.yeguozi.com/collections/rohmer", "title": "The Rohmer Way of Living · Yeguozi", "status": 200},
+    {"url": "https://www.yeguozi.com/about", "title": "About Yeguozi: film stills for home color inspiration · Yeguozi", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Yeguozi",
+  "summary": "Curated film stills for home color and interiors, browsable by color, space, object, director and collection.",
+  "description": "A personal editorial project collecting film stills that are strong in color, light, space and home. Films are grouped into colors, interior spaces, furnishings and photographic-aesthetics sections, with palette summaries, space/object tags and frame notes; curated collections such as The Rohmer Way (9 films, 515 stills) group them by mood. Published in Chinese, English and Japanese.",
+  "type": "gallery",
+  "categories": ["color-effects", "media"],
+  "elements": [],
+  "keywords": ["film still", "color palette", "movie color", "cinematic reference", "interior design", "home decor", "mood board", "color inspiration", "film frame", "cinematography", "lighting reference", "space reference", "screenshot"],
+  "contains": ["1,071 URLs in the sitemap", "browse by color (red, green, blue), space (living room, bedroom, kitchen), object, photography", "collections such as The Rohmer Way: 9 films, 515 stills", "director and cinematographer indexes with film counts (Wes Anderson 4, Éric Rohmer 10, Pedro Almodóvar 5)", "film pages carry bilingual titles, palette summaries and frame notes", "Chinese, English and Japanese versions"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

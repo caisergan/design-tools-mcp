@@ -1,0 +1,21 @@
+{
+  "id": "chat-b-ai-leaderboard",
+  "url": "https://chat.b.ai/leaderboard",
+  "kind": "page",
+  "hints_hash": "380e5c7a1ee906f4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://chat.b.ai/leaderboard", "title": "BAI", "status": null},
+    {"url": "https://chat.b.ai/", "title": "BAI", "status": 200},
+    {"url": "https://b.ai/", "title": "BAI", "status": 200}
+  ],
+  "status": "partial",
+  "name": "BAI Leaderboard",
+  "summary": "Leaderboard page on chat.b.ai, the chat front end of the B.AI AI-model platform.",
+  "description": "The leaderboard route of chat.b.ai, the chat front end of B.AI, whose meta description describes anonymous access to top AI models through a borderless payment system plus a unified API and settlement network. The page is rendered client-side, so its ranking content was not readable.",
+  "keywords": ["ai leaderboard", "ai model ranking", "ai chat", "llm", "api", "settlement network", "ai agent", "payment", "model comparison", "chat platform"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

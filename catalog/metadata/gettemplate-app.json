@@ -1,0 +1,32 @@
+{
+  "id": "gettemplate-app",
+  "url": "https://gettemplate.app",
+  "kind": "site",
+  "hints_hash": "e6c9e5cf3d5e95f1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:25:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gettemplate.app/llms.txt", "title": "GetTemplate", "status": null},
+    {"url": "https://gettemplate.app", "title": "gettemplate - React & Next.js Templates", "status": null},
+    {"url": "https://gettemplate.app/docs", "title": "Introduction - gettemplate Docs", "status": null},
+    {"url": "https://gettemplate.app/widgets", "title": "React Widgets - 100+ Animated Widget Components | GetTemplate", "status": null},
+    {"url": "https://gettemplate.app/pricing", "title": "Upgrade to PRO - gettemplate", "status": null},
+    {"url": "https://gettemplate.app/templates", "title": "Free React & Next.js Templates Library | GetTemplate", "status": null}
+  ],
+  "status": "ok",
+  "name": "GetTemplate",
+  "summary": "React and Next.js template library with 90+ free page templates, 100+ forms and 100+ animated widgets.",
+  "description": "A developer library of production-ready React and Next.js code: landing pages, portfolios, payment and onboarding flows, CRM and SaaS UIs, forms and animated widgets, each with a live preview and copy-paste Tailwind source. Premium full-stack starterkits add authentication, payments and admin dashboards.",
+  "type": "template",
+  "categories": ["templates", "components"],
+  "elements": ["form", "hero", "table", "file-upload", "pricing", "team", "dashboard", "otp-input", "alert", "carousel", "input", "prompt-input"],
+  "keywords": ["react template", "nextjs template", "tailwind css", "landing page template", "portfolio template", "crm template", "saas boilerplate", "admin dashboard", "react form", "animated widget", "framer motion", "gsap", "copy paste", "free template", "gradient generator", "payment page", "onboarding", "ecommerce template"],
+  "contains": ["90+ free page templates", "100+ form components", "100+ animated widgets", "10+ premium full-stack starterkits (auth, payments, admin)", "PRO plan at $79 lifetime for 81+ templates", "free gradient generator and icon animator tools", "live preview and copyable Tailwind CSS source"],
+  "formats": ["code", "templates", "docs", "png"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion", "gsap"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://gettemplate.app/docs/introduction", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,41 @@
+{
+  "id": "shadcndashboard-dev",
+  "url": "https://shadcndashboard.dev",
+  "kind": "site",
+  "hints_hash": "f261435af2f415cc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcndashboard.dev/llms.txt", "title": "Shadcn Dashboard", "status": null},
+    {"url": "https://shadcndashboard.dev", "title": "Shadcn Dashboard, UI Blocks and Components for React, Next.js & Tailwind CSS", "status": null},
+    {"url": "https://shadcndashboard.dev/docs", "title": "Shadcn Dashboard Documentation", "status": null},
+    {"url": "https://shadcndashboard.dev/components", "title": "Shadcn UI Components Library for React, Next.js & Tailwind CSS | Base UI", "status": null},
+    {"url": "https://shadcndashboard.dev/pricing", "title": "Pricing | Shadcn Dashboard, UI Blocks & Components", "status": null},
+    {"url": "https://shadcndashboard.dev/license", "title": "License Agreement - Shadcn Dashboard", "status": null}
+  ],
+  "status": "ok",
+  "name": "Shadcn Dashboard",
+  "summary": "Free and paid shadcn dashboard kit with 200+ blocks and 400+ components, admin templates and AI prompts for React and Next.js.",
+  "description": "A shadcn-format registry of dashboard UI for React, Next.js and Base UI: 204+ blocks — dashboard shell, datatable, chart, card, chat and notes applications — and 400+ components styled with Tailwind CSS and TypeScript, plus a Next.js admin template, a TanStack Start template and a Supabase boilerplate. Items install with the shadcn CLI or by copy-paste, with an MCP server and AI Dashboard Builder wired to pre-built prompts; a free tier plus one-time Pro, Teams and Enterprise licenses.",
+  "type": "registry",
+  "categories": ["components", "registries", "templates"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "card", "chart", "chat", "checkbox", "dashboard", "date-picker", "dropdown", "file-upload", "form", "input", "list", "loader", "modal", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "text-effect", "toast", "tooltip"],
+  "keywords": ["shadcn", "shadcn ui", "dashboard", "admin dashboard", "dashboard kit", "ui block", "component library", "react", "nextjs", "tailwind css", "base ui", "typescript", "supabase", "tanstack start", "figma kit", "template", "copy paste", "shadcn cli", "mcp server", "ai prompt", "dark mode", "chart", "datatable", "rtl"],
+  "contains": [
+    "204+ blocks and 400+ components; 508 shadcn registry items",
+    "dashboard blocks: dashboard shell, datatable, chart, card, chat, notes",
+    "Next.js admin template; TanStack Start and Supabase boilerplate versions",
+    "built on Base UI primitives with Tailwind CSS and TypeScript",
+    "shadcn CLI install, copy-paste, MCP server and AI Dashboard Builder",
+    "pre-built AI prompts and agent skills for coding tools",
+    "free tier; Pro $75, Teams $249, Enterprise $499 one-time licenses",
+    "49 documentation pages covering theming, auth, SWR, i18n and CLI"
+  ],
+  "formats": ["code", "registry", "cli", "templates", "prompts", "docs", "figma-file"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "base-ui", "shadcn", "tanstack", "supabase", "vite", "swr"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://shadcndashboard.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

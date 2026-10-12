@@ -1,0 +1,91 @@
+{
+  "id": "lovable-dev",
+  "url": "https://lovable.dev",
+  "kind": "site",
+  "hints_hash": "d93d26860deb74f5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://lovable.dev/llms.txt",
+      "title": "Lovable",
+      "status": null
+    },
+    {
+      "url": "https://lovable.dev",
+      "title": "App & Website Builder | Build Software in Minutes | Lovable",
+      "status": 200
+    },
+    {
+      "url": "https://lovable.dev/pricing",
+      "title": "Lovable Pricing",
+      "status": 200
+    },
+    {
+      "url": "https://lovable.dev/templates",
+      "title": "Website Templates for AI-Powered Apps and Sites | Lovable",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Lovable",
+  "summary": "AI platform that builds web and mobile apps, websites and internal tools from natural-language prompts.",
+  "description": "Lovable is an AI-powered builder: describe a product in plain language and it builds production-grade web and mobile apps, websites and internal tools in real time. Lovable Cloud supplies the backend, database and hosting, with authentication, payments in 200+ countries, Supabase and Shopify integrations, plus an MCP server for AI tools. Template libraries cover apps and websites by category, and guides walk through use cases.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools",
+    "templates"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai app builder",
+    "website builder",
+    "prompt to app",
+    "no-code",
+    "internal tool",
+    "full-stack",
+    "prototyping",
+    "app template",
+    "website template",
+    "hosting",
+    "authentication",
+    "payment",
+    "supabase",
+    "shopify",
+    "mcp",
+    "landing page",
+    "startup",
+    "enterprise"
+  ],
+  "contains": [
+    "builds web and mobile apps, websites and internal tools from natural-language prompts",
+    "template library by category: apps and websites",
+    "Lovable Cloud: built-in backend, database and hosting",
+    "integrations: Supabase, Shopify; payments in 200+ countries and territories",
+    "MCP server and remote MCP endpoint for AI tools and agents",
+    "security: automatic scans and audit logs",
+    "guides: app teardowns, comparisons, use cases, inspiration, how-to",
+    "works on web, desktop and mobile"
+  ],
+  "formats": [
+    "app",
+    "templates",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

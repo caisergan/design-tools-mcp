@@ -1,0 +1,28 @@
+{
+  "id": "simpleicons-org",
+  "url": "https://simpleicons.org",
+  "kind": "site",
+  "hints_hash": "b403e8e01f6995d8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/simple-icons/simple-icons/blob/develop/README.md", "title": "simple-icons/README.md at develop · simple-icons/simple-icons", "status": 200},
+    {"url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md", "title": "simple-icons/LICENSE.md at develop · simple-icons/simple-icons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Simple Icons",
+  "summary": "3,400+ free brand SVG icons with a CDN, npm/PHP packages and an icon font, licensed CC0.",
+  "description": "Over 3,400 SVG icons for popular brands, downloadable one by one from the site or served from a CDN that supports icon colors and dark mode. Packages exist for Node with TypeScript types, PHP and a font distribution, plus third-party extensions for Figma, Blender, Raycast, Stream Deck, Webflow and more. Released under CC0 1.0.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["brand icon", "svg logo", "brand logo", "icon font", "npm icon package", "cdn icon", "free svg icon", "svg icon set", "logo download", "developer icon", "typescript icon package", "php icon package"],
+  "contains": ["3,400+ SVG icons for popular brands", "per-icon SVG download from the site", "CDN service with color and dark-mode parameters", "npm package with TypeScript types and a PHP package", "icon font distribution", "third-party extensions: Figma plugin, Blender add-on, Raycast, Stream Deck, Webflow app", "CC0 1.0 licensed"],
+  "formats": ["svg", "npm-package", "font-files", "code"],
+  "stack": ["javascript", "typescript", "php"],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": "https://github.com/simple-icons/simple-icons", "docs": null, "npm": "simple-icons", "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,29 @@
+{
+  "id": "contentarchitecture-dev",
+  "url": "https://contentarchitecture.dev",
+  "kind": "site",
+  "hints_hash": "57d77b2c1cb0f0c3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://contentarchitecture.dev/llms.txt", "title": "The Content Architecture", "status": null},
+    {"url": "https://contentarchitecture.dev", "title": "Agent-Ready Sanity Kit for Next.js & Astro | The Content Architecture", "status": 200},
+    {"url": "https://contentarchitecture.dev/legal/terms-of-service", "title": "Terms of Service & License | The Content Architecture", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The Content Architecture",
+  "summary": "Paid agent-ready Sanity kit for Next.js and Astro with page builder, fetch layer, skills and MCP servers.",
+  "description": "Buy-once source-code kit (€549 per edition) that ships a Sanity v6 + Next.js 16 or Astro 7 architecture: schema as a system, typed link/media/page-builder fields, a fetch layer with revalidation webhooks and draft mode, SEO, redirects, forms and basic auth. Includes AGENTS.md with a dozen scoped skills, two MCP servers, an editable llms.txt and Markdown twins of every page; TypeScript strict and Tailwind 4, deploys on Vercel.",
+  "type": "template",
+  "categories": ["templates", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["sanity", "nextjs", "astro", "cms", "boilerplate", "starter kit", "page builder", "agent-ready", "llms.txt", "mcp server", "agents.md", "draft mode", "seo", "content architecture", "typescript", "tailwind"],
+  "contains": ["€549 one-time per edition: Next.js 16 + Sanity v6, or Astro 7 + Sanity v6", "page builder with guardrails, typed link and media fields (image, Mux, Rive, Lottie)", "fetch layer with CDN bypass, Data Cache, webhooks and draft mode", "AGENTS.md plus a dozen scoped skills and two MCP servers", "editable llms.txt and token-light Markdown twin of every page", "SEO, redirects, forms, basic auth and an interactive setup script", "TypeScript strict, Tailwind 4, Biome; deploys on Vercel"],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "astro", "react", "sanity", "typescript", "tailwind"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

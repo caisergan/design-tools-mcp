@@ -1,0 +1,40 @@
+{
+  "id": "localmode-ai",
+  "url": "https://localmode.ai",
+  "kind": "site",
+  "hints_hash": "d97a5cb53239743a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:34:35Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://localmode.ai/llms.txt", "title": "LocalMode UI", "status": null},
+    {"url": "https://localmode.ai", "title": "LocalMode UI - Local-First AI Components", "status": 200},
+    {"url": "https://localmode.ai/docs", "title": "Introduction", "status": 200},
+    {"url": "https://localmode.ai/blocks", "title": "Blocks - LocalMode UI", "status": 200},
+    {"url": "https://localmode.ai/docs/mcp", "title": "Use with an AI agent (MCP)", "status": 200},
+    {"url": "https://github.com/LocalMode-AI/LocalMode", "title": "GitHub - LocalMode-AI/LocalMode: Local-first AI toolkit for the modern web", "status": 200},
+    {"url": "https://raw.githubusercontent.com/LocalMode-AI/LocalMode/HEAD/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "LocalMode UI",
+  "summary": "Local-first registry of 107 AI UI components and 36 blocks that run models entirely in the browser, no server or API key.",
+  "description": "A shadcn-style registry of copy-owned AI UI components for the browser: 107 primitives and 36 composed blocks across chat, knowledge and RAG, vision, audio, photo, agents and privacy (Whisper transcription, CLIP image search, model downloaders, agent step timelines ...). Components install with the shadcn CLI under the @localmode/ui namespace and render plain props, so they can also be driven by cloud data. The registry works with the shadcn MCP server so AI coding agents can browse and install items.",
+  "type": "registry",
+  "categories": ["components"],
+  "elements": ["chat", "ai-agent-ui", "prompt-input", "card", "badge", "input", "button", "list", "progress", "table", "chart", "loader"],
+  "keywords": ["ai ui", "chat ui", "local-first", "rag", "on-device ai", "shadcn", "registry", "react", "chat component", "voice transcription", "whisper", "image search", "embedding", "vector search", "ai agent", "prompt input", "privacy", "offline", "browser ai"],
+  "contains": [
+    "107 AI UI components in 12 categories: chat, knowledge and RAG, vision, audio, agents, privacy ...",
+    "36 blocks: RAG Chat, Semantic Search, Document QA, Object Detector, Voice Notes, Image Search",
+    "installs via shadcn CLI under the @localmode/ui namespace; 147 registry items",
+    "models run on-device: nothing downloads until loaded, no server and no API key",
+    "works with the shadcn MCP server so AI agents can browse and install components",
+    "MIT license"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn", "transformers.js"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/LocalMode-AI/LocalMode", "docs": "https://localmode.ai/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,37 @@
+{
+  "id": "github-com-llmquant-awesome-trading-agents",
+  "url": "https://github.com/LLMQuant/awesome-trading-agents",
+  "kind": "repo",
+  "hints_hash": "09b50f84d88f7df9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:36:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/LLMQuant/awesome-trading-agents/blob/HEAD/README.md", "title": null, "status": null},
+    {"url": "https://github.com/LLMQuant/awesome-trading-agents", "title": "GitHub - LLMQuant/awesome-trading-agents: Curated list of LLM-driven trading agents, MCP servers, and agent skills for market research, strategy, and execution.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Trading Agents",
+  "summary": "Curated list of open-source LLM trading agents, MCP servers and agent skills for market research, strategy and execution.",
+  "description": "An awesome list of open-source projects where LLMs research markets, make trading decisions or connect agents to market data and execution tooling. Entries are grouped into Agents (multi-agent systems, single-agent traders, research copilots, real-money experiments, prediction-market specialists, benchmarks, strategy coding), MCPs (market data, brokerage and exchange trading, research tools, TradingView bridge, prediction markets, backtesting) and Skills (equity research, crypto/DeFi, strategy coding, brokerage execution), plus papers and learning resources.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["trading agent", "llm", "ai agent", "awesome list", "mcp server", "agent skill", "market data", "trading", "backtesting", "prediction market", "crypto trading", "equity research", "quant", "fintech", "open source"],
+  "contains": [
+    "sections: Agents, MCPs, Skills, Resources",
+    "Agents: multi-agent systems, single-agent traders, research copilots, benchmarks",
+    "MCPs: market data, brokerage/exchange, research tools, TradingView bridge",
+    "Skills: equity research, crypto/DeFi, strategy coding, brokerage execution",
+    "Resources: papers and learn links",
+    "entry criteria: public code, LLM-driven behavior, recent activity, docs, adoption",
+    "884 stars, 140 forks; CC0-1.0 licensed",
+    "sibling lists: awesome-ai-in-finance, awesome-quant"
+  ],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC0-1.0",
+  "related": {"repo": "https://github.com/LLMQuant/awesome-trading-agents", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

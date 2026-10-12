@@ -1,0 +1,27 @@
+{
+  "id": "github-com-yosaiy-renotch",
+  "url": "https://github.com/yosaiy/renotch",
+  "kind": "repo",
+  "hints_hash": "370981388cf7a3d3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/yosaiy/renotch/blob/HEAD/README.md", "title": "Re:notch", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Re:notch",
+  "summary": "macOS app that turns the Mac notch into a developer command center: local servers, Git, Docker, media controls and Pomodoro.",
+  "description": "A native SwiftUI app that lives in the MacBook notch: it tracks dev activity (local servers, ports, Git status, Docker containers, build jobs), controls Apple Music and Spotify playback, blocks distracting sites during Pomodoro sessions, and bridges YouTube and download activity from an optional browser extension. 100% local, no telemetry.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["mac app", "macos", "notch", "swiftui", "developer tool", "docker", "git status", "local server", "pomodoro", "website blocker", "media control", "spotify", "browser extension", "open source"],
+  "contains": ["dev activity: local servers, ports, Git, Docker containers, build jobs", "Apple Music and Spotify controls with album art", "Pomodoro timer that blocks chosen websites", "browser bridge for YouTube playback and Chromium downloads", "Swift/SwiftUI, 100% local, zero telemetry", "MIT licensed"],
+  "formats": ["app", "code"],
+  "stack": ["swift", "swiftui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/yosaiy/renotch", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

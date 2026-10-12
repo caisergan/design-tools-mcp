@@ -1,0 +1,45 @@
+{
+  "id": "ui-shadcn-com-docs-components-base-navigation-menu",
+  "url": "https://ui.shadcn.com/docs/components/base/navigation-menu",
+  "kind": "page",
+  "hints_hash": "bf6bc7ba7ec36c07",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.shadcn.com/docs/components/base/navigation-menu",
+      "title": "Navigation Menu - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Navigation Menu",
+  "summary": "shadcn/ui docs page for the Navigation Menu component: links for navigating websites, with install, usage and API reference.",
+  "keywords": [
+    "navigation menu",
+    "navbar",
+    "shadcn",
+    "shadcn ui",
+    "base ui",
+    "react",
+    "dropdown menu",
+    "component docs",
+    "rtl",
+    "registry",
+    "install",
+    "navigation"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-shadcn-com"
+  },
+  "confidence": 0.85
+}

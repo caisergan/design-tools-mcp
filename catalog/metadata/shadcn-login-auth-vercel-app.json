@@ -1,0 +1,14 @@
+{
+  "id": "shadcn-login-auth-vercel-app",
+  "url": "https://shadcn-login-auth.vercel.app",
+  "kind": "site",
+  "hints_hash": "624e43f69268cbc7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn-login-auth.vercel.app/", "title": null, "status": 200}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ruben-substack-com-p-if-i-had-absolutely-no-money-id-use",
+  "url": "https://ruben.substack.com/p/if-i-had-absolutely-no-money-id-use",
+  "kind": "page",
+  "hints_hash": "cba212c546ccd4dc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/if-i-had-absolutely-no-money-id-use", "title": "If I had absolutely no money, I’d use these free AI.", "status": null}
+  ],
+  "status": "partial",
+  "name": "If I had absolutely no money, I’d use these free AI.",
+  "summary": "Post listing free AI tools in 2026 — free tiers for chat, slides, dictation, spreadsheets, video, research and coding.",
+  "description": "The author tries the free tier of hundreds of AI tools and picks one per job: ChatGPT for chat, Gamma for slides, Wispr Flow for dictation, Shortcut AI for Excel, Seedance and Google Vids for video, NotebookLM for research and Cursor for coding. Published Aug 23, 2026 as a paid post; the intro and early sections are readable before the paywall.",
+  "type": "article",
+  "keywords": ["free ai", "free ai tool", "free tier", "chatbot", "ai tool", "ai list", "ai 2026", "free alternative", "ai newsletter", "ai productivity tool", "ai model"],
+  "contains": ["free tiers compared across hundreds of AI tools", "picks by task: chat, slides, dictation, Excel, video, grammar, research, coding", "paid post, published Aug 23, 2026"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.7
+}

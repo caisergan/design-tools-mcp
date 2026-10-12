@@ -1,0 +1,26 @@
+{
+  "id": "www-armand-salle-fr-post-phone-input-shadcn-ui",
+  "url": "https://www.armand-salle.fr/post/phone-input-shadcn-ui",
+  "kind": "page",
+  "hints_hash": "5adc58a7fffc0c92",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://www.armand-salle.fr/post/phone-input-shadcn-ui", "title": "Phone input number component with Shadcn UI", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Phone input number component with Shadcn UI",
+  "summary": "Post and StackBlitz demo for building a custom phone number input with shadcn/ui and libphonenumber-js.",
+  "description": "A blog post (2024-03-08) walking through a custom phone number input component built with shadcn/ui, plus the extra packages it needs (libphonenumber-js, react-phone-number-input) and how to register the locales you want. The interactive demo lives in a StackBlitz project pinned to the article-era stack; the code is linked on GitHub.",
+  "type": "article",
+  "elements": ["input"],
+  "keywords": ["phone input", "phone number", "international phone input", "country code", "shadcn ui", "react", "libphonenumber", "react-phone-number-input", "form input", "stackblitz demo", "tutorial"],
+  "contains": ["tutorial with code, published 2024-03-08", "StackBlitz demo pinned to the article-era stack", "extra packages: libphonenumber-js, react-phone-number-input", "locale registration required"],
+  "formats": ["code", "links"],
+  "stack": ["react", "shadcn", "libphonenumber-js", "react-phone-number-input"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.8
+}

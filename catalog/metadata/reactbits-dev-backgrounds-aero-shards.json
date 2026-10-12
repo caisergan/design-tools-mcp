@@ -1,0 +1,29 @@
+{
+  "id": "reactbits-dev-backgrounds-aero-shards",
+  "url": "https://reactbits.dev/backgrounds/aero-shards",
+  "kind": "page",
+  "hints_hash": "879c986483a1ef0b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://reactbits.dev/backgrounds/aero-shards", "title": "Aero Shards — React Background | React Bits", "status": 200},
+    {"url": "https://reactbits.dev/pro", "title": "React Bits Pro - Components, Blocks, App UI & Templates", "status": 200},
+    {"url": "https://reactbits.dev/get-started/installation", "title": "Install React Bits Components | React Bits", "status": 200},
+    {"url": "https://reactbits.dev/get-started/index", "title": "Browse Free React Components | React Bits", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Aero Shards",
+  "summary": "React background component: a GPU-driven wind sculpture of folded foil shards that reacts to the pointer.",
+  "description": "An animated background component from the React Bits collection. A GPU-driven wind sculpture of folded foil shards that responds to the pointer; installs as JavaScript or TypeScript with plain CSS or Tailwind, via the shadcn or jsrepo CLI or by copying the source.",
+  "type": "component-library",
+  "elements": ["background"],
+  "keywords": ["react", "background", "animated background", "pointer interaction", "react component", "typescript", "javascript", "tailwind", "css", "shadcn", "cli", "gpu", "installable component"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "typescript", "javascript", "tailwind", "css"],
+  "contains": ["GPU-driven foil-shard background that reacts to the pointer", "install via the shadcn or jsrepo CLI, or copy the source by hand", "JavaScript or TypeScript, CSS or Tailwind", "free component; React Bits Pro adds blocks, templates and an agent kit", "related components: Shape Waves, Micro Slats, Pattern Waves"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://reactbits.dev/get-started/installation", "npm": null, "figma": null, "parent": "reactbits-dev"},
+  "confidence": 0.85
+}

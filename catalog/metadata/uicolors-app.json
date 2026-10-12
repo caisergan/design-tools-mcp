@@ -1,0 +1,36 @@
+{
+  "id": "uicolors-app",
+  "url": "https://uicolors.app",
+  "kind": "site",
+  "hints_hash": "fb0e46f6844b8217",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uicolors.app", "title": "Tailwind CSS Colors - All colors + Custom color generator", "status": null},
+    {"url": "https://uicolors.app/api", "title": "UI Colors API - Tailwind CSS Colors - All colors + Custom color generator", "status": 200},
+    {"url": "https://uicolors.app/color-palette-generator", "title": "Color Palette Generator - Tailwind CSS Colors", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UI Colors",
+  "summary": "Tailwind CSS color generator: build an 11-shade scale from one color and preview it on UI components.",
+  "description": "Create, edit, save and share Tailwind CSS color scales from a base hex or HSL color, add brand, neutral and status scales, and preview them on cards, websites, dashboards, charts, gradients and shadcn/ui components. Also offers a palette generator with color-scheme and lock modes, browsable pages for each Tailwind color, an API that returns a 50-950 scale in hex and HSL from one hexcode, and a Figma plugin.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["tailwind css", "color generator", "color palette generator", "color scale", "color shade", "design token", "hex color", "hsl", "figma plugin", "shadcn theme", "contrast check", "theme generator", "color scheme"],
+  "contains": [
+    "11-shade scales generated from one base color",
+    "color previews on cards, websites, dashboards, charts and shadcn/ui components",
+    "brand, neutral and status color scales",
+    "25 named color scales browsable",
+    "API returning a 50-950 scale in hex and HSL",
+    "21 gallery examples"
+  ],
+  "formats": ["code", "api"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

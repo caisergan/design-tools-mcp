@@ -1,0 +1,27 @@
+{
+  "id": "scale-design",
+  "url": "https://scale.design",
+  "kind": "site",
+  "hints_hash": "782d441815aece1f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://scale.design", "title": "SCALE.DESIGN", "status": null}
+  ],
+  "status": "partial",
+  "name": "SCALE.DESIGN",
+  "summary": "Studio site for scale design, a modelmaking and design & craft practice.",
+  "description": "Landing page of a studio that names modelmaking and design & craft as its work, with a contact link. The page renders with JavaScript, so the studio's projects and services could not be read.",
+  "type": "app",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["modelmaking", "model making", "design studio", "design and craft", "studio website", "craft", "portfolio", "one-page site"],
+  "contains": ["landing page listing modelmaking and design & craft as the studio's work", "contact link as the only action found", "page renders with JavaScript; about seven words of text readable"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

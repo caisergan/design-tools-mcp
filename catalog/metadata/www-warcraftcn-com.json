@@ -1,0 +1,122 @@
+{
+  "id": "www-warcraftcn-com",
+  "url": "https://www.warcraftcn.com",
+  "kind": "site",
+  "hints_hash": "40f0eaf0a1e7de86",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.warcraftcn.com/llms.txt",
+      "title": "Documentation",
+      "status": null
+    },
+    {
+      "url": "https://www.warcraftcn.com",
+      "title": "warcraftcn - Warcraft UI components",
+      "status": 200
+    },
+    {
+      "url": "https://www.warcraftcn.com/docs",
+      "title": "Introduction",
+      "status": 200
+    },
+    {
+      "url": "https://www.warcraftcn.com/docs/test",
+      "title": "Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.warcraftcn.com/docs/components",
+      "title": "Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.warcraftcn.com/llms-full.txt",
+      "title": "Introduction",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/TheOrcDev/warcraftcn-ui",
+      "title": "GitHub - TheOrcDev/warcraftcn-ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "warcraftcn",
+  "summary": "Copy-paste UI components styled after the classic Warcraft III RTS interface.",
+  "description": "An open-source component set that restyles shadcn-style UI with Warcraft III looks: parchment textures, gothic frames and faction themes on accordion, avatar, badge, button, card, checkbox, cursor, dropdown menu, input, label, pagination, radio group, skeleton, spinner, tabs, textarea, toast and tooltip components. Copy-paste ready, distributed through its shadcn registry; fan-made with no affiliation.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "badge",
+    "button",
+    "card",
+    "checkbox",
+    "cursor",
+    "dropdown",
+    "input",
+    "loader",
+    "pagination",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "warcraft ui",
+    "fantasy ui component",
+    "retro game ui",
+    "rts interface",
+    "gaming ui",
+    "shadcn registry",
+    "react component",
+    "copy paste component",
+    "button",
+    "card",
+    "tooltip",
+    "toast",
+    "avatar",
+    "dropdown menu",
+    "pixel cursor",
+    "checkbox",
+    "parchment texture",
+    "faction theme"
+  ],
+  "contains": [
+    "16 shadcn registry components",
+    "docs list: accordion, avatar, badge, button, card, checkbox, cursor, dropdown, input, pagination, tabs, toast, tooltip",
+    "Warcraft III styling: parchment textures, gothic frames, faction themes, rarity variants",
+    "copy-paste ready; works with React, Next.js and other frameworks",
+    "MIT-licensed, 778 GitHub stars, fan-made with no affiliation"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/TheOrcDev/warcraftcn-ui",
+    "docs": "https://www.warcraftcn.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,29 @@
+{
+  "id": "github-com-nyxb-ui-ui",
+  "url": "https://github.com/nyxb-ui/ui",
+  "kind": "repo",
+  "hints_hash": "d2cfa176c6cddd89",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/nyxb-ui/ui/blob/HEAD/README.md", "title": "Nyxb UI", "status": null},
+    {"url": "https://github.com/nyxb-ui/ui", "title": "GitHub - nyxb-ui/ui", "status": 200},
+    {"url": "https://nyxbui.design/docs", "title": null, "status": 0}
+  ],
+  "status": "ok",
+  "name": "Nyxb UI",
+  "summary": "Archived component library combining shadcn/ui and MagicUI: 150+ free React components with Tailwind and Framer Motion.",
+  "description": "Fusion UI (Nyxb UI) combines shadcn/ui and MagicUI into one library of 150+ free, open-source components written in React, TypeScript and Tailwind CSS, with Framer Motion powering the animated ones. The repository and the whole Nyxb UI organization were archived in May 2025 for lack of maintainers: the code stays available for reference, learning and forking, but the documentation site (nyxbui.design) no longer resolves. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["accordion", "alert", "avatar", "badge", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "dropdown", "form", "input", "modal", "popover", "progress", "select", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["shadcn", "magicui", "react", "typescript", "tailwind", "framer motion", "component library", "animated component", "ui kit", "free component", "open source", "archived"],
+  "contains": ["150+ free open-source components", "combines shadcn/ui and MagicUI", "React + TypeScript + Tailwind CSS + Framer Motion", "archived May 2025; code stays available for forking", "MIT licensed, 839 stars"],
+  "formats": ["code"],
+  "stack": ["react", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/nyxb-ui/ui", "docs": "https://nyxbui.design/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

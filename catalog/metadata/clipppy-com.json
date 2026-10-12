@@ -1,0 +1,29 @@
+{
+  "id": "clipppy-com",
+  "url": "https://clipppy.com",
+  "kind": "site",
+  "hints_hash": "a0bd5c0834c9d2b8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:18:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://clipppy.com", "title": "Visual Inspiration and Creative References — Clipppy", "status": null},
+    {"url": "https://clipppy.com/pricing", "title": "Pricing — Clipppy", "status": null},
+    {"url": "https://clipppy.com/how-it-works", "title": "Clipppy — ideas in progress", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Clipppy",
+  "summary": "Visual bookmarking app: save images, links, videos and notes as clips in collections, and browse what the community saves.",
+  "description": "A place for visual thinkers to keep what they find: images, GIFs, links, videos, PDFs, products and notes become clips, organised into collections and shareable boards that can be searched again. An explore feed shows clips saved by the community. Free plan with unlimited clips, boards and notes and 500 MB storage; Plus is $10 per month or $84 per year for 50 GB storage and unlimited guests.",
+  "type": "tool",
+  "categories": ["inspiration", "design-tools"],
+  "elements": [],
+  "keywords": ["visual bookmarking", "bookmark manager", "inspiration board", "moodboard", "save image", "save link", "image collection", "clip", "collection", "creative reference", "visual research", "reference library", "gif", "screenshot", "design inspiration", "board sharing"],
+  "contains": ["community explore feed of saved clips", "save images, GIFs, links, videos, PDFs, products and notes", "collections and shareable boards", "export everything anytime", "free plan: unlimited clips, boards and notes, 500 MB file storage", "Plus plan: $10 per month or $84 per year, 50 GB storage, unlimited guests", "personal API access", "save from browser and phone"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

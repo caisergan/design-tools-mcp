@@ -1,0 +1,35 @@
+{
+  "id": "github-com-rajput-hemant-infinitunes",
+  "url": "https://github.com/rajput-hemant/infinitunes",
+  "kind": "repo",
+  "hints_hash": "01971fe0e8032c2b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/rajput-hemant/infinitunes/blob/HEAD/README.md", "title": "[WIP] 🎵 A Simple Music Player Web App made with ▲ Next.js + Tailwind.", "status": 200},
+    {"url": "https://github.com/rajput-hemant/infinitunes", "title": "GitHub - rajput-hemant/infinitunes: 🎵 A Simple Music Player Web App", "status": 200}
+  ],
+  "status": "ok",
+  "name": "infinitunes",
+  "summary": "Open-source music streaming web app built with Next.js, Tailwind CSS and Drizzle ORM.",
+  "description": "A music player web app (work in progress) that streams from an unofficial JioSaavn API built by the same author. Next.js and Tailwind CSS on the front end, Drizzle ORM, Jotai and NextAuth (Google/GitHub sign-in) underneath; ships a Docker image, Makefile and a one-click Vercel deploy. MIT-licensed with a live demo linked from the README.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["music player", "music streaming", "music web app", "nextjs", "tailwind", "drizzle orm", "jotai", "next-auth", "docker", "vercel", "self-hosted", "open source"],
+  "contains": [
+    "streams music via an unofficial JioSaavn API maintained by the same author",
+    "Google/GitHub sign-in with NextAuth",
+    "Docker image, Makefile and one-click Vercel deploy",
+    "built with Next.js, Tailwind CSS, Drizzle ORM and Jotai",
+    "MIT licensed; live demo in the README",
+    "work in progress"
+  ],
+  "formats": ["templates", "code"],
+  "stack": ["nextjs", "tailwind", "drizzle-orm", "jotai", "next-auth", "shadcn-ui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/rajput-hemant/infinitunes", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

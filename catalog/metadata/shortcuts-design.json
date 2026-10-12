@@ -1,0 +1,34 @@
+{
+  "id": "shortcuts-design",
+  "url": "https://shortcuts.design",
+  "kind": "site",
+  "hints_hash": "8bf9676532ea355a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shortcuts.design", "title": "Shortcuts.design | Every shortcut for designers in one place 🚀", "status": 200},
+    {"url": "https://shortcuts.design/tools/toolspage-figma", "title": "Figma shortcuts | All Mac & Windows shortcuts for Figma", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shortcuts.design",
+  "summary": "Searchable reference of keyboard shortcuts for design, development, productivity and 3D tools.",
+  "description": "A shortcut reference for designers: pick a tool — Figma, Photoshop, Illustrator, Sketch, Framer, After Effects, Miro, Zeplin, Android Studio and more — and browse its Mac and Windows shortcuts, or search within a tool's list. Tools are grouped into design, development, productivity and 3D; missing shortcuts can be added via GitHub.",
+  "type": "tool",
+  "categories": ["design-tools", "learning"],
+  "elements": [],
+  "keywords": ["keyboard shortcut", "shortcut", "design shortcut", "figma shortcut", "photoshop shortcut", "illustrator shortcut", "sketch shortcut", "framer shortcut", "after effects shortcut", "mac shortcut", "windows shortcut", "cheat sheet", "design tool", "productivity", "reference"],
+  "contains": [
+    "Mac and Windows shortcut tables for 20+ design tools",
+    "tool groups: design, development, productivity, 3D",
+    "per-tool search with a missing-shortcut fallback",
+    "shortcuts can be edited or added via GitHub",
+    "sponsor-supported, with a monthly update email"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

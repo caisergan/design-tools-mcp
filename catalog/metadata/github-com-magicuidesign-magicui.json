@@ -1,0 +1,39 @@
+{
+  "id": "github-com-magicuidesign-magicui",
+  "url": "https://github.com/magicuidesign/magicui",
+  "kind": "repo",
+  "hints_hash": "d07f9a11672a8a7b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:23:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/magicuidesign/magicui/blob/HEAD/README.md", "title": "Magic UI README", "status": 200},
+    {"url": "https://magicui.design/docs/components", "title": "Components | React Components & Templates", "status": 200},
+    {"url": "https://magicui.design/llms.txt", "title": "Magic UI", "status": 200},
+    {"url": "https://magicui.design/r/registry.json", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Magic UI",
+  "summary": "Open-source React components with animated effects for landing pages, installed from a shadcn registry or copied into your app.",
+  "description": "Magic UI is a copy-paste component library for design engineers: animated and decorative React components built with Tailwind CSS and Motion - marquees, docks, globes, bento grids, beams, particles, text animations and more. The docs site serves 210 shadcn registry items with copy-paste examples, and Magic UI Pro adds paid landing page blocks and templates.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["marquee", "dock", "globe", "bento-grid", "text-effect", "background", "card", "avatar", "cursor", "map", "list", "progress", "modal"],
+  "keywords": ["react component", "animated component", "component library", "copy paste", "shadcn registry", "tailwind", "text animation", "background effect", "marquee", "dock", "globe", "bento grid", "landing page", "cursor effect", "hover effect", "motion", "animation library", "open source", "landing page component", "design engineer"],
+  "contains": [
+    "210 shadcn registry items",
+    "components: marquee, dock, globe, bento grid, beams, meteors, particles, confetti, text animations",
+    "copy-paste source or install with the shadcn CLI",
+    "built with React, Tailwind CSS and Motion",
+    "docs and examples at magicui.design",
+    "Magic UI Pro adds 50+ paid blocks and templates",
+    "free Portfolio, Changelog and Blog templates",
+    "MIT licensed"
+  ],
+  "formats": ["code", "registry", "templates"],
+  "stack": ["react", "tailwind", "framer-motion"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/magicuidesign/magicui", "docs": "https://magicui.design/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

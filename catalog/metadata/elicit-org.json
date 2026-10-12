@@ -1,0 +1,28 @@
+{
+  "id": "elicit-org",
+  "url": "https://elicit.org",
+  "kind": "site",
+  "hints_hash": "82fba1359035ef03",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://elicit.org", "title": "Elicit: AI for research & decision-making", "status": 200},
+    {"url": "https://elicit.com/pricing", "title": "Pricing | Elicit: The AI Research Assistant", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Elicit",
+  "summary": "AI research assistant that searches 138M+ academic papers and drafts cited reports, tables and reviews.",
+  "description": "Elicit searches 138 million academic papers and 545,000 clinical trials, then drafts fully cited research reports, comparison tables and systematic review screening. The free Basic plan has unlimited search; paid plans from $11/month add the Research Agent, exports, API access and collaboration. Used by researchers, clinicians, students and pharma teams.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "table"],
+  "keywords": ["research paper", "literature review", "systematic review", "academic search", "ai research assistant", "evidence synthesis", "citation", "data extraction", "research report", "clinical trial", "table extraction"],
+  "contains": ["138M+ academic papers and 545k+ clinical trials searchable", "reports and tables with sentence-level citations", "systematic review screening and data extraction", "free Basic plan; paid plans from $11/month", "API and MCP server"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

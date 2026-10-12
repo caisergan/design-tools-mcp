@@ -4,6 +4,10 @@
 // MRR is averaged over all queries — a miss scores 0. Always exits 0.
 // Queries flagged `"descriptive": true` (Phase 2B: a site described by what it is, never by its name) are scored as a
 // separate block; the headline metrics stay on the other queries, so the 2B run has a before/after of its own.
+// Brief 19: tools/eval/judged-queries.json (83 queries, a tuning and a held-out half) is scored against blind-judge grades
+// (tools/eval/judge-2026-10-12-b19.json: 0 wrong · 1 partly · 2 a good answer, per query and hit id) — recall@5 and MRR
+// count a grade-2 hit, nDCG@5 uses gain 2^grade − 1 against the best grades judged for that query. A hit nobody judged
+// scores 0 and is counted, so a ranking change that surfaces new hits says so instead of silently scoring low.
 import { spawn } from "node:child_process";
 import { createInterface } from "node:readline";
 import { readFileSync } from "node:fs";
@@ -12,6 +16,8 @@ import { FILE, ROOT, loadJSON } from "./lib.mjs";
 
 const TOP = 5;
 const QUERIES = JSON.parse(readFileSync(join(ROOT, "tools", "eval", "queries.json"), "utf8"));
+const JUDGED = JSON.parse(readFileSync(join(ROOT, "tools", "eval", "judged-queries.json"), "utf8"));
+const GRADES = new Map(JSON.parse(readFileSync(join(ROOT, "tools", "eval", "judge-2026-10-12-b19.json"), "utf8")).map((j) => [`${j.q}\t${j.id}`, j.grade]));
 const ITEMS = loadJSON(FILE.catalog).items;
 
 const normUrl = (u) => String(u).toLowerCase().replace(/\/+$/, "");
@@ -90,11 +96,34 @@ async function main() {
     }
     return out;
   };
+  const dcg = (gs) => gs.reduce((s, g, i) => s + (2 ** g - 1) / Math.log2(i + 2), 0);
+  const best = new Map();
+  for (const [k, g] of GRADES) {
+    const q = k.split("\t")[0];
+    best.set(q, [...(best.get(q) || []), g]);
+  }
+  const judged = async () => {
+    const out = { tune: [], held: [], unjudged: 0, misses: [] };
+    for (const { q, half } of JUDGED) {
+      const { result } = await rpc("tools/call", { name: "search_resources", arguments: { query: q, limit: TOP } });
+      const hits = hitsOf((result?.content || []).map((c) => c.text || "").join("\n"));
+      const gs = hits.map((h) => GRADES.get(`${q}\t${h.id}`));
+      out.unjudged += gs.filter((g) => g === undefined).length;
+      const g0 = gs.map((g) => g ?? 0);
+      const first = g0.indexOf(2);
+      const ideal = dcg([...(best.get(q) || [])].sort((a, b) => b - a).slice(0, TOP));
+      out[half].push({ r: first >= 0 ? 1 : 0, rr: first >= 0 ? 1 / (first + 1) : 0, ndcg: ideal ? dcg(g0) / ideal : 0 });
+      if (first < 0) out.misses.push({ q, hits });
+    }
+    return out;
+  };
   let main;
   let desc;
+  let jud;
   try {
     main = await score(headline);
     desc = await score(sites);
+    jud = await judged();
   } finally {
     proc.kill();
   }
@@ -117,6 +146,15 @@ async function main() {
     console.log(`\nsite descriptions (Phase 2B, "descriptive": true) — ${sites.length} queries, not in the headline`);
     console.log(`recall@${TOP}: ${(desc.found / sites.length).toFixed(3)} (${desc.found}/${sites.length}) · MRR: ${(desc.reciprocal / sites.length).toFixed(3)}`);
     if (desc.failures.length) failed(desc.failures);
+  }
+  const avg = (a, k) => (a.reduce((n, m) => n + m[k], 0) / a.length).toFixed(3);
+  console.log(`\njudged queries (brief 19, tools/eval/judged-queries.json) — ${JUDGED.length} queries, graded by a blind judge`);
+  for (const half of ["tune", "held"])
+    console.log(`${half === "tune" ? "tuning  " : "held-out"} (${jud[half].length}): recall@${TOP} ${avg(jud[half], "r")} · MRR ${avg(jud[half], "rr")} · nDCG@${TOP} ${avg(jud[half], "ndcg")}`);
+  console.log(`unjudged hits in the top ${TOP}: ${jud.unjudged}${jud.unjudged ? " (scored 0 — judge them before reading the numbers)" : ""}`);
+  if (jud.misses.length) {
+    console.log(`no good answer in the top ${TOP} (${jud.misses.length}):`);
+    failed(jud.misses);
   }
 }
 

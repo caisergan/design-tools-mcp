@@ -1,0 +1,79 @@
+{
+  "id": "github-com-jstnw10-crypto-charts",
+  "url": "https://github.com/jstnw10/crypto-charts",
+  "kind": "repo",
+  "hints_hash": "8d699e0fed965c0c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/jstnw10/crypto-charts/blob/HEAD/README.md",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://github.com/jstnw10/crypto-charts",
+      "title": "GitHub - jstnw10/crypto-charts · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://crypto-charts-pi.vercel.app",
+      "title": "shadcn/ui - recharts - pyth",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "crypto-charts",
+  "summary": "Demo of shadcn/ui charts fed with free historical crypto price data from Pyth Network.",
+  "description": "A demo app showcasing shadcn/ui chart components with free historical crypto data from Pyth — no API credentials needed. Clone the repository, install dependencies and run it locally, or open the deployed demo.",
+  "type": "template",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "chart"
+  ],
+  "keywords": [
+    "chart",
+    "crypto chart",
+    "price chart",
+    "shadcn",
+    "rechart",
+    "pyth",
+    "react",
+    "nextjs",
+    "tailwind",
+    "historical data",
+    "demo"
+  ],
+  "contains": [
+    "demo of shadcn/ui charts with Pyth crypto data",
+    "no API credentials needed",
+    "clone-and-run Next.js app",
+    "live demo at crypto-charts-pi.vercel.app"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "recharts"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/jstnw10/crypto-charts",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

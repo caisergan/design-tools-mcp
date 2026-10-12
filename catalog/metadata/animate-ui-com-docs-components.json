@@ -1,0 +1,86 @@
+{
+  "id": "animate-ui-com-docs-components",
+  "url": "https://animate-ui.com/docs/components",
+  "kind": "page",
+  "hints_hash": "d270c96e32f49c79",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://animate-ui.com/docs/components",
+      "title": "Components - Animate UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Components",
+  "summary": "Index of animated React components: Radix UI, Base UI and Headless UI ports plus buttons, backgrounds and community components.",
+  "description": "Docs index of the Animate UI component library — animated versions of Radix UI, Base UI and Headless UI primitives (accordion, dialog, dropdown menu, sidebar, tabs, tooltip, switch, progress …), eight animated buttons, seven animated backgrounds and community components such as motion carousel, radial menu and share button.",
+  "keywords": [
+    "animated component",
+    "motion component",
+    "react",
+    "tailwind",
+    "radix ui",
+    "base ui",
+    "headless ui",
+    "accordion",
+    "dialog",
+    "dropdown menu",
+    "popover",
+    "sidebar",
+    "switch",
+    "tabs",
+    "tooltip",
+    "button",
+    "background",
+    "cursor",
+    "carousel",
+    "shadcn",
+    "component library"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "background",
+    "button",
+    "card",
+    "carousel",
+    "checkbox",
+    "cursor",
+    "drawer",
+    "dropdown",
+    "modal",
+    "popover",
+    "progress",
+    "sidebar",
+    "switch",
+    "tabs",
+    "tooltip"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "base-ui",
+    "headless-ui"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "animate-ui-com"
+  },
+  "confidence": 0.8
+}

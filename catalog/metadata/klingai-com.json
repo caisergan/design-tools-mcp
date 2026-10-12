@@ -1,0 +1,32 @@
+{
+ "id": "klingai-com",
+ "url": "https://klingai.com",
+ "kind": "site",
+ "hints_hash": "d5427414172e4141",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://klingai.com/llms.txt", "title": "Kling AI", "status": null},
+  {"url": "https://klingai.com", "title": "Kling AI: Next-Gen AI Video & Image Generator", "status": 200},
+  {"url": "https://kling.ai/quickstart", "title": "Kling AI: Next-Generation AI Creative Studio", "status": 200},
+  {"url": "https://kling.ai/docs/user-policy", "title": "Kling AI: Next-Gen AI Video & Image Generator", "status": 200},
+  {"url": "https://kling.ai/docs/privacy-policy", "title": "Kling AI: Next-Gen AI Video & Image Generator", "status": 200},
+  {"url": "https://kling.ai/feature/ai-video-generator", "title": "AI Video Generator from Text and Images | Kling AI", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Kling AI",
+ "summary": "AI video and image generator: text/image to video, motion control, avatars and an agent-driven Canvas studio.",
+ "description": "Kling AI is a generative studio for video and images: turn text, images and references into clips, pictures or avatars with the Kling 4.0 video and Kling Image 3.0 models (native 4K, audio and lip-sync, multi-shot output). Its tools cover video generation, image generation and editing, motion control, avatars, restyle and sound generation, with effects templates and a Canvas workspace where an agent helps plan scripts and storyboards. Public API and iOS/Android apps extend it.",
+ "type": "generator",
+ "categories": ["media"],
+ "elements": [],
+ "keywords": ["ai video generator", "text to video", "image to video", "ai image generator", "motion control", "ai avatar", "video editing", "sound generation", "storyboard", "generative ai", "effects template", "api", "4k video"],
+ "contains": ["text/image/reference to video and image generation", "Kling 4.0 and Image 3.0 models with native 4K and audio", "motion control, AI avatars, image editing, sound generation", "Canvas workspace with an agent for scripts and storyboards", "effects templates and a creator activity zone", "developer API platform and iOS/Android apps"],
+ "formats": ["video", "png", "app", "api"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.8
+}

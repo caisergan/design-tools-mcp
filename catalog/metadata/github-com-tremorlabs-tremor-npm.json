@@ -1,0 +1,109 @@
+{
+  "id": "github-com-tremorlabs-tremor-npm",
+  "url": "https://github.com/tremorlabs/tremor-npm",
+  "kind": "repo",
+  "hints_hash": "a5123b0229bb1cd2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/tremorlabs/tremor-npm/blob/HEAD/README.md",
+      "title": "tremorlabs/tremor-npm",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/tremorlabs/tremor-npm",
+      "title": "GitHub - tremorlabs/tremor-npm: React components to build charts and dashboards",
+      "status": 200
+    },
+    {
+      "url": "https://npm.tremor.so",
+      "title": "Tremor NPM • The React UI kit to build dashboards and charts",
+      "status": 200
+    },
+    {
+      "url": "https://npm.tremor.so/components",
+      "title": "Tremor NPM • Components",
+      "status": 200
+    },
+    {
+      "url": "https://npm.tremor.so/docs/getting-started/installation",
+      "title": "Installation • Docs • Tremor NPM",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Tremor NPM",
+  "summary": "Open-source React and Tailwind component library of 20+ components for charts and dashboards.",
+  "description": "Components for data-rich interfaces: area, bar, line, scatter, donut, funnel and spark charts, bar lists, data bars, tracker and progress circle, plus UI pieces such as card, table, tabs, select, switch, date range picker, dialog, accordion and text/number inputs. Built on Tailwind CSS and Recharts; needs React 18.2+, Tailwind 3.4+ and Headless UI. Open source by Tremor Labs (now joining Vercel).",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "chart",
+    "progress",
+    "accordion",
+    "badge",
+    "button",
+    "alert",
+    "card",
+    "date-picker",
+    "modal",
+    "list",
+    "select",
+    "switch",
+    "table",
+    "tabs",
+    "input"
+  ],
+  "keywords": [
+    "chart",
+    "dashboard",
+    "react component",
+    "tailwind",
+    "data visualization",
+    "area chart",
+    "bar chart",
+    "donut chart",
+    "spark chart",
+    "table",
+    "analytics",
+    "kpi",
+    "open source"
+  ],
+  "contains": [
+    "20+ open-source components for charts and dashboards",
+    "visualizations: area, bar, line, scatter, donut, funnel and spark charts, bar list, tracker",
+    "UI: accordion, badge, button, callout, card, date picker, dialog, list, select, switch, table, tabs, inputs",
+    "built on Tailwind CSS and Recharts; React 18.2+, Tailwind 3.4+ and Headless UI",
+    "16.5k GitHub stars; Apache-2.0 license"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "recharts",
+    "typescript",
+    "headless-ui"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/tremorlabs/tremor-npm",
+    "docs": "https://npm.tremor.so/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,147 @@
+{
+  "id": "vibeprompts-dev",
+  "url": "https://vibeprompts.dev",
+  "kind": "site",
+  "hints_hash": "be377acaf08de7ae",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vibeprompts.dev",
+      "title": "VibePrompt — UI Prompt Library & Tailwind CSS Snippets",
+      "status": 200
+    },
+    {
+      "url": "https://vibeprompts.dev/pricing",
+      "title": "Pricing Page Prompts & Tailwind Pricing Tables",
+      "status": 200
+    },
+    {
+      "url": "https://vibeprompts.dev/faq",
+      "title": "FAQ Section Prompts & Tailwind Accordion Code",
+      "status": 200
+    },
+    {
+      "url": "https://vibeprompts.dev/hero",
+      "title": "Hero Section Prompts & Tailwind Hero Layouts",
+      "status": 200
+    },
+    {
+      "url": "https://vibeprompts.dev/hero/hero-centered-headline",
+      "title": "Centered headline — Tailwind hero section prompt",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "VibePrompt",
+  "summary": "Library of 286 UI section prompts with Tailwind CSS code, grouped into 15 section categories.",
+  "description": "A prompt library for building page sections with AI tools: 286 prompts in 15 categories, from auth forms, pricing tables and hero sections to FAQ, testimonials, dashboards, onboarding and blog layouts. Each entry pairs a detailed layout prompt — fixing type scale, CTA hierarchy, states and responsive behaviour — with ready-to-paste Tailwind CSS code, and item pages show the full prompt with a live preview. Prompts get pasted into Claude, Cursor, v0 or any AI coding tool.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "components"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "cta",
+    "pricing",
+    "features",
+    "stats",
+    "testimonials",
+    "faq",
+    "footer",
+    "dashboard",
+    "contact",
+    "form",
+    "otp-input",
+    "card"
+  ],
+  "variants": {
+    "navbar": [
+      "pill",
+      "floating"
+    ],
+    "hero": [
+      "centered",
+      "split",
+      "social-proof"
+    ],
+    "cta": [
+      "banner"
+    ],
+    "pricing": [
+      "single-plan",
+      "comparison-table",
+      "usage-based",
+      "enterprise"
+    ],
+    "features": [
+      "bento",
+      "alternating",
+      "tabs",
+      "carousel",
+      "list"
+    ],
+    "faq": [
+      "accordion",
+      "two-column",
+      "with-search",
+      "cards",
+      "tabbed"
+    ]
+  },
+  "keywords": [
+    "ui prompt",
+    "prompt library",
+    "tailwind css",
+    "tailwind snippet",
+    "page section",
+    "hero section",
+    "pricing table",
+    "faq section",
+    "navbar",
+    "footer",
+    "testimonials",
+    "dashboard",
+    "auth form",
+    "onboarding",
+    "landing page",
+    "vibe coding",
+    "ai coding tool",
+    "claude",
+    "cursor",
+    "copy paste",
+    "marketing site"
+  ],
+  "contains": [
+    "286 prompts in 15 categories",
+    "categories: auth forms, pricing, features/bento, hero, CTA, stats, navbar, testimonials, footer, FAQ",
+    "also: dashboards, onboarding, blog/content, contact and 29 bonus prompts",
+    "each entry gives a layout prompt plus ready-to-paste Tailwind CSS code",
+    "prompt pages show the full prompt text, design credit and a live preview",
+    "prompts spell out type scale, CTA pair, states and responsive behaviour"
+  ],
+  "formats": [
+    "prompts",
+    "code"
+  ],
+  "stack": [
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

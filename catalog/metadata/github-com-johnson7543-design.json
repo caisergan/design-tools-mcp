@@ -1,0 +1,37 @@
+{
+  "id": "github-com-johnson7543-design",
+  "url": "https://github.com/johnson7543/design",
+  "kind": "repo",
+  "hints_hash": "6cb8a1285f2b3686",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/johnson7543/design/blob/HEAD/README.md", "title": "Design", "status": null},
+    {"url": "https://raw.githubusercontent.com/johnson7543/design/HEAD/packages/designqr/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/johnson7543/design", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/johnson7543/design/HEAD/packages/designqr/package.json", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Design",
+  "summary": "React component that turns URLs into interactive 3D tree or city artwork that becomes a scannable QR code.",
+  "description": "Design is the open-source home of an app for interactive visual tools and reusable React components. DesignQR renders a draggable 3D model — four seasonal tree presets or Japanese city miniatures (Shibuya, Dōtonbori, Tokyo Tower) — that transitions into a scannable 2D QR code. React 18.2+ component with logo, details card, zoom, custom themes, PNG export, ref API and reduced-motion support.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["3d"],
+  "keywords": ["qr code", "qr generator", "react component", "three.js", "webgl", "3d", "interactive", "npm package", "typescript", "design tool", "png export", "custom theme", "logo embed", "seasonal theme"],
+  "contains": [
+    "DesignQR React component (npm designqr) for React 18.2+ and WebGL",
+    "3D tree in spring/summer/autumn/winter; city art for Shibuya, Dōtonbori, Tokyo Tower",
+    "drag to rotate, tap or Enter/Space to toggle artwork and QR views",
+    "props for logo, details card, zoom, custom themes and controlled view",
+    "PNG export, ref API, keyboard access and reduced-motion support",
+    "web tool at design.johnson7543.com; MIT licensed"
+  ],
+  "formats": ["code", "npm-package", "app"],
+  "stack": ["react", "three.js", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/johnson7543/design", "docs": "https://github.com/johnson7543/design/blob/HEAD/packages/designqr/README.md", "npm": "designqr", "figma": null, "parent": null},
+  "confidence": 0.85
+}

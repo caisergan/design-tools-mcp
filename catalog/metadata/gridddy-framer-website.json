@@ -1,0 +1,28 @@
+{
+  "id": "gridddy-framer-website",
+  "url": "https://gridddy.framer.website",
+  "kind": "site",
+  "hints_hash": "843ed66052dcf1bc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gridddy.framer.website", "title": "Gridddy", "status": null},
+    {"url": "https://gridddy.framer.website/about", "title": "Gridddy", "status": null}
+  ],
+  "status": "ok",
+  "name": "Gridddy",
+  "summary": "Curated gallery of 42 pre-footer call-to-action sections from real websites, collected for design inspiration.",
+  "description": "A side-project gallery of pre-footer CTA designs from live websites such as Charter, Cartage, Bequant, Codex, Reflect and Dovetail. Each entry is listed as a CTA example; sites can be submitted for inclusion. Built and run by Sharanya D.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["cta"],
+  "keywords": ["cta", "call to action", "pre-footer cta", "cta section", "website footer", "landing page", "design inspiration", "gallery", "section inspiration", "conversion", "web design"],
+  "contains": ["42 pre-footer CTA examples from real websites", "each example named after its source site (Charter, Codex, Reflect, Dovetail …)", "submit-a-site form", "built and maintained by Sharanya D as a side project"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

@@ -1,0 +1,27 @@
+{
+  "id": "parascope-design-resources-reicon",
+  "url": "https://parascope.design/resources/reicon",
+  "kind": "page",
+  "hints_hash": "b557b5ff3df6d377",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://parascope.design/resources/reicon", "title": "Reicon — Free Open-Source Icon Library for Designers & Developers | Parascope", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Reicon",
+  "summary": "Free MIT-licensed icon library with 2,700+ hand-drawn SVG icons on a 24×24 grid, in outline and fill styles.",
+  "description": "Reicon is a free, open-source library of more than 2,700 SVG icons, all hand-designed and reviewed on a 24×24 pixel grid rather than auto-traced. Outline and fill styles ship as packages for React, Vue and Svelte with CDN support, plus a playground for color, size and stroke width; it is dependency-free, tree-shakeable and MIT-licensed for personal and commercial use.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "keywords": ["icon library", "svg icon", "free icon", "open source icon", "react icon", "vue icon", "svelte icon", "outline icon", "filled icon", "pixel perfect icon", "icon pack", "cdn icon", "tree shaking", "vector icon", "hand drawn icon"],
+  "elements": [],
+  "contains": ["2,700+ hand-designed SVG icons on a 24×24 grid", "outline and fill styles", "packages for React, Vue and Svelte, plus CDN loading", "playground for color, size and stroke width", "MIT licensed, free for personal and commercial use", "zero dependencies, tree-shakeable", "entry in the Parascope resource directory"],
+  "formats": ["svg", "npm-package", "figma-file"],
+  "stack": ["react", "vue", "svelte"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

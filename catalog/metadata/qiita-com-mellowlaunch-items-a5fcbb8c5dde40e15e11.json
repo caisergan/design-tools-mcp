@@ -1,0 +1,62 @@
+{
+  "id": "qiita-com-mellowlaunch-items-a5fcbb8c5dde40e15e11",
+  "url": "https://qiita.com/mellowlaunch/items/a5fcbb8c5dde40e15e11",
+  "kind": "page",
+  "hints_hash": "d37a20227ecf2f87",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://qiita.com/mellowlaunch/items/a5fcbb8c5dde40e15e11",
+      "title": "MLflowとOpenTelemetryの違いとは？AI Agent Observabilityでの役割分担を整理 ##AIAgent - Qiita",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "MLflowとOpenTelemetryの違いとは？AI Agent Observabilityでの役割分担を整理",
+  "summary": "Qiita article on how MLflow and OpenTelemetry divide their roles in AI agent observability.",
+  "description": "Japanese-language article by @mellowlaunch (posted 14 September 2026) explaining the difference between MLflow and OpenTelemetry for AI agent observability: OpenTelemetry handles telemetry across the whole system, MLflow covers AI-agent-specific execution and quality, and the two are combined in practice. Adapted from the book ゼロから触ってわかった！AI Agent Observability入門.",
+  "type": "article",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "mlflow",
+    "opentelemetry",
+    "ai agent",
+    "observability",
+    "telemetry",
+    "tracing",
+    "llm monitoring",
+    "ai agent evaluation",
+    "databrick",
+    "ai observability",
+    "japanese article"
+  ],
+  "contains": [
+    "role split between MLflow and OpenTelemetry",
+    "OpenTelemetry handles system-wide telemetry",
+    "MLflow handles AI agent execution and quality",
+    "based on the book ゼロから触ってわかった！AI Agent Observability入門"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,99 @@
+{
+  "id": "spark-ui-dev-vercel-app",
+  "url": "https://spark-ui-dev.vercel.app",
+  "kind": "site",
+  "hints_hash": "920ebf77a7ab0622",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://spark-ui-dev.vercel.app",
+      "title": "Spark UI",
+      "status": null
+    },
+    {
+      "url": "https://ui.selemon.dev/content/guide/getting-started/index.html",
+      "title": "Introduction | Spark UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.selemon.dev/content/guide/getting-started/installation.html",
+      "title": "Installation | Spark UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Spark UI",
+  "summary": "Copy-paste library of animated Vue 3 components built with Tailwind CSS and @vueuse/motion; 20+ components with TypeScript support.",
+  "description": "A collection of animated components for Vue 3: a port of Magic UI (with official permission) plus components from NuxtHub and Syntax UI. Components are copied and pasted into your app rather than installed as a package, are themeable, and are built on Tailwind CSS and @vueuse/motion with TypeScript.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "background",
+    "text-effect",
+    "progress",
+    "list",
+    "tooltip",
+    "avatar",
+    "switch",
+    "bento-grid",
+    "dock",
+    "map",
+    "globe"
+  ],
+  "keywords": [
+    "vue component",
+    "animated component",
+    "copy paste component",
+    "tailwind css",
+    "vueuse motion",
+    "typescript",
+    "bento grid",
+    "dock",
+    "globe",
+    "text animation",
+    "progress bar",
+    "grid pattern",
+    "dot pattern",
+    "tooltip",
+    "avatar",
+    "dark mode toggle",
+    "magic ui port"
+  ],
+  "contains": [
+    "20+ animated Vue 3 components",
+    "copy/paste install; no package",
+    "Vue port of Magic UI with official permission; components from NuxtHub and Syntax UI",
+    "theming support",
+    "TypeScript support; built on Tailwind CSS and @vueuse/motion"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "vue",
+    "nuxt",
+    "typescript",
+    "tailwind",
+    "vueuse-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

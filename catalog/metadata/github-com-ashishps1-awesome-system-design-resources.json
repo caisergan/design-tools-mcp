@@ -1,0 +1,37 @@
+{
+  "id": "github-com-ashishps1-awesome-system-design-resources",
+  "url": "https://github.com/ashishps1/awesome-system-design-resources",
+  "kind": "repo",
+  "hints_hash": "93e101be614ee6b3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ashishps1/awesome-system-design-resources/blob/HEAD/README.md", "title": "Awesome System Design Resources", "status": 200},
+    {"url": "https://github.com/ashishps1/awesome-system-design-resources/blob/HEAD/LICENSE", "title": "awesome-system-design-resources/LICENSE · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome System Design Resources",
+  "summary": "Curated list of free system design resources and interview problems, from core concepts to distributed systems papers.",
+  "description": "A curated repository of free resources for learning system design and preparing for interviews. Concepts are organised into sections — core concepts, networking, API, database, caching, asynchronous communication, distributed systems and microservices, architectural patterns and tradeoffs — followed by system design interview problems grouped easy, medium and hard, plus courses, newsletters, books, YouTube channels, engineering articles and distributed systems papers.",
+  "type": "directory",
+  "categories": ["dev-ai-tools", "learning"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "distributed system", "microservice", "scalability", "caching", "load balancing", "database sharding", "cap theorem", "api design", "message queue", "architecture", "interview preparation", "learning resource", "free resource", "backend", "engineering paper"],
+  "contains": [
+    "free resources to learn system design concepts and prepare for interviews",
+    "sections: core concepts, networking, API, database, caching, asynchronous communication",
+    "distributed systems, microservices, architectural patterns, tradeoffs",
+    "system design interview problems grouped easy, medium, hard",
+    "courses, newsletters, books and YouTube channels",
+    "must-read engineering articles",
+    "must-read distributed systems papers (Paxos, MapReduce, GFS, Dynamo, Kafka, Spanner)",
+    "licensed GPL-3.0"
+  ],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "GPL-3.0-only",
+  "related": {"repo": "https://github.com/ashishps1/awesome-system-design-resources", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

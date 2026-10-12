@@ -1,0 +1,34 @@
+{
+ "id": "codeshots-dev",
+ "url": "https://codeshots.dev",
+ "kind": "site",
+ "hints_hash": "9b322f0d9eb6151f",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:43:05Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://codeshots.dev", "title": "CodeShots — beautiful screenshots of your code", "status": null},
+  {"url": "https://codeshots.dev/pricing", "title": "Pricing — CodeShots", "status": null}
+ ],
+ "status": "ok",
+ "name": "CodeShots",
+ "summary": "Generator that turns code snippets into shareable images and animated videos with themes, fonts and window controls.",
+ "description": "Paste a snippet and style it with syntax themes, fonts, backgrounds, window controls, shadows, line numbers, padding and corner radius, then copy, download or share it as an image or an animated video. Free forever with a default watermark; a one-time $19 unlock lets you customize watermark text, colour, position and size.",
+ "type": "generator",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["code screenshot", "code snippet", "screenshot generator", "syntax highlighting", "code image", "theme", "animated screenshot", "video export", "social media image", "open graph image", "watermark", "shareable image", "blog image"],
+ "contains": [
+  "unlimited code screenshots and every theme, font and background on the free plan",
+  "window controls, traffic lights, padding, line numbers, shadow and corner radius options",
+  "exports image, video and shareable links",
+  "custom watermark text, colour, opacity, corner and size for $19 one-time",
+  "no subscription, no recurring charges"
+ ],
+ "formats": ["app", "screenshots", "video"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

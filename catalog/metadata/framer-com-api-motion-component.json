@@ -1,0 +1,20 @@
+{
+  "id": "framer-com-api-motion-component",
+  "url": "https://framer.com/api/motion/component",
+  "kind": "page",
+  "hints_hash": "a9222578429f1e73",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/api/motion/component", "title": "Framer: AI web design tool for responsive websites", "status": 200},
+    {"url": "https://www.framer.com/developers/components-introduction", "title": "Framer Developers: Introduction", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Framer",
+  "summary": "The Framer Motion component API page; the URL now redirects to Framer's AI web design site.",
+  "description": "The URL for the Framer Motion component API now redirects to Framer's design page, which presents Framer as an AI web design tool: a freeform canvas where agents generate and refine layouts, components and interactions, then publish without code. Developer docs for code components live under /developers.",
+  "keywords": ["framer motion", "motion component", "react animation", "animation library", "web design tool", "ai website builder", "code component", "responsive website", "react"],
+  "related": {"repo": null, "docs": "https://www.framer.com/developers", "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.6
+}

@@ -1,0 +1,28 @@
+{
+  "id": "stitch-withgoogle-com",
+  "url": "https://stitch.withgoogle.com",
+  "kind": "site",
+  "hints_hash": "a74c4cf8a8aec95f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:42:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://stitch.withgoogle.com/llms.txt", "title": "Stitch with Google", "status": null},
+    {"url": "https://stitch.withgoogle.com", "title": "Stitch - Design with AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Stitch with Google",
+  "summary": "AI interface design tool that turns prompts, sketches and mood adjectives into UI, Figma files and HTML/CSS.",
+  "description": "Google's AI-powered interface design tool for generating high-fidelity UI for web and mobile apps. Users describe a vibe in adjectives, mood-based palettes or hand-drawn sketches and get editable Figma files and frontend code (HTML/CSS); layouts are refined by conversation rather than manual editing. Its llms.txt defines a 3-layer prompt framework (anatomy, vibe, content) and an agent protocol that routes design requests into the tool.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["ai design tool", "ui generator", "text to ui", "sketch to ui", "prompt to code", "html css", "figma export", "interface design", "vibe design", "vibe coding", "mood board", "wireframe", "mobile app design", "web design", "ai prototyping"],
+  "contains": ["generates UI designs for mobile and web apps from text prompts, sketches or adjectives", "outputs editable Figma files and frontend code (HTML/CSS)", "adjective-driven styling, mood-based palettes and typography hierarchies", "3-layer prompt framework: anatomy, vibe, content", "iterative refinement through conversational loops", "agent protocol for directing design requests to Stitch"],
+  "formats": ["figma-file", "code", "app", "docs"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

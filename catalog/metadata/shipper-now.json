@@ -1,0 +1,37 @@
+{
+  "id": "shipper-now",
+  "url": "https://shipper.now",
+  "kind": "site",
+  "hints_hash": "6df57f15f9348cbb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://shipper.now", "title": "Shipper.now | Build Complete Apps by Messaging AI", "status": 200 },
+    { "url": "https://shipper.now/pricing", "title": "Shipper.now Pricing Plans | Sign-up Free", "status": 200 },
+    { "url": "https://shipper.now/category/vs", "title": "Shipper.now Alternatives, Competitors & Similar Software", "status": 200 },
+    { "url": "https://shipper.now/category/reviews", "title": "Reviews of AI App Builders (Archive) | Shipper.now", "status": 200 },
+    { "url": "https://shipper.now/category/statistics", "title": "Statistics Hub for Software-Building Tools | Shipper", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Shipper.now",
+  "summary": "AI app builder that turns chat messages into live websites, mobile apps and online stores, with hosting included.",
+  "description": "An agentic app builder: type an idea and Shipper builds and launches it — web apps, iOS/Android apps, e-commerce stores, local-business sites, or a mobile app from an existing website — with hosting included. Free plan with credits; paid tiers add more credits, private projects and custom domains. The site also runs a blog of AI app builder comparisons, reviews and statistics.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai app builder", "no-code", "vibe coding", "chat to app", "website builder", "mobile app builder", "e-commerce store", "saas", "mvp", "agentic", "prompt to app", "launch", "hosting", "website to app", "app builder comparison", "ai agent"],
+  "contains": [
+    "project types: web app, mobile app, e-commerce store, local business, website-to-app, rebuild company",
+    "free plan: 5 daily credits (up to 10/month); paid tiers Standard $25 and Pro $39/user/month",
+    "hosting, connectors (Stripe, Shopify, Google, Notion) and an AI advisor",
+    "wall of love with verified user quotes",
+    "blog: comparisons vs Cursor, Lovable, Replit, Bolt, v0, Base44; reviews and statistics hubs"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

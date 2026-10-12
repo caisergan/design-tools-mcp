@@ -1,0 +1,106 @@
+{
+  "id": "github-com-arnaudvolp-shadcnship",
+  "url": "https://github.com/arnaudvolp/shadcnship",
+  "kind": "repo",
+  "hints_hash": "db37bdc4204bf517",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:44:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/arnaudvolp/shadcnship/blob/HEAD/README.md",
+      "title": "Shadcnship",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcnship",
+  "summary": "Shadcn/ui block registry with 60+ responsive landing-page and SaaS blocks for Next.js.",
+  "description": "A collection of production-ready blocks — hero, features, pricing, CTA, stats, logos, testimonials, FAQ, navbar, footer and more — built with shadcn/ui, Tailwind CSS, Next.js and TypeScript. Each block installs with the shadcn CLI and copies into your project, themed by your own shadcn tokens.",
+  "type": "registry",
+  "categories": [
+    "sections",
+    "registries"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "stats",
+    "contact",
+    "changelog",
+    "banner",
+    "form",
+    "team",
+    "background"
+  ],
+  "keywords": [
+    "shadcn",
+    "block",
+    "landing page",
+    "saas",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "navbar",
+    "footer",
+    "logo cloud",
+    "stats",
+    "call to action",
+    "contact",
+    "changelog",
+    "banner",
+    "waitlist",
+    "supabase",
+    "postgresql",
+    "registry",
+    "open source",
+    "mit"
+  ],
+  "contains": [
+    "60+ blocks across 20+ categories",
+    "feature 19, hero 6, stats 6, CTA 5, background 5, pricing 4, testimonials 4",
+    "FAQ 2, navbar 2, logo 2, contact 2, footer 1",
+    "plus auth, blog, team, integration, comparison, banner, changelog and cookie blocks",
+    "waitlist block: email capture with validation wired to Supabase/PostgreSQL",
+    "each block installs with the shadcn CLI; MIT, the code becomes yours",
+    "built with Next.js 16, TypeScript, Tailwind CSS and shadcn/ui"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "supabase",
+    "postgresql"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/arnaudvolp/shadcnship",
+    "docs": "https://shadcnship.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,30 @@
+{
+  "id": "godly-website",
+  "url": "https://godly.website",
+  "kind": "site",
+  "hints_hash": "8f4874a6c0572991",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://godly.website", "title": "Recent — Design Inspiration", "status": null},
+    {"url": "https://recent.design/skills", "title": "Design Agent Skills — Recent", "status": null},
+    {"url": "https://recent.design/websites", "title": "Web Design Inspiration — Recent", "status": 200},
+    {"url": "https://recent.design/info", "title": "Info — Recent", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Recent",
+  "summary": "Curated design feed of websites, launch videos, OG images, app screenshots, app icons, tools and agent skills.",
+  "description": "A curated feed of design work for designers, developers and anyone interested in digital product work. Sections cover websites, launch videos, OG images, app store screenshots, app icons, tools, design agent skills and a design job board, and each item links to the original. It is the successor of Godly, the website inspiration gallery, relaunched in 2026 with a broader scope.",
+  "type": "gallery",
+  "categories": ["inspiration", "design-rules"],
+  "elements": [],
+  "keywords": ["design inspiration", "website gallery", "web design", "design feed", "launch video", "og image", "app screenshot", "app icon", "design tool", "agent skill", "design skill", "design job", "ui inspiration", "web showcase", "curated gallery"],
+  "contains": ["feeds: websites, launch videos, OG images, app store screenshots, app icons, tools, skills, jobs", "13 design agent skills listed, e.g. canvas-design and web-design-guidelines", "successor of the Godly website inspiration gallery, relaunched in 2026", "started 2023 as a collection of design work posted on X"],
+  "formats": ["screenshots", "links", "video"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

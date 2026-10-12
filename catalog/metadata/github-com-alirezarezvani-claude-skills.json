@@ -1,0 +1,78 @@
+{
+  "id": "github-com-alirezarezvani-claude-skills",
+  "url": "https://github.com/alirezarezvani/claude-skills",
+  "kind": "repo",
+  "hints_hash": "317d5a1409bf1d82",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/alirezarezvani/claude-skills/blob/HEAD/README.md",
+      "title": "Claude Code Skills & Plugins README",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/HEAD/LICENSE",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Claude Code Skills & Plugins",
+  "summary": "388 Claude Code skills, plugins and agent skills for 13 AI coding tools: engineering, marketing, compliance, research, finance.",
+  "description": "A large open-source library of reusable expertise packages for Claude Code and 12 other coding tools: engineering, DevOps, product, marketing (incl. AEO), security with PreToolUse hooks, compliance, C-level advisory personas, productivity, academic research, project management, business operations and finance. Ships with persona agents, custom slash commands such as /cs:, a skill security auditor and Python analysis tools.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "claude code",
+    "coding agent",
+    "plugin",
+    "slash command",
+    "persona",
+    "engineering",
+    "devop",
+    "marketing",
+    "security",
+    "compliance",
+    "research",
+    "productivity",
+    "project management",
+    "finance"
+  ],
+  "contains": [
+    "388 skills, plugins and agent skills",
+    "works with 13 AI coding tools incl. Claude Code, OpenAI Codex, Gemini CLI and Cursor",
+    "domains: engineering, DevOps, product, marketing, security, compliance, research, finance, C-level advisory",
+    "PreToolUse security hooks and a skill security auditor",
+    "Python analysis tools",
+    "MIT license"
+  ],
+  "formats": [
+    "prompts",
+    "cli",
+    "docs",
+    "code"
+  ],
+  "stack": [
+    "python"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/alirezarezvani/claude-skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

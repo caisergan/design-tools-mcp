@@ -1,0 +1,32 @@
+{
+  "id": "descript-com",
+  "url": "https://descript.com",
+  "kind": "site",
+  "hints_hash": "4ae5a638bc516499",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://descript.com/llms.txt", "title": "Descript", "status": null},
+    {"url": "https://descript.com", "title": "Descript: AI Video & Audio Text-based Editor — Try Free", "status": 200},
+    {"url": "https://www.descript.com/templates", "title": "Free AI Video Templates - Made in Descript", "status": 200},
+    {"url": "https://www.descript.com/pricing", "title": "Descript Pricing | Plans for Every Creator, Free to Start", "status": 200},
+    {"url": "https://www.descript.com/about", "title": "About Descript | The Team Making Editing as Easy as Typing", "status": 200},
+    {"url": "https://www.descript.com/download", "title": "Download for Free | Descript", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Descript",
+  "summary": "AI video and audio editor where you edit a recording by editing its transcript.",
+  "description": "Desktop video and audio editor built on text-based editing: delete a word in the auto-transcript and it is cut from the footage. Includes the Underlord AI co-editor, transcription in 23+ languages, screen recording, captions, AI clips, avatars, Studio Sound and Eye Contact, plus Rooms for 4K remote recording; templates bundle these into guided workflows. Translation and dubbing cover 30+ languages, and a free plan leads to paid plans from $16/month.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["video editor", "audio editor", "text based editing", "transcript editing", "transcription", "podcast editing", "screen recorder", "caption", "clip generator", "ai avatar", "dubbing", "noise removal", "video template", "marketing video"],
+  "contains": ["text-based editing: edit video by editing the transcript", "20+ AI tools including captions, clips, avatars, Eye Contact and Studio Sound", "transcription in 23+ languages; translation and dubbing in 30+ languages", "desktop app for macOS 14+ and Windows 11", "free AI video templates that guide Underlord workflows", "free plan; paid plans from $16/month"],
+  "formats": ["app", "templates", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

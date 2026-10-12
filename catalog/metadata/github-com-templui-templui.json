@@ -1,0 +1,37 @@
+{
+  "id": "github-com-templui-templui",
+  "url": "https://github.com/templui/templui",
+  "kind": "repo",
+  "hints_hash": "c1d1ee9f7bcf7b00",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/templui/templui/blob/HEAD/README.md", "title": "shadcn-templ", "status": 200},
+    {"url": "https://github.com/templui/templui", "title": "GitHub - axadrn/shadcn-templ: A set of beautifully-designed, accessible components and a code distribution platform. Works with Go and templ. Open Source. Open Code. · GitHub", "status": 200},
+    {"url": "https://shadcn-templ.com/docs/components", "title": "Components - shadcn-templ", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-templ",
+  "summary": "Go and templ port of shadcn/ui: 60+ accessible components installed as copy-paste code from a shadcn-format registry and CLI.",
+  "description": "Unofficial community port of shadcn/ui for Go and templ (previously templUI), now on 2.0 beta docs. The library lists 60+ components — accordion, alert dialog, carousel, chart, command, date picker, drawer, menubar, message, navigation menu, sheet, sidebar, slider, spinner, switch, table, tabs, toast, tooltip and more — alongside blocks, charts, typeset pages and a project creator. Components install as Go/templ copy-paste code through a shadcn-format registry (83 items) and CLI.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "chat", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "empty-state", "form", "input", "loader", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["go", "golang", "templ", "shadcn", "shadcn ui", "component library", "registry", "cli", "tailwind", "copy paste", "accessible component", "ui kit", "accordion", "dialog", "dropdown", "form", "table", "tabs", "toast", "chart", "sidebar", "block", "dark mode"],
+  "contains": [
+    "60+ components from accordion and alert dialog to table, toast and tooltip",
+    "83-item shadcn-format registry (catalog measurement)",
+    "installs as copy-paste Go/templ code via the shadcn CLI",
+    "docs: introduction, components, installation, theming, CLI, typeset, registry, changelog",
+    "also ships blocks, charts, typeset and a Create project creator",
+    "2.0 beta docs; templUI v1 docs still available",
+    "MIT licensed; 1.8k GitHub stars, 102 forks"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["go", "templ", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/templui/templui", "docs": "https://shadcn-templ.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

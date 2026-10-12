@@ -1,0 +1,36 @@
+{
+  "id": "github-com-composiohq-awesome-claude-skills",
+  "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "kind": "repo",
+  "hints_hash": "02f331f0b1fe478a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/README.md", "title": "Awesome Claude Skills", "status": null},
+    {"url": "https://github.com/ComposioHQ/awesome-claude-skills", "title": "GitHub - ComposioHQ/awesome-claude-skills: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Claude Skills",
+  "summary": "Curated list of 1000+ Claude Skills, plugins and resources for Claude and other coding agents, grouped by task area.",
+  "description": "A curated directory of 1000+ Claude Skills, plugins and resources for Claude.ai, Claude Code and other coding agents (Codex, Cursor, Gemini CLI, Antigravity). Skills are grouped by task area — document processing, development and code tools, data and analysis, business and marketing, communication, creative and media, productivity, collaboration, security — and each links to its own repository. Also explains the SKILL.md format and progressive loading, and shows how to connect agents to 1000+ apps via Composio's MCP gateway.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude skill", "agent skill", "awesome list", "directory", "skill.md", "plugin", "mcp", "claude code", "codex", "cursor", "gemini cli", "document processing", "ai agent", "developer tool", "productivity", "automation"],
+  "contains": [
+    "1000+ skills, plugins and resources for Claude and other coding agents",
+    "sections: document processing, development and code, data and analysis, business and marketing",
+    "more sections: communication and writing, creative and media, productivity, collaboration, security",
+    "each skill links to its own repository",
+    "explains the SKILL.md format and progressive loading",
+    "connect-apps plugin: 1000+ app integrations via Composio MCP",
+    "creating-skills guide with a SKILL.md template"
+  ],
+  "formats": ["links", "docs", "prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/ComposioHQ/awesome-claude-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

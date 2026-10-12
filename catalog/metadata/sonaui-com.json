@@ -1,0 +1,130 @@
+{
+  "id": "sonaui-com",
+  "url": "https://sonaui.com",
+  "kind": "site",
+  "hints_hash": "e2eb50991dfdf680",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.sonaui.com/",
+      "title": "Sona UI | Animated React Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.sonaui.com/llms.txt",
+      "title": "Sona UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.sonaui.com/r/registry.json",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://www.sonaui.com/agent/catalog.json",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://www.sonaui.com/docs/installation",
+      "title": "Installation | Sona UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Sona UI",
+  "summary": "Shadcn registry of animated React components: tabs, dropdowns, dialogs, buttons, text effects and shader backgrounds.",
+  "description": "A source-owned React component library distributed as a shadcn registry: each component installs with npx shadcn@latest add @sona-ui/<name> and lives in your project as editable TypeScript. It covers animated tabs, dropdowns, dialogs, switches, checkboxes, buttons, sliders, tooltips, text effects, shader backgrounds, media and activity surfaces, plus shared sona-utils, sona-motion and sona-theme foundations and an agent skill.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "button",
+    "dropdown",
+    "checkbox",
+    "switch",
+    "modal",
+    "tabs",
+    "tooltip",
+    "slider",
+    "accordion",
+    "marquee",
+    "text-effect",
+    "cursor",
+    "avatar",
+    "card",
+    "calendar",
+    "list",
+    "background",
+    "popover",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "react",
+    "animated component",
+    "shadcn",
+    "registry",
+    "motion",
+    "micro interaction",
+    "tabs",
+    "dropdown",
+    "dialog",
+    "switch",
+    "checkbox",
+    "slider",
+    "tooltip",
+    "marquee",
+    "text animation",
+    "shader",
+    "background",
+    "cursor effect",
+    "lightbox",
+    "avatar showcase",
+    "component library",
+    "tailwind css",
+    "typescript",
+    "copy paste"
+  ],
+  "contains": [
+    "46 shadcn registry items",
+    "components install as source with npx shadcn@latest add @sona-ui/...",
+    "animated tabs, dropdown, dialog, switch, checkbox, buttons, slider, tooltip, accordion",
+    "text effects: marquee, spinning text, stagger text, split text",
+    "shader and gradient background components",
+    "shared sona-utils, sona-motion and sona-theme foundations",
+    "agent skill, manifest and JSON catalog for AI agents",
+    "MIT licensed; built for React, TypeScript and Tailwind CSS 4"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "base-ui",
+    "framer-motion",
+    "gsap"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://sonaui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

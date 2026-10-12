@@ -1,0 +1,28 @@
+{
+  "id": "github-com-chrisvfritz-hello-vue-components",
+  "url": "https://github.com/chrisvfritz/hello-vue-components",
+  "kind": "repo",
+  "hints_hash": "b4029d87bd784d43",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:34:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/chrisvfritz/hello-vue-components/blob/HEAD/README.md", "title": "Hello Vue Components", "status": 200},
+    {"url": "https://github.com/chrisvfritz/hello-vue-components", "title": "GitHub - chrisvfritz/hello-vue-components: An example component library built with Vue CLI 3. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hello Vue Components",
+  "summary": "Example Vue component library built with Vue CLI 3, showing how to publish and register components.",
+  "description": "An example component library built with Vue CLI 3, used as a reference for packaging Vue components. It documents three ways to consume the library: dropping it in with a script tag alongside Vue, installing it with npm in a module system, or importing individually packaged components to reduce application size.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": [],
+  "keywords": ["vue", "vue cli", "component library", "vue component", "npm package", "javascript", "example project", "vue plugin"],
+  "contains": ["example component library built with Vue CLI 3", "usage via script tag, npm module system, or individually packaged components", "MIT licensed; 309 stars, 41 forks"],
+  "formats": ["code", "npm-package"],
+  "stack": ["vue"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/chrisvfritz/hello-vue-components", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

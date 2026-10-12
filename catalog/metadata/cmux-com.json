@@ -1,0 +1,41 @@
+{
+  "id": "cmux-com",
+  "url": "https://cmux.com",
+  "kind": "site",
+  "hints_hash": "4f4a7aad22d8580c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cmux.com/llms.txt", "title": "cmux", "status": null},
+    {"url": "https://cmux.com", "title": "cmux - The terminal built for multitasking", "status": 200},
+    {"url": "https://cmux.com/pricing.md", "title": "Pricing", "status": 200},
+    {"url": "https://cmux.com/guides.md", "title": "Guides", "status": 200},
+    {"url": "https://github.com/manaflow-ai/cmux", "title": "GitHub - manaflow-ai/cmux: Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents", "status": 200},
+    {"url": "https://raw.githubusercontent.com/manaflow-ai/cmux/HEAD/LICENSE", "title": "cmux LICENSE (GPL-3.0-or-later)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "cmux",
+  "summary": "Native macOS terminal built on Ghostty for running and supervising AI coding agents.",
+  "description": "A native macOS terminal (Swift + AppKit, no Electron) built on libghostty, made for running many AI coding agents in parallel: vertical tabs and workspaces that show git branch, working directory and ports, notification rings when an agent needs attention, split panes and a scriptable in-app browser. Every action is available through a cmux CLI and a Unix socket API, so scripts and agents can drive the terminal itself. Free and open source with paid cloud plans.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["command-palette", "navbar", "dock", "toast", "team"],
+  "keywords": ["terminal", "macos", "ai coding agent", "coding agent", "agent workspace", "vertical tab", "split pane", "notification", "socket api", "cli", "browser automation", "session restore", "multiplexer", "multitasking", "swift"],
+  "contains": [
+    "Native macOS terminal in Swift + AppKit on libghostty, no Electron",
+    "Vertical tabs and workspaces showing git branch, PR status, working directory and listening ports",
+    "Notification rings, unread badges, a notification panel and macOS notifications (OSC 9/99/777)",
+    "Scriptable via the cmux CLI and a Unix socket API: workspaces, panes, input, screenshots, browser",
+    "In-app browser pane with a scriptable automation API",
+    "Works with Claude Code, Codex, OpenCode, Gemini CLI, Aider and any CLI tool",
+    "Free tier; Pro $40/mo, Max $160/mo, Team $60/user/mo, Enterprise custom; iOS companion in beta",
+    "GPL-3.0-or-later; 28.1k GitHub stars"
+  ],
+  "formats": ["app", "cli", "api", "docs"],
+  "stack": ["swift"],
+  "pricing": "freemium",
+  "license": "GPL-3.0-or-later",
+  "related": {"repo": "https://github.com/manaflow-ai/cmux", "docs": "https://cmux.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

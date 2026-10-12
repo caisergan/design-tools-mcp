@@ -1,0 +1,33 @@
+{
+  "id": "dev-to-somadevtoo-i-tried-30-software-design-resources-here-are-my-top-5",
+  "url": "https://dev.to/somadevtoo/i-tried-30-software-design-resources-here-are-my-top-5-recommendations-for-2026-3kbb",
+  "kind": "page",
+  "hints_hash": "b00414cc8205b974",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dev.to/somadevtoo/i-tried-30-software-design-resources-here-are-my-top-5-recommendations-for-2026-3kbb", "title": "I Tried 30+ Software Design Resources: Here Are My Top 5 Recommendations for 2026 - DEV Community", "status": 200}
+  ],
+  "status": "ok",
+  "name": "I Tried 30+ Software Design Resources: My Top 5 Recommendations for 2026",
+  "summary": "dev.to article reviewing 30+ software design courses and picking six resources for 2026 system design interviews, plus two books.",
+  "description": "A dev.to article by Soma that tested 30+ software design courses and recommends six resources for 2026 interviews — a visual-first system design platform, AI-powered practice, grokking-style courses, mock interviews and a masterclass — followed by two bonus books and an affiliate disclosure.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "software design", "software architecture", "interview preparation", "mock interview", "online course", "distributed system", "scalability", "book", "career", "programming", "learning resource"],
+  "contains": [
+    "dev.to article by Soma reviewing 30+ software design courses",
+    "picks six resources and platforms for 2026 interview prep",
+    "two bonus books: System Design Interview - An Insider's Guide and Designing Data-Intensive Applications",
+    "tags: systemdesign, softwaredesign, programming, architecture",
+    "post includes an affiliate-link disclosure"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

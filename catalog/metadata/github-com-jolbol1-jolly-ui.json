@@ -1,0 +1,108 @@
+{
+  "id": "github-com-jolbol1-jolly-ui",
+  "url": "https://github.com/jolbol1/jolly-ui",
+  "kind": "repo",
+  "hints_hash": "fccfe2d9eb6d693f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/jolbol1/jolly-ui/blob/HEAD/README.md",
+      "title": "JollyUI",
+      "status": null
+    },
+    {
+      "url": "https://jollyui.dev/docs",
+      "title": "Introduction - JollyUI",
+      "status": 200
+    },
+    {
+      "url": "https://jollyui.dev/docs/installation",
+      "title": "Installation - JollyUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "JollyUI",
+  "summary": "Copy-paste React components built on React Aria and Tailwind, made to be shadcn/ui compatible.",
+  "description": "A collection of re-usable components built with React Aria Components and Tailwind CSS, for copying into your own app; the docs stress that this is not an importable component library. Coverage spans buttons, collections (grid list, list box, menu, table, tree), date and time fields, drag and drop, forms (checkbox, radio group, slider, switch, text fields), navigation (breadcrumbs, disclosure, tabs), overlays (dialog, modal, popover, tooltip), pickers (combobox, select), status (meter, progress bar), plus a blocks section. MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "checkbox",
+    "date-picker",
+    "dropdown",
+    "file-upload",
+    "form",
+    "input",
+    "list",
+    "modal",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "tooltip"
+  ],
+  "keywords": [
+    "react",
+    "react aria",
+    "react aria component",
+    "tailwind",
+    "shadcn",
+    "component library",
+    "accessible component",
+    "accessibility",
+    "copy-paste",
+    "aria",
+    "date picker",
+    "table",
+    "tabs",
+    "dialog",
+    "slider",
+    "switch",
+    "select",
+    "breadcrumbs",
+    "dropzone"
+  ],
+  "contains": [
+    "components built on React Aria Components and Tailwind CSS",
+    "copy-paste workflow, not an npm component package",
+    "shadcn/ui compatible",
+    "docs cover collections, color, date/time, drag and drop, forms, navigation, overlays, pickers and status",
+    "blocks section for larger pieces",
+    "MIT license"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "react-aria"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/jolbol1/jolly-ui",
+    "docs": "https://jollyui.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

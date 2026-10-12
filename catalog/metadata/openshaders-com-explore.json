@@ -1,0 +1,34 @@
+{
+  "id": "openshaders-com-explore",
+  "url": "https://openshaders.com/explore",
+  "kind": "page",
+  "hints_hash": "d5e33311950ba5bc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:10:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://openshaders.com/explore", "title": "Explore | OpenShaders", "status": null},
+    {"url": "https://openshaders.com/", "title": "OpenShaders: Shaders belong on the web", "status": 200},
+    {"url": "https://openshaders.com/about", "title": "About | OpenShaders", "status": 200},
+    {"url": "https://github.com/openshaders/openshaders", "title": "GitHub - openshaders/openshaders: The biggest open-source home for shaders on the web.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Explore | OpenShaders",
+  "summary": "Gallery of all 3,191 usernames claimed before OpenShaders launches, each rendered as its own one-of-one shader.",
+  "description": "The explore view of OpenShaders lists every claimed name, newest first, with the unique shader generated for that name rendered in place. Switch between immersive and grid views and filter by rarity; each card links to the member's profile.",
+  "type": "gallery",
+  "elements": ["3d"],
+  "keywords": ["shader", "shader gallery", "webgl", "webgpu", "one-of-one", "claimed username", "rarity", "immersive view", "grid view", "gallery"],
+  "contains": [
+    "3,191 claimed names, newest first",
+    "each name renders a one-of-one shader generated for it",
+    "immersive and grid views",
+    "filter by rarity",
+    "links to each member profile"
+  ],
+  "stack": ["webgl", "webgpu"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/openshaders/openshaders", "docs": null, "npm": null, "figma": null, "parent": "openshaders-com"},
+  "confidence": 0.85
+}

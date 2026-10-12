@@ -1,0 +1,15 @@
+{
+  "id": "chiefofautism-com-ui-kit",
+  "url": "https://chiefofautism.com/ui-kit",
+  "kind": "page",
+  "hints_hash": "3c345dd14a9d7130",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://chiefofautism.com/ui-kit", "title": null, "status": 404},
+    {"url": "https://chiefofautism.com/", "title": null, "status": 200}
+  ],
+  "status": "dead",
+  "confidence": 0
+}

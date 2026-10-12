@@ -1,0 +1,24 @@
+{
+  "id": "craft-mxkaske-dev-post-fancy-multi-select",
+  "url": "https://craft.mxkaske.dev/post/fancy-multi-select",
+  "kind": "page",
+  "hints_hash": "63375477c4e094d2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://craft.mxkaske.dev/post/fancy-multi-select", "title": "Fancy Multi Select", "status": null},
+    {"url": "https://github.com/mxkaske/mxkaske.dev", "title": "GitHub - mxkaske/mxkaske.dev: Build. Craft. Brew. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fancy Multi Select",
+  "summary": "Keyboard-accessible multi-select input built with cmdk and shadcn/ui for React forms.",
+  "description": "A lightweight multi-select input control for React applications, inspired by campsite.design's and cal.com's settings forms. Powered by the headless cmdk command menu and styled with shadcn/ui; keyboard accessible, including backspace to remove a label. Published June 2023; source code is on GitHub.",
+  "type": "component-library",
+  "elements": ["select", "input"],
+  "keywords": ["multi select", "combobox", "select", "input", "tag input", "command menu", "cmdk", "shadcn ui", "tailwind css", "react", "form control", "keyboard access"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "tailwind", "cmdk"],
+  "related": {"repo": "https://github.com/mxkaske/mxkaske.dev", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

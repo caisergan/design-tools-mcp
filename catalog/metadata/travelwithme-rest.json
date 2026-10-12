@@ -1,0 +1,27 @@
+{
+  "id": "travelwithme-rest",
+  "url": "https://travelwithme.rest",
+  "kind": "site",
+  "hints_hash": "72eaf4df85dbcc91",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://travelwithme.rest", "title": "Travel With Me — Italy 2026", "status": null}
+  ],
+  "status": "partial",
+  "name": "Travel With Me",
+  "summary": "Project site for ten brands on one physical card, photographed during a week in Italy in 2026.",
+  "description": "A microsite documenting a project in which ten brands were placed on one physical card that was carried and photographed through a week in Italy in 2026. The page renders its content with JavaScript, so only the title and meta description are readable.",
+  "type": "app",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["travel", "italy", "brand card", "physical card", "photo project", "print design", "microsite", "design experiment", "branding", "photography"],
+  "contains": ["ten brands presented on one physical card", "card photographed through a week in Italy (2026)", "page renders with JavaScript; only the title and description are readable"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

@@ -1,0 +1,79 @@
+{
+  "id": "parascope-design-resources-rareui",
+  "url": "https://parascope.design/resources/rareui",
+  "kind": "page",
+  "hints_hash": "2fc8017601c7ff8c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://parascope.design/resources/rareui",
+      "title": "Rare UI — Rare Animated React Components | Parascope",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Rare UI",
+  "summary": "Parascope listing for Rare UI, a free shadcn registry of 11 animation-first React components.",
+  "description": "Parascope's Japanese-language resource page describes Rare UI: a shadcn CLI registry of 11 published React components where animation leads — Folder, Bounce sidebar, Proximity Sidebar, Duration Picker, Fluid Orb, Scroll Progress, Code Block, Gravity Letters, OTP Input, GitHub activity and Emoji reaction. Components are written with Tailwind CSS and Motion, one file each, and the code lands in your repo after install. Free and open source; author swamimalode07, sponsored by Databuddy and Mintlify.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "motion",
+    "registries"
+  ],
+  "elements": [
+    "sidebar",
+    "otp-input",
+    "scroll-effect",
+    "text-effect"
+  ],
+  "keywords": [
+    "react component",
+    "animated component",
+    "shadcn registry",
+    "shadcn cli",
+    "tailwind css",
+    "motion",
+    "micro interaction",
+    "sidebar",
+    "otp input",
+    "scroll progress",
+    "open source",
+    "free component"
+  ],
+  "contains": [
+    "11 animated React components",
+    "components include Folder, Bounce sidebar, Proximity Sidebar, Duration Picker, Fluid Orb",
+    "components include Scroll Progress, Code Block, Gravity Letters, OTP Input, GitHub activity, Emoji reaction",
+    "installed with the shadcn CLI; code lands in your repo",
+    "one file per component, written with Tailwind CSS and Motion",
+    "free and open source; author swamimalode07",
+    "sponsored by Databuddy and Mintlify"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

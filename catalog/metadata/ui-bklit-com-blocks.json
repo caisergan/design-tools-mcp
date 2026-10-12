@@ -1,0 +1,33 @@
+{
+  "id": "ui-bklit-com-blocks",
+  "url": "https://ui.bklit.com/blocks",
+  "kind": "page",
+  "hints_hash": "4eb81fdd5825a74e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.bklit.com/blocks", "title": "Bklit UI - Charts & Data Visualization Components", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Bklit UI Blocks",
+  "summary": "Ready-to-go chart blocks for dashboards: compact KPI stat cards with area, line or choropleth sparklines, installed with the shadcn CLI.",
+  "description": "The Blocks page of Bklit UI, a shadcn/ui chart library. Each block is a compact dashboard card — a KPI stat card with an animated average, a trend badge and an axis-free sparkline — in area chart, line chart and choropleth map variants. Blocks install through the shadcn CLI (@bklit/stat-card-area-01 …) or open directly in v0.",
+  "type": "block-library",
+  "elements": ["card", "chart", "stats", "map"],
+  "keywords": ["chart block", "stat card", "kpi card", "sparkline", "dashboard", "analytics", "shadcn", "registry", "block", "data visualization", "react", "tailwind", "choropleth", "area chart", "line chart", "v0"],
+  "contains": [
+    "ready-to-go chart blocks for dashboards and analytics",
+    "stat cards with animated averages, trend badges and axis-free sparklines",
+    "variants: area chart, line chart and choropleth map",
+    "install with npx shadcn@latest add @bklit/stat-card-area-01",
+    "blocks can be opened directly in v0",
+    "page of Bklit UI (56 catalogued shadcn registry items)"
+  ],
+  "formats": ["registry", "cli", "code"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://bklit.com/docs", "npm": null, "figma": null, "parent": "bklit-com"},
+  "confidence": 0.8
+}

@@ -1,0 +1,39 @@
+{
+  "id": "freebuff-com",
+  "url": "https://freebuff.com",
+  "kind": "site",
+  "hints_hash": "f829eb8671ad2057",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://freebuff.com/llms.txt", "title": "Freebuff", "status": null},
+    {"url": "https://freebuff.com", "title": "Freebuff: The free coding agent", "status": 200},
+    {"url": "https://freebuff.com/get-started", "title": "Get Started with Freebuff", "status": 200},
+    {"url": "https://freebuff.com/plans", "title": "Freebuff Plans: Free and paid plans", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Freebuff",
+  "summary": "Free AI coding agent: CLI, desktop app, web app builder, cloud sandboxes and chat, funded by in-CLI text ads.",
+  "description": "Five free products from the Codebuff team: a CLI coding agent installed with npm, a full-stack web app builder that hosts and deploys what it builds, cloud sandboxes for GitHub repos, a chat assistant and a desktop app that runs agents in parallel workspaces. Free daily usage credits are funded by text ads; paid plans add more model time, and enterprise/self-hosted deployment is offered at no cost.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["coding agent", "ai coding assistant", "cli", "developer tool", "ai agent", "app builder", "full-stack", "code generation", "chat assistant", "desktop app", "no subscription", "llm", "terminal", "free coding agent"],
+  "contains": [
+    "five free products: CLI, Web app builder, Cloud sandboxes, Chat, Desktop app",
+    "CLI installs with npm install -g freebuff; runs on macOS, Windows and Linux",
+    "funded by text ads in the CLI; no subscription or credit card required",
+    "free daily credits by country (e.g. US 100/day, DE/FR/ES 40, elsewhere 25)",
+    "model picker includes GLM 5.3 Flash, DeepSeek V4.1 Flash, GPT-5.6 Luna, MiMo 2.5",
+    "paid plans: Starter $8/mo, Plus $25/mo, Pro $60/mo",
+    "Freebuff Web builds, hosts and deploys full-stack apps from a prompt",
+    "desktop app runs multiple agents in parallel workspaces"
+  ],
+  "formats": ["app", "cli", "npm-package"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://freebuff.com/get-started", "npm": "freebuff", "figma": null, "parent": null},
+  "confidence": 0.9
+}

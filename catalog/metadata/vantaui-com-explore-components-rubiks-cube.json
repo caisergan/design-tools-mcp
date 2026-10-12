@@ -1,0 +1,27 @@
+{
+  "id": "vantaui-com-explore-components-rubiks-cube",
+  "url": "https://vantaui.com/explore/components/rubiks-cube",
+  "kind": "page",
+  "hints_hash": "fd92280c78926d79",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vantaui.com/explore/components/rubiks-cube", "title": "Rubik's Cube | VantaUI", "status": null},
+    {"url": "https://vantaui.com/explore/components", "title": "Components | VantaUI", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Rubik's Cube",
+  "summary": "Dark animated Rubik's cube component from VantaUI's React component library for Next.js, with a docs page.",
+  "description": "VantaUI component page for a dark, animated Rubik's cube, part of a library of production-ready React components for Next.js that lists 89 components. The page body renders client-side, so only its title, description and links (Docs, Explore VantaUI) were readable.",
+  "type": "component-library",
+  "elements": ["3d"],
+  "keywords": ["rubik's cube", "3d component", "animated 3d", "3d animation", "dark mode", "react component", "nextjs", "component library", "ui component", "docs"],
+  "contains": ["dark animated Rubik's cube component page", "part of VantaUI's 89 React components for Next.js", "links to VantaUI docs"],
+  "formats": ["code", "links"],
+  "stack": ["react", "nextjs"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://vantaui.com/explore/docs", "npm": null, "figma": null, "parent": "vantaui-com"},
+  "confidence": 0.6
+}

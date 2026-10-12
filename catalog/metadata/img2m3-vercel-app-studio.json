@@ -1,0 +1,22 @@
+{
+  "id": "img2m3-vercel-app-studio",
+  "url": "https://img2m3.vercel.app/studio",
+  "kind": "page",
+  "hints_hash": "412c6ec99383ecb8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://img2m3.vercel.app/studio", "title": "img2m3 – Shadcn UI Theme Generator from Any Image", "status": 200},
+    {"url": "https://img2m3.vercel.app/", "title": "img2m3 – Shadcn UI Theme Generator from Any Image", "status": 200}
+  ],
+  "status": "partial",
+  "name": "img2m3",
+  "summary": "Shadcn UI theme generator that extracts a Material Design 3 color scheme from any image and outputs Tailwind CSS v4 code.",
+  "description": "A studio that turns an uploaded image into a shadcn/ui theme: Material Design 3 algorithms extract an accessible color scheme and the tool generates Tailwind CSS v4 theme code. Free to use; the interface renders with JavaScript, so only the page title and meta description were readable.",
+  "type": "generator",
+  "pricing": "free",
+  "keywords": ["shadcn", "theme generator", "material design 3", "color scheme", "color extraction", "image to theme", "tailwind", "css variable", "theme", "accessible color", "dark mode"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

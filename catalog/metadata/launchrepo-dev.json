@@ -1,0 +1,32 @@
+{
+  "id": "launchrepo-dev",
+  "url": "https://launchrepo.dev",
+  "kind": "site",
+  "hints_hash": "ec17591feb6d2a04",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://launchrepo.dev/llms.txt", "title": "LaunchRepo", "status": null},
+    {"url": "https://launchrepo.dev", "title": "LaunchRepo — Help people find your SaaS", "status": null},
+    {"url": "https://launchrepo.dev/guides", "title": "Launch planning guides | LaunchRepo", "status": null},
+    {"url": "https://launchrepo.dev/templates", "title": "Launch templates: prompts, configs and checklists | LaunchRepo", "status": null},
+    {"url": "https://launchrepo.dev/pricing", "title": "LaunchRepo pricing — One-time toolkit purchase", "status": null},
+    {"url": "https://launchrepo.dev/features", "title": "LaunchRepo features: what the kit does", "status": null}
+  ],
+  "status": "ok",
+  "name": "LaunchRepo",
+  "summary": "Toolkit that gives your AI agent playbooks for 299 launch platforms, plus a product brief and a local submission tracker.",
+  "description": "A downloadable toolkit (private GitHub repository) you run with your own AI coding agent: Markdown playbooks for 299 launch platforms and directories, a reusable product brief, selection guidance and prompts, and a local dashboard that records each submission's status and next actions. You keep control of logins, CAPTCHA and 2FA; one payment covers unlimited products you own.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["saas launch", "directory submission", "launch platform", "software directory", "product launch", "backlink", "domain rating", "ai coding agent", "prompt", "product brief", "submission tracker", "launch checklist", "launch playbook", "indie hacking", "seo"],
+  "contains": ["299 active platform guides as of October 7, 2026 (84 verified free, 156 conditional free, 53 unavailable)", "one-time price: €49 incl. 19% VAT (reference), rises 20% after every 20 sales", "private repo: platform playbooks, product brief, selection guidance, setup guides and prompts", "local dashboard/tracker app showing products, statuses and next actions", "agent works in your own Chrome via Chrome DevTools MCP; you handle logins, CAPTCHA and 2FA", "supports nine coding agents incl. Claude Code, Codex, Cursor and Gemini CLI"],
+  "formats": ["docs", "prompts", "templates", "app"],
+  "stack": ["python"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://launchrepo.dev/guides", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

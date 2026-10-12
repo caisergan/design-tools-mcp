@@ -1,0 +1,28 @@
+{
+  "id": "github-com-arknow91-liquid-taffy",
+  "url": "https://github.com/arknow91/liquid-taffy",
+  "kind": "repo",
+  "hints_hash": "7bef635666764e64",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/arknow91/liquid-taffy/blob/HEAD/README.md", "title": "liquid-taffy", "status": 200},
+    {"url": "https://github.com/arknow91/liquid-taffy", "title": "GitHub - arknow91/liquid-taffy: Three liquid interactions you can grab, pull, and let snap back — anchored dropdown, morphing dropdown and speed dial on one goo engine. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "liquid-taffy",
+  "summary": "Three gooey React interactions — anchored dropdown, morphing dropdown and speed dial — on one shared grab-and-stretch liquid engine.",
+  "description": "A reference implementation (not a package) of three liquid interactions built on one SVG metaball \"goo\" engine: two multi-select dropdowns (anchored and morphing) and a speed dial whose droplets break out of the button. A shared grab gesture stretches a liquid finger out of any surface and whips it back on release; GSAP spring curves, per-joint colour lighting on the dark frame, and every sound synthesized in the browser. Read the source for the filter math, border thresholds, tokens and accessibility notes.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["dropdown", "button"],
+  "keywords": ["liquid dropdown", "gooey menu", "morphing dropdown", "speed dial", "metaball", "svg filter", "gsap", "spring animation", "react component", "micro interaction", "drag gesture", "squash and stretch", "web audio", "dark mode", "design engineering", "reference implementation", "typescript", "vite", "multi-select", "accessibility"],
+  "contains": ["anchored dropdown, morphing dropdown and speed dial on one goo engine", "shared grab gesture: press, drag, snap back with a four-bead liquid finger", "SVG blur + alpha-threshold metaball filter with matched 1px border thresholds", "GSAP CustomEase springs sampled from physical curves (22% and 18% overshoot)", "per-gesture synthesized sound via Web Audio; each dial drop has its own pitch", "light and dark frames; colours live in src/styles/tokens.css and one theme context", "multi-select dropdown rows with menuitemcheckbox roles and reduced-motion handling", "MIT licensed reference implementation; 163 GitHub stars"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "gsap", "typescript", "vite", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/arknow91/liquid-taffy", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

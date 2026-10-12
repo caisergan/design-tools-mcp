@@ -1,0 +1,32 @@
+{
+  "id": "gsap-com",
+  "url": "https://gsap.com",
+  "kind": "site",
+  "hints_hash": "e28ab3c6b8a3a6cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gsap.com/llms.txt", "title": "GSAP Documentation", "status": null},
+    {"url": "https://gsap.com", "title": "Homepage | GSAP", "status": 200},
+    {"url": "https://gsap.com/docs/v3.md", "title": "Animate Anything", "status": 200},
+    {"url": "https://gsap.com/docs/v3", "title": "docsHome | GSAP | Docs & Learning", "status": 200},
+    {"url": "https://gsap.com/showcase", "title": "GSAP Showcase", "status": 200},
+    {"url": "https://gsap.com/pricing", "title": "Pricing | GSAP", "status": 200}
+  ],
+  "status": "ok",
+  "name": "GSAP",
+  "summary": "JavaScript animation library: tween and timeline core plus scroll, SVG, text and UI plugins, free for all users.",
+  "description": "JavaScript animation library for the web. A tween and timeline core with eases, staggers, keyframes, ticker and utility methods, extended by plugins: scroll (ScrollTrigger, ScrollSmoother, ScrollTo), SVG (DrawSVG, MorphSVG, MotionPath), text (SplitText, ScrambleText), UI (Flip, Inertia, Observer, Draggable) and more. The site provides full API docs, video lessons, React support via useGSAP() and a showcase of sites built with it. The entire library is free for everyone, supported by Webflow.",
+  "type": "tool",
+  "categories": ["motion"],
+  "elements": ["timeline", "progress", "cursor", "text-effect", "marquee", "scroll-effect"],
+  "keywords": ["animation library", "javascript animation", "web animation", "scroll animation", "scrolltrigger", "svg animation", "text animation", "timeline", "easing", "tween", "ui animation", "react animation", "parallax", "draggable", "morphsvg", "splittext", "free"],
+  "contains": ["tween/timeline core with eases, staggers, keyframes, ticker and utility methods", "scroll, SVG, text, UI and physics plugins", "API docs index published as llms.txt", "React support via useGSAP()", "showcase gallery, community demos and video lessons", "free for all users, supported by Webflow"],
+  "formats": ["code", "npm-package", "docs", "links", "video"],
+  "stack": ["javascript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://gsap.com/docs/v3", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

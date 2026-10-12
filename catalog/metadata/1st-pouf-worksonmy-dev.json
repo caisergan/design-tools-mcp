@@ -1,0 +1,131 @@
+{
+  "id": "1st-pouf-worksonmy-dev",
+  "url": "https://1st-pouf.worksonmy.dev",
+  "kind": "site",
+  "hints_hash": "de6930bd3b0633b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://1st-pouf.worksonmy.dev/llms.txt",
+      "title": "1st-Pouf",
+      "status": null
+    },
+    {
+      "url": "https://1st-pouf.worksonmy.dev",
+      "title": "1st-Pouf — puffy, maximalist UI for React",
+      "status": 200
+    },
+    {
+      "url": "https://1st-pouf.worksonmy.dev/docs",
+      "title": "Getting started · 1st-Pouf",
+      "status": 200
+    },
+    {
+      "url": "https://1st-pouf.worksonmy.dev/components",
+      "title": "Components · 1st-Pouf",
+      "status": 200
+    },
+    {
+      "url": "https://1st-pouf.worksonmy.dev/blocks",
+      "title": "Blocks · 1st-Pouf",
+      "status": 200
+    },
+    {
+      "url": "https://1st-pouf.worksonmy.dev/examples",
+      "title": "Templates · 1st-Pouf",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "1st-Pouf",
+  "summary": "Claymorphism React UI kit with 38 components, 14 blocks and 14 templates, installed shadcn-style.",
+  "description": "A puffy, pastel, maximalist UI kit for React: every surface a chunky cushion, styled with Tailwind CSS v4 and built on Radix primitives. Components install into your own repo with the shadcn CLI — there is no runtime package — and share a two-layer CSS custom property theme with dark mode. Ships 38 components with 144 live demos, 14 drop-in blocks (login, pricing, social feed, music player) and 14 route-ready templates (dashboard, CRM, inbox, kanban, storefront).",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "components"
+  ],
+  "elements": [
+    "navbar",
+    "sidebar",
+    "breadcrumbs",
+    "button",
+    "input",
+    "select",
+    "checkbox",
+    "switch",
+    "slider",
+    "form",
+    "card",
+    "avatar",
+    "badge",
+    "alert",
+    "toast",
+    "modal",
+    "dropdown",
+    "dashboard",
+    "stats",
+    "chart",
+    "progress",
+    "stepper",
+    "pricing",
+    "testimonials",
+    "contact"
+  ],
+  "keywords": [
+    "claymorphism",
+    "react component library",
+    "shadcn registry",
+    "tailwind css",
+    "ui kit",
+    "copy-paste component",
+    "dark mode",
+    "design token",
+    "framer motion",
+    "radix ui",
+    "dashboard template",
+    "landing page template",
+    "block",
+    "template",
+    "pastel ui",
+    "clay ui",
+    "typescript"
+  ],
+  "contains": [
+    "38 components, 14 blocks and 14 templates",
+    "71 registry items installable with the shadcn CLI",
+    "two-layer CSS custom property token system with dark mode",
+    "144 live component demos",
+    "MIT licensed; no npm package, no runtime dependency to update"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "radix",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://1st-pouf.worksonmy.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

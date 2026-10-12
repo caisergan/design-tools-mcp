@@ -1,0 +1,30 @@
+{
+  "id": "hemingwayapp-com",
+  "url": "https://hemingwayapp.com",
+  "kind": "site",
+  "hints_hash": "9935099f5c212a38",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hemingwayapp.com", "title": "Hemingway Editor", "status": 200},
+    {"url": "https://hemingwayapp.com/hemingway-editor-plus", "title": "Hemingway Editor Plus", "status": 200},
+    {"url": "https://hemingwayapp.com/desktop", "title": "Get the Hemingway Editor for Mac and PC", "status": 200},
+    {"url": "https://hemingwayapp.com/readability-checker", "title": "Free Readability Checker App | Check readability score of your text", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hemingway Editor",
+  "summary": "Writing editor that highlights wordy sentences, adverbs, passive voice and readability problems in your text.",
+  "description": "Type or paste prose and the editor marks dead weight — wordy sentences in yellow, more egregious ones in red, adverbs, passive voice and complicated words — with a readability grade. Hemingway Editor Plus adds AI rewriting, grammar fixes, eight tone styles, synonyms and document review on a subscription after a 2-week trial; the classic Mac/Windows app is a $19.99 one-time purchase, and free online checkers cover readability, grammar, paraphrasing and proofreading.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["writing editor", "grammar checker", "readability checker", "passive voice", "adverb", "proofreading", "paraphrasing", "tone", "synonym", "wordiness", "copy editing", "editing tool", "desktop app", "ai writing", "wordpress", "export"],
+  "contains": ["highlights wordy sentences (yellow/red), adverbs, passive voice and complicated words", "readability grade and text formatting; publishes to WordPress", "Plus plans: Individual 5K $100/year, Individual 10K $150/year, Team 10K, Enterprise", "desktop app Hemingway Editor 3 for Mac and PC at $19.99, no AI features", "2-week free trial without a credit card", "free online readability checker, grammar checker, paraphrasing tool and proofreader", "exports HTML, Markdown, Word, PDF and text; imports .docx"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://hemingwayapp.com/help", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

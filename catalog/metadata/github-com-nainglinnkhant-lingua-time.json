@@ -1,0 +1,29 @@
+{
+  "id": "github-com-nainglinnkhant-lingua-time",
+  "url": "https://github.com/nainglinnkhant/lingua-time",
+  "kind": "repo",
+  "hints_hash": "b5c2564e0c8214ab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/nainglinnkhant/lingua-time/blob/HEAD/README.md", "title": "Lingua Time: Date and Time Picker for ShadCN", "status": 200},
+    {"url": "https://github.com/nainglinnkhant/lingua-time", "title": "GitHub - nainglinnkhant/lingua-time: A smart datetime picker which understands natural language input. · GitHub", "status": 200},
+    {"url": "https://linguatime.nainglinnkhant.com", "title": "Lingua Time", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lingua Time",
+  "summary": "Smart date and time picker for shadcn/ui that understands natural language input.",
+  "description": "A date and time picker component for shadcn/ui that understands natural language input, pulled into your project as a single registry item. It can be wired to react-hook-form, is MIT licensed, and has a live demo at linguatime.nainglinnkhant.com.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["date-picker", "input"],
+  "keywords": ["shadcn", "date picker", "time picker", "datetime picker", "natural language", "smart input", "react", "react-hook-form", "registry", "component"],
+  "contains": ["single shadcn registry item", "understands natural language date and time input", "works with react-hook-form", "live demo at linguatime.nainglinnkhant.com", "MIT licensed"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/nainglinnkhant/lingua-time", "docs": "https://linguatime.nainglinnkhant.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

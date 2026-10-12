@@ -1,0 +1,20 @@
+{
+  "id": "github-com-ggml-org-llama-cpp-pull-28865",
+  "url": "https://github.com/ggml-org/llama.cpp/pull/28865",
+  "kind": "page",
+  "hints_hash": "f41aba440dbdf586",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ggml-org/llama.cpp/pull/28865", "title": "models : fix mimo2 swa pattern load by CISC · Pull Request #28865 · ggml-org/llama.cpp · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "models : fix mimo2 swa pattern load (#28865)",
+  "summary": "Merged llama.cpp pull request fixing MiMo-V2 model load: the SWA pattern lookup wrongly used get_key_or_arr (fixes #28831).",
+  "description": "Pull request #28865 in ggml-org/llama.cpp, merged 14 Sep 2026 by ggerganov. It fixes MiMo V2 model loading: the SWA pattern update was missed for MiMo V2 and get_key_or_arr should not be used there, which made MiMo-V2.5-Pro fail to load with an hparam error. Continues #28159.",
+  "keywords": ["llama.cpp", "pull request", "mimo v2", "swa pattern", "model loader", "hparam error", "bug fix", "ggml", "llm inference"],
+  "contains": ["merged 14 Sep 2026 by ggerganov, 1 commit", "closes issue #28831: MiMo-V2.5-Pro fails to load with hparam error", "continues #28159; labelled model specific"],
+  "related": {"repo": "https://github.com/ggml-org/llama.cpp", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.8
+}

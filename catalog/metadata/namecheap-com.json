@@ -1,0 +1,27 @@
+{
+  "id": "namecheap-com",
+  "url": "https://namecheap.com",
+  "kind": "site",
+  "hints_hash": "78d321d49b0943dd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.namecheap.com/about/", "title": "About Namecheap - Our Story and Mission - Namecheap", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Namecheap",
+  "summary": "Domain registrar and web hosting provider: domains, DNS, SSL certificates, email and website tools.",
+  "description": "ICANN-accredited registrar offering domain registration and transfers, DNS, shared/VPS/dedicated hosting, business email, SSL certificates and website growth tools. Serves over 2 million customers and 17 million domains.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["domain registrar", "domain name", "web hosting", "dns", "ssl certificate", "business email", "vps hosting", "wordpress hosting", "domain transfer", "website tool"],
+  "contains": ["over 2 million customers and 17 million domains", "domain registration, transfer and search tools", "shared, VPS, reseller and dedicated hosting", "business email and anti-spam protection", "SSL certificates and PremiumDNS", "free DNS and a free business starter kit"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

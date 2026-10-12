@@ -1,0 +1,31 @@
+{
+  "id": "index-grinkevy-ch",
+  "url": "https://index.grinkevy.ch",
+  "kind": "site",
+  "hints_hash": "f113c80b2ae448c2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:52:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://index.grinkevy.ch", "title": "Index", "status": null},
+    {"url": "https://index.grinkevy.ch/about", "title": null, "status": 404},
+    {"url": "https://index.grinkevy.ch/llms.txt", "title": null, "status": 404}
+  ],
+  "status": "partial",
+  "name": "Index",
+  "summary": "Curated gallery of well-designed websites, collected by Dima Grinkevych.",
+  "description": "A gallery site that collects well-designed web design, curated by Dima Grinkevych. The page is rendered by JavaScript, so the gallery's items and filters could not be read.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["web design gallery", "website inspiration", "design showcase", "curated gallery", "web gallery", "inspiration", "collection", "landing page"],
+  "contains": [
+    "curated by Dima Grinkevych"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

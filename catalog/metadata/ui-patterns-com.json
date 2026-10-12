@@ -1,0 +1,31 @@
+{
+  "id": "ui-patterns-com",
+  "url": "https://ui-patterns.com",
+  "kind": "site",
+  "hints_hash": "e114bcdc6037a0fa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui-patterns.com", "title": "UI-Patterns.com – User Interface Design Pattern Library", "status": null},
+    {"url": "https://ui-patterns.com/explore", "title": "Browse screenshots", "status": null},
+    {"url": "https://ui-patterns.com/patterns", "title": "UI Design Patterns Library: 170 UX & Persuasive Patterns", "status": null},
+    {"url": "https://ui-patterns.com/collections/lists", "title": "Lists screenshot collection", "status": null},
+    {"url": "https://ui-patterns.com/collections/error-pages", "title": "Error pages screenshot collection", "status": null}
+  ],
+  "status": "ok",
+  "name": "UI-Patterns.com",
+  "summary": "Library of 170 user interface and persuasive design patterns with real-world screenshot examples.",
+  "description": "A reference library of 170 user interface and persuasive design patterns. Each pattern explains the problem it solves, when and how to use it, with real-world examples; a searchable screenshot library adds thousands of implementation examples with filters by color, website and keyword. Includes a blog, conference talks, a weekly newsletter and printed card decks.",
+  "type": "design-rules",
+  "categories": ["design-rules", "inspiration"],
+  "elements": ["navbar", "breadcrumbs", "pagination", "tabs", "accordion", "dropdown", "modal", "toast", "carousel", "table", "dashboard", "list", "card", "calendar", "date-picker", "chat", "progress", "stepper", "faq", "input", "form", "contact", "pricing", "testimonials", "empty-state", "404", "timeline"],
+  "keywords": ["ui pattern", "design pattern", "ux pattern", "user interface", "persuasive design", "design psychology", "interaction design", "web design", "screenshot", "design inspiration", "pattern library", "navigation pattern", "form pattern", "onboarding pattern", "empty state", "pricing table", "error page", "social proof", "game mechanics", "cognitive bias", "e-commerce pattern", "real world example", "ui example", "ux reference"],
+  "contains": ["170 user interface and persuasive design patterns", "pattern groups: getting input, navigation, dealing with data, social, onboarding, miscellaneous", "persuasive groups: cognition, game mechanics, perception and memory, feedback", "screenshot library with filters by color, website and keyword", "collections incl. lists (100 examples) and error pages (126 examples)", "blog, conference talks and weekly newsletter", "card decks for sale: $399 printed + digital, $299 digital only"],
+  "formats": ["docs", "screenshots", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

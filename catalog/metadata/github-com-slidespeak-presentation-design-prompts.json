@@ -1,0 +1,71 @@
+{
+  "id": "github-com-slidespeak-presentation-design-prompts",
+  "url": "https://github.com/SlideSpeak/presentation-design-prompts",
+  "kind": "repo",
+  "hints_hash": "ef6d4fba42491302",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/SlideSpeak/presentation-design-prompts/blob/HEAD/README.md",
+      "title": "Slide Design Prompts",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Slide Design Prompts",
+  "summary": "128 presentation design-system prompt themes with palettes, fonts and slide previews, for ChatGPT or Claude.",
+  "description": "Free prompts that each carry a complete slide design system: a hex-pinned color palette, named Google Fonts, a layout grammar and an avoid-list. Themes are grouped by use case (pitch deck, business, consulting, marketing, tech, creative, education, events, finance) and visual style (minimal, bold, elegant, playful, corporate, calm, warm, dark, tech, retro). Copy a theme's PROMPT.md into ChatGPT or Claude, or use the same themes in SlideSpeak's deck generator for PowerPoint and Google Slides.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "presentation",
+    "slide design",
+    "slide deck",
+    "deck design",
+    "prompt",
+    "design system",
+    "color palette",
+    "google font",
+    "pitch deck",
+    "chatgpt",
+    "claude",
+    "ai agent",
+    "powerpoint",
+    "google slide",
+    "typography",
+    "layout",
+    "design prompt"
+  ],
+  "contains": [
+    "128 themes across 9 use-case categories and 10 visual styles",
+    "each theme ships README.md, PROMPT.md and .webp slide previews",
+    "palettes pinned to hex values with named Google Fonts",
+    "consulting-firm homages and brand-style themes",
+    "MIT licensed for commercial use"
+  ],
+  "formats": [
+    "prompts",
+    "docs",
+    "screenshots"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/SlideSpeak/presentation-design-prompts",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

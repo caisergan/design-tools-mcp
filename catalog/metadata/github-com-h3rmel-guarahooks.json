@@ -1,0 +1,81 @@
+{
+  "id": "github-com-h3rmel-guarahooks",
+  "url": "https://github.com/h3rmel/guarahooks",
+  "kind": "repo",
+  "hints_hash": "49707f32bd8bfc8f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/h3rmel/guarahooks/blob/HEAD/README.md",
+      "title": "guarahooks",
+      "status": 200
+    },
+    {
+      "url": "https://guarahooks.com",
+      "title": "guarahooks",
+      "status": 200
+    },
+    {
+      "url": "https://guarahooks.com/docs/hooks",
+      "title": "Hooks - guarahooks",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "guarahooks",
+  "summary": "Copy-paste React hooks library with 50+ hooks, docs and a CLI installer, free and open source.",
+  "description": "Free, open-source collection of React hooks you copy into your app, grouped into UI and DOM, state management, utilities, data fetching, form, auth and lifecycle categories. Hooks include useFetch, useLocalStorage, useKeypress, useDebounceState, useIntersectionObserver and useScrollLock; docs ship live demos and a CLI.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "react hook",
+    "copy paste",
+    "typescript",
+    "data fetching",
+    "local storage",
+    "debounce",
+    "keypress",
+    "intersection observer",
+    "scroll",
+    "form",
+    "auth",
+    "cli",
+    "free",
+    "open source"
+  ],
+  "contains": [
+    "50+ React hooks, shadcn-inspired, built with React and TypeScript",
+    "categories: UI and DOM, State Management, Utilities, Data Fetching, Form, Auth, Lifecycle",
+    "copy-paste installs plus a CLI documented in the docs",
+    "docs site with live hook demos and a showcase page",
+    "MIT licensed; adding a hook takes about five minutes"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/h3rmel/guarahooks",
+    "docs": "https://guarahooks.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

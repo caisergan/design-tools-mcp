@@ -1,0 +1,38 @@
+{
+  "id": "iconify-design",
+  "url": "https://iconify.design",
+  "kind": "site",
+  "hints_hash": "1c8b5e51dca9c217",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://iconify.design", "title": "Iconify Design: All popular icon sets, one framework.", "status": null},
+    {"url": "https://iconify.design/docs", "title": "Iconify Documentation", "status": null},
+    {"url": "https://iconify.design/about", "title": "About Iconify", "status": null},
+    {"url": "https://iconify.design/getting-started", "title": "Getting Started", "status": null},
+    {"url": "https://iconify.design/docs/api", "title": "Iconify API", "status": null}
+  ],
+  "status": "ok",
+  "name": "Iconify",
+  "summary": "One framework for 300,000+ open source icons from 200+ icon sets, with components, an API and design-tool plugins.",
+  "description": "Iconify unifies 300k+ icons from 200+ open source icon sets (Material Design, Phosphor, Remix, Carbon, Bootstrap, Tabler, Feather, Fluent, IconPark, Octicons and more) behind one toolchain: an icon web component, framework-native components for React, Vue, Svelte and Ember, SVG-with-CSS usage, an on-demand API you can self-host, and plugins that browse and import icons into design tools.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon set", "icon library", "svg icon", "vector icon", "open source icon", "icon component", "react icon", "vue icon", "svelte icon", "icon api", "icon framework", "icon picker", "icon font replacement"],
+  "contains": [
+    "300,000+ open source vector icons",
+    "200+ icon sets, cleaned up, optimised and kept up to date",
+    "icon web component plus native components for React, Vue, Svelte and Ember",
+    "public API for icon data, on-demand SVG and CSS, and search; can be self-hosted",
+    "plugins and icon pickers for UI design tools",
+    "project code mostly MIT (some older packages Apache-2.0/GPL-2.0); icon sets use their own licenses"
+  ],
+  "formats": ["code", "npm-package", "api", "svg", "docs"],
+  "stack": ["react", "vue", "svelte", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://iconify.design/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "solanauth-vercel-app",
+  "url": "https://solanauth.vercel.app",
+  "kind": "site",
+  "hints_hash": "92b0ad4dc8f7554e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://solanauth.vercel.app", "title": "SolanAuth", "status": null },
+    { "url": "https://github.com/aymanch-03/solanauth", "title": "GitHub - aymanch-03/solanauth: Responsive Solana wallet authentication and account modal built on top of @solana/web3.js with NextAuth integration and shadcn/ui", "status": 200 }
+  ],
+  "status": "partial",
+  "name": "SolanAuth",
+  "summary": "Responsive Solana wallet sign-in and account modal for Next.js, built on @solana/web3.js with NextAuth and shadcn/ui.",
+  "description": "A Solana wallet authentication and account modal: responsive wallet sign-in on top of @solana/web3.js with NextAuth integration and shadcn/ui styling. The repo holds the Next.js demo app (components, hooks, providers, Tailwind config); the homepage renders client-side only, so most of its text is not readable by crawlers.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["modal", "drawer"],
+  "keywords": ["solana", "wallet", "authentication", "auth modal", "web3", "nextauth", "nextjs", "shadcn", "wallet connect", "sign in", "account modal", "react", "tailwind css", "web3.js", "modal"],
+  "contains": ["responsive Solana wallet auth and account modal", "built on @solana/web3.js with NextAuth", "shadcn/ui styling; Tailwind config in repo", "15 GitHub stars, 24 commits", "credits vaul, credenza and solana wallet adapter", "live demo at solanauth.vercel.app"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "nextauth", "solana", "web3js", "vaul"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": "https://github.com/aymanch-03/solanauth", "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

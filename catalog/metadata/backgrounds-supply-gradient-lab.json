@@ -1,0 +1,33 @@
+{
+  "id": "backgrounds-supply-gradient-lab",
+  "url": "https://backgrounds.supply/gradient-lab",
+  "kind": "page",
+  "hints_hash": "8855d74f92f76d95",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://backgrounds.supply/gradient-lab", "title": "Gradient Background Generator | Backgrounds Supply", "status": null}
+  ],
+  "status": "ok",
+  "name": "Gradient Lab",
+  "summary": "Free in-browser generator for animated gradient backgrounds, with 20+ shader modes and PNG, MP4 or WebM export.",
+  "description": "Creates animated gradient backgrounds live in the browser from 20+ shader modes, from soft mesh blends to flowing noise-driven shaders. Tune palette, stops, blend, grain, tone and motion on the canvas, then export a still PNG or an animated video up to 4K (MP4 or WebM, up to 30 seconds, no watermark) or copy an embed code to run the live gradient on your own site.",
+  "type": "generator",
+  "elements": ["background"],
+  "keywords": ["gradient background", "gradient generator", "animated gradient", "shader", "mesh gradient", "liquid gradient", "noise gradient", "background generator", "png export", "mp4 export", "4k video", "embed code", "wallpaper", "hero background"],
+  "contains": [
+    "20+ live animated shader modes; mesh mode warps orbiting color blobs with simplex noise",
+    "on-canvas color handles, gradient map, blend, stops, bias and sharpness",
+    "shape, motion, grade, grain, tone, exposure and vignette controls",
+    "export still PNG or animated MP4/WebM up to 4K (3840x2160), up to 30 seconds, watermark-free",
+    "settings shareable via URL; iframe embed code for live gradients",
+    "free, no signup, no account; works in mobile browsers"
+  ],
+  "formats": ["png", "video"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "backgrounds-supply"},
+  "confidence": 0.85
+}

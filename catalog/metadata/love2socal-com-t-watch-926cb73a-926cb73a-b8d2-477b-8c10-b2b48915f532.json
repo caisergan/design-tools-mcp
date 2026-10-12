@@ -1,0 +1,54 @@
+{
+  "id": "love2socal-com-t-watch-926cb73a-926cb73a-b8d2-477b-8c10-b2b48915f532",
+  "url": "https://love2socal.com/t/watch-926cb73a/926cb73a-b8d2-477b-8c10-b2b48915f532",
+  "kind": "page",
+  "hints_hash": "1b80598f00be3530",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:36:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://love2socal.com/t/watch-926cb73a/926cb73a-b8d2-477b-8c10-b2b48915f532",
+      "title": "Love2Socal Meetup Group Message Board",
+      "status": null
+    },
+    {
+      "url": "https://love2socal.com",
+      "title": "Lovable Board — community forum",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Love2Socal Meetup Group Message Board",
+  "summary": "Forum board of an AI meetup group for technologists and small business owners building apps with no-code and AI tools.",
+  "description": "A community message board for the Love2Socal meetup group, with categories for general discussion, announcements, help, feedback, events and a resources section of AI and development threads. Organisers are based in Ventura, North LA county, Orange County and San Diego.",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "keywords": [
+    "message board",
+    "community forum",
+    "meetup group",
+    "ai meetup",
+    "no code",
+    "vibe coding",
+    "discussion thread",
+    "small business",
+    "los angele",
+    "san diego",
+    "ai tool",
+    "web development"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

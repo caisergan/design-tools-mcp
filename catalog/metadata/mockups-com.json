@@ -1,0 +1,32 @@
+{
+  "id": "mockups-com",
+  "url": "https://mockups.com",
+  "kind": "site",
+  "hints_hash": "8a5a7b8c029c83bb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mockups.com", "title": "Online Mockup, Wireframe & UI Prototyping Tool | Moqups", "status": null},
+    {"url": "https://moqups.com/templates", "title": "Online Design & Workflow Templates | Moqups", "status": null},
+    {"url": "https://moqups.com/pricing", "title": "Pricing | Moqups", "status": null},
+    {"url": "https://moqups.com/faq", "title": "Frequently Asked Questions | Moqups", "status": null},
+    {"url": "https://moqups.com/templates/charts-graphs", "title": "Chart and Graph Templates | Moqups", "status": null},
+    {"url": "https://moqups.com/templates/wireframes-mockups", "title": "Free Wireframe Templates and Examples | Moqups", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Moqups",
+  "summary": "Browser wireframe, diagram and prototyping app: mockups, flowcharts, UML, charts and whiteboards with 150+ free templates.",
+  "description": "Online visual collaboration tool for UI and UX work. Drag-and-drop stencils and icon sets cover website and app wireframes, admin dashboards, flowcharts, UML diagrams, sitemaps and charts, with clickable prototypes, real-time editing and Slack, Google Drive and Dropbox integrations.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": ["dashboard", "chart"],
+  "keywords": ["wireframe tool", "mockup tool", "wireframe template", "prototype", "flowchart", "diagram", "uml", "whiteboard", "user flow", "sitemap", "mind map", "admin dashboard", "chart", "collaboration", "ui design"],
+  "contains": ["150+ free templates across wireframes, diagrams, planning and charts", "stencil kits: iOS, Android, Bootstrap; icon sets: Font Awesome, Material Design, Hawcons", "free plan: 2 projects, 400 objects; paid per-seat plans", "real-time collaboration and integrations with Slack, Google Drive and Dropbox", "used by 2,000,000 people"],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,73 @@
+{
+  "id": "dynamiclake-com",
+  "url": "https://dynamiclake.com",
+  "kind": "site",
+  "hints_hash": "70d873eb5ce0b9a0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dynamiclake.com",
+      "title": "DynamicLake - Dynamic Island Mac",
+      "status": null
+    },
+    {
+      "url": "https://www.dynamiclake.com/buy",
+      "title": "DynamicLake - Dynamic Island Mac",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "DynamicLake",
+  "summary": "macOS app that turns the MacBook notch into a Dynamic Island hub for music, notifications, calls, timers and files.",
+  "description": "A macOS app that adds a Dynamic Island-style interface to the MacBook notch: music controls, calendar and weather glances, calls, message notifications, drag-and-drop actions, file management, timers and Bluetooth device alerts. Includes a Liquid Glass style, a compact miniLake mode and plugins.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "dynamic island",
+    "macos app",
+    "macbook notch",
+    "notch",
+    "music control",
+    "notification",
+    "calendar",
+    "weather",
+    "call",
+    "drag and drop",
+    "file manager",
+    "airdrop",
+    "timer",
+    "liquid glass",
+    "bluetooth",
+    "productivity app"
+  ],
+  "contains": [
+    "macOS app that adds a Dynamic Island to the MacBook notch",
+    "features: music controls, calendar and weather, calls, notifications, drag & drop, timers",
+    "extra modules: DynaMusic, DynaGlance, DynaCall, DynaDrop, DynaClip, DynaConnect, miniLake and plugins",
+    "buy page powered by Gumroad",
+    "bundles FFmpeg code (LGPLv3.0) for audio/video conversion"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,32 @@
+{
+  "id": "radix-ui-com",
+  "url": "https://radix-ui.com",
+  "kind": "site",
+  "hints_hash": "555956a0e0ce6d65",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:31:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://radix-ui.com", "title": "Radix UI", "status": null},
+    {"url": "https://www.radix-ui.com/icons", "title": "Radix Icons", "status": null},
+    {"url": "https://www.radix-ui.com/themes/playground", "title": "Playground – Radix Themes", "status": null},
+    {"url": "https://www.radix-ui.com/primitives", "title": "Radix Primitives", "status": 200},
+    {"url": "https://www.radix-ui.com/themes/docs/components", "title": "Components – Radix Themes", "status": 200},
+    {"url": "https://www.radix-ui.com/primitives/docs/overview/introduction", "title": "Introduction – Radix Primitives", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Radix UI",
+  "summary": "Open-source React components: unstyled accessible primitives, a styled Themes library, a 15×15 icon set and a color system.",
+  "description": "Four things in one project: Primitives, unstyled accessible React components (Dialog, Dropdown Menu, Tooltip, Accordion, Popover); Themes, a styled component library built on them (Button, Card, Table, Tabs, Select, Progress); Icons, a crisp 15×15 set with SVG download, npm install and Figma; and Colors, an open-source color system with dark mode. Free and MIT licensed; install from npm or try the playground.",
+  "type": "component-library",
+  "categories": ["components", "icons", "color-effects"],
+  "elements": ["accordion", "alert", "avatar", "badge", "button", "card", "checkbox", "dropdown", "form", "input", "loader", "menubar", "modal", "navbar", "otp-input", "popover", "progress", "select", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["react component", "headless component", "unstyled component", "accessible component", "design system", "component library", "primitive", "icon set", "15x15 icon", "color system", "dark mode", "npm package", "dialog", "dropdown menu", "popover", "tooltip", "tabs", "select", "accordion", "toast", "otp input", "form", "open source", "playground"],
+  "contains": ["30 unstyled primitives incl. Dialog, Dropdown Menu, Tooltip, Accordion", "Themes: styled components incl. Button, Card, Table, Tabs, Select, Progress", "Icons: 15×15 set with npm install, SVG download and Figma", "Colors: open-source color system with dark mode variants", "made by WorkOS; MIT license"],
+  "formats": ["npm-package", "code", "svg", "figma-file", "docs"],
+  "stack": ["react", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://www.radix-ui.com/primitives/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

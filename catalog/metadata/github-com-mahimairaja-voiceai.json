@@ -1,0 +1,41 @@
+{
+  "id": "github-com-mahimairaja-voiceai",
+  "url": "https://github.com/mahimairaja/voiceai",
+  "kind": "repo",
+  "hints_hash": "72f0f3737bc6d756",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:20:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {
+      "url": "https://github.com/mahimairaja/voiceai/blob/HEAD/README.md",
+      "title": "Voice AI README",
+      "status": null
+    },
+    {
+      "url": "https://github.com/mahimairaja/voiceai",
+      "title": "GitHub - mahimairaja/voiceai: Set of links to help those building Voice AI agents",
+      "status": 200
+    },
+    {
+      "url": "https://voiceai.mahimai.ca",
+      "title": "Voice AI: A curated learning path for building real-time voice agents",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Voice AI",
+  "summary": "Curated learning path for building real-time voice AI agents, with 207 tagged resources across 21 sections.",
+  "description": "A path from your first STT call to production telephony: foundations, frameworks (LiveKit Agents, Pipecat, Vapi), speech-to-text, text-to-speech, LLMs for voice, VAD and turn-taking, audio enhancement, WebRTC, SIP, tutorials, starter repos, datasets, benchmarks, ethics and production concerns. Resources are tagged beginner, intermediate or advanced, and a companion book condenses the path.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["voice ai", "voice agent", "learning path", "speech-to-text", "text-to-speech", "stt", "tts", "llm", "vad", "turn detection", "webrtc", "telephony", "sip", "real-time", "livekit", "pipecat", "resource", "benchmark"],
+  "contains": ["207 curated resources across 21 sections", "tags: beginner 92, intermediate 81, advanced 6", "English and Chinese versions", "companion book: Voice Agents Handbook", "sections for frameworks, STT, TTS, VAD, WebRTC, SIP, tutorials and datasets", "companion website at voiceai.mahimai.ca"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mahimairaja/voiceai", "docs": "https://voiceai.mahimai.ca", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

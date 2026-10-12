@@ -1,0 +1,41 @@
+{
+  "id": "napkin-ai",
+  "url": "https://napkin.ai",
+  "kind": "site",
+  "hints_hash": "4f0f817334ec6168",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://napkin.ai/llms.txt", "title": "Napkin AI", "status": null},
+    {"url": "https://napkin.ai", "title": "Napkin AI - Turn Text into AI Diagrams and Visuals", "status": 200},
+    {"url": "https://www.napkin.ai/pricing", "title": "Pricing - Napkin AI", "status": 200},
+    {"url": "https://www.napkin.ai/about-us", "title": "About us - Napkin AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Napkin AI",
+  "summary": "Turns typed or pasted text into editable diagrams, mind maps, flowcharts, charts and slide decks.",
+  "description": "Text-to-visual generator: paste or type text and Napkin proposes editable diagrams, mind maps, flowcharts, timelines and data charts, plus full slide decks in the Slides beta. Results export as PNG, PDF, SVG or PPT, and a REST API returns generated visuals in 60+ languages. Free tier with 500 weekly credits; Plus and Pro add credits, exports and branding.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chart", "timeline"],
+  "keywords": [
+    "text to diagram", "diagram generator", "infographic generator", "mind map generator",
+    "flowchart generator", "chart generator", "timeline generator", "presentation generator",
+    "slide deck", "visual communication", "svg export", "ppt export", "business diagram", "developer api"
+  ],
+  "contains": [
+    "generators: visuals, slides (beta), timeline, chart, flowchart, mind map",
+    "exports: PPT, PNG, PDF, SVG",
+    "free tier: 500 AI credits per week",
+    "Plus $9 and Pro $22 per person per month, 25% off with annual billing",
+    "developer API returns PNG, SVG or PPT in 60+ languages",
+    "free plan includes unlimited PNG and PDF export and file import"
+  ],
+  "formats": ["app", "api", "svg", "png"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

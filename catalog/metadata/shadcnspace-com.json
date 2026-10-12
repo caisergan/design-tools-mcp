@@ -1,0 +1,161 @@
+{
+  "id": "shadcnspace-com",
+  "url": "https://shadcnspace.com",
+  "kind": "site",
+  "hints_hash": "60f2d6508578804e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcnspace.com/llms.txt",
+      "title": "ShadcnSpace",
+      "status": null
+    },
+    {
+      "url": "https://shadcnspace.com",
+      "title": "Shadcn UI Blocks, Templates, and Components | Free and Pro",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnspace.com/docs/getting-started/blocks",
+      "title": "How to use Shadcn Space Blocks ?",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnspace.com/templates",
+      "title": "12+ Shadcn Templates for React & Next.js | ShadcnSpace",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnspace.com/pricing",
+      "title": "Shadcn Space Pricing Explore Starter, Pro & Team Plans",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnspace.com/about-us",
+      "title": "About ShadcnSpace: Our Mission & Vision",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/shadcnspace/shadcnspace",
+      "title": "GitHub - shadcnspace/shadcnspace: Open-source shadcn/ui blocks, components, Templates and layouts built with React, Tailwind, Radix UI and Base UI.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ShadcnSpace",
+  "summary": "Free and Pro shadcn/ui blocks, components, dashboard layouts and templates for React and Next.js.",
+  "description": "A shadcn-format registry with 479+ blocks, 490+ components, 12 templates and 28+ pages for React and Next.js, including dashboard UI, marketing and authentication categories. Items install with the shadcn CLI or by copy-paste and are built on Base UI or Radix UI primitives with Tailwind CSS; a Pro tier adds animated blocks, a Figma kit and builder access.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "sidebar",
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "footer",
+    "dashboard",
+    "stats",
+    "chart",
+    "table",
+    "form",
+    "input",
+    "checkbox",
+    "switch",
+    "modal",
+    "drawer",
+    "popover",
+    "dropdown",
+    "toast",
+    "button",
+    "card",
+    "accordion",
+    "tabs",
+    "breadcrumbs",
+    "pagination",
+    "command-palette",
+    "dock",
+    "marquee",
+    "stepper",
+    "otp-input",
+    "progress",
+    "loader",
+    "chat"
+  ],
+  "keywords": [
+    "shadcn ui",
+    "shadcn block",
+    "shadcn registry",
+    "react component library",
+    "tailwind css",
+    "base ui",
+    "radix ui",
+    "nextjs",
+    "dashboard ui",
+    "admin dashboard",
+    "landing page section",
+    "hero section",
+    "navbar",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "footer",
+    "chart component",
+    "rechart",
+    "template",
+    "figma ui kit",
+    "copy paste component",
+    "shadcn cli",
+    "mcp server",
+    "animated component",
+    "dark mode"
+  ],
+  "contains": [
+    "479+ blocks, 490+ components, 12+ templates, 28+ pages",
+    "893 shadcn registry items",
+    "block categories: dashboard UI, marketing, authentication",
+    "Base UI and Radix UI primitives, styled with Tailwind CSS",
+    "free and Pro tiers; Pro adds Figma kit, builder and AI prompt copy",
+    "MCP server for agent-assisted edits"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "figma-file",
+    "templates",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "base-ui",
+    "radix",
+    "recharts",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcnspace/shadcnspace",
+    "docs": "https://shadcnspace.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

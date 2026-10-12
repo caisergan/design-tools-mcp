@@ -1,0 +1,75 @@
+{
+  "id": "beui-dev-components-motion-popover",
+  "url": "https://beui.dev/components/motion/popover",
+  "kind": "page",
+  "hints_hash": "706571411f559e22",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/components/motion/popover",
+      "title": "Popover · React motion component · beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Popover",
+  "summary": "Gooey React popover whose panel oozes out of the trigger, plus a Morph variant that clip-morphs open from the corner.",
+  "description": "A composable popover for React and Next.js: the panel stretches out of the trigger through an SVG goo filter with a liquid neck while crisp content fades in on top, and a MorphPopover variant lays the panel out full size, clipped to the trigger corner, then unclips as one surface. Props cover click or hover triggers, side and align, sideOffset (the neck length), panelRadius and gooStrength, all controlled or uncontrolled. Install from the beUI shadcn registry (@beui/popover, @beui/popover-morph) or copy the source.",
+  "type": "component-library",
+  "elements": [
+    "popover"
+  ],
+  "keywords": [
+    "popover",
+    "gooey popover",
+    "morph popover",
+    "floating panel",
+    "anchor positioning",
+    "overlay",
+    "react",
+    "nextjs",
+    "motion component",
+    "animated component",
+    "shadcn",
+    "tailwind",
+    "copy paste",
+    "svg goo filter",
+    "hover trigger"
+  ],
+  "contains": [
+    "Gooey Popover: panel oozes out of the trigger through an SVG goo filter with a liquid neck",
+    "Morph Popover: clip-morphs open from the trigger corner as one piece (popover-morph.tsx)",
+    "props: trigger click/hover, side, align, sideOffset (default 14), panelRadius, gooStrength",
+    "parts: Popover, PopoverTrigger, PopoverContent; MorphPopover, MorphPopoverTrigger, MorphPopoverContent",
+    "install: bunx --bun shadcn add @beui/popover and @beui/popover-morph",
+    "shared hooks and utils: use-dismiss, use-hover-gesture, use-tap-gesture, touch, ease",
+    "updated Oct 10, 2026"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "beui-dev"
+  },
+  "confidence": 0.85
+}

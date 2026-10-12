@@ -1,0 +1,24 @@
+{
+  "id": "ui-lukacho-com-components",
+  "url": "https://ui.lukacho.com/components",
+  "kind": "page",
+  "hints_hash": "79821e023dd3a48c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.lukacho.com/components", "title": "Lukacho UI | Components | Charts | Animations", "status": null},
+    {"url": "https://ui.lukacho.com/pricing", "title": "Pricing", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lukacho UI",
+  "summary": "Animated React UI components for landing pages: dropdowns, tabs, charts, pricing, cursors, backgrounds.",
+  "description": "A collection of animated UI components for React landing pages, built with Next.js, TailwindCSS and Framer Motion: dropdown menus, tab lists, an animated chart, animated pricing, background beams and lights, custom cursors, marquee, image swiper and more. Each component has a docs page with a live preview; the components are free and open source, with paid custom design services alongside.",
+  "type": "component-library",
+  "elements": ["accordion", "background", "chart", "carousel", "cursor", "dropdown", "loader", "marquee", "pricing", "tabs"],
+  "keywords": ["animated component", "react component", "nextjs", "tailwind css", "framer motion", "dropdown menu", "tab list", "animated chart", "pricing section", "custom cursor", "background effect", "marquee", "skeleton", "image swiper", "figma cursor", "landing page"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

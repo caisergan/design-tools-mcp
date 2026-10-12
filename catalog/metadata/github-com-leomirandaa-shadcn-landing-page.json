@@ -1,0 +1,33 @@
+{
+  "id": "github-com-leomirandaa-shadcn-landing-page",
+  "url": "https://github.com/leoMirandaa/shadcn-landing-page",
+  "kind": "repo",
+  "hints_hash": "b7077b87384feb85",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:03:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/leoMirandaa/shadcn-landing-page/blob/HEAD/README.md", "title": "Shadcn/UI Landing Page Template", "status": null},
+    {"url": "https://github.com/leoMirandaa/shadcn-landing-page/blob/HEAD/LICENSE", "title": "shadcn-landing-page/LICENSE at ae3716dbce5c8a26815222bb743994b5717938f1 · leoMirandaa/shadcn-landing-page · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn/UI Landing Page Template",
+  "summary": "React landing page template with 16 ready sections — navbar, hero, stats, pricing, testimonials, FAQ and more — on shadcn/ui.",
+  "description": "A landing page template for React built with shadcn/ui, TypeScript and Tailwind CSS. It ships the sections a product page needs — navbar, mobile sidebar, hero, sponsors, about, stats, how it works, features, services, CTA, testimonials, team, pricing, newsletter, FAQ and footer — fully responsive, with dark mode and meta tags.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["navbar", "sidebar", "hero", "logo-cloud", "stats", "features", "cta", "testimonials", "team", "pricing", "faq", "footer"],
+  "keywords": ["landing page template", "react", "shadcn ui", "tailwind css", "typescript", "navbar", "hero", "pricing", "testimonials", "faq", "footer", "dark mode", "responsive", "saas landing page", "marketing site", "newsletter"],
+  "contains": [
+    "16 sections: navbar, sidebar, hero, sponsors, stats, features, cta, testimonials, team, pricing, faq, footer",
+    "shadcn/ui components with React, TypeScript and Tailwind CSS",
+    "responsive design with dark mode and meta tags",
+    "live demo linked from the README"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/leoMirandaa/shadcn-landing-page", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,50 @@
+{
+  "id": "unpkg-com-lucide-latest",
+  "url": "https://unpkg.com/lucide@latest",
+  "kind": "page",
+  "hints_hash": "730b21f111a3c995",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "title": null,
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "lucide",
+  "summary": "UMD browser build of the Lucide open-source SVG icon set, served from unpkg's CDN.",
+  "description": "unpkg serves lucide.min.js, the UMD bundle of the Lucide icon package (v1.55.0): the icon set as inline SVG data — 24×24, stroke-based, currentColor, 2px stroke, round caps and joins — plus a createIcons() helper that replaces <i data-lucide=\"…\"> placeholders in a page and a camelCase name lookup (CircleCheck, AlarmClock …). Loadable with a single script tag; ISC-licensed.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": [
+    "icon set",
+    "svg icon",
+    "cdn",
+    "umd build",
+    "script tag",
+    "open source icon",
+    "stroke icon",
+    "icon library",
+    "javascript"
+  ],
+  "formats": ["code"],
+  "stack": ["javascript"],
+  "pricing": "free",
+  "license": "ISC",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": "lucide",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

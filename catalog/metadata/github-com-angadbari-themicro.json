@@ -1,0 +1,83 @@
+{
+  "id": "github-com-angadbari-themicro",
+  "url": "https://github.com/AngadBari/themicro",
+  "kind": "repo",
+  "hints_hash": "f4613ce73f316dbb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:00:41Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/AngadBari/themicro/blob/HEAD/README.md",
+      "title": "or",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/AngadBari/themicro",
+      "title": "GitHub - AngadBari/themicro: A curated library of premium micro-interactions, sounds, and transition components that make interfaces feel physical. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AngadBari/themicro/HEAD/package.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "themicro",
+  "summary": "Next.js repo for a library of micro-interactions, sounds and transition components.",
+  "description": "Repository of a curated micro-interaction, sound and transition component library, built as a Next.js 16 app with React 19, framer-motion, Tailwind CSS 4 and TypeScript; it ships AGENTS.md and CLAUDE.md for coding agents and a live demo at the-micro.vercel.app. The README is still the create-next-app starter text, the demo host did not respond, and the repo has no license file.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "micro interaction",
+    "transition",
+    "sound effect",
+    "animation",
+    "react",
+    "nextjs",
+    "framer motion",
+    "component library",
+    "ui component",
+    "hover effect",
+    "click feedback",
+    "motion design",
+    "tailwind",
+    "typescript"
+  ],
+  "contains": [
+    "Next.js 16 + React 19 app; framer-motion 13, Tailwind CSS 4, TypeScript",
+    "AGENTS.md and CLAUDE.md for AI coding agents",
+    "live demo at the-micro.vercel.app (did not respond on 2026-10-11)",
+    "34 commits, 18 stars, no license file",
+    "README is still the create-next-app boilerplate"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "framer-motion",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/AngadBari/themicro",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.65
+}

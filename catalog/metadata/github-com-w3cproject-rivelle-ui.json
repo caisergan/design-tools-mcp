@@ -1,0 +1,132 @@
+{
+  "id": "github-com-w3cproject-rivelle-ui",
+  "url": "https://github.com/w3cproject/rivelle-ui",
+  "kind": "repo",
+  "hints_hash": "922de2bc18b9167a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/w3cproject/rivelle-ui/blob/HEAD/README.md",
+      "title": "Rivelle",
+      "status": 200
+    },
+    {
+      "url": "https://rivelle.dev",
+      "title": "Rivelle — Own your interface",
+      "status": 200
+    },
+    {
+      "url": "https://rivelle.dev/docs/components",
+      "title": "Rivelle — Own your interface",
+      "status": 200
+    },
+    {
+      "url": "https://rivelle.dev/effects",
+      "title": "Effects | Rivelle",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Rivelle",
+  "summary": "Open-source shadcn registry of 55 React primitives, 11 motion effects and 8 blocks that installs editable source into your project.",
+  "description": "An editable component, effect and block registry for React and Next.js: 55 primitives from button and form controls to calendar, carousel, tag input, multi select, table and toast, 11 interactive effects (compare slider, cursor lens, ripple grid, tilt card, text scramble, magnetic button) and 8 application blocks for auth, marketing, dashboards and settings. Everything installs as source you own with the rivelle CLI or the shadcn CLI; Tailwind v4 OKLCH tokens, light and dark themes, server-component-safe by default, MIT licensed.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries",
+    "motion"
+  ],
+  "elements": [
+    "button",
+    "badge",
+    "input",
+    "card",
+    "switch",
+    "checkbox",
+    "select",
+    "tabs",
+    "alert",
+    "loader",
+    "avatar",
+    "tooltip",
+    "modal",
+    "drawer",
+    "dropdown",
+    "popover",
+    "command-palette",
+    "accordion",
+    "breadcrumbs",
+    "progress",
+    "slider",
+    "calendar",
+    "carousel",
+    "table",
+    "toast",
+    "form",
+    "cursor",
+    "text-effect",
+    "background",
+    "3d"
+  ],
+  "keywords": [
+    "shadcn",
+    "registry",
+    "react",
+    "nextjs",
+    "tailwind",
+    "component library",
+    "ui library",
+    "effect",
+    "motion",
+    "block",
+    "template",
+    "cli",
+    "editable source",
+    "copy paste",
+    "calendar",
+    "carousel",
+    "select",
+    "toast",
+    "cursor effect",
+    "text effect"
+  ],
+  "contains": [
+    "55 primitives, from button and form controls to calendar, carousel and table",
+    "11 effects: compare slider, cursor lens, gradient mesh, tilt card, shimmer button and more",
+    "8 blocks for authentication, marketing, dashboards and settings",
+    "rivelle CLI with init and add; shadcn CLI compatible",
+    "83 shadcn registry items",
+    "Tailwind v4 semantic tokens with OKLCH colors",
+    "Nova and Prism component styles, Geist or Inter fonts",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/w3cproject/rivelle-ui",
+    "docs": "https://rivelle.dev",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

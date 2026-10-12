@@ -1,0 +1,87 @@
+{
+  "id": "cuedesign-space",
+  "url": "https://cuedesign.space",
+  "kind": "site",
+  "hints_hash": "2b7e11aae8f93bca",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://cuedesign.space/llms.txt",
+      "title": "Cue",
+      "status": null
+    },
+    {
+      "url": "https://cuedesign.space",
+      "title": "Cue — the Awwwards-tier UI component library ($99 lifetime)",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Cue",
+  "summary": "Curated component library of hand-picked award-site interactions, each shipped with an AI prompt to rebuild it.",
+  "description": "A browsable library of component references picked by hand from Awwwards-winning sites, Behance-featured interactions and production outputs, covering cards, heroes, dropdowns, bento grids, 3D, carousels and more, filterable by tag and tier. Copy the AI prompt attached to a component into Bolt, v0, Cursor, Framer AI, ChatGPT or Claude to ship it; React source code and an MCP server are rolling out.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "inspiration"
+  ],
+  "elements": [
+    "card",
+    "features",
+    "dropdown",
+    "bento-grid",
+    "3d",
+    "carousel",
+    "modal",
+    "hero",
+    "command-palette",
+    "calendar",
+    "chart",
+    "button"
+  ],
+  "keywords": [
+    "ui component library",
+    "component reference",
+    "ai prompt",
+    "prompt library",
+    "react",
+    "awwward",
+    "hero",
+    "card",
+    "bento grid",
+    "carousel",
+    "modal",
+    "command palette",
+    "interaction",
+    "landing page"
+  ],
+  "contains": [
+    "54 library pages; card x10, features x3 plus hero, dropdown, bento grid, 3D, carousel, modal, command palette",
+    "each component ships an AI prompt for Bolt, v0, Cursor, Framer AI, ChatGPT and Claude",
+    "library filterable by tag and tier",
+    "free tier: browse the library + 2 AI-prompt copies per 24 hours",
+    "Cue+ one-time lifetime pricing: $99 founding (first 50 members), $249 standard",
+    "React source code and an MCP server are rolling out"
+  ],
+  "formats": [
+    "prompts",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

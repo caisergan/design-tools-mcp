@@ -1,0 +1,122 @@
+{
+  "id": "github-com-mui-material-ui",
+  "url": "https://github.com/mui/material-ui",
+  "kind": "repo",
+  "hints_hash": "9dac8f639b87aae0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/mui/material-ui/blob/HEAD/README.md",
+      "title": null,
+      "status": null
+    },
+    {
+      "url": "https://mui.com/material-ui/all-components/",
+      "title": "Material UI components - Material UI",
+      "status": 200
+    },
+    {
+      "url": "https://mui.com/material-ui/react-menu/",
+      "title": "React Menu component - Material UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/mui/material-ui",
+      "title": "GitHub - mui/material-ui: Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Material UI",
+  "summary": "React component library implementing Google's Material Design, with around 50 components plus layout and lab extras.",
+  "description": "Material UI implements Google's Material Design in React: inputs (autocomplete, button, checkbox, select, slider, switch, text field), data display (avatar, badge, list, table, tooltip), feedback (alert, dialog, progress, skeleton, snackbar), surfaces (accordion, app bar, card) and navigation (breadcrumbs, drawer, menu, pagination, stepper, tabs), plus layout primitives and lab components like masonry and timeline. Core functionality is extended by the separate MUI X suite for advanced use cases.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "checkbox",
+    "drawer",
+    "dropdown",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "timeline",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "react",
+    "react component",
+    "component library",
+    "material design",
+    "material ui",
+    "mui",
+    "design system",
+    "ui kit",
+    "frontend",
+    "button",
+    "text field",
+    "select",
+    "dialog",
+    "data table",
+    "slider",
+    "switch",
+    "accordion",
+    "tabs",
+    "toast",
+    "tooltip",
+    "app bar"
+  ],
+  "contains": [
+    "around 50 components across inputs, data display, feedback, surface, navigation and layout",
+    "lab components include masonry and timeline",
+    "core extended by MUI X for advanced use cases",
+    "free forever; MIT license",
+    "99.2k stars, 32.5k forks on GitHub",
+    "independent implementation of Google's Material Design",
+    "docs, examples and premium templates linked from the repo"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/mui/material-ui",
+    "docs": "https://mui.com/material-ui/",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,80 @@
+{
+  "id": "notebooklm-google-com",
+  "url": "https://notebooklm.google.com",
+  "kind": "site",
+  "hints_hash": "fb459fe3211cab9d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://notebooklm.google.com",
+      "title": "Gemini Notebook",
+      "status": 200
+    },
+    {
+      "url": "https://notebook.google.com/download",
+      "title": "Gemini Notebook",
+      "status": 200
+    },
+    {
+      "url": "https://support.google.com/gemininotebook/",
+      "title": "Gemini Notebook Help",
+      "status": 200
+    },
+    {
+      "url": "https://support.google.com/gemininotebook/answer/16213268",
+      "title": "Learn about Gemini Notebook’s plans - Gemini Notebook Help",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Gemini Notebook",
+  "summary": "AI research assistant from Google that turns your documents into slide decks, mind maps, audio overviews and video overviews.",
+  "description": "Research and note-taking assistant built on Gemini models and grounded in the sources you add. You can chat with a notebook and generate mind maps, slide decks, reports, audio overviews and video overviews. The Standard tier is free; Plus, Pro and Ultra upgrades come through Google AI plans.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "chat"
+  ],
+  "keywords": [
+    "ai research assistant",
+    "note taking app",
+    "document summarization",
+    "chat with document",
+    "mind map",
+    "audio overview",
+    "video overview",
+    "slide deck",
+    "research tool",
+    "study note",
+    "gemini"
+  ],
+  "contains": [
+    "turns files into slide decks, mind maps, reports, audio overviews and video overviews",
+    "chat grounded in the sources you add",
+    "free Standard tier; Plus, Pro and Ultra via Google AI plans",
+    "web app with sign-in plus a downloadable app",
+    "built on the latest Gemini models"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

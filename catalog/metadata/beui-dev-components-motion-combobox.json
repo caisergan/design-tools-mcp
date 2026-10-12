@@ -1,0 +1,76 @@
+{
+  "id": "beui-dev-components-motion-combobox",
+  "url": "https://beui.dev/components/motion/combobox",
+  "kind": "page",
+  "hints_hash": "052a9edac39eec8d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/components/motion/combobox",
+      "title": "Animated Combobox · React Component · beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Animated Combobox",
+  "summary": "Animated React combobox with a morphing portal, grouped filtering, keyboard navigation and controlled or uncontrolled state.",
+  "description": "A composable React combobox that pairs a searchable input with a filtered, portalled listbox while keeping focus in the input. Parts cover trigger, input, list, group, item, label, separator, empty state and value; props cover open, query, value and a custom filter, all controlled or uncontrolled. Install with the shadcn CLI (shadcn add @beui/combobox) or copy the TSX source; the page includes the API reference and the shared ease and utils files.",
+  "type": "component-library",
+  "elements": [
+    "select"
+  ],
+  "keywords": [
+    "combobox",
+    "select",
+    "searchable select",
+    "autocomplete",
+    "listbox",
+    "animated component",
+    "motion component",
+    "react",
+    "nextjs",
+    "shadcn",
+    "tailwind",
+    "keyboard navigation",
+    "grouped filtering",
+    "controlled component",
+    "copy paste",
+    "portalled overlay"
+  ],
+  "contains": [
+    "composable parts: trigger, input, list, group, item, label, separator, empty, value",
+    "searchable input with grouped filtering and keyboard navigation; portalled listbox",
+    "controlled or uncontrolled value, open and query state",
+    "install: bunx --bun shadcn add @beui/combobox, or copy the source",
+    "shared files: lib/utils.ts, lib/ease.ts and combobox internals (content, context, list, trigger)",
+    "preview file components/previews/motion/combobox.preview.tsx",
+    "updated Aug 22, 2026"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "beui-dev"
+  },
+  "confidence": 0.85
+}

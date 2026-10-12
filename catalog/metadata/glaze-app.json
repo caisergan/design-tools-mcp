@@ -1,0 +1,73 @@
+{
+  "id": "glaze-app",
+  "url": "https://glaze.app",
+  "kind": "site",
+  "hints_hash": "4123640ba567fe6a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.glaze.app/",
+      "title": "Glaze — Build and Share Mac Apps with AI",
+      "status": 200
+    },
+    {
+      "url": "https://www.glaze.app/pricing",
+      "title": "Glaze Pricing — Plans for building desktop apps with AI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Glaze",
+  "summary": "Mac app that builds local-first desktop apps by chatting with AI agents, then publishes or shares them with a team.",
+  "description": "Glaze builds macOS desktop apps from plain-language prompts with an AI agent. Apps run locally on the machine and their sources live in regular folders that can be opened with Claude Code, Cursor, Codex or any editor. Finished apps can be published to the public Glaze Store, shared unlisted, or distributed through a private Team Store. Free tier with your own Claude subscription; Pro $10/month. Requires macOS Tahoe and Apple Silicon.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "desktop app builder",
+    "ai app builder",
+    "prompt to app",
+    "local first",
+    "macos",
+    "agent",
+    "menu bar app",
+    "internal tool",
+    "automation",
+    "app store",
+    "team tool",
+    "claude",
+    "credit",
+    "build app"
+  ],
+  "contains": [
+    "build Mac apps by describing them; the agent annotates changes and edits in-app",
+    "apps are local-first: they run on the machine and can work offline",
+    "app sources are plain folders, openable with Claude Code, Cursor, Codex or any agent",
+    "public Glaze Store for browsing, installing and publishing apps; Team Stores free during Beta",
+    "plans: Free (own Claude subscription + 50 welcome credits), Pro $10/month, Team Stores free in Beta",
+    "requires macOS Tahoe and Apple Silicon; Windows and Linux planned",
+    "1,930 sitemap URLs including store app pages"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

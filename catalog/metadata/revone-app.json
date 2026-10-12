@@ -1,0 +1,31 @@
+{
+  "id": "revone-app",
+  "url": "https://revone.app",
+  "kind": "site",
+  "hints_hash": "548b2cff6665ab42",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://revone.app", "title": "Revone — All Your Revenue in One Place for macOS", "status": null},
+    {"url": "https://revone.app/docs", "title": "Documents — Revone", "status": null},
+    {"url": "https://revone.app/docs/creem", "title": "Creem — Revone", "status": null},
+    {"url": "https://revone.app/docs/polar", "title": "Polar — Revone", "status": null},
+    {"url": "https://revone.app/docs/paddle", "title": "Paddle — Revone", "status": null}
+  ],
+  "status": "ok",
+  "name": "Revone",
+  "summary": "macOS app that unifies revenue from Stripe, Gumroad, Lemon Squeezy, Paddle and other payment providers.",
+  "description": "Native macOS app that connects 12 payment providers — Stripe, Gumroad, Lemon Squeezy, Polar, Paddle, RevenueCat, Shopify and more — and shows orders, subscribers, a revenue calendar, top countries and menu bar stats in one dashboard. One-time purchase; API keys stay in the macOS Keychain.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["dashboard", "chart", "calendar", "globe", "timeline", "stats"],
+  "keywords": ["revenue tracker", "sales dashboard", "subscription tracker", "macos app", "menu bar app", "widget", "payment provider", "revenue analytics", "indie developer", "one-time purchase", "sales analytics"],
+  "contains": ["12 payment provider integrations (Stripe, Gumroad, Lemon Squeezy, Paddle, RevenueCat, Shopify …)", "revenue calendar, orders timeline and subscriber overview", "interactive 3D globe of purchase locations and top countries", "macOS menu bar stats and widgets", "one-time purchase $19 (regular $29); requires macOS Sonoma 14.0+", "per-provider setup docs; API keys stored in macOS Keychain"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://revone.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

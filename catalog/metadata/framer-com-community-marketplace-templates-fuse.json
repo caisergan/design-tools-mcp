@@ -1,0 +1,37 @@
+{
+  "id": "framer-com-community-marketplace-templates-fuse",
+  "url": "https://framer.com/community/marketplace/templates/fuse",
+  "kind": "page",
+  "hints_hash": "b2f5a519bd7e4bdd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/community/marketplace/templates/fuse", "title": "Fuse — Website Template for Framer", "status": 200},
+    {"url": "https://www.framer.com/marketplace/templates/fuse/", "title": "Fuse — Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fuse",
+  "summary": "Premium Framer template for fintech SaaS and finance startups: 24 pages, dashboard UI, product pages and an editable Figma file.",
+  "description": "A Framer marketplace template by Flexbuildr for finance platforms, spend management tools, neobanks and payment products. It ships 24 pages including four product pages, a pricing page with 3-tier comparison, a security and compliance page, customer stories and About/Careers/Contact, plus 3 CMS collections, global color and font styles and responsive, SEO-ready layouts. Comes with an editable Figma design file, lifetime updates and support.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "pricing", "testimonials", "contact"],
+  "keywords": ["framer template", "fintech template", "saas template", "finance website", "startup template", "landing page template", "dashboard ui", "website template", "neobank", "payment product", "pricing page", "cms", "figma file", "no code", "premium template"],
+  "contains": [
+    "$129 premium Framer template by Flexbuildr; instant access via remix link",
+    "24 professionally designed pages; 3 CMS collections",
+    "4 product pages: Expense Management, Budget Control, Payments & Invoicing, Accounting Sync",
+    "pricing page with 3-tier comparison; security and compliance page (SOC 2, PCI DSS, ISO 27001, GDPR)",
+    "customer stories with real metrics; About, Careers and Contact pages",
+    "editable Figma design file included",
+    "responsive and SEO-ready with meta titles and descriptions on every page",
+    "single-use license; free lifetime updates and support"
+  ],
+  "formats": ["framer-file", "figma-file"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.9
+}

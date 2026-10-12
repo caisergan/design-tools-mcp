@@ -1,0 +1,34 @@
+{
+  "id": "github-com-anthropics-claude-code-security-review",
+  "url": "https://github.com/anthropics/claude-code-security-review",
+  "kind": "repo",
+  "hints_hash": "263a2f555938df4f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/anthropics/claude-code-security-review/blob/HEAD/README.md", "title": "Claude Code Security Reviewer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude Code Security Reviewer",
+  "summary": "GitHub Action that uses Claude to review pull request diffs for security vulnerabilities and comment findings on the PR.",
+  "description": "AI-powered security review GitHub Action. For pull requests it analyzes only the changed files, posts findings as review comments with severity and remediation, and filters common false positives such as DoS and open redirects. Inputs cover API key, model, excluded directories, timeout and custom scan instructions; a /security-review command brings the same analysis into Claude Code.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["security review", "github action", "claude", "pull request", "vulnerability", "sast", "sql injection", "xss", "code review", "ai", "ci", "authentication", "secret"],
+  "contains": [
+    "diff-aware scanning of pull request changes",
+    "posts findings as PR review comments",
+    "detects injection, auth flaws, XSS, hardcoded secrets, RCE, supply chain risks",
+    "false-positive filtering (DoS, rate limiting, open redirects)",
+    "inputs: claude-api-key, claude-model (Opus 4.1 default), claudecode-timeout, exclude-directories",
+    "/security-review slash command for Claude Code"
+  ],
+  "formats": ["code", "prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/anthropics/claude-code-security-review", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,41 @@
+{
+  "id": "letterboxx-app",
+  "url": "https://letterboxx.app",
+  "kind": "site",
+  "hints_hash": "789778dc476f6730",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://letterboxx.app/llms.txt", "title": "Letterboxx", "status": null},
+    {"url": "https://letterboxx.app", "title": "Letterboxx: Newsletter Reader for Mac", "status": 200},
+    {"url": "https://letterboxx.app/guide/how-letterboxx-works", "title": "How Letterboxx Works | Newsletter Reader Guide", "status": 200},
+    {"url": "https://letterboxx.app/faq", "title": "Frequently Asked Questions | Letterboxx", "status": 200},
+    {"url": "https://letterboxx.app/guide/clean-view-newsletters", "title": "Clean View for Newsletters | Letterboxx Guide", "status": 200},
+    {"url": "https://letterboxx.app/guide/newsletter-backup-restore", "title": "Newsletter Backup and Restore | Letterboxx Guide", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Letterboxx",
+  "summary": "Mac app that turns email newsletters into a local reading library with collections, highlights and a cleaner reading view.",
+  "description": "Letterboxx connects to Gmail, iCloud Mail, Outlook, DreamHost or any IMAP account, imports newsletter copies from the mail folders you pick, and gives them a local reading library: Letterboxxes collections, Auto-Delivery rules that sort senders automatically, Clean View for cluttered newsletter HTML, highlights, reminders and encrypted backups. It is a dedicated newsletter reader for macOS, not an email client — originals stay in the mailbox. 14-day free trial.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["newsletter reader", "email newsletter", "reading library", "newsletter app", "macos", "gmail", "imap", "read later", "highlight", "clean view", "backup", "inbox", "newsletter organizer"],
+  "contains": [
+    "imports newsletter copies from Gmail, iCloud Mail, Outlook, DreamHost or any standard IMAP account",
+    "Letterboxxes collections, Smart Filters and Auto-Delivery routing rules",
+    "Clean View trims trackers, ads, embeds and messy email HTML",
+    "highlights, reading reminders, dashboard and message diagnostics",
+    "encrypted local backups of newsletters, rules, highlights and settings",
+    "reader themes: light, dark, e-ink, newspaper and more",
+    "14-day free trial; Mac App Store app",
+    "42 sitemap URLs; ships an llms.txt"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://letterboxx.app/user-guide", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

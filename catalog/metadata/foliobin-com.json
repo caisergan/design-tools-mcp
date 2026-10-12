@@ -1,0 +1,67 @@
+{
+  "id": "foliobin-com",
+  "url": "https://foliobin.com",
+  "kind": "site",
+  "hints_hash": "9b21c8811d71a5fe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://foliobin.com",
+      "title": "Foliobin by Nikita Petrov",
+      "status": null
+    },
+    {
+      "url": "https://foliobin.com/about",
+      "title": "About — Foliobin by Nikita Petrov",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Foliobin",
+  "summary": "Curated gallery of portfolios by designers behind products like Anthropic, Figma, OpenAI and Spotify, with video previews.",
+  "description": "A curated gallery of portfolio websites by designers from OpenAI, Anthropic, Perplexity, T-Bank and other product teams, built by Nikita Petrov. Entries carry video previews and an AI search that finds a similar portfolio from a picture; submissions are reviewed by hand (about one in four are accepted) and a Tuesday digest mails five picks.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "portfolio",
+    "portfolio gallery",
+    "designer portfolio",
+    "portfolio inspiration",
+    "product designer",
+    "portfolio example",
+    "personal website",
+    "design gallery",
+    "curated portfolios"
+  ],
+  "contains": [
+    "1,162 portfolio entries in the sitemap",
+    "video previews on entries",
+    "AI search that finds a similar portfolio from a picture",
+    "hand-reviewed submissions, about 1 in 4 accepted",
+    "weekly Tuesday digest email with five picks"
+  ],
+  "formats": [
+    "links",
+    "video"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

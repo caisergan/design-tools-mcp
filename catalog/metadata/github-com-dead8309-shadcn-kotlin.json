@@ -1,0 +1,28 @@
+{
+  "id": "github-com-dead8309-shadcn-kotlin",
+  "url": "https://github.com/dead8309/shadcn-kotlin",
+  "kind": "repo",
+  "hints_hash": "fec95551d03ef6e7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/dead8309/shadcn-kotlin/blob/HEAD/README.md", "title": "shadcn-kotlin", "status": null},
+    {"url": "https://shadcn-kotlin.vercel.app/docs", "title": "Shadcn Kotlin", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-kotlin",
+  "summary": "Unofficial Kotlin/JS port of shadcn/ui built on Kobweb: 38 accessible components with theming and dark mode.",
+  "description": "Unofficial Kotlin port of shadcn/ui for the Kotlin/JS ecosystem, built with Kobweb and styled with Tailwind CSS through the tailwind-kt Gradle plugin. The documentation covers installation, theming, dark mode, typography, a community Figma file and an example page for each of its 38 components, from accordion, alert dialog and combobox to date picker, menubar, table, tabs, toast and tooltip (Radix UI and Tailwind CSS are named as the base). Runs inside a Kobweb project. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "button", "calendar", "card", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "input", "loader", "menubar", "modal", "navbar", "popover", "progress", "select", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["kotlin", "kotlin/js", "kotlinjs", "kobweb", "shadcn", "component library", "ui library", "react", "tailwind", "dark mode", "theming", "port", "web ui"],
+  "contains": ["38 components incl. accordion, alert dialog, combobox, date picker, table, tabs, toast and tooltip", "docs pages for installation, theming, dark mode and typography", "example page per component", "built with Kobweb on Kotlin/JS; Tailwind via the tailwind-kt Gradle plugin", "community Figma link", "MIT license"],
+  "formats": ["code", "docs"],
+  "stack": ["kotlin", "kobweb", "react", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/dead8309/shadcn-kotlin", "docs": "https://shadcn-kotlin.vercel.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

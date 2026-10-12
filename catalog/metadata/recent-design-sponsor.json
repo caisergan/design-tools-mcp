@@ -1,0 +1,19 @@
+{
+  "id": "recent-design-sponsor",
+  "url": "https://recent.design/sponsor",
+  "kind": "page",
+  "hints_hash": "e18f7b74b9c3a591",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://recent.design/sponsor", "title": "Sponsor Recent", "status": null}
+  ],
+  "status": "ok",
+  "name": "Sponsor Recent",
+  "summary": "Sponsorship page for Recent: a 30-day campaign in the design feeds, site header and sidebar for $5,000.",
+  "description": "The media kit for sponsoring Recent, a design links site with 250k+ monthly visitors and 900k+ pageviews. A 30-day campaign places the sponsor in the popular design feeds, the sponsor wall in the site header and the desktop sidebar, with 300k+ guaranteed impressions and live performance reporting.",
+  "keywords": ["sponsorship", "advertising", "sponsor", "design audience", "media kit", "campaign", "impression", "design community", "site sponsor", "sponsor slot"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "recent-design"},
+  "confidence": 0.85
+}

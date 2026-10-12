@@ -1,0 +1,27 @@
+{
+  "id": "skills-sh-anthropics-knowledge-work-plugins-competitive-analysis",
+  "url": "https://skills.sh/anthropics/knowledge-work-plugins/competitive-analysis",
+  "kind": "page",
+  "hints_hash": "945cb3a5573b547e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/anthropics/knowledge-work-plugins/competitive-analysis", "title": "competitive-analysis — anthropics/knowledge-work-plugins", "status": null},
+    {"url": "https://www.skills.sh/anthropics/knowledge-work-plugins/competitive-analysis", "title": "competitive-analysis — anthropics/knowledge-work-plugins", "status": 200}
+  ],
+  "status": "ok",
+  "name": "competitive-analysis",
+  "summary": "Agent skill with frameworks and methodologies for researching competitors, comparing positioning and finding market opportunities.",
+  "description": "SKILL.md from the anthropics/knowledge-work-plugins pack: a competitive research methodology that gathers intelligence from primary sources (competitor website, blog and resource center, social profiles, product demos, webinars and events, press releases) and turns it into comparisons of positioning, messaging, content strategy and market presence. The skill is for analyzing a competitor or building battlecards.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": ["competitive analysis", "competitor research", "battlecard", "positioning", "market research", "messaging", "content strategy", "market presence", "agent skill", "claude code", "prompt"],
+  "contains": ["SKILL.md from the anthropics/knowledge-work-plugins pack", "research sources: competitor website, blog, social profiles, demos, webinars, press releases", "compares positioning, messaging, content strategy and market presence", "use cases: competitor analysis and battlecards"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.8
+}

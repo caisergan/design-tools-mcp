@@ -1,0 +1,17 @@
+{
+  "id": "velvetyne-fr",
+  "url": "https://velvetyne.fr",
+  "kind": "site",
+  "hints_hash": "d79d7a5b02bc4142",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://velvetyne.fr", "title": "Velvetyne", "status": null},
+    {"url": "https://velvetyne.fr/", "title": "Velvetyne", "status": 200},
+    {"url": "https://velvetyne.fr/fonts/", "title": null, "status": 500},
+    {"url": "https://velvetyne.fr/about/", "title": null, "status": 500}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

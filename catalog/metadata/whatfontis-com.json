@@ -1,0 +1,85 @@
+{
+  "id": "whatfontis-com",
+  "url": "https://whatfontis.com",
+  "kind": "site",
+  "hints_hash": "ff0cf7161319579f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://whatfontis.com",
+      "title": "Font Finder by WhatFontIs 🔎 Identify fonts by image",
+      "status": null
+    },
+    {
+      "url": "https://whatfontis.com/getting-started.html",
+      "title": "Getting Started - How it works",
+      "status": null
+    },
+    {
+      "url": "https://whatfontis.com/examples.html",
+      "title": "Good versus bad examples",
+      "status": null
+    },
+    {
+      "url": "https://whatfontis.com/about.html",
+      "title": "About | What is WhatFontIs?",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "WhatFontIs",
+  "summary": "Font finder: upload an image of text and AI matches it against 1.2M+ free and commercial fonts.",
+  "description": "Identify a font from any image: upload, paste or drop a picture, optionally split letters in the built-in image editor, and the AI returns an exact match or 60+ similar fonts with links to free downloads or commercial licences. The site also hosts a browsable font database, a webfont generator, font pairing and PDF font tools. Free plan identifies up to 5 fonts per day; PRO membership gives unlimited ad-free searches, richer results and API access.",
+  "type": "tool",
+  "categories": [
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "font finder",
+    "identify font",
+    "font identifier",
+    "font from image",
+    "what font",
+    "font recognition",
+    "font database",
+    "free font",
+    "commercial font",
+    "font download",
+    "chrome extension",
+    "font api",
+    "typography",
+    "similar font"
+  ],
+  "contains": [
+    "1,200,000+ fonts indexed, free and commercial",
+    "60+ similar font matches per search",
+    "free plan: 5 identifications per day",
+    "PRO: unlimited searches, up to 100 results, no ads",
+    "image editor to split letters and adjust contrast",
+    "Chrome extension for fonts on web pages",
+    "API for developers",
+    "webfont generator, font pairing and PDF font finder tools"
+  ],
+  "formats": [
+    "links",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

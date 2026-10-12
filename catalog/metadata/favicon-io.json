@@ -1,0 +1,33 @@
+{
+  "id": "favicon-io",
+  "url": "https://favicon.io",
+  "kind": "site",
+  "hints_hash": "67a4ad2a09736067",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://favicon.io", "title": "The Best Free Favicon Generator - favicon.ico and App Icons - favicon.io", "status": null}
+  ],
+  "status": "ok",
+  "name": "Favicon.io",
+  "summary": "Free favicon generator that turns text, an image, SVG or an emoji into a full icon package.",
+  "description": "Free online generators that turn text or initials, an uploaded image, an SVG or any of hundreds of emoji into a favicon. Each tool returns one download with favicon.ico, PNG icons, Apple Touch Icon, Android icons and a site.webmanifest; a converter and a favicon checker handle existing icons, and tutorials cover favicon sizes, HTML, WordPress, Shopify and Squarespace.",
+  "type": "generator",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["favicon", "favicon generator", "favicon.ico", "ico", "png icon", "apple touch icon", "android icon", "emoji favicon", "text favicon", "svg favicon", "site manifest", "favicon converter", "favicon checker", "favicon size", "web app icon", "wordpress favicon"],
+  "contains": [
+    "generators from image, text or initials, SVG and hundreds of emoji",
+    "one download with favicon.ico, PNG icons, Apple Touch Icon, Android icons and site.webmanifest",
+    "converter and favicon checker for existing icons",
+    "tutorials: favicon sizes, what is a favicon, HTML, WordPress, Shopify, Squarespace",
+    "site in English and Spanish"
+  ],
+  "formats": ["png", "svg"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

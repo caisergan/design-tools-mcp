@@ -1,0 +1,38 @@
+{
+  "id": "cursor-com",
+  "url": "https://cursor.com",
+  "kind": "site",
+  "hints_hash": "e07e88dc5085dd97",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cursor.com/llms.txt", "title": "Cursor Documentation", "status": null},
+    {"url": "https://cursor.com", "title": "AI Coding Agent for Building Ambitious Software | Cursor", "status": 200},
+    {"url": "https://cursor.com/pricing", "title": "Cursor · Pricing", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cursor",
+  "summary": "AI coding agent and code editor: agents write, test and review code across desktop, CLI, Slack, GitHub and the cloud.",
+  "description": "Cursor is an AI coding agent built to write software: a desktop editor and CLI where agents take tasks from planned steps to running code, plus cloud agents that run in parallel, each with its own computer to build, test and demo features for review. It indexes codebases for semantic search, and runs in your terminal, Slack and GitHub (reviewing PRs). Customization covers rules, skills, subagents, hooks and MCP, with a model picker spanning Claude, Gemini, GPT, Grok and Cursor's own Composer models.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai code editor", "coding agent", "code completion", "codebase indexing", "semantic search", "cloud agent", "cli", "code review", "pull request", "terminal", "mcp", "agent skill", "subagent", "pair programming", "ide", "developer tool", "automation", "slack"],
+  "contains": [
+    "AI coding agent in a desktop editor, plus CLI, web, Slack and GitHub",
+    "cloud agents run in parallel, each with its own computer to build, test and demo",
+    "codebase indexing and semantic search; context-aware completions",
+    "reviews PRs in GitHub and collaborates in Slack",
+    "Grok Bot: bots sign in to your tools and come back with finished work",
+    "customization: rules, skills, subagents, hooks, MCP, plugins",
+    "agent modes: plan, debug, design; tools: terminal, browser, search, canvas",
+    "pricing: free Hobby; Pro from $20/mo; Teams $40/user/mo; Enterprise custom"
+  ],
+  "formats": ["app", "cli", "docs", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://cursor.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

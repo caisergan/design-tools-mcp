@@ -1,0 +1,29 @@
+{
+  "id": "github-com-olliethedev-multiboard",
+  "url": "https://github.com/olliethedev/multiboard",
+  "kind": "repo",
+  "hints_hash": "1defe4bd5455671e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:00:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/olliethedev/multiboard/blob/HEAD/README.md", "title": "Multiboard - Open-Source Kanban for Modern Teams", "status": 200},
+    {"url": "https://github.com/olliethedev/multiboard", "title": "GitHub - olliethedev/multiboard: Minimal Kanban platform with authentication, multi-tenant organizations, and kanban boards.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/olliethedev/multiboard/HEAD/package.json", "title": "multiboard/package.json", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Multiboard",
+  "summary": "Self-hostable Kanban platform for teams: drag-and-drop boards, multi-organization auth and auto-generated APIs.",
+  "description": "A minimal Kanban platform you run yourself, built with Next.js, better-auth, Prisma, ZenStack and shadcn/ui. Drag-and-drop boards with unlimited columns, real-time collaboration, multi-organization support, rich text task descriptions, file attachments, notifications, and an admin blog. ZenStack generates type-safe REST APIs with an OpenAPI schema and Scalar documentation; deploys to Vercel or your own infrastructure. MIT licensed.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["kanban", "form", "input", "file-upload", "toast", "avatar", "dropdown", "modal", "popover", "select", "checkbox", "switch", "tooltip", "command-palette", "otp-input", "calendar", "date-picker", "accordion"],
+  "keywords": ["kanban", "kanban board", "task management", "drag and drop", "multi-tenant", "organization", "better auth", "prisma", "zenstack", "nextjs", "react", "shadcn ui", "tailwind", "self-hosted", "open source", "vercel", "rest api", "openapi"],
+  "contains": ["drag-and-drop kanban boards with unlimited columns", "multi-organization: manage multiple teams in one place", "real-time collaboration with comments and notifications", "rich text task descriptions (Tiptap) and file attachments", "auto-generated type-safe REST APIs with OpenAPI schema and Scalar docs", "admin blog post management with draft posts", "deploys to Vercel or self-hosted infrastructure", "MIT licensed"],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn-ui", "prisma", "zenstack", "better-auth", "tanstack-query", "dnd-kit", "tiptap", "radix", "resend", "zod", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/olliethedev/multiboard", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

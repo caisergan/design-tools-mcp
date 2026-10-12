@@ -1,0 +1,28 @@
+{
+  "id": "blocks-lander-studio",
+  "url": "https://blocks.lander.studio",
+  "kind": "site",
+  "hints_hash": "1f4a1e8f21524cd4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://blocks.lander.studio", "title": "Free Figma Design Resources for Designers", "status": null},
+    {"url": "https://blocks.lander.studio", "title": "Free Figma Design Resources for Designers", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Figma Blocks",
+  "summary": "Free Figma blocks - website sections, app screens, dashboards and logos - to copy into your files.",
+  "description": "A free Figma library by Lander Studio of ready-made blocks: website sections, app screens, dashboards and logos. Browse a block, copy it into your own Figma file and build layouts without starting from a blank canvas.",
+  "type": "component-library",
+  "categories": ["components", "sections"],
+  "elements": ["dashboard"],
+  "keywords": ["figma block", "figma ui kit", "free figma resource", "website section", "landing page section", "app screen", "dashboard design", "logo", "ui component", "copy paste design", "design resource"],
+  "contains": ["free Figma blocks: website sections, app screens, dashboards and logos", "copy blocks into your own Figma file", "by Lander Studio", "browsing needs a screen wider than 1020px"],
+  "formats": ["figma-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

@@ -1,0 +1,105 @@
+{
+  "id": "otf-kit-dev-components",
+  "url": "https://otf-kit.dev/components",
+  "kind": "page",
+  "hints_hash": "d7072b344db12484",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://otf-kit.dev/components",
+      "title": "Components — OTF | OTF",
+      "status": 200
+    },
+    {
+      "url": "https://otf-kit.dev",
+      "title": "OTF — Full-stack app templates for web + mobile",
+      "status": 200
+    },
+    {
+      "url": "https://otf-kit.dev/llms.txt",
+      "title": "OTF — Cross-platform Templates for Expo + Next.js",
+      "status": 200
+    },
+    {
+      "url": "https://otf-kit.dev/pricing",
+      "title": "Pricing | OTF",
+      "status": 200
+    },
+    {
+      "url": "https://otf-kit.dev/docs/getting-started",
+      "title": "Getting started | OTF",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "OTF Components",
+  "summary": "Catalog of 109 cross-platform UI components (90 web, 19 React Native) with live previews; free SDK, paid kits.",
+  "description": "The components catalog of OTF's SDK: 90 web components for React (Next.js, Vite, Remix) and 19 React Native components for Expo, dark-first, all with live previews, plus 17 token themes. The components are free and open source (MIT) and ship as npm packages under @otfdashkit/*; the same site sells $9 landing templates and $99+ full-stack kits.",
+  "type": "component-library",
+  "elements": [
+    "card",
+    "badge",
+    "input",
+    "list",
+    "button",
+    "tabs",
+    "modal",
+    "sidebar",
+    "chart",
+    "select",
+    "stepper",
+    "avatar"
+  ],
+  "keywords": [
+    "react component library",
+    "cross platform ui",
+    "react native component",
+    "expo component",
+    "next.js component",
+    "shadcn style",
+    "radix ui",
+    "ui primitive",
+    "dark mode",
+    "live preview",
+    "design token",
+    "chart",
+    "data table",
+    "form input",
+    "free component",
+    "component catalog"
+  ],
+  "contains": [
+    "90 web + 19 React Native components (109 total) with live previews",
+    "free SDK under MIT, 17 token themes",
+    "npm packages under @otfdashkit/*",
+    "paid landing templates ($9), full-stack kits ($99+), bundle ($149)",
+    "agent skills: npx skills add otf-kit/skills"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "expo",
+    "radix"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://otf-kit.dev/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,30 @@
+{
+  "id": "xeramail-com",
+  "url": "https://xeramail.com",
+  "kind": "site",
+  "hints_hash": "5908ac5582b6a9cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://xeramail.com", "title": "Temp Mail — Free Temporary Email, No Sign-Up", "status": null},
+    {"url": "https://xeramail.com/docs/api", "title": "API Reference | Xeramail", "status": null},
+    {"url": "https://xeramail.com/pricing", "title": "Pricing - Free & Pro Temporary Email Plans | Xeramail", "status": null},
+    {"url": "https://xeramail.com/about", "title": "About Xeramail — Free Temporary Email Service | Xeramail", "status": null}
+  ],
+  "status": "ok",
+  "name": "Xeramail",
+  "summary": "Free temporary email: disposable inboxes that delete themselves after 24 hours, plus aliases and a developer API.",
+  "description": "A disposable email service. Generate a random or custom address without signing up, pick a domain, and read incoming mail for up to 24 hours (up to 30 days on Pro) behind a secret key. A developer API creates inboxes and auto-extracts verification codes, and a built-in test email tool helps debug signup and email flows.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["navbar", "form", "select", "input", "list", "empty-state", "faq", "pricing"],
+  "keywords": ["temp mail", "temporary email", "disposable email", "burner email", "10 minute mail", "throwaway email", "email alias", "custom domain", "developer api", "test email", "verification code", "no sign-up", "privacy", "spam"],
+  "contains": ["free disposable inboxes deleted after 24 hours", "Pro from $3/month: inboxes up to 30 days, attachments, forwarding aliases, no ads", "random and custom addresses across multiple domains; 1 private custom domain on free", "developer API (/api/v1) with inbox creation and OTP extraction", "built-in test email tool for debugging delivery", "no account required for basic use"],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://xeramail.com/docs/api", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

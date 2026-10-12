@@ -1,0 +1,29 @@
+{
+  "id": "svelte-cubed-vercel-app",
+  "url": "https://svelte-cubed.vercel.app",
+  "kind": "site",
+  "hints_hash": "032ecac72f920cba",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://svelte-cubed.vercel.app", "title": "Svelte Cubed", "status": null},
+    {"url": "https://svelte-cubed.vercel.app/docs/getting-started", "title": "Getting started • Svelte Cubed documentation", "status": null},
+    {"url": "https://svelte-cubed.vercel.app/docs/faqs", "title": "FAQs • Svelte Cubed documentation", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Svelte Cubed",
+  "summary": "Svelte component library for building state-driven Three.js scene graphs, with SvelteKit hot reloading and tree-shaking.",
+  "description": "Svelte Cubed lets you build Three.js scenes with Svelte components — SC.Canvas, meshes, materials, lights and cameras — instead of imperative code. Install it from npm alongside three; the docs cover getting started, a component reference, examples and FAQs. The project says it is not yet done, so expect missing features and APIs that are not yet set in stone.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["3d"],
+  "keywords": ["svelte", "three.js", "3d", "webgl", "component library", "scene graph", "declarative", "sveltekit", "3d graphics", "3d scene", "webgl library", "javascript"],
+  "contains": ["component library for Three.js scene graphs in Svelte apps", "components: Canvas, Mesh, cameras, lights, materials", "installed from npm with three", "works with SvelteKit hot module reloading", "docs: getting started, reference, FAQs"],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["svelte", "sveltekit", "three.js", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://svelte-cubed.vercel.app/docs/getting-started", "npm": "svelte-cubed", "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,26 @@
+{
+  "id": "nano-gpt-com-ai-detection",
+  "url": "https://nano-gpt.com/ai-detection",
+  "kind": "page",
+  "hints_hash": "652ea3d7c0556e3b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://nano-gpt.com/ai-detection", "title": "AI Detection | NanoGPT", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AI Detection",
+  "summary": "Text checker that rates AI versus human authorship and flags plagiarism, with PDF reports and an API.",
+  "description": "NanoGPT's AI writing and plagiarism checker: paste or upload English text (TXT, Markdown, CSV, PDF, DOCX, extracted locally) and get an AI-written versus human likelihood with segment-level highlights, source matches and similarity scores. Detectors: Sapling and Pangram. Metered at $0.00625 per 1,000 characters; every completed check includes a free PDF report, and the same check is available through a REST API endpoint with a NanoGPT API key.",
+  "type": "tool",
+  "elements": ["input", "file-upload"],
+  "keywords": ["ai detector", "ai detection", "plagiarism checker", "ai writing", "ai-assisted content", "text analysis", "authorship check", "api", "pdf report", "content review"],
+  "contains": ["AI authorship check: AI-written, AI-assisted and human-written percentages", "plagiarism check with matched sources, similarity scores and excerpts", "detectors: Sapling and Pangram", "$0.00625 per 1,000 characters, metered by exact character count", "uploads: TXT, Markdown, CSV, PDF, DOCX, extracted locally before detection", "free PDF report for every completed check", "same check available through a REST API endpoint with a NanoGPT API key"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

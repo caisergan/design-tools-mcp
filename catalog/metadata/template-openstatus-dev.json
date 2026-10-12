@@ -1,0 +1,32 @@
+{
+  "id": "template-openstatus-dev",
+  "url": "https://template.openstatus.dev",
+  "kind": "site",
+  "hints_hash": "1c14ae85306b28e7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://template.openstatus.dev", "title": "OpenStatus Template", "status": null},
+    {"url": "https://template.openstatus.dev/landing", "title": "OpenStatus Template", "status": 200},
+    {"url": "https://template.openstatus.dev/status-page", "title": "OpenStatus Template", "status": 200},
+    {"url": "https://template.openstatus.dev/dashboard/onboarding", "title": "OpenStatus Template", "status": 200},
+    {"url": "https://template.openstatus.dev/landing/pricing", "title": "OpenStatus Template", "status": 200},
+    {"url": "https://github.com/openstatusHQ/openstatus-template", "title": "GitHub - openstatusHQ/openstatus-template", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenStatus Template",
+  "summary": "shadcn/ui starter template with an uptime-monitoring dashboard, a status page and a marketing site, on Next.js in SPA mode.",
+  "description": "An open-source shadcn/ui app template that runs on Next.js in SPA mode and can be exported statically with your own router. It ships three demo surfaces — a monitoring dashboard (monitors, status pages, notifiers, settings), a public status page, and the OpenStatus marketing site — plus documented higher-level components: ActionCard, SectionCard, FormCard, MetricCard and EmptyState.",
+  "type": "template",
+  "categories": ["templates", "components"],
+  "elements": ["navbar", "hero", "logo-cloud", "pricing", "footer", "dashboard", "sidebar", "table", "form", "input", "stepper", "stats", "badge", "empty-state", "drawer"],
+  "keywords": ["shadcn template", "shadcn ui", "nextjs template", "dashboard template", "status page", "uptime monitoring", "app starter", "admin dashboard", "saas template", "react", "tailwind", "static export", "spa", "marketing site", "open source"],
+  "contains": ["shadcn/ui template on Next.js in SPA mode, exportable statically (BYO router)", "three surfaces: monitoring dashboard, status page, marketing landing", "documented components: ActionCard, SectionCard, FormCard, MetricCard, EmptyState", "registry.json with shadcn registry items", "demo dashboard with monitors, status pages, notifiers and settings", "marketing demo includes a pricing comparison table, changelog, blog and competitor compare pages", "197 GitHub stars and 351 commits"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/openstatusHQ/openstatus-template", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

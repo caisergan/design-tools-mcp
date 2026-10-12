@@ -1,0 +1,26 @@
+{
+ "id": "chat-b-ai-chat",
+ "url": "https://chat.b.ai/chat",
+ "kind": "page",
+ "hints_hash": "03ace0ae451bec1d",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:29:50Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://chat.b.ai/chat", "title": "BAI", "status": null},
+  {"url": "https://b.ai/", "title": "BAI", "status": 200},
+  {"url": "https://b.ai/docs", "title": "BAI", "status": 200}
+ ],
+ "status": "partial",
+ "name": "B.AI",
+ "summary": "Chat page of B.AI, a platform offering anonymous access to AI models via a unified API and a borderless payment and settlement network.",
+ "description": "The chat interface at chat.b.ai for B.AI, which presents itself as economic infrastructure for AI agents: access to global AI models anonymously, a unified API and a borderless payment and settlement network.",
+ "elements": ["chat"],
+ "keywords": ["ai chat", "chatbot", "chat ui", "ai model", "ai agent", "api", "settlement network", "anonymous access", "llm"],
+ "formats": ["app"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.5
+}

@@ -1,0 +1,40 @@
+{
+  "id": "react-dev",
+  "url": "https://react.dev",
+  "kind": "site",
+  "hints_hash": "07258f35003ac664",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://react.dev/llms.txt", "title": "React Documentation", "status": null},
+    {"url": "https://react.dev", "title": "React", "status": 200},
+    {"url": "https://react.dev/reference/react.md", "title": "React Reference Overview", "status": 200},
+    {"url": "https://react.dev/reference/rules.md", "title": "Rules of React", "status": 200},
+    {"url": "https://react.dev/reference/react-dom.md", "title": "React DOM APIs", "status": 200},
+    {"url": "https://react.dev/reference/eslint-plugin-react-hooks.md", "title": "eslint-plugin-react-hooks", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React",
+  "summary": "Official documentation for React: tutorials, guides to hooks, state and effects, and a full API reference.",
+  "description": "react.dev is the official home of React, the library for web and native user interfaces. Learn React walks through component-based UI step by step — quick start, a tic-tac-toe tutorial, describing the UI, adding interactivity, managing state, escape hatches — and the API Reference documents hooks, React DOM APIs, Server Components, the React Compiler, the ESLint plugin and the Rules of React. Pages also exist as plain .md files and an llms.txt index lists them for AI agents.",
+  "type": "component-library",
+  "categories": ["components", "learning"],
+  "elements": [],
+  "keywords": ["react", "react documentation", "react docs", "javascript library", "ui library", "component", "hook", "jsx", "state management", "server component", "react compiler", "typescript", "api reference", "learn react", "tutorial", "frontend", "web development"],
+  "contains": [
+    "official documentation for React, the library for web and native user interfaces",
+    "Learn section: quick start, tic-tac-toe tutorial, thinking in React",
+    "chapters: describing the UI, adding interactivity, managing state, escape hatches",
+    "API reference: hooks, components, React DOM APIs, Server Components, directives",
+    "covers React Compiler, DevTools, the ESLint hooks plugin and the Rules of React",
+    "plain .md versions of the pages and an llms.txt index for AI agents",
+    "current version: React 19.3"
+  ],
+  "formats": ["docs", "code"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

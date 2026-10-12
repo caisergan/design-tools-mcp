@@ -1,0 +1,26 @@
+{
+  "id": "colir-space-app",
+  "url": "https://colir.space/app",
+  "kind": "page",
+  "hints_hash": "3e85384cced521c5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://colir.space/app", "title": "Colir", "status": null}
+  ],
+  "status": "ok",
+  "name": "Colir",
+  "summary": "Browser gradient editor that shapes X and Y curves into layered gradients with distortion, glitter and pattern effects.",
+  "description": "Colir builds gradients from two editable curves (control points, gradient stops with individual colours) and layers distortion, glitter, patterns and beta effects such as chromatic aberration, directional flow, paper texture and grain. Curated templates and a Figma plugin; the free plan allows 3 exports/day up to 10/month at full-HD resolution for personal use, PRO is $9/mo or $99 lifetime with commercial use.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["gradient", "gradient generator", "gradient editor", "curve editor", "mesh gradient", "distortion", "glitter", "pattern", "grain", "chromatic aberration", "figma plugin", "background", "procedural"],
+  "contains": ["curve-based gradient editor with X and Y curves and control points", "gradient stops added by clicking the gradient bar", "effects: distortion, glitter, patterns, chromatic aberration, grain, fiber, folds", "curated templates", "randomize buttons for curves, colours and settings", "free plan: 3 exports per day up to 10 per month, personal use only", "PRO $9/mo or $99 lifetime commercial license"],
+  "formats": ["app", "templates"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

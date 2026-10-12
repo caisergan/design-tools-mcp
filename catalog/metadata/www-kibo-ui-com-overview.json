@@ -1,0 +1,75 @@
+{
+  "id": "www-kibo-ui-com-overview",
+  "url": "https://www.kibo-ui.com/overview",
+  "kind": "page",
+  "hints_hash": "5475158e5d0174a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.kibo-ui.com/overview",
+      "title": "Introduction",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Kibo UI",
+  "summary": "Docs introduction for a component library and custom registry extending shadcn/ui with higher-level components.",
+  "description": "Kibo UI is a component library and custom registry on top of shadcn/ui that provides higher-level React components — tables, file dropzones, AI chat primitives, calendars, rich text editors and drag-and-drop — plus blocks for whole sections like login pages and dashboards. Open source (MIT) and built for React, Next.js and Tailwind CSS stacks.",
+  "type": "component-library",
+  "elements": [
+    "table",
+    "file-upload",
+    "chat",
+    "calendar",
+    "dashboard"
+  ],
+  "keywords": [
+    "kibo ui",
+    "shadcn",
+    "component library",
+    "registry",
+    "react component",
+    "nextjs",
+    "tailwind css",
+    "block",
+    "file dropzone",
+    "ai chat",
+    "rich text editor",
+    "drag and drop",
+    "calendar",
+    "docs",
+    "mit license",
+    "open source"
+  ],
+  "contains": [
+    "41 components and 28 blocks",
+    "higher-level components: tables, file dropzones, AI chat primitives",
+    "blocks for login pages, dashboards and other app sections",
+    "MIT licensed with community contributions"
+  ],
+  "formats": [
+    "registry",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://www.kibo-ui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": "kibo-ui-com"
+  },
+  "confidence": 0.85
+}

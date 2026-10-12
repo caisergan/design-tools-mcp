@@ -1,0 +1,31 @@
+{
+  "id": "bpando-org",
+  "url": "https://bpando.org",
+  "kind": "site",
+  "hints_hash": "9d00877f6d7fca28",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bpando.org/llms.txt", "title": "BP&O - Branding, Packaging and Opinion", "status": null},
+    {"url": "https://bpando.org", "title": "BP&O - Branding, Packaging and Opinion", "status": 200},
+    {"url": "https://bpando.org/collections", "title": "BP&O Collections — BP&O - Branding, Packaging and Opinion", "status": 200},
+    {"url": "https://bpando.org/about", "title": "About — BP&O - Branding, Packaging and Opinion", "status": 200},
+    {"url": "https://bpando.org/collections/logotype", "title": "Logotype Inspiration — BP&O", "status": 200}
+  ],
+  "status": "ok",
+  "name": "BP&O",
+  "summary": "Blog reviewing logo, brand identity and packaging design, with browsable archives of logos, posters and logotypes.",
+  "description": "Written reviews and opinion on logo, brand identity, packaging and graphic design, founded by Richard Baird and now run with an editorial team as a 'live archive'. Posts are organised into themed collections (posters, logotypes, product shots, can design, signage …) and a logo archive filterable by category, colour and typeface; free to read, with a BP&O Plus membership for extras.",
+  "type": "gallery",
+  "categories": ["inspiration", "learning"],
+  "elements": [],
+  "keywords": ["branding", "brand identity", "logo", "packaging", "graphic design", "design review", "rebrand", "wordmark", "poster design", "design blog", "opinion", "logo archive", "identity design", "typography"],
+  "contains": ["reviews of logo, brand identity and packaging projects", "23 themed collections including posters, logotypes, product shots, illustration and colour palettes", "logo archive browsable by category, colour, typeface and tag", "written by founder Richard Baird with an editorial team", "BP&O Plus membership at £50/year or £6/month"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

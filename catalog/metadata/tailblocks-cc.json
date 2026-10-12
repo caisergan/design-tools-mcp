@@ -1,0 +1,82 @@
+{
+  "id": "tailblocks-cc",
+  "url": "https://tailblocks.cc",
+  "kind": "site",
+  "hints_hash": "97223ef9e93c136d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tailblocks.cc",
+      "title": "Tailblocks — Ready-to-use Tailwind CSS blocks",
+      "status": null
+    },
+    {
+      "url": "https://github.com/mertJF/tailblocks",
+      "title": "GitHub - mertJF/tailblocks: Ready-to-use Tailwind CSS blocks. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mertJF/tailblocks/master/README.md",
+      "title": "Tailblocks",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mertJF/tailblocks/master/package.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Tailblocks",
+  "summary": "60+ ready-to-use Tailwind CSS blocks with dark mode and colour variations that you copy-paste into your own project.",
+  "description": "A collection of 60+ website blocks built with Tailwind CSS. On the site you pick a block, choose a colour from the palette, switch light or dark mode and copy the HTML from the View Code button; the blocks are not a dependency but HTML you paste into your project. The site itself only renders with JavaScript, so these facts come from the project's README and repository.",
+  "type": "block-library",
+  "categories": [
+    "sections"
+  ],
+  "elements": [],
+  "keywords": [
+    "tailwind css",
+    "block",
+    "tailwind block",
+    "page block",
+    "copy paste",
+    "html snippet",
+    "dark mode",
+    "responsive",
+    "colour variation",
+    "free",
+    "landing page",
+    "section",
+    "mit license"
+  ],
+  "contains": [
+    "60+ Tailwind CSS blocks",
+    "responsive, with dark mode and colour variations",
+    "copy-paste HTML, not a dependency",
+    "MIT licensed, 8.9k GitHub stars"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/mertJF/tailblocks",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

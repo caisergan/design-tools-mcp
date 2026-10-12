@@ -1,0 +1,28 @@
+{
+  "id": "chat-brodin-dev",
+  "url": "https://chat.brodin.dev",
+  "kind": "site",
+  "hints_hash": "7b6a3a7a3b0f12e7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://chat.brodin.dev", "title": "Nathan's AI", "status": null},
+    {"url": "https://github.com/NathanBrodin/Chat", "title": "GitHub - NathanBrodin/Chat: It's my portfolio, reimagined as a chat conversation, answered by AI.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Nathan's AI",
+  "summary": "Portfolio reimagined as an AI chat: visitors ask questions about Nathan Brodin instead of browsing pages.",
+  "description": "A portfolio presented as a conversational AI chatbot: visitors ask about Nathan Brodin's career, skills, projects and experience. Built with Next.js, Tailwind CSS, shadcn/ui and the Vercel AI SDK (Anthropic by default), with chat history in Postgres and rate limiting via Upstash. The MIT-licensed repo documents how to deploy or rebrand your own version.",
+  "type": "app",
+  "categories": ["inspiration"],
+  "elements": ["chat", "prompt-input", "empty-state"],
+  "keywords": ["ai chat", "chatbot", "portfolio", "ai portfolio", "interactive resume", "conversational ui", "nextjs", "shadcn", "vercel ai sdk", "claude", "tailwind", "personal website"],
+  "contains": ["chat interface that answers questions about career, skills, projects and experience", "Next.js App Router, Tailwind CSS, shadcn/ui and the Vercel AI SDK (Anthropic default)", "chat history saved in Vercel Postgres (Neon); Upstash rate limiting", "MIT-licensed source repo (24 stars) with one-click Vercel deploy"],
+  "formats": ["app", "code"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/NathanBrodin/Chat", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

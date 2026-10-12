@@ -1,0 +1,95 @@
+{
+  "id": "patttterns-net",
+  "url": "https://patttterns.net",
+  "kind": "site",
+  "hints_hash": "3faadfd943dd5c96",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://patttterns.net",
+      "title": "PATTTTERNS",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "PATTTTERNS",
+  "summary": "Gallery of 400+ real UI and UX design patterns from live products, browsable by flow and component category.",
+  "description": "A manually curated collection of real design patterns pulled from live products, each shown with the product it comes from (Slack, Google, Apple, Notion, Mercado Libre and more). Patterns split into UX flows (onboarding, call to action, search & navigation, success pages, terms, mail & newsletters) and UI components (modals, navbars, footers, form fields, dropdown menus, side sheets, carousels, tabs & pagination). Made for product makers studying how other products solved a screen.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "components"
+  ],
+  "elements": [
+    "navbar",
+    "sidebar",
+    "footer",
+    "modal",
+    "dropdown",
+    "tooltip",
+    "form",
+    "input",
+    "switch",
+    "slider",
+    "button",
+    "loader",
+    "banner",
+    "badge",
+    "tabs",
+    "pagination",
+    "drawer",
+    "carousel",
+    "background"
+  ],
+  "keywords": [
+    "design pattern",
+    "ui pattern",
+    "ux flow",
+    "onboarding",
+    "modal",
+    "form",
+    "tooltip",
+    "sidebar",
+    "navbar",
+    "footer",
+    "dropdown menu",
+    "carousel",
+    "pagination",
+    "tabs",
+    "banner",
+    "slider",
+    "product design",
+    "screenshot gallery",
+    "ui component"
+  ],
+  "contains": [
+    "400+ real design patterns from live products",
+    "261 examples mapped with UI element tags",
+    "sections: UX flows and UI components",
+    "UX flows: onboarding, call to action, search & navigation, success page, mail & newsletters",
+    "UI components: modals, navbars, footers, form fields, dropdown menus, side sheets, tabs, carousels",
+    "each pattern names its source product",
+    "curated manually by product makers"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

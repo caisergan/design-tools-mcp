@@ -1,0 +1,29 @@
+{
+  "id": "are-na",
+  "url": "https://are.na",
+  "kind": "site",
+  "hints_hash": "8af0bcabd72d341c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://are.na/llms.txt", "title": "Are.na", "status": null},
+    {"url": "https://www.are.na/", "title": "Are.na", "status": 200},
+    {"url": "https://www.are.na/about", "title": "About | Are.na", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Are.na",
+  "summary": "Platform for collecting images, links and files into channels — used as a visual research and moodboard tool.",
+  "description": "Members save content into channels, privately or collaboratively, to build personal knowledge networks with no ads and no algorithmic feed. Free guest plan (up to 200 blocks); Premium adds unlimited blocks, advanced search and presentation mode. Open API v3, SDK and MCP resources for developers, plus iOS app and browser extensions.",
+  "type": "tool",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["moodboard", "inspiration", "visual research", "bookmarking", "collection", "curation", "channel", "knowledge base", "image board", "content saver", "research tool", "collaboration", "reference library"],
+  "contains": ["collect images, text, links and files into channels", "free guest plan: up to 200 blocks", "Premium $70/year ($7/month) and Supporter $120/year; 50% student discount", "open REST API v3 with SDK and MCP resources", "20,516 members on Premium subscriptions", "iOS app and browser extensions"],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.are.na/developers/explore", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

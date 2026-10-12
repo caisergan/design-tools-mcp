@@ -1,0 +1,27 @@
+{
+  "id": "github-com-uretzkyzvi-search-address",
+  "url": "https://github.com/UretzkyZvi/search-address",
+  "kind": "repo",
+  "hints_hash": "091b99c7cb6609e9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/UretzkyZvi/search-address/blob/HEAD/README.md", "title": "SearchAddress Component", "status": 200}
+  ],
+  "status": "ok",
+  "name": "SearchAddress",
+  "summary": "React address search input with OpenStreetMap Nominatim autocomplete, grouped results and debounced queries.",
+  "description": "An address autocomplete component built with React, shadcn/ui components and lucide-react icons, backed by the Nominatim geocoding service from OpenStreetMap via leaflet-geosearch. Suggestions appear in a popover, grouped by address type, and can be selected by click or touch; the repo also ships useDebounce and useSearchAddress hooks.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input", "popover", "button"],
+  "keywords": ["address search", "address autocomplete", "autocomplete", "geocoding", "openstreetmap", "nominatim", "location search", "react", "shadcn", "popover", "debounce", "place search", "map input", "address form"],
+  "contains": ["autocomplete search that suggests addresses as you type", "results grouped by address type", "popover result list, selectable by click or touch", "debounced input via a useDebounce hook", "useSearchAddress hook wraps search logic and state", "Nominatim/OpenStreetMap endpoint; multiple providers through leaflet-geosearch"],
+  "formats": ["code"],
+  "stack": ["react", "shadcn-ui", "tailwind", "lucide-react", "leaflet-geosearch"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/UretzkyZvi/search-address", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

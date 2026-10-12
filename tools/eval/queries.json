@@ -20,9 +20,11 @@
       "supahero-io",
       "unsection-com",
       "ui-flexnative-com/hero-01",
-      "zepa-design"
+      "zepa-design",
+      "ui-beste-co"
     ],
-    "note": "hero galleries + hero blocks"
+    "note": "hero galleries + hero blocks",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "hero section react",
@@ -51,9 +53,11 @@
   {
     "q": "cta inspiration",
     "expect_any": [
-      "cta-gallery"
+      "cta-gallery",
+      "uiinspoo-com/cta-ui-design-inspiration"
     ],
-    "note": "CTA.gallery"
+    "note": "CTA.gallery",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "404 page inspiration",
@@ -111,10 +115,13 @@
       "eldoraui-site",
       "hover-dev",
       "uselayouts-com",
-      "github-com-karanchandekar-animated-component-library"
+      "github-com-karanchandekar-animated-component-library",
+      "github-com-angadbari-themicro",
+      "amicro-vercel-app",
+      "github-com-taqui-786-mixcnui"
     ],
     "note": "animated kits",
-    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json); 2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "21st.dev react components",
@@ -130,9 +137,12 @@
       "magicui-design",
       "kokonutui-com",
       "github-com-sadmann7-diceui",
-      "tremor-so"
+      "tremor-so",
+      "github-com-lucioew28-extends",
+      "github-com-pittaya-ui-ui-kit"
     ],
-    "note": "kits whose source is copy-paste"
+    "note": "kits whose source is copy-paste",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "marquee",
@@ -193,9 +203,12 @@
       "animate-ui-com/primitives-effects-theme-toggler",
       "www-8bitcn-com",
       "8bitcn-com/theme-selector",
-      "magicui-design/animated-theme-toggler"
+      "magicui-design/animated-theme-toggler",
+      "transition-kit-space",
+      "21st-dev/edil-ozi-toggle"
     ],
-    "note": "component: theme toggle"
+    "note": "component: theme toggle",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "date picker",
@@ -294,9 +307,12 @@
       "amicro-vercel-app",
       "motion-dev",
       "animista-net",
-      "animate-style"
+      "animate-style",
+      "github-com-greensock-gsap",
+      "lottiefiles-com"
     ],
-    "note": "motion"
+    "note": "motion",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "framer motion components",
@@ -305,9 +321,13 @@
       "eldoraui-site",
       "dycomps-oimmi-com",
       "uselayouts-com",
-      "github-com-chrisabdo-motionvariants"
+      "github-com-chrisabdo-motionvariants",
+      "github-com-angadbari-themicro",
+      "github-com-subhan-code-amicro-micro-transitions",
+      "github-com-moumen-soliman-uitripled"
     ],
-    "note": "motion"
+    "note": "motion",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "gsap animation",
@@ -325,9 +345,13 @@
       "amicro-vercel-app",
       "kinetics-colorion-co",
       "uselayouts-com",
-      "hover-dev"
+      "hover-dev",
+      "github-com-angadbari-themicro",
+      "github-com-subhan-code-amicro-micro-transitions",
+      "ui-watermelon-sh/micro-interaction"
     ],
-    "note": "motion"
+    "note": "motion",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "webgl threejs website inspiration",
@@ -377,9 +401,13 @@
     "expect_any": [
       "3dicons-co",
       "icons8-com",
-      "iconly-pro"
+      "iconly-pro",
+      "thiings-co",
+      "icoon-co",
+      "icoon-co/3d-isometric-icons"
     ],
-    "note": "icons"
+    "note": "icons",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "color palette generator",
@@ -388,9 +416,14 @@
       "colorhunt-co",
       "mycolor-space",
       "colormind-io",
-      "colorion-co"
+      "colorion-co",
+      "ramps-studio",
+      "grabient-com",
+      "github-com-navnote-rangeen",
+      "colorbox-io"
     ],
-    "note": "color"
+    "note": "color",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "gradient generator",
@@ -495,10 +528,11 @@
       "colorion-co",
       "mycolor-space",
       "colormind-io",
-      "colorbox-io"
+      "colorbox-io",
+      "ramps-studio"
     ],
     "note": "Turkish — color",
-    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json)"
+    "widened": "2026-10-07 blind judge (tools/eval/judge-2026-10-07.json); 2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "bölüm galerisi",
@@ -507,9 +541,14 @@
       "footer-design",
       "cta-gallery",
       "404s-design",
-      "supahero-io"
+      "supahero-io",
+      "onepagelove-com-section-scroll-hint",
+      "nsui-irung-me",
+      "tailark-com",
+      "21st-dev/landing-page"
     ],
-    "note": "Turkish — section galleries"
+    "note": "Turkish — section galleries",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "frosted glass card effect",
@@ -617,9 +656,11 @@
   {
     "q": "what to show when a list has no items",
     "expect_any": [
-      "emptystat-es"
+      "emptystat-es",
+      "www-shadcnblocks-com/list-list-empty-1"
     ],
-    "note": "descriptive (phase 1): describes the need without naming the resource"
+    "note": "descriptive (phase 1): describes the need without naming the resource",
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "how saas companies present their plans and prices",
@@ -708,10 +749,14 @@
     "q": "dark mode landing page gallery",
     "expect_any": [
       "dark-design",
-      "darkmodedesign-com"
+      "darkmodedesign-com",
+      "siteinspire-com",
+      "siteofsites-co",
+      "a1-gallery"
     ],
     "note": "site description (Phase 2B): what the entry is, not its name",
-    "descriptive": true
+    "descriptive": true,
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "free animated icon set for react",
@@ -740,10 +785,14 @@
       "reactbits-dev",
       "ui-aceternity-com",
       "motion-primitives-com",
-      "kokonutui-com"
+      "kokonutui-com",
+      "github-com-subhan-code-amicro-micro-transitions",
+      "github-com-ali-hussein-dev-indie-ui",
+      "github-com-moumen-soliman-uitripled"
     ],
     "note": "site description (Phase 2B): what the entry is, not its name",
-    "descriptive": true
+    "descriptive": true,
+    "widened": "2026-10-12 blind judge (tools/eval/judge-2026-10-12.json)"
   },
   {
     "q": "skill that stops coding agents from making generic ai looking ui",

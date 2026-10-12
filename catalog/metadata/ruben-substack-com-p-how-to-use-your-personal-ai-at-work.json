@@ -1,0 +1,19 @@
+{
+  "id": "ruben-substack-com-p-how-to-use-your-personal-ai-at-work",
+  "url": "https://ruben.substack.com/p/how-to-use-your-personal-ai-at-work",
+  "kind": "page",
+  "hints_hash": "6d64954958a2bcb3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/how-to-use-your-personal-ai-at-work", "title": "Stop using your own Claude at work. - by Ruben Hassid", "status": null}
+  ],
+  "status": "ok",
+  "name": "Stop using your own Claude at work.",
+  "summary": "Guide to using a personal AI account for work safely: switching off training, anonymizing data, temporary chats and the legal risks.",
+  "type": "article",
+  "keywords": ["ai at work", "personal ai account", "claude", "chatgpt", "workplace ai policy", "data privacy", "anonymize data", "training data", "temporary chat", "compliance", "guide"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.9
+}

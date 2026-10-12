@@ -1,0 +1,84 @@
+{
+  "id": "solt-ws",
+  "url": "https://solt.ws",
+  "kind": "site",
+  "hints_hash": "d93c9d4871213694",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://solt.ws",
+      "title": "Solt Wagner - Premium and Free Notion Templates",
+      "status": null
+    },
+    {
+      "url": "https://www.solt.ws/icons",
+      "title": "iOS App Icons @ Solt Wagner",
+      "status": null
+    },
+    {
+      "url": "https://www.solt.ws/about",
+      "title": "About me - Notion Template Creator @ Solt Wagner",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Solt Wagner",
+  "summary": "Premium and free Notion templates, iOS app icon packs and Framer templates by designer Solt Wagner.",
+  "description": "Shop of Notion templates for life and work — planners, finance and business systems, a 35-template bundle and 17 free templates — plus iOS app icon packs, a Framer website template and UI kit, and digital-product guides.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "notion template",
+    "notion",
+    "notion dashboard",
+    "productivity template",
+    "life planner",
+    "second brain",
+    "finance tracker",
+    "crm",
+    "student planner",
+    "ios app icon",
+    "icon pack",
+    "dark mode icon",
+    "framer template",
+    "framer ui kit",
+    "notion bundle",
+    "digital product"
+  ],
+  "contains": [
+    "35 Notion templates in the complete bundle ($99)",
+    "17 free Notion templates",
+    "individual templates from $4.5 to $29",
+    "iOS app icon packs with 150+ icons each",
+    "Framer website template and Framer UI kit",
+    "30,000+ customers and 80,000+ templates delivered"
+  ],
+  "formats": [
+    "templates",
+    "links",
+    "docs"
+  ],
+  "stack": [
+    "framer"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

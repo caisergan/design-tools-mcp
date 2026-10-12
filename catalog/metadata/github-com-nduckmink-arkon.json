@@ -1,0 +1,35 @@
+{
+  "id": "github-com-nduckmink-arkon",
+  "url": "https://github.com/nduckmink/arkon",
+  "kind": "repo",
+  "hints_hash": "10b9f1887f4ce2ab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/nduckmink/arkon/blob/HEAD/README.md", "title": "Arkon - The Open-Source Enterprise AI Knowledge Hub & MCP Server", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Arkon",
+  "summary": "Self-hosted knowledge hub and MCP server that compiles internal docs into a wiki for LLMs.",
+  "description": "A self-hosted knowledge layer that compiles SOPs, policies and internal documents into a traceable wiki and serves it to Claude and other MCP clients through a single permission-scoped endpoint. Department and global scopes with RBAC, a draft review and version history workflow, PostgreSQL + pgvector search, pluggable AI providers and Docker deployment.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["mcp server", "model context protocol", "knowledge base", "wiki", "rag", "self-hosted", "claude", "llm", "rbac", "enterprise", "knowledge management", "docker", "pgvector", "ai skill"],
+  "contains": [
+    "MCP server for Claude and other clients (OAuth 2.1 + PKCE) with wiki, source and draft tools",
+    "MRP pipeline compiles documents into interlinked wiki pages with plan review and version history",
+    "department and global scopes with fine-grained RBAC and an audit log",
+    "full-text + semantic (pgvector) search and a knowledge graph browser",
+    "pluggable LLM, embedding and vision providers (Anthropic, Google, OpenAI)",
+    "Docker deployment with 7 containers; sizing for 1–20, 20–100 and 100+ teams",
+    "versioned, department-scoped AI skill packages (.zip with SKILL.md)"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["fastapi", "postgresql", "pgvector", "redis", "nextjs", "tailwind", "fastmcp"],
+  "pricing": "free",
+  "license": "PolyForm-Internal-Use-1.0.0",
+  "related": {"repo": "https://github.com/nduckmink/arkon", "docs": "https://github.com/nduckmink/arkon/blob/HEAD/docs/SETUP.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

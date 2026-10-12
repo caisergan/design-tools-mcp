@@ -1,0 +1,34 @@
+{
+  "id": "github-com-tailwindlabs-heroicons",
+  "url": "https://github.com/tailwindlabs/heroicons",
+  "kind": "repo",
+  "hints_hash": "653610d4b705d067",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/tailwindlabs/heroicons/blob/HEAD/README.md", "title": "Heroicons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Heroicons",
+  "summary": "MIT-licensed SVG icon set from the makers of Tailwind CSS, with first-party React and Vue packages.",
+  "description": "Hand-crafted SVG icons that can be copied from heroicons.com and inlined directly into HTML, or installed as first-party React (@heroicons/react) and Vue (@heroicons/vue) libraries. Icons come in 24x24 outline, 24x24 solid, 20x20 solid and 16x16 solid styles, are imported individually as components named in upper camel case with an Icon suffix, and are stylable through the color CSS property, e.g. text-gray-500 with Tailwind CSS.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["svg icon", "icon set", "react icon", "vue icon", "outline icon", "solid icon", "tailwind", "ui icon", "free icon", "icon library", "copy paste icon", "24x24 icon", "16x16 icon", "icon component"],
+  "contains": [
+    "24x24 outline, 24x24 solid, 20x20 solid and 16x16 solid icon styles",
+    "React package @heroicons/react with per-size import paths",
+    "Vue package @heroicons/vue with per-size import paths",
+    "icons named in upper camel case suffixed with Icon",
+    "stylable via the color CSS property, e.g. text-gray-500 with Tailwind CSS",
+    "MIT licensed"
+  ],
+  "formats": ["svg", "npm-package"],
+  "stack": ["react", "vue"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/tailwindlabs/heroicons", "docs": "https://heroicons.com", "npm": "@heroicons/react", "figma": null, "parent": null},
+  "confidence": 0.9
+}

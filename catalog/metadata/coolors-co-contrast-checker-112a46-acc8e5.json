@@ -1,0 +1,19 @@
+{
+  "id": "coolors-co-contrast-checker-112a46-acc8e5",
+  "url": "https://coolors.co/contrast-checker/112a46-acc8e5",
+  "kind": "page",
+  "hints_hash": "1db908249f59dd52",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:25:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coolors.co/contrast-checker/112a46-acc8e5", "title": "Color Contrast Checker - Coolors", "status": null}
+  ],
+  "status": "ok",
+  "name": "Color Contrast Checker",
+  "summary": "Calculates the contrast ratio between text and background colors and reports WCAG AA and AAA levels for small and large text.",
+  "type": "tool",
+  "keywords": ["contrast checker", "color contrast", "contrast ratio", "wcag", "accessibility", "aa", "aaa", "text color", "background color", "small text", "large text", "color tool", "palette tool", "color picker"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "coolors-co"},
+  "confidence": 0.85
+}

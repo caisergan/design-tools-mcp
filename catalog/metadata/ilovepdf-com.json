@@ -1,0 +1,79 @@
+{
+  "id": "ilovepdf-com",
+  "url": "https://ilovepdf.com",
+  "kind": "site",
+  "hints_hash": "017e094b384fb125",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ilovepdf.com",
+      "title": "iLovePDF | Online PDF tools for PDF lovers",
+      "status": null
+    },
+    {
+      "url": "https://www.ilovepdf.com/pricing",
+      "title": "Three types of accounts to manage PDF files with our online tools",
+      "status": null
+    },
+    {
+      "url": "https://www.ilovepdf.com/features",
+      "title": "iLovePDF features for manage PDF files with advanced PDF tools",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "iLovePDF",
+  "summary": "Online PDF toolkit: merge, split, compress, convert, edit, sign, OCR and redact PDFs in the browser.",
+  "description": "A suite of browser tools for PDF work: merge, split, compress, convert to and from Word, Excel, PowerPoint, JPG, HTML and Markdown, plus edit, sign, watermark, protect, OCR, repair, compare and redact. Free use processes a limited number of documents; Premium removes the limits and adds desktop and mobile apps, AI credits and a builder that chains tools into reusable workflows.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "pdf",
+    "merge pdf",
+    "split pdf",
+    "compress pdf",
+    "pdf to word",
+    "word to pdf",
+    "pdf converter",
+    "pdf editor",
+    "ocr",
+    "sign pdf",
+    "watermark",
+    "pdf form",
+    "e-signature",
+    "pdf to markdown",
+    "workflow automation"
+  ],
+  "contains": [
+    "30+ tools: merge, split, compress, convert, edit, sign, watermark, OCR, redact, repair, compare",
+    "workflow builder chains tools into reusable workflows",
+    "web, desktop and mobile apps; iLoveAPI for automation",
+    "16.5 million documents processed every day (site claim)",
+    "free tier with limited processing; Premium from $4/month/user (annual billing)",
+    "AI features: summarizer, PDF translation, PDF to Markdown"
+  ],
+  "formats": [
+    "app",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

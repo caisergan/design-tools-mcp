@@ -1,0 +1,27 @@
+{
+  "id": "shadcn-next-link-pagination-vercel-app",
+  "url": "https://shadcn-next-link-pagination.vercel.app",
+  "kind": "site",
+  "hints_hash": "c19f839906eb59d7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn-next-link-pagination.vercel.app", "title": "Shadcn Link Pagination", "status": null}
+  ],
+  "status": "ok",
+  "name": "Shadcn Link Pagination",
+  "summary": "Demo of shadcn pagination navigating with Next.js links and URL search params, with page-size options.",
+  "description": "A demo site for shadcn/ui pagination that changes the URL through Next.js Link components and search params; navigationMode=\"router\" switches to router.push() with loading indicators. Includes a simple example, one with many pages and page-size options (rows per page).",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["pagination"],
+  "keywords": ["pagination", "nextjs", "shadcn ui", "link", "search param", "url param", "react", "tailwind css", "page size", "table pagination", "router"],
+  "contains": ["demo of shadcn/ui pagination driven by Next.js Link components", "Link navigation or router.push via navigationMode=\"router\"", "updates the URL with search params such as page and page size", "examples: simple, many pages, page-size options (rows per page)"],
+  "formats": ["docs"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

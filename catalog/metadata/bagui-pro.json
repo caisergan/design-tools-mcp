@@ -1,0 +1,126 @@
+{
+  "id": "bagui-pro",
+  "url": "https://bagui.pro",
+  "kind": "site",
+  "hints_hash": "8b1e579b854e7f58",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.bagui.pro/",
+      "title": "BagUI – Open Source shadcn/ui Components & Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://www.bagui.pro/docs",
+      "title": "BagUI – Open Source shadcn/ui Components & Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://www.bagui.pro/blocks",
+      "title": "BagUI – Open Source shadcn/ui Components & Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://www.bagui.pro/pricing",
+      "title": "BagUI – Open Source shadcn/ui Components & Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://www.bagui.pro/license",
+      "title": "BagUI – Open Source shadcn/ui Components & Blocks",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "BagUI",
+  "summary": "Open-source shadcn/ui registry with 38+ React blocks and templates for building SaaS landing pages.",
+  "description": "A blocks library for marketing and app pages: 38 blocks across marketing, app and ecommerce categories, built with React, shadcn/ui and Tailwind CSS. Register the Bag/UI namespace once and install any block with a single shadcn CLI command; interactive blocks may include Framer Motion or GSAP animations. Free and MIT licensed, with optional sponsorship.",
+  "type": "registry",
+  "categories": [
+    "sections",
+    "registries"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "cta",
+    "faq",
+    "navbar",
+    "footer",
+    "team",
+    "contact",
+    "form",
+    "dashboard",
+    "sidebar"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn ui",
+    "react",
+    "nextjs",
+    "tailwind",
+    "block",
+    "section",
+    "landing page",
+    "saas",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "cta",
+    "navbar",
+    "footer",
+    "dashboard",
+    "registry",
+    "cli",
+    "framer motion",
+    "gsap",
+    "open source",
+    "free",
+    "template",
+    "dark mode"
+  ],
+  "contains": [
+    "38 registry items across marketing, app and ecommerce categories",
+    "marketing blocks: hero 6, feature 3, pricing 4, cta 2, navbar 2, footer 3, team 1, contact 2, sign-up 2",
+    "app blocks: dashboard 10, sidebar 1",
+    "install through the Bag/UI shadcn namespace with one CLI command",
+    "Framer Motion or GSAP animations in interactive blocks",
+    "React + shadcn/ui + Tailwind CSS with dark mode support",
+    "MIT licensed, free without an account; optional sponsorship",
+    "templates, changelog and docs alongside the blocks"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "templates",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "framer-motion",
+    "gsap"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://bagui.pro/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

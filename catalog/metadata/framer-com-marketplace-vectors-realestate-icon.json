@@ -1,0 +1,27 @@
+{
+  "id": "framer-com-marketplace-vectors-realestate-icon",
+  "url": "https://framer.com/marketplace/vectors/realestate-icon",
+  "kind": "page",
+  "hints_hash": "c6f57107964826a2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/vectors/realestate-icon", "title": "RealEstate icon — Vector Set for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "RealEstate icon",
+  "summary": "50-icon outline vector set for real estate and property UIs, sold for $1 on the Framer Marketplace.",
+  "description": "An editable outline icon pack by Deven Web Studio for real estate, property and housing apps, covering property, location, finance, people, documents, interiors and analytics; built on a 24×24 grid with 2px rounded strokes. Delivered as a Framer component (.framerx) with variants for switching icons, recolorable for dark and light themes.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "real estate icon", "property icon", "outline icon", "vector icon", "framer component", "dashboard icon", "recolorable icon", "editable icon", "housing"],
+  "contains": ["50-icon outline set on a 24×24 grid with 2px rounded strokes", "categories: Property, Location, Finance, People, Documents, Interiors, Analytics", "listing states 200 editable outline icons (40×40 px)", "delivered as a .framerx component with variants", "recolorable strokes for dark/light UI themes", "$1 one-time purchase; license: Single-Use"],
+  "formats": ["framer-file"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.8
+}

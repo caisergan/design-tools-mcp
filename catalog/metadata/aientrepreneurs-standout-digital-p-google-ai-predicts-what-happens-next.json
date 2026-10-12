@@ -1,0 +1,26 @@
+{
+  "id": "aientrepreneurs-standout-digital-p-google-ai-predicts-what-happens-next",
+  "url": "https://aientrepreneurs.standout.digital/p/google-ai-predicts-what-happens-next",
+  "kind": "page",
+  "hints_hash": "8c22bb2ce0d8fa34",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:35:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aientrepreneurs.standout.digital/p/google-ai-predicts-what-happens-next", "title": "Google’s New AI Predicts What Happens Next", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Google’s New AI Predicts What Happens Next",
+  "summary": "Newsletter issue rounding up AI releases: Google TimesFM-3 forecasting, Runway Solaris, Meta Muse Code and more.",
+  "description": "Issue of The AI Entrepreneurs newsletter, published September 1, 2026. Covers Google's TimesFM-3 time-series forecasting model, Runway's Solaris interface world model, Anthropic's Claude security changes, Meta's Muse Code coding agent and new OpenAI Codex features.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["ai news", "ai newsletter", "ai tool", "coding agent", "ai model", "ai update", "weekly roundup", "forecasting model", "interface model", "newsletter issue"],
+  "contains": ["6-minute read, published September 1, 2026", "sections on Google TimesFM-3, Runway Solaris, Anthropic, Meta Muse Code and OpenAI Codex", "issue of The AI Entrepreneurs newsletter"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

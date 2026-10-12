@@ -1,0 +1,27 @@
+{
+  "id": "syntaxstream-substack-com-p-42-principles-for-designing-humanai",
+  "url": "https://syntaxstream.substack.com/p/42-principles-for-designing-humanai",
+  "kind": "page",
+  "hints_hash": "89ea0d1f16855dbe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://syntaxstream.substack.com/p/42-principles-for-designing-humanai", "title": "39 Principles for Designing Human–AI Interaction", "status": null}
+  ],
+  "status": "ok",
+  "name": "39 Principles for Designing Human–AI Interaction",
+  "summary": "Article laying out 39 applied design principles, in nine themes, for human–AI interaction in products.",
+  "description": "A framework article published Jun 30, 2026 that turns research on human–AI interaction, mixed-initiative systems and trust in automation into practical interface principles. Nine themes - probabilistic foundation, expectation setting, calibrated trust, transparency, control and agency, graceful failure, co-creation, responsible autonomy and sustained reliance - illustrated with examples from real products.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["ai design", "human-ai interaction", "ai ux", "design principle", "ai interface", "trust", "transparency", "ai agent", "responsible ai", "generative ai", "ux framework", "product design", "explainable ai", "autonomy", "provenance"],
+  "contains": ["39 principles grouped into 9 themes", "draws on the PAIR Guidebook, Microsoft's 18 guidelines and frontier model specs", "product examples such as Linear's AI triage", "published Jun 30, 2026"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-bilawalsidhu-gods-eye-view",
+  "url": "https://github.com/bilawalsidhu/gods-eye-view",
+  "kind": "repo",
+  "hints_hash": "e37f3eae8737ce41",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/bilawalsidhu/gods-eye-view/blob/HEAD/README.md", "title": "God's Eye View README", "status": null},
+    {"url": "https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/HEAD/package.json", "title": "package.json", "status": 200}
+  ],
+  "status": "ok",
+  "name": "God's Eye View",
+  "summary": "Browser spy-satellite simulator on a photorealistic 3D globe with live aircraft, ships, satellites, earthquakes, traffic and cameras.",
+  "description": "A real-time intelligence console for planet Earth that runs in the browser, built on a photorealistic 3D globe; the data is live and comes from public sources. Layers include aircraft, ships, satellites, earthquakes, traffic and public cameras, with hands-free voice control powered by a realtime AI agent. Starts with no API keys needed, and optional keys unlock extra capabilities.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["globe", "3d"],
+  "keywords": ["3d globe", "spy satellite", "satellite", "simulator", "osint", "geospatial", "aircraft", "ship", "earthquake", "cctv", "traffic", "voice control", "realtime", "earth", "cesium"],
+  "contains": [
+    "photorealistic 3D globe with live data layers",
+    "aircraft, ships, satellites, earthquakes, traffic and public cameras",
+    "hands-free voice control via a realtime AI agent",
+    "runs in the browser; installs via Pinokio or runs locally",
+    "starts without API keys; optional keys unlock capabilities",
+    "MIT license; node >= 24"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["cesium"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/bilawalsidhu/gods-eye-view", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

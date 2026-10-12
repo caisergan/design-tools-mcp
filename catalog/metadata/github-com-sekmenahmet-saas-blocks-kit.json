@@ -1,0 +1,114 @@
+{
+  "id": "github-com-sekmenahmet-saas-blocks-kit",
+  "url": "https://github.com/SekmenAhmet/saas-blocks-kit",
+  "kind": "repo",
+  "hints_hash": "24af3311e36195cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/SekmenAhmet/saas-blocks-kit/blob/HEAD/README.md",
+      "title": "SaaS Blocks Kit",
+      "status": null
+    },
+    {
+      "url": "https://github.com/SekmenAhmet/saas-blocks-kit",
+      "title": "GitHub - SekmenAhmet/saas-blocks-kit: 10 production-ready SaaS landing page sections built with Next.js 15, shadcn/ui, Tailwind CSS v4 and TypeScript. Dark mode by default. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "SaaS Blocks Kit",
+  "summary": "10 production-ready SaaS landing page sections built with Next.js 15, shadcn/ui and Tailwind CSS v4, dark mode by default.",
+  "description": "A paid kit of 10 landing page blocks for SaaS sites: hero, logo bar, features grid, bento grid, how-it-works, pricing (monthly/annual toggle), testimonials, FAQ accordion, CTA and footer, built with Next.js 15, TypeScript, Tailwind CSS v4 and shadcn/ui (Accordion, Badge, Switch) on Base UI. Blocks are copied from src/components/blocks/ into a project; the repo doubles as its own demo with a FlowSync landing page at / and a blocks catalog at /blocks.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "hero",
+    "logo-cloud",
+    "features",
+    "bento-grid",
+    "pricing",
+    "testimonials",
+    "faq",
+    "cta",
+    "footer"
+  ],
+  "variants": {
+    "features": [
+      "grid",
+      "steps"
+    ],
+    "pricing": [
+      "billing-toggle"
+    ],
+    "testimonials": [
+      "grid",
+      "with-rating"
+    ],
+    "faq": [
+      "accordion"
+    ],
+    "cta": [
+      "card"
+    ],
+    "footer": [
+      "multi-column"
+    ]
+  },
+  "keywords": [
+    "saas",
+    "landing page",
+    "landing page section",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "cta",
+    "footer",
+    "bento grid",
+    "next.js",
+    "shadcn ui",
+    "tailwind css",
+    "typescript",
+    "dark mode",
+    "block library"
+  ],
+  "contains": [
+    "10 blocks: hero, logos, features, bento grid, how-it-works, pricing, testimonials, FAQ, CTA, footer",
+    "Next.js 15, TypeScript, Tailwind CSS v4",
+    "shadcn/ui (New York style) on Base UI",
+    "dark theme by default with indigo to violet accent",
+    "blocks copied from src/components/blocks/",
+    "demo: / FlowSync landing page, /blocks catalog",
+    "single-use commercial license, sold on Gumroad"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "base-ui"
+  ],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": "https://github.com/SekmenAhmet/saas-blocks-kit",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

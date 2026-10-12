@@ -1,0 +1,32 @@
+{
+ "id": "tabbied-com",
+ "url": "https://tabbied.com",
+ "kind": "site",
+ "hints_hash": "2e093766dfaeb946",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://tabbied.com/llms.txt", "title": "Tabbied", "status": null},
+  {"url": "https://tabbied.com", "title": "Tabbied - Free generative patterns and website templates", "status": null},
+  {"url": "https://tabbied.com/docs", "title": "Developers - Tabbied", "status": null},
+  {"url": "https://tabbied.com/patterns", "title": "Pick a pattern - Tabbied", "status": null},
+  {"url": "https://tabbied.com/templates/verdant", "title": "Verdant - Template preview - Tabbied", "status": 200},
+  {"url": "https://tabbied.com/terms-of-service", "title": "Terms of Service - Tabbied", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Tabbied",
+ "summary": "Generative pattern library: 382 customizable patterns, 437 palettes, 377 website templates and an npm package.",
+ "description": "Patterns drawn in the browser with css-doodle and usable as page backgrounds: recolor from 437 palettes, adjust frequency and density, seed them, and export a 3000px PNG or vector SVG. The tabbied npm package ships the same designs with React, Vue, Svelte, web-component and plain HTML entry points plus a rendering CLI, and an MCP server lets assistants search and preview designs; 377 website templates are built on the same engine.",
+ "type": "generator",
+ "categories": ["color-effects", "templates"],
+ "elements": ["background"],
+ "keywords": ["generative pattern", "background pattern", "pattern generator", "css pattern", "color palette", "seamless pattern", "svg export", "png export", "website template", "react", "vue", "svelte", "npm package", "mcp server", "css-doodle"],
+ "contains": ["382 patterns; 437 color palettes", "export PNG (3000px) or vector SVG", "377 website templates built around patterns", "npm package tabbied v0.9.0 (MIT) with React/Vue/Svelte/web-component/HTML entries", "CLI renders SVG, PNG or frame sequences via Playwright", "MCP server tabbied-mcp: searchdesigns, previewdesign, getdesign, listtemplates", "patterns free for personal and commercial use; templates licensed per account; free and paid plans"],
+ "formats": ["npm-package", "png", "svg", "cli", "api", "templates"],
+ "stack": ["react", "vue", "svelte", "css-doodle"],
+ "pricing": "freemium",
+ "license": "MIT",
+ "related": {"repo": null, "docs": "https://tabbied.com/docs", "npm": "tabbied", "figma": null, "parent": null},
+ "confidence": 0.85
+}

@@ -1,0 +1,38 @@
+{
+  "id": "unfair-so",
+  "url": "https://unfair.so",
+  "kind": "site",
+  "hints_hash": "48424bdaada789cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://unfair.so/llms.txt", "title": "unfair.so", "status": null},
+    {"url": "https://unfair.so", "title": "unfair.so — 1000+ creators. First post today.", "status": 200},
+    {"url": "https://unfair.so/pricing", "title": "Pricing · unfair.so", "status": 200}
+  ],
+  "status": "ok",
+  "name": "unfair.so",
+  "summary": "Creator marketing platform: book creators your buyers already follow, launch a coordinated post and keep every engager as a lead.",
+  "description": "Run a launch through a lineup of creators who quote your post in the same five-minute window to trigger feed reach. Creators set their price — quotes on X from $20, median $100 — and you approve who joins. Every engager is captured as a lead with email and LinkedIn in a CSV, and an AI growth agent also finds relevant conversations and drafts replies in your voice, running as a manual session or on autopilot.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["creator marketing", "influencer marketing", "product launch", "launch campaign", "ai growth agent", "warm outreach", "cold outreach", "social media", "lead generation", "founder", "indie hacker", "saas", "startup growth", "audience", "creator", "social proof", "marketing automation", "reply"],
+  "contains": [
+    "1000+ creators with audience breakdowns: roles, companies, verified followers",
+    "coordinated launches: everyone quotes the post in the same five-minute window",
+    "creator quotes on X from $20 (median $100); you approve every price",
+    "plan fees: Unfair +15%, Very Unfair +10%, Launchmaxxing +0%, plus 3% card processing",
+    "managed campaigns from $990 a month by a GTM manager (20 spots)",
+    "engagers exported as leads: email and LinkedIn in a CSV",
+    "AI growth agent that drafts replies in your voice; manual session or autopilot",
+    "platforms: X and LinkedIn; repost, quote or sponsored post formats"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

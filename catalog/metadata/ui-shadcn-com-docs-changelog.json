@@ -1,0 +1,45 @@
+{
+  "id": "ui-shadcn-com-docs-changelog",
+  "url": "https://ui.shadcn.com/docs/changelog",
+  "kind": "page",
+  "hints_hash": "ada11051db431127",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:43:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.shadcn.com/docs/changelog",
+      "title": "Changelog - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Changelog",
+  "summary": "Dated release notes for shadcn/ui: components, CLI, registries and packages from 2023 to 2026.",
+  "description": "The shadcn/ui changelog collects dated entries on new components and features: the cn package that replaces clsx and tailwind-merge (with an npx migration), private GitHub registries read through the GitHub CLI, human-in-the-loop helpers for the AI SDK, the Questionnaire component with install commands, and server-side dynamic search for registries. An index links every earlier update back to 2023.",
+  "type": "article",
+  "keywords": [
+    "changelog",
+    "release note",
+    "shadcn",
+    "ui component",
+    "react",
+    "registry",
+    "cli",
+    "tailwind",
+    "update",
+    "design system"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ui-shadcn-com"
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-coleam00-ottomator-agents",
+  "url": "https://github.com/coleam00/ottomator-agents",
+  "kind": "repo",
+  "hints_hash": "d353e5dda9eb0bb3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/coleam00/ottomator-agents/blob/HEAD/README.md", "title": "What is the Live Agent Studio?", "status": null},
+    {"url": "https://raw.githubusercontent.com/coleam00/ottomator-agents/HEAD/LICENSE", "title": "LICENSE (MIT)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ottomator-agents",
+  "summary": "Repository of the source code and n8n workflow JSON for the AI agents hosted on the oTTomator Live Agent Studio.",
+  "description": "The Live Agent Studio is a community platform where every hosted agent is open sourced here as Python code or n8n workflow JSON. The repository includes sample agents and a developer guide for building and submitting your own; agents cover many use cases and run on the platform with tokens.",
+  "type": "template",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent", "ai agent template", "n8n", "n8n workflow", "workflow json", "python agent", "open source", "agent example", "llm", "automation", "chatbot", "agent studio", "developer guide"],
+  "contains": [
+    "source code and workflow JSON for the agents hosted on the Live Agent Studio",
+    "n8n and Python sample agents as starting points",
+    "developer guide for building and submitting agents",
+    "agents are open source; the platform is community-driven and in beta",
+    "using agents on the platform costs tokens, with free tokens on first sign-in",
+    "MIT licensed"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["python", "n8n"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/coleam00/ottomator-agents", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

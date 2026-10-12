@@ -1,0 +1,27 @@
+{
+  "id": "github-com-shadcndashboard-shadcndashboard",
+  "url": "https://github.com/shadcndashboard/shadcndashboard",
+  "kind": "repo",
+  "hints_hash": "e7d448b4f0076da5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shadcndashboard/shadcndashboard/blob/HEAD/README.md", "title": "README.md", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Dashboard",
+  "summary": "Free open-source admin dashboard template built with React, Vite, shadcn/ui, Base UI and Tailwind CSS v4.",
+  "description": "A production-ready admin dashboard starter with a modern dashboard, Blog, Notes and Tickets apps, authentication pages, form layouts, data tables, a user profile and a component library. Ships in React (Vite) with a Next.js version in a sibling repo; free items are MIT.",
+  "type": "template",
+  "categories": ["templates", "components"],
+  "elements": ["dashboard", "stats", "chart", "table", "form", "calendar", "date-picker", "file-upload", "otp-input", "404"],
+  "keywords": ["admin dashboard", "dashboard template", "shadcn", "react", "vite", "tailwind", "typescript", "admin panel", "data table", "authentication", "chart", "dark mode", "open source", "mit", "starter", "template", "dashboard kit"],
+  "contains": ["free admin dashboard template under the MIT license", "React 19 + Vite, TypeScript, Tailwind CSS v4, shadcn/ui and Base UI", "apps: Blog, Notes and Tickets", "auth pages: login, register, forgot password, OTP verification, reset, two-factor", "data tables, vertical and horizontal form layouts, user profile page", "charts via Recharts; rich text editor via TipTap", "error and maintenance pages, dark/light mode toggle", "Next.js version in a sibling repo (next-shadcn-dashboard)"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "vite", "typescript", "tailwind", "recharts", "tanstack-table", "tiptap"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcndashboard/shadcndashboard", "docs": "https://shadcndashboard.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

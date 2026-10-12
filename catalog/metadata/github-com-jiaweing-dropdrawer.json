@@ -1,0 +1,78 @@
+{
+  "id": "github-com-jiaweing-dropdrawer",
+  "url": "https://github.com/jiaweing/DropDrawer",
+  "kind": "repo",
+  "hints_hash": "054f2472fa23f276",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/jiaweing/DropDrawer/blob/HEAD/README.md",
+      "title": "DropDrawer",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/jiaweing/DropDrawer",
+      "title": "GitHub - jiaweing/DropDrawer: A responsive component that automatically switches between a dropdown menu on desktop and a drawer on mobile devices for shadcn/ui. A drop-in replacement for shadcn/ui's…",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "DropDrawer",
+  "summary": "Responsive shadcn/ui menu: dropdown on desktop, drawer on mobile, as a drop-in DropdownMenu replacement.",
+  "description": "A responsive component that switches between a dropdown menu on desktop and a native-feeling drawer on mobile at a configurable 768px breakpoint. It mirrors the shadcn/ui DropdownMenu component API (trigger, content, items, submenus, groups, separators, footer) so migration is mostly find-and-replace, and installs from its GitHub or hosted shadcn registry. Built on Radix UI dropdown-menu and Vaul.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "dropdown",
+    "drawer"
+  ],
+  "keywords": [
+    "dropdown menu",
+    "drawer",
+    "drawer menu",
+    "mobile menu",
+    "responsive menu",
+    "shadcn",
+    "react",
+    "radix ui",
+    "vaul",
+    "submenu",
+    "dropdown"
+  ],
+  "contains": [
+    "dropdown on desktop, drawer on mobile (768px, configurable)",
+    "drop-in replacement for shadcn/ui DropdownMenu",
+    "nested submenus, groups, separators, icons, drawer footer",
+    "install via the shadcn CLI from GitHub or a hosted registry",
+    "built on Radix UI dropdown-menu and Vaul"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "radix",
+    "vaul",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/jiaweing/DropDrawer",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

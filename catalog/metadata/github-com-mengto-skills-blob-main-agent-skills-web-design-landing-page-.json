@@ -1,0 +1,85 @@
+{
+  "id": "github-com-mengto-skills-blob-main-agent-skills-web-design-landing-page-",
+  "url": "https://github.com/MengTo/Skills/blob/main/agent-skills/web-design/landing-page/SKILL.md",
+  "kind": "page",
+  "hints_hash": "1b701a5dc2a04e33",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:25:39Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://raw.githubusercontent.com/MengTo/Skills/main/agent-skills/web-design/landing-page/SKILL.md",
+      "title": "Landing Page (High-Conversion) — Web Design Skill",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/MengTo/Skills/main/LICENSE",
+      "title": "LICENSE",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Landing Page (High-Conversion) — Web Design Skill",
+  "summary": "Agent skill for designing high-converting single-offer landing pages: structure, layouts, copywriting and SEO/AEO.",
+  "description": "A SKILL.md from the MengTo/Skills agent-skills collection for Codex, Claude, Cursor and other AI coding agents. It covers the core landing page structure (hero, benefits, how it works, proof, FAQ, final CTA), four layout archetypes, conversion strategies, headline and CTA copywriting templates, a section-by-section workflow, an SEO/AEO checklist, common pitfalls and a fixed output format.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "testimonials",
+    "faq",
+    "cta",
+    "logo-cloud",
+    "stats"
+  ],
+  "keywords": [
+    "landing page",
+    "high-conversion landing page",
+    "agent skill",
+    "skill.md",
+    "claude code",
+    "codex",
+    "cursor",
+    "copywriting",
+    "conversion strategy",
+    "call to action",
+    "hero section",
+    "faq",
+    "seo",
+    "aeo",
+    "layout type",
+    "saas landing page",
+    "single offer page"
+  ],
+  "contains": [
+    "SKILL.md for AI coding agents from the MengTo/Skills collection",
+    "core structure: hero, benefits, how it works, proof, FAQ, final CTA",
+    "4 layout types: classic hero, long-form story, minimal conversion, comparison",
+    "copywriting templates for headlines, subheadlines, CTAs and benefit bullets",
+    "SEO/AEO indexing checklist",
+    "common pitfalls list",
+    "defined output format for generated landing pages",
+    "MIT licensed"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/MengTo/Skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.85
+}

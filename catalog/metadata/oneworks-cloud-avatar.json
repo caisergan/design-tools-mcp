@@ -1,0 +1,30 @@
+{
+  "id": "oneworks-cloud-avatar",
+  "url": "https://oneworks.cloud/avatar",
+  "kind": "page",
+  "hints_hash": "e0fc3d0c9d3edb85",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://oneworks.cloud/avatar", "title": null, "status": 200},
+    {"url": "https://oneworks.cloud/", "title": "One Works - AI 编程伙伴工作台", "status": 200},
+    {"url": "https://oneworks.cloud/docs", "title": "在自己项目中使用 | One Works Docs", "status": 200},
+    {"url": "https://oneworks.cloud/docs/usage/avatar", "title": "Avatar 编辑器与开发者接入 | One Works Docs", "status": 200}
+  ],
+  "status": "partial",
+  "name": "OneWorks Avatar",
+  "summary": "Browser-based 3D avatar editor that exports SVG, PNG and animated GIF, with React, Vue and vanilla JS runtime packages.",
+  "description": "A 3D geometric avatar editor that runs in the browser: start from a built-in character or build one, adjust pose, position, scale, face, material, lighting, shadow, stroke and animation, then copy SVG or download SVG, PNG or animated GIF at 128–512 px. Versioned avatar definitions render and edit in apps through the @oneworks/avatar packages (React, Vue, web).",
+  "type": "generator",
+  "categories": ["media", "design-tools"],
+  "elements": ["avatar", "3d"],
+  "keywords": ["avatar", "avatar maker", "avatar editor", "3d avatar", "geometric avatar", "profile picture", "user picture", "svg export", "png export", "gif export", "animated avatar", "react component", "vue component", "web component", "design tool"],
+  "contains": ["browser-based 3D geometric avatar editor", "exports SVG, PNG and animated GIF at 128, 256 or 512 px", "controls for pose, face, material, lighting, shadow, stroke and animation", "developer packages @oneworks/avatar, avatar-react, avatar-vue, avatar-web", "Agent Skill for creating and integrating avatars"],
+  "formats": ["app", "svg", "png", "npm-package", "docs"],
+  "stack": ["react", "vue"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/oneworks-ai/avatar", "docs": "https://oneworks.cloud/docs/usage/avatar", "npm": "@oneworks/avatar", "figma": null, "parent": null},
+  "confidence": 0.7
+}

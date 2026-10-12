@@ -1,0 +1,26 @@
+{
+  "id": "beui-dev-components-blocks-file-upload",
+  "url": "https://beui.dev/components/blocks/file-upload",
+  "kind": "page",
+  "hints_hash": "31dea1d681b70204",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/blocks/file-upload", "title": "File Upload · React motion component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "File Upload",
+  "summary": "Two animated React file upload blocks: a mixed attachment workspace and an upload queue with progress and retry.",
+  "description": "Two file upload patterns from beUI: an attachment workspace with a dropzone, staggered file and image rows, upload/success/failure feedback, retry, removal, shared-layout image previews and an audio waveform; and a drag-and-drop upload queue with progress rows, retry and removal. Installed with the shadcn CLI or copy-pasted, with props documented on the page.",
+  "type": "block-library",
+  "elements": ["file-upload", "progress"],
+  "keywords": ["file upload", "drag and drop", "dropzone", "upload progress", "attachment", "retry", "image preview", "audio waveform", "react", "nextjs", "motion", "shadcn", "animation"],
+  "contains": ["attachment workspace with dropzone, staggered file and image rows, audio waveform", "upload queue with progress rows and uploaded/uploading/failed states, retry and removal", "installed via shadcn CLI (@beui/file-upload) or copy-paste source", "props: maxFiles (12), maxFileSize (500 MB), accept, multiple, classNames"],
+  "formats": ["code", "registry", "cli"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.85
+}

@@ -1,0 +1,46 @@
+{
+  "id": "docs-google-com-spreadsheets-d-10nrhnkmemm5phbjhp3pu2btakldksjs-v0vda5ba",
+  "url": "https://docs.google.com/spreadsheets/d/10nrHNkmemm5phBJHP3PU2btaklDKSJS_v0vdA5bA5q4/edit?usp=sharing",
+  "kind": "page",
+  "hints_hash": "fb76c7c608187300",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://docs.google.com/spreadsheets/d/10nrHNkmemm5phBJHP3PU2btaklDKSJS_v0vdA5bA5q4/edit?usp=sharing", "title": "UI Design Samples - Google E-Tablolar", "status": null}
+  ],
+  "status": "ok",
+  "name": "UI Design Samples",
+  "summary": "Shared, read-only spreadsheet listing websites as UI design samples, each with a design-signature and animation-style note.",
+  "description": "A publicly shared, view-only Google Sheet of website samples used as UI design references. Columns are name, url, design_signature and animation_style; the rows cover studio, SaaS and crypto sites as well as template links, and about 30 of the numbered rows carry content.",
+  "type": "directory",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": [
+    "design sample",
+    "spreadsheet",
+    "web design reference",
+    "landing page inspiration",
+    "animation style",
+    "ui reference list",
+    "design signature",
+    "scroll animation",
+    "dark mode",
+    "portfolio site",
+    "studio website"
+  ],
+  "contains": [
+    "columns: name, url, design_signature, animation_style",
+    "about 30 filled rows in a list numbered to 100",
+    "notes describe palette and layout, e.g. linear.app dark canvas #010102 with lavender accent #5e6ad2",
+    "entries include a16zcrypto.com, metamask.io, katana.network, linear.app, lusion.co, locomotive.ca, aino.agency",
+    "some rows are bare URLs: Behance galleries, Framer and Webflow templates",
+    "shared read-only (view only); no sign-in needed to read"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

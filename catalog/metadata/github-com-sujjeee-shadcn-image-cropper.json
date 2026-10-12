@@ -1,0 +1,29 @@
+{
+  "id": "github-com-sujjeee-shadcn-image-cropper",
+  "url": "https://github.com/sujjeee/shadcn-image-cropper",
+  "kind": "repo",
+  "hints_hash": "08b44ff455f1dfa8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/sujjeee/shadcn-image-cropper/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/sujjeee/shadcn-image-cropper", "title": "GitHub - sujjeee/shadcn-image-cropper: Image cropper built with shadcn/ui and react-image-crop · GitHub", "status": 200},
+    {"url": "https://shadcn-image-cropper.vercel.app", "title": "Image cropper", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn-image-cropper",
+  "summary": "Minimal image cropper and uploader UI built with shadcn/ui and react-image-crop.",
+  "description": "An uploader plus image cropper component for cropping images such as avatars, built on shadcn/ui and the react-image-crop library. Copy the code from the repo into a Next.js project styled with Tailwind CSS.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["file-upload"],
+  "keywords": ["image cropper", "avatar cropper", "image upload", "file upload", "uploader", "shadcn", "react", "nextjs", "react-image-crop", "image crop", "profile picture", "tailwind"],
+  "contains": ["uploader and image cropper UI", "built with shadcn/ui and react-image-crop", "used to crop avatar images", "455 GitHub stars", "demo at shadcn-image-cropper.vercel.app"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "tailwind", "react-image-crop"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/sujjeee/shadcn-image-cropper", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

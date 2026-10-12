@@ -1,0 +1,39 @@
+{
+  "id": "www-8bitcn-com",
+  "url": "https://www.8bitcn.com",
+  "kind": "site",
+  "hints_hash": "91275b4a978b987f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T15:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.8bitcn.com", "title": "Retro UI library - 8bitcn/ui", "status": 200},
+    {"url": "https://www.8bitcn.com/docs", "title": "Getting Started - 8bitcn/ui", "status": 200},
+    {"url": "https://www.8bitcn.com/themes", "title": "Themes - 8bitcn/ui", "status": 200},
+    {"url": "https://www.8bitcn.com/about", "title": "About - 8bitcn/ui", "status": 200},
+    {"url": "https://raw.githubusercontent.com/TheOrcDev/8bitcn-ui/HEAD/README.md", "title": "8bitcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "8bitcn/ui",
+  "summary": "Retro 8-bit shadcn/ui components and blocks for React — including health bars, XP bars and game-ready pieces — plus copy-paste themes.",
+  "description": "A shadcn registry of accessible, retro-styled components and blocks. The component set mirrors shadcn/ui in 8-bit style (accordion, alert, button, calendar, card, carousel, chart, dialog, drawer, dropdown menu, input, menubar, navigation menu, pagination, select, sidebar, slider, switch, table, tabs, toast, tooltip …) and adds retro-specific pieces: enemy health display, health bar, mana bar, XP bar, kbd, retro mode switcher and theme selector. v2 adds 35 new blocks (hero, pricing, timeline, team, FAQ, 404, loading and game screens) and hand-picked 8-bit themes copy-paste into your app.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["hero", "404", "card", "form", "features", "faq", "timeline", "team", "select", "drawer", "switch", "loader"],
+  "keywords": ["retro ui", "8-bit", "pixel", "shadcn", "react component", "component library", "game ui", "health bar", "xp bar", "mana bar", "rpg", "arcade", "block", "theme", "tailwind", "nextjs", "copy paste", "open source", "gamified ui", "nostalgia"],
+  "contains": [
+    "121 registry items: components, blocks and themes",
+    "shadcn-style component set in 8-bit style incl. health bar, mana bar, XP bar, enemy health display, kbd",
+    "retro extras: retro mode switcher, theme selector, combo box, resizable panels",
+    "v2 adds 35 blocks: hero, pricing, timeline, team, FAQ, 404, loading and game screens",
+    "hand-picked 8-bit themes to copy-paste into apps",
+    "installs as a trusted shadcn registry, with optional MCP setup for AI assistants",
+    "built on shadcn/ui; MIT licensed and open source"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TheOrcDev/8bitcn-ui", "docs": "https://www.8bitcn.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,32 @@
+{
+  "id": "reactflow-dev",
+  "url": "https://reactflow.dev",
+  "kind": "site",
+  "hints_hash": "b3de4314b6691e33",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://reactflow.dev/llms.txt", "title": "React Flow documentation", "status": null},
+    {"url": "https://reactflow.dev", "title": "Node-Based UIs in React - React Flow", "status": 200},
+    {"url": "https://reactflow.dev/examples", "title": "Overview - React Flow", "status": 200},
+    {"url": "https://reactflow.dev/pro", "title": "React Flow Pro - React Flow", "status": 200},
+    {"url": "https://reactflow.dev/showcase", "title": "Showcase - React Flow", "status": 200},
+    {"url": "https://github.com/xyflow/xyflow", "title": "GitHub - xyflow/xyflow: React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React or Svelte…", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Flow",
+  "summary": "MIT-licensed React library for building node-based UIs: flowcharts, diagrams, workflow and no-code editors.",
+  "description": "A customizable React component for interactive node-based editors and diagrams: dragging, zooming, panning, selecting, sub-flows and custom nodes and edges are built in, alongside Background, MiniMap, Controls, Panel, NodeToolbar and NodeResizer components. Ships with docs, an example library and a set of shadcn UI components; Pro adds advanced examples, prioritized bug reports and 1:1 support.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["background", "button", "map"],
+  "keywords": ["node based ui", "flow chart", "diagram", "workflow builder", "node editor", "graph editor", "no code", "visual programming", "minimap", "react library", "typescript"],
+  "contains": ["builds flowcharts, diagrams, workflow builders, no-code apps and visualizers", "built-in: drag, zoom, pan, multi-select, sub-flows, custom nodes and edges", "components: Background (lines/dots/cross), MiniMap, Controls, Panel, NodeToolbar, NodeResizer", "38.6K GitHub stars, 16.34M weekly installs; the repo covers React Flow and Svelte Flow", "installs with npm install @xyflow/react", "MIT library; React Flow Pro subscription for advanced examples and support"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "typescript"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/xyflow/xyflow", "docs": "https://reactflow.dev/learn", "npm": "@xyflow/react", "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ruben-substack-com-p-claude-design",
+  "url": "https://ruben.substack.com/p/claude-design",
+  "kind": "page",
+  "hints_hash": "e48f7917fd4d9a67",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-design", "title": "Claude Design. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Claude Design",
+  "summary": "Newsletter guide to Claude Design: how to access it, quick tests, the video hack for slides and how to copy any design.",
+  "keywords": ["claude design", "claude", "ai design", "design tool", "prompt", "slide deck", "canva", "figma", "design workflow", "ai tool guide", "tutorial"],
+  "type": "article",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "typescale-com",
+  "url": "https://typescale.com",
+  "kind": "site",
+  "hints_hash": "ad234c3ba843ee50",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://typescale.com", "title": "Typescale - Create stunning typography, generate CSS, and find inspiration.", "status": null},
+    {"url": "https://typescale.com/terms-of-service", "title": "Terms of Service - Typescale", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Typescale",
+  "summary": "Web app for building responsive type scales and generating the CSS, with boards to save, explore and like.",
+  "description": "Browser tool for typographic scales: set base font size, scale ratio and min-width, choose fonts, weights, line-height, letter-spacing and colors, and generate the matching CSS. Boards can be created, explored, bookmarked and liked, with an account via sign-up for saving them.",
+  "type": "generator",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["type scale", "typography", "type scale generator", "css typography", "responsive typography", "font size", "line height", "letter spacing", "web typography", "typography inspiration", "css generator"],
+  "contains": ["controls: font-size, scale, min-width", "body styles: font, weight, line-height, letter-spacing, color, background", "heading styles", "CSS output", "boards: create, explore, bookmark, like", "account sign-up"],
+  "formats": ["app", "code"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

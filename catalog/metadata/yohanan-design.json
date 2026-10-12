@@ -1,0 +1,27 @@
+{
+  "id": "yohanan-design",
+  "url": "https://yohanan.design",
+  "kind": "site",
+  "hints_hash": "e4688cc86e9b78fb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://yohanan.design", "title": "Ian O — Design Engineer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Ian O — Design Engineer",
+  "summary": "Portfolio of Ian O, design engineer: four product case studies across food, marketplace, mobility and media.",
+  "description": "Case studies of Foodcourt, Spacebook, Steppa and AFROSZN with links to live apps and case-study pages, from a designer and developer working across concept, interface and frontend. The site lists his stack (Figma, Next.js, React, TypeScript, Tailwind, GSAP) and availability for freelance projects.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["portfolio", "design engineer", "case study", "product design", "frontend", "next.js", "react", "tailwind", "web design", "ux design", "freelance designer"],
+  "contains": ["4 case studies: Foodcourt, Spacebook, Steppa, AFROSZN", "links to live apps and case-study pages", "stack: Figma, Next.js, React, TypeScript, Tailwind, GSAP", "available for freelance product and frontend work"],
+  "formats": ["links"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "gsap"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

@@ -1,0 +1,40 @@
+{
+  "id": "screensdesign-com",
+  "url": "https://screensdesign.com",
+  "kind": "site",
+  "hints_hash": "a41e3189f94fab97",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://screensdesign.com/llms.txt", "title": "ScreensDesign", "status": null },
+    { "url": "https://screensdesign.com", "title": "ScreensDesign: App Design Library & AI Screen Generator", "status": 200 },
+    { "url": "https://screensdesign.com/explore", "title": "Explore mobile app screens, flows, and UI elements | ScreensDesign", "status": 200 },
+    { "url": "https://screensdesign.com/guides", "title": "App Design Guides: Mobile UI, iOS & Onboarding | ScreensDesign", "status": 200 },
+    { "url": "https://screensdesign.com/pricing", "title": "Pricing | ScreensDesign", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "ScreensDesign",
+  "summary": "Library of 2,700+ iOS apps with onboarding, paywall and retention screens, flows and revenue estimates, plus an AI screen generator.",
+  "description": "Mobile app design and UX research library for designers, founders and product teams: full session recordings, onboarding and permission flows, paywall and pricing screens, subscription cancellation and recovery, retention patterns and App Store screenshots from 2,783 top-chart iOS apps, with revenue and download estimates where available. Browse by screen type, recorded flow, UI element or app category; public articles and guides explain the patterns behind the screens. Premium library features, the AI screen generator and MCP access need an account and plan.",
+  "type": "gallery",
+  "categories": ["inspiration", "components"],
+  "elements": ["button", "input", "accordion", "drawer", "badge", "navbar", "checkbox", "date-picker", "switch", "tabs", "avatar", "banner"],
+  "keywords": ["app design", "ios design", "mobile ui", "design reference", "app screenshot", "onboarding flow", "paywall", "design inspiration", "ux research", "user flow", "recording", "ui element", "subscription", "mobile app", "mcp"],
+  "contains": [
+    "2,783 apps in the top charts with screens, flows, videos and store screens",
+    "revenue estimates shown per app (e.g. $45K–$250K per month)",
+    "browse by screen type, recorded flow, UI element, app category and collection",
+    "paywall and monetization research: trials, credits, gating, upgrades, cancellation",
+    "public guides and articles with evidence links; premium library and MCP for accounts",
+    "App Store screenshots, animation explorer and web onboardings sections",
+    "recorded flows show ordered steps within real app tasks",
+    "MCP integration connects AI clients to the library on premium plans"
+  ],
+  "formats": ["screenshots", "video", "links", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.8
+}

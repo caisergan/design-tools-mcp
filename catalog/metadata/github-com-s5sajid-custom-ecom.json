@@ -1,0 +1,85 @@
+{
+  "id": "github-com-s5sajid-custom-ecom",
+  "url": "https://github.com/S5SAJID/custom-ecom",
+  "kind": "repo",
+  "hints_hash": "96988b878d855023",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/S5SAJID/custom-ecom/blob/HEAD/README.md",
+      "title": "CustomEcom Admin Dashboard",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/S5SAJID/custom-ecom",
+      "title": "GitHub - S5SAJID/custom-ecom: This is CustomEcom Admin Dashboard, a Next.js-based ecommerce admin panel built with shadcn/ui and Tailwind CSS. I made this for devs who want a clean, modern, and actua…",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CustomEcom Admin Dashboard",
+  "summary": "Open-source ecommerce admin dashboard template built with Next.js, shadcn/ui and Tailwind CSS.",
+  "description": "An ecommerce admin panel with pages for products (list, create, details), orders, customers and settings. All UI and client-side logic — no backend — so it can be wired to any API or database; forms use React Hook Form and Zod.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "dashboard",
+    "table",
+    "sidebar",
+    "navbar",
+    "form",
+    "input"
+  ],
+  "keywords": [
+    "ecommerce",
+    "admin dashboard",
+    "dashboard template",
+    "admin panel",
+    "product management",
+    "order management",
+    "customer management",
+    "setting",
+    "nextjs",
+    "shadcn",
+    "tailwind",
+    "react",
+    "react hook form",
+    "zod",
+    "crud"
+  ],
+  "contains": [
+    "pages: products list/create/details, orders, customers, settings",
+    "no backend — UI and client-side logic only",
+    "modular sidebar, header and table layouts",
+    "stack: Next.js App Router, shadcn/ui, Tailwind, React Hook Form, Zod, Lucide"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "react-hook-form",
+    "zod"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/S5SAJID/custom-ecom",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

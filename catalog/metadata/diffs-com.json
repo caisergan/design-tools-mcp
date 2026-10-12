@@ -1,0 +1,30 @@
+{
+  "id": "diffs-com",
+  "url": "https://diffs.com",
+  "kind": "site",
+  "hints_hash": "b1d1470adc1bd74c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://diffs.com/llms.txt", "title": "@pierre/diffs", "status": null},
+    {"url": "https://diffs.com", "title": "Diffs, from Pierre", "status": 200},
+    {"url": "https://diffs.com/docs", "title": "Diffs docs", "status": 200},
+    {"url": "https://github.com/pierrecomputer/pierre", "title": "GitHub - pierrecomputer/pierre: pierre’s open source code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "@pierre/diffs",
+  "summary": "Open-source library for rendering code diffs on the web, built on Shiki with React and vanilla JS APIs.",
+  "description": "Library for rendering code and diffs in the browser: stacked (unified) and split (side-by-side) layouts, inline change highlighting, merge-conflict resolution UI, comments and annotations, line selection, virtualization and SSR. Syntax highlighting and theming come from Shiki; React components and vanilla JS classes share the same lower-level renderers, and an edit mode (beta) adds undo history, find-in-file and lint markers.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": [],
+  "keywords": ["diff", "diff viewer", "code rendering", "syntax highlighting", "shiki", "react", "code review", "side by side diff", "unified diff", "virtualization", "ssr", "editor", "merge conflict", "theming"],
+  "contains": ["diff and code rendering for React and vanilla JS", "@pierre/diffs on npm, v1.5.2", "layouts: stacked (unified) and split (side-by-side)", "edit mode (beta) with undo history, find-in-file and lint markers", "token hover hooks, worker-pool highlighting, SSR preload", "agent skill and plain-text docs for coding agents"],
+  "formats": ["code", "npm-package", "docs", "prompts"],
+  "stack": ["react", "shiki", "css"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/pierrecomputer/pierre", "docs": "https://diffs.com/docs", "npm": "@pierre/diffs", "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,28 @@
+{
+  "id": "github-com-ibelick-background-snippets",
+  "url": "https://github.com/ibelick/background-snippets",
+  "kind": "repo",
+  "hints_hash": "9a10cdda76c22f56",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ibelick/background-snippets/blob/HEAD/README.md", "title": "BG.IBELICK", "status": 200},
+    {"url": "https://bg.ibelick.com", "title": "BG.IBELICK - Modern, Ready-to-Use Background Snippets for Developers", "status": 200}
+  ],
+  "status": "ok",
+  "name": "BG.IBELICK",
+  "summary": "Copy-paste full-page background snippets for developers, crafted with Tailwind CSS and vanilla CSS.",
+  "description": "Collection of ready-to-use background snippets you paste into a project, each made for a full-page background and crafted with Tailwind CSS and vanilla CSS. Every snippet has a live preview and copy-code button on the site, and new snippets are added over time.",
+  "type": "block-library",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["background", "tailwind css", "css snippet", "gradient background", "grid background", "noise texture", "animated background", "copy paste", "vanilla css", "full page background"],
+  "contains": ["copy-paste background snippets", "crafted with Tailwind CSS and vanilla CSS", "made for full-page backgrounds", "live preview and copy-code buttons in the browser", "new snippets announced on the site"],
+  "formats": ["code"],
+  "stack": ["tailwind", "css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/ibelick/background-snippets", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

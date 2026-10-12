@@ -1,0 +1,57 @@
+{
+  "id": "opendesign-dev",
+  "url": "https://opendesign.dev",
+  "kind": "site",
+  "hints_hash": "dec53b49b8f8caa7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://opendesign.dev",
+      "title": "Introducing Exciting New Tools from Ceros: Farewell to Open Design",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Open Design",
+  "summary": "Sunset notice: Open Design was retired on October 1, 2023, and the page now points to Ceros Studio and MarkUp.",
+  "description": "\"Open Design\" was sunset on October 1st, 2023 and is no longer in service. The site keeps a farewell page from Ceros introducing two successor tools: Studio, for designing and publishing interactive digital experiences, and MarkUp, for collecting feedback on websites, videos, images and design files.",
+  "type": "tool",
+  "categories": [
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "open design",
+    "ceros",
+    "sunset",
+    "discontinued",
+    "design resource",
+    "design tool",
+    "ceros studio",
+    "markup",
+    "interactive experience",
+    "design feedback"
+  ],
+  "contains": [
+    "Open Design was sunset on October 1, 2023",
+    "successor tools: Ceros Studio (interactive experiences) and MarkUp (feedback)"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

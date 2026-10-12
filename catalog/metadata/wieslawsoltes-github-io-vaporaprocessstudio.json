@@ -1,0 +1,37 @@
+{
+  "id": "wieslawsoltes-github-io-vaporaprocessstudio",
+  "url": "https://wieslawsoltes.github.io/VaporaProcessStudio",
+  "kind": "page",
+  "hints_hash": "6f4f420522f758f6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://wieslawsoltes.github.io/VaporaProcessStudio", "title": "Vapora — Process Studio", "status": 200},
+    {"url": "https://github.com/wieslawsoltes/VaporaProcessStudio", "title": "GitHub - wieslawsoltes/VaporaProcessStudio · GitHub", "status": 200},
+    {"url": "https://github.com/wieslawsoltes/VaporaProcessStudio/blob/main/README.md", "title": "VaporaProcessStudio/README.md at main · wieslawsoltes/VaporaProcessStudio · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vapora — Process Studio",
+  "summary": "Browser-based process-flowsheet editor and steady-state simulator with ideal-mixture thermodynamics, run locally without dependencies.",
+  "description": "A dependency-free web app for editing process flowsheets and running steady-state calculations: place equipment with typed material and energy ports, set specifications, and a worker-based engine performs material and energy balances, ideal-mixture phase equilibrium, unit-operation calculations and recycle convergence. Ships with CSV/JSON export, sensitivity studies, stream and phase reports and a benzene/toluene example that calculates on startup; served from Node.js 20+ and MIT licensed.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["process simulator", "flowsheet editor", "chemical engineering", "steady state simulation", "thermodynamic calculation", "unit operation", "flash separator", "recycle loop", "material balance", "energy balance", "vapor liquid equilibrium", "sensitivity analysis", "webgpu", "canvas", "engineering tool"],
+  "contains": [
+    "editable flowsheets with typed material and energy ports, undo/redo and persistence",
+    "unit ops: mixers, splitters, heaters, coolers, pumps, valves, TP/PH flash separators",
+    "model: IDEAL-RAOULT and IDEAL-GAS property methods, recycle convergence",
+    "benzene/toluene recovery example calculated on startup",
+    "stream/phase reports, balance residuals, CSV/JSON export, sensitivity studies",
+    "54 engine tests, 11 numerical checks, 22 browser integration checks",
+    "runs locally on Node.js 20+, no package installation, MIT licensed"
+  ],
+  "formats": ["app", "code", "docs"],
+  "stack": ["html", "css", "javascript", "webgpu"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/wieslawsoltes/VaporaProcessStudio", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,37 @@
+{
+  "id": "github-com-ouestlabs-audio-ui",
+  "url": "https://github.com/ouestlabs/audio-ui",
+  "kind": "repo",
+  "hints_hash": "f534fb811bc99c84",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ouestlabs/audio-ui/blob/HEAD/README.md", "title": "audio/ui README", "status": 200},
+    {"url": "https://github.com/ouestlabs/audio-ui", "title": "GitHub - ouestlabs/audio-ui", "status": 200},
+    {"url": "https://audio-ui.xyz/", "title": "audio/ui – Audio UI Components for React", "status": 200},
+    {"url": "https://audio-ui.xyz/components", "title": "Audio UI Components - audio/ui", "status": 200},
+    {"url": "https://audio-ui.xyz/sitemap.xml", "title": "audio-ui sitemap", "status": 200}
+  ],
+  "status": "ok",
+  "name": "audio/ui",
+  "summary": "Copy-paste React components for building audio interfaces: faders, knobs, XY pads, channel strips, players and transports.",
+  "description": "An accessible, composable set of components for building audio interfaces in React, built on top of shadcn/ui. It includes fader, knob, xypad, channel strip, player, transport, queue, track, synth, sortable list and playback speed, distributed as a shadcn/ui registry that installs with the shadcn CLI or v0. Docs cover styling, an audio store and native HTML audio helpers.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["slider", "list"],
+  "keywords": ["audio ui", "audio component", "react", "shadcn", "registry", "tailwind", "fader", "knob", "xy pad", "channel strip", "audio player", "music player", "transport", "queue", "synthesizer", "daw", "mixer", "nextjs", "accessible"],
+  "contains": [
+    "components: fader, knob, xypad, channel strip, player, transport, queue, track, synth, sortable list, playback speed",
+    "shadcn/ui registry installable via the shadcn CLI and v0",
+    "docs: getting started, styling, audio store, native HTML audio, MCP, roadmap",
+    "MIT licensed",
+    "193 GitHub stars"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ouestlabs/audio-ui", "docs": "https://audio-ui.xyz/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

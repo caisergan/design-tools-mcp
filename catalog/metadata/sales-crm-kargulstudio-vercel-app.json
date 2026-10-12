@@ -1,0 +1,27 @@
+{
+  "id": "sales-crm-kargulstudio-vercel-app",
+  "url": "https://sales-crm-kargulstudio.vercel.app",
+  "kind": "site",
+  "hints_hash": "2621ee10a4193c62",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sales-crm-kargulstudio.vercel.app/llms.txt", "title": "Sales CRM", "status": null}
+  ],
+  "status": "partial",
+  "name": "Sales CRM",
+  "summary": "Company pipeline app for a sales team; its llms.txt lists a single Companies page.",
+  "description": "A sales CRM web app described as 'Company pipeline for the sales team', with a Companies page per its llms.txt. Only the llms.txt was readable — robots.txt disallows crawling the site itself — so little beyond the name and the Companies page is known.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["crm", "sales crm", "company pipeline", "sales pipeline", "sales team", "companies page", "web app", "pipeline tracker"],
+  "contains": ["llms.txt lists one page: Companies", "site description: company pipeline for the sales team"],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

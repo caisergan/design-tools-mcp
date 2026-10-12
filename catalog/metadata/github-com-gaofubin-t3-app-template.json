@@ -1,0 +1,29 @@
+{
+  "id": "github-com-gaofubin-t3-app-template",
+  "url": "https://github.com/gaofubin/t3-app-template",
+  "kind": "repo",
+  "hints_hash": "9df1ef2c327a5d1e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/gaofubin/t3-app-template/blob/HEAD/README.md", "title": "[T3 App Template]: T3 Stack with shadcn-ui Admin Layout", "status": 200},
+    {"url": "https://github.com/gaofubin/t3-app-template", "title": "GitHub - gaofubin/t3-app-template: This is the admin template for T3 Stack and shadcn ui · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "T3 App Template",
+  "summary": "Admin template for the T3 Stack with a shadcn/ui layout: collapsible multi-level sidebar, theme switching and CRUD tables.",
+  "description": "Management interface starter built with the T3 Stack and shadcn/ui, aimed at responsive admin screens. Includes theme switching, a responsive collapsible sidebar with multi-level menus and a mobile version, TanStack Table CRUD operations, GitHub login with NextAuth, and multi-select and step-form examples.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "sidebar", "table", "form", "select", "stepper", "modal", "loader"],
+  "variants": {"sidebar": ["collapsible", "nested"]},
+  "keywords": ["admin dashboard", "admin template", "t3 stack", "shadcn ui", "next.js", "typescript", "tailwind css", "sidebar", "collapsible sidebar", "tanstack table", "nextauth", "github login", "step form", "multi-select", "modal", "theme switching", "dashboard template", "react"],
+  "contains": ["T3 Stack admin template with a shadcn/ui admin layout", "responsive collapsible sidebar with multi-level menus and a mobile version", "theme switching", "TanStack Table CRUD example", "GitHub login with NextAuth", "multi-select input and step-form examples", "global header, loading and modal components", "demo at t3-app-template.vercel.app; 257 stars"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "shadcn", "nextauth", "tanstack-table", "tanstack-query", "react-hook-form", "react-hot-toast", "date-fns"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/gaofubin/t3-app-template", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

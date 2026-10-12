@@ -1,0 +1,31 @@
+{
+  "id": "cobaltcode-ai-blog-cobalt-1-0",
+  "url": "https://cobaltcode.ai/blog/cobalt-1-0",
+  "kind": "page",
+  "hints_hash": "d1b42b2ab69337d1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cobaltcode.ai/blog/cobalt-1-0", "title": "Cobalt 1.0 is generally available — Cobalt Blog", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cobalt 1.0 is generally available",
+  "summary": "Launch post for Cobalt 1.0, a shared workspace where coding agents build, test and hand software back to a team for review.",
+  "description": "Cobalt's general-availability post traces the product from one Codex agent on a GitHub repository to a shared workspace: nine coding agents (Codex, Claude Code, Cursor, GitHub Copilot, Gemini, Grok, Muse Code, OpenCode, Pi), a persistent computer per task with previews, shared multi-repository tasks, an Agent Browser that records browser checks as evidence, Loops that start on a schedule or a repository event, and a Cobalt assistant for running and monitoring the work. Published 10 September 2026.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "keywords": ["ai coding agent", "coding agent", "agent workspace", "codex", "claude code", "cursor", "github copilot", "browser testing", "preview environment", "pull request review", "multi repository task", "task coordination", "loop automation", "worker role", "developer tool"],
+  "contains": [
+    "nine coding agents supported: Codex, Claude Code, Cursor, GitHub Copilot, Gemini, Grok, Muse Code, OpenCode and Pi",
+    "each task runs on its own persistent computer with the repository and a live preview",
+    "Agent Browser follows sign-in flows, exercises forms and records browser checks as evidence",
+    "shared tasks, multi-repository changes, Azure DevOps repos and GitHub/Azure DevOps/Linear issue intake",
+    "Loops start repeatable work on a schedule or a repository event",
+    "published 10 September 2026"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cal-com-maazh-discovery",
+  "url": "https://cal.com/maazh/discovery",
+  "kind": "page",
+  "hints_hash": "f05bd2c58c7d35f2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://cal.com/maazh/discovery", "title": "Introduction Call | Maaz Hasan | Cal.com", "status": 200}],
+  "status": "partial",
+  "name": "Introduction Call",
+  "summary": "Cal.com booking page for an introduction call with Maaz Hasan.",
+  "keywords": ["booking page", "introduction call", "discovery call", "schedule a call", "appointment scheduling", "meeting scheduler", "calendar booking"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "cal-com"},
+  "confidence": 0.5
+}

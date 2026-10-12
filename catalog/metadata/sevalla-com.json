@@ -1,0 +1,37 @@
+{
+  "id": "sevalla-com",
+  "url": "https://sevalla.com",
+  "kind": "site",
+  "hints_hash": "9d361f45138d5faf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sevalla.com", "title": "Sevalla | Ship Production Apps Without Infrastructure", "status": 200},
+    {"url": "https://sevalla.com/pricing", "title": "Pricing - Sevalla", "status": 200},
+    {"url": "https://sevalla.com/faqs", "title": "FAQs - Sevalla", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Sevalla",
+  "summary": "Hosting platform to run applications, databases, object storage and static sites without managing infrastructure.",
+  "description": "Deploy applications, managed databases, S3-compatible object storage and static sites on one platform, with resource-based pricing instead of per-seat plans. An MCP server lets AI agents deploy apps and databases, read logs and metrics, and debug production.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["hosting", "paas", "cloud hosting", "application hosting", "database hosting", "object storage", "static site hosting", "deploy", "infrastructure", "docker", "mcp", "kubernetes alternative"],
+  "contains": [
+    "application hosting from $5/month: git push and Docker image deploys, autoscaling",
+    "managed databases: 5 types, private networking, daily backups",
+    "S3-compatible object storage at $0.02/GB/month",
+    "static site hosting: free, 100GB bandwidth, 600 build minutes, 100 sites",
+    "25 data centers and 260+ PoP edge servers",
+    "MCP server for AI agents to deploy, inspect logs and metrics, and resolve issues",
+    "resource-based pricing with no per-seat fees and a free trial"
+  ],
+  "formats": ["api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

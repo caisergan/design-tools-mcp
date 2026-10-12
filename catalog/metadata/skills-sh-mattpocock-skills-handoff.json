@@ -1,0 +1,45 @@
+{
+  "id": "skills-sh-mattpocock-skills-handoff",
+  "url": "https://skills.sh/mattpocock/skills/handoff",
+  "kind": "page",
+  "hints_hash": "8228aea223e128f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:18:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/mattpocock/skills/handoff", "title": "handoff — mattpocock/skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "handoff",
+  "summary": "Agent skill that compacts the current conversation into a handoff document for the next agent.",
+  "description": "SKILL.md that has an agent write a handoff document to the OS temp directory: what was done, which skills the next agent should invoke, and references to existing artifacts (specs, plans, ADRs, issues, commits, diffs) by path or URL instead of repeating them. API keys, passwords and personal data are redacted before the handoff.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "handoff",
+    "context compaction",
+    "agent workflow",
+    "session summary",
+    "claude code",
+    "skill.md",
+    "context window",
+    "artifact reference",
+    "redaction",
+    "multi agent"
+  ],
+  "contains": [
+    "writes the handoff doc to the OS temp directory ($TMPDIR, /tmp, %TEMP%)",
+    "adds a suggested skills section for the next agent",
+    "references existing artifacts by path or URL instead of duplicating them",
+    "redacts API keys, passwords and personal data",
+    "listed on skills.sh with 962.0K installs"
+  ],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/mattpocock/skills", "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.8
+}

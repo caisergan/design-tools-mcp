@@ -1,0 +1,51 @@
+{
+  "id": "fonts-google-com-icons",
+  "url": "https://fonts.google.com/icons",
+  "kind": "page",
+  "hints_hash": "2d6ca17947704a1a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/icons",
+      "title": "Material Symbols and Icons - Google Fonts",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Material Symbols and Icons",
+  "summary": "Google's Material Symbols icon font: 2,500+ glyphs in a single font file with a range of design variants.",
+  "type": "icon-set",
+  "categories": [
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "material symbol",
+    "material icon",
+    "google icon",
+    "icon font",
+    "icon set",
+    "icon library",
+    "glyph",
+    "design variant",
+    "google font",
+    "ui icon"
+  ],
+  "formats": [
+    "font-files"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "fonts-google-com"
+  },
+  "confidence": 0.65
+}

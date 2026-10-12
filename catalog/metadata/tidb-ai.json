@@ -1,0 +1,29 @@
+{
+  "id": "tidb-ai",
+  "url": "https://tidb.ai",
+  "kind": "site",
+  "hints_hash": "4cba555263f86214",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tidb.ai", "title": "TiDB | AI Assistant", "status": null},
+    {"url": "https://tidb.ai/api-docs", "title": null, "status": 200},
+    {"url": "https://github.com/pingcap/autoflow", "title": "GitHub - pingcap/autoflow", "status": 200}
+  ],
+  "status": "partial",
+  "name": "TiDB AI Assistant",
+  "summary": "Public AI assistant demo answering questions about TiDB with a knowledge-graph RAG pipeline.",
+  "description": "A Perplexity-style conversational search app over TiDB docs and community content, built as the live demo of the open-source AutoFlow project. Ask questions, get answers with sources, keep a conversation history behind login, and query the public API.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "prompt-input"],
+  "keywords": ["rag", "graphrag", "knowledge graph", "chatbot", "ai assistant", "conversational search", "question answering", "vector database", "tidb", "llamaindex", "dspy", "next.js", "documentation search", "chat ui", "llm"],
+  "contains": ["knowledge-graph RAG Q&A over TiDB docs", "ask question dialog and conversations list", "conversation history behind login", "public API at /api-docs", "live demo of AutoFlow (3k GitHub stars, Apache-2.0)", "embeddable chat widget in the project"],
+  "formats": ["app", "api"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn", "llamaindex", "dspy"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/pingcap/autoflow", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

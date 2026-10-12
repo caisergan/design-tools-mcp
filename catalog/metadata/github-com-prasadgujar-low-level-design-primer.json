@@ -1,0 +1,35 @@
+{
+  "id": "github-com-prasadgujar-low-level-design-primer",
+  "url": "https://github.com/prasadgujar/low-level-design-primer",
+  "kind": "repo",
+  "hints_hash": "ad5ff4188de169d1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://github.com/prasadgujar/low-level-design-primer/blob/HEAD/README.md", "title": "low-level-design-primer", "status": 200 },
+    { "url": "https://github.com/prasadgujar/low-level-design-primer/blob/HEAD/LICENSE", "title": null, "status": 404 }
+  ],
+  "status": "ok",
+  "name": "low-level-design-primer",
+  "summary": "Repository of low level design interview questions and solutions for the machine coding round.",
+  "description": "An organized collection of low level design resources: a question list and solution documents for the LLD / machine coding interview round, plus a resources page still under development. Contributions arrive through pull requests.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["low level design", "lld", "machine coding", "interview preparation", "question and solution", "object oriented design", "study material", "learning resource", "github repository"],
+  "contains": [
+    "questions.md: low level design interview questions",
+    "solutions.md: solutions to the problems",
+    "resources page marked TODO / under development",
+    "wanted contributions: new questions, solutions, sections, fixes",
+    "solutions meant to include detailed explanation, possibly video",
+    "credits: system design primer, Cracking the Coding Interview, Leetcode, GeeksforGeeks"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": "https://github.com/prasadgujar/low-level-design-primer", "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.8
+}

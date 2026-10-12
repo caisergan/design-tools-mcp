@@ -1,0 +1,39 @@
+{
+  "id": "bookofshapes-com",
+  "url": "https://bookofshapes.com",
+  "kind": "site",
+  "hints_hash": "1c062ca144fac31f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bookofshapes.com", "title": "Book of Shapes", "status": null},
+    {"url": "https://bookofshapes.com/patterns/arcs_1", "title": "Rotating Arc Grid - Book of Shapes", "status": null},
+    {"url": "https://bookofshapes.com/license", "title": "Licence - Book of Shapes", "status": null},
+    {"url": "https://bookofshapes.com/patterns/dna_helix", "title": "Cube Helix - Book of Shapes", "status": null},
+    {"url": "https://bookofshapes.com/patterns/flow_dots", "title": "Flow Dots - Book of Shapes", "status": null},
+    {"url": "https://bookofshapes.com/patterns/woven_grid", "title": "Woven Grid - Book of Shapes", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Book of Shapes",
+  "summary": "Collection of minimal generative SVG patterns you can customize and download, free including commercial use.",
+  "description": "A curated gallery of algorithmic SVG patterns — grids, flow fields, truchet arcs, isometric cubes and more — each with parameters to adjust and an SVG to download. Free for any use, commercial included; the only limit is that the patterns may not be redistributed as patterns.",
+  "type": "generator",
+  "categories": ["media", "color-effects"],
+  "elements": ["background"],
+  "keywords": ["svg pattern", "generative pattern", "geometric pattern", "background pattern", "grid pattern", "isometric pattern", "truchet", "flow field", "algorithmic art", "decorative background", "download svg", "free pattern", "minimal pattern", "customizable pattern"],
+  "contains": [
+    "generative SVG patterns: grids, flow fields, truchet arcs, isometric cubes, halftone",
+    "each pattern is customizable and downloadable as SVG",
+    "patterns carry tags (grid, flow, isometric, distortion) and link to related patterns",
+    "free for any use including commercial, no attribution required",
+    "one limit: patterns may not be redistributed as pattern packs or generators",
+    "created by Nikolaj Sokolowski"
+  ],
+  "formats": ["svg", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

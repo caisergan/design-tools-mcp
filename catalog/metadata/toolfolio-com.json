@@ -1,0 +1,83 @@
+{
+  "id": "toolfolio-com",
+  "url": "https://toolfolio.com",
+  "kind": "site",
+  "hints_hash": "07eaf36d9cda4c13",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://toolfolio.com",
+      "title": "Toolfolio - All the Tools You Need in One Place",
+      "status": null
+    },
+    {
+      "url": "https://toolfolio.com/collections",
+      "title": "Collections - TOOLFOLIO",
+      "status": null
+    },
+    {
+      "url": "https://toolfolio.com/collections/vibecoding",
+      "title": "32 Best Vibe Coding Assistants in 2026 Tools - TOOLFOLIO",
+      "status": null
+    },
+    {
+      "url": "https://toolfolio.com/boosted-listing",
+      "title": "Toolfolio - All the Tools You Need in One Place",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Toolfolio",
+  "summary": "Curated directory and marketplace to discover AI, design, no-code and productivity tools.",
+  "description": "A curated directory where people discover software tools across categories such as design, AI, no-code, marketing, video and coding. Tools are listed with tags and vendor notes, grouped into numbered collections ('32 Best Vibe Coding Assistants in 2026') and covered in review articles; makers submit tools and can claim them for free or pay for boosted listings.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "tool directory",
+    "ai tool",
+    "design tool",
+    "productivity tool",
+    "no-code tool",
+    "software directory",
+    "startup tool",
+    "saas discovery",
+    "tool review",
+    "tool marketplace",
+    "figma tool",
+    "framer tool",
+    "developer tool",
+    "curated tool"
+  ],
+  "contains": [
+    "1584 URLs in its sitemap",
+    "categories include design, AI, no-code, marketing, video, e-commerce, coding, audio, productivity and agents",
+    "curated collections such as '32 Best Vibe Coding Assistants in 2026' and '31 Best Popular Icon Libraries in 2026'",
+    "review and explainer articles on individual tools",
+    "free tool claims plus paid listing tiers: Startup $150 one-time, Growth $2,500/yr, ad packs from $400/mo",
+    "coupon codes, a 'Tools Daily' feed and library integrations for Figma, Framer, Notion, Webflow, Shopify and Chrome"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

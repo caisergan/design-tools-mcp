@@ -1,0 +1,105 @@
+{
+  "id": "evilcharts-com",
+  "url": "https://evilcharts.com",
+  "kind": "site",
+  "hints_hash": "f88e56ce4e73a313",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://evilcharts.com/llms.txt",
+      "title": "EvilCharts Documentation",
+      "status": null
+    },
+    {
+      "url": "https://evilcharts.com",
+      "title": "Evil Charts — Animated React Chart Components for shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://evilcharts.com/docs",
+      "title": "Introduction — Evil Charts",
+      "status": 200
+    },
+    {
+      "url": "https://evilcharts.com/docs/chart-config",
+      "title": "Chart Config — Evil Charts",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/legions-developer/evilcharts",
+      "title": "GitHub - legions-developer/evilcharts: EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "EvilCharts",
+  "summary": "Animated, interactive chart components for shadcn/ui built on Recharts and Apache ECharts.",
+  "description": "Free, open-source chart components for React: area, bar, line, composed and radar charts plus tooltip, legend, brush, dots and background UI, configured with a theme-aware chartConfig for labels, colors and icons. Install from the EvilCharts shadcn registry or copy the source; Recharts (SVG) and Apache ECharts engines.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries",
+    "motion"
+  ],
+  "elements": [
+    "chart",
+    "tooltip",
+    "background"
+  ],
+  "keywords": [
+    "react chart",
+    "chart component",
+    "shadcn ui",
+    "rechart",
+    "apache echart",
+    "animated chart",
+    "area chart",
+    "bar chart",
+    "line chart",
+    "radar chart",
+    "composed chart",
+    "chart tooltip",
+    "data visualization",
+    "dashboard chart",
+    "open source",
+    "tailwind css"
+  ],
+  "contains": [
+    "chart components: area, bar, line, composed, radar",
+    "UI pieces: tooltip, legend, dots, brush, background, chart config",
+    "install with npx shadcn@latest add @evilcharts/{component}",
+    "two engines: Recharts SVG and Apache ECharts",
+    "279 shadcn registry items",
+    "theme-aware colors and dark mode via chartConfig"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "recharts",
+    "echarts",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/legions-developer/evilcharts",
+    "docs": "https://evilcharts.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

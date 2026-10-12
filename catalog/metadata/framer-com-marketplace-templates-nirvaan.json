@@ -1,0 +1,35 @@
+{
+  "id": "framer-com-marketplace-templates-nirvaan",
+  "url": "https://framer.com/marketplace/templates/nirvaan",
+  "kind": "page",
+  "hints_hash": "01b7597ada16b970",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/templates/nirvaan", "title": "Nirvaan — Free Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Nirvaan",
+  "summary": "Free Framer template for creative agencies and studios by Flexbuildr: 8 pages, case studies, CMS and scroll-triggered motion.",
+  "description": "A free creative agency Framer template by Flexbuildr for studios, designers and creative teams. Eight designed pages with drag-and-drop sections, two CMS collections (Projects and Articles), case study pages with outcome and results structure, motion sections with scroll-triggered animations, global color and font styles and responsive, SEO-ready pages; it ships as a Framer remix link with an editable Figma file and a getting-started guide.",
+  "type": "template",
+  "elements": ["scroll-effect"],
+  "keywords": ["framer template", "free template", "creative agency", "agency website", "portfolio template", "studio website", "case study", "cms", "no-code", "website template", "figma file", "motion design", "scroll animation", "designer portfolio"],
+  "contains": [
+    "free Framer template by Flexbuildr; published Jan 15, 2026, updated May 13, 2026",
+    "8 designed pages; 2 CMS collections: Projects and Articles",
+    "case study pages with outcome and results structure",
+    "motion sections with scroll-triggered animations",
+    "drag-and-drop editing, global color and font styles, no coding or plugins",
+    "Framer remix link, editable Figma file and getting-started guide",
+    "unlimited website license (personal and commercial); free lifetime updates",
+    "marketplace license field: Limited"
+  ],
+  "formats": ["templates", "framer-file", "figma-file", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

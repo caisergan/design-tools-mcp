@@ -1,0 +1,110 @@
+{
+  "id": "uselayouts-com",
+  "url": "https://uselayouts.com",
+  "kind": "site",
+  "hints_hash": "781a4576a4c382d7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uselayouts.com",
+      "title": "useLayouts | Free animated React components",
+      "status": 200
+    },
+    {
+      "url": "https://uselayouts.com/docs",
+      "title": "Introduction - useLayouts",
+      "status": 200
+    },
+    {
+      "url": "https://uselayouts.com/browse",
+      "title": "Browse animated React components - useLayouts",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/iurvish/uselayouts",
+      "title": "GitHub - iurvish/uselayouts",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "useLayouts",
+  "summary": "Free animated React components and micro-interactions built with Framer Motion and Tailwind CSS, installed from a shadcn registry.",
+  "description": "A free library of animated React components and micro-interactions: layouts, navigation, hover/drag/press interactions and UI pieces such as a 3D book, morphing input, discrete tabs, multi-step form and testimonial components. Each is built with Framer Motion and Tailwind CSS and is added from the shadcn registry or copied into your project as ordinary source files.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "button",
+    "tabs",
+    "list",
+    "testimonials",
+    "card",
+    "bento-grid",
+    "3d",
+    "features",
+    "carousel",
+    "input",
+    "stepper",
+    "form",
+    "navbar",
+    "date-picker"
+  ],
+  "keywords": [
+    "animated react component",
+    "micro interaction",
+    "framer motion",
+    "shadcn registry",
+    "tailwind css",
+    "next.js",
+    "copy paste component",
+    "3d book",
+    "multi step form",
+    "morphing input",
+    "discrete tab",
+    "bento grid",
+    "testimonials",
+    "carousel",
+    "hover effect",
+    "drag interaction",
+    "date picker",
+    "bottom menu"
+  ],
+  "contains": [
+    "26 shadcn registry components",
+    "library sections: layouts (12+), navigation (14+), interactions (18+), user interface (20+)",
+    "components are copied into your project and edited like your own files",
+    "built with Framer Motion and Tailwind CSS",
+    "free; docs at uselayouts.com/docs",
+    "657 GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/iurvish/uselayouts",
+    "docs": "https://uselayouts.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

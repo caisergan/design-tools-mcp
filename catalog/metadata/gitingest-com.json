@@ -1,0 +1,30 @@
+{
+  "id": "gitingest-com",
+  "url": "https://gitingest.com",
+  "kind": "site",
+  "hints_hash": "973880b7f076ec6f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:35:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gitingest.com/llms.txt", "title": "GitIngest – AI Agent Integration Guide", "status": null},
+    {"url": "https://gitingest.com", "title": "Gitingest", "status": 200},
+    {"url": "https://github.com/coderamp-labs/gitingest/blob/HEAD/README.md", "title": "gitingest/README.md · coderamp-labs/gitingest", "status": 200},
+    {"url": "https://github.com/coderamp-labs/gitingest/blob/HEAD/LICENSE", "title": "gitingest/LICENSE · coderamp-labs/gitingest", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Gitingest",
+  "summary": "Turns any Git repository into a prompt-ready text digest for LLMs, as a web app, CLI or Python package.",
+  "description": "Paste a repository URL or run the CLI/Python package to get one plain-text digest of a codebase: a repository summary with token counts, the directory tree and each file's contents, sized for an LLM context window. Private repositories work with a GitHub token; include/exclude patterns, branch selection and max file size filter the output. Self-hosting with Docker and browser extensions are also provided.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["input"],
+  "keywords": ["git repository", "llm context", "codebase digest", "repo to text", "prompt-friendly text", "cli", "python package", "ai agent", "token count", "directory tree", "self-host", "browser extension", "context window", "developer tool"],
+  "contains": ["web UI, CLI (pip install) and Python package", "output: repository summary, directory structure and file contents with token counts", "private repositories via GitHub personal access token", "include/exclude patterns, branch selection and max file size", "replace 'hub' with 'ingest' in any GitHub URL", "self-host with Docker; Chrome extension and Firefox add-on"],
+  "formats": ["cli", "app", "code"],
+  "stack": ["python", "fastapi", "tailwind", "jinja2"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/coderamp-labs/gitingest", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

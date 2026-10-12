@@ -1,0 +1,27 @@
+{
+  "id": "brandmymac-com",
+  "url": "https://brandmymac.com",
+  "kind": "site",
+  "hints_hash": "3769083d3473c510",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://brandmymac.com", "title": "Brand My Mac — Let your brand travel", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Brand My Mac",
+  "summary": "Live auction where brands bid for sticker ad spots on a laptop — lid, inside, charger and mouse — with the winner's logo riding along.",
+  "description": "An auction site selling advertising surfaces on the author's MacBook Pro 14\": 20 sticker spots across the lid (small 125 €, medium 200 €, large 400 €, premium around the logo), the palm rests, the charger and cable, and the Magic Mouse. The top bid per spot wins; each winner's logo becomes a die-cut vinyl sticker and a linked entry on the page, and the laptop travels to cafés, coworking spaces and build-in-public videos. 7 955 € was raised against a 3 644 € machine budget (goal passed at 315%).",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["auction", "advertising", "sticker", "sponsorship", "brand placement", "live auction", "leaderboard", "indie hacker", "build in public", "ad space", "promotion", "sponsor spot"],
+  "contains": ["20 sticker spots across lid, palm rests, charger and mouse", "live bids per spot; 150 bids in total", "7 955 € raised vs 3 644 € machine budget", "top bids: 1 715 € above the logo, 1 300 € top left banner, 1 010 € top right banner", "winners get die-cut vinyl stickers and a linked entry on the page"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

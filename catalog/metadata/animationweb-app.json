@@ -1,0 +1,30 @@
+{
+  "id": "animationweb-app",
+  "url": "https://animationweb.app",
+  "kind": "site",
+  "hints_hash": "851d18598cd4d0c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://animationweb.app", "title": "AnimationWeb — Premium AI Hero Prompts & Design Library", "status": null},
+    {"url": "https://www.animationweb.app/pricing", "title": "AnimationWeb — Premium AI Hero Prompts & Design Library", "status": null},
+    {"url": "https://www.animationweb.app/section", "title": "AnimationWeb — Premium AI Hero Prompts & Design Library", "status": 200},
+    {"url": "https://www.animationweb.app/blog", "title": "Tech Blog | AnimationWeb", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AnimationWeb",
+  "summary": "Paid library of AI prompts, animated hero sections and animated backgrounds for building websites.",
+  "description": "A collection of AI prompts, animated hero sections, landing pages, UI components and animated backgrounds: you copy a prompt into an AI tool and it builds the section. Organised as Section and Background libraries, with lifetime pricing plans and a blog of animation guides.",
+  "type": "agent-skill",
+  "categories": ["motion", "sections"],
+  "elements": ["hero", "background"],
+  "keywords": ["ai prompt", "animation prompt", "hero section", "animated background", "animated section", "landing page", "web animation", "css animation", "tailwind", "design template", "prompt library", "ai website builder", "ui component", "motion design"],
+  "contains": ["AI prompts for animated hero sections, landing pages and UI components", "library of animated backgrounds", "Go Unlimited plan: $269 one-time, unlimited access, future 1000+ hero prompts, commercial license", "Pro plan: $319 (from $759), lifetime access on MotionSites", "site claims 200+ designers", "blog guides on AI animation prompts, animated backgrounds, CSS and Tailwind animations"],
+  "formats": ["prompts", "templates", "docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

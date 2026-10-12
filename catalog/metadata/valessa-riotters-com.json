@@ -1,0 +1,59 @@
+{
+  "id": "valessa-riotters-com",
+  "url": "https://valessa.riotters.com",
+  "kind": "site",
+  "hints_hash": "cd4a72d306eeecd6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:32:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://valessa.riotters.com",
+      "title": "Valessa by Riotters — 3D Product Visualizer",
+      "status": null
+    }
+  ],
+  "status": "partial",
+  "name": "Valessa by Riotters",
+  "summary": "Browser-based 3D product visualizer: upload a model, adjust materials, animations and lighting, export video or PNG.",
+  "description": "A browser-based 3D product visualizer by Riotters. Upload your model, customize materials, animations and lighting, then export a polished video or PNG in seconds.",
+  "type": "tool",
+  "categories": [
+    "media"
+  ],
+  "elements": [],
+  "keywords": [
+    "3d",
+    "product visualizer",
+    "3d render",
+    "product video",
+    "material",
+    "lighting",
+    "animation",
+    "3d model",
+    "export video",
+    "export png"
+  ],
+  "contains": [
+    "upload a 3D model, customize materials, animations and lighting",
+    "export a polished video or PNG in seconds"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

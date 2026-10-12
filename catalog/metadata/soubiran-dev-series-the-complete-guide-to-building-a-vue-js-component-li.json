@@ -1,0 +1,65 @@
+{
+  "id": "soubiran-dev-series-the-complete-guide-to-building-a-vue-js-component-li",
+  "url": "https://soubiran.dev/series/the-complete-guide-to-building-a-vue-js-component-library",
+  "kind": "page",
+  "hints_hash": "a5e689550efa526e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://soubiran.dev/series/the-complete-guide-to-building-a-vue-js-component-library",
+      "title": "The Complete Guide to Building a Vue.js Component Library - Estéban Soubiran",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "The Complete Guide to Building a Vue.js Component Library",
+  "summary": "Seven-part article series on building a Vue.js component library with Vite, from monorepo setup to npm release.",
+  "type": "course",
+  "elements": [],
+  "keywords": [
+    "vue",
+    "component library",
+    "vite",
+    "typescript",
+    "tailwind css",
+    "vitest",
+    "histoire",
+    "storybook",
+    "nuxt module",
+    "unplugin",
+    "monorepo",
+    "eslint",
+    "github action",
+    "npm publishing",
+    "component testing"
+  ],
+  "contains": [
+    "7 articles from monorepo setup to npm release",
+    "topics: ESLint, Tailwind CSS, TypeScript, Vitest, GitHub Actions, Histoire, Unplugin and a Nuxt module"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [
+    "vue",
+    "vite",
+    "typescript",
+    "tailwind",
+    "vitest",
+    "nuxt"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

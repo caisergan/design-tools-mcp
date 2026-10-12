@@ -1,0 +1,38 @@
+{
+  "id": "github-com-thu-maic-openmaic",
+  "url": "https://github.com/THU-MAIC/OpenMAIC",
+  "kind": "repo",
+  "hints_hash": "abf64fce0599d9bf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/THU-MAIC/OpenMAIC/blob/HEAD/README.md", "title": "OpenMAIC README", "status": null},
+    {"url": "https://github.com/THU-MAIC/OpenMAIC", "title": "GitHub - THU-MAIC/OpenMAIC: Open Multi-Agent Interactive Classroom", "status": 200},
+    {"url": "https://raw.githubusercontent.com/THU-MAIC/OpenMAIC/HEAD/package.json", "title": "package.json", "status": 200},
+    {"url": "https://raw.githubusercontent.com/THU-MAIC/OpenMAIC/HEAD/packages/@openmaic/renderer/package.json", "title": "@openmaic/renderer package.json", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenMAIC",
+  "summary": "Open-source classroom platform that turns one prompt into a multi-agent course, with an agent workbench to plan and revise lessons.",
+  "description": "Self-hostable web app that generates a complete interactive course from a single prompt, taught by multiple AI agents. v1.0.0 adds a chat-first agent workbench that plans, builds and revises whole courses from uploaded materials, with durable sessions that survive restarts. Supports Amazon Bedrock and local providers such as Lemonade, local speech recognition with FunASR, and deploys locally, on Vercel or with Docker.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "prompt-input"],
+  "keywords": ["course generation", "multi-agent", "ai agent", "interactive course", "classroom", "education", "teaching", "learning", "slide", "pptx", "text-to-speech", "speech recognition", "self-hosted", "open source", "llm", "chat ui"],
+  "contains": [
+    "one prompt generates a full interactive course",
+    "multi-agent classroom; v1.0.0 released 2026-08-27",
+    "agent workbench plans, builds and revises whole courses in chat",
+    "durable sessions: cancel, resume and steer a run",
+    "upload documents and audio as session materials",
+    "providers: Amazon Bedrock, Lemonade local AI, FunASR local speech",
+    "deploy locally, on Vercel or with Docker; MIT license"
+  ],
+  "formats": ["app", "code", "docs"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/THU-MAIC/OpenMAIC", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

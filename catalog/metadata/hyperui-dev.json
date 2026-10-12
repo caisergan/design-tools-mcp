@@ -1,0 +1,150 @@
+{
+  "id": "hyperui-dev",
+  "url": "https://hyperui.dev",
+  "kind": "site",
+  "hints_hash": "6a92324907d44575",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:28:28Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://hyperui.dev",
+      "title": "Free Tailwind CSS Components | HyperUI",
+      "status": null
+    },
+    {
+      "url": "https://hyperui.dev/components/marketing",
+      "title": "Tailwind CSS Marketing Components | HyperUI",
+      "status": null
+    },
+    {
+      "url": "https://hyperui.dev/components/application",
+      "title": "Tailwind CSS Application UI Components | HyperUI",
+      "status": null
+    },
+    {
+      "url": "https://hyperui.dev/components/neobrutalism",
+      "title": "Neobrutalism Tailwind CSS Components | HyperUI",
+      "status": null
+    },
+    {
+      "url": "https://hyperui.dev/components/templates",
+      "title": "Tailwind CSS Full Page Templates | HyperUI",
+      "status": null
+    },
+    {
+      "url": "https://github.com/markmead/hyperui",
+      "title": "GitHub - markmead/hyperui: Free Tailwind CSS v4 components for your next project",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/markmead/hyperui/blob/HEAD/README.md",
+      "title": "hyperui/README.md at main · markmead/hyperui · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "HyperUI",
+  "summary": "Free, open-source Tailwind CSS v4 components to copy and paste: marketing sections, application UI and neobrutalism sets.",
+  "description": "A copy-paste component library: browse on the site, copy the markup and paste it into a Tailwind CSS project — there is no package to install. Organised into Application (accordions, charts, checkboxes, modals, tables, toggles …), Marketing (announcements, blog cards, CTAs, footers, pricing, testimonials …) and Neobrutalism sets, plus five full-page templates and browser tools that generate dark mode variants and map typography scales.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "empty-state",
+    "sidebar",
+    "stats",
+    "team",
+    "contact",
+    "banner",
+    "dashboard",
+    "tabs",
+    "breadcrumbs",
+    "pagination",
+    "stepper",
+    "modal",
+    "dropdown",
+    "toast",
+    "alert",
+    "button",
+    "input",
+    "select",
+    "checkbox",
+    "switch",
+    "slider",
+    "form",
+    "table",
+    "card",
+    "list",
+    "accordion",
+    "timeline",
+    "chart",
+    "progress",
+    "loader"
+  ],
+  "keywords": [
+    "tailwind css",
+    "tailwind component",
+    "free component library",
+    "open source",
+    "copy paste",
+    "marketing component",
+    "application ui",
+    "neo brutalism",
+    "dashboard component",
+    "ecommerce",
+    "landing page",
+    "admin panel",
+    "dark mode",
+    "tailwind v4",
+    "template",
+    "accordion",
+    "navbar",
+    "footer",
+    "pricing table",
+    "testimonials",
+    "chart",
+    "form",
+    "html markup"
+  ],
+  "contains": [
+    "free, open-source Tailwind CSS v4 components with no package to install",
+    "sets: Application, Marketing, Neobrutalism",
+    "category counts include Charts 22, Footers 24, Vertical Menu 16, Loaders 14, Blog Cards 13",
+    "5 full-page templates: Analytics Dashboard, Portfolio, SaaS Landing Page, Storefront, Support Inbox",
+    "browser tools: dark mode variant generator, typography scale mapping",
+    "12.3k GitHub stars"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "tailwind",
+    "html"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/markmead/hyperui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

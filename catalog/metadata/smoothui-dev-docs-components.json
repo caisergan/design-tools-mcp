@@ -1,0 +1,108 @@
+{
+  "id": "smoothui-dev-docs-components",
+  "url": "https://smoothui.dev/docs/components",
+  "kind": "page",
+  "hints_hash": "cacb33fa616e641a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:29:32Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://smoothui.dev/docs/components",
+      "title": "UI Components | SmoothUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI Components",
+  "summary": "SmoothUI index of 198 animated React components: UI basics, text effects, AI chat and agent pieces, transitions and loaders.",
+  "description": "Component index for SmoothUI listing 198 animated React components built with Motion, GSAP and Tailwind CSS, grouped into basic UI, navigation, buttons, text, AI chat and agent, orbs, transitions, surfaces and shaders, data viz, loaders, media, scroll and pointer. Each entry links to its own docs page with install and usage; registry items install via the shadcn CLI.",
+  "keywords": [
+    "animated component",
+    "react component",
+    "motion",
+    "gsap",
+    "tailwind",
+    "shadcn registry",
+    "component library",
+    "text animation",
+    "ai chat ui",
+    "agent ui",
+    "dock",
+    "accordion",
+    "loader",
+    "scroll effect",
+    "transition",
+    "accessible component",
+    "copy paste"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "smoothui-dev"
+  },
+  "elements": [
+    "accordion",
+    "ai-agent-ui",
+    "avatar",
+    "background",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "carousel",
+    "chart",
+    "chat",
+    "checkbox",
+    "cursor",
+    "dock",
+    "drawer",
+    "dropdown",
+    "file-upload",
+    "form",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "prompt-input",
+    "scroll-effect",
+    "select",
+    "slider",
+    "stepper",
+    "switch",
+    "tabs",
+    "testimonials",
+    "text-effect",
+    "toast",
+    "tooltip"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "framer-motion",
+    "gsap",
+    "tailwind"
+  ],
+  "contains": [
+    "198 animated React components",
+    "groups: basic UI, navigation, button, text, AI chat and agent", "also: orbs, transitions, surfaces & shaders, data viz, loaders, media, scroll, pointer",
+    "246 registry items",
+    "last updated 19 Sep 2026"
+  ],
+  "confidence": 0.85
+}

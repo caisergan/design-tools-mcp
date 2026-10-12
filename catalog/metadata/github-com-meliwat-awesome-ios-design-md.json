@@ -1,0 +1,85 @@
+{
+  "id": "github-com-meliwat-awesome-ios-design-md",
+  "url": "https://github.com/Meliwat/awesome-ios-design-md",
+  "kind": "repo",
+  "hints_hash": "7d215df71b9904b4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Meliwat/awesome-ios-design-md/blob/HEAD/README.md",
+      "title": "Awesome iOS DESIGN.md",
+      "status": null
+    },
+    {
+      "url": "https://github.com/Meliwat/awesome-ios-design-md/blob/HEAD/LICENSE",
+      "title": "awesome-ios-design-md/LICENSE at 5d3aeca239caef3ea4080034eb22ab87cc77fa24 · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Awesome iOS DESIGN.md",
+  "summary": "200 DESIGN.md packs that document the design systems of popular mobile apps, in four framework flavors.",
+  "description": "Reverse-engineered design systems for 200 apps, organized in 11 categories (social, messaging, travel, music, video, food, finance, fitness, productivity, dating, misc). Each app folder ships four markdown versions — framework-neutral plus SwiftUI, Expo/React Native and Jetpack Compose — covering palettes, type ramps, component states, grids, motion curves and haptics. Files follow the Stitch DESIGN.md format read by Claude, Cursor, Codex and Google Stitch.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [
+    "button",
+    "card",
+    "input",
+    "navbar"
+  ],
+  "keywords": [
+    "design.md",
+    "design system",
+    "ios",
+    "android",
+    "mobile app",
+    "swiftui",
+    "jetpack compose",
+    "expo",
+    "react native",
+    "app design",
+    "design token",
+    "motion",
+    "haptic",
+    "dark mode",
+    "mobile ui",
+    "ai agent",
+    "agent prompt"
+  ],
+  "contains": [
+    "200 app design systems across 11 categories",
+    "four flavors per app: framework-neutral, SwiftUI, Expo, Jetpack Compose",
+    "sections: palette, typography, component styles, layout, depth, responsive behavior, agent prompt guide",
+    "packs include colors, SF Pro type ramps, motion curves and haptics",
+    "live gallery renders every screen for free"
+  ],
+  "formats": [
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "swiftui",
+    "expo",
+    "react-native",
+    "jetpack-compose"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Meliwat/awesome-ios-design-md",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

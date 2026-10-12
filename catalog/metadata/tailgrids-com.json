@@ -1,0 +1,33 @@
+{
+  "id": "tailgrids-com",
+  "url": "https://tailgrids.com",
+  "kind": "site",
+  "hints_hash": "0e794f31d81ebeaa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tailgrids.com/llms.txt", "title": "Tailgrids UI", "status": null},
+    {"url": "https://tailgrids.com", "title": "Tailgrids UI – Tailwind React Component Library and Design System", "status": 200},
+    {"url": "https://tailgrids.com/docs", "title": "Introduction - Tailgrids UI", "status": 200},
+    {"url": "https://tailgrids.com/icons", "title": "Tailgrids UI Icons - Free Open-Source SVG Icon Library", "status": 200},
+    {"url": "https://tailgrids.com/pricing", "title": "Tailgrids UI Pricing - Pro UI Blocks, Templates, and Figma UI Kit", "status": 200},
+    {"url": "https://tailgrids.com/license", "title": "Tailgrids License Agreement | Tailgrids UI", "status": 200},
+    {"url": "https://tailgrids.com/blocks", "title": "React UI Blocks for Apps, Dashboards, E-commerce, and AI | Tailgrids UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tailgrids UI",
+  "summary": "React component library on Tailwind CSS with 600+ components and blocks, templates, CLI and a Figma design system.",
+  "description": "Open-source React component library built on Tailwind CSS with 600+ components and UI blocks for applications, marketing sites, e-commerce, dashboards and AI products. Ships copy-paste components, categorized blocks, ready-made templates, a CLI and a Figma design system; the core components are free under MIT while pro blocks, templates and the Figma file are paid.",
+  "type": "component-library",
+  "categories": ["components", "sections", "templates"],
+  "elements": ["navbar", "hero", "footer", "cta", "pricing", "features", "testimonials", "stats", "team", "logo-cloud", "banner", "bento-grid", "404", "dashboard", "sidebar", "tabs", "breadcrumbs", "pagination", "command-palette", "modal", "drawer", "popover", "tooltip", "dropdown", "toast", "alert", "button", "input", "select", "checkbox", "switch", "slider", "date-picker", "file-upload", "form", "otp-input", "table", "chart", "card", "carousel"],
+  "keywords": ["react", "tailwind css", "component library", "ui block", "design system", "figma", "template", "landing page", "dashboard", "ecommerce", "dark mode", "open source", "saas", "marketing site", "copy paste", "cli", "svg icon"],
+  "contains": ["600+ components and UI blocks", "block categories: application, marketing, e-commerce, dashboard and AI", "3 ready-made templates (agency, fintech, AI writing)", "Figma design system with 900+ components", "240+ free SVG icons", "CLI: npx @tailgrids/cli@latest init", "free core components under MIT; pro blocks, templates and Figma file paid", "used by 150,000+ developers, designers and teams"],
+  "formats": ["code", "npm-package", "cli", "figma-file", "templates", "docs", "svg"],
+  "stack": ["react", "tailwind"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://tailgrids.com/docs", "npm": "@tailgrids/cli", "figma": "https://tailgrids.com/figma", "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,25 @@
+{
+  "id": "footer-design-sites-carolyn-lee",
+  "url": "https://footer.design/sites/carolyn-lee",
+  "kind": "page",
+  "hints_hash": "678e0f0bdb08bed5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/carolyn-lee", "title": "Footer | Carolyn Lee", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Carolyn Lee",
+  "summary": "Desktop and mobile footer screenshots from the Carolyn Lee portfolio site, tagged flat, minimal, pastel and photographic.",
+  "description": "One footer entry in the Footer design gallery: the Carolyn Lee portfolio footer shown in desktop and mobile views, with style and type tags, submitter credit and links to the live site and similar designs.",
+  "elements": ["footer"],
+  "keywords": ["footer", "footer design", "website footer", "footer inspiration", "portfolio footer", "desktop footer", "mobile footer", "minimal footer", "flat design", "personal portfolio"],
+  "contains": ["desktop and mobile footer screenshots", "styles: flat, photographic, interactive, minimal, pastel, fun", "types: design, personal, portfolio", "link to the live Carolyn Lee site", "added September 8, 2026"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

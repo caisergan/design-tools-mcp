@@ -1,0 +1,27 @@
+{
+  "id": "goodguy-ai-labs-dynasty-decision-partner",
+  "url": "https://goodguy.ai/labs/dynasty-decision-partner",
+  "kind": "page",
+  "hints_hash": "ef3f043e61061f68",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:15:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://goodguy.ai/labs/dynasty-decision-partner", "title": "Dynasty Decision Partner — Goodguy AI Labs", "status": null}
+  ],
+  "status": "ok",
+  "name": "Dynasty Decision Partner",
+  "summary": "Free prompt builder that turns dynasty fantasy football trade, roster and rookie-pick questions into prompts for an AI chat.",
+  "description": "A free prompt builder for dynasty fantasy football. You pick the question (a trade offer, your rookie pick, a player you are buying, or a rebuild), share league details by link, pasted text or screenshots, and the page writes a prompt to copy into an AI chat. Ships with a master prompt, a league and roster template, a dynasty strategy guide and 14 example prompts.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["prompt builder", "ai prompt", "prompt template", "fantasy football", "dynasty league", "trade advice", "roster review", "rookie pick", "player research", "ai chat", "chatgpt", "llm", "league data", "free"],
+  "contains": ["prompt builder for dynasty fantasy football questions", "master prompt plus league and roster template", "dynasty strategy guide", "14 example prompts", "test questions and answer key", "free, no signup on the page"],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

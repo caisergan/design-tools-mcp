@@ -1,0 +1,14 @@
+{
+  "id": "pictera-co",
+  "url": "https://pictera.co",
+  "kind": "site",
+  "hints_hash": "3c4bc337554d0b10",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pictera.co", "title": null, "status": null}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

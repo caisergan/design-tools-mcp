@@ -1,0 +1,38 @@
+{
+  "id": "text-effects-colorion-co",
+  "url": "https://text-effects.colorion.co",
+  "kind": "site",
+  "hints_hash": "fa846aa7a1ff6296",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://text-effects.colorion.co", "title": "114 CSS Text Effects & Animations — Free Copy & Paste", "status": 200},
+    {"url": "https://text-effects.colorion.co/effects/3d-text-effect", "title": "3D Extruded Text Effect — Pure CSS, Free Code", "status": 200},
+    {"url": "https://text-effects.colorion.co/effects/echo-text-effect", "title": "Echo Text Effect — Pure CSS, Free Code", "status": 200},
+    {"url": "https://text-effects.colorion.co/effects/fire-text-effect", "title": "Fire Text Effect — Pure CSS, Free Code", "status": 200},
+    {"url": "https://text-effects.colorion.co/effects/gold-text-effect", "title": "Gold Foil Text Effect — Pure CSS, Free Code", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CSS Text Effects",
+  "summary": "Library of 114 pure-CSS text effects with copyable code, live previews and AI prompts.",
+  "description": "A library of 114 animated text effects built with pure CSS — aurora gradients, glitch, neon, typewriter reveals, split-flap boards, 3D extrusion, retro displays and material textures. Each effect page gives a live preview, self-contained HTML and CSS to copy (with --ink colour tokens and prefers-reduced-motion support), a guide to the techniques used, and an AI prompt to have a coding agent rebuild it. A generator produces custom text effects.",
+  "type": "component-library",
+  "categories": ["motion", "color-effects"],
+  "elements": ["text-effect"],
+  "keywords": ["css text effect", "text animation", "animated text", "glitch text effect", "neon text effect", "gradient text", "typewriter effect", "text reveal", "3d text effect", "kinetic typography", "pure css", "copy paste css", "css snippet", "no javascript", "text effect generator", "ai prompt"],
+  "contains": [
+    "114 text effects across 8 categories: gradient, glitch, neon, reveal, 3D, retro, letter motion, material",
+    "each effect page: HTML, self-contained CSS, technique guide and troubleshooting",
+    "AI prompt copy for every effect",
+    "CSS uses --ink colour tokens and respects prefers-reduced-motion",
+    "text effect generator for custom words",
+    "MIT licensed"
+  ],
+  "formats": ["code", "prompts"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

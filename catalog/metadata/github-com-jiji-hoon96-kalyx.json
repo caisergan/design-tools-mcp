@@ -1,0 +1,28 @@
+{
+  "id": "github-com-jiji-hoon96-kalyx",
+  "url": "https://github.com/jiji-hoon96/kalyx",
+  "kind": "repo",
+  "hints_hash": "a86c1f70ef10d421",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/jiji-hoon96/kalyx/blob/HEAD/README.md", "title": "Kalyx", "status": 200},
+    {"url": "https://github.com/jiji-hoon96/kalyx", "title": "GitHub - jiji-hoon96/kalyx: A headless React DatePicker library with a composable API for date, range, time, and date-time. Zero CSS, under 16 KB, SSR-safe, and ISO-first. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kalyx",
+  "summary": "Headless React date pickers (date, range, time, month, year, week) using ISO 8601 UTC strings.",
+  "description": "Seven composable React pickers plus hooks under one headless composition API. Values go in and come out as ISO 8601 UTC strings, with no Date objects, and an opt-in display timezone keeps storage independent of the viewer's zone. Zero CSS, SSR-safe, WAI-ARIA accessible and i18n/RTL ready; shipped as @kalyx/react with @kalyx/core and date-fns, dayjs and luxon adapters.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["date-picker"],
+  "keywords": ["react date picker", "date range picker", "time picker", "datetime picker", "month picker", "year picker", "week picker", "headless component", "composition api", "iso 8601", "timezone", "utc", "ssr safe", "accessible", "typescript", "date-fns", "dayjs", "luxon", "npm package", "tree shaking", "react 19"],
+  "contains": ["7 pickers: date, range, time, date+time, month, year, week", "7 headless hooks, 4 on the @kalyx/react/headless entry", "ISO 8601 UTC string values; opt-in displayTimezone, no Date objects", "~19 KB gzip for one picker, ~26 KB for all seven", "adapters: date-fns (default), dayjs, luxon", "SSR-safe with renderToString tests; WAI-ARIA roles and keyboard support"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "typescript", "date-fns", "dayjs", "luxon"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/jiji-hoon96/kalyx", "docs": "https://kalyx-docs-site.vercel.app/", "npm": "@kalyx/react", "figma": null, "parent": null},
+  "confidence": 0.9
+}

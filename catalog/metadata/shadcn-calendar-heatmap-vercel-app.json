@@ -1,0 +1,81 @@
+{
+  "id": "shadcn-calendar-heatmap-vercel-app",
+  "url": "https://shadcn-calendar-heatmap.vercel.app",
+  "kind": "site",
+  "hints_hash": "55e1049e7d9408b1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn-calendar-heatmap.vercel.app/llms.txt",
+      "title": "shadcn-calendar-heatmap",
+      "status": null
+    },
+    {
+      "url": "https://shadcn-calendar-heatmap.vercel.app",
+      "title": "Shadcn Calendar Heatmap",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-calendar-heatmap",
+  "summary": "React calendar heatmap component built on react-day-picker for contribution graphs and activity tracking.",
+  "description": "A copy-paste React component that turns react-day-picker into a calendar heatmap, showing dates at varying color intensities for contribution graphs, activity tracking or temperature maps. Dates map to variants either as explicit per-variant arrays or as weighted numbers the component auto-categorizes, with multi-month display and Tailwind CSS styling.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "calendar"
+  ],
+  "keywords": [
+    "calendar heatmap",
+    "heatmap",
+    "contribution graph",
+    "activity tracker",
+    "react component",
+    "react-day-picker",
+    "shadcn",
+    "tailwind",
+    "data visualization",
+    "weighted date",
+    "multi month calendar",
+    "copy paste component",
+    "date heatmap"
+  ],
+  "contains": [
+    "copy-paste React component built on react-day-picker",
+    "intensity variants with custom Tailwind classes",
+    "weightedDates auto-categorization or explicit datesPerVariant arrays",
+    "multi-month display",
+    "examples: contribution graph, temperature heatmap, rainbow colors",
+    "helpers: variantClassnames, showOutsideDays, DayPicker props passthrough"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "react-day-picker",
+    "class-variance-authority",
+    "tailwind-merge",
+    "lucide-react"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/gurbaaz27/shadcn-calendar-heatmap",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

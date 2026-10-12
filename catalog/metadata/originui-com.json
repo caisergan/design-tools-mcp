@@ -1,0 +1,32 @@
+{
+  "id": "originui-com",
+  "url": "https://originui.com",
+  "kind": "site",
+  "hints_hash": "2e22bd4c1d6366fa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://originui.com", "title": "A new, modern UI component library built on top of Base UI - coss ui", "status": null},
+    {"url": "https://coss.com/ui/docs", "title": "Introduction - coss ui", "status": null},
+    {"url": "https://coss.com/ui/llms.txt", "title": "coss ui", "status": 200},
+    {"url": "https://coss.com/ui/docs/index.md", "title": null, "status": 200},
+    {"url": "https://coss.com/ui/docs/get-started.md", "title": null, "status": 200},
+    {"url": "https://github.com/cosscom/coss", "title": "GitHub - cosscom/coss: coss.com/ui is the official design system of Cal.com · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "coss ui",
+  "summary": "Copy-paste React component library built on Base UI and Tailwind CSS; originui.com now redirects here.",
+  "description": "coss ui (formerly Origin UI; originui.com redirects here) is Cal.com's official design system: 50+ accessible React components built on Base UI primitives and styled with Tailwind CSS. Components install through the shadcn CLI or by copying files, and the docs cover styling, migration from Radix/shadcn, llms.txt and agent skills. It also ships particles: 510 pre-assembled patterns such as auth forms and tables.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "empty-state", "form", "input", "loader", "modal", "otp-input", "pagination", "popover", "progress", "select", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["react component", "component library", "tailwind css", "base ui", "radix ui", "copy paste", "accessible component", "design system", "dialog", "drawer", "date picker", "command palette", "table", "toast", "form", "llms.txt", "agent skill", "typescript", "shadcn migration"],
+  "contains": ["50+ components from accordion to tooltip", "510 particles (pre-assembled patterns like auth forms and tables)", "built on Base UI primitives, styled with Tailwind CSS v4", "install with the shadcn CLI or by manual copy", "docs: get started, styling, Radix/shadcn migration, changelog, roadmap", "llms.txt and agent skills docs for AI", "hooks: useMediaQuery, useCopyToClipboard", "10.7k GitHub stars, AGPL-3.0"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "tailwind", "base-ui", "typescript"],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/cosscom/coss", "docs": "https://coss.com/ui/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

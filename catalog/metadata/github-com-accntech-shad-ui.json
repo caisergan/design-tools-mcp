@@ -1,0 +1,29 @@
+{
+  "id": "github-com-accntech-shad-ui",
+  "url": "https://github.com/accntech/shad-ui",
+  "kind": "repo",
+  "hints_hash": "907e1774bc3580a3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/accntech/shad-ui/blob/HEAD/README.md", "title": "ShadUI ✨", "status": null},
+    {"url": "https://github.com/accntech/shad-ui", "title": "GitHub - accntech/shad-ui: Avalonia-based UI Library inspired by shadcn and Suki UI Library", "status": 200},
+    {"url": "https://accntech.github.io/shad-ui/", "title": "ShadUI · Browser Demo", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ShadUI",
+  "summary": "Avalonia UI library for .NET inspired by shadcn/ui, with themes, dialogs, toasts and a composable sidebar.",
+  "description": "An Avalonia-based cross-platform UI library for .NET applications, inspired by shadcn/ui and Suki UI Library. Install the ShadUI NuGet package and add ShadTheme in App.xaml to get a default theme plus controls, a dialog system, toast notifications and a composable sidebar. A WebAssembly browser demo offers a component catalog, and a companion app on the Microsoft Store shows usage examples. Free and open source. MIT licensed.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["modal", "sidebar", "toast"],
+  "keywords": ["avalonia", "dotnet", ".net", "c#", "xaml", "ui library", "desktop app", "cross-platform", "shadcn", "component library", "dialog", "toast", "sidebar", "theme", "nuget"],
+  "contains": ["Avalonia UI library for .NET, inspired by shadcn/ui and Suki UI", "default theme plus controls, dialogs, toasts and a composable sidebar", "installed as the ShadUI NuGet package", "WebAssembly browser demo with a component catalog", "companion app on the Microsoft Store with examples", "MIT license", "564 GitHub stars"],
+  "formats": ["code", "docs", "app"],
+  "stack": ["avalonia", "csharp", "dotnet", "xaml"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/accntech/shad-ui", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

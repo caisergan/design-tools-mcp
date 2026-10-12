@@ -1,0 +1,28 @@
+{
+  "id": "builtbydesigners-com",
+  "url": "https://builtbydesigners.com",
+  "kind": "site",
+  "hints_hash": "e06c5025e8950391",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://builtbydesigners.com", "title": "Built by Designers: No Explanation Needed", "status": 200},
+    {"url": "https://builtbydesigners.com/projects/algo/", "title": "Algo | Built by Designers", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Built by Designers",
+  "summary": "Showcase of 149 apps, tools, websites and experiments designed and shipped by designers.",
+  "description": "Built by Designers is a gallery of products — apps, tools, websites and experiments — that designers designed and built themselves, with 149 listed and a detail page per project. The gallery renders with JavaScript, so only its title, description and the catalog's measurements were readable.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["dock", "navbar", "cursor", "3d"],
+  "keywords": ["product showcase", "design showcase", "designer portfolio", "indie product", "side project", "app showcase", "tool showcase", "website showcase", "experiment", "design inspiration", "design engineering", "gallery"],
+  "contains": ["149 products in the gallery", "each project has a page under /projects/<slug>", "sample projects: Algo, Crated, Huephoria, Lightmeter, Panols, Sendinvo, Stickers Gallery, Vessa"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

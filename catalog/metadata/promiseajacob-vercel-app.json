@@ -1,0 +1,41 @@
+{
+  "id": "promiseajacob-vercel-app",
+  "url": "https://promiseajacob.vercel.app",
+  "kind": "site",
+  "hints_hash": "32b1103ff9da69c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:16:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://promiseajacob.vercel.app", "title": "Promise Jacob | Frontend Developer", "status": null},
+    {"url": "https://promiseajacob.vercel.app/about", "title": null, "status": 404}
+  ],
+  "status": "partial",
+  "name": "Promise Jacob",
+  "summary": "Portfolio site of Promise Jacob, a frontend developer working in React, Next.js and TypeScript.",
+  "description": "Personal portfolio of a frontend developer, described in its own metadata as specializing in React, Next.js and TypeScript web applications. The homepage is client-rendered, so only its title and meta description were readable.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "portfolio",
+    "frontend developer",
+    "react",
+    "nextjs",
+    "typescript",
+    "landing page",
+    "saas dashboard",
+    "freelance",
+    "web developer",
+    "vercel"
+  ],
+  "contains": [
+    "portfolio of a frontend developer working in React, Next.js and TypeScript"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.55
+}

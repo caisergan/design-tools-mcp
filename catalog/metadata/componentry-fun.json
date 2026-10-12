@@ -1,0 +1,41 @@
+{
+  "id": "componentry-fun",
+  "url": "https://componentry.fun",
+  "kind": "site",
+  "hints_hash": "d843ec812d6d0539",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://componentry.fun/llms.txt", "title": "Componentry", "status": null},
+    {"url": "https://componentry.fun", "title": "Componentry — Beautiful Animated UI Components for React", "status": 200},
+    {"url": "https://componentry.dev/docs", "title": "Components Documentation | Componentry - UI Component Library", "status": 200},
+    {"url": "https://componentry.dev/blocks", "title": "Blocks — Coming Soon | Componentry", "status": 200},
+    {"url": "https://componentry.dev/collections", "title": "React Animation Collections | Componentry", "status": 200},
+    {"url": "https://componentry.dev/docs/mcp", "title": "Componentry MCP", "status": 200},
+    {"url": "https://github.com/harshjdhv/componentry", "title": "GitHub - harshjdhv/componentry: Animated, production-ready UI components.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Componentry",
+  "summary": "Open-source animated React components built with Tailwind CSS, TypeScript and Framer Motion, installed with the shadcn CLI or MCP.",
+  "description": "An open-source library (site redirects to componentry.dev) of animated React primitives and visual effects: text animations, scroll animations, animated backgrounds, image effects, 3D pieces, cursor effects, docks and navbars, all with editable source. Install components with the shadcn CLI or through the MCP server in Claude Code, Cursor or other AI editors. Built for React and Next.js developers who want polished interface motion without writing it from scratch.",
+  "type": "component-library",
+  "categories": ["components", "motion", "registries"],
+  "elements": ["card", "background", "hero", "carousel", "3d", "cursor", "calendar", "text-effect", "dock", "navbar", "slider", "scroll-effect"],
+  "keywords": ["animated component", "react component", "framer motion", "tailwind css", "typescript", "shadcn", "component registry", "text animation", "scroll animation", "animated background", "webgl", "3d component", "cursor effect", "dock", "navbar", "copy paste component", "mcp", "nextjs"],
+  "contains": [
+    "53 components; 55 shadcn registry items",
+    "collections: text animations, scroll animations, animated backgrounds, image effects",
+    "install via shadcn CLI or MCP for Claude Code / Cursor",
+    "stack: React 19, Next.js 16, Tailwind CSS 4, Framer Motion; GSAP on two components",
+    "components include liquid glass carousel, dither gradient, magnetic dock, github calendar",
+    "MIT licensed, free forever; 592 GitHub stars",
+    "200+ blocks coming soon"
+  ],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion", "gsap", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/harshjdhv/componentry", "docs": "https://componentry.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

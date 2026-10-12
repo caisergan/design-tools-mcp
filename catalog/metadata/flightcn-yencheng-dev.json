@@ -1,0 +1,31 @@
+{
+  "id": "flightcn-yencheng-dev",
+  "url": "https://flightcn.yencheng.dev",
+  "kind": "site",
+  "hints_hash": "9bc2bb9d8f6dbb98",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://flightcn.yencheng.dev", "title": "flightcn — Beautiful Flight Visualizations for React", "status": null},
+    {"url": "https://flightcn.yencheng.dev/docs", "title": "Documentation | flightcn", "status": null},
+    {"url": "https://flightcn.yencheng.dev/blocks", "title": "Flight Map Blocks | flightcn", "status": null},
+    {"url": "https://flightcn.yencheng.dev/docs/flight", "title": "Flight Map Components for React | flightcn", "status": null},
+    {"url": "https://flightcn.yencheng.dev/docs/install", "title": "Install Guides | flightcn", "status": null}
+  ],
+  "status": "ok",
+  "name": "flightcn",
+  "summary": "Flight visualization components for React with prebuilt map blocks, installed from a shadcn registry.",
+  "description": "A shadcn registry of flight and satellite visualization components for React, built on MapLibre and the mapcn ecosystem. Flight pieces cover airport markers, single and multi-leg great-circle routes, live trackers, aircraft trails, route networks, range rings and traffic flow; satellite pieces render animated orbit overlays on a globe. It also ships prebuilt blocks like Flight Ops Overview, Flight Tracker Dashboard, Flight Route Picker and Departures Board, a built-in 500+ airport database, live playgrounds and API props tables.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["map", "dashboard", "slider", "sidebar", "card", "stats"],
+  "keywords": ["flight map", "flight route", "airport", "maplibre", "react", "shadcn", "registry", "flight tracker", "satellite orbit", "globe", "aviation", "dashboard", "traffic flow", "geospatial", "map visualization", "aircraft"],
+  "contains": ["13 installable registry items: components, playgrounds and blocks", "10 flight components: FlightAirport, FlightRoute, FlightTracker, FlightNetwork, FlightRange, FlightFlow and more", "11 prebuilt blocks incl. Flight Ops Overview and Departures Board", "built-in 500+ airport database with code, city and country search", "install with npx shadcn@latest add @flightcn/flight", "MIT licensed"],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "maplibre"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://flightcn.yencheng.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

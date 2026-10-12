@@ -1,0 +1,25 @@
+{
+  "id": "weekend-company-get-design-md",
+  "url": "https://weekend.company/get-design-md",
+  "kind": "page",
+  "hints_hash": "848708558f9e88e9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://weekend.company/get-design-md", "title": "Get DESIGN.md — Weekend Tools", "status": null},
+    {"url": "https://weekend.company/", "title": "The Weekend Company", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Get DESIGN.md",
+  "summary": "Turns any public URL into a full-page PNG and an implementation-ready DESIGN.md with tokens, components and source asset links.",
+  "description": "A web tool by The Weekend Company: paste a public URL and it opens a managed browser, captures a 1440px full-page screenshot and analyses the rendered design into a DESIGN.md — color tokens, typography, spacing, composition, components, motion and responsive rules, with direct source links for the visual assets. Public pages only.",
+  "type": "tool",
+  "categories": ["design-rules"],
+  "keywords": ["design.md", "website design extractor", "full page screenshot", "design token", "color token", "typography", "spacing", "component", "motion", "responsive", "design reference", "asset link", "design system extraction"],
+  "formats": ["screenshots", "docs"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

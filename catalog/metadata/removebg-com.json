@@ -1,0 +1,29 @@
+{
+  "id": "removebg-com",
+  "url": "https://removebg.com",
+  "kind": "site",
+  "hints_hash": "9e14913c3360458e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://removebg.com", "title": "Remove Background from Image for Free – remove.bg", "status": null},
+    {"url": "https://www.remove.bg/pricing", "title": "Pricing – remove.bg", "status": 200},
+    {"url": "https://www.remove.bg/api", "title": "Background Removal API – remove.bg", "status": 200}
+  ],
+  "status": "ok",
+  "name": "remove.bg",
+  "summary": "Automatic background remover: upload a photo and get a transparent or solid-color background in seconds.",
+  "description": "Web tool that removes image backgrounds automatically, with editing for white or transparent backgrounds, a Magic Brush and use-case pages for e-commerce, marketing, car dealerships and enterprise. A paid API and higher-resolution downloads cover HD photos and bulk workflows.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["remove background", "background remover", "transparent background", "cutout", "product photo", "image editing", "photo background", "api", "png cutout", "ecommerce photo"],
+  "contains": ["automatic background removal from a photo", "white, transparent and other background colors", "Magic Brush edit tool", "background removal API with docs, libraries and OAuth", "free to use; paid plans unlock HD photos and API calls"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.remove.bg/api", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

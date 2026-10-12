@@ -1,0 +1,31 @@
+{
+  "id": "shadcnstore-com-cheatsheet",
+  "url": "https://shadcnstore.com/cheatsheet",
+  "kind": "page",
+  "hints_hash": "4a51c9cd4d36c2d0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnstore.com/cheatsheet", "title": "Shadcn Cheatsheet: Every Component + Install Command | ShadcnStore", "status": 200},
+    {"url": "https://shadcnstore.com/pricing", "title": "ShadcnStore Pricing — Blocks, Templates & Figma Kit Plans", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn UI Cheatsheet",
+  "summary": "Reference page with every shadcn/ui component, its exact npx shadcn@latest add install command and what each is for.",
+  "description": "A one-page cheatsheet listing all 61 shadcn/ui components with the exact CLI command that installs each one, what it is for, and a link to full Base UI examples. Grouped into buttons and actions, forms and inputs, overlays and menus, navigation and layout, data display, feedback and status, and conversation and AI interfaces.",
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "form", "input", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "select", "sidebar", "slider", "switch", "table", "tabs", "tooltip"],
+  "keywords": ["shadcn ui", "cheatsheet", "shadcn component", "install command", "npx shadcn", "base ui", "react component reference", "component list", "dialog", "accordion", "carousel", "data table", "date picker", "input otp"],
+  "contains": [
+    "all 61 shadcn/ui components on one page",
+    "exact npx shadcn@latest add command per component",
+    "sections: buttons, forms, overlays, navigation, data display, feedback, AI interfaces",
+    "links to full Base UI examples for every component",
+    "pattern entries that compose other components: Combobox, Date Picker, Data Table"
+  ],
+  "formats": ["docs"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shadcnstore-com"},
+  "confidence": 0.85
+}

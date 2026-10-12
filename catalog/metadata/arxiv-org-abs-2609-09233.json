@@ -1,0 +1,21 @@
+{
+  "id": "arxiv-org-abs-2609-09233",
+  "url": "https://arxiv.org/abs/2609.09233",
+  "kind": "page",
+  "hints_hash": "eeaec707e537e278",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://arxiv.org/abs/2609.09233", "title": "[2609.09233] Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks", "status": null},
+    {"url": "https://arxiv.org/html/2609.09233v1", "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Subagents vs Agent Skills",
+  "summary": "arXiv paper comparing running reusable agent skills as subagents against loading skill instructions into the main context.",
+  "description": "Agent skills are multi-file packages of instructions and scripts that agents usually execute by loading them into their context, which gets brittle as task horizons grow. The paper shows that executing the same skill packages as subagents with clear input-output contracts lowers peak context length and outperforms agent-skill execution on SkillsBench, at the cost of extra coordination tokens.",
+  "type": "article",
+  "keywords": ["arxiv", "paper", "ai agent", "agent skill", "subagent", "context window", "long-horizon task", "context management", "llm agent", "skill package", "agent orchestration", "benchmark"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

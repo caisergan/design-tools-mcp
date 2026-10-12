@@ -1,0 +1,34 @@
+{
+  "id": "github-com-nexu-io-open-design",
+  "url": "https://github.com/nexu-io/open-design",
+  "kind": "repo",
+  "hints_hash": "a503673d43bf4da7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/nexu-io/open-design/blob/HEAD/README.md", "title": "One-line install into the agent you're using:", "status": null}
+  ],
+  "status": "ok",
+  "name": "OpenDesign",
+  "summary": "Open-source desktop workspace where a coding agent builds prototypes, dashboards, decks, images and video from a design system.",
+  "description": "A local-first design agent workspace: your coding agent (Claude Code, Codex, Cursor and 20+ more) becomes the design engine, and every render follows the active DESIGN.md brand contract. It produces HTML prototypes, live dashboards, slide decks, images and HyperFrames motion graphics, exported to HTML, PDF, PPTX, ZIP, Markdown or MP4. Ships 151 design systems, 100+ skills, 277 plugins and design templates as a macOS/Windows desktop app, an MCP/skill install, or a Docker/Vercel self-host.",
+  "type": "app",
+  "categories": ["design-tools", "design-rules", "media"],
+  "elements": ["dashboard", "chart", "hero"],
+  "keywords": ["design agent", "ai design workflow", "prototype", "landing page", "dashboard", "slide deck", "design system", "design.md", "mcp server", "agent skill", "desktop app", "local-first", "motion graphics", "mp4 export", "image generation", "self-hosted", "byok"],
+  "contains": [
+    "desktop app for macOS (Apple Silicon/Intel) and Windows (x64); Docker and Vercel self-host",
+    "agent-native: installs as skill, plugin or MCP server into 25 CLI agents with one command",
+    "151 design systems, 100+ functional skills and 277 plugins ship with the repo",
+    "templates: 15 decks + 36 themes, 93 image prompts, 11 HyperFrames + 39 Seedance prompts",
+    "decks export to HTML, PDF, PPTX, ZIP or Markdown; HyperFrames renders HTML/CSS/GSAP to MP4",
+    "Apache-2.0, local-first, BYOK proxy, paid OpenDesign Go cloud plans"
+  ],
+  "formats": ["app", "code", "prompts", "templates", "video"],
+  "stack": ["react", "nextjs", "vue", "gsap", "css"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/nexu-io/open-design", "docs": "https://github.com/nexu-io/open-design/blob/HEAD/QUICKSTART.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

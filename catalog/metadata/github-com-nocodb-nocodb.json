@@ -1,0 +1,88 @@
+{
+  "id": "github-com-nocodb-nocodb",
+  "url": "https://github.com/nocodb/nocodb",
+  "kind": "repo",
+  "hints_hash": "155758be221e255d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/nocodb/nocodb/blob/HEAD/README.md",
+      "title": "Join Our Community",
+      "status": null
+    },
+    {
+      "url": "https://github.com/nocodb/nocodb",
+      "title": "GitHub - nocodb/nocodb: 🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://nocodb.com/pricing",
+      "title": "Pricing",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "NocoDB",
+  "summary": "Self-hostable no-code platform that turns SQL databases into an Airtable-style spreadsheet interface.",
+  "description": "Connects to existing Postgres, MySQL or SQLite databases and gives them a spreadsheet UI with grid, gallery, form, kanban and calendar views, field types such as links, lookup, rollup and formula, and role-based access control with public or password-protected shares. Installs with Docker, a binary or the auto-upstall script; REST APIs, an SDK and an app store of Slack, email and storage integrations come with it.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "table",
+    "kanban",
+    "calendar",
+    "form"
+  ],
+  "keywords": [
+    "no-code database",
+    "airtable alternative",
+    "spreadsheet ui",
+    "low-code",
+    "database interface",
+    "kanban view",
+    "calendar view",
+    "form view",
+    "rest api",
+    "sdk",
+    "self-hosted",
+    "postgres",
+    "mysql",
+    "sqlite",
+    "view permission",
+    "workflow automation"
+  ],
+  "contains": [
+    "turns existing Postgres/MySQL/SQLite databases into a spreadsheet UI",
+    "views: grid (default), gallery, form, kanban, calendar",
+    "field types incl. links, lookup, rollup, attachment, formula, currency",
+    "roles and fine-grained access control; public, private or password-protected shares",
+    "integrations: Slack, Discord, SMTP/SES, S3/GCS/Minio",
+    "REST APIs and an SDK; Docker, binaries or one-command auto-upstall",
+    "free plan up to 3 users; Plus from $12 per seat/month",
+    "65.2k stars, 5.1k forks"
+  ],
+  "formats": [
+    "code",
+    "docs",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/nocodb/nocodb",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

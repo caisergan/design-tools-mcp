@@ -1,0 +1,35 @@
+{
+  "id": "github-com-chaitanyagiri-munder-difflin",
+  "url": "https://github.com/chaitanyagiri/munder-difflin",
+  "kind": "repo",
+  "hints_hash": "c3e7d1ed7a79d9b7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/chaitanyagiri/munder-difflin/blob/HEAD/README.md", "title": "Munder Difflin", "status": 200},
+    {"url": "https://raw.githubusercontent.com/chaitanyagiri/munder-difflin/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Munder Difflin",
+  "summary": "Desktop app that turns terminal coding CLIs into a coordinated office of AI agents running on your own machine.",
+  "description": "Electron desktop app that wraps 12+ terminal agent CLIs (Claude Code, Codex, Gemini CLI, Copilot CLI, Cursor, Qwen, OpenCode, Crush …) as pseudo-terminal agents, visualized as avatars on a Pixi.js office floor. Agents get markdown memory with semantic recall, mailboxes, per-agent git worktrees, kanban tasks with dependencies and a human approval queue; Pro adds dictation, meeting transcription and an expanded sidebar.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["ai-agent-ui", "dropdown", "kanban", "sidebar"],
+  "keywords": ["multi-agent", "agent orchestration", "agent harness", "claude code", "codex", "terminal", "desktop app", "electron", "agent memory", "kanban", "dictation", "transcription", "local llm", "git worktree", "ai agent"],
+  "contains": [
+    "wraps 12+ agent CLIs: Claude Code, Codex, Grok, Kimi, Gemini, Qwen, OpenCode, Crush, Pi, Copilot, Cursor",
+    "avatars on a Pixi.js office floor; envelopes fly between desks as agents message",
+    "markdown memory with semantic recall; per-agent git worktrees",
+    "GOD orchestrator with an approvals queue for spend, scope and destructive operations",
+    "kanban tasks with dependencies, built-in Monaco IDE, Slack/webhook intake, skills catalog",
+    "free open-source build; Pro annual plan $150 (purchasing-power adjusted)"
+  ],
+  "formats": ["app", "code", "docs"],
+  "stack": ["electron", "react", "typescript", "pixi.js", "xterm.js", "node-pty"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/chaitanyagiri/munder-difflin", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

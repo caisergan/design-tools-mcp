@@ -1,0 +1,115 @@
+{
+  "id": "reactvibe-com",
+  "url": "https://reactvibe.com",
+  "kind": "site",
+  "hints_hash": "2d2f8fc19e8c1523",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://reactvibe.com",
+      "title": "React Vibe – Animated, Motion-First UI Components for React",
+      "status": 200
+    },
+    {
+      "url": "https://reactvibe.com/docs",
+      "title": "React Vibe Docs | ReactVibe",
+      "status": 200
+    },
+    {
+      "url": "https://reactvibe.com/docs/dark-mode",
+      "title": "React Vibe Docs | ReactVibe",
+      "status": 200
+    },
+    {
+      "url": "https://reactvibe.com/docs/explore-components",
+      "title": "React Vibe Docs | ReactVibe",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/siddhantmani/reactvibe",
+      "title": "GitHub - siddhantmani/reactvibe: React animation library with copy-paste UI components. Built with Framer Motion and Tailwind. Open source, production-ready React components. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Vibe",
+  "summary": "Motion-first React components, UI blocks and dashboard systems built with Framer Motion and Tailwind.",
+  "description": "74 production-ready React components across seven categories: dashboard systems (finance, accounts, transactions, budgets, reports), UI blocks (heroes, pricing, FAQ, testimonials, CTA, navbars, footers), charts, lists, tables and interactive motion effects. Copy the source, customize it and ship; components that animate need Framer Motion installed once in your project.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "testimonials",
+    "faq",
+    "dropdown",
+    "table",
+    "chart",
+    "list",
+    "badge"
+  ],
+  "keywords": [
+    "react",
+    "motion",
+    "framer motion",
+    "tailwind",
+    "copy paste",
+    "ui block",
+    "dashboard system",
+    "finance dashboard",
+    "hero section",
+    "pricing section",
+    "faq",
+    "testimonials",
+    "footer",
+    "navbar",
+    "chart",
+    "data table",
+    "animated list",
+    "background effect",
+    "text animation",
+    "cta",
+    "dark mode",
+    "mit"
+  ],
+  "contains": [
+    "74 production-ready components across 7 categories",
+    "dashboard systems: finance overview, accounts, transactions, budgets, investments, reports, integrations",
+    "motion components: Branch Flow, Hub Flow, Network Pulse, Pipeline, Signal, Waveform, Orbit Border and more",
+    "sections: hero, pricing, FAQ, testimonials, CTA, navigation, footer",
+    "copy-paste source; only Framer Motion needs to be installed",
+    "MIT licensed, free for commercial use"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/siddhantmani/reactvibe",
+    "docs": "https://reactvibe.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

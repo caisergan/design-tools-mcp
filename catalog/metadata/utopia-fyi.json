@@ -1,0 +1,74 @@
+{
+  "id": "utopia-fyi",
+  "url": "https://utopia.fyi",
+  "kind": "site",
+  "hints_hash": "c861416aa5c64f7d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://utopia.fyi",
+      "title": "Fluid Responsive Design | Utopia",
+      "status": null
+    },
+    {
+      "url": "https://utopia.fyi/clamp/calculator",
+      "title": "Clamp calculator | Utopia",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Utopia",
+  "summary": "Calculators that generate fluid type, space and grid scales as CSS, SCSS or PostCSS custom properties.",
+  "description": "Free browser calculators for fluid responsive design: define type and space scales for a small and a large viewport and Utopia interpolates between them with clamp(), emitting CSS custom properties. A grid calculator and a generic clamp calculator cover spacing and layout; a blog explains designing with fluid scales.",
+  "type": "generator",
+  "categories": [
+    "design-tools",
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "fluid typography",
+    "fluid type scale",
+    "fluid spacing",
+    "responsive design",
+    "css clamp",
+    "clamp calculator",
+    "type calculator",
+    "space calculator",
+    "grid calculator",
+    "modular scale",
+    "css custom property",
+    "design token",
+    "responsive typography",
+    "fluid grid",
+    "postcss",
+    "scss"
+  ],
+  "contains": [
+    "type, space, grid and clamp calculators",
+    "fluid scales interpolated with clamp() between min and max viewports",
+    "output as CSS, SCSS or PostCSS; REM or PX; viewport or container relative",
+    "articles on fluid responsive design and a showcase"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

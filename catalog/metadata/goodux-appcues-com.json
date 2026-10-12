@@ -1,0 +1,31 @@
+{
+  "id": "goodux-appcues-com",
+  "url": "https://goodux.appcues.com",
+  "kind": "site",
+  "hints_hash": "ed5e745e543530bc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:37:07Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://goodux.appcues.com", "title": "GoodUX", "status": null},
+    {"url": "https://goodux.appcues.com/categories", "title": "Categories | GoodUX", "status": null},
+    {"url": "https://goodux.appcues.com/about", "title": "About | GoodUX", "status": null},
+    {"url": "https://goodux.appcues.com/categories/appcues", "title": "Made with Appcues | GoodUX", "status": null},
+    {"url": "https://goodux.appcues.com/categories/mobile-apps", "title": "Mobile apps | GoodUX", "status": null}
+  ],
+  "status": "ok",
+  "name": "GoodUX",
+  "summary": "Screenshot library of real onboarding tours, modals, tooltips and in-app messaging, with UX write-ups and a podcast.",
+  "description": "Appcues' flow gallery collects annotated screenshots of how real products onboard users, announce features, upsell and survey: onboarding checklists, product tours, modal windows, tooltips, slideouts, NPS surveys and mobile flows, sorted into categories and linked to blog write-ups. A 'Behind the Experience' podcast adds interviews, and readers can submit their own examples.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["modal", "tooltip", "drawer", "banner", "form"],
+  "keywords": ["onboarding flow", "product tour", "modal window", "tooltip", "in-app messaging", "ux example", "user onboarding", "nps survey", "upsell prompt", "feature announcement", "signup flow", "screenshot library", "ux inspiration", "mobile onboarding"],
+  "contains": ["screenshot library of real product flows, including onboarding tours, modals, tooltips and slideouts", "categories: onboarding, product tour, modal windows, tooltips, NPS surveys, upsell prompts, mobile apps", "each example links to a blog write-up", "Behind the Experience podcast", "411 URLs in the sitemap"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,21 @@
+{
+  "id": "base-ui-com-react-components-toast",
+  "url": "https://base-ui.com/react/components/toast",
+  "kind": "page",
+  "hints_hash": "0d432a3777b06eb3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://base-ui.com/react/components/toast", "title": "Toast · Base UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Toast",
+  "summary": "Unstyled React toast component from Base UI with stacked, anchored, promise and undo toasts.",
+  "description": "Docs page for Base UI's unstyled React Toast: anatomy and parts, a global toast manager for queueing toasts from outside the React tree, stacking and swipe animations driven by CSS variables, and examples for anchored toasts, undo actions, promises, custom data and deduplication.",
+  "keywords": ["toast", "notification", "snackbar", "react", "unstyled", "headless", "base ui", "global manager", "promise toast", "undo action", "swipe dismiss", "stacked toast", "accessible", "typescript"],
+  "elements": ["toast"],
+  "stack": ["react"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "base-ui-com"},
+  "confidence": 0.9
+}

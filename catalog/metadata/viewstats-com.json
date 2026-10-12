@@ -1,0 +1,29 @@
+{
+  "id": "viewstats-com",
+  "url": "https://viewstats.com",
+  "kind": "site",
+  "hints_hash": "9368778f62002fd3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://viewstats.com", "title": "Viewstats: Create video ideas, titles, and thumbnails that go viral", "status": null},
+    {"url": "https://www.viewstats.com/pricing", "title": "YouTube Channel Statistics - Viewstats", "status": null},
+    {"url": "https://www.viewstats.com/top-list?tab=channels&filterBy=subs&interval=ms", "title": "Viewstats: Create video ideas, titles, and thumbnails that go viral", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Viewstats",
+  "summary": "Research platform for YouTube creators: outlier videos, channel statistics, thumbnail analysis and saved idea boards.",
+  "description": "Analytics and research platform for YouTube creators, built by the team behind MrBeast's analytics. It surfaces outlier videos, tracks channel and video performance with real-time data, ranks channels in top lists, analyzes thumbnails and stores inspiration in research boards, with alerts for competitor activity. Free account available; Pro and Business are paid plans.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["youtube analytics", "channel statistics", "outlier video", "thumbnail analysis", "video idea", "competitor research", "trend tracking", "youtube top list", "a/b testing", "creator tool", "research board", "youtube research"],
+  "contains": ["outlier video discovery from real-time YouTube data", "channel and video performance research", "top lists: Top 100 channels by subscribers and views", "thumbnail analysis and inspiration boards", "competitor tracking with alerts", "free account plus Pro and Business plans (Business from $249/mo)"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

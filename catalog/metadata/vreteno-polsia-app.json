@@ -1,0 +1,35 @@
+{
+  "id": "vreteno-polsia-app",
+  "url": "https://vreteno.polsia.app",
+  "kind": "site",
+  "hints_hash": "164803cd989d59c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vreteno.polsia.app", "title": "Vreteno — your AI sales team", "status": 200},
+    {"url": "https://vreteno.polsia.app/pricing", "title": "Pricing — Vreteno", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vreteno",
+  "summary": "Autonomous AI sales agent that finds leads, sends email and LinkedIn outreach, qualifies replies and books meetings.",
+  "description": "AI sales agent for solo consultants, freelancers and small B2B service businesses (1–5 people) that have no sales department. It researches prospects, sends personalised outreach by email and LinkedIn, handles replies and books meetings; plans scale with prospect volume and channels rather than seats. Early beta with a 14-day free trial.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai sales agent", "lead generation", "cold email", "linkedin outreach", "sales automation", "b2b", "prospect research", "meeting booking", "inbox classifier", "outreach", "sdr", "small business", "freelancer", "analytics", "pipeline"],
+  "contains": [
+    "Starter: 79 €/month, ~25 prospects a day, email outreach with follow-ups, 1 user",
+    "Pro: 199 €/month, ~50 prospects a day, email plus AI inbox classifier, up to 5 users",
+    "Scale tier listed alongside Starter and Pro",
+    "14-day free trial, no card required, one-click cancel",
+    "early beta with 20 teams in pilot",
+    "pricing scales with contact volume and channels, not seats"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

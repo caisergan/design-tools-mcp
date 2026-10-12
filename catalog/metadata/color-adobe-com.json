@@ -1,0 +1,76 @@
+{
+  "id": "color-adobe-com",
+  "url": "https://color.adobe.com",
+  "kind": "site",
+  "hints_hash": "a796f4d3d3318cf8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:19Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://color.adobe.com",
+      "title": "Color Palettes & Themes | Adobe Express",
+      "status": null
+    },
+    {
+      "url": "https://color.adobe.com/explore",
+      "title": "Color Palettes and Gradients – Explore Themes & Ideas | Adobe Express",
+      "status": null
+    },
+    {
+      "url": "https://color.adobe.com/create/color-wheel",
+      "title": "Color Palette Generator – Color Wheel Tool | Adobe Express",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Adobe Color",
+  "summary": "Palette explorer and generator: browse trending palettes, mix schemes on the color wheel and extract colors from images.",
+  "description": "Browse trending color palettes and curated themes by mood, style or season, or build a palette from a base color with the interactive color wheel and color harmonies (monochromatic, complementary, analogous, triadic). Tools include image palette extraction, gradient extraction and a contrast checker, plus color meaning pages. Palettes can be saved to a Creative Cloud library and brought into Adobe Express.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "color palette",
+    "palette generator",
+    "color wheel",
+    "color scheme",
+    "color harmony",
+    "complementary color",
+    "contrast checker",
+    "gradient extractor",
+    "extract color from image",
+    "color meaning",
+    "hex color",
+    "brand color",
+    "trending palette",
+    "color theme"
+  ],
+  "contains": [
+    "palette explorer filtered by mood, style and season",
+    "tools: color wheel, contrast checker, gradient extractor, image palette extractor",
+    "color meaning pages for orange, indigo, red, gold, coral, pink, blue, purple, green, yellow, silver, black and white",
+    "themes: vaporwave, synthwave, summer, neutral vintage, luxury, travel",
+    "palettes save to a Creative Cloud library; auto-applying them needs a paid plan"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

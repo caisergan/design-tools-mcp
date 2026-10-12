@@ -1,0 +1,73 @@
+{
+  "id": "craft-mxkaske-dev-post-fancy-box",
+  "url": "https://craft.mxkaske.dev/post/fancy-box",
+  "kind": "page",
+  "hints_hash": "5bdc0b11be11ab75",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:26Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://craft.mxkaske.dev/post/fancy-box",
+      "title": "Fancy Box",
+      "status": null
+    },
+    {
+      "url": "https://github.com/mxkaske/mxkaske.dev",
+      "title": "GitHub - mxkaske/mxkaske.dev: Build. Craft. Brew. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Fancy Box",
+  "summary": "shadcn/ui combobox for multi-select with label creation and editing, like GitHub's PR label selector.",
+  "description": "A combobox component inspired by GitHub's PR label selector, built with shadcn/ui and radix-ui primitives (Command powered by cmdk, Popover, Dialog, Badge, Input) and styled with Tailwind CSS. Published May 2023; source code is on GitHub.",
+  "type": "component-library",
+  "elements": [
+    "select",
+    "accordion",
+    "badge",
+    "button",
+    "input",
+    "modal",
+    "popover"
+  ],
+  "keywords": [
+    "combobox",
+    "multi select",
+    "select",
+    "label picker",
+    "label editor",
+    "tag input",
+    "command menu",
+    "cmdk",
+    "shadcn ui",
+    "radix ui",
+    "tailwind css",
+    "react",
+    "nextjs"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "cmdk"
+  ],
+  "related": {
+    "repo": "https://github.com/mxkaske/mxkaske.dev",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

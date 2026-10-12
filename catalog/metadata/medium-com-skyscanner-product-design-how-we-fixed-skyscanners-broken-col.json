@@ -1,0 +1,30 @@
+{
+  "id": "medium-com-skyscanner-product-design-how-we-fixed-skyscanners-broken-col",
+  "url": "https://medium.com/skyscanner-product-design/how-we-fixed-skyscanners-broken-colour-palette-ec25d19167dc",
+  "kind": "page",
+  "hints_hash": "dfcc63465336a14c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://medium.com/skyscanner-product-design/how-we-fixed-skyscanners-broken-colour-palette-ec25d19167dc", "title": "Medium", "status": null}
+  ],
+  "status": "ok",
+  "name": "How we fixed Skyscanner's broken colour palette",
+  "summary": "Case study of how Skyscanner rebuilt its colour palette: fewer colours, plain names and semantic tokens for brand and product.",
+  "description": "Adam Wilson's account of untangling Skyscanner's colours: 31 brand colours with poetic names, endless inaccessible combinations, and brand and product teams sharing one set of rules. The rebuild covers a focused palette with core pairings, semantic tokens in Figma and code, separate libraries for two teams, colours for illustrations and maps, dark mode and accessibility work.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["color palette", "design token", "semantic color", "color contrast", "accessibility", "dark mode", "design system", "figma", "brand color", "product design", "case study", "color naming"],
+  "contains": [
+    "case study: 31 brand colours rebuilt into semantic palettes",
+    "covers Figma and code libraries, dark mode and accessibility",
+    "11-minute read by Adam Wilson, published Jan 30, 2024",
+    "at the start 25% of iOS and 17% of Android colour combinations were inaccessible"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "medium-com"},
+  "confidence": 0.85
+}

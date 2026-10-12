@@ -1,0 +1,115 @@
+{
+  "id": "watermelon-sh",
+  "url": "https://watermelon.sh",
+  "kind": "site",
+  "hints_hash": "24b64a3705a5a492",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://watermelon.sh",
+      "title": "Watermelon | Design Infrastructure for Modern Startups",
+      "status": null
+    },
+    {
+      "url": "https://ui.watermelon.sh",
+      "title": "Watermelon UI: Free React Components, Blocks & Dashboards",
+      "status": 200
+    },
+    {
+      "url": "https://ui.watermelon.sh/blocks",
+      "title": "UI Blocks - Pre-built Sections | Watermelon UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.watermelon.sh/llms.txt",
+      "title": "Watermelon UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Watermelon",
+  "summary": "Design ecosystem for startups: an open-source React UI library plus a design studio, with mobile, showcase and AI products in the works.",
+  "description": "Watermelon bundles five products: Studio (a design agency doing product design, UX audits and branding), UI (an open-source React component library built with Tailwind CSS and shadcn conventions — 500+ components, blocks, dashboards, animated components and templates you copy or install with the shadcn CLI), Native (mobile components, launching soon), Showcase (design inspiration, launching soon) and AI (an orchestration layer in development).",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "footer",
+    "cta",
+    "banner",
+    "404",
+    "bento-grid",
+    "contact",
+    "team",
+    "stats",
+    "file-upload",
+    "form",
+    "dashboard",
+    "button",
+    "card",
+    "tabs",
+    "carousel"
+  ],
+  "keywords": [
+    "react component",
+    "tailwind css",
+    "shadcn",
+    "copy paste component",
+    "ui block",
+    "dashboard",
+    "template",
+    "animated component",
+    "mcp server",
+    "design system",
+    "landing page section",
+    "free ui library",
+    "startup design",
+    "mit license"
+  ],
+  "contains": [
+    "500+ Tailwind CSS React components",
+    "blocks: hero, features, pricing, testimonials, FAQ, CTA, footer, navbar, stats, team, 404, contact",
+    "dashboards and full-page templates",
+    "130+ animated components built with Motion",
+    "install with the shadcn CLI or copy the code, MIT licensed",
+    "MCP server and read-only JSON API for agents (800+ catalog examples)",
+    "ecosystem: design studio, mobile UI (soon), showcase (soon), AI platform (in development)"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "templates",
+    "api"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,77 @@
+{
+  "id": "akveo-github-io-eva-icons",
+  "url": "https://akveo.github.io/eva-icons",
+  "kind": "page",
+  "hints_hash": "5a40bc8364403603",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:46:12Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://akveo.github.io/eva-icons",
+      "title": "Eva Icons - beautifully crafted Open Source UI icons for common actions and items.",
+      "status": null
+    },
+    {
+      "url": "https://github.com/akveo/eva-icons",
+      "title": "GitHub - akveo/eva-icons: A pack of more than 480 beautifully crafted Open Source icons. SVG, Sketch, Web Font and Animations support.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Eva Icons",
+  "summary": "Open-source pack of 480+ UI icons for common actions and items, in SVG, PNG, web font and Sketch, with four animations.",
+  "description": "A pack of more than 480 icons for common actions and items, built by the Nebular team at Akveo. Icons come in fill and outline visual types and are provided as SVG, PNG, web font and Sketch, with four animations (zoom, pulse, shake, flip). Usable through an npm package, CDN, or a JavaScript helper that replaces data-eva elements with SVG; third-party ports exist for React Native and Flutter.",
+  "type": "icon-set",
+  "categories": [
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "icon pack",
+    "icon set",
+    "ui icon",
+    "svg icon",
+    "png icon",
+    "icon font",
+    "web font",
+    "animated icon",
+    "outline icon",
+    "fill icon",
+    "javascript",
+    "npm",
+    "cdn",
+    "sketch",
+    "open source",
+    "common action"
+  ],
+  "contains": [
+    "480+ icons for common actions and items",
+    "fill and outline types",
+    "4 animations: zoom, pulse, shake, flip",
+    "formats: PNG, SVG, web font, Sketch",
+    "npm package and CDN; eva.replace() JavaScript helper",
+    "MIT licensed; 8.8k GitHub stars"
+  ],
+  "formats": [
+    "svg",
+    "png",
+    "font-files",
+    "npm-package"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/akveo/eva-icons",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

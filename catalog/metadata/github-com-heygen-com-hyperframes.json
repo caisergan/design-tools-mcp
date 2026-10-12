@@ -1,0 +1,40 @@
+{
+  "id": "github-com-heygen-com-hyperframes",
+  "url": "https://github.com/heygen-com/hyperframes",
+  "kind": "repo",
+  "hints_hash": "be2c6f061a3a55f5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/heygen-com/hyperframes/blob/HEAD/README.md", "title": "HyperFrames", "status": null},
+    {"url": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/LICENSE", "title": null, "status": 200},
+    {"url": "https://github.com/heygen-com/hyperframes", "title": null, "status": 200},
+    {"url": "https://hyperframes.dev", "title": "HyperFrames Studio — HyperFrames", "status": 200}
+  ],
+  "status": "ok",
+  "name": "HyperFrames",
+  "summary": "Open-source framework that renders HTML, CSS and seekable animations into deterministic MP4 videos.",
+  "description": "HyperFrames defines a video as HTML with data-* timing attributes and tracks, animates it with GSAP, CSS, Lottie, Three.js, Anime.js or WAAPI, previews it in the browser and renders deterministic MP4 with headless Chrome and FFmpeg. 21 agent skills let Claude Code, Codex, Cursor and Gemini CLI make product launch videos, PR walkthroughs, captions, motion graphics and decks; a CLI, Studio and a catalog of blocks round it out.",
+  "type": "tool",
+  "categories": ["motion", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["html to video", "programmatic video", "video framework", "render video", "motion graphic", "animation", "gsap", "three.js", "lottie", "ffmpeg", "agent skill", "claude code", "product launch video", "explainer video", "caption", "mp4", "composition", "code to video"],
+  "contains": [
+    "HTML/CSS compositions with data-* timing attributes and tracks",
+    "deterministic MP4 rendering via headless Chrome and FFmpeg",
+    "21 published agent skills: router, 10 creation workflows, domain skills",
+    "animation via GSAP, CSS, Lottie, Three.js, Anime.js and WAAPI",
+    "CLI for init, lint, snapshot, preview, render and publish",
+    "frame.md design templates translate a design system for video",
+    "catalog of blocks and components; Studio browser preview",
+    "Apache-2.0 licensed"
+  ],
+  "formats": ["code", "cli", "npm-package", "prompts", "templates"],
+  "stack": ["node", "typescript", "gsap", "three.js", "css"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/heygen-com/hyperframes", "docs": null, "npm": "hyperframes", "figma": null, "parent": null},
+  "confidence": 0.9
+}

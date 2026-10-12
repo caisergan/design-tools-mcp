@@ -1,0 +1,28 @@
+{
+  "id": "github-com-niazmorshed2007-shadcn-address-autocomplete",
+  "url": "https://github.com/NiazMorshed2007/shadcn-address-autocomplete",
+  "kind": "repo",
+  "hints_hash": "66edf420e062fc61",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/NiazMorshed2007/shadcn-address-autocomplete/blob/HEAD/README.md", "title": "Shadcn Address Autocomplete", "status": 200},
+    {"url": "https://github.com/NiazMorshed2007/shadcn-address-autocomplete", "title": "GitHub - NiazMorshed2007/shadcn-address-autocomplete", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Address Autocomplete",
+  "summary": "Address autocomplete input component for React built on the Google Places API and shadcn/ui.",
+  "description": "An address autocomplete component built with the Google Places API (new) and shadcn/ui, in a Next.js and Tailwind CSS project with Zod validation. The repo holds the component and a demo app with local setup steps; the hosted demo runs on mock data and real use needs a Google API key.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input"],
+  "keywords": ["address autocomplete", "address input", "google places api", "places autocomplete", "react", "nextjs", "shadcn ui", "tailwind", "zod", "form validation", "location picker", "shipping address", "checkout form", "geocoding"],
+  "contains": ["address autocomplete component using the Google Places API (new)", "built with shadcn/ui components, Next.js and Tailwind CSS", "Zod validation", "demo app; hosted live url runs on mock data", "README notes API keys must be configured for real use"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "tailwind", "zod", "shadcn-ui"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/NiazMorshed2007/shadcn-address-autocomplete", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

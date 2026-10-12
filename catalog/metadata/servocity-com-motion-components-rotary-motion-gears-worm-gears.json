@@ -1,0 +1,28 @@
+{
+  "id": "servocity-com-motion-components-rotary-motion-gears-worm-gears",
+  "url": "https://servocity.com/motion-components/rotary-motion/gears/worm-gears",
+  "kind": "page",
+  "hints_hash": "96f2ff774856fbce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://servocity.com/motion-components/rotary-motion/gears/worm-gears", "title": "MOTION - Gears - Worm Gears - ServoCity®", "status": null},
+    {"url": "https://www.servocity.com/worm-gears/", "title": "MOTION - Gears - Worm Gears - ServoCity®", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Worm Gears (ServoCity)",
+  "summary": "Product listing of worm gear sets sold by ServoCity, a robotics motion-parts store.",
+  "description": "Category page in the MOTION store section of ServoCity, listing worm gears for robotics builds, such as a 6mm D-bore MOD 1.25 worm gear set at $34.99. Most of the page renders through JavaScript, so only the title and a partial product listing are readable.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["worm gear", "gear set", "robot part", "robotics store", "motion component", "mechanical part", "d-bore", "mod 1.25", "robot building", "hobby robotics", "worm drive"],
+  "contains": ["worm gear sets, e.g. a 6mm D-bore MOD 1.25 worm gear set at $34.99", "part of ServoCity's MOTION > Gears store category"],
+  "formats": [],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

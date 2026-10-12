@@ -1,0 +1,34 @@
+{
+  "id": "github-com-roocodeinc-roo-code",
+  "url": "https://github.com/RooCodeInc/Roo-Code",
+  "kind": "repo",
+  "hints_hash": "3cee34cc6a0aa433",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/RooCodeInc/Roo-Code/blob/HEAD/README.md", "title": "Roo Code", "status": null}
+  ],
+  "status": "ok",
+  "name": "Roo Code",
+  "summary": "Open-source VS Code AI coding agent with Code, Architect, Ask and Debug modes; shut down in May and pointing to forks.",
+  "description": "An open-source (Apache-2.0) VS Code extension that puts an LLM coding agent in the editor: generate code from natural-language specs, refactor and debug existing code, answer questions about a codebase and automate repetitive tasks. Work is organised into Modes (Code, Architect, Ask, Debug and custom modes) and it can call MCP servers. The extension was shut down on May 15 and the README now points to the community fork ZooCode and to Cline.",
+  "type": "plugin",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai coding agent", "vscode extension", "editor extension", "code generation", "refactoring", "debugging", "mcp server", "custom mode", "open source", "autonomous coding", "developer tool", "llm agent", "documentation writer", "task automation"],
+  "contains": [
+    "Code, Architect, Ask, Debug and custom modes",
+    "generates code, refactors, debugs and writes docs from natural language",
+    "MCP server support",
+    "open source under Apache-2.0",
+    "extension shut down on May 15; README points to ZooCode fork and Cline",
+    "README translated into 18+ languages"
+  ],
+  "formats": ["code", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/RooCodeInc/Roo-Code", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

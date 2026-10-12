@@ -1,0 +1,29 @@
+{
+  "id": "registry-lloydrichards-dev",
+  "url": "https://registry.lloydrichards.dev",
+  "kind": "site",
+  "hints_hash": "79d78b4636d101d4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://registry.lloydrichards.dev", "title": "Shadcn Storybook Registry", "status": null},
+    {"url": "https://github.com/lloydrichards/shadcn-storybook-registry", "title": "GitHub - lloydrichards/shadcn-storybook-registry", "status": 200},
+    {"url": "https://raw.githubusercontent.com/lloydrichards/shadcn-storybook-registry/main/README.md", "title": "shadcn Storybook Registry", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Storybook Registry",
+  "summary": "Installable Storybook stories for shadcn/ui components: 68 stories across Radix UI and Base UI registries.",
+  "description": "A shadcn registry that serves ready-made Storybook stories for shadcn/ui components — 68 stories covering 61 components plus design-token (color, radius, shadow, spacing, typeset, typography) and utility entries. Browse them in Storybook or install the story files into a project with the shadcn CLI.",
+  "type": "registry",
+  "categories": ["registries", "components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "chat", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "empty-state", "form", "input", "loader", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["storybook", "shadcn registry", "shadcn ui", "component story", "design token", "radix ui", "base ui", "interaction test", "component documentation", "react", "registry alias", "components json", "install component"],
+  "contains": ["68 stories: 61 component stories, 6 design-token stories, 1 utility", "separate Radix UI and Base UI registries", "install via registry alias or direct JSON URLs (/v3/radix/…)", "Storybook preview link per component", "MIT licensed, 183 GitHub stars"],
+  "formats": ["registry", "code", "docs"],
+  "stack": ["react", "storybook", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/lloydrichards/shadcn-storybook-registry", "docs": "https://registry.lloydrichards.dev/storybook", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,74 @@
+{
+  "id": "github-com-drefahl-tanstack-ui-table",
+  "url": "https://github.com/drefahl/tanstack-ui-table",
+  "kind": "repo",
+  "hints_hash": "b407b5bd3de11735",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/drefahl/tanstack-ui-table/blob/HEAD/README.md",
+      "title": "tanstack-ui-table",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "tanstack-ui-table",
+  "summary": "Enhanced React data table component built with shadcn/ui and @tanstack/react-table: sorting, filters, reordering, editing and export.",
+  "description": "A modular table component with column sorting, column and row reordering, editable cells, row selection, expandable subrows, hideable columns, advanced and simple filter components (dialog and sheet) and PDF/CSV export. Demos include a full-featured table plus sortable-columns and reorderable-rows variants.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "table"
+  ],
+  "keywords": [
+    "data table",
+    "tanstack table",
+    "shadcn ui",
+    "react",
+    "sorting",
+    "filters",
+    "row reordering",
+    "column reordering",
+    "editable cell",
+    "row selection",
+    "expandable row",
+    "subrow",
+    "column visibility",
+    "csv export",
+    "pdf export"
+  ],
+  "contains": [
+    "enhanced table built with shadcn/ui and @tanstack/react-table",
+    "sorting, filtering, column and row reordering",
+    "editable cells, selection and expandable subrows",
+    "hide columns; PDF and CSV export",
+    "advanced and simple filter components in a dialog and a sheet",
+    "three demo tables: full featured, sortable columns, reorderable rows"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "tanstack-table"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/drefahl/tanstack-ui-table",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

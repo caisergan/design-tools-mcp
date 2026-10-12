@@ -1,0 +1,20 @@
+{
+  "id": "fonts-google-com-specimen-libre-barcode-39-preview-script-latn",
+  "url": "https://fonts.google.com/specimen/Libre+Barcode+39?preview.script=Latn",
+  "kind": "page",
+  "hints_hash": "e7d3b0a058e7cdac",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/Libre+Barcode+39?preview.script=Latn", "title": "Libre Barcode 39 - Google Fonts", "status": null},
+    {"url": "https://fonts.google.com/specimen/Libre+Barcode+39/about", "title": "Libre Barcode 39 - Google Fonts", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Libre Barcode 39",
+  "summary": "Google Fonts specimen for Libre Barcode 39, a font that renders your text as a Code 39 barcode.",
+  "keywords": ["barcode font", "code 39", "google font", "free font", "display font", "barcode", "typeface", "libre barcode"],
+  "elements": [],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.7
+}

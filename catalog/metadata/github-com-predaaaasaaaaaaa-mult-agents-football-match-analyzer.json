@@ -1,0 +1,27 @@
+{
+  "id": "github-com-predaaaasaaaaaaa-mult-agents-football-match-analyzer",
+  "url": "https://github.com/predaaaasaaaaaaa/mult-agents-football-match-analyzer",
+  "kind": "repo",
+  "hints_hash": "d99ebd4a4aafe2c9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/predaaaasaaaaaaa/mult-agents-football-match-analyzer/blob/HEAD/README.md", "title": "⚽ Football Match Analyzer — Multi-Agent AI System", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Football Match Analyzer",
+  "summary": "Multi-agent AI system that turns football match video into performance analytics — player tracking, team classification and match reports.",
+  "description": "Runs a broadcast match video through six agents orchestrated by LangGraph: YOLOv8s + ByteTrack detect and track players, KMeans classifies teams from jersey colors, rule-based logic finds passes, tackles and interceptions, and Groq's Llama 3.3 70B writes the match report. Videos go in through a Telegram bot and follow-up questions get answered in natural language; runs on a consumer GPU with a free-tier LLM.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["multi-agent", "ai agent", "football", "soccer", "match analysis", "sports analytics", "player tracking", "computer vision", "object detection", "telegram bot", "langgraph", "python", "llm", "docker", "token efficiency"],
+  "contains": ["six agents orchestrated with LangGraph, driven by a Telegram bot", "YOLOv8s + ByteTrack player detection and tracking; KMeans jersey-color team classification", "event detection (passes, tackles, interceptions) and physical stats (distance, top speed, sprints, heatmaps)", "Groq Llama 3.3 70B match reports and natural-language follow-up questions", "per-video caching: about 2 minutes for 5000 frames on an RTX 2050; ~2K tokens per message", "MIT, Python 3.12+; known limits: ball detection ~47% coverage, pixel units, one user at a time"],
+  "formats": ["code", "app"],
+  "stack": ["python", "langgraph", "langchain", "scikit-learn", "ultralytics", "supervision", "docker", "python-telegram-bot"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/predaaaasaaaaaaa/mult-agents-football-match-analyzer", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

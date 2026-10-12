@@ -1,0 +1,70 @@
+{
+  "id": "colordesigner-io-color-palette-builder",
+  "url": "https://colordesigner.io/color-palette-builder",
+  "kind": "page",
+  "hints_hash": "33fb64518dadba3f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://colordesigner.io/color-palette-builder",
+      "title": "Color Palette Builder | Color Designer",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Color Palette Builder",
+  "summary": "Browser tool that builds tints, shades, tones and colour harmonies from a starter colour.",
+  "description": "A free tool on Color Designer that turns a starter colour into tints, shades and tones and into harmonies such as complementary, analogous, split complementary, triadic, square and rectangular (LCH). Palettes are assembled from swatches, a colour picker, a library or a mass editor, and can be previewed over image categories like background, texture, minimal, pattern, architecture and landscape. It is one of 13 colour tools on the site.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "color palette",
+    "palette builder",
+    "palette generator",
+    "tint",
+    "shade",
+    "tone",
+    "color harmony",
+    "complementary color",
+    "triadic",
+    "split complementary",
+    "color wheel",
+    "hex color",
+    "hsl",
+    "lch",
+    "swatch",
+    "color scheme",
+    "design tool"
+  ],
+  "contains": [
+    "tints, shades and tones generated from a starter colour",
+    "harmonies: complementary, analogous, split complementary, triad, square, rectangle",
+    "swatches, colour picker, library and mass editor",
+    "palette previews over background, texture, minimal, pattern, architecture and landscape images",
+    "starter palettes by green, blue, red, orange, purple, yellow and gray",
+    "one of 13 tools on colordesigner.io"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

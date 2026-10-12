@@ -1,0 +1,29 @@
+{
+  "id": "theleagueofmoveabletype-com",
+  "url": "https://theleagueofmoveabletype.com",
+  "kind": "site",
+  "hints_hash": "5320726b4a7c17ab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://theleagueofmoveabletype.com", "title": "The League of Moveable Type | The League of Moveable Type", "status": null},
+    {"url": "https://theleagueofmoveabletype.com/league-gothic", "title": "League Gothic | The League of Moveable Type", "status": 200},
+    {"url": "https://theleagueofmoveabletype.com/membership", "title": "Membership — The League of Moveable Type | The League of Moveable Type", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The League of Moveable Type",
+  "summary": "The first open-source font foundry: 18 fonts free under the Open Font License, plus type education.",
+  "description": "An open-source font foundry running since 2009, offering 18 fonts (League Gothic, League Spartan, League Mono, Raleway, Orbitron, Ostrich Sans …) free to download with source under the Open Font License. Font pages detail language support, character sets and OpenType features; the site also publishes a font licensing guide, a newsletter and a $299/year membership with typography courses (not open yet).",
+  "type": "font-foundry",
+  "categories": ["fonts", "learning"],
+  "elements": [],
+  "keywords": ["open source font", "free font", "type foundry", "display font", "condensed", "font licensing", "typography guide", "webfont", "font download", "sans serif", "typography course"],
+  "contains": ["18 fonts incl. League Gothic, League Spartan, League Mono, Raleway, Orbitron, Ostrich Sans", "all fonts free under the Open Font License", "font pages with language support, glyph counts and OpenType features", "guide: Making Sense of Font Licensing", "planned $299/year membership with typography courses"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

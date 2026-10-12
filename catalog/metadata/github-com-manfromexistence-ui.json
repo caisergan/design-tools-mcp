@@ -1,0 +1,38 @@
+{
+  "id": "github-com-manfromexistence-ui",
+  "url": "https://github.com/manfromexistence/ui",
+  "kind": "repo",
+  "hints_hash": "5c813894e6734f4f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:34:35Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/manfromexistence/ui/blob/HEAD/README.md", "title": "manfromexistence/ui", "status": 200},
+    {"url": "https://manfromexistence-ui.vercel.app", "title": "manfromexistence/ui", "status": 200},
+    {"url": "https://manfromexistence-ui.vercel.app/docs", "title": "Introduction - manfromexistence/ui", "status": 200},
+    {"url": "https://manfromexistence-ui.vercel.app/blocks", "title": "Building Blocks. - manfromexistence/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "manfromexistence/ui",
+  "summary": "Copy-paste React UI kit: components, sidebar and auth blocks, icons, animations and themes built with shadcn/ui, Tailwind and Framer Motion.",
+  "description": "A large copy-paste React component library: components such as calendars, gantts, kanbans, lists, tables, bento, spinners, buttons, tooltips, color picker, inputs, date-time pickers, file upload, dock, backgrounds, tabs and hero, plus sidebar, authentication and login blocks. It also has sections for icons, animations, themes, fonts and colors. Install with its own CLI (npx manfromexistence-ui init) or copy the source; built with Ant Design, shadcn/ui, Tailwind CSS and Framer Motion.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["sidebar", "hero", "form", "calendar", "kanban", "timeline", "stepper", "date-picker", "table", "list", "file-upload", "button", "tooltip", "input", "select", "loader", "dock", "bento-grid", "background", "tabs"],
+  "variants": {"sidebar": ["collapsible", "nested", "inset"]},
+  "keywords": ["component library", "react", "shadcn", "tailwind", "framer-motion", "ant design", "copy-paste", "block", "sidebar", "calendar", "kanban", "gantt", "timeline", "stepper", "file upload", "date picker", "background", "animation", "icon", "cli", "typescript"],
+  "contains": [
+    "components: calendars, gantts, kanbans, tables, bento, buttons, inputs, date-time pickers, file upload, dock, tabs",
+    "15 sidebar variants (collapsible, floating, inset, popover, file tree, calendar) plus login and auth blocks",
+    "sections for icons, animations, themes, fonts and colors",
+    "CLI install: npx manfromexistence-ui init, or copy-paste source",
+    "docs cover Next.js, Vite, Remix, Astro, Laravel and Gatsby installs, theming, dark mode, typography, Figma and v0",
+    "MIT license"
+  ],
+  "formats": ["code", "cli", "docs"],
+  "stack": ["react", "ant-design", "tailwind", "shadcn", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/manfromexistence/ui", "docs": "https://manfromexistence-ui.vercel.app/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

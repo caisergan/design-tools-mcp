@@ -1,0 +1,34 @@
+{
+  "id": "abduzeedo-com",
+  "url": "https://abduzeedo.com",
+  "kind": "site",
+  "hints_hash": "60c17a639d5c1c88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://abduzeedo.com", "title": "Abduzeedo Design Inspiration", "status": 200},
+    {"url": "https://abduzeedo.com/about", "title": "About Abduzeedo", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Abduzeedo",
+  "summary": "Design publication sharing daily inspiration articles on branding, typography, 3D, illustration, UI/UX and photography since 2006.",
+  "description": "A digital publication sharing design inspiration articles since 2006, founded by Fabio Sasso. Posts are tagged by discipline (branding, typography, packaging, editorial design, graphic design, illustration, 3D, arts, photography, architecture, UI/UX, web design, motion, fashion, tutorials, books) and link out to the work featured; a photography feed is embedded from Unsplash and designers can submit work via 'Get featured'.",
+  "type": "gallery",
+  "categories": ["inspiration", "learning"],
+  "elements": [],
+  "keywords": ["design inspiration", "design blog", "branding", "typography", "packaging design", "graphic design", "illustration", "3d", "photography", "architecture", "ui design", "ux design", "web design", "motion design", "fashion", "design tutorial", "editorial design", "creative inspiration"],
+  "contains": [
+    "design inspiration publication running since 2006",
+    "tags: branding, typography, packaging, editorial, illustration, 3D, photography, UI/UX, motion …",
+    "daily articles plus a 'best of the week' roundup",
+    "photography feed embedded from Unsplash",
+    "'Get featured' submissions for designers"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uideck-com",
+  "url": "https://uideck.com",
+  "kind": "site",
+  "hints_hash": "b0ad4d737c91ecf5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:28:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://uideck.com", "title": "Free HTML Landing Page Templates and UI Kits | UIdeck", "status": null},
+    {"url": "https://uideck.com/docs", "title": "Docs | UIdeck", "status": null},
+    {"url": "https://uideck.com/templates", "title": "100+ Free HTML, Bootstrap, Tailwind, and React Templates | UIdeck", "status": null},
+    {"url": "https://uideck.com/all-access", "title": "All-Access Pass - Unlimited Access to All Products | UIdeck", "status": null},
+    {"url": "https://uideck.com/license", "title": "License and Copyright | UIdeck", "status": null}
+  ],
+  "status": "ok",
+  "name": "UIdeck",
+  "summary": "Free and premium HTML, Bootstrap, Tailwind CSS and React templates and UI kits for startups, SaaS, apps and business sites.",
+  "description": "A template shop with 100+ free and premium website templates and UI kits — startup, SaaS, app, portfolio, one-page, business, admin, AI, crypto and conference themes built with HTML, Bootstrap, Tailwind CSS and React. Free downloads are personal-use only; an All-Access Pass (from $79) adds commercial licensing and the 80+ premium templates, with docs and email support.",
+  "type": "template",
+  "categories": ["templates", "components"],
+  "elements": ["ai-agent-ui", "scroll-effect"],
+  "keywords": ["html template", "bootstrap template", "tailwind css template", "react template", "landing page", "startup template", "saas template", "app landing page", "ui kit", "portfolio template", "one page template", "business website template", "admin dashboard template", "agency template", "nextjs", "figma", "free template", "premium template", "template marketplace"],
+  "contains": ["100+ free HTML, Bootstrap, Tailwind and React templates and UI kits", "categories: business, startup, SaaS, app, portfolio, one page, admin, agency, AI, blockchain", "tag counts: clean 56, business 47, Bootstrap 36, app 30, agency 19", "All-Access Pass: Personal $79, Studio $179, Team $349 for 80+ premium templates", "handcrafted templates since 2016", "docs portal for Bootstrap and Tailwind products", "free downloads are personal-use only and keep footer credits"],
+  "formats": ["code", "templates", "docs"],
+  "stack": ["html", "bootstrap", "tailwind", "react", "nextjs"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://uideck.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

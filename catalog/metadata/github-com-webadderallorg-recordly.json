@@ -1,0 +1,74 @@
+{
+  "id": "github-com-webadderallorg-recordly",
+  "url": "https://github.com/webadderallorg/recordly",
+  "kind": "repo",
+  "hints_hash": "382f615acbde76e6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/webadderallorg/recordly/blob/HEAD/README.md",
+      "title": "Recordly",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Recordly",
+  "summary": "Open-source screen recorder and editor for demo videos with auto-zooms, cursor polish, webcam overlays and styled frames.",
+  "description": "Desktop app for recording a display or window and turning the capture into a polished demo without a motion designer: automatic zoom suggestions and manual zoom regions, cursor smoothing, motion blur and click bounce, a drag-and-drop timeline with trims, speed regions and annotations, webcam bubble overlays, and frame styling with wallpapers, gradients, padding and shadows. Exports MP4 or GIF and saves projects as .recordly files. Runs on macOS 14+, Windows 10 build 19041+ and Linux; community extensions add more via a marketplace. AGPL-3.0.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "screen recorder",
+    "demo video",
+    "screen capture",
+    "product video",
+    "zoom animation",
+    "cursor smoothing",
+    "webcam overlay",
+    "timeline editor",
+    "gif export",
+    "mp4",
+    "walkthrough",
+    "macos",
+    "window",
+    "linux",
+    "electron"
+  ],
+  "contains": [
+    "records a full display or a single app window with microphone and system audio",
+    "automatic zoom suggestions from cursor activity plus manual zoom regions, trims and speed regions",
+    "cursor controls: size, smoothing, motion blur, click bounce, sway and loop mode",
+    "webcam bubble overlay: presets or custom X/Y, mirror, roundness, shadow, zoom-reactive scaling",
+    "frame styling: wallpapers, solid colours, gradients, blur, padding, rounded corners and shadows",
+    "annotations (text, image, figure), extra audio regions, crop and aspect-ratio presets",
+    "export MP4 or GIF with quality, frame rate, loop and size settings; .recordly project files",
+    "community extension marketplace: cursor sounds, device frames, browser mockups, wallpapers, render hooks"
+  ],
+  "formats": [
+    "code",
+    "app"
+  ],
+  "stack": [
+    "electron",
+    "pixijs"
+  ],
+  "pricing": "free",
+  "license": "AGPL-3.0",
+  "related": {
+    "repo": "https://github.com/webadderallorg/recordly",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

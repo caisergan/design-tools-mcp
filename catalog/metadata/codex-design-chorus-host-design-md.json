@@ -1,0 +1,93 @@
+{
+  "id": "codex-design-chorus-host-design-md",
+  "url": "https://codex-design.chorus.host/design.md",
+  "kind": "page",
+  "hints_hash": "359ed8da890808a9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://codex-design.chorus.host/design.md",
+      "title": "Design like Codex",
+      "status": null
+    },
+    {
+      "url": "https://codex-design.beacon.host/design.md",
+      "title": "Design like Codex",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Design like Codex",
+  "summary": "Rule set for building UIs that look and behave like the Codex desktop app, with tokens, typography and component specs.",
+  "description": "A design.md guide that specifies how to reproduce the visual language of OpenAI's Codex desktop app: system typography, a near-black or white canvas, alpha-tinted surfaces, pill controls, hairline borders, a restrained blue accent and light and dark themes from one token set. It covers foundations (colour primitives and semantic roles, spacing, radii, motion, icons), the app shell with sidebar and page header patterns, components, settings surfaces, writing and keyboard rules, a reject list and measured examples. A companion stylesheet defines every value as a CSS custom property.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [
+    "sidebar",
+    "command-palette",
+    "chat",
+    "prompt-input",
+    "tooltip",
+    "popover",
+    "dropdown",
+    "modal",
+    "card",
+    "input",
+    "button",
+    "badge",
+    "list"
+  ],
+  "keywords": [
+    "design rule",
+    "design md",
+    "design token",
+    "css variable",
+    "dark mode",
+    "light mode",
+    "agent chat ui",
+    "codex",
+    "openai",
+    "developer tool",
+    "sidebar",
+    "command palette",
+    "composer",
+    "system font",
+    "macos",
+    "diff view",
+    "design system",
+    "ui guideline"
+  ],
+  "contains": [
+    "design.md rule set read from the shipped ChatGPT.app bundle (26.901) and measured on screen",
+    "token tables for colour primitives, semantic roles, surfaces, type scale and spacing",
+    "light and dark themes from one token set, switched with prefers-color-scheme",
+    "components gallery, settings surface, writing and keyboard rules, reject list",
+    "public --cdx- token and class API in a companion CSS stylesheet"
+  ],
+  "formats": [
+    "docs",
+    "code",
+    "links"
+  ],
+  "stack": [
+    "css"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

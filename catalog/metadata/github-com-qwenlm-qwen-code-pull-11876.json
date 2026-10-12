@@ -1,0 +1,25 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11876",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11876",
+  "kind": "page",
+  "hints_hash": "f9a0a900d548b514",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11876", "title": "fix(cua): make Linux input delivery adaptive by LaZzyMan · Pull Request #11876 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(cua): make Linux input delivery adaptive (#11876)",
+  "summary": "Merged pull request making Linux Computer Use in the Qwen Code agent choose input delivery from the connected driver's platform.",
+  "description": "Pull request in QwenLM/qwen-code. Linux Computer Use chooses input delivery from the driver's platform, so ordinary actions need no foreground/background mode: native X11 preparation preserves an already focused child, retries once within the deadline, and restores the previous window and child; the input callback still runs at most once. Updates the fixed Computer Use skill for OSWorld and prepares driver/SDK 0.20.8 and Node REPL 0.1.5.",
+  "type": "article",
+  "keywords": ["computer use", "linux", "input delivery", "keyboard input", "x11", "focus management", "window manager", "desktop automation", "repl", "screenshot", "ai agent", "pull request"],
+  "contains": ["adaptive input delivery from the connected driver's platform", "X11 preparation keeps a focused child, retries once, restores prior window and child", "input callback runs at most once, including on partial or uncertain failures", "prepares driver/SDK 0.20.8 and Node REPL 0.1.5; skill fixed for OSWorld", "validation: 273 Linux native tests, 8 Xvfb scenarios, 3 GTK3/AT-SPI regressions", "final ECS acceptance pending at submission (draft at maintainer request)"],
+  "formats": ["code", "docs"],
+  "stack": ["rust", "node"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-how-to-deslop-claude-in-2-words",
+  "url": "https://ruben.substack.com/p/how-to-deslop-claude-in-2-words",
+  "kind": "page",
+  "hints_hash": "1bd14ecca49da100",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/how-to-deslop-claude-in-2-words", "title": "How to deslop Claude in 2 words. - by Ruben Hassid", "status": null}
+  ],
+  "status": "ok",
+  "name": "How to deslop Claude in 2 words",
+  "summary": "Newsletter post showing how the two-word prompt \"Use ASD-STE100\" fixes Claude's AI writing style.",
+  "description": "A How to AI post arguing that adding \"Use ASD-STE100\" to a prompt makes Claude's writing clearer and more direct for most chats, with before/after examples and a copy-paste research prompt for paid subscribers.",
+  "type": "article",
+  "keywords": ["claude", "prompt", "prompting", "asd-ste100", "ai writing", "writing style", "plain language", "prompt engineering", "llm", "deslop", "ai copywriting", "substack"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.8
+}

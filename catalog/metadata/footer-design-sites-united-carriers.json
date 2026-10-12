@@ -1,0 +1,22 @@
+{
+  "id": "footer-design-sites-united-carriers",
+  "url": "https://footer.design/sites/united-carriers",
+  "kind": "page",
+  "hints_hash": "1786c77af88756df",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/united-carriers", "title": "Footer | United Carriers", "status": 200}
+  ],
+  "status": "ok",
+  "name": "United Carriers",
+  "summary": "Desktop and mobile footer design from the United Carriers logistics website, with style tags and a link to the live site.",
+  "description": "One footer design from the footer.design gallery: the United Carriers footer, shown as desktop and mobile screenshots with style tags (flat, monochromatic, bright, interactive, WebGL) and a link to the live website.",
+  "keywords": ["footer", "website footer", "footer design", "footer inspiration", "logistics website", "flat footer", "web footer", "desktop footer", "mobile footer", "footer gallery"],
+  "elements": ["footer"],
+  "formats": ["screenshots", "links"],
+  "contains": ["desktop and mobile footer screenshots", "style tags: flat, monochromatic, bright, interactive, webgl, small type", "industry tag: logistics", "designed by Bearplus", "added August 7, 2026"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.8
+}

@@ -1,0 +1,23 @@
+{
+  "id": "skills-sh-hardikpandya-stop-slop",
+  "url": "https://skills.sh/hardikpandya/stop-slop",
+  "kind": "page",
+  "hints_hash": "ee8e71784a5642f5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/hardikpandya/stop-slop", "title": "hardikpandya/stop-slop — Agent skills", "status": null},
+    {"url": "https://skills.sh/hardikpandya/stop-slop/stop-slop", "title": "stop-slop — hardikpandya/stop-slop", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Stop Slop",
+  "summary": "Agent skill that removes predictable AI writing patterns from prose: filler phrases, formulaic structures and passive voice.",
+  "description": "A SKILL.md package for AI coding agents that cleans AI writing patterns out of prose: cut filler phrases and emphasis crutches, break formulaic structures such as binary contrasts and negative listings, use active voice, and be specific. Reference files cover phrases and structures. Install with npx skills add hardikpandya/stop-slop.",
+  "type": "agent-skill",
+  "keywords": ["agent skill", "stop slop", "ai writing", "ai tell", "copy editing", "filler word", "passive voice", "prose", "writing", "skill.md", "claude code"],
+  "contains": ["removes filler phrases, openers and adverbs", "breaks formulaic structures: binary contrasts, negative listings, dramatic fragmentation", "requires active voice and specific nouns", "install with npx skills add hardikpandya/stop-slop", "16.8K installs on skills.sh"],
+  "formats": ["prompts"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.75
+}

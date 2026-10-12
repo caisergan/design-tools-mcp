@@ -1,0 +1,12 @@
+{
+  "id": "practicedesign-io",
+  "url": "https://practicedesign.io",
+  "kind": "site",
+  "hints_hash": "4ac10bcfba8cc22e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:46:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://practicedesign.io", "title": null, "status": 0}],
+  "status": "blocked",
+  "confidence": 0
+}

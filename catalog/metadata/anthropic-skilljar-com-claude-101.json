@@ -1,0 +1,29 @@
+{
+  "id": "anthropic-skilljar-com-claude-101",
+  "url": "https://anthropic.skilljar.com/claude-101",
+  "kind": "page",
+  "hints_hash": "77b1b1de58b2ca76",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://anthropic.skilljar.com/claude-101", "title": "Claude 101", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Claude 101",
+  "summary": "Free introductory course on using Claude for everyday work: projects, artifacts, skills, connectors and research.",
+  "description": "An Anthropic Academy course hosted on Skilljar. The curriculum walks through first conversations with Claude, getting better results, the desktop app, organizing work with projects and artifacts, working with skills, connecting tools, enterprise search and research for deep dives, use-cases by role, and ends with a certificate of completion.",
+  "type": "course",
+  "elements": [],
+  "keywords": ["ai course", "free course", "prompting", "project", "artifact", "skill", "connector", "enterprise search", "desktop app", "certificate", "ai assistant", "training"],
+  "contains": [
+    "free with registration",
+    "curriculum: what is Claude, first conversation, better results, desktop, projects, artifacts, skills",
+    "connecting tools, enterprise search, research for deep dives",
+    "use-cases by role and a certificate of completion",
+    "no Anthropic account needed — a Skilljar account only"
+  ],
+  "pricing": "free",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "anthropic-skilljar-com"},
+  "confidence": 0.9
+}

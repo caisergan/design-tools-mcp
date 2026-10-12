@@ -1,0 +1,39 @@
+{
+  "id": "inklineverify-com",
+  "url": "https://inklineverify.com",
+  "kind": "site",
+  "hints_hash": "eeda8056d092856f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://inklineverify.com", "title": "Inkline", "status": 200 },
+    { "url": "https://www.inklineverify.com/docs", "title": "Inkline", "status": 200 },
+    { "url": "https://www.inklineverify.com/docs/api", "title": "Inkline", "status": 200 },
+    { "url": "https://www.inklineverify.com/docs/faq", "title": "Inkline", "status": 200 },
+    { "url": "https://www.inklineverify.com/docs/privacy", "title": "Inkline", "status": 200 },
+    { "url": "https://github.com/Inkline-Verify/ProofOfHuman", "title": "GitHub - Inkline-Verify/ProofOfHuman: Inkline is the human approval API for AI agents · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Inkline",
+  "summary": "Free, open-source Touch ID stamp for Gmail plus an approval API that proves a person approved an action before an AI agent runs it.",
+  "description": "Inkline for Gmail is a free, open-source Chrome extension: when you hit Send, a Mac helper shows the exact message and asks for Touch ID, and the email goes out with a small stamp linking to a receipt anyone can verify offline. Stamps are Secure Enclave-signed and hardware-attested through Apple's App Attest. The paired Approval API (pilot) lets products get a person's approval on an exact action before an agent performs it, returning a verifiable receipt and a webhook.",
+  "type": "plugin",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["proof of human", "human approval", "touch id", "secure enclave", "app attest", "hardware attestation", "gmail extension", "chrome extension", "email stamp", "receipt verification", "approval api", "ai agent", "open source", "passkey", "webauthn", "macos", "provenance", "email verification"],
+  "contains": [
+    "free, open-source (MIT) Chrome extension for Gmail",
+    "Touch ID-signed stamp; receipts verify offline in the browser",
+    "Approval API in pilot: exact-action approval for AI agents, with webhook",
+    "requires a Mac with Touch ID on macOS 27+, a Chromium browser and Gmail",
+    "privacy: only a SHA-256 hash of the content leaves the Mac",
+    "the notary stores just your public key and enrollment date"
+  ],
+  "formats": ["api", "app", "code", "docs"],
+  "stack": ["swift", "node", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/Inkline-Verify/ProofOfHuman", "docs": "https://www.inklineverify.com/docs", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

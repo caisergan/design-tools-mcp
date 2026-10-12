@@ -1,0 +1,81 @@
+{
+  "id": "github-com-ayghri-i-have-adhd",
+  "url": "https://github.com/ayghri/i-have-adhd",
+  "kind": "repo",
+  "hints_hash": "67a018b1300bbf9f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ayghri/i-have-adhd/blob/HEAD/README.md",
+      "title": "i-have-adhd README",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ayghri/i-have-adhd/HEAD/README.md",
+      "title": "i-have-adhd README (raw)",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ayghri/i-have-adhd/HEAD/skills/i-have-adhd/SKILL.md",
+      "title": "i-have-adhd SKILL.md",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ayghri/i-have-adhd/HEAD/LICENSE",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "i-have-adhd",
+  "summary": "Agent skill that reshapes coding assistant output for ADHD readers: next action first, numbered steps, no preamble; 10 rules.",
+  "description": "A skill that stops a coding assistant from burying the answer: lead with the next action, number multi-step tasks, end with one concrete next action, restate state every turn, cap lists at five items, and skip preamble, recaps and pleasantries. The rules persist for the rest of the session, with a pre-send check; invoke with /i-have-adhd. No ADHD diagnosis needed to use it.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "adhd",
+    "output style",
+    "formatting",
+    "productivity",
+    "coding assistant",
+    "concise output",
+    "action first",
+    "numbered step",
+    "accessibility",
+    "focus",
+    "prompt"
+  ],
+  "contains": [
+    "10 output rules plus a pre-send check",
+    "lead with the next action; number multi-step tasks",
+    "restate state every turn; suppress tangents; cap lists at 5 items",
+    "stays on until 'stop adhd mode'",
+    "installs by pasting instructions into a CLI prompt",
+    "MIT license"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ayghri/i-have-adhd",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

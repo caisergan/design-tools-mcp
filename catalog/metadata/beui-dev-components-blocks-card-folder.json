@@ -1,0 +1,31 @@
+{
+  "id": "beui-dev-components-blocks-card-folder",
+  "url": "https://beui.dev/components/blocks/card-folder",
+  "kind": "page",
+  "hints_hash": "3c24a1fea3cf6137",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/blocks/card-folder", "title": "Card Folder · React motion component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Card Folder",
+  "summary": "Animated React card that lifts out of a stitched purse pocket and opens to show its details.",
+  "description": "A motion component for React and Next.js: a landscape card tucked into a purse pocket that lifts forward as the purse compresses into its bottom seam, with controlled open state, card-detail visibility and a separate overflow action. Copy the source or install it with the shadcn CLI.",
+  "type": "component-library",
+  "elements": ["card"],
+  "keywords": ["card folder", "animated card", "card reveal", "motion component", "react", "nextjs", "shadcn", "credit card ui", "animation", "interactive card"],
+  "contains": [
+    "controlled open and details-visible props plus onAction and ariaLabel",
+    "install with the shadcn CLI (@beui/card-folder) or copy the source",
+    "needs the beUI theme tokens and shared files (lib/ease.ts, lib/utils.ts)",
+    "beUI Pro: 292+ blocks and premium motion components, $149 lifetime"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "nextjs"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.85
+}

@@ -1,0 +1,30 @@
+{
+  "id": "designspiration-com",
+  "url": "https://designspiration.com",
+  "kind": "site",
+  "hints_hash": "ade3f59407e9540d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:29:22Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designspiration.com", "title": "Designspiration - Design Inspiration | Inspirational Art, Photography & Typography Images", "status": 200},
+    {"url": "https://www.designspiration.com/explore", "title": "Explore Inspiration on Designspiration", "status": 200},
+    {"url": "https://www.designspiration.com/pro", "title": "Pro Membership for Designers and Creative Professionals on Designspiration.", "status": 200},
+    {"url": "https://www.designspiration.com/about", "title": "About - Designspiration", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Designspiration",
+  "summary": "Image and color search engine for design inspiration: art, logos, typography, photography and UI shots.",
+  "description": "A community gallery where people save and browse images for design inspiration, searchable by keyword or color. Topics range from 3D typography and app design to architecture, calligraphy and fonts; users collect ideas into mood boards and can save finds with a browser extension.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["design inspiration", "image search", "color search", "mood board", "visual bookmarking", "typography inspiration", "graphic design", "photography", "logo design", "ui inspiration", "app design", "browser extension", "creative community", "3d typography", "art direction"],
+  "contains": ["image and color search across community-uploaded designs", "topics from 3D typography and app design to architecture, flat design and fonts", "mood boards with the Visions tool (Pro early access)", "browser extension to save links, notes and screenshots", "Pro membership: removes ads, partner deals, early access"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

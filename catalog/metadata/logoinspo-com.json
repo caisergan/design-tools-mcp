@@ -1,0 +1,31 @@
+{
+  "id": "logoinspo-com",
+  "url": "https://logoinspo.com",
+  "kind": "site",
+  "hints_hash": "1ab013783ca0b37d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:18:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://logoinspo.com/llms.txt", "title": "Logoinspo", "status": null},
+    {"url": "https://logoinspo.com", "title": "Logoinspo — Logo Inspiration", "status": 200},
+    {"url": "https://logoinspo.com/icons", "title": "App Icon Inspiration — 60,000+ App Icons & Squircle Logos", "status": 200},
+    {"url": "https://www.logoinspo.com/icons/x", "title": "Icons · X", "status": 200},
+    {"url": "https://www.logoinspo.com/icons/hm", "title": "Icons · H&M", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Logoinspo",
+  "summary": "Curated gallery of 1,200+ logos and 60,000+ app icons, filterable by category, industry, colour and style.",
+  "description": "Logo inspiration library with 1,200+ hand-picked real and fictional logos browsable by type (symbol, wordmark, symbol & text, animated), industry and colour; each detail page credits the designer and links related references. A companion icons section shows 60,000+ app icons and squircle logos, filterable by category, colour and style.",
+  "type": "gallery",
+  "categories": ["inspiration", "icons"],
+  "elements": [],
+  "keywords": ["logo inspiration", "logo gallery", "logo design", "wordmark", "symbol logo", "animated logo", "logo reference", "brand identity", "app icon", "app icon inspiration", "squircle", "icon gallery", "design inspiration", "logo example"],
+  "contains": ["1,200+ curated logos", "60,000+ app icons and squircle logos", "logo categories: symbol, wordmark, symbol & text, animated", "filters: category, industry, colour (combinable)", "each logo credited to its designer with source attribution", "detail pages at /logo/{slug} and /icons/{slug} with related references"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,30 @@
+{
+  "id": "github-com-sujjeee-nextjs-dnd",
+  "url": "https://github.com/sujjeee/nextjs-dnd",
+  "kind": "repo",
+  "hints_hash": "2acd5271863ff68c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:42:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/sujjeee/nextjs-dnd/blob/HEAD/README.md", "title": "or", "status": 200},
+    {"url": "https://github.com/sujjeee/nextjs-dnd", "title": "GitHub - sujjeee/nextjs-dnd", "status": 200},
+    {"url": "https://raw.githubusercontent.com/sujjeee/nextjs-dnd/HEAD/package.json", "title": null, "status": 200},
+    {"url": "https://nextjs-shadcn-dnd.vercel.app", "title": "Create Next App", "status": 200}
+  ],
+  "status": "ok",
+  "name": "nextjs-dnd",
+  "summary": "Demo of a sortable drag-and-drop list built with Next.js, shadcn/ui and dnd-kit.",
+  "description": "A small Next.js app showing one sortable list of framework entries you reorder by dragging, built with dnd-kit and shadcn-styled UI. The list component can be copied into your own project.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["list"],
+  "keywords": ["drag and drop", "sortable list", "dnd-kit", "reorder", "react", "nextjs", "shadcn ui", "tailwind css", "draggable list", "list component", "typescript"],
+  "contains": ["sortable list demo (NextJS, ReactJS, Astro, Vue entries)", "dnd-kit core, sortable, modifiers and utilities", "Next.js 13 App Router, React 18, Tailwind and Radix UI", "178 GitHub stars"],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "dnd-kit"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/sujjeee/nextjs-dnd", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

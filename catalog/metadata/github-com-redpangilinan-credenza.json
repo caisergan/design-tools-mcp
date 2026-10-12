@@ -1,0 +1,79 @@
+{
+  "id": "github-com-redpangilinan-credenza",
+  "url": "https://github.com/redpangilinan/credenza",
+  "kind": "repo",
+  "hints_hash": "598fe7e2fe558156",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:29:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/redpangilinan/credenza/blob/HEAD/README.md",
+      "title": "Credenza",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/redpangilinan/credenza",
+      "title": "GitHub - redpangilinan/credenza: Ready-made responsive modal component for shadcn/ui. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Credenza",
+  "summary": "Responsive modal for shadcn/ui: a dialog on desktop, a drawer on mobile.",
+  "description": "A drop-in component that renders as a dialog on desktop and a vaul drawer on mobile, so one modal works across screen sizes. Install it from the shadcn registry or npm, or copy dialog, drawer and the useIsMobile hook by hand; background scaling is optional via vaul-drawer-wrapper.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "modal",
+    "drawer"
+  ],
+  "keywords": [
+    "modal",
+    "drawer",
+    "responsive modal",
+    "dialog",
+    "bottom sheet",
+    "shadcn",
+    "registry",
+    "vaul",
+    "react",
+    "nextjs",
+    "useismobile",
+    "mobile"
+  ],
+  "contains": [
+    "1-item shadcn registry component",
+    "dialog on desktop, drawer on mobile",
+    "install via shadcn registry, npm, or manual copy",
+    "optional background scaling with vaul-drawer-wrapper"
+  ],
+  "formats": [
+    "registry",
+    "npm-package",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "vaul"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/redpangilinan/credenza",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

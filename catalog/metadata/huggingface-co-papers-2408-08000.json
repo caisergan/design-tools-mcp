@@ -1,0 +1,26 @@
+{
+  "id": "huggingface-co-papers-2408-08000",
+  "url": "https://huggingface.co/papers/2408.08000",
+  "kind": "page",
+  "hints_hash": "5bede5ce369f3d1a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://huggingface.co/papers/2408.08000", "title": "Paper page - MVInpainter: Learning Multi-View Consistent Inpainting to Bridge 2D and 3D Editing", "status": null}
+  ],
+  "status": "ok",
+  "name": "MVInpainter",
+  "summary": "Hugging Face paper page for MVInpainter, which reframes 3D editing as multi-view 2D inpainting with video priors and no camera poses.",
+  "description": "Paper page for arXiv:2408.08000 (published Aug 15, 2024) with the abstract, an AI-generated summary and community discussion. MVInpainter partially inpaints multi-view images with reference guidance instead of generating novel views from scratch; video priors and slot attention keep views consistent and make training and inference pose-free. The page shows 9 upvotes, 1 citing model and 4 collections.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["multi-view inpainting", "3d editing", "novel view synthesis", "image inpainting", "pose-free", "video prior", "slot attention", "3d scene editing", "computer vision", "generative ai", "research paper"],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://ewrfcas.github.io/MVInpainter/", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

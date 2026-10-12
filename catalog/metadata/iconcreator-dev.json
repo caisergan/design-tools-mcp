@@ -1,0 +1,80 @@
+{
+  "id": "iconcreator-dev",
+  "url": "https://iconcreator.dev",
+  "kind": "site",
+  "hints_hash": "01d0d499acab66b8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://iconcreator.dev",
+      "title": "Forma - Icon Creator",
+      "status": null
+    },
+    {
+      "url": "https://iconcreator.dev/pricing",
+      "title": "Pricing — Forma Icon Creator",
+      "status": 200
+    },
+    {
+      "url": "https://iconcreator.dev/terms",
+      "title": "Terms of Use — Forma Icon Creator",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Forma Icon Creator",
+  "summary": "Browser icon designer that styles Tabler, Lucide, Phosphor, Iconoir and Heroicons icons and exports them as SVG or PNG.",
+  "description": "Free browser-based editor for app icons: pick an icon from supported open-source libraries, customise colors, size, stroke and effects, then export individual SVG or PNG files. A Premium plan ($9/month) or Lifetime purchase ($36 once) unlocks ZIP export of a whole styled library, limited to 10 exports per rolling hour and up to 7,200 library downloads per 30-day month.",
+  "type": "generator",
+  "categories": [
+    "icons",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "icon",
+    "icon designer",
+    "app icon",
+    "icon maker",
+    "svg export",
+    "png export",
+    "tabler icon",
+    "lucide",
+    "phosphor",
+    "iconoir",
+    "heroicon",
+    "icon library",
+    "stroke",
+    "free icon tool"
+  ],
+  "contains": [
+    "design and export individual icons for free",
+    "libraries: Tabler Icons, Lucide, Phosphor Icons, Iconoir, Heroicons",
+    "customise colors, size, stroke and effects",
+    "Premium $9/month or Lifetime $36 for full-library ZIP export",
+    "library downloads up to 7,200 per 30-day month",
+    "built by Elerion s.r.o."
+  ],
+  "formats": [
+    "app",
+    "svg",
+    "png"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

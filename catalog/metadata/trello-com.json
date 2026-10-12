@@ -1,0 +1,30 @@
+{
+  "id": "trello-com",
+  "url": "https://trello.com",
+  "kind": "site",
+  "hints_hash": "6ce1bc0dfd926779",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://trello.com", "title": "Capture, organize, and tackle your to-dos from anywhere", "status": null},
+    {"url": "https://trello.com/guide", "title": "Trello Guides: Help Getting Started With Trello", "status": null},
+    {"url": "https://trello.com/premium", "title": "Boost Your Business Productivity with Trello Premium", "status": null},
+    {"url": "https://trello.com/about", "title": "About Us: Trello History, Logos & Customers", "status": null}
+  ],
+  "status": "ok",
+  "name": "Trello",
+  "summary": "Kanban-style project management app: boards, lists and cards, with automation, templates and integrations.",
+  "description": "Visual project management for teams: boards of lists and cards track tasks and projects, with Inbox capture, Planner scheduling, Butler automation, Power-Ups and integrations, a template gallery and an MCP server for AI tools.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["kanban", "card", "list"],
+  "keywords": ["kanban board", "project management", "task management", "todo list", "board", "card", "list", "automation", "power-up", "template", "team collaboration", "mcp server", "planner", "inbox"],
+  "contains": ["boards with lists and cards for task and project management", "free plan for individuals and small teams", "Premium at $10 per user/month with unlimited automation", "template gallery for marketing, product, engineering and design teams", "Butler automation, Power-Ups and app integrations", "Inbox and Planner for capturing and scheduling work", "MCP server to connect Trello to AI tools"],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://trello.com/guide", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

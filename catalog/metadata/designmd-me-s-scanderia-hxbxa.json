@@ -1,0 +1,19 @@
+{
+  "id": "designmd-me-s-scanderia-hxbxa",
+  "url": "https://designmd.me/s/scanderia-hxbxa",
+  "kind": "page",
+  "hints_hash": "99ee17dfd7bcacf4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designmd.me/s/scanderia-hxbxa", "title": "DESIGN.md for www.scanderia.com · DesignMD | DesignMD", "status": null}
+  ],
+  "status": "ok",
+  "name": "DESIGN.md for www.scanderia.com",
+  "summary": "Generated DESIGN.md spec for www.scanderia.com covering its color palette, type scale, component styling and agent prompt guide.",
+  "keywords": ["design.md", "design system", "design spec", "extracted design system", "color palette", "typography scale", "design token", "component style", "agent prompt", "ai agent", "dark theme", "layout"],
+  "type": "design-rules",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "designmd-me"},
+  "confidence": 0.85
+}

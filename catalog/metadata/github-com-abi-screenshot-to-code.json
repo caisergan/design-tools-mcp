@@ -1,0 +1,29 @@
+{
+  "id": "github-com-abi-screenshot-to-code",
+  "url": "https://github.com/abi/screenshot-to-code",
+  "kind": "repo",
+  "hints_hash": "aa06cb19d613948b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/abi/screenshot-to-code/blob/HEAD/README.md", "title": "screenshot-to-code", "status": 200},
+    {"url": "https://github.com/abi/screenshot-to-code", "title": "GitHub - abi/screenshot-to-code: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)", "status": 200},
+    {"url": "https://screenshottocode.com/pricing", "title": "Screenshot to Code", "status": 200}
+  ],
+  "status": "ok",
+  "name": "screenshot-to-code",
+  "summary": "AI tool that converts screenshots, mockups, Figma designs and screen recordings into HTML, React or Vue code.",
+  "description": "Open-source app that turns screenshots, mockups, Figma designs and screen recordings into clean front-end code using AI models such as Gemini, GPT and Claude. Outputs HTML + Tailwind or CSS, React + Tailwind, Vue + Tailwind, Bootstrap and Ionic. Runs locally with a React/Vite frontend and FastAPI backend (Docker or Poetry) using your own API keys, or through the official hosted app at screenshottocode.com; an optional headless-Chromium tool lets the agent preview and visually check its own output.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["screenshot to code", "image to code", "figma to code", "mockup to code", "ai code generation", "html generator", "react", "vue", "tailwind", "bootstrap", "frontend", "screen recording", "open source", "self-hosted"],
+  "contains": ["converts screenshots, mockups, Figma designs and screen recordings into code", "output stacks: HTML + Tailwind/CSS, React + Tailwind, Vue + Tailwind, Bootstrap, Ionic", "models: Gemini 3, GPT-5.5, Claude Opus", "React/Vite frontend and FastAPI backend; Docker one-command setup", "bring your own API keys (OpenAI, Anthropic, Gemini, Replicate)", "optional headless Chromium screenshot preview tool", "80.2k GitHub stars; MIT licensed"],
+  "formats": ["code", "app"],
+  "stack": ["react", "python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/abi/screenshot-to-code", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

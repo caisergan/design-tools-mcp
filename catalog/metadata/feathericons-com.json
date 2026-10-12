@@ -1,0 +1,80 @@
+{
+  "id": "feathericons-com",
+  "url": "https://feathericons.com",
+  "kind": "site",
+  "hints_hash": "3cc72e9d93574d49",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://feathericons.com",
+      "title": "Feather – Simply beautiful open source icons",
+      "status": null
+    },
+    {
+      "url": "https://github.com/feathericons/feather",
+      "title": "GitHub - feathericons/feather: Simply beautiful open-source icons",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/feathericons/feather/blob/main/package.json",
+      "title": "feather/package.json at main · feathericons/feather",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Feather",
+  "summary": "Open-source SVG icon set drawn on a 24x24 grid, with npm package, sprite and Figma library.",
+  "description": "A collection of open-source SVG icons where each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and flexibility. Use it as the feather-icons npm package, a client-side script from a CDN, an SVG sprite or the Figma component library; the site lets you customise size, stroke width and color per icon.",
+  "type": "icon-set",
+  "categories": [
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "svg icon",
+    "open source icon",
+    "icon set",
+    "outline icon",
+    "stroke icon",
+    "line icon",
+    "24x24 grid",
+    "npm package",
+    "svg sprite",
+    "figma icon",
+    "react icon",
+    "javascript icon"
+  ],
+  "contains": [
+    "each icon designed on a 24x24 grid",
+    "usage: client-side JavaScript, Node/npm, SVG sprite, Figma component library",
+    "size, stroke width and color customisable in the browser",
+    "v4.29.0, MIT licensed",
+    "26k GitHub stars, 682 commits",
+    "framework ports: react-feather, vue-feather-icons, svelte-feather-icons, angular-feather, php-feather …"
+  ],
+  "formats": [
+    "svg",
+    "npm-package",
+    "code",
+    "figma-file"
+  ],
+  "stack": [
+    "javascript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/feathericons/feather",
+    "docs": null,
+    "npm": "feather-icons",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

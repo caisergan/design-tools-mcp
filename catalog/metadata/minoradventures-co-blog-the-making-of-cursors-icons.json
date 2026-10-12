@@ -1,0 +1,22 @@
+{
+  "id": "minoradventures-co-blog-the-making-of-cursors-icons",
+  "url": "https://minoradventures.co/blog/the-making-of-cursors-icons",
+  "kind": "page",
+  "hints_hash": "4a95c1fa1fbe3f8e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://minoradventures.co/blog/the-making-of-cursors-icons", "title": "The Making of Cursor's Icons – Minor Adventures", "status": null}
+  ],
+  "status": "ok",
+  "name": "The Making of Cursor's Icons",
+  "summary": "Case study of designing an icon system of 600+ icons in two sizes and two styles, every variant drawn by hand over a year.",
+  "description": "A designer's write-up of drawing, testing and shipping a complete icon set for a coding agent: redrawing a drifted 468-icon inherited library, finding the right stroke weights (1.25px at 16px, 1.5px at 24px), outline and filled styles, optical shapes, consistency rules, and delivering the result as an icon font that replaced the old one without breaking a single reference.",
+  "type": "article",
+  "categories": ["icons"],
+  "keywords": ["icon design", "icon set", "icon system", "case study", "design process", "optical adjustment", "icon grid", "stroke width", "outline icon", "filled icon", "interface icon", "icon consistency", "svg icon", "design write-up"],
+  "contains": ["600+ icons in two sizes and two styles", "16px icons on a 1.25px stroke, 24px on 1.5px", "shipped as an icon font replacing the previous set", "16 min read, published Jul 30, 2026"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

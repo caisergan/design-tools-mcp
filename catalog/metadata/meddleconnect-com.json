@@ -1,0 +1,39 @@
+{
+  "id": "meddleconnect-com",
+  "url": "https://meddleconnect.com",
+  "kind": "site",
+  "hints_hash": "77c957c0e4528dba",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://meddleconnect.com/llms.txt", "title": "Meddle Connect", "status": null },
+    { "url": "https://meddleconnect.com", "title": "Software di monitoraggio industriale OT e IT | Meddle", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Meddle Connect",
+  "summary": "Industrial monitoring software that connects PLCs, sensors, ERP and MES and answers energy, downtime and OEE questions in plain language.",
+  "description": "Web platform that reads OT data (PLCs, OPC-UA, S7, Modbus, MQTT) and IT data (ERP, MES, SQL databases) into one key-value model and turns it into OEE, energy cost and anomalies. Users ask questions in Italian or English and get a number, a chart and a suggested action; worksheets refresh themselves and agents can write setpoints back to machines with approval. Cloud, on-premise or hybrid; data in Europe, NIS-2 ready.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["dashboard", "chart", "chat", "prompt-input", "ai-agent-ui", "stats"],
+  "keywords": ["industrial monitoring", "ot it convergence", "plc", "opc-ua", "modbus", "mqtt", "scada", "mes", "erp", "oee", "energy monitoring", "downtime", "predictive maintenance", "anomaly detection", "copilot", "ai agent", "manufacturing", "energy manager", "chat with data", "dashboard", "chart", "on-premise", "nis-2", "data model", "connector"],
+  "contains": [
+    "44 connector types: OPC-UA, Siemens S7, Modbus, MQTT, SQL, ERP, MES and more",
+    "plain-language chat on energy, downtime, OEE, scrap and stop costs, in Italian or English",
+    "answers become self-updating worksheets and charts",
+    "agents write setpoints to machines with role-based approval and an audit trail",
+    "no-code canvas editor for data flows",
+    "cloud, on-premise or hybrid deployment; data in Europe; NIS-2 ready"
+  ],
+  "formats": ["app", "docs", "api"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "proprietary",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.8
+}

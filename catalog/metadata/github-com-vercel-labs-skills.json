@@ -1,0 +1,74 @@
+{
+  "id": "github-com-vercel-labs-skills",
+  "url": "https://github.com/vercel-labs/skills",
+  "kind": "repo",
+  "hints_hash": "6880ae9c381bba41",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/vercel-labs/skills/blob/HEAD/README.md",
+      "title": "skills",
+      "status": null
+    },
+    {
+      "url": "https://github.com/vercel-labs/skills",
+      "title": "GitHub - vercel-labs/skills: The open agent skills tool - npx skills · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "skills",
+  "summary": "CLI that installs agent skills from GitHub repos or URLs into Claude Code, Codex, Cursor, OpenCode and 75+ other agents.",
+  "description": "The command-line tool for the open agent skills ecosystem (npx skills). It adds, lists, finds, updates and removes SKILL.md packages, discovers skills inside source repositories or direct download URLs, and installs them into 75+ coding agents by symlink or copy, per project or globally. A single skill can also be run without installing by generating a prompt for the target agent.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "skill",
+    "cli",
+    "skill installer",
+    "skill manager",
+    "npx",
+    "skill.md",
+    "claude code",
+    "codex",
+    "cursor",
+    "opencode",
+    "github",
+    "prompt",
+    "package manager"
+  ],
+  "contains": [
+    "install from GitHub repos (owner/repo shorthand, full URL) or direct download URLs",
+    "75+ supported agents including Claude Code, Codex, Cursor, OpenCode and Copilot",
+    "symlink or copy installs, project or global scope",
+    "commands: add, use, list, find, update, init, remove",
+    "private repository installs via git, GitHub CLI or SSH auth"
+  ],
+  "formats": [
+    "cli",
+    "code"
+  ],
+  "stack": [
+    "node"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/vercel-labs/skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

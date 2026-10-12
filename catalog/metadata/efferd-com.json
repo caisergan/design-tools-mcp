@@ -1,0 +1,112 @@
+{
+  "id": "efferd-com",
+  "url": "http://efferd.com",
+  "kind": "site",
+  "hints_hash": "eb664acffb56173f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "http://efferd.com",
+      "title": "Efferd - Beautiful Shadcn blocks for Busy & Smart devs.",
+      "status": 200
+    },
+    {
+      "url": "https://efferd.com/docs",
+      "title": "Docs - Efferd",
+      "status": 200
+    },
+    {
+      "url": "https://efferd.com/blocks",
+      "title": "Beautiful Shadcn Blocks - Efferd",
+      "status": 200
+    },
+    {
+      "url": "https://efferd.com/pricing",
+      "title": "Pricing - Efferd",
+      "status": 200
+    },
+    {
+      "url": "https://efferd.com/about",
+      "title": "About - Efferd",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Efferd",
+  "summary": "231 shadcn/ui blocks for marketing and app UIs — auth, hero, CTA, pricing, dashboard — free set plus one-time Pro.",
+  "description": "A library of shadcn/ui blocks: sections you install with the shadcn CLI into any React framework, using either Radix or Base UI primitives and your choice of icon set. Categories cover auth, hero, features, CTA, dashboard, app shell, header, footer, pricing, FAQs, integrations, logo cloud, contact, team, testimonials, blogs and 404 pages. Free blocks are available without an account; a one-time Pro plan unlocks the full set with lifetime updates.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "footer",
+    "cta",
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "team",
+    "contact",
+    "dashboard",
+    "form",
+    "404"
+  ],
+  "keywords": [
+    "shadcn block",
+    "react block",
+    "tailwind css",
+    "dashboard block",
+    "auth block",
+    "hero section",
+    "cta section",
+    "pricing block",
+    "faq section",
+    "logo cloud",
+    "header",
+    "footer",
+    "base ui",
+    "radix ui",
+    "shadcn cli",
+    "copy-paste"
+  ],
+  "contains": [
+    "231 registry items measured in the shadcn registry",
+    "14 auth blocks, 20 CTA blocks, 14 dashboards, 11 logo clouds, 9 hero sections",
+    "blocks for header, footer, pricing, FAQ, contact, team, testimonials and 404 pages",
+    "install with the @efferd shadcn CLI namespace or an MCP server",
+    "free tier plus one-time Pro plan ($147) with lifetime updates"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix",
+    "base-ui"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://efferd.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,75 @@
+{
+  "id": "github-com-avalynndev-anonypost",
+  "url": "https://github.com/avalynndev/anonypost",
+  "kind": "repo",
+  "hints_hash": "5adfd3a99fc30ad0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/avalynndev/anonypost/blob/HEAD/README.md",
+      "title": "Anonypost",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/avalynndev/anonypost",
+      "title": "GitHub - avalynndev/anonypost: A website where you can enter anonymous posts for others to read",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Anonypost",
+  "summary": "Anonymous posting site: write posts and replies without an account, built on the T3 stack.",
+  "description": "An open-source anonymous posting platform where posts and replies need no account. Built with Next.js, tRPC and shadcn/ui; clone the repo, add an environment file and deploy — the README covers a one-click deploy to Vercel.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [],
+  "keywords": [
+    "anonymous post",
+    "anonymous message",
+    "anonymous reply",
+    "no signup",
+    "t3 stack",
+    "nextjs",
+    "trpc",
+    "shadcn ui",
+    "tailwind",
+    "vercel",
+    "feed",
+    "open source"
+  ],
+  "contains": [
+    "anonymous posts and replies, no sign-up needed",
+    "built with Next.js, tRPC and shadcn/ui",
+    "one-click deploy to Vercel",
+    "installation and environment setup in the README"
+  ],
+  "formats": [
+    "templates",
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "trpc",
+    "tailwind",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/avalynndev/anonypost",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

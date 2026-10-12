@@ -1,0 +1,120 @@
+{
+  "id": "saaslandingpage-com",
+  "url": "https://saaslandingpage.com",
+  "kind": "site",
+  "hints_hash": "905599a39201f1df",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://saaslandingpage.com",
+      "title": "The Best Landing Page Examples For Design Inspiration - SaaS Landing Page",
+      "status": 200
+    },
+    {
+      "url": "https://saaslandingpage.com/templates",
+      "title": "83 Best SaaS Landing Page Templates - SaaS Landing Page",
+      "status": 200
+    },
+    {
+      "url": "https://saaslandingpage.com/pricing",
+      "title": "64 Best Pricing Page Examples [Design Inspiration] - SaaS Landing Page",
+      "status": 200
+    },
+    {
+      "url": "https://saaslandingpage.com/about-us",
+      "title": "51 Best About Us Page Examples [Design Inspiration] - SaaS Landing Page",
+      "status": 200
+    },
+    {
+      "url": "https://saaslandingpage.com/faq",
+      "title": "24 Best FAQ Page Examples [Design Inspiration] - SaaS Landing Page",
+      "status": 200
+    },
+    {
+      "url": "https://saaslandingpage.com/fonts",
+      "title": "Popular landing page fonts - SaaS Landing Page",
+      "status": 200
+    },
+    {
+      "url": "https://saaslandingpage.com/cleanshot",
+      "title": "CleanShot page - SaaS Landing Page",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "SaaS Landing Page",
+  "summary": "Gallery of 840+ SaaS landing page examples with full-page screenshots, fonts, palettes and stacks.",
+  "description": "A curated gallery of SaaS landing pages and sub-pages, grouped by page type: landing page, pricing, about us, features, blog, testimonials, FAQ and contact. Each entry carries a full-page screenshot plus the site's fonts, colour palette, stack, tags and date, and links out to the live site. A separate collection lists 83 free and premium landing page templates filterable by stack, and a fonts archive ranks typefaces by how many examples use them.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "pricing",
+    "features",
+    "testimonials",
+    "faq",
+    "contact",
+    "3d",
+    "map",
+    "cursor",
+    "progress",
+    "bento-grid",
+    "calendar",
+    "dock"
+  ],
+  "keywords": [
+    "landing page",
+    "landing page example",
+    "saas",
+    "saas landing page",
+    "web design inspiration",
+    "design inspiration",
+    "screenshot gallery",
+    "pricing page",
+    "about us page",
+    "faq page",
+    "testimonials",
+    "feature section",
+    "contact page",
+    "landing page template",
+    "framer template",
+    "webflow template",
+    "tailwind css",
+    "nextjs",
+    "react",
+    "vue",
+    "typography"
+  ],
+  "contains": [
+    "840+ SaaS landing page examples with full-page screenshots",
+    "each entry shows fonts, colour palette, stack, tags and date, with a link to the live site",
+    "page-type galleries: landing page, pricing (64), about us (51), features, testimonials (40), FAQ (24), contact (17)",
+    "83 landing page templates filterable by stack: Framer, Webflow, React, HTML, Next.js, Tailwind CSS, Vue, free and paid",
+    "popular fonts archive ranked by example count (Inter: 176 examples)"
+  ],
+  "formats": [
+    "screenshots",
+    "links",
+    "templates"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

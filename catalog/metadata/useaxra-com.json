@@ -1,0 +1,100 @@
+{
+  "id": "useaxra-com",
+  "url": "https://useaxra.com",
+  "kind": "site",
+  "hints_hash": "c2e40229f610be96",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:53:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://useaxra.com/llms.txt",
+      "title": "Axra",
+      "status": null
+    },
+    {
+      "url": "https://useaxra.com",
+      "title": "Axra — AI-powered global account, built on stablecoins",
+      "status": 200
+    },
+    {
+      "url": "https://www.useaxra.com/guides",
+      "title": "Money Transfer Guides | Axra",
+      "status": 200
+    },
+    {
+      "url": "https://www.useaxra.com/pro",
+      "title": "Axra Pro — Multi-Currency USD, EUR & GBP Accounts | Axra",
+      "status": 200
+    },
+    {
+      "url": "https://www.useaxra.com/faq",
+      "title": "FAQ | Money Transfer Questions | Axra",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Axra",
+  "summary": "Agentic banking and payments platform: multi-currency accounts, cards and transfers to 100+ countries, with an AI assistant on WhatsApp.",
+  "description": "Agentic banking and payments platform built on stablecoins: personal, Pro, Business and Church accounts; USD/EUR/GBP/NGN multi-currency wallets; virtual and physical cards; transfers to 100+ countries. An AI money assistant and chatbot run on WhatsApp, Slack and Telegram, and the Axra Pay API adds payouts, collections, webhooks, FX and KYC with SDKs for Node, Python and PHP. Published guides and FAQ libraries cover 80+ transfer topics.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "fintech",
+    "multi-currency account",
+    "money transfer",
+    "international payment",
+    "stablecoin",
+    "remittance",
+    "whatsapp banking",
+    "telegram bot",
+    "ai assistant",
+    "virtual card",
+    "payments api",
+    "banking app",
+    "kyc",
+    "payout",
+    "currency exchange",
+    "diaspora",
+    "business account",
+    "payroll",
+    "invoicing",
+    "webhook"
+  ],
+  "contains": [
+    "personal, Pro, Business and Church accounts; free to open",
+    "multi-currency wallet: USD, EUR, GBP, NGN and 15+ currencies at real-time rates with a 1% flat fee",
+    "transfers to 100+ countries across African and diaspora corridors",
+    "AI assistant and chatbot on WhatsApp, Slack and Telegram: transfers, balances, bills, airtime",
+    "Axra Pay API: payouts, collections, webhooks, FX, KYC; SDKs for Node, Python, PHP",
+    "virtual Naira/USD cards and physical USD/Naira cards with Apple Pay and Google Pay",
+    "guides and FAQ libraries: 80+ transfer guides, 120+ FAQ questions"
+  ],
+  "formats": [
+    "app",
+    "api",
+    "docs"
+  ],
+  "stack": [
+    "node",
+    "python",
+    "php"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

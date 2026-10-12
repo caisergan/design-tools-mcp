@@ -1,0 +1,149 @@
+{
+  "id": "bundui-io",
+  "url": "https://bundui.io",
+  "kind": "site",
+  "hints_hash": "3e9011218e525006",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://bundui.io",
+      "title": "Bundui: Tailwind CSS & shadcn/ui components, UI blocks, examples and more.",
+      "status": 200
+    },
+    {
+      "url": "https://bundui.io/components/accordion",
+      "title": "Accordion Tailwind CSS & Shadcn UI Components — Bundui.io",
+      "status": 200
+    },
+    {
+      "url": "https://bundui.io/components/card",
+      "title": "Card Tailwind CSS & Shadcn UI Components — Bundui.io",
+      "status": 200
+    },
+    {
+      "url": "https://bundui.io/components/tabs",
+      "title": "Tabs Tailwind CSS & Shadcn UI Components — Bundui.io",
+      "status": 200
+    },
+    {
+      "url": "https://bundui.io/blocks/marketing/hero-sections",
+      "title": "Hero Sections Tailwind CSS & Shadcn UI Section — Bundui.io",
+      "status": 200
+    },
+    {
+      "url": "https://bundui.io/pricing",
+      "title": "Pricing - Bundui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Bundui",
+  "summary": "Tailwind CSS and shadcn/ui component library plus 98 prebuilt blocks for marketing, ecommerce, dashboard and real-estate pages.",
+  "description": "A curated collection of 100+ handcrafted UI components built with React, Tailwind CSS, shadcn/ui and Radix UI, browsable one by one and installable through the shadcn registry. Alongside it sit 98 prebuilt blocks for marketing, ecommerce, dashboard and real-estate projects, sold as premium packs with Professional and Enterprise license options.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "banner",
+    "bento-grid",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "checkbox",
+    "command-palette",
+    "contact",
+    "cta",
+    "cursor",
+    "dashboard",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "features",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "logo-cloud",
+    "modal",
+    "navbar",
+    "popover",
+    "pricing",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "stats",
+    "switch",
+    "table",
+    "tabs",
+    "team",
+    "testimonials"
+  ],
+  "keywords": [
+    "tailwind component",
+    "shadcn ui",
+    "react component",
+    "ui block",
+    "component library",
+    "landing page block",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "footer",
+    "navbar",
+    "cta",
+    "ecommerce block",
+    "dashboard ui",
+    "real estate",
+    "registry",
+    "animate",
+    "motion",
+    "command palette",
+    "bento grid"
+  ],
+  "contains": [
+    "217 shadcn registry items",
+    "100+ handcrafted components built with React, Tailwind CSS, shadcn/ui and Radix UI",
+    "98 prebuilt blocks across marketing, ecommerce, dashboard UI and real estate",
+    "marketing block categories: hero, CTA, pricing, newsletter, testimonials, blog, team, stats, integrations, footers",
+    "more block categories: promotional, features, bento grids, contact, logo clouds, navbars, banners, cookie consent",
+    "ecommerce blocks: product details, product lists, category previews, shopping carts; plus dashboard and property cards",
+    "premium blocks priced $19–$29; Professional and Enterprise licenses with lifetime updates"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "radix"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,57 @@
+{
+  "id": "skills-sh-pbakaus-impeccable",
+  "url": "https://skills.sh/pbakaus/impeccable",
+  "kind": "page",
+  "hints_hash": "becd7372f5b7f7c5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://skills.sh/pbakaus/impeccable", "title": "pbakaus/impeccable — Agent skills", "status": null },
+    { "url": "https://github.com/pbakaus/impeccable", "title": "GitHub - pbakaus/impeccable: The design language that makes your AI harness better at design.", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Impeccable",
+  "summary": "Design guidance for AI coding agents: one skill, 24 commands and 59 detector rules for frontend work.",
+  "description": "A design language for AI coding agents, installed with npx impeccable. One /impeccable skill exposes 24 commands (polish, critique, audit, distill, animate, bolder, quieter ...); init records durable product truth in PRODUCT.md, live mode iterates on elements in the browser, and 59 deterministic detector rules plus LLM-only critique checks flag AI-generated frontend tells. Supports Claude Code, Cursor, Codex, Copilot, Gemini CLI, Grok and more.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "design skill",
+    "design language",
+    "ui polish",
+    "critique",
+    "audit",
+    "animation",
+    "typography",
+    "color",
+    "layout",
+    "frontend design",
+    "ai generated design",
+    "claude code",
+    "cursor",
+    "codex",
+    "copilot",
+    "gemini cli"
+  ],
+  "contains": [
+    "24 skills on skills.sh (1 skill, 24 slash commands)",
+    "1.8M total installs on skills.sh",
+    "59 deterministic detector rules plus LLM critique checks",
+    "live browser variation mode",
+    "installs into 15+ agent harnesses",
+    "Apache-2.0 licensed"
+  ],
+  "formats": ["docs", "prompts", "cli", "npm-package"],
+  "stack": ["rust"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/pbakaus/impeccable",
+    "docs": null,
+    "npm": "impeccable",
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.9
+}

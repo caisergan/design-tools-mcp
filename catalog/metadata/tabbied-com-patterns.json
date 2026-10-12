@@ -1,0 +1,31 @@
+{
+  "id": "tabbied-com-patterns",
+  "url": "https://tabbied.com/patterns",
+  "kind": "page",
+  "hints_hash": "433c956f57ab41eb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tabbied.com/patterns", "title": "Pick a pattern - Tabbied", "status": null}
+  ],
+  "status": "ok",
+  "name": "Tabbied Patterns",
+  "summary": "Browser library of 382 generative patterns: recolor with 437 palettes, then download PNG or SVG for free.",
+  "description": "382 generative patterns (Radius, Mixtape, Odessa, Veil, Blossom, Disque, Bloks, Terrain, Maze, Pinwheel and more) are drawn live in the browser. Pick one of 437 palettes or edit its colors, customise the pattern, then download the artwork as a PNG or SVG for wall art, websites and print materials.",
+  "type": "generator",
+  "elements": ["background"],
+  "keywords": ["generative pattern", "pattern", "seamless pattern", "background pattern", "wall art", "palette", "recolor", "svg download", "png download", "geometric pattern", "tile", "print pattern"],
+  "contains": [
+    "382 generative patterns drawn live in the browser",
+    "437 color palettes, editable with your own colors",
+    "customise each pattern, then download PNG or SVG, free",
+    "pattern families: Radius, Mixtape, Odessa, Veil, Blossom, Disque, Bloks, Terrain, Maze, Pinwheel"
+  ],
+  "formats": ["png", "svg"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "tabbied-com"},
+  "confidence": 0.8
+}

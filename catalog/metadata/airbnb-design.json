@@ -1,0 +1,41 @@
+{
+  "id": "airbnb-design",
+  "url": "https://airbnb.design",
+  "kind": "site",
+  "hints_hash": "2f574379736c1fe9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:17:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://airbnb.design", "title": "Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences", "status": 200},
+    {"url": "https://airbnb.design/lottie", "title": null, "status": 404}
+  ],
+  "status": "ok",
+  "name": "Airbnb",
+  "summary": "Airbnb's vacation-rental marketplace; the airbnb.design domain now redirects here, with no design content left.",
+  "description": "The airbnb.design domain redirects to the Airbnb consumer marketplace at www.airbnb.com, which sells vacation rentals, experiences and services. Subpaths such as /lottie no longer resolve. No design blog, design system or other design resource is served from this domain.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "vacation rental",
+    "travel booking",
+    "marketplace",
+    "redirect",
+    "design blog",
+    "design system",
+    "accommodation",
+    "retired site"
+  ],
+  "contains": [
+    "airbnb.design redirects to www.airbnb.com",
+    "subpaths such as /lottie return 404 on airbnb.com",
+    "no design content is served from the domain"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

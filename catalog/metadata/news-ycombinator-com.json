@@ -1,0 +1,32 @@
+{
+  "id": "news-ycombinator-com",
+  "url": "https://news.ycombinator.com",
+  "kind": "site",
+  "hints_hash": "29fa3d2e722d9132",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://news.ycombinator.com", "title": "Hacker News", "status": null}
+  ],
+  "status": "ok",
+  "name": "Hacker News",
+  "summary": "Social news site where users submit, upvote and discuss technology and startup links.",
+  "description": "A link aggregator run by Y Combinator: user-submitted stories on software, startups and science, each with a points score and a comment thread. Sections cover new, past, comments, ask, show and jobs; the footer links guidelines, an FAQ, lists and an API, and YC batch applications are promoted on the page.",
+  "type": "directory",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["hacker news", "tech news", "startup news", "link aggregator", "discussion", "community", "y combinator", "show hn", "ask hn", "developer news", "technology", "job board", "submit story", "comment thread"],
+  "contains": [
+    "front page of ranked stories with points, submitter and comment counts",
+    "sections: new, past, comments, ask, show, jobs and submit",
+    "stories link out to the source; each has a comment thread",
+    "footer links guidelines, FAQ, lists, API, security and legal"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

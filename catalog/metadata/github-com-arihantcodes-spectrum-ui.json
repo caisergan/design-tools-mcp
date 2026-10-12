@@ -1,0 +1,133 @@
+{
+  "id": "github-com-arihantcodes-spectrum-ui",
+  "url": "https://github.com/arihantcodes/spectrum-ui",
+  "kind": "repo",
+  "hints_hash": "7fee4e0eab330cbf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:44:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/arihantcodes/spectrum-ui/blob/HEAD/README.md",
+      "title": "spectrum-ui README",
+      "status": 200
+    },
+    {
+      "url": "https://www.spectrumhq.in/llm-info",
+      "title": "Spectrum UI — Information for AI Assistants (LLM Info)",
+      "status": 200
+    },
+    {
+      "url": "https://ui.spectrumhq.in/llms.txt",
+      "title": "Spectrum UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.spectrumhq.in/docs",
+      "title": "Components | Spectrum UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Spectrum UI",
+  "summary": "Copy-paste library of 250+ animated React components, blocks and templates built on shadcn/ui and Motion.",
+  "description": "An open-source React component and block library: 250+ animation-ready components, 111 page blocks, dashboards and landing-page templates, plus a color palette browser. Components are copied into your project or installed with the shadcn CLI, and an MCP server lets Claude Code, Cursor and Windsurf add them.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "motion",
+    "registries"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "ai-agent-ui",
+    "avatar",
+    "button",
+    "card",
+    "chart",
+    "chat",
+    "command-palette",
+    "cta",
+    "dashboard",
+    "date-picker",
+    "drawer",
+    "empty-state",
+    "faq",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "kanban",
+    "pricing",
+    "prompt-input",
+    "slider",
+    "switch",
+    "table",
+    "tooltip",
+    "3d"
+  ],
+  "keywords": [
+    "react",
+    "component library",
+    "shadcn",
+    "animated",
+    "motion",
+    "framer motion",
+    "tailwind",
+    "nextjs",
+    "typescript",
+    "block",
+    "card",
+    "button",
+    "chart",
+    "kanban",
+    "drawer",
+    "command palette",
+    "faq",
+    "pricing",
+    "footer",
+    "empty state",
+    "prompt bar",
+    "ai assistant",
+    "copy paste",
+    "open source"
+  ],
+  "contains": [
+    "250+ copy-paste components, blocks and variants",
+    "111 blocks: AI assistants 27, pricing 7, tables 15, charts 19, footers 18, empty states 25",
+    "53 button variants, 50 card blocks, 13 pre-built page blocks",
+    "18 chart components (candlestick, order book, cohort retention, KPI cards …)",
+    "templates: dashboards and landing pages",
+    "installs with npx shadcn add @spectrumui/",
+    "MCP server for Claude Code, Cursor and Windsurf",
+    "free and open source (Apache-2.0); new components every Thursday"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "radix",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/arihantcodes/spectrum-ui",
+    "docs": "https://ui.spectrumhq.in/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

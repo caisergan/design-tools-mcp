@@ -1,0 +1,120 @@
+{
+  "id": "shadcn-com",
+  "url": "https://shadcn.com",
+  "kind": "site",
+  "hints_hash": "000198680ef46401",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn.com",
+      "title": "shadcn",
+      "status": null
+    },
+    {
+      "url": "https://ui.shadcn.com/docs/components",
+      "title": "Components - shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://ui.shadcn.com/docs",
+      "title": "Introduction - shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn",
+  "summary": "Personal site of shadcn: shadcn/ui components, the shadcn/registry code distribution system and the Copper app.",
+  "description": "The site of shadcn, design engineer on the AI team at Vercel and creator of shadcn/ui: links and numbers for shadcn/ui (component library and code distribution platform), shadcn/ds components for design tools, shadcn/registry (10M+ components served per week) and the Copper scratchpad app for macOS ($39), plus a newsletter and sponsors.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "form",
+    "input",
+    "loader",
+    "menubar",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "shadcn",
+    "shadcn ui",
+    "component library",
+    "ui component",
+    "copy paste component",
+    "component registry",
+    "code distribution",
+    "design system",
+    "open source component",
+    "design engineer",
+    "block",
+    "chart",
+    "mac app",
+    "copper app",
+    "todo app",
+    "clipboard app",
+    "newsletter"
+  ],
+  "contains": [
+    "shadcn/ui component library and registry",
+    "165K GitHub stars, 77M npm downloads/month, 45M components/month (site's numbers)",
+    "Copper app for macOS, $39",
+    "newsletter with 49K subscribers",
+    "shadcn/ds components for building design tools"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://ui.shadcn.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,21 @@
+{
+  "id": "onepagelove-com-og",
+  "url": "https://onepagelove.com/og",
+  "kind": "page",
+  "hints_hash": "047341fc2ca58eb2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/og", "title": "OG Image Gallery - One Page Love", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OG Image Gallery",
+  "summary": "Gallery of 1,637 real Open Graph / social share card images from websites, browsable for inspiration.",
+  "type": "gallery",
+  "keywords": ["og image", "open graph", "social share image", "social card", "meta image", "twitter card", "link preview", "og image example"],
+  "contains": ["1,637 OG image references", "real examples from live websites, loaded in an endless feed"],
+  "formats": ["screenshots"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.8
+}

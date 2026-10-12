@@ -1,0 +1,27 @@
+{
+  "id": "www-5devs-com-br",
+  "url": "https://www.5devs.com.br",
+  "kind": "site",
+  "hints_hash": "fb7b743c6fb6be08",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:49:25Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.5devs.com.br", "title": "5Devs", "status": 200}
+  ],
+  "status": "partial",
+  "name": "5Devs",
+  "summary": "Generates fake Brazilian company and address data, such as CNPJ and CEP, for testing.",
+  "description": "Browser tool that generates mock Brazilian business data: razão social, CNPJ, inscrição estadual, data de abertura, telefone, site and email, plus address fields (CEP, número, complemento, bairro, cidade, estado). Results can be copied as JSON, with options to change mask, date format and tab.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["fake data", "mock data", "test data", "brazil", "brazilian", "cnpj", "cep", "json", "data generator", "testing", "developer tool"],
+  "contains": ["fake Brazilian company data: razão social, CNPJ, inscrição estadual, opening date, phone, site, email", "address fields: CEP, número, complemento, bairro, cidade, estado", "Enter generates, Shift copies the JSON", "options to change mask, date format and tab"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

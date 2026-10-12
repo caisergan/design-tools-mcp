@@ -1,0 +1,25 @@
+{
+  "id": "frameplate-co-templates-dap-folio",
+  "url": "https://frameplate.co/templates/dap-folio",
+  "kind": "page",
+  "hints_hash": "a65ad3f81f77d540",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:23:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://frameplate.co/templates/dap-folio", "title": "DAP Folio Framer Template | Frameplate", "status": null}
+  ],
+  "status": "ok",
+  "name": "DAP Folio Framer Template",
+  "summary": "Framer portfolio template for UI/UX designers by Diego Araujo, listed in the Frameplate Framer-template directory.",
+  "description": "Detail page for DAP Folio on Frameplate: a Framer portfolio template for UI/UX designers, created by Diego Araujo and filed under the Portfolio category. The listing offers Buy and Preview links and leads on to other Frameplate template categories and resources.",
+  "type": "template",
+  "elements": [],
+  "keywords": ["framer template", "portfolio template", "portfolio website", "designer portfolio", "ui ux designer", "framer", "personal website", "one page portfolio", "template directory", "buy framer template"],
+  "formats": ["framer-file"],
+  "stack": ["framer"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "frameplate-co"},
+  "confidence": 0.65
+}

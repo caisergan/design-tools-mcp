@@ -1,0 +1,100 @@
+{
+  "id": "morphicons-com",
+  "url": "https://morphicons.com",
+  "kind": "site",
+  "hints_hash": "12523dcbb7f3e555",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://morphicons.com/llms.txt",
+      "title": "morphicons",
+      "status": null
+    },
+    {
+      "url": "https://www.morphicons.com/",
+      "title": "morphicons — SVG icon morphing library for React, Vue & Svelte",
+      "status": 200
+    },
+    {
+      "url": "https://www.morphicons.com/llms-full.txt",
+      "title": "morphicons — full documentation",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/guillermolg00/morphicons",
+      "title": "GitHub - guillermolg00/morphicons: Any icon morphs into any other — universal morphing for stroke-based icons with spring physics.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "morphicons",
+  "summary": "Icon-morphing library: any stroke SVG icon morphs into any other with spring physics — React, Vue, Svelte, vanilla.",
+  "description": "npm library that animates one stroke-based icon into another (Lucide, Tabler, Heroicons outline, Iconoir or custom paths); rotation is solved in closed form via 2D Procrustes alignment, springs are interruptible and the core is a ~6.5 KB gzip zero-dependency ESM/TypeScript package. Ships bindings for React, Vue, Svelte, React Native and Astro plus adapters for Iconify markup, CSS masks and canvas targets.",
+  "type": "component-library",
+  "categories": [
+    "icons",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "svg icon",
+    "icon animation",
+    "icon morph",
+    "morphing icon",
+    "animated icon",
+    "lucide",
+    "tabler",
+    "heroicon",
+    "icon transition",
+    "spring animation",
+    "react",
+    "vue",
+    "svelte",
+    "react native",
+    "astro",
+    "vanilla js",
+    "npm package",
+    "typescript",
+    "zero dependency",
+    "menu icon",
+    "theme toggle",
+    "web component"
+  ],
+  "contains": [
+    "any stroke icon morphs into any other — no per-pair configuration",
+    "closed-form 2D Procrustes rotation, interruptible springs, sharp corners at rest",
+    "~6.5 KB gzip core, zero runtime dependencies, ESM + TypeScript",
+    "bindings: React, Vue, Svelte, React Native, Astro, web component, vanilla DOM",
+    "adapters: SVG markup in, CSS mask targets, canvas/WebGL targets",
+    "controlled mode (from/to/progress), imperative handle and reduced-motion policy"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "vue",
+    "svelte",
+    "react-native",
+    "astro",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/guillermolg00/morphicons",
+    "docs": "https://www.morphicons.com/llms-full.txt",
+    "npm": "morphicons",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,64 @@
+{
+  "id": "tinyworld-marutto-art",
+  "url": "https://tinyworld.marutto.art",
+  "kind": "site",
+  "hints_hash": "716aa7b6922bb875",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tinyworld.marutto.art",
+      "title": "tinyworld.marutto.art | Make and share a tiny world",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "tinyworld.marutto.art",
+  "summary": "Web app for building diorama-style tiny worlds from item materials, then sharing, favouriting and remixing them.",
+  "description": "A browser app where you drop items into a small diorama world and post it. The site has a community gallery of top-loved and recently updated worlds, photo spots, a growing material catalog, creator profiles and a reMix action that copies any world into your own editor; no login is needed to start creating.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "diorama",
+    "tiny world",
+    "world builder",
+    "miniature",
+    "web app",
+    "community gallery",
+    "remix",
+    "material",
+    "creator profile",
+    "spot",
+    "browser app",
+    "creative toy"
+  ],
+  "contains": [
+    "diorama world builder in the browser",
+    "gallery: top-loved worlds, recently updated, recent spots, creators",
+    "catalog of item materials to place",
+    "reMix action to fork another world",
+    "no login needed to create"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

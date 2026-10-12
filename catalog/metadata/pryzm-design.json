@@ -1,0 +1,91 @@
+{
+  "id": "pryzm-design",
+  "url": "https://pryzm.design",
+  "kind": "site",
+  "hints_hash": "827c9b81bc4a34af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pryzm.design",
+      "title": "Pryzm | Background & Visual Studio for Designers",
+      "status": 200
+    },
+    {
+      "url": "https://pryzm.design/docs",
+      "title": "Documentation & User Guide | Pryzm",
+      "status": 200
+    },
+    {
+      "url": "https://pryzm.design/gallery",
+      "title": "Gradient & Background Gallery | Pryzm",
+      "status": 200
+    },
+    {
+      "url": "https://pryzm.design/about",
+      "title": "About | Pryzm",
+      "status": 200
+    },
+    {
+      "url": "https://pryzm.design/gallery/violets",
+      "title": "Violets, a frosted glass floral background | Pryzm",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Pryzm",
+  "summary": "Browser studio for blending gradients, glass and grain into original backgrounds and animated loops.",
+  "description": "A visual studio for designers: compose a look from three layers (gradient, glass, grain), style it with an effect stack that updates live, and export it in high resolution, save it, or share it as a link anyone can remix. An inspiration gallery of 42+ looks and a node-based Flow mode come with it. Free to create; Pro to export without limits.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [
+    "background"
+  ],
+  "keywords": [
+    "gradient background",
+    "background generator",
+    "gradient studio",
+    "grain texture",
+    "glass effect",
+    "animated background",
+    "texture generator",
+    "css background",
+    "code export",
+    "noise",
+    "background inspiration",
+    "remix"
+  ],
+  "contains": [
+    "42+ gallery looks to browse and remix",
+    "three layers: gradient, glass, grain",
+    "live effect stack, animation and node-based Flow mode",
+    "gallery filters: gradient, photographic, halftone, dither, ascii, glass, grain",
+    "export in high resolution, save it, or share a remix link",
+    "ships as code, not a video",
+    "free to create, Pro to export without limits"
+  ],
+  "formats": [
+    "png",
+    "code"
+  ],
+  "stack": [
+    "css"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://pryzm.design/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,25 @@
+{
+  "id": "figma-com-mcp-catalog",
+  "url": "https://figma.com/mcp-catalog",
+  "kind": "page",
+  "hints_hash": "7f6076dcefc0bbe9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://figma.com/mcp-catalog", "title": "Figma MCP Catalog | Figma", "status": null}
+  ],
+  "status": "ok",
+  "name": "Figma MCP Catalog",
+  "summary": "Catalog of MCP clients that connect to the Figma MCP server, with install and setup links per client.",
+  "description": "Directory on figma.com listing the MCP clients the Figma MCP server works with, from Claude, Claude Code and ChatGPT to Cursor, VS Code, Xcode, Zed, Notion and Slack. Each client entry names the Figma products it supports (Figma Design, Figma Make, FigJam, Figma Slides, Figma Weave) and whether it uses the remote or local server and read or read/write access, plus an install action or setup guide link.",
+  "keywords": ["mcp", "mcp server", "mcp client", "figma mcp", "design context", "design to code", "ai agent", "coding agent", "agentic tool", "claude code", "chatgpt", "cursor", "vs code", "figjam"],
+  "contains": [
+    "20+ MCP clients, from Claude, ChatGPT and Cursor to VS Code, Xcode and Slack",
+    "per-client notes: supported Figma products, remote or local server, read or read/write access",
+    "install links and setup guides per client",
+    "links to the Figma MCP setup guide and related articles"
+  ],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "figma-com"},
+  "confidence": 0.85
+}

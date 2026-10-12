@@ -1,0 +1,118 @@
+{
+  "id": "github-com-baxy5-scificn-ui",
+  "url": "https://github.com/baxy5/scificn-ui",
+  "kind": "repo",
+  "hints_hash": "35f9801ba6b79f23",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:38:36Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/baxy5/scificn-ui/blob/HEAD/README.md",
+      "title": "SCIFICN/UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/baxy5/scificn-ui",
+      "title": "GitHub - baxy5/scificn-ui",
+      "status": 200
+    },
+    {
+      "url": "https://www.scificn.dev/",
+      "title": "scificn-ui | Retro Sci-Fi React UI Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.scificn.dev/docs/introduction",
+      "title": "Introduction — scificn-ui",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/baxy5/scificn-ui/blob/HEAD/LICENSE",
+      "title": "LICENSE",
+      "status": 404
+    }
+  ],
+  "status": "ok",
+  "name": "SCIFICN/UI",
+  "summary": "Retro sci-fi React component library with phosphor-terminal styling, copy-paste components and three switchable themes.",
+  "description": "Copy-paste React components styled as a retro sci-fi terminal: buttons, alerts, badges, panels, charts and HUD-style widgets on Radix UI and Tailwind CSS v4, with zero rounded corners and monospace type. Components install through the shadcn CLI registry or by copying source files; three themes (SCI-FI, STAR WARS, ALIEN) switch at runtime.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "alert",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "chart",
+    "checkbox",
+    "input",
+    "loader",
+    "modal",
+    "progress",
+    "select",
+    "switch",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "react component library",
+    "sci-fi ui",
+    "retro ui",
+    "hud component",
+    "terminal ui",
+    "phosphor glow",
+    "cassette futurism",
+    "dark ui",
+    "monospace typography",
+    "shadcn registry",
+    "copy paste component",
+    "radix ui",
+    "tailwind css",
+    "dashboard widget",
+    "chart component",
+    "cyberpunk ui",
+    "spaceship console",
+    "skeleton loader",
+    "theme"
+  ],
+  "contains": [
+    "16 components in the README table, plus charts, heatmap and kbd on the docs site",
+    "three themes: SCI-FI, STAR WARS, ALIEN",
+    "installs via shadcn CLI registry or manual file copy",
+    "built on Radix UI primitives and Tailwind CSS v4",
+    "React 19 + TypeScript + Vite, IBM Plex Mono, zero border radius"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "vite",
+    "tailwind",
+    "radix",
+    "class-variance-authority"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/baxy5/scificn-ui",
+    "docs": "https://www.scificn.dev/docs/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

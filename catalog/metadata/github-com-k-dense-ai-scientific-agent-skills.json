@@ -1,0 +1,37 @@
+{
+  "id": "github-com-k-dense-ai-scientific-agent-skills",
+  "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "kind": "repo",
+  "hints_hash": "380d94cbc1064307",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/HEAD/README.md", "title": "Scientific Agent Skills", "status": 200},
+    {"url": "https://github.com/K-Dense-AI/scientific-agent-skills", "title": "GitHub - K-Dense-AI/scientific-agent-skills", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Scientific Agent Skills",
+  "summary": "Collection of 177 SKILL.md research skills that teach AI agents scientific workflows, from genomics and drug discovery to data analysis.",
+  "description": "177 scientific and research skills for AI agents, covering biology, chemistry, medicine, physics, engineering, Earth science, data analysis and scientific communication. Skills wrap specific packages, databases and platforms — RDKit, Scanpy, BioPython, PubChem, ChEMBL, UniProt, Benchling, OMERO, Opentrons — with the conventions and validation checks needed to use them, plus scientific writing, peer review, posters, slides and regulatory documentation workflows. Installs via npx, the GitHub CLI skill command or as an Agent Plugins package; MIT licensed.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill.md", "ai agent", "ai scientist", "scientific computing", "bioinformatics", "genomics", "cheminformatics", "drug discovery", "proteomics", "clinical research", "neuroscience", "materials science", "physics", "data analysis", "scientific visualization", "laboratory automation", "literature review", "research workflow", "python"],
+  "contains": [
+    "177 scientific and research skills as SKILL.md files following the Agent Skills standard",
+    "100+ scientific and financial databases; the Database Lookup skill documents 80 sources",
+    "70+ Python package skills (RDKit, Scanpy, scikit-learn …) and 9 lab-platform integrations (Benchling, OMERO …)",
+    "30+ analysis and communication tools: literature review, PPTX posters, slides, Mermaid diagrams, Paperclip citations",
+    "10+ research and clinical tools: hypothesis generation, grant writing, PK/PD modelling, ISO evidence preparation",
+    "installs via npx, GitHub CLI gh skill, or as an Agent Plugins package (plugin.json)",
+    "works with Cursor, Claude Code, Codex, Google Antigravity and other Agent Skills hosts",
+    "48.4k GitHub stars; MIT licensed; described in arXiv:2609.00065"
+  ],
+  "formats": ["prompts", "docs", "code"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/K-Dense-AI/scientific-agent-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

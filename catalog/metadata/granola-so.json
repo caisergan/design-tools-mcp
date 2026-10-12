@@ -1,0 +1,88 @@
+{
+  "id": "granola-so",
+  "url": "https://granola.so",
+  "kind": "site",
+  "hints_hash": "57768a7bdcc6e656",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://granola.so/llms.txt",
+      "title": "Granola",
+      "status": null
+    },
+    {
+      "url": "https://granola.so",
+      "title": "Granola — The AI Notepad for back-to-back meetings",
+      "status": 200
+    },
+    {
+      "url": "https://www.granola.ai/explore",
+      "title": "Granola For | AI Meeting Notes for Every Role | Granola",
+      "status": 200
+    },
+    {
+      "url": "https://www.granola.ai/pricing",
+      "title": "Pricing plans | Granola",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Granola",
+  "summary": "Bot-free AI notepad for meetings that enhances your notes from the transcript and lets you query past meetings.",
+  "description": "AI notepad for meetings on macOS, Windows, iOS and Android. You write notes during the call; Granola captures device audio (no bot joins the call), enhances your notes from the transcript, and generates summaries, action items and follow-up emails. Chat answers questions across all meetings with source citations, while recipes and 29+ templates cover sales calls, 1-on-1s, investor pitches and PRDs. Free tier; Business and Enterprise add unlimited history and integrations.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai notepad",
+    "meeting note",
+    "ai notetaker",
+    "transcription",
+    "meeting summary",
+    "action item",
+    "note taking",
+    "meeting assistant",
+    "bot-free",
+    "mcp",
+    "chat with meeting",
+    "crm",
+    "sales call",
+    "prd",
+    "follow-up email",
+    "macos",
+    "window",
+    "ios",
+    "android"
+  ],
+  "contains": [
+    "bot-free capture via device audio; works with Zoom, Meet, Teams, Slack, WebEx",
+    "notes enhanced from transcript, AI additions shown in gray",
+    "chat across meetings with source citations",
+    "29+ meeting templates and recipes (follow-up emails, feature requests, PRDs)",
+    "integrations: Slack, Notion, HubSpot, Affinity, Attio, Zapier, MCP",
+    "apps for macOS, Windows, iOS, Android, Apple Watch",
+    "pricing: Basic $0, Business $14, Enterprise $35 per user/month"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

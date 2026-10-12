@@ -1,0 +1,72 @@
+{
+  "id": "github-com-browser-use-browser-use",
+  "url": "https://github.com/browser-use/browser-use",
+  "kind": "repo",
+  "hints_hash": "c4170de1ac32ffcb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/browser-use/browser-use/blob/HEAD/README.md",
+      "title": "Navigate the web like a human does.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Browser Use",
+  "summary": "Open-source browser agent (Python and TypeScript) plus a cloud browser and hosted agent API.",
+  "description": "Agents that use the browser: run the Python library locally with your choice of model, give an existing agent (Claude Code, Codex, Cursor …) browser access through the CLI, or use the fully hosted cloud API. Handles profiles, stealth browsers, CAPTCHA solving and residential proxies; implements Claude's 31 browser actions; supports custom tools, structured output and BU2, a model tuned for browser automation. The library is MIT; cloud browsers and inference are billed per usage.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "browser automation",
+    "ai agent",
+    "browser agent",
+    "web automation",
+    "cloud browser",
+    "stealth browser",
+    "captcha solving",
+    "residential proxy",
+    "python",
+    "typescript",
+    "cli",
+    "mcp",
+    "scraping"
+  ],
+  "contains": [
+    "open-source browser agent in Python and TypeScript (MIT)",
+    "three paths: hosted cloud API, CLI, Python library",
+    "cloud browsers at $0.02 per browser-hour with stealth, CAPTCHA solving and residential proxies",
+    "Claude toolset integration implements all 31 browser actions",
+    "BU2 model optimized for browser automation; custom tools and structured output",
+    "new Google, GitHub and Microsoft signups get $15 cloud credit"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "api",
+    "docs"
+  ],
+  "stack": [
+    "python",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/browser-use/browser-use",
+    "docs": "https://docs.browser-use.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

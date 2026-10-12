@@ -1,0 +1,21 @@
+{
+  "id": "designme-agency-contact",
+  "url": "https://designme.agency/contact",
+  "kind": "page",
+  "hints_hash": "9a0c3e9c71a0af7f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:19:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designme.agency/contact", "title": "Contact DesignMe | Start your next design or development project", "status": null}
+  ],
+  "status": "ok",
+  "name": "Contact DesignMe",
+  "summary": "Contact page of the DesignMe design and development agency: book a 30-minute call or email project details.",
+  "description": "Booking and contact page of a Framer-built design and development agency. It offers a 30-minute call and a short project brief, an email address, a client testimonial and a customer logo row, and links to its services: Webflow, Framer and Next.js development, product and website design, brand identity and motion. Offices listed in Gdansk and London.",
+  "keywords": ["contact page", "book a call", "design agency", "digital agency", "design subscription", "framer", "webflow", "next.js", "product design", "website design", "brand identity", "motion design", "saas", "agency contact"],
+  "elements": ["form", "testimonials", "logo-cloud", "footer"],
+  "stack": ["framer"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

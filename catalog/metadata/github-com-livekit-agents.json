@@ -1,0 +1,35 @@
+{
+  "id": "github-com-livekit-agents",
+  "url": "https://github.com/livekit/agents",
+  "kind": "repo",
+  "hints_hash": "99b655571558c262",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/livekit/agents/blob/HEAD/README.md", "title": null, "status": null}
+  ],
+  "status": "ok",
+  "name": "LiveKit Agents",
+  "summary": "Python framework for building realtime voice AI agents with STT, LLM, TTS, WebRTC and telephony integrations.",
+  "description": "A Python framework for building realtime, programmable voice AI agents that run on servers. Mix and match STT, LLM, TTS and realtime APIs, connect users over LiveKit's WebRTC clients or telephony, and use built-in job scheduling, semantic turn detection, MCP support and a test framework with judges. The whole stack, including the LiveKit server, is open source and self-hostable.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["voice agent", "realtime voice ai", "speech to text", "text to speech", "llm", "webrtc", "telephony", "python", "agent framework", "multi-agent handoff", "mcp", "voice assistant", "test framework", "stt", "tts"],
+  "contains": [
+    "mix-and-match STT, LLM, TTS and realtime API plugins",
+    "job scheduling and dispatch for agents",
+    "WebRTC clients via LiveKit SDKs",
+    "telephony integration",
+    "semantic turn detection model",
+    "native MCP support",
+    "built-in test framework with judges"
+  ],
+  "formats": ["code", "cli", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/livekit/agents", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

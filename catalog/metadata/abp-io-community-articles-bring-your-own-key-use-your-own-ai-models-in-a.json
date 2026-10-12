@@ -1,0 +1,27 @@
+{
+  "id": "abp-io-community-articles-bring-your-own-key-use-your-own-ai-models-in-a",
+  "url": "https://abp.io/community/articles/bring-your-own-key-use-your-own-ai-models-in-abp-studio-ai-04g19x7f",
+  "kind": "page",
+  "hints_hash": "366ad65c477aff2c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:15:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://abp.io/community/articles/bring-your-own-key-use-your-own-ai-models-in-abp-studio-ai-04g19x7f", "title": "BYOK: Use Your Own AI Models in ABP Studio AI Agent | ABP.IO", "status": null}
+  ],
+  "status": "ok",
+  "name": "BYOK: Use Your Own AI Models in ABP Studio AI Agent",
+  "summary": "Article on connecting your own LLM provider — OpenAI-compatible, Azure OpenAI or Ollama — to the ABP Studio AI agent.",
+  "description": "A September 2026 ABP Community article by Alper Ebiçoğlu explaining Bring Your Own Key support in the ABP Studio AI agent: choosing between the built-in model catalog and provider connections (OpenAI-compatible endpoints, Azure OpenAI, company gateways, vLLM, LM Studio, local Ollama), which license tiers can use BYOK, and which models ship as defaults.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["bring your own key", "byok", "ai agent", "coding agent", "llm", "openai", "azure openai", "ollama", "local model", "model picker", "api key", "configuration", "dotnet", "enterprise license", "guide"],
+  "contains": ["how to switch the AI connection between built-in AI and provider connections", "supported providers: OpenAI-compatible endpoints, Azure OpenAI, gateways, vLLM, LM Studio, Ollama", "BYOK is Enterprise-license only", "built-in catalog of 600 LLMs billed through ABP AI Credits", "shipped default models include Claude Sonnet 5 and Claude Haiku 4.5"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

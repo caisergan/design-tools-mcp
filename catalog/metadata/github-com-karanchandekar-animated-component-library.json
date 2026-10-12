@@ -1,0 +1,97 @@
+{
+  "id": "github-com-karanchandekar-animated-component-library",
+  "url": "https://github.com/KaranChandekar/animated-component-library",
+  "kind": "repo",
+  "hints_hash": "baef64fb4eb03a8f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:25:39Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/KaranChandekar/animated-component-library/blob/HEAD/README.md",
+      "title": "AnimateUI - Animated Component Library & Playground",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "AnimateUI",
+  "summary": "Animated React component library and playground with 20+ Framer Motion components and live prop editing.",
+  "description": "A Next.js playground for 20+ production-ready animated React components: spring-physics buttons, modals, toasts, drawers, tabs, command palette, breadcrumbs and more. Each component ships with a live prop editor, syntax-highlighted code previews, fuzzy search navigation and dark/light theming, with WCAG AA accessibility.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion"
+  ],
+  "elements": [
+    "button",
+    "badge",
+    "avatar",
+    "dropdown",
+    "switch",
+    "file-upload",
+    "modal",
+    "toast",
+    "tooltip",
+    "loader",
+    "progress",
+    "accordion",
+    "card",
+    "drawer",
+    "tabs",
+    "command-palette",
+    "breadcrumbs",
+    "stepper",
+    "pagination"
+  ],
+  "keywords": [
+    "animated component",
+    "react component",
+    "framer motion",
+    "component library",
+    "animation",
+    "playground",
+    "tailwind css",
+    "radix ui",
+    "nextjs",
+    "command palette",
+    "toast",
+    "modal",
+    "tooltip",
+    "accordion",
+    "dark mode",
+    "accessible component"
+  ],
+  "contains": [
+    "20+ animated React components",
+    "interactive playground with live prop editing",
+    "syntax-highlighted code previews with copy-to-clipboard",
+    "categories: basic, input, feedback, layout, navigation",
+    "dark and light mode",
+    "WCAG AA accessibility",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/KaranChandekar/animated-component-library",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

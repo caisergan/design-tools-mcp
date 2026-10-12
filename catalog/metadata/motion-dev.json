@@ -1,0 +1,32 @@
+{
+  "id": "motion-dev",
+  "url": "https://motion.dev",
+  "kind": "site",
+  "hints_hash": "ed09708c9e6d8ef8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:15:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://motion.dev/llms.txt", "title": "Motion", "status": null},
+    {"url": "https://motion.dev", "title": "Motion (prev Framer Motion): JavaScript & React animation library", "status": 200},
+    {"url": "https://motion.dev/docs", "title": "Docs | Motion", "status": 200},
+    {"url": "https://motion.dev/examples", "title": "Examples: React, JavaScript, and Vue animation snippets | Motion", "status": 200},
+    {"url": "https://motion.dev/about", "title": "About | Motion", "status": 200},
+    {"url": "https://motion.dev/docs/arc", "title": "arc() | Animate along a curved path | Motion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Motion",
+  "summary": "Animation library for JavaScript, React and Vue with full docs and 470+ copy-paste animation examples.",
+  "description": "Production-grade animation library (successor to Framer Motion) for React, JavaScript and Vue, MIT-licensed and open source. The site carries the API reference with live examples, an examples library of 470+ copy-paste patterns (carousel, cursor, scroll, text, 3D) and a premium tier (Motion+) adding AI Kit, Motion UI sections and components and 490+ premium examples.",
+  "type": "component-library",
+  "categories": ["motion"],
+  "elements": ["text-effect", "carousel", "cursor", "scroll-effect", "marquee", "3d", "faq", "map"],
+  "keywords": ["animation library", "react animation", "javascript animation", "vue animation", "framer motion", "scroll animation", "layout animation", "text animation", "svg animation", "gesture animation", "spring physics", "carousel", "cursor animation", "marquee", "3d transform", "page transition", "animation example", "animated component", "motion value", "open source animation"],
+  "contains": ["470+ free copy-paste animation examples (buttons, carousels, cursors, scroll, text, 3D)", "docs with live examples for every API across React, JavaScript and Vue", "Motion+ one-time purchase: AI Kit, Motion UI sections and components, 490+ premium examples", "Figma integration: animate in Figma and export Motion code", "version 13.x publicly documented, MIT core"],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["react", "vue", "svelte", "three.js"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://motion.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

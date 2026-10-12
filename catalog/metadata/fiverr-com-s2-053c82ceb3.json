@@ -1,0 +1,30 @@
+{
+  "id": "fiverr-com-s2-053c82ceb3",
+  "url": "https://fiverr.com/s2/053c82ceb3",
+  "kind": "page",
+  "hints_hash": "dd4ccf976c25995b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fiverr.com/s2/053c82ceb3", "title": "Graphic Design Services - Find a Graphic Designer Today | Fiverr", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Graphics & Design",
+  "summary": "Fiverr's Graphics & Design category: freelancers for logo, brand, web, illustration, print, 3D and marketing design.",
+  "description": "The Graphics & Design category of the Fiverr freelance marketplace; the submitted short link redirects here. Browse subcategories from logo and brand identity to web and app design, art and illustration, architecture, product and gaming, print, 3D and marketing design. The page lists popular services, design guides and FAQs, and offers a Fiverr Pro project manager for larger design projects.",
+  "keywords": ["graphic design", "freelancer", "marketplace", "hire designer", "logo design", "brand identity", "web design", "illustration", "3d design", "print design", "ux design", "design service"],
+  "contains": [
+    "subcategories: brand identity, web & app design, illustration, architecture, product, print, 3D",
+    "most popular: minimalist logo design, illustration, website design, AI artists, image editing, social media design",
+    "guides: graphic design prices and rates, best fonts for logos, branding colors",
+    "Fiverr Pro project manager option with money-back guarantee",
+    "FAQ on what graphic design is and how to hire designers"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

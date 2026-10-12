@@ -1,0 +1,39 @@
+{
+  "id": "cert-br",
+  "url": "https://cert.br",
+  "kind": "site",
+  "hints_hash": "bda8e87e82df44a9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:08:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cert.br", "title": "CERT.br – Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no Brasil", "status": null},
+    {"url": "https://cert.br/docs", "title": "CERT.br – Publicações", "status": null},
+    {"url": "https://cert.br/faq", "title": "CERT.br – FAQ: Perguntas Frequentes para o CERT.br", "status": null},
+    {"url": "https://cert.br/docs/ransomware", "title": "CERT.br – Ransomware: Boas Práticas para Proteção, Detecção e Resposta", "status": null},
+    {"url": "https://cert.br/docs/notificacoes", "title": "CERT.br – Recomendações para Notificações de Incidentes de Segurança", "status": null}
+  ],
+  "status": "ok",
+  "name": "CERT.br",
+  "summary": "Brazilian national CSIRT: internet security guides, incident notification recommendations and public incident statistics.",
+  "description": "Brazil's Computer Emergency Response Team, maintained by NIC.br as the national CSIRT of last resort. It publishes the Cartilha de Segurança para Internet and technical guides (ransomware, DDoS, DNS, honeypots, incident notifications), runs courses, talks and MISP tutorials, keeps public statistics and honeypot data on internet incidents, and is the last-resort contact for reporting security incidents in Brazil.",
+  "type": "course",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": ["faq", "contact"],
+  "keywords": ["incident response", "csirt", "internet security", "computer security", "security incident", "incident notification", "ransomware", "ddos", "dns", "honeypot", "spam", "security guide", "best practice", "security awareness", "security statistics", "brazil", "portuguese"],
+  "contains": [
+    "national CSIRT of last resort for Brazil, maintained by NIC.br",
+    "guides: Cartilha de Segurança para Internet, ransomware in 4 parts, DDoS, DNS, honeypot and SSH documents",
+    "incident notification recommendations with WHOIS/RDAP examples and notification templates in Portuguese and English",
+    "downloadable PDFs and PNG/SVG infographics, plus Spanish and English translations",
+    "courses, talks and MISP tutorials for threat-intelligence sharing",
+    "public statistics and honeypot (SpamPots) data on incidents in the Brazilian internet space",
+    "FAQ with 12 questions and contact channels for reporting incidents"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://cert.br/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

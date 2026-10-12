@@ -1,0 +1,32 @@
+{
+ "id": "awwwards-com",
+ "url": "https://awwwards.com",
+ "kind": "site",
+ "hints_hash": "f5c4b67dce7e6a42",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T14:15:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://awwwards.com/llms.txt", "title": "Awwwards", "status": null},
+  {"url": "https://awwwards.com", "title": "Awwwards - Website Awards - Best Web Design Trends", "status": 200},
+  {"url": "https://www.awwwards.com/elements", "title": "Elements - Awwwards", "status": 200},
+  {"url": "https://www.awwwards.com/pro", "title": "Awwwards", "status": 200},
+  {"url": "https://www.awwwards.com/faqs", "title": "Awwwards", "status": 200},
+  {"url": "https://www.awwwards.com/collections", "title": "Collections - Inspirational Resources For Web Designers & Developers", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Awwwards",
+ "summary": "Award platform and showcase of outstanding web design: Sites of the Day, curated collections and an Elements library.",
+ "description": "Awwwards recognizes outstanding web design and shows it off: browse Site of the Day/Month/Year winners and nominees by category (portfolios, e-commerce, architecture, fashion, mobile apps …), or dig into the Elements gallery of UI examples — menus, forms, footers, hero sections and scroll transitions. Curated Collections and a directory of agencies and professionals support the awards; a public read-only API serves Annual Awards data.",
+ "type": "gallery",
+ "categories": ["inspiration", "sections"],
+ "elements": ["hero", "contact", "navbar", "dropdown", "faq", "form", "footer", "scroll-effect"],
+ "keywords": ["web design award", "design inspiration", "website showcase", "site of the day", "portfolio website", "e-commerce design", "animation website", "scrolling website", "one page design", "ui inspiration", "footer example", "form example", "agency directory", "web design trend", "collection"],
+ "contains": ["Sites of the Day/Month/Year with jury scores", "Elements gallery: 100s of form, footer, menu, transition and hero examples", "curated and user-made Collections", "directory of agencies and professionals", "public read-only annual-awards API (OpenAPI spec)"],
+ "formats": ["screenshots", "video", "links"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

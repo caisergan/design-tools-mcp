@@ -1,0 +1,34 @@
+{
+  "id": "fonts-google-com-specimen-faculty-glyphic-preview-script-latn",
+  "url": "https://fonts.google.com/specimen/Faculty+Glyphic?preview.script=Latn",
+  "kind": "page",
+  "hints_hash": "6b4c2e207807a0b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/metadata/fonts/Faculty+Glyphic", "title": null, "status": 200}
+  ],
+  "status": "partial",
+  "name": "Faculty Glyphic",
+  "summary": "Google Fonts specimen page for Faculty Glyphic, a single-weight sans-serif by Koto London inspired by carved typography.",
+  "description": "Specimen page for Faculty Glyphic on Google Fonts, designed at Koto London in 2024 for Faculty, an applied-AI company. A sans-serif drawing on carved typography and the work of Berthold Wolpe and Edward Johnston, as a modern tribute to Wolpe's Albertus. One Regular (400) weight, no italics or variable axes; Latin and Latin Extended subsets; SIL Open Font License 1.1. The specimen page renders with JavaScript, so the facts come from the family's metadata.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": ["google font", "sans serif", "carved typography", "carved lettering", "display typeface", "single weight", "regular weight", "latin", "latin extended", "webfont", "free font", "open source font", "typeface specimen", "brand font"],
+  "contains": [
+    "single Regular (400) weight; no italics",
+    "subsets: latin, latin-ext",
+    "designed at Koto London in 2024 for the applied-AI company Faculty",
+    "inspired by carved typography and Berthold Wolpe and Edward Johnston",
+    "tribute to Wolpe's Albertus typeface",
+    "SIL Open Font License 1.1",
+    "source at github.com/DylanYoungKoto/FacultyGlyphic"
+  ],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": "https://github.com/DylanYoungKoto/FacultyGlyphic", "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.8
+}

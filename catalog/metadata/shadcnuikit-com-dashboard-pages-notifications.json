@@ -1,0 +1,22 @@
+{
+  "id": "shadcnuikit-com-dashboard-pages-notifications",
+  "url": "https://shadcnuikit.com/dashboard/pages/notifications",
+  "kind": "page",
+  "hints_hash": "01c207811d2a4f0b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnuikit.com/dashboard/pages/notifications", "title": "Notifications Page for Shadcn UI – Admin Dashboard Template", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Notifications Page",
+  "summary": "Notifications page from the Shadcn UI Kit dashboard template: unread count, notification list, mark all as read, preferences.",
+  "description": "Live demo of the notifications page in the Shadcn UI Kit pack (16 dashboards, $79). Manage user alerts, mark all as read and set notification preferences across a list of 21 notifications tagged Ticket, Team or Message, with a 4-unread badge and pagination. Built with React, Next.js, TypeScript, Tailwind CSS and shadcn/ui.",
+  "type": "template",
+  "elements": ["list", "badge", "pagination"],
+  "keywords": ["notification", "notification page", "admin dashboard", "dashboard page", "shadcn", "react", "nextjs", "typescript", "tailwind", "template", "unread badge", "pagination"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "shadcnuikit-com"},
+  "confidence": 0.8
+}

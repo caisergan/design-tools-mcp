@@ -1,0 +1,38 @@
+{
+  "id": "codedr-ai",
+  "url": "https://codedr.ai",
+  "kind": "site",
+  "hints_hash": "5fc74f1a6858d0e0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://codedr.ai", "title": "CodeDR.AI — Your app runs. Can a stranger already read your users’ data?", "status": null},
+    {"url": "https://codedr.ai/guide/landing.html", "title": "The Ultimate Vibe Coding Guide · CodeDR.AI", "status": null},
+    {"url": "https://codedr.ai/guide/toc.html", "title": "Contents · The Ultimate Vibe Coding Guide", "status": null},
+    {"url": "https://codedr.ai/skill-pack.html", "title": "CodeDR.AI Skill Pack — Exam the app before it exams you.", "status": 200},
+    {"url": "https://codedr.ai/exam.html", "title": "Your app runs. Can a stranger already read your users’ data? — CodeDR.AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CodeDR.AI",
+  "summary": "Local pre-launch exam skill pack that grades a vibe-coded app for leaked keys, auth holes and unsafe deploys.",
+  "description": "A downloadable skill pack for AI coding agents: eleven diagnostic skills run locally over a vibe-coded repo and produce a graded report with file:line findings — leaked keys, broken auth, missing tests, unsafe deploys, structure and quality — plus remediations the agent can apply. Works with Claude Code, Cursor, Cursor Cloud and Grok Bot, and the code never leaves the machine. A free 20-chapter guide on AI coding tools ships alongside.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["vibe coding", "security audit", "code audit", "ai coding agent", "claude code", "cursor", "leaked api key", "broken auth", "deploy check", "pre-launch checklist", "static analysis", "skill pack", "prompt pack", "code review", "graded report"],
+  "contains": [
+    "11 diagnostic skills run locally in one pass",
+    "grades leaked keys, auth holes, missing tests, unsafe deploys, structure and quality",
+    "report with file:line findings and remediations the coding agent can apply",
+    "works with Claude Code, Cursor, Cursor Cloud and Grok Bot; code never leaves the machine",
+    "$49.95 one-time, instant download",
+    "free companion guide: 20 chapters, ~90 pages, 14 AI coding tools compared"
+  ],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://codedr.ai/guide/landing.html", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

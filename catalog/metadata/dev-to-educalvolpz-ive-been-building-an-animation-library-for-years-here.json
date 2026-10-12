@@ -1,0 +1,78 @@
+{
+  "id": "dev-to-educalvolpz-ive-been-building-an-animation-library-for-years-here",
+  "url": "https://dev.to/educalvolpz/ive-been-building-an-animation-library-for-years-heres-smoothui-2mi2",
+  "kind": "page",
+  "hints_hash": "20b246565f6cabd5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://dev.to/educalvolpz/ive-been-building-an-animation-library-for-years-heres-smoothui-2mi2",
+      "title": "I've been building an animation library for years — here's SmoothUI - DEV Community",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "I've been building an animation library for years — here's SmoothUI",
+  "summary": "dev.to write-up on SmoothUI, a free open source set of 75+ animated React components compatible with shadcn/ui.",
+  "description": "Post by SmoothUI's author on how the library grew from an animation sandbox into a shadcn-compatible component library, with a tour of five components (Magnetic Button, Scrollable Card Stack, Siri Orb, Expandable Cards, Gooey Popover), notes on reduced-motion handling and the stack: React 19, Motion 12 and Tailwind CSS v4, MIT licensed.",
+  "type": "article",
+  "categories": [
+    "learning",
+    "motion"
+  ],
+  "elements": [
+    "button",
+    "card",
+    "popover",
+    "file-upload",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "animated component",
+    "react component",
+    "animation library",
+    "motion",
+    "shadcn",
+    "spring animation",
+    "micro interaction",
+    "magnetic button",
+    "card stack",
+    "gooey popover",
+    "reduced motion",
+    "tailwind css",
+    "open source",
+    "component tutorial"
+  ],
+  "contains": [
+    "free, open source set of 75+ animated React components",
+    "five featured components: Magnetic Button, Scrollable Card Stack, Siri Orb, Expandable Cards, Gooey Popover",
+    "components install individually with npx shadcn add @smoothui/<name>",
+    "every component respects prefers-reduced-motion",
+    "React 19, Motion 12, Tailwind CSS v4; MIT licensed",
+    "planned: @smoothui/cli and an MCP server for component discovery"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/educlopez/smoothui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

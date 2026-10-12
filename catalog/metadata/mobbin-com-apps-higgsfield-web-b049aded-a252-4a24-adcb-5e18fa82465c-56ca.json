@@ -1,0 +1,23 @@
+{
+  "id": "mobbin-com-apps-higgsfield-web-b049aded-a252-4a24-adcb-5e18fa82465c-56ca",
+  "url": "https://mobbin.com/apps/higgsfield-web-b049aded-a252-4a24-adcb-5e18fa82465c/56cad2f3-16b1-472e-8058-e44151078cda/screens",
+  "kind": "page",
+  "hints_hash": "45ef5575604ec435",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mobbin.com/apps/higgsfield-web-b049aded-a252-4a24-adcb-5e18fa82465c/56cad2f3-16b1-472e-8058-e44151078cda/screens", "title": "Mobbin", "status": null},
+    {"url": "https://mobbin.com/llms.txt", "title": "Mobbin", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Higgsfield Web (Mobbin)",
+  "summary": "Higgsfield Web app screens in Mobbin, a searchable design-reference library of real mobile and web app screenshots.",
+  "description": "Mobbin page collecting screen designs from the Higgsfield web app — an AI-native creative suite — for UI and UX research. Mobbin is a searchable design-reference library of real mobile apps, web apps and websites with screens, multi-step flows and website sections from shipped products; the page itself is JavaScript-rendered, so only its title and meta description were readable.",
+  "type": "gallery",
+  "keywords": ["ui screenshot", "app screen", "web app design", "design reference", "ui inspiration", "ux research", "product flow", "website section", "ai app", "creative suite", "screenshot library"],
+  "contains": ["screens from the Higgsfield web app (AI-native creative suite)", "Mobbin library: 600,000+ searchable mobile and web app screenshots", "screens, flows and website sections from shipped products"],
+  "formats": ["screenshots"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "mobbin-com"},
+  "confidence": 0.7
+}

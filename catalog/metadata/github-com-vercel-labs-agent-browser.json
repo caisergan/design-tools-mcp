@@ -1,0 +1,80 @@
+{
+  "id": "github-com-vercel-labs-agent-browser",
+  "url": "https://github.com/vercel-labs/agent-browser",
+  "kind": "repo",
+  "hints_hash": "f53e091fe534a63b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:00:41Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/vercel-labs/agent-browser/blob/HEAD/README.md",
+      "title": "agent-browser",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "title": "GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "agent-browser",
+  "summary": "Browser automation CLI for AI agents: a native Rust binary that drives Chrome with snapshots, sessions and WebMCP.",
+  "description": "A Rust CLI that lets agents drive Chrome: element snapshots and semantic locators, click/fill/wait/batch commands, annotated screenshots, tabs, frames, dialogs, cookies and network tools, plus persistent Chrome profiles. Ships WebMCP support (experimental), React DevTools introspection and Web Vitals commands, and an embedded axe-core accessibility audit that runs offline. Installs via npm, Homebrew or Cargo; docs at agent-browser.dev.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "browser automation",
+    "cli",
+    "ai agent",
+    "headless chrome",
+    "web testing",
+    "screenshot",
+    "accessibility audit",
+    "axe-core",
+    "react devtool",
+    "web vital",
+    "webmcp",
+    "session",
+    "chrome profile",
+    "rust",
+    "automation",
+    "mcp"
+  ],
+  "contains": [
+    "native Rust CLI; install via npm, Homebrew, Cargo or source",
+    "snapshots with element refs plus semantic and CSS locators",
+    "WebMCP support (experimental) with bounded tool summaries",
+    "React introspection and Web Vitals commands; --human mouse movement",
+    "axe-core accessibility audits embedded in the binary, offline and CSP-safe",
+    "sessions, tab labels, persistent Chrome profiles, batch execution",
+    "43.8k stars on GitHub; Apache-2.0"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "rust"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/vercel-labs/agent-browser",
+    "docs": "https://agent-browser.dev",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

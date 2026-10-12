@@ -1,0 +1,115 @@
+{
+  "id": "animation-svelte-vercel-app",
+  "url": "https://animation-svelte.vercel.app",
+  "kind": "site",
+  "hints_hash": "33a2a6e036ca66a8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:55:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://animation-svelte.vercel.app",
+      "title": "Svelte Animations Components",
+      "status": null
+    },
+    {
+      "url": "https://animation-svelte.vercel.app/examples",
+      "title": "Svelte Animation Examples",
+      "status": null
+    },
+    {
+      "url": "https://animation-svelte.vercel.app/templates/saas-template",
+      "title": "Svelte Animation Components",
+      "status": null
+    },
+    {
+      "url": "https://animation-svelte.vercel.app/templates/developer-portfolio",
+      "title": "Svelte Animation Components",
+      "status": null
+    },
+    {
+      "url": "https://sv-animations.vercel.app",
+      "title": "Svelte Animations Components",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/SikandarJODD/svelte-animations",
+      "title": "GitHub - SikandarJODD/svelte-animations",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Svelte Animation Components",
+  "summary": "Animated Svelte 5 component library: free ports of Magic UI, Aceternity UI and Luxe components, installable via CLI.",
+  "description": "An open-source library of animated Svelte 5 components built with Tailwind CSS and Framer Motion, ported from Magic UI, Aceternity UI, Luxe and Indie UI. It covers docks, dropdown menus, marquees, animated backgrounds, shiny text, animated-border buttons, badges, inputs and cards, with examples like a dynamic island effect, shifting dropdown and encrypt button. SaaS and developer portfolio templates are also included.",
+  "type": "component-library",
+  "categories": [
+    "motion",
+    "components"
+  ],
+  "elements": [
+    "background",
+    "badge",
+    "bento-grid",
+    "button",
+    "card",
+    "dock",
+    "dropdown",
+    "input",
+    "marquee",
+    "tabs",
+    "text-effect"
+  ],
+  "keywords": [
+    "svelte",
+    "svelte 5",
+    "animation",
+    "animated component",
+    "component library",
+    "motion",
+    "tailwind css",
+    "framer motion",
+    "magic ui",
+    "aceternity ui",
+    "cli",
+    "typescript",
+    "dock",
+    "marquee",
+    "animated text",
+    "background effect",
+    "open source"
+  ],
+  "contains": [
+    "free, MIT-licensed Svelte 5 component library",
+    "ports of Magic UI, Aceternity UI, Luxe and Indie UI components",
+    "components include dock menu, marquee, animated beam, meteors, shiny text, animated button borders",
+    "examples: dynamic island effect, shifting dropdown, link hover effects, slide tab, encrypt button",
+    "install via CLI; full TypeScript; light/dark support",
+    "SaaS landing page template (Svelte 5, Tailwind CSS v4, shadcn-svelte) and a free developer portfolio template"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "templates"
+  ],
+  "stack": [
+    "svelte",
+    "tailwind",
+    "typescript",
+    "framer-motion"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/SikandarJODD/svelte-animations",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

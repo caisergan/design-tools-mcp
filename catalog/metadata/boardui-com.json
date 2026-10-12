@@ -1,0 +1,151 @@
+{
+  "id": "boardui-com",
+  "url": "https://boardui.com",
+  "kind": "site",
+  "hints_hash": "cdd53900784b84e5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://boardui.com/llms.txt",
+      "title": "BoardUI",
+      "status": null
+    },
+    {
+      "url": "https://www.boardui.com/",
+      "title": "BoardUI - React Design System for Dashboards",
+      "status": 200
+    },
+    {
+      "url": "https://www.boardui.com/components",
+      "title": "Dashboard UI Components - React + Tailwind | BoardUI",
+      "status": 200
+    },
+    {
+      "url": "https://www.boardui.com/installation",
+      "title": "Installation | BoardUI",
+      "status": 200
+    },
+    {
+      "url": "https://www.boardui.com/license",
+      "title": "License | BoardUI",
+      "status": 200
+    },
+    {
+      "url": "https://www.boardui.com/pricing",
+      "title": "BoardUI - React Design System for Dashboards",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "BoardUI",
+  "summary": "React and Tailwind design system for dashboards and agentic interfaces: 85 components and blocks, 19 chart cards, 10 Pro templates.",
+  "description": "A copy-in design system built on Tailwind CSS v4: 78 documented components covering foundations (colour, typography, 400+ tokens), base components, chart cards, dashboard blocks and AI-agent pieces (composer, prompt input, agent thinking). Ten full-page Pro templates cover dashboard, project board, marketing, calendar, finance and AI chat. Installed with the boardui CLI or by AI agents through an MCP server.",
+  "type": "design-system",
+  "categories": [
+    "components",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "dashboard",
+    "chart",
+    "card",
+    "table",
+    "ai-agent-ui",
+    "prompt-input",
+    "chat",
+    "sidebar",
+    "kanban",
+    "calendar",
+    "button",
+    "input",
+    "select",
+    "checkbox",
+    "switch",
+    "tabs",
+    "badge",
+    "avatar",
+    "banner",
+    "breadcrumbs",
+    "carousel",
+    "date-picker",
+    "dropdown",
+    "file-upload",
+    "loader",
+    "otp-input",
+    "pagination",
+    "progress"
+  ],
+  "keywords": [
+    "react",
+    "tailwind",
+    "design system",
+    "dashboard",
+    "admin dashboard",
+    "component",
+    "block",
+    "chart",
+    "chart card",
+    "data table",
+    "template",
+    "agentic interface",
+    "ai agent",
+    "ai chat",
+    "prompt input",
+    "design token",
+    "figma",
+    "mcp",
+    "cli",
+    "shadcn",
+    "dark mode",
+    "saas",
+    "sidebar",
+    "kanban",
+    "project board",
+    "calendar"
+  ],
+  "contains": [
+    "85 React components and blocks, 19 of them chart cards",
+    "78 documented components: foundations, base components, blocks and charts",
+    "10 Pro templates incl. dashboard, project board, marketing, calendar, finance, medical, AI chat and AI image generation",
+    "400+ design tokens, designed in Figma",
+    "installs via npx boardui init and npx boardui add; MCP server and agent skills for AI-driven installs",
+    "free source MIT on GitHub; Pro is a one-time purchase with lifetime updates",
+    "React 19, Tailwind CSS v4, React Aria, TanStack Table, Recharts; RTL support",
+    "shadcn-format registry with 63 items; 80 docs pages"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "templates",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "react-aria",
+    "recharts",
+    "framer-motion",
+    "tanstack-table",
+    "nextjs",
+    "vite",
+    "astro"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://boardui.com/installation",
+    "npm": "boardui",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.92
+}

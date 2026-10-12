@@ -1,0 +1,46 @@
+{
+  "id": "apps-apple-com-nl-app-berm-mtb-tracker-id6759539205",
+  "url": "https://apps.apple.com/nl/app/berm-mtb-tracker/id6759539205",
+  "kind": "page",
+  "hints_hash": "9f437cabf743cc5c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:52:30Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://apps.apple.com/nl/app/berm-mtb-tracker/id6759539205",
+      "title": "Berm - MTB tracker-app - App Store",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Berm - MTB tracker",
+  "summary": "Mountain bike tracker for iPhone that records GPS rides and reports descents, air time and jump metrics.",
+  "description": "An App Store listing for a mountain bike tracker by developer Pedro Marques. The app records rides with start, pause and stop controls, live time, distance and speed, and GPS routes, then shows post-ride insights like distance, duration, descents, air time, top speed, elevation and jump metrics. Free with in-app purchases; 3 ratings.",
+  "type": "app",
+  "keywords": [
+    "mountain bike",
+    "mtb",
+    "ride tracker",
+    "gps",
+    "cycling",
+    "sports tracker",
+    "ride stat",
+    "jump metrics",
+    "air time",
+    "iphone app"
+  ],
+  "pricing": "freemium",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

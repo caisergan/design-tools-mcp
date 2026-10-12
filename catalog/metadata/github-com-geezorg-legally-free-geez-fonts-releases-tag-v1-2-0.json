@@ -1,0 +1,35 @@
+{
+  "id": "github-com-geezorg-legally-free-geez-fonts-releases-tag-v1-2-0",
+  "url": "https://github.com/geezorg/legally-free-geez-fonts/releases/tag/v1.2.0",
+  "kind": "page",
+  "hints_hash": "8b1217e0d7eeade7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/geezorg/legally-free-geez-fonts/releases/tag/v1.2.0", "title": "Release Legally Free Geʾez Fonts v1.2.0 · geezorg/legally-free-geez-fonts · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Legally Free Geʾez Fonts v1.2.0",
+  "summary": "v1.2.0 of the Legally Free Geʾez Fonts archive: 198 Ethiopic typefaces — 139 open source, 59 free to share — from 30+ designers.",
+  "description": "The 1.2.0 release of the Legally Free Geʾez Fonts archive adds typefaces by Adil Creative (ADIL, SELAM), Dot Box Studio (Ketefa, Semayawi), Fixedsys Excelsior, Google (Agbalumo, Menbere in seven weights), SurGraphics (Regular, Bold, Black), TypeHabesha (Loga and Loga Display) and Zamran Studio (Addis-Sans, Jegena-zamaric, JegenaTitle-zamaric, zamaric emegua), with a preview section. Released 12 Aug by dyacob, 5 commits to main since; the archive totals 198 typefaces from just over 30 designers.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["font", "typeface", "ethiopic", "geez", "amharic", "tigrinya", "ethiopic script", "free font", "open source font", "font archive", "font collection", "type design", "ethiopia", "unicode font"],
+  "contains": [
+    "198 typefaces from just over 30 designers (139 open source + 59 free-to-share)",
+    "new here: Adil Creative (ADIL, SELAM) and Dot Box Studio (Ketefa, Semayawi)",
+    "new: Google Agbalumo and Menbere weights, SurGraphics Regular/Bold/Black",
+    "new: TypeHabesha Loga and Loga Display, Zamran Studio Addis-Sans and Jegena",
+    "released 12 Aug by dyacob; 5 commits to main since",
+    "preview section plus downloadable release assets",
+    "59 fonts free to share and use for personal and commercial projects"
+  ],
+  "formats": ["font-files", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/geezorg/legally-free-geez-fonts", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

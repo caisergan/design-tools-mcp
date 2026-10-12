@@ -1,0 +1,27 @@
+{
+  "id": "claude-skills-free",
+  "url": "https://claude-skills.free",
+  "kind": "site",
+  "hints_hash": "4f633e7dcc8ad878",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.claude-skills.free/", "title": "Claude Skill Library", "status": null}
+  ],
+  "status": "partial",
+  "name": "Claude Skill Library",
+  "summary": "Personal library of Claude skills shipped as one downloadable zip that you upload into Claude; unlocked with an email code.",
+  "description": "A collection of Claude skills — chat commands like /grill-me — that the author uses every day. Install by downloading the zip, turning on Skills in Claude's settings, then uploading it via Customize → Skills → Add → Upload skill. The skills unlock after a six-digit email code, and the list itself loads on the page.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude skill", "ai skill", "agent skill", "slash command", "skill library", "prompt package", "claude", "ai workflow", "skill download"],
+  "contains": ["skills shipped as a single downloadable zip", "install: turn on Skills in Claude settings, then Customize → Skills → Add → Upload skill", "commands are typed in chat, e.g. /grill-me", "access unlocked with a 6-digit email code"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

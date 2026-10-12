@@ -1,0 +1,45 @@
+{
+  "id": "designmd-me-compare-new",
+  "url": "https://designmd.me/compare/new",
+  "kind": "page",
+  "hints_hash": "77cea1fb1f978293",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:24:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://designmd.me/compare/new",
+      "title": "Compare two design systems · DesignMD | DesignMD",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Compare two design systems",
+  "summary": "Puts two design systems side by side and shows where they differ — colour roles, type scale, corners, spacing, depth, components.",
+  "description": "A comparison tool on DesignMD: two design systems are measured from the live sites and shown side by side — colour roles, type scale, corners, spacing, depth and components. Two public Discover sites make a public comparison page; signing in is needed to compare your own generations.",
+  "keywords": [
+    "design system comparison",
+    "compare design system",
+    "design token",
+    "color role",
+    "type scale",
+    "corner radius",
+    "spacing",
+    "design audit",
+    "live site",
+    "component comparison",
+    "design md"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "designmd-me"
+  },
+  "confidence": 0.75
+}

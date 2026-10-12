@@ -1,0 +1,27 @@
+{
+  "id": "github-com-systemdesign42-system-design",
+  "url": "https://github.com/systemdesign42/system-design",
+  "kind": "repo",
+  "hints_hash": "e2f916426240b302",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:07:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/systemdesign42/system-design/blob/HEAD/README.md", "title": "System Design Academy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "System Design Academy",
+  "summary": "Curated index of system design reading: company architecture case studies, fundamentals, interview prep and AI engineering.",
+  "description": "A GitHub README index of system design links, curated by the System Design Academy newsletter. Case studies show how Netflix, Uber, Stripe, Figma, Discord and 65+ other companies scale; fundamentals are grouped by technology (caching, CDN, Kafka, queues, load balancing …); further sections cover interview frameworks, an AI engineering track (AI agents, Claude Code, MCP, RAG, evals, fine tuning) and classic white papers such as Amazon Dynamo and Google Spanner.",
+  "type": "directory",
+  "categories": ["learning", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "distributed system", "software architecture", "scalability", "case study", "ai engineering", "llm", "ai agent", "mcp", "rag", "white paper", "learning resource", "engineering blog", "newsletter"],
+  "contains": ["65+ company architecture case studies (Netflix, Uber, Stripe, Figma, Discord …)", "fundamentals grouped by technology: caching, CDN, Kafka, queues, load balancing", "AI engineering track: AI agents, Claude Code, MCP, RAG, evals", "interview frameworks and design walkthroughs", "white papers: Amazon Dynamo, Google Spanner, Meta XFaaS", "curated by the System Design Academy newsletter"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-NC-ND-4.0",
+  "related": {"repo": "https://github.com/systemdesign42/system-design", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

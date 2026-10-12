@@ -1,0 +1,38 @@
+{
+  "id": "iconly-pro",
+  "url": "https://iconly.pro",
+  "kind": "site",
+  "hints_hash": "93402bf2a95d7a65",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://iconly.pro", "title": "Iconly Pro | 40,000+ Flat,Animation,3D Icons", "status": null},
+    {"url": "https://iconly.pro/pricing", "title": "Pricing — Simple Plans for Teams & Freelancers | Iconly Pro", "status": null},
+    {"url": "https://iconly.pro/about-us", "title": "About Us — The Team Behind Iconly Pro | Iconly Pro", "status": null}
+  ],
+  "status": "ok",
+  "name": "Iconly Pro",
+  "summary": "Icon library of 40,000+ flat, animated and 3D icons with a Figma plugin, web app and developer API.",
+  "description": "40,000+ icons drawn on a 24x24 grid, in 3 types and 6 styles: 38,000+ flat icons, 3,000+ 60fps animated icons and 4K 3D icons across 70+ categories, with weekly additions. Browse and export SVG, PNG, JSX or TSX in the web app or the Figma plugin, or pull icons through a developer API key (MCP).",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon pack", "icon set", "svg icon", "3d icon", "animated icon", "flat icon", "duotone icon", "icon library", "figma plugin", "icon api"],
+  "contains": [
+    "40,000+ icons in 3 types: flat, 60fps animated and 4K 3D",
+    "6 styles: light, outline, bold, two-tone, duotone, bulk",
+    "38,000+ flat and 3,000+ animated icons in 70+ categories",
+    "built on a 24x24 grid; weekly icon updates",
+    "exports: SVG, PNG, JSX, TSX",
+    "Figma plugin, web app and developer API key (MCP)",
+    "3D editor for lighting, material and angle (coming soon)",
+    "free starter plan (2,000+ icons); $8/mo personal, $7/user/mo team, $189 lifetime"
+  ],
+  "formats": ["svg", "png", "code", "api", "app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ogimage-gallery",
+  "url": "https://ogimage.gallery",
+  "kind": "site",
+  "hints_hash": "1c105db675e4d871",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ogimage.gallery", "title": "OGimage.gallery | The finest hand-picked OG Images ✨", "status": 200},
+    {"url": "https://www.ogimage.gallery/library", "title": "OGimage.gallery | OGenius: Your Go-To Resource for OG Image", "status": 200},
+    {"url": "https://www.ogimage.gallery/about", "title": "OGimage.gallery | About", "status": 200},
+    {"url": "https://www.ogimage.gallery/category/resources", "title": "OGimage.gallery | The finest hand-picked Resources OG Images ✨", "status": 200},
+    {"url": "https://www.ogimage.gallery/category/app", "title": "OGimage.gallery | The finest hand-picked App OG Images ✨", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OGimage.gallery",
+  "summary": "Gallery of 844 hand-picked Open Graph images from real websites, browsable by industry category and style.",
+  "description": "A curated collection of Open Graph (social preview) images from live websites — apps, SaaS, stores, portfolios and more — grouped into categories like animated, creative, dynamic, finance, food and health. Every image links to the site it previews; the OGenius resource library adds guides and best practices on OG image dimensions, debugging and SEO.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["dock", "navbar", "3d", "bento-grid", "table", "command-palette", "prompt-input", "map", "calendar", "timeline"],
+  "keywords": ["og image", "open graph", "social preview", "link preview", "social media image", "twitter card", "meta image", "og image inspiration", "og image example", "design inspiration", "seo", "saas", "app", "webflow"],
+  "contains": [
+    "844 hand-picked OG images from live websites",
+    "each image links to the website it previews",
+    "categories: animated, app, arts & culture, creative, dynamic, finance, food, health, portfolios, resources, saas, stores",
+    "OGenius library: guides on OG image dimensions, debugging, SEO and common mistakes",
+    "submission form for favorite sites"
+  ],
+  "formats": ["screenshots", "links", "docs"],
+  "stack": ["webflow"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

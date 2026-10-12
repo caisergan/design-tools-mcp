@@ -1,0 +1,63 @@
+{
+  "id": "github-com-multica-ai-andrej-karpathy-skills",
+  "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+  "kind": "repo",
+  "hints_hash": "bfdf9157decdb950",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/HEAD/README.md",
+      "title": "Karpathy-Inspired Claude Code Guidelines",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Karpathy-Inspired Claude Code Guidelines",
+  "summary": "A CLAUDE.md rule set that makes coding agents state assumptions, keep changes surgical and loop on verifiable success criteria.",
+  "description": "One guidelines file distilled from Andrej Karpathy's observations on LLM coding pitfalls, shipped as a Claude Code plugin, a per-project CLAUDE.md and a committed Cursor project rule. Four principles — think before coding, simplicity first, surgical changes, goal-driven execution — each with concrete rules and tests for knowing they are working.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "claude code",
+    "claude.md",
+    "cursor",
+    "coding agent",
+    "agent guideline",
+    "ai coding",
+    "prompt",
+    "rule",
+    "simplicity",
+    "refactoring",
+    "workflow",
+    "instruction"
+  ],
+  "contains": [
+    "four principles in one CLAUDE.md file",
+    "Claude Code plugin and per-project CLAUDE.md installs",
+    "Cursor project rule (.mdc) included",
+    "English and Simplified Chinese versions"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,114 @@
+{
+  "id": "aqua-duca-dev",
+  "url": "https://aqua.duca.dev",
+  "kind": "site",
+  "hints_hash": "92f02184457af414",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://aqua.duca.dev/llms.txt",
+      "title": "Aqua",
+      "status": null
+    },
+    {
+      "url": "https://aqua.duca.dev",
+      "title": "Aqua — the classic Apple UI, as a shadcn registry",
+      "status": 200
+    },
+    {
+      "url": "https://aqua.duca.dev/docs/introduction",
+      "title": "Introduction — Aqua",
+      "status": 200
+    },
+    {
+      "url": "https://aqua.duca.dev/llms-full.txt",
+      "title": "Aqua — full component reference for LLMs",
+      "status": 200
+    },
+    {
+      "url": "https://aqua.duca.dev/r/button.json",
+      "title": "Button registry item",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Aqua",
+  "summary": "shadcn registry that recreates the classic Mac OS X interface as glossy React components.",
+  "description": "Aqua is a shadcn/ui registry (@aqua) of 26 glossy, skeuomorphic components in the Mac OS X 2000–2007 visual language: gel buttons, pinstripe panes, brushed metal, the Dock and a working iPod. Components are built on Radix primitives and Tailwind CSS and copied into your project as open code; install with npx shadcn add @aqua and retheme everything through the --aqua-accent CSS variable.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "avatar",
+    "alert",
+    "dropdown",
+    "input",
+    "checkbox",
+    "switch",
+    "toast",
+    "loader",
+    "cursor",
+    "badge",
+    "button",
+    "tabs",
+    "select",
+    "slider",
+    "modal",
+    "progress",
+    "dock",
+    "chat",
+    "tooltip"
+  ],
+  "keywords": [
+    "shadcn registry",
+    "react component",
+    "mac os x",
+    "aqua",
+    "retro ui",
+    "skeuomorphic",
+    "glossy button",
+    "dock",
+    "ipod",
+    "radix ui",
+    "tailwind css",
+    "copy paste",
+    "theme",
+    "open source"
+  ],
+  "contains": [
+    "26 registry items under the @aqua namespace, installed with the shadcn CLI",
+    "Mac OS X era look: gel buttons, pinstripes, brushed metal, Aqua cursors",
+    "Built on Radix primitives + Tailwind CSS; keyboard and ARIA behavior included",
+    "Themed by the --aqua-accent CSS variable, with a shared @aqua/theme palette and Lucida Grande typography",
+    "Demos: Mail, Finder, iTunes, Chat and a working iPod click wheel",
+    "llms.txt and llms-full.txt references for agents"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://aqua.duca.dev/docs/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

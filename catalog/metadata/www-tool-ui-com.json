@@ -1,0 +1,107 @@
+{
+  "id": "www-tool-ui-com",
+  "url": "https://www.tool-ui.com",
+  "kind": "site",
+  "hints_hash": "fd1d9da8c9335a26",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.tool-ui.com",
+      "title": "Elements · assistant-ui",
+      "status": 200
+    },
+    {
+      "url": "https://www.assistant-ui.com/components",
+      "title": "Components · assistant-ui",
+      "status": 200
+    },
+    {
+      "url": "https://www.assistant-ui.com/pricing",
+      "title": "Pricing · assistant-ui",
+      "status": 200
+    },
+    {
+      "url": "https://www.assistant-ui.com/llms.txt",
+      "title": "assistant-ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Tool UI by assistant-ui",
+  "summary": "27 React components for AI tool results: approval cards, citations, data tables, charts, geo maps and media players.",
+  "description": "A shadcn registry of live-demo React components for rendering AI tool calls: approval cards, charts, data tables, code diffs, geo maps, image galleries, link previews and more. tool-ui.com now redirects to the assistant-ui Elements collection (151 interface pieces); the 27 Tool UI items install with the shadcn CLI into React AI products.",
+  "type": "registry",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "chat",
+    "prompt-input",
+    "ai-agent-ui",
+    "card",
+    "chart",
+    "table",
+    "map",
+    "carousel",
+    "list",
+    "slider",
+    "progress",
+    "stats"
+  ],
+  "keywords": [
+    "tool call",
+    "ai agent ui",
+    "chat ui",
+    "approval card",
+    "citation",
+    "data table",
+    "chart",
+    "geo map",
+    "code diff",
+    "image gallery",
+    "link preview",
+    "mcp ui",
+    "shadcn registry",
+    "react",
+    "assistant ui",
+    "prompt input",
+    "tool result",
+    "media player"
+  ],
+  "contains": [
+    "27 installable Tool UI registry items (card, chart, table, map, carousel, list, slider, progress, stats)",
+    "redirects to assistant-ui Elements: 151 interface pieces in 10 groups",
+    "every demo live with its source code available"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "react-native",
+    "vue",
+    "typescript",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/assistant-ui/assistant-ui",
+    "docs": "https://www.assistant-ui.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.82
+}

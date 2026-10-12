@@ -1,0 +1,37 @@
+{
+  "id": "originkit-dev",
+  "url": "https://originkit.dev",
+  "kind": "site",
+  "hints_hash": "3b81cb378ab8cff2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.originkit.dev/", "title": "Originkit — Free Animated component library for modern websites", "status": 200},
+    {"url": "https://www.originkit.dev/intro", "title": "Introduction · Originkit", "status": 200},
+    {"url": "https://www.originkit.dev/pricing", "title": "Pricing · Originkit", "status": 200},
+    {"url": "https://github.com/vellum-ai/originkit", "title": "GitHub - vellum-ai/originkit: Browse and import animated components from Originkit free library of 50 animated components via MCP · GitHub", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Originkit",
+  "summary": "Free library of 250+ animated components for websites, copied as React, Next.js, Vite or Framer code or pulled in by AI agents via MCP.",
+  "description": "An animated component library for modern websites: live previews and copy-ready code for text animations, interactive elements, image galleries, background effects, buttons and more, delivered to Framer, React, Next.js or Vite with CSS, Tailwind or CSS Modules. Browsing and previewing are free, a free API key lets you copy components (10 a day), and an MCP server lets coding agents browse and fetch the same source; paid plans raise the limits.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["hero", "cursor", "button", "globe", "carousel", "text-effect", "background", "3d", "loader", "features", "chart", "scroll-effect"],
+  "keywords": ["animated component", "animation library", "free component library", "framer component", "react component", "nextjs", "vite", "tailwind css", "css module", "text animation", "background animation", "cursor effect", "image gallery", "webgl", "particle animation", "motion design", "copy paste component", "mcp server"],
+  "contains": [
+    "250+ free animated components, sections and templates",
+    "categories: interactive elements, image gallery, text, animation, backgrounds, buttons",
+    "code for React, Next.js, Vite and Framer; CSS, Tailwind or CSS Modules",
+    "MCP server and free API key let AI agents browse and fetch components",
+    "free plan: 10 component copies and 5 AI credits per day",
+    "Pro $79/year, Ultimate $99/year; extra credits $5 for 50"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "vite", "tailwind", "css"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.originkit.dev/intro", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

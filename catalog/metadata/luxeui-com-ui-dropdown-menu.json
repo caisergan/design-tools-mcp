@@ -1,0 +1,88 @@
+{
+  "id": "luxeui-com-ui-dropdown-menu",
+  "url": "https://luxeui.com/ui/dropdown-menu",
+  "kind": "page",
+  "hints_hash": "9da1ad054582bfa4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:30:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://luxeui.com/ui/dropdown-menu",
+      "title": "Luxe: Dropdown Menu",
+      "status": null
+    },
+    {
+      "url": "https://luxeui.com/",
+      "title": "Luxe: Illuminate your apps.",
+      "status": 200
+    },
+    {
+      "url": "https://luxeui.com/ui/installation",
+      "title": "Luxe: Installation",
+      "status": 200
+    },
+    {
+      "url": "https://luxeui.com/ui/cli",
+      "title": "Luxe: CLI",
+      "status": 200
+    },
+    {
+      "url": "https://luxeui.com/updates",
+      "title": "Luxe: Updates",
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Luxe: Dropdown Menu",
+  "summary": "Dropdown menu component page from Luxe, a copy-and-paste React and Tailwind component library.",
+  "description": "Documentation page for the Dropdown Menu component of Luxe UI, a copy-and-paste component library built with React, Tailwind CSS, Motion and Radix UI. The page has Usage and Installation sections that are rendered by JavaScript, so the examples and code were not readable; the library's own CLI adds components and their dependencies to a project.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "dropdown"
+  ],
+  "keywords": [
+    "dropdown menu",
+    "menu component",
+    "react dropdown",
+    "copy paste component",
+    "tailwind component",
+    "animated menu",
+    "component library",
+    "ui component"
+  ],
+  "contains": [
+    "dropdown menu component with usage and installation sections",
+    "copy-and-paste React and Tailwind source",
+    "part of a library with accordion, dialog, input, navigation menu, tooltip and other components",
+    "Luxe CLI adds components and their dependencies"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "radix"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.6
+}

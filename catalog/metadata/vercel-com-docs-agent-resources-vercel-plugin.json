@@ -1,0 +1,26 @@
+{
+  "id": "vercel-com-docs-agent-resources-vercel-plugin",
+  "url": "https://vercel.com/docs/agent-resources/vercel-plugin",
+  "kind": "page",
+  "hints_hash": "070b897d7d872ff9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:35:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vercel.com/docs/agent-resources/vercel-plugin", "title": "Vercel Plugin for AI Coding Agents", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Vercel Plugin for AI Coding Agents",
+  "summary": "Plugin that gives AI coding tools Vercel context, skills, specialist agents and slash commands.",
+  "description": "Installable plugin for AI coding agents such as Claude Code, Cursor, Codex CLI, GitHub Copilot and VS Code. It ships a Vercel ecosystem knowledge graph, 33 skills, 3 specialist agents and 4 slash commands, with session-start context injected only in empty or detected Vercel, Next.js and eve projects.",
+  "type": "plugin",
+  "elements": [],
+  "keywords": ["ai coding agent", "coding agent plugin", "agent skill", "slash command", "vercel", "next.js", "mcp", "deployment", "developer tool", "claude code", "cursor", "codex"],
+  "contains": ["33 skills covering the Vercel ecosystem", "3 specialist agents: deployment, performance, AI architecture", "4 slash commands", "ecosystem graph of Vercel products, libraries, CLI, API and services", "requires Node.js 18+ or Bun", "session-start context only in empty or detected Vercel, Next.js and eve projects"],
+  "formats": ["cli", "prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "vercel-com"},
+  "confidence": 0.85
+}

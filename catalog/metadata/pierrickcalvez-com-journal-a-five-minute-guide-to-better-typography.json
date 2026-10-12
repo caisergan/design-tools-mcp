@@ -1,0 +1,62 @@
+{
+  "id": "pierrickcalvez-com-journal-a-five-minute-guide-to-better-typography",
+  "url": "https://pierrickcalvez.com/journal/a-five-minute-guide-to-better-typography",
+  "kind": "page",
+  "hints_hash": "f7e196642499f7c9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:15:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pierrickcalvez.com/journal/a-five-minute-guide-to-better-typography",
+      "title": "A Five-Minute Guide to Better Typography — Pierrick Calvez",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "A Five-Minute Guide to Better Typography",
+  "summary": "Short typography guide by designer Pierrick Calvez, offered as a free PDF download from his journal.",
+  "description": "Quick guide to better typography from the journal of designer Pierrick Calvez; the page offers the guide as a PDF download and links related articles (Typography is Impossible, The Punctuation Guide) plus a newsletter signup.",
+  "type": "article",
+  "categories": [
+    "learning",
+    "fonts"
+  ],
+  "elements": [],
+  "keywords": [
+    "typography",
+    "typography guide",
+    "type guide",
+    "font pairing",
+    "line height",
+    "kerning",
+    "typographic scale",
+    "type rule",
+    "graphic design",
+    "pdf guide",
+    "typography tip"
+  ],
+  "contains": [
+    "PDF download of the 5-minute typography guide",
+    "links: Typography is Impossible, The Punctuation Guide",
+    "from the journal of designer Pierrick Calvez"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

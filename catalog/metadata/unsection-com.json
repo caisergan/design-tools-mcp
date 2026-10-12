@@ -1,0 +1,33 @@
+{
+  "id": "unsection-com",
+  "url": "https://unsection.com",
+  "kind": "site",
+  "hints_hash": "3d194fa416b252d3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://unsection.com", "title": "Section-First Website Design Inspiration | Unsection", "status": 200},
+    {"url": "https://www.unsection.com/templates", "title": "Website Templates | Unsection", "status": 200},
+    {"url": "https://www.unsection.com/category/navbar-design", "title": "Navbar Design Examples: Website Headers & Menus | Unsection", "status": 200},
+    {"url": "https://www.unsection.com/category/cta-section-design", "title": "CTA Section Design Examples | Unsection", "status": 200},
+    {"url": "https://www.unsection.com/category/faq-section-design", "title": "FAQ Section Design Examples & Page Ideas | Unsection", "status": 200},
+    {"url": "https://www.unsection.com/pricing", "title": "Pricing | Unsection", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Unsection",
+  "summary": "Gallery of website sections from real sites — heroes, pricing, testimonials, navbars and more, browsable by type.",
+  "description": "Unsection is a section-first design inspiration gallery: sections from live websites are grouped into categories such as hero, feature, testimonial, CTA, footer, navbar, pricing, logo, FAQ, team, contact and portfolio, with search and filters. Free browsing is capped at 30 sections per category and 30 filter results; Pro ($5/month) removes the caps and ads, and a lifetime plan is available. A templates page adds hand-picked Framer and Webflow templates.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["navbar", "hero", "footer", "cta", "pricing", "features", "testimonials", "faq", "logo-cloud", "team", "contact"],
+  "variants": {"faq": ["accordion", "two-column"]},
+  "keywords": ["website section", "section design", "hero section", "pricing section", "testimonial section", "footer section", "navbar design", "cta section", "faq section", "logo cloud", "team section", "contact section", "landing page", "web design inspiration", "design gallery", "website inspiration", "ui design", "framer template", "webflow template"],
+  "contains": ["website sections from real websites, grouped by section type", "free plan: 30 sections per category, 30 filter/search results, 100 saved inspirations", "Pro $5/month: unlimited sections, ad-free browsing, weekly updates; lifetime plan available", "templates: hand-picked Framer and Webflow templates, free and paid (from $79)"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,23 @@
+{
+  "id": "designgurus-io-course-grokking-the-system-design-interview",
+  "url": "https://designgurus.io/course/grokking-the-system-design-interview",
+  "kind": "page",
+  "hints_hash": "b15c59ce1db5bbc4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designgurus.io/course/grokking-the-system-design-interview", "title": "Grokking the System Design Interview: The Original Course", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Grokking the System Design Interview",
+  "summary": "The original Grokking system design interview course: 82 lessons, 15+ case studies and a repeatable interview framework.",
+  "description": "A paid, self-paced course by Arslan Ahmad, ex-Meta hiring manager: a step-by-step interview framework, trade-off drills (latency vs throughput, SQL vs NoSQL, monolith vs microservices), core distributed systems concepts and 15+ end-to-end case studies including URL shortener, Instagram, Twitter, Uber, Dropbox and Netflix. 4 chapters, 82 lessons, 11 videos, 237 assessments, about 20 hours; $148 one-time with lifetime access, discussions and a certificate.",
+  "type": "course",
+  "categories": ["learning"],
+  "keywords": ["system design", "system design interview", "software architecture", "scalability", "trade-off", "case study", "faang", "distributed system", "load balancing", "caching", "sharding", "microservice", "api gateway", "interview preparation", "course", "video lesson"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9,
+  "formats": ["video"]
+}

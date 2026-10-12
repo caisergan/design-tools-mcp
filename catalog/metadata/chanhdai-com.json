@@ -1,0 +1,122 @@
+{
+  "id": "chanhdai-com",
+  "url": "https://chanhdai.com",
+  "kind": "site",
+  "hints_hash": "1279c0583d98c5a8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://chanhdai.com/llms.txt",
+      "title": "chanhdai.com",
+      "status": null
+    },
+    {
+      "url": "https://chanhdai.com",
+      "title": "Chánh Đại – Design Engineer",
+      "status": 200
+    },
+    {
+      "url": "https://chanhdai.com/components.md",
+      "title": "Components",
+      "status": 200
+    },
+    {
+      "url": "https://chanhdai.com/blocks.md",
+      "title": "Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://chanhdai.com/blocks",
+      "title": "Blocks – Chánh Đại",
+      "status": 200
+    },
+    {
+      "url": "https://chanhdai.com/about.md",
+      "title": "About",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Chánh Đại",
+  "summary": "Design engineer's portfolio with a shadcn registry of 42 components and 12 blocks for React and Next.js.",
+  "description": "Portfolio of Chánh Đại, a design engineer, built around a shadcn registry: 42 components (Apple hello effect, wheel picker, theme switcher, testimonial marquee, status button, line nav) and 12 blocks (hero, testimonials, team, metrics, social proof, blog, login, not found). Install with npx shadcn@latest add @ncdai/…; every item is documented as Markdown. Also 14 blog posts, projects, experience and recognition pages.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "components",
+    "inspiration"
+  ],
+  "elements": [
+    "testimonials",
+    "button",
+    "card",
+    "logo-cloud",
+    "marquee",
+    "command-palette",
+    "slider",
+    "chart",
+    "text-effect",
+    "navbar",
+    "form",
+    "hero"
+  ],
+  "variants": {
+    "testimonials": [
+      "marquee"
+    ]
+  },
+  "keywords": [
+    "shadcn registry",
+    "react component",
+    "component registry",
+    "shadcn ui",
+    "block",
+    "nextjs",
+    "tailwind",
+    "theme switcher",
+    "wheel picker",
+    "marquee",
+    "command palette",
+    "testimonials",
+    "logo cloud",
+    "chart",
+    "slider",
+    "portfolio",
+    "design engineer"
+  ],
+  "contains": [
+    "67 shadcn registry items: 42 components and 12 blocks",
+    "install with npx shadcn@latest add @ncdai/…",
+    "components documented as Markdown for agents (llms.txt and llms-full.txt)",
+    "blocks: hero, testimonials, team, metrics, social proof, blog, login, not found",
+    "14 blog posts; projects, experience and recognition pages"
+  ],
+  "formats": [
+    "registry",
+    "cli",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn-ui"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

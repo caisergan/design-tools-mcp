@@ -1,0 +1,36 @@
+{
+  "id": "github-com-rizkimuhammada-cosmic-ui",
+  "url": "https://github.com/rizkimuhammada/cosmic-ui",
+  "kind": "repo",
+  "hints_hash": "c06eac730adb43b7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/rizkimuhammada/cosmic-ui/blob/HEAD/README.md", "title": "Cosmic UI", "status": 200},
+    {"url": "https://github.com/rizkimuhammada/cosmic-ui", "title": "GitHub - rizznme/cosmic-ui: A collection of Sci-Fi themed components and futuristic design elements for modern web applications.", "status": 200},
+    {"url": "https://raw.githubusercontent.com/rizkimuhammada/cosmic-ui/HEAD/package.json", "title": null, "status": 200},
+    {"url": "https://cosmic-ui.com", "title": "Cosmic UI - Sci-Fi UI Components for React and Vue", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cosmic UI",
+  "summary": "Sci-fi themed React and Vue UI component library with HUD-styled frames, glowing borders and futuristic elements.",
+  "description": "Copy-paste component library of futuristic, sci-fi styled UI: buttons, dialogs, menus, tabs, toasts, form controls, tables, charts and a custom SVG Frame decoration system. Documented on cosmic-ui.com with live previews and per-component install commands; built with Zag.js state machines, Tailwind CSS and TypeScript, with React and Vue versions.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "breadcrumbs", "button", "calendar", "chart", "checkbox", "date-picker", "drawer", "dropdown", "input", "modal", "pagination", "select", "switch", "table", "tabs", "toast"],
+  "keywords": ["sci-fi ui", "futuristic ui", "cyberpunk ui", "hud", "react component", "vue component", "component library", "tailwind", "zag.js", "copy paste component", "glowing border", "frame", "dark ui", "design system", "astro"],
+  "contains": [
+    "27 sci-fi styled components incl. Frame, Alert, Dialog, Tabs, Toast, Chart, Table, Sheet, Datepicker",
+    "React and Vue versions with per-component copy/install commands",
+    "custom SVG Frame decoration system for angular HUD styling",
+    "docs site with live previews at cosmic-ui.com",
+    "751 GitHub stars, 64 forks"
+  ],
+  "formats": ["code", "docs", "cli"],
+  "stack": ["react", "vue", "astro", "tailwind", "typescript", "zag-js"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/rizznme/cosmic-ui", "docs": "https://cosmic-ui.com", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

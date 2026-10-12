@@ -1,0 +1,78 @@
+{
+  "id": "raivcoo-com",
+  "url": "https://raivcoo.com",
+  "kind": "site",
+  "hints_hash": "6d7f0b8cdb765dd3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://raivcoo.com",
+      "title": "Raivcoo - Motion Design Inspiration",
+      "status": null
+    },
+    {
+      "url": "https://raivcoo.com/about",
+      "title": "Raivcoo – Daily Video Editing & Motion Graphics Inspiration",
+      "status": null
+    },
+    {
+      "url": "https://raivcoo.com/tools",
+      "title": "Video Editing Tools & Resources | Raivcoo",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Raivcoo",
+  "summary": "Gallery of motion graphics and video editing references from creators worldwide, with filters and bookmark collections.",
+  "description": "A curated space to browse thousands of video edits and motion graphics references from creators worldwide. Filter by style, category, color, software and aspect ratio, save favourites into folders and share collections publicly; members can upload their own work. The site also sells After Effects plugins for editors and motion designers.",
+  "type": "gallery",
+  "categories": [
+    "motion",
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "motion graphics",
+    "motion design",
+    "video editing",
+    "inspiration gallery",
+    "video reference",
+    "after effect",
+    "after effects plugin",
+    "animation",
+    "visual effect",
+    "transition",
+    "design reference",
+    "bookmark",
+    "community",
+    "video editor"
+  ],
+  "contains": [
+    "thousands of motion graphics and video edit references",
+    "filters: style, category, color, software, aspect ratio",
+    "bookmark folders that can be shared publicly",
+    "community uploads from members",
+    "After Effects plugins from free to $10"
+  ],
+  "formats": [
+    "video",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

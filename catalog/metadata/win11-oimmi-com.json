@@ -1,0 +1,81 @@
+{
+  "id": "win11-oimmi-com",
+  "url": "https://win11.oimmi.com",
+  "kind": "site",
+  "hints_hash": "8898bd12c3a38b7e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://win11.oimmi.com",
+      "title": "Windows 11",
+      "status": null
+    },
+    {
+      "url": "https://win11.oimmi.com/sitemap.xml",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://github.com/programming-with-ia/windows-11",
+      "title": "GitHub - programming-with-ia/windows-11: A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Windows 11",
+  "summary": "In-browser recreation of the Windows 11 desktop: lock screen, desktop and draggable, resizable app windows.",
+  "description": "A web recreation of the Windows 11 experience that runs in the browser: a lock screen and desktop with draggable, resizable windows and smooth animations. Built with React, Next.js, Tailwind CSS, shadcn/ui and Framer Motion; the source repo (85 stars) links back to win11.oimmi.com.",
+  "type": "app",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "windows 11 clone",
+    "windows 11 in the browser",
+    "web desktop",
+    "desktop ui",
+    "draggable window",
+    "resizable window",
+    "lock screen",
+    "os clone",
+    "nextjs",
+    "react",
+    "tailwind",
+    "framer motion",
+    "shadcn"
+  ],
+  "contains": [
+    "in-browser Windows 11 clone: lock screen and desktop",
+    "draggable and resizable app windows with smooth animations",
+    "React, Next.js, Tailwind CSS, shadcn/ui and Framer Motion",
+    "source repo (85 stars) links back to win11.oimmi.com"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/programming-with-ia/windows-11",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

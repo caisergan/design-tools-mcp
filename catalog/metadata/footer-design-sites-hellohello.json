@@ -1,0 +1,25 @@
+{
+  "id": "footer-design-sites-hellohello",
+  "url": "https://footer.design/sites/hellohello",
+  "kind": "page",
+  "hints_hash": "4c885a8e79ea8037",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:19:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/hellohello", "title": "Footer | ++hellohello", "status": null}
+  ],
+  "status": "ok",
+  "name": "++hellohello",
+  "summary": "Desktop and mobile footer screenshots from the ++hellohello agency site, tagged by style and industry.",
+  "description": "Footer showcase entry in a curated gallery of web footers: desktop and mobile screenshots of the ++hellohello design and technology agency website footer, with footnotes carrying style tags (flat, 3D, dark, bold, large type, animated, transitions), industry tags (design, agency, technology, branding), date added and submitter, a link to the live site and similar footers.",
+  "keywords": ["footer design", "website footer", "footer inspiration", "desktop footer", "mobile footer", "footer screenshot", "web design gallery", "animated footer", "3d", "dark footer", "bold typography", "large type", "agency", "branding", "technology"],
+  "elements": ["footer"],
+  "contains": ["desktop and mobile footer screenshots", "style tags: flat, 3D, dark, bold, large type, animated, transitions", "industry tags: design, agency, technology, branding", "date added: August 12, 2026", "similar footer designs"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.8
+}

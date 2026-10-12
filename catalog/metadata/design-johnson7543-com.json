@@ -1,0 +1,27 @@
+{
+  "id": "design-johnson7543-com",
+  "url": "https://design.johnson7543.com",
+  "kind": "site",
+  "hints_hash": "0881831d13f44084",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:19:02Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://design.johnson7543.com", "title": "Design — Interactive tools and experiments", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Design",
+  "summary": "Collection of interactive design tools and visual experiments by Johnson Wang.",
+  "description": "A JavaScript-rendered site of thoughtful, interactive design tools and visual experiments, with client-side routes such as /qr. Beyond the title and meta description no page text is readable, so the tools themselves cannot be checked.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["interactive design tool", "visual experiment", "design experiment", "design playground", "web experiment", "browser tool"],
+  "contains": ["JavaScript-rendered; only title and meta description readable"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.4
+}

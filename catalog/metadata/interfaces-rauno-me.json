@@ -1,0 +1,76 @@
+{
+  "id": "interfaces-rauno-me",
+  "url": "https://interfaces.rauno.me",
+  "kind": "site",
+  "hints_hash": "4dc9399b7dd1dd0b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:32:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://interfaces.rauno.me",
+      "title": "Web Interface Guidelines",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Web Interface Guidelines",
+  "summary": "A living checklist of small interaction details that make a web interface feel finished, with exact values.",
+  "description": "A non-exhaustive list of interface details grouped into Interactivity, Typography, Motion, Touch, Optimizations, Accessibility and Design. Each item is a concrete rule — box-shadow focus rings, interaction animations under 200ms, 16px minimum input font size, ~0.96 press scale — with footnotes explaining the reasoning.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [
+    "button",
+    "dropdown",
+    "form",
+    "input",
+    "list",
+    "modal",
+    "switch",
+    "table",
+    "tooltip"
+  ],
+  "keywords": [
+    "web interface guideline",
+    "ui checklist",
+    "design detail",
+    "interaction design",
+    "accessibility",
+    "focus ring",
+    "typography",
+    "motion",
+    "touch target",
+    "input",
+    "form",
+    "hover state",
+    "animation duration",
+    "css",
+    "frontend"
+  ],
+  "contains": [
+    "7 sections: interactivity, typography, motion, touch, optimizations, accessibility, design",
+    "concrete rules with exact values, e.g. 200ms animations, 16px inputs, ~0.96 press scale",
+    "footnotes explaining each rule",
+    "living document, edited via pull request"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

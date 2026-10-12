@@ -1,0 +1,26 @@
+{
+  "id": "color-adobe-com-create",
+  "url": "https://color.adobe.com/create",
+  "kind": "page",
+  "hints_hash": "768975a6aa3f3ae7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:26:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://color.adobe.com/create", "title": "Color Palette Generator – Color Wheel Tool | Adobe Express", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Color Palette Generator – Color Wheel Tool",
+  "summary": "Adobe's free online color wheel for building palettes from a base color, harmony rules or an uploaded image.",
+  "description": "An online color palette generator: pick a base color or upload an image to extract colors, choose a harmony (monochromatic, complementary, analogous, triadic, split-complementary), preview the palette with a color-blindness simulation and contrast ratio, and save it to a library. Links to a contrast checker, an image gradient extractor and a palette explorer.",
+  "type": "generator",
+  "elements": [],
+  "keywords": ["color wheel", "color palette generator", "color harmony", "complementary color", "analogous color", "triadic color", "monochromatic palette", "palette from image", "contrast checker", "color blindness simulation", "wcag contrast", "color scheme", "brand palette"],
+  "contains": ["interactive color wheel with harmony rules", "palette extraction from an uploaded image", "on-page preview with contrast ratio and color-blindness simulation", "contrast checker, gradient extractor and palette explorer", "save palettes to an Adobe library"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "color-adobe-com"},
+  "confidence": 0.85
+}

@@ -1,0 +1,21 @@
+{
+  "id": "katu-com-news-nation-world-stars-entertainers-pay-tribute-to-dolly-parto",
+  "url": "https://katu.com/news/nation-world/stars-entertainers-pay-tribute-to-dolly-parton-as-family-shares-ways-to-honor-country-icon-imaginiation-library-donations-literacy-nashville-tennessee-funeral-service",
+  "kind": "page",
+  "hints_hash": "f1e87b3167abe49a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:54:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://katu.com/news/nation-world/stars-entertainers-pay-tribute-to-dolly-parton-as-family-shares-ways-to-honor-country-icon-imaginiation-library-donations-literacy-nashville-tennessee-funeral-service", "title": "Stars pay tribute to Dolly Parton as family shares ways to honor country icon", "status": null}
+  ],
+  "status": "ok",
+  "name": "Stars pay tribute to Dolly Parton as family shares ways to honor country icon",
+  "summary": "News article on entertainers' tributes to Dolly Parton and her family's call to support her Imagination Library charity.",
+  "description": "Article reporting the death of Dolly Parton at 80, tributes from entertainers such as Lily Tomlin, Jane Fonda, Reba McEntire, Kacey Musgraves and Billy Ray Cyrus, and her family's request that fans donate to the Imagination Library literacy program in lieu of flowers. Includes a photo gallery of Parton over the years.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["dolly parton", "tribute", "obituary", "news article", "country music", "celebrity", "charity donation", "imagination library", "literacy", "nashville", "photo gallery"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

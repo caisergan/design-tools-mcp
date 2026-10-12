@@ -1,0 +1,35 @@
+{
+  "id": "github-com-r2hu1-shadcn-cookie-consent",
+  "url": "https://github.com/r2hu1/shadcn-cookie-consent",
+  "kind": "repo",
+  "hints_hash": "b53cb978052976a1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:50Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/r2hu1/shadcn-cookie-consent/blob/HEAD/README.md", "title": "Shadcn Cookie Consent (updated to shadcn@latest, next@latest, tailwindcss@latest)", "status": null},
+    {"url": "https://github.com/r2hu1/shadcn-cookie-consent", "title": "GitHub - r2hu1/shadcn-cookie-consent: Beautifully designed, customizable cookie consent for web built on top of shadcn-ui and tailwind-css! · GitHub", "status": 200},
+    {"url": "https://github.com/r2hu1/shadcn-cookie-consent/blob/HEAD/LICENSE", "title": null, "status": 404}
+  ],
+  "status": "ok",
+  "name": "Shadcn Cookie Consent",
+  "summary": "Cookie consent banner component for shadcn/ui with three variants and accept/decline callbacks.",
+  "description": "A cookie consent component built on shadcn/ui and Tailwind CSS. It comes in default, small and mini variants and exposes onAccept and onDecline callbacks; install it with the shadcn CLI or paste the component and restyle it with your own theme.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["banner"],
+  "keywords": ["cookie consent", "cookie banner", "cookie notice", "gdpr", "consent", "privacy", "shadcn", "react", "nextjs", "tailwind"],
+  "contains": [
+    "one cookie consent component",
+    "three variants: default, small and mini",
+    "onAccept and onDecline callbacks",
+    "installs with the shadcn CLI or copy-paste",
+    "restyle with your own CSS, Tailwind config and shadcn theme"
+  ],
+  "formats": ["code", "cli", "registry"],
+  "stack": ["react", "nextjs", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/r2hu1/shadcn-cookie-consent", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "id": "githubcreature-com",
+  "url": "https://githubcreature.com",
+  "kind": "site",
+  "hints_hash": "06eacc7ed5d31af4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://githubcreature.com", "title": "GitHub Creature - Summon the Creature Behind Your Code", "status": null},
+    {"url": "https://www.githubcreature.com/summon", "title": "GitHub Creature - Summon your code creature", "status": 200},
+    {"url": "https://www.githubcreature.com/leaderboard", "title": "GitHub Creature - Leaderboard", "status": 200},
+    {"url": "https://www.githubcreature.com/sindresorhus", "title": "The Blood-Forged Sentinel - sindresorhus's GitHub Creature", "status": 200}
+  ],
+  "status": "ok",
+  "name": "GitHub Creature",
+  "summary": "Turns any GitHub profile into a fantasy creature with a generated portrait, lore and stats.",
+  "description": "Enter a GitHub username or profile URL and get a fantasy creature generated from that account: a creature portrait, a written lore description and stats such as contributions, followers, stars and percentile rank. Every creature gets a shareable page and appears on leaderboards ranked by stars and by contributions.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["github profile", "fantasy creature", "generator", "github stat", "leaderboard", "developer stat", "shareable image", "fun tool", "open source profile", "developer card"],
+  "contains": ["creature generated from any GitHub username or profile URL", "creature page with portrait, lore and stats: contributions, followers, stars and top-% rank", "leaderboards by stars and by contributions", "latest creatures feed on the summon page"],
+  "formats": ["png", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

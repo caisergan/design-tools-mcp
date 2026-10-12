@@ -1,0 +1,79 @@
+{
+  "id": "github-com-agricidaniel-claude-seo",
+  "url": "https://github.com/AgriciDaniel/claude-seo",
+  "kind": "repo",
+  "hints_hash": "515ab63d0e34613f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/HEAD/README.md",
+      "title": "Claude SEO: SEO Skill for Claude Code",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Claude SEO",
+  "summary": "SEO analysis plugin for Claude Code: 25 sub-skills and 18 specialist agents covering technical, content, schema and AI search SEO.",
+  "description": "An open-source SEO analysis plugin for Claude Code (and a Codex port): 25 sub-skills and 18 specialist agents run in parallel across technical SEO, E-E-A-T content quality, Schema.org markup, AI search/GEO, local, e-commerce and international SEO, producing a prioritized action plan with falsifiable recommendations. It ships 32 /seo commands, Google API integrations (Search Console, PageSpeed, CrUX, GA4), extensions for Ahrefs, DataForSEO, Firecrawl and Bing, and an isolated Python runtime with Playwright Chromium.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "claude code",
+    "codex",
+    "seo",
+    "site audit",
+    "technical seo",
+    "ai search",
+    "generative engine optimization",
+    "schema.org",
+    "structured data",
+    "e-e-a-t",
+    "core web vital",
+    "content brief",
+    "local seo",
+    "ecommerce seo",
+    "backlink",
+    "sitemap",
+    "mcp",
+    "plugin"
+  ],
+  "contains": [
+    "25 sub-skills and 18 specialist agents; 32 /seo commands",
+    "full site audits run up to 15 parallel sub-agents",
+    "covers technical, E-E-A-T content, schema, AI search/GEO, local, e-commerce and international SEO",
+    "Google APIs: PageSpeed, CrUX, Search Console, Indexing, GA4, Keyword Planner",
+    "extensions: Ahrefs, DataForSEO, Firecrawl, Seranking, Profound, Bing, Unlighthouse",
+    "plugin install for Claude Code; isolated Python runtime with Playwright Chromium",
+    "Codex-first port at AgriciDaniel/codex-seo",
+    "MIT licensed, public releases, no membership"
+  ],
+  "formats": [
+    "prompts",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "python",
+    "playwright"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/AgriciDaniel/claude-seo",
+    "docs": "https://github.com/AgriciDaniel/claude-seo/blob/HEAD/docs/COMMANDS.md",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

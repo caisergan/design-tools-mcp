@@ -1,0 +1,40 @@
+{
+  "id": "shadcnuikit-com",
+  "url": "https://shadcnuikit.com",
+  "kind": "site",
+  "hints_hash": "42116992488ff97a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnuikit.com", "title": "Shadcn UI Kit: Admin Dashboards, UI Blocks, Components & Website Templates", "status": 200},
+    {"url": "https://shadcnuikit.com/docs", "title": "Shadcn UI Kit Documentation", "status": 200},
+    {"url": "https://shadcnuikit.com/templates", "title": "Free & Premium Website Templates for Shadcn – Shadcnuikit.com", "status": 200},
+    {"url": "https://shadcnuikit.com/pricing", "title": "Pricing – Shadcnuikit.com", "status": 200},
+    {"url": "https://shadcnuikit.com/blocks", "title": "Shadcn Blocks: 550+ Free & Premium UI Blocks", "status": 200},
+    {"url": "https://shadcnuikit.com/docs/license-and-access", "title": "License & Access | Shadcn UI Kit Docs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn UI Kit",
+  "summary": "Shadcn/ui kit of admin dashboards, 555 blocks, components, illustrations and Next.js templates, installed via a shadcn registry.",
+  "description": "A kit by Bundui built on shadcn/ui, Tailwind CSS, React and Next.js: 16 admin dashboards, 17 web app templates, 555 blocks, 700+ components and examples, and animated UI illustrations. Every item has a shadcn registry name for CLI install or copy-paste, plus a Page Builder, Theme Generator and MCP server. One-time payment with lifetime updates, alongside a free Starter tier.",
+  "type": "component-library",
+  "categories": ["components", "sections", "templates"],
+  "elements": ["avatar", "button", "calendar", "card", "carousel", "changelog", "chart", "chat", "checkbox", "contact", "cta", "dashboard", "dropdown", "empty-state", "faq", "features", "footer", "form", "hero", "input", "kanban", "loader", "logo-cloud", "map", "modal", "navbar", "pricing", "select", "sidebar", "slider", "stats", "table", "tabs", "team", "testimonials", "timeline"],
+  "keywords": ["shadcn", "shadcn ui", "admin dashboard", "ui kit", "block", "component", "template", "nextjs", "react", "tailwind", "landing page", "ecommerce template", "crm dashboard", "registry", "shadcn cli", "mcp server", "page builder", "theme generator", "chart", "kanban board", "testimonials", "pricing table", "illustration", "astro"],
+  "contains": [
+    "936 shadcn registry items (932 code items measured)",
+    "555 blocks: heroes, pricing, testimonials, navbars, footers, stats, charts, tables, kanban, chat, maps",
+    "16 admin dashboards, 17 web app templates, 40+ extra pages, 700+ components and examples",
+    "tools: Page Builder, Theme Generator, MCP server",
+    "components work with both Radix UI and Base UI",
+    "built with Next.js 16, React 19, Tailwind CSS v4; some templates use Astro",
+    "one-time payment with lifetime updates; free Starter items"
+  ],
+  "formats": ["code", "registry", "cli", "templates", "docs"],
+  "stack": ["react", "nextjs", "tailwind", "typescript", "astro"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://shadcnuikit.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

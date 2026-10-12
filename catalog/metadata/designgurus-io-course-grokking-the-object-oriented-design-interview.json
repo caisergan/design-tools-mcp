@@ -1,0 +1,22 @@
+{
+  "id": "designgurus-io-course-grokking-the-object-oriented-design-interview",
+  "url": "https://designgurus.io/course/grokking-the-object-oriented-design-interview",
+  "kind": "page",
+  "hints_hash": "f584d5d770450443",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designgurus.io/course/grokking-the-object-oriented-design-interview", "title": "Grokking the Object Oriented Design Interview - OOD & Low Level Design (LLD) Course", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Grokking the Object Oriented Design Interview",
+  "summary": "Object-oriented design interview course with 22 case studies, 250+ UML diagrams and working code in Python, Java and C++.",
+  "description": "Course that teaches a repeatable method for object-oriented design (OOD) and low-level design (LLD) interview questions — bound requirements, find classes, connect them, verify the design — then applies it through 22 case studies such as a parking lot, ATM, chess, Stack Overflow, LinkedIn and Amazon, each ending in code that compiles and runs. Covers UML (use case, class, activity, sequence), SOLID and design patterns; 49 lessons and 35 h of study, with adaptive assessments.",
+  "type": "course",
+  "categories": ["learning"],
+  "keywords": ["object oriented design", "low level design", "system design interview", "interview prep", "uml", "class diagram", "sequence diagram", "use case diagram", "design pattern", "solid", "case study", "course", "python", "java", "cpp"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

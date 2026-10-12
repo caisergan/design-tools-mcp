@@ -1,0 +1,34 @@
+{
+  "id": "github-com-charlie947-social-media-skills",
+  "url": "https://github.com/charlie947/social-media-skills",
+  "kind": "repo",
+  "hints_hash": "bb060cc99ab202c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/charlie947/social-media-skills/blob/HEAD/README.md", "title": "Social Media Skills for AI Agents README", "status": null},
+    {"url": "https://raw.githubusercontent.com/charlie947/social-media-skills/HEAD/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Social Media Skills for AI Agents",
+  "summary": "Claude skills for social media: voice building, LinkedIn and newsletter writing, Reels, thumbnails, hooks, scoring and analytics.",
+  "description": "The skill set behind Charlie Hills' content system (415k+ followers, 100m+ views per year): building a voice foundation, then writing and optimising content for LinkedIn, Instagram Reels, YouTube and a newsletter. Skills cover post writing, hook generation, carousels and infographics, thumbnail concepts, content matrices, niche research, post scoring, pinned comments and an analytics dashboard. Installs via a Claude Code plugin marketplace, cloning, individual upload, git submodule or fork.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "social media", "content creation", "linkedin", "instagram", "reel", "youtube", "newsletter", "thumbnail", "hook", "carousel", "infographic", "post writing", "analytics", "claude code"],
+  "contains": [
+    "skills span voice foundation, LinkedIn, Instagram Reels, YouTube, community and analytics",
+    "skills: voice-builder, post-writer, hook-generator, reels-scripting, youtube-thumbnail, analytics-dashboard",
+    "behind a system with 415k+ followers and 100m+ views per year",
+    "install: plugin marketplace, clone, individual upload, submodule or fork",
+    "MIT license"
+  ],
+  "formats": ["prompts", "cli"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/charlie947/social-media-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

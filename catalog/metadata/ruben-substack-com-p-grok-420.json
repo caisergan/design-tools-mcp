@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-grok-420",
+  "url": "https://ruben.substack.com/p/grok-420",
+  "kind": "page",
+  "hints_hash": "041ef7482232b938",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/grok-420", "title": "Search. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Search.",
+  "summary": "Article comparing AI search tools and arguing Grok 4.20 is now the best, with a search benchmark and copy-paste prompts.",
+  "description": "A How to AI issue on which AI tool is best for finding information: what changed since the last seven-tool test, why Grok 4.20 replaced Perplexity, how to customize your own search agents, the 63-query search benchmark, and a set of best-of search prompts.",
+  "type": "article",
+  "keywords": ["ai search", "search agent", "ai benchmark", "web search", "research workflow", "ai comparison", "prompt", "ai tool", "productivity", "newsletter"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.85
+}

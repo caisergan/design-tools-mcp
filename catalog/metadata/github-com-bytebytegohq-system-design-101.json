@@ -1,0 +1,35 @@
+{
+  "id": "github-com-bytebytegohq-system-design-101",
+  "url": "https://github.com/ByteByteGoHq/system-design-101",
+  "kind": "repo",
+  "hints_hash": "845caa4d95604538",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ByteByteGoHq/system-design-101/blob/HEAD/README.md", "title": "System Design 101", "status": 200},
+    {"url": "https://raw.githubusercontent.com/ByteByteGoHq/system-design-101/HEAD/LICENSE.md", "title": "LICENSE.md", "status": 200}
+  ],
+  "status": "ok",
+  "name": "System Design 101",
+  "summary": "Open-source repo of 300+ illustrated system design explainers: APIs, databases, caching, payments and company architectures.",
+  "description": "A collection of visual explainers that break complex systems into diagrams and simple terms, grouped into twelve sections: API and web development, real-world case studies (Figma, Netflix, Uber, Airbnb, Discord, TikTok, Slack …), AI and machine learning, databases and storage, technical interviews, caching and performance, payments and fintech, software architecture, dev tools and productivity, software development, cloud and distributed systems, and how-it-works posts.",
+  "type": "course",
+  "categories": ["dev-ai-tools", "learning"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "distributed system", "software architecture", "api design", "database", "caching", "microservice", "cloud", "payment system", "technical interview", "engineering blog", "cheat sheet", "visual explainer"],
+  "contains": [
+    "300+ illustrated explainers listed in one README table of contents",
+    "12 sections: API, case studies, AI/ML, databases, interviews, caching, payments, architecture …",
+    "real-world case studies: Figma, Netflix, Uber, Airbnb, Discord, TikTok, Slack",
+    "cheat sheets for databases, APIs, AWS, Azure and caching",
+    "diagram images live in the repository",
+    "licensed CC BY-NC-ND 4.0"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-NC-ND-4.0",
+  "related": {"repo": "https://github.com/ByteByteGoHq/system-design-101", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

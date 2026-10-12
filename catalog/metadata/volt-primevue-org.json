@@ -1,0 +1,100 @@
+{
+  "id": "volt-primevue-org",
+  "url": "https://volt.primevue.org",
+  "kind": "site",
+  "hints_hash": "b1b975d6982e4309",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:43:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://volt.primevue.org",
+      "title": "Volt UI Component Library for Vue.js",
+      "status": null
+    },
+    {
+      "url": "https://volt.primevue.org/overview",
+      "title": "Overview - Volt",
+      "status": null
+    },
+    {
+      "url": "https://volt.primevue.org/vite",
+      "title": "Setting up Volt in a Vite project with PrimeVue and Tailwind.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Volt",
+  "summary": "Vue UI library of 50+ components styled with Tailwind CSS v4, copied into your codebase for full control over styling.",
+  "description": "Volt wraps unstyled PrimeVue components and applies Tailwind CSS v4 utility classes through pass-through attributes, following a code-ownership model where the components live in your application codebase instead of node_modules. It ships 50+ TypeScript components (accordion, dialog, drawer, data table, date picker, inputs and more) with WCAG AA accessibility and the PrimeOne Aura theme as a starting boilerplate, with install guides for Vite and Nuxt.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "checkbox",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "input",
+    "modal",
+    "otp-input",
+    "select",
+    "table"
+  ],
+  "keywords": [
+    "vue component library",
+    "tailwind css",
+    "tailwind v4",
+    "primevue",
+    "unstyled component",
+    "code ownership",
+    "copy paste component",
+    "typescript",
+    "accessible component",
+    "wcag",
+    "vue",
+    "nuxt",
+    "vite",
+    "ui kit"
+  ],
+  "contains": [
+    "50+ TypeScript components built on the unstyled PrimeVue core",
+    "styled with Tailwind CSS v4 utilities via pass-through (pt) classes",
+    "components live in your codebase (code ownership), not node_modules",
+    "PrimeOne Aura theme included as a starting boilerplate",
+    "WCAG AA accessibility",
+    "download per component with the npx volt-vue command",
+    "install guides for Vite and Nuxt; open source by PrimeTek"
+  ],
+  "formats": [
+    "code",
+    "cli"
+  ],
+  "stack": [
+    "vue",
+    "tailwind",
+    "typescript",
+    "primevue"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://volt.primevue.org/overview",
+    "npm": "volt-vue",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

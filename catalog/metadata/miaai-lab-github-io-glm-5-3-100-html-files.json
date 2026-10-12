@@ -1,0 +1,32 @@
+{
+  "id": "miaai-lab-github-io-glm-5-3-100-html-files",
+  "url": "https://miaai-lab.github.io/GLM-5.3-100-HTML-Files",
+  "kind": "page",
+  "hints_hash": "fb20dbb4094f409d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T15:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://miaai-lab.github.io/GLM-5.3-100-HTML-Files", "title": "Hall of One Hundred — GLM-5.3", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hall of One Hundred — GLM-5.3",
+  "summary": "100 self-contained HTML design studies — sign-in pages, posters, players, terminals, kinetic typography — each with its generation prompt.",
+  "description": "A single page presenting 100 self-contained HTML studies generated from prompts: an after-dark sign-in, hand-built CSS planets, a brutalist type poster, a working cyberpunk terminal, a neumorphic music player, an editorial spread, a liquid-chrome drink landing page, a kinetic typography stage and a flow-field atlas. Each card opens the piece in its own tab and shows the prompt used to generate it; the same prompts ship as .txt sidecar files.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "keywords": ["html study", "single file", "self-contained", "generative art", "css animation", "landing page", "sign in page", "cyberpunk", "neumorphism", "editorial design", "kinetic typography", "flow field", "web experiment", "design inspiration", "ai generated", "prompt", "visual study"],
+  "contains": [
+    "100 self-contained HTML studies, one file each",
+    "each study shows the prompt it was generated from and has a .txt sidecar",
+    "topics: after-dark sign-in, CSS planets, brutalist type poster, cyberpunk terminal, neumorphic player",
+    "also included: editorial spread, liquid-chrome hero, kinetic typography, flow-field atlas",
+    "each card opens the piece in its own tab"
+  ],
+  "formats": ["links", "prompts"],
+  "stack": ["css"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,75 @@
+{
+  "id": "github-com-ardasisbot-linked-chart",
+  "url": "https://github.com/ardasisbot/linked-chart",
+  "kind": "repo",
+  "hints_hash": "e60339d480860869",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:33:54Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/ardasisbot/linked-chart/blob/HEAD/README.md",
+      "title": "Linked Chart & Table Component",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Linked Chart & Table Component",
+  "summary": "React component that links a shadcn/Recharts chart with a TanStack DataTable view.",
+  "description": "A copy-in React component that synchronizes a chart with a shadcn/TanStack DataTable: selecting a range on the chart filters the rows the table shows. Supports month, quarter and year date groupings and area or bar chart types, and can be used standalone without the table.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "table",
+    "chart"
+  ],
+  "keywords": [
+    "react component",
+    "chart",
+    "data table",
+    "shadcn chart",
+    "rechart",
+    "tanstack table",
+    "linked chart",
+    "interactive selection",
+    "filters",
+    "area chart",
+    "bar chart",
+    "date grouping",
+    "dashboard"
+  ],
+  "contains": [
+    "synchronized chart and table views",
+    "chart selection filters table data",
+    "date groupings: month, quarter, year",
+    "chart types: area, bar",
+    "works standalone without the DataTable",
+    "built on shadcn charts / Recharts and date-fns"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "recharts",
+    "date-fns",
+    "tanstack"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/ardasisbot/linked-chart",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

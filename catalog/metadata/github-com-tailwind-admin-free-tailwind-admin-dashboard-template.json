@@ -1,0 +1,28 @@
+{
+  "id": "github-com-tailwind-admin-free-tailwind-admin-dashboard-template",
+  "url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template",
+  "kind": "repo",
+  "hints_hash": "7b34d60d8b6ebb62",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template/blob/HEAD/README.md", "title": "Shadcn admin dashboard built with React & Tailwind CSS", "status": 200},
+    {"url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template", "title": "GitHub - Tailwind-Admin/free-tailwind-admin-dashboard-template: Tailwindadmin is a free, open-source, fully responsive Shadcn ui admin dashboard template · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Tailwindadmin",
+  "summary": "Free open-source admin dashboard template built with React and Tailwind CSS, with shadcn/ui versions for five frameworks.",
+  "description": "Admin dashboard template for dashboards, SaaS apps, CRM systems and internal tools, built on Tailwind CSS with shadcn/ui components on Radix. Ships versions for Next.js, React, Angular 21, Vue and TanStack Start, pre-designed pages (dashboard, login, register, user profile, tables, charts, error pages), sidebar/topbar layouts and optional dark mode.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "sidebar", "table", "chart", "form", "404"],
+  "keywords": ["admin dashboard", "admin panel", "dashboard template", "tailwind css", "shadcn ui", "react", "next.js", "angular", "vue", "tanstack start", "free template", "saas dashboard", "crm", "dark mode", "data table", "chart", "login page", "error page", "internal tool"],
+  "contains": ["free open-source Tailwind CSS admin dashboard template", "versions for Next.js, React, Angular 21, Vue and TanStack Start", "pre-designed pages: dashboard, login, register, user profile, tables, charts, error pages", "shadcn/ui components on Radix with Tailwind theming", "sidebar, topbar and page layout structures", "charts built with ApexCharts; Iconify icons", "MIT licensed"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "angular", "vue", "tailwind", "shadcn", "radix", "apexcharts", "tanstack-start"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

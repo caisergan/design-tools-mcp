@@ -1,0 +1,36 @@
+{
+  "id": "file-io",
+  "url": "https://file.io",
+  "kind": "site",
+  "hints_hash": "1da6ac6481ae59e9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://file.io", "title": "file.io - Super simple file sharing", "status": null},
+    {"url": "https://www.file.io/plans", "title": "Plans | file.io", "status": null},
+    {"url": "https://www.file.io/about", "title": "About | file.io", "status": null}
+  ],
+  "status": "ok",
+  "name": "file.io",
+  "summary": "Anonymous file sharing up to 4 GB: upload a file, share the link, and it self-destructs after download.",
+  "description": "Upload files or folders in the browser and get a shareable link; each file is deleted after its first download or at its expiry date (14 days by default). All transfers use HTTPS/TLS and stored files are encrypted. No account is required, and a REST API lets scripts upload files or text with a custom expiry (days, weeks, months or years).",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["file sharing", "send large file", "anonymous upload", "temporary file", "self-destructing file", "file transfer", "link sharing", "rest api", "file expiry", "upload"],
+  "contains": [
+    "upload files and folders, share a link (advertised up to 4 GB)",
+    "files deleted after first download or expiry (default 14 days)",
+    "REST API: uploads files and text, expires param in days, weeks, months or years",
+    "encrypted in transit (HTTPS/TLS) and at rest",
+    "plans: Free ($0), Basic ($25/mo), Premium ($99/mo)",
+    "no account required; no backups once deleted"
+  ],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.file.io/developers", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

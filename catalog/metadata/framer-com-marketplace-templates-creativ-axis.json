@@ -1,0 +1,27 @@
+{
+  "id": "framer-com-marketplace-templates-creativ-axis",
+  "url": "https://framer.com/marketplace/templates/creativ-axis",
+  "kind": "page",
+  "hints_hash": "32a3bb2f372ade6f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/marketplace/templates/creativ-axis", "title": "Creativ Axis — Free Website Template for Framer", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Creativ Axis",
+  "summary": "Free one-page agency portfolio template for Framer with hero, services, projects, process and testimonials.",
+  "description": "Free one-page Framer template for UI/UX designers, freelancers and creative agencies. The homepage packs a hero with video block, about, an animated services rotator, a project showcase grid with hover states, numbered process steps, testimonials and a contact CTA, plus a custom 404 page. Built with sticky scroll sections, color and font variables and SEO-ready meta; a step-by-step setup guide is built into the file.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["hero", "features", "testimonials", "cta", "404", "scroll-effect"],
+  "keywords": ["framer template", "agency template", "portfolio template", "one page", "creative agency", "freelancer portfolio", "ui designer portfolio", "free template", "dark green", "landing page", "website template"],
+  "contains": ["free one-page agency template for Framer", "sections: hero, about, services rotator, project showcase, process steps, testimonials, contact CTA", "custom 404 page", "sticky scroll sections, video block and project hover states", "color and font variables; no Figma file included", "setup guide built into the template file"],
+  "formats": ["framer-file"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.85
+}

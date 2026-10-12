@@ -1,0 +1,31 @@
+{
+  "id": "icoon-co",
+  "url": "https://icoon.co",
+  "kind": "site",
+  "hints_hash": "2bb6c05450ef7f26",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.icoon.co/", "title": "Icoon - 3D Icon library", "status": null},
+    {"url": "https://www.icoon.co/collection", "title": "Collections - Icoon.co", "status": null},
+    {"url": "https://www.icoon.co/pricing", "title": "Pricing - Icoon.co", "status": null},
+    {"url": "https://www.icoon.co/faq", "title": "FAQ - Icoon.co", "status": null},
+    {"url": "https://www.icoon.co/license", "title": "License agreement - Icoon.co", "status": null}
+  ],
+  "status": "ok",
+  "name": "Icoon",
+  "summary": "Library of 1,500+ AI-generated 3D icons, illustrations, avatars and mockups for web, app and print design.",
+  "description": "Downloadable 3D icons, illustrations, avatars, abstract shapes and device mockups, organised into collections such as 3D Isometric Icons, Cartoon Avatar Illustrations and Apple device mockups. Freebies are free to download; a one-time Pro payment unlocks all 1,500+ assets in SVG and PNG for personal and commercial use.",
+  "type": "asset-library",
+  "categories": ["icons", "media"],
+  "elements": [],
+  "keywords": ["3d icon", "icon library", "3d illustration", "avatar illustration", "isometric icon", "abstract shape", "device mockup", "character illustration", "ai generated asset", "svg", "png", "design asset", "commercial license", "landing page asset", "freebie", "icon pack"],
+  "contains": ["1,500+ AI-generated 3D icons, illustrations, avatars, mockups and abstract shapes", "collections: 3D Isometric Icons (54 assets), Cartoon Avatar Illustrations (33), Apple iPhone Pro Mockups (7)", "freebies category is free; Pro is a one-time $29 payment (regular $59)", "assets download as SVG and PNG for websites, apps, landing pages and print"],
+  "formats": ["svg", "png"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

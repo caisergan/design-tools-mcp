@@ -1,0 +1,30 @@
+{
+  "id": "paulgraham-com-ds-html",
+  "url": "https://paulgraham.com/ds.html",
+  "kind": "page",
+  "hints_hash": "c02bc408559284fb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:06:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://paulgraham.com/ds.html", "title": "Do Things that Don't Scale", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Do Things that Don't Scale",
+  "summary": "Paul Graham's July 2013 essay: startups take off only when founders push them, from manual recruiting to early fragility.",
+  "description": "Paul Graham's essay of July 2013 on the advice Y Combinator gives founders: startups take off because the founders make them take off. It covers recruiting users manually (Stripe's aggressive early user acquisition and the 'Collison installation'; Airbnb going door to door in New York) and the fragility of very early startups, plus measuring progress by weekly growth rate.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["do things that don't scale", "startup advice", "y combinator", "founder", "user acquisition", "early adopter", "recruit user", "startup growth", "weekly growth rate", "essay", "startup launch"],
+  "contains": [
+    "dated July 2013",
+    "essay sections include Recruit and Fragile",
+    "examples: Stripe's Collison installation, Airbnb's door-to-door start",
+    "advice from Y Combinator to founders"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "paulgraham-com"},
+  "confidence": 0.9
+}

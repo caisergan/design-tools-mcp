@@ -1,0 +1,28 @@
+{
+  "id": "github-com-supabase-mcp",
+  "url": "https://github.com/supabase/mcp",
+  "kind": "repo",
+  "hints_hash": "4cc1071992724cfb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:54:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/supabase/mcp/blob/HEAD/README.md", "title": "Supabase MCP Server", "status": 200},
+    {"url": "https://github.com/supabase/mcp", "title": "GitHub - supabase/mcp: Connect Supabase to your AI assistants · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Supabase MCP Server",
+  "summary": "MCP server that connects Supabase projects to AI assistants for managing tables, config and data.",
+  "description": "A Model Context Protocol server that lets AI assistants work directly on a Supabase project: managing tables, fetching config, running SQL and querying data, with OAuth 2.1 sign-in. Distributed as npm packages (@supabase/mcp-server-supabase and @supabase/mcp-server-postgrest), a remote endpoint, a local CLI URL and a self-hosting handler.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["mcp server", "model context protocol", "supabase", "database", "sql query", "postgres", "ai assistant", "ai agent", "self-hosted", "oauth", "npm package", "backend"],
+  "contains": ["npm packages @supabase/mcp-server-supabase and @supabase/mcp-server-postgrest", "remote, CLI (localhost:54321/mcp) and self-hosted endpoints", "OAuth 2.1 login; read-only and project-scoped tool filtering", "createToolSchemas() for the Vercel AI SDK MCP client", "Apache-2.0 licensed"],
+  "formats": ["code", "npm-package", "api", "docs"],
+  "stack": ["typescript"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/supabase/mcp", "docs": "https://supabase.com/mcp", "npm": "@supabase/mcp-server-supabase", "figma": null, "parent": null},
+  "confidence": 0.9
+}

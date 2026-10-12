@@ -1,0 +1,38 @@
+{
+  "id": "photoroom-com",
+  "url": "https://photoroom.com",
+  "kind": "site",
+  "hints_hash": "0a18503c480f0ca7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:13:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://photoroom.com/llms.txt", "title": "Photoroom", "status": null},
+    {"url": "https://photoroom.com", "title": "AI-Powered Photo Editor and Listing Studio for Product Photography | Photoroom", "status": 200},
+    {"url": "https://www.photoroom.com/pricing", "title": "Photoroom Pricing: Plans, Prices & Free Trial | Photoroom", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Photoroom",
+  "summary": "AI photo editor and listing studio for e-commerce: remove backgrounds, batch-edit and create product images.",
+  "description": "Photoroom is an AI-powered background remover and image editing platform for e-commerce and social media visuals. It combines studio-style product photography tools — AI backgrounds, shadows, recolor, staging — with batch editing at catalog scale, an image API, marketplace sync for Shopify, brand libraries and instant resize. Built for everyone from solo sellers to global teams running visual production at scale, with SOC 2 Type 2 security.",
+  "type": "tool",
+  "categories": ["media", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["background remover", "background removal", "product photo", "e-commerce", "photo editor", "ai photo", "batch editing", "image api", "product photography", "shadow", "recolor", "resize", "brand kit", "marketplace", "shopify", "listing", "social media post", "video template"],
+  "contains": [
+    "AI background remover and listing studio for e-commerce product photos",
+    "batch editing across thousands of images via web app or API",
+    "tools: AI backgrounds, AI shadows, recolor, product staging, AI expand, upscale",
+    "instant resize for Instagram, Amazon and Shopify; marketplace sync",
+    "Brand Library locks colors, logos, fonts and layouts per brand",
+    "video templates turn product shots into Reels, TikTok and Stories videos",
+    "image API, PIM/DAM connectors; Visual QA on higher plans",
+    "start for free; Pro, Max, Ultra and Enterprise plans priced in AI credits"
+  ],
+  "formats": ["app", "api", "templates", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

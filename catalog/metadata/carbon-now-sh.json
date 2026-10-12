@@ -1,0 +1,34 @@
+{
+  "id": "carbon-now-sh",
+  "url": "https://carbon.now.sh",
+  "kind": "site",
+  "hints_hash": "82743561712dcf3b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://carbon.now.sh", "title": "Carbon | Create and share beautiful images of your source code", "status": 200},
+    {"url": "https://carbon.now.sh/about", "title": "Carbon | Create and share beautiful images of your source code", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Carbon",
+  "summary": "Browser tool that turns source code into shareable images with syntax themes, window styles, backgrounds and PNG or SVG export.",
+  "description": "A web tool for creating images out of source code, made for sharing code screenshots on social posts and docs. Import by pasting, dropping a file or appending a GitHub gist id to the URL, then style it with a syntax theme, background color or image, window theme and padding. Export as PNG or SVG, copy the image to the clipboard or tweet a link.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["code screenshot", "code image", "source code", "syntax highlighting", "code snippet", "theme", "png export", "svg export", "clipboard", "image export", "share code", "github gist", "window style", "background", "developer"],
+  "contains": [
+    "create images of source code and share them",
+    "import by pasting, dropping a file or appending a GitHub gist id to the URL",
+    "customize syntax theme, background color or image, window theme and padding",
+    "export as PNG or SVG, copy to clipboard or tweet a link",
+    "keyboard shortcuts for settings, export, save snippet and reset"
+  ],
+  "formats": ["png", "svg"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

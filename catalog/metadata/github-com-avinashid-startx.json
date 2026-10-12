@@ -1,0 +1,28 @@
+{
+  "id": "github-com-avinashid-startx",
+  "url": "https://github.com/avinashid/startx",
+  "kind": "repo",
+  "hints_hash": "0fc0dd75935ce9a3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/avinashid/startx/blob/HEAD/README.md", "title": "startx", "status": null},
+    {"url": "https://github.com/avinashid/startx", "title": "GitHub - avinashid/startx: Scaffold a production-ready TypeScript monorepo in minutes. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "startx",
+  "summary": "CLI that scaffolds a production-ready Turborepo TypeScript monorepo with Next.js, React Router, Express and shadcn/ui packages.",
+  "description": "A Turborepo starter scaffolded by the startx CLI: startx init creates the workspace, and startx package add/new copy template apps and packages into it later. Apps include Next.js 16, a React Router v8 SPA, an Express REST server, a Hono server on Bun, a Commander CLI and a queue worker; packages cover auth, Drizzle databases (PostgreSQL or SQLite), Redis, mail, logging, OpenTelemetry observability, a React UI library and AI utilities. AGENTS.md documents the conventions for AI coding agents.",
+  "type": "template",
+  "categories": ["templates", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["turborepo", "monorepo", "starter", "scaffold", "cli", "next.js", "react router", "express", "hono", "bun", "drizzle", "typescript", "shadcn ui", "tailwind css", "pnpm"],
+  "contains": ["startx init, package list, package add and package new commands", "apps: Next.js 16, React Router v8 SPA, Express server, Hono on Bun, CLI, queue worker", "packages: env, lib, logger, mail, redis, observability, model, common, ui, queue, aix", "databases: Drizzle with PostgreSQL or SQLite", "shared configs: TypeScript, ESLint, Vitest, tsdown", "AGENTS.md and a condensed agent skill for AI coding agents", "MIT licensed"],
+  "formats": ["npm-package", "cli", "code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "react-router", "express", "hono", "bun", "drizzle", "zod", "turborepo", "vitest"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/avinashid/startx", "docs": null, "npm": "startx", "figma": null, "parent": null},
+  "confidence": 0.9
+}

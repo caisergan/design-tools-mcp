@@ -1,0 +1,84 @@
+{
+  "id": "github-com-gneiru-kd",
+  "url": "https://github.com/gneiru/kd",
+  "kind": "repo",
+  "hints_hash": "cc42fa4e50017736",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/gneiru/kd/blob/HEAD/README.md",
+      "title": "K-NEXT",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gneiru/kd",
+      "title": "GitHub - noelrohi/kd: Ad-free Kdrama streaming app",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gneiru/kd/HEAD/LICENSE",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "K-NEXT",
+  "summary": "Ad-free Kdrama streaming app template with watchlist, episode tracking and an activity API.",
+  "description": "Ad-free Korean drama streaming web app (K-NEXT) built with Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM and NextAuth; streams come from the Consumet API. Features watchlists, episode tracking and an activity API, with comments marked as planned. MIT-licensed and self-hostable: copy the env file, run the Drizzle migrations and start on port 1999.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [],
+  "keywords": [
+    "kdrama",
+    "korean drama",
+    "streaming app",
+    "watchlist",
+    "episode tracking",
+    "nextjs",
+    "shadcn ui",
+    "tailwind",
+    "drizzle",
+    "next-auth",
+    "self-hosted",
+    "ad-free"
+  ],
+  "contains": [
+    "ad-free Kdrama streaming (K-NEXT)",
+    "watchlist, episode tracking and an activity API; comments planned",
+    "built with Next.js, shadcn/ui, Drizzle ORM, NextAuth and the Consumet API",
+    "self-host with pnpm; dev server on port 1999",
+    "MIT licensed"
+  ],
+  "formats": [
+    "templates",
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "shadcn-ui",
+    "radix",
+    "drizzle",
+    "next-auth",
+    "zod"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/gneiru/kd",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

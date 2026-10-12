@@ -1,0 +1,37 @@
+{
+  "id": "github-com-skolaczk-next-starter",
+  "url": "https://github.com/Skolaczk/next-starter",
+  "kind": "repo",
+  "hints_hash": "87464c58d3a98173",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:03:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Skolaczk/next-starter/blob/HEAD/README.md", "title": "next-starter", "status": null},
+    {"url": "https://github.com/Skolaczk/next-starter", "title": "GitHub - Skolaczk/next-starter: A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Biome, Stripe, testing tools and more. Jumpstart your project with efficienc…", "status": 200}
+  ],
+  "status": "ok",
+  "name": "next-starter",
+  "summary": "Next.js starter template with TypeScript, Tailwind CSS, shadcn/ui, NextAuth, Stripe, Drizzle and testing preconfigured.",
+  "description": "A batteries-included Next.js 16 template built with React 19, TypeScript, Tailwind CSS 4 and shadcn/ui components. It ships authentication with NextAuth, Stripe payments, Drizzle ORM on Neon Postgres, Zod validation, dark mode, i18n and a sitemap and robots.txt setup. Biome, Husky, Jest, React Testing Library and Playwright come configured for linting, formatting and testing.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["next.js", "starter template", "boilerplate", "typescript", "tailwind css", "shadcn ui", "nextauth", "stripe", "drizzle orm", "dark mode", "i18n", "testing", "react", "saas starter"],
+  "contains": [
+    "Next.js 16 template with React 19, TypeScript and Tailwind CSS 4",
+    "shadcn/ui components, Lucide icons and dark mode via next-themes",
+    "NextAuth authentication with GitHub provider",
+    "Stripe payments, Drizzle ORM on Neon Postgres, Zod validation",
+    "i18n with next-intl, sitemap and robots.txt",
+    "Jest, React Testing Library, Playwright, Biome and Husky preconfigured",
+    "T3-env environment variables and GitHub Actions linting",
+    "one-click Vercel deploy"
+  ],
+  "formats": ["code", "templates"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "drizzle", "stripe", "next-auth", "next-intl"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Skolaczk/next-starter", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

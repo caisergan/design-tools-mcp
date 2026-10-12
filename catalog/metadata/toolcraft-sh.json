@@ -1,0 +1,39 @@
+{
+  "id": "toolcraft-sh",
+  "url": "https://toolcraft.sh",
+  "kind": "site",
+  "hints_hash": "e76a6481360cdc6f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://toolcraft.sh", "title": "Toolcraft – Build your own design apps with AI.", "status": 200},
+    {"url": "https://toolcraft.sh/components", "title": "Components | Toolcraft", "status": 200},
+    {"url": "https://toolcraft.sh/gallery", "title": "Gallery | Toolcraft", "status": 200},
+    {"url": "https://github.com/pixel-point/toolcraft", "title": "GitHub - pixel-point/toolcraft: Build your own design apps with AI. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Toolcraft",
+  "summary": "Open-source starter kit and UI library for building custom design apps with an AI coding agent.",
+  "description": "A starter app plus a UI library for building small creative tools: a canvas with pan and zoom, controls and panels, sliders, color and font pickers, layers, animation timeline and keyframes, and image/video export. Scaffolded by the CLI or by prompting an AI agent; built with TanStack Router, React, TypeScript, Tailwind CSS and Base UI. Includes example apps, agent skills and acceptance checks.",
+  "type": "template",
+  "categories": ["templates", "design-tools"],
+  "elements": ["slider", "select", "switch", "checkbox", "input", "button", "file-upload"],
+  "keywords": ["starter kit", "design app", "design tool", "canvas", "ai agent", "component library", "react", "typescript", "tailwind css", "base ui", "tanstack router", "webgl", "three.js", "shader", "generative art", "image export", "video export", "keyframe", "timeline", "open source"],
+  "contains": [
+    "starter app, UI library and AI harness copied into your project",
+    "runtime: canvas with pan/zoom, controls, panels, layers, timeline, keyframes, image/video export",
+    "controls: slider, range, select, switch, checkbox, color, gradient, font picker, uploads, canvas, layers, toolbar",
+    "stack: TanStack Router, React, TypeScript, Tailwind CSS, Base UI",
+    "example app gallery: Liquid Metal, Mesh FX, Dither Lab, Suminagashi Studio and more",
+    "works with Codex, Claude Code, Cursor or another coding agent",
+    "checks: unit, browser, acceptance and performance tests",
+    "MIT licensed, free for commercial projects"
+  ],
+  "formats": ["code", "cli", "npm-package", "templates"],
+  "stack": ["react", "typescript", "tailwind", "tanstack-router", "base-ui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/pixel-point/toolcraft", "docs": null, "npm": "@pixel-point/toolcraft", "figma": null, "parent": null},
+  "confidence": 0.9
+}

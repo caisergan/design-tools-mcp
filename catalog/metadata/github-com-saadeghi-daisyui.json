@@ -1,0 +1,36 @@
+{
+  "id": "github-com-saadeghi-daisyui",
+  "url": "https://github.com/saadeghi/daisyui",
+  "kind": "repo",
+  "hints_hash": "8669eb28e4970c83",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/saadeghi/daisyui/blob/HEAD/README.md", "title": "daisyUI 5", "status": 200},
+    {"url": "https://daisyui.com/components/", "title": "Tailwind CSS Components", "status": 200},
+    {"url": "https://raw.githubusercontent.com/saadeghi/daisyui/master/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "daisyUI",
+  "summary": "Free, open-source component library that adds semantic UI component classes to Tailwind CSS.",
+  "description": "daisyUI 5 provides 68 Tailwind CSS components — accordion, alert, avatar, badge, button, card, carousel, drawer, dropdown, modal, navbar, table, tabs and more — as semantic class names you drop into your markup. It installs as a Tailwind plugin (also usable from a CDN) and is framework agnostic, with themes, a theme generator, templates, a Figma library, charts and MCP offerings on daisyui.com.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chat", "checkbox", "drawer", "dropdown", "file-upload", "footer", "form", "hero", "input", "list", "loader", "modal", "navbar", "otp-input", "pagination", "progress", "select", "slider", "stats", "stepper", "switch", "table", "tabs", "text-effect", "timeline", "toast", "tooltip", "3d"],
+  "variants": {"navbar": ["mega-menu", "dock"]},
+  "keywords": ["tailwind css", "component library", "css component", "ui kit", "tailwind plugin", "theme", "navbar", "modal", "drawer", "dropdown", "pagination", "otp input", "copy paste", "html", "free ui"],
+  "contains": [
+    "68 Tailwind CSS components with copy-ready markup",
+    "Semantic class names (btn, card, navbar, modal …) styled by a Tailwind plugin",
+    "Component docs with examples for every component",
+    "Themes, a theme generator and templates on daisyui.com",
+    "Framework agnostic: plain HTML, React, Vue or any stack"
+  ],
+  "formats": ["code", "npm-package", "docs"],
+  "stack": ["tailwind", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/saadeghi/daisyui", "docs": "https://daisyui.com/docs/install/", "npm": "daisyui", "figma": null, "parent": null},
+  "confidence": 0.9
+}

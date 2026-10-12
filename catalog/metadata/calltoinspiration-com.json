@@ -1,0 +1,118 @@
+{
+  "id": "calltoinspiration-com",
+  "url": "https://calltoinspiration.com",
+  "kind": "site",
+  "hints_hash": "b5e5b1f677be17af",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://calltoinspiration.com",
+      "title": "UI Design Inspiration & Web Design Patterns | CallToInspiration",
+      "status": null
+    },
+    {
+      "url": "https://calltoinspiration.com/gallery",
+      "title": "Gallery UI Design Inspiration | CallToInspiration",
+      "status": null
+    },
+    {
+      "url": "https://calltoinspiration.com/faq",
+      "title": "FAQ – Gallery Advertising | Call To Inspiration",
+      "status": null
+    },
+    {
+      "url": "https://calltoinspiration.com/about",
+      "title": "About – Call To Inspiration",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CallToInspiration",
+  "summary": "Curated gallery of real UI design examples from websites and apps, organised by component and pattern.",
+  "description": "A curated UI and UX gallery for designers and developers, with handpicked examples from real websites and apps organised by the components you are building — logins, sign-ups, popups, pricing, dashboards, tables, footers, 404 pages, empty states, toasts and dozens more. Makers can place banner cards inside the galleries through paid advertising.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "footer",
+    "pricing",
+    "features",
+    "testimonials",
+    "empty-state",
+    "sidebar",
+    "dashboard",
+    "stats",
+    "banner",
+    "404",
+    "tabs",
+    "stepper",
+    "modal",
+    "dropdown",
+    "tooltip",
+    "toast",
+    "alert",
+    "button",
+    "input",
+    "slider",
+    "file-upload",
+    "form",
+    "table",
+    "card",
+    "list",
+    "calendar",
+    "timeline",
+    "carousel",
+    "chat"
+  ],
+  "keywords": [
+    "ui inspiration",
+    "design pattern",
+    "login page",
+    "sign up",
+    "popup",
+    "pricing page",
+    "dashboard",
+    "empty state",
+    "404 page",
+    "wizard",
+    "toast",
+    "cookie banner",
+    "navbar",
+    "sidebar",
+    "table",
+    "calendar",
+    "checkout form",
+    "website design example",
+    "real website",
+    "interface gallery"
+  ],
+  "contains": [
+    "curated galleries of real UI examples from websites and apps",
+    "dozens of categories: logins, popups, pricing, dashboards, tables, footers, 404, empty states, toasts and more",
+    "hundreds of references to browse",
+    "banner advertising cards placed inside the galleries"
+  ],
+  "formats": [
+    "screenshots"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

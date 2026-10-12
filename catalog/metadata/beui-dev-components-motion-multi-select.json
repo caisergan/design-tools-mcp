@@ -1,0 +1,71 @@
+{
+  "id": "beui-dev-components-motion-multi-select",
+  "url": "https://beui.dev/components/motion/multi-select",
+  "kind": "page",
+  "hints_hash": "d48a87896386072e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://beui.dev/components/motion/multi-select",
+      "title": "Multi Select · React motion component · beUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Multi Select",
+  "summary": "Composable multi-select React component with searchable options, animated tokens and a morphing panel.",
+  "description": "Free open-source multi-select primitives for React and Next.js: searchable options with a filter function and keyboard navigation, selected values as removable animated tokens, and a collision-aware panel that morphs out of the trigger. Install with the shadcn CLI (shadcn add @beui/multi-select) or copy the source; parts include trigger, value, content, list, item, group and label.",
+  "elements": [
+    "select",
+    "input",
+    "popover"
+  ],
+  "keywords": [
+    "multi select",
+    "select",
+    "combobox",
+    "searchable select",
+    "chip",
+    "token",
+    "keyboard navigation",
+    "motion component",
+    "spring animation",
+    "react",
+    "nextjs",
+    "shadcn",
+    "form control",
+    "popover",
+    "filters"
+  ],
+  "contains": [
+    "multi-select primitives: trigger, value, content, list, item, group, label",
+    "searchable options with a subsequence filter function",
+    "selected values as removable animated tokens",
+    "collision-aware panel that morphs out of the trigger",
+    "shadcn CLI install: shadcn add @beui/multi-select"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "nextjs"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "beui-dev"
+  },
+  "confidence": 0.85
+}

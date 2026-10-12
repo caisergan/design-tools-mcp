@@ -1,0 +1,15 @@
+{
+  "id": "archive-org",
+  "url": "https://archive.org",
+  "kind": "site",
+  "hints_hash": "82b3e83bcb25ad25",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://archive.org/about/", "title": null, "status": 200},
+    {"url": "https://archive.org/details/texts", "title": null, "status": 200}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

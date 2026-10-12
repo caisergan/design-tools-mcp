@@ -1,0 +1,106 @@
+{
+  "id": "github-com-techwithanirudh-shadcn-saas-landing",
+  "url": "https://github.com/techwithanirudh/shadcn-saas-landing",
+  "kind": "repo",
+  "hints_hash": "aa553a2dfab3ac0a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:10:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/techwithanirudh/shadcn-saas-landing/blob/HEAD/README.md",
+      "title": "SaasCN",
+      "status": null
+    },
+    {
+      "url": "https://github.com/techwithanirudh/shadcn-saas-landing",
+      "title": "GitHub - techwithanirudh/shadcn-saas-landing: A SaaS Landing template built using Next.JS 15, shadcn/ui, and fumadocs. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://saas-landing.techwithanirudh.com/",
+      "title": "SaasCN",
+      "status": 200
+    },
+    {
+      "url": "https://saas-landing.techwithanirudh.com/pricing",
+      "title": "Pricing | SaasCN",
+      "status": 200
+    },
+    {
+      "url": "https://saas-landing.techwithanirudh.com/about",
+      "title": "SaasCN",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "SaasCN",
+  "summary": "SaaS landing page template built with Next.js 15, shadcn/ui and Fumadocs: marketing pages, pricing, blog and contact.",
+  "description": "A SaaS marketing site template built with Next.js 15, shadcn/ui, Tailwind CSS and Fumadocs. The landing page carries an announcement banner, hero, feature grid, testimonials and CTA; the template also ships about (with a team section), pricing (Starter free, Pro $49, Business $99, Enterprise), contact and legal pages plus a blog with tags. Copy uses placeholder branding, so it can be renamed and deployed as a product site.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "banner",
+    "contact",
+    "cta",
+    "features",
+    "hero",
+    "navbar",
+    "pricing",
+    "team",
+    "testimonials"
+  ],
+  "keywords": [
+    "saas",
+    "landing page",
+    "landing page template",
+    "next.js",
+    "shadcn ui",
+    "fumadoc",
+    "tailwind css",
+    "react",
+    "typescript",
+    "marketing site",
+    "pricing page",
+    "startup",
+    "blog",
+    "announcement banner",
+    "template"
+  ],
+  "contains": [
+    "landing page: announcement banner, hero, features, testimonials, CTA",
+    "pricing tiers: Starter (free), Pro $49, Business $99, Enterprise (custom)",
+    "about page with team section",
+    "blog with tags",
+    "contact and legal pages",
+    "built with Next.js 15 and Fumadocs",
+    "MIT licensed, 70 stars"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "fumadocs"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/techwithanirudh/shadcn-saas-landing",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

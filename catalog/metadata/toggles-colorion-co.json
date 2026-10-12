@@ -1,0 +1,27 @@
+{
+  "id": "toggles-colorion-co",
+  "url": "https://toggles.colorion.co",
+  "kind": "site",
+  "hints_hash": "9aafc8bfe48f2227",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://toggles.colorion.co", "title": "CSS Toggle Library — Pure-CSS Switches & Checkboxes", "status": null}
+  ],
+  "status": "ok",
+  "name": "CSS Toggle Library",
+  "summary": "Library of 36 pure-CSS toggles, switches, checkboxes and radios to copy — no JavaScript, no dependencies.",
+  "description": "A copy-and-paste collection of 36 toggle switches, checkboxes and radios built with pure CSS. Click any toggle to view and copy its self-contained CSS, or grab a ready-made prompt to have a coding agent recreate it; each snippet defines its own theme tokens and respects prefers-reduced-motion.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["switch", "checkbox"],
+  "keywords": ["css toggle", "toggle switch", "switch component", "checkbox", "radio button", "pure css", "no javascript", "copy paste css", "css library", "dark mode toggle", "ui component", "css snippet", "coding agent prompt", "custom checkbox"],
+  "contains": ["36 toggles, switches, checkboxes and radios", "pure CSS, no JavaScript, no dependencies", "click a toggle to copy its self-contained CSS", "ready-made prompts for coding agents", "each snippet defines its own theme tokens and respects prefers-reduced-motion", "MIT licensed"],
+  "formats": ["code", "prompts"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

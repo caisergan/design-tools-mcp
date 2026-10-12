@@ -1,0 +1,27 @@
+{
+  "id": "github-com-babelize-babelize-elements",
+  "url": "https://github.com/babelize/babelize-elements",
+  "kind": "repo",
+  "hints_hash": "df972be1b3e01f25",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/babelize/babelize-elements/blob/HEAD/README.md", "title": "Babelize Elements", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Babelize Elements",
+  "summary": "Open-source React and Tailwind components for localization: language switcher, phone input and navbar.",
+  "description": "Community-built library of localization UI components for React and Tailwind CSS — language switchers, locale pickers, translation widgets and RTL-aware primitives. Install the full package with npm install @babelize/elements or add components one at a time through the shadcn CLI; components work uncontrolled or controlled, ship with pluralization and RTL handling and have no framework lock-in. Documentation and live demos live at elements.babelize.co.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["navbar", "input", "select"],
+  "keywords": ["react", "tailwind", "localization", "i18n", "language switcher", "locale picker", "rtl", "shadcn", "registry", "copy paste", "phone input", "navbar", "multilingual", "open source"],
+  "contains": ["localization UI components for React and Tailwind", "exports: LanguageSwitcher, PhoneInput, NavBar", "installs via npm (@babelize/elements) or the shadcn CLI", "uncontrolled and controlled props; pluralization and RTL built in", "MIT licensed; community contributions welcome", "docs with live demos at elements.babelize.co"],
+  "formats": ["code", "npm-package", "registry", "docs"],
+  "stack": ["react", "tailwind", "nextjs"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/babelize/babelize-elements", "docs": "https://elements.babelize.co", "npm": "@babelize/elements", "figma": null, "parent": null},
+  "confidence": 0.9
+}

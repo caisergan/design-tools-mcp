@@ -1,0 +1,20 @@
+{
+ "id": "ruben-substack-com-p-thinking-is-now-cheap",
+ "url": "https://ruben.substack.com/p/thinking-is-now-cheap",
+ "kind": "page",
+ "hints_hash": "6cc96090ac827798",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:43:05Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://ruben.substack.com/p/thinking-is-now-cheap", "title": "AI brain rot. - by Ruben Hassid - How to AI", "status": null}
+ ],
+ "status": "partial",
+ "name": "AI brain rot.",
+ "summary": "Paid essay on how cheap AI thinking can deskill people, citing studies on GPS, tutoring and medicine plus a use-it-or-lose-it test.",
+ "keywords": ["ai brain rot", "deskilling", "cognition", "critical thinking", "ai dependency", "learning", "essay", "study", "productivity"],
+ "type": "article",
+ "pricing": "paid",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+ "confidence": 0.75
+}

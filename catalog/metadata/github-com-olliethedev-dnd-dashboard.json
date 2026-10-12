@@ -1,0 +1,28 @@
+{
+  "id": "github-com-olliethedev-dnd-dashboard",
+  "url": "https://github.com/olliethedev/dnd-dashboard",
+  "kind": "repo",
+  "hints_hash": "0f07568f97510ef5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/olliethedev/dnd-dashboard/blob/HEAD/README.md", "title": "Next.js Drag-and-Drop Dashboard Demo", "status": 200},
+    {"url": "https://github.com/olliethedev/dnd-dashboard", "title": "GitHub - olliethedev/dnd-dashboard: A beautiful, performant dashboard with drop-to-swap layouts built using Next.js, shadcn/ui, and swapy · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Next.js Drag-and-Drop Dashboard Demo",
+  "summary": "Dashboard demo with drop-to-swap drag-and-drop layouts, built with Next.js, shadcn/ui and swapy.",
+  "description": "A Next.js dashboard where layout blocks can be dragged and swapped, with real-time layout updates and a responsive design. Built with shadcn/ui components and the swapy drag-and-drop library, server-rendered like a normal Next.js app.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["dashboard", "card"],
+  "keywords": ["dashboard", "drag and drop", "drop to swap", "draggable card", "nextjs", "react", "shadcn", "tailwind", "dashboard template", "layout customization", "swapy"],
+  "contains": ["drag-and-drop layout customization with drop-to-swap", "real-time layout updates", "built with Next.js, shadcn/ui and swapy", "responsive, server-side rendered demo"],
+  "formats": ["code"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "swapy"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/olliethedev/dnd-dashboard", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

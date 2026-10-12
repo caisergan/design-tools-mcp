@@ -1,0 +1,31 @@
+{
+  "id": "github-com-pipecat-ai-voice-ui-kit",
+  "url": "https://github.com/pipecat-ai/voice-ui-kit",
+  "kind": "repo",
+  "hints_hash": "42edc6dae12fb925",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/pipecat-ai/voice-ui-kit/blob/HEAD/README.md", "title": "Pipecat Voice UI Kit", "status": null},
+    {"url": "https://github.com/pipecat-ai/voice-ui-kit", "title": "GitHub - pipecat-ai/voice-ui-kit: Components, hooks and template apps for building React voice AI applications quickly.", "status": 200},
+    {"url": "https://voiceuikit.pipecat.ai", "title": "Quickstart - Voice UI Kit", "status": 200},
+    {"url": "https://voiceuikit.pipecat.ai/components/overview", "title": "Overview - Voice UI Kit", "status": 200},
+    {"url": "https://voiceuikit.pipecat.ai/components/ConnectButton", "title": "Connect Button - Voice UI Kit", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pipecat Voice UI Kit",
+  "summary": "React components, hooks and template apps for building voice AI applications.",
+  "description": "A React UI kit for voice AI apps: 21 components covering audio controls, conversation and transcripts, device selection, a DTMF keypad and an AI thinking state, plus 6 hooks, two template apps (Console, Widget) and three audio visualizers. Built on Tailwind 4 and styled with CSS variables so the built-in theme can be extended or replaced.",
+  "type": "component-library",
+  "categories": ["components", "templates"],
+  "elements": ["chat", "input", "button", "slider", "select", "ai-agent-ui"],
+  "keywords": ["voice ai", "voice agent", "voice interface", "react ui kit", "component library", "hook", "conversation", "transcript", "audio visualizer", "device select", "template app", "tailwind", "real-time", "chat interface"],
+  "contains": ["21 components incl. audio controls, conversation, transcript overlay, device select, DTMF keypad", "6 hooks: usePipecatConversation, usePipecatEventStream, usePipecatConnectionState, useTheme …", "2 template apps: Console and Widget", "3 audio visualizers: basic, circular waveform, plasma (WebGL)", "Tailwind 4 with CSS variables and responsive layout", "BSD-2-Clause license, 419 stars on GitHub"],
+  "formats": ["code", "templates", "docs"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "BSD-2-Clause",
+  "related": {"repo": "https://github.com/pipecat-ai/voice-ui-kit", "docs": "https://voiceuikit.pipecat.ai", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

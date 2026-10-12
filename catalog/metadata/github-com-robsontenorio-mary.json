@@ -1,0 +1,29 @@
+{
+  "id": "github-com-robsontenorio-mary",
+  "url": "https://github.com/robsontenorio/mary",
+  "kind": "repo",
+  "hints_hash": "f156ce4feae20f25",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:07:12Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/robsontenorio/mary/blob/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://mary-ui.com/", "title": "maryUI", "status": 200},
+    {"url": "https://mary-ui.com/docs/components/table", "title": "Table", "status": 200}
+  ],
+  "status": "ok",
+  "name": "maryUI",
+  "summary": "Blade UI component library for Laravel Livewire, powered by daisyUI and Tailwind: tables, forms, modals, toasts and more.",
+  "description": "maryUI is a Livewire component library for Laravel apps, installed with composer. It provides Blade components for forms (input, select, checkbox, toggle, radio, file upload, date time, tags), data tables with sorting, pagination, row selection and expansion, menus and dialogs (dropdown, drawer, modal, toast) and UI pieces (alert, avatar, button, card, carousel, chart, calendar, progress, timeline, tabs, search modal …). Documentation lives at mary-ui.com.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "file-upload", "form", "input", "list", "modal", "pagination", "popover", "progress", "select", "sidebar", "slider", "stats", "stepper", "switch", "table", "tabs", "timeline", "toast"],
+  "keywords": ["livewire", "laravel", "blade component", "daisyui", "tailwind", "ui component", "admin panel", "data table", "form component", "modal", "toast", "sidebar", "php", "component library", "search modal"],
+  "contains": ["Blade component library for Laravel Livewire", "built on daisyUI and Tailwind", "table with sort, pagination, row selection and expansion", "Spotlight ⌘G search modal", "components: forms, menus, dialogs, cards, charts, calendars", "MIT licensed, composer install"],
+  "formats": ["code", "docs"],
+  "stack": ["laravel", "livewire", "tailwind", "daisyui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/robsontenorio/mary", "docs": "https://mary-ui.com/docs/installation", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

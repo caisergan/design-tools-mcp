@@ -1,0 +1,28 @@
+{
+  "id": "ogfolio-com",
+  "url": "https://ogfolio.com",
+  "kind": "site",
+  "hints_hash": "420bc9d84640ace1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.ogfolio.com/", "title": "OGFolio | Curated Library of Open Graph Images", "status": null},
+    {"url": "https://www.ogfolio.com/index", "title": "OGFolio | Curated Library of Open Graph Images", "status": 200}
+  ],
+  "status": "partial",
+  "name": "OGFolio",
+  "summary": "Curated library of Open Graph images from around the web, plus an analyzer for your own OG image.",
+  "description": "A gallery of Open Graph images to browse for link-preview inspiration. An OG Image Analyzer checks a URL's preview image for dimensions, file size and meta tags.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["og image", "open graph", "social preview", "link preview", "twitter card", "meta tag", "image analyzer", "design inspiration", "gallery", "seo"],
+  "contains": ["curated Open Graph images from around the web", "OG Image Analyzer: checks dimensions, file size and meta tags", "browse for link-preview inspiration"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

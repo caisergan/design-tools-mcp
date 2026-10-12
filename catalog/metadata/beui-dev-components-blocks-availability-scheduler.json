@@ -1,0 +1,25 @@
+{
+  "id": "beui-dev-components-blocks-availability-scheduler",
+  "url": "https://beui.dev/components/blocks/availability-scheduler",
+  "kind": "page",
+  "hints_hash": "8dad8ca38fdb28d4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/blocks/availability-scheduler", "title": "Availability Scheduler · React motion component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Availability Scheduler",
+  "summary": "Weekly availability editor React component with spring toggles, animated time ranges and a copy menu.",
+  "description": "Free open-source React and Next.js motion component for editing weekly availability: each day springs between available and unavailable, time ranges add and remove with blur-slide motion, times come from a scrollable dropdown, and a copy menu clones hours to other days. Install with the shadcn CLI (shadcn add @beui/availability-scheduler) or copy the source; the API exposes value, onChange and a step prop for selectable-minute intervals.",
+  "elements": ["switch", "select", "dropdown"],
+  "keywords": ["availability scheduler", "weekly availability", "availability editor", "time range picker", "time picker", "spring animation", "motion component", "react", "nextjs", "shadcn", "copy menu", "scheduling ui", "day toggle", "blur slide", "form component"],
+  "contains": ["weekly availability editor with per-day available/unavailable toggles", "time ranges animate in and out with blur-slide motion", "scrollable time dropdowns with a configurable step (default 30 min)", "copy menu clones one day's hours to other days", "shadcn CLI install: shadcn add @beui/availability-scheduler"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.85
+}

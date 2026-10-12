@@ -1,0 +1,29 @@
+{
+  "id": "learnify-shefali-dev",
+  "url": "https://learnify.shefali.dev",
+  "kind": "site",
+  "hints_hash": "ced2a3a3523a4cb6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://learnify.shefali.dev", "title": "Learnify | Web Development Tutorials, Quizzes & Roadmaps", "status": null},
+    {"url": "https://learnify.shefali.dev/about", "title": "About Learnify | Learnify", "status": null},
+    {"url": "https://learnify.shefali.dev/roadmaps", "title": "Web Development Roadmaps | Learnify", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Learnify",
+  "summary": "Beginner-friendly web development tutorials with quizzes and step-by-step learning roadmaps.",
+  "description": "Tutorial platform for learning web development: bite-sized, jargon-free lessons on HTML, CSS, JavaScript, React and Python, plus interactive quizzes and step-by-step roadmaps (with visual roadmap views) that say what to learn and in what order. Built and maintained by Shefali for self-taught developers.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["web development tutorial", "learn html", "learn css", "learn javascript", "learn react", "learn python", "roadmap", "quiz", "beginner", "frontend", "self-taught"],
+  "contains": ["tutorials on HTML, CSS, JavaScript, React and Python", "interactive quizzes", "learning roadmaps for CSS, JavaScript, Python, React and HTML, each with a visual roadmap view", "197 URLs in the sitemap", "free and sponsor-supported"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

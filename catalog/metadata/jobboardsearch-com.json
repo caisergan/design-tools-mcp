@@ -1,0 +1,75 @@
+{
+  "id": "jobboardsearch-com",
+  "url": "https://jobboardsearch.com",
+  "kind": "site",
+  "hints_hash": "1936e81d30c1aa38",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://jobboardsearch.com/llms.txt",
+      "title": "JobBoardSearch.com",
+      "status": null
+    },
+    {
+      "url": "https://jobboardsearch.com",
+      "title": "Top job boards: 864 best niche job boards for by industry | JobBoardSearch",
+      "status": null
+    },
+    {
+      "url": "https://jobboardsearch.com/about-us",
+      "title": "About JobBoardSearch | Niche Job Board Directory",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "JobBoardSearch.com",
+  "summary": "Meta directory of 860+ niche job boards, browsable by industry, location, technology and hiring model.",
+  "description": "A directory of niche job boards across industries, locations, technologies and work arrangements. Visitors browse and filter hundreds of boards — remote, entry level, design, engineering and many more tags — and each listing links out to the board itself. Job board owners can submit free listings or pay for featured placement; a marketplace handles buying and selling job boards, and free SEO tools support owners.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "job board",
+    "niche job board",
+    "remote job",
+    "job search",
+    "job directory",
+    "hiring",
+    "recruiter",
+    "career",
+    "job listing",
+    "entry level job",
+    "marketplace",
+    "seo"
+  ],
+  "contains": [
+    "864 niche job boards listed at crawl time",
+    "filters: industry, location, technology, level, remote, salary",
+    "free listing with paid featured placements",
+    "marketplace to buy and sell job boards",
+    "blog and free SEO tools for job board owners",
+    "founded 2022 by Rodrigo Rocco"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,27 @@
+{
+  "id": "github-com-nanyx95-stateful-button-react",
+  "url": "https://github.com/nanyx95/Stateful-Button-React",
+  "kind": "repo",
+  "hints_hash": "d4a83f401129093b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/nanyx95/Stateful-Button-React/blob/HEAD/README.md", "title": "Stateful Button for shadcn/ui", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Stateful Button for shadcn/ui",
+  "summary": "shadcn/ui button component with spinner and progress modes that shows idle, loading, success and error states for async actions.",
+  "description": "A single button component installed as source code with the shadcn CLI. It moves through idle, loading/progress, success and error states during Promise-based actions, driven by an XState finite state machine, with ARIA messages for screen readers. Spinner is the default mode; progress mode takes a controlled 0-100 value.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["button", "progress"],
+  "keywords": ["button", "loading button", "async button", "spinner", "progress bar", "success state", "error state", "shadcn ui", "react", "xstate", "state machine", "accessibility", "aria", "form submission", "copy paste"],
+  "contains": ["button component with idle, loading, success and error states", "spinner mode and controlled progress mode (0-100)", "XState finite state machine for state transitions", "ARIA messages and screen reader support", "installed as source code with the shadcn CLI", "custom shadcn registry for the component", "Cypress component tests"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind", "xstate"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/nanyx95/Stateful-Button-React", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

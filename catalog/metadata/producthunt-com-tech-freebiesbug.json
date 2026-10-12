@@ -1,0 +1,27 @@
+{
+  "id": "producthunt-com-tech-freebiesbug",
+  "url": "https://producthunt.com/tech/freebiesbug",
+  "kind": "page",
+  "hints_hash": "726c721e8a5ba943",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://producthunt.com/tech/freebiesbug", "title": "Freebiesbug: Free resources for Designers and Developers | Product Hunt", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Freebiesbug",
+  "summary": "Product Hunt page for Freebiesbug, a blog of free design resources: PSD files, website templates, fonts and mockups.",
+  "description": "The Product Hunt profile for Freebiesbug, a web design blog that collects free resources for designers and developers — PSD files, HTML website templates, fonts, stock photos and UI kits. Launched in 2016 with launch tags web app, design tools and tech.",
+  "type": "asset-library",
+  "categories": ["media", "fonts", "templates"],
+  "elements": [],
+  "keywords": ["free design resource", "freebie", "psd file", "website template", "free font", "mockup", "ui kit", "stock photo", "design blog", "graphic resource"],
+  "contains": ["free resources for designers and developers", "PSD files, HTML website templates, fonts and mockups", "launched 2016, launch tags: web app, design tools, tech"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

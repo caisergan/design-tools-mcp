@@ -1,0 +1,18 @@
+{
+  "id": "patreon-com-vitameenai",
+  "url": "https://patreon.com/VitameenAI",
+  "kind": "page",
+  "hints_hash": "f8ecc9b322d05fc6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [{"url": "https://patreon.com/VitameenAI", "title": "Vitameen AI | Defy gravity and learn to fly with AI | Patreon", "status": null}],
+  "status": "ok",
+  "name": "Vitameen AI",
+  "summary": "Membership page of an AI creator: 18 posts on AI, automation and agents for 28 members; free to join, paid tier from $5/month.",
+  "description": "Creator membership page for Vitameen AI, a page about learning to build with AI. It lists 18 posts and 28 members; posts unlock by joining, free or as a member from $5 per month.",
+  "keywords": ["ai", "automation", "agent", "membership", "creator page", "subscription", "systems design", "learning", "community", "tutorial"],
+  "pricing": "freemium",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

@@ -1,0 +1,82 @@
+{
+  "id": "github-com-coreui-coreui-icons",
+  "url": "https://github.com/coreui/coreui-icons",
+  "kind": "repo",
+  "hints_hash": "035d8750757bff8b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/coreui/coreui-icons/blob/HEAD/README.md",
+      "title": "CoreUI Icons (1500+ Free icons)- Simply beautiful open source icons",
+      "status": null
+    },
+    {
+      "url": "https://github.com/coreui/coreui-icons",
+      "title": "GitHub - coreui/coreui-icons: CoreUI Free Icons - Premium designed free icon set with marks in SVG, Webfont and raster formats · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CoreUI Icons",
+  "summary": "Open-source icon set of 1,500+ icons in SVG, PNG and webfont formats, with React, Vue and Angular packages.",
+  "description": "CoreUI Free Icons ships more than 1,500 icons as SVG sprites and symbols, PNG and webfont files for use in web and mobile products. Install from CDN, npm or Yarn, or clone the repo; separate framework packages wrap the set for React, Vue and Angular. A paid CoreUI Icons PRO set adds more icons.",
+  "type": "icon-set",
+  "categories": [
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "icon set",
+    "svg icon",
+    "webfont",
+    "icon font",
+    "png icon",
+    "brand icon",
+    "flag icon",
+    "svg sprite",
+    "svg symbol",
+    "react icon",
+    "vue icon",
+    "angular icon",
+    "free icon",
+    "open source icon",
+    "icon pack"
+  ],
+  "contains": [
+    "1,500+ icons in SVG, PNG and webfont formats",
+    "linear (cil-), brand (cib-) and flag (cif-) icon sets",
+    "CDN, npm and Yarn installation; SVG sprites and SVG symbols usage docs",
+    "separate official packages for React, Vue and Angular",
+    "licenses: MIT (code), SIL OFL 1.1 (fonts), CC BY 4.0 (icons)",
+    "paid CoreUI Icons PRO set alongside the free one",
+    "2.1k GitHub stars"
+  ],
+  "formats": [
+    "svg",
+    "png",
+    "font-files",
+    "npm-package",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "vue",
+    "angular"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/coreui/coreui-icons",
+    "docs": "https://coreui.io/icons/",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

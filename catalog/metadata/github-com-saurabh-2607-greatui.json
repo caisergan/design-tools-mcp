@@ -1,0 +1,117 @@
+{
+  "id": "github-com-saurabh-2607-greatui",
+  "url": "https://github.com/Saurabh-2607/GreatUI",
+  "kind": "repo",
+  "hints_hash": "a7477000ef4297f5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Saurabh-2607/GreatUI/blob/HEAD/README.md",
+      "title": "Great UI README",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Saurabh-2607/GreatUI",
+      "title": "GitHub - Saurabh-2607/GreatUI: Beautiful, animated React components built with TypeScript, Tailwind CSS, and Motion. · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://www.great-ui.com",
+      "title": "Great UI - Accessible React & Tailwind Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.great-ui.com/components",
+      "title": "Components | Great UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Great UI",
+  "summary": "50+ copy-paste animated React components — cards, text effects, transitions, menus — built with TypeScript, Tailwind and Motion.",
+  "description": "An open-source collection of copy-paste React components grouped into seven sets: social cards, visuals, typography, page transitions, theme transitions, buttons, and layout & cards. Components include animated text effects (word focus scroll, blur scroll reveal, split line fly in), ten page transitions, four theme transitions, a terminal loader, floating dock and gooey menus, device mockups, a marquee carousel, avatar stack, timeline, accordion and social cards. Built with Next.js 16, React 19, TypeScript, Tailwind CSS v4 and Motion; MIT licensed.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "text-effect",
+    "scroll-effect",
+    "loader",
+    "navbar",
+    "dock",
+    "button",
+    "card",
+    "marquee",
+    "carousel",
+    "accordion",
+    "avatar",
+    "timeline",
+    "team"
+  ],
+  "variants": {
+    "navbar": [
+      "floating",
+      "dock"
+    ]
+  },
+  "keywords": [
+    "react component",
+    "copy paste",
+    "animated component",
+    "tailwind",
+    "typescript",
+    "framer motion",
+    "text effect",
+    "scroll animation",
+    "page transition",
+    "theme transition",
+    "card",
+    "dock",
+    "marquee",
+    "avatar",
+    "accordion",
+    "timeline",
+    "dark mode",
+    "accessible",
+    "wai-aria",
+    "nextjs"
+  ],
+  "contains": [
+    "50 components in 7 groups: social cards, visuals, typography, transitions, buttons, layout & cards",
+    "typography set: word focus scroll, blur scroll reveal, split line fly in, text reveal, scrambled install command",
+    "10 page transitions incl. CrossBlur, Venetian Blinds, Cascade, Sine Wave, Pixel, Sweep and Curtain",
+    "4 theme transitions: Blur Fade, Split, Circular and Swipe",
+    "visuals include terminal loader, floating dock menu, radial gooey menu, macbook and mobile mockups",
+    "copy-paste code you own; light and dark modes with high-contrast variants",
+    "stack: Next.js 16, React 19, TypeScript, Tailwind CSS 4, Motion; MIT license",
+    "268 GitHub stars, 6 forks"
+  ],
+  "formats": [
+    "code",
+    "links"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "typescript",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Saurabh-2607/GreatUI",
+    "docs": "https://www.great-ui.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

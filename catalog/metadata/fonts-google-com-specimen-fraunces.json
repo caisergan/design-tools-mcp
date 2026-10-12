@@ -1,0 +1,50 @@
+{
+  "id": "fonts-google-com-specimen-fraunces",
+  "url": "https://fonts.google.com/specimen/Fraunces",
+  "kind": "page",
+  "hints_hash": "f36e0d2ee2acd8b4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/Fraunces", "title": "Fraunces - Google Fonts", "status": null},
+    {"url": "https://fonts.google.com/specimen/Fraunces/about", "title": "Fraunces - Google Fonts", "status": 200},
+    {"url": "https://fonts.google.com/metadata/fonts/Fraunces", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Fraunces",
+  "summary": "Old Style soft-serif variable display typeface on Google Fonts, with weight, optical size, softness and wonk axes.",
+  "description": "Google Fonts specimen page for Fraunces, a display \"Old Style\" soft-serif family by Undercase Type (Phaedra Charles and Flavia Zimbardi) inspired by Windsor, Souvenir and the Cooper Series. It is a variable font with four axes: weight (100-900), optical size (9-144), softness (SOFT) and wonk (WONK), with italics and latin, latin-ext and vietnamese subsets.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": [
+    "variable font",
+    "serif font",
+    "display font",
+    "old style serif",
+    "soft serif",
+    "google font",
+    "web font",
+    "italic",
+    "optical size",
+    "open font license",
+    "editorial typeface",
+    "branding typeface",
+    "latin extended",
+    "free font"
+  ],
+  "contains": [
+    "variable font with four axes: weight, optical size, softness (SOFT), wonk (WONK)",
+    "weights 100-900 with matching italics",
+    "optical size range 9-144",
+    "subsets: latin, latin-ext, vietnamese",
+    "designed by Phaedra Charles and Flavia Zimbardi at Undercase Type",
+    "source at github.com/undercasetype/Fraunces"
+  ],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": "https://github.com/undercasetype/Fraunces", "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.8
+}

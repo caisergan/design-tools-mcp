@@ -1,0 +1,103 @@
+{
+  "id": "curated-design",
+  "url": "https://curated.design",
+  "kind": "site",
+  "hints_hash": "d509fb0780115604",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://curated.design",
+      "title": "Web design inspiration from real, live websites — Curated",
+      "status": null
+    },
+    {
+      "url": "https://curated.design/sections",
+      "title": "Landing page sections — heroes, pricing, footers | Curated",
+      "status": null
+    },
+    {
+      "url": "https://curated.design/pricing",
+      "title": "Pricing — Curated Pro",
+      "status": null
+    },
+    {
+      "url": "https://curated.design/about",
+      "title": "About — Curated",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Curated",
+  "summary": "Gallery of hand-picked live websites and landing-page sections, filterable by industry, style and tags.",
+  "description": "A gallery of real, live websites reviewed by hand and tagged by style and industry; each entry links straight to the running site. Pro ($9/month) opens the section library — 3,322 heroes, features, pricing tables, testimonials and footers cut from real landing pages — with advanced filters, unlimited bookmarks, saved searches and CSV exports.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "features",
+    "cta",
+    "footer",
+    "testimonials",
+    "pricing",
+    "faq",
+    "bento-grid",
+    "stats",
+    "contact",
+    "team"
+  ],
+  "keywords": [
+    "web design inspiration",
+    "website gallery",
+    "landing page",
+    "section library",
+    "hero section",
+    "pricing table",
+    "footer",
+    "navbar",
+    "testimonials",
+    "landing page inspiration",
+    "design showcase",
+    "live website",
+    "filter by industry",
+    "filter by style",
+    "design reference",
+    "framer template",
+    "landing page section"
+  ],
+  "contains": [
+    "hand-reviewed gallery of live websites",
+    "3,322 landing-page sections: 1,016 heroes, 684 features, 486 CTA, 276 footers, 102 reviews, 100 pricing, 88 FAQ",
+    "filters: style, visuals, attributes, popular tags, media, date",
+    "free browsing with 5 bookmarks; Pro $9/month with 7-day trial",
+    "Pro: advanced filters, saved searches, sorting, CSV export",
+    "weekly email roundup",
+    "sells Framer templates",
+    "made by the team behind Craftwork"
+  ],
+  "formats": [
+    "links",
+    "screenshots",
+    "templates"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,40 @@
+{
+  "id": "viggle-ai",
+  "url": "https://viggle.ai",
+  "kind": "site",
+  "hints_hash": "831add5d61e48c2a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://viggle.ai/llms.txt", "title": "Viggle", "status": null},
+    {"url": "https://viggle.ai", "title": "Viggle | Turn your imagination into 3D motion", "status": 200},
+    {"url": "https://viggle.ai/pricing", "title": "Pricing | Viggle", "status": 200},
+    {"url": "https://viggle.ai/about-us", "title": "About Viggle AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Viggle",
+  "summary": "Moves characters with AI: motion capture, image-to-video animation and character swaps.",
+  "description": "Pick a character and a motion from a library of about 8,000 templates to get a video, or use PINOC for 3D character animation from ordinary footage with FBX and GLB export and an MCP server for agents. Also image-to-video, text-to-video, dance, face swap and lip sync, plus Viggle Games and a REST API billed per second.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "motion capture", "character animation", "image to video", "text to video", "face swap",
+    "lip sync", "dance", "rigging", "mocap", "3d animation", "game developer", "api", "mcp", "video generator"
+  ],
+  "contains": [
+    "apps: Meme Maker, PINOC, Viggle Games, Viggle API",
+    "about 8,000 motion templates in the motion library",
+    "PINOC: 3D character animation with FBX or GLB export and an MCP server with 10 tools",
+    "free tier: 5 videos a day",
+    "Pro $7.99 and Max $63.99 per month with 80 to 800 credits",
+    "50M+ creators"
+  ],
+  "formats": ["app", "api", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

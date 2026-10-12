@@ -1,0 +1,29 @@
+{
+  "id": "github-com-uretzkyzvi-planner",
+  "url": "https://github.com/UretzkyZvi/planner",
+  "kind": "repo",
+  "hints_hash": "9d9f4233d057db62",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://github.com/UretzkyZvi/planner/blob/HEAD/README.md", "title": "Planner", "status": 200 },
+    { "url": "https://github.com/UretzkyZvi/planner", "title": "GitHub - UretzkyZvi/planner: Planner Component: A React component for dynamic appointment management", "status": 200 },
+    { "url": "https://raw.githubusercontent.com/UretzkyZvi/planner/HEAD/LICENSE", "title": "MIT License", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Planner",
+  "summary": "Copy-in React scheduling component with day/week/month/year views, resource management and drag-and-drop.",
+  "description": "An adaptable scheduling component for React: appointments across daily, weekly, monthly and yearly timelines, assignable resources such as rooms and personnel, and drag-and-drop rescheduling powered by Atlassian's Pragmatic drag and drop. Styled with shadcn/ui components; you install it by copying the planner component, models, contexts and services into your project (react-day-picker, date-fns and @atlaskit/pragmatic-drag-and-drop required).",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["calendar", "date-picker"],
+  "keywords": ["react scheduler", "calendar component", "appointment scheduling", "booking calendar", "resource management", "drag and drop", "shadcn ui", "date picker", "date range", "weekly view", "monthly view", "copy paste component"],
+  "contains": ["day, week, month and year scheduling views", "resource assignment (rooms, personnel)", "drag-and-drop rescheduling via Pragmatic drag and drop", "install by copying component, models, contexts and services", "dependencies: react-day-picker, date-fns, @atlaskit/pragmatic-drag-and-drop", "442 stars on GitHub", "MIT licensed"],
+  "formats": ["code"],
+  "stack": ["react", "shadcn", "date-fns", "react-day-picker"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/UretzkyZvi/planner", "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

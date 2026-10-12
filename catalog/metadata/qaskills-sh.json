@@ -1,0 +1,43 @@
+{
+  "id": "qaskills-sh",
+  "url": "https://qaskills.sh",
+  "kind": "site",
+  "hints_hash": "9bd7838cafbe85e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    { "url": "https://qaskills.sh/llms.txt", "title": "QASkills.sh", "status": null },
+    { "url": "https://qaskills.sh", "title": "QASkills.sh — The QA Skills Directory for AI Agents", "status": 200 },
+    { "url": "https://qaskills.sh/getting-started", "title": "Getting Started | QASkills.sh", "status": 200 },
+    { "url": "https://qaskills.sh/skills", "title": "Browse 450+ QA Skills for AI Agents | QASkills.sh", "status": 200 },
+    { "url": "https://qaskills.sh/pricing", "title": "Pricing | QASkills.sh", "status": 200 },
+    { "url": "https://qaskills.sh/faq", "title": "QASkills.sh FAQ: Installing & Publishing QA Skills | QASkills.sh", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "QASkills.sh",
+  "summary": "Directory of 450+ QA testing skills and articles for AI coding agents, installed with one CLI command.",
+  "description": "Curated directory of QA skills — SKILL.md packages with YAML frontmatter — for Claude Code, Cursor, Copilot and 30+ other AI coding agents, installed with npx @qaskills/cli add. Covers E2E (Playwright, Cypress, Selenium), unit, API, contract, performance, security, mobile, accessibility, visual, BDD, AI/LLM and infrastructure testing, alongside 450+ articles. Free and MIT licensed.",
+  "type": "directory",
+  "categories": ["dev-ai-tools", "design-rules"],
+  "elements": [],
+  "keywords": ["qa skill", "testing skill", "agent skill", "skill.md", "claude code", "cursor", "copilot", "playwright", "cypress", "selenium", "pytest", "junit", "k6", "jmeter", "pact", "e2e testing", "unit testing", "api testing", "performance testing", "accessibility testing", "visual regression", "test automation", "ci cd", "cli", "agent workflow", "directory"],
+  "contains": [
+    "450+ curated QA skills, quality-scored 0–100",
+    "450+ articles (3,000+ words each)",
+    "one-command install: npx @qaskills/cli add",
+    "auto-detects 30+ AI coding agents and their config paths",
+    "categories: e2e, unit, api, contract, performance, security, mobile, a11y, visual, bdd, ai/llm, infra, ci/cd",
+    "public JSON API (CORS-enabled)"
+  ],
+  "formats": ["cli", "npm-package", "prompts", "docs", "api"],
+  "stack": ["playwright", "cypress", "selenium", "pytest", "jest"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": { "repo": null, "docs": "https://qaskills.sh/getting-started", "npm": "@qaskills/cli", "figma": null, "parent": null },
+  "confidence": 0.9
+}

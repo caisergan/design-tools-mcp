@@ -1,0 +1,67 @@
+{
+  "id": "shadcnuikit-com-illustrations",
+  "url": "https://shadcnuikit.com/illustrations",
+  "kind": "page",
+  "hints_hash": "d15855b66c40e82a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcnuikit.com/illustrations",
+      "title": "Shadcn Animated Components & Illustrations – Shadcnuikit.com",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Animated Components & Illustrations",
+  "summary": "30+ animated bento-card and UI illustrations, copyable or installable as shadcn components for React and Next.js projects.",
+  "description": "A growing collection of animated bento cards, interactive UI illustrations and motion components built with shadcn/ui, Motion and Tailwind CSS. Each can be copy-pasted into a React or Next.js project or installed through the shadcn CLI.",
+  "type": "component-library",
+  "elements": [
+    "bento-grid",
+    "card"
+  ],
+  "keywords": [
+    "animated component",
+    "bento card",
+    "illustration",
+    "shadcn",
+    "motion",
+    "react",
+    "next js",
+    "tailwind",
+    "ui illustration",
+    "copy paste component",
+    "finance ui"
+  ],
+  "contains": [
+    "30+ animated shadcn UI illustrations",
+    "animated bento cards and motion components",
+    "built with shadcn/ui, Motion and Tailwind CSS",
+    "copy-paste or shadcn CLI install",
+    "for React and Next.js"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "shadcnuikit-com"
+  },
+  "confidence": 0.8
+}

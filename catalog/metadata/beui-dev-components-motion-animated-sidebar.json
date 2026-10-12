@@ -1,0 +1,27 @@
+{
+  "id": "beui-dev-components-motion-animated-sidebar",
+  "url": "https://beui.dev/components/motion/animated-sidebar",
+  "kind": "page",
+  "hints_hash": "aecae9dbda7e67b0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/motion/animated-sidebar", "title": "Animated Sidebar · React Component · beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Animated Sidebar",
+  "summary": "Composable React app sidebar that morphs into an icon rail on desktop and becomes a focus-managed sheet on mobile.",
+  "description": "A copy-paste React application sidebar with morphing nested navigation that collapses into an animated icon rail on desktop and becomes a focus-managed sheet on mobile. Installed through the beUI shadcn registry or copied manually; the page includes the props/API reference, theme token notes and the shared utility files.",
+  "type": "component-library",
+  "elements": ["sidebar"],
+  "variants": {"sidebar": ["collapsible", "icon-rail", "nested", "inset"]},
+  "keywords": ["sidebar", "animated sidebar", "react sidebar", "app shell", "navigation", "icon rail", "collapsible sidebar", "nested navigation", "mobile sheet", "shadcn", "tailwind", "spring animation", "layout animation", "responsive sidebar"],
+  "contains": ["shadcn CLI install: bunx --bun shadcn add @beui/animated-sidebar", "collapses into an animated icon rail on desktop; collapsible modes none, icon, offcanvas", "variants: inset, sidebar, floating; ⌘B toggle", "focus-managed mobile sheet", "API reference: provider, menu, group, rail, inset and footer subcomponents", "beUI registry has 124 items; Pro tier adds 292+ blocks ($149 lifetime)"],
+  "formats": ["registry", "code"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.8
+}

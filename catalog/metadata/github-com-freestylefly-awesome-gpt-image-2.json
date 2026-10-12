@@ -1,0 +1,38 @@
+{
+  "id": "github-com-freestylefly-awesome-gpt-image-2",
+  "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+  "kind": "repo",
+  "hints_hash": "1745092439751457",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/HEAD/README.md", "title": "Prompt as Code | GPT-Image2 Industrial Prompt Engine & Template Library", "status": null},
+    {"url": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/HEAD/README.md", "title": null, "status": 200},
+    {"url": "https://github.com/freestylefly/awesome-gpt-image-2", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/HEAD/package.json", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "awesome-gpt-image-2",
+  "summary": "Prompt library and case gallery for GPT-Image-2/2.5: 544 categorised image cases and 20+ industrial prompt templates.",
+  "description": "A prompt-as-code library for GPT-Image-2 and 2.5: 544 reverse-engineered cases across 13 categories (UI, posters, e-commerce, photography, illustration and more) with full prompts and generation records, plus 20+ industrial prompt templates and a pitfalls guide. Ships an agent skill with npm CLI that picks styles, templates and scene tags, and a live gallery site for browsing and generating after sign-in.",
+  "type": "gallery",
+  "categories": ["dev-ai-tools", "media"],
+  "elements": ["chart", "dashboard"],
+  "keywords": ["image prompt", "prompt library", "prompt template", "prompt as code", "gpt image 2", "gpt image 2.5", "ai image generation", "prompt engineering", "agent skill", "claude code", "infographic prompt", "ui mockup prompt", "poster design prompt", "product photo prompt", "case gallery", "workflow automation"],
+  "contains": [
+    "544 cases in 13 categories: UI, posters, e-commerce, photography, illustration and more",
+    "20+ industrial prompt templates with a pitfalls guide",
+    "full prompt and generation record for every case",
+    "GPT Image 2.5 spotlight with same-prompt comparison views",
+    "agent skill gpt-image-2-style-library with npm and Claude Code install",
+    "live gallery site with style/scenario filters and generation after Google sign-in",
+    "MIT licensed; 34.3k GitHub stars"
+  ],
+  "formats": ["code", "prompts", "templates", "npm-package", "app"],
+  "stack": ["react", "vite", "supabase"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/freestylefly/awesome-gpt-image-2", "docs": null, "npm": "gpt-image-2-style-library", "figma": null, "parent": null},
+  "confidence": 0.85
+}

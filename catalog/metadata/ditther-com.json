@@ -1,0 +1,95 @@
+{
+  "id": "ditther-com",
+  "url": "https://ditther.com",
+  "kind": "site",
+  "hints_hash": "03842dbfbc6011e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ditther.com/llms.txt",
+      "title": "Ditther",
+      "status": null
+    },
+    {
+      "url": "https://ditther.com",
+      "title": "Ditther — Pixel Effects, Poster Design, Motion & Image Effects Editor",
+      "status": 200
+    },
+    {
+      "url": "https://ditther.com/effects",
+      "title": "Ditther Effects - ASCII, Halftone, Dither, Pixel Art, Voxel, and LEGO",
+      "status": 200
+    },
+    {
+      "url": "https://ditther.com/effects/lego",
+      "title": "How to Create a LEGO-Style Image - Ditther Tutorial",
+      "status": 200
+    },
+    {
+      "url": "https://ditther.com/effects/ascii",
+      "title": "Converting Photos to ASCII Art - Complete Guide - Ditther",
+      "status": 200
+    },
+    {
+      "url": "https://ditther.com/effects/voxel",
+      "title": "How to Create Voxel Art From a Photo - Ditther Tutorial",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Ditther",
+  "summary": "Browser image-effects editor with 75+ effects that turn photos and video into dither, halftone, ASCII, pixel art, voxel and LEGO looks.",
+  "description": "A free, browser-based editor where you stack 75+ creative effects — pixel, dither, ASCII, halftone, distortion, print, retro, color and light — with text, shapes, images, layers and animation to build posters, graphics and motion visuals. Images and video can be exported; free to start with a Pro tier.",
+  "type": "tool",
+  "categories": [
+    "color-effects",
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "image effect",
+    "dither effect",
+    "halftone",
+    "ascii art",
+    "pixel art",
+    "voxel art",
+    "lego effect",
+    "photo editor",
+    "browser app",
+    "image filter",
+    "poster maker",
+    "retro photo",
+    "glitch effect",
+    "duotone",
+    "video effect"
+  ],
+  "contains": [
+    "75+ image effects (dither, ASCII, halftone, pixel art, voxel, LEGO …)",
+    "effect stacking with text, shapes, layers and animation",
+    "tutorials and tool comparisons",
+    "image and video export",
+    "free to start, Pro tier available"
+  ],
+  "formats": [
+    "app",
+    "png",
+    "video"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://ditther.com/llms-full.txt",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

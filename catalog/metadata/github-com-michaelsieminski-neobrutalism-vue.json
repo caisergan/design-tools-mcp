@@ -1,0 +1,76 @@
+{
+  "id": "github-com-michaelsieminski-neobrutalism-vue",
+  "url": "https://github.com/michaelsieminski/neobrutalism-vue",
+  "kind": "repo",
+  "hints_hash": "a479faaf51421490",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:31:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/michaelsieminski/neobrutalism-vue/blob/HEAD/README.md",
+      "title": "neobrutalism-vue",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/michaelsieminski/neobrutalism-vue",
+      "title": "GitHub - michaelsieminski/neobrutalism-vue: A vue-based registry of neobrutalism-styled Tailwind components.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "neobrutalism-vue",
+  "summary": "38 neobrutalist Vue components for Tailwind v4, installed from a shadcn-vue registry.",
+  "description": "A registry of neobrutalism-styled Vue components built on shadcn-vue and Reka UI primitives and styled for Tailwind CSS v4. Components install straight from the registry with the shadcn-vue workflow — no npm package — so you adapt the neobrutalist styling in your own project. 38 registry items, MIT licensed.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "neo brutalism",
+    "brutalist ui",
+    "vue component",
+    "shadcn-vue",
+    "tailwind css",
+    "registry",
+    "copy-paste component",
+    "reka ui",
+    "vueuse",
+    "component library"
+  ],
+  "contains": [
+    "38 registry items",
+    "neobrutalist styling for Tailwind CSS v4",
+    "built on shadcn-vue, Reka UI primitives and VueUse",
+    "install straight from the registry, no npm package",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "vue",
+    "tailwind",
+    "reka-ui",
+    "vueuse",
+    "shadcn-vue"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/michaelsieminski/neobrutalism-vue",
+    "docs": "https://neobrutalism-vue.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,52 @@
+{
+  "id": "skills-sh-emilkowalski-skills-emil-design-eng",
+  "url": "https://skills.sh/emilkowalski/skills/emil-design-eng",
+  "kind": "page",
+  "hints_hash": "b7a06c443ae18bee",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:25:37Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/emilkowalski/skills/emil-design-eng",
+      "title": "emil-design-eng — emilkowalski/skills",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "emil-design-eng",
+  "summary": "Agent skill encoding Emil Kowalski's design engineering philosophy for UI polish and animation decisions.",
+  "description": "A SKILL.md for AI coding assistants that encodes Emil Kowalski's design engineering philosophy: taste as a trained instinct, component craft, animation decisions and the invisible details that make software feel right.",
+  "type": "agent-skill",
+  "keywords": [
+    "design engineering",
+    "ui polish",
+    "component design",
+    "animation",
+    "interaction design",
+    "agent skill",
+    "skill.md",
+    "coding agent",
+    "taste",
+    "micro interaction",
+    "motion",
+    "frontend",
+    "ui design",
+    "design skill"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,31 @@
+{
+  "id": "open-foundry-com",
+  "url": "https://open-foundry.com",
+  "kind": "site",
+  "hints_hash": "3fea30217325a92b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://open-foundry.com", "title": "Open Foundry | Curated Fonts for Free", "status": null},
+    {"url": "https://open-foundry.com/fonts/inter", "title": "Inter | Open Foundry", "status": null},
+    {"url": "https://open-foundry.com/about", "title": "About | Open Foundry", "status": null},
+    {"url": "https://open-foundry.com/fonts/reglo", "title": "Reglo | Open Foundry", "status": null},
+    {"url": "https://open-foundry.com/fonts/oswald", "title": "Oswald | Open Foundry", "status": null}
+  ],
+  "status": "ok",
+  "name": "Open Foundry",
+  "summary": "Curated showcase of open-source typefaces with specimens, licence details and links to project pages.",
+  "description": "A hand-picked showcase of open-source fonts (Inter, Roboto, Work Sans, Oswald, League Gothic, EB Garamond, Junicode …) with specimen pages that list classification, licence, creator and weights. Open Foundry is a display, not a distribution platform — downloads live on the fonts' own project or GitHub pages. Independently curated, non-commercial, by the team behind Dreamtype™.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["open source font", "free font", "font showcase", "type specimen", "font library", "sans serif", "serif font", "grotesque", "monospace", "typography", "font inspiration"],
+  "contains": ["hand-picked open-source fonts, e.g. Inter, Roboto, Work Sans, Oswald, League Gothic", "specimen pages with classification, licence, creator and weights", "no downloads hosted; links to each font's project or GitHub page", "only fonts with open-source licences (SIL, MIT …)", "no paid placements; curated by the makers of Dreamtype™"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

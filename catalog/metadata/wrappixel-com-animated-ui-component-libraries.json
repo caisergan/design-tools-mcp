@@ -1,0 +1,76 @@
+{
+  "id": "wrappixel-com-animated-ui-component-libraries",
+  "url": "https://wrappixel.com/animated-ui-component-libraries",
+  "kind": "page",
+  "hints_hash": "e563021e5a3aa8a3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://wrappixel.com/animated-ui-component-libraries",
+      "title": "6+ Awesome Animated UI Component Libraries for React Developers",
+      "status": 200
+    },
+    {
+      "url": "https://wrappixel.com/blog/animated-ui-component-libraries",
+      "title": "6+ Awesome Animated UI Component Libraries for React Developers",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "6 Must-Try Animated UI Component Libraries for React",
+  "summary": "Guide to six open-source animated React UI component libraries: Shadcn Space, Magic UI, React Bits, Hero UI, Kokonut UI and Animate UI.",
+  "description": "A blog guide reviewing six animated React component libraries, with a comparison table of GitHub stars and component counts (50+ to 210+ components), the core stack most of them share — React, Tailwind CSS, TypeScript, Framer Motion — and an FAQ on copy-paste components, SaaS dashboards and animation performance. Written for React developers choosing an animation library.",
+  "type": "article",
+  "categories": [
+    "learning"
+  ],
+  "elements": [
+    "button",
+    "card",
+    "background",
+    "loader",
+    "hero"
+  ],
+  "keywords": [
+    "animated component",
+    "react component",
+    "react animation",
+    "ui component library",
+    "animation library",
+    "framer motion",
+    "tailwind css",
+    "typescript",
+    "shadcn",
+    "copy paste component",
+    "open source",
+    "landing page animation",
+    "micro interaction",
+    "saas dashboard",
+    "cli install"
+  ],
+  "contains": [
+    "reviews 6 libraries: Shadcn Space, Magic UI, React Bits, Hero UI, Kokonut UI, Animate UI",
+    "comparison table with GitHub stars (455 to 36.5K+) and component counts (50+ to 210+)",
+    "core stack: React, Tailwind CSS, TypeScript, Framer Motion",
+    "evaluation criteria: adoption, component count, stack compatibility, maintenance, workflow",
+    "FAQ on copy-paste components, SaaS dashboards and React performance",
+    "published Apr 2026, 6-minute read"
+  ],
+  "formats": [
+    "links"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

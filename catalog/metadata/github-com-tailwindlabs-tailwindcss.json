@@ -1,0 +1,73 @@
+{
+  "id": "github-com-tailwindlabs-tailwindcss",
+  "url": "https://github.com/tailwindlabs/tailwindcss",
+  "kind": "repo",
+  "hints_hash": "edfb8d9458cc30eb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/tailwindlabs/tailwindcss/blob/HEAD/README.md",
+      "title": "Tailwind CSS",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "title": "GitHub - tailwindlabs/tailwindcss: A utility-first CSS framework for rapid UI development. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Tailwind CSS",
+  "summary": "Utility-first CSS framework for rapidly building custom user interfaces.",
+  "description": "A utility-first CSS framework for rapidly building custom user interfaces. This repository holds the framework source and its releases; the full documentation lives at tailwindcss.com, community help and feature ideas are discussed in GitHub Discussions, and contributions follow the repo's contributing docs.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "css framework",
+    "utility class",
+    "tailwind",
+    "css",
+    "postcss",
+    "responsive",
+    "frontend",
+    "ui development",
+    "custom interface",
+    "open source css",
+    "class name",
+    "styling"
+  ],
+  "contains": [
+    "utility-first CSS framework for custom user interfaces",
+    "MIT license",
+    "97.9k GitHub stars, 8.2k forks",
+    "topics: css, css-framework, functional-css, postcss, responsive, utility-classes",
+    "documentation at tailwindcss.com",
+    "community discussion in GitHub Discussions"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "css"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/tailwindlabs/tailwindcss",
+    "docs": "https://tailwindcss.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

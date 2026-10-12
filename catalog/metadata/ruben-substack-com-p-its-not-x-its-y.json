@@ -1,0 +1,19 @@
+{
+  "id": "ruben-substack-com-p-its-not-x-its-y",
+  "url": "https://ruben.substack.com/p/its-not-x-its-y",
+  "kind": "page",
+  "hints_hash": "d479e8a5330e75fe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/its-not-x-its-y", "title": "It's not [X], it's [Y]. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "It's not [X], it's [Y].",
+  "summary": "How the 'it's not X, it's Y' negative-parallelism pattern gives AI writing away, plus an anti-AI style file to drop into Claude Cowork.",
+  "type": "article",
+  "keywords": ["ai writing", "writing style", "negative parallelism", "editing", "copywriting", "content writing", "ai detector", "writing rule", "claude cowork", "markdown file", "prompt"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.9
+}

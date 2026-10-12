@@ -1,0 +1,30 @@
+{
+ "id": "ark-ui-com",
+ "url": "https://ark-ui.com",
+ "kind": "site",
+ "hints_hash": "ebc8e2883d960327",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://ark-ui.com/llms.txt", "title": "Ark UI", "status": null},
+  {"url": "https://ark-ui.com", "title": "Ark UI", "status": null},
+  {"url": "https://ark-ui.com/docs/overview/about", "title": "About Ark UI | Ark UI", "status": null},
+  {"url": "https://github.com/chakra-ui/ark", "title": "GitHub - chakra-ui/ark: Unstyled, accessible UI components for your design System. Works in React, Vue, Solid, and Svelte.", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Ark UI",
+ "summary": "Headless, unstyled UI components with the same API for React, Vue, Solid and Svelte, built on Zag.js.",
+ "description": "45+ accessible, unstyled components — accordion, dialog, combobox, date picker, color picker, navigation menu, file upload and more — with a consistent API across React, Solid, Vue and Svelte. WAI-ARIA patterns, keyboard navigation and focus management are built in via Zag.js state machines; styling is left to Tailwind, Panda CSS, CSS-in-JS or plain CSS. Maintained by the Chakra UI team under MIT.",
+ "type": "component-library",
+ "categories": ["components"],
+ "elements": ["accordion", "avatar", "carousel", "checkbox", "date-picker", "drawer", "dropdown", "file-upload", "form", "input", "list", "marquee", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "slider", "stepper", "switch", "tabs", "toast", "tooltip"],
+ "keywords": ["headless ui", "unstyled component", "design system", "accessible", "wai-aria", "react", "vue", "solid", "svelte", "state machine", "zag.js", "component primitive", "typescript", "navigation menu", "date picker"],
+ "contains": ["45+ components across navigation, overlays, forms, data display and utilities", "same component API in React, Solid, Vue and Svelte packages", "built on Zag.js finite state machines", "WAI-ARIA patterns, keyboard navigation, RTL support", "MIT licensed, maintained by the Chakra UI team", "llms.txt and MCP server for AI agents"],
+ "formats": ["npm-package", "docs", "api"],
+ "stack": ["react", "vue", "svelte", "solid", "zag.js"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": "https://github.com/chakra-ui/ark", "docs": "https://ark-ui.com/docs/overview/getting-started", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.9
+}

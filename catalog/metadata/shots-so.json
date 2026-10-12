@@ -1,0 +1,28 @@
+{
+  "id": "shots-so",
+  "url": "https://shots.so",
+  "kind": "site",
+  "hints_hash": "fb8638268f72d819",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shots.so", "title": "Shots - Create Amazing Mockups", "status": 200},
+    {"url": "https://shots.so/terms", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shots",
+  "summary": "Browser mockup generator for device mockups, images and videos from screenshots.",
+  "description": "Shots creates mockups of iPhones, Android phones, iPads, desktops and websites from images or videos you drop in. It adds animated presets, video zoom and parallax effects, magic backgrounds, 3D shapes, shadow overlays, filters (noise, VHS, glitch) and custom watermarks, then exports pixel-perfect PNGs, videos or sharable links.",
+  "type": "generator",
+  "categories": ["media", "design-tools"],
+  "elements": [],
+  "keywords": ["mockup", "mockup generator", "device mockup", "iphone mockup", "screenshot mockup", "animated mockup", "video mockup", "app showcase", "design presentation", "3d mockup", "social media frame", "product screenshot"],
+  "contains": ["device mockups: iPhone, Android, iPad, desktop, web", "animated presets, video zoom and parallax effects", "magic backgrounds, 3D shapes and shadow overlays", "filters and effects: noise, VHS, glitch", "pre-made layouts, custom frame sizes and watermark", "export PNG images, videos and sharable links", "free mockup library"],
+  "formats": ["app", "templates", "png", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

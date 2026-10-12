@@ -1,0 +1,28 @@
+{
+  "id": "noegarsoux-github-io-gradientgen",
+  "url": "https://noegarsoux.github.io/GradientGen",
+  "kind": "page",
+  "hints_hash": "566c29b1ebbf5f20",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:30:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://noegarsoux.github.io/GradientGen", "title": "GradientGen", "status": null},
+    {"url": "https://github.com/noegarsoux/GradientGen", "title": "GitHub - noegarsoux/GradientGen: GradientGen is a free & open-source gradient creation tool.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "GradientGen",
+  "summary": "Browser app that generates vector-field gradients with grain, scanlines and posterize effects, exported up to 4096px.",
+  "description": "Single-page gradient generator (v1.0) that renders gradients from a vector field: movement mode, scale, phase, velocity, detail, twist and speed controls; hue, saturation, vibrance, brightness, contrast, RGB multipliers and color offset for the palette; grain, posterize and scanlines for texture. Output resolution is selectable up to 4096px. The interface is in French, and the project is free and open source under BSD-3-Clause.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["gradient generator", "gradient background", "animated gradient", "vector field", "grain texture", "scanline", "posterize", "color palette", "background generator", "image export", "web app", "design tool"],
+  "contains": ["movement, scale, phase, velocity, detail, twist and speed controls", "color controls: hue, saturation, vibrance, brightness, contrast, RGB multipliers, color offset", "effects: grain, posterize, scanlines", "export resolution up to 4096px", "v1.0 with a French interface", "free and open source; 67 stars and 12 forks on GitHub"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "BSD-3-Clause",
+  "related": {"repo": "https://github.com/noegarsoux/GradientGen", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,86 @@
+{
+  "id": "seesaw-website",
+  "url": "https://seesaw.website",
+  "kind": "site",
+  "hints_hash": "a3889e46c236f74b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://seesaw.website",
+      "title": "SEESAW ✦ Design Inspiration",
+      "status": null
+    },
+    {
+      "url": "https://www.seesaw.website/websites/freckle",
+      "title": "Freckle — SEESAW",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "SEESAW",
+  "summary": "Daily-updated gallery of 868 hand-picked website designs, browsable by category: agency, AI, e-commerce, fintech, portfolios and more.",
+  "description": "A curated gallery of web design inspiration, updated daily. Each entry shows a screenshot of the site, a link to visit it, the fonts it uses and category tags. Categories cover agency, AI, crypto, design, design tools, developer tools, e-commerce, fintech, hardware, marketing, portfolios, productivity and social; a weekly email delivers the new picks.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [
+    "ai-agent-ui",
+    "cursor",
+    "3d",
+    "card",
+    "prompt-input",
+    "navbar",
+    "progress",
+    "modal",
+    "list",
+    "map",
+    "timeline"
+  ],
+  "keywords": [
+    "web design inspiration",
+    "design gallery",
+    "website showcase",
+    "website inspiration",
+    "landing page",
+    "ui inspiration",
+    "agency website",
+    "portfolio website",
+    "saas website",
+    "e-commerce website",
+    "fintech website",
+    "ai website",
+    "design tool",
+    "developer tool",
+    "daily inspiration",
+    "web inspiration"
+  ],
+  "contains": [
+    "868 website examples",
+    "category filters: agency, AI, crypto, e-commerce, fintech, portfolios, productivity, social, design tools",
+    "each entry: screenshot, visit-site link, fonts used, category tags",
+    "updated daily",
+    "weekly email newsletter"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,28 @@
+{
+  "id": "github-com-nikunjsonigara-create-next-shadcn-kit",
+  "url": "https://github.com/NikunjSonigara/create-next-shadcn-kit",
+  "kind": "repo",
+  "hints_hash": "8d115bb5cda950e4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/NikunjSonigara/create-next-shadcn-kit/blob/HEAD/README.md", "title": "create-next-shadcn-kit", "status": null},
+    {"url": "https://github.com/NikunjSonigara/create-next-shadcn-kit", "title": "GitHub - NikunjSonigara/create-next-shadcn-kit: Interactive CLI to create a producation-ready Next.js app with ShadCN UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "create-next-shadcn-kit",
+  "summary": "CLI that scaffolds a Next.js app with shadcn/ui, Tailwind, Redux or Zustand and Husky pre-commit hooks.",
+  "description": "An interactive CLI that scaffolds a production-ready Next.js app and does the setup in one command: create-next-app (App Router, Tailwind, Turbopack), shadcn/ui init with the components you pick, a Redux Toolkit or Zustand store wired up, and an optional Husky + lint-staged + Prettier pre-commit hook. Flags cover TypeScript/JavaScript, package manager and state library; Node.js 22+ required.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["cli", "scaffold", "next.js", "shadcn", "tailwind css", "redux", "zustand", "husky", "starter", "boilerplate", "typescript", "npm package", "create-next-app"],
+  "contains": ["interactive CLI published as create-next-shadcn-kit on npm", "scaffolds via create-next-app (App Router, Tailwind, Turbopack), then shadcn init and chosen components", "state: Redux Toolkit (default) or Zustand with a sample store wired in", "optional Husky + lint-staged + Prettier pre-commit hook", "flags: -y, --ts/--js, --npm/--pnpm/--yarn/--bun, --no-husky, --state=", "Node.js 22+; works with npm, pnpm, yarn and bun", "MIT licensed"],
+  "formats": ["cli", "npm-package", "code", "templates"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn", "redux", "zustand"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/NikunjSonigara/create-next-shadcn-kit", "docs": null, "npm": "create-next-shadcn-kit", "figma": null, "parent": null},
+  "confidence": 0.9
+}

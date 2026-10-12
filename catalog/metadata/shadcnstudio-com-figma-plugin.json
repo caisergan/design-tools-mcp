@@ -1,0 +1,37 @@
+{
+  "id": "shadcnstudio-com-figma-plugin",
+  "url": "https://shadcnstudio.com/figma-plugin",
+  "kind": "page",
+  "hints_hash": "ef726286c2e743f3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnstudio.com/figma-plugin", "title": "Shadcn Figma to Code Plugin - Shadcn Studio", "status": 200},
+    {"url": "https://shadcnstudio.com/pricing", "title": "Pricing - Shadcn Studio", "status": 200},
+    {"url": "https://shadcnstudio.com/docs/documentation-figma/figma-to-shadcn-plugin", "title": "Pro Docs - Shadcn Studio Figma Plugin - Shadcn Studio", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Studio Figma Plugin",
+  "summary": "Figma plugin that generates React + shadcn/ui code from design frames, with token sync, blocks and CLI output.",
+  "description": "An AI design-to-code plugin for the shadcn/ui ecosystem: select a Figma frame and it generates React components using shadcn components and Tailwind CSS, in Radix UI (default) or Base UI style. It supports copy-paste code or a shadcn CLI install command, imports and exports shadcn create presets, syncs Figma variables with CSS variables, and can drag 1000+ blocks, 9 dashboards and 6+ landing pages into Figma. AI runs on your own API keys (Claude, Gemini or OpenAI); a plugin license key is required.",
+  "type": "plugin",
+  "elements": ["navbar", "hero", "footer", "button", "card", "input", "form", "table", "dashboard"],
+  "keywords": ["figma plugin", "figma to code", "figma to react", "shadcn ui", "design token", "css variable", "figma variable", "design system", "radix ui", "base ui", "ai code generation", "shadcn cli", "tailwind", "react component", "design handoff"],
+  "contains": [
+    "AI code generation from Figma frames using Claude, GPT or Gemini models (BYOK — your own API keys)",
+    "outputs React + shadcn components with Tailwind CSS v4, desktop and mobile variants",
+    "Radix UI (default) or Base UI output toggle",
+    "copy generated code or a shadcn CLI command (npx shadcn add …)",
+    "import/export shadcn create presets and Figma ↔ CSS variables",
+    "drag & drop 1000+ blocks, 9 dashboards and 6+ landing pages",
+    "requires a plugin license key",
+    "reported accuracy: 90–95% simple components, 70–80% complex layouts"
+  ],
+  "formats": ["code", "cli", "registry"],
+  "stack": ["react", "tailwind"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://shadcnstudio.com/docs/documentation-figma/figma-to-shadcn-plugin", "npm": null, "figma": null, "parent": "shadcnstudio-com"},
+  "confidence": 0.85
+}

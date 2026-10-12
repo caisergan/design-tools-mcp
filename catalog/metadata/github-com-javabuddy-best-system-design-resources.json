@@ -1,0 +1,35 @@
+{
+  "id": "github-com-javabuddy-best-system-design-resources",
+  "url": "https://github.com/javabuddy/best-system-design-resources",
+  "kind": "repo",
+  "hints_hash": "22c0e391a048ee0f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/javabuddy/best-system-design-resources/blob/HEAD/README.md", "title": "100+ Best System Design Resources for Interview and Learning", "status": 200},
+    {"url": "https://github.com/javabuddy/best-system-design-resources", "title": "GitHub - javabuddy/best-system-design-resources", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Best System Design Resources",
+  "summary": "Curated list of 100+ courses, books, cheat sheets and interview problems for learning system design.",
+  "description": "A README-only GitHub list of system design resources for interview preparation and learning: online courses (ByteByteGo, Grokking, Educative), books (Designing Data-Intensive Applications, System Design Interview), practice platforms, concept questions (API gateway vs load balancer, caching, sharding, Kafka), classic design problems (URL shortener, rate limiter, WhatsApp, YouTube), cheat sheets, papers and engineering blogs to follow. 4.5k stars, maintained by javabuddy.",
+  "type": "directory",
+  "categories": ["dev-ai-tools", "learning"],
+  "elements": [],
+  "keywords": ["system design", "system design interview", "software architecture", "interview preparation", "distributed system", "scalability", "caching", "load balancer", "microservice", "database sharding", "rate limiter", "system design course", "system design book", "cheat sheet", "engineering blog", "awesome list"],
+  "contains": [
+    "100+ resources: courses, books, platforms, tutorials and papers",
+    "interview concept questions (API gateway vs load balancer, JWT vs session, CQRS ...)",
+    "classic design problems: URL shortener, WhatsApp, YouTube, rate limiter, parking lot",
+    "system design basics: caching strategies, sharding, Kafka, consistent hashing",
+    "engineering blogs list (Netflix, Uber, Airbnb, GitHub, Instagram ...)",
+    "README-only repository; 4.5k stars, 625 forks"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/javabuddy/best-system-design-resources", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

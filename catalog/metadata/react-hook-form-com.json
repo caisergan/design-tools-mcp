@@ -1,0 +1,101 @@
+{
+  "id": "react-hook-form-com",
+  "url": "https://react-hook-form.com",
+  "kind": "site",
+  "hints_hash": "ff632c686872e27f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:31:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://react-hook-form.com",
+      "title": "React Hook Form - performant, flexible and extensible form library",
+      "status": null
+    },
+    {
+      "url": "https://react-hook-form.com/docs",
+      "title": "API Documentation | React Hook Form",
+      "status": null
+    },
+    {
+      "url": "https://react-hook-form.com/get-started",
+      "title": "Get Started | React Hook Form",
+      "status": null
+    },
+    {
+      "url": "https://react-hook-form.com/docs/useform",
+      "title": "useForm | React Hook Form",
+      "status": null
+    },
+    {
+      "url": "https://github.com/react-hook-form/react-hook-form",
+      "title": "GitHub - react-hook-form/react-hook-form",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/react-hook-form/react-hook-form/master/README.md",
+      "title": "react-hook-form README",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "React Hook Form",
+  "summary": "React form library with easy validation, tiny size and no dependencies; works with native HTML inputs and UI libraries.",
+  "description": "Performant, flexible forms for React with easy validation. Rely on native HTML markup and constraint-based validation, and isolate re-renders by subscribing to individual fields. Hooks include useForm, useController, useFormContext, useWatch, useFormState and useFieldArray; components include Form, Controller, FormProvider and ErrorMessage. Works with React Native, TypeScript, UI libraries and schema validators such as Yup, Zod, AJV and Joi.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "form",
+    "input"
+  ],
+  "keywords": [
+    "react form",
+    "form validation",
+    "form library",
+    "react hook",
+    "uncontrolled form",
+    "typescript",
+    "react native",
+    "schema validation",
+    "zod",
+    "yup",
+    "npm package",
+    "error handling",
+    "form state",
+    "controlled input",
+    "performance"
+  ],
+  "contains": [
+    "hooks: useForm, useController, useFormContext, useWatch, useFormState, useFieldArray",
+    "components: Form, Controller, FormProvider, ErrorMessage",
+    "no dependencies and small package size",
+    "schema validation with Yup, Zod, AJV, Superstruct, Joi",
+    "works with React Native and TypeScript",
+    "44.9k GitHub stars"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/react-hook-form/react-hook-form",
+    "docs": "https://react-hook-form.com/docs",
+    "npm": "react-hook-form",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

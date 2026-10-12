@@ -1,0 +1,117 @@
+{
+  "id": "a-fresh-website",
+  "url": "https://a-fresh.website",
+  "kind": "site",
+  "hints_hash": "e00d070ae2f87b7c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:48Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://a-fresh.website",
+      "title": "The Best Website Examples | a-fresh",
+      "status": 200
+    },
+    {
+      "url": "https://www.a-fresh.website/components",
+      "title": "a-fresh | Website components for designers",
+      "status": 200
+    },
+    {
+      "url": "https://www.a-fresh.website/pricing",
+      "title": "All-access to Website inspiration gallery",
+      "status": 200
+    },
+    {
+      "url": "https://www.a-fresh.website/components/arc",
+      "title": "a-fresh | Arc web component",
+      "status": 200
+    },
+    {
+      "url": "https://www.a-fresh.website/components/cob",
+      "title": "a-fresh | COB web component",
+      "status": 200
+    },
+    {
+      "url": "https://www.a-fresh.website/pages",
+      "title": "Explore hand-picked website pages examples | a-fresh",
+      "status": 200
+    },
+    {
+      "url": "https://www.a-fresh.website/resources",
+      "title": "High-quality Resources for Designers | a-fresh",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "a-fresh",
+  "summary": "Gallery of 1,000+ curated website examples with section, page, email and popup galleries.",
+  "description": "a-fresh collects website examples for design inspiration, browsable by type and style — landing page, e-commerce, portfolio, web app, SaaS, dark, minimal, Framer and more. It also catalogs individual sections (hero, pricing, FAQ, testimonials, footer, stats, bento grid, logo cloud, features, team, contact) plus separate galleries for pages, emails and popups, and a marketplace of design resources. Full access is a $6/month Pro subscription (billed yearly).",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "sections"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "cta",
+    "pricing",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "stats",
+    "team",
+    "contact",
+    "footer",
+    "bento-grid",
+    "404"
+  ],
+  "keywords": [
+    "website inspiration",
+    "website example",
+    "web design inspiration",
+    "landing page",
+    "e-commerce",
+    "portfolio",
+    "saas",
+    "dark mode",
+    "minimal",
+    "framer",
+    "website section",
+    "email design",
+    "popup design",
+    "hero section",
+    "pricing page",
+    "testimonials",
+    "footer design",
+    "design gallery",
+    "web design"
+  ],
+  "contains": [
+    "1,051 gallery examples",
+    "sections by count: footer 254, testimonials 138, hero 93, CTA 73, FAQ 69, pricing 57, bento grid 47",
+    "browse by type: landing page, e-commerce, portfolio, web app, SaaS, dark, minimal, Framer, B2B, AI, Web3 and more",
+    "page galleries: pricing, product, blog, about, careers, integrations, 404, product list",
+    "Pro subscription $6/month billed $72/year (save 33%)"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

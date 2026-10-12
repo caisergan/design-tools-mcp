@@ -1,0 +1,38 @@
+{
+  "id": "designsystems-one",
+  "url": "https://designsystems.one",
+  "kind": "site",
+  "hints_hash": "b7b21a63d684031f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:23:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://designsystems.one/llms.txt", "title": "DesignSystems.one", "status": null},
+    {"url": "https://designsystems.one", "title": "DesignSystems.one | Design Systems, Explained — Gallery, Guides & Tools", "status": 200},
+    {"url": "https://www.designsystems.one/about", "title": "About — Kiryl Zhukouski | DesignSystems.one", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DesignSystems.one",
+  "summary": "Catalogue of 120 real-world design systems with breakdowns, an agent-readiness index and free token and accessibility tools.",
+  "description": "Practitioner-run catalogue of real design systems (Polaris, Carbon, Material 3, Apple HIG, Primer, shadcn/ui and more) with editorial breakdowns, token snapshots, cross-system patterns and watch-outs. Adds the Agent-Ready Design Systems Index (37 systems scored on MCP, llms.txt, DTCG tokens, registry and Figma Code Connect), an 8-chapter build playbook, foundation guides and ten SKILL.md files. JSON APIs, a shadcn registry and an MCP server expose the data; free browser tools generate tokens, check accessibility and lay out grids.",
+  "type": "directory",
+  "categories": ["components", "design-rules", "learning"],
+  "elements": ["table", "empty-state", "command-palette", "dashboard", "form", "modal", "chart"],
+  "keywords": ["design system", "design system gallery", "design token", "token generator", "w3c design token", "dtcg", "shadcn registry", "mcp server", "agent-ready", "design system comparison", "design system guide", "accessibility", "wcag", "governance", "design ops", "design.md", "skill.md", "llms.txt"],
+  "contains": [
+    "120 real-world design systems in the gallery, 49 with rich breakdowns",
+    "Agent-Ready Index: 37 systems scored on 5 signals, data CC BY 4.0",
+    "12 cross-system patterns: forms, tables, confirmations, empty states",
+    "8-chapter build playbook and 11 foundation pages",
+    "10 SKILL.md files for design-system work (CC0)",
+    "shadcn registry items: utils, button, input, card",
+    "JSON APIs and an MCP server (Streamable HTTP, no auth)",
+    "free browser tools: token generator, grid builder, accessibility checker, ROI calculator"
+  ],
+  "formats": ["links", "docs", "api", "registry", "prompts", "templates"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

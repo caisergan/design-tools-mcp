@@ -1,0 +1,102 @@
+{
+  "id": "ui-trophy-so",
+  "url": "https://ui.trophy.so",
+  "kind": "site",
+  "hints_hash": "dbbd5a34079267c5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.trophy.so",
+      "title": "Gamification UI Kit by Trophy",
+      "status": 200
+    },
+    {
+      "url": "https://ui.trophy.so/docs",
+      "title": "Introduction — Gamification UI Kit",
+      "status": 200
+    },
+    {
+      "url": "https://ui.trophy.so/docs/components",
+      "title": "Components — Gamification UI Library",
+      "status": 200
+    },
+    {
+      "url": "https://ui.trophy.so/docs/styles",
+      "title": "Styles — Tailwind Gamification Design Tokens",
+      "status": 200
+    },
+    {
+      "url": "https://ui.trophy.so/docs/components/achievement-badge",
+      "title": "Achievement Badge — React Achievement Badge Component",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Trophy UI",
+  "summary": "Open-source gamification UI kit: 18 copy-paste React components for streaks, achievements, leaderboards and points.",
+  "description": "Gamification components built on shadcn/ui and Tailwind CSS v4, installed with the shadcn CLI into React or Next.js projects: streak cards, calendars and badges, achievement badges, grids and unlock animations, leaderboard rankings and podiums, points badges, charts and level timelines. Styled with semantic design tokens (including rank and achievement tokens) so themes stay portable.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "badge",
+    "card",
+    "list",
+    "calendar",
+    "chart",
+    "timeline",
+    "progress"
+  ],
+  "keywords": [
+    "gamification",
+    "streak",
+    "achievement",
+    "badge",
+    "leaderboard",
+    "point",
+    "level",
+    "react",
+    "shadcn",
+    "tailwind css",
+    "nextjs",
+    "registry",
+    "user engagement",
+    "podium",
+    "unlock animation"
+  ],
+  "contains": [
+    "18 components in 4 groups: streaks, achievements, leaderboards, points & levels",
+    "install via shadcn CLI (shadcn registry items), e.g. Streak Badge, Leaderboard Rankings, Points Chart",
+    "gamification design tokens: achievement, rank-1 … rank-3",
+    "docs: introduction, usage, styles, per-component API pages"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://ui.trophy.so/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

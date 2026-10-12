@@ -1,0 +1,21 @@
+{
+  "id": "60fps-design-mcp",
+  "url": "https://60fps.design/mcp",
+  "kind": "page",
+  "hints_hash": "7ae010987fc32917",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://60fps.design/mcp", "title": "60fps MCP: iOS interaction library for AI agents", "status": 200}
+  ],
+  "status": "ok",
+  "name": "60fps MCP",
+  "summary": "MCP server that lets AI agents search 2,100 real iOS interactions and read the motion breakdown behind each one.",
+  "description": "One MCP endpoint for Claude, Cursor, Codex, ChatGPT or any MCP-capable client: the agent finds a shot in plain words, reads how it moves beat by beat — trigger, opening state, motion, settle — and builds from the real timing. It draws on the 60fps library of 2,100 shots from 492 apps, with 83 motion breakdowns and 67 storyboards; subscription per seat at $29/month or $69/quarter, not included in the site's PRO plan.",
+  "type": "tool",
+  "keywords": ["mcp server", "ios animation", "interaction design", "animation reference", "motion design", "micro interaction", "animation breakdown", "storyboard", "ai agent", "app animation", "ui motion", "motion timing"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "60fps-design"},
+  "confidence": 0.85
+}

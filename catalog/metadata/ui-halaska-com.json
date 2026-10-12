@@ -1,0 +1,142 @@
+{
+  "id": "ui-halaska-com",
+  "url": "https://ui.halaska.com",
+  "kind": "site",
+  "hints_hash": "cc385ea5277da4cf",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:23:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ui.halaska.com/llms.txt",
+      "title": "Halaska Kit: API reference for coding agents",
+      "status": null
+    },
+    {
+      "url": "https://ui.halaska.com",
+      "title": "Halaska UI: a UI kit for AI products",
+      "status": 200
+    },
+    {
+      "url": "https://ui.halaska.com/docs/install",
+      "title": "Install · Halaska UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.halaska.com/patterns",
+      "title": "Patterns · Halaska UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.halaska.com/components",
+      "title": "Components · Halaska UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.halaska.com/pricing",
+      "title": "Halaska UI: a UI kit for AI products",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Halaska UI",
+  "summary": "Single-file React UI kit for AI products: shadcn/ui-parity components plus AI UX patterns and example screens.",
+  "description": "Halaska UI is a single-file React UI kit for AI products: halaska-kit.jsx installs with curl and needs only react and react-dom — inline styles, no CSS or Tailwind setup, TypeScript definitions in halaska-kit.d.ts, light/dark theming per component. It mirrors the shadcn/ui component set and adds AI-native pieces (Orb, Streaming Text, Thinking Steps, Confidence Bar, Diff views) plus AI UX patterns — prompt input, streaming answer, plan preview, approval card, audit log, error repair — demonstrated on an AI operations agent named Alpha across screens.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "ai-agent-ui",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "chart",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "input",
+    "list",
+    "loader",
+    "menubar",
+    "modal",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "prompt-input",
+    "select",
+    "slider",
+    "stats",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "ai product",
+    "ai interface",
+    "react ui kit",
+    "shadcn",
+    "single file component",
+    "ui kit",
+    "design system",
+    "ai ux pattern",
+    "agent interface",
+    "ai agent ui",
+    "prompt input",
+    "streaming answer",
+    "approval card",
+    "audit log",
+    "agent status",
+    "thinking step",
+    "dark theme",
+    "typescript",
+    "nextjs",
+    "coding agent",
+    "claude code"
+  ],
+  "contains": [
+    "single-file React kit: halaska-kit.jsx installed with curl; react + react-dom only, inline styles",
+    "~100 styled components and 38 UX patterns per the llms.txt API reference",
+    "77 components and 40 AI UX patterns listed on the site",
+    "patterns grouped by lifecycle: conversation core, trust, agentic control, output, ambient",
+    "AI pieces: Orb, Streaming Text, Thinking Steps, Confidence Bar, Diff views",
+    "lifecycle patterns are prop-driven: thinking trace, streaming answer, plan preview, approval card",
+    "screens and patterns demo an AI operations agent named Alpha",
+    "TypeScript definitions in halaska-kit.d.ts; Geist fonts and keyframes self-inject"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://ui.halaska.com/docs/install",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

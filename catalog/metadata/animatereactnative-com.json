@@ -1,0 +1,32 @@
+{
+  "id": "animatereactnative-com",
+  "url": "https://animatereactnative.com",
+  "kind": "site",
+  "hints_hash": "5802b7215725ac78",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.animatereactnative.com/", "title": "AnimateReactNative.com - Premium and Custom React Native animations.", "status": null},
+    {"url": "https://www.animatereactnative.com/animations", "title": "Results for - React Native Animations", "status": null},
+    {"url": "https://www.animatereactnative.com/pricing", "title": "AnimateReactNative.com - Premium and Custom React Native animations.", "status": null},
+    {"url": "https://www.animatereactnative.com/license", "title": "AnimateReactNative.com - Premium and Custom React Native animations.", "status": null},
+    {"url": "https://www.animatereactnative.com/free-react-native-animations", "title": "AnimateReactNative.com - Premium and Custom React Native animations.", "status": 200},
+    {"url": "https://www.animatereactnative.com/shared-element-transitions", "title": "AnimateReactNative.com - Premium and Custom React Native animations.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AnimateReactNative.com",
+  "summary": "Library of 140+ ready-to-use animated React Native components built with Reanimated, Moti and the Animated API.",
+  "description": "A paid collection of animated React Native components and examples: carousels, sliders, switches, loaders, marquees, parallax and 3D effects, pagination, progress and shared element transitions. Animations are tagged by the library they use (Reanimated, Moti, Animated API, FlatList) and browsable in an online gallery with previews. A free section shows a sample of the set; the rest comes with a one-time $199 personal license or a team license, with lifetime access and updates.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["carousel", "scroll-effect", "button", "switch", "slider", "3d", "pagination", "progress", "tabs", "card", "loader", "marquee"],
+  "keywords": ["react native", "react native animation", "reanimated", "moti", "animated component", "carousel", "parallax", "shared element transition", "micro interaction", "bottom sheet", "marquee", "progress animation", "loading animation", "gesture", "expo", "animation library", "mobile app", "flatlist"],
+  "contains": ["142 animation examples in the gallery", "125+ animations covered by the lifetime license", "tags with counts: reanimated 69, moti 43, flatlist 29, micro interaction 23, carousel 20", "10+ shared element transitions", "free animations section as a preview", "components built with Reanimated, Animated API and Moti"],
+  "formats": ["code", "links"],
+  "stack": ["react-native", "react-native-reanimated", "moti"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

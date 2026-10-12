@@ -1,0 +1,75 @@
+{
+  "id": "github-com-pranshuparmar-witr",
+  "url": "https://github.com/pranshuparmar/witr",
+  "kind": "repo",
+  "hints_hash": "845bf741d54dc8de",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:42:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/pranshuparmar/witr/blob/HEAD/README.md",
+      "title": "witr",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/pranshuparmar/witr",
+      "title": "GitHub - pranshuparmar/witr: Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "witr",
+  "summary": "CLI and TUI that traces a process, port, container or file back to what started it.",
+  "description": "Answers \"why is this running?\" for any process, port, container or file: one command prints the chain that started it, the output also comes as machine-readable JSON, or you can explore interactively in a TUI. A browser sandbox with a guided tutorial and free-play mode ships alongside the CLI.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "process",
+    "port",
+    "container",
+    "file",
+    "cli",
+    "tui",
+    "process tree",
+    "debugging",
+    "observability",
+    "devop",
+    "incident response",
+    "docker",
+    "kubernetes",
+    "systemd"
+  ],
+  "contains": [
+    "traces a process, port, container or file back to the exact chain that started it",
+    "one command, machine-readable JSON output, or an interactive TUI",
+    "browser sandbox: guided tutorial and free-play on a simulated Linux box",
+    "install via package managers (incl. mamba, pixi) or run without installation",
+    "topics: linux, macos, freebsd, docker, kubernetes, observability, incident response"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "go"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/pranshuparmar/witr",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

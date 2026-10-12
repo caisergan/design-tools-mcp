@@ -1,0 +1,42 @@
+{
+  "id": "ship-studio",
+  "url": "https://ship.studio",
+  "kind": "site",
+  "hints_hash": "6c92b7d296b92ee0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ship.studio", "title": "Ship Studio - Build it, ship it, host it without leaving the app", "status": null},
+    {"url": "https://www.ship.studio/showcase", "title": "Showcase - Ship Studio | Projects Built by Real Users", "status": null},
+    {"url": "https://www.ship.studio/pricing", "title": "Pricing - Ship Studio", "status": null},
+    {"url": "https://www.ship.studio/templates", "title": "Templates - Ship Studio | Ready-Made Starting Points for Your Next Site", "status": null},
+    {"url": "https://www.ship.studio/templates/kiln-prerhy", "title": "Kiln - Ship Studio Template", "status": null},
+    {"url": "https://github.com/ship-studio/ship-studio", "title": "GitHub - ship-studio/ship-studio: The professional studio for modern development", "status": 200},
+    {"url": "https://raw.githubusercontent.com/ship-studio/ship-studio/main/README.md", "title": "Ship Studio README", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Ship Studio",
+  "summary": "Free, open-source desktop app for agentic development: AI agent terminal, live preview, visual editing, Git and deploys in one window.",
+  "description": "A free desktop app for macOS and Windows that puts agentic development in one window: run Claude Code, Codex or OpenCode in a built-in terminal, preview and visually edit sites locally, open GitHub branches and PRs, and deploy to Vercel. Comes with 29 starter templates (Next.js, SvelteKit, Astro, Nuxt, Expo, React Native, Flutter) and a projects dashboard.",
+  "type": "app",
+  "categories": ["dev-ai-tools", "templates"],
+  "elements": ["bento-grid", "background"],
+  "keywords": ["ai agent", "ai coding agent", "claude code", "codex", "opencode", "desktop app", "agentic development", "local development", "visual editing", "live preview", "git integration", "pull request", "deploy to vercel", "tauri", "developer tool", "website template", "nextjs starter", "astro starter", "sveltekit starter", "no code", "macos app", "windows app"],
+  "contains": [
+    "free, MIT-licensed open-source desktop app for macOS and Windows",
+    "AI agent terminal with Claude Code, Codex and OpenCode",
+    "live preview, visual editing and a Cmd+K command palette",
+    "GitHub integration: repo creation, PRs and a merge-conflict UI",
+    "one-click deploys to Vercel with auto-deploy on push",
+    "29 starter templates: Next.js, SvelteKit, Astro, Nuxt, Expo, React Native, Flutter",
+    "mobile app preview on the iOS simulator",
+    "plugins, agent skills and MCP support"
+  ],
+  "formats": ["app", "templates", "code"],
+  "stack": ["react", "typescript", "vite", "tauri", "rust"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ship-studio/ship-studio", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

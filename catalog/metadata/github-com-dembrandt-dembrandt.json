@@ -1,0 +1,90 @@
+{
+  "id": "github-com-dembrandt-dembrandt",
+  "url": "https://github.com/dembrandt/dembrandt",
+  "kind": "repo",
+  "hints_hash": "19a9a6dc19fd3dd1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/dembrandt/dembrandt/blob/HEAD/README.md",
+      "title": "Dembrandt.",
+      "status": 200
+    },
+    {
+      "url": "https://www.dembrandt.com/",
+      "title": "Dembrandt | Extract, Track and Compare Design Systems",
+      "status": 200
+    },
+    {
+      "url": "https://www.dembrandt.com/app",
+      "title": "Dembrandt App | Extract, Track and Compare Design Tokens",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Dembrandt",
+  "summary": "CLI that extracts any live website's design system as W3C design tokens, DESIGN.md, Tailwind and shadcn themes.",
+  "description": "Dembrandt renders a page with Playwright, reads computed styles from the DOM and returns design tokens: colors with evidence, typography, spacing, borders, shadows, motion and component styles, plus breakpoints, icons and framework detection. Outputs include DTCG JSON, DESIGN.md, Tailwind v4 @theme CSS, shadcn themes, an HTML report and a brand-guide PDF, with WCAG contrast checks and a --compare drift gate for CI. An MCP server exposes the same extractions to Claude Code, Cursor and other AI agents.",
+  "type": "tool",
+  "categories": [
+    "design-tools",
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "design token",
+    "design system",
+    "extract design system",
+    "w3c dtcg",
+    "design.md",
+    "tailwind theme",
+    "shadcn theme",
+    "color palette",
+    "typography",
+    "spacing",
+    "wcag contrast",
+    "design drift",
+    "ci",
+    "mcp server",
+    "playwright",
+    "cli",
+    "website audit"
+  ],
+  "contains": [
+    "one command: npx dembrandt example.com",
+    "extracts colors, typography, spacing, borders, shadows, motion, components, breakpoints, icons and frameworks",
+    "exports: DTCG tokens, DESIGN.md, Tailwind v4 @theme, shadcn theme, HTML report, brand guide PDF, JSON",
+    "analysis flags: WCAG, compare drift gate, tokens check, AI brand-primary prediction",
+    "coverage flags: multi-page crawl, sitemap discovery, dark mode, mobile viewport",
+    "MCP server (io.github.dembrandt/dembrandt) with extraction and analysis tools",
+    "drift tracking app (beta): baselines, snapshots, visual diff, CI uploads",
+    "requires Node.js 18+ and a Playwright browser download; MIT licensed"
+  ],
+  "formats": [
+    "npm-package",
+    "cli",
+    "api",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "node",
+    "playwright"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/dembrandt/dembrandt",
+    "docs": "https://www.dembrandt.com/getting-started",
+    "npm": "dembrandt",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

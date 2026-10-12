@@ -1,0 +1,32 @@
+{
+  "id": "fonts-google-com-specimen-stack-sans-notch-preview-layout-grid-preview-s",
+  "url": "https://fonts.google.com/specimen/Stack+Sans+Notch?preview.layout=grid&preview.script=Latn",
+  "kind": "page",
+  "hints_hash": "ee979d60e95d7276",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:56:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fonts.google.com/specimen/Stack+Sans+Notch?preview.layout=grid&preview.script=Latn",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.google.com/specimen/Stack+Sans+Notch/about",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.google.com/specimen/Stack+Sans+Notch",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

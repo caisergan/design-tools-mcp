@@ -1,0 +1,27 @@
+{
+  "id": "gatheros-co",
+  "url": "https://gatheros.co",
+  "kind": "site",
+  "hints_hash": "05cdff725f03e382",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gatheros.co", "title": "GatherOS", "status": null}
+  ],
+  "status": "ok",
+  "name": "GatherOS",
+  "summary": "Mac app that captures design references and websites and makes them searchable in a local-first library.",
+  "description": "A Mac app for collecting design inspiration: capture references by drag, paste or screenshot, sync X bookmarks, and find them again with AI visual search or search by color. Collections, infinite spaces, auto-tagging, generate variations and a rediscover mode organize the library; a Chrome extension covers the browser.",
+  "type": "app",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["design inspiration", "reference manager", "screenshot", "capture", "mac app", "image search", "visual search", "search by color", "auto-tagging", "local-first", "bookmark", "design reference", "chrome extension", "inspiration library"],
+  "contains": ["capture by drag, paste or screenshot", "X (Twitter) bookmark sync", "AI visual search and search by color", "local-first library with collections, infinite spaces and unlimited libraries", "auto-tagging, generate variations and rediscover mode", "Chrome extension"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

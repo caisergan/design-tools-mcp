@@ -1,0 +1,27 @@
+{
+  "id": "github-com-miqdadbadjuber-anti-slop",
+  "url": "https://github.com/miqdadbadjuber/anti-slop",
+  "kind": "repo",
+  "hints_hash": "a062e1d8e7aa2939",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/miqdadbadjuber/anti-slop/blob/HEAD/README.md", "title": "antislop", "status": null}
+  ],
+  "status": "ok",
+  "name": "antislop",
+  "summary": "Rules that stop AI coding agents from producing generic AI-slop UI, copy and code comments — a filter, not a style guide.",
+  "description": "A rule set for AI coding agents against generic AI-generated UI and copy: 38 mandatory rules in three tiers (Hard Gate, Purpose-Gate, Quality Locks), a Liveliness Toolkit with ENERGY/RHYTHM/MOTION dials and a Design Read, and a mandatory PASS/FAIL Delivery Gate report. It ships as six Agent Skills folders (core, ui, copywriting, human, layoutmobile, code) that install into Claude Code, Codex, Cursor, Antigravity, OpenCode, Gemini CLI and Hermes, or as a single markdown file you paste anywhere. It prescribes no colors, fonts or layouts — direction comes from your own DESIGN.md.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["agent skill", "ai coding agent", "design rule", "anti slop", "ai slop", "ui quality", "copywriting", "accessibility", "responsive layout", "code comment", "quality checklist", "prompt package"],
+  "contains": ["38 mandatory rules in three tiers", "liveliness toolkit: ENERGY / RHYTHM / MOTION dials and Design Read", "delivery gate PASS/FAIL report in four blocks", "six skills: antislop, antislop-ui, antislop-copywriting, antislop-human, antislop-layoutmobile, antislop-code", "installs into Claude Code, Codex, Cursor, Antigravity, OpenCode, Gemini CLI and Hermes", "guide mode while building, after mode to audit finished work"],
+  "formats": ["prompts", "npm-package", "cli", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/miqdadbadjuber/anti-slop", "docs": "https://github.com/miqdadbadjuber/anti-slop/blob/HEAD/GUIDE.md", "npm": "antislop-ai", "figma": null, "parent": null},
+  "confidence": 0.85
+}

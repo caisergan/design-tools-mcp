@@ -1,0 +1,29 @@
+{
+  "id": "arindam200-github-io-termui",
+  "url": "https://arindam200.github.io/termui",
+  "kind": "page",
+  "hints_hash": "8458cf269550ee0c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:49:26Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://arindam200.github.io/termui", "title": "TermUI Registry", "status": null},
+    {"url": "https://arindam200.github.io/termui/schema.json", "title": "TermUI schema.json", "status": 200},
+    {"url": "https://github.com/Arindam200/termui", "title": "GitHub - Arindam200/termui: TypeScript terminal UI framework", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TermUI Registry",
+  "summary": "Shadcn-style registry of 113 terminal UI components for React + Ink, installed by CLI.",
+  "description": "A shadcn-style component registry for terminal interfaces: 113 TypeScript components across 13 categories — layout, typography, input, selection, data display, feedback, navigation, overlays, forms, charts, utility, templates and AI/LLM components. Source is fetched with npx termui add and copied into your project; a schema manifest and per-component meta files back the registry.",
+  "type": "registry",
+  "categories": ["registries", "components"],
+  "elements": ["alert", "badge", "banner", "breadcrumbs", "card", "chart", "chat", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "form", "input", "list", "loader", "modal", "pagination", "popover", "progress", "select", "sidebar", "stepper", "switch", "table", "tabs", "text-effect", "toast", "tooltip", "ai-agent-ui"],
+  "keywords": ["terminal ui", "tui", "react", "ink", "component registry", "shadcn", "cli", "typescript", "terminal component", "command palette", "data grid", "chart", "sparkline", "chat ui", "ai agent ui", "model selector", "mcp", "theme"],
+  "contains": ["113 terminal UI components in 13 categories", "install via npx termui add <component> (copies TSX source)", "categories incl. layout, typography, input, data display, charts, AI components", "8 built-in themes (dracula, nord, catppuccin …)", "AI/LLM components: chat thread, tool call, model selector, context meter", "MCP server with browse/install/docs tools", "MIT license; TypeScript, React + Ink"],
+  "formats": ["registry", "cli", "code", "npm-package", "templates", "docs"],
+  "stack": ["react", "ink", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Arindam200/termui", "docs": null, "npm": "termui", "figma": null, "parent": null},
+  "confidence": 0.9
+}

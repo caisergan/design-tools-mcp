@@ -1,0 +1,79 @@
+{
+  "id": "github-com-jakobhoeg-enhanced-button",
+  "url": "https://github.com/jakobhoeg/enhanced-button",
+  "kind": "repo",
+  "hints_hash": "a36b68f2bf9d05f3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/jakobhoeg/enhanced-button/blob/HEAD/README.md",
+      "title": "enhanced-button",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/jakobhoeg/enhanced-button",
+      "title": "GitHub - jakobhoeg/enhanced-button: An enhanced version of the default shadcn-button component · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://enhanced-button.vercel.app/",
+      "title": "enhanced-button",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "enhanced-button",
+  "summary": "Drop-in shadcn/ui button expansion adding effects like shine, gooey, ring hover and gradient slideshow.",
+  "description": "An enhanced version of the shadcn/ui button: replace button.tsx and extend tailwind.config to get one button component with extra effect variants — expandIcon, ringHover, shine, shineHover, gooeyRight, gooeyLeft, underline, hoverUnderline and gradientSlideShow — plus icon placement handling, so a project does not manage several button components.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "button"
+  ],
+  "keywords": [
+    "button",
+    "shadcn button",
+    "animated button",
+    "button effect",
+    "hover effect",
+    "shine button",
+    "react",
+    "tailwind",
+    "typescript",
+    "gradient button",
+    "ui component"
+  ],
+  "contains": [
+    "copy button.tsx and tailwind.config lines into a shadcn/ui project",
+    "effect variants: shine, shineHover, ringHover, gooeyLeft/Right, underline, hoverUnderline, expandIcon, gradientSlideShow",
+    "icon prop with left/right placement and expand animation",
+    "requires an existing shadcn/ui button"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/jakobhoeg/enhanced-button",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

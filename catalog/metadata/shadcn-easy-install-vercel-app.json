@@ -1,0 +1,33 @@
+{
+  "id": "shadcn-easy-install-vercel-app",
+  "url": "https://shadcn-easy-install.vercel.app",
+  "kind": "site",
+  "hints_hash": "fd8571463b52c278",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn-easy-install.vercel.app", "title": "shadcn/ui easy install", "status": null},
+    {"url": "https://shadcn-cli-builder.vercel.app/", "title": "shadcn/ui easy install", "status": 200}
+  ],
+  "status": "ok",
+  "name": "shadcn/ui CLI Builder",
+  "summary": "Web builder that generates one shadcn CLI command to install any selection of shadcn/ui components.",
+  "description": "A browser tool that lists the shadcn/ui component catalog — accordion, alert, avatar, badge, breadcrumb, button, calendar, card, carousel, chart, dialog, drawer, dropdown menu, table, sidebar, tooltip and more — and builds a `pnpm dlx shadcn@latest add` command for the components you pick, ready to copy into a project. The entry URL redirects to shadcn-cli-builder.vercel.app.",
+  "type": "tool",
+  "categories": ["design-tools", "components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "chat", "checkbox", "command-palette", "drawer", "dropdown", "empty-state", "file-upload", "input", "loader", "menubar", "modal", "navbar", "otp-input", "pagination", "popover", "progress", "select", "sidebar", "slider", "switch", "table", "tabs", "toast", "tooltip"],
+  "keywords": ["shadcn", "shadcn ui", "cli", "cli builder", "install command", "component install", "ui component", "react", "tailwind", "pnpm dlx", "one-click", "registry"],
+  "contains": [
+    "checklist of 63 shadcn/ui components to install",
+    "generates a pnpm dlx shadcn@latest add command",
+    "select any set of components, then copy one command",
+    "includes newer shadcn components such as Bubble, Marker and Questionnaire"
+  ],
+  "formats": ["cli", "app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

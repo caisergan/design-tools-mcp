@@ -1,0 +1,71 @@
+{
+  "id": "github-com-unclecode-crawl4ai",
+  "url": "https://github.com/unclecode/crawl4AI",
+  "kind": "repo",
+  "hints_hash": "59a972fb545d453b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/unclecode/crawl4AI/blob/HEAD/README.md",
+      "title": "Crawl4AI: the open-source web crawler for LLMs and AI agents",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Crawl4AI",
+  "summary": "Open-source web crawler and scraper that turns websites into clean Markdown and structured JSON for LLMs.",
+  "description": "Python crawler built for LLM pipelines: clean and fit Markdown with citation lists, structured extraction via CSS/XPath schemas or any LLM, deep crawling (BFS/DFS/best-first) with adaptive stopping, plus screenshots, PDFs and media. Runs as a library, CLI or Docker server with REST API, dashboard and MCP, or as a hosted cloud with /scrape, /extract, /search, /serp and /answer.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "web crawler",
+    "scraper",
+    "markdown",
+    "llm",
+    "rag",
+    "ai agent",
+    "data extraction",
+    "structured data",
+    "python",
+    "mcp",
+    "docker",
+    "api",
+    "batch scraping"
+  ],
+  "contains": [
+    "LLM-ready Markdown: headings, tables, code blocks and a citation list",
+    "extraction: CSS/XPath/LLM strategies, schema generator and chunking",
+    "deep crawl BFS/DFS/best-first with crash recovery; adaptive crawling",
+    "Docker server REST API: /md, /html, /crawl, /screenshot, /pdf, /executejs",
+    "cloud APIs: /scrape, /extract, /search, /serp and /answer, plus MCP",
+    "Apache-2.0 with badge attribution; latest release v0.9.4 (Sep 2026)"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "api",
+    "docs"
+  ],
+  "stack": [
+    "python"
+  ],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/unclecode/crawl4ai",
+    "docs": "https://docs.crawl4ai.com",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

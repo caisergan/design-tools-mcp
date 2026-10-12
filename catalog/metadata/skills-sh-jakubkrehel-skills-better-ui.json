@@ -1,0 +1,68 @@
+{
+  "id": "skills-sh-jakubkrehel-skills-better-ui",
+  "url": "https://skills.sh/jakubkrehel/skills/better-ui",
+  "kind": "page",
+  "hints_hash": "dc393472487ebac6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:32:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/jakubkrehel/skills/better-ui",
+      "title": "better-ui — jakubkrehel/skills",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "better-ui (jakubkrehel/skills)",
+  "summary": "Agent skill that polishes UI surfaces, icons and motion with exact values for radius, shadows, hit areas and animation.",
+  "description": "A SKILL.md package for AI coding agents covering UI polish: concentric border radius (outer radius equals inner radius plus padding), optical alignment, surface depth, contextual icons, hit areas and motion values such as cubic-bezier(0.2, 0, 0, 1). It defers typography, accessibility, layout and color work to companion skills better-typography, better-accessibility, better-layout and better-colors.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules"
+  ],
+  "elements": [],
+  "keywords": [
+    "agent skill",
+    "ui polish",
+    "border radius",
+    "concentric radius",
+    "optical alignment",
+    "shadow",
+    "surface depth",
+    "icon",
+    "hit area",
+    "animation",
+    "css",
+    "design rule",
+    "focus ring",
+    "skill.md",
+    "ai agent"
+  ],
+  "contains": [
+    "exact values for radius, shadows, icons, hit areas and motion",
+    "rules: outer radius equals inner radius plus padding; nudge by eye where geometry looks off",
+    "companion skills: better-typography, better-accessibility, better-layout, better-colors",
+    "installs: 34.2K; repository jakubkrehel/skills with 7.7K stars"
+  ],
+  "formats": [
+    "prompts"
+  ],
+  "stack": [
+    "css"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/jakubkrehel/skills",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.85
+}

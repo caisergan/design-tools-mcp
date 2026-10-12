@@ -1,0 +1,95 @@
+{
+  "id": "xdguru-com",
+  "url": "https://xdguru.com",
+  "kind": "site",
+  "hints_hash": "8097469e3f39c095",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://xdguru.com/llms.txt",
+      "title": "UI Things: Interfaces Now and Next",
+      "status": null
+    },
+    {
+      "url": "https://xdguru.com",
+      "title": "UI Things: Interfaces Now and Next",
+      "status": 200
+    },
+    {
+      "url": "https://uithings.com/categories",
+      "title": "Categories | UI Things",
+      "status": 200
+    },
+    {
+      "url": "https://uithings.com/categories/news",
+      "title": "News | UI Things",
+      "status": 200
+    },
+    {
+      "url": "https://uithings.com/categories/tools",
+      "title": "Tools | UI Things",
+      "status": 200
+    },
+    {
+      "url": "https://uithings.com/categories/tactics",
+      "title": "Tactics | UI Things",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI Things",
+  "summary": "Design publication covering UI kits, components, design systems and the next interface shift.",
+  "description": "UI Things (xdguru.com now redirects here) publishes articles and guides for product designers and design engineers. Posts run across five categories — news, research, strategy, tactics and tools — covering Figma kits, component libraries, motion, accessibility and AI-era workflows, with a newsletter and RSS feed.",
+  "type": "article",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "ui design",
+    "design system",
+    "ui kit",
+    "component library",
+    "figma",
+    "design tool",
+    "accessibility",
+    "aria",
+    "motion",
+    "animation",
+    "design blog",
+    "design article",
+    "newsletter",
+    "frontend",
+    "design engineering",
+    "wireframe",
+    "icon library",
+    "design career"
+  ],
+  "contains": [
+    "5 article categories: news, research, strategy, tactics, tools",
+    "articles, guides and ranked tool roundups",
+    "newsletter and RSS feed",
+    "posts on design systems, accessibility, motion and AI workflows"
+  ],
+  "formats": [
+    "docs",
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-github-spec-kit",
+  "url": "https://github.com/github/spec-kit",
+  "kind": "repo",
+  "hints_hash": "0ef8791b1e087831",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/github/spec-kit/blob/HEAD/README.md", "title": "Spec Kit README", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Spec Kit",
+  "summary": "Toolkit that gives AI coding agents structured processes for spec-driven development, bug fixing and idea assessment.",
+  "description": "Open source toolkit that gives AI coding agents structured processes, reusable templates and documented outcomes. It ships three independent workflows: spec-driven development (constitution, specify, plan, tasks, implement, converge), bug fixing (assess, fix, test, ending in a verified/partial/failed verdict) and idea assessment (intake, research, define, shape, decide). Setup runs through a Python CLI; each step is then invoked as a /speckit-* agent skill inside a supported coding agent and reviewed before continuing.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["spec-driven development", "ai coding agent", "coding agent", "agent skill", "specification", "development workflow", "prompt template", "cli toolkit", "software planning", "bug fixing", "idea assessment", "project scaffolding", "quality gate", "sdd"],
+  "contains": [
+    "three processes: spec-driven development, bug fixing, idea assessment",
+    "agent skills invoked in chat: /speckit-specify, plan, tasks, implement, converge",
+    "bug fixing path: assess, fix, test with verified/partial/failed verdict",
+    "idea assessment path: intake, research, define, shape, decide",
+    "customizable via extensions, presets, workflows and bundles",
+    "requires Python 3.11+ and uv for the CLI",
+    "MIT licensed"
+  ],
+  "formats": ["cli", "templates", "prompts", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/github/spec-kit", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,19 @@
+{
+  "id": "coolors-co-2d728f-3b8ea5",
+  "url": "https://coolors.co/2d728f-3b8ea5-",
+  "kind": "page",
+  "hints_hash": "d330c34664feec8f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:12:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coolors.co/2d728f-3b8ea5-", "title": "Page Not Found - Coolors", "status": null}
+  ],
+  "status": "ok",
+  "name": "Page Not Found - Coolors",
+  "summary": "Coolors palette URL for the hex colors 2d728f and 3b8ea5 that returns the site's 404 page instead of a palette.",
+  "keywords": ["404 page", "not found", "broken link", "color palette url", "hex color", "palette generator", "color scheme", "color picker"],
+  "elements": ["404"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "coolors-co"},
+  "confidence": 0.8
+}

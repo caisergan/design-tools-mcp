@@ -1,0 +1,27 @@
+{
+  "id": "puszke-itch-io-pucks-texture-ripper",
+  "url": "https://puszke.itch.io/pucks-texture-ripper",
+  "kind": "page",
+  "hints_hash": "26cc9dca72a49be3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:10:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://puszke.itch.io/pucks-texture-ripper", "title": "Puck's Seamlessifier + Ripper (UPDATE)! by Puck", "status": null}
+  ],
+  "status": "ok",
+  "name": "Puck's Seamlessifier + Ripper",
+  "summary": "Desktop tool that rips textures out of photos in any perspective and turns them into seamless tileable images.",
+  "description": "A downloadable Windows, macOS and Linux tool that extracts textures from photos with polygon selections and perspective correction, then generates seamless tileable versions and packs them into texture atlases exported as PNG.",
+  "type": "app",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["texture ripper", "seamless texture", "tileable texture", "texture atlas", "sprite sheet", "perspective correction", "texture extraction", "pixel art", "game asset", "low poly", "png export", "2d game", "texture tool"],
+  "contains": ["downloads for Windows, macOS and Linux", "$8.99 minimum price, 40% off $14.99", "polygon-based texture extraction with perspective correction", "seamless methods: Smoothed Collage and Scattered Edges", "texture atlas packing and export", "exports selected textures or the whole atlas as PNG", "rated 4.8/5 from 115 ratings"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,33 @@
+{
+  "id": "framer-com",
+  "url": "https://framer.com",
+  "kind": "site",
+  "hints_hash": "a5142230617f369e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/llms.txt", "title": "Framer", "status": null},
+    {"url": "https://framer.com", "title": "Framer: AI design agent", "status": 200},
+    {"url": "https://www.framer.com/guides", "title": "Framer guides: Practical guides for building on the web", "status": 200},
+    {"url": "https://www.framer.com/skills", "title": "Framer Skills: Build better on-brand pages with skills", "status": 200},
+    {"url": "https://www.framer.com/pricing", "title": "Framer: Pricing", "status": 200},
+    {"url": "https://www.framer.com/guides/aeo", "title": "Framer guides: Answer Engine Optimization (AEO)", "status": 200},
+    {"url": "https://www.framer.com/marketplace/", "title": "Website Templates — Framer Marketplace", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Framer",
+  "summary": "AI website builder that designs and publishes sites on a visual canvas with CMS, SEO and hosting built in.",
+  "description": "No-code website builder with a freeform visual canvas: generate editable pages with AI agents, then publish with built-in CMS, hosting, localization, SEO and analytics. Framer Skills turn design-system, content and SEO rules into reusable instructions for the agent, and external coding agents (Claude Code, Cursor, Codex) can work on canvas content, components and CMS. A marketplace adds website templates, components, plugins and vectors.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["website builder", "ai website builder", "no-code website", "visual canvas", "landing page builder", "portfolio website", "cms", "hosting", "seo", "localization", "website template", "design agent", "agent skill", "component", "plugin"],
+  "contains": ["free plan with 500 AI credits and 1 GB bandwidth; Basic $10/mo, Pro $30/mo", "AI agents plus external agents such as Claude Code, Cursor and Codex", "Framer Skills for reusable agent instructions", "marketplace with templates, components, plugins and vectors", "CMS, localization, A/B testing, staging and branching", "publishes server-rendered HTML with sitemaps and llms.txt support"],
+  "formats": ["app", "templates", "code", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.framer.com/developers", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

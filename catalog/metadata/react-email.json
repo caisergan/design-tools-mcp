@@ -1,0 +1,41 @@
+{
+  "id": "react-email",
+  "url": "https://react.email",
+  "kind": "site",
+  "hints_hash": "0d7ffb1c34eb481e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://react.email/llms.txt", "title": "React Email", "status": null},
+    {"url": "https://react.email", "title": "React Email", "status": 200},
+    {"url": "https://react.email/docs/introduction", "title": "React Email - React Email", "status": 200},
+    {"url": "https://react.email/components.md", "title": "React Email Components", "status": 200},
+    {"url": "https://react.email/templates.md", "title": "React Email Templates", "status": 200},
+    {"url": "https://react.email/templates", "title": "Templates — React Email • React Email", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Email",
+  "summary": "Unstyled React and TypeScript components for building HTML emails, plus 60+ copy-paste patterns and open-source templates.",
+  "description": "Open-source library for writing emails as React components instead of HTML tables: unstyled primitives (Html, Head, Body, Button, Container, Section, Row, Column, Text, Img, Link, Preview …) plus a pattern library of 60+ copy-paste components across 25 categories and open-source email templates, some with Figma files. Components are tested on the popular email clients, output converts to HTML or plain text for any provider, and an embeddable editor, CLI and docs for LLMs ship with it.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["navbar", "footer", "button", "avatar", "list", "features", "stats", "testimonials", "pricing"],
+  "keywords": ["email", "email component", "email template", "html email", "transactional email", "marketing email", "newsletter", "react", "typescript", "tailwind", "copy paste", "unstyled primitive", "email editor", "preview", "resend", "sendgrid", "aws ses", "postmark", "nodemailer", "signup email", "reset password", "receipt", "deliverability"],
+  "contains": [
+    "60+ copy-paste components across 25 categories (headers, footers, buttons, avatars, gallery, list, code)",
+    "unstyled primitives: Html, Head, Body, Button, Container, Section, Row, Column, Text, Img, Link, Hr, Preview, Font",
+    "email templates: 5 official themes (Barebone, Matte, Protocol, Arcane, Studio) plus community templates",
+    "components tested on Gmail, Apple Mail, Outlook, Yahoo Mail, HEY and Superhuman",
+    "integrations: Resend, SendGrid, Mailgun, AWS SES, Postmark, Nodemailer, Azure, MailerSend, Brevo and more",
+    "embeddable email editor for your own product",
+    "25 docs pages; llms.txt, llms-full.txt and markdown versions for AI agents; React Email skill",
+    "MIT licensed, by Resend"
+  ],
+  "formats": ["code", "npm-package", "cli", "docs", "templates", "figma-file"],
+  "stack": ["react", "typescript", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/resend/react-email", "docs": "https://react.email/docs", "npm": "react-email", "figma": null, "parent": null},
+  "confidence": 0.9
+}

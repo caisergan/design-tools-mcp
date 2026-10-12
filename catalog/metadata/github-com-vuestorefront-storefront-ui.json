@@ -1,0 +1,28 @@
+{
+  "id": "github-com-vuestorefront-storefront-ui",
+  "url": "https://github.com/vuestorefront/storefront-ui",
+  "kind": "repo",
+  "hints_hash": "577a9ec571051aca",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/vuestorefront/storefront-ui/blob/HEAD/README.md", "title": "Storefront UI README", "status": null},
+    {"url": "https://github.com/vuestorefront/storefront-ui", "title": "GitHub - vuestorefront/storefront-ui: A frontend library for React and Vue", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Storefront UI",
+  "summary": "Tailwind CSS-based UI library and design system for e-commerce, with Vue and React ports and Figma files.",
+  "description": "A framework-agnostic UI library and design system for e-commerce built on Tailwind CSS, with ports for Vue (Nuxt) and React (Next). It ships small base components (Button, Checkbox, Modal, Input), copy-pasteable blocks like ProductCard and checkout steps, composables such as useDropdown, a Tailwind preset that maps config to CSS variables, a typography package and a Figma file of the components. Components are WCAG AA compliant.",
+  "type": "component-library",
+  "categories": ["components", "sections"],
+  "elements": ["button", "checkbox", "modal", "input", "card", "dropdown"],
+  "keywords": ["vue component library", "react component library", "ecommerce ui", "storefront", "tailwind css", "design system", "figma file", "checkout", "product card", "accessible component", "wcag", "composable", "nuxt", "next.js", "block"],
+  "contains": ["base components: Button, Checkbox, Modal, Input", "blocks: ProductCard, checkout steps", "composables such as useDropdown", "Tailwind preset mapping config to CSS variables", "typography package for third-party fonts", "Figma file of the components", "Vue (Nuxt) and React (Next) ports", "MIT licensed (2.8k stars)"],
+  "formats": ["code", "npm-package", "figma-file", "docs"],
+  "stack": ["vue", "react", "tailwind"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/vuestorefront/storefront-ui", "docs": "https://storefrontui.io", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,18 @@
+{
+  "id": "github-com-shadcn-ui-lint-issues-2",
+  "url": "https://github.com/shadcn-ui/lint/issues/2",
+  "kind": "page",
+  "hints_hash": "ec105400b437cc76",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/shadcn-ui/lint/issues/2", "title": "Expose the rule engine through a programmatic API or CLI for Biome projects · Issue #2 · shadcn-ui/lint · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Expose the rule engine through a programmatic API or CLI for Biome projects",
+  "summary": "Open request in the shadcn lint repo to expose its rule engine as a programmatic API or CLI, since Biome supports GritQL plugins only.",
+  "keywords": ["shadcn lint", "biome", "eslint", "oxlint", "gritql", "linter plugin", "rule engine", "programmatic api", "cli", "javascript linting"],
+  "related": {"repo": "https://github.com/shadcn-ui/lint", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.8
+}

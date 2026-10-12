@@ -1,0 +1,32 @@
+{
+  "id": "frontendmentor-io",
+  "url": "https://frontendmentor.io",
+  "kind": "site",
+  "hints_hash": "0c6b64ffb1d75bd3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:31:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://frontendmentor.io", "title": "Learn to Code for Free by Building Real-World Projects", "status": null},
+    {"url": "https://www.frontendmentor.io/guides", "title": "Guides | Frontend Mentor", "status": null},
+    {"url": "https://www.frontendmentor.io/pro", "title": "AI Code Reviews | 50+ Portfolio-Ready Frontend Projects", "status": null},
+    {"url": "https://www.frontendmentor.io/faqs", "title": "Frequently Asked Questions", "status": null},
+    {"url": "https://www.frontendmentor.io/license", "title": "Challenge License & Usage", "status": null},
+    {"url": "https://www.frontendmentor.io/challenges", "title": "Frontend & Full-Stack Coding Challenges | 120+ Projects", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Frontend Mentor",
+  "summary": "Coding-challenge platform: build real projects from professional Figma designs and get AI code reviews and community feedback.",
+  "description": "Front-end and full-stack coding challenges with professional design files. Pick from 120+ projects across five difficulty levels, build to the Figma designs or make your own product decisions, then submit and get an AI code review plus feedback from other developers. Free challenges are available; Pro adds a review on every submission, premium projects and private solutions; companies use it to train juniors and hire.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": ["dashboard"],
+  "keywords": ["coding challenge", "frontend practice", "figma design", "design to code", "html challenge", "css practice", "javascript project", "react project", "portfolio project", "code review", "developer community", "full-stack project", "learning path", "free challenge", "web design practice"],
+  "contains": ["120+ challenges across 5 difficulty levels", "5 Figma design files a month on the free plan", "AI code review scored against the challenge brief", "Pro: AI review on every submission and 50+ premium projects", "1.2M+ developer community", "company plans for training juniors and hiring"],
+  "formats": ["figma-file", "code", "docs"],
+  "stack": ["html", "css", "javascript", "react", "node"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.frontendmentor.io/guides", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

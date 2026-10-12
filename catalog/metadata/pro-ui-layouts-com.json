@@ -1,0 +1,104 @@
+{
+  "id": "pro-ui-layouts-com",
+  "url": "https://pro.ui-layouts.com",
+  "kind": "site",
+  "hints_hash": "091564878af0642d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pro.ui-layouts.com",
+      "title": "UI Layouts Pro | Premium React + Tailwind Blocks & Templates",
+      "status": null
+    },
+    {
+      "url": "https://pro.ui-layouts.com/blocks",
+      "title": "Blocks | UI Layouts Pro - UI Layouts Pro",
+      "status": null
+    },
+    {
+      "url": "https://pro.ui-layouts.com/pricing",
+      "title": "Pricing | UI Layouts Pro - UI Layouts Pro",
+      "status": null
+    },
+    {
+      "url": "https://pro.ui-layouts.com/templates",
+      "title": "Templates | UI Layouts Pro - UI Layouts Pro",
+      "status": null
+    },
+    {
+      "url": "https://pro.ui-layouts.com/example",
+      "title": "UI Layouts Pro",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "UI Layouts Pro",
+  "summary": "Paid React and Tailwind block library: page sections plus full templates and a drag-and-drop template builder.",
+  "description": "A paid library of ready-made page sections (hero, features, pricing, testimonials, FAQ, footer, team, newsletter, carousel) built with React, Next.js and Tailwind CSS, installed with shadcn commands or copied. It also offers complete multi-page site templates (Certific, MVP Studio, Jenv, UploadThing, TalentFlow and more) and a drag-and-drop template builder that exports production-ready templates.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "footer",
+    "team",
+    "carousel"
+  ],
+  "keywords": [
+    "react block",
+    "tailwind section",
+    "shadcn",
+    "nextjs template",
+    "hero section",
+    "pricing section",
+    "testimonials",
+    "faq",
+    "footer",
+    "carousel",
+    "template builder",
+    "drag and drop",
+    "landing page",
+    "saas template",
+    "one-time payment"
+  ],
+  "contains": [
+    "blocks per category: hero 26, footer 63, pricing 24, testimonials 22, FAQ 18, team 14, features 11",
+    "templates: Certific, MVP Studio, Jenv, UploadThing, TalentFlow and more",
+    "a drag-and-drop template builder that exports production-ready templates",
+    "copy-paste shadcn install commands for the blocks",
+    "one-time pricing plans: Pro Creator, Forever Builder, Team Forge"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn"
+  ],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

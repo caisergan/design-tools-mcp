@@ -1,0 +1,39 @@
+{
+  "id": "tasteskill-dev",
+  "url": "https://tasteskill.dev",
+  "kind": "site",
+  "hints_hash": "345f675b9c2faee6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:23:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tasteskill.dev/llms.txt", "title": "Taste Skill", "status": null},
+    {"url": "https://tasteskill.dev", "title": "Taste Skill | The Anti-Slop Frontend Framework for AI Agents", "status": 200},
+    {"url": "https://www.tasteskill.dev/docs", "title": "Documentation | Taste Skill", "status": 200},
+    {"url": "https://www.tasteskill.dev/guide", "title": "Prompt Guide | Taste Skill", "status": 200},
+    {"url": "https://github.com/Leonxlnx/taste-skill", "title": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Taste Skill",
+  "summary": "Open-source SKILL.md files that give AI coding agents design rules for typography, spacing, color, layout and motion.",
+  "description": "Taste Skill installs into a project as SKILL.md files so AI coding agents (Cursor, Claude Code, Codex, Gemini CLI, v0 and more) produce design-directed frontends instead of generic AI layouts. Thirteen skills cover the core design skill, redesign audits, style variants (soft, minimalist, brutalist), image generation and output enforcement; the core skill exposes DESIGNVARIANCE, MOTIONINTENSITY and VISUALDENSITY dials on a 1-10 scale. Install with npx skills add; MIT licensed.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["agent skill", "skill.md", "frontend design", "ai slop", "design rule", "cursor", "claude code", "codex", "typography", "spacing", "layout", "motion", "redesign", "brutalist", "minimalist", "soft ui", "style guide", "landing page", "prompt", "frontend"],
+  "contains": [
+    "13 skills, one install: core, redesign, output and style variants",
+    "3-dial system: design variance, motion intensity, visual density (1-10)",
+    "works with Cursor, Claude Code, Codex, Gemini CLI, v0 and other SKILL.md agents",
+    "v2 core skill adds brief inference, design system map and dark mode protocol",
+    "install: npx skills add Leonxlnx/taste-skill",
+    "94.7k stars on the taste-skill GitHub repo",
+    "MIT licensed and open source"
+  ],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Leonxlnx/taste-skill", "docs": "https://www.tasteskill.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

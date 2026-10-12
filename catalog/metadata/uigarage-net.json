@@ -1,0 +1,58 @@
+{
+  "id": "uigarage-net",
+  "url": "https://uigarage.net",
+  "kind": "site",
+  "hints_hash": "0289b700fbb6b3b4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:49:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://uigarage.net",
+      "title": "UI Garage Website",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI Garage",
+  "summary": "UI pattern gallery where designers could search interface and experience examples; now closing down.",
+  "description": "A website that collected and shared UI design patterns so designers could search for specific interfaces and experiences. Its only readable page is a shutdown notice: the site has not been updated for a while, the founder no longer sees a reason to continue it, and he has moved on to another project.",
+  "type": "gallery",
+  "categories": [
+    "inspiration"
+  ],
+  "elements": [],
+  "keywords": [
+    "ui inspiration",
+    "ui pattern",
+    "design pattern",
+    "interface example",
+    "ui gallery",
+    "web design inspiration",
+    "interface inspiration",
+    "ux pattern",
+    "design reference",
+    "screenshot gallery"
+  ],
+  "contains": [
+    "shutdown notice: site closing after 8 years",
+    "was #1 product of the day on Product Hunt",
+    "founder moved on to Cromojo"
+  ],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.65
+}

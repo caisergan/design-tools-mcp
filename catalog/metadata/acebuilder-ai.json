@@ -1,0 +1,118 @@
+{
+  "id": "acebuilder-ai",
+  "url": "https://acebuilder.ai",
+  "kind": "site",
+  "hints_hash": "0ea843c95ad04dd7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://acebuilder.ai/llms.txt",
+      "title": "Acebuilder",
+      "status": null
+    },
+    {
+      "url": "https://acebuilder.ai",
+      "title": "Acebuilder - AI Landing Page Builder Powered by Aceternity UI",
+      "status": 200
+    },
+    {
+      "url": "https://acebuilder.ai/docs",
+      "title": "Documentation | Acebuilder",
+      "status": 200
+    },
+    {
+      "url": "https://acebuilder.ai/blocks",
+      "title": "Blocks | Acebuilder",
+      "status": 200
+    },
+    {
+      "url": "https://acebuilder.ai/pricing",
+      "title": "Pricing | Acebuilder",
+      "status": 200
+    },
+    {
+      "url": "https://acebuilder.ai/license",
+      "title": "License | Acebuilder",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Acebuilder",
+  "summary": "AI landing page builder on Aceternity UI: describe a page, generate it from React and Tailwind templates and blocks, then export the source.",
+  "description": "Conversational landing page builder by the Aceternity UI team: pull in Aceternity UI Pro templates, complete pages and section blocks (heroes, features, pricing, testimonials, FAQs, CTAs), reshape copy and layout in chat, or run skills that push back on generic output. Generates production-grade React and Tailwind code in a Next.js project and exports the full source with no lock-in. Free to start; Pro $25, Business $50 and Studio $129 monthly plans add credits, projects and Aceternity UI Pro access.",
+  "type": "tool",
+  "categories": [
+    "components",
+    "templates"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "cta",
+    "card",
+    "dashboard",
+    "3d",
+    "cursor"
+  ],
+  "variants": {
+    "features": [
+      "bento",
+      "sticky-scroll"
+    ]
+  },
+  "keywords": [
+    "ai builder",
+    "landing page builder",
+    "ai website builder",
+    "react component",
+    "tailwind",
+    "nextjs",
+    "landing page template",
+    "section block",
+    "hero",
+    "features",
+    "pricing",
+    "cta",
+    "source code export",
+    "ai generation",
+    "no lock in"
+  ],
+  "contains": [
+    "7 showcase demos including Aceternity Features Grid, dashboard, 3D and cursor hero",
+    "blocks: heroes, features, pricing, testimonials, FAQs, CTAs",
+    "templates and pages from Aceternity UI Pro, editable in chat",
+    "skills that push back on generic output and sharpen layout and copy",
+    "exports full Next.js/React and Tailwind source; no proprietary export format",
+    "free to start; Pro $25/mo, Business $50/mo, Studio $129/mo with credits and projects",
+    "used by over 120,000 people",
+    "docs, blog and showcase alongside the builder"
+  ],
+  "formats": [
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://acebuilder.ai/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

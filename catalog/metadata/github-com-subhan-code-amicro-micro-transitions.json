@@ -1,0 +1,84 @@
+{
+  "id": "github-com-subhan-code-amicro-micro-transitions",
+  "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+  "kind": "repo",
+  "hints_hash": "05da60f2420e3408",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/HEAD/README.md",
+      "title": "@subhanhq/amicro",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "@subhanhq/amicro",
+  "summary": "React micro-interaction, transition and card/carousel components installed through the shadcn CLI.",
+  "description": "A React component collection of micro-interactions, transitions, card layouts, carousels and spring presets powered by Motion (motion/react). Components, hooks and presets install through the shadcn CLI, either from a raw URL or via the @amicro namespace, copying TSX source into your project. Built for React 18/19 with Tailwind CSS v3/v4.",
+  "type": "registry",
+  "categories": [
+    "motion",
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "card",
+    "carousel"
+  ],
+  "keywords": [
+    "micro interaction",
+    "animation",
+    "transition",
+    "react component",
+    "shadcn registry",
+    "motion",
+    "framer motion",
+    "tailwind css",
+    "card animation",
+    "carousel",
+    "3d carousel",
+    "coverflow carousel",
+    "spring preset",
+    "copy paste component",
+    "nextjs",
+    "vite",
+    "dark mode",
+    "light mode"
+  ],
+  "contains": [
+    "12 card layouts and carousels (arc, corner fan, coverflow, time machine stack)",
+    "169 shadcn registry items",
+    "install via shadcn CLI with the @amicro namespace or npx @subhanhq/amicro",
+    "hooks, spring presets and motion primitives",
+    "requires React 18/19, Tailwind CSS v3/v4 and Motion"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "npm-package"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "vite",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+    "docs": null,
+    "npm": "@subhanhq/amicro",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

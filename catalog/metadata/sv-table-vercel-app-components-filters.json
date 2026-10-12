@@ -1,0 +1,26 @@
+{
+  "id": "sv-table-vercel-app-components-filters",
+  "url": "https://sv-table.vercel.app/components/filters",
+  "kind": "page",
+  "hints_hash": "b3d4b8a10addd414",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sv-table.vercel.app/components/filters", "title": "Data Table Filters | Svelte Datatables Examples", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Data Table Filters",
+  "summary": "Library-agnostic filter component for Svelte data tables, installed as a shadcn-svelte registry block.",
+  "description": "Docs for a Svelte data table filter component with text, number, option and date operators that works client-side or server-side. It covers column configuration, the filter controller and the DataTableFilter UI, and is installed with the shadcn-svelte CLI and managed as your own source.",
+  "type": "component-library",
+  "elements": ["table", "input", "select"],
+  "keywords": ["svelte", "data table", "table filter", "column filter", "shadcn-svelte", "registry", "server-side filtering", "date range filter", "faceted filter", "internationalization"],
+  "contains": ["filter component with text, number, option and date operators", "client-side or server-side filtering strategies", "installed as a shadcn-svelte registry block and kept as source", "concepts: column config helper, filter controller, FiltersState, DataTableFilter", "6 quick examples and a locale prop for internationalization"],
+  "formats": ["registry", "cli", "code", "docs"],
+  "stack": ["svelte", "date-fns"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "sv-table-vercel-app"},
+  "confidence": 0.8
+}

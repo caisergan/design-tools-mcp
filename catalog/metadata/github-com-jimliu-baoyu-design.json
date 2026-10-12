@@ -1,0 +1,28 @@
+{
+  "id": "github-com-jimliu-baoyu-design",
+  "url": "https://github.com/JimLiu/baoyu-design",
+  "kind": "repo",
+  "hints_hash": "4918696997969877",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:25:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/JimLiu/baoyu-design/blob/HEAD/README.md", "title": "baoyu-design", "status": null},
+    {"url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/HEAD/LICENSE", "title": "LICENSE", "status": 200}
+  ],
+  "status": "ok",
+  "name": "baoyu-design",
+  "summary": "Agent skill that runs Claude Design locally to make UI mockups, prototypes, wireframes and decks as HTML.",
+  "description": "Packages Claude Design as a portable agent skill for Cursor, Claude Code, Codex and other file-capable agents. Produces self-contained HTML deliverables — hi-fi mockups, interactive prototypes, wireframes, landing pages, dashboards, mobile apps and slide decks — with built-in design systems, Figma .fig and GitHub imports, and export to PDF, PPTX, MP4 video, Figma or Canva.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "media"],
+  "elements": ["3d", "chart"],
+  "keywords": ["agent skill", "claude design", "claude code", "cursor", "codex", "ui mockup", "prototype", "wireframe", "html prototype", "design system", "slide deck", "pptx", "figma import", "ai design", "landing page", "dashboard", "mobile app design", "skill.md"],
+  "contains": ["packages Claude Design as a portable agent skill", "built-in skills: hi-fi design, prototype, wireframe, decks, mobile, motion, email, illustration, data viz", "design systems: create, use, and import from Figma .fig, GitHub repos or HTML/CSS", "exports: standalone HTML, PDF, editable PPTX, MP4 video, Figma, Canva", "install via npx skills or by handing the repo URL to an agent", "MIT licensed"],
+  "formats": ["prompts", "code", "docs"],
+  "stack": ["javascript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/JimLiu/baoyu-design", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

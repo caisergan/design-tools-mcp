@@ -1,0 +1,27 @@
+{
+  "id": "github-com-gluer-space-calendar",
+  "url": "https://github.com/gluer-space/calendar",
+  "kind": "repo",
+  "hints_hash": "3cccd4c84b998426",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/gluer-space/calendar/blob/HEAD/README.md", "title": "Calendar Scheduler", "status": null}
+  ],
+  "status": "ok",
+  "name": "Calendar Scheduler",
+  "summary": "Multi-timezone calendar scheduler for React with month, week, day and agenda views, availability windows and slot booking.",
+  "description": "A scheduling calendar component built on shadcn/ui and Tailwind CSS with month, week, day and agenda views. Admins set recurring weekly availability and slot durations of 15, 30 or 60 minutes; viewers see and book slots converted to their local timezone, with booked-slot tracking. Installs from a shadcn registry or by copying src/components/calendar; free for non-commercial use.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["calendar"],
+  "keywords": ["calendar", "scheduler", "booking", "appointment", "timezone", "availability", "slot", "month view", "week view", "day view", "agenda view", "react", "shadcn", "tailwind", "scheduling"],
+  "contains": ["month, week, day and agenda views", "multi-timezone availability and booking", "slot durations: 15, 30 or 60 minutes", "booked slot tracking", "shadcn registry install or manual copy", "non-commercial license: free for personal and educational use"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "tailwind"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": "https://github.com/gluer-space/calendar", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "aummdev-vercel-app",
+  "url": "https://aummdev.vercel.app",
+  "kind": "site",
+  "hints_hash": "d7a72cdfd0f9d316",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aummdev.vercel.app", "title": "Aum Choudhary — Software Engineer", "status": null}
+  ],
+  "status": "partial",
+  "name": "Aum Choudhary — Software Engineer",
+  "summary": "Personal portfolio site of Aum Choudhary, a full-stack software engineer.",
+  "description": "Portfolio homepage for Aum Choudhary, described as a software engineer specializing in full-stack development with React, Node.js and modern web technologies. The page renders with JavaScript, so no sections, projects or code details could be read.",
+  "type": "app",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["portfolio", "personal website", "software engineer", "full stack", "react", "node.js", "developer portfolio", "resume", "web developer", "frontend"],
+  "contains": ["personal portfolio homepage for Aum Choudhary", "describes him as a software engineer specializing in full-stack development with React and Node.js", "page renders with JavaScript; only the title and description are readable"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.55
+}

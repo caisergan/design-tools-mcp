@@ -1,0 +1,31 @@
+{
+  "id": "thevault-cam",
+  "url": "https://thevault.cam",
+  "kind": "site",
+  "hints_hash": "67d2473016533d8a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:43:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://thevault.cam/llms.txt", "title": "TheVault", "status": null},
+    {"url": "https://thevault.cam", "title": "El taller de magos · TheVault", "status": 200},
+    {"url": "https://thevault.cam/effects", "title": "Efectos · TheVault", "status": 200},
+    {"url": "https://thevault.cam/pricing", "title": "Precios · TheVault", "status": 200},
+    {"url": "https://thevault.cam/faq", "title": "FAQ · TheVault", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TheVault",
+  "summary": "Network where magicians share short effect videos, tag the technique and get signed peer critique.",
+  "description": "A video network for magicians. Members record or upload 5-60 second clips of effects, tag the technique and receive named peer ratings on three separate axes - originality, execution and teaching quality - instead of anonymous stars. The wall is kept as a dated archive of the craft rather than a chronological feed, and clips are served encrypted with leak monitoring. Accounts are free for now; a paid plan is announced but not priced.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["magic", "magician", "trick video", "effect video", "peer review", "video archive", "video sharing", "community", "rating", "sleight of hand", "performance video", "craft"],
+  "contains": ["5-60 second video clips of magic effects", "signed peer voting on originality, execution and teaching quality", "dated archive with tags, not a chronological feed", "encrypted playback and leak monitoring", "filterable catalog by sub-axis, minimum threshold and sort order", "free accounts now; paid plan announced without a price"],
+  "formats": ["app", "video", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

@@ -1,0 +1,27 @@
+{
+  "id": "github-com-mickeyalton33-web-designer-plugin",
+  "url": "https://github.com/MickeyAlton33/web-designer-plugin",
+  "kind": "repo",
+  "hints_hash": "5f0b69739fdb2457",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/MickeyAlton33/web-designer-plugin/HEAD/README.md", "title": "Web Designer Plugin", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Web Designer Plugin",
+  "summary": "Claude Code skill with 48 design patterns and anti-pattern rules extracted from 38 award-winning websites.",
+  "description": "A skill/plugin that pushes AI coding agents away from generic frontends: SKILL.md, 48 layout, card, navigation, text-effect and 3D patterns, color and typography guides (5 palette archetypes, 5 font pairings), an animation playbook and an anti-pattern checklist, plus 10 self-contained example sites (FUEGO, PL-5000, WRECK, KATREDUX and more). Installs in Claude Code, Cursor and GitHub Copilot.",
+  "type": "agent-skill",
+  "categories": ["design-rules", "motion"],
+  "elements": ["text-effect", "marquee", "cursor", "3d", "background", "scroll-effect", "button", "card"],
+  "keywords": ["claude code", "agent skill", "design pattern", "web design", "anti-pattern", "ai frontend", "typography", "color palette", "animation", "layout", "3d", "text effect", "marquee", "cursor", "landing page", "html css", "award winning website"],
+  "contains": ["48 design patterns from 38 award-winning websites", "5 skill files: SKILL.md, design-patterns, color-and-typography, animation-playbook, anti-patterns", "10 self-contained example concept sites", "5 palette archetypes and 5 font pairing formulas", "anti-pattern checklist that breaks the generic AI look", "installs in Claude Code, Cursor and GitHub Copilot"],
+  "formats": ["prompts", "docs", "code"],
+  "stack": ["html", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/MickeyAlton33/web-designer-plugin", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,31 @@
+{
+  "id": "github-com-mantinedev-mantine",
+  "url": "https://github.com/mantinedev/mantine",
+  "kind": "repo",
+  "hints_hash": "2db8ca314da25b30",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mantinedev/mantine/blob/HEAD/README.md", "title": "Mantine", "status": 200},
+    {"url": "https://mantine.dev/", "title": "Mantine", "status": 200},
+    {"url": "https://mantine.dev/llms.txt", "title": "Mantine UI - LLM Documentation", "status": 200},
+    {"url": "https://mantine.dev/core/accordion/", "title": "Accordion | Mantine", "status": 200},
+    {"url": "https://mantine.dev/sitemap.xml", "title": "sitemap.xml", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mantine",
+  "summary": "React component library with 120+ customizable components, 70 hooks and packages for forms, charts, dates and notifications.",
+  "description": "A React components library with 120+ components and 70 hooks covering layout, inputs, comboboxes, overlays, navigation and data display, styled with CSS and a PostCSS preset so anything can be overridden. Extra packages add forms, charts, dates, notifications, a Ctrl+K spotlight, a Tiptap editor, dropzone and modals; docs ship llms.txt, agent skills and an MCP server for AI-assisted workflows.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["accordion", "alert", "avatar", "badge", "breadcrumbs", "button", "calendar", "card", "carousel", "chart", "checkbox", "command-palette", "date-picker", "drawer", "dropdown", "empty-state", "file-upload", "form", "input", "list", "loader", "marquee", "menubar", "modal", "popover", "progress", "select", "slider", "tabs", "toast"],
+  "keywords": ["react", "component library", "hook", "form library", "chart", "notification", "command palette", "date picker", "dark mode", "css", "accessible component", "nextjs", "open source"],
+  "contains": ["120+ components and 70 hooks", "packages for hooks, forms, charts, dates, notifications, spotlight, modals, dropzone, carousel and a Tiptap editor", "CSS-based styling with a PostCSS preset; dark color scheme", "components for overlays, comboboxes, menus and data display", "llms.txt, agent skills and an MCP server for AI workflows"],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mantinedev/mantine", "docs": "https://mantine.dev", "npm": "@mantine/core", "figma": null, "parent": null},
+  "confidence": 0.9
+}

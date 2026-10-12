@@ -1,0 +1,20 @@
+{
+  "id": "rdltechnologies-co-uk-gallery",
+  "url": "https://rdltechnologies.co.uk/gallery",
+  "kind": "page",
+  "hints_hash": "fdfeb6a98b74ec98",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://rdltechnologies.co.uk/gallery", "title": "Component Machine Shop UK | CNC Turned Components", "status": 200},
+    {"url": "https://rdltechnologies.co.uk/", "title": "CNC Turning Company | CNC Machining Midlands & UK Wide", "status": 200},
+    {"url": "https://rdltechnologies.co.uk/about-us", "title": "Precision Engineering Company Midlands | Leicester & Coventry", "status": 200}
+  ],
+  "status": "partial",
+  "name": "RDL Technologies Gallery",
+  "summary": "Photo gallery on the RDL Technologies site, a Leicester-based CNC machine shop making turned parts and machined components.",
+  "keywords": ["gallery", "cnc machining", "cnc turning", "cnc milling", "machined component", "turned part", "precision engineering", "machine shop", "manufacturing", "photo gallery", "component gallery", "leicester"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

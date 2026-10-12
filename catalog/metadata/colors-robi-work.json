@@ -1,0 +1,64 @@
+{
+  "id": "colors-robi-work",
+  "url": "https://colors.robi.work",
+  "kind": "site",
+  "hints_hash": "c1d5900011a287fe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:02:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://colors.robi.work",
+      "title": "Colors — nice palettes",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Colors",
+  "summary": "Single-page collection of 992 hand-picked color palettes from ColourLovers; click any swatch to copy its hex code.",
+  "description": "A browsable gallery of 992 hand-picked color palettes, each shown as a row of swatches and numbered in sequence. Clicking a swatch copies its hex value to the clipboard. No account needed — scroll and copy.",
+  "type": "asset-library",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "color palette",
+    "palette",
+    "hex color",
+    "copy hex",
+    "color scheme",
+    "swatch",
+    "colourlover",
+    "color inspiration",
+    "palette collection",
+    "ui color",
+    "color combination",
+    "hex code",
+    "design color"
+  ],
+  "contains": [
+    "992 hand-picked palettes from ColourLovers",
+    "palettes numbered in sequence, each a row of swatches",
+    "click a swatch to copy its hex code",
+    "single scrolling page"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,76 @@
+{
+  "id": "onepagelove-com-mammut-studios",
+  "url": "https://onepagelove.com/mammut-studios",
+  "kind": "page",
+  "hints_hash": "387b39a1cff3b803",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:27:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://onepagelove.com/mammut-studios",
+      "title": "Mammut Studios — One Page Website Award",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Mammut Studios",
+  "summary": "One-page website by Rotterdam digital design studio Mammut Studios, showcased on One Page Love.",
+  "description": "One Page Love entry for Mammut Studios, a digital design studio in Rotterdam that creates brand identities, designs and Webflow websites. The Dutch-language one-pager uses smooth scrolling and Astro, GSAP, Next.js and Tailwind CSS, with header navigation, highlights, client logo row, services list, testimonial slider, FAQ accordion and footer sections.",
+  "elements": [
+    "navbar",
+    "logo-cloud",
+    "testimonials",
+    "faq",
+    "footer",
+    "list",
+    "hero"
+  ],
+  "variants": {
+    "faq": [
+      "accordion"
+    ]
+  },
+  "keywords": [
+    "one page website",
+    "portfolio",
+    "digital agency",
+    "design studio",
+    "webflow",
+    "scroll effect",
+    "smooth scroll",
+    "rotterdam",
+    "dutch",
+    "minimal",
+    "bold",
+    "astro",
+    "gsap",
+    "next.js",
+    "tailwind css",
+    "faq",
+    "testimonials",
+    "client logo"
+  ],
+  "formats": [
+    "screenshots",
+    "links"
+  ],
+  "stack": [
+    "astro",
+    "gsap",
+    "nextjs",
+    "tailwind"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "onepagelove-com"
+  },
+  "confidence": 0.85
+}

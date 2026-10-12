@@ -1,0 +1,28 @@
+{
+  "id": "coolshap-es",
+  "url": "https://coolshap.es",
+  "kind": "site",
+  "hints_hash": "27863d97d75dff7b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:37:07Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coolshap.es", "title": "coolshapes", "status": null},
+    {"url": "https://github.com/realvjy/coolshapes-react", "title": "GitHub - realvjy/coolshapes-react: 100+ abstract shapes with gradient for design & dev project", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CoolShapes",
+  "summary": "Open-source set of 100+ abstract shapes with grainy gradients, as SVG, PNG, a Figma file and a React package.",
+  "description": "CoolShapes is a set of 100+ abstract shapes with grainy gradients for design and dev projects: download or copy them as SVG or PNG, grab the Figma file, or install the coolshapes-react package and render shapes with type, index, noise and size props. MIT licensed, free for personal and commercial use.",
+  "type": "asset-library",
+  "categories": ["color-effects", "media"],
+  "elements": [],
+  "keywords": ["abstract shape", "grainy gradient", "svg shape", "noise texture", "blob shape", "gradient shape", "figma shape", "react shape", "background shape", "free shape", "grain effect", "design asset"],
+  "contains": ["100+ abstract shapes", "grainy gradients with optional noise", "SVG and PNG downloads", "Figma file", "coolshapes-react npm package for React", "MIT license"],
+  "formats": ["svg", "png", "figma-file", "npm-package", "code"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/realvjy/coolshapes-react", "docs": null, "npm": "coolshapes-react", "figma": null, "parent": null},
+  "confidence": 0.9
+}

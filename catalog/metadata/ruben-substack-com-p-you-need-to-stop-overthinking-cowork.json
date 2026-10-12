@@ -1,0 +1,26 @@
+{
+  "id": "ruben-substack-com-p-you-need-to-stop-overthinking-cowork",
+  "url": "https://ruben.substack.com/p/you-need-to-stop-overthinking-cowork",
+  "kind": "page",
+  "hints_hash": "2eed1191cc25b612",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/you-need-to-stop-overthinking-cowork", "title": "Cowork. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "Cowork.",
+  "summary": "Paid Substack post on setting up Claude Cowork with the /setup-cowork command.",
+  "description": "A post in Ruben Hassid's How to AI newsletter. It shows the /setup-cowork prompt that has Claude set up Claude Cowork, then walks through the setup and how the author uses Claude. The full post is for paid subscribers; the free preview shows the command and the intro.",
+  "type": "article",
+  "elements": [],
+  "keywords": ["claude cowork", "claude", "ai agent", "setup guide", "prompt", "skill", "ai workflow", "newsletter", "substack", "automation"],
+  "contains": ["shows the /setup-cowork prompt for Claude Cowork", "sections: how to set up Cowork, how I use Claude", "paid subscribers only"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.7
+}

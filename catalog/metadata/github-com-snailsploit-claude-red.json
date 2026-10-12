@@ -1,0 +1,35 @@
+{
+  "id": "github-com-snailsploit-claude-red",
+  "url": "https://github.com/SnailSploit/claude-red",
+  "kind": "repo",
+  "hints_hash": "816b496bedb0931d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/SnailSploit/claude-red/blob/HEAD/README.md", "title": "claude-red", "status": 200},
+    {"url": "https://raw.githubusercontent.com/SnailSploit/claude-red/HEAD/LICENSE", "title": "claude-red LICENSE", "status": 200}
+  ],
+  "status": "ok",
+  "name": "claude-red",
+  "summary": "SKILL.md library that primes Claude with red-team methodology per attack surface, from SQL injection to shellcode.",
+  "description": "A curated library of offensive-security skills for the Claude Skills system. Each skill is a structured SKILL.md that primes Claude with expert-level methodology for one attack surface — SQL injection, XSS, SSRF, SSTI, XXE, IDOR, file upload, deserialization, request smuggling, JWT and OAuth flaws, Active Directory, Wi-Fi, cloud, mobile, IoT and red-team infrastructure. Skills load on demand from conversational triggers, and install via the Claude Skills system, Claude Code, a manual Claude.ai upload or an install script.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude skill", "skill.md", "agent skill", "offensive security", "penetration testing", "red team", "sql injection", "xss", "ssrf", "shellcode", "edr evasion", "exploit development", "active directory", "wifi", "security research", "claude code"],
+  "contains": [
+    "SKILL.md per attack surface across web, auth, active directory, wireless, cloud, mobile, IoT and red team",
+    "web skills: SQLi, XSS, SSRF, SSTI, XXE, IDOR, file upload, RCE, deserialization, request smuggling and more",
+    "auth skills: JWT and OAuth attacks; Active Directory and Wi-Fi skills included",
+    "install: Claude Skills system, Claude Code, manual Claude.ai upload or an install script",
+    "skills load on demand based on conversational triggers",
+    "MIT licensed"
+  ],
+  "formats": ["prompts", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/SnailSploit/claude-red", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

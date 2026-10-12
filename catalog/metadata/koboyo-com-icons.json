@@ -1,0 +1,70 @@
+{
+  "id": "koboyo-com-icons",
+  "url": "https://koboyo.com/icons",
+  "kind": "page",
+  "hints_hash": "d60400cffc77481d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://koboyo.com/icons",
+      "title": "Koboyo Icons — 261,740 free hand-drawn SVG icons",
+      "status": null
+    },
+    {
+      "url": "https://koboyo.com/icons/license",
+      "title": "License · Koboyo Icons",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Koboyo Icons",
+  "summary": "261,740 free hand-drawn SVG icons in five drawing styles, searchable by group and synonym.",
+  "description": "A library of 261,740 hand-drawn SVG icons, free for personal and commercial use with no attribution. Icons are organised by drawing style (Original, Ink brush, Block print, Cartoon, Solid) and by groups such as people, objects, animals, tech or food, and can be searched by group and synonym; they use currentColor and ship alongside Koboyo's infinite canvas.",
+  "type": "icon-set",
+  "categories": [
+    "icons"
+  ],
+  "elements": [],
+  "keywords": [
+    "hand-drawn icon",
+    "svg icon",
+    "free icon",
+    "icon library",
+    "doodle icon",
+    "sketch icon",
+    "currentcolor",
+    "no attribution",
+    "cartoon icon",
+    "ink brush",
+    "icon search",
+    "icon set"
+  ],
+  "contains": [
+    "261,740 icons",
+    "styles: Original 70,109, Ink brush 67,998, Block print 56,680, Cartoon 62,984, Solid 3,969",
+    "groups with counts: people 79,888, object 151,489, animals 4,867, tech 4,286 …",
+    "search by group and synonym, e.g. 'oops' finds a facepalm",
+    "currentColor, no attribution required",
+    "free for personal and commercial use; reselling the library is not allowed"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "koboyo-com"
+  },
+  "confidence": 0.9
+}

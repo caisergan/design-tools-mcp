@@ -1,0 +1,28 @@
+{
+  "id": "everynoise-com",
+  "url": "https://everynoise.com",
+  "kind": "site",
+  "hints_hash": "05e4ec86e3a1cf0c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://everynoise.com", "title": "Every Noise at Once", "status": 200},
+    {"url": "https://everynoise.com/everynoise1d.html", "title": "Every Noise at Once", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Every Noise at Once",
+  "summary": "Clickable map and ranked list of music genres built from streaming data, by Glenn McDonald.",
+  "description": "Every Noise at Once lays out music genres on a 2D scan positioned by similarity, with a companion 1D list ranked by popularity, emergence, modernity, youth, tempo, duration and other attributes. Genres can be opened in Spotify, and a 2024 book by Glenn McDonald covers how streaming changes music.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["music genre", "genre map", "music discovery", "spotify", "streaming data", "data visualization", "genre list", "music data", "audio"],
+  "contains": ["2D scan of genres arranged by similarity", "1D list sortable by popularity, emergence, modernity, tempo, duration and more", "genres open in Spotify", "book by Glenn McDonald (Canbury Press, 2024)"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

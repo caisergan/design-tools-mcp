@@ -1,0 +1,39 @@
+{
+  "id": "webinspoo-com",
+  "url": "https://webinspoo.com",
+  "kind": "site",
+  "hints_hash": "8ea55e849315553c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://webinspoo.com/llms.txt", "title": "WebInspoo", "status": null},
+    {"url": "https://webinspoo.com", "title": "SaaS Website Design Inspiration & Landing Page Examples | WebInspoo", "status": 200},
+    {"url": "https://webinspoo.com/templates", "title": "Templates | Premium Website Templates", "status": 200},
+    {"url": "https://webinspoo.com/pricing", "title": "Pricing - Get Full Access to Design Inspiration | WebInspoo", "status": 200}
+  ],
+  "status": "ok",
+  "name": "WebInspoo",
+  "summary": "Gallery of 1,200+ curated SaaS websites and their sections, filterable by category, font, colour palette, stack and page type.",
+  "description": "A curated gallery of SaaS marketing websites, browsable whole-site or broken into sections (hero, features, testimonials, CTA, pricing, footer …) with filters for category, typography, colour palette, technology stack and page type. The site also runs a template marketplace for stacks like Framer, Webflow, React and Next.js, logo and OG-image galleries, a blog, and a browser extension that turns HTML pages into Figma frames.",
+  "type": "gallery",
+  "categories": ["inspiration", "sections"],
+  "elements": ["hero", "features", "testimonials", "cta", "pricing", "footer", "logo-cloud", "faq", "team", "contact", "navbar", "tabs"],
+  "keywords": ["saas website", "design inspiration", "landing page", "hero section", "pricing page", "testimonial section", "footer section", "website gallery", "web design", "framer template", "webflow template", "tech stack", "colour palette", "website section"],
+  "contains": [
+    "1,200+ curated SaaS websites",
+    "679 mapped example pages",
+    "section types and counts: hero 125, features 94, testimonials 71, cta 71, pricing 66, footer 64, logo-cloud 30, faq 20",
+    "filters: category, font, colour palette, technology stack, page type",
+    "page-type categories: landing, pricing, about, blog, testimonials, FAQ",
+    "premium templates for Framer, Webflow, React and Next.js",
+    "logo and OG-image galleries, blog, HTML-to-Figma browser extension",
+    "weekly newsletter with the 7 best SaaS designs"
+  ],
+  "formats": ["screenshots", "links", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

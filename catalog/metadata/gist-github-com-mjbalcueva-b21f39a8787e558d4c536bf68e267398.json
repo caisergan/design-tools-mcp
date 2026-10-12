@@ -1,0 +1,26 @@
+{
+  "id": "gist-github-com-mjbalcueva-b21f39a8787e558d4c536bf68e267398",
+  "url": "https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398",
+  "kind": "page",
+  "hints_hash": "805c19eb314c25c0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398", "title": "shadcn ui custom password input · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "password-input.tsx",
+  "summary": "Copy-paste shadcn/ui password input with a show/hide eye toggle, plus a sample signup-style form.",
+  "description": "A single-file React/TypeScript PasswordInput for shadcn/ui: it wraps shadcn's Input and Button, uses lucide-react eye icons to toggle visibility, and hides the browser's native password-reveal button. The gist also includes a sample use case with current/new/confirm password fields. 186 stars, 14 forks, 9 revisions.",
+  "type": "component-library",
+  "elements": ["input", "button", "form"],
+  "keywords": ["password input", "show password", "hide password", "password visibility toggle", "shadcn ui", "react", "typescript", "copy paste component", "gist", "form input", "lucide icon", "accessibility"],
+  "contains": ["single-file React/TypeScript component", "186 stars, 14 forks, 9 revisions", "uses shadcn/ui Input + Button and lucide-react icons", "sample current/new/confirm password form", "comment thread includes a shadcn-svelte port"],
+  "formats": ["code"],
+  "stack": ["react", "typescript", "tailwind", "shadcn"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "backlinkxchange-com",
+  "url": "https://backlinkxchange.com",
+  "kind": "site",
+  "hints_hash": "3dde3999f6aa6671",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://backlinkxchange.com", "title": "backlinkXchange – Backlink Exchange Network", "status": null},
+    {"url": "https://backlinkxchange.com/websites", "title": "Websites – backlinkXchange", "status": 200}
+  ],
+  "status": "ok",
+  "name": "backlinkXchange",
+  "summary": "Backlink exchange directory where website owners list their sites and contact each other directly to trade links.",
+  "description": "A free backlink exchange network: 47 website listings, each with country, continent, niche and rank/ETV figures, browsable with filters for country, continent, niche and user. Owners sign up to list a website, are contacted through X, Reddit or Telegram, and keep their email, domain and personal name hidden inside a private network.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["backlink", "link exchange", "backlink exchange", "seo", "link building", "domain rank", "estimated traffic value", "website directory", "niche website", "link network", "seo tool"],
+  "contains": ["47 website listings", "filters: country, continent, niche, user", "each listing shows niches, owner contact (X, Reddit, Telegram), rank and ETV", "100% free contact; sign up to list your website", "email, domain and personal name stay private", "search box and 5 pages of listings"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

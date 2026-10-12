@@ -1,0 +1,27 @@
+{
+  "id": "noahmiles-framer-website",
+  "url": "https://noahmiles.framer.website",
+  "kind": "site",
+  "hints_hash": "ffc7fec054ff9fcc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:30:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://noahmiles.framer.website", "title": "Miles - Framer portfolio template", "status": null}
+  ],
+  "status": "ok",
+  "name": "Miles",
+  "summary": "Framer portfolio template for designers and freelancers: hero, selected works, experience, services, testimonials and contact.",
+  "description": "Single-page portfolio template built in Framer, demoed as the site of a fictional London designer. Sections: hero intro, selected works, about, an experience table with company, role and year, capability lists for branding, web design and development, client quotes, clients and partners, awards and recognitions, values, and a contact CTA. Its sitemap lists 9 URLs including works and contact pages.",
+  "type": "template",
+  "categories": ["templates", "inspiration"],
+  "elements": ["navbar", "hero", "features", "timeline", "testimonials", "logo-cloud", "contact"],
+  "keywords": ["framer template", "portfolio template", "portfolio website", "designer portfolio", "freelancer portfolio", "personal website", "case study", "creative portfolio", "agency portfolio", "one page portfolio", "no-code website"],
+  "contains": ["demo portfolio site for a fictional designer, built in Framer", "sections: hero, works, about, experience, capabilities, testimonials, clients, awards, values, contact", "five work/case pages (Olive, Apex, Fabric, Essence, Vanguard)", "9 URLs in the sitemap incl. works and contact pages", "social links: LinkedIn, Instagram, Behance, X"],
+  "formats": ["framer-file", "templates"],
+  "stack": ["framer"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

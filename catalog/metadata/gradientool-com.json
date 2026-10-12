@@ -1,0 +1,65 @@
+{
+  "id": "gradientool-com",
+  "url": "https://gradientool.com",
+  "kind": "site",
+  "hints_hash": "bf702bed513ba388",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:53:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://gradientool.com",
+      "title": "GRADIENTOOL",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "GRADIENTOOL",
+  "summary": "Generator that rolls unique animated 3D gradients in the browser and exports the output.",
+  "description": "A single-page gradient maker by @leobenzoni. Hit space and every roll lands a new output, then tune the canvas aspect ratio and layout, relief and grain (3D depth, seam, grain), treatment, layers, shape peaks and gradient mapping with hue drift and hue rotate. Export sets format, resolution, background, quality and duration.",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [
+    "background"
+  ],
+  "keywords": [
+    "gradient maker",
+    "gradient generator",
+    "3d gradient",
+    "animated gradient",
+    "generative gradient",
+    "grain",
+    "noise",
+    "background",
+    "hue rotate",
+    "random gradient",
+    "unique gradient",
+    "export"
+  ],
+  "contains": [
+    "every roll lands a new gradient output",
+    "controls: canvas ratio, layout, relief & grain, treatment, layers, shape, gradient mapping",
+    "export settings: format, resolution, background, quality, duration (default 4.0s)"
+  ],
+  "formats": [
+    "png",
+    "video"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

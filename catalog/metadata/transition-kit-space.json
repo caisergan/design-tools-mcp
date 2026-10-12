@@ -1,0 +1,32 @@
+{
+  "id": "transition-kit-space",
+  "url": "https://transition-kit.space",
+  "kind": "site",
+  "hints_hash": "95b5f972f3f5345a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://transition-kit.space/llms.txt", "title": "Components", "status": null},
+    {"url": "https://transition-kit.space", "title": "Transition Kit | Page/Theme Transition Templates", "status": 200},
+    {"url": "https://transition-kit.space/components", "title": "Components | Transition Kit", "status": 200},
+    {"url": "https://transition-kit.space/about", "title": "About | Transition Kit", "status": 200},
+    {"url": "https://transition-kit.space/templates", "title": "Templates | Transition Kit", "status": 200},
+    {"url": "https://transition-kit.space/components/edge-cases", "title": "Edge Cases | Transition Kit", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Transition Kit",
+  "summary": "30+ page transition and theme toggle templates for the View Transitions API, installable via the shadcn CLI.",
+  "description": "Pre-built theme toggles and page transition templates powered by the View Transitions API — fade, slide, scale, flip, blur, mask reveals and 3D moves. Components install through the shadcn CLI and inject CSS into the ::view-transition-* pseudo-elements; a guide covers edge cases like back/forward navigation and prefers-reduced-motion.",
+  "type": "registry",
+  "categories": ["components", "motion"],
+  "elements": ["switch", "button"],
+  "keywords": ["page transition", "view transitions api", "theme toggle", "dark mode toggle", "shadcn", "registry", "animation", "css animation", "theme switcher", "mask reveal", "page navigation", "nextjs", "react", "copy paste", "template"],
+  "contains": ["30+ page transition and theme toggle templates", "4 theme toggle components: animated toggler, text-cycling button, iOS-style switch, segmented switcher", "theme toggles install via the shadcn CLI (@shadcn registry)", "templates: GIF masks, circle/polygon reveals, clock wipe, fade, slide, flip, blur, cube, page-curl", "edge-case guide: direct links, hard reloads, back/forward, unsupported browsers, reduced motion", "browser support noted for Chrome/Edge/Opera 111+ with graceful fallbacks"],
+  "formats": ["code", "registry", "docs", "templates"],
+  "stack": ["react", "nextjs", "css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://transition-kit.space/components", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

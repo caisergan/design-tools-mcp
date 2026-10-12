@@ -1,0 +1,19 @@
+{
+  "id": "behance-net-gopiuiux24",
+  "url": "https://behance.net/gopiuiux24",
+  "kind": "page",
+  "hints_hash": "5774f9641a10c7eb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:18:29Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://behance.net/gopiuiux24", "title": "GOPI PRAJAPATI - UI/UX Designer in Ahmedabad, India :: Behance", "status": 200}
+  ],
+  "status": "ok",
+  "name": "GOPI PRAJAPATI",
+  "summary": "Profile page of Gopi Prajapati, a UI/UX and product designer in Ahmedabad, India, with project stats, experience and services.",
+  "description": "A designer profile page on Behance for Gopi Prajapati, a UI/UX and product designer in Ahmedabad, India, available for freelance. It shows project views, appreciations and follower stats, work experience at three agencies, links to Twitter, LinkedIn, Dribbble and YouTube, and a services list: UI/UX design, website and mobile app design, logo design and brand identity, app and Play Store screenshot design, SaaS dashboard design, website design and development, and custom app design.",
+  "keywords": ["ui designer", "ux designer", "product designer", "freelance designer", "design service", "portfolio", "website design", "mobile app design", "logo design", "brand identity", "saas dashboard", "app store screenshot", "ahmedabad", "india", "hire designer"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "behance-net"},
+  "confidence": 0.9
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pieces-app",
+  "url": "https://pieces.app",
+  "kind": "site",
+  "hints_hash": "c0b6905a820ebc05",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pieces.app/llms.txt",
+      "title": "Pieces",
+      "status": null
+    },
+    {
+      "url": "https://pieces.app",
+      "title": "Pieces — The AI memory layer for modern work",
+      "status": 200
+    },
+    {
+      "url": "https://pieces.app/pricing",
+      "title": "Pricing — Pieces",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Pieces",
+  "summary": "Desktop AI memory layer that captures your work context on-device and serves it to AI tools through an MCP server.",
+  "description": "Pieces runs in the background on your computer (PiecesOS) and forms a searchable on-device memory: a chronological timeline of what you see, copy and hear across browsers, Slack, email, docs, Figma, meeting apps and IDEs, captured every 2 seconds. The Pieces MCP server carries that context into Cursor, Claude, VS Code, JetBrains and other MCP-ready assistants, and one-click summaries cover standups, briefs and meeting prep. Privacy controls pause capture, exclude apps, or delete by time and source. Pro is per user with a 7-day trial; Enterprise adds governance.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai memory",
+    "memory layer",
+    "mcp server",
+    "context capture",
+    "long term memory",
+    "on-device",
+    "developer tool",
+    "clipboard history",
+    "search your work",
+    "cursor",
+    "claude",
+    "vs code",
+    "jetbrain",
+    "standup update",
+    "meeting prep"
+  ],
+  "contains": [
+    "on-device memory captured every 2 seconds from the focused app, clipboard and audio",
+    "Pieces MCP server for Cursor, Claude, VS Code, JetBrains and other MCP assistants",
+    "sources include Gmail, Outlook, Chrome, Slack, Teams, Zoom, Notion, Figma, ChatGPT, Copilot, Cursor, Xcode",
+    "timeline view; recall by time, topic, person or tool",
+    "one-click standup updates, morning briefs, meeting prep and day recaps",
+    "capture controls: pause, per-app disable, delete by time, app or source",
+    "Pro $18.99/user/month, Enterprise $22.99; 7-day free trial"
+  ],
+  "formats": [
+    "app",
+    "cli"
+  ],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

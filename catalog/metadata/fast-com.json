@@ -1,0 +1,61 @@
+{
+  "id": "fast-com",
+  "url": "https://fast.com",
+  "kind": "site",
+  "hints_hash": "0e947068a82f4384",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://fast.com",
+      "title": "Internet Speed Test | Fast.com",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Fast.com",
+  "summary": "Browser speed test that estimates your download speed in seconds, with optional latency and upload detail.",
+  "description": "A one-click internet speed test in the browser. The page starts measuring download speed as soon as it loads and shows the result in Mbps; 'Show more info' adds latency (unloaded and loaded), upload speed and client/server details. Settings cover parallel connections, min/max values and test duration. The interface is available in 27 languages.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "internet speed test",
+    "download speed",
+    "upload speed",
+    "latency",
+    "bandwidth test",
+    "isp speed",
+    "network speed",
+    "connection speed",
+    "mbp",
+    "browser speed test"
+  ],
+  "contains": [
+    "download speed estimate in seconds (Mbps)",
+    "latency unloaded/loaded and upload speed via Show more info",
+    "settings: parallel connections, min/max, test duration",
+    "interface in 27 languages"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

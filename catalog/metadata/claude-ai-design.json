@@ -1,0 +1,69 @@
+{
+  "id": "claude-ai-design",
+  "url": "https://claude.ai/design",
+  "kind": "page",
+  "hints_hash": "a614a78ec81ce754",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://claude.ai/design",
+      "title": "Claude Design | Turn ideas into design | Claude by Anthropic",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Claude Design",
+  "summary": "Prompt-driven design surface inside Claude that builds on-brand visuals, slides and one-pagers.",
+  "description": "Describe a visual and Claude builds a first version you can refine with comments, layout controls and adjustment sliders. It imports your design system from GitHub, design files or a local codebase, exports to PDF, PowerPoint and HTML, and connects to apps such as Adobe, Canva and HubSpot.",
+  "type": "tool",
+  "categories": [
+    "design-tools"
+  ],
+  "elements": [
+    "prompt-input"
+  ],
+  "keywords": [
+    "ai design",
+    "ai design tool",
+    "prompt to design",
+    "prompt to ui",
+    "design canvas",
+    "design system import",
+    "design to code",
+    "export to pdf",
+    "powerpoint export",
+    "html export",
+    "design handoff",
+    "visual design",
+    "slide deck",
+    "one-pager",
+    "prototype"
+  ],
+  "contains": [
+    "describe a visual and get an on-brand first version to refine",
+    "design system import from GitHub, design files or a local codebase",
+    "moves between Claude Design and Claude Code (/design, /design-sync)",
+    "comment on elements, edit text, tune spacing and color with sliders",
+    "export to PDF, PowerPoint and HTML",
+    "connectors include Adobe, Canva, HubSpot, Gamma, Miro, Wix, Vercel"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "links"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "claude-ai"
+  },
+  "confidence": 0.85
+}

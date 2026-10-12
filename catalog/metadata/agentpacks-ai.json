@@ -1,0 +1,76 @@
+{
+  "id": "agentpacks-ai",
+  "url": "https://agentpacks.ai",
+  "kind": "site",
+  "hints_hash": "257e4ff4c4ed84d3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:01:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://agentpacks.ai",
+      "title": "AI Agent Teams for OpenClaw & Hermes | AgentPacks",
+      "status": null
+    },
+    {
+      "url": "https://www.agentpacks.ai/packs",
+      "title": "All Packs | AgentPacks",
+      "status": 200
+    },
+    {
+      "url": "https://www.agentpacks.ai/free",
+      "title": "Free AI Assistant — Running in 10 Minutes | AgentPacks",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AgentPacks",
+  "summary": "Prebuilt AI agent teams for OpenClaw and Hermes that go live in Discord, Slack, Telegram or WhatsApp in minutes.",
+  "description": "15 packs of pre-configured AI assistants — content creation, development, marketing, fitness, finance and more, 40 specialized agents in total — delivered as markdown and JSON agent files for the OpenClaw and Hermes runtimes. Pick a pack, run one command and chat with your team in Discord, Slack, Telegram, WhatsApp or Signal; a free general-purpose Helper assistant is available without an account.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai agent",
+    "agent team",
+    "prompt pack",
+    "ai assistant",
+    "discord bot",
+    "slack bot",
+    "telegram bot",
+    "whatsapp bot",
+    "openclaw",
+    "herme",
+    "automation",
+    "chatbot"
+  ],
+  "contains": [
+    "15 packs and 40 specialized agents",
+    "packs for content, dev, solopreneur, fitness, health, finance, marketing, e-commerce, sales, X growth and support",
+    "$22 per pack or $189 for all 15, VAT excluded",
+    "free Helper assistant pack with no account or credit card",
+    "channel templates for Discord, WhatsApp, Telegram, Slack and Signal",
+    "agents shipped as plain markdown and JSON files"
+  ],
+  "formats": [
+    "prompts",
+    "templates"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

@@ -1,0 +1,27 @@
+{
+  "id": "beui-dev-components-motion-button",
+  "url": "https://beui.dev/components/motion/button",
+  "kind": "page",
+  "hints_hash": "f107f3cb376ff0db",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:09:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://beui.dev/components/motion/button", "title": "Button · React motion component · beUI", "status": 200},
+    {"url": "https://beui.dev/llms.txt", "title": "beUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Button",
+  "summary": "Spring-pressed React motion button with base, stateful, magnetic and metallic variants, installable via the shadcn registry.",
+  "description": "A motion button component for React and Next.js from beUI. Variants: a base button with press scale, hover lift, sizes (sm, md, lg, icon) and outline, ghost, primary and secondary styles; a stateful button that cycles idle → loading → success/error with blur-swap slots; a magnetic variant with cursor-attracted pull; and a metallic variant with a chrome rim and a traveling reflection. Copy the source or install it with bunx shadcn add @beui/button-*.",
+  "type": "component-library",
+  "elements": ["button"],
+  "keywords": ["button", "react", "nextjs", "motion", "animation", "spring", "shadcn", "registry", "copy paste", "loading button", "magnetic button", "metallic button", "press effect", "hover effect", "ripple"],
+  "contains": ["4 button variants: base, stateful, magnetic, metallic", "base: pressScale 0.93, sizes sm/md/lg/icon, outline/ghost/primary/secondary, optional ripple", "stateful: idle, loading, success, error states with blur-swap slots and morphing width", "magnetic: cursor-attracted pull, strength default 0.25", "metallic: chrome rim with a traveling reflection, paused prop to stop it", "install: bunx --bun shadcn add @beui/button-metallic", "source files: base.tsx, index.tsx, magnetic.tsx, stateful.tsx, metallic.tsx", "part of the beUI shadcn registry (124 items)"],
+  "formats": ["code", "registry"],
+  "stack": ["react", "nextjs"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "beui-dev"},
+  "confidence": 0.85
+}

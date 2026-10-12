@@ -1,0 +1,25 @@
+{
+  "id": "sokosumi-com-tools-design-md",
+  "url": "https://sokosumi.com/tools/design-md",
+  "kind": "page",
+  "hints_hash": "22101e5868b43ae5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sokosumi.com/tools/design-md", "title": "Free DESIGN.md generator for AI coding agents | Sokosumi", "status": 200}
+  ],
+  "status": "ok",
+  "name": "DESIGN.md Generator",
+  "summary": "Free tool that reads a website URL and writes a DESIGN.md with its colours, typography, spacing and components.",
+  "description": "Sokosumi's browser-based generator: paste a public website URL, it opens the page in a remote browser and reads its computed styles, then writes a DESIGN.md mixing machine-readable tokens (colours, typography, spacing, shapes, components) with human-readable guidance for AI coding agents. The output can be edited, copied or downloaded and dropped into a repo for Claude Code, Cursor, Codex or Copilot; the page shows 1,613 saved analyses.",
+  "type": "generator",
+  "categories": ["design-rules"],
+  "elements": [],
+  "keywords": ["design.md", "design system", "design token", "ai coding agent", "claude code", "cursor", "codex", "website analysis", "generator", "typography", "color palette", "spacing"],
+  "formats": ["docs"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

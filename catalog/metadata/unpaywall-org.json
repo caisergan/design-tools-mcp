@@ -1,0 +1,31 @@
+{
+  "id": "unpaywall-org",
+  "url": "https://unpaywall.org",
+  "kind": "site",
+  "hints_hash": "a8584886d172e54f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ourresearch/unpaywall-extension", "title": "GitHub - ourresearch/unpaywall-extension: Firefox/Chrome extension that gives you a link to a free PDF when you view scholarly articles · GitHub", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Unpaywall",
+  "summary": "Browser extension that links to free PDF copies of paywalled scholarly articles as you browse.",
+  "description": "Open-source Firefox/Chrome extension in OurResearch's GitHub org: when you view a scholarly article, it gives you a link to a free PDF of it where one exists. The extension repository is MIT-licensed and has 526 stars. The unpaywall.org site itself renders only through JavaScript, so the wider set of Unpaywall products could not be read.",
+  "type": "plugin",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["browser extension", "open access", "free pdf", "scholarly article", "research paper", "academic research", "paywall", "chrome extension", "firefox extension"],
+  "contains": [
+    "Firefox/Chrome extension linking to free PDFs of scholarly articles",
+    "MIT-licensed source on GitHub, 526 stars",
+    "repo homepage points to unpaywall.org/products/extension"
+  ],
+  "formats": ["code"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ourresearch/unpaywall-extension", "docs": "https://unpaywall.org/products/extension", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

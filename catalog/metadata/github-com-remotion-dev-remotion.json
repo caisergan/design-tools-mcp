@@ -1,0 +1,38 @@
+{
+  "id": "github-com-remotion-dev-remotion",
+  "url": "https://github.com/remotion-dev/remotion",
+  "kind": "repo",
+  "hints_hash": "04e3a51bbc6cfef6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/remotion-dev/remotion/blob/HEAD/README.md", "title": "Remotion", "status": 200},
+    {"url": "https://www.remotion.dev/docs/license/pricing", "title": "License & Pricing | Remotion", "status": 200},
+    {"url": "https://www.remotion.dev/docs/licensing", "title": "@remotion/licensing | Remotion", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Remotion",
+  "summary": "React framework for making videos programmatically: compose, preview and render video from code or with a coding agent.",
+  "description": "Make videos programmatically with React: compositions built from components, previewed in the Player and Remotion Studio, rendered locally, on Lambda, on Vercel or client-side, and batch-rendered on your own infrastructure. The same code supports interactive drag-and-drop editing and agentic workflows that turn an idea into a video with a coding agent. 1000+ documentation pages cover components, elements, effects, transitions, captions, fonts, rendering and Node.js APIs; a free license covers individuals and companies of up to 3 people, larger teams need a company license.",
+  "type": "component-library",
+  "categories": ["dev-ai-tools", "motion"],
+  "elements": [],
+  "keywords": ["video framework", "programmatic video", "react video", "video rendering", "batch rendering", "video automation", "lambda", "video editor", "animation", "prompt to video", "coding agent", "caption", "player", "nodejs", "compositor"],
+  "contains": [
+    "make videos agentically with a coding agent, interactively with drag and drop, or programmatically in code",
+    "React code is the source of truth; switch workflow at any point",
+    "render locally, on Lambda, on Vercel or client-side; batch-render millions of videos on your own infrastructure",
+    "build design systems of animated assets and video applications",
+    "1000+ documentation pages: components, elements, effects, transitions, captions, fonts, rendering",
+    "documentation at remotion.dev/docs; API reference at remotion.dev/api",
+    "free license for individuals and companies of up to 3 people, unlimited commercial use",
+    "company license for 4+ people: $0.01 per render, $100/mo minimum (Remotion for Automators)"
+  ],
+  "formats": ["code", "npm-package", "cli", "docs"],
+  "stack": ["react", "node"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/remotion-dev/remotion", "docs": "https://www.remotion.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

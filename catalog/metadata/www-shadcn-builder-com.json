@@ -1,0 +1,30 @@
+{
+  "id": "www-shadcn-builder-com",
+  "url": "https://www.shadcn-builder.com",
+  "kind": "site",
+  "hints_hash": "6cb23717939caf6c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://www.shadcn-builder.com", "title": "Shadcn Builder - Create Beautiful Forms", "status": null },
+    { "url": "https://www.shadcn-builder.com/components", "title": "Shadcn Builder - Create Beautiful Forms", "status": null },
+    { "url": "https://www.shadcn-builder.com/faq", "title": "Shadcn Builder - Create Beautiful Forms", "status": null },
+    { "url": "https://www.shadcn-builder.com/about", "title": "Shadcn Builder - Create Beautiful Forms", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Shadcn Builder",
+  "summary": "No-code form builder for shadcn/ui that exports React and Tailwind CSS code, with 100+ form templates.",
+  "description": "A visual drag-and-drop builder for forms: add from 20 components (text, email, select, checkbox, date picker, file upload, credit card and more) or start from 100+ pre-built templates, customize, then export production-ready React + Tailwind code built on shadcn/ui with React Hook Form and Zod validation.",
+  "type": "generator",
+  "categories": ["design-tools", "components"],
+  "elements": ["form", "input", "select", "checkbox", "date-picker", "switch", "file-upload", "button"],
+  "keywords": ["form builder", "shadcn ui", "react form", "tailwind", "no-code form builder", "drag and drop", "form template", "code export", "form component", "date picker", "file upload", "checkbox", "zod validation", "react hook form"],
+  "contains": ["20 form components (19 form, 1 content)", "100+ pre-built form templates", "drag-and-drop builder with React + Tailwind code export", "99 form examples in the gallery", "open source beta"],
+  "formats": ["code", "app", "templates"],
+  "stack": ["react", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

@@ -1,0 +1,33 @@
+{
+  "id": "devpost-com-software-l-ayalga",
+  "url": "https://devpost.com/software/l-ayalga",
+  "kind": "page",
+  "hints_hash": "192043a57a9591f6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://devpost.com/software/l-ayalga", "title": "L’Ayalga | Devpost", "status": 200}
+  ],
+  "status": "ok",
+  "name": "L’Ayalga",
+  "summary": "Devpost project page for an AI co-host that turns a stay invitation into a coordinated, inspectable visit for shared households.",
+  "description": "A Devpost hackathon entry (Agents for Humans) describing an AI co-host for shared homes: a host turns an informal invitation into a private guest journey, guests search feasible dates and choose exact rooms, and the agent handles proactive reconfirmation and escalation while capacity, occupancy and children/pets policy stay in deterministic code. Built with the Strands Agents TypeScript SDK on Amazon Bedrock (Claude Sonnet 4.6) with AgentCore Runtime and Memory, Next.js and TypeScript, and Supabase PostgreSQL.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent", "ai co-host", "virtual assistant", "shared home", "guest booking", "amazon bedrock", "agentcore", "strands agent", "nextjs", "typescript", "postgresql", "hackathon project"],
+  "contains": [
+    "AI co-host that coordinates shared-home visits from invitation to follow-up",
+    "guests search feasible dates and choose exact rooms; capacity, occupancy and pet rules run in deterministic code",
+    "AgentCore Memory ranks valid rooms by recalled preferences",
+    "proactive reconfirmation by verified email, with exceptions escalated to hosts",
+    "explicit human confirmation required for cancellations and withdrawal",
+    "Strands Agents TypeScript SDK, Amazon Bedrock with Claude Sonnet 4.6, AgentCore Runtime and Memory, CloudWatch",
+    "Next.js and TypeScript host and guest journeys; Supabase PostgreSQL authoritative for bookings and policy"
+  ],
+  "formats": ["links"],
+  "stack": ["nextjs", "typescript", "postgres", "aws"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

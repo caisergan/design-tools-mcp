@@ -1,0 +1,29 @@
+{
+  "id": "lightspark-com",
+  "url": "https://lightspark.com",
+  "kind": "site",
+  "hints_hash": "cb134a92a1216841",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:46:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lightspark.com/llms.txt", "title": "Lightspark", "status": null},
+    {"url": "https://lightspark.com", "title": "Lightspark | The API for money: accounts, payments, cards", "status": 200},
+    {"url": "https://www.lightspark.com/faq", "title": "Frequently Asked Questions", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lightspark",
+  "summary": "Payments API for launching global accounts, payouts, cards and stablecoins under your brand, with local rails in 65+ countries.",
+  "description": "Lightspark is infrastructure for moving money worldwide: one API to launch branded global dollar accounts, send payouts, accept pay-ins, issue Visa cards and move between fiat and stablecoins. Products span Global Accounts, payments, accounts and cards, and DeFi and trading, with docs, sandbox and playground for developers; the platform API is named Grid.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["payments api", "money api", "global account", "payout", "pay-in", "cross-border payment", "stablecoin", "payment card", "virtual account", "wallet", "on-ramp", "swap", "embedded finance", "treasury", "remittance", "developer api", "sandbox"],
+  "contains": ["one integration, local rails in 65+ countries (Pix, UPI, SPEI, SEPA) and 175M+ Visa merchant locations", "products: global accounts, payouts, pay-ins, cards, wallets, stablecoin issuance, swaps, agentic payments", "2-5 days to go live; seconds median settlement", "docs, sandbox and playground; platform API named Grid", "customers include Coinbase, SoFi, Nubank, Revolut and Bitso", "SOC 2 certified; first MiCA CASP and EMI license in Estonia"],
+  "formats": ["api", "docs"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

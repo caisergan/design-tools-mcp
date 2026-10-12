@@ -1,0 +1,28 @@
+{
+  "id": "github-com-lum1104-understand-anything",
+  "url": "https://github.com/Lum1104/Understand-Anything",
+  "kind": "repo",
+  "hints_hash": "d21436a4e713d731",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:50:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Lum1104/Understand-Anything/blob/HEAD/README.md", "title": "Generate Chinese content (知识图节点描述和 Dashboard UI)", "status": 200},
+    {"url": "https://github.com/Lum1104/Understand-Anything", "title": "GitHub - Egonex-AI/Understand-Anything: Graphs that teach > graphs that impress", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Understand Anything",
+  "summary": "Claude Code plugin that turns any codebase into an interactive knowledge graph dashboard you can search, tour and question.",
+  "description": "A multi-agent pipeline scans a project, extracts every file, function, class and dependency, and builds a knowledge graph saved to .ua/knowledge-graph.json. A dashboard then shows it with guided tours, fuzzy and semantic search, architectural layers and diff-impact analysis; the graph can be committed so teammates open it without an LLM. Installs on Claude Code, Cursor, Copilot, Codex, Gemini CLI and more.",
+  "type": "plugin",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude code plugin", "knowledge graph", "codebase visualization", "code analysis", "ai agent", "tree-sitter", "code review", "onboarding", "dependency graph", "architecture", "guided tour", "cursor", "codex", "gemini cli", "code understanding"],
+  "contains": ["pipeline: project scanner, file analyzer, architecture analyzer, tour builder, graph reviewer", "structure from tree-sitter; summaries, layers and domains from LLMs", "graph at .ua/knowledge-graph.json; commit it so teammates skip the pipeline", "dashboard: search, guided tours, layer colour coding, diff impact, persona-adaptive detail", "dashboard opens read-only with Node.js >= 18, no LLM or API key", "installs on Claude Code, Cursor, VS Code Copilot, Copilot CLI, Codex, Gemini CLI, Kiro and more", "output languages: en, zh, zh-TW, ja, ko, ru, vi", "incremental re-analysis; /understand --auto-update patches the graph on commit"],
+  "formats": ["code", "prompts", "docs"],
+  "stack": ["node"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/Egonex-AI/Understand-Anything", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,62 @@
+{
+  "id": "github-com-qwenlm-qwen-code-releases-tag-v0-23-4-nightly-20260914-f024b3",
+  "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.4-nightly.20260914.f024b37689",
+  "kind": "page",
+  "hints_hash": "0f7211587fabeb55",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:30:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.4-nightly.20260914.f024b37689",
+      "title": "Release Release v0.23.4-nightly.20260914.f024b37689 · QwenLM/qwen-code · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Release v0.23.4-nightly.20260914.f024b37689",
+  "summary": "Nightly pre-release of Qwen Code v0.23.4 from 14 Sep 2026, bundling computer-use, web-search-cap and command-hook fixes.",
+  "description": "GitHub pre-release nightly of Qwen Code, tag v0.23.4-nightly.20260914.f024b37689, published by qwen-code-ci-bot on 14 Sep 2026. Listed changes since v0.23.4: Windows inode gate test recording (#11853), Linux CUA observations and REPL diagnostics (#11829), web_search session cap (#11852), bash project directory variables in command hooks (#11864), adaptive Linux input delivery (#11876), hook matcher escaped whitespace (#11860), hooks documentation (#11863), pnpm range keys (#11845). 14 assets.",
+  "type": "article",
+  "keywords": [
+    "nightly",
+    "pre-release",
+    "release",
+    "ai coding agent",
+    "cli",
+    "computer use",
+    "hook",
+    "web search",
+    "window",
+    "linux",
+    "typescript"
+  ],
+  "contains": [
+    "tag v0.23.4-nightly.20260914.f024b37689, released 14 Sep 2026",
+    "8 changes listed: #11853, #11829, #11852, #11864, #11876, #11860, #11863, #11845",
+    "14 assets",
+    "contributors: yiliang114, LaZzyMan and 2 others"
+  ],
+  "formats": [
+    "docs",
+    "links"
+  ],
+  "stack": [
+    "typescript",
+    "node"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/QwenLM/qwen-code",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "github-com"
+  },
+  "confidence": 0.85
+}

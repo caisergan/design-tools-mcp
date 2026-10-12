@@ -1,0 +1,76 @@
+{
+  "id": "cappen-com",
+  "url": "https://cappen.com",
+  "kind": "site",
+  "hints_hash": "d8b8e52285c37a33",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T09:30:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://cappen.com",
+      "title": "Cappen | Award-Winning Web Design & Development Studio",
+      "status": null
+    },
+    {
+      "url": "https://cappen.com/works",
+      "title": "Works - Cappen",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Cappen",
+  "summary": "Award-winning interactive studio site with immersive, scroll-driven case studies for global brands.",
+  "description": "The site of Cappen, an interactive digital studio crafting immersive experiences since 2006. Work is presented as scroll-driven case studies for brands such as Iquine, Credit Genie, JCPM Malls, NeonDoor, Amanda Braga and Ministry of Supply, tagged with the services delivered (UX/UI design, front-end development, WordPress, mobile apps).",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "motion"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "cta",
+    "scroll-effect"
+  ],
+  "keywords": [
+    "interactive studio",
+    "immersive website",
+    "scroll animation",
+    "award-winning website",
+    "web design inspiration",
+    "portfolio",
+    "case study",
+    "creative development",
+    "micro interaction",
+    "web design agency",
+    "gsap",
+    "website showcase"
+  ],
+  "contains": [
+    "case studies: Iquine, Credit Genie, JCPM Malls, NeonDoor, Amanda Braga, Ministry of Supply",
+    "studio active since 2006",
+    "service tags: UX/UI design, front-end dev, WordPress, mobile apps",
+    "18 pages in its sitemap"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [
+    "wordpress"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

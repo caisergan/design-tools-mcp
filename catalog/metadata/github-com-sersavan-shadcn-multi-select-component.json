@@ -1,0 +1,77 @@
+{
+  "id": "github-com-sersavan-shadcn-multi-select-component",
+  "url": "https://github.com/sersavan/shadcn-multi-select-component",
+  "kind": "repo",
+  "hints_hash": "d234c9c678b5d3a5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:46Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/sersavan/shadcn-multi-select-component/blob/HEAD/README.md",
+      "title": "MultiSelect Component",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn MultiSelect",
+  "summary": "Searchable multi-select component for shadcn/ui React projects with grouped options and keyboard navigation.",
+  "description": "A multi-select component built with React, TypeScript, Tailwind CSS and shadcn/ui. Ships search and filtering, grouped options, select-all, badge display limits, responsive behaviour, and full keyboard and screen-reader support. Installs by copying the source into Next.js, Vite or CRA projects; form integration with React Hook Form and an API reference are documented.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "select"
+  ],
+  "keywords": [
+    "multi select",
+    "multiselect",
+    "select",
+    "combobox",
+    "search",
+    "grouped option",
+    "keyboard navigation",
+    "accessibility",
+    "shadcn",
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "form"
+  ],
+  "contains": [
+    "multi-select input with search and built-in filtering",
+    "grouped options, disable per option, select-all, duplicate removal",
+    "responsive badge limits: mobile 2, tablet 4, desktop 6",
+    "full keyboard navigation, ARIA roles and live-region announcements",
+    "React Hook Form integration and documented props API",
+    "copy-paste install for Next.js, Vite and CRA; MIT license"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "radix",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/sersavan/shadcn-multi-select-component",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

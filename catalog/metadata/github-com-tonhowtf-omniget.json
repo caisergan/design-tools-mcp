@@ -1,0 +1,84 @@
+{
+  "id": "github-com-tonhowtf-omniget",
+  "url": "https://github.com/tonhowtf/omniget",
+  "kind": "repo",
+  "hints_hash": "0c68c386646dc341",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/tonhowtf/omniget",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://getomniget.com/",
+      "title": "OmniGet: free yt-dlp GUI for Windows, macOS and Linux",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "OmniGet",
+  "summary": "Free, open-source yt-dlp GUI desktop app for Windows, macOS and Linux: downloads video, audio, torrents and files from 1,000+ sites.",
+  "description": "A Rust + Tauri desktop app that puts yt-dlp behind one box: paste a link, pick quality and format, and a resumable queue downloads video, audio, image galleries, torrents and direct files from 1,000+ sites, using your own browser session via a Chrome/Firefox extension. Built-in modules add AI coding agents (Claude Code, Codex, Gemini CLI, Ollama) on a canvas, an MCP server, a music player, video and YouTube clients, book/PDF readers and Telegram.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "video downloader",
+    "yt-dlp",
+    "yt-dlp gui",
+    "desktop app",
+    "rust",
+    "tauri",
+    "ai coding agent",
+    "mcp server",
+    "torrent downloader",
+    "magnet link",
+    "music player",
+    "ebook reader",
+    "pdf reader",
+    "youtube client",
+    "sponsorblock",
+    "browser extension",
+    "open source",
+    "window",
+    "macos",
+    "linux",
+    "telegram"
+  ],
+  "contains": [
+    "Rust + Tauri app for Windows 10+, macOS 10.15+ and Linux",
+    "runs and updates yt-dlp and FFmpeg; verifies yt-dlp's SHA-256 before running",
+    "1,000+ working site families today (per the site's FAQ)",
+    "AI coding agents on a canvas; MCP server for Claude Code, Cursor, VS Code, Codex",
+    "superpowers: Music, Watch, OmniTube, Read, Telegram, Global Downloader, League of Legends",
+    "Chrome and Firefox extension sends the current page with your own session",
+    "no telemetry, no account, no ads, no paid plan",
+    "site notes the GitHub account is temporarily unavailable; repo links do not open"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [
+    "rust",
+    "tauri"
+  ],
+  "pricing": "free",
+  "license": "GPL-3.0",
+  "related": {
+    "repo": "https://github.com/tonhowtf/omniget",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

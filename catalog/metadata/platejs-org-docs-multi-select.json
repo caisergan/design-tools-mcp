@@ -1,0 +1,27 @@
+{
+  "id": "platejs-org-docs-multi-select",
+  "url": "https://platejs.org/docs/multi-select",
+  "kind": "page",
+  "hints_hash": "5114e3e1075001fb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://platejs.org/docs/multi-select", "title": "Multi Select - Plate", "status": 200 },
+    { "url": "https://raw.githubusercontent.com/udecode/plate/HEAD/LICENSE", "title": "The MIT License (MIT)", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Multi Select",
+  "summary": "Plate's rich multi-select tag editor, with fuzzy search, drag-and-drop reordering and undo/redo history.",
+  "description": "Docs page for the Multi Select editor in Plate: a tag node editor with native cursor navigation, select/copy/paste and drag-to-reorder tags, duplicate prevention, read-only mode and fuzzy search powered by cmdk. Covers installation (npx shadcn@latest add @plate/select-editor), plugin setup (TagPlugin, MultiSelectPlugin), API (tf.insert.tag, getSelectedItems, isEqualTags) and hooks.",
+  "type": "component-library",
+  "elements": ["select"],
+  "keywords": ["multi select", "tag input", "tag editor", "rich text editor", "plate", "shadcn", "react", "fuzzy search", "cmdk", "undo redo", "drag and drop", "combobox", "form field", "typescript"],
+  "contains": ["tag node select editor built on Plate", "install: npx shadcn@latest add @plate/select-editor", "fuzzy search powered by cmdk", "plugins: TagPlugin, MultiSelectPlugin", "API: tf.insert.tag, getSelectedItems, isEqualTags", "hooks: useSelectedItems, useSelectableItems, useSelectEditorCombobox"],
+  "formats": ["code", "docs"],
+  "stack": ["react", "typescript", "shadcn", "plate", "cmdk"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.75
+}

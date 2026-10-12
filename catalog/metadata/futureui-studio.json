@@ -1,0 +1,39 @@
+{
+  "id": "futureui-studio",
+  "url": "https://futureui.studio",
+  "kind": "site",
+  "hints_hash": "a324e894fa10e778",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://futureui.studio", "title": "FutureUI - Premium Animated React Components for Modern Web", "status": null},
+    {"url": "https://futureui.studio/components", "title": "Animated React Components - Browse All | FutureUI", "status": null},
+    {"url": "https://futureui.studio/components/cards", "title": "Animated React Card Components | FutureUI", "status": null},
+    {"url": "https://futureui.studio/components/blocks", "title": "Animated React UI Blocks | FutureUI", "status": null},
+    {"url": "https://futureui.studio/components/inputs", "title": "Animated Input and Form Components for React | FutureUI", "status": null},
+    {"url": "https://futureui.studio/components/effects", "title": "Animated Visual Effect Components for React | FutureUI", "status": 200},
+    {"url": "https://futureui.studio/components/buttons", "title": "Animated React Button Components | FutureUI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Future UI",
+  "summary": "Animated React component library: carousels, cards, bento grids, WebGL backgrounds, effects, inputs and buttons.",
+  "description": "An animated component library grouped into carousels, cards, blocks, displays, backgrounds, effects, inputs and buttons: 3D and drag carousels, particle and shader cards, bento grids, a fluid navbar, a revolving sidebar, retro LED and split-flap displays, WebGL2 backgrounds, hover effects, an accordion, a tooltip and four buttons. Components ship as TypeScript for React and Tailwind CSS, copied by hand or installed with the shadcn CLI; there is a free tier and a $199 one-time all-access purchase that adds every component and the full-page templates.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["carousel", "card", "bento-grid", "navbar", "sidebar", "testimonials", "text-effect", "background", "3d", "accordion", "tooltip", "button"],
+  "keywords": ["animated component", "react", "typescript", "tailwind", "gsap", "webgl", "shader", "3d carousel", "bento grid", "particle effect", "animated background", "shadcn", "copy paste component", "landing page block", "navbar animation", "button animation", "hover effect", "accordion", "tooltip", "testimonial grid"],
+  "contains": [
+    "components grouped into carousels, cards, blocks, displays, backgrounds, effects, inputs and buttons",
+    "3D and WebGL2 pieces: radial carousel, isometric cube grid, shader cards, 10+ animated backgrounds",
+    "free components plus a $199 one-time all-access purchase",
+    "copy-paste code or shadcn CLI installs (React + TypeScript + Tailwind)",
+    "full-page templates included with all-access"
+  ],
+  "formats": ["code", "registry", "cli", "templates"],
+  "stack": ["react", "typescript", "tailwind", "gsap", "webgl"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

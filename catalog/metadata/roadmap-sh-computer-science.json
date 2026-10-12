@@ -1,0 +1,22 @@
+{
+ "id": "roadmap-sh-computer-science",
+ "url": "https://roadmap.sh/computer-science",
+ "kind": "page",
+ "hints_hash": "42c62ff3c391464d",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:51:11Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://roadmap.sh/computer-science", "title": "Computer Science Roadmap: Curriculum for the self taught developer", "status": 200}
+ ],
+ "status": "partial",
+ "name": "Computer Science Roadmap",
+ "summary": "Curriculum of free resources for self-taught developers, laid out as a computer science roadmap with an AI tutor.",
+ "description": "A computer science curriculum for self-taught developers, published as a roadmap page on roadmap.sh with free learning resources. It sits alongside the site's other roadmaps, guides, packs and newsletters, with an AI tutor chat for the roadmap.",
+ "type": "course",
+ "categories": ["learning"],
+ "elements": [],
+ "keywords": ["computer science", "roadmap", "learning path", "curriculum", "self-taught developer", "free resource", "study guide", "developer career", "ai tutor", "education"],
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.6
+}

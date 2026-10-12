@@ -1,0 +1,21 @@
+{
+  "id": "framer-com-gallery",
+  "url": "https://framer.com/gallery",
+  "kind": "page",
+  "hints_hash": "42247b0cf04d2c97",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://framer.com/gallery", "title": "Framer Gallery: Explore the best websites built with Framer", "status": 200},
+    {"url": "https://www.framer.com/community/gallery/lea-harmoza", "title": "Lea Harmoza — Framer Gallery", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Framer Gallery",
+  "summary": "Gallery of websites designed and built in Framer, with creator credits, tags and links to live sites.",
+  "description": "A showcase of websites built on the Framer canvas, browsable and open to submissions. Each entry shows a preview, the creator, tags such as portfolio, personal or landing page, publish and update dates, related sites and a Visit Site link; entries are grouped in categories and searchable.",
+  "type": "gallery",
+  "keywords": ["website gallery", "design inspiration", "framer", "portfolio example", "landing page", "web design showcase", "no code website", "website example", "web design inspiration", "site showcase"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "framer-com"},
+  "confidence": 0.9
+}

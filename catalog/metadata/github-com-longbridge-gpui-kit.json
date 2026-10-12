@@ -1,0 +1,126 @@
+{
+  "id": "github-com-longbridge-gpui-kit",
+  "url": "https://github.com/longbridge/gpui-kit",
+  "kind": "repo",
+  "hints_hash": "62dfd2de5f519486",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:28:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/longbridge/gpui-kit/blob/HEAD/README.md",
+      "title": "GPUI Kit",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/longbridge/gpui-kit/HEAD/README.md",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://gpui-kit.com/component",
+      "title": "Components",
+      "status": 200
+    },
+    {
+      "url": "https://gpui-kit.com/docs/",
+      "title": "Documentation · GPUI Kit",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "GPUI Kit",
+  "summary": "Rust component library and desktop application framework for building cross-platform apps with GPUI.",
+  "description": "GPUI Kit is a Rust desktop application framework built on GPUI, the UI framework from Zed, shipping 75+ documented components across forms, navigation, overlays, data display, editing, feedback and layout. It adds dock layouts, virtualized data tables and lists, a Tree-sitter code editor, charts, Markdown/HTML rendering and Lucide icons in three layers — styled gpui-component, unstyled gpui-base and gpui-shell JavaScript extensions — plus skills for AI coding agents.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "button",
+    "calendar",
+    "carousel",
+    "chart",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "form",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "rust",
+    "desktop app",
+    "gui",
+    "component library",
+    "gpui",
+    "zed",
+    "cross platform",
+    "data table",
+    "code editor",
+    "dock layout",
+    "virtual list",
+    "accessibility",
+    "wasm",
+    "form",
+    "modal",
+    "sidebar",
+    "macos",
+    "window",
+    "linux"
+  ],
+  "contains": [
+    "75+ documented components and primitives",
+    "families: forms, navigation, overlays, data display, editing, feedback, layout",
+    "dock layout with resizable panels, draggable tabs and nested splits",
+    "virtual-scrolling data tables and lists; Tree-sitter code editor with LSP",
+    "charts, Markdown and HTML rendering, bundled Lucide icons",
+    "gpui-component (styled), gpui-base (unstyled), gpui-shell (JavaScript runtime) layers",
+    "AccessKit accessibility, WebAssembly support, 120 FPS rendering",
+    "Apache-2.0 code; docs under CC BY 4.0"
+  ],
+  "formats": [
+    "code",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "rust"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/longbridge/gpui-kit",
+    "docs": "https://gpui-kit.com/docs/",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

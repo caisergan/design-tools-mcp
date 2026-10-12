@@ -1,0 +1,55 @@
+{
+  "id": "pro-reactbits-dev-changelog",
+  "url": "https://pro.reactbits.dev/changelog",
+  "kind": "page",
+  "hints_hash": "de65ce199e2c5e8b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://pro.reactbits.dev/changelog",
+      "title": "Changelog: what's new in React Bits Pro | React Bits Pro",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Changelog",
+  "summary": "Release notes for React Bits Pro: animated React components, UI blocks, bento grids and templates, newest first.",
+  "description": "The React Bits Pro changelog lists monthly releases: new animated components (backgrounds and shaders, text effects, cursor effects, galleries), marketing blocks, bento tiles, templates and docs/DX changes. Each entry names the shipped components and blocks and gives counts, with the newest release first.",
+  "keywords": [
+    "changelog",
+    "release note",
+    "react",
+    "animated component",
+    "component library",
+    "background effect",
+    "cursor effect",
+    "text effect",
+    "bento grid",
+    "marketing block",
+    "landing page template",
+    "tailwind",
+    "shader",
+    "webgl",
+    "gallery"
+  ],
+  "contains": [
+    "Release notes newest first, October 2026 back through earlier 2026 updates",
+    "October release: 80 new components and 20 marketing blocks",
+    "September: 16 components, 4 templates, 42 bento tiles and the Bento Builder (280 blocks across 22 categories)",
+    "Every component ships in Tailwind and vanilla CSS variants"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "pro-reactbits-dev"
+  },
+  "confidence": 0.85
+}

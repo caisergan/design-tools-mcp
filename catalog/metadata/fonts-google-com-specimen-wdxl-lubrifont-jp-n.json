@@ -1,0 +1,28 @@
+{
+  "id": "fonts-google-com-specimen-wdxl-lubrifont-jp-n",
+  "url": "https://fonts.google.com/specimen/WDXL+Lubrifont+JP+N",
+  "kind": "page",
+  "hints_hash": "3a48aabe9b028ffd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:23:47Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/WDXL+Lubrifont+JP+N", "title": null, "status": null},
+    {"url": "https://fonts.google.com/metadata/fonts/WDXL%20Lubrifont%20JP%20N", "title": null, "status": 200},
+    {"url": "https://github.com/NightFurySL2001/WD-XL-font", "title": "GitHub - NightFurySL2001/WD-XL-font: Source files of WD-XL Lubrifont ｜ WD-XL 滑油字 字型源文件", "status": 200}
+  ],
+  "status": "partial",
+  "name": "WDXL Lubrifont JP N",
+  "summary": "Google Fonts specimen page for WDXL Lubrifont JP N, the Japanese (JIS2004) cut of the WD-XL Lubrifont typeface.",
+  "description": "Specimen page for the WDXL Lubrifont JP N family on Google Fonts. The JP N cut carries JIS2004 Japanese glyphs, and the family's metadata lists Japanese and Cyrillic coverage. Source files for WD-XL Lubrifont are published at github.com/NightFurySL2001/WD-XL-font under the SIL Open Font License 1.1.",
+  "type": "font-foundry",
+  "elements": [],
+  "keywords": ["google font", "japanese font", "cyrillic font", "japanese typeface", "cjk font", "sans serif", "webfont", "free font", "typeface specimen", "open source font", "jis2004"],
+  "contains": ["Japanese (JIS2004) cut of WD-XL Lubrifont", "subsets listed: Japanese, Cyrillic", "source files under SIL Open Font License 1.1"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": "https://github.com/NightFurySL2001/WD-XL-font", "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.6
+}

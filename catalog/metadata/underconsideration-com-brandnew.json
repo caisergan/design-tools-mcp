@@ -1,0 +1,35 @@
+{
+  "id": "underconsideration-com-brandnew",
+  "url": "https://underconsideration.com/brandnew",
+  "kind": "page",
+  "hints_hash": "64515e92b118d719",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://underconsideration.com/brandnew", "title": "Brand New", "status": null},
+    {"url": "https://www.underconsideration.com/brandnew/subscribe", "title": "Brand New: Subscribe", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Brand New",
+  "summary": "Blog of opinionated reviews of corporate and brand identity work, with before/after images.",
+  "description": "UnderConsideration's publication on corporate and brand identity work: new logos and identity systems are reviewed, noted, linked, spotted or revisited in date order, with before/after images and comment threads. Posts are browsable by industry and post type; full posts, polls, comments, RSS and the Follow-up podcast require a paid subscription.",
+  "type": "gallery",
+  "categories": ["inspiration", "learning"],
+  "elements": [],
+  "keywords": ["brand identity", "logo redesign", "rebrand", "before and after", "branding", "corporate identity", "logo review", "identity design", "design criticism", "packaging design", "design blog"],
+  "contains": [
+    "posts tagged Reviewed, Noted, Linked, Spotted, Announced, Revisited, Collected",
+    "industry archives from advertising and architecture to finance, food and lifestyle",
+    "before/after images for each project",
+    "subscription required to read full posts, polls and comments",
+    "job board and The Follow-up podcast",
+    "375 URLs in its sitemap"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

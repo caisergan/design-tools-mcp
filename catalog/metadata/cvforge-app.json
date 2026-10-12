@@ -1,0 +1,27 @@
+{
+  "id": "cvforge-app",
+  "url": "https://cvforge.app",
+  "kind": "site",
+  "hints_hash": "c0d877303bf99ab5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:49:25Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cvforge.app", "title": "CVForge — Free AI Resume Builder (No Sign-up, PDF Download)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CVForge",
+  "summary": "Free AI resume builder with live preview, ATS checker, cover letter generator and PDF export; no sign-up.",
+  "description": "Browser resume builder: dump experience as rough notes and the AI rewrites them into verb-led bullets and a summary while a live preview shows the page. It includes three single-column ATS-friendly templates, an ATS checker that scores a resume against a job ad, a cover letter generator, guides, and a PDF exported through the print dialog as selectable text; drafts are stored only in the browser.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["resume builder", "cv maker", "ai resume", "ats resume", "ats checker", "cover letter generator", "resume template", "pdf resume", "job application", "free resume builder", "no sign up", "resume format"],
+  "contains": ["free: no account, watermark or paywall", "three single-column ATS-friendly templates", "AI rewrites notes into bullets; you approve every line", "ATS checker scores a resume against a job ad", "cover letter generator", "text-based PDF via the browser print dialog", "drafts saved in browser localStorage"],
+  "formats": ["app", "templates"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

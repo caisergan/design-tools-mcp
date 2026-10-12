@@ -1,0 +1,93 @@
+{
+  "id": "web-dev",
+  "url": "https://web.dev",
+  "kind": "site",
+  "hints_hash": "c6dc230ee4f9186f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://web.dev",
+      "title": "web.dev",
+      "status": null
+    },
+    {
+      "url": "https://web.dev/explore",
+      "title": "Explore | web.dev",
+      "status": null
+    },
+    {
+      "url": "https://web.dev/explore/ai",
+      "title": "Artificial Intelligence | web.dev",
+      "status": null
+    },
+    {
+      "url": "https://web.dev/explore/how-to-optimize-inp",
+      "title": "How to Optimize Interaction to Next Paint (INP) | web.dev",
+      "status": null
+    },
+    {
+      "url": "https://web.dev/about",
+      "title": "About | web.dev",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "web.dev",
+  "summary": "Guidance from Chrome Developer Relations: courses, guides and references for building modern cross-browser websites.",
+  "description": "Content hub from the Chrome Developer Relations team: courses (Learn HTML, Learn CSS, Learn JavaScript, Learn AI, Learn Performance, Learn Accessibility), topic hubs for CSS and UI design, Core Web Vitals, progressive web apps, accessibility, identity and payments, the Baseline browser-support reference, a blog, case studies and podcasts & shows. Written for web developers and designers who want practical, cross-browser guidance; the site is available in 20 languages.",
+  "type": "course",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "web development",
+    "web platform",
+    "learn css",
+    "learn javascript",
+    "learn html",
+    "css",
+    "javascript",
+    "html",
+    "web performance",
+    "core web vital",
+    "inp",
+    "accessibility",
+    "progressive web app",
+    "baseline",
+    "browser support",
+    "tutorial",
+    "course",
+    "guide",
+    "best practice",
+    "web design"
+  ],
+  "contains": [
+    "courses: Learn HTML, Learn CSS, Learn JavaScript, Learn AI, Learn Performance, Learn Accessibility",
+    "guides on Core Web Vitals, INP and other performance metrics",
+    "Baseline browser-support reference with monthly digests",
+    "topic hubs: CSS and UI design, PWA, accessibility, identity, payments, media, WebAssembly",
+    "blog, case studies and podcasts & shows from the Chrome team and outside experts",
+    "content in 20 languages"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

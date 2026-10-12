@@ -1,0 +1,35 @@
+{
+  "id": "pagy-co",
+  "url": "https://pagy.co",
+  "kind": "site",
+  "hints_hash": "0ac90c2a56b4a228",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pagy.co", "title": "Pagy – Free website builder", "status": null},
+    {"url": "https://pagy.co/templates", "title": "Templates | Pagy", "status": null}
+  ],
+  "status": "ok",
+  "name": "Pagy",
+  "summary": "Free no-code website builder: pick a template, arrange pre-designed blocks and publish in minutes.",
+  "description": "A drag-and-drop website builder for personal sites, portfolios, landing pages, forms and company websites. Pages are assembled from ready-made blocks — cards, buttons, images, video, 3k+ icons, forms, maps, links and embedded tweets — and can start from ready-made templates. Free plan: 1 page with unlimited bandwidth; paid plans from $10/month add pages, contributors, custom domains, integrations and custom code.",
+  "type": "tool",
+  "categories": ["design-tools", "templates"],
+  "elements": ["form", "input", "button", "card", "map"],
+  "keywords": ["website builder", "no code", "drag and drop", "landing page builder", "portfolio website", "link in bio", "website template", "block", "free website", "custom domain", "publish site", "wysiwyg", "form", "map embed"],
+  "contains": [
+    "build pages from ready-made blocks: essentials, images, videos, icons, forms, maps, links, tweets",
+    "3k+ built-in icons",
+    "ready-made templates: portfolio, SaaS, studio, coming-soon, link-in-bio and more",
+    "free plan: 1 page, 1 contributor, unlimited bandwidth, free .pagy.site domain and SSL",
+    "paid plans $10–$40/month add pages, contributors, custom domains, integrations and custom code",
+    "no bandwidth limits on any plan"
+  ],
+  "formats": ["app", "templates"],
+  "stack": ["nextjs"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

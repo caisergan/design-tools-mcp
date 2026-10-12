@@ -1,0 +1,27 @@
+{
+  "id": "colorable-jxnblk-com",
+  "url": "https://colorable.jxnblk.com",
+  "kind": "site",
+  "hints_hash": "827d801b25b3c302",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://colorable.jxnblk.com", "title": "Colorable", "status": null}
+  ],
+  "status": "ok",
+  "name": "Colorable",
+  "summary": "Web tool for testing a text and background colour pair against WCAG contrast ratios.",
+  "description": "A single-page contrast checker: set the text and background colours with hue, saturation and lightness controls, and it shows a live sample with the contrast ratio and its WCAG grade (e.g. AAA). Includes an explanation of what contrast is and a Josef Albers quote.",
+  "type": "tool",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color contrast", "contrast checker", "accessibility", "a11y", "wcag", "contrast ratio", "color", "hsl", "text contrast", "web tool", "palette"],
+  "contains": ["text and background colour controls (hue, saturation, lightness)", "live contrast ratio with WCAG grade (e.g. AAA)", "explanation of contrast and a Josef Albers quote"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

@@ -1,0 +1,29 @@
+{
+  "id": "tinte-railly-dev",
+  "url": "https://tinte.railly.dev",
+  "kind": "site",
+  "hints_hash": "daffcdf9d0f187dd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tinte.railly.dev", "title": "Compile your design system into an Agent Plugin", "status": null},
+    {"url": "https://www.tinte.dev/design.md", "title": "Design a landing page like tinte", "status": 200},
+    {"url": "https://github.com/Railly/tinte", "title": "GitHub - Railly/tinte: Compile your design system into an Agent Plugin.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "tinte",
+  "summary": "CLI and web tool that extracts a design system from a live site and compiles it into an Agent Plugin plus editor and terminal themes.",
+  "description": "Reads computed styles from a page you already trust, normalizes them into thirteen semantic OKLCH tokens, and emits a SKILL.md + tokens.css Agent Plugin that coding agents install into .agents/skills/. The same config compiles themes for VS Code, Zed, kitty, Warp, Alacritty, Windows Terminal, Slack, GIMP and Shiki, and a linter fails the build on colors that bypass the tokens.",
+  "type": "tool",
+  "categories": ["design-tools", "design-rules"],
+  "elements": [],
+  "keywords": ["design system", "design token", "theme generator", "vs code theme", "terminal theme", "agent plugin", "skill.md", "design.md", "oklch", "shadcn", "cli", "linter", "color token", "claude code", "cursor", "zed", "free"],
+  "contains": ["extracts computed styles from a live page into 13 semantic OKLCH tokens", "emits SKILL.md + tokens.css as an installable Agent Plugin", "lints hex literals and framework palette classes, exits 1 on defects", "compiles themes for 9 targets: vscode, zed, kitty, warp, alacritty, windows-terminal, slack, gimp, shiki", "19+ format providers from one tinte.config.json", "every public theme installable as a shadcn registry:base item", "500+ syntax themes and PNG/SVG screenshot export via Ray (ray.tinte.dev)", "site serves its own /design.md, /tokens.css and plugin tree"],
+  "formats": ["cli", "npm-package", "registry", "api", "prompts", "docs"],
+  "stack": ["nextjs", "typescript", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Railly/tinte", "docs": null, "npm": "tinte", "figma": null, "parent": null},
+  "confidence": 0.9
+}

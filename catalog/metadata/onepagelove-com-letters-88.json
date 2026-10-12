@@ -1,0 +1,59 @@
+{
+  "id": "onepagelove-com-letters-88",
+  "url": "https://onepagelove.com/letters/88",
+  "kind": "page",
+  "hints_hash": "0c4cb3bdaae36bd6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:22Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://onepagelove.com/letters/88",
+      "title": "OG Image Inspiration, Geometry of Luck, theSVG",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "OG Image Inspiration, Geometry of Luck, theSVG",
+  "summary": "88th issue of One Page Love's Love Letter, with fresh one-pager picks, Framer templates and online finds.",
+  "description": "The 88th Love Letter from One Page Love: a newsletter issue that spotlights recently featured one-page websites (Cursor Compile, Landmark, Patina, Wickside, Aaavatar, Weppy, Sarah & Matt Wedding, Fourmula), free and paid Framer landing page templates, and a Digital Snacks list of resources, including the new 1,512+ Open Graph image archive and theSVG's 6,100+ icons. It also announces 110 newly curated page sections.",
+  "type": "article",
+  "elements": [],
+  "keywords": [
+    "newsletter",
+    "one page website",
+    "one pager",
+    "web design inspiration",
+    "open graph image",
+    "og image",
+    "landing page template",
+    "framer",
+    "icon set",
+    "design resource",
+    "page section"
+  ],
+  "contains": [
+    "88th issue of the Love Letter newsletter",
+    "one-pager picks: Cursor Compile, Landmark, Patina, Wickside, Aaavatar, Weppy, Sarah & Matt Wedding, Fourmula",
+    "1,512+ Open Graph images extracted into a new inspiration archive",
+    "Framer templates: Surfing (free) and Ceremony ($56)",
+    "110 new page sections curated",
+    "Digital Snacks: theSVG 6,100+ icons, MacBook Neo mockups, The Geometry of Luck keynote"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "onepagelove-com"
+  },
+  "confidence": 0.9
+}

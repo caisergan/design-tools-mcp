@@ -1,0 +1,27 @@
+{
+  "id": "vantaui-com-explore-components-sketch-button",
+  "url": "https://vantaui.com/explore/components/sketch-button",
+  "kind": "page",
+  "hints_hash": "bf2748548b02ae69",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vantaui.com/explore/components/sketch-button", "title": "Sketch Button | VantaUI", "status": null},
+    {"url": "https://vantaui.com/explore/components", "title": "Components | VantaUI", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Sketch Button",
+  "summary": "VantaUI button component that answers interaction with a burst of light tracing its borders.",
+  "description": "VantaUI component page for a button that reacts to interaction with a light burst tracing its border. VantaUI is a library of production-ready React components for Next.js; it lists 89 components and has its own docs section.",
+  "type": "component-library",
+  "elements": ["button"],
+  "keywords": ["button", "animated button", "hover animation", "click effect", "light effect", "glow effect", "react component", "nextjs", "component library", "ui component", "micro interaction", "motion"],
+  "contains": ["interaction-triggered light burst tracing the button border", "component of the VantaUI React component library", "VantaUI lists 89 components for Next.js"],
+  "formats": ["code", "links"],
+  "stack": ["react", "nextjs"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://vantaui.com/explore/docs", "npm": null, "figma": null, "parent": "vantaui-com"},
+  "confidence": 0.5
+}

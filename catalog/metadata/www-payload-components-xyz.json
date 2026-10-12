@@ -1,0 +1,164 @@
+{
+  "id": "www-payload-components-xyz",
+  "url": "https://www.payload-components.xyz",
+  "kind": "site",
+  "hints_hash": "0666fdd65cf2263b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:05:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.payload-components.xyz/llms.txt",
+      "title": "Payload Components",
+      "status": null
+    },
+    {
+      "url": "https://www.payload-components.xyz",
+      "title": "Payload Components: Wired Payload CMS Blocks in One Command",
+      "status": 200
+    },
+    {
+      "url": "https://www.payload-components.xyz/docs",
+      "title": "CLI setup and architecture | Payload Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.payload-components.xyz/templates",
+      "title": "Payload CMS Templates for Next.js | Concepts & Recipes | Payload Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.payload-components.xyz/about",
+      "title": "About | Payload Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.payload-components.xyz/components",
+      "title": "83 Payload CMS Components & Blocks | Catalog | Payload Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.payload-components.xyz/docs/installation",
+      "title": "Install Payload CMS blocks with the CLI | Payload Components",
+      "status": 200
+    },
+    {
+      "url": "https://www.payload-components.xyz/r/registry.json",
+      "title": "payload-components registry.json",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Payload Components",
+  "summary": "MIT registry and CLI that installs typed Payload CMS blocks, fully wired into Payload v3 + Next.js projects.",
+  "description": "An open-source registry and CLI for Payload CMS v3 + Next.js. Running npx payload-components add <block> copies a block's source and does the wiring a hand-paste leaves you to finish: Pages collection registration, renderer mapping, regenerated types and the admin import map, landing as one reviewable git diff. 83 installable blocks plus 15 full-site template concepts.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "testimonials",
+    "faq",
+    "logo-cloud",
+    "stats",
+    "cta",
+    "pricing",
+    "list",
+    "form",
+    "team",
+    "footer"
+  ],
+  "variants": {
+    "hero": [
+      "split",
+      "video",
+      "centered"
+    ],
+    "features": [
+      "grid",
+      "cards",
+      "bento",
+      "steps",
+      "accordion"
+    ],
+    "pricing": [
+      "cards",
+      "enterprise"
+    ],
+    "cta": [
+      "centered",
+      "split"
+    ],
+    "testimonials": [
+      "grid"
+    ],
+    "faq": [
+      "accordion"
+    ]
+  },
+  "keywords": [
+    "payload cms",
+    "payload block",
+    "cms block",
+    "headless cms",
+    "next.js",
+    "shadcn registry",
+    "registry",
+    "cli",
+    "website block",
+    "hero block",
+    "feature grid",
+    "pricing block",
+    "faq block",
+    "testimonials",
+    "logo cloud",
+    "stats",
+    "footer",
+    "typescript",
+    "tailwind",
+    "content management",
+    "template"
+  ],
+  "contains": [
+    "83 installable Payload CMS blocks (components v1.7.0)",
+    "command: npx payload-components add <block>",
+    "wires collection registration, render map, generated types and admin import map",
+    "15 full-site template concepts across verticals",
+    "read-only MCP server for coding agents",
+    "docs pages mirrored as markdown via .md URL suffix"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "npm-package",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "payload",
+    "shadcn",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://www.payload-components.xyz/docs",
+    "npm": "payload-components",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

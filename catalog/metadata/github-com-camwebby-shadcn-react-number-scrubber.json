@@ -1,0 +1,34 @@
+{
+  "id": "github-com-camwebby-shadcn-react-number-scrubber",
+  "url": "https://github.com/camwebby/shadcn-react-number-scrubber",
+  "kind": "repo",
+  "hints_hash": "9baa74aca70d9663",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:46Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/camwebby/shadcn-react-number-scrubber/blob/HEAD/README.md", "title": "Shadcn Number Scrubber Component", "status": 200},
+    {"url": "https://raw.githubusercontent.com/camwebby/shadcn-react-number-scrubber/HEAD/package.json", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Number Scrubber",
+  "summary": "Draggable numeric input for React that adjusts its value by dragging horizontally, styled for shadcn/ui.",
+  "description": "A numeric input component for React built with shadcn/ui, inspired by the scrubbable number fields of desktop video editors like DaVinci Resolve. Dragging horizontally changes the value with configurable sensitivity, min/max bounds and step sizes; it is fully typed with TypeScript and follows shadcn/ui styling conventions. Installs with the shadcn CLI and requires the shadcn Input component.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input"],
+  "keywords": ["number input", "scrubber", "draggable input", "numeric field", "shadcn", "react", "typescript", "tailwind", "cursor", "form input"],
+  "contains": [
+    "draggable numeric input, inspired by video editing software",
+    "horizontal drag with configurable sensitivity",
+    "min/max bounds and customizable step sizes",
+    "shadcn CLI install; requires TypeScript and the shadcn Input component",
+    "demo: shadcn-react-number-scrubber.vercel.app"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react", "tailwind", "shadcn", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/camwebby/shadcn-react-number-scrubber", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

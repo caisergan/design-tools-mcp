@@ -1,0 +1,36 @@
+{
+  "id": "undraw-co-illustrations",
+  "url": "https://undraw.co/illustrations",
+  "kind": "page",
+  "hints_hash": "358bb8375b843430",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:32:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://undraw.co/illustrations", "title": "Illustrations | unDraw", "status": null},
+    {"url": "https://undraw.co/license", "title": "License | unDraw", "status": 200},
+    {"url": "https://undraw.co/illustrations/2", "title": "Illustrations - Page 2 | unDraw", "status": 200},
+    {"url": "https://undraw.co/search", "title": "Search Illustrations | unDraw", "status": 200}
+  ],
+  "status": "ok",
+  "name": "unDraw Illustrations",
+  "summary": "Gallery of open-source SVG illustrations for websites and apps, recolorable on the fly to match a brand.",
+  "description": "The complete unDraw illustration collection, browsable across 45 pages or by keyword search; click an illustration to download it, with on-the-fly color generation to match a brand identity. Free for commercial and personal use without attribution, while a paid unDraw Plus tier for supporters adds a new style.",
+  "type": "asset-library",
+  "elements": [],
+  "keywords": ["open source illustration", "svg illustration", "free illustration", "vector illustration", "customizable color", "website illustration", "landing page illustration", "flat illustration", "illustration gallery", "download svg"],
+  "contains": [
+    "thousands of customizable SVG illustrations",
+    "45 pages, browsable or searchable by keyword",
+    "on-the-fly color generation to match brand identity",
+    "free for commercial and personal use, no attribution required",
+    "license prohibits redistribution in packs and use for AI/ML training",
+    "unDraw Plus supporter tier adds a new style"
+  ],
+  "formats": ["svg"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "undraw-co"},
+  "confidence": 0.85
+}

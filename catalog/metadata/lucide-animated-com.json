@@ -1,0 +1,37 @@
+{
+  "id": "lucide-animated-com",
+  "url": "https://lucide-animated.com",
+  "kind": "site",
+  "hints_hash": "26efc74d4903cda7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lucide-animated.com/llms.txt", "title": "lucide-animated", "status": null},
+    {"url": "https://lucide-animated.com", "title": "lucide-animated | Free Animated React Icons Library", "status": 200},
+    {"url": "https://lucide-animated.com/sponsorship.md", "title": "Sponsor lucide-animated", "status": 200}
+  ],
+  "status": "ok",
+  "name": "lucide-animated",
+  "summary": "Open-source set of 467+ animated Lucide icons for React, powered by Motion and installable with the shadcn CLI.",
+  "description": "A free icon library that rebuilds Lucide icons as animated React components: every icon animates on hover, forwards standard SVG props and gets a page with copy-ready install commands, keywords and similar icons. Icons install one at a time with the shadcn CLI (@lucide-animated/<name>); MIT licensed, with Svelte, Vue, Angular and Flutter ports, an agent skill, llms.txt documentation and an MCP server at /mcp.",
+  "type": "icon-set",
+  "categories": ["icons", "motion"],
+  "elements": [],
+  "keywords": ["animated icon", "icon set", "react", "lucide", "svg icon", "motion", "shadcn", "copy paste", "micro animation", "free icon library", "mit", "hover animation", "animated svg", "icon component"],
+  "contains": [
+    "467+ animated icons",
+    "based on Lucide, built with Motion",
+    "install with the shadcn CLI: pnpm dlx shadcn add @lucide-animated/<icon>",
+    "MIT licensed, free for personal and commercial use",
+    "Svelte, Vue, Angular and Flutter community ports",
+    "MCP server with searchicons, listicons and geticon tools",
+    "per-icon markdown, llms-full.txt and an agent skill"
+  ],
+  "formats": ["registry", "cli", "code", "svg", "docs"],
+  "stack": ["react", "framer-motion"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/pqoqubbw/icons", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

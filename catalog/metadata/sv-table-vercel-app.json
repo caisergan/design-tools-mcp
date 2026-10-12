@@ -1,0 +1,40 @@
+{
+  "id": "sv-table-vercel-app",
+  "url": "https://sv-table.vercel.app",
+  "kind": "site",
+  "hints_hash": "ff02a0eb16cc3802",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sv-table.vercel.app", "title": "Svelte Datatables Examples | Svelte Datatables Examples", "status": 200},
+    {"url": "https://sv-table.vercel.app/docs/introduction", "title": "Introduction | Svelte Datatables Examples", "status": 200},
+    {"url": "https://sv-table.vercel.app/blocks", "title": "Svelte Data Table Blocks | Svelte Datatables Examples", "status": 200},
+    {"url": "https://sv-table.vercel.app/components/filters", "title": "Data Table Filters | Svelte Datatables Examples", "status": 200},
+    {"url": "https://github.com/SikandarJODD/sv-table", "title": "GitHub - SikandarJODD/sv-table: Include Svelte Data table components & examples, Inspired from Bazza UI & COSS UI · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Svelte Datatables Examples",
+  "summary": "Svelte 5 data table components and example blocks built on TanStack Table v9: filtering, selection, pagination, column tools.",
+  "description": "Reusable data table components and complete table blocks for Svelte 5 and SvelteKit, powered by TanStack Table v9. Covers row and header selection, bulk actions, faceted, date-range and number-range filters, debounced input, pagination, column visibility, resizing, dragging and pinning, expandable sub-rows, CSV export, loading skeletons and empty states. Inspired by Bazza UI and COSS UI; components install from the shadcn-svelte registry.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["table", "checkbox", "pagination", "dropdown", "empty-state", "loader", "input", "date-picker", "slider"],
+  "keywords": ["data table", "datatable", "table filter", "tanstack table", "svelte", "svelte 5", "pagination", "row selection", "faceted filter", "date range", "csv export", "column visibility", "resizable column", "empty state", "loading skeleton", "shadcn", "registry"],
+  "contains": [
+    "16 components and 11 blocks per site docs (17 registry items measured)",
+    "built on TanStack Table v9 for Svelte 5 / SvelteKit",
+    "selection: row checkbox, header checkbox, bulk actions bar",
+    "filtering: data table filters, faceted filter, date-range and number-range filters, debounced input",
+    "column controls: visibility, resizing, dragging, pinning, expandable sub-rows",
+    "states: loading skeletons and empty results; CSV export",
+    "blocks gallery: basic, row selection, filtered, paginated and complex tables",
+    "MIT licensed"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["svelte", "sveltekit", "tanstack-table"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/SikandarJODD/sv-table", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

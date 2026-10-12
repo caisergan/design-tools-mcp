@@ -1,0 +1,142 @@
+{
+  "id": "shadcnadmin-com",
+  "url": "https://shadcnadmin.com",
+  "kind": "site",
+  "hints_hash": "3491520ad7b0f4b0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcnadmin.com",
+      "title": "The Ultimate Shadcn UI Admin Dashboard Template",
+      "status": null
+    },
+    {
+      "url": "https://shadcnadmin.com/blocks",
+      "title": "Dashboard Blocks - Shadcn Admin",
+      "status": null
+    },
+    {
+      "url": "https://shadcnadmin.com/pricing",
+      "title": "Pricing - Shadcn Admin",
+      "status": null
+    },
+    {
+      "url": "https://shadcnadmin.com/components",
+      "title": "Shadcn Admin Components",
+      "status": null
+    },
+    {
+      "url": "https://shadcnadmin.com/blocks/crm",
+      "title": "CRM Blocks - Shadcn Admin",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Admin",
+  "summary": "Admin dashboard templates with 529+ shadcn/ui components and blocks for Next.js, React, Vue.js and Svelte.",
+  "description": "Production-ready admin panel templates and UI components: ecommerce, CRM, analytics, real estate, project management and AI chatbot dashboards, each with its own design. Includes 529+ shadcn/ui components and dashboard blocks (stat cards, tables, dialogs) with copy-paste or shadcn CLI install, compatible with Radix UI and Base UI primitives, in React, Next.js, Vue.js and Svelte versions.",
+  "type": "template",
+  "categories": [
+    "templates",
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "checkbox",
+    "command-palette",
+    "dashboard",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "form",
+    "input",
+    "loader",
+    "menubar",
+    "modal",
+    "navbar",
+    "otp-input",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "stats",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "shadcn ui",
+    "admin dashboard",
+    "dashboard template",
+    "admin panel",
+    "nextjs",
+    "react",
+    "vue",
+    "svelte",
+    "tailwind css",
+    "typescript",
+    "component",
+    "block",
+    "crm",
+    "ecommerce",
+    "analytics",
+    "chart",
+    "data table",
+    "dark mode",
+    "project management",
+    "ai chatbot"
+  ],
+  "contains": [
+    "529+ shadcn/ui components with live previews",
+    "dashboard blocks: stat cards, tables, dialogs",
+    "dashboards: ecommerce, CRM, analytics, real estate, project management, AI chatbot",
+    "React, Next.js, Vue.js and Svelte versions",
+    "compatible with Radix UI and Base UI primitives",
+    "free blocks plus one-time pricing: $199 Starter, $299 Team",
+    "copy-paste or shadcn CLI install",
+    "lifetime updates and GitHub repository access"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "registry",
+    "templates"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "vue",
+    "svelte",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

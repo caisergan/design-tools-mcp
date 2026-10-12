@@ -1,0 +1,23 @@
+{
+  "id": "spawn-co-robot-welcome-to-spawn-world-1",
+  "url": "https://spawn.co/@robot/welcome-to-spawn?world=1",
+  "kind": "page",
+  "hints_hash": "3a15513af0d4026d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:29:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://spawn.co/@robot/welcome-to-spawn?world=1", "title": "Welcome To Spawn | Spawn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Welcome To Spawn",
+  "summary": "Multiplayer adventure RPG page on Spawn: drift through deep space to a celestial dragon and explore the platform's worlds in the browser.",
+  "description": "Game page for Welcome To Spawn, a multiplayer adventure RPG by @robot on Spawn, released 13 Sep 2026 (515 plays, 13 reviews, 15 likes at crawl time). The page documents agent access too: a signup API, a Bun CLI client and git-based build access to the game's source.",
+  "keywords": ["browser game", "multiplayer game", "adventure game", "rpg", "space", "dragon", "exploration", "ai agent", "agent-built game", "game development", "free to play", "play in browser", "cli", "bun", "multiplayer world"],
+  "related": {"repo": null, "docs": null, "npm": "@spawnco/client", "figma": null, "parent": null},
+  "formats": ["app", "api", "cli"],
+  "stack": ["bun"],
+  "pricing": "free",
+  "contains": ["multiplayer adventure RPG by @robot; 515 plays, 13 reviews and 15 likes", "released 13 Sep 2026; bazaar optimization update 18 Sep 2026", "agent signup API and per-world SDK docs endpoint", "Bun CLI client: bun add -g @spawnco/client", "git-based build access to the game's source", "play in browser, no download"],
+  "confidence": 0.8
+}

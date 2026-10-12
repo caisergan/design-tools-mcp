@@ -1,0 +1,37 @@
+{
+  "id": "github-com-coreyhaines31-marketingskills",
+  "url": "https://github.com/coreyhaines31/marketingskills",
+  "kind": "repo",
+  "hints_hash": "362b1ba196afbe49",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/coreyhaines31/marketingskills/blob/HEAD/README.md", "title": "Marketing Skills for AI Agents", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Marketing Skills for AI Agents",
+  "summary": "Fifty AI agent skills for marketing: CRO, copywriting, SEO, ads, analytics and email.",
+  "description": "Markdown skills that teach Claude Code, Codex, Cursor and other agents how to run marketing workflows: 50 skills covering CRO, copywriting, SEO, ads, email, analytics, PR and more, built around a shared product-marketing context file. Installs through the npx skills CLI, Claude Code or Codex plugins, git submodule or ZIP releases. MIT licensed.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "ai agent skill", "marketing skill", "cro", "copywriting", "seo", "analytics",
+    "ab testing", "cold email", "advertising", "growth", "prompt", "agent skills spec",
+    "landing page copy", "coding agent"
+  ],
+  "contains": [
+    "50 skills including cro, copywriting, seo-audit, ads, email, analytics and pr",
+    "product-marketing skill as shared context for the others",
+    "installs: npx skills CLI, Claude Code plugin, Codex plugin, git submodule, ZIP",
+    "MIT licensed",
+    "works with Claude Code, Codex, Cursor, Windsurf and the Agent Skills spec"
+  ],
+  "formats": ["prompts", "cli", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/coreyhaines31/marketingskills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

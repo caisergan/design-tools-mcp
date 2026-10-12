@@ -1,0 +1,31 @@
+{
+  "id": "github-com-imskyleen-animate-ui",
+  "url": "https://github.com/imskyleen/animate-ui",
+  "kind": "repo",
+  "hints_hash": "7dcc39f4fb3c32f1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:41Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/imskyleen/animate-ui/HEAD/README.md", "title": "Animate UI", "status": 200},
+    {"url": "https://animate-ui.com/", "title": "Animate UI - Animated React Components", "status": 200},
+    {"url": "https://animate-ui.com/docs", "title": "Introduction - Animate UI", "status": 200},
+    {"url": "https://animate-ui.com/docs/components", "title": "Components - Animate UI", "status": 200},
+    {"url": "https://animate-ui.com/docs/installation", "title": "Installation - Animate UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Animate UI",
+  "summary": "Animated React component distribution built with Tailwind CSS and Motion, installed through the shadcn CLI.",
+  "description": "Not an npm library but an open distribution: animated primitives, components and icons you copy into your codebase. It covers dialogs, dropdowns, sidebars, tabs, tooltips, buttons, animated backgrounds and more, ports primitives from Radix UI, Base UI and Headless UI, and ships animated Lucide icons.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["accordion", "avatar", "background", "button", "card", "carousel", "checkbox", "cursor", "drawer", "dropdown", "modal", "popover", "progress", "sidebar", "switch", "tabs", "tooltip"],
+  "keywords": ["react", "animated component", "animation", "shadcn", "tailwind", "framer motion", "component distribution", "animated icon", "background effect", "cursor", "accordion", "dialog", "sidebar", "tooltip", "copy paste component", "typescript", "radix ui", "base ui", "headless ui"],
+  "contains": ["animated primitives, components and icons for React", "components: accordion, dialog, dropdown menu, popover, sidebar, switch, tabs, tooltip and more", "8 animated buttons (liquid, ripple, flip, copy, GitHub stars and more)", "7 animated backgrounds (gradient, fireworks, stars, hexagon, bubble, hole, gravity)", "primitives ported from Radix UI, Base UI and Headless UI", "installed with the shadcn init/add commands; code copied into your project"],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "typescript", "tailwind", "framer-motion", "shadcn"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/imskyleen/animate-ui", "docs": "https://animate-ui.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,89 @@
+{
+  "id": "github-com-m4nute-pricing-page-shadcn",
+  "url": "https://github.com/m4nute/pricing-page-shadcn",
+  "kind": "repo",
+  "hints_hash": "d376cdce5e33d90a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/m4nute/pricing-page-shadcn/blob/HEAD/README.md",
+      "title": "Pricing Page made with Shadcn UI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/m4nute/pricing-page-shadcn",
+      "title": "GitHub - m4nute/pricing-page-shadcn: Pricing Page template made with Shadcn UI & Next.js 14. Completely customizable · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://pricing-page-shadcn.vercel.app",
+      "title": "Pricing Page",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Pricing Page made with Shadcn UI",
+  "summary": "Customizable shadcn/ui pricing page section for Next.js 14 with three plans, a monthly/yearly toggle and dark mode.",
+  "description": "A pricing page section built from shadcn/ui components (card, tabs, dropdown-menu, button) for Next.js 14 projects. It shows three plan cards (Basic, Pro, Enterprise) with monthly and yearly pricing, automatically calculated yearly savings, optional Popular and Exclusive plan tags, and light, dark and system themes through next-themes.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "components"
+  ],
+  "elements": [
+    "pricing",
+    "card"
+  ],
+  "variants": {
+    "pricing": [
+      "billing-toggle"
+    ]
+  },
+  "keywords": [
+    "pricing page",
+    "pricing table",
+    "shadcn",
+    "nextjs",
+    "react",
+    "tailwind",
+    "dark mode",
+    "monthly yearly",
+    "saas pricing",
+    "plan card",
+    "pricing section",
+    "template"
+  ],
+  "contains": [
+    "three plans: Basic, Pro and Enterprise with Popular and Exclusive tags",
+    "monthly and yearly pricing with savings calculated and highlighted",
+    "dark, light and system themes via next-themes",
+    "built from shadcn/ui card, tabs, dropdown-menu and button",
+    "Next.js 14 app with a live demo on Vercel",
+    "241 GitHub stars"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "shadcn"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/m4nute/pricing-page-shadcn",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

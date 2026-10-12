@@ -1,0 +1,20 @@
+{
+  "id": "vantaui-registry-vercel-app-blocks-perspective-gallery",
+  "url": "https://vantaui-registry.vercel.app/blocks/perspective-gallery",
+  "kind": "page",
+  "hints_hash": "aa65b894b5b0af91",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vantaui-registry.vercel.app/blocks/perspective-gallery", "title": "Vanta UI", "status": null},
+    {"url": "https://vantaui-registry.vercel.app/blocks/expandable-faq", "title": "Vanta UI", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Perspective gallery (Vanta UI)",
+  "summary": "Block preview page in Vanta UI, a shadcn-style component registry of 100 items for startups, SaaS and business sites.",
+  "description": "Preview page for the Perspective gallery block in the Vanta UI component registry. Vanta UI describes itself as a modern component registry for startups, SaaS and businesses that want to build websites quickly; the page sits with visual experiments such as a Nothing Phone (1) launch page, an icon set and a 3D cubes study. The page is JavaScript-rendered, so only part of its text is readable.",
+  "keywords": ["component registry", "shadcn block", "perspective gallery", "3d gallery", "preview block", "landing page block", "visual experiment", "ui block", "startup website"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

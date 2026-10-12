@@ -1,0 +1,31 @@
+{
+  "id": "brandlogo-co",
+  "url": "https://brandlogo.co",
+  "kind": "site",
+  "hints_hash": "44a2e47234af15fe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://brandlogo.co", "title": "Brand logo design inspiration - Brandlogo", "status": null},
+    {"url": "https://brandlogo.co/categories/misc", "title": "Logos in misc - brandlogo", "status": null},
+    {"url": "https://brandlogo.co/categories/tech", "title": "Logos in tech - brandlogo", "status": null},
+    {"url": "https://brandlogo.co/categories/retail", "title": "Logos in retail - brandlogo", "status": null},
+    {"url": "https://brandlogo.co/categories/agencies", "title": "Logos in agencies - brandlogo", "status": null}
+  ],
+  "status": "ok",
+  "name": "Brandlogo",
+  "summary": "Curated gallery of brand logos to browse by category, typographic style, tag, color and designer.",
+  "description": "Logos from real brands and studios — Stripe, Vimeo, Peloton, Pentagram, Focus Lab and hundreds more — organised by category (agencies, misc, retail, tech), typographic style (serif, script, condensed, slab-serif …), tags such as arrow, letter or negative space, color and designer. Each logo opens its own page, and brands or studios can submit work to be featured.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["logo inspiration", "brand logo", "logo design", "logo gallery", "logotype", "wordmark", "typography style", "logo color", "negative space logo", "logo designer", "brand identity", "logo tag"],
+  "contains": ["hundreds of logos with individual detail pages", "filters: category, typographic style, tag, color, designer", "tag index incl. letter, shape and industry tags", "submit form to get a logo featured"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

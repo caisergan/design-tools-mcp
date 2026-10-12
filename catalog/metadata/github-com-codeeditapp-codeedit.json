@@ -1,0 +1,35 @@
+{
+  "id": "github-com-codeeditapp-codeedit",
+  "url": "https://github.com/CodeEditApp/CodeEdit",
+  "kind": "repo",
+  "hints_hash": "03d0146f2f65dea0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/CodeEditApp/CodeEdit/blob/HEAD/README.md", "title": "CodeEdit for macOS", "status": 200},
+    {"url": "https://github.com/CodeEditApp/CodeEdit", "title": "GitHub - CodeEditApp/CodeEdit: 📝 CodeEdit App for macOS – Elevate your code editing experience. Open source, free forever. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CodeEdit",
+  "summary": "Community-built native macOS code editor in Swift with syntax highlighting, completion, terminal, debugging, git and extensions.",
+  "description": "An open-source, community-led code editor written natively for macOS instead of Electron, aiming for an Xcode-grade feature set for projects outside Apple platforms: syntax highlighting, code completion, project find and replace, snippets, terminal, task running, debugging, git integration, code review and extensions. Still in development and not yet recommended for production; MIT licensed and free forever.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["code editor", "macos app", "swift", "swiftui", "open source editor", "ide", "syntax highlighting", "code completion", "git integration", "debugger", "terminal", "code review", "editor extension", "developer tool"],
+  "contains": [
+    "native macOS editor in Swift/SwiftUI, no Electron",
+    "features: syntax highlighting, completion, find and replace, terminal, debugging, git integration, extensions",
+    "pre-release: not yet recommended for production use",
+    "MIT licensed; open source and free forever, built by the community",
+    "23.1k stars, 1.2k forks, 2,186 commits",
+    "related repositories: CodeEditKit, CodeEditTextView, CodeEditSourceEditor, CodeEditLanguages, CodeEditCLI"
+  ],
+  "formats": ["app", "code"],
+  "stack": ["swift", "swiftui", "appkit"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/CodeEditApp/CodeEdit", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

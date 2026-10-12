@@ -1,0 +1,33 @@
+{
+  "id": "github-com-anil-matcha-awesome-generative-ai-apps",
+  "url": "https://github.com/Anil-matcha/awesome-generative-ai-apps",
+  "kind": "repo",
+  "hints_hash": "678ef58f80820fca",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:31:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Anil-matcha/awesome-generative-ai-apps/blob/HEAD/README.md", "title": "💸 Awesome Generative AI Apps", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Generative AI Apps",
+  "summary": "Curated list of 50+ open-source generative AI apps you can clone, deploy and monetize.",
+  "description": "A directory of 50+ open-source generative AI SaaS templates — image and video generation, virtual try-ons, product photography, portraits, writing and chatbots — each wired with Stripe billing, Google OAuth and one-click Vercel deploy, grouped by use case with the paid tools they replace.",
+  "type": "directory",
+  "categories": ["templates"],
+  "elements": [],
+  "keywords": ["ai app", "ai saas", "template", "starter", "open source", "clone", "monetize", "image generator", "video generator", "virtual try-on", "headshot", "stripe billing", "one-click deploy", "vercel", "boilerplate", "awesome list", "saas template"],
+  "contains": [
+    "50+ AI apps in 10 sections: platforms, image, video, fashion, e-commerce, real estate, portrait, writing, agents, audio",
+    "each template: Stripe billing, Google OAuth, one-click Vercel deploy",
+    "credit billing model with a worked ~95% margin example",
+    "MIT licensed: clone, white-label and sell, no revenue share",
+    "every entry names the paid tool it competes with and its star count"
+  ],
+  "formats": ["links", "templates", "docs"],
+  "stack": ["stripe", "prisma", "postgres"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Anil-matcha/awesome-generative-ai-apps", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

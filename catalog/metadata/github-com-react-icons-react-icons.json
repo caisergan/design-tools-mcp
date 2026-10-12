@@ -1,0 +1,34 @@
+{
+  "id": "github-com-react-icons-react-icons",
+  "url": "https://github.com/react-icons/react-icons",
+  "kind": "repo",
+  "hints_hash": "29603d0930e9a5fd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/react-icons/react-icons/blob/HEAD/README.md", "title": "React Icons", "status": null}
+  ],
+  "status": "ok",
+  "name": "React Icons",
+  "summary": "React SVG icon components for 30+ popular icon packs, imported per icon so only the icons used are bundled.",
+  "description": "react-icons packages the icons of more than 30 icon sets as React SVG components, each pack under its own import path (react-icons/md, react-icons/fa6, react-icons/tb …). Install from npm; TypeScript support is native and ES6 imports keep the bundle small. Icons can be configured through props and the React Context API.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["react icon", "svg icon", "icon component", "icon pack", "icon library", "icon set", "tree shaking", "es6 import", "npm package", "typescript", "react component", "vector icon"],
+  "contains": [
+    "icons from 30+ icon packs, each with its own import path, e.g. import { ICONNAME } from 'react-icons/md'",
+    "per-pack counts in the README, e.g. Phosphor 9,072, Tabler 5,237, Material Design 4,341, Bootstrap 2,716",
+    "TypeScript native support; ES6 imports include only the icons a project uses",
+    "configuration via props or the React Context API; migration guide from v2 to v3",
+    "MIT licensed",
+    "preview site built with Astro + React"
+  ],
+  "formats": ["npm-package", "code", "svg"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/react-icons/react-icons", "docs": "https://react-icons.github.io/react-icons", "npm": "react-icons", "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,28 @@
+{
+  "id": "siteinspire-com",
+  "url": "https://siteinspire.com",
+  "kind": "site",
+  "hints_hash": "01f57f735bc3b31c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://siteinspire.com/llms.txt", "title": "Siteinspire", "status": null},
+    {"url": "https://www.siteinspire.com/llms-full.txt", "title": "Siteinspire — Full API Reference", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Siteinspire",
+  "summary": "Web design inspiration gallery with over 10,000 hand-curated websites, organised by style, type and subject.",
+  "description": "Editorially curated showcase of published websites, running since 2008; each entry links to the live site and carries a three-context taxonomy (style, type, subject) plus the credited studio. Public REST, tRPC and MCP interfaces expose the collection to agents, and the gallery index may be reused for non-commercial research and AI training with attribution.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["web design inspiration", "website gallery", "design showcase", "portfolio inspiration", "web design reference", "agency website", "landing page", "minimal design", "dark mode", "typography", "curated website", "api", "mcp server"],
+  "contains": ["10,000+ hand-curated websites published since 2008", "taxonomy: style (minimal, typography, dark …), type (portfolio, agency, product …), subject", "screenshot per website with a link to the live site", "public REST API, tRPC queries and read-only MCP server for agents", "editorial review, updated regularly"],
+  "formats": ["screenshots", "links", "api"],
+  "stack": [],
+  "pricing": "free",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

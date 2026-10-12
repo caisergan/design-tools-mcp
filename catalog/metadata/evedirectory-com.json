@@ -1,0 +1,124 @@
+{
+  "id": "evedirectory-com",
+  "url": "https://evedirectory.com",
+  "kind": "site",
+  "hints_hash": "1d1ce249144f17ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://evedirectory.com/llms.txt",
+      "title": "Eve Directory",
+      "status": null
+    },
+    {
+      "url": "https://evedirectory.com",
+      "title": "The open registry for Eve agents",
+      "status": 200
+    },
+    {
+      "url": "https://www.evedirectory.com/docs",
+      "title": "Guides · Eve Directory",
+      "status": 200
+    },
+    {
+      "url": "https://www.evedirectory.com/docs/what-is-eve",
+      "title": "What is Eve? · Eve Directory",
+      "status": 200
+    },
+    {
+      "url": "https://www.evedirectory.com/docs/install-with-shadcn",
+      "title": "Install with shadcn CLI · Eve Directory",
+      "status": 200
+    },
+    {
+      "url": "https://www.evedirectory.com/docs/registry-and-llms",
+      "title": "Registry & machine access · Eve Directory",
+      "status": 200
+    },
+    {
+      "url": "https://www.evedirectory.com/docs/contributing",
+      "title": "Contribute · Eve Directory",
+      "status": 200
+    },
+    {
+      "url": "https://evedirectory.com/docs/composer",
+      "title": "Composer · Eve Directory",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nolly-studio/eve-directory/HEAD/README.md",
+      "title": "Eve Directory",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nolly-studio/eve-directory/HEAD/LICENSE",
+      "title": "Eve Directory LICENSE",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Eve Directory",
+  "summary": "Open shadcn-format registry of Eve agents and extensions: inspect every file without a login, install by CLI or compose a starter.",
+  "description": "An open registry of Eve agents and extensions for the filesystem-first Eve TypeScript framework. Listings are complete agent apps — package.json, agent/ (instructions, tools, connections, schedules) and evals/ — browsable file by file without a login. Install one by slug with the shadcn CLI into an existing Eve project, or pick several listings in the browser Composer and export a starter zip with secrets review. Docs cover what Eve is, installing, composing vs cloning and contributing.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "prompt-input"
+  ],
+  "keywords": [
+    "shadcn registry",
+    "ai agent",
+    "agent registry",
+    "registry item",
+    "install via cli",
+    "agent template",
+    "agent starter",
+    "typescript",
+    "eval",
+    "agent instruction",
+    "agent tool",
+    "composer",
+    "machine readable",
+    "llms.txt",
+    "open registry"
+  ],
+  "contains": [
+    "25-item shadcn registry of Eve agents and extensions",
+    "inspect every file without a login; no account required",
+    "install by slug with the shadcn CLI into an existing Eve project",
+    "the CLI writes package.json, agent/ (instructions, tools, connections, schedules) and evals/",
+    "Composer builds a multi-listing starter zip from catalog picks, with secrets review",
+    "agents: PR Review Sentinel, Browser QA Runner, API Contract Guardian, Churn Risk Sentinel and more",
+    "integrations: Slack, GitHub, Linear, Notion, WhatsApp, Discord",
+    "MIT-licensed repo (nolly-studio/eve-directory); agent indexes at /llms.txt and /agents.md"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "cli",
+    "docs",
+    "api"
+  ],
+  "stack": [
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/nolly-studio/eve-directory",
+    "docs": "https://www.evedirectory.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

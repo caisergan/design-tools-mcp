@@ -1,0 +1,28 @@
+{
+  "id": "opentui-com",
+  "url": "https://opentui.com",
+  "kind": "site",
+  "hints_hash": "4c561505bcbc86a1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:25:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://opentui.com", "title": "OpenTUI", "status": null},
+    {"url": "https://opentui.com/docs", "title": "Getting started | OpenTUI Docs", "status": null}
+  ],
+  "status": "ok",
+  "name": "OpenTUI",
+  "summary": "Library for building terminal user interfaces in TypeScript, React or Solid on a native Zig renderer.",
+  "description": "A terminal UI toolkit: a native Zig core with TypeScript bindings renders a component tree, lays it out with Flexbox (Yoga) and updates only the terminal cells that changed while handling keyboard input. Use @opentui/core imperatively, or @opentui/react and @opentui/solid; components include text, box, input, textarea, select, tab select, slider, scroll box, code and markdown. Ships an example browser and a skill that teaches AI agents the APIs.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input", "select", "slider"],
+  "keywords": ["terminal ui", "tui", "cli", "typescript", "react", "solid", "zig", "terminal component", "text input", "select", "slider", "flexbox layout", "keyboard input", "markdown", "diff view", "agent skill"],
+  "contains": ["packages: @opentui/core, @opentui/react, @opentui/solid", "components: input, textarea, select, tab select, slider, scroll box, code, markdown, diff", "native Zig renderer with TypeScript bindings; Flexbox (Yoga) layout", "renders only changed terminal cells; handles keyboard input, colors, focus", "example browser with release executables for macOS, Linux and Windows", "ships a skill so AI coding agents learn its APIs", "powers OpenCode in production"],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "solid"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://opentui.com/docs", "npm": "@opentui/core", "figma": null, "parent": null},
+  "confidence": 0.85
+}

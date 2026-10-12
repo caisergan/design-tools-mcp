@@ -1,0 +1,33 @@
+{
+  "id": "github-com-amaancoderx-npxskillui",
+  "url": "https://github.com/amaancoderx/npxskillui",
+  "kind": "repo",
+  "hints_hash": "82fea11213c0a0c6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/amaancoderx/npxskillui/blob/HEAD/README.md", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "SkillUI",
+  "summary": "CLI that reverse-engineers a website, repo or codebase into a Claude-ready skill folder with colors, type, spacing and components.",
+  "description": "A local CLI (npx skillui) that crawls any URL, public git repo or local project and extracts its design system — color tokens, typography scale, spacing grid, fonts, animations, components and screenshots — into a folder Claude Code reads automatically (CLAUDE.md, SKILL.md, design tokens JSON, a .skill ZIP). Default mode is pure static analysis with no AI or API keys; ultra mode uses Playwright for scroll screenshots, hover/focus diffs, keyframe and layout detection.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "design-rules"],
+  "elements": [],
+  "keywords": ["cli", "design system", "design token", "claude code", "agent skill", "skill.md", "reverse engineer", "website crawler", "playwright", "color token", "typography scale", "spacing", "tailwind config", "css variable", "screenshot", "animation detection", "node", "npx", "ui generation", "static analysis"],
+  "contains": [
+    "modes: default (static analysis), ultra (Playwright capture), dir (local scan), repo (clone and scan)",
+    "output: CLAUDE.md, SKILL.md, .skill ZIP, color tokens (CSS vars + JSON), typography scale, spacing grid",
+    "ultra extras: 7 scroll journey screenshots, hover/focus diffs, keyframe and flex/grid extraction, DOM fingerprinting",
+    "npm package skillui v1.3.4 with 25 releases; homepage skillui.vercel.app",
+    "requires Node 18+; Playwright for ultra mode; MIT license"
+  ],
+  "formats": ["cli", "npm-package", "code", "prompts", "screenshots"],
+  "stack": ["node", "playwright"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/amaancoderx/npxskillui", "docs": null, "npm": "skillui", "figma": null, "parent": null},
+  "confidence": 0.9
+}

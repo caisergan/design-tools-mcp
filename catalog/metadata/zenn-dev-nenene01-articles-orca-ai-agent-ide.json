@@ -1,0 +1,20 @@
+{
+  "id": "zenn-dev-nenene01-articles-orca-ai-agent-ide",
+  "url": "https://zenn.dev/nenene01/articles/orca-ai-agent-ide",
+  "kind": "page",
+  "hints_hash": "45faa6621eaf2dce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://zenn.dev/nenene01/articles/orca-ai-agent-ide", "title": "AIエージェント統合IDE「Orca」を触って、開発の景色が変わった話", "status": null}
+  ],
+  "status": "ok",
+  "name": "AIエージェント統合IDE「Orca」を触って、開発の景色が変わった話",
+  "summary": "Hands-on review of Orca, an IDE for orchestrating CLI coding agents like Claude Code and Codex in worktrees, tabs and panes.",
+  "description": "Japanese blog article about trying Orca, an IDE for orchestrating AI coding agents. It covers the Homebrew Cask install, the worktree/tab/pane model, three ways panes talk to each other (lightweight terminal send, persistent orchestration messages with read tracking, blocking ask), treating GitHub Issues as tasks, and honest gripes such as session renames not propagating and mobile Japanese input.",
+  "type": "article",
+  "keywords": ["orca", "ai agent ide", "claude code", "codex", "worktree", "agent orchestration", "pane", "terminal", "tmux", "multi-agent", "development environment", "github issue", "macos", "review", "japanese"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

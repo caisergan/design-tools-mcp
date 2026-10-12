@@ -1,0 +1,35 @@
+{
+  "id": "github-com-wavetheoryphysics-citation-checker",
+  "url": "https://github.com/WaveTheoryPhysics/citation_checker",
+  "kind": "repo",
+  "hints_hash": "e2b2c1d7fed7ddbe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/WaveTheoryPhysics/citation_checker/blob/HEAD/README.md", "title": "Citation Checker", "status": null}
+  ],
+  "status": "ok",
+  "name": "Citation Checker",
+  "summary": "Python tool that verifies references in a paper exist and that author names and years match, using free academic APIs.",
+  "description": "Command-line Python script that parses .bib, .ris or .txt reference lists, searches Semantic Scholar, CrossRef and OpenAlex, and returns VERIFIED, SUSPICIOUS or NOTFOUND per reference. Built to audit AI-assisted writing, with an offline demo mode and JSON export.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["citation checker", "citation verification", "hallucinated citation", "reference checker", "bibtex", "ris", "semantic scholar", "crossref", "openalex", "doi", "academic writing", "research paper", "python script", "ai hallucination", "bibliography", "fact checking", "cli tool"],
+  "contains": [
+    "parses title, authors, year and DOI per reference",
+    "verdicts: VERIFIED, SUSPICIOUS, NOTFOUND",
+    "accepts .bib, .ris and .txt files with automatic format detection",
+    "queries Semantic Scholar, CrossRef and OpenAlex (free, no account needed)",
+    "offline demo mode (--mock) plus live demos that hit real APIs",
+    "saves full results as JSON",
+    "roughly 1-2% of real papers may show as NOTFOUND due to indexing gaps"
+  ],
+  "formats": ["code", "cli"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "CC-BY-NC-4.0",
+  "related": {"repo": "https://github.com/WaveTheoryPhysics/citation_checker", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

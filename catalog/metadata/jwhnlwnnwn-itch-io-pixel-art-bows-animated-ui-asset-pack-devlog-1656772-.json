@@ -1,0 +1,35 @@
+{
+  "id": "jwhnlwnnwn-itch-io-pixel-art-bows-animated-ui-asset-pack-devlog-1656772-",
+  "url": "https://jwhnlwnnwn.itch.io/pixel-art-bows-animated-ui-asset-pack/devlog/1656772/pixel-art-bows-animated-ui-asset-pack-released",
+  "kind": "page",
+  "hints_hash": "cf66c90df117a68f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jwhnlwnnwn.itch.io/pixel-art-bows-animated-ui-asset-pack/devlog/1656772/pixel-art-bows-animated-ui-asset-pack-released", "title": "PIXEL ART BOWS - Animated UI asset pack released!", "status": 200},
+    {"url": "https://jwhnlwnnwn.itch.io/pixel-art-bows-animated-ui-asset-pack", "title": "PIXEL ART BOWS - Animated UI asset pack by JwhnLwnnwn", "status": 200}
+  ],
+  "status": "ok",
+  "name": "PIXEL ART BOWS - Animated UI asset pack released!",
+  "summary": "Devlog announcing PIXEL ART BOWS, a $3 pixel art pack of 3 animated fantasy bows, arrows and impact effects for game UI.",
+  "description": "Release post (September 2026) for PIXEL ART BOWS, an itch.io asset pack with three fully animated pixel art bows at 48x48 px, each with idle, tension and firing animations, plus three arrows and three impact effects, delivered as sequentially numbered PNG frames. It sells for $3.00 USD or more with a free 11 kB demo; the license allows use in games, prototypes and videos including commercial ones, but not resale as a standalone pack.",
+  "type": "article",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["pixel art", "animated asset", "game ui", "asset pack", "fantasy bow", "sprite", "2d game asset", "user interface", "impact effect", "arrow", "frame animation", "game hud"],
+  "contains": [
+    "3 animated fantasy bows (idle, tension, firing), 48x48 px",
+    "3 arrows and 3 impact animations",
+    "individual frames as sequentially numbered PNGs",
+    "$3.00 USD minimum, free demo (11 kB)",
+    "commercial use allowed, no standalone resale",
+    "tags: 2D, Aseprite, fantasy, no AI, pixel art, user interface (UI)"
+  ],
+  "formats": ["png"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

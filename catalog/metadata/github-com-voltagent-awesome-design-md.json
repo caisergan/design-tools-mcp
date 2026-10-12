@@ -1,0 +1,33 @@
+{
+  "id": "github-com-voltagent-awesome-design-md",
+  "url": "https://github.com/VoltAgent/awesome-design-md",
+  "kind": "repo",
+  "hints_hash": "a0fdc8f42dbdbf60",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:22:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/VoltAgent/awesome-design-md/blob/HEAD/README.md", "title": "Awesome DESIGN.md", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome DESIGN.md",
+  "summary": "Collection of 73 DESIGN.md files analyzed from real brand design systems, ready to drop into a project for AI agents.",
+  "description": "A curated set of DESIGN.md documents, each a plain-text design system extracted from a real website (Linear, Stripe, Vercel, Figma, Apple, Ferrari, Nintendo 2001 …). Every file describes theme and atmosphere, color palette and roles, typography, component stylings, layout, depth, do's and don'ts, responsive behavior and agent prompts, plus preview.html catalogs.",
+  "type": "design-rules",
+  "categories": ["design-rules"],
+  "elements": ["button", "card", "input", "navbar"],
+  "keywords": ["design.md", "design system", "design token", "ai agent", "coding agent", "ui generation", "brand design system", "style guide", "color palette", "typography", "component styling", "markdown", "agent prompt", "frontend", "retro web", "vintage ui"],
+  "contains": [
+    "73 DESIGN.md files grouped in 10 categories",
+    "9 sections per file: theme, color roles, typography, component stylings, layout, dos and don'ts, agent prompts",
+    "each site also ships preview.html and preview-dark.html visual catalogs",
+    "copy a file into the project root and tell an AI agent to build matching UI",
+    "'Retro Web' files for Dell 1996 and Nintendo.com 2001"
+  ],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/VoltAgent/awesome-design-md", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

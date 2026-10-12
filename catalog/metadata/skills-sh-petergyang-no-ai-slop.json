@@ -1,0 +1,27 @@
+{
+  "id": "skills-sh-petergyang-no-ai-slop",
+  "url": "https://skills.sh/petergyang/no-ai-slop",
+  "kind": "page",
+  "hints_hash": "6291c18ca742c269",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:03Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/petergyang/no-ai-slop", "title": "petergyang/no-ai-slop — Agent skills", "status": null},
+    {"url": "https://skills.sh/petergyang/no-ai-slop/no-ai-slop", "title": "no-ai-slop — petergyang/no-ai-slop", "status": 200},
+    {"url": "https://github.com/petergyang/no-ai-slop", "title": "GitHub - petergyang/no-ai-slop: Removes 20+ patterns of AI slop from any piece of writing.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "No AI Slop",
+  "summary": "Agent skill that removes 20+ AI writing patterns from drafts while keeping the writer's voice, or flags them without rewriting.",
+  "description": "A SKILL.md package for coding agents with two modes: edit — make the minimum effective edit and return the draft with a \"What changed\" section; detect — name each slop pattern found, quote the line and give a short fix without scoring the draft or guessing whether AI wrote it. It catches binary contrasts, throat-clearing openers, faux-insight setups, colon reveals, dramatic fragments, importance puffery, weasel attribution and synonym cycling, and checks the fundamentals: lead with the point, active voice, concrete detail.",
+  "type": "agent-skill",
+  "elements": [],
+  "keywords": ["agent skill", "ai writing", "ai slop", "writing", "editing", "copy editing", "prose", "filler phrase", "binary contrast", "active voice", "draft revision", "satire", "skill.md", "claude code"],
+  "contains": ["20+ ai slop patterns incl. binary contrasts, throat-clearing openers, dramatic fragments", "edit mode returns the draft plus a What changed section", "detect mode quotes each pattern found without rewriting", "can also generate slop as satire", "installs with npx skills add petergyang/no-ai-slop; also a ChatGPT plugin", "20.2K installs on skills.sh, repo 12.2k stars, MIT"],
+  "formats": ["prompts"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/petergyang/no-ai-slop", "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.9
+}

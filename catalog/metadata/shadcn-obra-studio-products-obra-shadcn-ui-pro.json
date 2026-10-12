@@ -1,0 +1,116 @@
+{
+  "id": "shadcn-obra-studio-products-obra-shadcn-ui-pro",
+  "url": "https://shadcn.obra.studio/products/obra-shadcn-ui-pro",
+  "kind": "page",
+  "hints_hash": "1b8b16925ae6b427",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcn.obra.studio/products/obra-shadcn-ui-pro",
+      "title": "Product - Obra shadcn/ui Figma kit",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn.obra.studio/products/obra-shadcn-ui-pro/pricing",
+      "title": "Pricing - Obra shadcn/ui Figma kit",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn.obra.studio/license",
+      "title": "License - Obra shadcn/ui Figma kit",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn.obra.studio/components",
+      "title": "Components | Obra shadcn/ui Kit",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn.obra.studio/components/pro-blocks/application-ui",
+      "title": "Application UI - Components | Obra shadcn/ui Kit",
+      "status": 200
+    },
+    {
+      "url": "https://shadcn.obra.studio/documentation",
+      "title": "Documentation - Obra shadcn/ui kit",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Obra shadcn/ui Pro",
+  "summary": "Figma kit recreating shadcn/ui: 55 components, 13 custom components, 70+ Figma Pro Blocks and React Pro Blocks.",
+  "description": "Figma library that recreates every shadcn/ui component with component properties, slots, and multi-brand theming, in all eight shadcn/ui styles plus dark and light mode. The Pro edition adds 70+ Figma Pro Blocks and 48+ React Pro Blocks installed through Obra's private shadcn/ui registry; docs cover colors, typography, icons and a CSS export plugin. One-time purchase with lifetime updates; a free Community Edition also exists.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "accordion",
+    "badge",
+    "button",
+    "carousel",
+    "checkbox",
+    "dashboard",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "input",
+    "loader",
+    "modal",
+    "popover",
+    "select",
+    "switch",
+    "table"
+  ],
+  "keywords": [
+    "shadcn ui",
+    "figma kit",
+    "figma library",
+    "design system",
+    "figma component",
+    "react block",
+    "pro block",
+    "tailwind css",
+    "figma variable",
+    "multi-brand theming",
+    "dark mode",
+    "figma to code",
+    "shadcn registry",
+    "application ui",
+    "component library"
+  ],
+  "contains": [
+    "55 shadcn/ui components and 13 custom components recreated in Figma",
+    "70+ Figma Pro Blocks and 48+ React Pro Blocks installed via the shadcn/ui CLI",
+    "all 8 shadcn/ui styles, dark and light mode, 1800+ icons, all Tailwind colors",
+    "Pro license €249 one-time with lifetime updates; free Community Edition on Figma Community",
+    "plugins: Autodocs, CSS export"
+  ],
+  "formats": [
+    "figma-file",
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://shadcn.obra.studio/documentation",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,22 @@
+{
+  "id": "pro-reactbits-dev-roadmap",
+  "url": "https://pro.reactbits.dev/roadmap",
+  "kind": "page",
+  "hints_hash": "08dfd34e726acc26",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pro.reactbits.dev/roadmap", "title": "Roadmap: what's coming next in React Bits Pro | React Bits Pro", "status": 200}
+  ],
+  "status": "ok",
+  "name": "React Bits Pro Roadmap",
+  "summary": "Public roadmap of React Bits Pro: what shipped and what is planned across components, blocks, templates and agent skills.",
+  "description": "Month-by-month roadmap from the February launch: counts of components, marketing blocks, app UI blocks, templates and agent-kit items shipped, plus planned work such as the Bento Builder and new agent skills. A single lifetime purchase covers everything on the roadmap.",
+  "elements": ["bento-grid"],
+  "keywords": ["roadmap", "upcoming component", "component library", "marketing block", "app ui block", "template", "agent skill", "bento grid", "changelog", "lifetime access", "animated component"],
+  "contains": ["shipped so far: 230 components, 300 blocks, 15 templates, 20 agent-kit items", "September: 42 bento tiles, 16 components, 4 templates, the Bento Builder", "November plan: 15 agent skills, 2 templates, 20 components, 50 marketing blocks"],
+  "pricing": "paid",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "pro-reactbits-dev"},
+  "confidence": 0.85
+}

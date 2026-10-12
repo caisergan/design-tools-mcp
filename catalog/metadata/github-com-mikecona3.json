@@ -1,0 +1,18 @@
+{
+  "id": "github-com-mikecona3",
+  "url": "https://github.com/mikecona3",
+  "kind": "page",
+  "hints_hash": "a7b6ce949eabefa8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mikecona3", "title": "mikecona3 (Mike C) · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Mike C (mikecona3)",
+  "summary": "GitHub profile of Mike C, a solo web developer (ex-Xero, ex-Wordpress) with links to his site and socials.",
+  "keywords": ["github profile", "web developer", "frontend developer", "wordpress", "fintech", "solo developer", "personal website", "web development"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

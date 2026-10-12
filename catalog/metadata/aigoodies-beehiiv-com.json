@@ -1,0 +1,34 @@
+{
+  "id": "aigoodies-beehiiv-com",
+  "url": "https://aigoodies.beehiiv.com",
+  "kind": "site",
+  "hints_hash": "25f3f05910921877",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:08:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://aigoodies.beehiiv.com", "title": "Home | ai goodies ✨", "status": null},
+    {"url": "https://aigoodies.beehiiv.com/subscribe", "title": "Subscribe | ai goodies ✨", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ai goodies",
+  "summary": "Newsletter on AI, UX and design: workflows, roles, resources and trends.",
+  "description": "Newsletter on AI, UX and design, written by Ioana (UX Goodies). Issues cover how design teams and senior designers work with AI, emerging roles such as design engineer, creative technologist and forward deployed designer, portfolios and job requirements, and link out to tools and design resources.",
+  "type": "article",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["newsletter", "ai design", "ai ux", "design workflow", "design engineer", "creative technologist", "ai tool", "design trend", "design career", "portfolio", "design resource"],
+  "contains": [
+    "newsletter on AI, UX and design resources (44 pages incl. archive)",
+    "issues on how design teams use AI (Stripe, Vercel, Linear, Anthropic)",
+    "roles covered: design engineer, creative technologist, forward deployed designer",
+    "posts on portfolios, job requirements and designer–PM changes",
+    "curated links to tools and design resources"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

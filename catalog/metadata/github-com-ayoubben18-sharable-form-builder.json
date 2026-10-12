@@ -1,0 +1,37 @@
+{
+  "id": "github-com-ayoubben18-sharable-form-builder",
+  "url": "https://github.com/ayoubben18/sharable-form-builder",
+  "kind": "repo",
+  "hints_hash": "af5bdc79eafd12d2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/ayoubben18/sharable-form-builder/blob/HEAD/README.md", "title": "Sharable Form Builder", "status": 200},
+    {"url": "https://github.com/ayoubben18/sharable-form-builder", "title": "GitHub - ayoubben18/sharable-form-builder: This form is able to be saved like a normal form builder · GitHub", "status": 200},
+    {"url": "https://sharable-form-builder.vercel.app", "title": "Form Builder", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Sharable Form Builder",
+  "summary": "Form builder app that creates forms, previews them and shares them by URL, built with Next.js, shadcn/ui and Zod.",
+  "description": "A Next.js + shadcn/ui app for building forms and sharing them by link: add fields (text, email, phone number, file upload), mark them required, preview the form and copy the share URL; input validation uses Zod. The README shows how to run it locally and how to persist forms and their responses in a database for your own use case.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["form", "input", "file-upload"],
+  "keywords": ["form builder", "shadcn", "nextjs", "react", "zod", "form validation", "share form", "form link", "file upload", "preview form", "app template"],
+  "contains": [
+    "create sharable forms and preview them",
+    "copy the form URL to share it",
+    "field formats: email, string, phone number; file upload toggle",
+    "Zod-based data validation",
+    "built with Next.js and shadcn/ui; demo deployed on Vercel",
+    "51 GitHub stars; README explains database persistence",
+    "instructions for adapting the project to your use case"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "tailwind", "shadcn", "zod"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/ayoubben18/sharable-form-builder", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

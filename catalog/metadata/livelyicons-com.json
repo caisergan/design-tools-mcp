@@ -1,0 +1,93 @@
+{
+  "id": "livelyicons-com",
+  "url": "https://livelyicons.com",
+  "kind": "site",
+  "hints_hash": "5cd7458abc027c09",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://livelyicons.com/llms.txt",
+      "title": "LivelyIcons - Animated React Icon Library",
+      "status": null
+    },
+    {
+      "url": "https://livelyicons.com",
+      "title": "LivelyIcons — Animated React Icon Library with Motion",
+      "status": 200
+    },
+    {
+      "url": "https://livelyicons.com/docs",
+      "title": "Documentation — Installation, Usage & API Reference | LivelyIcons",
+      "status": 200
+    },
+    {
+      "url": "https://livelyicons.com/icons",
+      "title": "Browse 1300+ Animated Icons | LivelyIcons",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "LivelyIcons",
+  "summary": "React icon library of 1300+ SVG icons with built-in hover animations and 14 motion types.",
+  "description": "An open-source React icon library with 1319 animated SVG icons, each a fully typed component. Icons ship 14 motion types (scale, rotate, pulse, bounce, draw, spin, ring, wiggle, heartbeat, swing, float) with four trigger modes (hover, loop, mount, inView) and respect prefers-reduced-motion. Install from npm; a CLI and an icon browser let you search, preview and copy icons or download raw SVG.",
+  "type": "icon-set",
+  "categories": [
+    "icons",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "animated icon",
+    "react icon",
+    "svg icon",
+    "icon library",
+    "hover animation",
+    "icon animation",
+    "motion",
+    "typescript",
+    "tree-shakeable",
+    "open source",
+    "free icon",
+    "npm",
+    "nextjs",
+    "accessibility",
+    "reduced motion",
+    "cli"
+  ],
+  "contains": [
+    "1300+ animated SVG icons (1319 in the icon browser)",
+    "14 motion types: scale, rotate, translate, shake, pulse, bounce, draw, spin, ring, wiggle, heartbeat, swing, float",
+    "4 trigger modes: hover, loop, mount, inView",
+    "tree-shakeable, TypeScript-first, respects prefers-reduced-motion",
+    "CLI to search, list and copy icons from the terminal",
+    "React Server Components compatible via a /static export"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "cli",
+    "svg",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "framer-motion",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/livelyicons/icons",
+    "docs": "https://livelyicons.com/docs",
+    "npm": "livelyicons",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

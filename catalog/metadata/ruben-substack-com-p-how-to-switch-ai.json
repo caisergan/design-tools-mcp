@@ -1,0 +1,45 @@
+{
+  "id": "ruben-substack-com-p-how-to-switch-ai",
+  "url": "https://ruben.substack.com/p/how-to-switch-ai",
+  "kind": "page",
+  "hints_hash": "46d66ab219aa0c56",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:10:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://ruben.substack.com/p/how-to-switch-ai",
+      "title": "Switch. - by Ruben Hassid - How to AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Switch",
+  "summary": "Paid guide to switching between Claude and ChatGPT, covering data export, custom instructions and tone.",
+  "description": "An instalment of the How to AI newsletter that treats switching AI assistants like switching phone plans. It walks through exporting everything from Claude (Settings, Privacy, Export data), moving to ChatGPT, going the other way, and setting custom instructions so ChatGPT sounds like you. The full text is for paid subscribers.",
+  "type": "article",
+  "keywords": [
+    "switch ai",
+    "migration",
+    "data export",
+    "custom instruction",
+    "chatbot",
+    "assistant",
+    "ai guide",
+    "ai newsletter"
+  ],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "ruben-substack-com"
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,102 @@
+{
+  "id": "github-com-xxtomm-spell-ui",
+  "url": "https://github.com/xxtomm/spell-ui",
+  "kind": "repo",
+  "hints_hash": "315422550f877a8e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:33:50Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/xxtomm/spell-ui/blob/HEAD/README.md",
+      "title": "Spell UI",
+      "status": 200
+    },
+    {
+      "url": "https://spell.sh/docs",
+      "title": "Introduction | Spell UI",
+      "status": 200
+    },
+    {
+      "url": "https://spell.sh/docs/components",
+      "title": "Components | Spell UI",
+      "status": 200
+    },
+    {
+      "url": "https://spell.sh/",
+      "title": "Spell UI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Spell UI",
+  "summary": "Copy-paste React components for Tailwind CSS: text animations, backgrounds, buttons, inputs, loaders and more.",
+  "description": "A collection of React components and blocks built with Tailwind CSS — text animations, buttons, inputs, feedback, backgrounds and interactive pieces. Each component has a docs page and can be copied into a project or installed as a shadcn registry item. MIT-licensed, aimed at design engineers.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "motion",
+    "registries"
+  ],
+  "elements": [
+    "button",
+    "input",
+    "checkbox",
+    "badge",
+    "avatar",
+    "card",
+    "carousel",
+    "logo-cloud",
+    "marquee",
+    "text-effect",
+    "background",
+    "loader",
+    "chart"
+  ],
+  "keywords": [
+    "react component",
+    "tailwind css",
+    "copy paste component",
+    "shadcn registry",
+    "text animation",
+    "animated text",
+    "marquee",
+    "spinner",
+    "button",
+    "input",
+    "checkbox",
+    "badge",
+    "chart",
+    "animated background",
+    "ui component"
+  ],
+  "contains": [
+    "33 shadcn registry items",
+    "component groups: text animations, buttons, inputs, feedback, backgrounds, interactive",
+    "text effects: blur reveal, shimmer, marquee, words stagger, gradient wave",
+    "docs page with copy-ready code for every component",
+    "MIT licensed"
+  ],
+  "formats": [
+    "registry",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/xxtomm/spell-ui",
+    "docs": "https://spell.sh/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

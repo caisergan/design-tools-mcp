@@ -1,0 +1,27 @@
+{
+  "id": "tstack-dev-guide-stop-vibe-coding",
+  "url": "https://tstack.dev/guide/stop-vibe-coding",
+  "kind": "page",
+  "hints_hash": "d5118f88d3f87ba9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tstack.dev/guide/stop-vibe-coding", "title": "Get Better Code from AI Agents — TStack", "status": null}
+  ],
+  "status": "ok",
+  "name": "Stop Vibe Coding",
+  "summary": "Free PDF guide on getting better code from AI agents: clearer context, sharper tasks and reviewable output.",
+  "description": "A TStack guide for agent-ready software. It describes the workflow shift from AI as chaotic autocomplete to a delegated engineering partner, and is delivered as a PDF by email: the page has an email field and the note that the guide will be sent to your inbox.",
+  "type": "article",
+  "categories": ["dev-ai-tools", "learning"],
+  "elements": [],
+  "keywords": ["ai agent", "vibe coding", "ai coding", "code review", "prompt", "context", "task", "workflow", "guide", "pdf", "software engineering", "agent-ready"],
+  "contains": ["free guide for agent-ready software", "PDF sent by email after entering an address", "covers context, tasks and reviewable agent output"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

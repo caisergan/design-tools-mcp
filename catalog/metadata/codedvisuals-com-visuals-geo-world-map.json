@@ -1,0 +1,84 @@
+{
+  "id": "codedvisuals-com-visuals-geo-world-map",
+  "url": "https://codedvisuals.com/visuals/geo/world-map",
+  "kind": "page",
+  "hints_hash": "d2bc32afc98e24d0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://codedvisuals.com/visuals/geo/world-map",
+      "title": "World Map visual for React & shadcn/ui - CodedVisuals",
+      "status": 200
+    },
+    {
+      "url": "https://codedvisuals.com/docs",
+      "title": "Introduction - CodedVisuals",
+      "status": 200
+    },
+    {
+      "url": "https://codedvisuals.com/pricing",
+      "title": "Pricing - CodedVisuals",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "World Map",
+  "summary": "Animated dotted world map visual for React and shadcn/ui that blooms from a chosen city with markers, regions and connection arcs.",
+  "description": "A coded visual composition from the CodedVisuals library: a dotted world map that blooms outward from a chosen city, with pinging location markers, tinted coverage regions and connection arcs that draw between cities. Variations include labels, reveal styles, region density, custom markers and colors; it installs as a single React + TypeScript file through the shadcn registry and is themed with shadcn/ui tokens.",
+  "type": "component-library",
+  "elements": [
+    "map"
+  ],
+  "keywords": [
+    "world map",
+    "dotted map",
+    "animated map",
+    "react component",
+    "shadcn",
+    "map marker",
+    "connection arc",
+    "data visualization",
+    "geo visual",
+    "copy paste",
+    "landing page",
+    "marketing site",
+    "motion",
+    "interactive map"
+  ],
+  "contains": [
+    "dotted world map that blooms outward from a chosen city",
+    "pinging location markers, tinted coverage regions and connection arcs between cities",
+    "variations: labels, split and sweep reveals, sparse or dense regions, custom markers and colors",
+    "single-file React + TypeScript composition animated with Motion, themed with shadcn/ui tokens",
+    "installs through the shadcn registry or copy-paste; log in to copy",
+    "part of CodedVisuals: 122 visuals and 1150+ variations; $69 one-time Solo license"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "framer-motion"
+  ],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://codedvisuals.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

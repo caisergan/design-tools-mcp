@@ -1,0 +1,30 @@
+{
+  "id": "teul-joohyun-dev",
+  "url": "https://teul.joohyun.dev",
+  "kind": "site",
+  "hints_hash": "a11c34051bdcde93",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:50:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://teul.joohyun.dev", "title": null, "status": 404 },
+    { "url": "https://teul.joohyunpark.com/", "title": "Grid", "status": 200 },
+    { "url": "https://github.com/jooohyunpark/grid", "title": "GitHub - jooohyunpark/grid: An opinionated grid system for React and Tailwind", "status": 200 },
+    { "url": "https://github.com/jooohyunpark", "title": "jooohyunpark (Joohyun Park) · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Grid",
+  "summary": "An opinionated 12-column grid system for React and Tailwind with type-safe responsive span, gap and start props.",
+  "description": "Grid adds a 12-column layout system on top of CSS grid for React and Tailwind: Grid and GridColumn components with type-safe responsive props (span, start, rowSpan, rowStart, gap). Copy-paste install, no runtime and no dependencies; requires React 19+ and Tailwind CSS v4. The original teul.joohyun.dev address now returns 404; the project is served at grid.joohyunpark.com.",
+  "type": "component-library",
+  "categories": ["components", "layout"],
+  "elements": [],
+  "keywords": ["grid", "grid system", "12 column grid", "react", "tailwind", "layout", "responsive", "css grid", "typescript", "copy paste", "component", "nextjs"],
+  "contains": ["12-column grid: Grid container and GridColumn", "type-safe responsive props (span, start, rowSpan, gap)", "requires React 19+ and Tailwind CSS v4", "copy-paste install, no runtime or dependencies", "MIT license", "site moved from teul.joohyun.dev to grid.joohyunpark.com"],
+  "formats": ["code"],
+  "stack": ["react", "tailwind", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": { "repo": "https://github.com/jooohyunpark/grid", "docs": "https://grid.joohyunpark.com/", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.85
+}

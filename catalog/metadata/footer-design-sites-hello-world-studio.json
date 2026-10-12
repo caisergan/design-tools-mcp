@@ -1,0 +1,21 @@
+{
+  "id": "footer-design-sites-hello-world-studio",
+  "url": "https://footer.design/sites/hello-world-studio",
+  "kind": "page",
+  "hints_hash": "bd0824d8cb993219",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/hello-world-studio", "title": "Footer | Hello World Studio", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Hello World Studio",
+  "summary": "Desktop and mobile footer screenshots from the Hello World Studio site, a creative web design studio, tagged retro and typographic.",
+  "description": "A footer.design page showing the Hello World Studio website footer in desktop and mobile views. Hello World Studio is a creative web design studio for custom Squarespace, Shopify and Webflow sites; the entry carries style tags (Retro, Fun, Typographic, Video), type tags (Studio, Design, Development) and similar footer designs.",
+  "elements": ["footer"],
+  "keywords": ["footer", "website footer", "footer design", "footer inspiration", "desktop footer", "mobile footer", "retro", "fun", "typographic", "video", "studio website", "creative studio"],
+  "formats": ["screenshots", "links"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

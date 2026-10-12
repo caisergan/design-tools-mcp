@@ -1,0 +1,19 @@
+{
+  "id": "ruben-substack-com-p-s",
+  "url": "https://ruben.substack.com/p/s",
+  "kind": "page",
+  "hints_hash": "b6db284437ed8a43",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/s", "title": "being good at ai is (stupidly) simple - by Ruben Hassid", "status": null}
+  ],
+  "status": "ok",
+  "name": "being good at ai is (stupidly) simple",
+  "summary": "Beginner's survival guide to AI, written like IKEA instructions: pick the smart model and let the AI ask you questions.",
+  "keywords": ["ai", "claude", "prompting", "beginner guide", "claude.ai", "model picker", "thinking mode", "ai workflow", "ai tutorial", "survival guide"],
+  "type": "article",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.8
+}

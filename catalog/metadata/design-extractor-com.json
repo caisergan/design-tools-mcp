@@ -1,0 +1,32 @@
+{
+  "id": "design-extractor-com",
+  "url": "https://design-extractor.com",
+  "kind": "site",
+  "hints_hash": "f282dbb6014bc87e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://design-extractor.com/llms.txt", "title": "Design Extractor", "status": null},
+    {"url": "https://design-extractor.com", "title": "Get a DESIGN.md From Any Website URL | Design Extractor", "status": 200},
+    {"url": "https://www.design-extractor.com/docs", "title": "Docs | Design Extractor", "status": 200},
+    {"url": "https://www.design-extractor.com/gallery", "title": "DESIGN.md Examples from Real Websites | Design Extractor", "status": 200},
+    {"url": "https://www.design-extractor.com/pricing", "title": "Pricing | Design Extractor", "status": 200},
+    {"url": "https://www.design-extractor.com/docs/mcp", "title": "MCP Server | Design Extractor", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Design Extractor",
+  "summary": "Paste any website URL and get a DESIGN.md file: colors, typography, spacing and component tokens for AI coding agents.",
+  "description": "Extracts a site's design system into a DESIGN.md that follows Google's DESIGN.md spec: YAML front matter with colour, typography and spacing tokens plus a markdown body with rationale, across eight sections (Overview, Colors, Typography, Layout, Elevation and Depth, Shapes, Components, Do's and Don'ts). A Lite tier covers the submitted page and Pro around five pages; results can be previewed, copied, downloaded, edited and re-extracted from a history.",
+  "type": "tool",
+  "categories": ["design-rules", "design-tools"],
+  "elements": ["input", "tabs", "card"],
+  "keywords": ["design.md", "design token", "design system", "style guide", "color palette", "typography scale", "spacing scale", "ai coding agent", "mcp server", "browser extension", "website analysis", "tailwind", "css variable", "extraction"],
+  "contains": ["URL in, DESIGN.md out (Lite: the page; Pro: about five pages)", "extracts color palette, typography, spacing and shape tokens plus component patterns", "gallery of pre-extracted specs from Stripe, Linear, Notion, Anthropic, Airbnb and IKEA, filterable by category and style", "Chrome extension and MCP server for Claude Code, Codex, Cursor, n8n or the Claude Agent SDK", "prepaid credits: $5/50, $10/110, $25/300, no subscription"],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.design-extractor.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

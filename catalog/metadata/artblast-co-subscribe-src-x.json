@@ -1,0 +1,21 @@
+{
+  "id": "artblast-co-subscribe-src-x",
+  "url": "https://artblast.co/subscribe?src=x",
+  "kind": "page",
+  "hints_hash": "2e082b0dd7d28947",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://artblast.co/subscribe?src=x", "title": "Subscribe to ArtBlast – ArtBlast", "status": null},
+    {"url": "https://artblast.co/", "title": "ArtBlast - #1 Daily Game Art Jobs Newsletter | 3D Artist, Concept Artist, VFX Jobs", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Subscribe to ArtBlast",
+  "summary": "Signup form for ArtBlast, a daily newsletter of curated 3D, 2D, VFX, concept and animation art jobs for 14,240+ artists.",
+  "description": "Three-step subscription flow that first asks what kind of art job you are looking for. The newsletter emails 10-60+ curated art jobs every morning, with a free tier, a $7/month premium tier, discipline-specific job lists (3D, 2D, VFX, UI, concept, animation, environment), Discord job alerts and a salary calculator.",
+  "type": "directory",
+  "keywords": ["art job", "game art job", "art job newsletter", "job board", "3d artist job", "concept artist job", "vfx job", "animator job", "environment artist job", "ui artist job", "remote job", "job alert", "daily job digest", "studio job"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

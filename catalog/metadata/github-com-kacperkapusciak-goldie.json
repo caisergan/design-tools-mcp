@@ -1,0 +1,29 @@
+{
+  "id": "github-com-kacperkapusciak-goldie",
+  "url": "https://github.com/kacperkapusciak/goldie",
+  "kind": "repo",
+  "hints_hash": "fa9ad019316bf68d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/kacperkapusciak/goldie/blob/HEAD/README.md", "title": "Goldie: App Store screenshot generator for coding agents (and humans)", "status": null},
+    {"url": "https://github.com/software-mansion-labs/goldie", "title": "GitHub - software-mansion-labs/goldie: agentic app store previews and screenshots", "status": 200},
+    {"url": "https://github.com/software-mansion-labs/goldie/blob/HEAD/LICENSE", "title": "goldie/LICENSE at HEAD - software-mansion-labs/goldie", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Goldie",
+  "summary": "CLI and studio that turn app flows into App Store and Google Play screenshots and preview videos.",
+  "description": "Replays flows on an iOS simulator or Android emulator with argent, then frames the captures with a device bezel, background and headline and joins the clips into a preview video. Framework agnostic: works the same for SwiftUI, UIKit, Jetpack Compose, Flutter, React Native and Kotlin Multiplatform apps, and checks the result against the stores' upload rules.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["app store screenshot", "screenshot generator", "preview video", "google play", "ios simulator", "android emulator", "react native", "flutter", "swiftui", "kotlin multiplatform", "coding agent", "agent skill", "mobile app release"],
+  "contains": ["store screenshots and preview videos rendered from app flows", "agent skill for coding agents plus a manual CLI", "device bezels, backgrounds, headline templates and bundled fonts", "checks output against App Store and Google Play upload rules", "iPhone screenshots at 1320 x 2868; preview videos must run 15-30 s", "scene and design choices saved in goldie.config.ts and goldie.design.json"],
+  "formats": ["cli", "prompts", "screenshots", "video"],
+  "stack": ["node", "ffmpeg"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/kacperkapusciak/goldie", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,29 @@
+{
+  "id": "onepagelove-com-allagi",
+  "url": "https://onepagelove.com/allagi",
+  "kind": "page",
+  "hints_hash": "6f95939c72c341ab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:48:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/allagi", "title": "Allagi — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Allagi",
+  "summary": "One Page Love showcase of Allagi, a minimal single-page site for a music artist, built in WordPress with GSAP.",
+  "description": "Showcase page for Allagi, an artist's one-page site with a minimal catalog browsing experience and whitespace-heavy layout. Tagged Music Related and Artist; styles Minimal, Retro & Vintage and Skeuomorphism; typeface Inter; colour White; platform WordPress; tech GSAP; published 4 Jul 2026.",
+  "keywords": ["one page website", "portfolio", "artist", "music", "minimal", "wordpress", "gsap", "whitespace", "retro", "skeuomorphism", "web design inspiration"],
+  "contains": [
+    "showcase page with desktop and mobile screenshots",
+    "tags: Music Related, Artist, Interactive, Whitespace",
+    "styles: Minimal, Retro & Vintage, Skeuomorphism",
+    "typeface Inter, colour White, platform WordPress, tech GSAP"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": ["wordpress", "gsap"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

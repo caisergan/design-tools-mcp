@@ -1,0 +1,32 @@
+{
+  "id": "untitledui-com",
+  "url": "https://untitledui.com",
+  "kind": "site",
+  "hints_hash": "24e715435918ae79",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://untitledui.com", "title": "Untitled UI — Figma UI Kit and React Component Library", "status": 200},
+    {"url": "https://www.untitledui.com/pricing", "title": "Pricing | Untitled UI", "status": 200},
+    {"url": "https://www.untitledui.com/faqs", "title": "Frequently asked questions | Untitled UI", "status": 200},
+    {"url": "https://www.untitledui.com/icons", "title": "Untitled UI Icons — The Ultimate Figma Icon Library", "status": 200},
+    {"url": "https://www.untitledui.com/react", "title": "Untitled UI React — React UI Component Library", "status": 200},
+    {"url": "https://www.untitledui.com/react/docs/introduction", "title": "Introduction | Untitled UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Untitled UI",
+  "summary": "Figma UI kit, React component library and icon library for designing and building websites and apps.",
+  "description": "Untitled UI is a design system sold as three products: a Figma UI kit with 10,000+ components and variants, page examples and variables; a React component library built with React Aria, TypeScript and Tailwind CSS; and an icon library with 4,600+ icons in four styles. Free tiers exist for each product, and PRO tiers are one-time purchases with lifetime access.",
+  "type": "component-library",
+  "categories": ["components", "icons"],
+  "elements": ["navbar", "hero", "features", "footer", "contact", "tabs", "card", "form", "button", "badge", "map", "404", "table", "avatar", "calendar", "command-palette", "slider", "chart", "toast", "dashboard", "checkbox", "dropdown", "input", "select", "switch", "tooltip", "otp-input", "breadcrumbs", "alert", "progress"],
+  "keywords": ["figma ui kit", "react component library", "ui kit", "design system", "tailwind css", "react aria", "icon library", "svg icon", "component", "variant", "dark mode", "figma variable", "design token", "landing page", "dashboard", "starter kit", "command menu", "avatar", "tooltip"],
+  "contains": ["10,000+ Figma UI components and variants; 350+ global styles free, 500+ in PRO", "4,600+ icons in 19 categories and 4 styles (Line, Duocolor, Duotone, Solid)", "React library built with React Aria, TypeScript v5.9 and Tailwind CSS v4.3", "335 documented pages for sections and components", "free versions of Figma kit, React library and icons; PRO tiers are one-time purchases", "dark mode, variables, page examples, Figma files and AI kits (v0, Bolt, Replit, Lovable, Claude)"],
+  "formats": ["figma-file", "code", "cli", "svg", "docs", "templates"],
+  "stack": ["react", "react-aria", "typescript", "tailwind"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.untitledui.com/react/docs/introduction", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

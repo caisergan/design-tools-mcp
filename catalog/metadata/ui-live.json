@@ -1,0 +1,31 @@
+{
+  "id": "ui-live",
+  "url": "https://ui.live",
+  "kind": "site",
+  "hints_hash": "e77215f87469e9d1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ui.live", "title": "UI.live - Create. Share. Grow.", "status": null},
+    {"url": "https://ui.live/explore", "title": "UI.live - Create. Share. Grow.", "status": null},
+    {"url": "https://ui.live/leaderboard", "title": "UI.live - Create. Share. Grow.", "status": 200},
+    {"url": "https://ui.live/3d-assets", "title": "UI.live - Create. Share. Grow.", "status": 200},
+    {"url": "https://ui.live/profile/tranmautritam/post/DbLJPnExyzNBQRTwjepo", "title": "UI.live - Create. Share. Grow.", "status": 200}
+  ],
+  "status": "partial",
+  "name": "UI.live",
+  "summary": "Design-sharing platform where creators post designs and assets, collect likes and rank on a leaderboard.",
+  "description": "A platform where designers post design drops and downloadable assets, collect likes, clicks and copies, and climb a public creator leaderboard. Browse trending drops, an explore feed, category pages such as 3D Assets, or individual creator profiles; posting requires an account.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["design sharing", "design community", "design inspiration", "ui design", "design drop", "creator leaderboard", "trending design", "3d asset", "design portfolio", "creator profile", "asset download", "design platform"],
+  "contains": ["design-sharing platform with trending, explore and leaderboard views", "creators ranked by score from posts, likes, clicks and copies", "posts carry categories such as 3D Assets and offer asset downloads", "posting requires an account"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

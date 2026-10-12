@@ -1,0 +1,30 @@
+{
+  "id": "photopea-com",
+  "url": "https://photopea.com",
+  "kind": "site",
+  "hints_hash": "2525e6f35d0a62bd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://photopea.com", "title": "Photopea | Online Photo Editor", "status": 200},
+    {"url": "https://www.photopea.com/templates", "title": "PSD Templates", "status": 200},
+    {"url": "https://www.photopea.com/api", "title": "Photopea API", "status": 200},
+    {"url": "https://www.photopea.com/api/accounts", "title": "Photopea API", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Photopea",
+  "summary": "Free browser-based photo editor that opens and saves PSD files and 40+ other formats.",
+  "description": "Photopea is an online image editor that runs entirely in the browser; files never leave the device. It supports layers, masks, layer styles, filters, vector graphics, RAW files and AI background removal, and opens and saves PSD plus 40 other formats. Free to use, with a Premium account that removes ads; free PSD templates and an embedding API are also offered.",
+  "type": "tool",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["photo editor", "online photo editor", "image editing", "psd editor", "layer editing", "vector graphics", "raw photo", "background removal", "browser app", "free photo editor"],
+  "contains": ["runs fully in the browser; files never leave the device", "opens and saves PSD + 40 other formats", "layers, masks, layer styles, adjustment layers, channels, paths", "levels, curves, liquify, puppet warp and other filters", "AI background removal and text-described content fill", "free PSD templates", "embedding API and Free/Premium accounts"],
+  "formats": ["app", "templates", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.photopea.com/learn", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

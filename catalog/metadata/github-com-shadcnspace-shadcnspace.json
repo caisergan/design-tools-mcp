@@ -1,0 +1,111 @@
+{
+  "id": "github-com-shadcnspace-shadcnspace",
+  "url": "https://github.com/shadcnspace/shadcnspace",
+  "kind": "repo",
+  "hints_hash": "12350a597592e643",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:46Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/shadcnspace/shadcnspace/blob/HEAD/README.md",
+      "title": "Free Shadcn UI Blocks and Components",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/shadcnspace/shadcnspace/blob/HEAD/SKILL.md",
+      "title": "ShadcnSpace — AI Agent Skill & Developer Guide",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Space",
+  "summary": "Open-source shadcn/ui component, block and template registry for React and Next.js projects.",
+  "description": "An open-source distribution of shadcn/ui components, blocks and templates built on Base UI and Radix UI primitives, installed with the shadcn CLI or copied by hand. Blocks cover marketing pages (hero, features, pricing, testimonials, team, CTA, about) and dashboards; extras include animated components, an MCP server and an AI agent skill. The registry holds 424 items; every block is maintained in both Base UI and Radix UI variants.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "navbar",
+    "hero",
+    "features",
+    "cta",
+    "pricing",
+    "testimonials",
+    "footer",
+    "dashboard",
+    "stats",
+    "team",
+    "sidebar",
+    "tabs",
+    "button",
+    "badge",
+    "alert",
+    "card",
+    "accordion",
+    "calendar",
+    "checkbox",
+    "dock",
+    "marquee",
+    "text-effect",
+    "loader"
+  ],
+  "keywords": [
+    "shadcn registry",
+    "ui block",
+    "component",
+    "template",
+    "dashboard",
+    "landing page",
+    "hero section",
+    "pricing",
+    "testimonials",
+    "base ui",
+    "radix",
+    "nextjs",
+    "react",
+    "tailwind",
+    "cli",
+    "mcp server"
+  ],
+  "contains": [
+    "424 registry items (Base UI and Radix UI variants)",
+    "100+ components: buttons, badges, alerts, tabs, accordion, calendar, dock",
+    "51+ blocks: hero, features, pricing, testimonials, team, CTA, dashboards",
+    "3+ templates and dashboard UI kits",
+    "installs via shadcn CLI or manual copy; free blocks need no auth",
+    "free tier plus Pro blocks with a license key; MIT license"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "radix",
+    "framer-motion",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcnspace/shadcnspace",
+    "docs": "https://shadcnspace.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

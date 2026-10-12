@@ -1,0 +1,28 @@
+{
+  "id": "pafolios-com",
+  "url": "https://pafolios.com",
+  "kind": "site",
+  "hints_hash": "468be12954ea7997",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:30:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pafolios.com", "title": "Pafolios — The best design portfolio examples and inspiration", "status": null},
+    {"url": "https://pafolios.com/about", "title": "Information", "status": null}
+  ],
+  "status": "ok",
+  "name": "Pafolios",
+  "summary": "Curated gallery of 851 design portfolios and case studies from product designers, studios and developers.",
+  "description": "Browsable collection of portfolio examples and case studies, made so designers can study how others present their work and write better case studies. New portfolios can be submitted, featured owners can opt out, and the project accepts sponsors. The grid itself loads client-side; the catalog indexes 831 gallery examples.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["portfolio inspiration", "design portfolio", "portfolio example", "case study", "portfolio gallery", "ux portfolio", "product designer", "personal website", "design inspiration", "case study example"],
+  "contains": ["851 curated portfolios and case studies", "831 gallery examples indexed by the catalog", "browse case studies and a directory; submit your own portfolio", "about page with submission, sponsoring and opt-out details"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

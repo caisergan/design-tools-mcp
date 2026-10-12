@@ -1,0 +1,37 @@
+{
+  "id": "kibo-ui-com",
+  "url": "https://kibo-ui.com",
+  "kind": "site",
+  "hints_hash": "70c390ae5379d5fe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://kibo-ui.com", "title": "Kibo UI", "status": 200},
+    {"url": "https://www.kibo-ui.com/docs", "title": "Introduction", "status": 200},
+    {"url": "https://www.kibo-ui.com/blocks/collaborative-canvas", "title": "Collaborative Canvas", "status": 200},
+    {"url": "https://www.kibo-ui.com/patterns/accordion/form/accordion-form-1", "title": "Accordion / Form / Accordion Form 1 | Kibo UI", "status": 200},
+    {"url": "https://github.com/shadcnblocks/kibo", "title": "GitHub - shadcnblocks/kibo: A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Kibo UI",
+  "summary": "Shadcn/ui registry of 41 composable components, 28 blocks and 1,100+ patterns, free and open source.",
+  "description": "A custom shadcn/ui registry of composable, accessible components that add functionality on top of the primitives — tables, file dropzones, AI chat primitives, a Figma-style color picker and more — plus 28 blocks and 1,101 patterns. Install with the shadcn CLI or copy the code; free and open source, MIT licensed.",
+  "type": "registry",
+  "categories": ["components", "registries", "sections"],
+  "elements": ["calendar", "marquee", "avatar", "banner", "select", "chart", "card", "cursor", "modal", "file-upload", "timeline", "kanban", "badge", "chat", "table"],
+  "keywords": ["shadcn ui", "registry", "react component", "tailwind css", "open source", "file dropzone", "kanban board", "gantt chart", "marquee", "color picker", "qr code", "code block", "ai chat", "data table", "calendar", "composable component", "typescript", "nextjs"],
+  "contains": [
+    "41 components, 28 blocks, 1,101 patterns",
+    "41 shadcn registry items",
+    "blocks: codebase, collaborative canvas, roadmap, website sections",
+    "3,758 GitHub stars",
+    "free and open source, forever"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "typescript", "tailwind", "nextjs"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcnblocks/kibo", "docs": "https://kibo-ui.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

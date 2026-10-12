@@ -1,0 +1,71 @@
+{
+  "id": "www-raycast-com-luisfilipept-shadcn-ui",
+  "url": "https://www.raycast.com/luisFilipePT/shadcn-ui",
+  "kind": "page",
+  "hints_hash": "de4fe8efa009c567",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.raycast.com/luisFilipePT/shadcn-ui",
+      "title": "Raycast Store: shadcn/ui",
+      "status": null
+    },
+    {
+      "url": "https://www.raycast.com/luisFilipePT/shadcn-ui",
+      "title": "Raycast Store: shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn/ui",
+  "summary": "Raycast extension to browse shadcn/ui documentation, components, examples and registries.",
+  "description": "Four Raycast commands - Search Documentation, Search Components, Search Examples and Search Registries - open shadcn/ui docs, component source and examples in the browser. A registry items view lists a registry's components with copy add-component commands for npm, pnpm, yarn and bun.",
+  "type": "plugin",
+  "categories": [
+    "design-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "raycast",
+    "raycast extension",
+    "shadcn",
+    "component",
+    "documentation",
+    "registry",
+    "search",
+    "macos",
+    "window",
+    "developer tool",
+    "npm",
+    "pnpm",
+    "bun"
+  ],
+  "contains": [
+    "4 Raycast commands",
+    "searches shadcn/ui docs, components, examples and registries",
+    "registry items view with copy add component for npm, pnpm, yarn and bun",
+    "12 versions, latest fix March 2026",
+    "4,786 installs",
+    "macOS and Windows support"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

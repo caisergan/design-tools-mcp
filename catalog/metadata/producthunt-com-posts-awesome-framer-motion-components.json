@@ -1,0 +1,32 @@
+{
+  "id": "producthunt-com-posts-awesome-framer-motion-components",
+  "url": "https://producthunt.com/posts/awesome-framer-motion-components",
+  "kind": "page",
+  "hints_hash": "0692e4855609b6f7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://producthunt.com/posts/awesome-framer-motion-components", "title": "Awesome Framer Motion Components: A curated list of Tailwindcss and Framer Motion Components | Product Hunt", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Framer Motion Components",
+  "summary": "Product Hunt launch page for a free curated list of Tailwind CSS and Framer Motion components you can copy-paste.",
+  "description": "Launch page for Awesome Components: a free curated list of Tailwind CSS and Framer Motion React components to copy-paste into React and Next.js projects. The maker adds new components weekly; the page shows a 5.0 rating from 2 reviews, 122 followers, a 2023 launch and a #16 day rank, with the component collection living at aceternity.com/components.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "keywords": ["framer motion", "tailwind css", "react component", "copy paste", "animated component", "component library", "component list", "nextjs", "free component", "ui component", "web design", "product hunt"],
+  "contains": [
+    "curated list of Tailwind CSS and Framer Motion components",
+    "copy-paste components for React and Next.js projects",
+    "free; 5.0 from 2 reviews; 122 followers; #16 day rank",
+    "launched 2023; new components added weekly",
+    "component collection at aceternity.com/components"
+  ],
+  "formats": ["code", "links"],
+  "stack": ["react", "nextjs", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

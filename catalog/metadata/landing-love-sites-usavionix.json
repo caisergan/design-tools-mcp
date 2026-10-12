@@ -1,0 +1,22 @@
+{
+  "id": "landing-love-sites-usavionix",
+  "url": "https://landing.love/sites/usavionix",
+  "kind": "page",
+  "hints_hash": "0e55e1bfb1abdbcb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://landing.love/sites/usavionix", "title": "USAvionix Website Design — landing.love", "status": 200}
+  ],
+  "status": "ok",
+  "name": "USAvionix Website Design",
+  "summary": "Website design showcase of the USAvionix UAV site: a dark, cinematic 3D landing page with layered scroll animation.",
+  "description": "landing.love's feature on the USAvionix site, with screenshots and a full recording. The site opens with a cinematic system boot sequence of thermal, lidar and IR readouts, then walks through three mission scenarios on a pure black canvas with crisp white type.",
+  "keywords": ["landing page", "website design", "3d website", "dark ui", "scroll animation", "uav", "drone", "technology website", "website inspiration", "website recording", "cinematic"],
+  "elements": ["hero", "3d", "scroll-effect"],
+  "formats": ["screenshots", "video", "links"],
+  "contains": ["write-up with screenshots and a full site recording", "tags: 3d website, technology, automotive, hardware", "designed by Basement Studio", "opens with a cinematic boot sequence of thermal, lidar and IR readouts", "three mission scenarios: wildfire, border, infrastructure"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "landing-love"},
+  "confidence": 0.85
+}

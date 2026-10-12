@@ -1,0 +1,28 @@
+{
+  "id": "centralicons-com",
+  "url": "https://centralicons.com",
+  "kind": "site",
+  "hints_hash": "ee8f50355f8a7a83",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://centralicons.com", "title": "central icon system", "status": 200},
+    {"url": "https://centralicons.com/changelog", "title": "central icon system", "status": 200}
+  ],
+  "status": "ok",
+  "name": "central icon system",
+  "summary": "Icon system with 39 categories, three stroke widths and five corner radii, shipped for Figma, Framer and React.",
+  "description": "A universal icon set browsable by category — accessibility, AI & magic, arrows, building, code, communication, security, weather, brands and more — with searchable icon names and tags. Icons come in 1, 1.5 or 2 px strokes with sharp, round, small, medium or large corners, and new icons ship weekly.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "icon library", "icon system", "ui icon", "interface icon", "figma plugin", "framer plugin", "react package", "stroke width", "corner radius", "icon pack", "monochrome icon", "design system icon", "vector icon"],
+  "contains": ["39 icon categories from accessibility to social media & brands", "stroke widths: 1px, 1.5px, 2px", "corner radii: sharp, round, small, medium, large", "new icons added weekly (14 in the week of 5 Oct)", "distribution: Figma plugin, Framer plugin, React packages", "changelog browsable by day, week or month"],
+  "formats": ["figma-file", "framer-file", "npm-package"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

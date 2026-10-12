@@ -1,0 +1,28 @@
+{
+  "id": "dejiajetomobi-com",
+  "url": "https://dejiajetomobi.com",
+  "kind": "site",
+  "hints_hash": "70aef29bf1c945b3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://dejiajetomobi.com", "title": "Deji Ajetomobi — Designer", "status": null},
+    {"url": "https://dejiajetomobi.com/design", "title": "Design — Deji Ajetomobi", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Deji Ajetomobi",
+  "summary": "Portfolio of London designer Deji Ajetomobi: brand and product design case studies, articles and engineering notes.",
+  "description": "Personal site of Deji Ajetomobi, a designer on the design-systems team at Wise. The Design section holds selected brand, product and digital design case studies (YesCheff, Finy, Deskhq, AMS & SMA); other sections cover articles, engineering notes, experience at Wise, Escape and Orbit Collective, and past talks and features.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["designer portfolio", "product design", "brand design", "design system", "case study", "portfolio website", "design article", "design engineering", "design inspiration", "ui design"],
+  "contains": ["design case studies including YesCheff, Finy, Deskhq and AMS & SMA", "articles and engineering notes", "experience timeline (Wise, Escape, Orbit Collective)", "talks, interviews and features list"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

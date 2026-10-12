@@ -1,0 +1,33 @@
+{
+  "id": "github-com-illyism-gradient-picker",
+  "url": "https://github.com/Illyism/gradient-picker",
+  "kind": "repo",
+  "hints_hash": "3b09ecdd313ff603",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Illyism/gradient-picker/blob/HEAD/README.md", "title": "Gradient Picker", "status": null},
+    {"url": "https://github.com/Illyism/gradient-picker", "title": "GitHub - Illyism/gradient-picker: Fancy Gradient Picker built with Shadcn UI, Radix UI and Tailwind CSS.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Gradient Picker",
+  "summary": "React gradient picker component built with shadcn/ui, Radix UI and Tailwind CSS.",
+  "description": "A component for picking solid colors, gradients and background images for shadcn/ui projects, with a live example app. The repo holds the MIT-licensed component code; GradientPage's background images are non-commercial unless a license is bought.",
+  "type": "component-library",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["gradient picker", "color picker", "gradient", "background image", "shadcn", "radix ui", "tailwind", "react", "next.js", "color theme", "component"],
+  "contains": [
+    "picker for solid colors, gradients and background images",
+    "built with Shadcn UI, Radix UI and Tailwind CSS",
+    "live demo at gradientpicker.vercel.app",
+    "code is MIT; GradientPage background images non-commercial unless licensed"
+  ],
+  "formats": ["code"],
+  "stack": ["react", "nextjs", "tailwind", "radix"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/Illyism/gradient-picker", "docs": "https://gradient.page/picker", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

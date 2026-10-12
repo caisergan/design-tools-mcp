@@ -1,0 +1,36 @@
+{
+  "id": "github-com-ashishps1-awesome-low-level-design",
+  "url": "https://github.com/ashishps1/awesome-low-level-design",
+  "kind": "repo",
+  "hints_hash": "01303325c2732a02",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:58:47Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://github.com/ashishps1/awesome-low-level-design/blob/HEAD/README.md", "title": null, "status": 200 },
+    { "url": "https://github.com/ashishps1/awesome-low-level-design/blob/HEAD/LICENSE", "title": "awesome-low-level-design/LICENSE at 31595db8c21a8f7785b2ef45d90f16fd8053abad · ashishps1/awesome-low-level-design · GitHub", "status": 200 }
+  ],
+  "status": "ok",
+  "name": "Awesome Low Level Design",
+  "summary": "Curated resources to learn low level design and object-oriented design and to prepare for LLD interviews.",
+  "description": "A collection covering OOP fundamentals, class relationships, design principles, design patterns, UML and concurrency, with 33 low level design interview problems grouped easy, medium and hard plus 9 concurrency problems. Also links courses, books and a newsletter.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["low level design", "lld", "object oriented design", "oop", "interview preparation", "design pattern", "solid principle", "uml", "concurrency", "multithreading", "machine coding", "coding interview", "learning resource", "awesome list"],
+  "contains": [
+    "33 LLD interview problems: 7 easy, 15 medium, 11 hard",
+    "OOP fundamentals, class relationships, design principles, design patterns, UML",
+    "concurrency concepts: synchronization primitives, deadlock, thread pool, producer-consumer",
+    "9 concurrency and multithreading coding problems",
+    "creational, structural and behavioral design pattern tables",
+    "guides: how to learn LLD and how to answer an LLD interview problem",
+    "links to courses, books and a newsletter"
+  ],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "GPL-3.0-only",
+  "related": { "repo": "https://github.com/ashishps1/awesome-low-level-design", "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

@@ -1,0 +1,28 @@
+{
+  "id": "logosystem-co",
+  "url": "https://logosystem.co",
+  "kind": "site",
+  "hints_hash": "6549c23c177c492e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:08:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://logosystem.co/llms.txt", "title": "Logo System", "status": null},
+    {"url": "https://logosystem.co", "title": "Logo Inspiration — 1,300+ Logos & Animated Logos | Logosystem", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Logo System",
+  "summary": "Free logo inspiration gallery: 1,300+ logos, wordmarks, symbols and 100+ animated logos, with AI filters.",
+  "description": "Infinite masonry feed of curated logos by well-known designers and studios, filterable by type, industry, style, shape, color and mood. Every logo has a page with designer credit, palette and style tags, and an AI moodboard generator turns a text brief into a curated logo selection.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["logo", "logo inspiration", "wordmark", "symbol", "lettermark", "emblem", "logo design", "animated logo", "logo gallery", "logo archive", "brand identity", "moodboard", "logo idea"],
+  "contains": ["1,300+ curated logos", "100+ animated logo examples", "filters: type, industry, style, shape, color, mood", "per-logo pages with designer, colors, style and description", "AI moodboard generator from a text brief"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

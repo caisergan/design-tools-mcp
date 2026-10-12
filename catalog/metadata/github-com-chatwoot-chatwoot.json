@@ -1,0 +1,38 @@
+{
+  "id": "github-com-chatwoot-chatwoot",
+  "url": "https://github.com/chatwoot/chatwoot",
+  "kind": "repo",
+  "hints_hash": "a23e710150b86d94",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:31:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/chatwoot/chatwoot/blob/HEAD/README.md", "title": "Chatwoot", "status": 200},
+    {"url": "https://www.chatwoot.com/pricing", "title": "Chatwoot Pricing: Free, Cloud & Self-Hosted Plans", "status": 200},
+    {"url": "https://www.chatwoot.com/help-center", "title": "Chatwoot Help Center and Product Documentation", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Chatwoot",
+  "summary": "Open-source, self-hosted customer support desk that funnels live chat, email, WhatsApp and social channels into one inbox.",
+  "description": "An omnichannel support platform and Intercom/Zendesk alternative: website live chat, email, WhatsApp, Telegram, Instagram, SMS and more land in a shared inbox with teams, labels, canned responses, automation, a help center portal, an AI support agent (Captain) and CSAT reports. Self-host free or use the paid cloud plans.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat", "dashboard"],
+  "keywords": ["customer support", "live chat", "help desk", "omnichannel", "shared inbox", "intercom alternative", "zendesk alternative", "self-hosted", "chat widget", "support automation", "ai agent", "csat", "chatbot", "contact management"],
+  "contains": [
+    "omnichannel inbox: live chat, email, Facebook, Instagram, Twitter, WhatsApp, Telegram, Line, SMS",
+    "Captain AI agent for automated replies",
+    "built-in help center portal for articles and FAQs",
+    "collaboration: private notes, @mentions, labels, canned responses, auto-assignment, teams",
+    "integrations: Slack, Dialogflow, Shopify, Linear, Google Translate",
+    "reports: conversation, agent, inbox, label, team, CSAT",
+    "self-host via Heroku or DigitalOcean one-click; MIT licensed",
+    "cloud plans: free up to 2 agents, then $19 per agent per month"
+  ],
+  "formats": ["code", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/chatwoot/chatwoot", "docs": "https://www.chatwoot.com/help-center", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

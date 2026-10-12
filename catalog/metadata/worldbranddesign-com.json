@@ -1,0 +1,27 @@
+{
+  "id": "worldbranddesign-com",
+  "url": "https://worldbranddesign.com",
+  "kind": "site",
+  "hints_hash": "628e0c0d57c18571",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://worldbranddesign.com", "title": "World Brand Design Society", "status": null}
+  ],
+  "status": "partial",
+  "name": "World Brand Design Society",
+  "summary": "Showcase of brand design work: portfolios, awards and recognition for agencies, studios and independent designers.",
+  "description": "A showcase of brand design work for agencies, studios and independent designers, covering portfolios, awards and creative recognition. Content is rendered client-side, so the lists of work were not readable.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["brand design", "branding", "brand identity", "design portfolio", "design award", "creative showcase", "packaging design", "design agency", "design studio", "graphic design", "inspiration"],
+  "contains": ["portfolios, awards and creative recognition for agencies, studios and independent designers"],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

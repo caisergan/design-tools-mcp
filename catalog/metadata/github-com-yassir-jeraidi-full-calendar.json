@@ -1,0 +1,81 @@
+{
+  "id": "github-com-yassir-jeraidi-full-calendar",
+  "url": "https://github.com/yassir-jeraidi/full-calendar",
+  "kind": "repo",
+  "hints_hash": "418d6ce7943207b6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:44Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/yassir-jeraidi/full-calendar/blob/HEAD/README.md",
+      "title": "Full Calendar",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Full Calendar",
+  "summary": "Feature-rich React calendar installable from a shadcn registry, with day, week, month, year and agenda views.",
+  "description": "A calendar component with event create, edit and delete, drag-and-drop across time slots, resizing in day and week views, user filtering, color coding, dark mode and 12/24-hour formats. Install it into a project from a custom shadcn/ui registry; the repo also ships a Next.js 16 demo app.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "calendar"
+  ],
+  "keywords": [
+    "calendar",
+    "calendar component",
+    "react calendar",
+    "event calendar",
+    "shadcn",
+    "shadcn registry",
+    "nextjs",
+    "drag and drop",
+    "agenda view",
+    "month view",
+    "week view",
+    "year view",
+    "event management",
+    "dark mode",
+    "typescript"
+  ],
+  "contains": [
+    "views: day, week, month, year and agenda",
+    "create, edit and delete events",
+    "drag-and-drop and resizing of events",
+    "multi-user support with user filtering",
+    "color-coded events; 12/24-hour toggle; dark mode",
+    "installs from a custom shadcn registry (6 items)",
+    "MIT license; Next.js 16, React 19, Tailwind 4, Motion 12 demo"
+  ],
+  "formats": [
+    "code",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "radix",
+    "framer-motion",
+    "date-fns",
+    "zod",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/yassir-jeraidi/full-calendar",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

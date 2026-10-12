@@ -1,0 +1,29 @@
+{
+  "id": "colormind-io",
+  "url": "https://colormind.io",
+  "kind": "site",
+  "hints_hash": "e12f6c3c535276da",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:28:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://colormind.io", "title": "Colormind - the AI powered color palette generator", "status": null},
+    {"url": "https://colormind.io/template/paper-dashboard", "title": "Colormind - Generate dashboard template colors", "status": null},
+    {"url": "https://colormind.io/api-access/", "title": "Colormind API - extracting colors from photos and video", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Colormind",
+  "summary": "AI color palette generator that builds color schemes with a deep neural net, plus a free REST API.",
+  "description": "Generates five-color palettes in one click with a deep-learning model that has learned color styles from photographs, film and games; datasets such as Pokemon Crystal palettes, Makoto Shinkai films, portrait photography and technicolor cinema rotate daily. Lock any color to steer generation, apply palettes to Bootstrap dashboard templates, or call the REST API, which is free for personal and non-commercial use.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": [],
+  "keywords": ["color palette", "color scheme generator", "ai color palette", "deep learning", "machine learning", "palette from image", "color inspiration", "rest api", "hex color", "ui color", "bootstrap theme", "palette generator", "color tool"],
+  "contains": ["5-color palettes generated in one click", "lock colors to constrain generation", "daily rotating learned datasets: Pokemon Crystal, Makoto Shinkai, portrait photography, film stills", "image upload to extract colors from photos and video", "palette previews on Bootstrap templates (Paper Dashboard, Material Dashboard)", "REST API free for personal and non-commercial use"],
+  "formats": ["app", "api"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "vibe-coding-visual-guide-vercel-app",
+  "url": "https://vibe-coding-visual-guide.vercel.app",
+  "kind": "site",
+  "hints_hash": "21b9056457fa9322",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:14:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://vibe-coding-visual-guide.vercel.app", "title": "Vibe Coding Visual Guide - Component Reference for AI Development", "status": null}
+  ],
+  "status": "ok",
+  "name": "Vibe Coding Visual Guide",
+  "summary": "Interactive visual reference of UI components with copy-ready prompts for AI coding assistants.",
+  "description": "Browse UI components from shadcn/ui, HTML5 and Material-UI as visuals, adjust their options, then copy a ready vibe prompt or code to paste into an AI coding assistant. Built to help people name the component they mean instead of describing a \"floating thingy\".",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["modal"],
+  "keywords": ["vibe coding", "component reference", "ui component", "component gallery", "visual reference", "ai prompt", "describe ui component", "ui terminology", "shadcn ui", "material ui", "html5", "copy prompt", "code snippet", "popup", "modal", "prompt for ai", "frontend component"],
+  "contains": ["interactive component gallery covering shadcn/ui, HTML5 and Material-UI sets", "customization options per component", "one-click copy of a vibe prompt or code snippet", "browse, customize, copy, paste flow for AI coding assistants"],
+  "formats": ["prompts", "code"],
+  "stack": ["react"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

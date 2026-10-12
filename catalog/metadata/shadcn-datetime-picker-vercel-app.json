@@ -1,0 +1,27 @@
+{
+  "id": "shadcn-datetime-picker-vercel-app",
+  "url": "https://shadcn-datetime-picker.vercel.app",
+  "kind": "site",
+  "hints_hash": "da3e595a85bbd189",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcn-datetime-picker.vercel.app", "title": "Shadcn DateTime Picker", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn DateTime Picker",
+  "summary": "A datetime picker demo built on shadcn/ui, @daypicker/react v10 and Base UI, with 3 variants and 16+ features.",
+  "description": "A fully-featured date and time picker built on shadcn/ui, @daypicker/react v10 and Base UI. The demo shows a calendar plus time picker in one popover, with a 12-hour format, 30-minute intervals, min/max dates, business hours (9 AM – 5 PM), a timezone selector, Monday week start, disabled weekends and a full booking scenario. Fully responsive.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["date-picker", "popover", "calendar"],
+  "keywords": ["datetime picker", "date picker", "time picker", "shadcn ui", "react", "daypicker", "base ui", "timezone", "booking", "calendar", "popover", "form"],
+  "contains": ["3 variants of the picker", "16+ features", "calendar and time picker in a single popover", "12-hour format with 30-minute intervals", "min/max dates and business hours", "timezone selector and Monday week start", "booking and disabled scenarios", "built on shadcn/ui, @daypicker/react v10 and Base UI"],
+  "formats": ["code"],
+  "stack": ["react", "shadcn-ui", "base-ui", "daypicker", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

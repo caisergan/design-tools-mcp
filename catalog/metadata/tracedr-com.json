@@ -1,0 +1,71 @@
+{
+  "id": "tracedr-com",
+  "url": "https://tracedr.com",
+  "kind": "site",
+  "hints_hash": "aaa048918c3cce69",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:52Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tracedr.com",
+      "title": "Track your Domain Rating - TraceDR",
+      "status": null
+    },
+    {
+      "url": "https://tracedr.com/about",
+      "title": "About - TraceDR",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "TraceDR",
+  "summary": "Public Ahrefs Domain Rating tracker with daily snapshots, a leaderboard and 7-day movement history.",
+  "description": "TraceDR stores daily snapshots of Ahrefs Domain Rating so a domain's rating is visible as history instead of only a current score. It offers a public dashboard with a DR leaderboard and 7-day movers, a domain search, and a personal account for following a chosen list of domains.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "stats",
+    "table",
+    "chart"
+  ],
+  "keywords": [
+    "domain rating",
+    "domain authority",
+    "ahref",
+    "seo",
+    "rank tracker",
+    "domain tracker",
+    "backlink",
+    "seo tool",
+    "leaderboard",
+    "website metric"
+  ],
+  "contains": [
+    "Ahrefs Domain Rating history per tracked domain",
+    "daily snapshots refreshed every 24 hours",
+    "public dashboard: leaderboard, top movers, 7-day changes",
+    "396 domains tracked in the public dashboard",
+    "personal account to follow your own domains"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

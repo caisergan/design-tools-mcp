@@ -1,0 +1,85 @@
+{
+  "id": "github-com-johnakande-agentic-ai-seo-skill",
+  "url": "https://github.com/johnakande/Agentic-AI-SEO-Skill",
+  "kind": "repo",
+  "hints_hash": "2a240d1cfe401f15",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/johnakande/Agentic-AI-SEO-Skill/blob/HEAD/README.md",
+      "title": "Agentic AI-SEO Skill",
+      "status": null
+    },
+    {
+      "url": "https://github.com/johnakande/Agentic-AI-SEO-Skill/blob/HEAD/SKILL.md",
+      "title": "Agentic AI-SEO Skill",
+      "status": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/johnakande/Agentic-AI-SEO-Skill/HEAD/README.md",
+      "title": "Agentic AI-SEO Skill",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Agentic AI-SEO Skill",
+  "summary": "SEO analysis skill for coding agents: 24 sub-skills cover technical SEO, schema, content quality, GEO, AEO and local SEO.",
+  "description": "A free, open-source SEO skill for agent hosts that read a SKILL.md. The /agentic-ai-seo-skill orchestrator detects the business type and routes to 24 sub-skills (technical SEO, schema markup, E-E-A-T content quality, GEO, AEO, local SEO, GitHub repository SEO), synthesizing findings through a PERCEIVE → ANALYZE → VALIDATE → ACT framework with an SEO Health Score and a prioritized action plan; python3 scripts act as evidence collectors.",
+  "type": "agent-skill",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "seo",
+    "audit",
+    "agent skill",
+    "claude code",
+    "codex",
+    "schema markup",
+    "core web vital",
+    "e-e-a-t",
+    "geo",
+    "aeo",
+    "ai overview",
+    "local seo",
+    "technical seo",
+    "github seo",
+    "sitemap",
+    "backlink",
+    "content brief",
+    "keyword cluster"
+  ],
+  "contains": [
+    "24 sub-skills behind one orchestrator command",
+    "24 commands including audit, page, technical, content, schema, sitemap, geo, aeo, local, drift and github",
+    "PERCEIVE → ANALYZE → VALIDATE → ACT audit framework; SEO Health Score (0-100)",
+    "installs via Skills CLI or Claude Code plugin; host notes for OpenCode, Antigravity, Cursor, Windsurf, Copilot, Cline",
+    "plain Markdown with YAML frontmatter; optional python3 script evidence collectors",
+    "free and open source"
+  ],
+  "formats": [
+    "prompts",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "python"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/johnakande/Agentic-AI-SEO-Skill",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

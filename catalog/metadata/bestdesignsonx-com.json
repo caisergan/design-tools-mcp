@@ -1,0 +1,29 @@
+{
+  "id": "bestdesignsonx-com",
+  "url": "https://bestdesignsonx.com",
+  "kind": "site",
+  "hints_hash": "413910adfc39c032",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bestdesignsonx.com", "title": "Best Designs On X.com", "status": null},
+    {"url": "https://bestdesignsonx.com/about", "title": "Best Designs On X.com", "status": 200},
+    {"url": "https://bestdesignsonx.com/feed", "title": "Best Designs On X.com", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Best Designs On X.com",
+  "summary": "Gallery of design work picked from X — visual showcases, logos, UI and branding — refreshed hourly.",
+  "description": "A stream of design inspiration collected from creatives on X (Twitter): visual showcases, logos, UI, branding and more, updated hourly.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["design inspiration", "twitter design", "ui showcase", "logo inspiration", "branding inspiration", "graphic design", "design gallery", "social media design", "design feed"],
+  "contains": ["hand-picked design posts from X, updated hourly", "covers visual showcases, logos, UI and branding"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.5
+}

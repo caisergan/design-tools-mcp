@@ -1,0 +1,20 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11742",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11742",
+  "kind": "page",
+  "hints_hash": "71531838dbb04a50",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11742", "title": "fix(cli): reap running monitors when the process dies on an uncaught exception by yiliang114 · Pull Request #11742 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(cli): reap running monitors when the process dies on an uncaught exception",
+  "summary": "Merged pull request in QwenLM/qwen-code: the CLI reaps monitor processes before exiting on an uncaught exception instead of orphaning them.",
+  "description": "A merged pull request (#11742) in QwenLM/qwen-code: when the interactive CLI process dies on an uncaught exception, the session-aware handler aborts every running monitor (MonitorRegistry.abortAll with notify: false) before process.exit(1), so the monitor tool group-kills its detached child processes instead of leaving them orphaned and unreachable to a resumed session. Fixes the orphaned-monitor half of #11732.",
+  "keywords": ["pull request", "ai coding agent", "cli", "terminal", "monitor", "orphan process", "process cleanup", "uncaught exception", "crash handler", "bug fix", "open source"],
+  "formats": ["code"],
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

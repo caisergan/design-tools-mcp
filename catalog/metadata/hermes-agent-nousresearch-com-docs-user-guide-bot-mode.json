@@ -1,0 +1,29 @@
+{
+  "id": "hermes-agent-nousresearch-com-docs-user-guide-bot-mode",
+  "url": "https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode",
+  "kind": "page",
+  "hints_hash": "30a36221a219196c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:08:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode", "title": "Bot Mode | Hermes Agent", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Bot Mode",
+  "summary": "Hermes Agent's built-in Bot Mode: profiles become named bots, each with its own persistent chat, model, memory and skills.",
+  "description": "A user-guide page for Bot Mode in the Hermes Agent desktop app, where it is on by default as a Bots tab beside Sessions in the left sidebar. A bot is a Hermes profile — isolated config, memory, skills, credentials and chat history under ~/.hermes/profiles/<name>/ — and Bot Mode adds one permanent Bot Chat per bot, avatars, voices, recurring routines, group chats, bot-to-bot messaging, sections and CLI parity.",
+  "elements": ["chat", "avatar", "prompt-input"],
+  "keywords": ["bot mode", "ai agent", "agent profile", "persistent chat", "group chat", "agent routine", "scheduled task", "agent memory", "agent skill", "desktop app", "chat ui", "multi agent", "bot roster"],
+  "contains": [
+    "Bot Mode is built into the desktop app and on by default",
+    "a bot is a Hermes profile: isolated config, memory, skills, credentials and chat history",
+    "one permanent Bot Chat per bot; /new is rerouted to /compact",
+    "routines are scheduled beside each chat and appear in hermes cron list",
+    "group chats, bot-to-bot messaging and a cross-machine relay",
+    "roster with avatars, sections, search, hiding and an activity filter"
+  ],
+  "formats": ["docs"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

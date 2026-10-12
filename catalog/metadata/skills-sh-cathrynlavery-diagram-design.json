@@ -1,0 +1,70 @@
+{
+  "id": "skills-sh-cathrynlavery-diagram-design",
+  "url": "https://skills.sh/cathrynlavery/diagram-design",
+  "kind": "page",
+  "hints_hash": "fefb76a4e4463395",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:15:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://skills.sh/cathrynlavery/diagram-design",
+      "title": "cathrynlavery/diagram-design — Agent skills",
+      "status": null
+    },
+    {
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "title": "GitHub - cathrynlavery/diagram-design: Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Diagram Design",
+  "summary": "Agent skill that draws 44 diagram types as one self-contained HTML + SVG file, matched to your brand.",
+  "description": "One skill installed with npx skills add for Claude Code, Codex, GitHub Copilot, Cursor and other hosts. It picks a diagram type - architecture, flowchart, sequence, quadrant, sankey and more - and writes a single self-contained HTML + SVG file in minimal light, minimal dark or full-editorial variants, placed by the agent on a 4px grid. It can pull your site's palette and fonts for brand matching, imports Mermaid, draw.io and Excalidraw sources, and exports SVG or PNG.",
+  "type": "agent-skill",
+  "keywords": [
+    "agent skill",
+    "diagram",
+    "svg diagram",
+    "architecture diagram",
+    "flowchart",
+    "sequence diagram",
+    "quadrant chart",
+    "sankey",
+    "data visualization",
+    "export svg",
+    "export png",
+    "mermaid import",
+    "brand color",
+    "editorial design"
+  ],
+  "contains": [
+    "1 skill (diagram-design)",
+    "9.6K installs on skills.sh",
+    "44 diagram types, each in 3 variants",
+    "output: one self-contained HTML + SVG file",
+    "imports Mermaid, draw.io and Excalidraw; exports SVG or PNG",
+    "MIT licensed"
+  ],
+  "formats": [
+    "docs",
+    "prompts",
+    "svg"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/cathrynlavery/diagram-design",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "skills-sh"
+  },
+  "confidence": 0.85
+}

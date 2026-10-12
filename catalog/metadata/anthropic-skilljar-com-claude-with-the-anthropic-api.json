@@ -1,0 +1,33 @@
+{
+  "id": "anthropic-skilljar-com-claude-with-the-anthropic-api",
+  "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+  "kind": "page",
+  "hints_hash": "478a358bd4977d70",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api", "title": "Building with the Claude API", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Building with the Claude API",
+  "summary": "Free video course on building with the Claude API: prompting, tool use, RAG, MCP, caching, agents and evals.",
+  "description": "An Anthropic Academy video course for developers integrating Claude into applications. It covers API setup and authentication, multi-turn conversations, system prompts, temperature, streaming and structured output, prompt evaluation, prompt engineering, tool use, RAG with embeddings and BM25, extended thinking, images, PDFs, citations and prompt caching, MCP servers and clients, Claude Code and computer use, and agent workflows. Prerequisites are Python and JSON; registration is free.",
+  "type": "course",
+  "elements": [],
+  "keywords": ["api course", "video course", "prompt engineering", "tool use", "function calling", "rag", "retrieval augmented generation", "embedding", "prompt caching", "extended thinking", "mcp", "model context protocol", "agent", "computer use", "eval", "llm", "python", "developer course"],
+  "contains": [
+    "free registration; prerequisites: Python and JSON",
+    "API access, auth, multi-turn conversations, system prompts, streaming and structured output",
+    "prompt evaluation: test datasets, model-based and code-based grading",
+    "tool use: schemas, multiple tools, web search, text edit tool",
+    "RAG: chunking, embeddings, BM25 and a multi-index pipeline",
+    "features: extended thinking, images, PDFs, citations, prompt caching, Files API",
+    "MCP servers and clients",
+    "Claude Code, computer use and agent workflows (parallelization, chaining, routing)"
+  ],
+  "formats": ["video"],
+  "pricing": "free",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "anthropic-skilljar-com"},
+  "confidence": 0.9
+}

@@ -1,0 +1,125 @@
+{
+  "id": "codedvisuals-com-visuals",
+  "url": "https://codedvisuals.com/visuals",
+  "kind": "page",
+  "hints_hash": "976c2dac86102220",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://codedvisuals.com/visuals",
+      "title": "Explore all coded visuals and illustrations - CodedVisuals",
+      "status": 200
+    },
+    {
+      "url": "https://codedvisuals.com/pricing",
+      "title": "Pricing - CodedVisuals",
+      "status": 200
+    },
+    {
+      "url": "https://codedvisuals.com/docs",
+      "title": "Introduction - CodedVisuals",
+      "status": 200
+    },
+    {
+      "url": "https://codedvisuals.com/license",
+      "title": "License - CodedVisuals",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CodedVisuals",
+  "summary": "Index of 122 animated, copy-paste coded illustrations for React and shadcn/ui, with 1150+ ready-made variations across 32 categories.",
+  "description": "CodedVisuals is a library of animated visual compositions: self-contained React components you drop into marketing sites and landing pages instead of static illustration packs. Every composition is a single typed .tsx file styled with shadcn/ui design tokens, animated with Motion, and installable through the shadcn registry or CLI; light and dark mode come free.",
+  "type": "component-library",
+  "elements": [
+    "chart",
+    "progress",
+    "bento-grid",
+    "cta",
+    "features",
+    "footer",
+    "navbar",
+    "hero",
+    "logo-cloud",
+    "stats",
+    "team",
+    "testimonials",
+    "calendar",
+    "avatar",
+    "chat",
+    "ai-agent-ui",
+    "prompt-input",
+    "timeline",
+    "table",
+    "background",
+    "map"
+  ],
+  "keywords": [
+    "animated illustration",
+    "coded illustration",
+    "react component",
+    "copy paste",
+    "shadcn registry",
+    "tailwind",
+    "typescript",
+    "marketing site",
+    "landing page",
+    "chart",
+    "ai agent",
+    "chat",
+    "calendar",
+    "avatar",
+    "timeline",
+    "bento grid",
+    "hero",
+    "navbar",
+    "footer",
+    "dashboard visual",
+    "dark mode",
+    "design token",
+    "motion",
+    "mcp server",
+    "agent skill"
+  ],
+  "contains": [
+    "122 animated coded illustrations with 1150+ ready-made variations across 32 categories",
+    "install through the shadcn registry or CLI, or copy the code by hand",
+    "single-file React + TypeScript components styled with shadcn/ui tokens, Tailwind CSS v4 and Motion",
+    "visual groups include charts, AI agent UI, chat, calendar, avatars, data, integrations and page sections",
+    "AI Skills package and shadcn MCP server support included",
+    "pricing: Solo $69 one-time (launch price, $99 after) and Team license; lifetime updates",
+    "5 compositions published on GitHub as a free sample",
+    "sold under Solo and Team licenses for unlimited personal and commercial projects"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs",
+    "prompts"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "framer-motion",
+    "lucide-react"
+  ],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": "https://codedvisuals.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "xsgames-co-animatiss",
+  "url": "https://xsgames.co/animatiss",
+  "kind": "page",
+  "hints_hash": "9a3516da9c8a4985",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:36:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://xsgames.co/animatiss", "title": "AnimatiSS - A nice, colorful collection of CSS animations for your projects", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AnimatiSS",
+  "summary": "Collection of CSS animations you preview live and copy the keyframe code from — scale, rotate, slide, shadow, blur, shake and more.",
+  "description": "A preview gallery of CSS animations, grouped by effect: scale up and down, rotate, rotate and scale, swing, slide, shadow, tracking in/out, blur and special. Click any style — for example scale-up-center or shadow-drop-top-left — to see it run and grab its CSS code for your own project.",
+  "type": "tool",
+  "categories": ["motion"],
+  "elements": [],
+  "keywords": ["css animation", "keyframe animation", "css library", "animation preview", "hover animation", "entrance animation", "scale animation", "rotate animation", "slide animation", "shadow animation", "blur animation", "copy paste css", "css snippet", "web animation", "motion effect"],
+  "contains": ["preview gallery of CSS keyframe animations", "effect groups: scale, rotate, swing, slide, shadow, tracking, blur, special", "click a style to copy its CSS code"],
+  "formats": ["code"],
+  "stack": ["css"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

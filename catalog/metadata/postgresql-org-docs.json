@@ -1,0 +1,42 @@
+{
+  "id": "postgresql-org-docs",
+  "url": "https://postgresql.org/docs",
+  "kind": "page",
+  "hints_hash": "8339b23a83ecd3b7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://postgresql.org/docs",
+      "title": "PostgreSQL: Documentation",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "PostgreSQL Documentation",
+  "summary": "Index of the PostgreSQL manuals for every supported version, with online and PDF versions plus translated manuals.",
+  "keywords": [
+    "postgresql",
+    "postgres",
+    "documentation",
+    "manual",
+    "sql reference",
+    "database",
+    "release note",
+    "pdf manual",
+    "database docs"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

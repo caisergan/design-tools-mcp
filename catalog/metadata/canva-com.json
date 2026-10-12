@@ -1,0 +1,29 @@
+{
+  "id": "canva-com",
+  "url": "https://canva.com",
+  "kind": "site",
+  "hints_hash": "4e99f26752b5599f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://canva.com", "title": "Unsupported client – Canva", "status": 200},
+    {"url": "https://www.canva.com/about", "title": "About Canva", "status": 200},
+    {"url": "https://www.canva.com/pricing/", "title": "Unsupported client – Canva", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Canva",
+  "summary": "Online design and publishing tool: make social posts, presentations, videos, print and websites from templates.",
+  "description": "Web design platform launched in 2013, used by 220M+ monthly users across 190 countries and 100+ languages. Its surfaces cover social posts, presentations, whiteboards, docs and sheets, photo and video editing, print products, website building and PDF editing, with features like background remover, mockups, image enhancer and AI image generation; Plans and Canva for business sections add Pro and business tiers, and the homepage serves a browser-support wall to older clients.",
+  "type": "tool",
+  "categories": ["design-tools", "media"],
+  "elements": [],
+  "keywords": ["graphic design", "design tool", "design template", "social media post", "presentation", "poster", "flyer", "photo editor", "video editor", "whiteboard", "website builder", "pdf editor", "background remover", "mockup", "ai image generator", "print design", "logo", "invitation", "business card", "banner"],
+  "contains": ["220M+ monthly active users, 30B+ designs created, 190 countries, 100+ languages", "surfaces: social, presentations, whiteboards, docs, sheets, video, print, websites, PDF", "features: background remover, photo collages, mockups, image enhancer, AI image generator, draw, logos", "Plans and Canva for business sections; Canva Pro referenced in customer quotes", "awards: 2024 Privacy by Design, 2023/2024 Innovation by Design, 2022 Smartling accessibility", "iOS and Android apps offered alongside the web editor"],
+  "formats": ["templates", "app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

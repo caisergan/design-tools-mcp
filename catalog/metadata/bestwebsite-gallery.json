@@ -1,0 +1,35 @@
+{
+  "id": "bestwebsite-gallery",
+  "url": "https://bestwebsite.gallery",
+  "kind": "site",
+  "hints_hash": "ea02b30ac74fcef8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:40Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://bestwebsite.gallery", "title": "Best Website Gallery | Web Design Inspiration – by @davidhellmann", "status": null},
+    {"url": "https://bestwebsite.gallery/sites/sotd/2026/10/07/hold", "title": "Hold | Best Website Gallery", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Best Website Gallery",
+  "summary": "Handpicked website design inspiration: 2,600+ real sites with screenshots and ratings, tagged by creator, country, color and style.",
+  "description": "A curated showcase of handpicked websites, running since 2008 with a daily Site of the Day. Each entry links to the live site and includes full-page screenshots, community ratings for design, usability and creativity, and tags for color, style, services, creator and country. A companion Links section features design articles and resources.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["globe", "switch", "list", "team", "ai-agent-ui", "404", "calendar", "3d", "drawer", "button", "toast", "chart"],
+  "keywords": ["website gallery", "web design inspiration", "design showcase", "site of the day", "website screenshot", "landing page inspiration", "portfolio inspiration", "interactive website", "website rating", "web design", "curated website", "design link"],
+  "contains": [
+    "2,641 handpicked website examples",
+    "Site of the Day since 2008",
+    "full-page screenshots (up to 4 per site)",
+    "community ratings: design, usability, creativity",
+    "tags: color, style, service, creator, country",
+    "links feed of design articles and resources"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

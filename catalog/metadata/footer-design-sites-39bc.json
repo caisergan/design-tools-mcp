@@ -1,0 +1,25 @@
+{
+  "id": "footer-design-sites-39bc",
+  "url": "https://footer.design/sites/39bc",
+  "kind": "page",
+  "hints_hash": "21ffd03fdc114d1f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/39bc", "title": "Footer | 39BC", "status": 200}
+  ],
+  "status": "ok",
+  "name": "39BC",
+  "summary": "Footer design from the 39BC skincare ecommerce site, with desktop and mobile screenshots and style tags.",
+  "description": "A footer design entry in the Footr Design gallery. It shows desktop and mobile views of the 39BC site footer, with footnotes for styles (flat, elegant, small type, monochromatic, bright, calm), type (beauty, ecommerce), designer (Bernardo Lickfold) and date added (August 18, 2026), plus similar footer designs.",
+  "elements": ["footer"],
+  "keywords": ["footer", "footer design", "website footer", "ecommerce footer", "beauty brand", "skincare", "minimal footer", "desktop footer", "mobile footer", "footer inspiration", "footer gallery"],
+  "contains": ["desktop and mobile footer screenshots", "footnotes: styles, type, designer, date added", "styles: flat, elegant, small type, monochromatic, bright, calm", "type: beauty, ecommerce", "designed by Bernardo Lickfold", "link to the live 39BC site"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

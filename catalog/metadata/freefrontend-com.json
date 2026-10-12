@@ -1,0 +1,28 @@
+{
+  "id": "freefrontend-com",
+  "url": "https://freefrontend.com",
+  "kind": "site",
+  "hints_hash": "c4e36fbdd22a08be",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:04:13Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://freefrontend.com", "title": "FreeFrontend", "status": null},
+    {"url": "https://freefrontend.com/about-me", "title": "About Me", "status": 200}
+  ],
+  "status": "ok",
+  "name": "FreeFrontend",
+  "summary": "Curated collection of free HTML, CSS, JavaScript, Bootstrap and Tailwind snippets.",
+  "description": "Hand-picked front-end code snippets and examples, browsable by category (HTML, CSS, JavaScript, Bootstrap, Tailwind) with live previews and copy-paste code. Each snippet notes level, browser support and size, and snippets can be saved to a local bookmark list.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["3d", "card", "button", "scroll-effect", "switch", "loader", "slider", "cursor", "carousel", "navbar", "checkbox", "accordion"],
+  "keywords": ["html snippet", "css snippet", "javascript snippet", "frontend example", "bootstrap component", "tailwind component", "copy paste code", "ui component", "css animation", "hover effect", "free code example", "checkbox", "button", "loader", "navbar"],
+  "contains": ["362 collection pages and 1,284 URLs in the sitemap", "snippets tagged by level, browser support and size", "categories: HTML, CSS, JavaScript, Bootstrap, Tailwind", "saved snippets list stored in local storage", "CSS button generator"],
+  "formats": ["code"],
+  "stack": ["css", "javascript", "bootstrap", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

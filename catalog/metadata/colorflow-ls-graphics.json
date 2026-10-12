@@ -1,0 +1,27 @@
+{
+  "id": "colorflow-ls-graphics",
+  "url": "https://colorflow.ls.graphics",
+  "kind": "site",
+  "hints_hash": "6ca727b2a773bec1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:11:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://colorflow.ls.graphics", "title": "ColorFlow - Advanced Mesh Gradient Generator & Editor", "status": null}
+  ],
+  "status": "partial",
+  "name": "ColorFlow",
+  "summary": "Browser-based mesh gradient generator and editor with real-time preview and export options.",
+  "description": "Mesh gradient editor that runs in the browser: build a gradient, adjust its control points and preview the result in real time, then export it. Aimed at designers and developers.",
+  "type": "generator",
+  "categories": ["color-effects"],
+  "elements": ["background"],
+  "keywords": ["mesh gradient", "gradient generator", "gradient editor", "control point", "real-time preview", "color", "export", "design tool"],
+  "contains": ["browser-based mesh gradient generator", "real-time preview", "customizable control points", "export options"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

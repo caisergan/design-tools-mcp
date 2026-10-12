@@ -1,0 +1,101 @@
+{
+  "id": "flowbite-com",
+  "url": "https://flowbite.com",
+  "kind": "site",
+  "hints_hash": "d9a9d3360385351b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "commandcode/deepseek/deepseek-v4.1-flash:max",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://flowbite.com/",
+      "title": null,
+      "status": 200
+    },
+    {
+      "url": "https://flowbite.com/docs/getting-started/introduction/",
+      "title": "Flowbite - Tailwind CSS component library",
+      "status": 200
+    },
+    {
+      "url": "https://flowbite.com/docs/getting-started/license/",
+      "title": "Flowbite - License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Flowbite",
+  "summary": "Open-source Tailwind CSS component library with 56+ component types, Figma design files, SVG icons and a paid Pro version.",
+  "description": "Open-source UI component library built on Tailwind CSS. Install it as an npm plugin or CDN script; interactive components (dropdowns, modals, tooltips, date pickers) work through data attributes or init functions, with TypeScript support. Ships with a Figma design system, 430+ SVG icons, framework guides and a Pro version with 450+ sections and pages.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "alert",
+    "breadcrumbs",
+    "button",
+    "date-picker",
+    "dropdown",
+    "modal",
+    "navbar",
+    "pagination",
+    "tooltip"
+  ],
+  "keywords": [
+    "tailwind",
+    "tailwind css",
+    "component library",
+    "ui component",
+    "design system",
+    "figma",
+    "dark mode",
+    "svg icon",
+    "date picker",
+    "modal",
+    "dropdown",
+    "navbar",
+    "typescript",
+    "javascript",
+    "npm",
+    "open source",
+    "react"
+  ],
+  "contains": [
+    "over 56 types of UI components built with Tailwind CSS",
+    "install via npm plugin, CDN or bundled JS",
+    "interactive components via data attributes or JS init functions with TypeScript support",
+    "Figma design system based on the Tailwind CSS classes",
+    "430+ solid and outline SVG icons",
+    "Pro version: 450+ sections and advanced UI components",
+    "framework guides: React, Next.js, Vue, Svelte, Angular, Astro and more",
+    "MIT-licensed released code"
+  ],
+  "formats": [
+    "code",
+    "npm-package",
+    "figma-file",
+    "svg",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "tailwind",
+    "javascript",
+    "typescript"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://flowbite.com/docs/getting-started/introduction/",
+    "npm": "flowbite",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

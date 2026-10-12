@@ -1,0 +1,35 @@
+{
+  "id": "github-com-rohitg00-awesome-claude-design",
+  "url": "https://github.com/rohitg00/awesome-claude-design",
+  "kind": "repo",
+  "hints_hash": "8d236c3d338741f0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:30:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/rohitg00/awesome-claude-design/blob/HEAD/README.md", "title": "Awesome Claude Design", "status": null},
+    {"url": "https://raw.githubusercontent.com/rohitg00/awesome-claude-design/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Claude Design",
+  "summary": "Curated collection around Claude Design: DESIGN.md files by aesthetic family, remix recipes, prompt packs and community signal.",
+  "description": "An awesome-list style collection about Anthropic's Claude Design workspace: DESIGN.md files grouped into six aesthetic families (editorial minimalism, terminal-core, warm editorial, data-dense pro, cinematic dark, playful color), remix recipes, prompt packs with example outputs, skills, video teardowns, feature and pricing comparisons, showcase builds, launch-week community takes and an anti-slop kit.",
+  "type": "directory",
+  "categories": ["design-rules", "learning"],
+  "elements": [],
+  "keywords": ["claude design", "design.md", "prompt pack", "aesthetic", "remix recipe", "design system", "showcase", "teardown", "comparison", "brutalist", "editorial design", "terminal aesthetic", "data dense", "cinematic", "dark mode", "landing page", "prompt", "community"],
+  "contains": [
+    "DESIGN.md files grouped into six aesthetic families (editorial, terminal, warm, data-dense, cinematic, playful)",
+    "comparison table across Claude Design, Figma Make, Lovable, v0, Stitch and SuperDesign",
+    "video teardowns, showcase builds, community takes and Hacker News pulse",
+    "feature map, launch timeline and quota / token budget notes",
+    "anti-slop kit covering Claude Design's default fingerprints",
+    "prompt packs, cookbooks, skills, plugins, workflows and international coverage"
+  ],
+  "formats": ["prompts", "docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/rohitg00/awesome-claude-design", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

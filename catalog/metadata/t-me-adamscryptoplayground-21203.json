@@ -1,0 +1,64 @@
+{
+  "id": "t-me-adamscryptoplayground-21203",
+  "url": "https://t.me/AdamsCryptoPlayground/21203",
+  "kind": "page",
+  "hints_hash": "361639ef02beba1d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://t.me/AdamsCryptoPlayground/21203",
+      "title": "Telegram: View @AdamsCryptoPlayground",
+      "status": null
+    },
+    {
+      "url": "https://t.me/s/AdamsCryptoPlayground/21203",
+      "title": "Adam's Crypto Playground – Telegram",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Adam's Crypto Playground",
+  "summary": "Telegram post in Adam's Crypto Playground, a crypto channel where the author shares token buys with gmgn.ai links.",
+  "description": "One post (no. 21203) from the Telegram channel Adam's Crypto Playground (@AdamsCryptoPlayground, about 7.33K subscribers, 1.53K photos, 93 videos). The post announces a token buy (\"aped some 6k\") and links to the token's gmgn.ai page; the channel description carries a trading disclaimer and marketing contacts.",
+  "type": "article",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "telegram",
+    "telegram channel",
+    "channel post",
+    "crypto",
+    "trading",
+    "token",
+    "token link",
+    "social posts",
+    "link"
+  ],
+  "contains": [
+    "1 Telegram post from a crypto channel",
+    "channel: 7.33K subscribers, 1.53K photos, 93 videos",
+    "the post links to a token page on gmgn.ai"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

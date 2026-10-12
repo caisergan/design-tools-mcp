@@ -1,0 +1,28 @@
+{
+  "id": "github-com-openai-openai-agents-python",
+  "url": "https://github.com/openai/openai-agents-python",
+  "kind": "repo",
+  "hints_hash": "0d9338f00cbbf26d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/openai/openai-agents-python/blob/HEAD/README.md", "title": "OpenAI Agents SDK", "status": 200},
+    {"url": "https://github.com/openai/openai-agents-python/blob/HEAD/LICENSE", "title": "LICENSE · openai/openai-agents-python", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenAI Agents SDK",
+  "summary": "Python framework for building multi-agent workflows with agents, handoffs, guardrails, sandbox, realtime and voice agents.",
+  "description": "Provider-agnostic Python framework for building multi-agent workflows: agents configured with instructions, tools, guardrails and handoffs, plus sandbox, realtime and voice agents. Works with the OpenAI Responses and Chat Completions APIs and 100+ other LLMs; a JavaScript/TypeScript version exists separately.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai agent framework", "multi-agent workflow", "agent handoff", "guardrail", "python sdk", "agent orchestration", "llm", "voice agent", "realtime agent", "sandbox agent", "agents sdk"],
+  "contains": ["agents: LLMs with instructions, tools, guardrails and handoffs", "sandbox agents, realtime agents and voice agents", "provider-agnostic: OpenAI Responses and Chat Completions APIs, 100+ other LLMs", "examples folder with hello world notebooks", "Python package; separate JS/TS version"],
+  "formats": ["code", "docs"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/openai/openai-agents-python", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

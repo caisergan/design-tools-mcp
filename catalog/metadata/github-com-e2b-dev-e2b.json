@@ -1,0 +1,36 @@
+{
+  "id": "github-com-e2b-dev-e2b",
+  "url": "https://github.com/e2b-dev/E2B",
+  "kind": "repo",
+  "hints_hash": "dcf540fc03529c0a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/e2b-dev/E2B/blob/HEAD/README.md", "title": null, "status": null},
+    {"url": "https://github.com/e2b-dev/E2B", "title": "GitHub - e2b-dev/E2B: Open-source, secure environment with real-world tools for enterprise-grade agents. · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/e2b-dev/E2B/HEAD/LICENSE", "title": null, "status": 200},
+    {"url": "https://e2b.dev/pricing", "title": "Pricing | E2B — The AI Agent Cloud", "status": 200}
+  ],
+  "status": "ok",
+  "name": "E2B",
+  "summary": "Open-source sandboxes for running AI-generated code securely, driven from JavaScript and Python SDKs.",
+  "description": "Open-source infrastructure that runs AI-generated code in secure, isolated cloud sandboxes, started and controlled from JavaScript or Python SDKs. Separate Code Interpreter and Desktop SDKs cover code execution and mouse, keyboard, screenshot and desktop-streaming automation. Sandboxes can also be self-hosted with Terraform on AWS, GCP, Azure or a general Linux machine.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["code sandbox", "sandboxed code execution", "ai agent", "code interpreter", "python", "javascript", "sdk", "secure environment", "cloud sandbox", "computer use", "desktop automation", "self-hosting", "terraform", "llm code execution"],
+  "contains": [
+    "runs AI-generated code in isolated cloud sandboxes",
+    "JavaScript and Python SDKs",
+    "Code Interpreter and Desktop (computer use) SDKs",
+    "self-hosting via Terraform on AWS, GCP, Azure or Linux",
+    "free Hobby tier with $100 usage credit; Pro $150/month"
+  ],
+  "formats": ["code", "api", "docs"],
+  "stack": ["javascript", "python", "terraform"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/e2b-dev/E2B", "docs": "https://docs.e2b.dev", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

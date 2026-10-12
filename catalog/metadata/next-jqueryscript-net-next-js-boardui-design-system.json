@@ -1,0 +1,27 @@
+{
+  "id": "next-jqueryscript-net-next-js-boardui-design-system",
+  "url": "https://next.jqueryscript.net/next-js/boardui-design-system",
+  "kind": "page",
+  "hints_hash": "fa0e11c442a9cf7d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:30:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://next.jqueryscript.net/next-js/boardui-design-system", "title": "BoardUI: React Design System for Agent UIs & Dashboards", "status": null}
+  ],
+  "status": "ok",
+  "name": "BoardUI",
+  "summary": "React design system of 48 free components and blocks for AI agent UIs and dashboards, installed by CLI or MCP.",
+  "description": "BoardUI ships editable React and Tailwind source for agent and dashboard interfaces: base form and data components, agent blocks (thinking, progress, composer, questionnaire, task list, web search), dashboard blocks (data table, stat cards, sidebar, auth, notifications, settings) and chart blocks, over 400 semantic tokens with dark mode. Items install through the BoardUI CLI or its MCP server, a shadcn registry namespace is supported, and a free Next.js chat starter with a server-side streaming route ships with it; pro components and templates are paid.",
+  "type": "component-library",
+  "categories": ["components", "registries"],
+  "elements": ["button", "checkbox", "date-picker", "dropdown", "file-upload", "input", "pagination", "select", "slider", "switch", "table", "tabs", "tooltip", "card", "modal", "sidebar", "stats", "chart", "chat", "prompt-input", "ai-agent-ui", "list", "loader", "progress", "form"],
+  "keywords": ["agent ui", "ai agent", "dashboard", "react component", "tailwind", "shadcn registry", "mcp server", "cli", "design system", "chat ui", "chat starter", "nextjs", "data table", "chart", "dark mode", "admin dashboard", "copy paste component", "streaming chat", "byok", "component library"],
+  "contains": ["48 free components and blocks under the MIT license, plus pro components and templates", "agent UI blocks: thinking states, progress, composer, questionnaire, task list, web search", "dashboard UI: data table, stat cards, sidebar, notifications, auth, settings", "12 chart types incl. area, funnel, heatmap, radar, sankey, scatter, steps", "400+ semantic tokens for color, typography, dark mode, radii, shadows", "free Next.js chat starter with server-side streaming route and model keys", "installs via BoardUI CLI, npm dependencies, MCP server or @boardui registry namespace"],
+  "formats": ["code", "cli", "registry", "templates", "prompts"],
+  "stack": ["react", "nextjs", "tailwind", "react-aria"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

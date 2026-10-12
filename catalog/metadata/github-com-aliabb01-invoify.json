@@ -1,0 +1,29 @@
+{
+  "id": "github-com-aliabb01-invoify",
+  "url": "https://github.com/aliabb01/invoify",
+  "kind": "repo",
+  "hints_hash": "e47fa579b9622c4a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:53:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/aliabb01/invoify/blob/HEAD/README.md", "title": "Invoify", "status": 200},
+    {"url": "https://invoify.vercel.app/", "title": "Free Invoice Generator | Invoify", "status": 200},
+    {"url": "https://invoify.vercel.app/en/guide", "title": "How Invoify works — Invoify", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Invoify",
+  "summary": "Free browser-based invoice generator: fill a form, pick one of thirteen templates, download or email a PDF.",
+  "description": "An invoice generator app built with Next.js, React Hook Form and shadcn/ui. Fill in a form with live preview, pick one of thirteen A4 templates, set accent colour, typeface, logo and signature, then download or email the PDF. There are no accounts: invoices, drafts and the address book stay encrypted in the browser. Aimed at freelancers and small businesses; interface and PDFs ship in 18 languages.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["form", "input"],
+  "keywords": ["invoice generator", "invoice template", "invoice maker", "invoice app", "pdf invoice", "email invoice", "invoice form", "freelance", "nextjs", "react", "shadcn ui", "self-hosted"],
+  "contains": ["13 invoice templates", "live preview while editing", "PDF export via headless Chromium", "optional email delivery of the PDF", "invoices and address book encrypted in browser (AES-GCM 256)", "export invoice data as JSON, CSV or XML", "18 languages with Arabic and Hebrew RTL", "per-invoice tax, discount and shipping"],
+  "formats": ["code", "app"],
+  "stack": ["nextjs", "react", "typescript", "tailwind", "shadcn-ui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/aliabb01/invoify", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

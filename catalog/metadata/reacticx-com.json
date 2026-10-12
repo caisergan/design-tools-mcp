@@ -1,0 +1,33 @@
+{
+  "id": "reacticx-com",
+  "url": "https://reacticx.com",
+  "kind": "site",
+  "hints_hash": "59988db085f6d3fa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://reacticx.com", "title": "Reactix - Awesome React Native UI components free and open source built with Expo, Reanimated, Gesture Handler, and Skia.", "status": null},
+    {"url": "https://reacticx.com/docs", "title": "Getting Started", "status": null},
+    {"url": "https://reacticx.com/blocks", "title": "Blocks", "status": null},
+    {"url": "https://reacticx.com/templates", "title": "Templates", "status": null},
+    {"url": "https://reacticx.com/docs/license", "title": "License", "status": 200},
+    {"url": "https://reacticx.com/docs/about", "title": "About", "status": 200},
+    {"url": "https://github.com/rit3zh/reacticx", "title": "GitHub - rit3zh/reacticx: Beautiful React Native components. One command away.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Reacticx",
+  "summary": "156 animated React Native components plus 19 screen blocks and 5 templates, copied into your project by a CLI.",
+  "description": "Animated, gesture-driven components for React Native and Expo built on Reanimated, Skia and Gesture Handler, so motion runs on the UI thread. Nothing installs from npm: a CLI copies component source into your project. Ships 19 blocks (bottom sheets, empty states, settings, welcome screens), 5 templates and 96 docs pages; free and open source under MIT.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["accordion", "avatar", "badge", "button", "carousel", "chart", "chat", "drawer", "empty-state", "loader", "marquee", "scroll-effect", "slider", "switch", "tabs", "text-effect"],
+  "keywords": ["react native", "expo", "animated component", "reanimated", "skia", "gesture handler", "copy paste", "cli", "shader", "text effect", "bottom sheet", "empty state", "carousel", "switch", "slider", "badge", "marquee", "loader", "drawer", "accordion", "mobile ui", "template", "free", "open source", "typescript"],
+  "contains": ["156 React Native components", "19 screen blocks: bottom sheets, empty states, settings, welcome screens", "5 templates including chat, property detail, settings and 2 sign-up screens", "CLI commands: init, add, list, info, diff, remove", "shadcn-style registry and MCP server for coding agents", "96 docs pages", "MIT licensed"],
+  "formats": ["code", "cli", "registry", "docs", "templates", "prompts"],
+  "stack": ["react-native", "expo", "reanimated", "skia", "gesture-handler", "tailwind", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/rit3zh/reacticx", "docs": "https://reacticx.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

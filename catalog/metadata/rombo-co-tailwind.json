@@ -1,0 +1,80 @@
+{
+  "id": "rombo-co-tailwind",
+  "url": "https://rombo.co/tailwind",
+  "kind": "page",
+  "hints_hash": "98fdb29942e87ca9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:49:25Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://rombo.co/tailwind",
+      "title": "Rombo | Animation library for Tailwind CSS Library",
+      "status": 200
+    },
+    {
+      "url": "https://rombo.co/",
+      "title": "Rombo | the interactive design copilot",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/romboHQ/tailwindcss-motion",
+      "title": "GitHub - romboHQ/tailwindcss-motion: tailwindcss-motion is a Tailwind CSS Plugin made at RomboHQ. It's a simple, yet powerful, animation library with a simple syntax. · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "tailwindcss-motion",
+  "summary": "Tailwind CSS plugin that animates any element with simple utility classes and presets instead of custom keyframes.",
+  "description": "npm-installable, MIT-licensed Tailwind CSS plugin: instead of defining custom keyframes you animate elements inline with utility classes (motion-translate-x-in-25, motion-opacity-in-0) or presets such as motion-preset-fade. The page includes an inline visual animator with presets and settings, plus installation and documentation for the plugin.",
+  "type": "component-library",
+  "categories": [
+    "motion"
+  ],
+  "elements": [
+    "text-effect"
+  ],
+  "keywords": [
+    "tailwind",
+    "tailwind css",
+    "animation",
+    "motion",
+    "animation library",
+    "tailwind plugin",
+    "preset",
+    "css keyframe",
+    "typewriter",
+    "micro interaction"
+  ],
+  "contains": [
+    "Tailwind CSS plugin installed with npm i -D tailwindcss-motion",
+    "utility classes and presets to animate any element without keyframes",
+    "inline visual animator with presets and settings",
+    "MIT-licensed repo with 3.3k GitHub stars",
+    "Chrome extension exports animations as Tailwind classes, pure CSS or Framer Motion code"
+  ],
+  "formats": [
+    "npm-package",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "tailwind",
+    "css",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/romboHQ/tailwindcss-motion",
+    "docs": "https://docs.rombo.co/tailwind",
+    "npm": "tailwindcss-motion",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

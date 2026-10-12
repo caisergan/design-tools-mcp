@@ -1,0 +1,95 @@
+{
+  "id": "github-com-bergside-typeui",
+  "url": "https://github.com/bergside/typeui",
+  "kind": "repo",
+  "hints_hash": "a7eda37a9b889618",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:30:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/bergside/typeui/blob/HEAD/README.md",
+      "title": "TypeUI - Build better UI with AI",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "TypeUI",
+  "summary": "Design skills and UI section prompt libraries for AI coding tools, installed by CLI or MCP server.",
+  "description": "An AI-first platform of design skills (shipped as DESIGN.md and SKILL.md), UI section prompt libraries with layout counts, and a CLI (npx typeui.sh) with generate, update, randomize, list and pull commands. A hosted MCP server connects the guidance to 20+ coding tools such as Claude Code, Codex, Cursor, Windsurf, v0 and Lovable; the CLI and public registry are MIT, with an optional Pro tier.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules",
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "hero",
+    "pricing",
+    "features",
+    "cta",
+    "contact",
+    "logo-cloud",
+    "team",
+    "faq",
+    "testimonials",
+    "footer",
+    "form"
+  ],
+  "keywords": [
+    "design skill",
+    "ui prompt",
+    "prompt library",
+    "layout variation",
+    "design.md",
+    "skill.md",
+    "hero section",
+    "pricing section",
+    "feature section",
+    "cta section",
+    "testimonials",
+    "faq",
+    "footer section",
+    "login page",
+    "contact section",
+    "team section",
+    "customer logo",
+    "cli",
+    "mcp server",
+    "ai agent",
+    "claude",
+    "cursor",
+    "codex",
+    "windsurf",
+    "v0",
+    "design system",
+    "ui generation"
+  ],
+  "contains": [
+    "design skills in DESIGN.md and SKILL.md formats",
+    "UI prompt categories with layout counts: 17 hero, 20 pricing, 16 feature, 11 CTA, 12 content layouts",
+    "CLI commands: generate, update, randomize, list, pull <slug>",
+    "MCP integrations for 20+ AI coding tools",
+    "UI/UX fundamentals skill covering spacing, typography and color contrast",
+    "free MIT CLI and public registry; Pro version adds enhanced skills, layout prompts and a private community"
+  ],
+  "formats": [
+    "prompts",
+    "cli",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/bergside/typeui",
+    "docs": null,
+    "npm": "typeui.sh",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

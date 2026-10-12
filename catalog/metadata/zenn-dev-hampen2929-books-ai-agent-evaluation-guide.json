@@ -1,0 +1,31 @@
+{
+  "id": "zenn-dev-hampen2929-books-ai-agent-evaluation-guide",
+  "url": "https://zenn.dev/hampen2929/books/ai-agent-evaluation-guide",
+  "kind": "page",
+  "hints_hash": "07f9729ca74feb86",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://zenn.dev/hampen2929/books/ai-agent-evaluation-guide", "title": "AIエージェントの評価と品質保証 — 「動く」を「信頼できる」に変える検収の技術", "status": null}
+  ],
+  "status": "ok",
+  "name": "AIエージェントの評価と品質保証",
+  "summary": "Free Zenn book on verifying AI-written code: eval specs, task datasets, LLM graders, repeated runs and acceptance records.",
+  "description": "Japanese-language Zenn book (13 chapters, ~88,000 characters, updated October 2026, free to read) about turning AI-written implementations into work you can reliably accept. It covers evaluation specs, growing an eval dataset, code-based and LLM-based grading, validating graders themselves, repeated runs, continuous evaluation after model or prompt changes, and keeping acceptance records, tied together by a shared TypeScript app; appendices add templates and the sources and run records behind the experiments.",
+  "type": "course",
+  "keywords": ["ai agent", "evaluation", "quality assurance", "llm judge", "grader", "eval dataset", "acceptance testing", "claude code", "test automation", "continuous evaluation", "prompt", "typescript", "book", "japanese"],
+  "contains": [
+    "13 chapters including two appendix chapters",
+    "free to read (¥0) on Zenn",
+    "experiments: a six-known-failure grader test, one task implemented six times, LLM judging of four reports",
+    "templates for evaluation and acceptance in the appendix",
+    "built around a shared TypeScript example app"
+  ],
+  "formats": ["docs", "templates", "code"],
+  "stack": ["typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

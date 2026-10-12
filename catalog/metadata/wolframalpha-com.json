@@ -1,0 +1,36 @@
+{
+  "id": "wolframalpha-com",
+  "url": "https://wolframalpha.com",
+  "kind": "site",
+  "hints_hash": "890c049d42e361ed",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:32Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://wolframalpha.com", "title": "Wolfram|Alpha: Computational Intelligence", "status": null},
+    {"url": "https://www.wolframalpha.com/examples", "title": "Wolfram|Alpha: Examples by Topic", "status": null},
+    {"url": "https://www.wolframalpha.com/pro", "title": "Wolfram|Alpha Pro", "status": null},
+    {"url": "https://www.wolframalpha.com/about", "title": "About Wolfram|Alpha: Making the World's Knowledge Computable", "status": null},
+    {"url": "https://www.wolframalpha.com/examples/mathematics", "title": "Wolfram|Alpha Examples: Mathematics", "status": null}
+  ],
+  "status": "ok",
+  "name": "Wolfram|Alpha",
+  "summary": "Computational knowledge engine that answers natural-language questions by computation instead of web links.",
+  "description": "Enter a question in plain language and get computed answers from curated data and algorithms. Topics cover mathematics, science & technology, society & culture and everyday life, each with example pages (elementary math, algebra, calculus, physics, chemistry, finance, history and more). Free to use; Pro adds step-by-step solutions, uploads of data, images and files in 60+ formats, downloadable computed data and web apps.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["computational knowledge engine", "math solver", "step-by-step solution", "calculator", "equation solver", "unit conversion", "plotting", "science answer", "data analysis", "homework help", "natural language"],
+  "contains": [
+    "answers natural-language queries by computation, not web search",
+    "topics: mathematics, science & technology, society & culture, everyday life, with example pages per topic",
+    "Pro: step-by-step solutions, data/image/file upload in 60+ formats, downloadable data, web apps",
+    "free tier plus Pro subscriptions for students and educators"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

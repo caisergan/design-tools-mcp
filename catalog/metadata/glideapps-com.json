@@ -1,0 +1,31 @@
+{
+  "id": "glideapps-com",
+  "url": "https://glideapps.com",
+  "kind": "site",
+  "hints_hash": "5d0e4977f6b5822c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:44:04Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://glideapps.com/llms.txt", "title": "Glide", "status": null},
+    {"url": "https://glideapps.com", "title": "AI app builder for internal business apps | Glide", "status": null},
+    {"url": "https://www.glideapps.com/docs", "title": "Glide Documentation | Glide Docs", "status": null},
+    {"url": "https://www.glideapps.com/templates", "title": "Glide Classic: 300+ free no-code app templates", "status": null},
+    {"url": "https://www.glideapps.com/pricing", "title": "Pricing: Free, Pro, and Enterprise plans | Glide", "status": null}
+  ],
+  "status": "ok",
+  "name": "Glide",
+  "summary": "AI app builder that turns spreadsheets, files or prompts into internal business apps and agents.",
+  "description": "GlideOS builds custom, AI-powered business apps and agents from a spreadsheet, a prompt or a file; every app shares one connected data layer with workflows, integrations and role-based access, and publishes to desktop and mobile for employees, customers or partners. Glide Classic, the original no-code builder, offers 300+ app templates and its own API. Free plan with paid Basic, Plus, Pro and Enterprise tiers.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["dashboard", "form"],
+  "keywords": ["app builder", "no-code", "ai app builder", "internal tool", "business app", "spreadsheet", "dashboard", "portal", "crm", "inventory", "workflow automation", "ai agent", "mobile app", "app template", "integration"],
+  "contains": ["GlideOS builds apps and agents from a prompt, spreadsheet or file", "Free plan; Basic $25, Plus $50, Pro $125 per month; Enterprise on request", "1,000+ integrations incl. Google Sheets, Excel, Airtable, QuickBooks, Salesforce, Snowflake", "300+ app templates (540 total) for portals, dashboards, CRM, inventory and more", "Publishes desktop and mobile apps with roles, SSO and row ownership", "Bring-your-own-agent support and a Glide MCP server", "REST API for Glide Classic"],
+  "formats": ["app", "templates", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.glideapps.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

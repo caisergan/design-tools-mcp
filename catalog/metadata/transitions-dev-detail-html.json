@@ -1,0 +1,48 @@
+{
+  "id": "transitions-dev-detail-html",
+  "url": "https://transitions.dev/detail.html",
+  "kind": "page",
+  "hints_hash": "3e52dc97bfcf563e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:19:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://transitions.dev/detail.html", "title": "Card resize — Transitions.dev", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Card resize",
+  "summary": "Card resize transition page from the Transitions.dev motion library, with copy-paste CSS and React code.",
+  "description": "Detail page for one production-ready UI transition: a live demo of a smooth card resize plus a portable CSS version and a self-contained React version, driven by shared motion tokens (duration, easing, distance, blur, scale). The page also documents the npm CLI, the agent skill and the Motion Agent that scores an app's motion and opens fix pull requests.",
+  "type": "component-library",
+  "categories": ["motion"],
+  "elements": ["card", "modal", "toast", "tooltip", "dropdown", "accordion", "tabs", "switch", "checkbox", "button", "loader", "text-effect", "badge", "avatar", "banner"],
+  "keywords": [
+    "ui transition",
+    "card resize",
+    "css animation",
+    "react component",
+    "copy paste snippet",
+    "motion token",
+    "duration",
+    "easing",
+    "reduced motion",
+    "agent skill",
+    "npm cli",
+    "motion score",
+    "pull request"
+  ],
+  "contains": [
+    "Card resize transition with live preview, CSS and React code",
+    "snippets use a .t-* namespace with motion tokens exposed as CSS variables",
+    "CLI install: npx transitions-dev add --free or --pro",
+    "agent skill via npx skills add Jakubantalik/transitions.dev",
+    "Motion Agent scores an app's motion 0-100 and opens fix pull requests",
+    "every transition honors prefers-reduced-motion"
+  ],
+  "formats": ["code", "cli", "npm-package", "prompts"],
+  "stack": ["css", "react", "typescript", "javascript"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": "transitions-dev", "figma": null, "parent": "transitions-dev"},
+  "confidence": 0.85
+}

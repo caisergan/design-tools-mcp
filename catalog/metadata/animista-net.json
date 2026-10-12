@@ -1,0 +1,94 @@
+{
+  "id": "animista-net",
+  "url": "https://animista.net",
+  "kind": "site",
+  "hints_hash": "1bed5bc9fef6e832",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:25:37Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://animista.net",
+      "title": "Animista - On-Demand CSS Animations Library",
+      "status": null
+    },
+    {
+      "url": "https://animista.net/about",
+      "title": "Animista - On-Demand CSS Animations Library",
+      "status": null
+    },
+    {
+      "url": "https://animista.net/license",
+      "title": "Animista - On-Demand CSS Animations Library",
+      "status": null
+    },
+    {
+      "url": "https://animista.net/download",
+      "title": "Animista - On-Demand CSS Animations Library",
+      "status": 200
+    },
+    {
+      "url": "https://animista.net/how-to",
+      "title": "Animista - On-Demand CSS Animations Library",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Animista",
+  "summary": "Browser playground of 662 ready-made CSS animations you tweak and download as CSS code.",
+  "description": "An on-demand CSS animations library and playground. Pick a ready-made animation, choose the object (box, circle, image, button, text, background gradients …), adjust duration, timing function, steps, delay, iteration count, direction and fill mode, then preview, favorite and generate code with minify and autoprefixer options to copy the class and keyframes or download only what you use.",
+  "type": "generator",
+  "categories": [
+    "motion"
+  ],
+  "elements": [
+    "background",
+    "text-effect"
+  ],
+  "keywords": [
+    "css animation",
+    "animation library",
+    "keyframe",
+    "css",
+    "animation generator",
+    "playground",
+    "entrance animation",
+    "exit animation",
+    "attention seeker",
+    "background animation",
+    "text animation",
+    "hover animation",
+    "code snippet",
+    "frontend",
+    "web animation",
+    "ui animation"
+  ],
+  "contains": [
+    "662 ready-made CSS animations and effects indexed",
+    "editor options: object, duration, timing function, steps, delay, iteration count, direction, fill mode",
+    "generate code with minify and autoprefixer",
+    "copy class or keyframes; replay and favorite animations",
+    "download only the animations you will use",
+    "animation names include rotate, slide, bounce, swing, jello, shadow-drop and text-shadow"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "css"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

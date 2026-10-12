@@ -1,0 +1,29 @@
+{
+  "id": "github-com-amansharma264-explore-next-js",
+  "url": "https://github.com/amansharma264/Explore-Next-Js-",
+  "kind": "repo",
+  "hints_hash": "b5c128e37a8fb91c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:21:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/amansharma264/Explore-Next-Js-/blob/HEAD/README.md", "title": "Explore-Next-Js-/README.md at add74a592311996b533e0afc41ba97c8a21e7c69 · amansharma264/Explore-Next-Js- · GitHub", "status": 200},
+    {"url": "https://raw.githubusercontent.com/amansharma264/Explore-Next-Js-/HEAD/README.md", "title": "🎵 Music Academy - Master the Art of Music", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Music Academy",
+  "summary": "Music academy web app built with Next.js 16, React 19, Tailwind CSS v4 and Framer Motion: 3D hero, course pages and a contact form.",
+  "description": "A complete Next.js 16 App Router site for a music academy: 3D particle-sphere hero with spotlight and moving-border CTA, course cards and a course directory with dynamic detail pages and syllabus, sticky-scroll \"Why Choose Us\", testimonial marquee, instructor showcase with tooltips, webinar grid and a contact form backed by a server API route.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["hero", "navbar", "cta", "features", "testimonials", "contact", "form", "card", "avatar", "tooltip", "3d", "background", "scroll-effect"],
+  "variants": {"navbar": ["floating", "dropdown"], "features": ["sticky-scroll"], "testimonials": ["marquee"]},
+  "keywords": ["next.js", "react", "typescript", "tailwind css", "framer motion", "music academy", "landing page", "hero", "3d card", "sticky scroll", "testimonial marquee", "contact form", "course website", "webinar", "dark theme", "animated background", "template"],
+  "contains": ["routes: landing page, course directory, dynamic course detail, contact", "3D particle-sphere hero, spotlight beams and moving-border CTA", "sticky-scroll \"Why Choose Us\", testimonial marquee, instructor tooltips, webinar cards", "contact form with Next.js API route and email dispatch", "stack: Next.js 16, React 19, TypeScript, Tailwind CSS v4, Framer Motion, Aceternity UI, simplex-noise"],
+  "formats": ["code", "templates"],
+  "stack": ["react", "nextjs", "typescript", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/amansharma264/Explore-Next-Js-", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

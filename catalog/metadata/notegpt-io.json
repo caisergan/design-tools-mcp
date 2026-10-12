@@ -1,0 +1,38 @@
+{
+  "id": "notegpt-io",
+  "url": "https://notegpt.io",
+  "kind": "site",
+  "hints_hash": "55810e8306e721de",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:20:36Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://notegpt.io/llms.txt", "title": "NoteGPT", "status": null},
+    {"url": "https://notegpt.io", "title": "NoteGPT - Your AI Agent for Work & Growth", "status": 200},
+    {"url": "https://notegpt.io/pricing", "title": "NoteGPT - Pricing", "status": 200},
+    {"url": "https://notegpt.io/guides", "title": "NoteGPT Guides: AI How-Tos, Tutorials & Tips", "status": 200}
+  ],
+  "status": "ok",
+  "name": "NoteGPT",
+  "summary": "AI study and work assistant that summarises YouTube videos, PDFs and audio, and generates podcasts, slides and flashcards.",
+  "description": "An all-in-one AI assistant for students, teachers, researchers and professionals: YouTube/PDF/Word/audio summaries, transcripts with speaker separation and translation, AI podcasts with voice cloning, slide and spreadsheet generation, flashcard and quiz makers, an AI image/video generator and a Chrome extension. A free tier exists; Pro, Unlimited and Max plans add premium credits, and a REST API exposes transcription, summary, podcast, mind-map and flashcard endpoints.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["chat"],
+  "keywords": ["youtube summarizer", "ai summarizer", "pdf summary", "transcript", "ai podcast", "flashcard", "quiz generator", "slide generator", "note taking", "study tool", "chrome extension", "ai agent", "text to speech", "video summarizer"],
+  "contains": [
+    "summarises YouTube videos, PDFs, Word documents and audio",
+    "AI podcast generator with voice cloning and multi-language voices",
+    "generates slides, spreadsheets, images, audio and videos from one agent",
+    "flashcard maker and quiz generator from documents, video or audio",
+    "Chrome extension for YouTube and Udemy summarisation",
+    "REST API for transcriptions, summaries, podcasts, mind maps and flashcards",
+    "plans: free tier, Pro $9/mo, Unlimited $19.92/mo, Max $69/mo (annual saves 30%)"
+  ],
+  "formats": ["app", "api"],
+  "stack": ["nuxt", "django"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://notegpt.io/api", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

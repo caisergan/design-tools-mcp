@@ -1,0 +1,32 @@
+{
+  "id": "browser-use-com",
+  "url": "https://browser-use.com",
+  "kind": "site",
+  "hints_hash": "ed221fe86bdc8424",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://browser-use.com/llms.txt", "title": "Browser Use", "status": null},
+    {"url": "https://browser-use.com", "title": "Browser Use Agents & Browser Infrastructure | Browser Use", "status": 200},
+    {"url": "https://browser-use.com/pricing", "title": "Pricing - Browser Use", "status": 200},
+    {"url": "https://browser-use.com/showcase", "title": "83 Browser Automation Examples with AI Agents | Browser Use", "status": 200},
+    {"url": "https://browser-use.com/showcase/landscape.md", "title": "How people use Browser Use Cloud", "status": 200},
+    {"url": "https://github.com/browser-use/browser-use", "title": "GitHub - browser-use/browser-use: Agents that use the browser. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Browser Use",
+  "summary": "Remote browser platform for AI agents: run tasks with Browser Use Agents or point your own Playwright or CDP code at managed browsers.",
+  "description": "Browser Use offers two commercial products: Browser Use Agents, which run browser tasks for you, and Browser Infrastructure, managed stealth browsers you drive through SDK, REST or CDP — paste a connection URL into existing Playwright, Puppeteer or Selenium code. Around them sit the open-source Python library, Browser Harness and an MCP server, plus a showcase of 83 recorded automation examples.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["browser automation", "ai agent", "web agent", "remote browser", "stealth browser", "cloud browser", "captcha solving", "browser infrastructure", "playwright", "puppeteer", "selenium", "cdp", "mcp server", "python", "web scraping", "form filling", "login automation", "anti-detect browser"],
+  "contains": ["open-source Python browser agent library, 118k GitHub stars, MIT-licensed", "cloud browsers from $0.02 per browser-hour, pay-as-you-go with credits, no subscription", "products: Browser Use Agents and Browser Infrastructure", "cloud SDK, REST API, MCP server and Browser Harness", "83 browser automation examples with 41 recorded runs in 9 categories", "stealth benchmark: 81% success on 71 high-security sites", "agent benchmark: 82% on the 106-task Internal Bench Hard at $0.17 per solved task", "start free, then pay for browser time, traffic and model tokens"],
+  "formats": ["code", "api", "docs", "video"],
+  "stack": ["python"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/browser-use/browser-use", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

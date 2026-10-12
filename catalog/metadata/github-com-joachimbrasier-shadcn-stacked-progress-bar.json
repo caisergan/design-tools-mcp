@@ -1,0 +1,78 @@
+{
+  "id": "github-com-joachimbrasier-shadcn-stacked-progress-bar",
+  "url": "https://github.com/JoachimBrasier/shadcn-stacked-progress-bar",
+  "kind": "repo",
+  "hints_hash": "e0c3374cbb29b2fa",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:46Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/JoachimBrasier/shadcn-stacked-progress-bar/blob/HEAD/README.md",
+      "title": "shadcn-stacked-progress-bar",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/JoachimBrasier/shadcn-stacked-progress-bar/HEAD/registry.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "shadcn-stacked-progress-bar",
+  "summary": "Composable stacked progress bar for shadcn/ui that shows multiple statuses in one track, with legend and tooltips.",
+  "description": "A stacked progress bar component for shadcn/ui that displays multiple sequential or categorical statuses in a single track. It ships composable sub-components for the bar, segments, legends and labels, optional interactive tooltips and full ARIA semantics (role=progressbar, aria-valuenow/min/max). Installs from the shadcn registry as item stacked-progress-bar or by copying one file; requires React 19 and a shadcn project with Tailwind.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "progress"
+  ],
+  "keywords": [
+    "progress bar",
+    "stacked progress",
+    "multi status",
+    "segment",
+    "legend",
+    "tooltip",
+    "accessibility",
+    "shadcn",
+    "react",
+    "tailwind",
+    "registry"
+  ],
+  "contains": [
+    "stacked progress bar with multiple segments in one track",
+    "composable parts: provider, track, segment, legend, legend item",
+    "optional interactive legend and multi-segment tooltips",
+    "full ARIA semantics: role=progressbar, aria-valuenow/min/max",
+    "shadcn registry item stacked-progress-bar; single-file install",
+    "requires React 19 and Tailwind; CVA styling with dark mode"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/JoachimBrasier/shadcn-stacked-progress-bar",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

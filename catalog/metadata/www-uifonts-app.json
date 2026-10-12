@@ -1,0 +1,29 @@
+{
+  "id": "www-uifonts-app",
+  "url": "https://www.uifonts.app",
+  "kind": "site",
+  "hints_hash": "0b463cc32e13596f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.uifonts.app", "title": "UI Fonts - Test and Preview Fonts in Real-Time | uifonts.app", "status": null},
+    {"url": "https://www.uifonts.app/showcase", "title": "UI Fonts - Test and Preview Fonts in Real-Time | uifonts.app", "status": null},
+    {"url": "https://www.uifonts.app/resources", "title": "UI Fonts - Test and Preview Fonts in Real-Time | uifonts.app", "status": 200}
+  ],
+  "status": "ok",
+  "name": "UI Fonts",
+  "summary": "Browser tool for previewing fonts and pairings in real time, with typography guides and showcase examples.",
+  "description": "Online font previewer with controls for size, weight, line height and width, plus a two-font pairing mode and links that encode a font setup in the URL. A typography showcase of known sites (Medium, GitHub, Airbnb) and a resources section with pairing guides and best practices support the tool.",
+  "type": "tool",
+  "categories": ["fonts", "design-tools"],
+  "elements": [],
+  "keywords": ["font preview", "font pairing", "typography", "typeface", "font tester", "variable font", "system font", "web font", "line height", "font combination", "free"],
+  "contains": ["real-time font preview with size, weight, line height and width controls", "two-font pairing mode", "typography showcase of Medium, GitHub and Airbnb type choices", "pairing guides and best practices: line length, hierarchy, variable fonts, performance", "URL parameters to share a specific font setup"],
+  "formats": ["app", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

@@ -1,0 +1,27 @@
+{
+  "id": "205sports-org-library-technical-development",
+  "url": "https://205sports.org/library/technical-development",
+  "kind": "page",
+  "hints_hash": "f461c72d3a61fe9a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:33:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://205sports.org/library/technical-development", "title": "Technical development - 205 Academy", "status": null},
+    {"url": "https://205sports.org/library/technical-development", "title": "Technical development - 205 Academy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Technical development",
+  "summary": "Soccer technical-development library page grouping skills work into dribbling, juggling, wall activities, passing and shooting categories.",
+  "description": "A library page on 205 Academy's coaching site collecting technical-development material for soccer players, organised by category — dribbling feints and moves, sole variations, carrying the ball, introductory skills, wall activities, juggling, Soccer Starts At Home, and passing and shooting — with a category filter above the list.",
+  "type": "directory",
+  "elements": [],
+  "keywords": ["soccer", "football", "soccer coaching", "technical development", "dribbling", "juggling", "wall activity", "passing", "shooting", "skill training", "youth soccer", "coaching resource"],
+  "contains": ["categories: dribbling, sole variations, introductory skills, wall activities, juggling, passing and shooting", "category filter above the list", "part of 205 Academy's coaching tools and library"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

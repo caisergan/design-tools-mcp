@@ -1,0 +1,27 @@
+{
+  "id": "circleloaders-dominikakissi-com",
+  "url": "https://circleloaders.dominikakissi.com",
+  "kind": "site",
+  "hints_hash": "9be64db882d851db",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:40:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://circleloaders.dominikakissi.com", "title": "Circle Loaders - twenty-four monochrome agent-status animations", "status": null}
+  ],
+  "status": "ok",
+  "name": "Circle Loaders",
+  "summary": "Twenty-four monochrome circular loading animations, each a standalone animated SVG to copy.",
+  "description": "A set of 24 circular loader animations drawn from hairlines clipped to a disc, shown small and with tempo/diameter controls. Every variant is a standalone animated SVG - markup, keyframes and colour in one file - copied from its card in light or dark; pure CSS and SVG, no dependencies, no JavaScript, reduced-motion aware.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["loader"],
+  "keywords": ["loader", "loading spinner", "spinner", "circle loader", "animated svg", "svg spinner", "css animation", "loading animation", "monochrome", "dark mode", "reduced motion", "agent status", "progress indicator", "free svg", "copy paste"],
+  "contains": ["24 circular loader variants", "each loader is a standalone animated SVG file", "monochrome, works on light and dark backgrounds", "pure CSS and SVG, no dependencies or JavaScript", "reduced-motion aware", "demo grid showing all 24 at 18px"],
+  "formats": ["code", "svg"],
+  "stack": ["css", "svg"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

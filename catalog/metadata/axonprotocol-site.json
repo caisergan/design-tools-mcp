@@ -1,0 +1,27 @@
+{
+  "id": "axonprotocol-site",
+  "url": "https://axonprotocol.site",
+  "kind": "site",
+  "hints_hash": "f525ae7b54a7ddd3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:32:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://axonprotocol.site", "title": "AXON Protocol — The Identity & Wallet Layer for AI Agents", "status": null}
+  ],
+  "status": "ok",
+  "name": "AXON Protocol",
+  "summary": "Landing page for AXON Protocol: on-chain identity, smart wallets and trustless escrow for AI agents on Base.",
+  "description": "Marketing site for AXON Protocol, an on-chain infrastructure layer for AI agents built on Base (Ethereum L2). It covers three primitives — Agent Identity as ERC-721 NFTs with metadata, capability tags and reputation; ERC-4337 smart wallets with daily limits, operator permissions and emergency freeze; and trustless escrow with mutual cancellation and dispute resolution — plus protocol stats, a three-step how-it-works, JavaScript code examples, a four-phase roadmap and an airdrop signup.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["navbar", "hero", "stats", "features", "stepper", "timeline", "cta"],
+  "keywords": ["ai agent", "on-chain identity", "smart wallet", "erc-4337", "account abstraction", "erc-721", "escrow", "trustless payment", "web3", "base network", "ethereum l2", "crypto", "agent payment", "airdrop", "blockchain infrastructure", "ai infrastructure"],
+  "contains": ["core primitives: Agent Identity (ERC-721), Smart Wallets (ERC-4337), Trustless Escrow", "protocol stats: contracts deployed live, Base Sepolia testnet, 0.3% protocol fee, built on Base", "how it works in three steps: register, fund, transact", "JavaScript code examples for registerAgent and createEscrow calls", "roadmap: Phase 1 foundation (live) to Phase 4 scale (2027)", "airdrop signup and litepaper pages"],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

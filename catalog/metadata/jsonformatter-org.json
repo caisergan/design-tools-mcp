@@ -1,0 +1,35 @@
+{
+  "id": "jsonformatter-org",
+  "url": "https://jsonformatter.org",
+  "kind": "site",
+  "hints_hash": "883a3c54da3781d0",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://jsonformatter.org", "title": "Best JSON Formatter and JSON Validator: Online JSON Formatter", "status": null}
+  ],
+  "status": "ok",
+  "name": "JSON Formatter",
+  "summary": "Online JSON formatter and validator with tree view; also converts JSON to XML, CSV, YAML and TSV.",
+  "description": "Paste, upload or load JSON from a URL, then format it with 2, 3 or 4-space indentation or validate it with error messages. A tree view navigates the formatted data and previews images when a value is an image URL. Other pages convert JSON to and from XML, CSV, YAML and TSV, and tools minify, sort, compare, stringify and print; results can be saved and shared by link.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["json formatter", "json validator", "json beautifier", "json parser", "json to csv", "json to xml", "json to yaml", "json tree view", "json minify", "pretty print", "developer tool"],
+  "contains": [
+    "format/beautify JSON with 2, 3 or 4-space indentation",
+    "validate JSON with error messages",
+    "tree view; images preview on hover for image URLs",
+    "converters: JSON to and from XML, CSV, YAML, TSV",
+    "upload or link JSON files; download formatted output",
+    "save and share links; My Links for logged-in users",
+    "2,019 URLs in the site's sitemap"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

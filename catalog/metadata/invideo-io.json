@@ -1,0 +1,32 @@
+{
+  "id": "invideo-io",
+  "url": "https://invideo.io",
+  "kind": "site",
+  "hints_hash": "5bbda68b3c46003e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:48Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://invideo.io/llms.txt", "title": "invideo", "status": null},
+    {"url": "https://invideo.io", "title": "invideo Editor - Create videos without limits", "status": 200},
+    {"url": "https://invideo.io/templates", "title": "5000+ Video Templates: Create Engaging Videos in Minutes", "status": 200},
+    {"url": "https://invideo.io/pricing", "title": "Pricing | invideo AI", "status": 200},
+    {"url": "https://invideo.io/faq", "title": "The AI Video Playbook for Creative Pros | invideo", "status": 200},
+    {"url": "https://invideo.io/templates/art", "title": "Art Templates: The Perfect Tool for Artistic Videos - invideo", "status": 200}
+  ],
+  "status": "ok",
+  "name": "invideo",
+  "summary": "Agentic AI video platform: create, edit and finish films, ads and UGC videos from text instructions.",
+  "description": "AI video platform built around Agent Two, a conversational creation agent, and invideo Editor, a multitrack timeline editor whose editing agent can find moments, cut, grade and mix from plain-language directions. Covers AI filmmaking, microdramas, ad films, UGC and social video with 200+ image, video and audio models and 5,000+ templates; external agents such as Claude and ChatGPT can edit on the timeline too.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai video editor", "ai video generator", "agentic video editing", "text to video", "ai filmmaking", "ugc ad", "video template", "timeline editor", "multiplayer editing", "storyboard", "vfx", "microdrama", "video agent"],
+  "contains": ["Agent Two conversational video creation and editing", "editing agent on a multi-track timeline with semantic footage search", "multiplayer editing with live cursors", "custom agents for cinematographer, colorist, music and sound roles", "5000+ video templates across ad, meme, holiday and art categories", "free professional timeline editor; plans Basic $9, Pro $30, Ultra $80 per seat/mo billed annually"],
+  "formats": ["app", "templates", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

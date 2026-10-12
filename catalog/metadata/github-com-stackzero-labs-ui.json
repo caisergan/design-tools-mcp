@@ -1,0 +1,109 @@
+{
+  "id": "github-com-stackzero-labs-ui",
+  "url": "https://github.com/stackzero-labs/ui",
+  "kind": "repo",
+  "hints_hash": "bd1aba42486b1fd2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/stackzero-labs/ui/blob/HEAD/README.md",
+      "title": "stackzero/commerce-ui (beta)",
+      "status": null
+    },
+    {
+      "url": "https://github.com/stackzero-labs/ui",
+      "title": "GitHub - stackzero-labs/ui",
+      "status": 200
+    },
+    {
+      "url": "https://ui.stackzero.co",
+      "title": "Commerce UI",
+      "status": 200
+    },
+    {
+      "url": "https://ui.stackzero.co/docs",
+      "title": "Overview",
+      "status": 200
+    },
+    {
+      "url": "https://ui.stackzero.co/docs/components/rating-star/basic",
+      "title": "Star Rating - Basic",
+      "status": 200
+    },
+    {
+      "url": "https://ui.stackzero.co/docs/blocks/address",
+      "title": "Address",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "stackzero/commerce-ui",
+  "summary": "Copy-paste e-commerce components, blocks and examples for React, Next.js, Tailwind CSS and shadcn/ui.",
+  "description": "A collection of UI pieces for commerce sites: components, blocks (address, banners, product card, product variants, reviews, carts) and product pages you copy into your project or install with the CLI. Built with React, Next.js, Tailwind CSS v4 and shadcn/ui, with motion/react for animations; free and open source with docs at ui.stackzero.co.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections"
+  ],
+  "elements": [
+    "card",
+    "banner",
+    "testimonials",
+    "form",
+    "input"
+  ],
+  "keywords": [
+    "ecommerce",
+    "commerce",
+    "storefront",
+    "product card",
+    "cart",
+    "review",
+    "address",
+    "banner",
+    "react",
+    "nextjs",
+    "tailwind",
+    "shadcn",
+    "block",
+    "component",
+    "copy-paste",
+    "open source",
+    "tailwind css v4"
+  ],
+  "contains": [
+    "23 components, 44 blocks and 44 examples (111+ items)",
+    "block groups: address (3), banners (12), product card, product variants (5), reviews (10), carts",
+    "star rating and like rating components",
+    "Tailwind CSS v4 with shadcn/ui and motion/react",
+    "CLI and MCP server for installing components",
+    "free and open source, MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/stackzero-labs/ui",
+    "docs": "https://ui.stackzero.co",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

@@ -1,0 +1,36 @@
+{
+  "id": "github-com-storybookjs-storybook",
+  "url": "https://github.com/storybookjs/storybook",
+  "kind": "repo",
+  "hints_hash": "0fd11e1546cb1b91",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:02:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/storybookjs/storybook/blob/HEAD/README.md", "title": null, "status": null},
+    {"url": "https://github.com/storybookjs/storybook", "title": "GitHub - storybookjs/storybook: Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Storybook",
+  "summary": "Frontend workshop for building, documenting and testing UI components and pages in isolation.",
+  "description": "A development workshop that renders components and pages in isolation: write stories for components from React, Vue, Angular, Svelte, Web Components, HTML, Ember, Preact, Qwik, SolidJS and React Native, then develop, document and test them. An addon ecosystem adds accessibility checks, actions, backgrounds, docs, jest results, measure, outline and viewport tooling; thousands of teams use it for UI development, testing and documentation.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["react", "vue", "angular", "svelte", "component workshop", "story", "component documentation", "testing", "addon", "design system", "isolation", "ui component", "typescript", "web component"],
+  "contains": [
+    "renderers: React, Angular, Vue 3, Svelte, Web Components, HTML, Ember, Preact, Qwik, SolidJS",
+    "addons: a11y, actions, backgrounds, docs, jest, measure, outline, viewport",
+    "mobile support via React Native, Android, iOS and Flutter projects",
+    "91.2k stars, 10.5k forks on GitHub",
+    "Component Encyclopedia shows real-world usage",
+    "storybook.new creates an example project in Stackblitz",
+    "MIT licensed"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react", "vue", "angular", "svelte", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/storybookjs/storybook", "docs": "https://storybook.js.org", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

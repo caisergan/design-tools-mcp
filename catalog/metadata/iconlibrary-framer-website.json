@@ -1,0 +1,27 @@
+{
+  "id": "iconlibrary-framer-website",
+  "url": "https://iconlibrary.framer.website",
+  "kind": "site",
+  "hints_hash": "72c6f225f798d594",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:44:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://iconlibrary.framer.website", "title": "iconLibrary", "status": null}
+  ],
+  "status": "ok",
+  "name": "iconLibrary",
+  "summary": "Directory of 30+ icon libraries with descriptions and style filters, curated by Sergio.",
+  "description": "A browsable index of icon libraries — Ionicons, Lucide, Heroicons, Font Awesome, Tabler, Phosphor, Streamline and others — each with a short description and a link to its own site. Entries can be filtered by style (rounded, sharp corner, pixel, hand-drawn, multiple) and by free or free & paid, with a command/ctrl search; the site has moved to iconlibrary.top.",
+  "type": "directory",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon library", "icon set directory", "icon collection", "svg icon", "pixel icon", "hand-drawn icon", "free icon", "icon search", "icon list", "icon gallery"],
+  "contains": ["30+ icon library profiles with descriptions", "filters: style category, free / free & paid", "command/ctrl search", "links to each library's own site", "moved to the iconlibrary.top domain"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

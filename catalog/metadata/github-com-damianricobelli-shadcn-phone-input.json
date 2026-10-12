@@ -1,0 +1,35 @@
+{
+  "id": "github-com-damianricobelli-shadcn-phone-input",
+  "url": "https://github.com/damianricobelli/shadcn-phone-input",
+  "kind": "repo",
+  "hints_hash": "12946970d88c987a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:39:46Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/damianricobelli/shadcn-phone-input/blob/HEAD/README.md", "title": "or", "status": 200},
+    {"url": "https://shadcn-phone-input-five.vercel.app", "title": "Shadcn Phone Input", "status": 200},
+    {"url": "https://github.com/damianricobelli/shadcn-phone-input", "title": "GitHub - damianricobelli/shadcn-phone-input · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Shadcn Phone Input",
+  "summary": "Phone number input component for shadcn/ui with country detection, formatting and validation via libphonenumber-js.",
+  "description": "A formatted phone input component built with shadcn/ui and libphonenumber-js, with country data and ISO codes from the countries-states-cities-database project. The demo shows default and form usage, E.164 output, and a getPhoneData utility returning country code, calling code and international format for the selected number. The demo site is shadcn-phone-input-five.vercel.app.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["input"],
+  "keywords": ["phone input", "phone number", "country code", "libphonenumber", "validation", "formatting", "shadcn", "react", "nextjs", "form", "international"],
+  "contains": [
+    "formatted phone input with libphonenumber-js",
+    "country data and ISO codes from countries-states-cities-database",
+    "getPhoneData utility: country code, calling code, E.164, URI",
+    "default and form usage shown in the demo",
+    "demo at shadcn-phone-input-five.vercel.app"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react", "nextjs", "shadcn", "tailwind", "typescript"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/damianricobelli/shadcn-phone-input", "docs": "https://shadcn-phone-input-five.vercel.app", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.75
+}

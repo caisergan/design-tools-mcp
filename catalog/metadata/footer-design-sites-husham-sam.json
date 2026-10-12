@@ -1,0 +1,31 @@
+{
+  "id": "footer-design-sites-husham-sam",
+  "url": "https://footer.design/sites/husham-sam",
+  "kind": "page",
+  "hints_hash": "4ef12b021af2aab3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:17:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/husham-sam", "title": "Footer | Husham Sam", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Husham Sam",
+  "summary": "Desktop and mobile footer screenshots from the Husham Sam portfolio site, tagged flat, small type, grid and monochromatic.",
+  "description": "One footer entry in the Footer design gallery: the Husham Sam portfolio footer shown in desktop and mobile views, with style and type tags, the date added, and links to the live site and similar designs. Husham Sam is an independent creative director and designer.",
+  "elements": ["footer"],
+  "keywords": ["footer", "footer design", "website footer", "footer inspiration", "portfolio footer", "personal website", "desktop footer", "mobile footer", "minimal footer", "small type", "designer portfolio", "footer screenshot"],
+  "contains": [
+    "desktop and mobile footer screenshots",
+    "styles: flat, interactive, fun, monochromatic, grid, bright, small type",
+    "types: portfolio, personal, design",
+    "added August 19, 2026",
+    "link to the live Husham Sam site"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

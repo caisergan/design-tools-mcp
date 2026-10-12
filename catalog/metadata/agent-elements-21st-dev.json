@@ -1,0 +1,43 @@
+{
+  "id": "agent-elements-21st-dev",
+  "url": "https://agent-elements.21st.dev",
+  "kind": "site",
+  "hints_hash": "f2d838466509f167",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T15:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://agent-elements.21st.dev/llms.txt", "title": "Agent Elements", "status": null},
+    {"url": "https://agent-elements.21st.dev", "title": "Agent Elements - Build agent UIs faster", "status": 200},
+    {"url": "https://agent-elements.21st.dev/docs", "title": "Introduction · Agent Elements", "status": 200},
+    {"url": "https://agent-elements.21st.dev/docs/installation", "title": "Installation · Agent Elements", "status": 200},
+    {"url": "https://agent-elements.21st.dev/docs/mcp", "title": "MCP · Agent Elements", "status": 200},
+    {"url": "https://agent-elements.21st.dev/docs/skills", "title": "Skills · Agent Elements", "status": 200},
+    {"url": "https://raw.githubusercontent.com/21st-dev/agent-elements/HEAD/README.md", "title": "Agent Elements", "status": 200},
+    {"url": "https://raw.githubusercontent.com/21st-dev/agent-elements/HEAD/LICENSE", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Agent Elements",
+  "summary": "Open-source shadcn registry of 25 React components for agent UIs: chat shell, tool call cards, streaming markdown, input controls.",
+  "description": "Chat and agent UI components built on shadcn/ui, installed per component with the shadcn CLI into components/agent-elements: AgentChat, MessageList, InputBar with Suggestions, ModelPicker and ModeSelector, streaming markdown with Shiki highlighting, attachment and send buttons, streaming states (ThinkingTool, TextShimmer, SpiralLoader) and tool cards for Bash, Edit, Search, Todo, Plan, Subagent, MCP and clarifying questions. Typed around the Vercel AI SDK, so useChat plugs in directly. An MCP setup and an agent skill ship alongside; the set is the UI layer of the 21st.dev Agent SDK.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["ai-agent-ui", "button", "chat", "list", "input", "text-effect", "loader"],
+  "keywords": ["agent ui", "chat ui", "shadcn", "registry", "react component", "tool call", "tool card", "streaming markdown", "ai sdk", "chat shell", "message list", "input bar", "model picker", "mode selector", "streaming state", "spinner", "shimmer", "claude code", "cursor", "mcp", "open source", "tailwind"],
+  "contains": [
+    "25 components grouped by role: chat surface, tool cards, streaming states",
+    "chat surface: AgentChat, MessageList, UserMessage, InputBar, Suggestions, ModelPicker, ModeSelector",
+    "tool cards: BashTool, EditTool, SearchTool, TodoTool, PlanTool, ToolGroup, SubagentTool, McpTool, QuestionTool",
+    "streaming: ThinkingTool, TextShimmer, SpiralLoader; streaming markdown with Shiki highlighting",
+    "installs per component with npx shadcn@latest add from the registry (or agent-chat for the full set)",
+    "built on React 19, Tailwind v4 and the Vercel AI SDK (UIMessage / ChatStatus)",
+    "MCP server support and an agent skill for Claude Code and Cursor",
+    "UI layer of the 21st.dev Agent SDK"
+  ],
+  "formats": ["code", "registry", "cli", "docs", "prompts"],
+  "stack": ["react", "tailwind", "typescript", "shadcn", "vercel-ai-sdk"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/21st-dev/agent-elements", "docs": "https://agent-elements.21st.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

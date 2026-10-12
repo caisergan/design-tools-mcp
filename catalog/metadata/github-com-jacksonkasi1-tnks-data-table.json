@@ -1,0 +1,91 @@
+{
+  "id": "github-com-jacksonkasi1-tnks-data-table",
+  "url": "https://github.com/jacksonkasi1/tnks-data-table",
+  "kind": "repo",
+  "hints_hash": "cfd77fdc8544e25e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:46:11Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/jacksonkasi1/tnks-data-table/blob/HEAD/README.md",
+      "title": "Advanced Data Table Component",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jacksonkasi1/tnks-data-table/HEAD/LICENSE",
+      "title": "MIT License",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "tnks-data-table",
+  "summary": "Feature-rich React data table built on shadcn/ui and TanStack Table, with server-side sorting, filtering and export.",
+  "description": "An advanced data table component installed through its own shadcn registry, with server-side pagination, sorting and filtering, row selection, column resizing and visibility, CSV/Excel export, and hierarchical subrows. Works with Next.js, Vite, Remix and other React frameworks.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries"
+  ],
+  "elements": [
+    "table",
+    "pagination"
+  ],
+  "keywords": [
+    "data table",
+    "react table",
+    "tanstack table",
+    "shadcn",
+    "server-side pagination",
+    "server-side sorting",
+    "server-side filtering",
+    "row selection",
+    "column resizing",
+    "column visibility",
+    "export csv",
+    "export excel",
+    "subrow",
+    "tree data",
+    "react",
+    "nextjs",
+    "typescript",
+    "registry"
+  ],
+  "contains": [
+    "2 shadcn registry items (data-table and calendar date picker)",
+    "server-side pagination, sorting and filtering",
+    "row selection, row actions and bulk delete",
+    "column resizing and visibility toggle",
+    "CSV/Excel export with custom formatting and transformed columns",
+    "hierarchical data with expandable subrows"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "tanstack-table",
+    "tanstack-query",
+    "react-hook-form",
+    "zod",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/jacksonkasi1/tnks-data-table",
+    "docs": "https://tnks-docs.vercel.app/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.88
+}

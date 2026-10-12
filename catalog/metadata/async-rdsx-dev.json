@@ -1,0 +1,74 @@
+{
+  "id": "async-rdsx-dev",
+  "url": "https://async.rdsx.dev",
+  "kind": "site",
+  "hints_hash": "8e13ced69591ef5d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:41:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://async.rdsx.dev",
+      "title": "Async Select built with React & shadcn/ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Async Select",
+  "summary": "Copy-paste async select component for React built on shadcn/ui's Popover and Command, with debounced search and a preload mode.",
+  "description": "A generic async select component you drop into a React project. It composes shadcn/ui's Popover and Command, and takes a fetcher function for debounced async search, or preloaded options with local filtering. The page documents installation, required and optional props, and the TypeScript interface.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "select",
+    "popover",
+    "input"
+  ],
+  "keywords": [
+    "async select",
+    "select",
+    "search select",
+    "combobox",
+    "shadcn ui",
+    "react",
+    "popover",
+    "command menu",
+    "debounced search",
+    "typescript",
+    "form field",
+    "dropdown list"
+  ],
+  "contains": [
+    "async select component built from shadcn/ui Popover and Command",
+    "async mode: options fetched with a debounced query",
+    "preload mode: preloaded options with local filtering",
+    "required props: fetcher, renderOption, getOptionValue",
+    "installation, usage and TypeScript interface docs"
+  ],
+  "formats": [
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "shadcn-ui",
+    "tailwind",
+    "radix"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

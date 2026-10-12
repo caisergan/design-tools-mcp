@@ -1,0 +1,21 @@
+{
+  "id": "footer-design-sites-cronicle",
+  "url": "https://footer.design/sites/cronicle",
+  "kind": "page",
+  "hints_hash": "96dd17779869026e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:15:15Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://footer.design/sites/cronicle", "title": "Footer | Cronicle", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Cronicle",
+  "summary": "Desktop and mobile footer screenshots from Cronicle, an iOS life-calendar app, with style tags and similar footer designs.",
+  "description": "A footer.design page showing the Cronicle website footer in desktop and mobile views. It carries style tags (Flat, Bright, Large Type, Calm, Monochromatic), a type tag (iOS App), a link to the live website and a list of similar footer designs from the gallery.",
+  "elements": ["footer"],
+  "keywords": ["footer", "website footer", "footer design", "footer inspiration", "desktop footer", "mobile footer", "app footer", "ios app", "large type", "monochromatic"],
+  "formats": ["screenshots", "links"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "footer-design"},
+  "confidence": 0.85
+}

@@ -1,0 +1,85 @@
+{
+  "id": "wisprflow-ai",
+  "url": "https://wisprflow.ai",
+  "kind": "site",
+  "hints_hash": "fdb6b6bb0e0c7839",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:28:24Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://wisprflow.ai/llms.txt",
+      "title": "Wispr Flow",
+      "status": null
+    },
+    {
+      "url": "https://wisprflow.ai",
+      "title": "Wispr Flow | Voice to Text Dictation & AI Notetaker",
+      "status": 200
+    },
+    {
+      "url": "https://wisprflow.ai/pricing",
+      "title": "Pricing | Wispr Flow",
+      "status": 200
+    },
+    {
+      "url": "https://wisprflow.ai/about",
+      "title": "About | Wispr Flow",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Wispr Flow",
+  "summary": "Voice dictation app that turns speech into polished text in any app on Mac, Windows, iOS and Android, in 100+ languages.",
+  "description": "AI voice-to-text dictation: hold a key, speak, and Flow types where your cursor is — no plugins, so it works in Gmail, Slack, Notion, terminals, code editors and AI tools. It auto-edits as you speak (removes filler words, adds punctuation, applies corrections), learns names and jargon through a personal dictionary, expands voice snippets and styles output per app. Notetaker adds meeting notes on Mac and Windows. Free tier plus paid Pro, Growth and Enterprise plans.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "voice dictation",
+    "speech to text",
+    "dictation app",
+    "voice typing",
+    "transcription",
+    "ai notetaker",
+    "keyboard",
+    "macos",
+    "window",
+    "ios",
+    "android",
+    "accessibility",
+    "coding by voice",
+    "snippet",
+    "tone"
+  ],
+  "contains": [
+    "dictation at 4x typing speed (220 wpm vs 45 wpm, site claim)",
+    "AI auto-edits: filler removal, punctuation, corrections and repetition",
+    "personal dictionary, voice snippets, tone styling and whisper mode",
+    "100+ languages with automatic detection",
+    "developer features: syntax-smart code dictation, Cursor and Windsurf integrations",
+    "Notetaker for Mac and Windows; works in ChatGPT, Claude and Cursor",
+    "free tier; Pro $15, Growth $23 per user/month; Enterprise custom",
+    "SOC 2 Type II, HIPAA and ISO 27001; privacy mode with zero retention"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

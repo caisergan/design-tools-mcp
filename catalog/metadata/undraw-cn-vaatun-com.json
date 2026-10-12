@@ -1,0 +1,36 @@
+{
+  "id": "undraw-cn-vaatun-com",
+  "url": "https://undraw-cn.vaatun.com",
+  "kind": "site",
+  "hints_hash": "af82676f370de47e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://undraw-cn.vaatun.com", "title": "unDraw Illustrations Registry", "status": null},
+    {"url": "https://undraw-cn.vaatun.com/about", "title": "unDraw Illustrations Registry", "status": null},
+    {"url": "https://raw.githubusercontent.com/vaatun/undraw-cn/HEAD/README.md", "title": "unDraw CN - shadcn Registry for unDraw Illustrations", "status": 200},
+    {"url": "https://raw.githubusercontent.com/vaatun/undraw-cn/HEAD/LICENSE", "title": "LICENSE", "status": 200}
+  ],
+  "status": "ok",
+  "name": "unDraw CN",
+  "summary": "shadcn registry of all 1,362 unDraw illustrations as customizable, typed React components.",
+  "description": "A shadcn registry that turns every unDraw illustration into a React component with TypeScript types. One CLI command installs an illustration; the components use your CSS --color-primary variable, are reactive to theme changes, and live in your own codebase with no CDN dependency.",
+  "type": "registry",
+  "categories": ["registries", "media"],
+  "elements": [],
+  "keywords": ["illustration", "undraw illustration", "svg illustration", "react component", "shadcn", "shadcn registry", "typescript", "brand color", "recolorable illustration", "empty state", "landing page", "open source", "free illustration"],
+  "contains": [
+    "1,362 illustration components covering all unDraw scenes",
+    "installs with the shadcn CLI (registry add)",
+    "colors follow the CSS --color-primary variable",
+    "TypeScript support, responsive SVGs with titles",
+    "MIT licensed"
+  ],
+  "formats": ["registry", "code"],
+  "stack": ["react", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/vaatun/undraw-cn", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

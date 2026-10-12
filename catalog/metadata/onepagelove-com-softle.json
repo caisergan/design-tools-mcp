@@ -1,0 +1,30 @@
+{
+  "id": "onepagelove-com-softle",
+  "url": "https://onepagelove.com/softle",
+  "kind": "page",
+  "hints_hash": "35c2246fb373acfe",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:56:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://onepagelove.com/softle", "title": "Softle — One Page Website Award", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Softle",
+  "summary": "One Page Love showcase of Softle, a launching-soon landing page for a design tool that bends, squishes and collides organic shapes.",
+  "description": "Showcase page for Softle, the one-page site of a design tool that uses physics to bend, squish and collide organic shapes instead of drawing them manually. Tagged Product Mockup, Blobs, Circle Shapes, Floating Elements, Interactive and Shapes Tool; styles Futuristic, Minimal and Scroll Effects; typeface Geist; colour White; published 16 Aug 2026.",
+  "keywords": ["one page website", "design tool", "physics", "organic shape", "blob", "circle shape", "floating element", "minimal", "futuristic", "scroll effect", "geist", "launching soon", "landing page", "web design inspiration"],
+  "contains": [
+    "desktop and mobile screenshots of the Softle one-pager",
+    "tags: Product Mockup, Blobs, Circle Shapes, Floating Elements, Interactive, Shapes Tool",
+    "styles: Futuristic, Minimal, Scroll Effects",
+    "typeface Geist, colour White, category Launching Soon",
+    "published 16 Aug 2026, credited to @naso"
+  ],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "onepagelove-com"},
+  "confidence": 0.85
+}

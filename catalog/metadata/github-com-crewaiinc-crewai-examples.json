@@ -1,0 +1,35 @@
+{
+  "id": "github-com-crewaiinc-crewai-examples",
+  "url": "https://github.com/crewAIInc/crewAI-examples",
+  "kind": "repo",
+  "hints_hash": "f0cf0449da249941",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/crewAIInc/crewAI-examples/blob/HEAD/README.md", "title": "CrewAI Full Examples", "status": null}
+  ],
+  "status": "ok",
+  "name": "CrewAI Full Examples",
+  "summary": "Official collection of complete CrewAI example applications: flows, crews, integrations and notebooks.",
+  "description": "End-to-end CrewAI implementations you can run, modify and deploy: multi-crew flows (content creation, email auto-responder, lead scoring, book writing), crews (marketing, recruitment, stock analysis, trip planning and more) and integrations with LangGraph, Azure OpenAI and NVIDIA models. Includes a beginner-to-advanced learning path; examples use CrewAI 0.152.0 with UV.",
+  "type": "template",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["crewai", "ai agent", "multi-agent", "crew", "flow", "agent example", "orchestration", "python", "uv", "automation", "workflow", "llm", "langgraph", "starter template", "notebook"],
+  "contains": [
+    "flows: content creator, email auto responder, lead score, meeting assistant, self evaluation loop, write a book",
+    "crews: game builder, landing page generator, marketing strategy, recruitment, stock analysis, trip planner",
+    "integrations: CrewAI-LangGraph, Azure OpenAI, NVIDIA models",
+    "notebooks for interactive exploration",
+    "learning path: beginner, intermediate, advanced",
+    "examples use CrewAI 0.152.0 and UV package management",
+    "each example is a standalone application with its own README"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["python", "crewai", "langgraph"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/crewAIInc/crewAI-examples", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

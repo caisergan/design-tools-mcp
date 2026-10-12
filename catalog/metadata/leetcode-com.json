@@ -1,0 +1,30 @@
+{
+  "id": "leetcode-com",
+  "url": "https://leetcode.com",
+  "kind": "site",
+  "hints_hash": "e2e8799a453b2890",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://leetcode.com", "title": "LeetCode - The World's Leading Online Programming Learning Platform", "status": null},
+    {"url": "https://leetcode.com/explore", "title": "Explore - LeetCode", "status": null},
+    {"url": "https://leetcode.com/problemset/", "title": "LeetCode - The World's Leading Online Programming Learning Platform", "status": 200},
+    {"url": "https://leetcode.com/premium/", "title": "premium - LeetCode Profile", "status": 200}
+  ],
+  "status": "partial",
+  "name": "LeetCode",
+  "summary": "Platform to practice coding problems with contests, a discussion forum, study plans and a premium tier.",
+  "description": "LeetCode is an online programming learning platform for interview preparation: a problem archive, coding contests, a discuss forum and Premium subscriptions, plus Explore sections with library, quest and study-plan tracks.",
+  "type": "tool",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["coding problem", "programming practice", "coding interview", "interview preparation", "algorithm", "data structure", "coding contest", "competitive programming", "study plan", "database problem", "premium subscription", "job search"],
+  "contains": ["problem archive (Problems)", "coding contests (Contest)", "discussion forum (Discuss)", "explore library, quest and study plans", "premium subscription tier", "mobile app"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

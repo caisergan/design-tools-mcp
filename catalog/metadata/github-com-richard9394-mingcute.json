@@ -1,0 +1,36 @@
+{
+  "id": "github-com-richard9394-mingcute",
+  "url": "https://github.com/Richard9394/MingCute",
+  "kind": "repo",
+  "hints_hash": "ace2661a25d74379",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:25:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/Richard9394/MingCute/blob/HEAD/README.md", "title": "Mingcute Icons", "status": 200}
+  ],
+  "status": "ok",
+  "name": "MingCute Icons",
+  "summary": "Icon library with 1,663 icons in regular and filled styles, packaged for React, Vue, Svelte, SolidJS and more.",
+  "description": "MingCute is the public, open-source distribution of the Mingcute Icon System: 1,663 icons on a 24x24 grid, each in Core Regular (2 px stroke) and Core Filled, for 3,326 styled definitions. Ten npm packages ship the same canonical artwork for React, Vue, React Native, Svelte, SolidJS, vanilla JavaScript, web components, standalone SVG and WOFF2 icon fonts. A paid Mingcute Pro tier adds 12 Core, Cute and Sharp style combinations.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon set", "icon library", "svg icon", "npm icon package", "react icon", "vue icon", "svelte icon", "solidjs icon", "react native icon", "web component icon", "icon font", "woff2 icon", "tree shakeable", "outline icon", "filled icon", "figma icon plugin", "open source icon", "typescript icon"],
+  "contains": [
+    "1,663 icons in Core Regular and Core Filled: 3,326 styled definitions",
+    "10 npm packages: React, Vue, React Native, Svelte, SolidJS, vanilla JS, web components, SVG, fonts, definitions",
+    "24x24 grid; Core Regular uses a consistent 2 px stroke",
+    "tree-shakeable ESM packages with typed components",
+    "SVG gradients, masks and clipping paths preserved; WOFF2 icon fonts",
+    "Figma plugin, MCP server, and website search with SVG/PNG downloads",
+    "Mingcute Pro: 12 Core, Cute and Sharp styles, 20,152 definitions, private registry",
+    "Apache-2.0 licensed public packages"
+  ],
+  "formats": ["npm-package", "svg", "font-files", "code", "png"],
+  "stack": ["react", "vue", "react-native", "svelte", "solidjs", "typescript", "node"],
+  "pricing": "freemium",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/Richard9394/MingCute", "docs": null, "npm": "@mingcute/icons", "figma": null, "parent": null},
+  "confidence": 0.9
+}

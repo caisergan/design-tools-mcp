@@ -1,0 +1,31 @@
+{
+  "id": "animate-ui-com-docs",
+  "url": "https://animate-ui.com/docs",
+  "kind": "page",
+  "hints_hash": "1aa49740172f72cc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://animate-ui.com/docs", "title": "Introduction - Animate UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Introduction",
+  "summary": "Docs introduction to Animate UI: an open distribution of animated React components, primitives and icons for the shadcn registry.",
+  "description": "Animate UI is a copy-first distribution of React components built with Tailwind CSS and Motion on the shadcn registry model: animated primitives authored in-house or ported from Radix UI, Base UI and Headless UI, essential components with minimal shadcn-style baseline styles, and animated Lucide icons. Source is copied into your codebase instead of installed as a wrapper library, and the baseline styles stay easy to restyle.",
+  "type": "component-library",
+  "keywords": ["animated component", "react component", "motion animation", "tailwind css", "shadcn registry", "component distribution", "animated primitive", "radix ui", "base ui", "headless ui", "animated icon", "lucide icon", "copy paste component", "open source component", "accessible animation"],
+  "contains": [
+    "animated primitives ported from Radix UI, Base UI and Headless UI",
+    "components with minimal baseline styles inspired by shadcn/ui",
+    "animated Lucide icons",
+    "copy, modify and customize the source directly in your codebase",
+    "built with Tailwind CSS and Motion"
+  ],
+  "formats": ["code", "registry", "docs"],
+  "stack": ["react", "tailwind", "framer-motion"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "animate-ui-com"},
+  "confidence": 0.85
+}

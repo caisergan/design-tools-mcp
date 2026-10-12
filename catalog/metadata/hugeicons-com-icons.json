@@ -1,0 +1,87 @@
+{
+  "id": "hugeicons-com-icons",
+  "url": "https://hugeicons.com/icons",
+  "kind": "page",
+  "hints_hash": "cbe940d03ba49125",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T00:00:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://hugeicons.com/icons",
+      "title": "Browse 60,000+ Icons – 10 Styles, 59 Categories | Hugeicons",
+      "status": 200
+    },
+    {
+      "url": "https://hugeicons.com/pricing",
+      "title": "Pricing Plans | Hugeicons",
+      "status": 200
+    },
+    {
+      "url": "https://hugeicons.com/license-agreement",
+      "title": "License Agreement | Hugeicons",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Hugeicons — All Icons",
+  "summary": "Browsable library of 60,000+ icons in 10 styles and 59 categories, with free and pro tiers.",
+  "description": "The Hugeicons icon browser: 60,000+ icons in 10 styles — Rounded (Bulk, Solid, Twotone, Duotone, Stroke, Free), Standard (Duotone, Solid, Stroke) and Sharp (Solid, Stroke) — organised into 59 categories such as AI, Arrows, Business, Editing, E-Commerce and Dashboard. Icons are searched and filtered by style and category, then downloaded or installed through packages for React, Vue, Angular and Svelte, an icon font or the Figma library.",
+  "type": "icon-set",
+  "elements": [],
+  "keywords": [
+    "icon set",
+    "icon library",
+    "icon",
+    "free icon",
+    "svg icon",
+    "icon pack",
+    "icon search",
+    "icon browser",
+    "rounded icon",
+    "sharp icon",
+    "stroke icon",
+    "bulk icon",
+    "duotone icon",
+    "twotone icon",
+    "solid icon",
+    "icon download",
+    "figma icon",
+    "react icon",
+    "icon font",
+    "ui icon"
+  ],
+  "contains": [
+    "60,000+ icons in 10 styles across 59 categories",
+    "styles: Rounded (Bulk, Solid, Twotone, Duotone, Stroke, Free), Standard (Duotone, Solid, Stroke), Sharp (Solid, Stroke)",
+    "per-category usage counts next to each of the 59 categories",
+    "free tier: 6,000+ Stroke Rounded icons, web app and dev formats; pro tiers: Pro and Pro Plus",
+    "free icons are MIT licensed, pro icons are commercial"
+  ],
+  "formats": [
+    "svg",
+    "font-files",
+    "npm-package",
+    "figma-file"
+  ],
+  "stack": [
+    "react",
+    "vue",
+    "angular",
+    "svelte"
+  ],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {
+    "repo": null,
+    "docs": "https://hugeicons.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": "hugeicons-com"
+  },
+  "confidence": 0.85
+}

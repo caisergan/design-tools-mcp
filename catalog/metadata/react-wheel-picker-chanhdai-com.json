@@ -1,0 +1,28 @@
+{
+  "id": "react-wheel-picker-chanhdai-com",
+  "url": "https://react-wheel-picker.chanhdai.com",
+  "kind": "site",
+  "hints_hash": "0ca2e7d58383b25e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:45:00Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://react-wheel-picker.chanhdai.com", "title": "React Wheel Picker", "status": null },
+    { "url": "https://react-wheel-picker.chanhdai.com/docs/getting-started", "title": "Getting started | React Wheel Picker", "status": null }
+  ],
+  "status": "ok",
+  "name": "React Wheel Picker",
+  "summary": "iOS-like wheel picker components for React with inertia scrolling, infinite loop and keyboard type-ahead.",
+  "description": "Two unstyled React components, WheelPickerWrapper and WheelPicker, that render a wheel of options with natural touch scrolling, mouse drag and scroll on desktop, infinite loop scrolling and full keyboard navigation with type-ahead search. Install them from the ncdai shadcn registry with the shadcn CLI; the site ships demo setups for Vite, Next.js, Astro, Laravel, React Router, TanStack Start, TanStack Router and Gatsby.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["select"],
+  "keywords": ["wheel picker", "picker", "ios-like picker", "react", "inertia scrolling", "infinite scroll", "unstyled component", "shadcn registry", "shadcn cli", "keyboard navigation", "type-ahead search", "touch scrolling", "headless component"],
+  "contains": ["components: WheelPickerWrapper and WheelPicker", "installed from the ncdai shadcn registry via shadcn CLI", "demo setups for Vite, Next.js, Astro, Laravel, React Router, TanStack Start, TanStack Router, Gatsby", "data attributes and data slots for styling", "keyboard navigation with type-ahead search"],
+  "formats": ["code", "registry", "docs", "cli"],
+  "stack": ["react"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": "https://react-wheel-picker.chanhdai.com/docs/getting-started", "npm": null, "figma": null, "parent": null },
+  "confidence": 0.9
+}

@@ -1,0 +1,94 @@
+{
+  "id": "github-com-nashsu-llm-wiki",
+  "url": "https://github.com/nashsu/llm_wiki",
+  "kind": "repo",
+  "hints_hash": "1e10eb010b0f945c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:19:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/nashsu/llm_wiki/blob/HEAD/README.md",
+      "title": "LLM Wiki",
+      "status": null
+    },
+    {
+      "url": "https://github.com/nashsu/llm_wiki",
+      "title": "GitHub - nashsu/llm_wiki: LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retriev…",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/nashsu/llm_wiki/blob/HEAD/LICENSE",
+      "title": "llm_wiki/LICENSE at 48fd970e206a02a6d2028d1dbfc41b7a0345bf0b · nashsu/llm_wiki · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nashsu/llm_wiki/HEAD/LICENSE",
+      "title": "",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "LLM Wiki",
+  "summary": "Cross-platform desktop app where an LLM incrementally builds and maintains an interlinked personal wiki from your documents.",
+  "description": "A desktop application implementing Karpathy's LLM Wiki pattern: the LLM compiles your sources into a persistent, interlinked wiki once instead of re-deriving answers on every query. It ingests PDFs, Office documents, EPUB/MOBI, images, media, web clips and URL batches, and adds a three-column workspace, a knowledge graph with Louvain community detection and graph insights, optional vector search, deep research, multi-conversation chat and a local HTTP API plus MCP server.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "chat",
+    "sidebar"
+  ],
+  "variants": {
+    "sidebar": [
+      "icon-rail"
+    ]
+  },
+  "keywords": [
+    "knowledge base",
+    "wiki",
+    "personal wiki",
+    "second brain",
+    "knowledge graph",
+    "llm",
+    "rag",
+    "desktop app",
+    "mcp",
+    "obsidian",
+    "document ingestion",
+    "note taking",
+    "vector search",
+    "deep research",
+    "chat"
+  ],
+  "contains": [
+    "two-step chain-of-thought ingest with source traceability",
+    "knowledge graph with 4-signal relevance model and Louvain community detection",
+    "multimodal ingest: PDF, Office, EPUB/MOBI, images, media, web clips, URLs",
+    "local HTTP API, bundled MCP server and agent skill",
+    "Chrome web clipper, review queue, optional vector search via LanceDB"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "rust",
+    "node"
+  ],
+  "pricing": "free",
+  "license": "GPL-3.0-only",
+  "related": {
+    "repo": "https://github.com/nashsu/llm_wiki",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

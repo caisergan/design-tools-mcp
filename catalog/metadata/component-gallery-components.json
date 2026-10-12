@@ -1,0 +1,74 @@
+{
+  "id": "component-gallery-components",
+  "url": "https://component.gallery/components",
+  "kind": "page",
+  "hints_hash": "bb89ade16ead7c16",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:14:17Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://component.gallery/components",
+      "title": "Components | The Component Gallery",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Components",
+  "summary": "Index of interface component types with definitions, alternate names and counts of design-system examples.",
+  "description": "The components index of The Component Gallery: every entry names a UI component (accordion, alert, badge, button, card …), gives a one-line definition, lists alternative names such as Collapse or Chip, and counts the examples gathered from design systems.",
+  "type": "directory",
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "carousel",
+    "checkbox",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "file-upload",
+    "footer",
+    "form",
+    "select"
+  ],
+  "keywords": [
+    "ui component",
+    "interface component",
+    "component name",
+    "component glossary",
+    "component definition",
+    "design system component",
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "carousel",
+    "checkbox",
+    "combobox",
+    "date picker",
+    "drawer",
+    "component reference",
+    "component catalog"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "component-gallery"
+  },
+  "confidence": 0.85
+}

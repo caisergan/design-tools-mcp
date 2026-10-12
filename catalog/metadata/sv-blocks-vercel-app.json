@@ -1,0 +1,110 @@
+{
+  "id": "sv-blocks-vercel-app",
+  "url": "https://sv-blocks.vercel.app",
+  "kind": "site",
+  "hints_hash": "53e32b7618330ef2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://sv-blocks.vercel.app",
+      "title": "Svelte Shadcn Blocks - 150+ UI & Marketing Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://sv-blocks.vercel.app/docs",
+      "title": "Shadcn Marketing Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://sv-blocks.vercel.app/veil/features",
+      "title": "Features | Svelte Shadcn Blocks",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/SikandarJODD/cnblocks",
+      "title": "GitHub - SikandarJODD/cnblocks: 150+ UI & Marketing blocks using Svelte 5, Tailwind CSS v4 and Shadcn Svelte · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Svelte Shadcn Blocks",
+  "summary": "150+ free marketing and UI blocks for Svelte 5 across Normal, Mist and Veil variants, built on shadcn-svelte.",
+  "description": "Production-ready landing page blocks based on shadcn-svelte and Tailwind CSS, inspired by Tailark: hero, features, pricing, testimonials, FAQ, stats, call to action, footer, team, contact, signup and more. Three design variants (Normal, Mist, Veil) work in light and dark mode; blocks install via the shadcn-svelte registry or the jsrepo CLI.",
+  "type": "block-library",
+  "categories": [
+    "sections",
+    "registries"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "faq",
+    "stats",
+    "cta",
+    "footer",
+    "form",
+    "card",
+    "contact",
+    "team"
+  ],
+  "keywords": [
+    "svelte",
+    "svelte 5",
+    "block",
+    "marketing block",
+    "landing page",
+    "hero",
+    "pricing",
+    "testimonials",
+    "faq",
+    "footer",
+    "cta",
+    "stats",
+    "shadcn",
+    "tailwind",
+    "jsrepo",
+    "registry",
+    "dark mode",
+    "saas",
+    "open source",
+    "free"
+  ],
+  "contains": [
+    "150+ blocks across Normal, Mist and Veil variants (98 registry items measured)",
+    "sections: hero, features, pricing, testimonials, FAQ, stats, CTA, footer, team, contact, forms",
+    "built with Svelte 5, Tailwind CSS v4 and shadcn-svelte",
+    "light and dark mode",
+    "install via shadcn-svelte registry or jsrepo CLI",
+    "MCP server integration for Cursor and Windsurf",
+    "MIT licensed and open source"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "svelte",
+    "sveltekit",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/SikandarJODD/cnblocks",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

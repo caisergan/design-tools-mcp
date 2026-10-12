@@ -1,0 +1,29 @@
+{
+  "id": "sv-agentation-com",
+  "url": "https://sv-agentation.com",
+  "kind": "site",
+  "hints_hash": "9be207ec33ac57cb",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sv-agentation.com/llms.txt", "title": "sv-agentation", "status": null},
+    {"url": "https://sv-agentation.com", "title": "Svelte Agentation", "status": 200},
+    {"url": "https://github.com/SikandarJODD/sv-agentation", "title": "GitHub - SikandarJODD/sv-agentation: Svelte Agentation : The visual feedback tool for agents. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Svelte Agentation",
+  "summary": "Dev-only Svelte inspector that turns UI annotations into structured context for AI coding agents.",
+  "description": "A floating annotation toolbar you mount in Svelte apps during development. Click elements or text ranges, add notes and copy structured Markdown in compact, standard, detailed or forensic modes; notes are scoped per route automatically. It inspects source-aware DOM (including open shadow roots), opens files in VS Code, and exposes props, keyboard bindings and annotation/copy callbacks.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["svelte", "annotation", "ui annotation", "visual feedback", "ai coding agent", "claude code", "cursor", "inspector", "dev tool", "source inspection", "markdown output", "shadow dom", "component context", "structured context", "keyboard shortcut"],
+  "contains": ["dev-only floating toolbar: press i to inspect, click elements to annotate", "copies notes as Markdown in compact, standard, detailed or forensic modes", "route-scoped note sessions; shadow DOM piercing for web components", "captures selector paths, bounds, nearby text, component context and computed styles", "shortcuts i, c, r, o, d, esc, enter; grouped selection with shift+ctrl/cmd+click", "npm package sv-agentation v0.3.0, MIT licensed"],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["svelte"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/SikandarJODD/sv-agentation", "docs": null, "npm": "sv-agentation", "figma": null, "parent": null},
+  "confidence": 0.85
+}

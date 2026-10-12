@@ -1,0 +1,78 @@
+{
+  "id": "github-com-programming-with-ia-shadcn-theme-editor",
+  "url": "https://github.com/programming-with-ia/shadcn-theme-editor",
+  "kind": "repo",
+  "hints_hash": "fd0d09b48ffa2f15",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/programming-with-ia/shadcn-theme-editor/blob/HEAD/README.md",
+      "title": "🎨 Shadcn Theme Editor",
+      "status": null
+    },
+    {
+      "url": "https://github.com/programming-with-ia/shadcn-theme-editor",
+      "title": "GitHub - programming-with-ia/shadcn-theme-editor: Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects.",
+      "status": 200
+    },
+    {
+      "url": "https://shadcnthemeeditor.vercel.app/",
+      "title": "Shadcn Theme Editor",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn Theme Editor",
+  "summary": "React component that adds a sidebar theme editor for adjusting shadcn/ui theme colors in real time.",
+  "description": "A component you drop into a shadcn/ui project to tune theme colors from a visual sidebar while the app runs, with live preview and light/dark support. Install from npm as a dev dependency or copy the source with the Scaflo CLI; works with Tailwind v3 and v4.",
+  "type": "component-library",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "shadcn",
+    "theme editor",
+    "theme",
+    "color",
+    "css variable",
+    "design token",
+    "dark mode",
+    "tailwind",
+    "react",
+    "next.js",
+    "dev tool",
+    "npm"
+  ],
+  "contains": [
+    "visual sidebar for editing shadcn theme colors",
+    "real-time preview, light and dark mode via html.dark",
+    "install via npm dev dependency or Scaflo CLI source copy",
+    "props: side, title, customColors, getContainer, className",
+    "MIT licensed"
+  ],
+  "formats": [
+    "npm-package",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/programming-with-ia/shadcn-theme-editor",
+    "docs": null,
+    "npm": "shadcn-theme-editor",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

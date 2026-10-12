@@ -1,0 +1,56 @@
+{
+  "id": "hugeicons-com-docs-integrations-angular-overview",
+  "url": "https://hugeicons.com/docs/integrations/angular/overview",
+  "kind": "page",
+  "hints_hash": "346a02503fe447f7",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:36:40Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://hugeicons.com/docs/integrations/angular/overview",
+      "title": "Angular Integration Overview | Hugeicons Documentation",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Hugeicons with Angular Overview",
+  "summary": "Docs page for using Hugeicons in Angular: install @hugeicons/angular and free icon packages, or unlock 60,000+ Pro icons in 10 styles.",
+  "description": "Entry point of the Hugeicons Angular documentation: prerequisites, a free vs Pro comparison (6,000+ free icons in one style against 60,000+ across ten styles) and links to the quick start, the HugeiconsIconComponent API, best practices and copy-paste examples.",
+  "type": "icon-set",
+  "elements": [],
+  "keywords": [
+    "angular",
+    "icon library",
+    "icon set",
+    "icon component",
+    "svg icon",
+    "npm package",
+    "free icon",
+    "pro icon",
+    "angular standalone",
+    "typescript",
+    "integration",
+    "documentation"
+  ],
+  "formats": [
+    "npm-package",
+    "docs"
+  ],
+  "stack": [
+    "angular"
+  ],
+  "pricing": "freemium",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": "hugeicons-com"
+  },
+  "confidence": 0.9
+}

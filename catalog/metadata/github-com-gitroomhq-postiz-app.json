@@ -1,0 +1,36 @@
+{
+  "id": "github-com-gitroomhq-postiz-app",
+  "url": "https://github.com/gitroomhq/postiz-app",
+  "kind": "repo",
+  "hints_hash": "84f5e409c0da2441",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:33Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/gitroomhq/postiz-app/blob/HEAD/README.md", "title": "Postiz", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Postiz",
+  "summary": "Open-source social media scheduling platform to plan, cross-post and analyze content, self-hosted or as Postiz Cloud.",
+  "description": "A social media management platform: schedule and cross-post posts, keep calendar views, collaborate with teammates on posts and comments, and measure results with analytics. AI features cover a copilot, images, videos, video clipping and a Smart Agent, while a public API, webhooks, Node.js SDK, n8n node, Make.com integration and MCP/CLI connectors hook it into automation. Deploy the open-source edition on your own infrastructure (Docker; Postgres, storage) or use the managed Postiz Cloud. Monorepo built with Next.js, NestJS, Prisma, Temporal and Resend.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": ["calendar", "dashboard"],
+  "keywords": ["social media scheduling", "social media management", "cross posting", "post scheduling", "content calendar", "analytics", "team collaboration", "self-hosted", "open source", "ai copilot", "video clipping", "public api", "webhook", "mcp", "automation", "docker", "nextjs", "monorepo"],
+  "contains": [
+    "schedules and cross-posts social content; repeated posts, delays, sets, signatures, RSS auto-post",
+    "analytics, calendar views, team collaboration, comments and customer groups",
+    "AI features: copilot, images, videos, video clipping and Smart Agent",
+    "public API, webhooks, Node.js SDK, n8n custom node and Make.com integration",
+    "agentic surfaces: MCP, CLI and Claude / ChatGPT / Codex / Cursor connectors",
+    "open-source edition self-hosts with Docker; you create your own platform developer apps",
+    "Postiz Cloud: subscription plans, 7-day free trial, pre-approved apps, managed updates",
+    "monorepo: pnpm workspaces, Next.js (React), NestJS, Prisma, Temporal, Resend"
+  ],
+  "formats": ["code", "app", "api", "docs", "cli"],
+  "stack": ["nextjs", "react", "nestjs", "prisma", "postgresql", "temporal", "resend"],
+  "pricing": "freemium",
+  "license": "AGPL-3.0",
+  "related": {"repo": "https://github.com/gitroomhq/postiz-app", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

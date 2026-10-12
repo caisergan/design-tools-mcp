@@ -1,0 +1,35 @@
+{
+  "id": "github-com-addyosmani-agent-skills",
+  "url": "https://github.com/addyosmani/agent-skills",
+  "kind": "repo",
+  "hints_hash": "393c70aa8e94bd3d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:42Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/addyosmani/agent-skills/blob/HEAD/README.md", "title": "Agent Skills README", "status": null},
+    {"url": "https://raw.githubusercontent.com/addyosmani/agent-skills/HEAD/LICENSE", "title": "MIT License", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Agent Skills",
+  "summary": "24 engineering workflow skills and 9 slash commands that drive AI coding agents from spec through build, test, review and ship.",
+  "description": "Skills that encode the workflows, quality gates and best practices senior engineers use, packaged so AI agents follow them across every phase of development: meta, define, plan, build, verify, review and ship. Includes slash commands such as /spec, /plan, /build and /test, agent personas, reference checklists and setup guides for Cursor, Antigravity, Gemini CLI, Windsurf, OpenCode, Copilot, Codex and Command Code.",
+  "type": "agent-skill",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "coding agent", "ai coding assistant", "spec-driven development", "test-driven development", "code review", "planning", "frontend engineering", "workflow", "quality gate", "software engineering", "claude code", "cursor", "codex", "prompt"],
+  "contains": [
+    "24 skills across 7 phases: meta, define, plan, build, verify, review, ship",
+    "9 slash commands mapped to the development lifecycle",
+    "skills include interview-me, spec-driven-development, test-driven-development and frontend-ui-engineering",
+    "agent personas and reference checklists",
+    "setup guides for Cursor, Antigravity, Gemini CLI, Windsurf, OpenCode, Copilot, Copilot CLI, Codex and Command Code",
+    "installs via the skills CLI"
+  ],
+  "formats": ["prompts", "cli", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/addyosmani/agent-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

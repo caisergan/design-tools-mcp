@@ -1,0 +1,27 @@
+{
+  "id": "musicbusinessworldwide-com-elevenlabs-adds-section-by-section-song-editi",
+  "url": "https://musicbusinessworldwide.com/elevenlabs-adds-section-by-section-song-editing-to-elevenmusic-as-suno-udio-and-google-build-out-rival-tools",
+  "kind": "page",
+  "hints_hash": "89a2f25056aa7cd5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:30:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://musicbusinessworldwide.com/elevenlabs-adds-section-by-section-song-editing-to-elevenmusic-as-suno-udio-and-google-build-out-rival-tools", "title": "ElevenLabs adds section-by-section song editing to ElevenMusic, as Suno, Udio, and Google build out rival tools - Music Business Worldwide", "status": null}
+  ],
+  "status": "ok",
+  "name": "ElevenLabs adds section-by-section song editing to ElevenMusic",
+  "summary": "News piece on ElevenLabs' Composer, a tool that regenerates single sections of AI-generated songs without touching the rest.",
+  "description": "Music Business Worldwide report (August 27, 2026) on the launch of Composer in ElevenLabs' ElevenMusic platform: rewrite a verse, slow a bridge or move a chorus to another key with per-section style, tempo, energy, instrumentation and length controls, compare several takes of a section, and reorder song structure. It sets the release against Suno Studio 2.0, Google's Flow Music and Udio, and recaps the licensing deals and lawsuits around AI music.",
+  "type": "article",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai music", "song editing", "music generation", "ai song editor", "generative audio", "music production", "text to music", "music industry news", "ai audio tool", "section regeneration"],
+  "contains": ["news article, 27 August 2026, by Mandy Dalugdug", "covers ElevenMusic Composer: per-section regeneration, multiple takes, structure reordering", "context on Suno Studio 2.0, Google Flow Music, Udio and label licensing deals", "tags: news, United States, AI Music, Artificial Intelligence, ElevenLabs"],
+  "formats": ["docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

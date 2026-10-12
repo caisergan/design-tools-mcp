@@ -1,0 +1,93 @@
+{
+  "id": "smui-statico-io",
+  "url": "https://smui.statico.io",
+  "kind": "site",
+  "hints_hash": "d284778ee08989ea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://smui.statico.io",
+      "title": "smui // spacemolt ui",
+      "status": null
+    },
+    {
+      "url": "https://smui.statico.io/skill.md",
+      "title": "smui -- Terminal Theme for shadcn/ui",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/statico/smui",
+      "title": "GitHub - statico/smui: 🪐 A dark terminal-aesthetic theme for shadcn/ui. Nord-inspired colors, JetBrains Mono everywhere, zero border radius.",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/statico/smui/HEAD/README.md",
+      "title": "smui // spacemolt ui",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/statico/smui/HEAD/LICENSE",
+      "title": "LICENSE",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "smui",
+  "summary": "Nord-inspired terminal theme for shadcn/ui with JetBrains Mono, zero border radius and light/dark palettes.",
+  "description": "A shadcn registry theme that remaps every shadcn/ui CSS variable to a Nord palette (4 frost blues, 5 aurora status colors, four surface levels) with zero border radius and monospace typography. Install with npx shadcn add or copy the CSS; the site ships a component showcase, a bridge-dashboard layout example, a design guide and a skill.md written for coding agents.",
+  "type": "registry",
+  "categories": [
+    "color-effects",
+    "registries"
+  ],
+  "elements": [],
+  "keywords": [
+    "shadcn",
+    "shadcn theme",
+    "terminal",
+    "nord",
+    "dark mode",
+    "light mode",
+    "jetbrains mono",
+    "monospace",
+    "css variable",
+    "design token",
+    "tailwind",
+    "shadcn registry",
+    "space ui",
+    "dashboard theme"
+  ],
+  "contains": [
+    "1 shadcn registry item: SpaceMolt Theme",
+    "Nord palette: 4 frost blues + 5 aurora status colors, surface levels 0-3",
+    "zero border radius, JetBrains Mono, uppercase labels",
+    "light (Snow Storm) and dark (Polar Night) modes",
+    "skill.md for coding agents and AESTHETIC.md design patterns",
+    "component showcase and bridge dashboard layout example"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "docs"
+  ],
+  "stack": [
+    "css",
+    "tailwind"
+  ],
+  "pricing": "free",
+  "license": "Unlicense",
+  "related": {
+    "repo": "https://github.com/statico/smui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

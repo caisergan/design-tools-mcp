@@ -1,0 +1,65 @@
+{
+  "id": "mapsplatform-google-com-maps-demo-key-linkid-60950390",
+  "url": "https://mapsplatform.google.com/maps-demo-key?linkId=60950390",
+  "kind": "page",
+  "hints_hash": "ea6388ae45c89182",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:32:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://mapsplatform.google.com/maps-demo-key?linkId=60950390",
+      "title": "Get a Maps Demo Key with no credit card - Google Maps Platform",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Maps Demo Key - Google Maps Platform",
+  "summary": "Free, no-credit-card API key for prototyping with select Google Maps Platform products before upgrading to a billed key.",
+  "description": "A Google Maps Platform page for the Maps Demo Key: a free key issued with just a Google account, limited to a controlled sandbox with daily usage caps. Supported APIs include Dynamic Maps, 3D Maps, Places UI Kit, Weather, Routes, Autocomplete, Search and Geocoding; upgrading to a Standard Key unlocks production quotas and a $300 Google Cloud trial.",
+  "type": "tool",
+  "elements": [
+    "map"
+  ],
+  "keywords": [
+    "google map",
+    "api key",
+    "demo key",
+    "prototyping",
+    "maps javascript api",
+    "places ui kit",
+    "weather api",
+    "3d map",
+    "geocoding",
+    "route",
+    "autocomplete",
+    "mcp",
+    "sandbox",
+    "developer"
+  ],
+  "contains": [
+    "free demo key with just a Google account, no credit card",
+    "daily usage limits per API that reset the next day",
+    "supported APIs: Dynamic Maps, Places UI Kit, 3D Maps, Weather, Routes, Search, Geocoding, Maps Grounding Lite (MCP)",
+    "Standard Key upgrade: 10K free calls per SKU per month, $300 Google Cloud trial for new customers"
+  ],
+  "formats": [
+    "api",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

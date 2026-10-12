@@ -1,0 +1,61 @@
+{
+  "id": "floguo-com-notes-design-engineering",
+  "url": "https://floguo.com/notes/design-engineering",
+  "kind": "page",
+  "hints_hash": "37f97c5d3c9d3855",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://floguo.com/notes/design-engineering",
+      "title": "Design Engineering",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Design Engineering",
+  "summary": "Living notes page collecting links and observations on design engineering: role definitions, tools, courses and communities.",
+  "description": "A running note by designer-engineer Flo collecting links and observations on design engineering: defining the role, guidelines and agent skills, interesting tools, resources, courses, design pattern libraries and communities, with short personal observations on how the discipline works.",
+  "type": "directory",
+  "categories": [
+    "learning"
+  ],
+  "elements": [],
+  "keywords": [
+    "design engineering",
+    "design engineer",
+    "resource list",
+    "link collection",
+    "note",
+    "web interface guideline",
+    "agent skill",
+    "course",
+    "design pattern library",
+    "community",
+    "career",
+    "tool"
+  ],
+  "contains": [
+    "sections: defining the role, guidelines & agent skills, tools, resources, courses, pattern libraries, communities",
+    "links to Web Interface Guidelines, skills.sh, ui.land, Mobbin, and courses like animations.dev and Devouring Details"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

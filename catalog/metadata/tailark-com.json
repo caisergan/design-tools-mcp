@@ -1,0 +1,121 @@
+{
+  "id": "tailark-com",
+  "url": "https://tailark.com",
+  "kind": "site",
+  "hints_hash": "f36f85586ae746fd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:51:55Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tailark.com",
+      "title": "Tailark",
+      "status": null
+    },
+    {
+      "url": "https://tailark.com/docs/changelog",
+      "title": "Tailark",
+      "status": null
+    },
+    {
+      "url": "https://tailark.com/blocks",
+      "title": "Blocks - Tailark",
+      "status": null
+    },
+    {
+      "url": "https://tailark.com/pricing",
+      "title": "Pricing - Tailark",
+      "status": null
+    },
+    {
+      "url": "https://tailark.com/blocks/dusk",
+      "title": "Dusk Blocks - Tailark",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Tailark",
+  "summary": "Shadcn registry of marketing blocks, page sections and illustrations for building marketing websites.",
+  "description": "A shadcn registry with hundreds of marketing blocks, ready-made pages and illustrations, organised in styles/kits (Quartz, Libre, Dusk, Mist, Veil) and categories like hero, features, pricing, testimonials and navbar. Blocks install with the shadcn CLI and work with Radix UI or Base UI bases; the code is built on Shadcn and Next.js.",
+  "type": "registry",
+  "categories": [
+    "registries",
+    "sections",
+    "templates"
+  ],
+  "elements": [
+    "hero",
+    "features",
+    "pricing",
+    "testimonials",
+    "stats",
+    "logo-cloud",
+    "navbar",
+    "team",
+    "contact",
+    "form",
+    "bento-grid",
+    "calendar"
+  ],
+  "variants": {
+    "features": [
+      "carousel"
+    ]
+  },
+  "keywords": [
+    "shadcn",
+    "shadcn registry",
+    "marketing website",
+    "landing page",
+    "hero section",
+    "features section",
+    "pricing section",
+    "testimonials",
+    "logo cloud",
+    "stats section",
+    "navbar",
+    "bento grid",
+    "contact form",
+    "team section",
+    "calendar",
+    "page template",
+    "next.js",
+    "tailwind",
+    "react",
+    "illustration",
+    "dark mode",
+    "free block"
+  ],
+  "contains": [
+    "469 installable registry items plus 185 gallery examples",
+    "blocks by element: features 45, hero 40, form 28, contact 24, team 20, pricing 18",
+    "styles/kits: Quartz, Libre, Dusk, Mist, Veil; free Dusk kit has 10 landing pages and 39 blocks",
+    "supports Radix UI and Base UI",
+    "registry namespaces @tailark (Pro) and @tailark-oss (free), plus setup prompts",
+    "plans: free, $249 Essentials, $299 Complete, $499 Team (one-time)"
+  ],
+  "formats": [
+    "registry",
+    "code",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://tailark.com/docs/quick-setup",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

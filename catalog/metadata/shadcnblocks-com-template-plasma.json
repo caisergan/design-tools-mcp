@@ -1,0 +1,28 @@
+{
+  "id": "shadcnblocks-com-template-plasma",
+  "url": "https://shadcnblocks.com/template/plasma",
+  "kind": "page",
+  "hints_hash": "5f3a308cf7510e33",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:15:23Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://shadcnblocks.com/template/plasma", "title": "Plasma - Developer SaaS/app template Next.js & Astro - Shadcnblocks.com", "status": null},
+    {"url": "https://www.shadcnblocks.com/templates", "title": "Shadcn Templates - Shadcnblocks.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Plasma",
+  "summary": "Paid Next.js and Astro template for a developer SaaS site, with landing, pricing, docs, changelog and download pages.",
+  "description": "A 14-page developer SaaS/app template built on shadcn/ui and Tailwind 4, shipped in both Next.js and Astro editions. Pages are assembled from block sections and cover landing, pricing, docs, changelog, blog and download; content lives in MDX and JSON, docs use Fumadocs (Astro Starlight in the Astro edition), a Figma file is included, and the code is TypeScript with 100+ components.",
+  "type": "template",
+  "categories": ["templates"],
+  "elements": ["navbar", "hero", "pricing", "changelog", "sidebar", "footer"],
+  "keywords": ["nextjs template", "astro template", "shadcn ui", "tailwind css", "saas template", "developer saas", "landing page", "pricing page", "documentation", "changelog", "blog", "typescript", "mdx", "figma file", "marketing site", "starter"],
+  "contains": ["14 pages, 100+ components", "Next.js and Astro editions", "pages assembled from block sections", "landing, pricing, docs, changelog, blog and download pages", "docs built with Fumadocs (Astro Starlight in the Astro edition)", "MDX and data JSON content", "Figma file included", "deployments tested on Vercel, Netlify and Cloudflare Pages"],
+  "formats": ["code", "figma-file", "templates"],
+  "stack": ["nextjs", "react", "astro", "tailwind", "typescript", "mdx"],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "www-shadcnblocks-com"},
+  "confidence": 0.85
+}

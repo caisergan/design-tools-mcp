@@ -1,0 +1,33 @@
+{
+  "id": "github-com-chrisabdo-motionvariants",
+  "url": "https://github.com/chrisabdo/motionvariants",
+  "kind": "repo",
+  "hints_hash": "dcc341f78eb5ca03",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:52:57Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/chrisabdo/motionvariants/blob/HEAD/README.md", "title": "or", "status": null},
+    {"url": "https://github.com/chrisabdo/motionvariants", "title": "GitHub - ChrisAbdo/MotionVariants: A collection of handmade Framer Motion variants made for your next project.", "status": 200},
+    {"url": "https://variantvault.vercel.app", "title": "404", "status": 404}
+  ],
+  "status": "ok",
+  "name": "MotionVariants",
+  "summary": "Collection of handmade Framer Motion animation variants for React and Next.js projects.",
+  "description": "A collection of handmade Framer Motion variants you can copy into your own project, kept in a Next.js app that demos each animation (create-next-app, Tailwind CSS, framer-motion). The demo site listed on the repo, variantvault.vercel.app, currently returns 404.",
+  "type": "component-library",
+  "categories": ["motion"],
+  "elements": [],
+  "keywords": ["framer motion variant", "react animation", "motion variant", "animation collection", "next.js", "tailwind css", "copy paste animation", "ui transition", "hover animation", "open source"],
+  "contains": [
+    "handmade Framer Motion variants for React projects",
+    "Next.js demo app in the repo (create-next-app, Tailwind CSS)",
+    "demo site variantvault.vercel.app returns 404"
+  ],
+  "formats": ["code"],
+  "stack": ["nextjs", "react", "framer-motion", "tailwind"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/chrisabdo/motionvariants", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.65
+}

@@ -1,0 +1,36 @@
+{
+  "id": "tanstack-com-table",
+  "url": "https://tanstack.com/table",
+  "kind": "page",
+  "hints_hash": "fcd16d740b3977b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:21:20Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://tanstack.com/table", "title": "TanStack Table", "status": 200},
+    {"url": "https://github.com/TanStack/table", "title": "GitHub - TanStack/table: Headless UI for building powerful tables & datagrids for TS/JS.", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TanStack Table",
+  "summary": "Headless table engine for data grids: sorting, filtering, pagination, grouping, selection, pinning and resizing.",
+  "description": "A headless, framework-agnostic table and datagrid library. It supplies state and typed APIs for sorting, pagination, filtering, faceting, grouping, aggregation, row expansion, row and cell selection, cell spanning, column pinning, ordering, visibility and resizing, while you render your own markup with any component library. Features are tree-shakable, row models are memoized, and adapters cover React, Vue, Svelte, Solid, Angular and more; Devtools and agent skills ship with v9+.",
+  "type": "component-library",
+  "elements": ["table", "pagination"],
+  "keywords": ["headless table", "data grid", "datagrid", "table", "sorting", "filtering", "pagination", "row selection", "column pinning", "column resizing", "grouping", "aggregation", "faceting", "react", "vue", "svelte", "typescript", "server-side pagination"],
+  "contains": [
+    "1.2B total downloads, 32M weekly downloads, 28k+ GitHub stars",
+    "sorting, pagination, filtering, faceting, grouping, aggregation and row expansion",
+    "row and cell selection, cell spanning, row and column pinning",
+    "column ordering, visibility and resizing",
+    "headless: 100% control of markup and styles; examples for shadcn/ui, MUI, Mantine, Chakra UI, HeroUI, React Aria",
+    "tree-shakable features and a memoized row-model pipeline",
+    "TanStack Table Devtools and v9 agent skills",
+    "MIT licensed"
+  ],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "vue", "svelte", "solid", "angular", "lit", "typescript"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/TanStack/table", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

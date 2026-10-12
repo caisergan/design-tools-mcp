@@ -1,0 +1,61 @@
+{
+  "id": "claude-rubenhassid-ai",
+  "url": "https://claude.rubenhassid.ai",
+  "kind": "site",
+  "hints_hash": "78f326695a79b856",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:45:13Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://claude.rubenhassid.ai",
+      "title": "27 Claude Tips (Anthropic should have given you)",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "27 Claude Tips",
+  "summary": "Free 30-page PDF of 27 practical tips for getting more out of Claude, by Ruben Hassid.",
+  "description": "Landing page for a free 30-page PDF of 27 tips on using Claude: prompt fixes for writing, connector and model settings, session habits. Tip 1 is shown on the page; the remaining tips arrive by email. By Ruben Hassid (How to AI).",
+  "type": "article",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "claude",
+    "anthropic",
+    "ai tip",
+    "prompt",
+    "prompting",
+    "prompt engineering",
+    "ai writing",
+    "asd-ste100",
+    "claude tip",
+    "ai workflow",
+    "free pdf"
+  ],
+  "contains": [
+    "27 tips in a free 30-page PDF",
+    "tip 1 shown on the page (ASD-STE100 writing standard)",
+    "remaining tips delivered by email"
+  ],
+  "formats": [
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

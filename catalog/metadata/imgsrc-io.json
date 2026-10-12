@@ -1,0 +1,38 @@
+{
+  "id": "imgsrc-io",
+  "url": "https://imgsrc.io",
+  "kind": "site",
+  "hints_hash": "4f14cfa8df839a6c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://imgsrc.io", "title": "imgsrc", "status": null},
+    {"url": "https://imgsrc.io/guides/open-graph-meta-tags", "title": "A Guide to Open Graph Meta Tags", "status": null},
+    {"url": "https://imgsrc.io/pricing", "title": "imgsrc", "status": null}
+  ],
+  "status": "ok",
+  "name": "imgsrc",
+  "summary": "Open Graph image generator: pick a template, customize the properties and export a PNG, plus an API for bulk generation.",
+  "description": "A web editor that generates Open Graph images from templates: set the tag, title, logo, image and background (gradient direction, grid overlay, noise), then export the result as a PNG. The same generator runs through an API — up to 1000 images per month on the Pro plan — and the site includes a guide to Open Graph meta tags with a tag generator.",
+  "type": "generator",
+  "categories": ["design-tools"],
+  "elements": [],
+  "keywords": ["open graph", "og image", "social image", "social card", "meta tag", "image generator", "png export", "api", "template", "seo", "twitter card", "background gradient", "watermark"],
+  "contains": [
+    "template-based Open Graph image editor with live preview",
+    "properties: tag, title, logo, image and background",
+    "background options: gradient direction, grid overlay, noise",
+    "exports the image as a PNG",
+    "API generates up to 1000 images per month on Pro",
+    "pricing: Lifetime $49 one-time, Pro $7 per month",
+    "free tier keeps the watermark",
+    "guide to Open Graph meta tags with a tag generator"
+  ],
+  "formats": ["app", "png", "api", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

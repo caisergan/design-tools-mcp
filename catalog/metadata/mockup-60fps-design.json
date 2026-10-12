@@ -1,0 +1,29 @@
+{
+  "id": "mockup-60fps-design",
+  "url": "https://mockup.60fps.design",
+  "kind": "site",
+  "hints_hash": "6070bcceda854041",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:31:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://mockup.60fps.design", "title": "60fps Mockup - iOS mockups made simple", "status": 200},
+    {"url": "https://mockup.60fps.design/pro", "title": "PRO Pricing | 60fps Mockup | 60fps Mockup", "status": 200}
+  ],
+  "status": "ok",
+  "name": "60fps Mockup",
+  "summary": "Web tool that wraps screen recordings in realistic iPhone frames for app videos and mockups.",
+  "description": "Browser tool for turning screen recordings into iPhone mockups: device frames and hands, an automatic status bar, custom backgrounds, emojis and patterns. A free tier covers basic use; PRO adds unlimited exports, watermark-free previews, 2x resolution, all devices and hands, and full customization.",
+  "type": "tool",
+  "categories": ["media"],
+  "elements": [],
+  "keywords": ["ios mockup", "iphone mockup", "device mockup", "screen recording", "app showcase", "mockup generator", "phone frame", "status bar", "app store video", "recorded demo", "app video", "free mockup"],
+  "contains": ["wraps screen recordings in iPhone device frames", "free tier; PRO adds unlimited exports, watermark-free previews and 2x resolution",
+    "PRO extras: all devices and hands, custom backgrounds, emojis and patterns", "monthly, yearly and lifetime plans, payments via Polar"],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

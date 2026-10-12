@@ -1,0 +1,45 @@
+{
+  "id": "app-testedrecruits-com-posting-16680",
+  "url": "https://app.testedrecruits.com/posting/16680",
+  "kind": "page",
+  "hints_hash": "28f835a516c68747",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:54Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://app.testedrecruits.com/posting/16680",
+      "title": "Coalition Technologies Jobs & Careers",
+      "status": null
+    }
+  ],
+  "status": "partial",
+  "name": "Coalition Technologies Jobs & Careers",
+  "summary": "Company careers page on the Tested Recruits hiring app, listing job openings at Coalition Technologies.",
+  "description": "Job posting URL that resolves to the Coalition Technologies careers listing inside the Tested Recruits app. Only the page title and heading were readable, as the rest of the page renders with JavaScript.",
+  "elements": [],
+  "keywords": [
+    "job posting",
+    "career",
+    "job listing",
+    "job board",
+    "remote job",
+    "hiring",
+    "job opening",
+    "employment",
+    "application",
+    "recruiting app"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.35
+}

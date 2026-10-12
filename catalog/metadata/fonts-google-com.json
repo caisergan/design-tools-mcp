@@ -1,0 +1,30 @@
+{
+  "id": "fonts-google-com",
+  "url": "https://fonts.google.com",
+  "kind": "site",
+  "hints_hash": "9c2248bac5450b50",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:04:11Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com", "title": "Browse Fonts - Google Fonts", "status": 200},
+    {"url": "https://fonts.google.com/icons", "title": "Material Symbols and Icons - Google Fonts", "status": 200},
+    {"url": "https://fonts.google.com/about", "title": "About - Google Fonts", "status": 200},
+    {"url": "https://fonts.google.com/knowledge", "title": "Fonts Knowledge - Google Fonts", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Google Fonts",
+  "summary": "Library for browsing font families, with the Material Symbols icon font and typography knowledge articles.",
+  "description": "A browsable catalog of typefaces, presented as specimen pages, with families such as Aladin, Baloo Tamma 2, Chakra Petch, Grenze, Phudu and Taviraj. It also hosts Material Symbols — an icon font consolidating 2,500+ glyphs in a single file with a range of design variants — and Fonts Knowledge, typography guides and articles. The site renders client-side, so its pages return little text to crawlers.",
+  "type": "font-foundry",
+  "categories": ["fonts", "icons"],
+  "elements": [],
+  "keywords": ["web font", "font library", "typeface", "font family", "variable font", "display font", "monospace", "handwriting font", "icon font", "glyph", "typography", "font pairing", "cjk font", "emoji font", "specimen", "font download"],
+  "contains": ["Material Symbols: 2,500+ glyphs in one font file with a range of design variants", "browse font families such as Aladin, Baloo Tamma 2, Chakra Petch, Grenze, Phudu, Taviraj", "script pages (Greek Script) and CJK families such as Noto Sans TC", "Fonts Knowledge articles such as 'Factors That Influence The Efficiency Of Variable Web Fonts'", "2,244 urls in the site map, 2,219 of them docs and specimen pages"],
+  "formats": ["font-files", "docs"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

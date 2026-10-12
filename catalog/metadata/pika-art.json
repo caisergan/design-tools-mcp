@@ -1,0 +1,39 @@
+{
+  "id": "pika-art",
+  "url": "https://pika.art",
+  "kind": "site",
+  "hints_hash": "c0c926c6a4930cce",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pika.art", "title": "Pika", "status": 200},
+    {"url": "https://pika.art/pricing", "title": "Pricing — Pika", "status": 200},
+    {"url": "https://pika.art/faq", "title": "Help Center — Pika", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pika",
+  "summary": "AI creative platform that generates and edits video, image and audio from prompts.",
+  "description": "Generate and edit video, image and audio in single-purpose apps: Video Studio, Color Grade, Extend Video, Pika Soundtrack, Edit Image, Character Studio, Image Studio, Product Shot and Speech Studio. Models from Pika and other labs (Seedance 2.5, Wan 3.0, Nano Banana, GPT Image 2.5, ElevenLabs) share one credit system. Free plan, paid tiers from $10/month and a developer API.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "ai video generator", "text to video", "image to video", "motion transfer", "face swap",
+    "extend video", "color grading", "character creator", "product photo", "ai music",
+    "sound effect", "speech generation", "voice over", "video editing", "developer api", "credit pack"
+  ],
+  "contains": [
+    "apps: video studio, color grade, extend video, soundtrack, image edit, character studio, product shot, speech",
+    "models: Seedance 2.5, MiniMax H3, Wan 3.0, Nano Banana, GPT Image 2.5, ElevenLabs",
+    "plans: Free, Starter $10, Creator $35, Fancy $95 and up per month",
+    "credit packs: $25 for 1,500 credits up to $1,000 for 66,000",
+    "developer API and MCP access with membership pricing"
+  ],
+  "formats": ["app", "api", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

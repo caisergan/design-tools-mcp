@@ -1,0 +1,38 @@
+{
+  "id": "citeme-app",
+  "url": "https://citeme.app",
+  "kind": "site",
+  "hints_hash": "e9ae89a9622553dc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:01:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://citeme.app/llms.txt", "title": "CiteMe — Free Online Citation Generator & Bibliography Maker", "status": null},
+    {"url": "https://citeme.app", "title": "Cite This For Me — Free Citation Generator | CiteMe", "status": 200},
+    {"url": "https://citeme.app/pricing", "title": "Pricing — Free & Pro Plans for Students and… | CiteMe", "status": 200},
+    {"url": "https://citeme.app/about", "title": "About - Academic Citation Management | CiteMe", "status": 200}
+  ],
+  "status": "ok",
+  "name": "CiteMe",
+  "summary": "Citation generator and reference checker formatting real source records in 60+ citation styles.",
+  "description": "Free online citation generator and bibliography maker. Paste a DOI, ISBN, PMID, arXiv ID, URL, paper title or topic; CiteMe finds a source record in scholarly indexes (CrossRef, OpenAlex, PubMed, Europe PMC, Semantic Scholar, arXiv, Google Books) and formats it in 60+ curated styles plus 10,000+ CSL styles. Also reference checking, PDF-to-BibTeX/RIS conversion, browser extensions, an API and an MCP server for AI assistants.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["citation generator", "bibliography maker", "reference checker", "apa citation", "mla citation", "chicago citation", "harvard referencing", "vancouver citation", "ieee citation", "doi lookup", "isbn", "bibtex", "ris", "pdf to bibtex", "academic writing", "student", "research tool", "api", "mcp server"],
+  "contains": [
+    "10+ scholarly sources: CrossRef, OpenAlex, PubMed, Europe PMC, Semantic Scholar, arXiv, Google Books",
+    "60+ curated citation styles plus 10,000+ CSL styles",
+    "citation generator, reference checker, DOI/ISBN/PMID/arXiv lookups, PDF to BibTeX/RIS",
+    "API and MCP server for agents; no key needed for basic use",
+    "Chrome, Firefox, Edge and Safari extensions",
+    "free plan; Pro from $2.99/week adds batch PDF import and Word export",
+    "source provenance shown and unverifiable results labelled for review"
+  ],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://citeme.app/api/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

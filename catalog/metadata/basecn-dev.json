@@ -1,0 +1,37 @@
+{
+  "id": "basecn-dev",
+  "url": "https://basecn.dev",
+  "kind": "site",
+  "hints_hash": "8d2a4953fd92e155",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:21:06Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://basecn.dev/llms.txt", "title": "basecn", "status": null},
+    {"url": "https://basecn.dev", "title": "shadcn/ui components powered by Base UI", "status": 200},
+    {"url": "https://basecn.dev/docs/components/kbd", "title": "Kbd - basecn", "status": 200},
+    {"url": "https://github.com/akash3444/basecn", "title": "GitHub - akash3444/basecn: shadcn/ui components powered by Base UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "basecn",
+  "summary": "shadcn/ui components rebuilt on Base UI, installable from a namespaced registry or copy-paste.",
+  "description": "The shadcn/ui component set rebuilt on Base UI: accordion, select, combobox, data table, dialog, drawer, form and more, with familiar APIs, styling and multiple examples per component, plus RTL support and a migration guide from Radix UI.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["select", "popover", "drawer", "input", "switch", "modal", "button", "checkbox", "command-palette", "dropdown", "table", "form", "accordion", "alert", "avatar", "badge", "breadcrumbs", "calendar", "card", "carousel", "chart", "date-picker", "empty-state", "menubar", "pagination", "progress", "sidebar", "slider", "tabs", "toast", "tooltip", "loader", "otp-input"],
+  "keywords": ["shadcn ui", "base ui", "react component", "shadcn registry", "tailwind css", "copy paste", "radix migration", "rtl support", "data table", "select", "drawer", "popover", "accordion", "form", "accessibility", "typescript"],
+  "contains": [
+    "56 shadcn registry items across 61 docs pages",
+    "shadcn/ui components and APIs rebuilt on Base UI",
+    "multiple examples per component",
+    "RTL support and Radix UI migration guide",
+    "namespaced registry install or copy-paste",
+    "MIT licensed"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["react", "tailwind", "base-ui", "typescript", "nextjs"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/akash3444/basecn", "docs": "https://basecn.dev/docs/get-started/introduction", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

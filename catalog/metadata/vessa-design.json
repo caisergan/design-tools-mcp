@@ -1,0 +1,92 @@
+{
+  "id": "vessa-design",
+  "url": "https://vessa.design",
+  "kind": "site",
+  "hints_hash": "0b475cb5df7c44b9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vessa.design",
+      "title": "Vessa · the only brand guidelines that move",
+      "status": null
+    },
+    {
+      "url": "https://vessa.design/docs/connect-your-ai",
+      "title": "Connect Claude or Cursor · Vessa",
+      "status": null
+    },
+    {
+      "url": "https://vessa.design/gallery",
+      "title": "Brand guidelines gallery · real ones, published as websites",
+      "status": null
+    },
+    {
+      "url": "https://vessa.design/guides/motion-brand-guidelines",
+      "title": "How to document motion in a brand guideline · Vessa",
+      "status": null
+    },
+    {
+      "url": "https://vessa.design/docs/fonts",
+      "title": "Fonts · Vessa",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Vessa",
+  "summary": "Turns brand guidelines into live animated pages: click-to-copy colors, a documented motion spec and MCP for AI clients.",
+  "description": "Vessa builds brand guidelines as live web pages instead of PDFs, at one link that stays editable and updates in place. Nine sections (intro, logo, color, typography, motion, voice, moodboard, applications, assets) can be drafted from a URL by an AI over MCP, then edited in the browser; colors copy on click and motion is documented as easing and duration values.",
+  "type": "tool",
+  "categories": [
+    "design-tools",
+    "motion"
+  ],
+  "elements": [],
+  "keywords": [
+    "brand guideline",
+    "style guide",
+    "brand portal",
+    "color palette",
+    "hex color",
+    "typography",
+    "motion design",
+    "easing",
+    "duration",
+    "design token",
+    "brand handoff",
+    "mcp",
+    "font licensing",
+    "brand page",
+    "brand asset"
+  ],
+  "contains": [
+    "9 guideline sections: intro, logo, color, typography, motion, voice, moodboard, applications, assets",
+    "colors copy to the clipboard when clicked",
+    "motion spec: easing curves and durations handed over as CSS or GSAP-ready values",
+    "AI drafts a guideline from a website URL or a few sentences",
+    "MCP endpoint for Claude, Claude Code and Cursor",
+    "password-protectable guidelines, updates propagate to the same link",
+    "gallery of 10 published guidelines",
+    "pricing: free to build, €25.35 one-time per published brand"
+  ],
+  "formats": [
+    "app",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://vessa.design/docs/connect-your-ai",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

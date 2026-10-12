@@ -1,0 +1,29 @@
+{
+  "id": "color-name-com",
+  "url": "https://color-name.com",
+  "kind": "site",
+  "hints_hash": "b628eeec9597bd38",
+  "schema_version": 1,
+  "extracted_at": "2026-10-12T09:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://color-name.com", "title": "Color-Name.com: Find name of the color you love!", "status": null},
+    {"url": "https://www.color-name.com/about", "title": "About Us - Color-Name.com", "status": null},
+    {"url": "https://www.color-name.com/tools", "title": "Tools - Color-Name.com", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Color-Name.com",
+  "summary": "Color lookup and conversion tool: find a color's name from a hex code and generate palettes, gradients and wallpapers.",
+  "description": "Search millions of colors by name or hex code and get names, conversions (RGB, CMYK, Pantone, RAL) and downloadable palettes, patterns and wallpapers. Six tools cover a color visualizer, color name from image, contrast checker, code converter, palette generator and gradient creator.",
+  "type": "tool",
+  "categories": ["color-effects", "design-tools"],
+  "elements": [],
+  "keywords": ["color name", "hex code", "color palette", "color converter", "rgb", "cmyk", "pantone", "ral", "gradient generator", "contrast checker", "color picker", "wallpaper", "color tool", "color from image"],
+  "contains": ["millions of colors searchable by name or hex code", "downloadable palettes, patterns and wallpapers", "tools: color visualizer, color name from image, contrast checker, code converter, palette generator, gradient creator", "top, trending and newly added color lists", "12,698 URLs in its sitemap"],
+  "formats": ["app"],
+  "stack": ["wordpress"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

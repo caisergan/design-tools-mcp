@@ -1,0 +1,29 @@
+{
+  "id": "semanticscholar-org",
+  "url": "https://semanticscholar.org",
+  "kind": "site",
+  "hints_hash": "e6b99fb750f282bd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:33:19Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://semanticscholar.org", "title": "Semantic Scholar | AI-Powered Research Tool", "status": 200},
+    {"url": "https://www.semanticscholar.org/faq", "title": "Semantic Scholar | Frequently Asked Questions", "status": 200},
+    {"url": "https://www.semanticscholar.org/product/api/license", "title": "License Agreement | Semantic Scholar Academic Graph API", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Semantic Scholar",
+  "summary": "Free AI-powered search and discovery tool for scientific literature.",
+  "description": "Semantic Scholar searches 238,736,094 papers and uses machine learning to extract meaning and surface relevant citations and connections. It is free to use, offers the Semantic Scholar Academic Graph API and monthly downloadable datasets for developers, and includes the Semantic Reader augmented PDF reader (beta).",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["research paper", "scientific literature", "paper search", "academic search", "citation search", "literature discovery", "research api", "dataset", "semantic reader", "scholarly search", "ai research"],
+  "contains": ["238,736,094 papers indexed, all fields of science", "free AI-powered search and discovery", "Semantic Scholar Academic Graph (S2AG) RESTful API", "monthly downloadable datasets and S2ORC corpus", "Semantic Reader augmented reader (beta)", "personal library, research feeds, alerts and recommendations", "no mobile app; desktop and mobile web"],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.semanticscholar.org/product/api", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,32 @@
+{
+  "id": "www-openui-com",
+  "url": "https://www.openui.com",
+  "kind": "site",
+  "hints_hash": "4dfc3a778f2ded77",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:12:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://www.openui.com/llms.txt", "title": "OpenUI", "status": null},
+    {"url": "https://www.openui.com", "title": "OpenUI - The Open Standard for Intelligent UI", "status": 200},
+    {"url": "https://www.openui.com/docs.mdx", "title": "Introduction", "status": 200},
+    {"url": "https://www.openui.com/docs/integrations", "title": "Integrations | OpenUI - The Open Standard for Intelligent UI", "status": 200},
+    {"url": "https://www.openui.com/pricing", "title": "OpenUI Pricing | OpenUI - The Open Standard for Intelligent UI", "status": 200},
+    {"url": "https://github.com/thesysdev/openui", "title": "GitHub - thesysdev/openui: The Open Standard for Generative UI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "OpenUI",
+  "summary": "Open standard for generative UI: a streaming-first language that models write to render live interfaces from your own components.",
+  "description": "A generative UI framework built on OpenUI Lang, a compact streaming-first language where each line defines one component, so interfaces render while the model is still streaming. The open-source SDK ships React, Vue, Svelte, React Native, email, browser-bundle and CLI entrypoints, headless chat hooks and a default component library, and renders with your own design system (shadcn/ui, Material UI, daisyUI and more). Managed OpenUI Gateway validates and repairs generated output for production.",
+  "type": "tool",
+  "categories": ["dev-ai-tools", "components"],
+  "elements": ["chat", "prompt-input", "chart", "form", "card", "table", "dashboard"],
+  "keywords": ["generative ui", "ai agent interface", "streaming ui", "llm", "chat interface", "component library", "design system", "react", "vue", "svelte", "angular", "react native", "nextjs", "shadcn"],
+  "contains": ["OpenUI Lang averages 1,362 tokens per screen, up to 67% fewer than JSON formats (project benchmark)", "SDK entrypoints: React, Vue, Svelte, React Native, email, browser bundle and CLI", "renders charts, forms, cards, tables, dashboards and app screens, not only chat", "component libraries for shadcn/ui and Material UI; bring your own design system", "integrations: Vercel AI SDK, LangChain/LangGraph, Mastra, Google ADK, FastAPI, CopilotKit, Nuxt, SvelteKit", "OpenUI Gateway: validates and repairs output, provider failover, OpenAI-compatible", "Gateway pricing from $0 to $49 and $499 per month; Observability in early access", "MIT licensed; 10.7k GitHub stars and 3M+ package downloads"],
+  "formats": ["code", "npm-package", "cli", "docs", "api"],
+  "stack": ["react", "vue", "svelte", "angular", "typescript"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/thesysdev/openui", "docs": "https://www.openui.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

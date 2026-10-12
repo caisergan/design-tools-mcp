@@ -1,0 +1,101 @@
+{
+  "id": "keyzen-theshiva-xyz",
+  "url": "https://keyzen.theshiva.xyz",
+  "kind": "site",
+  "hints_hash": "d123691ae8ba62e9",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://keyzen.theshiva.xyz",
+      "title": "KeyZen — Typing Speed Test",
+      "status": null
+    },
+    {
+      "url": "https://keyzen.theshiva.xyz/about",
+      "title": "About — KeyZen",
+      "status": null
+    },
+    {
+      "url": "https://keyzen.theshiva.xyz/landing",
+      "title": "KeyZen — Typing Speed Test",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ShivaBhattacharjee/KeyZen",
+      "title": "GitHub - ShivaBhattacharjee/KeyZen: A typing test with a keychron keyboard with audiofeedback inspired by Monkeytype",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ShivaBhattacharjee/KeyZen/HEAD/README.md",
+      "title": "KeyZen",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "KeyZen",
+  "summary": "Open-source browser typing test with time, words, code, zen, quote and custom modes, a virtual keyboard and key sounds.",
+  "description": "A clean, browser-based typing speed test: timed and word-count drills, quotes and a zen mode, with results showing WPM, raw speed, accuracy, consistency and a WPM-over-time chart. A virtual keyboard highlights keys as you type on large screens, with per-key sounds via the Web Audio API and optional haptics; settings cover theme, accent color and typography. No accounts or ads; free and open source, inspired by Monkeytype.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "chart",
+    "stats"
+  ],
+  "keywords": [
+    "typing test",
+    "typing speed",
+    "wpm",
+    "typing practice",
+    "typing accuracy",
+    "virtual keyboard",
+    "keyboard sound",
+    "monkeytype alternative",
+    "zen mode",
+    "code typing",
+    "quote typing",
+    "open source",
+    "next.js",
+    "shadcn ui",
+    "haptics"
+  ],
+  "contains": [
+    "six modes: time, words, code, zen, quote, custom",
+    "results: WPM, raw speed, accuracy, character breakdown, consistency, WPM chart",
+    "virtual keyboard that mirrors expected keys while typing",
+    "per-key sounds via Web Audio API, optional haptics",
+    "settings: light/dark/system theme, accent color, typography",
+    "open source under Apache-2.0, 142 GitHub stars",
+    "launched April 13, 2025"
+  ],
+  "formats": [
+    "app",
+    "code"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "recharts",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/ShivaBhattacharjee/KeyZen",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

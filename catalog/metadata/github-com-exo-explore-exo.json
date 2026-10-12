@@ -1,0 +1,81 @@
+{
+  "id": "github-com-exo-explore-exo",
+  "url": "https://github.com/exo-explore/exo",
+  "kind": "repo",
+  "hints_hash": "f9f382fdba3bbb73",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:40:06Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/exo-explore/exo/blob/HEAD/README.md",
+      "title": "exo",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/exo-explore/exo",
+      "title": "GitHub - exo-explore/exo: Run frontier AI locally.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "exo",
+  "summary": "Connects your devices into an AI cluster to run frontier models locally, with RDMA over Thunderbolt and a chat dashboard.",
+  "description": "Runs frontier AI models locally across a cluster of your devices: automatic device discovery, RDMA over Thunderbolt 5, topology-aware auto parallel, tensor parallelism and an MLX inference backend. Includes a built-in dashboard for managing the cluster and chatting with models, API compatibility with OpenAI Chat Completions, Claude Messages, OpenAI Responses and Ollama endpoints, custom model loading from HuggingFace, and a background macOS app.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "run ai locally",
+    "local llm",
+    "ai cluster",
+    "distributed inference",
+    "mlx",
+    "rdma",
+    "thunderbolt",
+    "multi-device",
+    "tensor parallel",
+    "llm",
+    "openai compatible api",
+    "ollama api",
+    "macos app",
+    "self-hosted"
+  ],
+  "contains": [
+    "runs models across multiple devices as a cluster",
+    "RDMA over Thunderbolt 5",
+    "tensor parallelism: 1.8x speedup on 2 devices, 3.2x on 4",
+    "dashboard for cluster management and model chat",
+    "API-compatible with OpenAI, Claude Messages, OpenAI Responses and Ollama",
+    "runs from source on macOS/Linux; macOS app available",
+    "Apache-2.0 licensed"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "cli",
+    "api"
+  ],
+  "stack": [
+    "python",
+    "rust",
+    "mlx",
+    "node"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/exo-explore/exo",
+    "docs": "https://github.com/exo-explore/exo/blob/HEAD/docs/api.md",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

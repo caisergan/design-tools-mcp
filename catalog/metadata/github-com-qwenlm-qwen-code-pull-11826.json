@@ -1,0 +1,20 @@
+{
+  "id": "github-com-qwenlm-qwen-code-pull-11826",
+  "url": "https://github.com/QwenLM/qwen-code/pull/11826",
+  "kind": "page",
+  "hints_hash": "3c5eec5e3cfe88b3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:31:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/QwenLM/qwen-code/pull/11826", "title": "fix(core): accept Claude Code tool names in tool hook matchers by qqqys · Pull Request #11826 · QwenLM/qwen-code · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fix(core): accept Claude Code tool names in tool hook matchers",
+  "summary": "Merged pull request in QwenLM/qwen-code: tool hook matchers now accept Claude Code tool names like Bash, Read and Write.",
+  "description": "Merged pull request (#11826) in QwenLM/qwen-code: tool hook matchers (PreToolUse, PostToolUse, PostToolUseFailure, PermissionRequest, PermissionDenied) now accept every tool name a permission rule accepts for the same tool, including Claude Code's Bash, Read and Write, so a matcher copied from a Claude Code config matches unchanged; each accepted name still identifies exactly one tool. One of the Claude Code compatibility fixes tracked by #11610.",
+  "keywords": ["pull request", "ai coding agent", "cli", "terminal", "hook", "matcher", "permission rule", "claude code", "compatibility", "bug fix", "open source"],
+  "formats": ["code"],
+  "related": {"repo": "https://github.com/QwenLM/qwen-code", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.85
+}

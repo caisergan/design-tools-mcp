@@ -1,0 +1,29 @@
+{
+  "id": "fonts-google-com-specimen-protest-riot",
+  "url": "https://fonts.google.com/specimen/Protest+Riot",
+  "kind": "page",
+  "hints_hash": "b0423b405ac60dc4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:39:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/Protest+Riot", "title": "Protest Riot - Google Fonts", "status": null},
+    {"url": "https://fonts.google.com/metadata/fonts/Protest+Riot", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/google/fonts/main/ofl/protestriot/METADATA.pb", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Protest Riot",
+  "summary": "Single-weight display font drawn from protest sign lettering, with Latin and Vietnamese coverage.",
+  "description": "Protest Riot is one of Octavio Pardo's Protest Types, display families shaped after the lettering of protest signs. Its one 400 weight covers Latin, Latin Extended, Vietnamese, math and symbols. Free under the SIL Open Font License.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["display font", "font", "typeface", "poster", "headline", "free font", "web font", "protest", "zine", "sticker", "logo", "signage"],
+  "contains": ["single weight: 400 Regular", "subsets: latin, latin-ext, vietnamese, math, symbols", "part of the Protest Types project by Octavio Pardo", "SIL Open Font License (OFL-1.1)"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.85
+}

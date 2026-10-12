@@ -1,0 +1,37 @@
+{
+  "id": "cleanshot-com",
+  "url": "https://cleanshot.com",
+  "kind": "site",
+  "hints_hash": "ca6b6b54cbee8cc2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:28Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://cleanshot.com", "title": "CleanShot X for Mac", "status": null},
+    {"url": "https://cleanshot.com/pricing", "title": "CleanShot X – Pricing", "status": null},
+    {"url": "https://cleanshot.com/faq", "title": "CleanShot X – FAQ", "status": null}
+  ],
+  "status": "ok",
+  "name": "CleanShot X",
+  "summary": "Mac screenshot and screen-recording app with annotation, scrolling capture, OCR and cloud sharing.",
+  "description": "A macOS toolkit for capturing screenshots and screen recordings: markup and redaction, backgrounds, scrolling capture, on-device text recognition, a video editor with smart zooms, and CleanShot Cloud for instant links, comments and transcripts. Sold as a one-time Basic license or a per-user Pro subscription.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["screenshot", "screen recording", "screen capture", "mac app", "annotation", "scrolling capture", "ocr", "gif export", "cloud sharing", "video editor", "webcam bubble", "bug report", "productivity"],
+  "contains": [
+    "screenshot and screen recording app for macOS 13 or newer",
+    "annotation: markup, redact, backgrounds, crop and resize, spotlight, outline steps, highlight text",
+    "scrolling capture, on-device text recognition and QR reading, pinned screenshots, capture history",
+    "video editor with smart zooms, webcam bubble, click highlights and keystroke display",
+    "CleanShot Cloud: one-click links, comments, transcripts, custom domains, SSO and SCIM, ISO 27001",
+    "pricing: Basic $35 one-time (1 year of updates, 1 GB storage); Pro $10 per user/month billed annually",
+    "trusted by 250,000+ users; rated 4.9; 30-day money-back guarantee"
+  ],
+  "formats": ["app"],
+  "stack": [],
+  "pricing": "paid",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://cleanshot.com/docs-api", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

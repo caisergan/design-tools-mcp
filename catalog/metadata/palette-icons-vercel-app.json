@@ -1,0 +1,32 @@
+{
+  "id": "palette-icons-vercel-app",
+  "url": "https://palette-icons.vercel.app",
+  "kind": "site",
+  "hints_hash": "a2d0b0195b412f3f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:29:35Z",
+  "extractor": { "agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2" },
+  "evidence": [
+    { "url": "https://palette-icons.vercel.app", "title": "Create Next App", "status": null }
+  ],
+  "status": "ok",
+  "name": "Palette Design System Icon Library",
+  "summary": "Open-source icon set from the Palette design system, with copy-SVG and download for each icon.",
+  "description": "A small open-source icon library that lists 24 icons by name (airpods, battery, beer, bolt, car, chef-emoji, cloud, moon, sun, train and so on), each with copy-SVG and download actions. The page says new, randomly generated icons are added over time to keep the collection growing.",
+  "type": "icon-set",
+  "categories": ["icons"],
+  "elements": [],
+  "keywords": ["icon", "icon set", "svg icon", "open source icon", "copy svg", "download icon", "design system", "free icon", "nextjs"],
+  "contains": [
+    "24 icons listed on the homepage",
+    "copy SVG and download per icon",
+    "open-source, ever-growing collection updated with new icons",
+    "icons named after everyday objects: battery, beer, bolt, car, moon, sun, train, yin-yang"
+  ],
+  "formats": ["svg"],
+  "stack": ["react", "nextjs"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": { "repo": null, "docs": null, "npm": null, "figma": null, "parent": null },
+  "confidence": 0.7
+}

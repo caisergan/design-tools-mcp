@@ -1,0 +1,85 @@
+{
+  "id": "github-com-google-labs-code-design-md",
+  "url": "https://github.com/google-labs-code/design.md",
+  "kind": "repo",
+  "hints_hash": "92917734c6baf139",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:26:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/google-labs-code/design.md/blob/HEAD/README.md",
+      "title": "DESIGN.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/google-labs-code/design.md",
+      "title": "GitHub - google-labs-code/design.md",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "DESIGN.md",
+  "summary": "A file format that describes a design system to coding agents: design tokens plus markdown rationale.",
+  "description": "DESIGN.md is a format specification from Google Labs for describing a visual identity to coding agents: machine-readable design tokens in YAML front matter (colors, typography, dimensions, component tokens) combined with human-readable design rationale in ordered markdown sections. It ships a linter CLI (@google/design.md) with lint, diff, export and spec commands, 11 lint rules including WCAG contrast checks, and exports to Tailwind v3, Tailwind v4 and W3C DTCG tokens.",
+  "type": "design-rules",
+  "categories": [
+    "design-rules",
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "design system",
+    "design token",
+    "design.md",
+    "visual identity",
+    "coding agent",
+    "ai agent",
+    "yaml front matter",
+    "markdown",
+    "style guide",
+    "wcag contrast",
+    "tailwind config",
+    "design token format",
+    "dtcg",
+    "w3c design token",
+    "cli",
+    "linter",
+    "brand guideline",
+    "specification"
+  ],
+  "contains": [
+    "format: YAML design tokens + markdown design rationale",
+    "canonical sections: Overview, Colors, Typography, Layout, Elevation & Depth, Shapes, Components, Do's and Don'ts",
+    "CLI: lint, diff, export and spec commands (@google/design.md)",
+    "11 lint rules incl. broken token references, WCAG AA contrast and section order",
+    "exports: Tailwind v3 config, Tailwind v4 @theme CSS, W3C DTCG tokens.json",
+    "programmatic linter API; spec output for injecting into agent prompts",
+    "format is at alpha; Apache-2.0; 28.3k GitHub stars"
+  ],
+  "formats": [
+    "npm-package",
+    "cli",
+    "docs",
+    "code"
+  ],
+  "stack": [
+    "node",
+    "typescript",
+    "bun"
+  ],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {
+    "repo": "https://github.com/google-labs-code/design.md",
+    "docs": "https://github.com/google-labs-code/design.md/blob/HEAD/docs/spec.md",
+    "npm": "@google/design.md",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

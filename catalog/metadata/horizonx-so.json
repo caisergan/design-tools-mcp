@@ -1,0 +1,39 @@
+{
+  "id": "horizonx-so",
+  "url": "https://horizonx.so",
+  "kind": "site",
+  "hints_hash": "bef5a00a703014ae",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:13:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://horizonx.so/llms.txt", "title": "HorizonX", "status": null},
+    {"url": "https://horizonx.so", "title": "HorizonX | UI Kits, Textures & Shaders for Vibe Coders", "status": 200},
+    {"url": "https://horizonx.so/docs", "title": "Docs | How HorizonX Works: Library, Editors and Exports", "status": 200},
+    {"url": "https://horizonx.so/explore", "title": "Explore UI Kits, Components & Figma Templates | HorizonX", "status": 200},
+    {"url": "https://horizonx.so/pricing", "title": "Pricing | UI Kits, Components & Templates Subscription | HorizonX", "status": 200},
+    {"url": "https://horizonx.so/faqs", "title": "FAQ | HorizonX Subscription, Licensing & Payments", "status": 200}
+  ],
+  "status": "ok",
+  "name": "HorizonX",
+  "summary": "Subscription library of React, Tailwind and Figma UI kits, components, textures and shader backgrounds for AI-assisted builds.",
+  "description": "A paid library of UI kits, React and Tailwind components, Figma files, textures and animated shaders meant as starting points for AI coding tools. 264 items are grouped into app screens, sections, landing pages, hero, dashboard, bento and imagery categories, and browser editors for tools, textures and shaders export HTML code, a Figma file or an AI prompt. An MCP server lets coding agents pull items directly.",
+  "type": "component-library",
+  "categories": ["components", "templates", "color-effects"],
+  "elements": ["loader", "button", "checkbox", "3d", "carousel", "card", "cursor", "globe", "switch", "tooltip", "background", "prompt-input", "hero", "dashboard", "bento-grid", "testimonials", "contact"],
+  "keywords": ["ui kit", "react component", "tailwind component", "figma template", "shader background", "animated background", "texture", "vibe coding", "ai coding", "cursor", "lovable", "v0", "mcp server", "dashboard template", "hero section", "bento grid", "landing page", "code export", "html", "svelte", "prompt"],
+  "contains": [
+    "264 items in the explore catalog: UI kits, components, Figma files, textures, shaders, imagery and videos",
+    "browse categories: app screens, sections, dashboard, landing pages, hero, bento grids, cards, testimonials, contact",
+    "browser editors for tools, textures and shaders with code (HTML), Figma and copy-prompt export",
+    "MCP server so coding agents can pull library items",
+    "subscription: Starter, Pro and Max plans from $19.99 first month, then $24.99-$99.99 per month",
+    "commercial license, instant access, Stripe checkout"
+  ],
+  "formats": ["code", "figma-file", "prompts", "templates", "video", "docs"],
+  "stack": ["react", "tailwind", "html", "svelte"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://horizonx.so/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

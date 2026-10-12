@@ -1,0 +1,36 @@
+{
+  "id": "github-com-dungngminh-simutil",
+  "url": "https://github.com/dungngminh/simutil",
+  "kind": "repo",
+  "hints_hash": "28c7d21e03bef50c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/dungngminh/simutil/blob/HEAD/README.md", "title": "~/.simutil/settings.yaml", "status": null}
+  ],
+  "status": "ok",
+  "name": "SimUtil",
+  "summary": "Terminal UI and desktop app for launching and managing Android emulators and iOS simulators.",
+  "description": "A cross-platform TUI, plus a preview desktop app, that lists Android emulators and iOS simulators side by side and launches them with options like Cold Boot or No Audio. Adds wireless ADB pairing, logcat viewing, device recording, YAML test scenarios and an MCP server so AI agents can drive devices.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["android emulator", "ios simulator", "terminal ui", "tui", "cli", "device manager", "wireless adb", "logcat", "scrcpy", "mcp server", "dart", "flutter", "emulator launcher", "simulator manager", "device streaming", "mobile development", "test automation"],
+  "contains": [
+    "launch Android emulators and iOS simulators with one key from the terminal",
+    "wireless ADB pairing by IP, 6-digit code or QR code",
+    "logcat viewer with filtering; built-in Xcode derived-data cleanup",
+    "custom plugins via YAML (scrcpy, Maestro …) with template variables",
+    "desktop app preview: multi-device streaming grid, 60 fps recording on macOS",
+    "MCP server so Claude Code, Codex and Cursor can list, start, stream, tap, swipe and record devices",
+    "Dart monorepo with packages published to pub.dev",
+    "MIT licensed"
+  ],
+  "formats": ["cli", "app", "code", "docs"],
+  "stack": ["dart", "flutter"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/dungngminh/simutil", "docs": "https://github.com/dungngminh/simutil/blob/HEAD/docs/plugins.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

@@ -1,0 +1,35 @@
+{
+  "id": "github-com-behisecc-awesome-claude-skills",
+  "url": "https://github.com/BehiSecc/awesome-claude-skills",
+  "kind": "repo",
+  "hints_hash": "0df6e53fc18c5bab",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/BehiSecc/awesome-claude-skills/blob/HEAD/README.md", "title": "Awesome Claude Skills", "status": 200},
+    {"url": "https://github.com/BehiSecc/awesome-claude-skills", "title": "GitHub - BehiSecc/awesome-claude-skills: A curated list of Claude Skills. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Awesome Claude Skills",
+  "summary": "Curated list of Claude Skills across 13 categories — documents, development, data, research, writing, media and more.",
+  "description": "A community-curated directory of Claude Skills, each entry linking to the skill's own repository or folder. Categories cover document skills (docx, pdf, pptx, xlsx), development and code tools, data and analysis, scientific and research tools, writing and research, learning, media and content, health and life sciences, collaboration and project management, security and web testing, utility and automation, articles, and collections.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["claude skill", "claude code skill", "agent skill", "skill.md", "awesome list", "curated list", "ai agent", "claude code", "skill directory", "ai tool"],
+  "contains": [
+    "13 skill categories, from document skills to security and web testing",
+    "document skills for docx, pdf, pptx, xlsx and Reveal.js slides",
+    "development and code tools: TDD, git worktrees, AWS, Playwright, debugging, plugins",
+    "sections for data and analysis, scientific research, writing, media, health, collaboration and automation",
+    "every entry links to the skill's own repository or folder",
+    "10.2k GitHub stars, 1.7k forks, 249 commits"
+  ],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/BehiSecc/awesome-claude-skills", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

@@ -1,0 +1,27 @@
+{
+  "id": "t-me-addlist-ocydnb3vcduyzdg6",
+  "url": "https://t.me/addlist/ocydnB3VcdUyZDg6",
+  "kind": "page",
+  "hints_hash": "43be1e2ed6cd2974",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:41:59Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://t.me/addlist/ocydnB3VcdUyZDg6", "title": "Telegram: Add Chats", "status": null}
+  ],
+  "status": "ok",
+  "name": "Dex Event",
+  "summary": "Telegram chat-list link that adds four chats from the list named Dex Event to the user's Telegram app.",
+  "description": "A Telegram \"add chats\" link. Opening it adds the four chats collected in the list named Dex Event to the user's Telegram app; the page itself shows only the list name, the chat count and a View Chats button.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["telegram", "chat list", "telegram chat", "telegram group", "chat invite", "group invite", "chat link"],
+  "contains": ["adds 4 chats to Telegram", "list name: Dex Event", "page shows a View Chats button"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

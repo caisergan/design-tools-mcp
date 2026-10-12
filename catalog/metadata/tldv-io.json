@@ -1,0 +1,75 @@
+{
+  "id": "tldv-io",
+  "url": "https://tldv.io",
+  "kind": "site",
+  "hints_hash": "b37485701787c491",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tldv.io/llms.txt",
+      "title": "tl;dv",
+      "status": null
+    },
+    {
+      "url": "https://tldv.io",
+      "title": "tl;dv - AI Meeting Notetaker for Zoom, Google Meet & Teams",
+      "status": 200
+    },
+    {
+      "url": "https://tldv.io/about-us",
+      "title": "About Us - tl;dv",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "tl;dv",
+  "summary": "AI notetaker that records and summarizes Zoom, Google Meet and Teams meetings.",
+  "description": "tl;dv captures Zoom, Google Meet and Teams meetings with or without a bot, then writes transcripts and summaries in 30+ languages, logs CRM updates, drafts follow-ups and answers questions across many calls. 5,000+ integrations, sales coaching clips and aggregated reports; SOC 2 Type II, GDPR and EU hosting, with no model training on your calls.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "meeting note",
+    "ai notetaker",
+    "meeting summary",
+    "transcript",
+    "zoom",
+    "google meet",
+    "microsoft team",
+    "crm integration",
+    "sales coaching",
+    "follow-up email",
+    "meeting recording",
+    "translation"
+  ],
+  "contains": [
+    "records Zoom, Google Meet and Microsoft Teams calls, bot or bot-free",
+    "transcripts and summaries in 30+ languages",
+    "5,000+ integrations with CRM updates and drafted follow-ups",
+    "3,000,000+ users",
+    "SOC 2 Type II and GDPR compliant, EU-hosted data, no model training on calls",
+    "free forever plan"
+  ],
+  "formats": [
+    "app"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

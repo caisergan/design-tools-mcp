@@ -1,0 +1,28 @@
+{
+  "id": "instatic-com",
+  "url": "https://instatic.com",
+  "kind": "site",
+  "hints_hash": "a9e9bbf513f89c39",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:20:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://instatic.com", "title": "Instatic — own your site, love building it", "status": 200},
+    {"url": "https://github.com/CoreBunch/Instatic", "title": "GitHub - CoreBunch/Instatic", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Instatic",
+  "summary": "Self-hosted open-source CMS and visual website builder that publishes plain static HTML from a single Bun server.",
+  "description": "A visual canvas editor, content engine, media manager, plugin sandbox and publisher in one self-hosted app, backed by SQLite or Postgres. Pressing publish writes static HTML files; a built-in AI agent and an MCP server endpoint can edit the site, and plugins run sandboxed in QuickJS-WASM.",
+  "type": "tool",
+  "categories": ["design-tools", "dev-ai-tools"],
+  "elements": ["dashboard", "form", "table", "command-palette", "404"],
+  "keywords": ["self-hosted cms", "website builder", "visual website builder", "page builder", "open source", "static html", "design token", "content management system", "mcp server", "ai agent", "bun", "sqlite", "postgres", "plugin", "no-code", "responsive image"],
+  "contains": ["One Bun server holds the editor, content engine, auth, forms, plugins and publisher", "publishing bakes static HTML files swapped in atomically; MIT licensed", "storage in SQLite or Postgres, switched by one environment variable", "built-in AI agent with 35 site-building tools and 15 content tools, bring your own model", "MCP server (Streamable HTTP) so Claude Code, Cursor or Codex can drive the CMS", "plugins run in QuickJS-WASM workers without filesystem or network by default", "Super Import turns an existing static site into pages, classes and design tokens", "8.9k GitHub stars; deploy via Railway, Docker or the repo"],
+  "formats": ["app", "code", "docs"],
+  "stack": ["bun", "vite", "react", "typescript", "sqlite", "postgres"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/CoreBunch/Instatic", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

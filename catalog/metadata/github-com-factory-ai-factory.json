@@ -1,0 +1,35 @@
+{
+  "id": "github-com-factory-ai-factory",
+  "url": "https://github.com/factory-ai/factory",
+  "kind": "repo",
+  "hints_hash": "50d97560023d2ded",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:28:58Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/factory-ai/factory/blob/HEAD/README.md", "title": "Factory", "status": null},
+    {"url": "https://factory.ai/pricing", "title": "Factory Pricing", "status": 200},
+    {"url": "https://factory.com/", "title": "Factory | Agent-Native Software Development", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Factory",
+  "summary": "Agent-native software development platform whose Droid agent runs in CLI, web, chat, issue trackers and mobile.",
+  "description": "An agent-native development platform built around its coding agent Droid, with sessions across CLI, desktop, web, Slack/Teams, Linear/Jira and mobile. TypeScript and Python SDKs, a GitHub Action that runs code reviews and PR descriptions, a plugins marketplace and an ESLint plugin extend it. Plans run from $20/month up to custom enterprise deployments.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["ai coding agent", "software development platform", "cli", "agent native", "code review", "github action", "sdk", "typescript", "python", "plugin marketplace", "eslint", "background agent", "developer tool"],
+  "contains": [
+    "agent Droid runs across CLI, web, Slack/Teams, Linear/Jira and mobile",
+    "TypeScript and Python SDKs",
+    "GitHub Action for code reviews, security scans and PR descriptions",
+    "plugins marketplace and ESLint plugin",
+    "plans from $20/month to custom enterprise"
+  ],
+  "formats": ["cli", "docs"],
+  "stack": ["typescript", "python"],
+  "pricing": "paid",
+  "license": "proprietary",
+  "related": {"repo": "https://github.com/factory-ai/factory", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

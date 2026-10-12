@@ -1,0 +1,29 @@
+{
+  "id": "h1gallery-com",
+  "url": "https://h1gallery.com",
+  "kind": "site",
+  "hints_hash": "e5c7a8d1d0ddf4cd",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "commandcode/deepseek/deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://h1gallery.com", "title": "H1 Gallery", "status": null},
+    {"url": "https://h1gallery.com/about", "title": "H1 Gallery", "status": null},
+    {"url": "https://h1gallery.com/h1/ghostifier", "title": "H—244 : Ghostifier", "status": 200}
+  ],
+  "status": "ok",
+  "name": "H1 Gallery",
+  "summary": "Gallery of marketing headlines (H1s) from live websites, with a weekly email roundup of new picks.",
+  "description": "A collection of marketing headlines spotted across the web, each shown with its company and a link to the live site; item pages break down why the headline works. Entries are numbered and added regularly, and a Friday email roundup covers three of them per week. Curated by Corey Haines.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": ["hero"],
+  "keywords": ["headline", "h1", "marketing headline", "landing page headline", "hero headline", "homepage headline", "copywriting inspiration", "marketing copy", "headline gallery", "saas marketing", "website headline", "newsletter"],
+  "contains": ["240+ headline examples from live websites", "each entry: headline, company and link to the live site", "item pages include a 'why this H1 works' analysis", "weekly Friday email with three headlines", "curated by Corey Haines"],
+  "formats": ["links", "screenshots"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

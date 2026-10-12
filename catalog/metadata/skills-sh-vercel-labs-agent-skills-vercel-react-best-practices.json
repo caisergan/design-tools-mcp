@@ -1,0 +1,22 @@
+{
+  "id": "skills-sh-vercel-labs-agent-skills-vercel-react-best-practices",
+  "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+  "kind": "page",
+  "hints_hash": "2fe12d33695563c8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:25:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices", "title": "vercel-react-best-practices — vercel-labs/agent-skills", "status": null}
+  ],
+  "status": "ok",
+  "name": "vercel-react-best-practices",
+  "summary": "Agent skill with 70 prioritized rules for React and Next.js performance, from waterfalls to bundle size.",
+  "description": "React and Next.js performance optimization guidelines from Vercel Engineering, packaged as an installable SKILL.md for AI coding assistants. 70 rules are grouped into 8 categories ordered by impact — eliminating waterfalls and bundle optimization first, advanced patterns last — covering server-side rendering, memoization and re-render costs, hydration and JavaScript-level optimizations.",
+  "type": "agent-skill",
+  "keywords": ["react", "nextjs", "performance", "optimization", "best practice", "agent skill", "skill.md", "coding agent", "react server component", "memoization", "re-render", "hydration", "bundle size", "waterfall", "frontend performance", "code review"],
+  "formats": ["prompts"],
+  "stack": ["react", "nextjs"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+  "confidence": 0.85
+}

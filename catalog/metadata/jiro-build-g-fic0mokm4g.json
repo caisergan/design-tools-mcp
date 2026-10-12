@@ -1,0 +1,25 @@
+{
+ "id": "jiro-build-g-fic0mokm4g",
+ "url": "https://jiro.build/g/fIc0Mokm4g",
+ "kind": "page",
+ "hints_hash": "95abccc9c6daf301",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:29:50Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://jiro.build/g/fIc0Mokm4g", "title": "Estaymart landing page giveaway — Jiro | Jiro", "status": null},
+  {"url": "https://jiro.build/", "title": "Jiro — The Design Prompt Library to Vibe Code Better Websites", "status": 200}
+ ],
+ "status": "partial",
+ "name": "Estaymart landing page giveaway",
+ "summary": "Ended giveaway page on Jiro, a design prompt library for AI website builders; it links out to browse Jiro components and templates.",
+ "description": "Giveaway page on Jiro for the Estaymart landing page; the giveaway has ended and the page points to Jiro's components and templates. Jiro is a design prompt library: browse a real design, copy its prompt and paste it into an AI website builder.",
+ "elements": [],
+ "keywords": ["design prompt", "prompt library", "landing page", "giveaway", "vibe coding", "ai website builder", "website template", "component library", "web design"],
+ "formats": ["links"],
+ "stack": [],
+ "pricing": "unknown",
+ "license": "unknown",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "jiro-build"},
+ "confidence": 0.65
+}

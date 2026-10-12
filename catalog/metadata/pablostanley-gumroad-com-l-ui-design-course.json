@@ -1,0 +1,28 @@
+{
+  "id": "pablostanley-gumroad-com-l-ui-design-course",
+  "url": "https://pablostanley.gumroad.com/l/ui-design-course",
+  "kind": "page",
+  "hints_hash": "519ea05d7b30617e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:30:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pablostanley.gumroad.com/l/ui-design-course", "title": "Master Gorgeous UI Design Course", "status": null},
+    {"url": "https://pablostanley.gumroad.com/", "title": "Pablo Stanley", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Master Gorgeous UI Design Course",
+  "summary": "Course by Pablo Stanley on UI design principles and techniques for improving your visual design skills.",
+  "description": "Gumroad product page for Pablo Stanley's UI design course; the readable title and description promise essential UI design principles and techniques that raise the quality of your projects and set your work apart. The page body is rendered by JavaScript, so curriculum, format and price were not readable.",
+  "type": "course",
+  "categories": ["learning"],
+  "elements": [],
+  "keywords": ["ui design course", "learn ui design", "visual design", "design principle", "product design", "online course", "design skill", "interface design", "ui design tutorial"],
+  "contains": [],
+  "formats": [],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.6
+}

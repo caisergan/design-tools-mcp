@@ -1,0 +1,137 @@
+{
+  "id": "shadcnuidashboard-com",
+  "url": "https://shadcnuidashboard.com",
+  "kind": "site",
+  "hints_hash": "1c1f809da0172e5b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:55:43Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadcnuidashboard.com",
+      "title": "The Ultimate Shadcn UI Admin Dashboard Template",
+      "status": null
+    },
+    {
+      "url": "https://shadcnuidashboard.com/blocks",
+      "title": "Free & Premium Dashboard Shadcn Blocks - Shadcn UI Dashboard",
+      "status": null
+    },
+    {
+      "url": "https://shadcnuidashboard.com/pricing",
+      "title": "Pricing",
+      "status": null
+    },
+    {
+      "url": "https://shadcnuidashboard.com/blocks/charts",
+      "title": "Shadcn Charts Blocks - Shadcn UI Dashboard",
+      "status": null
+    },
+    {
+      "url": "https://shadcnuidashboard.com/blocks/kanban",
+      "title": "Shadcn Kanban Blocks - Shadcn UI Dashboard",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Shadcn UI Dashboard",
+  "summary": "Admin dashboard template with 20+ page layouts, 50+ shadcn/ui components and 50 copy-paste blocks for Next.js and React.",
+  "description": "Production-ready shadcn admin dashboard template built with Next.js 15, React 19, Tailwind CSS 4 and TypeScript. Ships five dashboards (ecommerce, CRM, banking, real estate, logistics), 20+ pages, TanStack data tables, Recharts charts and drag-and-drop kanban, plus a blocks library (charts, stat cards, sign-in forms, sidebars, page layouts) that copies into any shadcn/ui project or installs via the shadcn CLI.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "chart",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "dashboard",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "file-upload",
+    "form",
+    "input",
+    "kanban",
+    "loader",
+    "modal",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "sidebar",
+    "slider",
+    "stats",
+    "switch",
+    "table"
+  ],
+  "keywords": [
+    "shadcn ui",
+    "admin dashboard",
+    "dashboard template",
+    "nextjs",
+    "react",
+    "tailwind css",
+    "typescript",
+    "kanban",
+    "chart",
+    "data table",
+    "sidebar",
+    "dark mode",
+    "saas",
+    "crm",
+    "ecommerce",
+    "analytics",
+    "block",
+    "copy paste",
+    "internal tool",
+    "rechart"
+  ],
+  "contains": [
+    "20+ page templates and five dashboards: ecommerce, CRM, banking, real estate, logistics",
+    "50+ shadcn/ui components, 50 blocks across 9 sets",
+    "TanStack tables, Recharts charts, dnd-kit kanban boards",
+    "dark mode and responsive layouts",
+    "blocks copy-paste or install via the shadcn CLI",
+    "one-time pricing: $79 Pro, $199 Premium, lifetime updates",
+    "built with Next.js 15, React 19, Tailwind CSS 4, TypeScript 5",
+    "Figma design source included in Pro"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "registry",
+    "templates",
+    "figma-file"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "typescript",
+    "recharts",
+    "dnd-kit"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

@@ -1,0 +1,38 @@
+{
+  "id": "sv-matrix-vercel-app",
+  "url": "https://sv-matrix.vercel.app",
+  "kind": "site",
+  "hints_hash": "3081bdb883e6002e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sv-matrix.vercel.app", "title": "Svelte Dot Matrix Loaders - Free & Open-Source | Loaders", "status": 200},
+    {"url": "https://sv-matrix.vercel.app/docs/setup", "title": "Setup - Svelte Dot Matrix Loaders", "status": 200},
+    {"url": "https://sv-matrix.vercel.app/components/squares/square-1", "title": "Neon Drift - Svelte Dot Matrix Loaders", "status": 200},
+    {"url": "https://github.com/SikandarJODD/sv-matrix", "title": "GitHub - SikandarJODD/sv-matrix: A collection of modern dot matrix loading animations for Svelte. Includes 50+ loaders with customizable sizes, colors, and speeds. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Svelte Dot Matrix Loaders",
+  "summary": "50+ free, open-source dot-matrix loaders for Svelte: animated squares, hexes, triangles and circles on a dot grid.",
+  "description": "Animated dot-matrix loading indicators for Svelte, built with TypeScript and Tailwind CSS: square, hexagon, triangle and circle families, each rendered on a dot grid with props for size, dot size, speed and pattern, plus glow, opacity and reduced-motion options. Loaders install from the @sv/loaders registry via jsrepo or the shadcn-svelte CLI and share one dot-matrix runtime, hooks and stylesheet.",
+  "type": "component-library",
+  "categories": ["components", "motion", "registries"],
+  "elements": ["loader"],
+  "keywords": ["loader", "loading animation", "spinner", "dot matrix", "svelte", "svelte 5", "animated", "loading state", "registry", "jsrepo", "shadcn", "tailwind", "dot grid", "css", "open source", "free"],
+  "contains": [
+    "50+ loaders; 73 registry items, ~70 loaders measured",
+    "families: squares, hexagons, triangles, circles",
+    "shared dot-matrix runtime, hooks and stylesheet installed with each loader",
+    "props: size, dotSize, speed, pattern (diamond, full, outline, rose, cross, rings)",
+    "use cases: chat, AI chat, API fetching, form submission, file upload, server actions",
+    "install via jsrepo @sv/loaders or shadcn-svelte registry",
+    "MIT licensed"
+  ],
+  "formats": ["code", "registry", "cli", "docs"],
+  "stack": ["svelte", "typescript", "tailwind", "css"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/SikandarJODD/sv-matrix", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

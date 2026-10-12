@@ -1,0 +1,32 @@
+{
+  "id": "gradientora-com",
+  "url": "https://gradientora.com",
+  "kind": "site",
+  "hints_hash": "646194392d8ada88",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:55:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://gradientora.com", "title": "Gradientora | Premium Smooth, 3D, Textured & Animated Gradients", "status": null},
+    {"url": "https://gradientora.com/collections", "title": "Gradient Collections | Premium & Free Gradients | Gradientora", "status": null},
+    {"url": "https://gradientora.com/pricing", "title": "Gradientora | Premium Gradient Pricing", "status": null},
+    {"url": "https://gradientora.com/legal/license-agreement", "title": "License Agreement | Gradientora Usage Terms", "status": 200},
+    {"url": "https://gradientora.com/animated-gradients", "title": "Animated Gradients | Premium 4K Motion Backgrounds | Gradientora", "status": 200},
+    {"url": "https://gradientora.com/backgrounds/color-flow-01", "title": "Color Flow-01 | – Premium 8K Background | Gradientora", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Gradientora",
+  "summary": "Library of 1100+ gradient backgrounds — smooth, textured, 3D and animated — up to 8K, with Figma/Framer plugins and a shader tool.",
+  "description": "Downloadable gradient assets organised into collections and categories: smooth blends, textured, 3D, animated and free. Assets are JPEG at up to 8K (6720x3840); paid plans add high-resolution downloads, a commercial license, Figma & Framer plugins and a real-time shader tool.",
+  "type": "asset-library",
+  "categories": ["color-effects", "media"],
+  "elements": ["background"],
+  "keywords": ["gradient", "gradient background", "animated gradient", "textured gradient", "3d gradient", "smooth blend", "grainy gradient", "mesh gradient", "background image", "8k background", "motion background", "figma plugin", "framer plugin", "shader", "gradient generator"],
+  "contains": ["1100+ gradient assets across smooth-blend, textured, 3D, animated and free categories", "downloads are JPEG at up to 8K (6720x3840)", "39 animated 4K motion backgrounds", "paid plans: $29/month, $109/year, $299 lifetime; 200+ new gradients added monthly", "Figma and Framer plugins plus a browser shader tool", "free gradients available without a plan"],
+  "formats": [],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

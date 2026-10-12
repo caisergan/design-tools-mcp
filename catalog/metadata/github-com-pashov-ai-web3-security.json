@@ -1,0 +1,28 @@
+{
+  "id": "github-com-pashov-ai-web3-security",
+  "url": "https://github.com/pashov/ai-web3-security",
+  "kind": "repo",
+  "hints_hash": "d87b4411b12e239c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:10:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/pashov/ai-web3-security/blob/HEAD/README.md", "title": "Web3 Security Tools Hub", "status": 200},
+    {"url": "https://github.com/pashov/ai-web3-security", "title": "GitHub - pashov/ai-web3-security · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Web3 Security Tools Hub",
+  "summary": "Curated list of 90 AI tools and agent skills for smart-contract security across EVM, Solana, Sui and ZK.",
+  "description": "A README-curated hub of AI tools for smart-contract security, split into free and open source (55 tools) and paid and closed source (35), grouped by language: Solidity/EVM, Rust/Solana, Move/Sui, ZK/Circom and multi-language. Every row names the tool, what it does and links to its GitHub repo; featured picks are starred.",
+  "type": "directory",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["smart contract security", "smart contract audit", "web3 security", "solidity audit", "ai security tool", "agent skill", "solana security", "sui move", "zero knowledge security", "defi security", "security tooling", "awesome list"],
+  "contains": ["90 tools: 55 free and open source, 35 paid and closed source", "languages: Solidity/EVM, Rust/Solana, Move/Sui, ZK/Circom, multi-language", "starred featured picks", "one-line description and repo link per tool", "591 stars and 109 forks on GitHub", "built and maintained by pashov.com"],
+  "formats": ["links", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/pashov/ai-web3-security", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

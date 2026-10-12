@@ -1,0 +1,32 @@
+{
+  "id": "animated-component-library-vercel-app",
+  "url": "https://animated-component-library.vercel.app",
+  "kind": "site",
+  "hints_hash": "43403494e17a6c2b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:54Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://animated-component-library.vercel.app", "title": "AnimateUI - Animated Component Library & Playground", "status": 200},
+    {"url": "https://animated-component-library.vercel.app/components/magnetic-button", "title": "AnimateUI - Animated Component Library & Playground", "status": 200},
+    {"url": "https://animated-component-library.vercel.app/components/tabs", "title": "AnimateUI - Animated Component Library & Playground", "status": null},
+    {"url": "https://animated-component-library.vercel.app/components/badge", "title": "AnimateUI - Animated Component Library & Playground", "status": null},
+    {"url": "https://animated-component-library.vercel.app/components/drawer", "title": "AnimateUI - Animated Component Library & Playground", "status": null},
+    {"url": "https://animated-component-library.vercel.app/components/stepper", "title": "AnimateUI - Animated Component Library & Playground", "status": null}
+  ],
+  "status": "ok",
+  "name": "AnimateUI",
+  "summary": "Animated component library playground with 20+ components built on Framer Motion and GSAP, each with a live prop editor.",
+  "description": "Demo site for 20+ reusable animated UI components, grouped into basic, feedback, layout, navigation and input. Component pages pair a preview with a live prop editor and a props table; the site ships a keyboard-driven command palette, dark and light themes via CSS custom properties, and states WCAG AA accessibility.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": ["accordion", "avatar", "badge", "breadcrumbs", "button", "card", "command-palette", "drawer", "dropdown", "file-upload", "loader", "modal", "pagination", "progress", "stepper", "switch", "tabs", "toast", "tooltip"],
+  "keywords": ["animated component", "animation", "framer motion", "gsap", "ui component", "component library", "component playground", "prop editor", "dark mode", "accordion", "toast", "command palette", "modal", "stepper", "file upload", "toggle switch", "tooltip", "skeleton loader", "pagination", "drag and drop"],
+  "contains": ["20+ animated components", "groups: basic, feedback, layout, navigation, input", "Framer Motion and GSAP animations", "live prop editor with real-time preview", "dark and light themes via CSS custom properties", "command palette (⌘J) on the site itself", "accessibility: keyboard navigation, ARIA, screen reader support (WCAG AA)"],
+  "formats": ["code", "links"],
+  "stack": ["react", "framer-motion", "gsap", "css"],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

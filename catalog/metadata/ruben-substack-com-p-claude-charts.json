@@ -1,0 +1,20 @@
+{
+  "id": "ruben-substack-com-p-claude-charts",
+  "url": "https://ruben.substack.com/p/claude-charts",
+  "kind": "page",
+  "hints_hash": "97e2d034b6c5a9f6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:17:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://ruben.substack.com/p/claude-charts", "title": "The new Claude charts. - by Ruben Hassid - How to AI", "status": null}
+  ],
+  "status": "ok",
+  "name": "The new Claude charts.",
+  "summary": "Guide to creating interactive charts inside Claude chats, with copy-paste prompts and sharing tips.",
+  "description": "Guide to Claude's interactive-chart feature: how to start a chart from a prompt in a normal chat, worked examples (investment math, exponential growth, learning chess) and how to share the result.",
+  "type": "article",
+  "keywords": ["claude", "interactive chart", "data visualization", "chart", "ai chart", "prompt", "copy-paste prompt", "data storytelling", "chat feature", "sharing"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "ruben-substack-com"},
+  "confidence": 0.9
+}

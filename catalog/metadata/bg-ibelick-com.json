@@ -1,0 +1,76 @@
+{
+  "id": "bg-ibelick-com",
+  "url": "https://bg.ibelick.com",
+  "kind": "site",
+  "hints_hash": "cd7c861380c96db2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:32:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://bg.ibelick.com",
+      "title": "BG.IBELICK - Modern, Ready-to-Use Background Snippets for Developers",
+      "status": null
+    },
+    {
+      "url": "https://github.com/ibelick/background-snippets",
+      "title": "GitHub - ibelick/background-snippets: Modern background snippets: copy, paste, ready-to-use · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "BG.IBELICK",
+  "summary": "Copy-paste background snippets for web pages, each in Tailwind CSS and vanilla CSS with a live preview.",
+  "description": "A collection of modern background snippets you copy into a project. Each snippet has a live preview and a copy-code button, with Tailwind CSS and vanilla CSS versions, and is made for full-page backgrounds that you tweak to fit.",
+  "type": "block-library",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [
+    "background"
+  ],
+  "keywords": [
+    "background",
+    "background snippet",
+    "css",
+    "tailwind",
+    "gradient",
+    "grid pattern",
+    "dot",
+    "noise",
+    "full page background",
+    "copy paste",
+    "snippet",
+    "vanilla css",
+    "landing page"
+  ],
+  "contains": [
+    "background snippets with live preview and copy code",
+    "Tailwind CSS and vanilla CSS versions",
+    "made for full-page backgrounds",
+    "open repo, 2k GitHub stars"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "css"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/ibelick/background-snippets",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

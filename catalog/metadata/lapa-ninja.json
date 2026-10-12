@@ -1,0 +1,40 @@
+{
+  "id": "lapa-ninja",
+  "url": "https://lapa.ninja",
+  "kind": "site",
+  "hints_hash": "c4906945c0b1b4c1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:07:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://lapa.ninja", "title": "Landing Page Design Examples: 7,300+ Best Landing Pages | Lapa Ninja", "status": 200},
+    {"url": "https://www.lapa.ninja/skills", "title": "Design Agent Skills: 13+ Skills for Better Interfaces | Lapa Ninja", "status": 200},
+    {"url": "https://www.lapa.ninja/pro", "title": "Lapa Pro — Unlimited Boards & Ad-free Design Inspiration", "status": 200},
+    {"url": "https://www.lapa.ninja/about", "title": "About | Lapa Ninja", "status": 200},
+    {"url": "https://www.lapa.ninja/elements", "title": "Website Sections: 57+ UI Section Designs | Lapa Ninja", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Lapa Ninja",
+  "summary": "Curated gallery of 7,300+ landing page designs with 15,000+ full-page screenshots, plus sections, templates and courses.",
+  "description": "Landing page inspiration curated since 2015: browse 7,300+ real website designs by category (SaaS, agency, portfolio, e-commerce, web3, AI …) with full-page screenshots and video recordings, and a sections library covering loading animations, hover effects, menus, footers and text effects. It also lists OG images, templates, typefaces, design courses and agent skills. Lapa Pro ($9/month) adds unlimited boards, saving and ad-free browsing.",
+  "type": "gallery",
+  "categories": ["inspiration", "sections", "templates"],
+  "elements": ["navbar", "footer", "loader", "cursor", "text-effect"],
+  "keywords": ["landing page", "landing page example", "landing page inspiration", "web design inspiration", "website gallery", "web design gallery", "saas website", "agency website", "portfolio website", "e-commerce website", "web3 website", "screenshot", "footer", "menu", "loading animation", "hover effect", "text effect", "website template", "framer template", "og image", "design course", "agent skill"],
+  "contains": [
+    "7,300+ landing page designs curated since 2015",
+    "15,000+ full-page website screenshots",
+    "video recordings of websites",
+    "filters: SaaS, business, minimal, agency, portfolio, web3, AI, e-commerce …",
+    "sections library: loading animations, hover effects, menus, footers, text effects",
+    "templates, OG images, typefaces and design courses",
+    "design agent skills directory (13+ skills)",
+    "Lapa Pro: $9/month for unlimited boards and ad-free browsing"
+  ],
+  "formats": ["screenshots", "video", "links", "templates"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

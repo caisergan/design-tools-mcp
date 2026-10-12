@@ -1,0 +1,78 @@
+{
+  "id": "github-com-aryanvichare-stocks",
+  "url": "https://github.com/aryanvichare/stocks",
+  "kind": "repo",
+  "hints_hash": "79177048b97f4552",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/aryanvichare/stocks/blob/HEAD/README.md",
+      "title": "Stock Picker",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/aryanvichare/stocks",
+      "title": "GitHub - aryanvichare/stocks: 📈 Stock Picker using Next.js, React Server Components, Tailwind CSS, and shadcn/ui components and charts · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Stock Picker",
+  "summary": "Demo web app that streams stock price data from the Polygon.io API into shadcn/ui charts using React Server Components.",
+  "description": "A Next.js App Router demo that streams server-rendered stock price data from the Polygon.io API and renders it with the shadcn/ui charts library. Built with React Server Components, TypeScript, TailwindCSS and Shadcn/UI; clone it, add a Polygon.io API key and run the dev server.",
+  "type": "template",
+  "categories": [
+    "templates"
+  ],
+  "elements": [
+    "chart"
+  ],
+  "keywords": [
+    "stock price",
+    "stock picker",
+    "stock chart",
+    "financial chart",
+    "chart",
+    "next.js",
+    "react server component",
+    "streaming data",
+    "shadcn ui",
+    "shadcn chart",
+    "tailwind css",
+    "typescript",
+    "polygon.io",
+    "demo app"
+  ],
+  "contains": [
+    "Next.js App Router demo app with React Server Components",
+    "streams server-rendered stock price data from the Polygon.io API",
+    "uses the shadcn/ui charts library",
+    "built with TypeScript and TailwindCSS",
+    "needs a Polygon.io API key in .env.local"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/aryanvichare/stocks",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

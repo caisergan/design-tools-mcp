@@ -1,0 +1,29 @@
+{
+  "id": "github-com-kushagrasarathe-image-upload-shadcn",
+  "url": "https://github.com/kushagrasarathe/image-upload-shadcn",
+  "kind": "repo",
+  "hints_hash": "f806d7464ef72483",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:36:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/kushagrasarathe/image-upload-shadcn/blob/HEAD/README.md", "title": "or", "status": 200},
+    {"url": "https://github.com/kushagrasarathe/image-upload-shadcn", "title": "GitHub - kushagrasarathe/image-upload-shadcn", "status": 200},
+    {"url": "https://image-upload-shadcn.vercel.app", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "image-upload-shadcn",
+  "summary": "Next.js image upload demo with shadcn/ui that uploads images directly to Cloudinary.",
+  "description": "Small Next.js app demoing a drag-and-drop image upload flow: select or drop an image and it uploads straight to Cloudinary. Environment variables come from a Cloudinary dashboard (rename env.local.example to .env.local); the live demo runs on Vercel.",
+  "type": "component-library",
+  "categories": ["components"],
+  "elements": ["file-upload"],
+  "keywords": ["image upload", "cloudinary", "nextjs", "shadcn ui", "react", "drag and drop", "file upload", "typescript", "demo app", "vercel"],
+  "contains": ["drag-and-drop image upload demo", "uploads directly to Cloudinary with env credentials", "Next.js project with shadcn/ui and TypeScript", "live demo at image-upload-shadcn.vercel.app", "132 GitHub stars"],
+  "formats": ["code", "app"],
+  "stack": ["react", "nextjs", "typescript", "cloudinary"],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/kushagrasarathe/image-upload-shadcn", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.7
+}

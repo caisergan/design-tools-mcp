@@ -1,0 +1,76 @@
+{
+  "id": "github-com-langgenius-dify",
+  "url": "https://github.com/langgenius/dify",
+  "kind": "repo",
+  "hints_hash": "95ac4aa387e3f96f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/langgenius/dify/blob/HEAD/README.md",
+      "title": "dify/README.md - langgenius/dify",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/langgenius/dify/blob/HEAD/LICENSE",
+      "title": "dify/LICENSE - langgenius/dify",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Dify",
+  "summary": "Open-source platform to build LLM apps with visual workflows, RAG pipelines and agents.",
+  "description": "Self-host with Docker Compose or use Dify Cloud to build LLM apps on a visual workflow canvas: hundreds of models, a prompt IDE, a RAG pipeline with PDF and PPT ingestion, sandboxed agents that use tools and MCP servers, and LLMOps observability (Opik, Langfuse, Arize Phoenix). Cloud, community and enterprise editions ship with APIs for backing your own product.",
+  "type": "tool",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "llm app",
+    "ai workflow",
+    "rag pipeline",
+    "agent",
+    "prompt ide",
+    "llmop",
+    "self-hosted",
+    "docker",
+    "model management",
+    "backend as a service",
+    "orchestration",
+    "open source",
+    "observability",
+    "mcp"
+  ],
+  "contains": [
+    "visual workflow canvas and prompt IDE",
+    "RAG pipeline with PDF and PPT ingestion",
+    "hundreds of LLMs from dozens of inference providers and self-hosted solutions",
+    "agents with sandbox, MCP servers and tools from the Dify Marketplace",
+    "observability integrations: Opik, Langfuse, Arize Phoenix",
+    "self-host with Docker Compose (2+ cores, 4 GiB RAM) or use Dify Cloud",
+    "license: modified Apache 2.0 with multi-tenant and logo conditions"
+  ],
+  "formats": [
+    "code",
+    "app",
+    "api",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/langgenius/dify",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

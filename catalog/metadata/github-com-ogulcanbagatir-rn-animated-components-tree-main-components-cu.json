@@ -1,0 +1,34 @@
+{
+  "id": "github-com-ogulcanbagatir-rn-animated-components-tree-main-components-cu",
+  "url": "https://github.com/ogulcanbagatir/rn-animated-components/tree/main/components/Curtain",
+  "kind": "page",
+  "hints_hash": "c3fa4d3785aabd04",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:33:55Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://raw.githubusercontent.com/ogulcanbagatir/rn-animated-components/main/README.md", "title": "Animated Components for React Native & Expo Apps", "status": 200},
+    {"url": "https://raw.githubusercontent.com/ogulcanbagatir/rn-animated-components/main/components/Curtain/README.md", "title": "🎭 Curtain", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Curtain",
+  "summary": "Gesture-controlled curtain reveal animation component for React Native, built with Skia, Reanimated and Gesture Handler.",
+  "description": "Self-contained copy-paste React Native component: a bezier-curve curtain that reveals the content behind, driven by a Reanimated shared value (0-1). Props cover width, height, minY, maxY, curtain colors, container style and an onAnimationEnd callback.",
+  "type": "component-library",
+  "categories": ["components", "motion"],
+  "elements": [],
+  "keywords": ["react native", "expo", "curtain animation", "reveal animation", "gesture animation", "skia", "reanimated", "gesture handler", "copy paste component", "animation component", "shared value", "bezier curve", "transition"],
+  "contains": [
+    "single copy-paste Curtain.tsx component, no setup",
+    "gesture-controlled curtain with bezier curve transitions",
+    "controllable through an external shared value (0-1)",
+    "props: progress, width, height, minY, maxY, colors, onAnimationEnd, containerStyle",
+    "requires React Native Reanimated, Skia and Gesture Handler"
+  ],
+  "formats": ["code", "docs"],
+  "stack": ["react-native", "skia", "reanimated", "gesture-handler"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/ogulcanbagatir/rn-animated-components", "docs": null, "npm": null, "figma": null, "parent": "github-com"},
+  "confidence": 0.9
+}

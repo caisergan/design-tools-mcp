@@ -1,0 +1,117 @@
+{
+  "id": "eldoraui-site",
+  "url": "https://eldoraui.site",
+  "kind": "site",
+  "hints_hash": "f860645c2a2b676f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:30:18Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://eldoraui.site/llms.txt",
+      "title": "Eldora UI",
+      "status": 200
+    },
+    {
+      "url": "https://eldoraui.site",
+      "title": "Eldora UI",
+      "status": 200
+    },
+    {
+      "url": "https://www.eldoraui.site/docs",
+      "title": "Introduction | React Components & Templates",
+      "status": 200
+    },
+    {
+      "url": "https://www.eldoraui.site/blocks",
+      "title": "Building Blocks for the Web",
+      "status": 200
+    },
+    {
+      "url": "https://www.eldoraui.site/components",
+      "title": "Components | React Components & Templates",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Eldora UI",
+  "summary": "150+ free animated React components and landing-page blocks: text effects, backgrounds, globes, cards and more.",
+  "description": "An open-source UI library of animated React components, blocks and templates for landing pages, built with React, TypeScript, Tailwind CSS and Motion, designed to pair with shadcn/ui. Organised into components (text animations, animated backgrounds, globe, map, device mockups), page blocks (header, logo cloud, features, testimonials, pricing, CTA, footer) and templates such as a portfolio.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "sections",
+    "motion"
+  ],
+  "elements": [
+    "badge",
+    "background",
+    "button",
+    "card",
+    "cta",
+    "features",
+    "footer",
+    "globe",
+    "list",
+    "logo-cloud",
+    "map",
+    "marquee",
+    "navbar",
+    "otp-input",
+    "pricing",
+    "testimonials",
+    "text-effect",
+    "timeline"
+  ],
+  "keywords": [
+    "animated component",
+    "text animation",
+    "background effect",
+    "react component",
+    "tailwind",
+    "shadcn",
+    "landing page block",
+    "globe",
+    "marquee",
+    "ui library",
+    "motion",
+    "template",
+    "badge",
+    "card",
+    "animation"
+  ],
+  "contains": [
+    "150+ animated components and effects",
+    "115 shadcn registry items measured",
+    "blocks: header, logo cloud, features, testimonials, pricing, CTA, footer",
+    "text animations, animated backgrounds, globe, map and device mockups",
+    "templates: portfolio and device mockup screens",
+    "React, TypeScript, Tailwind CSS and Motion"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs",
+    "templates"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "framer-motion"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://www.eldoraui.site/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

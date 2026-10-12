@@ -1,0 +1,73 @@
+{
+  "id": "clerk-com-docs-elements-examples-shadcn-ui",
+  "url": "https://clerk.com/docs/elements/examples/shadcn-ui",
+  "kind": "page",
+  "hints_hash": "03ec6bc6fc2ba7e3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:23:09Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://clerk.com/docs/elements/examples/shadcn-ui",
+      "title": "shadcn/ui (Deprecated) - Examples | Clerk Docs",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "Clerk Elements shadcn/ui Examples (deprecated)",
+  "summary": "Deprecated Clerk docs examples composing Clerk Elements with shadcn/ui to build custom sign-in, sign-up and OTP flows.",
+  "description": "Examples for building custom authentication UIs by composing Clerk Elements with shadcn/ui components. They cover sign-up, sign-in and OTP input flows using shadcn Button, Card, Input and Label with Tailwind animations; Clerk marks the approach deprecated in favor of the redesigned Clerk Core 3 hooks.",
+  "elements": [
+    "form",
+    "otp-input",
+    "stepper",
+    "button",
+    "navbar",
+    "pricing"
+  ],
+  "keywords": [
+    "clerk",
+    "shadcn",
+    "authentication",
+    "sign in",
+    "sign up",
+    "otp input",
+    "auth form",
+    "react",
+    "nextjs",
+    "clerk element",
+    "custom auth ui",
+    "tailwind",
+    "deprecated",
+    "example"
+  ],
+  "contains": [
+    "sign up and sign in flow examples",
+    "OTP input example",
+    "12 shadcn registry items",
+    "uses shadcn Button, Card, Input and Label components",
+    "deprecated in favor of Clerk Core 3 hooks"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.8
+}

@@ -1,0 +1,73 @@
+{
+  "id": "robotworld-top-en-codewaifu",
+  "url": "https://robotworld.top/en/codewaifu",
+  "kind": "page",
+  "hints_hash": "254779f35d1a54f4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:40:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://robotworld.top/en/codewaifu",
+      "title": "CodeWaifu: caring coding desktop sprite | RobotWorld",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "CodeWaifu",
+  "summary": "Desktop sprite companion that speaks coding-agent session events and keeps agent terminals alive through crashes.",
+  "description": "A desktop companion for coding agents. Session starts, finishes and permission requests from Codex and Claude Code become spoken lines and speech bubbles through an offline Matcha-TTS voice with frame-locked lip sync, and the sprite can stand on the wallpaper or beside your terminals. A Pro bench built on the herdr terminal runtime gathers agent terminals, ssh sessions and local shells into one tree, backed by an fsync'd intent ledger that resumes work after a close, crash, sleep or reboot.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "desktop sprite",
+    "coding agent",
+    "claude code",
+    "codex",
+    "agent terminal",
+    "terminal manager",
+    "ssh client",
+    "local shell",
+    "text to speech",
+    "lip sync",
+    "wallpaper companion",
+    "crash recovery",
+    "session recovery",
+    "macos",
+    "window",
+    "linux",
+    "developer tool"
+  ],
+  "contains": [
+    "desktop sprite voiced by offline Matcha-TTS with frame-locked lip sync (mixed Chinese and English)",
+    "session events from Codex and Claude Code spoken aloud",
+    "Pro bench gathers agent terminals, ssh tool and local shell into one tree",
+    "herdr owns the PTYs, so terminals survive closing the app, crashes and sleep",
+    "fsync'd intent ledger stores goal, decisions, next action, branch and workdir",
+    "one-command install for macOS, Windows and Linux"
+  ],
+  "formats": [
+    "app",
+    "cli"
+  ],
+  "stack": [
+    "matcha-tts"
+  ],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

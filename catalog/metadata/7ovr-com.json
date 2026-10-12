@@ -1,0 +1,38 @@
+{
+  "id": "7ovr-com",
+  "url": "https://7ovr.com",
+  "kind": "site",
+  "hints_hash": "cf1098ab4d09f09b",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://7ovr.com/llms.txt", "title": "7Ovr", "status": null},
+    {"url": "https://7ovr.com", "title": "Shadcn Blocks & Templates: 240+ Free, 340+ Pro - 7Ovr", "status": 200},
+    {"url": "https://7ovr.com/docs", "title": "How to Install shadcn/ui Blocks with the CLI - 7Ovr", "status": 200},
+    {"url": "https://7ovr.com/blocks", "title": "Shadcn Blocks & Components: 240+ Free, 340+ Pro - 7Ovr", "status": 200},
+    {"url": "https://7ovr.com/pricing", "title": "Pricing: shadcn/ui Blocks & Templates, One Payment - 7Ovr", "status": 200},
+    {"url": "https://7ovr.com/license", "title": "License - 7Ovr", "status": 200}
+  ],
+  "status": "ok",
+  "name": "7Ovr",
+  "summary": "589 shadcn/ui blocks and templates on Base UI — 243 free, the rest Pro — installed with the shadcn CLI.",
+  "description": "A registry of production-ready React blocks and templates for marketing sites and app UIs, built on shadcn/ui with Base UI and Tailwind CSS v4. Browse live previews across 56 categories and install any block into your repo with the shadcn CLI: 243 free MIT-0 blocks, plus 346 Pro blocks and 20 Pro templates under a one-time commercial license. Free Next.js and Vite starters included.",
+  "type": "registry",
+  "categories": ["registries", "sections"],
+  "elements": ["navbar", "hero", "features", "cta", "pricing", "testimonials", "stats", "logo-cloud", "faq", "footer", "contact", "team", "changelog", "timeline", "bento-grid", "card", "form", "table", "chart", "banner", "toast", "chat", "dashboard", "kanban", "calendar", "command-palette", "file-upload", "empty-state", "404"],
+  "keywords": ["shadcn block", "shadcn ui", "base ui", "react block", "app block", "marketing block", "tailwind css", "dashboard block", "hero section", "pricing section", "testimonial section", "data table", "command palette", "kanban board", "landing page template", "saas template", "shadcn cli", "copy-paste", "mit-0", "starter"],
+  "contains": [
+    "589 blocks across 56 marketing and app categories",
+    "243 free MIT-0 blocks; 346 Pro blocks and 20 Pro templates",
+    "4 free starter templates: Next.js landing starter and Vite app starter",
+    "blocks use shadcn/ui on Base UI render APIs",
+    "Pro: one-time payment, lifetime updates, unlimited end products"
+  ],
+  "formats": ["code", "registry", "cli", "templates", "docs"],
+  "stack": ["react", "typescript", "tailwind", "base-ui"],
+  "pricing": "freemium",
+  "license": "MIT-0",
+  "related": {"repo": null, "docs": "https://7ovr.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

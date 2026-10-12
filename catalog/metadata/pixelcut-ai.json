@@ -1,0 +1,32 @@
+{
+  "id": "pixelcut-ai",
+  "url": "https://pixelcut.ai",
+  "kind": "site",
+  "hints_hash": "2109682c47343bf3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:45Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://pixelcut.ai/llms.txt", "title": "Pixelcut: AI Photo Editor", "status": null},
+    {"url": "https://pixelcut.ai", "title": "Pixelcut | Free AI Photo Editor", "status": 200},
+    {"url": "https://www.pixelcut.ai/docs", "title": "Pixelcut Documentation - Pixelcut Docs", "status": 200},
+    {"url": "https://www.pixelcut.ai/pricing", "title": "Pricing | Get Pixelcut Pro & Compare Free Plans", "status": 200},
+    {"url": "https://www.pixelcut.ai/about-us", "title": "About Pixelcut | Mission, Vision, and Story", "status": 200},
+    {"url": "https://www.pixelcut.ai/docs/api-reference", "title": "API reference - Pixelcut Docs", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Pixelcut",
+  "summary": "AI photo and video editor for background removal, upscaling, object erasing and image or video generation.",
+  "description": "An AI-first image editing suite for creators, e-commerce sellers and marketers: background remover, image upscaler, magic eraser, AI image and video generators, product photos, UGC ads and batch editing. Available as a web app with iOS and Android apps, plus documented APIs (remove background, upscale, generate background, outpaint, get credits) and an MCP server for agents.",
+  "type": "tool",
+  "categories": ["design-tools", "media"],
+  "elements": [],
+  "keywords": ["ai photo editor", "background remover", "image upscaler", "magic eraser", "object removal", "ai image generator", "ai video generator", "product photo", "bulk image editor", "transparent background", "photo editing api", "e-commerce photography", "retouching", "video background remover", "unblur image"],
+  "contains": ["AI tools: background remover, upscaler, magic eraser, generative fill, uncrop, image and video generators", "70M+ users, 1B+ images processed per year, batch editing up to 10K images", "web app plus iOS and Android apps", "developer API and MCP server for integrating the tools", "free plan; Pro and Business plans from $8 to $30 per month"],
+  "formats": ["app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://www.pixelcut.ai/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

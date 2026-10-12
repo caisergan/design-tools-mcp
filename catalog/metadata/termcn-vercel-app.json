@@ -1,0 +1,33 @@
+{
+  "id": "termcn-vercel-app",
+  "url": "https://termcn.vercel.app",
+  "kind": "site",
+  "hints_hash": "c03e58f9e697d2b8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://termcn.vercel.app/llms.txt", "title": "termcn", "status": null},
+    {"url": "https://termcn.vercel.app", "title": "termcn - Beautiful terminal UIs, made simple", "status": 200},
+    {"url": "https://www.termcn.dev/docs", "title": "Introduction | termcn", "status": 200},
+    {"url": "https://www.termcn.dev/docs/components", "title": "Components | termcn", "status": 200},
+    {"url": "https://www.termcn.dev/docs/charts", "title": "Charts | termcn", "status": 200},
+    {"url": "https://www.termcn.dev/docs/templates", "title": "Templates | termcn", "status": 200},
+    {"url": "https://github.com/shadcn-labs/termcn", "title": "GitHub - shadcn-labs/termcn: Beautiful terminal UI components, built on Ink and OpenTUI. 100% Free, Zero config, one command setup. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "termcn",
+  "summary": "344 copy-paste terminal UI components for React, built on Ink and OpenTUI and installed through a shadcn-compatible registry.",
+  "description": "Copy-paste terminal components for React that follow the shadcn model: you copy the code into your project and own it. Components are grouped into layout, typography, input, selection, data, feedback, navigation, overlays, forms, utility, charts and AI, and ship with 40 terminal themes, terminal-native charts and full-screen templates.",
+  "type": "registry",
+  "categories": ["components", "registries"],
+  "elements": ["alert", "banner", "badge", "breadcrumbs", "card", "chart", "chat", "checkbox", "command-palette", "date-picker", "drawer", "file-upload", "form", "input", "list", "loader", "modal", "pagination", "popover", "progress", "select", "sidebar", "stepper", "switch", "table", "tabs", "text-effect", "toast", "tooltip", "ai-agent-ui"],
+  "keywords": ["terminal ui", "tui", "cli", "ink", "opentui", "react", "shadcn", "shadcn registry", "copy paste", "component", "chart", "sparkline", "table", "progress bar", "chat ui", "ai agent ui", "theme", "template", "keyboard"],
+  "contains": ["344 registry items (shadcn registry)", "terminal-native charts: bar, line, pie, gauge, heat map, sparkline and dither variants", "40 terminal themes incl. Tokyo Night, Catppuccin, Nord and Gruvbox", "AI components: chat thread, tool call, model selector, token usage", "9 full-screen templates (app shell, login flow, help screen, setup flow ...)", "install with the shadcn CLI; llms.txt and llms-full.txt published", "MIT licensed"],
+  "formats": ["code", "registry", "docs", "templates"],
+  "stack": ["react", "ink", "opentui"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/shadcn-labs/termcn", "docs": "https://www.termcn.dev/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

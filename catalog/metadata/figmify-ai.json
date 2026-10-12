@@ -1,0 +1,14 @@
+{
+  "id": "figmify-ai",
+  "url": "https://figmify.ai",
+  "kind": "site",
+  "hints_hash": "0d5d39319713af6e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:01:16Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://figmify.ai/", "title": null, "status": 402}
+  ],
+  "status": "blocked",
+  "confidence": 0
+}

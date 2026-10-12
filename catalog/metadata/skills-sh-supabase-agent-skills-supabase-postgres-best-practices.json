@@ -1,0 +1,26 @@
+{
+ "id": "skills-sh-supabase-agent-skills-supabase-postgres-best-practices",
+ "url": "https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices",
+ "kind": "page",
+ "hints_hash": "a4e68513e2cb6d1b",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T20:29:50Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices", "title": "supabase-postgres-best-practices — supabase/agent-skills", "status": 200}
+ ],
+ "status": "ok",
+ "name": "Supabase Postgres Best Practices",
+ "summary": "Agent skill with Postgres performance optimization rules in 8 priority categories, from query tuning to RLS and monitoring.",
+ "description": "A SKILL.md package maintained by Supabase that guides an agent working with Postgres anywhere: rules are ranked by impact across query performance, connection management, security and RLS, schema design, concurrency, data access, monitoring and advanced features. Each rule ships incorrect vs. correct SQL examples, EXPLAIN output analysis and performance metrics.",
+ "type": "agent-skill",
+ "elements": [],
+ "keywords": ["postgres", "sql", "database performance", "query optimization", "query tuning", "indexing", "connection pooling", "row level security", "schema design", "locking", "explain plan", "agent skill", "database best practice", "postgres tuning", "supabase"],
+ "contains": ["rules in 8 priority categories, from query performance to advanced features", "critical categories: query performance and connection management", "incorrect vs. correct SQL examples and EXPLAIN analysis per rule", "439.9K installs; repo supabase/agent-skills with 2.7K stars", "passes Socket, Snyk and Gen Agent Trust Hub audits"],
+ "formats": ["prompts", "docs"],
+ "stack": [],
+ "pricing": "free",
+ "license": "unknown",
+ "related": {"repo": "https://github.com/supabase/agent-skills", "docs": null, "npm": null, "figma": null, "parent": "skills-sh"},
+ "confidence": 0.9
+}

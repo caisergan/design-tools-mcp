@@ -1,0 +1,29 @@
+{
+  "id": "hero-gallery",
+  "url": "https://hero.gallery",
+  "kind": "site",
+  "hints_hash": "63034b926352ae49",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:21:56Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://hero.gallery", "title": "Hero Gallery – The Internet’s Hero Section Catalog", "status": null},
+    {"url": "https://hero.gallery/about", "title": "About Hero Gallery – The Internet’s Hero Section Catalog", "status": null}
+  ],
+  "status": "ok",
+  "name": "Hero Gallery",
+  "summary": "Catalog of 115 live website hero sections, tagged and annotated for layout, copy, CTA and tone.",
+  "description": "A curated archive of hero sections taken from live websites, each tagged and audited: layout, copy, CTA type, tone of voice and trust signals. Entries link to the original site and add a short written breakdown of why the hero works; new picks are catalogued weekly and mailed out monthly.",
+  "type": "gallery",
+  "categories": ["sections", "inspiration"],
+  "elements": ["hero"],
+  "variants": {"hero": ["centered", "split", "video"]},
+  "keywords": ["hero section", "hero design", "landing page hero", "above the fold", "first impression", "headline", "call to action", "hero copy", "hero layout", "saas hero", "startup landing page", "homepage inspiration", "website header", "design audit", "copywriting", "webflow site", "framer site", "centered hero", "split hero", "video hero", "design reference", "curated gallery"],
+  "contains": ["115 hero sections from live websites", "filters: category, layout, UI element, color mode, CTA", "every entry annotated with layout, copy, CTA and tone notes", "tags include industry (SaaS) and site builder (Framer, Webflow)", "monthly newsletter and a submit-your-hero form"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

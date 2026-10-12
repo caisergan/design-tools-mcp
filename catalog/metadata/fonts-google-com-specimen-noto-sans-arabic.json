@@ -1,0 +1,29 @@
+{
+  "id": "fonts-google-com-specimen-noto-sans-arabic",
+  "url": "https://fonts.google.com/specimen/Noto+Sans+Arabic",
+  "kind": "page",
+  "hints_hash": "34ec41c6643d2a4d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:39:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/Noto+Sans+Arabic", "title": "Noto Sans Arabic - Google Fonts", "status": null},
+    {"url": "https://fonts.google.com/metadata/fonts/Noto+Sans+Arabic", "title": null, "status": 200},
+    {"url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/METADATA.pb", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Noto Sans Arabic",
+  "summary": "Arabic sans-serif from the Noto collection, variable in width (62.5-100) and weight (100-900).",
+  "description": "Noto Sans Arabic is the Noto collection's unmodulated sans-serif for Arabic-script texts. One variable font spans wght 100-900 and wdth 62.5-100, and the family also covers basic Latin, Latin Extended, math and symbols. Part of Noto, Google's collection for modern and ancient languages; free under the SIL Open Font License.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["arabic font", "sans serif", "font", "typeface", "right to left", "rtl", "free font", "web font", "variable font", "noto", "multi language", "ui font"],
+  "contains": ["variable axes: wght 100-900, wdth 62.5-100", "subsets: arabic, latin, latin-ext, math, symbols, menu", "part of the Noto collection for all modern and ancient languages", "SIL Open Font License (OFL-1.1)"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.9
+}

@@ -1,0 +1,92 @@
+{
+  "id": "github-com-supermemoryai-opensearch-ai",
+  "url": "https://github.com/supermemoryai/opensearch-ai",
+  "kind": "repo",
+  "hints_hash": "5b143dbcb27cab16",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:07:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/supermemoryai/opensearch-ai/blob/HEAD/README.md",
+      "title": "OpenSearch GPT",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/supermemoryai/opensearch-ai",
+      "title": "GitHub - supermemoryai/opensearch-ai: SearchGPT / Perplexity clone, but personalised for you.",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/supermemoryai/opensearch-ai/blob/HEAD/LICENSE",
+      "title": null,
+      "status": 404
+    },
+    {
+      "url": "https://opensearch.supermemory.ai/",
+      "title": "Open Search GPT",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "OpenSearch GPT",
+  "summary": "Personalised AI search engine, a SearchGPT/Perplexity-style clone that learns about you and your interests as you browse.",
+  "description": "An open-source AI search app in the style of SearchGPT/Perplexity: it answers questions using a memory profile of you and your interests that builds up while you browse. Built with Next.js, shadcn/ui, Tailwind CSS, the Vercel AI SDK and GPT-4o-mini, with a Cobe globe animation, deployed on Cloudflare Pages. A demo runs at opensearch.supermemory.ai.",
+  "type": "app",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "prompt-input",
+    "globe"
+  ],
+  "keywords": [
+    "ai search engine",
+    "searchgpt",
+    "perplexity clone",
+    "personalized search",
+    "answer engine",
+    "memory",
+    "nextjs",
+    "shadcn ui",
+    "tailwind",
+    "vercel ai sdk",
+    "cloudflare page",
+    "globe animation",
+    "open source"
+  ],
+  "contains": [
+    "SearchGPT/Perplexity-style AI search, personalized from browsing",
+    "Supermemory memory collection and retrieval",
+    "Cobe globe animation",
+    "built with Next.js, shadcn/ui, Tailwind CSS and Vercel AI SDK",
+    "GPT-4o-mini model",
+    "deployed on Cloudflare Pages",
+    "demo at opensearch.supermemory.ai"
+  ],
+  "formats": [
+    "code",
+    "app"
+  ],
+  "stack": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "shadcn-ui",
+    "vercel-ai-sdk"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": "https://github.com/supermemoryai/opensearch-ai",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

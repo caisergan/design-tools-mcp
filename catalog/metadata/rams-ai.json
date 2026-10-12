@@ -1,0 +1,30 @@
+{
+ "id": "rams-ai",
+ "url": "https://rams.ai",
+ "kind": "site",
+ "hints_hash": "a41c913e845edb83",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T17:38:42Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://rams.ai/llms.txt", "title": "Rams", "status": null},
+  {"url": "https://www.rams.ai/", "title": "Rams · Design eval for agents", "status": null},
+  {"url": "https://www.rams.ai/faq", "title": "FAQ · Rams", "status": null},
+  {"url": "https://www.rams.ai/guides/frontend-design-review", "title": "Frontend design review · Rams", "status": null}
+ ],
+ "status": "ok",
+ "name": "Rams",
+ "summary": "Automated design reviewer that scores UI code changes 0–100 against 348 rules and returns concrete fixes.",
+ "description": "Design-quality engine for UI code: reviews React, Vue, Svelte, Angular, SwiftUI and HTML/CSS against 348 versioned rules in 9 categories (accessibility, color, typography, spacing, components, UX, motion, craft, native) and returns a score with file and line fixes. Runs as a GitHub App on every pull request, a hosted MCP server, or a free skill inside coding agents.",
+ "type": "tool",
+ "categories": ["design-rules", "dev-ai-tools"],
+ "elements": [],
+ "keywords": ["design review", "ui code review", "design rule", "design score", "github app", "mcp server", "agent skill", "pull request", "accessibility", "contrast", "design system", "ai-generated ui", "react", "vue", "swiftui", "lint"],
+ "contains": ["348 design rules across 9 categories", "scores UI changes 0–100; a confirmed critical issue caps the score at 59", "GitHub App reviews every PR with inline one-click fixes", "hosted MCP server ai.rams/rams with a reviewfiles tool", "free skill for coding agents; free tier: 30 reviews/month, 1 public repo", "paid plans: Solo $39/month, Team $499/month, Enterprise custom"],
+ "formats": ["app", "api", "prompts", "docs"],
+ "stack": [],
+ "pricing": "freemium",
+ "license": "unknown",
+ "related": {"repo": null, "docs": "https://www.rams.ai/agents", "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

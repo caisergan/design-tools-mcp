@@ -1,0 +1,27 @@
+{
+ "id": "openusage-ai",
+ "url": "https://openusage.ai",
+ "kind": "site",
+ "hints_hash": "08d39d56e2dab8ef",
+ "schema_version": 1,
+ "extracted_at": "2026-10-11T16:20:00Z",
+ "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+ "evidence": [
+  {"url": "https://openusage.ai", "title": "OpenUsage - AI Limits Tracker for Cursor, Claude Code, Codex and more", "status": 200}
+ ],
+ "status": "ok",
+ "name": "OpenUsage",
+ "summary": "macOS menu bar app tracking AI coding subscription limits and spend across 11 providers.",
+ "description": "Native macOS 15+ menu bar app that reads the credentials already on your Mac to show session and weekly limits, pace warnings and cost history for Claude, Codex, Cursor, Grok and other AI providers. Status lines, editors and agents can read the numbers through a local API or the openusage command; up to two metrics per provider can be pinned. Free and open source.",
+ "type": "app",
+ "categories": ["dev-ai-tools"],
+ "elements": [],
+ "keywords": ["ai usage tracker", "menu bar app", "macos", "token usage", "rate limit", "subscription tracker", "spend tracking", "usage history", "local api", "status line", "swiftui", "open source", "homebrew"],
+ "contains": ["tracks 11 AI providers incl. Claude, Codex, Cursor, Devin, Grok, Copilot, Ollama, OpenRouter", "session and weekly limits with pace markers and burn warnings", "spend for today, yesterday or 30 days", "local API on localhost:6736 and an openusage CLI command", "macOS 15+; brew install --cask openusage", "no login; multiple accounts synced over iCloud"],
+ "formats": ["app", "code"],
+ "stack": ["swift", "swiftui"],
+ "pricing": "free",
+ "license": "MIT",
+ "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+ "confidence": 0.85
+}

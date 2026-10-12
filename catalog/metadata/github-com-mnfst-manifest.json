@@ -1,0 +1,36 @@
+{
+  "id": "github-com-mnfst-manifest",
+  "url": "https://github.com/mnfst/manifest",
+  "kind": "repo",
+  "hints_hash": "1e2cb475ce5eb6e3",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:03:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/mnfst/manifest/blob/HEAD/README.md", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Manifest LLM Gateway",
+  "summary": "Open-source LLM gateway routing agent and app queries to 300+ models from 35+ providers through one OpenAI-compatible endpoint.",
+  "description": "Manifest connects API keys, subscriptions and local models to one OpenAI-compatible endpoint, with custom routing, full-body logs for successful and failed requests, per-dollar spend tracking with notifications and limits, and fallbacks when a query fails. Self-host it with the Docker image (the first account becomes admin) or use one-click deployments for Railway, Render, DigitalOcean, AWS, GCP and others; a cloud version runs at app.manifest.build.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": ["llm gateway", "ai gateway", "openai compatible", "model routing", "llm proxy", "multi provider", "fallback", "request logging", "spend tracking", "self-hosted", "docker", "local model", "ai agent", "developer tool"],
+  "contains": [
+    "connects 35+ built-in providers and 300+ models to one OpenAI-compatible endpoint",
+    "routes by API key, subscription, local model or custom provider; send \"model\": \"auto\"",
+    "full-body logs for success and error messages",
+    "tracks every dollar with notifications and limits",
+    "falls back to other models when a query fails; self-heals bad requests",
+    "self-hosted Docker image; first account becomes admin",
+    "one-click deploys: Railway, Render, DigitalOcean, AWS, GCP, Fly.io and more",
+    "MIT licensed; n8n community node available"
+  ],
+  "formats": ["code", "app", "api", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/mnfst/manifest", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

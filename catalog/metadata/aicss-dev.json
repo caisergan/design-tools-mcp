@@ -1,0 +1,115 @@
+{
+  "id": "aicss-dev",
+  "url": "https://aicss.dev",
+  "kind": "site",
+  "hints_hash": "1e79e4a440f863c1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:14Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://aicss.dev/llms.txt",
+      "title": "AICSS",
+      "status": null
+    },
+    {
+      "url": "https://aicss.dev",
+      "title": "AICSS · UI components for AI agents",
+      "status": 200
+    },
+    {
+      "url": "https://www.aicss.dev/components/orbs",
+      "title": "Orbs · AICSS",
+      "status": 200
+    },
+    {
+      "url": "https://www.aicss.dev/pricing",
+      "title": "Pricing · AICSS",
+      "status": 200
+    },
+    {
+      "url": "https://www.aicss.dev/license",
+      "title": "License · AICSS",
+      "status": 200
+    },
+    {
+      "url": "https://www.aicss.dev/components/file-diff",
+      "title": "File Diff · AICSS",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "AICSS",
+  "summary": "Copy-paste UI components for AI agent conversations: thinking states, tool calls, streaming text, citations and tables.",
+  "description": "A library of UI components for AI agent chat interfaces, grouped into Thinking & Reasoning, Tool & Action States, Text Outputs, Structured Outputs and Rich & Interactive. Free components ship React, Vue and Svelte code; a one-time Pro license unlocks the rest. Components are also served as JSON and Markdown through a registry API for programmatic use.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "input",
+    "table",
+    "card",
+    "list",
+    "ai-agent-ui"
+  ],
+  "keywords": [
+    "ai agent ui",
+    "chat ui",
+    "ai chat component",
+    "thinking state",
+    "streaming text",
+    "tool call",
+    "inline citation",
+    "code block",
+    "data table",
+    "comparison table",
+    "approval card",
+    "agent input",
+    "reasoning",
+    "file diff",
+    "image generation",
+    "audio wave",
+    "react",
+    "vue",
+    "svelte",
+    "copy paste",
+    "shadcn",
+    "json api",
+    "markdown prompt"
+  ],
+  "contains": [
+    "10 free components; the rest unlock with a one-time Pro license",
+    "groups: Thinking & Reasoning, Tool & Action States, Text Outputs, Structured Outputs, Rich & Interactive",
+    "every component ships React, Vue and Svelte code; snippets are self-contained CSS",
+    "JSON API: /r index plus /r/{slug} per component, with an optional Markdown prompt format",
+    "pricing: $89 Personal / $299 Enterprise, lifetime access"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "api",
+    "prompts",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "vue",
+    "svelte",
+    "css"
+  ],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

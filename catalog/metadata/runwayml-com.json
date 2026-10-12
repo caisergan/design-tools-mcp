@@ -1,0 +1,40 @@
+{
+  "id": "runwayml-com",
+  "url": "https://runwayml.com",
+  "kind": "site",
+  "hints_hash": "a1a044743e477db1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:11:08Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://runwayml.com/llms.txt", "title": "Runway", "status": null},
+    {"url": "https://runwayml.com", "title": "Runway | Building Real-World Intelligence", "status": 200},
+    {"url": "https://runway.com/pricing", "title": "AI Image and Video Pricing from $12/month | Runway AI", "status": 200},
+    {"url": "https://runway.com/about", "title": "About Runway AI Video Platform | Runway AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Runway",
+  "summary": "AI creative suite and API for generating and editing video, images and audio.",
+  "description": "Runway Creative generates and edits video, images and audio in a browser workspace; Runway Dev exposes the same models through an API with workflows and MCP; Runway Robotics runs policy inference and synthetic data on GWM-1. Free plan with 125 one-time credits, then Standard, Pro and Max tiers for individuals and enterprises.",
+  "type": "generator",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "ai video generator", "video editor", "image generation", "audio generation", "text to video",
+    "image to video", "workflow", "api", "mcp", "agent", "upscaling", "creative suite"
+  ],
+  "contains": [
+    "free plan: 125 one-time credits",
+    "Standard from $12, Pro from $28, Max from $76 per month with annual billing",
+    "models: Gen-4.5, Aleph, Kling, Seedance, Nano Banana Pro, Lyria",
+    "Runway MCP connects agents like Claude and ChatGPT",
+    "developer API platform with workflows and custom endpoints",
+    "robotics toolkit powered by GWM-1, the General World Model"
+  ],
+  "formats": ["app", "api", "video"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

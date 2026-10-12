@@ -1,0 +1,29 @@
+{
+  "id": "github-com-elayadesign-ai-design-skills",
+  "url": "https://github.com/elayadesign/ai-design-skills",
+  "kind": "repo",
+  "hints_hash": "b4e9c78bc1aaf07a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:22:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/elayadesign/ai-design-skills/blob/HEAD/README.md", "title": "AI Design Skills", "status": null},
+    {"url": "https://github.com/elayadesign/ai-design-skills/blob/HEAD/skills/landing-page-design/SKILL.md", "title": "SKILL.md", "status": 200},
+    {"url": "https://raw.githubusercontent.com/elayadesign/ai-design-skills/HEAD/skills/landing-page-design/SKILL.md", "title": "Landing Page Design", "status": 200}
+  ],
+  "status": "ok",
+  "name": "AI Design Skills",
+  "summary": "A growing collection of design skills for AI coding tools; the first is a landing-page system with structure and visual rules.",
+  "description": "A collection of self-contained design skill folders for AI coding tools such as Claude Code, Cursor, Codex and Windsurf. The landing-page-design skill covers intake questions, page structure, layout selection, conversion rules, copywriting, build order and SEO/AEO, plus strict visual rules for typography, spacing, corner radius, borders and backgrounds, hero sections, icons and motion. Design values sit in one editable section of each SKILL.md; MIT licensed.",
+  "type": "agent-skill",
+  "categories": ["design-rules"],
+  "elements": ["hero", "navbar", "cta", "button"],
+  "keywords": ["agent skill", "ai design skill", "landing page", "landing page design", "conversion copywriting", "copywriting", "typography", "spacing", "hero section", "visual system", "design rule", "seo"],
+  "contains": ["one skill so far: landing-page-design", "covers intake, page structure, layout selection, conversion copy, build order, SEO and AEO", "visual rules: type scale, spacing, corner radius, dark mode colors, hero layout, icons, motion", "design values live in one editable section per skill", "installs as SKILL.md into Claude Code, Cursor, Codex, Windsurf, Cline or a system prompt"],
+  "formats": ["prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/elayadesign/ai-design-skills", "docs": "https://github.com/elayadesign/ai-design-skills/blob/HEAD/skills/landing-page-design/SKILL.md", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

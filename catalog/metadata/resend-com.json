@@ -1,0 +1,89 @@
+{
+  "id": "resend-com",
+  "url": "https://resend.com",
+  "kind": "site",
+  "hints_hash": "411b5d984d5d9d2c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:52:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://resend.com/llms.txt",
+      "title": "Resend",
+      "status": null
+    },
+    {
+      "url": "https://resend.com",
+      "title": "Resend · Email for developers",
+      "status": 200
+    },
+    {
+      "url": "https://resend.com/docs",
+      "title": "Introduction - Resend",
+      "status": 200
+    },
+    {
+      "url": "https://resend.com/pricing",
+      "title": "Pricing · Resend",
+      "status": 200
+    },
+    {
+      "url": "https://resend.com/about",
+      "title": "About · Resend",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Resend",
+  "summary": "Email API for developers to send transactional and marketing email, with SDKs, webhooks, CLI and MCP.",
+  "description": "Resend is an email sending platform built around a REST API and official SDKs. It covers transactional and marketing email: contacts, segments, broadcasts, automations and inbound mail via webhooks. Emails are written as React components with React Email; domains are verified with SPF/DKIM/DMARC and monitored for deliverability. Built for developers and product teams.",
+  "type": "tool",
+  "categories": ["dev-ai-tools"],
+  "elements": [],
+  "keywords": [
+    "email api",
+    "transactional email",
+    "marketing email",
+    "email sending",
+    "email delivery",
+    "sdk",
+    "webhook",
+    "inbound email",
+    "email template",
+    "react email",
+    "broadcast",
+    "contact management",
+    "automation",
+    "deliverability",
+    "dmarc",
+    "dedicated ip",
+    "api",
+    "cli",
+    "mcp server"
+  ],
+  "contains": [
+    "send transactional email via POST /emails; batch up to 100 messages per request",
+    "marketing email: contacts, segments, broadcasts and recurring automations",
+    "inbound email via MX records and webhooks",
+    "React Email templates, CLI, SDKs and MCP server",
+    "test mode, domain verification (SPF/DKIM/DMARC), dedicated IPs and blocklist tracking",
+    "add-ons: extra domains $20/mo, dedicated IPs $30/mo, SSO $150/mo",
+    "free plan plus Pro, Scale and Enterprise"
+  ],
+  "formats": ["api", "code", "cli", "docs"],
+  "stack": ["react"],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://resend.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

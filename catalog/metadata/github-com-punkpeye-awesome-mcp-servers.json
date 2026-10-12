@@ -1,0 +1,71 @@
+{
+  "id": "github-com-punkpeye-awesome-mcp-servers",
+  "url": "https://github.com/punkpeye/awesome-mcp-servers",
+  "kind": "repo",
+  "hints_hash": "d69b1b723f962a7a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:39:57Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/punkpeye/awesome-mcp-servers/blob/HEAD/README.md",
+      "title": "awesome-mcp-servers README",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "title": "GitHub - punkpeye/awesome-mcp-servers: A collection of MCP servers.",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "awesome-mcp-servers",
+  "summary": "Curated list of Model Context Protocol servers, grouped by topic and tagged by language, scope and OS.",
+  "description": "A curated awesome list of MCP (Model Context Protocol) servers you install and run yourself. Entries are grouped into 50+ topic categories — aggregators, browser automation, cloud platforms, databases, finance, search, travel and more — and tagged with programming language, local vs cloud scope and supported OS; each links to its repository. The list also collects MCP clients, hosted remote servers, tutorials, frameworks and a web directory synced with the repository.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "mcp",
+    "model context protocol",
+    "mcp server",
+    "mcp client",
+    "ai agent",
+    "agent tool",
+    "awesome list",
+    "tool directory",
+    "llm integration",
+    "server implementation",
+    "developer tool",
+    "remote server"
+  ],
+  "contains": [
+    "50+ server categories from aggregators and databases to finance and travel",
+    "legend tags: language (Python, TypeScript, Go, Rust, C#), scope cloud/local/embedded, OS macOS/Windows/Linux",
+    "companion lists for MCP clients and hosted remote MCP servers",
+    "web directory synced with the repository",
+    "tutorials and frameworks sections",
+    "MIT licensed"
+  ],
+  "formats": [
+    "links",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/punkpeye/awesome-mcp-servers",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

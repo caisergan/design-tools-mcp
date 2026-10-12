@@ -1,0 +1,12 @@
+{
+  "id": "htmlrev-com",
+  "url": "https://htmlrev.com",
+  "kind": "site",
+  "hints_hash": "db6e41846152f5e1",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "commandcode/deepseek/deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [],
+  "status": "blocked",
+  "confidence": 0
+}

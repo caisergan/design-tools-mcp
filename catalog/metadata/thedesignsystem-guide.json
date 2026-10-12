@@ -1,0 +1,29 @@
+{
+  "id": "thedesignsystem-guide",
+  "url": "https://thedesignsystem.guide",
+  "kind": "site",
+  "hints_hash": "40690f9173eb697a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:33:39Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://thedesignsystem.guide", "title": "The Design System Guide", "status": null},
+    {"url": "https://thedesignsystem.guide/documentation", "title": "The Design System Guide", "status": null},
+    {"url": "https://thedesignsystem.guide/design-tokens-course", "title": "The Ultimate Design Tokens Course", "status": 200}
+  ],
+  "status": "ok",
+  "name": "The Design System Guide",
+  "summary": "Guide and resource hub for setting up a design system: chapters, tools, checklists and courses.",
+  "description": "A guide and resource hub for building and running a design system, with chapters on documentation, collaboration and metrics, plus a knowledge base, bookmarks, tools, checklists, a podcast and practitioner interviews. Free to read with a newsletter; paid self-paced courses cover design tokens and the Airtable inventory workflow.",
+  "type": "course",
+  "categories": ["learning", "design-rules"],
+  "elements": [],
+  "keywords": ["design system", "design token", "documentation", "design system guide", "component library", "knowledge base", "checklist", "design ops", "figma variable", "tokens studio", "metric", "collaboration", "resource", "newsletter", "podcast", "course"],
+  "contains": ["guide chapters including documentation, collaboration and metrics", "bookmarks, tools and checklists for design systems", "knowledge base, DSG podcast and design system interviews", "newsletter read by 15K+ people", "paid courses: Design Tokens Mastery, The Design System Inventory", "117 pages in the site sitemap"],
+  "formats": ["docs", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

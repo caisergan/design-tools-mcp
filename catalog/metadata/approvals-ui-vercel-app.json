@@ -1,0 +1,85 @@
+{
+  "id": "approvals-ui-vercel-app",
+  "url": "https://approvals-ui.vercel.app",
+  "kind": "site",
+  "hints_hash": "6706dc6908856d81",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:25:05Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://approvals-ui.vercel.app",
+      "title": "approvals-ui: approval workflow components for React Flow",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/DylanMerigaud/approvals-ui",
+      "title": "GitHub - DylanMerigaud/approvals-ui",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "approvals-ui",
+  "summary": "shadcn registry of React Flow components for approval workflows: quorum gates, thresholds, policy lint and human-gated editing.",
+  "description": "Copy-paste components for the approval workflow screen: a workflow canvas that renders policy JSON as a laid-out graph of approval and terminal nodes, a validation panel running deterministic lint (segregation of duties, single approver above threshold), and a plain-language edit panel where a human reviews each proposed change as a diff before it lands. Installed with the shadcn CLI; includes a headless Zod policy core.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [],
+  "keywords": [
+    "approval workflow",
+    "approval",
+    "react flow",
+    "shadcn registry",
+    "workflow canvas",
+    "node editor",
+    "policy lint",
+    "quorum",
+    "amount threshold",
+    "segregation of duty",
+    "human in the loop",
+    "procurement",
+    "finance ops",
+    "react",
+    "typescript",
+    "zod",
+    "workflow builder",
+    "approval chain"
+  ],
+  "contains": [
+    "6 items: workflow canvas, approval node, terminal node, validation panel, plain-language edit panel, core",
+    "install with one shadcn CLI command or a namespaced registry",
+    "policy lint with 10 error rules and 7 warning rules, incl. segregation of duties",
+    "headless Zod policy model: a DAG of steps with guards",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli"
+  ],
+  "stack": [
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "shadcn",
+    "zod",
+    "react-flow"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/DylanMerigaud/approvals-ui",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

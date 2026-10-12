@@ -1,0 +1,29 @@
+{
+  "id": "fontain-org",
+  "url": "https://fontain.org",
+  "kind": "site",
+  "hints_hash": "55bf4521fdc1d067",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:52Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fontain.org", "title": "fontain = a font-collection (and a font-collection-system)", "status": null},
+    {"url": "https://fontain.org/about/index.html", "title": "fontain - ABOUT", "status": null},
+    {"url": "https://fontain.org/quattrocento/index.html", "title": "Quattrocento on fontain", "status": 200}
+  ],
+  "status": "ok",
+  "name": "fontain",
+  "summary": "A font collection-system serving free/libre/open-source fonts with sources, webfonts and LaTeX formats.",
+  "description": "fontain is a font-collection and a font-collection-system: it maintains a selection of free/libre/open-source fonts together with their source files and derives formats such as webfonts and files for LaTeX. Font pages offer downloads (webfont, UFO, OTF, TTF, TeX) with license and author info, and the system can be set up as your own instance.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["libre font", "open source font", "free font", "font collection", "webfont", "ufo", "otf", "ttf", "latex", "tex", "font source", "typography", "self-hosted"],
+  "contains": ["free/libre/open-source fonts with source files", "downloads per font: webfont, UFO, OTF, TTF, TeX", "filters by classification: calligraphic, blackletter, serif, sans-serif, script, decorative, monospaced, pixel", "per-font license and author (Quattrocento: OFL, Pablo Impallari)", "can be self-hosted as an own instance"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

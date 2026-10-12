@@ -1,0 +1,117 @@
+{
+  "id": "agentcn-vercel-app",
+  "url": "https://agentcn.vercel.app",
+  "kind": "site",
+  "hints_hash": "39e336e4f6618576",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T15:20:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://agentcn.vercel.app/llms.txt",
+      "title": "agentcn",
+      "status": null
+    },
+    {
+      "url": "https://agentcn.vercel.app",
+      "title": "agentcn - Production-ready agents, made simple",
+      "status": 200
+    },
+    {
+      "url": "https://www.agentcn.run/docs",
+      "title": "Introduction | agentcn",
+      "status": 200
+    },
+    {
+      "url": "https://www.agentcn.run/docs/agents",
+      "title": "Agents | agentcn",
+      "status": 200
+    },
+    {
+      "url": "https://www.agentcn.run/docs/installation",
+      "title": "Installation | agentcn",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/shadcn-labs/agentcn/HEAD/README.md",
+      "title": "agentcn",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/shadcn-labs/agentcn/HEAD/LICENSE",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "agentcn",
+  "summary": "shadcn-style registry of 76 installable AI agent recipes for the Eve, Flue, Mastra and LangGraph frameworks.",
+  "description": "A registry of complete, production-ready agent recipes — not a UI component registry: each recipe distributes the backend agent files (instructions, tools, skills, workflows) that you copy into your project with the shadcn CLI. 19 recipes are listed (Deep Search, AI SEO Audit, Extract DESIGN.md, Meeting Notes, Chat with PDF, Docs Chatbot, Chat with Database, GitHub PR Review, Slack Agent, Browser Agent, Weather …), each with a live preview and install paths for Eve, Flue, Mastra and LangGraph (Dawn). Recipes land in the paths each framework discovers automatically.",
+  "type": "registry",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [
+    "ai-agent-ui",
+    "chat",
+    "card",
+    "drawer"
+  ],
+  "keywords": [
+    "agent recipe",
+    "ai agent",
+    "shadcn registry",
+    "eve",
+    "flue",
+    "mastra",
+    "langgraph",
+    "agent framework",
+    "agent template",
+    "mcp",
+    "typescript",
+    "copy paste",
+    "production agent",
+    "deep search",
+    "chatbot",
+    "workflow",
+    "tool calling",
+    "instruction",
+    "llms.txt"
+  ],
+  "contains": [
+    "76 registry items; 19 recipes listed incl. Deep Search, AI SEO Audit, Extract DESIGN.md, Meeting Notes",
+    "recipes ship backend agent files (instructions, tools, skills, workflows), not UI components",
+    "installs via the shadcn CLI into Eve, Flue, Mastra or LangGraph (Dawn) project layouts",
+    "live previews embedded in each recipe's docs page",
+    "machine-readable extras: llms.txt, OpenAPI description, markdown mirrors, an agent skill",
+    "MIT licensed; free and open source"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "api",
+    "docs"
+  ],
+  "stack": [
+    "typescript",
+    "eve",
+    "flue",
+    "mastra",
+    "langgraph"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/shadcn-labs/agentcn",
+    "docs": "https://www.agentcn.run/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

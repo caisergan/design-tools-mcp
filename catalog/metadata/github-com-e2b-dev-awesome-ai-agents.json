@@ -1,0 +1,75 @@
+{
+  "id": "github-com-e2b-dev-awesome-ai-agents",
+  "url": "https://github.com/e2b-dev/awesome-ai-agents",
+  "kind": "repo",
+  "hints_hash": "a10c19451c96b848",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:32:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/e2b-dev/awesome-ai-agents/blob/HEAD/README.md",
+      "title": "Open-source projects",
+      "status": null
+    },
+    {
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "title": "GitHub - e2b-dev/awesome-ai-agents: A list of AI autonomous agents · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/e2b-dev/awesome-ai-agents/HEAD/LICENSE.md",
+      "title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Awesome AI Agents",
+  "summary": "List of AI autonomous agents in two parts, open-source projects and closed-source products, each with features, stack and links.",
+  "description": "A community-maintained directory of AI agents split into open-source projects and closed-source projects/companies. Entries describe the agent's category, features, stack and links and are kept in alphabetical order; a web UI version adds filtering by category and use case. Scope is AI assistants and agents, while SDKs and frameworks live in a companion list.",
+  "type": "directory",
+  "categories": [
+    "dev-ai-tools"
+  ],
+  "elements": [],
+  "keywords": [
+    "ai agent",
+    "autonomous agent",
+    "awesome list",
+    "agent framework",
+    "llm",
+    "multi-agent",
+    "no-code agent",
+    "open source",
+    "coding agent",
+    "agent directory",
+    "ai tool",
+    "agent list"
+  ],
+  "contains": [
+    "two sections: open-source projects, closed-source projects and companies",
+    "entries list category, description, features, stack and links",
+    "web UI version with filtering by category and use case",
+    "contributions via pull request or a form; alphabetical order kept",
+    "companion list: Awesome SDKs for AI Agents",
+    "30.4k stars, 3.6k forks"
+  ],
+  "formats": [
+    "links"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "CC-BY-NC-SA-4.0",
+  "related": {
+    "repo": "https://github.com/e2b-dev/awesome-ai-agents",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

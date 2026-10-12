@@ -1,0 +1,95 @@
+{
+  "id": "save-design",
+  "url": "https://save.design",
+  "kind": "site",
+  "hints_hash": "a5def76302ea69dc",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:24:33Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://save.design",
+      "title": "Save.design | Organize your design inspiration",
+      "status": null
+    },
+    {
+      "url": "https://save.design/explore",
+      "title": "Website Design Inspiration Gallery | save.design",
+      "status": null
+    },
+    {
+      "url": "https://save.design/fonts/doto",
+      "title": "Doto — Websites Using This Font | save.design",
+      "status": null
+    },
+    {
+      "url": "https://save.design/pricing",
+      "title": "Pricing — save.design",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Save.design",
+  "summary": "Website design inspiration gallery with tech-stack detection, plus a workspace to save and organize finds.",
+  "description": "A curated gallery of website designs that shows the framework and animation library behind each site, with filters for framework, animation library, category and industry, and pages gathering sites by font or UI element. A membership workspace adds AI-catalogued captures ('Smart Capture'), folders, canvases, a Chrome extension and a personal MCP endpoint so teams can build their own reusable inspiration library.",
+  "type": "gallery",
+  "categories": [
+    "inspiration",
+    "design-tools"
+  ],
+  "elements": [
+    "3d",
+    "globe",
+    "cursor",
+    "background",
+    "scroll-effect",
+    "text-effect",
+    "team"
+  ],
+  "keywords": [
+    "website inspiration",
+    "design gallery",
+    "web design example",
+    "tech stack detection",
+    "animation library",
+    "bookmark manager",
+    "save inspiration",
+    "mood board",
+    "landing page example",
+    "chrome extension",
+    "mcp endpoint",
+    "ui element",
+    "font usage",
+    "website screenshot"
+  ],
+  "contains": [
+    "1093 website examples in the public gallery",
+    "filters by framework, animation library, category and industry",
+    "tech-stack detection for each saved site",
+    "font pages listing sites that use a typeface (Doto, Druk, Elza …)",
+    "Smart Capture fills title, description, tags and category with AI",
+    "Chrome extension for single and bulk tab saving",
+    "membership $3/mo Basic, $10/mo Individual, $8/seat/mo Team"
+  ],
+  "formats": [
+    "screenshots",
+    "links",
+    "app",
+    "api"
+  ],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

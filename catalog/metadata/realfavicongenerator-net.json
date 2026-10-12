@@ -1,0 +1,32 @@
+{
+  "id": "realfavicongenerator-net",
+  "url": "https://realfavicongenerator.net",
+  "kind": "site",
+  "hints_hash": "28720bcc2ece69f6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:22:14Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://realfavicongenerator.net", "title": "Favicon Generator for perfect icons on all browsers", "status": null},
+    {"url": "https://realfavicongenerator.net/about", "title": "About", "status": null},
+    {"url": "https://realfavicongenerator.net/favicon-checker", "title": "Favicon checker", "status": 200},
+    {"url": "https://realfavicongenerator.net/favicon-generator/nextjs", "title": "Favicon Generator for Next.js", "status": 200},
+    {"url": "https://realfavicongenerator.net/favicon-generator/node-cli", "title": "Favicon Generator for Node CLI", "status": 200},
+    {"url": "https://realfavicongenerator.net/logo-maker", "title": "Logo maker - Free and easy", "status": 200}
+  ],
+  "status": "ok",
+  "name": "RealFaviconGenerator",
+  "summary": "Favicon generator that produces icons and HTML markup for every browser, platform and device, plus a favicon checker.",
+  "description": "Drop an image and get a favicon package: SVG and PNG favicons, Apple touch icons, Android and web app manifest icons, plus the HTML markup and setup instructions. Instant previews show how the icon looks in browser tabs, on home screens and in Google result pages. A free checker audits live sites, and guides plus integration pages cover React, Next.js, Rails, Node CLI, Gulp, Grunt and ASP.NET Core.",
+  "type": "generator",
+  "categories": ["icons", "design-tools"],
+  "elements": [],
+  "keywords": ["favicon", "favicon generator", "favicon checker", "svg favicon", "apple touch icon", "favicon ico", "png icon", "web app manifest", "html markup", "browser tab icon", "home screen icon", "search result icon", "logo maker", "react", "nextjs", "node cli"],
+  "contains": ["one image in, icons for desktop browsers, iOS, Android and search results out", "output: SVG and PNG favicons, favicon.ico, Apple touch icons, HTML markup and setup instructions", "instant preview of the icon on each platform", "free favicon checker with more than a dozen checks for live sites", "reference guides on favicon formats and platforms", "integration pages: React, Next.js, Rails, Node, Node CLI, Gulp, Grunt, ASP.NET Core", "CLI: npx realfavicon generate"],
+  "formats": ["png", "svg", "code", "cli", "docs"],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

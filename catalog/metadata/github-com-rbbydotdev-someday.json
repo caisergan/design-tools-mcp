@@ -1,0 +1,36 @@
+{
+  "id": "github-com-rbbydotdev-someday",
+  "url": "https://github.com/rbbydotdev/someday",
+  "kind": "repo",
+  "hints_hash": "1e6745f43f5753ba",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:58:44Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/rbbydotdev/someday/blob/HEAD/README.md", "title": "Someday", "status": 200},
+    {"url": "https://github.com/rbbydotdev/someday", "title": "GitHub - rbbydotdev/someday: Free to host calendar availability picker - open-source cal.com / calendly alternative built on Google-Apps-Script for Gmail users · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Someday",
+  "summary": "Open-source Calendly alternative built on Google Apps Script: a calendar availability picker Gmail users can host for free.",
+  "description": "A free-to-host scheduling tool for Gmail users: it runs as a Google Apps Script web app, reads availability from your Google Calendar, and gives visitors a booking page where they pick a date and time slot and leave their name, email, phone and an optional note. Work hours and the calendar are configured in backend/src/app.ts and via Apps Script properties; built with React, TypeScript, Shadcn/UI and Vite, deployed with clasp. A Vercel demo with mocked endpoints is available.",
+  "type": "app",
+  "categories": ["dev-ai-tools"],
+  "elements": ["form", "input", "date-picker"],
+  "keywords": ["scheduling", "calendly alternative", "cal.com alternative", "availability picker", "booking", "appointment", "google apps script", "google calendar", "gmail", "self-host", "open source", "react", "vite", "shadcn", "typescript"],
+  "contains": [
+    "free hosting through Google Apps Script on your own Google account",
+    "booking form asks name, email, phone and an optional note",
+    "availability read from Google Calendar; work hours customizable",
+    "multiple calendars via Apps Script Script Properties",
+    "React + TypeScript + Shadcn/UI + Vite frontend, deployed with clasp",
+    "demo with mocked endpoints at someday-demo.vercel.app",
+    "MIT licensed; 1.1k GitHub stars"
+  ],
+  "formats": ["code", "app"],
+  "stack": ["react", "typescript", "vite", "shadcn", "google-apps-script"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/rbbydotdev/someday", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

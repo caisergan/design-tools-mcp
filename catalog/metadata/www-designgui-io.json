@@ -1,0 +1,81 @@
+{
+  "id": "www-designgui-io",
+  "url": "https://www.designgui.io",
+  "kind": "site",
+  "hints_hash": "7c5b1542286da7a6",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:47:10Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://www.designgui.io",
+      "title": "CSS Variables Editor - AI Browser Extension for managing colors in CSS Variables",
+      "status": null
+    },
+    {
+      "url": "https://www.cssvariables.com/docs",
+      "title": "CSS Variables Editor - Documentation",
+      "status": null
+    }
+  ],
+  "status": "ok",
+  "name": "CSS Variables Editor",
+  "summary": "Chrome DevTools extension for viewing, editing and AI-generating the color CSS variables of any web page.",
+  "description": "A DevTools pane that lists every global CSS variable holding a color (hex, HSL or OKLCH) and edits it with a picker, channel sliders or Tailwind's palette, applying changes to the page in real time. It adds WCAG contrast checks, swatch views and semantic color descriptions for shadcn/ui and daisyUI, AI palette generation with your own OpenAI or Anthropic API key, and exports of the changed variables.",
+  "type": "plugin",
+  "categories": [
+    "design-tools",
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "chrome extension",
+    "browser extension",
+    "devtool",
+    "css variable",
+    "color picker",
+    "color palette",
+    "theme",
+    "shadcn",
+    "daisyui",
+    "tailwind css",
+    "design system",
+    "design token",
+    "accessibility",
+    "contrast",
+    "wcag",
+    "oklch",
+    "hsl",
+    "ai palette"
+  ],
+  "contains": [
+    "browser extension with a DevTools pane",
+    "lists global color CSS variables (hex, HSL, OKLCH)",
+    "color edits update the live page in real time",
+    "WCAG contrast and accessibility panel",
+    "shadcn/ui and daisyUI support with swatches and semantic color descriptions",
+    "AI palette generation using your own OpenAI or Anthropic API key",
+    "export changed CSS variables",
+    "docs page and video demos"
+  ],
+  "formats": [
+    "app",
+    "video",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://www.cssvariables.com/docs",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

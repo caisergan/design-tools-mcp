@@ -1,0 +1,12 @@
+{
+  "id": "screely-com",
+  "url": "https://screely.com",
+  "kind": "site",
+  "hints_hash": "e0a4466ca4890a30",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:00:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [],
+  "status": "blocked",
+  "confidence": 0
+}

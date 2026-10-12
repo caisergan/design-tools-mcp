@@ -1,0 +1,20 @@
+{
+  "id": "figma-com-kejk",
+  "url": "https://figma.com/@_kejk",
+  "kind": "page",
+  "hints_hash": "2e186977ee63ffe4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:52:30Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://figma.com/@_kejk", "title": "Figma (@_kejk) | Figma", "status": null},
+    {"url": "https://www.figma.com/@_kejk", "title": "Figma (@_kejk) | Figma", "status": 200}
+  ],
+  "status": "partial",
+  "name": "@_kejk",
+  "summary": "Figma community profile of _kejk, whose bio says he is currently building DuckDuckGo, Cosmic and other products.",
+  "description": "A Figma community profile page. Its bio reads \"Currently building DuckDuckGo, Cosmic, and many other things.\" The page is rendered by JavaScript, so the profile's published files and resources could not be read.",
+  "keywords": ["figma community", "figma profile", "designer profile", "ui designer", "design portfolio", "figma"],
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "figma-com"},
+  "confidence": 0.5
+}

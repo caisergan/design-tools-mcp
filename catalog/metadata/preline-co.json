@@ -1,0 +1,29 @@
+{
+  "id": "preline-co",
+  "url": "https://preline.co",
+  "kind": "site",
+  "hints_hash": "96eed934b479aa7f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:31:10Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://preline.co", "title": "Free Tailwind CSS UI Components Library | Preline UI", "status": null},
+    {"url": "https://preline.co/license.html", "title": "License | Preline UI, crafted with Tailwind CSS", "status": null},
+    {"url": "https://preline.co/docs/mcp.html", "title": "Preline UI MCP Server | Setup and Prompting Guide", "status": null}
+  ],
+  "status": "ok",
+  "name": "Preline UI",
+  "summary": "Open-source Tailwind CSS UI library: 1612 components and blocks, templates, plugins and a Figma design system.",
+  "description": "Tailwind CSS components and page blocks to copy into HTML projects, plus templates, Tailwind plugins, a free Figma design system and an MCP server that feeds the catalog to AI coding agents. 640+ components and 22 templates are free; Pro unlocks more blocks and templates. Framework guides cover React, Next.js, Vue, Nuxt, Angular, Astro, SolidJS and Qwik.",
+  "type": "component-library",
+  "categories": ["components", "sections"],
+  "elements": ["form", "card", "table", "navbar", "chat", "sidebar", "chart", "dashboard", "contact", "list", "drawer", "modal", "accordion", "select"],
+  "keywords": ["tailwind css", "ui component", "component library", "tailwind component", "page block", "block library", "tailwind template", "figma design system", "admin dashboard", "ecommerce template", "chat ui", "open source ui", "mcp server", "ai agent skill", "html ui", "react ui", "vue ui", "nextjs", "web template"],
+  "contains": ["1612 components and blocks", "640+ free components, 22 free and premium templates", "free Figma design system", "MCP server, AI prompts and agent skills for coding agents", "framework guides: React, Next.js, Vue, Nuxt, Angular, Astro, SolidJS, Qwik", "free UI under MIT, Pro blocks under commercial license"],
+  "formats": ["code", "templates", "figma-file", "docs"],
+  "stack": ["tailwind", "html", "javascript", "typescript"],
+  "pricing": "freemium",
+  "license": "MIT",
+  "related": {"repo": null, "docs": "https://preline.co/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

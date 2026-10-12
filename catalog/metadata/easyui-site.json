@@ -1,0 +1,158 @@
+{
+  "id": "easyui-site",
+  "url": "https://easyui.site",
+  "kind": "site",
+  "hints_hash": "1a2c3552395392b2",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T18:41:34Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://easyui.site",
+      "title": "EasyUI — Beautiful UI. Made easy.",
+      "status": null
+    },
+    {
+      "url": "https://easyui.site/docs/introduction",
+      "title": "Introduction to EasyUI — Architecture & Philosophy",
+      "status": null
+    },
+    {
+      "url": "https://easyui.site/components",
+      "title": "All React Components — EasyUI",
+      "status": null
+    },
+    {
+      "url": "https://easyui.site/components/gooey-menu",
+      "title": "Gooey Menu Component for React — EasyUI",
+      "status": null
+    },
+    {
+      "url": "https://easyui.site/components/lock-input",
+      "title": "LockInput Component for React — EasyUI",
+      "status": null
+    },
+    {
+      "url": "https://easyui.site/llms.txt",
+      "title": "EasyUI",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "EasyUI",
+  "summary": "Open-source collection of 118 animated React components installed as shadcn registry items.",
+  "description": "Micro-animated React components built with Tailwind CSS and Framer Motion and installed with the shadcn CLI into your own components/ui folder. Covers buttons, cards, navbars, loaders, forms, tables, chat and AI-agent UI, each with spring-physics motion, light/dark theming and TypeScript APIs. Docs cover the motion system, design tokens and registry architecture.",
+  "type": "component-library",
+  "categories": [
+    "components",
+    "registries",
+    "motion"
+  ],
+  "elements": [
+    "accordion",
+    "ai-agent-ui",
+    "alert",
+    "avatar",
+    "background",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "chart",
+    "chat",
+    "checkbox",
+    "command-palette",
+    "cursor",
+    "date-picker",
+    "dock",
+    "dropdown",
+    "faq",
+    "file-upload",
+    "form",
+    "input",
+    "loader",
+    "modal",
+    "navbar",
+    "pagination",
+    "select",
+    "sidebar",
+    "slider",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "text-effect",
+    "timeline",
+    "toast",
+    "tooltip",
+    "3d"
+  ],
+  "keywords": [
+    "react component library",
+    "animated component",
+    "micro interaction",
+    "framer motion",
+    "tailwind css",
+    "shadcn registry",
+    "copy paste component",
+    "spring animation",
+    "dark mode",
+    "typescript",
+    "button",
+    "card",
+    "navbar",
+    "loader",
+    "command palette",
+    "toast",
+    "modal",
+    "form",
+    "input",
+    "checkbox",
+    "toggle",
+    "tooltip",
+    "data table",
+    "calendar",
+    "timeline",
+    "chat ui",
+    "ai agent ui",
+    "cursor follower",
+    "animated background"
+  ],
+  "contains": [
+    "118 animated React components (button, card, navbar, loader, chat, data table, AI-agent UI …)",
+    "108 documentation pages; 124 sitemap URLs",
+    "installed via shadcn CLI: npx shadcn@latest add Surajmaurya1/easyui/<component>",
+    "spring-physics motion system with reduced-motion accessibility guidelines",
+    "monochrome design tokens and elevation surfaces",
+    "copy-paste ownership: raw TSX in components/ui, no black-box npm dependency",
+    "LLM-friendly llms.txt with a component index",
+    "measured element mix: 10 buttons, 8 cards, 5 navbars, 4 loaders, 3 forms, 3 toasts"
+  ],
+  "formats": [
+    "code",
+    "registry",
+    "cli",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": "https://easyui.site/docs/introduction",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

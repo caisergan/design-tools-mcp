@@ -1,0 +1,86 @@
+{
+  "id": "github-com-moumen-soliman-lab",
+  "url": "https://github.com/moumen-soliman/lab",
+  "kind": "repo",
+  "hints_hash": "d2ae0af02a18ace4",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:34:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/moumen-soliman/lab/blob/HEAD/README.md",
+      "title": "moumenlab",
+      "status": 200
+    },
+    {
+      "url": "https://lab.moumen.dev/components",
+      "title": "Component Lab | moumenlab",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "moumenlab",
+  "summary": "React and Tailwind component lab with 12 copy-paste components, each with a live demo, a blueprint and a shadcn-registry install.",
+  "description": "A small lab of everyday components — nested menu, OTP input, file-upload staging, schedule builder, command palette, checkout flow and more — each shipped as a single file you own. Every component has a live playground and a build blueprint, and installs into a React 19 + Tailwind v4 project through the shadcn CLI or npx moumenlab add.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "navbar",
+    "command-palette",
+    "popover",
+    "otp-input",
+    "file-upload",
+    "list",
+    "form"
+  ],
+  "keywords": [
+    "react component",
+    "tailwind component",
+    "shadcn registry",
+    "copy paste component",
+    "command palette",
+    "otp input",
+    "file upload",
+    "navbar",
+    "popover",
+    "checkout form",
+    "nested menu",
+    "motion animation",
+    "react 19",
+    "tailwind v4"
+  ],
+  "contains": [
+    "12 components, each a single file: nested menu, OTP input, upload staging, command palette, checkout flow, lists",
+    "live playground and source per component",
+    "installs with npx moumenlab add or the shadcn CLI; shared theme tokens copied into your project",
+    "React 19 + Tailwind v4 + motion, reduced-motion aware"
+  ],
+  "formats": [
+    "code",
+    "cli",
+    "registry"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "nextjs",
+    "framer-motion",
+    "typescript"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/moumen-soliman/lab",
+    "docs": "https://lab.moumen.dev",
+    "npm": "moumenlab",
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.85
+}

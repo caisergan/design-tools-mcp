@@ -1,0 +1,102 @@
+{
+  "id": "tancn-dev",
+  "url": "https://tancn.dev",
+  "kind": "site",
+  "hints_hash": "9c52c42de70b4f3f",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:53:23Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://tancn.dev",
+      "title": "TanCN - Form and Table Builder",
+      "status": null
+    },
+    {
+      "url": "https://tancn.dev/form-registry",
+      "title": "TanStack Form Registry | TanCN - Form and Table Builder",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Vijayabaskar56/tancn",
+      "title": "GitHub - Vijayabaskar56/tancn: Tanstack Builder for Form and Table",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "TanCN",
+  "summary": "Drag-and-drop builder that generates type-safe TanStack Form and Table code with ShadCN UI components.",
+  "description": "Web app that scaffolds forms and tables in a drag-and-drop editor with real-time preview, then generates fully typed React components with Zod, Valibot or ArkType schemas. Also publishes a tanstack-form component through a shadcn CLI registry for composed and multi-step forms.",
+  "type": "generator",
+  "categories": [
+    "design-tools",
+    "registries"
+  ],
+  "elements": [
+    "form",
+    "table",
+    "input",
+    "select",
+    "checkbox"
+  ],
+  "keywords": [
+    "form builder",
+    "table builder",
+    "tanstack form",
+    "tanstack table",
+    "shadcn",
+    "react",
+    "typescript",
+    "code generation",
+    "drag and drop",
+    "data grid",
+    "zod",
+    "validation",
+    "multi-step form",
+    "field array",
+    "tailwind",
+    "free",
+    "open source"
+  ],
+  "contains": [
+    "drag-and-drop form builder with real-time preview",
+    "table builder with sorting, filtering, pagination and virtual scrolling",
+    "generates typed React components with Zod, Valibot or ArkType schemas",
+    "ShadCN UI + Radix UI + Tailwind components",
+    "multi-step forms and dynamic field arrays",
+    "shadcn CLI registry component (tanstack-form)",
+    "pre-built form templates",
+    "MIT licensed, free without login"
+  ],
+  "formats": [
+    "app",
+    "code",
+    "registry",
+    "templates",
+    "docs"
+  ],
+  "stack": [
+    "react",
+    "typescript",
+    "tailwind",
+    "radix",
+    "tanstack-form",
+    "tanstack-table",
+    "vite",
+    "zod"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/Vijayabaskar56/tancn",
+    "docs": "https://tancn.dev/form-registry",
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

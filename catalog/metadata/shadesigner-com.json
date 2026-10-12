@@ -1,0 +1,61 @@
+{
+  "id": "shadesigner-com",
+  "url": "https://shadesigner.com",
+  "kind": "site",
+  "hints_hash": "a8e767632bdf8fb5",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:49:25Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://shadesigner.com",
+      "title": "Shadesigner - A Shadcn Palette Generator & Theme Designer",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "Shadesigner",
+  "summary": "Palette generator and theme designer for shadcn/ui projects, outputting WCAG-compliant themes.",
+  "description": "Tool that generates color palettes for shadcn projects and edits existing themes, advertised as a 100% WCAG compliant theme generator. A palette showcase demonstrates every CSS variable used by the shadcn ui library (background, card, muted and accent colors, toggle switch).",
+  "type": "generator",
+  "categories": [
+    "color-effects"
+  ],
+  "elements": [],
+  "keywords": [
+    "shadcn",
+    "shadcn ui",
+    "palette generator",
+    "theme designer",
+    "theme generator",
+    "color palette",
+    "wcag",
+    "accessibility",
+    "css variable",
+    "color scheme"
+  ],
+  "contains": [
+    "generates shadcn/ui color palettes",
+    "edits existing themes",
+    "100% WCAG compliant theme generator",
+    "palette showcase of all shadcn CSS variables"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.75
+}

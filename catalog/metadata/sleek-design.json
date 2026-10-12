@@ -1,0 +1,39 @@
+{
+  "id": "sleek-design",
+  "url": "https://sleek.design",
+  "kind": "site",
+  "hints_hash": "bd3157e1ec96220c",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:30:05Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash:max", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://sleek.design/llms.txt", "title": "Sleek", "status": null},
+    {"url": "https://sleek.design", "title": "Sleek: AI Mobile App Designer | Design Apps in Minutes", "status": 200},
+    {"url": "https://sleek.design/templates", "title": "Mobile App Design Templates | Sleek", "status": 200},
+    {"url": "https://sleek.design/pricing", "title": "Sleek Pricing: AI Mobile App Design Plans", "status": 200},
+    {"url": "https://sleek.design/templates/hr-app", "title": "HR Mobile App Design Template | Edit with AI", "status": 200},
+    {"url": "https://sleek.design/templates/crm-app", "title": "CRM Mobile App Design Template | Edit with AI", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Sleek",
+  "summary": "AI mobile app design tool that turns text prompts or sketches into multi-screen iOS and Android app designs.",
+  "description": "A web app that generates mobile app UI designs from text descriptions or hand-drawn sketches, organised into multi-screen projects with consistent design systems. Designs export to Figma as editable layers, to HTML and React with Tailwind, and to AI builders; coding agents can drive it through a REST API, MCP server or agent skill. App design templates and a references gallery give starting points.",
+  "type": "tool",
+  "categories": ["design-tools", "templates"],
+  "elements": ["chat", "prompt-input", "dashboard", "calendar"],
+  "keywords": ["ai app design", "mobile app design", "app design tool", "app design", "ai design generator", "sketch to design", "app template", "ios app", "android app", "figma export", "design to code", "design system", "ai agent", "mcp", "prototype"],
+  "contains": [
+    "free tier: 60 one-time credits, 1 project, 3 screens",
+    "plans: Starter, Pro $69/mo, Team $99/seat/mo; yearly billing saves up to 59%",
+    "mobile app design templates across 11 categories (finance, health, travel, education …)",
+    "exports: Figma layers, HTML/React with Tailwind, AI builders",
+    "REST API, remote MCP server and official agent skill for AI coding agents",
+    "references gallery of hand-picked app designs"
+  ],
+  "formats": ["app", "api", "code", "figma-file", "templates"],
+  "stack": ["react", "tailwind"],
+  "pricing": "freemium",
+  "license": "proprietary",
+  "related": {"repo": null, "docs": "https://sleek.design/api/v1/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

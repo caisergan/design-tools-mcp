@@ -1,0 +1,35 @@
+{
+  "id": "github-com-bergside-design-md-chrome",
+  "url": "https://github.com/bergside/design-md-chrome",
+  "kind": "repo",
+  "hints_hash": "cb98b3bad1156b0d",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T17:23:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/bergside/design-md-chrome/blob/HEAD/README.md", "title": "TypeUI DESIGN.md Extractor (Chrome Extension)", "status": 200}
+  ],
+  "status": "ok",
+  "name": "TypeUI DESIGN.md Extractor",
+  "summary": "Chrome extension that extracts a website's styles and generates a DESIGN.md or SKILL.md blueprint for AI design tools.",
+  "description": "Reads the active tab and extracts typography, colors, spacing, radius, shadows and motion, then drafts a DESIGN.md or SKILL.md file following the open-source TypeUI format for use with Google Stitch, Claude Code, Codex and similar tools. Generated sections include mission, brand, style foundations, WCAG 2.2 AA accessibility, do and don't rules, and quality gates. The extension is loaded unpacked in Chrome and is MIT licensed.",
+  "type": "plugin",
+  "categories": ["design-rules", "design-tools"],
+  "elements": [],
+  "keywords": ["chrome extension", "design.md", "skill.md", "design system", "design token", "style extractor", "typography", "color", "spacing", "shadow", "motion", "ai agent", "google stitch", "claude code", "codex", "wcag", "accessibility", "design blueprint"],
+  "contains": [
+    "auto-extracts typography, colors, spacing, radius, shadows and motion from any site",
+    "generates DESIGN.md or SKILL.md files",
+    "output follows the open-source TypeUI DESIGN.md format",
+    "generated sections: mission, brand, style foundations, accessibility, rules, quality gates",
+    "generated guidance applies WCAG 2.2 AA requirements",
+    "actions: auto-extract, generate, refresh, download, explain",
+    "MIT licensed, loaded unpacked in Chrome"
+  ],
+  "formats": ["code", "docs", "prompts"],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/bergside/design-md-chrome", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}

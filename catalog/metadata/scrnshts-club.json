@@ -1,0 +1,32 @@
+{
+  "id": "scrnshts-club",
+  "url": "https://scrnshts.club",
+  "kind": "site",
+  "hints_hash": "b4265027c878fdea",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:25:37Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://scrnshts.club", "title": "App Store Screenshots | ScreensDesign", "status": null},
+    {"url": "https://screensdesign.com/guides", "title": "App Design Guides: Mobile UI, iOS & Onboarding | ScreensDesign", "status": null},
+    {"url": "https://screensdesign.com/library", "title": "App Design Library | ScreensDesign", "status": null},
+    {"url": "https://screensdesign.com/guides/app-screens", "title": "14 App Screen Examples, Explained | ScreensDesign", "status": null},
+    {"url": "https://screensdesign.com/guides/ios-app-design", "title": "iOS App Design: Patterns & Examples | ScreensDesign", "status": null},
+    {"url": "https://screensdesign.com/pricing", "title": "Pricing | ScreensDesign", "status": 200}
+  ],
+  "status": "ok",
+  "name": "ScreensDesign",
+  "summary": "Gallery of App Store screenshots from top iOS apps for marketing and design inspiration.",
+  "description": "App Store screenshot gallery and app design library: browse screenshots from top iOS apps by category, plus featured app teardowns, articles and practical guides on mobile UI, iOS patterns, onboarding and paywalls. scrnshts.club now redirects here; a Pro plan gives access to the full library, video flows and paywall research.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["app store screenshot", "ios app", "app design", "mobile ui", "onboarding", "paywall", "app inspiration", "screenshot gallery", "app marketing", "app teardown", "ios design", "mobile app", "design reference", "app store optimization"],
+  "contains": ["App Store screenshots from top iOS apps, browsable by category", "featured app teardowns", "2,730 apps in the top charts (per the guides)", "guides on mobile UI, iOS patterns, onboarding and screen design", "related sections: library, animation explorer, web onboardings, removed apps", "Pro plan upgrade"],
+  "formats": ["screenshots", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://screensdesign.com/guides", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.8
+}

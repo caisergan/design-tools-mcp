@@ -1,0 +1,73 @@
+{
+  "id": "github-com-tomredman-progressbutton",
+  "url": "https://github.com/tomredman/ProgressButton",
+  "kind": "repo",
+  "hints_hash": "dfcbd20d06cf5d67",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T16:41:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/tomredman/ProgressButton/blob/HEAD/README.md",
+      "title": "ProgressButton Component",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "ProgressButton",
+  "summary": "React button component that shows manual or automatic progress with success and error states, built on the shadcn/ui button.",
+  "description": "An extended shadcn/ui button that visualizes progress during async actions like file uploads and form submissions. Progress is either manual (a 0-100 prop) or automatic (a duration split into randomized steps), driven by an XState state machine with idle, inProgress, success, successFadeOut and error states; the success color, callbacks and duration are configurable.",
+  "type": "component-library",
+  "categories": [
+    "components"
+  ],
+  "elements": [
+    "button",
+    "progress"
+  ],
+  "keywords": [
+    "progress button",
+    "shadcn button",
+    "react",
+    "xstate",
+    "loading button",
+    "form submission",
+    "file upload",
+    "state machine",
+    "tailwind",
+    "async action",
+    "button component",
+    "ui component"
+  ],
+  "contains": [
+    "manual progress via a progress prop, automatic progress via totalDuration and numberOfProgressSteps",
+    "XState states: idle, inProgress, success, successFadeOut, error",
+    "success color set with a Tailwind class (successColorClass)",
+    "onClick, onComplete and onError callbacks",
+    "builds on the shadcn/ui button and progress bar",
+    "MIT licensed"
+  ],
+  "formats": [
+    "code"
+  ],
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "xstate"
+  ],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/tomredman/ProgressButton",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

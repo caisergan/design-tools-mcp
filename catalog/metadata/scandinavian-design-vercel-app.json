@@ -1,0 +1,29 @@
+{
+  "id": "scandinavian-design-vercel-app",
+  "url": "https://scandinavian-design.vercel.app",
+  "kind": "site",
+  "hints_hash": "4aac6fc7ea224017",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T13:45:00Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://scandinavian-design.vercel.app", "title": "Scandinavian design — before and after", "status": 200},
+    {"url": "https://github.com/ericzakariasson/scandinavian-design", "title": "GitHub - ericzakariasson/scandinavian-design", "status": 200},
+    {"url": "https://github.com/ericzakariasson/scandinavian-design/blob/HEAD/README.md?plain=1", "title": "scandinavian-design/README.md at HEAD - ericzakariasson/scandinavian-design", "status": 200}
+  ],
+  "status": "partial",
+  "name": "Scandinavian design",
+  "summary": "Before-and-after showcase of designs given a restrained Scandinavian restyle, paged with the keyboard.",
+  "description": "Pairs a before and an after view of each design; arrow keys move between designs and the D and M keys switch between desktop and mobile captures. By @ericzakariasson; the repo of the same name describes a Cursor agent skill that applies a restrained Scandinavian visual system to a codebase.",
+  "type": "gallery",
+  "categories": ["inspiration"],
+  "elements": [],
+  "keywords": ["scandinavian design", "before and after", "redesign", "website restyle", "minimal design", "design inspiration", "desktop and mobile", "agent skill", "cursor skill", "design showcase"],
+  "contains": ["before/after views of each design", "arrow keys move between designs", "D and M keys toggle desktop and mobile", "by @ericzakariasson", "repo README describes a Cursor agent skill applying a restrained Scandinavian visual system"],
+  "formats": ["links"],
+  "stack": [],
+  "pricing": "unknown",
+  "license": "unknown",
+  "related": {"repo": "https://github.com/ericzakariasson/scandinavian-design", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.55
+}

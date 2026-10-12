@@ -1,0 +1,37 @@
+{
+  "id": "torph-lochie-me",
+  "url": "https://torph.lochie.me",
+  "kind": "site",
+  "hints_hash": "339bca3b759d7652",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:24:38Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://torph.lochie.me", "title": "Torph • Dependency-Free Text Morphing", "status": 200},
+    {"url": "https://torph.lochie.me/examples", "title": "Examples • Torph", "status": 200},
+    {"url": "https://torph.lochie.me/showcase", "title": "Showcase – Torph", "status": 200},
+    {"url": "https://github.com/lochie/torph", "title": "GitHub - lochie/torph: Dependency-free animated text component. · GitHub", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Torph",
+  "summary": "Dependency-free text morphing component for React, Vue, Svelte and vanilla JS that animates text and numbers between states.",
+  "description": "A small library that morphs text from one state to another by matching characters and animating them. Numbers morph by place value, typing fields can pass a caret position for position-based updates, and spring easing parameters are supported. Ships framework entry points for React, Vue, Svelte and vanilla JavaScript; demo examples cover copy buttons, live counters, chart readouts, reflowing paragraphs, streamed text and amount fields.",
+  "type": "component-library",
+  "categories": ["motion", "components"],
+  "elements": ["text-effect"],
+  "keywords": ["text morphing", "text animation", "animated text", "number animation", "counter animation", "spring animation", "text transition", "react", "vue", "svelte", "vanilla js", "dependency-free", "npm package", "motion"],
+  "contains": [
+    "dependency-free animated text morphing component",
+    "framework entry points: React, Vue, Svelte and vanilla JavaScript",
+    "numbers morph by place value; caret position supported for typing fields",
+    "spring easing parameters",
+    "examples: copy buttons, live counters, chart readouts, streamed text, amount fields",
+    "MIT licensed npm package; 1.5k stars on GitHub"
+  ],
+  "formats": ["npm-package", "code", "docs"],
+  "stack": ["react", "vue", "svelte"],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {"repo": "https://github.com/lochie/torph", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

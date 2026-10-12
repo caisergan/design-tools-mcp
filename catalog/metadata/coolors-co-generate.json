@@ -1,0 +1,49 @@
+{
+  "id": "coolors-co-generate",
+  "url": "https://coolors.co/generate",
+  "kind": "page",
+  "hints_hash": "0b15b2fd01e69275",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:09:31Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://coolors.co/generate", "title": "Create a Palette - Coolors", "status": null}
+  ],
+  "status": "ok",
+  "name": "Create a Palette",
+  "summary": "Browser palette generator: press the spacebar to create color schemes, lock colors, then export or save them.",
+  "description": "The palette generator on Coolors: keyboard-driven, with spacebar to generate and Ctrl+E / Ctrl+S to export or save. Palettes export as URL, PDF, image, CSS, ASE, SVG, Tailwind or embed code, with color-blindness simulation, palette contrast check, palette visualizer and zen mode. Free accounts keep up to 10 palettes, 1 project and 1 collection.",
+  "type": "generator",
+  "elements": [],
+  "keywords": [
+    "palette generator",
+    "color palette",
+    "color scheme",
+    "color picker",
+    "color generator",
+    "contrast checker",
+    "color blindness",
+    "css export",
+    "svg export",
+    "tailwind color",
+    "palette inspiration",
+    "color tool",
+    "hex color",
+    "export palette",
+    "web design tool"
+  ],
+  "contains": [
+    "palette generator with keyboard shortcuts (spacebar generate, Ctrl+E export, Ctrl+S save)",
+    "export as URL, PDF, image, CSS, ASE, SVG, Tailwind and embed code",
+    "color-blindness simulation, palette contrast check and palette visualizer",
+    "free account limits: 10 saved palettes, 1 project, 1 collection, 5 favorite colors",
+    "10M+ ready-made color schemes to browse",
+    "Coolors AI palette suggestions"
+  ],
+  "formats": ["code", "svg", "links"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "coolors-co"},
+  "confidence": 0.8
+}

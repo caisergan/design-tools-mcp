@@ -1,0 +1,114 @@
+{
+  "id": "github-com-carmahhawwari-ui-design-brain",
+  "url": "https://github.com/carmahhawwari/ui-design-brain",
+  "kind": "repo",
+  "hints_hash": "a7cd929ca660cd0e",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T14:22:00Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/carmahhawwari/ui-design-brain/blob/HEAD/README.md",
+      "title": "ui-design-brain/README.md at 38f04c5a1dee55d99c686a16643cef4e2ce0f7a2 · carmahhawwari/ui-design-brain · GitHub",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/carmahhawwari/ui-design-brain/blob/HEAD/SKILL.md",
+      "title": "UI Design Brain",
+      "status": null
+    },
+    {
+      "url": "https://github.com/carmahhawwari/ui-design-brain/blob/HEAD/LICENSE.txt",
+      "title": "ui-design-brain/LICENSE.txt at 38f04c5a1dee55d99c686a16643cef4e2ce0f7a2 · carmahhawwari/ui-design-brain · GitHub",
+      "status": 200
+    }
+  ],
+  "status": "ok",
+  "name": "UI Design Brain",
+  "summary": "Cursor skill giving AI agents best practices, layout patterns and conventions for 60+ UI components, plus 5 design direction presets.",
+  "description": "A SKILL.md and components.md knowledge base that Cursor loads when building UI. For 60 components it carries aliases, accessibility and sizing rules, common layouts and anti-patterns sourced from component.gallery, plus five design directions (Modern SaaS, Apple-level Minimal, Enterprise/Corporate, Creative/Portfolio, Data Dashboard) that steer the generated interface.",
+  "type": "agent-skill",
+  "categories": [
+    "design-rules",
+    "components"
+  ],
+  "elements": [
+    "accordion",
+    "alert",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "card",
+    "carousel",
+    "checkbox",
+    "date-picker",
+    "drawer",
+    "dropdown",
+    "empty-state",
+    "file-upload",
+    "footer",
+    "form",
+    "hero",
+    "input",
+    "list",
+    "loader",
+    "modal",
+    "navbar",
+    "pagination",
+    "popover",
+    "progress",
+    "select",
+    "slider",
+    "stepper",
+    "switch",
+    "table",
+    "tabs",
+    "toast",
+    "tooltip"
+  ],
+  "keywords": [
+    "cursor",
+    "agent skill",
+    "cursor skill",
+    "ui component",
+    "component best practice",
+    "design system",
+    "layout pattern",
+    "anti-pattern",
+    "accessibility",
+    "design preset",
+    "saas ui",
+    "dashboard ui",
+    "ai agent",
+    "component knowledge",
+    "design rule"
+  ],
+  "contains": [
+    "60 documented components from accordion, alert and avatar to table, tabs, toast, tooltip and tree view",
+    "per-component best practices: accessibility, sizing, behavior, aliases, common layouts, anti-patterns",
+    "5 design direction presets: Modern SaaS, Apple-level Minimal, Enterprise/Corporate, Creative/Portfolio, Data Dashboard",
+    "installs as a Cursor skill: personal ~/.cursor/skills or project .cursor/skills",
+    "component data sourced from component.gallery",
+    "MIT licensed"
+  ],
+  "formats": [
+    "prompts",
+    "docs"
+  ],
+  "stack": [],
+  "pricing": "free",
+  "license": "MIT",
+  "related": {
+    "repo": "https://github.com/carmahhawwari/ui-design-brain",
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.9
+}

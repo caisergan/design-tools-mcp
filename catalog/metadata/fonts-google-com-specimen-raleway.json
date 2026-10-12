@@ -1,0 +1,28 @@
+{
+  "id": "fonts-google-com-specimen-raleway",
+  "url": "https://fonts.google.com/specimen/Raleway",
+  "kind": "page",
+  "hints_hash": "0a48ffc49df5a99a",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T21:39:17Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://fonts.google.com/specimen/Raleway", "title": "Raleway - Google Fonts", "status": null},
+    {"url": "https://fonts.google.com/metadata/fonts/Raleway", "title": null, "status": 200}
+  ],
+  "status": "ok",
+  "name": "Raleway",
+  "summary": "Sans-serif family with 9 weights plus italics, variable on a 100-900 weight axis, free to download and embed.",
+  "description": "Raleway is a sans-serif typeface family by Matt McInerney, Pablo Impallari and Rodrigo Fuenzalida, grown from a single thin weight into a 9 weight family with italics. It ships old style and lining numerals, standard and discretionary ligatures and a stylistic alternate, and covers Latin, Latin Extended, Cyrillic and Vietnamese. Free under the SIL Open Font License.",
+  "type": "font-foundry",
+  "categories": ["fonts"],
+  "elements": [],
+  "keywords": ["sans serif", "font", "typeface", "free font", "web font", "variable font", "italic", "weight", "ligature", "numeral", "cyrillic", "vietnamese", "latin", "text font"],
+  "contains": ["weights 100-900 plus italics as one variable font (wght axis)", "subsets: latin, latin-ext, cyrillic, cyrillic-ext, vietnamese", "old style and lining numerals, standard and discretionary ligatures", "designers: Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida", "SIL Open Font License (OFL-1.1)"],
+  "formats": ["font-files"],
+  "stack": [],
+  "pricing": "free",
+  "license": "OFL-1.1",
+  "related": {"repo": null, "docs": null, "npm": null, "figma": null, "parent": "fonts-google-com"},
+  "confidence": 0.9
+}

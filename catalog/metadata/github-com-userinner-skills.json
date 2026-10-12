@@ -1,0 +1,27 @@
+{
+  "id": "github-com-userinner-skills",
+  "url": "https://github.com/userInner/SKILLS",
+  "kind": "repo",
+  "hints_hash": "c7acc8023639ee20",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:37:21Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://github.com/userInner/SKILLS/blob/HEAD/README.md", "title": "Agent Skills Index", "status": 200}
+  ],
+  "status": "ok",
+  "name": "Agent Skills Index",
+  "summary": "Skill registry for Codex and Claude Code with license checks, provenance, review states and installable packages.",
+  "description": "An open index of agent skills for Codex, Claude Code and compatible agents: it splits public sources into individual skill packages, records each package's license and source commit, and runs static checks and isolated copies before offering installs. 41 skills are direct-install across 7 categories; 727 packages are indexed by review state, and the source index tracks 1,674 repos with 300+ stars. README is in Chinese.",
+  "type": "directory",
+  "categories": ["registries", "dev-ai-tools"],
+  "elements": [],
+  "keywords": ["agent skill", "skill registry", "skill index", "codex", "claude code", "license check", "provenance", "install", "awesome list", "verification"],
+  "contains": ["41 direct-install skills across 7 categories (design, engineering, growth, product, research, workflow, writing)", "727 skill packages indexed: 41 direct, 648 extracted pending review, 38 needs-review", "1,674 source repos over 300 stars indexed, 1,670 containing SKILL.md", "machine-readable indexes: registry/v1/index.json, community-skills/index.json, catalog.json", "3-minute demo script (Python stdlib) copies and re-hashes a skill without touching your skill directory", "own content Apache-2.0; third-party skills keep their own LICENSE and NOTICE"],
+  "formats": ["prompts", "links"],
+  "stack": ["python"],
+  "pricing": "free",
+  "license": "Apache-2.0",
+  "related": {"repo": "https://github.com/userInner/SKILLS", "docs": null, "npm": null, "figma": null, "parent": null},
+  "confidence": 0.85
+}

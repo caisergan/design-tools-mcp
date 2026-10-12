@@ -1,0 +1,68 @@
+{
+  "id": "vantaui-registry-vercel-app-components-disperse-text",
+  "url": "https://vantaui-registry.vercel.app/components/disperse-text",
+  "kind": "page",
+  "hints_hash": "045c58d353a11171",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T19:23:45Z",
+  "extractor": {
+    "agent": "omp",
+    "model": "deepseek-v4.1-flash",
+    "prompt": "metadata-v2"
+  },
+  "evidence": [
+    {
+      "url": "https://vantaui-registry.vercel.app/components/disperse-text",
+      "title": "Vanta UI",
+      "status": 200
+    },
+    {
+      "url": "https://vantaui-registry.vercel.app/",
+      "title": "Vanta UI",
+      "status": 200
+    },
+    {
+      "url": "https://vantaui-registry.vercel.app/r/disperse-text.json",
+      "title": null,
+      "status": 200
+    }
+  ],
+  "status": "partial",
+  "name": "Disperse Text",
+  "summary": "Text component whose letters scatter and return with a dispersion effect on hover; an item in the Vanta UI shadcn registry.",
+  "keywords": [
+    "disperse text",
+    "text effect",
+    "hover animation",
+    "letter animation",
+    "animated text",
+    "react component",
+    "shadcn registry",
+    "motion",
+    "copy paste component"
+  ],
+  "elements": [
+    "text-effect"
+  ],
+  "contains": [
+    "shadcn registry item named disperse-text",
+    "dependency: motion",
+    "single .tsx component file at src/components/ui/disperse-text.tsx"
+  ],
+  "formats": [
+    "registry",
+    "code"
+  ],
+  "stack": [
+    "react",
+    "framer-motion"
+  ],
+  "related": {
+    "repo": null,
+    "docs": null,
+    "npm": null,
+    "figma": null,
+    "parent": null
+  },
+  "confidence": 0.7
+}

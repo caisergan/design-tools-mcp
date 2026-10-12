@@ -1,0 +1,31 @@
+{
+  "id": "koboyo-com",
+  "url": "https://koboyo.com",
+  "kind": "site",
+  "hints_hash": "f98def461f11eac8",
+  "schema_version": 1,
+  "extracted_at": "2026-10-11T20:35:27Z",
+  "extractor": {"agent": "omp", "model": "deepseek-v4.1-flash", "prompt": "metadata-v2"},
+  "evidence": [
+    {"url": "https://koboyo.com", "title": "Koboyo · Infinite Canvas", "status": null},
+    {"url": "https://koboyo.com/docs", "title": "Diagram code: draw diagrams by writing text · Koboyo", "status": null},
+    {"url": "https://koboyo.com/premium", "title": "Koboyo Pro · Online whiteboard for diagrams, notes and slides, with AI", "status": null},
+    {"url": "https://koboyo.com/docs/bpmn", "title": "BPMN diagrams and swimlanes as code · Koboyo", "status": null},
+    {"url": "https://koboyo.com/docs/charts", "title": "Charts as code: bar, line, area, pie, radar, quadrant · Koboyo", "status": null}
+  ],
+  "status": "ok",
+  "name": "Koboyo",
+  "summary": "Free infinite canvas whiteboard for hand-drawn sketches, diagrams, notes and slides, with AI and diagram code.",
+  "description": "A whiteboard where you draw by hand, type a diagram in a small text language, or ask the built-in AI to draw it. Diagram code covers architecture, flowcharts, BPMN, sequence, ERD, mind maps, wireframes, Gantt, Sankey and charts, and imports Mermaid and eraser.io; boards export to PNG, SVG and PDF and connect to coding assistants through an MCP server.",
+  "type": "tool",
+  "categories": ["design-tools", "dev-ai-tools"],
+  "elements": ["table", "chart"],
+  "keywords": ["infinite canvas", "whiteboard", "diagram", "hand-drawn", "sketch", "sticky note", "flowchart", "bpmn", "swimlane", "sequence diagram", "erd", "org chart", "mind map", "wireframe", "chart", "diagram as code", "mermaid", "gantt", "sankey", "ai diagram", "mcp server", "png export", "svg export", "presentation", "slide", "collaboration"],
+  "contains": ["free scratch canvas, no account needed", "260,000+ icons for diagrams", "diagram code language: architecture, flowcharts, BPMN, sequence, ERD, mind maps, wireframes, charts", "imports Mermaid and eraser.io diagrams", "AI assistant that draws on the board; MCP server for Claude Code, Cursor, Codex, VS Code", "PNG, SVG and PDF export", "Pro: $8.33 per person/month billed yearly with 50 AI credits and live collaboration"],
+  "formats": ["app", "svg", "png", "templates", "docs"],
+  "stack": [],
+  "pricing": "freemium",
+  "license": "unknown",
+  "related": {"repo": null, "docs": "https://koboyo.com/docs", "npm": null, "figma": null, "parent": null},
+  "confidence": 0.9
+}
