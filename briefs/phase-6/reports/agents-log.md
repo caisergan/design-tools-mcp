@@ -76,3 +76,6 @@ Still running: none. Brief 18 merged and closed (MCP-PLAN 2B.1).
 2026-10-11/12: 2B extraction run (coordinator). Headless omp sessions (tools/metadata-run.mjs) for batches 1–83, herdr omp agents (tools/metadata-herdr.sh, workspace `run`, 8 tabs) for 84–259; worktree `phase2b/run`. All closed; records on `phase2b/records`.
 2026-10-12: brief 19 (ranking after the records, `briefs/phase-2b/19-ranking-after-records.md`) launched.
 | u19 | 19 ranking after the 2B records: judged eval (tuning + held-out) and ranking fixes (Claude Code Opus 5.5 high) | `phase2b/ranking` @ f4a0936 | judged eval 83 q (1,541 grades), 7 ranking rules; old eval 1.000/0.785, held-out 0.838/0.715/0.739; 264 tests | 2026-10-12 | 2026-10-12 |
+| u19 (19b) | 19b navigational queries: exact name / domain / former name first, typo-tolerant, two guards; fresh held-out 35 q (Claude Code Opus 5.5 high, same session) | `phase2b/ranking-names` @ 232f1e4 | fresh held-out 0.943/0.789/0.852 → 0.971/0.876/0.890; old eval unchanged; 266 tests | 2026-10-12 | 2026-10-12 |
+
+Still running: none. u19 closed.

@@ -481,6 +481,12 @@ validates; eval recall on the descriptive queries rises after rebuilding the Pha
   0.811 / 0.616 / 0.666 → **0.838 / 0.715 / 0.739** (R@5 / MRR / nDCG@5). Open: named queries for a canonical site
   ("radix ui": radix-ui-com 108th, "shadcn ui", "framer motion", "unicorn studio") — an exact-name boost, judged on a
   fresh held-out set.
+- **Brief 19b (2026-10-12, report `briefs/phase-2b/reports/19b.md`) — merged.** A navigational query (the query equals a
+  site's or repo's name, domain, repo name, "X" for "X UI", the name minus a generic word, a former name its record
+  states; one-letter typos in names of 6+ letters) puts that entry first. Guards: a vocabulary-only query ("icon
+  library") names nothing; pages are never navigational. A fresh held-out set of 35 queries written before tuning
+  (`tools/eval/judged-queries-19b.json`, 643 more blind grades): 0.943 / 0.789 / 0.852 → **0.971 / 0.876 / 0.890**;
+  named tuning 0.778 → 1.000 recall; old eval unchanged 1.000 / 0.785. "unicorn studio" is not in the catalog.
 ---
 
 ## Phase 3 — Item layer + one ranked search index  **[#5 #6]**  ~2–3 days — **done 2026-10-07** (adapters 1–2; results in 3.8)
