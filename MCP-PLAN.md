@@ -458,6 +458,19 @@ validates; eval recall on the descriptive queries rises after rebuilding the Pha
 - **Open, after the pilot review:** record `type` does not yet feed `tag.mjs`'s asset gate (a mis-typed record would
   untag a whole registry); a partly-run catalog favours entries with records (expected to fade).
 
+- **The run (2026-10-11/12, the coordinator on the owner's go):** omp + deepseek-v4.1-flash (`--thinking max`), prompt
+  `metadata-v2` — the extractor may read up to 6 of an entry's own pages through `bun tools/crawl.mjs --page` (robots,
+  pacing and disabled hosts kept). Pilot 51 → review → full run: 259 batches of 10, first headless
+  (`tools/metadata-run.mjs`, 8–10 sessions), then as herdr agents (`tools/metadata-herdr.sh`, 8 tabs) so the run
+  survives the terminal. **2,636 records, 0 invalid** (2,256 ok · 213 partial · 146 blocked · 16 dead · 5 login), 386 in
+  `_review.md` (mostly a primary category the X hints disagree with — the hints are usually the wrong side). Cost
+  **≈ $15** (input 27M + 520M cache reads, output 15M). Crawl digests: 2,633, 4.7M tokens. Found on the way: a robots.txt
+  rule of 17 `*` froze the crawl (fixed: runs of `*` are one wildcard); ids ending in `-` failed the schema (fixed).
+- **Eval after the run:** 0.767 / 0.544 on the old pool; a blind judge found 36 of 80 new top-5 hits correct
+  (`tools/eval/judge-2026-10-12.json`) → widened 0.983 / 0.699, descriptive block 1.000 / 0.733. Five real ranking
+  regressions remain (page entries ranking on their own sections, "navbar design", the navbar gallery-examples group,
+  "brand mark ideas", near-ties favouring the long tail) → brief 19 (`briefs/phase-2b/19-ranking-after-records.md`).
+  Records are on branch `phase2b/records` until brief 19 lands.
 ---
 
 ## Phase 3 — Item layer + one ranked search index  **[#5 #6]**  ~2–3 days — **done 2026-10-07** (adapters 1–2; results in 3.8)

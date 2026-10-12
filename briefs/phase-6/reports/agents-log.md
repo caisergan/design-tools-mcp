@@ -72,3 +72,7 @@ Still running: none.
 | u18 | 18 Phase 2B tooling: crawl, schema, prompt, queue/batch kit, check, build merge + hint fallback (Claude Code Opus 5.5 high) | `phase2b/metadata-tooling` @ c141efe | schema, prompt (3.8k tok), crawl + 52-entry pilot, queue/batch kit + RUN.md, check, build merge + hint fallback (642→729), 3 smoke records; 258 tests; full run ≈ 8.2M unique tokens | 2026-10-11 | 2026-10-11 |
 
 Still running: none. Brief 18 merged and closed (MCP-PLAN 2B.1).
+
+2026-10-11/12: 2B extraction run (coordinator). Headless omp sessions (tools/metadata-run.mjs) for batches 1–83, herdr omp agents (tools/metadata-herdr.sh, workspace `run`, 8 tabs) for 84–259; worktree `phase2b/run`. All closed; records on `phase2b/records`.
+2026-10-12: brief 19 (ranking after the records, `briefs/phase-2b/19-ranking-after-records.md`) launched.
+| u19 | 19 ranking after the 2B records: judged eval (tuning + held-out) and ranking fixes (Claude Code Opus 5.5 high) | `phase2b/ranking` | running | 2026-10-12 | |
