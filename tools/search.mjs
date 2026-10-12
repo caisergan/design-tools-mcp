@@ -9,7 +9,7 @@ import { TAXONOMY, elementsIn, variantsIn, tok as tokAscii } from "./tag.mjs";
 export const INDEX_FILE = FILE.catalog.replace(/catalog\.json$/, "search-index.json");
 /** Fingerprint of the catalog entries an index was built from: content, not file times (a checkout or clone resets those). */
 export const catalogFingerprint = (entries) => createHash("sha1").update(JSON.stringify(entries)).digest("hex").slice(0, 16);
-export const INDEX_SCHEMA = 5; // 3: item records carry `auto`, prior() reads it · 4: packed on disk (packIndex / unpackIndex) · 5: keywords field (Phase 2B)
+export const INDEX_SCHEMA = 6; // 3: item records carry `auto`, prior() reads it · 4: packed on disk (packIndex / unpackIndex) · 5: keywords field (Phase 2B) · 6: listed field (brief 19)
 
 // ---------------------------------------------------------------- tokens
 
@@ -48,8 +48,9 @@ const STOP = new Set(
 // Field ids and their BM25F weights. `matched` names the field a query word hit.
 // Phase 2B record fields: `keywords` holds a record's keywords, stack, formats and pricing; `contains` its content facts
 // (the about field's weight). Entries without a record leave both empty.
-export const FIELDS = ["name", "element", "variant", "description", "labels", "about", "category", "domain", "keywords", "contains"];
-const W = { name: 3, element: 3, variant: 2, description: 2, labels: 2, about: 1, category: 1, domain: 1, keywords: 3, contains: 1 };
+// `listed` holds the elements a record lists but its entry is not about (see entryFields); `matched` shows it as element.
+export const FIELDS = ["name", "element", "variant", "description", "labels", "about", "category", "domain", "keywords", "contains", "listed"];
+const W = { name: 3, element: 3, variant: 2, description: 2, labels: 2, about: 1, category: 1, domain: 1, keywords: 3, contains: 1, listed: 0.5 };
 // Fields of a record-backed entry that do not count towards its length: its keywords and content facts are dense lists and
 // its description is written to be complete, not a longer page. Counted, an entry with a record loses to the same entry
 // without one (navbar-gallery 17.7 → 14.3 on "navbar", magicui 35.7 → 30.0 on "magic ui components").
@@ -73,23 +74,30 @@ export const hasRecord = (e) => e.metadata === "ok" || e.metadata === "partial" 
  * unexpected hits over the eval's answers (brief 18 report). An entry with a record indexes its summary (description
  * field), description (about), keywords, contains, type and kinds, and no longer its X labels (they were hints for the
  * extractor); an entry without one indexes exactly its source fields.
+ * A record lists every element an entry shows — a one-pager its hero, cta, pricing and footer, a broad gallery or kit a
+ * dozen — so only the elements its name or summary names rank as what the entry is about (`element`); the rest are
+ * `listed`, at a sixth of the weight. Equal weight put three One Page Love award pages above CTA galleries for "cta
+ * inspiration" and an icon set among the first navbar resources (brief 19).
  */
 function entryFields(e) {
   const cats = e.categories.map((id) => TAXONOMY.categories.find((c) => c.id === id)).filter(Boolean);
   const els = e.elements || [];
   const weak = new Set(e.elements_weak || []);
   const rec = hasRecord(e);
+  const named = new Set(rec ? elementsIn(`${e.name} ${e.desc || ""}`, { field: "name" }).map((h) => h.el) : []);
+  const about = (el) => !rec || named.has(el);
   const type = rec && e.type ? TAXONOMY.types.find((t) => t.id === e.type) : null;
-  const about = e.about && e.about !== e.desc ? e.about : "";
+  const aboutText = e.about && e.about !== e.desc ? e.about : "";
   return {
     elements: els,
     fields: {
       name: [...tokens(e.name), ...split(e.name).filter((w) => w.length > 2)].concat(e.name.includes(" ") ? [] : [e.name.toLowerCase()]),
-      element: els.filter((el) => !weak.has(el)).map(elTerm),
+      element: els.filter((el) => !weak.has(el) && about(el)).map(elTerm),
+      listed: els.filter((el) => !weak.has(el) && !about(el)).map(elTerm),
       variant: rec ? Object.entries(e.variants || {}).flatMap(([el, vs]) => vs.map((v) => vaTerm(el, v))) : [],
       description: tokens(e.desc),
       labels: rec ? [] : tokens((e.labels || []).join(" ")),
-      about: tokens(about),
+      about: tokens(aboutText),
       category: [...cats.flatMap((c) => tokens(c.label)), ...e.categories.map(catTerm), ...(type ? tokens(type.label) : [])],
       domain: tokens(e.domain.replace(/^www\./, "")),
       // a word in many keyword phrases counts each time ("navbar" in ten phrases: the entry is about navbars), as labels did
@@ -353,6 +361,7 @@ export function createSearch(entries, index) {
   const items = index.items;
   const byEntryId = new Map(entries.map((e, n) => [e.id, n]));
   const entryOfItem = items.map((i) => byEntryId.get(i.parent));
+  const mapped = new Set(items.map((i) => i.parent));
   const PHRASES = phraseTable();
   const vocab = Object.keys(P).filter((t) => !t.includes(":"));
   const idf = (t) => {
@@ -439,6 +448,8 @@ export function createSearch(entries, index) {
     return out;
   }
 
+  const wordIdf = (alt) => alt.terms.filter((t) => !t.includes(":")).reduce((n, t) => n + idf(t), 0);
+
   const termCache = new Map();
   const scoresOf = (t) => {
     if (!termCache.has(t)) {
@@ -448,11 +459,14 @@ export function createSearch(entries, index) {
     return termCache.get(t);
   };
 
-  const fieldNames = (mask) => FIELDS.filter((_, i) => mask & (1 << i));
+  const fieldNames = (mask) => FIELDS.filter((_, i) => mask & (1 << i)).map((f) => (f === "listed" ? "element" : f));
 
   // Prior: small, capped. Readable entries and items with code first; no popularity.
   // Items an auto pattern wrote (`auto: true`, tools/sitemap-items.mjs) are one of hundreds of
   // look-alikes on the same site: they rank just below curated and hand-mapped items.
+  // An entry with mapped pages is readable through them (search_resources shows it `pages:N`, not `unreadable:`), so it
+  // gets the readable prior: cta.gallery and navbar.design have no llms.txt but 504 and 29 mapped pages. An unreadable
+  // entry with a record is penalised less than one without: the record describes it fully even if its pages can't be fetched.
   const AUTO_ITEM = 0.92;
   function prior(d) {
     if (isItem(d)) {
@@ -460,7 +474,8 @@ export function createSearch(entries, index) {
       return (i.access === "code" ? 1.06 : i.access === "gated" ? 0.94 : 1) * (i.local ? 1.04 : 1) * (i.auto ? AUTO_ITEM : 1);
     }
     const e = entries[d];
-    if (e.reach && e.reach.ok === false) return 0.85;
+    if (mapped.has(e.id)) return 1.08;
+    if (e.reach && e.reach.ok === false) return hasRecord(e) ? 0.95 : 0.85;
     const p = e.probe || {};
     return p.registry || p.registry_index || p.registry_root || p.llms || e.kind === "repo" ? 1.08 : 1;
   }
@@ -491,9 +506,16 @@ export function createSearch(entries, index) {
     const analysis = analyse(query || "");
     const { concepts } = analysis;
     const acc = new Map(); // doc → { s, hit: count of concepts, matched }
+    // A plain word counts 0.7 of a concept the taxonomy knows (element, synonym, category …) when the query has one:
+    // in "brand mark ideas for a new startup" the logo concept says what is asked, "ideas" and "startup" only describe it.
+    const plain = concepts.some((c) => c.kind !== "word") ? 0.7 : 1;
     for (const c of concepts) {
       const best = new Map(); // doc → [score, mask]
+      // A synonym's words count at most as much as the typed words would: their idf is capped at the typed alt's.
+      // Uncapped, a rarer synonym outweighs the word itself ("radix" for "shadcn": every Radix repo above shadcn/ui).
+      const typedIdf = wordIdf(c.alts[0]);
       for (const alt of c.alts) {
+        const scale = typedIdf && alt !== c.alts[0] ? Math.min(1, typedIdf / (wordIdf(alt) || typedIdf)) : 1;
         // tags (el:, va:, cat:) add up on their own; the words of an alt count only when all of them are there,
         // so "no items" (empty state) does not reward every "list item"
         const tags = alt.terms.filter((t) => t.includes(":")).map(scoresOf);
@@ -512,7 +534,7 @@ export function createSearch(entries, index) {
           if ((!alt.gated || s) && words.every((m) => m.has(d)))
             for (const m of words) {
               const v = m.get(d);
-              s += v[0];
+              s += v[0] * scale;
               mask |= v[1];
             }
           if (!s) continue;
@@ -521,10 +543,11 @@ export function createSearch(entries, index) {
           if (!cur || s > cur[0]) best.set(d, [s, mask]);
         }
       }
+      const weight = c.kind === "word" ? plain : 1;
       for (const [d, [s, mask]] of best) {
         let a = acc.get(d);
         if (!a) acc.set(d, (a = { s: 0, hit: 0, matched: [] }));
-        a.s += s;
+        a.s += s * weight;
         a.hit++;
         a.matched.push([c.word, fieldNames(mask)[0] || "text"]);
       }

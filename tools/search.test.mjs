@@ -74,3 +74,38 @@ test("an entry without a record indexes exactly its source fields", () => {
   const b = buildIndex([{ ...plain, metadata: "missing", keywords: ["x"], contains: ["y"], type: "gallery", variants: { navbar: ["dock"] } }], []);
   expect(b.postings).toEqual(a.postings);
 });
+
+// ---------------------------------------------------------------- brief 19: ranking after the records
+
+test("a record's elements rank fully only when its name or summary names them; listed ones still match and filter", () => {
+  const entries = [
+    site("onepager", { metadata: "ok", kind: "page", name: "Kevin", desc: "One-pager for a mockup tool", elements: ["hero", "cta", "pricing", "footer"] }),
+    // same number of elements, and neither says "cta": only the element tags match, so what the summary names decides
+    site("shelf", { metadata: "ok", name: "Conversion Shelf", desc: "Gallery of 500 call-to-action sections", elements: ["cta", "button", "form", "modal"] }),
+  ];
+  const r = rank(entries, "cta");
+  expect(r.map((x) => x.id)).toEqual(["shelf", "onepager"]);
+  expect(r[1].fields).toEqual(["element"]); // a listed element is shown as an element match
+  expect(rank(entries, "", { element: "footer" }).map((x) => x.id)).toEqual(["onepager"]);
+});
+
+test("a synonym counts no more than the typed word, however rare it is", () => {
+  const filler = [1, 2, 3].map((n) => site(`f${n}`, { desc: "shadcn blocks" }));
+  const entries = [site("radix-repo", { desc: "radix primitives kit" }), site("shadcn-kit", { desc: "shadcn primitives kit" }), ...filler];
+  expect(rank(entries, "shadcn")[0].id).toBe("shadcn-kit");
+});
+
+test("a plain word counts less than a taxonomy concept in the same query", () => {
+  const entries = [site("a", { desc: "startup ideas" }), site("b", { desc: "logo gallery" })];
+  const [first, second] = createSearch(entries, buildIndex(entries, [])).rank("logo startup").ranked;
+  expect(first.d).toBe(1);
+  expect(second.score / first.score).toBeLessThan(0.75); // equal matches, but "startup" is a plain word
+
+});
+
+test("an unreadable entry with mapped pages gets the readable prior", () => {
+  const entries = [site("bare", { desc: "navbar shots", reach: { ok: false } }), site("mapped", { desc: "navbar shots", reach: { ok: false } })];
+  const items = [{ id: "mapped/zzz", parent: "mapped", name: "Zzz", url: "https://mapped.test/zzz", elements: [], variants: {}, access: "page", granularity: "example", from: "sitemap" }];
+  const S = createSearch(entries, buildIndex(entries, items));
+  expect(S.rank("navbar shots", { scope: "entries" }).ranked.map((r) => S.entryOf(r.d).id)).toEqual(["mapped", "bare"]);
+});
