@@ -109,3 +109,34 @@ test("an unreadable entry with mapped pages gets the readable prior", () => {
   const S = createSearch(entries, buildIndex(entries, items));
   expect(S.rank("navbar shots", { scope: "entries" }).ranked.map((r) => S.entryOf(r.d).id)).toEqual(["mapped", "bare"]);
 });
+
+// ---------------------------------------------------------------- brief 19b: navigational queries
+
+const ids = (entries, q) => rank(entries, q).map((x) => x.id);
+
+test("a query that is an entry's name, domain, repo name or former name puts that entry first", () => {
+  const entries = [
+    site("plate", { kind: "repo", name: "Plate", desc: "radix editor on radix primitives, radix ui themes and radix icons", about: "radix radix" }),
+    site("radix", { name: "Radix UI", domain: "radix-ui.com", desc: "Unstyled accessible primitives" }),
+    site("motionlib", { name: "Motion", domain: "motion.dev", desc: "Animation library", about: "Production animation library (successor to Framer Motion) for React" }),
+    site("fm-kit", { desc: "framer motion components built with framer motion", about: "framer motion" }),
+  ];
+  expect(ids(entries, "radix ui")[0]).toBe("radix");
+  expect(ids(entries, "Radix-UI")[0]).toBe("radix");
+  expect(ids(entries, "radix-ui.com")[0]).toBe("radix");
+  expect(ids(entries, "radx ui")[0]).toBe("radix"); // one-letter typo
+  expect(ids(entries, "motion.dev")[0]).toBe("motionlib");
+  expect(ids(entries, "framer motion")[0]).toBe("motionlib");
+  expect(ids(entries, "framer motion components")[0]).toBe("fm-kit"); // an old name counts only as the whole query
+});
+
+test("a name made of design vocabulary, or a page named like a product, is not a navigational match", () => {
+  const entries = [
+    site("named", { name: "Icon Library", desc: "a framer template" }),
+    site("icons", { categories: ["icons"], desc: "open source icon library with 3000 icons", keywords: ["icon library"], metadata: "ok" }),
+    site("fm-page", { kind: "page", name: "Framer Motion", desc: "dictionary entry" }),
+    site("fm-kit", { name: "Framer Motion Kit", desc: "framer motion components built with framer motion", about: "framer motion" }),
+  ];
+  expect(ids(entries, "icon library")[0]).toBe("icons");
+  expect(ids(entries, "framer motion")[0]).toBe("fm-kit"); // the page would be first if its name counted as navigational
+});
